@@ -138,8 +138,6 @@
 <span class="bold-text"><b>Application</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
@@ -152,8 +150,6 @@
 <span class="bold-text"><b>~Application</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
@@ -178,7 +174,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Interprets the supplied command line variables. </span>
 <br/>
 <br/>
@@ -188,12 +184,6 @@
 <a id="see"></a>
 <h4>See</h4>
 <a href="namespaceMdDox_1_1CommandLine.md#mddoxcommandline">MdDox::CommandLine</a>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -237,6 +227,12 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="go"></a>
 <h2>go</h2>
@@ -245,19 +241,13 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Is the primary application routine. </span>
 <br/>
 <br/>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">Zero on success or not at all if an internal exception is raised. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -270,6 +260,12 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>

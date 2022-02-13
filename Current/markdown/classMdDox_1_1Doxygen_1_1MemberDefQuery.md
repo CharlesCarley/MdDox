@@ -408,8 +408,6 @@
 <span class="bold-text"><b>MemberDefQuery</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L213" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
@@ -428,8 +426,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L218" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
@@ -449,8 +445,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L223" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
@@ -465,7 +459,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Checks to see if the internal node is usable. </span>
 <br/>
 <br/>
@@ -483,19 +477,19 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Checks to see if the internal node has children. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L233" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#haschildren" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasChildren</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L233" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
 </a>
 </span>
 <br/>
@@ -507,7 +501,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Resets the internal node pointer to null. </span>
 <br/>
 <br/>
@@ -526,7 +520,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Returns the wrapped node pointer. </span>
 <br/>
 <br/>
@@ -551,19 +545,9 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Sorts the nodes in the query based on priority of type. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L248" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L574" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -572,6 +556,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#gettypecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTypeCode</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L248" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L574" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -594,13 +588,19 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the node&apos;s inner text. </span>
 <br/>
 <br/>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The text data associated with this node the default value. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -609,12 +609,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L569" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
 </a>
 </span>
 <br/>
@@ -632,18 +626,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L256" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
-<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
@@ -730,6 +712,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L256" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getstatic"></a>
 <h2>getStatic</h2>
@@ -738,7 +730,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>static</b></span>
 <span class="inline-text"> element. </span>
@@ -749,6 +741,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>static</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -760,16 +762,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getkind"></a>
 <h2>getKind</h2>
@@ -778,7 +770,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>kind</b></span>
 <span class="inline-text"> element. </span>
@@ -789,16 +781,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>kind</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L269" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -810,6 +792,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L269" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getadd"></a>
 <h2>getAdd</h2>
@@ -818,7 +810,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>add</b></span>
 <span class="inline-text"> element. </span>
@@ -829,6 +821,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>add</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -840,16 +842,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getinline"></a>
 <h2>getInline</h2>
@@ -858,7 +850,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>inline</b></span>
 <span class="inline-text"> element. </span>
@@ -869,6 +861,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>inline</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -880,16 +882,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getconst"></a>
 <h2>getConst</h2>
@@ -898,7 +890,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>const</b></span>
 <span class="inline-text"> element. </span>
@@ -909,6 +901,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>const</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -920,16 +922,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getprot"></a>
 <h2>getProt</h2>
@@ -938,7 +930,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>prot</b></span>
 <span class="inline-text"> element. </span>
@@ -949,16 +941,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>prot</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L297" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -970,6 +952,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L297" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getcontrained"></a>
 <h2>getContrained</h2>
@@ -978,7 +970,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>contrained</b></span>
 <span class="inline-text"> element. </span>
@@ -989,6 +981,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>contrained</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1000,16 +1002,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getaccessor"></a>
 <h2>getAccessor</h2>
@@ -1018,7 +1010,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>accessor</b></span>
 <span class="inline-text"> element. </span>
@@ -1029,16 +1021,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>accessor</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L311" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -1050,6 +1032,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L311" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getstrong"></a>
 <h2>getStrong</h2>
@@ -1058,7 +1050,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>strong</b></span>
 <span class="inline-text"> element. </span>
@@ -1069,6 +1061,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>strong</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1080,16 +1082,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getoptional"></a>
 <h2>getOptional</h2>
@@ -1098,7 +1090,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>optional</b></span>
 <span class="inline-text"> element. </span>
@@ -1109,6 +1101,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>optional</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1120,16 +1122,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getrefqual"></a>
 <h2>getRefQual</h2>
@@ -1138,7 +1130,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>refqual</b></span>
 <span class="inline-text"> element. </span>
@@ -1149,16 +1141,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>refqual</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L332" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -1170,6 +1152,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L332" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getmaybeambiguous"></a>
 <h2>getMayBeAmbiguous</h2>
@@ -1178,7 +1170,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>maybeambiguous</b></span>
 <span class="inline-text"> element. </span>
@@ -1189,6 +1181,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>maybeambiguous</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1200,16 +1202,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getexplicit"></a>
 <h2>getExplicit</h2>
@@ -1218,7 +1210,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>explicit</b></span>
 <span class="inline-text"> element. </span>
@@ -1229,6 +1221,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>explicit</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1240,16 +1242,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getvirt"></a>
 <h2>getVirt</h2>
@@ -1258,7 +1250,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>virt</b></span>
 <span class="inline-text"> element. </span>
@@ -1269,16 +1261,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>virt</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L353" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -1290,6 +1272,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L353" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getvolatile"></a>
 <h2>getVolatile</h2>
@@ -1298,7 +1290,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>volatile</b></span>
 <span class="inline-text"> element. </span>
@@ -1309,6 +1301,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>volatile</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1320,16 +1322,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getgettable"></a>
 <h2>getGetTable</h2>
@@ -1338,7 +1330,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>gettable</b></span>
 <span class="inline-text"> element. </span>
@@ -1349,6 +1341,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>gettable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1360,16 +1362,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getmutable"></a>
 <h2>getMutable</h2>
@@ -1378,7 +1370,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>mutable</b></span>
 <span class="inline-text"> element. </span>
@@ -1389,6 +1381,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>mutable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1400,16 +1402,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getreadable"></a>
 <h2>getReadable</h2>
@@ -1418,7 +1410,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>readable</b></span>
 <span class="inline-text"> element. </span>
@@ -1429,6 +1421,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>readable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1440,16 +1442,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getwritable"></a>
 <h2>getWritable</h2>
@@ -1458,7 +1450,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>writable</b></span>
 <span class="inline-text"> element. </span>
@@ -1469,6 +1461,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>writable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1480,16 +1482,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getinitonly"></a>
 <h2>getInitOnly</h2>
@@ -1498,7 +1490,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>initonly</b></span>
 <span class="inline-text"> element. </span>
@@ -1509,6 +1501,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>initonly</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1520,16 +1522,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getmaybevoid"></a>
 <h2>getMaybeVoid</h2>
@@ -1538,7 +1530,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>maybevoid</b></span>
 <span class="inline-text"> element. </span>
@@ -1549,6 +1541,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>maybevoid</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1560,16 +1562,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getsettable"></a>
 <h2>getSetTable</h2>
@@ -1578,7 +1570,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>settable</b></span>
 <span class="inline-text"> element. </span>
@@ -1589,6 +1581,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>settable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1600,16 +1602,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getfinal"></a>
 <h2>getFinal</h2>
@@ -1618,7 +1610,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>final</b></span>
 <span class="inline-text"> element. </span>
@@ -1629,6 +1621,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>final</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1640,16 +1642,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getsealed"></a>
 <h2>getSealed</h2>
@@ -1658,7 +1650,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>sealed</b></span>
 <span class="inline-text"> element. </span>
@@ -1669,6 +1661,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>sealed</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1680,16 +1682,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getnew"></a>
 <h2>getNew</h2>
@@ -1698,7 +1690,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>new</b></span>
 <span class="inline-text"> element. </span>
@@ -1709,6 +1701,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>new</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1720,16 +1722,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getremove"></a>
 <h2>getRemove</h2>
@@ -1738,7 +1730,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>remove</b></span>
 <span class="inline-text"> element. </span>
@@ -1749,6 +1741,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>remove</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1760,16 +1762,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getraise"></a>
 <h2>getRaise</h2>
@@ -1778,7 +1770,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>raise</b></span>
 <span class="inline-text"> element. </span>
@@ -1789,6 +1781,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>raise</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1800,16 +1802,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getrequired"></a>
 <h2>getRequired</h2>
@@ -1818,7 +1810,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>required</b></span>
 <span class="inline-text"> element. </span>
@@ -1829,6 +1821,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>required</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1840,16 +1842,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getattribute"></a>
 <h2>getAttribute</h2>
@@ -1858,7 +1850,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>attribute</b></span>
 <span class="inline-text"> element. </span>
@@ -1869,6 +1861,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>attribute</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1880,16 +1882,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getproperty"></a>
 <h2>getProperty</h2>
@@ -1898,7 +1890,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>property</b></span>
 <span class="inline-text"> element. </span>
@@ -1909,6 +1901,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>property</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1920,16 +1922,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getreadonly"></a>
 <h2>getReadonly</h2>
@@ -1938,7 +1930,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>readonly</b></span>
 <span class="inline-text"> element. </span>
@@ -1949,6 +1941,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>readonly</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1960,16 +1962,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getbound"></a>
 <h2>getBound</h2>
@@ -1978,7 +1970,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>bound</b></span>
 <span class="inline-text"> element. </span>
@@ -1989,6 +1981,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>bound</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -2000,16 +2002,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getremovable"></a>
 <h2>getRemovable</h2>
@@ -2018,7 +2010,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>removable</b></span>
 <span class="inline-text"> element. </span>
@@ -2029,6 +2021,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>removable</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -2040,16 +2042,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="gettransient"></a>
 <h2>getTransient</h2>
@@ -2058,7 +2050,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>transient</b></span>
 <span class="inline-text"> element. </span>
@@ -2069,6 +2061,16 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>transient</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -2080,16 +2082,6 @@
 </a>
 </span>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="getmaybedefault"></a>
 <h2>getMayBeDefault</h2>
@@ -2098,7 +2090,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>maybedefault</b></span>
 <span class="inline-text"> element. </span>
@@ -2110,16 +2102,6 @@
 <span class="bold-text"><b>maybedefault</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
 <br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L500" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L352" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
-<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
@@ -2127,6 +2109,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L500" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L352" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2149,7 +2141,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>id</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2161,6 +2153,12 @@
 <span class="bold-text"><b>id</b></span>
 <span class="inline-text"> enumerated value or an empty string the value is not found. </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L508" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
@@ -2168,12 +2166,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
@@ -2196,7 +2188,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>definition</b></span>
 <span class="inline-text"> tag&apos;s inner text. </span>
@@ -2207,16 +2199,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>definition&apos;s</b></span>
 <span class="inline-text"> text or the default value if the node is invalid. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L515" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L359" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2229,6 +2211,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L515" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L359" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2251,7 +2243,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>argsstring</b></span>
 <span class="inline-text"> tag&apos;s inner text. </span>
@@ -2262,16 +2254,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>argsstring&apos;s</b></span>
 <span class="inline-text"> text or the default value if the node is invalid. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L522" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L369" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2284,6 +2266,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L522" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L369" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2306,7 +2298,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>name</b></span>
 <span class="inline-text"> tag&apos;s inner text. </span>
@@ -2317,16 +2309,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>name&apos;s</b></span>
 <span class="inline-text"> text or the default value if the node is invalid. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L529" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L379" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2339,6 +2321,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L529" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L379" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2361,7 +2353,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>write</b></span>
 <span class="inline-text"> tag&apos;s inner text. </span>
@@ -2372,16 +2364,6 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>write&apos;s</b></span>
 <span class="inline-text"> text or the default value if the node is invalid. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L536" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L389" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2394,6 +2376,16 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L536" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L389" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2411,21 +2403,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>templateparamlist</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L541" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L399" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2441,6 +2423,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L541" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L399" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="gettemplateparamlist"></a>
 <h2>getTemplateParamList</h2>
@@ -2449,7 +2441,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>templateparamlist</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2479,21 +2471,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>type</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L551" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L417" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2509,6 +2491,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L551" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L417" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="gettype"></a>
 <h2>getType</h2>
@@ -2517,7 +2509,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>type</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2547,21 +2539,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>initializer</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L561" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L435" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2577,6 +2559,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L561" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L435" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getinitializer"></a>
 <h2>getInitializer</h2>
@@ -2585,7 +2577,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>initializer</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2615,21 +2607,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>exceptions</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L571" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L453" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2645,6 +2627,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L571" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L453" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getexceptions"></a>
 <h2>getExceptions</h2>
@@ -2653,7 +2645,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>exceptions</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2683,21 +2675,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>briefdescription</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L581" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L471" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2713,6 +2695,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L581" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L471" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getbriefdescription"></a>
 <h2>getBriefDescription</h2>
@@ -2721,7 +2713,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>briefdescription</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2751,21 +2743,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>detaileddescription</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L591" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L489" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2781,6 +2763,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L591" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L489" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getdetaileddescription"></a>
 <h2>getDetailedDescription</h2>
@@ -2789,7 +2781,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>detaileddescription</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2819,21 +2811,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>inbodydescription</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L601" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L507" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2849,6 +2831,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L601" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L507" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getinbodydescription"></a>
 <h2>getInBodyDescription</h2>
@@ -2857,7 +2849,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>inbodydescription</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2887,21 +2879,11 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>location</b></span>
 <span class="inline-text"> attribute. </span>
 <br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L611" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L525" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
-</a>
-</span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -2917,6 +2899,16 @@
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.h#L611" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/MemberdefQuery.cpp#L525" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberdefQuery.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="getlocation"></a>
 <h2>getLocation</h2>
@@ -2925,7 +2917,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides access to the </span>
 <span class="bold-text"><b>location</b></span>
 <span class="inline-text"> attribute. </span>
@@ -2956,7 +2948,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>reimplements</b></span>
 <span class="inline-text"> elements. </span>
@@ -2987,7 +2979,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>reimplementedby</b></span>
 <span class="inline-text"> elements. </span>
@@ -3018,7 +3010,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>param</b></span>
 <span class="inline-text"> elements. </span>
@@ -3049,7 +3041,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>enumvalue</b></span>
 <span class="inline-text"> elements. </span>
@@ -3080,7 +3072,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>references</b></span>
 <span class="inline-text"> elements. </span>
@@ -3111,7 +3103,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Invokes the supplied callback on </span>
 <span class="bold-text"><b>referencedby</b></span>
 <span class="inline-text"> elements. </span>

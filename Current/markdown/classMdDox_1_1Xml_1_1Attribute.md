@@ -87,7 +87,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Default constructor. </span>
 <br/>
 <br/>
@@ -118,7 +118,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides const access to the key field. </span>
 <br/>
 <br/>
@@ -142,7 +142,7 @@
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Provides const access to the value field. </span>
 <br/>
 <br/>

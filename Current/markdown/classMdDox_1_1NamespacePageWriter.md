@@ -185,7 +185,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerclass</b></span>
 <span class="inline-text"> is found. </span>
@@ -223,7 +223,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innernamespace</b></span>
 <span class="inline-text"> is found. </span>
@@ -261,7 +261,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>compoundname</b></span>
 <span class="inline-text"> is found. </span>
@@ -299,7 +299,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>basecompoundref</b></span>
 <span class="inline-text"> is found. </span>
@@ -337,7 +337,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>derivedcompoundref</b></span>
 <span class="inline-text"> is found. </span>
@@ -375,7 +375,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>includes</b></span>
 <span class="inline-text"> is found. </span>
@@ -413,7 +413,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>includedby</b></span>
 <span class="inline-text"> is found. </span>
@@ -451,7 +451,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerdir</b></span>
 <span class="inline-text"> is found. </span>
@@ -489,7 +489,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerfile</b></span>
 <span class="inline-text"> is found. </span>
@@ -527,7 +527,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerpage</b></span>
 <span class="inline-text"> is found. </span>
@@ -565,7 +565,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innergroup</b></span>
 <span class="inline-text"> is found. </span>
@@ -603,7 +603,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>incdepgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -641,7 +641,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>invincdepgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -679,7 +679,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>templateparamlist</b></span>
 <span class="inline-text"> is found. </span>
@@ -717,7 +717,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>inheritancegraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -755,7 +755,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>collaborationgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -793,7 +793,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>programlisting</b></span>
 <span class="inline-text"> is found. </span>
@@ -831,7 +831,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>location</b></span>
 <span class="inline-text"> is found. </span>
@@ -869,7 +869,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>listofallmembers</b></span>
 <span class="inline-text"> is found. </span>
@@ -907,7 +907,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>title</b></span>
 <span class="inline-text"> is found. </span>
@@ -945,7 +945,7 @@
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
-<h3>Details</h3>
+<h4>Details</h4>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>tableofcontents</b></span>
 <span class="inline-text"> is found. </span>
@@ -981,8 +981,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
@@ -1007,8 +1005,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L82" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
@@ -1033,8 +1029,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
@@ -1059,8 +1053,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
@@ -1097,8 +1089,6 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
@@ -1115,8 +1105,6 @@
 <span class="bold-text"><b>~NamespacePageWriter</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h3>Details</h3>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>

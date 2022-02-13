@@ -35,6 +35,7 @@ namespace MdDox
         OutputStringStream _out;
         bool               _firstParam;
         bool               _firstRef;
+        bool               _hasDetail;
 
         void visitedReImplements(const Doxygen::ReimplementQuery& query) override;
 
@@ -65,6 +66,8 @@ namespace MdDox
         void visitedLocation(const Doxygen::LocationQuery& query) override;
 
         void visitedWrite(const String& text) override;
+
+    	void openDetail();
 
     public:
         FunctionDefWriter(DocumentWriter* writer, OStream* out);

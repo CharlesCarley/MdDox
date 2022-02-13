@@ -2446,6 +2446,7 @@
     <member refid="classMdDox_1_1FunctionDefWriter_1a307c71bff829798abf602b7268170faf" kind="function"><name>visitedDetailedDescription</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1aaef428f491c8ed70530c1e761abcc21d" kind="function"><name>visitedLocation</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1a7db1e019d70e573b325624212d02c9c7" kind="function"><name>visitedWrite</name></member>
+    <member refid="classMdDox_1_1FunctionDefWriter_1a7e5cefae855fce548f563239d5824724" kind="function"><name>openDetail</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1a33c87119842f149a88b6e8fa2c38ffdd" kind="function"><name>FunctionDefWriter</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" kind="function"><name>write</name></member>
   </compound>

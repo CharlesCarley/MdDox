@@ -39,7 +39,8 @@ namespace MdDox
         _writer(writer),
         _stream(out),
         _firstParam(true),
-        _firstRef(true)
+        _firstRef(true),
+        _hasDetail(false)
     {
     }
 
@@ -103,7 +104,9 @@ namespace MdDox
     void FunctionDefWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
     {
         _writer->italicText(_out, ")");
-        _writer->addSection(_out, "Details", 3);
+
+        if (!query.empty())
+            openDetail();
 
         DescriptionWriter dw(_writer, &_out);
         if (dw.write(query))
@@ -141,6 +144,9 @@ namespace MdDox
 
     void FunctionDefWriter::visitedDetailedDescription(const Doxygen::DescriptionQuery& query)
     {
+        if (!_hasDetail && !query.empty())
+            openDetail();
+
         DescriptionWriter dw(_writer, &_out);
         if (dw.write(query))
             _writer->lineBreak(_out);
@@ -158,6 +164,15 @@ namespace MdDox
         _writer->lineBreak(_out);
     }
 
+    void FunctionDefWriter::openDetail()
+    {
+        if (!_hasDetail)
+        {
+            _hasDetail = true;
+            _writer->addSection(_out, "Details", 4);
+        }
+    }
+
     bool FunctionDefWriter::write(const Doxygen::MemberDefQuery& mdq)
     {
         if (mdq.isValid())
@@ -172,6 +187,7 @@ namespace MdDox
             map[Doxygen::DoxBriefDescription]    = i++;
             map[Doxygen::DoxDetailedDescription] = i++;
             map[Doxygen::DoxDefinition]          = i++;
+            map[Doxygen::DoxReferences]          = i++;
             map[Doxygen::DoxLocation]            = i;
             mdq.sort(map);
 

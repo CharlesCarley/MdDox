@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dz3pdW8[
+ W2U9tt8[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dJtpdW8[
+ Wac9tt8[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFtpdW8[
+ duy9tt8[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dZ3pdW8[
+ dLD9tt8[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d6IpdW8[
+ drMJtt8[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WH3pdW8[
+ dAc9tt8[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d6IpdW8->WH3pdW8
- dFtpdW8->dZ3pdW8
- dFtpdW8->d6IpdW8
- dz3pdW8->dJtpdW8
- dz3pdW8->dFtpdW8
+ drMJtt8->dAc9tt8
+ duy9tt8->dLD9tt8
+ duy9tt8->drMJtt8
+ W2U9tt8->Wac9tt8
+ W2U9tt8->duy9tt8
 }
