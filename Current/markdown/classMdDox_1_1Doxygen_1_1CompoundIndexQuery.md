@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>CompoundIndexQuery</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="compoundindexquery"></a>
 <h1>CompoundIndexQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1CompoundIndexQuery"></a>
 <a id="mddoxdoxygencompoundindexquery"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">::</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
@@ -103,22 +93,22 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>CompoundIndexType</b></span>
 <span class="inline-text"> scaffolding.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:complexType name=&quot;CompoundIndexType&quot;&gt;
-  &lt;xsd:sequence&gt;
-    &lt;xsd:element name=&quot;name&quot; type=&quot;xsd:string&quot;/&gt;
-    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;member&quot; type=&quot;MemberIndexType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
-  &lt;/xsd:sequence&gt;
-  &lt;xsd:attribute name=&quot;refid&quot; type=&quot;xsd:string&quot; use=&quot;required&quot;/&gt;
-  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;CompoundKind&quot; use=&quot;required&quot;/&gt;
-&lt;/xsd:complexType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:complexType name="CompoundIndexType">
+  <xsd:sequence>
+    <xsd:element name="name" type="xsd:string"/>
+    <xsd:element minOccurs="0" name="member" type="MemberIndexType" maxOccurs="unbounded"/>
+  </xsd:sequence>
+  <xsd:attribute name="refid" type="xsd:string" use="required"/>
+  <xsd:attribute name="kind" type="CompoundKind" use="required"/>
+</xsd:complexType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -131,7 +121,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -146,7 +136,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -167,7 +157,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -189,7 +179,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -208,7 +198,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L91" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L91" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -227,7 +217,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -250,7 +240,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L101" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L101" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -270,7 +260,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
@@ -296,11 +286,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L87" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L87" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -342,11 +332,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L82" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L82" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -373,11 +363,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -424,11 +414,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -474,11 +464,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -520,11 +510,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -564,27 +554,15 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.h#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/CompoundIndexQuery.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/classMdDox_1_1Doxygen_1_1CompoundIndexQuery.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Doxygen_1_1CompoundIndexQuery.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

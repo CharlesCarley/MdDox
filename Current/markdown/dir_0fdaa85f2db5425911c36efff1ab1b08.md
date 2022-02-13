@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>pages</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="pages"></a>
 <h1>pages</h1>
 <a id="dir_0fdaa85f2db5425911c36efff1ab1b08"></a>
 <a id="pages"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
 <a href="dir_f19befb0a20a037054255eb425fb4872.md#current">Current</a>
 <span class="inline-text">/</span>
@@ -29,42 +19,30 @@
 <br/>
 <a id="contents"></a>
 <h2>Contents</h2>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//Design.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Design.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//Design.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Design.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//Directories.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Directories.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//Directories.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Directories.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//HtmlStyle.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlStyle.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//HtmlStyle.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlStyle.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//Image.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Image.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//Image.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Image.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//Index.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//Index.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Current/pages//SiteLayout.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SiteLayout.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages//SiteLayout.h#L1" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SiteLayout.h</span>
 </a>
 </span>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/dir_0fdaa85f2db5425911c36efff1ab1b08.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">dir_0fdaa85f2db5425911c36efff1ab1b08.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

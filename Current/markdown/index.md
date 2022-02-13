@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>MdDox</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="mddox"></a>
 <h1>MdDox</h1>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Index</b></span>
@@ -965,39 +955,7 @@
 <br/>
 <a id="directories"></a>
 <h2>Directories</h2>
-<span class="icon-list-item"><a href="dir_7d925da7aa4fec7d143339dda86741c5.md#commandline" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">CommandLine</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="dir_f19befb0a20a037054255eb425fb4872.md#current" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">Current</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_b7487e7b43f0278857c63f4e9ad683a3.md#doxygen" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_f29546df2d60a62028851d3354c1d20f.md#genapi" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">GenApi</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_1197a0c1c846bc690425b2973182343c.md#mddox" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">MdDox</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_d9935c0f1a540c725bfb5aaaadd541e0.md#mddoxtree" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">MdDoxTree</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_0fdaa85f2db5425911c36efff1ab1b08.md#pages" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">pages</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_228a382b75cefd1e10dd6a0b6021583d.md#parserbase" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_ad64d74126afa4ea39d3914a0c472a63.md#resourcecompiler" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">ResourceCompiler</span>
 </a>
 </span>
 <br/>
@@ -1009,34 +967,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="dir_24e808f5dc59c4f65549a2d6918dbd79.md#typefilter" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_5c09e96eccedf512ae411d636afd2712.md#utils" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">Utils</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_df7f76837457d332ed2eae6561f124cc.md#win32" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">Win32</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="dir_19b9d1dd05713e515e11a6d5d9c80351.md#xml" class="icon-list-item"><img src="../images/folder18px.svg" class="icon-list-item"/><span class="icon-list-item">Xml</span>
-</a>
-</span>
-<br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/index.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">index.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

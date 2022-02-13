@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>Image handling</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="image-handling"></a>
 <h1>Image handling</h1>
 <a id="Image"></a>
 <a id="image-handling"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Image</b></span>
 <br/>
@@ -57,18 +47,6 @@
 <h3>Sources</h3>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
 <a href="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</a>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/Image.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">Image.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

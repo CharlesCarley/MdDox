@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>DocumentWriter</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="documentwriter"></a>
 <h1>DocumentWriter</h1>
 <a id="classMdDox_1_1DocumentWriter"></a>
 <a id="mddoxdocumentwriter"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">::</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
@@ -209,7 +199,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -225,7 +215,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -240,7 +230,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -283,7 +273,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -334,7 +324,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -368,7 +358,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -402,7 +392,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -438,7 +428,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -492,7 +482,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L79" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L79" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -548,7 +538,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -582,7 +572,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L95" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L95" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -616,7 +606,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L101" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L101" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -650,7 +640,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -708,7 +698,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -742,7 +732,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -789,7 +779,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -823,7 +813,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -857,7 +847,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -891,7 +881,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -925,7 +915,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -959,7 +949,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -993,7 +983,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1027,7 +1017,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1072,7 +1062,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L177" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L177" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1117,7 +1107,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1164,7 +1154,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L191" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L191" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1211,7 +1201,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L198" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L198" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1258,7 +1248,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1316,7 +1306,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L213" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L213" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1363,7 +1353,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L220" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L220" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1421,7 +1411,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L228" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L228" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1477,7 +1467,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L236" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L236" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1515,7 +1505,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L238" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L239" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1560,7 +1550,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L245" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L246" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1594,7 +1584,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L251" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L252" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1628,7 +1618,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L257" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L258" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1684,7 +1674,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L265" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L266" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1740,7 +1730,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L273" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L274" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1796,7 +1786,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L281" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L282" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1865,7 +1855,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L290" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L291" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1908,7 +1898,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L297" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L298" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1962,7 +1952,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L305" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L306" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -2027,25 +2017,13 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/MdDoxTree/DocumentWriter.h#L314" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DocumentWriter.h#L315" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
 <span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/classMdDox_1_1DocumentWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1DocumentWriter.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

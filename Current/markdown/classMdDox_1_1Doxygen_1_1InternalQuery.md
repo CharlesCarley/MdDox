@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>InternalQuery</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="internalquery"></a>
 <h1>InternalQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1InternalQuery"></a>
 <a id="mddoxdoxygeninternalquery"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">::</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
@@ -95,20 +85,20 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docInternalType</b></span>
 <span class="inline-text"> scaffolding.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:complexType name=&quot;docInternalType&quot; mixed=&quot;true&quot;&gt;
-  &lt;xsd:sequence&gt;
-    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;para&quot; type=&quot;docParaType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
-    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;sect1&quot; type=&quot;docSect1Type&quot; maxOccurs=&quot;unbounded&quot;/&gt;
-  &lt;/xsd:sequence&gt;
-&lt;/xsd:complexType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:complexType name="docInternalType" mixed="true">
+  <xsd:sequence>
+    <xsd:element minOccurs="0" name="para" type="docParaType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="sect1" type="docSect1Type" maxOccurs="unbounded"/>
+  </xsd:sequence>
+</xsd:complexType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -121,7 +111,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -136,7 +126,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -157,7 +147,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -179,7 +169,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -198,7 +188,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -217,7 +207,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L93" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L93" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -240,7 +230,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -260,7 +250,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L103" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L103" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
@@ -286,11 +276,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -332,11 +322,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.cpp#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.cpp#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -363,11 +353,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -415,11 +405,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -447,27 +437,15 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/InternalQuery.cpp#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/InternalQuery.cpp#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/classMdDox_1_1Doxygen_1_1InternalQuery.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Doxygen_1_1InternalQuery.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

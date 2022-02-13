@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>StringUtils</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="stringutils"></a>
 <h1>StringUtils</h1>
 <a id="classMdDox_1_1StringUtils"></a>
 <a id="mddoxstringutils"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">::</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
@@ -103,7 +93,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L91" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L91" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -154,11 +144,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L99" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L99" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -212,11 +202,11 @@ Removes any empty strings from the result. </span>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -274,11 +264,11 @@ Removes any empty strings from the result. </span>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -332,11 +322,11 @@ Removes any empty strings from the result. </span>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -384,8 +374,9 @@ Removes any empty strings from the result. </span>
 <span class="inline-text">If true, the result will randomly be shifted.</span>
 </li>
 </ul>
-<div class="code-block">
-<pre><code>Randomized:
+
+```txt
+Randomized:
   1ILtZEF
   h804iWy
   DpZzzmg
@@ -396,17 +387,16 @@ Not-Randomized:
   n1mLZd3
   n1mLZd3
   n1mLZd3
-</code></pre>
-</div>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L204" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L204" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -444,11 +434,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L240" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L240" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -507,11 +497,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L257" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L257" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -562,11 +552,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L274" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L274" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -622,11 +612,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L179" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L179" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L304" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L304" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -678,11 +668,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L188" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L188" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L319" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L319" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -734,11 +724,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L197" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L197" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L268" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L268" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -782,11 +772,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -837,11 +827,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -870,11 +860,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -903,11 +893,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -930,11 +920,11 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -957,27 +947,15 @@ Not-Randomized:
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.h#L209" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L209" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/Utils/String.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/classMdDox_1_1StringUtils.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1StringUtils.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

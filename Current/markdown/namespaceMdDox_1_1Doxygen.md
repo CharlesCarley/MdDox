@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta name="robots" content="noindex" />
-<meta name="generator" content="MdDox"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="style.css" rel="stylesheet" type="text/css"/>
-<title>Doxygen</title>
 </head>
 <body>
-<div class="document">
-<div class="document-header">
 <a id="doxygen"></a>
 <h1>Doxygen</h1>
 <a id="namespaceMdDox_1_1Doxygen"></a>
 <a id="mddoxdoxygen"></a>
-<a href="https://github.com/CharlesCarley/MdDoc">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
-<a href="indexpage.md#index">Index</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">::</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
@@ -774,7 +764,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -787,7 +777,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -805,7 +795,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -825,7 +815,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -859,7 +849,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -1097,7 +1087,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
 </a>
 </span>
 <br/>
@@ -1123,24 +1113,24 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxAccessor&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;retain&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;copy&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;assign&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;weak&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;strong&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;unretained&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxAccessor">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="retain"/>
+    <xsd:enumeration value="copy"/>
+    <xsd:enumeration value="assign"/>
+    <xsd:enumeration value="weak"/>
+    <xsd:enumeration value="strong"/>
+    <xsd:enumeration value="unretained"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxAccessor.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxAccessor.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
 </a>
 </span>
 <br/>
@@ -1158,20 +1148,20 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxBool&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;yes&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;no&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxBool">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="yes"/>
+    <xsd:enumeration value="no"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxBool.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxBool.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool.h</span>
 </a>
 </span>
 <br/>
@@ -1185,19 +1175,19 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxCharRange&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:pattern value=&quot;[aeiouncAEIOUNC]&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxCharRange">
+  <xsd:restriction base="xsd:string">
+    <xsd:pattern value="[aeiouncAEIOUNC]"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxCharRange.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxCharRange.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange.h</span>
 </a>
 </span>
 <br/>
@@ -1245,35 +1235,35 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxCompoundKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;class&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;struct&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;union&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;interface&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protocol&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;category&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;exception&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;service&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;singleton&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;module&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;type&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;file&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;namespace&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;group&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;page&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;example&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;dir&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxCompoundKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="class"/>
+    <xsd:enumeration value="struct"/>
+    <xsd:enumeration value="union"/>
+    <xsd:enumeration value="interface"/>
+    <xsd:enumeration value="protocol"/>
+    <xsd:enumeration value="category"/>
+    <xsd:enumeration value="exception"/>
+    <xsd:enumeration value="service"/>
+    <xsd:enumeration value="singleton"/>
+    <xsd:enumeration value="module"/>
+    <xsd:enumeration value="type"/>
+    <xsd:enumeration value="file"/>
+    <xsd:enumeration value="namespace"/>
+    <xsd:enumeration value="group"/>
+    <xsd:enumeration value="page"/>
+    <xsd:enumeration value="example"/>
+    <xsd:enumeration value="dir"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxCompoundKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxCompoundKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
 </a>
 </span>
 <br/>
@@ -1301,25 +1291,25 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxGraphRelation&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;include&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;usage&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;template-instance&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-inheritance&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-inheritance&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-inheritance&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;type-constraint&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxGraphRelation">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="include"/>
+    <xsd:enumeration value="usage"/>
+    <xsd:enumeration value="template-instance"/>
+    <xsd:enumeration value="public-inheritance"/>
+    <xsd:enumeration value="protected-inheritance"/>
+    <xsd:enumeration value="private-inheritance"/>
+    <xsd:enumeration value="type-constraint"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxGraphRelation.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxGraphRelation.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
 </a>
 </span>
 <br/>
@@ -1349,26 +1339,26 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxHighlightClass&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;comment&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;normal&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;preprocessor&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;keyword&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;keywordtype&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;keywordflow&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;stringliteral&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;charliteral&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxHighlightClass">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="comment"/>
+    <xsd:enumeration value="normal"/>
+    <xsd:enumeration value="preprocessor"/>
+    <xsd:enumeration value="keyword"/>
+    <xsd:enumeration value="keywordtype"/>
+    <xsd:enumeration value="keywordflow"/>
+    <xsd:enumeration value="stringliteral"/>
+    <xsd:enumeration value="charliteral"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxHighlightClass.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxHighlightClass.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
 </a>
 </span>
 <br/>
@@ -1388,21 +1378,21 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxImageKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;html&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;latex&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;rtf&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxImageKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="html"/>
+    <xsd:enumeration value="latex"/>
+    <xsd:enumeration value="rtf"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxImageKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxImageKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind.h</span>
 </a>
 </span>
 <br/>
@@ -1448,34 +1438,34 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxLanguage&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;Unknown&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;IDL&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Java&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;C#&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;D&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;PHP&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Objective-C&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;C++&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Javascript&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Python&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Fortran&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;VHDL&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;XML&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;SQL&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Tcl&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;Markdown&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxLanguage">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="Unknown"/>
+    <xsd:enumeration value="IDL"/>
+    <xsd:enumeration value="Java"/>
+    <xsd:enumeration value="C#"/>
+    <xsd:enumeration value="D"/>
+    <xsd:enumeration value="PHP"/>
+    <xsd:enumeration value="Objective-C"/>
+    <xsd:enumeration value="C++"/>
+    <xsd:enumeration value="Javascript"/>
+    <xsd:enumeration value="Python"/>
+    <xsd:enumeration value="Fortran"/>
+    <xsd:enumeration value="VHDL"/>
+    <xsd:enumeration value="XML"/>
+    <xsd:enumeration value="SQL"/>
+    <xsd:enumeration value="Tcl"/>
+    <xsd:enumeration value="Markdown"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxLanguage.h#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxLanguage.h#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
 </a>
 </span>
 <br/>
@@ -1517,32 +1507,32 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxMemberKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;define&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;property&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;event&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;variable&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;typedef&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;enum&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;function&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;signal&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;prototype&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;friend&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;dcop&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;slot&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;interface&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;service&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxMemberKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="define"/>
+    <xsd:enumeration value="property"/>
+    <xsd:enumeration value="event"/>
+    <xsd:enumeration value="variable"/>
+    <xsd:enumeration value="typedef"/>
+    <xsd:enumeration value="enum"/>
+    <xsd:enumeration value="function"/>
+    <xsd:enumeration value="signal"/>
+    <xsd:enumeration value="prototype"/>
+    <xsd:enumeration value="friend"/>
+    <xsd:enumeration value="dcop"/>
+    <xsd:enumeration value="slot"/>
+    <xsd:enumeration value="interface"/>
+    <xsd:enumeration value="service"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxMemberKind.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxMemberKind.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
 </a>
 </span>
 <br/>
@@ -1562,21 +1552,21 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxParamDir&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;in&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;out&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;inout&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxParamDir">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="in"/>
+    <xsd:enumeration value="out"/>
+    <xsd:enumeration value="inout"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxParamDir.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxParamDir.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir.h</span>
 </a>
 </span>
 <br/>
@@ -1598,22 +1588,22 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxParamListKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;param&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;retval&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;exception&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;templateparam&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxParamListKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="param"/>
+    <xsd:enumeration value="retval"/>
+    <xsd:enumeration value="exception"/>
+    <xsd:enumeration value="templateparam"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxParamListKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxParamListKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind.h</span>
 </a>
 </span>
 <br/>
@@ -1635,22 +1625,22 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxProtectionKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;public&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxProtectionKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="public"/>
+    <xsd:enumeration value="protected"/>
+    <xsd:enumeration value="private"/>
+    <xsd:enumeration value="package"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxProtectionKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxProtectionKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind.h</span>
 </a>
 </span>
 <br/>
@@ -1668,20 +1658,20 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxRefKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;compound&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;member&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxRefKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="compound"/>
+    <xsd:enumeration value="member"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxRefKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxRefKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind.h</span>
 </a>
 </span>
 <br/>
@@ -1699,20 +1689,20 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxRefQualifierKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;lvalue&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;rvalue&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxRefQualifierKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="lvalue"/>
+    <xsd:enumeration value="rvalue"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxRefQualifierKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxRefQualifierKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
 </a>
 </span>
 <br/>
@@ -1798,54 +1788,54 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxSectionKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;user-defined&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-type&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-slot&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;signal&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;dcop-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;property&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;event&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-static-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;public-static-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-type&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-slot&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-static-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;protected-static-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package-type&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package-static-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;package-static-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-type&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-slot&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-static-func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;private-static-attrib&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;friend&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;related&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;define&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;prototype&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;typedef&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;enum&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;func&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;var&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxSectionKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="user-defined"/>
+    <xsd:enumeration value="public-type"/>
+    <xsd:enumeration value="public-func"/>
+    <xsd:enumeration value="public-attrib"/>
+    <xsd:enumeration value="public-slot"/>
+    <xsd:enumeration value="signal"/>
+    <xsd:enumeration value="dcop-func"/>
+    <xsd:enumeration value="property"/>
+    <xsd:enumeration value="event"/>
+    <xsd:enumeration value="public-static-func"/>
+    <xsd:enumeration value="public-static-attrib"/>
+    <xsd:enumeration value="protected-type"/>
+    <xsd:enumeration value="protected-func"/>
+    <xsd:enumeration value="protected-attrib"/>
+    <xsd:enumeration value="protected-slot"/>
+    <xsd:enumeration value="protected-static-func"/>
+    <xsd:enumeration value="protected-static-attrib"/>
+    <xsd:enumeration value="package-type"/>
+    <xsd:enumeration value="package-func"/>
+    <xsd:enumeration value="package-attrib"/>
+    <xsd:enumeration value="package-static-func"/>
+    <xsd:enumeration value="package-static-attrib"/>
+    <xsd:enumeration value="private-type"/>
+    <xsd:enumeration value="private-func"/>
+    <xsd:enumeration value="private-attrib"/>
+    <xsd:enumeration value="private-slot"/>
+    <xsd:enumeration value="private-static-func"/>
+    <xsd:enumeration value="private-static-attrib"/>
+    <xsd:enumeration value="friend"/>
+    <xsd:enumeration value="related"/>
+    <xsd:enumeration value="define"/>
+    <xsd:enumeration value="prototype"/>
+    <xsd:enumeration value="typedef"/>
+    <xsd:enumeration value="enum"/>
+    <xsd:enumeration value="func"/>
+    <xsd:enumeration value="var"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxSectionKind.h#L77" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxSectionKind.h#L77" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
 </a>
 </span>
 <br/>
@@ -1893,35 +1883,35 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxSimpleSectKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;see&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;return&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;author&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;authors&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;version&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;since&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;date&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;note&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;warning&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;pre&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;post&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;copyright&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;invariant&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;remark&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;attention&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;par&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;rcs&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxSimpleSectKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="see"/>
+    <xsd:enumeration value="return"/>
+    <xsd:enumeration value="author"/>
+    <xsd:enumeration value="authors"/>
+    <xsd:enumeration value="version"/>
+    <xsd:enumeration value="since"/>
+    <xsd:enumeration value="date"/>
+    <xsd:enumeration value="note"/>
+    <xsd:enumeration value="warning"/>
+    <xsd:enumeration value="pre"/>
+    <xsd:enumeration value="post"/>
+    <xsd:enumeration value="copyright"/>
+    <xsd:enumeration value="invariant"/>
+    <xsd:enumeration value="remark"/>
+    <xsd:enumeration value="attention"/>
+    <xsd:enumeration value="par"/>
+    <xsd:enumeration value="rcs"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxSimpleSectKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxSimpleSectKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
 </a>
 </span>
 <br/>
@@ -1935,19 +1925,19 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxVersionNumber&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:pattern value=&quot;\d+\.\d+.*&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxVersionNumber">
+  <xsd:restriction base="xsd:string">
+    <xsd:pattern value="\d+\.\d+.*"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxVersionNumber.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxVersionNumber.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber.h</span>
 </a>
 </span>
 <br/>
@@ -1967,21 +1957,21 @@
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
-<div class="code-block">
-<pre><code>&lt;xsd:simpleType name=&quot;DoxVirtualKind&quot;&gt;
-  &lt;xsd:restriction base=&quot;xsd:string&quot;&gt;
-    &lt;xsd:enumeration value=&quot;non-virtual&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;virtual&quot;/&gt;
-    &lt;xsd:enumeration value=&quot;pure-virtual&quot;/&gt;
-  &lt;/xsd:restriction&gt;
-&lt;/xsd:simpleType&gt;
-</code></pre>
-</div>
+
+```xml
+<xsd:simpleType name="DoxVirtualKind">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="non-virtual"/>
+    <xsd:enumeration value="virtual"/>
+    <xsd:enumeration value="pure-virtual"/>
+  </xsd:restriction>
+</xsd:simpleType>
+```
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/DoxVirtualKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxVirtualKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind.h</span>
 </a>
 </span>
 <br/>
@@ -1996,7 +1986,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2011,7 +2001,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2026,7 +2016,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2041,7 +2031,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2056,7 +2046,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2071,7 +2061,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2086,7 +2076,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2101,7 +2091,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2116,7 +2106,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2131,7 +2121,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2146,7 +2136,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2161,7 +2151,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2176,7 +2166,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2191,7 +2181,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2206,7 +2196,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2221,7 +2211,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2236,7 +2226,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2251,7 +2241,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2266,7 +2256,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2281,7 +2271,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2296,7 +2286,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2311,7 +2301,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2326,7 +2316,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2341,7 +2331,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2356,7 +2346,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2371,7 +2361,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2386,7 +2376,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2401,7 +2391,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2416,7 +2406,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2431,7 +2421,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2446,7 +2436,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2461,7 +2451,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2476,7 +2466,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2491,7 +2481,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2506,7 +2496,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2521,7 +2511,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2536,7 +2526,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L143" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L143" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2551,7 +2541,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2566,7 +2556,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2581,7 +2571,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2596,7 +2586,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2611,7 +2601,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2626,7 +2616,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2641,7 +2631,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2656,7 +2646,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2671,7 +2661,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2686,7 +2676,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L153" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L153" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2701,7 +2691,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2716,7 +2706,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2731,7 +2721,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2746,7 +2736,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2761,7 +2751,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2776,7 +2766,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L159" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L159" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2791,7 +2781,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2806,7 +2796,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2821,7 +2811,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2836,7 +2826,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2851,7 +2841,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2866,7 +2856,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2881,7 +2871,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2896,7 +2886,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2911,7 +2901,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2926,7 +2916,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2941,7 +2931,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2956,7 +2946,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2971,7 +2961,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L172" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L172" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2986,7 +2976,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3001,7 +2991,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3016,7 +3006,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3031,7 +3021,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3044,23 +3034,11 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDoc/blob/master/Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<br/>
-<blockquote>
-<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1Doxygen.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1Doxygen.xml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
-</a>
-</span>
-</blockquote>
 </div>
 </div>
 </body>

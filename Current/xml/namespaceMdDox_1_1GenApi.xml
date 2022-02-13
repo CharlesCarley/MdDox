@@ -275,7 +275,7 @@
  <linebreak/>
  It has a direct dependency on <ref refid="namespaceMdDox_1_1Xml" kindref="compound">MdDox::Xml</ref> both to generate the library and in the final output. <linebreak/>
  <linebreak/>
- The program will not work out of the box. It is designed to be flexible enough to allow renaming types in the schema without modifying the actual element names. It needs to output a few extra files first before generating the API. The application provides the means to extract a 1:1 name mapping of all the needed names. After the initial setup is complete, any type can be renamed if desired. The generator will always use the second value as the output API name. <linebreak/>
+ The program will not work out of the box. It is designed to be flexible enough to allow renaming types in the schema without modifying the actual element names. Therefore, it needs to output a few extra files first before generating the API. The application command line provides the means to extract a 1:1 name mapping of all the needed names. After the initial setup is complete, any type can be renamed if desired. The generator will always use the first value when searching the file and second value as the output API name. <linebreak/>
  <linebreak/>
  <bold>Concept</bold><linebreak/>
  <dot>
@@ -316,6 +316,7 @@ digraph {
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;N&quot;&gt;-n&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Generate&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;I&quot;&gt;-i&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;O&quot;&gt;-o&lt;/td&gt;&lt;/tr&gt;
                 &lt;/table&gt;
                 &lt;/td&gt;&lt;/tr&gt;
             &lt;/table&gt;
@@ -353,6 +354,13 @@ digraph {
         &lt;/table&gt;
         &gt;];
 
+
+        Index:C-&gt;Class
+        Index:G-&gt;Class
+        Index:E-&gt;Class
+        Index:S-&gt;Enum
+        Index:N-&gt;Enum
+                
     }
 
     subgraph cluster_b{

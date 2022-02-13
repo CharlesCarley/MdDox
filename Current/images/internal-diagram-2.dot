@@ -8,14 +8,14 @@ digraph {
     node [
         shape     = none
         fontname  = "Segoe UI"
-        fontcolor = "#828EA0FF"
+        fontcolor = "#010509FF"
         fontsize  = "11"
     ]
     edge [
         arrowsize = "0.5"
-        color     = "#828EA0FF"
+        color     = "#69BFFFFF"
         fontname  = "Segoe UI"
-        fontcolor = "#828EA0FF"
+        fontcolor = "#010509FF"
         fontsize  = "11"
     ]
 
@@ -24,10 +24,10 @@ digraph {
         bgcolor     = none
 
         Application[label=<
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
-                <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Application</b></font></td></tr>
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#F2F2F5FF">
+                <tr><td align="center" port="Title"><font color="#000001FF"><b>Application</b></font></td></tr>
                 <tr><td align="left">
-                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#FFFFFFFF">
                 <tr><td align="center">Setup</td></tr>
                 <tr><td align="left" port="C">-c</td></tr>
                 <tr><td align="left" port="G">-g</td></tr>
@@ -36,16 +36,17 @@ digraph {
                 <tr><td align="left" port="N">-n</td></tr>
                 <tr><td align="center">Generate</td></tr>
                 <tr><td align="left" port="I">-i</td></tr>
+                <tr><td align="left" port="O">-o</td></tr>
                 </table>
                 </td></tr>
             </table>
         >];
 
         Database[label=<
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
-                <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Swap Database</b></font></td></tr>
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#F2F2F5FF">
+                <tr><td align="center" port="Title"><font color="#000001FF"><b>Swap Database</b></font></td></tr>
                 <tr><td align="left">
-                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#FFFFFFFF">
                 <tr><td align="left" port="C">Complex.txt</td></tr>
                 <tr><td align="left" port="G">Groups.txt</td></tr>
                 <tr><td align="left" port="E">Elements.xt</td></tr>
@@ -58,10 +59,10 @@ digraph {
         >];
         
         Index[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
-            <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#F2F2F5FF">
+            <tr><td align="center" port="Title"><font color="#000001FF"><b>Index</b></font></td></tr>
             <tr><td align="left">
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#FFFFFFFF">
             <tr><td align="left" port="C">xsd:complexType</td></tr>
             <tr><td align="left" port="G">xsd:group</td></tr>
             <tr><td align="left" port="E">xsd:element</td></tr>
@@ -73,13 +74,20 @@ digraph {
         </table>
         >];
 
+
+        Index:C->Class
+        Index:G->Class
+        Index:E->Class
+        Index:S->Enum
+        Index:N->Enum
+                
     }
 
     subgraph cluster_b{
         peripheries=0
         Input[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
-            <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>input.xsd</b></font></td></tr>
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#F2F2F5FF">
+            <tr><td align="center" port="Title"><font color="#000001FF"><b>input.xsd</b></font></td></tr>
         </table>
         >];
     }

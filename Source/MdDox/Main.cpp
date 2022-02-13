@@ -32,7 +32,7 @@ using namespace std;
 
 namespace MdDox
 {
-	/**
+    /**
      * \brief Usage Options
      *
      * \code
@@ -53,7 +53,7 @@ namespace MdDox
      */
     enum Options
     {
-	    /**
+        /**
          * \brief Provides the option to specify an output directory.
          * 
     	 * - <tt>      -o <file-path></tt>
@@ -131,7 +131,7 @@ namespace MdDox
             'c',
             "config",
             "Loads the supplied config file\n",
-            true,
+            false,
             1,
         },
     };
@@ -178,7 +178,7 @@ namespace MdDox
             _config    = PathUtil(FileSystem::absolute(p.string(OptConfigFile)).string()).fullPath();
             _genType   = p.string(OptGenType, 0, "md");
 
-        	if (_genType == "md")
+            if (_genType == "md")
                 _writer = new MarkdownDocumentWriter();
             else if (_genType == "html")
                 _writer = new HtmlDocumentWriter();
@@ -201,28 +201,7 @@ namespace MdDox
         int go() const
         {
             SiteBuilder builder;
-            if (!_config.empty())
-				builder.loadConfig(_config);
-            else
-            {
-                builder.showDebug     = false;
-                builder.outputFileExt = ".md";
-                builder.projectRoot   = R"(MdDox)";
-                builder.projectTitle  = "MdDox";
-
-                PathUtil out(_indexFile.parentDir(1));
-                out.appendDirectory("markdown");
-
-                builder.styleSheet = "style.css";
-                builder.imageDir   = "../images/";
-                builder.inputDir   = _indexFile.rootedDir();
-                builder.outputDir  = out.fullPath();
-                builder.siteUrl    = "https://github.com/CharlesCarley/MdDoc";
-                builder.baseUrl    = "https://github.com/CharlesCarley/MdDoc/blob/master";
-                builder.searchDirs.push_back("Source");
-                builder.searchDirs.push_back("Tools");
-            }
-
+            builder.loadConfig(_config);
             builder.buildFromXml(_writer, _indexFile.fullPath());
             return 0;
         }

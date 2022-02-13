@@ -5,12 +5,12 @@ digraph {
      node [
          shape     = none
          fontname  = "Segoe UI"
-         fontcolor = "#828EA0FF"
+         fontcolor = "#010509FF"
          fontsize  = "11"
      ]
      edge [
          arrowsize = "0.5"
-         color     = "#EA3E53FF"
+         color     = "#FF1040FF"
      ]
      SiteBuilder->Config;
 

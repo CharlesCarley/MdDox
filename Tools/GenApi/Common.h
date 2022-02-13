@@ -44,10 +44,11 @@ final output.
 <br/>
 The program will not work out of the box. It is designed to be flexible enough to
 allow renaming types in the schema without modifying the actual element names.
-It needs to output a few extra files first before generating the API. The application
-provides the means to extract a 1:1 name mapping of all the needed names. After the
-initial setup is complete, any type can be renamed if desired. The generator will
-always use the second value as the output API name. 
+Therefore, it needs to output a few extra files first before generating the API.
+The application command line provides the means to extract a 1:1 name mapping of
+all the needed names. After the initial setup is complete, any type can be renamed
+if desired. The generator will always use the first value when searching the file and
+second value as the output API name. 
 <br/>
 <br/>
 <b>Concept</b><br/>
@@ -89,6 +90,7 @@ digraph {
 				<tr><td align="left" port="N">-n</td></tr>
 				<tr><td align="center">Generate</td></tr>
 				<tr><td align="left" port="I">-i</td></tr>
+				<tr><td align="left" port="O">-o</td></tr>
 				</table>
 				</td></tr>
 			</table>
@@ -126,6 +128,13 @@ digraph {
 		</table>
 		>];
 
+
+		Index:C->Class
+		Index:G->Class
+		Index:E->Class
+		Index:S->Enum
+		Index:N->Enum
+				
 	}
 
 	subgraph cluster_b{
