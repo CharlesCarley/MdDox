@@ -19,6 +19,8 @@
     <innerfile refid="FunctionDefWriter_8h">FunctionDefWriter.h</innerfile>
     <innerfile refid="GenericPageWriter_8cpp">GenericPageWriter.cpp</innerfile>
     <innerfile refid="GenericPageWriter_8h">GenericPageWriter.h</innerfile>
+    <innerfile refid="GraphWriter_8cpp">GraphWriter.cpp</innerfile>
+    <innerfile refid="GraphWriter_8h">GraphWriter.h</innerfile>
     <innerfile refid="HashUtils_8cpp">HashUtils.cpp</innerfile>
     <innerfile refid="HashUtils_8h">HashUtils.h</innerfile>
     <innerfile refid="HtmlCommandWriter_8cpp">HtmlCommandWriter.cpp</innerfile>

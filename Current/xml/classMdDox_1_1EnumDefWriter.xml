@@ -507,26 +507,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="362">
+      <node id="363">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="361">
+      <node id="362">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="362" relation="public-inheritance">
+        <childnode refid="363" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="364">
+      <node id="365">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="363">
+      <node id="364">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="364" relation="public-inheritance">
+        <childnode refid="365" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

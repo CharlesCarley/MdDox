@@ -769,6 +769,14 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="structMdDox_1_1GraphNode.md#mddoxgraphnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphNode</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1GraphWriter.md#mddoxgraphwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter</span>
 </a>
 </span>
@@ -802,6 +810,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1ListItemVisitor.md#mddoxlistitemvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemVisitor</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1LocalNode.md#mddoxlocalnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LocalNode</span>
 </a>
 </span>
 <br/>
@@ -967,6 +979,18 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/index.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">index.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

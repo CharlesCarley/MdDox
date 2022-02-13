@@ -1,126 +1,26 @@
-
 digraph {
-    bgcolor = none;
-    rankdir = "TB";
-    layout  = dot;
-    
-    node [
-        shape     = none
-        fontname  = "Segoe UI"
-        fontcolor = "#828EA0FF"
-        fontsize  = "11"
-    ]
-    edge [
-        arrowsize = "0.5"
-        color     = "#7C7C7CFF"
-        fontname  = "Segoe UI"
-        fontcolor = "#828EA0FF"
-        fontsize  = "11"
-    ]
-    
-    MainPage[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>MainPage</b></font></td></tr>
-            <tr><td align="left">Brief</td></tr>
-            <tr><td align="left">Detail</td></tr>
-        </table>
-    >];
-
-
-    Index[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="left"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
-            <tr><td align="left" port="Description">Description</td></tr>
-            <tr><td>
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center"><font color="#AEB6C2FF"><b>Contents</b></font></td></tr>
-            <tr><td align="left" port="Directory">Directory</td></tr>
-            <tr><td align="left" port="Class">Class</td></tr>
-            <tr><td align="left" port="Page">Page</td></tr>
-            <tr><td align="left" port="Namespace">Namespace</td></tr>
-            </table>
-            </td></tr>
-        </table>
-    >];
-    {rank=min Index MainPage}
-
-    MainPage:Title->Index:Description[label="Copied"];
-
-
-    ClassIndex[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="left" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
-            <tr><td>
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center"><font color="#AEB6C2FF"><b>Contents (A-Z)</b></font></td></tr>
-            <tr><td align="left">Class[0]</td></tr>
-            <tr><td align="left">Class[1]</td></tr>
-            <tr><td align="left" port="Item">Class[n]</td></tr>
-            </table>
-            </td></tr>
-        </table>
-    >];
-    Index:Class->ClassIndex;
-
-
-    NamespaceIndex[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="left" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
-            <tr><td>
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center"><font color="#AEB6C2FF"><b>Contents (A-Z)</b></font></td></tr>
-            <tr><td align="left">Namespace[0]</td></tr>
-            <tr><td align="left">Namespace[1]</td></tr>
-            <tr><td align="left" port="Item">Namespace[n]</td></tr>
-            </table>
-            </td></tr>
-        </table>
-    >];
-    
-    Index:Namespace->NamespaceIndex;
-
-    PageIndex[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="left" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
-            <tr><td>
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center"><font color="#AEB6C2FF"><b>Contents (A-Z)</b></font></td></tr>
-            <tr><td align="left">Page[0]</td></tr>
-            <tr><td align="left">Page[1]</td></tr>
-            <tr><td align="left" port="ITem">Page[n]</td></tr>
-            </table>
-            </td></tr>
-        </table>
-    >];
-
-    Index:Page->PageIndex;
-
-
-    DirectoryIndex[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="left" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
-            <tr><td>
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
-            <tr><td align="center"><font color="#AEB6C2FF"><b>Contents (A-Z)</b></font></td></tr>
-            <tr><td align="left">Dir[0]</td></tr>
-            <tr><td align="left">Dir[1]</td></tr>
-            <tr><td align="left" port="Item">Dir[n]</td></tr>
-            </table>
-            </td></tr>
-        </table>
-    >];
-
-
-
-    Index:Directory->DirectoryIndex:Title;
-
-    {rank=same Index DirectoryIndex}
-
-
-
-    ClassIndex:Item->ClassPage;
-    DirectoryIndex:Item->DirectoryPage;
-    PageIndex:Item->GenericPage;
-    NamespaceIndex:Item->NamespacePage;
-
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ WJ9RrGf[
+   shape    = none
+   label    = "DescriptionQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dLLRrGf[
+   shape    = none
+   label    = "DescriptionWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WJ9RrGf->dLLRrGf
 }

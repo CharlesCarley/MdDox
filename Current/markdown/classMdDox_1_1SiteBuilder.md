@@ -20,8 +20,8 @@
 <span class="inline-text">The site builder provides static access to properties during the build stage. </span>
 <br/>
 <br/>
-<a id="dsk_private_static_attrib"></a>
-<h2>DSK_PRIVATE_STATIC_ATTRIB</h2>
+<a id="private-static-members"></a>
+<h2>Private Static Members</h2>
 <span class="icon-list-item"><a href="#_singleton" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_singleton</span>
 </a>
 </span>
@@ -195,7 +195,7 @@
 <a href="namespaceMdDox_1_1Doxygen.md#doxygen">Doxygen</a>
 <span class="inline-text"> or in it&apos;s own format. </span>
 <br/>
-<img src="../images/internal-diagram-3.dot.svg"/><br/>
+<img src="../images/internal-diagram-57.dot.svg"/><br/>
 <br/>
 <span class="inline-text">First, it should be supplied configuration parameters. From there it needs to load an index file. An index file should be a list of pages with links to each pages&apos; source. The information stored in an index item needs to be at least a name, an id and a reference to the source file for it. </span>
 <br/>
@@ -205,8 +205,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
 <br/>
 <a id="_singleton"></a>
 <h2>_singleton</h2>
@@ -1078,6 +1076,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1SiteBuilder.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1SiteBuilder.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

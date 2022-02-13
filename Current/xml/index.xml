@@ -313,17 +313,20 @@
   </compound>
   <compound refid="classMdDox_1_1DotWriter" kind="class"><name>MdDox::DotWriter</name>
     <member refid="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" kind="variable"><name>_root</name></member>
+    <member refid="classMdDox_1_1DotWriter_1a585c3990952f96aa81a05b6771b26f29" kind="variable"><name>_list</name></member>
     <member refid="classMdDox_1_1DotWriter_1a0449cd41bad31126d26057685a6f3b08" kind="function"><name>DotWriter</name></member>
+    <member refid="classMdDox_1_1DotWriter_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" kind="function"><name>DotWriter</name></member>
     <member refid="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" kind="function"><name>~DotWriter</name></member>
     <member refid="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" kind="function"><name>write</name></member>
   </compound>
   <compound refid="classMdDox_1_1DotWriterImpl" kind="class"><name>MdDox::DotWriterImpl</name>
     <member refid="classMdDox_1_1DotWriterImpl_1a73fea8058ddaecc761c852bc5e216e00" kind="variable"><name>_root</name></member>
+    <member refid="classMdDox_1_1DotWriterImpl_1a68bd7675b5e247f72e8a4464689c9755" kind="variable"><name>_list</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a99accd170792f9b1b166e1f4512496eb" kind="variable"><name>_stream</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a2eaa2457243e85d512e152b8deeee914" kind="variable"><name>_out</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1ac547cae26bb495a7fbec1e91bf0b07bc" kind="function"><name>writeNodeDecl</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1ab994cdc8d2eb239b5a9255c062ccb71d" kind="function"><name>lineTo</name></member>
-    <member refid="classMdDox_1_1DotWriterImpl_1a1b78778998dde201f7b92d9d06ac42b7" kind="function"><name>DotWriterImpl</name></member>
+    <member refid="classMdDox_1_1DotWriterImpl_1abd5e732ac7208d01d4a0928c7db47d89" kind="function"><name>DotWriterImpl</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1affe7c879d020d020ee1d2ca63aa63202" kind="function"><name>writeHeader</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a6ed2be7250bcc3680268432b7f05f5fa" kind="function"><name>writeFooter</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1aed5cbeb5a4b5ff7ee3ea7d4af5a4070e" kind="function"><name>writeNode</name></member>
@@ -2680,6 +2683,25 @@
     <member refid="classMdDox_1_1GenericPageWriter_1a4c5b8b8eb4b0a06d6510ed94e42078fb" kind="function"><name>GenericPageWriter</name></member>
     <member refid="classMdDox_1_1GenericPageWriter_1a1e168962c12758c06bfab9dd750e0812" kind="function"><name>~GenericPageWriter</name></member>
   </compound>
+  <compound refid="structMdDox_1_1GraphNode" kind="struct"><name>MdDox::GraphNode</name>
+    <member refid="structMdDox_1_1GraphNode_1a89c288f98b8a114ab996a2485dc98e10" kind="variable"><name>id</name></member>
+    <member refid="structMdDox_1_1GraphNode_1a30d2026b443fd118b814074df04bb830" kind="variable"><name>label</name></member>
+    <member refid="structMdDox_1_1GraphNode_1ab47cdd5fc8d96ecd4266bb355a2d9115" kind="variable"><name>children</name></member>
+  </compound>
+  <compound refid="classMdDox_1_1GraphWriter" kind="class"><name>MdDox::GraphWriter</name>
+    <member refid="classMdDox_1_1GraphWriter_1aca65b9ae63e0c5af497c9e2f360dd3ce" kind="typedef"><name>Nodes</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a6230a5162fc39c4a20e977b275384ed7" kind="variable"><name>_writer</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1acbd0d4adc90e1ce279ca8f6c98e6d750" kind="variable"><name>_stream</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a5f5f98e68f90c682983e1cffa197c979" kind="variable"><name>_out</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a5030ad6ed508d199f9e2649c79ffc0e9" kind="variable"><name>_nodes</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1aba4e85da4498565dad729c17647299cc" kind="variable"><name>_root</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1afb1a455585d539b3c81e2fe2a14b3e01" kind="variable"><name>_idMap</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a9f4ac1a229b1300fca3d344d7c445a29" kind="function"><name>visitedNode</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a3f0d761bcc67d970fcb656b0206ccb6d" kind="function"><name>writeLinks</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1a3ab774e973262b9e36441d06bbc77e68" kind="function"><name>GraphWriter</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1ab1cc32872731e90fc599d788ff80116e" kind="function"><name>~GraphWriter</name></member>
+    <member refid="classMdDox_1_1GraphWriter_1ac0fbbac8e58b01405ecd234d4fc01088" kind="function"><name>write</name></member>
+  </compound>
   <compound refid="classMdDox_1_1HtmlDocumentWriter" kind="class"><name>MdDox::HtmlDocumentWriter</name>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1add1852f55f8776f3c06795c0a9fb746b" kind="variable"><name>_sectionDepth</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" kind="function"><name>writeSection</name></member>
@@ -2808,6 +2830,10 @@
     <member refid="classMdDox_1_1ListItemVisitor_1aef796bb55636bb4586b0f18c0320e37e" kind="function"><name>visitedParameterDescription</name></member>
     <member refid="classMdDox_1_1ListItemVisitor_1af28ee599e5d8bbb6d21143f81fa4852d" kind="function"><name>ListItemVisitor</name></member>
     <member refid="classMdDox_1_1ListItemVisitor_1abec5f0899099abba75d285e9d8e51841" kind="function"><name>write</name></member>
+  </compound>
+  <compound refid="classMdDox_1_1LocalNode" kind="class"><name>MdDox::LocalNode</name>
+    <member refid="classMdDox_1_1LocalNode_1af241ca97989629cfd08b9e51f1407ba4" kind="function"><name>LocalNode</name></member>
+    <member refid="classMdDox_1_1LocalNode_1a5e9e7a4ca8f7dbe5affbc53d133fd0b6" kind="function"><name>LocalNode</name></member>
   </compound>
   <compound refid="classMdDox_1_1Location" kind="class"><name>MdDox::Location</name>
     <member refid="classMdDox_1_1Location_1aa28dcae5911b4481a3f62f4270be4545" kind="variable"><name>_header</name></member>
@@ -3294,6 +3320,7 @@
     <member refid="classMdDox_1_1Xml_1_1Node_1a108ad32d4d9d0c4ffed945a165edd244" kind="variable"><name>_parent</name></member>
     <member refid="classMdDox_1_1Xml_1_1Node_1a4a86474e6d943e38472db5c6368e8428" kind="variable"><name>_next</name></member>
     <member refid="classMdDox_1_1Xml_1_1Node_1aefcbd7fd3633a3caa86f992f694f4fca" kind="variable"><name>_children</name></member>
+    <member refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" kind="variable"><name>_autoDelete</name></member>
     <member refid="classMdDox_1_1Xml_1_1Node_1aca71abf00d43782a922933bc7d4aec2e" kind="function"><name>Node</name></member>
     <member refid="classMdDox_1_1Xml_1_1Node_1a80fdda29892a61ea96f1855312830504" kind="function"><name>Node</name></member>
     <member refid="classMdDox_1_1Xml_1_1Node_1aa4305357352d028f2ff0e31685f3ee53" kind="function"><name>~Node</name></member>
@@ -4062,6 +4089,10 @@
   <compound refid="GenericPageWriter_8cpp" kind="file"><name>GenericPageWriter.cpp</name>
   </compound>
   <compound refid="GenericPageWriter_8h" kind="file"><name>GenericPageWriter.h</name>
+  </compound>
+  <compound refid="GraphWriter_8cpp" kind="file"><name>GraphWriter.cpp</name>
+  </compound>
+  <compound refid="GraphWriter_8h" kind="file"><name>GraphWriter.h</name>
   </compound>
   <compound refid="HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
   </compound>

@@ -35,20 +35,20 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="583">
+      <node id="597">
         <label>size_t</label>
       </node>
-      <node id="582">
+      <node id="596">
         <label>MdDox::ResourceCompiler::Resource</label>
         <link refid="structMdDox_1_1ResourceCompiler_1_1Resource"/>
-        <childnode refid="583" relation="usage">
+        <childnode refid="597" relation="usage">
           <edgelabel>size</edgelabel>
         </childnode>
-        <childnode refid="584" relation="usage">
+        <childnode refid="598" relation="usage">
           <edgelabel>data</edgelabel>
         </childnode>
       </node>
-      <node id="584">
+      <node id="598">
         <label>string</label>
       </node>
     </collaborationgraph>

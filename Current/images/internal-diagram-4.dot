@@ -1,13 +1,26 @@
-
 digraph {
-    bgcolor = none;
-    rankdir = "LR";
-
-    node [shape=none fontname= "Segoe UI" fontcolor="#828EA0FF" fontsize="11"]
-    edge [arrowsize = 0.5 color="#56AA56FF"]
-
-    MemberDefQuery->DoxMemberKind;
-    MemberDefQuery->LinkedTextQuery;
-    MemberDefQuery->Brief->DescriptionQuery;
-    MemberDefQuery->Detail->DescriptionQuery;
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ WpARrGf[
+   shape    = none
+   label    = "DescriptionQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WoARrGf[
+   shape    = none
+   label    = "DescriptionWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WpARrGf->WoARrGf
 }

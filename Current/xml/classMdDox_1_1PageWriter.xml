@@ -394,7 +394,7 @@
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="171">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1af77ec6eede8f7c9872a833b8e8f2df12" compoundref="DoxygenQuery_8h" startline="138" endline="141">MdDox::Doxygen::DoxygenQuery::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="177" endline="199">MdDox::Xml::Node::getFirstChild</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="182" endline="204">MdDox::Xml::Node::getFirstChild</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="DoxygenFilter_8h" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
         <references refid="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="PageWriter_8cpp" startline="102" endline="109">writeDetails</references>
       </memberdef>
@@ -404,83 +404,83 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="533">
+      <node id="547">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
-        <childnode refid="530" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="530">
+      <node id="544">
         <label>MdDox::PageWriter</label>
         <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="531" relation="public-inheritance">
+        <childnode refid="545" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="534">
+      <node id="548">
         <label>MdDox::GenericPageWriter</label>
         <link refid="classMdDox_1_1GenericPageWriter"/>
-        <childnode refid="530" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="535">
+      <node id="549">
         <label>MdDox::NamespacePageWriter</label>
         <link refid="classMdDox_1_1NamespacePageWriter"/>
-        <childnode refid="530" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="531">
+      <node id="545">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="532">
+      <node id="546">
         <label>MdDox::ClassPageWriter</label>
         <link refid="classMdDox_1_1ClassPageWriter"/>
-        <childnode refid="530" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="539">
+      <node id="553">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="536">
+      <node id="550">
         <label>MdDox::PageWriter</label>
         <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="537" relation="public-inheritance">
+        <childnode refid="551" relation="public-inheritance">
         </childnode>
-        <childnode refid="538" relation="usage">
+        <childnode refid="552" relation="usage">
           <edgelabel>_sections</edgelabel>
         </childnode>
-        <childnode refid="539" relation="usage">
+        <childnode refid="553" relation="usage">
           <edgelabel>_writer</edgelabel>
         </childnode>
-        <childnode refid="540" relation="usage">
+        <childnode refid="554" relation="usage">
           <edgelabel>_inDir</edgelabel>
           <edgelabel>_outDir</edgelabel>
         </childnode>
-        <childnode refid="541" relation="usage">
+        <childnode refid="555" relation="usage">
           <edgelabel>_ref</edgelabel>
         </childnode>
-        <childnode refid="542" relation="usage">
+        <childnode refid="556" relation="usage">
           <edgelabel>_out</edgelabel>
         </childnode>
       </node>
-      <node id="542">
+      <node id="556">
         <label>ofstream</label>
       </node>
-      <node id="537">
+      <node id="551">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="538">
+      <node id="552">
         <label>vector&lt; Node *&gt;</label>
       </node>
-      <node id="540">
+      <node id="554">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
-      <node id="541">
+      <node id="555">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
       </node>

@@ -29,14 +29,15 @@
 </a>
 </span>
 <br/>
+<img src="../images/internal-diagram-33.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_sectiondepth" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_sectionDepth</span>
 </a>
 </span>
 <br/>
-<a id="dsk_protected_func"></a>
-<h2>DSK_PROTECTED_FUNC</h2>
+<a id="protected-methods"></a>
+<h2>Protected Methods</h2>
 <span class="icon-list-item"><a href="#writesection" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeSection</span>
 </a>
 </span>
@@ -218,10 +219,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
-<br/>
 <a id="_sectiondepth"></a>
 <h2>_sectionDepth</h2>
 <span class="inline-text">int</span>
@@ -336,10 +333,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="enddocument"></a>
 <h2>endDocument</h2>
@@ -387,8 +380,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="beginnavigationbar"></a>
 <h2>beginNavigationBar</h2>
@@ -420,8 +411,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="endnavigationbar"></a>
@@ -455,10 +444,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="enddocumentheader"></a>
 <h2>endDocumentHeader</h2>
@@ -490,8 +475,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="addsection"></a>
@@ -544,8 +527,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginsection"></a>
@@ -601,8 +582,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endsection"></a>
 <h2>endSection</h2>
@@ -634,8 +613,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginsectionbar"></a>
@@ -669,8 +646,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endsectionbar"></a>
 <h2>endSectionBar</h2>
@@ -702,8 +677,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L90" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginmethod"></a>
@@ -759,8 +732,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endmethod"></a>
 <h2>endMethod</h2>
@@ -792,8 +763,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginlist"></a>
@@ -838,8 +807,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endlist"></a>
 <h2>endList</h2>
@@ -871,8 +838,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginparagraph"></a>
@@ -906,8 +871,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endparagraph"></a>
 <h2>endParagraph</h2>
@@ -939,8 +902,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginblockquote"></a>
@@ -974,8 +935,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endblockquote"></a>
 <h2>endBlockQuote</h2>
@@ -1007,8 +966,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="beginlistitem"></a>
@@ -1042,8 +999,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="endlistitem"></a>
 <h2>endListItem</h2>
@@ -1075,8 +1030,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="paragraph"></a>
@@ -1121,8 +1074,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="inlinetext"></a>
 <h2>inlineText</h2>
@@ -1165,8 +1116,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="boldtext"></a>
@@ -1213,8 +1162,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="italictext"></a>
 <h2>italicText</h2>
@@ -1260,8 +1207,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="typewritertext"></a>
 <h2>typewriterText</h2>
@@ -1306,8 +1251,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="code"></a>
@@ -1365,10 +1308,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="image"></a>
 <h2>image</h2>
@@ -1411,8 +1350,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="listitem"></a>
@@ -1468,8 +1405,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="listicon"></a>
 <h2>listIcon</h2>
@@ -1524,8 +1459,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="keyvaluelistitem"></a>
 <h2>keyValueListItem</h2>
@@ -1561,8 +1494,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L191" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="anchor"></a>
@@ -1607,8 +1538,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="horizontalrule"></a>
 <h2>horizontalRule</h2>
@@ -1641,8 +1570,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="linebreak"></a>
 <h2>lineBreak</h2>
@@ -1674,8 +1601,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L206" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="linktext"></a>
@@ -1731,8 +1656,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="linkpage"></a>
 <h2>linkPage</h2>
@@ -1787,8 +1710,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="linkpagemember"></a>
 <h2>linkPageMember</h2>
@@ -1842,8 +1763,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L221" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="linkheading"></a>
@@ -1912,8 +1831,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="embedcontent"></a>
 <h2>embedContent</h2>
@@ -1954,8 +1871,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L231" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="embedcontentlink"></a>
@@ -2008,8 +1923,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HtmlDocumentWriter.h#L236" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="embedcontentlinktext"></a>
@@ -2074,9 +1987,19 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1HtmlDocumentWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1HtmlDocumentWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

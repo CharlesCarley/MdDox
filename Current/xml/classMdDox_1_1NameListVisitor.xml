@@ -120,25 +120,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="515">
+      <node id="529">
         <label>MdDox::NameListVisitor</label>
         <link refid="classMdDox_1_1NameListVisitor"/>
-        <childnode refid="516" relation="public-inheritance">
+        <childnode refid="530" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="516">
+      <node id="530">
         <label>MdDox::Doxygen::Visitors::ParamNameListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameListQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="517">
+      <node id="531">
         <label>MdDox::NameListVisitor</label>
         <link refid="classMdDox_1_1NameListVisitor"/>
-        <childnode refid="518" relation="public-inheritance">
+        <childnode refid="532" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="518">
+      <node id="532">
         <label>MdDox::Doxygen::Visitors::ParamNameListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameListQueryVisitor"/>
       </node>

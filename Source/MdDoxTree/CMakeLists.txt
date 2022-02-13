@@ -30,6 +30,7 @@ set(Target_HDR
 	EnumDefWriter.h
 	FunctionDefWriter.h
 	GenericPageWriter.h
+	GraphWriter.h
 	HashUtils.h
 	HtmlCommandWriter.h
 	HtmlDocumentWriter.h
@@ -71,6 +72,7 @@ set(Target_SRC
 	EnumDefWriter.cpp
 	FunctionDefWriter.cpp
 	GenericPageWriter.cpp
+	GraphWriter.cpp
 	HashUtils.cpp
 	HtmlCommandWriter.cpp
 	HtmlDocumentWriter.cpp

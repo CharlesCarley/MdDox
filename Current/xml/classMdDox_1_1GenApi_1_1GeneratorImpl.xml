@@ -221,7 +221,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="81" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="81" bodyend="87"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a42fa5011abd177fcc61f1c3878f98d97" compoundref="Database_8cpp" startline="85" endline="88">MdDox::GenApi::Database::contains</references>
         <references refid="classMdDox_1_1GenApi_1_1Simple_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" compoundref="Simple_8cpp" startline="145" endline="149">MdDox::GenApi::Simple::addEnumValue</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" compoundref="Database_8cpp" startline="34" endline="40">MdDox::GenApi::Database::value</references>
@@ -246,7 +246,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="89" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="89" bodyend="96"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a20ba24c2c34e45a7600b3aeedbcc4f55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -268,7 +268,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="98" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="98" bodyend="105"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1afc26a1db8b49c97b999761ba6527e3bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -305,7 +305,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="131" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="131" bodyend="170"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" compoundref="Database_8cpp" startline="34" endline="40">MdDox::GenApi::Database::value</references>
         <references refid="classMdDox_1_1StringUtils_1a10a2d9d4209047792b39cc2330cf646a" compoundref="String_8cpp" startline="100" endline="106">MdDox::StringUtils::toUpperFirst</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ab1a610ffab87fc4c30b58fbc6b81f778" compoundref="Group_8cpp" startline="65" endline="69">MdDox::GenApi::Group::addStringAttribute</references>
@@ -329,7 +329,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="172" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="172" bodyend="183"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
         <references refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" compoundref="Types_8h" startline="31">MdDox::GenApi::BASE_TYPE</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a42fa5011abd177fcc61f1c3878f98d97" compoundref="Database_8cpp" startline="85" endline="88">MdDox::GenApi::Database::contains</references>
         <references refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" compoundref="Types_8h" startline="32">MdDox::GenApi::SIMPLE_TYPE</references>
@@ -356,9 +356,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="185" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="185" bodyend="232"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6ca6b702ea2c5cebede8d75776b35191" compoundref="Node_8h" startline="273" endline="276">MdDox::Xml::Node::parent</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="120" endline="128">MdDox::Xml::Node::isTypeOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6ca6b702ea2c5cebede8d75776b35191" compoundref="Node_8h" startline="276" endline="279">MdDox::Xml::Node::parent</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="125" endline="133">MdDox::Xml::Node::isTypeOf</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1ab211980964d03c28db3b7fae00ddb51a" compoundref="Types_8h" startline="39">MdDox::GenApi::Element::type</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" compoundref="Types_8h" startline="48">MdDox::GenApi::Element::isUnbounded</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a46982632722937610d685465b0d929ac" compoundref="Types_8h" startline="42">MdDox::GenApi::Element::searchTerm</references>
@@ -396,7 +396,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="234" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="234" bodyend="253"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" compoundref="Types_8h" startline="45">MdDox::GenApi::Element::typeCode</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" compoundref="Types_8h" startline="50">MdDox::GenApi::Element::isValid</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a9d1801a39a637e20ecdcae46ed7a6f16" compoundref="Group_8cpp" startline="99" endline="102">MdDox::GenApi::Group::addStringTextElement</references>
@@ -442,7 +442,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="261" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="261" bodyend="284"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" compoundref="Types_8h" startline="50">MdDox::GenApi::Element::isValid</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" compoundref="Types_8h" startline="45">MdDox::GenApi::Element::typeCode</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" compoundref="Types_8h" startline="48">MdDox::GenApi::Element::isUnbounded</references>
@@ -519,7 +519,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="323" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="323" bodyend="332"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1adf53e0f5d17a36a5eac5a3243e931850" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -541,10 +541,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="334" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="334" bodyend="366"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a267e27ac456f08ff7f934778800962b8" compoundref="Database_8cpp" startline="42" endline="48">MdDox::GenApi::Database::object</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ab7373a29323cc8420720462ae2f55e2e" compoundref="Group_8cpp" startline="117" endline="131">MdDox::GenApi::Group::addGroup</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab412278d4e2bdfade1e9fa45fd6768c2" compoundref="Node_8cpp" startline="66" endline="72">MdDox::Xml::Node::at</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab412278d4e2bdfade1e9fa45fd6768c2" compoundref="Node_8cpp" startline="71" endline="77">MdDox::Xml::Node::at</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1aa35ad9868c6006b40a015fe24c09576c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -566,7 +566,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="368" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="368" bodyend="375"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a12c9811f3ba3a9a5bf55edb8b4932a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -631,7 +631,7 @@
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="427" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="427" bodyend="434"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">MdDox::Xml::Node::name</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="281" endline="284">MdDox::Xml::Node::name</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a976600e02e06e65a96f5f7fc260bbe7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -649,7 +649,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="436" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="436" bodyend="468"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a85b93f8db61500ba827db235c6cf647b" compoundref="Database_8cpp" startline="50" endline="55">MdDox::GenApi::Database::insert</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a1b451cd9d515f47c62849cda7b8c6321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -681,7 +681,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="493" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="493" bodyend="504"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

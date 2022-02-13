@@ -139,28 +139,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="473">
+      <node id="482">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="472">
+      <node id="481">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="473" relation="public-inheritance">
+        <childnode refid="482" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="475">
+      <node id="484">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="474">
+      <node id="483">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="475" relation="public-inheritance">
+        <childnode refid="484" relation="public-inheritance">
         </childnode>
-        <childnode refid="476" relation="usage">
+        <childnode refid="485" relation="usage">
           <edgelabel>dirPaths</edgelabel>
           <edgelabel>directories</edgelabel>
           <edgelabel>namespaces</edgelabel>
@@ -168,7 +168,7 @@
           <edgelabel>pages</edgelabel>
         </childnode>
       </node>
-      <node id="476">
+      <node id="485">
         <label>vector&lt; Reference &gt;</label>
       </node>
     </collaborationgraph>

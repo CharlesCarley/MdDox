@@ -447,7 +447,7 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="DoxygenFilter_8cpp" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
         <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="85" endline="101">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="189" endline="239">MdDox::IndexPageWriter::exec</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="185">outputDir</references>
       </memberdef>
@@ -680,19 +680,19 @@ digraph {
  <linebreak/>
 </para><para>First, it should be supplied configuration parameters. From there it needs to load an index file. An index file should be a list of pages with links to each pages&apos; source. The information stored in an index item needs to be at least a name, an id and a reference to the source file for it. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="620">
+      <node id="634">
         <label>string</label>
       </node>
-      <node id="619">
+      <node id="633">
         <label>vector&lt; std::string &gt;</label>
       </node>
-      <node id="618">
+      <node id="632">
         <label>MdDox::SiteBuilder</label>
         <link refid="classMdDox_1_1SiteBuilder"/>
-        <childnode refid="619" relation="usage">
+        <childnode refid="633" relation="usage">
           <edgelabel>searchDirs</edgelabel>
         </childnode>
-        <childnode refid="620" relation="usage">
+        <childnode refid="634" relation="usage">
           <edgelabel>navNamespaceName</edgelabel>
           <edgelabel>styleSheet</edgelabel>
           <edgelabel>inputDir</edgelabel>
@@ -705,14 +705,14 @@ digraph {
           <edgelabel>projectBrief</edgelabel>
           <edgelabel>...</edgelabel>
         </childnode>
-        <childnode refid="621" relation="usage">
+        <childnode refid="635" relation="usage">
           <edgelabel>hideProtected</edgelabel>
           <edgelabel>skipUndocumented</edgelabel>
           <edgelabel>hidePrivate</edgelabel>
           <edgelabel>showDebug</edgelabel>
         </childnode>
       </node>
-      <node id="621">
+      <node id="635">
         <label>bool</label>
       </node>
     </collaborationgraph>

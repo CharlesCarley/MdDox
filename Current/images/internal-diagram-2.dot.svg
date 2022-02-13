@@ -9,11 +9,11 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 312)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-312 505,-312 505,4 -4,4"/>
-<g id="clust2" class="cluster"><title>cluster_b</title>
-<polygon fill="none" stroke="none" points="144.5,-8 144.5,-60 233.5,-60 233.5,-8 144.5,-8"/>
-</g>
 <g id="clust1" class="cluster"><title>cluster_a</title>
 <polygon fill="none" stroke="none" points="8,-68 8,-300 493,-300 493,-68 8,-68"/>
+</g>
+<g id="clust2" class="cluster"><title>cluster_b</title>
+<polygon fill="none" stroke="none" points="144.5,-8 144.5,-60 233.5,-60 233.5,-8 144.5,-8"/>
 </g>
 <!-- Application -->
 <g id="node1" class="node"><title>Application</title>

@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="134" bodyend="137"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.cpp" bodystart="60" bodyend="81"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a6116f8994890f7ed50600c0dfab2d192" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.cpp" bodystart="55" bodyend="58"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParBlockQuery_1ab85d49c4ebfedd1542eea86dd3c40e62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="110" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.cpp" bodystart="29" bodyend="48"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a1df60e9a1afc62b55c16bfc5dd3620f8" compoundref="ParBlockQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a73ae6cd099de3978c75d3be849ba9026" compoundref="ParBlockQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedParagraph</references>

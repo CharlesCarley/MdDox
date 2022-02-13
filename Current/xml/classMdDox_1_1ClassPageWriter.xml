@@ -59,7 +59,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="47" bodyend="59"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="54" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a415ff5d1ce6e51b9b191dd323f77f3af" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -85,7 +85,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="61" bodyend="73"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="68" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1afc0097c6bfabd17613398f52bf810d7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -111,7 +111,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="75" bodyend="79"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="82" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1aef006e533167b0b56e3fbb9b0c141ae1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -137,7 +137,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="81" bodyend="85"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="88" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a4aa91fc8cbe34bb5eaa9de700b6d3900" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -163,7 +163,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="87" bodyend="91"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="94" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a01b6644a8c73ff5901fe8aa921be378c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -189,7 +189,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="93" bodyend="97"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="100" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1ae844ae18453b21220e8b1d7d9bdedcde" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -215,7 +215,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="99" bodyend="103"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="106" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1ab09afee50cf5ad20c82d110593ec19f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -241,7 +241,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="105" bodyend="109"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="112" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1addd339c6b74e27b2ee537474a3d3e7b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -267,7 +267,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="111" bodyend="115"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="118" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1adaaae97bcba75233e4c2d302926d76b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -293,7 +293,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="117" bodyend="121"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="124" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a9f313f16a5105f0bff0f09b6ffdf74a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -319,7 +319,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="123" bodyend="127"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="130" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a36651f0a2dd4f8a6abaf38ef277bc7e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -345,7 +345,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="129" bodyend="133"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="136" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a113b00d9671b56d5f239d7b9b5726683" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -371,7 +371,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="135" bodyend="139"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="142" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1ac7811400097404d8d21063422b48dd8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -397,7 +397,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="141" bodyend="145"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="148" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a5b80da8a8547f5b15966d08a997eff9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -423,7 +423,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="147" bodyend="151"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="154" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a0dd7ffa920914e52007d3216a3b65cf2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -449,7 +449,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="70" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="153" bodyend="157"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="70" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="160" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a5d3fc55feded32356046c2fdfe6711de" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -475,7 +475,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="72" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="159" bodyend="163"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="72" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="166" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a956e9403f022d33d69a6ac857c03fe5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -501,7 +501,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="74" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="165" bodyend="169"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="74" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="172" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1acb373e835ec95dd0117bc38a61073dbe" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -527,7 +527,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="42" bodyend="45"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1ae70d5a14e9f16b0c1d471a6058cff704" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -553,7 +553,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="78" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="171" bodyend="175"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="78" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="178" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a8d7c06dcdc567be33ac5fd941b361753" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -579,7 +579,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="80" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="177" bodyend="181"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="80" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="184" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a4a1cb00a84c2006d7a21bf7be2eb498b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -597,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="193" bodyend="210"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="200" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -615,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="212" bodyend="216"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="220" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a5a812fc72f9826de858b822e6ea8d308" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -633,7 +633,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="183" bodyend="186"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="190" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1a0bc06fa770308bc08c13c200cb0793dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -651,7 +651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="188" bodyend="191"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="195" bodyend="198"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -678,7 +678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="35" bodyend="40"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="42" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ClassPageWriter_1aa8592f0f4eca3dad3f1ff9794256426e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

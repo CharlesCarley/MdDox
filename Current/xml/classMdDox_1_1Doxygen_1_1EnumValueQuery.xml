@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="202" bodyend="205"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a46e6088c369a058a805390da66b0c292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="144" bodyend="165"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a650146680c761a70b6b09bec0b213319" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="129" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="139" bodyend="142"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1ada42d7ba0ca446992a75c4e40e7dad46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="131" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="30" bodyend="58"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9b145b645b9ac842de9b5de18a6b7690" compoundref="EnumValueQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a2667a88d3674c9409b49b7c2ed201120" compoundref="EnumValueQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedInitializer</references>
@@ -196,7 +196,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="66" bodyend="71"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a6195dabf4917f7c9ca2bea39fa8f3142" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -216,7 +216,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="145" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="59" bodyend="64"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a579306992ec7969b1a98f509f0a9836f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -237,8 +237,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="73" bodyend="81"/>
         <references refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61ed0208209c31cc804ec9c398b48074" compoundref="EnumValueQuery_8h" startline="197" endline="200">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a2fb82bf8968e4b8e8d95df637446ace0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -257,7 +257,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="157" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="83" bodyend="92"/>
         <references refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61ed0208209c31cc804ec9c398b48074" compoundref="EnumValueQuery_8h" startline="197" endline="200">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a3292b2495f4bc715640f492ab5063399" compoundref="LinkedTextQuery_8h" startline="124" endline="127">MdDox::Doxygen::LinkedTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a65d6359fbf2607c89a3b6421da057a81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -290,7 +290,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="167" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="101" bodyend="110"/>
         <references refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61ed0208209c31cc804ec9c398b48074" compoundref="EnumValueQuery_8h" startline="197" endline="200">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a1f8dad836b756d88f26462ecfb76d347" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -323,7 +323,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="177" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="119" bodyend="128"/>
         <references refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61ed0208209c31cc804ec9c398b48074" compoundref="EnumValueQuery_8h" startline="197" endline="200">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a9460525b022c4afedd9c93a07f47967c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

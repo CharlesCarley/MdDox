@@ -237,24 +237,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="626">
+      <node id="640">
         <label>MdDox::TableOfContents</label>
         <link refid="classMdDox_1_1TableOfContents"/>
-        <childnode refid="627" relation="public-inheritance">
+        <childnode refid="641" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="627">
+      <node id="641">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="628">
+      <node id="642">
         <label>MdDox::TableOfContents</label>
         <link refid="classMdDox_1_1TableOfContents"/>
-        <childnode refid="629" relation="public-inheritance">
+        <childnode refid="643" relation="public-inheritance">
         </childnode>
-        <childnode refid="630" relation="usage">
+        <childnode refid="644" relation="usage">
           <edgelabel>hasVariables</edgelabel>
           <edgelabel>hasNamespaces</edgelabel>
           <edgelabel>hasFunctions</edgelabel>
@@ -263,11 +263,11 @@
           <edgelabel>hasEnums</edgelabel>
         </childnode>
       </node>
-      <node id="629">
+      <node id="643">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="630">
+      <node id="644">
         <label>bool</label>
       </node>
     </collaborationgraph>

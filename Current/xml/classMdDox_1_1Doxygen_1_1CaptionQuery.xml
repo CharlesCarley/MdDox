@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="155" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="344" bodyend="347"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1af1d94053fd3882fe16f548dc58d1c23e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="170" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="365" bodyend="386"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6f6cec247c3abe52abfac756bdff346c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="176" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="360" bodyend="363"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1a82e3afd1f2d53631221e3b9df39d8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="178" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="34" bodyend="95"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a4db20846d4fb8445f3f8ea5bb2d0b61c" compoundref="CaptionQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a30bd56ab2f22f080fddbe126b32687c1" compoundref="CaptionQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedULink</references>
@@ -212,8 +212,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="184" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="96" bodyend="104"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a7bbc39e82e709285fcbae71580e45e31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -232,7 +232,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="189" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="106" bodyend="115"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a50121825f1a47d0918ff82f367528954" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -265,7 +265,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="199" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="124" bodyend="133"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a2b601b9aabb27ec83db75d35ac2bbe9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -298,7 +298,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="209" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="142" bodyend="151"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a07379a1c9687efb41430f8e8d4b0fb40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -331,7 +331,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="219" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="160" bodyend="169"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aad97ee40d4d09cba64c369ad46d72a8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -364,7 +364,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="229" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="178" bodyend="187"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4af9abf0becf5a45e9dfeaae6974fa57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -397,7 +397,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="239" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="196" bodyend="205"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a168025efb4750c1f6ec9ed169b3c5bab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -430,7 +430,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="249" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="214" bodyend="223"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a30a003d5be74122c81168a45432c3994" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -463,7 +463,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="259" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="232" bodyend="241"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4f541952da656bd793caf2befc0ca845" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -496,7 +496,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="269" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="250" bodyend="259"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1ad2d5fb8b8ab966bc7f434c7ab5eba99e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -529,7 +529,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="279" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="268" bodyend="277"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a234eb232cd5d5c9a04b817397b63ac3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -562,7 +562,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="286" bodyend="295"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">MdDox::Doxygen::ParaQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a53e916bd687929923d6bb082492dd442" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -595,7 +595,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="304" bodyend="313"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a48417df2928925f5a13668966d49e619" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -628,7 +628,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="322" bodyend="331"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8b92572a1078de687cbe8a9e449b1d28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -661,7 +661,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CaptionQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="340" bodyend="349"/>
         <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1afe950e9057ee51ca64458789a68f3c8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

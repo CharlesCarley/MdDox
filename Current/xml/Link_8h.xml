@@ -4,7 +4,9 @@
     <compoundname>Link.h</compoundname>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="Link_8cpp" local="yes">Source/MdDoxTree/Link.cpp</includedby>
@@ -13,96 +15,106 @@
     <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="886">
+      <node id="963">
         <label>Utils/Path.h</label>
-        <childnode refid="887" relation="include">
+        <childnode refid="964" relation="include">
         </childnode>
       </node>
-      <node id="891">
+      <node id="968">
         <label>string</label>
       </node>
-      <node id="889">
+      <node id="966">
         <label>fstream</label>
       </node>
-      <node id="887">
+      <node id="964">
         <label>Utils/String.h</label>
-        <childnode refid="888" relation="include">
+        <childnode refid="965" relation="include">
         </childnode>
-        <childnode refid="889" relation="include">
+        <childnode refid="966" relation="include">
         </childnode>
-        <childnode refid="890" relation="include">
+        <childnode refid="967" relation="include">
         </childnode>
-        <childnode refid="891" relation="include">
+        <childnode refid="968" relation="include">
         </childnode>
-        <childnode refid="892" relation="include">
+        <childnode refid="969" relation="include">
         </childnode>
-        <childnode refid="893" relation="include">
+        <childnode refid="970" relation="include">
         </childnode>
       </node>
-      <node id="893">
+      <node id="970">
         <label>vector</label>
       </node>
-      <node id="890">
+      <node id="967">
         <label>sstream</label>
       </node>
-      <node id="885">
+      <node id="962">
         <label>Source/MdDoxTree/Link.h</label>
         <link refid="Link_8h"/>
-        <childnode refid="886" relation="include">
+        <childnode refid="963" relation="include">
         </childnode>
-        <childnode refid="887" relation="include">
+        <childnode refid="964" relation="include">
         </childnode>
       </node>
-      <node id="888">
+      <node id="965">
         <label>deque</label>
       </node>
-      <node id="892">
+      <node id="969">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="899">
+      <node id="978">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="902">
+      <node id="981">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="900">
+      <node id="974">
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      </node>
+      <node id="979">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="901">
+      <node id="980">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="895">
+      <node id="973">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="896">
+      <node id="975">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="894">
+      <node id="972">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="971">
         <label>Source/MdDoxTree/Link.h</label>
         <link refid="Link_8h"/>
-        <childnode refid="895" relation="include">
+        <childnode refid="972" relation="include">
         </childnode>
-        <childnode refid="896" relation="include">
+        <childnode refid="973" relation="include">
         </childnode>
-        <childnode refid="897" relation="include">
+        <childnode refid="974" relation="include">
         </childnode>
-        <childnode refid="898" relation="include">
+        <childnode refid="975" relation="include">
         </childnode>
-        <childnode refid="899" relation="include">
+        <childnode refid="976" relation="include">
         </childnode>
-        <childnode refid="900" relation="include">
+        <childnode refid="977" relation="include">
         </childnode>
-        <childnode refid="901" relation="include">
+        <childnode refid="978" relation="include">
         </childnode>
-        <childnode refid="902" relation="include">
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
         </childnode>
       </node>
-      <node id="898">
+      <node id="977">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="897">
+      <node id="976">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

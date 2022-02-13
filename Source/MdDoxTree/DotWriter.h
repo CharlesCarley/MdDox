@@ -30,9 +30,11 @@ namespace MdDox
     {
     private:
 	    Xml::Node* _root;
+        Xml::NodeArray* _list;
 
     public:
         explicit DotWriter(Xml::Node* root);
+        explicit DotWriter(Xml::NodeArray *list);
 
         ~DotWriter() = default;
 

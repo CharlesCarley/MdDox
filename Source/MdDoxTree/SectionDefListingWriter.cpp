@@ -97,6 +97,21 @@ namespace MdDox
         case Doxygen::DSK_PUBLIC_TYPE:
             _writer->addSection(_out, "Public Typedefs", _depth);
             break;
+        case Doxygen::DSK_PROTECTED_FUNC:
+            _writer->addSection(_out, "Protected Methods", _depth);
+            break;
+        case Doxygen::DSK_PROTECTED_STATIC_ATTRIB:
+            _writer->addSection(_out, "Protected Static Members", _depth);
+            break;
+        case Doxygen::DSK_PROTECTED_ATTRIB:
+            _writer->addSection(_out, "Protected Members", _depth);
+            break;
+        case Doxygen::DSK_PUBLIC_STATIC_ATTRIB:
+            _writer->addSection(_out, "Public Static Members", _depth);
+            break;
+        case Doxygen::DSK_PRIVATE_STATIC_ATTRIB:
+            _writer->addSection(_out, "Private Static Members", _depth);
+            break;
         case Doxygen::DSK_USER_DEFINED:
             _writer->addSection(_out, "DSK_USER_DEFINED", _depth);
             break;
@@ -127,26 +142,14 @@ namespace MdDox
         case Doxygen::DSK_PACKAGE_FUNC:
             _writer->addSection(_out, "DSK_PACKAGE_FUNC", _depth);
             break;
-        case Doxygen::DSK_PUBLIC_STATIC_ATTRIB:
-            _writer->addSection(_out, "DSK_PUBLIC_STATIC_ATTRIB", _depth);
-            break;
         case Doxygen::DSK_RELATED:
             _writer->addSection(_out, "DSK_RELATED", _depth);
             break;
         case Doxygen::DSK_PROTECTED_TYPE:
             _writer->addSection(_out, "DSK_PROTECTED_TYPE", _depth);
             break;
-        case Doxygen::DSK_PROTECTED_FUNC:
-            _writer->addSection(_out, "DSK_PROTECTED_FUNC", _depth);
-            break;
-        case Doxygen::DSK_PROTECTED_ATTRIB:
-            _writer->addSection(_out, "DSK_PROTECTED_ATTRIB", _depth);
-            break;
         case Doxygen::DSK_PROTECTED_SLOT:
             _writer->addSection(_out, "DSK_PROTECTED_SLOT", _depth);
-            break;
-        case Doxygen::DSK_PROTECTED_STATIC_ATTRIB:
-            _writer->addSection(_out, "DSK_PROTECTED_STATIC_ATTRIB", _depth);
             break;
         case Doxygen::DSK_DEFINE:
             _writer->addSection(_out, "DSK_DEFINE", _depth);
@@ -159,9 +162,6 @@ namespace MdDox
             break;
         case Doxygen::DSK_PRIVATE_TYPE:
             _writer->addSection(_out, "DSK_PRIVATE_TYPE", _depth);
-            break;
-        case Doxygen::DSK_PRIVATE_STATIC_ATTRIB:
-            _writer->addSection(_out, "DSK_PRIVATE_STATIC_ATTRIB", _depth);
             break;
         case Doxygen::DSK_FRIEND:
             _writer->addSection(_out, "DSK_FRIEND", _depth);

@@ -1,0 +1,44 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ WLtarGf[
+   shape    = none
+   label    = "Writer"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WQtarGf[
+   shape    = none
+   label    = "Object"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WBtarGf[
+   shape    = none
+   label    = "Group"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WddarGf[
+   shape    = none
+   label    = "Complex"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WBtarGf->WddarGf
+ WQtarGf->WBtarGf
+ WLtarGf->WQtarGf
+}

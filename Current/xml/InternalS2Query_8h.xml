@@ -6,111 +6,111 @@
     <includedby refid="InternalS2Query_8cpp" local="yes">Tools/Doxygen/InternalS2Query.cpp</includedby>
     <includedby refid="Sect2Query_8cpp" local="yes">Tools/Doxygen/Sect2Query.cpp</includedby>
     <incdepgraph>
-      <node id="6491">
+      <node id="6600">
         <label>Utils/Console.h</label>
-        <childnode refid="6480" relation="include">
+        <childnode refid="6589" relation="include">
         </childnode>
       </node>
-      <node id="6478">
+      <node id="6587">
         <label>functional</label>
       </node>
-      <node id="6487">
+      <node id="6596">
         <label>Utils/Exception.h</label>
-        <childnode refid="6488" relation="include">
+        <childnode refid="6597" relation="include">
         </childnode>
-        <childnode refid="6489" relation="include">
+        <childnode refid="6598" relation="include">
         </childnode>
-        <childnode refid="6490" relation="include">
+        <childnode refid="6599" relation="include">
         </childnode>
-        <childnode refid="6491" relation="include">
+        <childnode refid="6600" relation="include">
         </childnode>
-        <childnode refid="6480" relation="include">
+        <childnode refid="6589" relation="include">
         </childnode>
       </node>
-      <node id="6489">
+      <node id="6598">
         <label>stdexcept</label>
       </node>
-      <node id="6484">
+      <node id="6593">
         <label>string</label>
       </node>
-      <node id="6477">
+      <node id="6586">
         <label>Doxygen.h</label>
-        <childnode refid="6478" relation="include">
+        <childnode refid="6587" relation="include">
         </childnode>
-        <childnode refid="6479" relation="include">
+        <childnode refid="6588" relation="include">
         </childnode>
-        <childnode refid="6480" relation="include">
+        <childnode refid="6589" relation="include">
         </childnode>
-        <childnode refid="6486" relation="include">
+        <childnode refid="6595" relation="include">
         </childnode>
-        <childnode refid="6487" relation="include">
+        <childnode refid="6596" relation="include">
         </childnode>
       </node>
-      <node id="6488">
+      <node id="6597">
         <label>exception</label>
       </node>
-      <node id="6482">
+      <node id="6591">
         <label>fstream</label>
       </node>
-      <node id="6486">
+      <node id="6595">
         <label>Xml/Node.h</label>
-        <childnode refid="6478" relation="include">
+        <childnode refid="6587" relation="include">
         </childnode>
-        <childnode refid="6479" relation="include">
+        <childnode refid="6588" relation="include">
         </childnode>
-        <childnode refid="6480" relation="include">
+        <childnode refid="6589" relation="include">
         </childnode>
       </node>
-      <node id="6480">
+      <node id="6589">
         <label>Utils/String.h</label>
-        <childnode refid="6481" relation="include">
+        <childnode refid="6590" relation="include">
         </childnode>
-        <childnode refid="6482" relation="include">
+        <childnode refid="6591" relation="include">
         </childnode>
-        <childnode refid="6483" relation="include">
+        <childnode refid="6592" relation="include">
         </childnode>
-        <childnode refid="6484" relation="include">
+        <childnode refid="6593" relation="include">
         </childnode>
-        <childnode refid="6479" relation="include">
+        <childnode refid="6588" relation="include">
         </childnode>
-        <childnode refid="6485" relation="include">
+        <childnode refid="6594" relation="include">
         </childnode>
       </node>
-      <node id="6485">
+      <node id="6594">
         <label>vector</label>
       </node>
-      <node id="6490">
+      <node id="6599">
         <label>utility</label>
       </node>
-      <node id="6483">
+      <node id="6592">
         <label>sstream</label>
       </node>
-      <node id="6481">
+      <node id="6590">
         <label>deque</label>
       </node>
-      <node id="6479">
+      <node id="6588">
         <label>unordered_map</label>
       </node>
-      <node id="6476">
+      <node id="6585">
         <label>Tools/Doxygen/InternalS2Query.h</label>
         <link refid="InternalS2Query_8h"/>
-        <childnode refid="6477" relation="include">
+        <childnode refid="6586" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6494">
+      <node id="6603">
         <label>Tools/Doxygen/Sect2Query.cpp</label>
       </node>
-      <node id="6492">
+      <node id="6601">
         <label>Tools/Doxygen/InternalS2Query.h</label>
         <link refid="InternalS2Query_8h"/>
-        <childnode refid="6493" relation="include">
+        <childnode refid="6602" relation="include">
         </childnode>
-        <childnode refid="6494" relation="include">
+        <childnode refid="6603" relation="include">
         </childnode>
       </node>
-      <node id="6493">
+      <node id="6602">
         <label>Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
     </invincdepgraph>

@@ -7,64 +7,64 @@
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="680">
+      <node id="756">
         <label>string</label>
       </node>
-      <node id="678">
+      <node id="754">
         <label>fstream</label>
       </node>
-      <node id="676">
+      <node id="752">
         <label>Utils/String.h</label>
-        <childnode refid="677" relation="include">
+        <childnode refid="753" relation="include">
         </childnode>
-        <childnode refid="678" relation="include">
+        <childnode refid="754" relation="include">
         </childnode>
-        <childnode refid="679" relation="include">
+        <childnode refid="755" relation="include">
         </childnode>
-        <childnode refid="680" relation="include">
+        <childnode refid="756" relation="include">
         </childnode>
-        <childnode refid="681" relation="include">
+        <childnode refid="757" relation="include">
         </childnode>
-        <childnode refid="682" relation="include">
+        <childnode refid="758" relation="include">
         </childnode>
       </node>
-      <node id="682">
+      <node id="758">
         <label>vector</label>
       </node>
-      <node id="679">
+      <node id="755">
         <label>sstream</label>
       </node>
-      <node id="677">
+      <node id="753">
         <label>deque</label>
       </node>
-      <node id="681">
+      <node id="757">
         <label>unordered_map</label>
       </node>
-      <node id="675">
+      <node id="751">
         <label>Source/MdDoxTree/HtmlCommandWriter.h</label>
         <link refid="HtmlCommandWriter_8h"/>
-        <childnode refid="676" relation="include">
+        <childnode refid="752" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="684">
+      <node id="760">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="685">
+      <node id="761">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="686">
+      <node id="762">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="683">
+      <node id="759">
         <label>Source/MdDoxTree/HtmlCommandWriter.h</label>
         <link refid="HtmlCommandWriter_8h"/>
-        <childnode refid="684" relation="include">
+        <childnode refid="760" relation="include">
         </childnode>
-        <childnode refid="685" relation="include">
+        <childnode refid="761" relation="include">
         </childnode>
-        <childnode refid="686" relation="include">
+        <childnode refid="762" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -1,0 +1,53 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ Du9wfGf[
+   shape    = none
+   label    = "MemberDefQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qKJwfGf[
+   shape    = none
+   label    = "MemberDefWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qo9wfGf[
+   shape    = none
+   label    = "MemberDefListingWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DiLwfGf[
+   shape    = none
+   label    = "FunctionDefWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DapwfGf[
+   shape    = none
+   label    = "EnumDefWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ Du9wfGf->qKJwfGf
+ Du9wfGf->qo9wfGf
+ Du9wfGf->DiLwfGf
+ Du9wfGf->DapwfGf
+}

@@ -58,50 +58,50 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="437">
+      <node id="438">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="433" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="434">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="classMdDox_1_1Xml_1_1Writer"/>
-      </node>
-      <node id="433">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="classMdDox_1_1GenApi_1_1Object"/>
         <childnode refid="434" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="436">
-        <label>MdDox::GenApi::Complex</label>
-        <link refid="classMdDox_1_1GenApi_1_1Complex"/>
+      <node id="435">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="classMdDox_1_1Xml_1_1Writer"/>
+      </node>
+      <node id="434">
+        <label>MdDox::GenApi::Object</label>
+        <link refid="classMdDox_1_1GenApi_1_1Object"/>
         <childnode refid="435" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="435">
+      <node id="437">
+        <label>MdDox::GenApi::Complex</label>
+        <link refid="classMdDox_1_1GenApi_1_1Complex"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
         <label>MdDox::GenApi::Group</label>
         <link refid="classMdDox_1_1GenApi_1_1Group"/>
-        <childnode refid="433" relation="public-inheritance">
+        <childnode refid="434" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="439">
+      <node id="440">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="438">
+      <node id="439">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="439" relation="public-inheritance">
+        <childnode refid="440" relation="public-inheritance">
         </childnode>
-        <childnode refid="440" relation="usage">
+        <childnode refid="441" relation="usage">
           <edgelabel>_name</edgelabel>
         </childnode>
       </node>
-      <node id="440">
+      <node id="441">
         <label>string</label>
       </node>
     </collaborationgraph>

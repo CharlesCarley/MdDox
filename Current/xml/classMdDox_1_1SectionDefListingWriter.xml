@@ -225,25 +225,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="609">
+      <node id="623">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="610" relation="public-inheritance">
+        <childnode refid="624" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="610">
+      <node id="624">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="611">
+      <node id="625">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="612" relation="public-inheritance">
+        <childnode refid="626" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="612">
+      <node id="626">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>

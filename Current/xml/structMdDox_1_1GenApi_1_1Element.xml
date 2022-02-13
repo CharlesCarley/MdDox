@@ -173,41 +173,41 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="411">
+      <node id="412">
         <label>int32_t</label>
       </node>
-      <node id="414">
+      <node id="415">
         <label>string</label>
       </node>
-      <node id="412">
+      <node id="413">
         <label>uint32_t</label>
       </node>
-      <node id="413">
+      <node id="414">
         <label>bool</label>
       </node>
-      <node id="410">
+      <node id="411">
         <label>int64_t</label>
       </node>
-      <node id="409">
+      <node id="410">
         <label>MdDox::GenApi::Element</label>
         <link refid="structMdDox_1_1GenApi_1_1Element"/>
-        <childnode refid="410" relation="usage">
+        <childnode refid="411" relation="usage">
           <edgelabel>typeCode</edgelabel>
         </childnode>
-        <childnode refid="411" relation="usage">
+        <childnode refid="412" relation="usage">
           <edgelabel>type</edgelabel>
         </childnode>
-        <childnode refid="412" relation="usage">
+        <childnode refid="413" relation="usage">
           <edgelabel>maxOccurs</edgelabel>
           <edgelabel>minOccurs</edgelabel>
         </childnode>
-        <childnode refid="413" relation="usage">
+        <childnode refid="414" relation="usage">
           <edgelabel>isRequired</edgelabel>
           <edgelabel>isUnbounded</edgelabel>
           <edgelabel>isSingle</edgelabel>
           <edgelabel>isValid</edgelabel>
         </childnode>
-        <childnode refid="414" relation="usage">
+        <childnode refid="415" relation="usage">
           <edgelabel>genName</edgelabel>
           <edgelabel>searchTerm</edgelabel>
           <edgelabel>genType</edgelabel>

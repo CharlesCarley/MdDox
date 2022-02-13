@@ -32,7 +32,8 @@ namespace MdDox::Xml
     Node::Node() :
         _typeCode(-1),
         _parent(nullptr),
-        _next(nullptr)
+        _next(nullptr),
+        _autoDelete(true)
     {
     }
 
@@ -40,14 +41,18 @@ namespace MdDox::Xml
         _name(std::move(name)),
         _typeCode(-1),
         _parent(nullptr),
-        _next(nullptr)
+        _next(nullptr),
+        _autoDelete(true)
     {
     }
 
     Node::~Node()
     {
-        for (Node* child : _children)
-            delete child;
+        if (_autoDelete)
+        {
+            for (Node* child : _children)
+                delete child;
+        }
     }
 
     void Node::addChild(Node* child)

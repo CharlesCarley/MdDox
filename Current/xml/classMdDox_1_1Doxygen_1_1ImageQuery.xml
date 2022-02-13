@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="160" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="380" bodyend="383"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="175" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="393" bodyend="414"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a675caa078013e52dd6965e9787f68fc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="181" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="388" bodyend="391"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a6aeae9de0e3272bcb921d4574c76e990" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="183" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="34" bodyend="95"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a68caf298541fb69865303602ea1513ce" compoundref="ImageQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a4d89863686398e326e4a9dad98bea81b" compoundref="ImageQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedULink</references>
@@ -207,7 +207,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="189" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="117" bodyend="122"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxImageKind_1a3f9dbedc3ecced5cd670164796b78e14" compoundref="DoxImageKind_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxImageKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a794c4612b07d1632feb24d838af3d3cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -227,7 +227,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="197" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="96" bodyend="101"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a89f674cf8ce9450571f0107dbde14db3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -247,7 +247,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="205" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="103" bodyend="108"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a7edd8ca5a79cd2f715e83002caf1484f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -267,7 +267,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="213" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="110" bodyend="115"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1ae722a388541b810da2584ec5a9b5e5cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -288,8 +288,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="220" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="124" bodyend="132"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a2051dd33fb3a520be1eaeb7c112bcb4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -308,7 +308,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="225" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="134" bodyend="143"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a1d9e2e255036ad34d9c02bd4d96f5487" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -341,7 +341,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="235" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="152" bodyend="161"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a11332452b795135a380ec68a122e0892" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -374,7 +374,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="245" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="170" bodyend="179"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a106d2711c15b8a742c827f5ffbecc2f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -407,7 +407,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="255" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="188" bodyend="197"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1ac9d931ff9aa86f011eb41f2e915669b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -440,7 +440,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="265" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="206" bodyend="215"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a3d3d9fe4b950aa98f89ead141aabfd4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -473,7 +473,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="275" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="224" bodyend="233"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a4b046b7be188929c4b5c64af160e4bd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -506,7 +506,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="285" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="242" bodyend="251"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a44b45d557b91c168dd130fe39af44592" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -539,7 +539,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="295" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="260" bodyend="269"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1abcb51f86a5926edaa316d58d9badbfe7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -572,7 +572,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="305" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="278" bodyend="287"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1ab9ca8bfabc51bef7f4b40bfe70702b50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -605,7 +605,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="315" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="296" bodyend="305"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1afb7a8ec963d4a131a1e71e92463704c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -638,7 +638,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="325" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="314" bodyend="323"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">MdDox::Doxygen::ParaQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a8211709773ae92e15e427e2a7c64ff72" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -671,7 +671,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="335" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="332" bodyend="341"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a6116af4ef3bc12fbbe292c728892a1cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -704,7 +704,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="345" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="350" bodyend="359"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1a501165721f8f4a682c80cb4a73001c6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -737,7 +737,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ImageQuery.h" line="355" column="1" bodyfile="Tools/Doxygen/ImageQuery.cpp" bodystart="368" bodyend="377"/>
         <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" compoundref="ImageQuery_8h" startline="375" endline="378">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ImageQuery_1af36eee59697123dbb2b283af9a7d7edf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

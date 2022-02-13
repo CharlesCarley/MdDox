@@ -20,9 +20,16 @@
 -------------------------------------------------------------------------------
 */
 #include "ClassPageWriter.h"
+#include "DotWriter.h"
+#include "Doxygen/ChildNodeQuery.h"
 #include "Doxygen/CompoundRefQuery.h"
+#include "Doxygen/GraphQuery.h"
 #include "Doxygen/IncQuery.h"
+#include "Doxygen/LinkQuery.h"
 #include "Doxygen/LocationQuery.h"
+#include "Doxygen/NodeQuery.h"
+#include "GraphWriter.h"
+#include "Link.h"
 #include "LocationWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/Reference.h"
@@ -140,14 +147,14 @@ namespace MdDox
 
     void ClassPageWriter::visitedInheritanceGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInheritanceGraph");
-        _writer->lineBreak(_out);
+        GraphWriter gw(_writer, &_out);
+        gw.write(query);
     }
 
     void ClassPageWriter::visitedCollaborationGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedCollaborationGraph");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "ClassPageWriter.visitedCollaborationGraph");
+        //_writer->lineBreak(_out);
     }
 
     void ClassPageWriter::visitedProgramListing(const Doxygen::ListingQuery& query)
@@ -192,12 +199,13 @@ namespace MdDox
 
     void ClassPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {
-        int     i = 0;
+        int              i = 0;
         Doxygen::SortMap map;
         map[Doxygen::DoxCompoundName]        = i++;
         map[Doxygen::DoxBriefDescription]    = i++;
         map[Doxygen::DoxBaseCompoundRef]     = i++;
         map[Doxygen::DoxDerivedCompoundRef]  = i++;
+        map[Doxygen::DoxInheritanceGraph]    = i++;
         map[Doxygen::DoxInnerNamespace]      = i++;
         map[Doxygen::DoxInnerclass]          = i++;
         map[Doxygen::DoxSectionDef]          = i++;

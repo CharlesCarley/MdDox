@@ -17,6 +17,19 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DotWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1DotWriter_1a585c3990952f96aa81a05b6771b26f29" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref> *</type>
+        <definition>Xml::NodeArray* MdDox::DotWriter::_list</definition>
+        <argsstring></argsstring>
+        <name>_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1DotWriter_1a0449cd41bad31126d26057685a6f3b08" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
@@ -34,7 +47,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="108" bodyend="111"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DotWriter_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::DotWriter</definition>
+        <argsstring>(Xml::NodeArray *list)</argsstring>
+        <name>DotWriter</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref> *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="119" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -47,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -64,18 +94,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="113" bodyend="117"/>
-        <references refid="classMdDox_1_1DotWriterImpl_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="DotWriter_8cpp" startline="97" endline="105">MdDox::DotWriterImpl::writeContent</references>
+        <location file="Source/MdDoxTree/DotWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="125" bodyend="129"/>
+        <references refid="classMdDox_1_1DotWriterImpl_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="DotWriter_8cpp" startline="96" endline="110">MdDox::DotWriterImpl::writeContent</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/MdDoxTree/DotWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="29" bodyend="40"/>
+    <location file="Source/MdDoxTree/DotWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="29" bodyend="42"/>
     <listofallmembers>
+      <member refid="classMdDox_1_1DotWriter_1a585c3990952f96aa81a05b6771b26f29" prot="private" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>_list</name></member>
       <member refid="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>_root</name></member>
       <member refid="classMdDox_1_1DotWriter_1a0449cd41bad31126d26057685a6f3b08" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>DotWriter</name></member>
+      <member refid="classMdDox_1_1DotWriter_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>DotWriter</name></member>
       <member refid="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>write</name></member>
       <member refid="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>~DotWriter</name></member>
     </listofallmembers>

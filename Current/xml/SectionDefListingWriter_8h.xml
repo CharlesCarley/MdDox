@@ -8,128 +8,128 @@
     <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
     <includedby refid="SectionDefListingWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1893">
+      <node id="1974">
         <label>Utils/Console.h</label>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
       </node>
-      <node id="1880">
+      <node id="1961">
         <label>functional</label>
       </node>
-      <node id="1895">
+      <node id="1976">
         <label>Utils/Path.h</label>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
       </node>
-      <node id="1889">
+      <node id="1970">
         <label>Utils/Exception.h</label>
-        <childnode refid="1890" relation="include">
+        <childnode refid="1971" relation="include">
         </childnode>
-        <childnode refid="1891" relation="include">
+        <childnode refid="1972" relation="include">
         </childnode>
-        <childnode refid="1892" relation="include">
+        <childnode refid="1973" relation="include">
         </childnode>
-        <childnode refid="1893" relation="include">
+        <childnode refid="1974" relation="include">
         </childnode>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
       </node>
-      <node id="1877">
+      <node id="1958">
         <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <link refid="SectionDefListingWriter_8h"/>
-        <childnode refid="1878" relation="include">
+        <childnode refid="1959" relation="include">
         </childnode>
-        <childnode refid="1894" relation="include">
+        <childnode refid="1975" relation="include">
         </childnode>
-        <childnode refid="1895" relation="include">
+        <childnode refid="1976" relation="include">
         </childnode>
       </node>
-      <node id="1878">
+      <node id="1959">
         <label>Doxygen/DoxSectionKind.h</label>
-        <childnode refid="1879" relation="include">
+        <childnode refid="1960" relation="include">
         </childnode>
       </node>
-      <node id="1891">
+      <node id="1972">
         <label>stdexcept</label>
       </node>
-      <node id="1886">
+      <node id="1967">
         <label>string</label>
       </node>
-      <node id="1879">
+      <node id="1960">
         <label>Doxygen.h</label>
-        <childnode refid="1880" relation="include">
+        <childnode refid="1961" relation="include">
         </childnode>
-        <childnode refid="1881" relation="include">
+        <childnode refid="1962" relation="include">
         </childnode>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
-        <childnode refid="1888" relation="include">
+        <childnode refid="1969" relation="include">
         </childnode>
-        <childnode refid="1889" relation="include">
+        <childnode refid="1970" relation="include">
         </childnode>
       </node>
-      <node id="1890">
+      <node id="1971">
         <label>exception</label>
       </node>
-      <node id="1884">
+      <node id="1965">
         <label>fstream</label>
       </node>
-      <node id="1888">
+      <node id="1969">
         <label>Xml/Node.h</label>
-        <childnode refid="1880" relation="include">
+        <childnode refid="1961" relation="include">
         </childnode>
-        <childnode refid="1881" relation="include">
+        <childnode refid="1962" relation="include">
         </childnode>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
       </node>
-      <node id="1882">
+      <node id="1963">
         <label>Utils/String.h</label>
-        <childnode refid="1883" relation="include">
+        <childnode refid="1964" relation="include">
         </childnode>
-        <childnode refid="1884" relation="include">
+        <childnode refid="1965" relation="include">
         </childnode>
-        <childnode refid="1885" relation="include">
+        <childnode refid="1966" relation="include">
         </childnode>
-        <childnode refid="1886" relation="include">
+        <childnode refid="1967" relation="include">
         </childnode>
-        <childnode refid="1881" relation="include">
+        <childnode refid="1962" relation="include">
         </childnode>
-        <childnode refid="1887" relation="include">
+        <childnode refid="1968" relation="include">
         </childnode>
       </node>
-      <node id="1887">
+      <node id="1968">
         <label>vector</label>
       </node>
-      <node id="1892">
+      <node id="1973">
         <label>utility</label>
       </node>
-      <node id="1885">
+      <node id="1966">
         <label>sstream</label>
       </node>
-      <node id="1883">
+      <node id="1964">
         <label>deque</label>
       </node>
-      <node id="1881">
+      <node id="1962">
         <label>unordered_map</label>
       </node>
-      <node id="1894">
+      <node id="1975">
         <label>Doxygen/SectionDefQuery.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1896">
+      <node id="1977">
         <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <link refid="SectionDefListingWriter_8h"/>
-        <childnode refid="1897" relation="include">
+        <childnode refid="1978" relation="include">
         </childnode>
-        <childnode refid="1898" relation="include">
+        <childnode refid="1979" relation="include">
         </childnode>
       </node>
-      <node id="1897">
+      <node id="1978">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="1898">
+      <node id="1979">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
     </invincdepgraph>

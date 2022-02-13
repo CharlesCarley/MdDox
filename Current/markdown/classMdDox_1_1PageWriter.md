@@ -41,8 +41,9 @@
 </a>
 </span>
 <br/>
-<a id="dsk_protected_attrib"></a>
-<h2>DSK_PROTECTED_ATTRIB</h2>
+<img src="../images/internal-diagram-44.dot.svg"/><br/>
+<a id="protected-members"></a>
+<h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
 </a>
 </span>
@@ -81,8 +82,8 @@
 </a>
 </span>
 <br/>
-<a id="dsk_protected_func"></a>
-<h2>DSK_PROTECTED_FUNC</h2>
+<a id="protected-methods"></a>
+<h2>Protected Methods</h2>
 <span class="icon-list-item"><a href="#visitedsectiondef" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSectionDef</span>
 </a>
 </span>
@@ -135,10 +136,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/PageWriter.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
 <br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
@@ -338,8 +335,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
 </a>
 </span>
@@ -403,8 +398,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#notifybriefdescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">notifyBriefDescription</span>
 </a>
 </span>
@@ -448,8 +441,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
 </a>
 </span>
@@ -485,14 +476,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="notifybriefdescription"></a>
 <h2>notifyBriefDescription</h2>
@@ -515,10 +498,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/PageWriter.h#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="notifydetaildescriptionheading"></a>
@@ -543,10 +522,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="notifydetaildescription"></a>
 <h2>notifyDetailDescription</h2>
@@ -569,8 +544,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/PageWriter.h#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="writedetails"></a>
@@ -758,6 +731,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1PageWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1PageWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

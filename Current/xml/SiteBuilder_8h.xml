@@ -10,6 +10,7 @@
     <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
     <includedby refid="GenericPageWriter_8cpp" local="yes">Source/MdDoxTree/GenericPageWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <includedby refid="HtmlCommandWriter_8cpp" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
@@ -22,154 +23,159 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="1984">
+      <node id="2065">
         <label>functional</label>
       </node>
-      <node id="1985">
+      <node id="2066">
         <label>Utils/Path.h</label>
-        <childnode refid="1977" relation="include">
+        <childnode refid="2058" relation="include">
         </childnode>
       </node>
-      <node id="1981">
+      <node id="2062">
         <label>string</label>
       </node>
-      <node id="1979">
+      <node id="2060">
         <label>fstream</label>
       </node>
-      <node id="1974">
+      <node id="2055">
         <label>Source/MdDoxTree/SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="1975" relation="include">
+        <childnode refid="2056" relation="include">
         </childnode>
-        <childnode refid="1976" relation="include">
+        <childnode refid="2057" relation="include">
         </childnode>
-        <childnode refid="1985" relation="include">
+        <childnode refid="2066" relation="include">
         </childnode>
-        <childnode refid="1977" relation="include">
+        <childnode refid="2058" relation="include">
         </childnode>
       </node>
-      <node id="1983">
+      <node id="2064">
         <label>Xml/Node.h</label>
-        <childnode refid="1984" relation="include">
+        <childnode refid="2065" relation="include">
         </childnode>
-        <childnode refid="1975" relation="include">
+        <childnode refid="2056" relation="include">
         </childnode>
-        <childnode refid="1977" relation="include">
+        <childnode refid="2058" relation="include">
         </childnode>
       </node>
-      <node id="1977">
+      <node id="2058">
         <label>Utils/String.h</label>
-        <childnode refid="1978" relation="include">
+        <childnode refid="2059" relation="include">
         </childnode>
-        <childnode refid="1979" relation="include">
+        <childnode refid="2060" relation="include">
         </childnode>
-        <childnode refid="1980" relation="include">
+        <childnode refid="2061" relation="include">
         </childnode>
-        <childnode refid="1981" relation="include">
+        <childnode refid="2062" relation="include">
         </childnode>
-        <childnode refid="1975" relation="include">
+        <childnode refid="2056" relation="include">
         </childnode>
-        <childnode refid="1982" relation="include">
+        <childnode refid="2063" relation="include">
         </childnode>
       </node>
-      <node id="1982">
+      <node id="2063">
         <label>vector</label>
       </node>
-      <node id="1980">
+      <node id="2061">
         <label>sstream</label>
       </node>
-      <node id="1978">
+      <node id="2059">
         <label>deque</label>
       </node>
-      <node id="1975">
+      <node id="2056">
         <label>unordered_map</label>
       </node>
-      <node id="1976">
+      <node id="2057">
         <label>Config.h</label>
-        <childnode refid="1977" relation="include">
+        <childnode refid="2058" relation="include">
         </childnode>
-        <childnode refid="1983" relation="include">
+        <childnode refid="2064" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1999">
+      <node id="2081">
         <label>Source/MdDoxTree/RepoFile.cpp</label>
       </node>
-      <node id="1990">
+      <node id="2071">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="2001">
+      <node id="2083">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="1986">
+      <node id="2072">
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      </node>
+      <node id="2067">
         <label>Source/MdDoxTree/SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="1987" relation="include">
+        <childnode refid="2068" relation="include">
         </childnode>
-        <childnode refid="1988" relation="include">
+        <childnode refid="2069" relation="include">
         </childnode>
-        <childnode refid="1989" relation="include">
+        <childnode refid="2070" relation="include">
         </childnode>
-        <childnode refid="1990" relation="include">
+        <childnode refid="2071" relation="include">
         </childnode>
-        <childnode refid="1991" relation="include">
+        <childnode refid="2072" relation="include">
         </childnode>
-        <childnode refid="1992" relation="include">
+        <childnode refid="2073" relation="include">
         </childnode>
-        <childnode refid="1993" relation="include">
+        <childnode refid="2074" relation="include">
         </childnode>
-        <childnode refid="1994" relation="include">
+        <childnode refid="2075" relation="include">
         </childnode>
-        <childnode refid="1995" relation="include">
+        <childnode refid="2076" relation="include">
         </childnode>
-        <childnode refid="1996" relation="include">
+        <childnode refid="2077" relation="include">
         </childnode>
-        <childnode refid="1997" relation="include">
+        <childnode refid="2078" relation="include">
         </childnode>
-        <childnode refid="1998" relation="include">
+        <childnode refid="2079" relation="include">
         </childnode>
-        <childnode refid="1999" relation="include">
+        <childnode refid="2080" relation="include">
         </childnode>
-        <childnode refid="2000" relation="include">
+        <childnode refid="2081" relation="include">
         </childnode>
-        <childnode refid="2001" relation="include">
+        <childnode refid="2082" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
         </childnode>
       </node>
-      <node id="1991">
+      <node id="2073">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="1996">
+      <node id="2078">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="1997">
+      <node id="2079">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="1992">
+      <node id="2074">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="1988">
+      <node id="2069">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="2000">
+      <node id="2082">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="1995">
+      <node id="2077">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="1998">
+      <node id="2080">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="1987">
+      <node id="2068">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="1994">
+      <node id="2076">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="1989">
+      <node id="2070">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="1993">
+      <node id="2075">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

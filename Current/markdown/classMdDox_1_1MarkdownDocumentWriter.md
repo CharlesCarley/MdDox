@@ -23,6 +23,7 @@
 </a>
 </span>
 <br/>
+<img src="../images/internal-diagram-39.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#markdowndocumentwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter</span>
@@ -51,10 +52,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/MarkdownDocumentWriter.h#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
 <br/>
 <a id="markdowndocumentwriter"></a>
 <h2>MarkdownDocumentWriter</h2>
@@ -132,8 +129,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1Html.md#anchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">anchor</span>
 </a>
 </span>
@@ -206,8 +201,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#code" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">code</span>
 </a>
 </span>
@@ -248,8 +241,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1HtmlDocumentWriter.md#endnavigationbar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endNavigationBar</span>
 </a>
 </span>
@@ -259,6 +250,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1MarkdownDocumentWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1MarkdownDocumentWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

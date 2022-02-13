@@ -6,29 +6,29 @@
     <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
     <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1933">
+      <node id="2014">
         <label>Doxygen/SectionDefQuery.h</label>
       </node>
-      <node id="1932">
+      <node id="2013">
         <label>Source/MdDoxTree/SectionDefWriter.h</label>
         <link refid="SectionDefWriter_8h"/>
-        <childnode refid="1933" relation="include">
+        <childnode refid="2014" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1936">
+      <node id="2017">
         <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="1935">
+      <node id="2016">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="1934">
+      <node id="2015">
         <label>Source/MdDoxTree/SectionDefWriter.h</label>
         <link refid="SectionDefWriter_8h"/>
-        <childnode refid="1935" relation="include">
+        <childnode refid="2016" relation="include">
         </childnode>
-        <childnode refid="1936" relation="include">
+        <childnode refid="2017" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

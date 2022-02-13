@@ -121,26 +121,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="504">
+      <node id="518">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="503">
+      <node id="517">
         <label>MdDox::MemberDefListingWriter</label>
         <link refid="classMdDox_1_1MemberDefListingWriter"/>
-        <childnode refid="504" relation="public-inheritance">
+        <childnode refid="518" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="506">
+      <node id="520">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="505">
+      <node id="519">
         <label>MdDox::MemberDefListingWriter</label>
         <link refid="classMdDox_1_1MemberDefListingWriter"/>
-        <childnode refid="506" relation="public-inheritance">
+        <childnode refid="520" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

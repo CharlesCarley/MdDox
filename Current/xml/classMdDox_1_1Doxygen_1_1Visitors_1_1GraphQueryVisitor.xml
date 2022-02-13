@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::GraphQueryVisitor</compoundname>
+    <derivedcompoundref refid="classMdDox_1_1GraphWriter" prot="public" virt="non-virtual">MdDox::GraphWriter</derivedcompoundref>
     <includes local="no">Tools/Doxygen/GraphQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a630c1b1113d8fe8794f492a1b32c77ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -38,6 +39,7 @@
         <definition>virtual void MdDox::Doxygen::Visitors::GraphQueryVisitor::visitedNode</definition>
         <argsstring>(const NodeQuery &amp;query)</argsstring>
         <name>visitedNode</name>
+        <reimplementedby refid="classMdDox_1_1GraphWriter_1a9f4ac1a229b1300fca3d344d7c445a29">visitedNode</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1NodeQuery" kindref="compound">NodeQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -63,6 +65,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="265">
+        <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
+      </node>
+      <node id="266">
+        <label>MdDox::GraphWriter</label>
+        <link refid="classMdDox_1_1GraphWriter"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
     <location file="Tools/Doxygen/GraphQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/GraphQuery.h" bodystart="30" bodyend="45"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a287df681a5390903010f1070c89c342d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::GraphQueryVisitor</scope><name>visitedNode</name></member>

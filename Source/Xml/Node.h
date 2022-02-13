@@ -81,6 +81,9 @@ namespace MdDox::Xml
         Node*        _next;
         NodeArray    _children;
 
+    protected:
+        bool _autoDelete;
+
     public:
         /**
          * \brief Default constructor.

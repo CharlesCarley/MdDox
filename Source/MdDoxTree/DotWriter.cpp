@@ -21,35 +21,33 @@
 */
 #include "DotWriter.h"
 #include <iomanip>
-#include "Xml/Node.h"
 #include "Utils/TextStreamWriter.h"
-
+#include "Xml/Node.h"
 
 namespace MdDox
 {
     using namespace Xml;
     using namespace WriteUtils;
-	
 
     class DotWriterImpl
     {
     private:
         Node*              _root;
+        NodeArray*         _list;
         OStream*           _stream;
         OutputStringStream _out;
 
         void writeNodeDecl(Node* nd)
         {
-
-        	String name;
+            String name;
             StringUtils::scramble(name, (size_t)nd, false);
-        	write(_out, 0x02, name, '[');
+            write(_out, 0x02, name, '[');
             write(_out, 0x04, "shape    = none");
             write(_out, 0x04, "label    = \"", nd->name(), "\"");
             write(_out, 0x04, "margin   = \"0.01\"");
-            write(_out, 0x04, "fontname = \"--font-family\"");
-            write(_out, 0x04, "fontsize = \"--font-size\"");
-            write(_out, 0x04, "fontcolor= \"--text\"");
+            write(_out, 0x04, "fontname = \"${font-family}\"");
+            write(_out, 0x04, "fontsize = \"${font-size}\"");
+            write(_out, 0x04, "fontcolor= \"${text}\"");
             write(_out, 0x02, ']');
         }
 
@@ -58,12 +56,13 @@ namespace MdDox
             String na, nb;
             StringUtils::scramble(na, (size_t)a, false);
             StringUtils::scramble(nb, (size_t)b, false);
-        	write(_out, 0x02, na, "->", nb);
+            write(_out, 0x02, na, "->", nb);
         }
 
     public:
-        DotWriterImpl(Node* root, OStream* stream) :
+        DotWriterImpl(Node* root, NodeArray* list, OStream* stream) :
             _root(root),
+            _list(list),
             _stream(stream)
         {
         }
@@ -75,12 +74,12 @@ namespace MdDox
             write(_out, 0x02, "bgcolor = none;");
             write(_out, 0x02, "layout  = dot;");
             write(_out, 0x02, "edge [");
-            write(_out, 0x04, "arrowsize = \"--arrow-size\"");
-            write(_out, 0x04, "color     = \"--edge-red\"");
+            write(_out, 0x04, "arrowsize = \"${arrow-size}\"");
+            write(_out, 0x04, "color     = \"${edge-red}\"");
             write(_out, 0x02, "]");
         }
 
-    	void writeFooter()
+        void writeFooter()
         {
             write(_out, 0x00, '}');
         }
@@ -88,16 +87,22 @@ namespace MdDox
         void writeNode(Node* node)
         {
             writeNodeDecl(node);
-        	for (auto* child : node->children())
+            for (auto* child : node->children())
                 writeNode(child);
-        	for (auto *child : node->children())
+            for (auto* child : node->children())
                 lineTo(node, child);
         }
 
         void writeContent()
         {
             writeHeader();
-            writeNode(_root);
+            if (_root)
+                writeNode(_root);
+            else if (_list)
+            {
+                for (Node* node : *_list)
+                    writeNode(node);
+            }
             writeFooter();
 
             const String dest = _out.str();
@@ -106,13 +111,20 @@ namespace MdDox
     };
 
     DotWriter::DotWriter(Node* root) :
-        _root(root)
+        _root(root),
+        _list(nullptr)
+    {
+    }
+
+    DotWriter::DotWriter(Xml::NodeArray* list) :
+        _root(nullptr),
+        _list(list)
     {
     }
 
     void DotWriter::write(OStream& out) const
     {
-        DotWriterImpl impl(_root, &out);
+        DotWriterImpl impl(_root, _list, &out);
         impl.writeContent();
     }
 }  // namespace MdDox

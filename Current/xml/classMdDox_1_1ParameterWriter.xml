@@ -251,25 +251,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="551">
+      <node id="565">
         <label>MdDox::ParameterWriter</label>
         <link refid="classMdDox_1_1ParameterWriter"/>
-        <childnode refid="552" relation="public-inheritance">
+        <childnode refid="566" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="552">
+      <node id="566">
         <label>MdDox::Doxygen::Visitors::ParamQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="553">
+      <node id="567">
         <label>MdDox::ParameterWriter</label>
         <link refid="classMdDox_1_1ParameterWriter"/>
-        <childnode refid="554" relation="public-inheritance">
+        <childnode refid="568" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="554">
+      <node id="568">
         <label>MdDox::Doxygen::Visitors::ParamQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor"/>
       </node>

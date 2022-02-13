@@ -23,6 +23,7 @@
 </a>
 </span>
 <br/>
+<img src="../images/internal-diagram-5.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_internaldir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_internalDir</span>
@@ -144,10 +145,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
-<br/>
 <a id="_internaldir"></a>
 <h2>_internalDir</h2>
 <a href="classMdDox_1_1Reference.md#reference">Reference</a>
@@ -232,8 +229,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedbasecompoundref"></a>
 <h2>visitedBaseCompoundRef</h2>
@@ -272,8 +267,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedderivedcompoundref"></a>
@@ -314,8 +307,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedincludes"></a>
 <h2>visitedIncludes</h2>
@@ -354,8 +345,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedincludedby"></a>
@@ -396,8 +385,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedinnerdir"></a>
 <h2>visitedInnerDir</h2>
@@ -436,8 +423,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedinnerfile"></a>
@@ -478,8 +463,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedinnerclass"></a>
 <h2>visitedInnerClass</h2>
@@ -518,8 +501,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedinnernamespace"></a>
@@ -560,8 +541,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedinnerpage"></a>
 <h2>visitedInnerPage</h2>
@@ -600,8 +579,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedinnergroup"></a>
@@ -642,8 +619,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedincdepgraph"></a>
 <h2>visitedIncDepGraph</h2>
@@ -682,8 +657,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedinvincdepgraph"></a>
@@ -724,8 +697,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedtemplateparamlist"></a>
 <h2>visitedTemplateParamList</h2>
@@ -764,8 +735,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedinheritancegraph"></a>
@@ -806,8 +775,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedcollaborationgraph"></a>
 <h2>visitedCollaborationGraph</h2>
@@ -846,8 +813,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedprogramlisting"></a>
@@ -888,8 +853,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedlistofallmembers"></a>
 <h2>visitedListOfAllMembers</h2>
@@ -928,8 +891,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedcompoundname"></a>
@@ -970,8 +931,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -1010,8 +969,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="visitedtableofcontents"></a>
@@ -1052,8 +1009,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
-<br/>
 <br/>
 <a id="presortquery"></a>
 <h2>preSortQuery</h2>
@@ -1080,8 +1035,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DirectoryPageWriter.cpp#L186" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplements</b></span>
 <br/>
 <br/>
 <a id="directorypagewriter"></a>
@@ -1138,6 +1091,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1DirectoryPageWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1DirectoryPageWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

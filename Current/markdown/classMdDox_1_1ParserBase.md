@@ -26,14 +26,15 @@
 </a>
 </span>
 <br/>
+<img src="../images/internal-diagram-49.dot.svg"/><br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
 <span class="icon-list-item"><a href="#tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Tokens</span>
 </a>
 </span>
 <br/>
-<a id="dsk_protected_attrib"></a>
-<h2>DSK_PROTECTED_ATTRIB</h2>
+<a id="protected-members"></a>
+<h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
 </a>
 </span>
@@ -54,8 +55,8 @@
 </a>
 </span>
 <br/>
-<a id="dsk_protected_func"></a>
-<h2>DSK_PROTECTED_FUNC</h2>
+<a id="protected-methods"></a>
+<h2>Protected Methods</h2>
 <span class="icon-list-item"><a href="#parseimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
 </a>
 </span>
@@ -130,10 +131,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParserBase.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
 <br/>
 <a id="tokens"></a>
 <h2>Tokens</h2>
@@ -237,8 +234,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="writeimpl"></a>
 <h2>writeImpl</h2>
@@ -267,8 +262,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParserBase.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="gettoken"></a>
@@ -447,8 +440,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParserBase.cpp#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="parseerrorthrow"></a>
@@ -759,6 +750,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1ParserBase.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1ParserBase.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

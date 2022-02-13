@@ -23,8 +23,9 @@
 </a>
 </span>
 <br/>
-<a id="dsk_protected_attrib"></a>
-<h2>DSK_PROTECTED_ATTRIB</h2>
+<img src="../images/internal-diagram-50.dot.svg"/><br/>
+<a id="protected-members"></a>
+<h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_stream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_stream</span>
 </a>
 </span>
@@ -45,8 +46,8 @@
 </a>
 </span>
 <br/>
-<a id="dsk_protected_func"></a>
-<h2>DSK_PROTECTED_FUNC</h2>
+<a id="protected-methods"></a>
+<h2>Protected Methods</h2>
 <span class="icon-list-item"><a href="#save" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">save</span>
 </a>
 </span>
@@ -129,10 +130,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ScannerBase.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
-<span class="bold-text"><b>ClassPageWriter.visitedCollaborationGraph</b></span>
 <br/>
 <a id="_stream"></a>
 <h2>_stream</h2>
@@ -578,8 +575,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="attach"></a>
 <h2>attach</h2>
@@ -800,6 +795,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1ScannerBase.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1ScannerBase.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

@@ -204,44 +204,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="443">
+      <node id="444">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="444" relation="public-inheritance">
+        <childnode refid="445" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="445">
+      <node id="446">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="444">
+      <node id="445">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="445" relation="public-inheritance">
+        <childnode refid="446" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="446">
+      <node id="447">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="447" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="448">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="classMdDox_1_1Xml_1_1Writer"/>
-      </node>
-      <node id="447">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="classMdDox_1_1GenApi_1_1Object"/>
         <childnode refid="448" relation="public-inheritance">
-        </childnode>
-        <childnode refid="449" relation="usage">
-          <edgelabel>_name</edgelabel>
         </childnode>
       </node>
       <node id="449">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="classMdDox_1_1Xml_1_1Writer"/>
+      </node>
+      <node id="448">
+        <label>MdDox::GenApi::Object</label>
+        <link refid="classMdDox_1_1GenApi_1_1Object"/>
+        <childnode refid="449" relation="public-inheritance">
+        </childnode>
+        <childnode refid="450" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="450">
         <label>string</label>
       </node>
     </collaborationgraph>

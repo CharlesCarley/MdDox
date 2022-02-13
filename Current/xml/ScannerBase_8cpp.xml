@@ -6,130 +6,130 @@
     <includes refid="Char_8h" local="yes">Utils/Char.h</includes>
     <includes refid="ParseError_8h" local="yes">Utils/ParserBase/ParseError.h</includes>
     <incdepgraph>
-      <node id="3207">
+      <node id="3295">
         <label>Utils/Console.h</label>
-        <childnode refid="3194" relation="include">
+        <childnode refid="3282" relation="include">
         </childnode>
       </node>
-      <node id="3209">
+      <node id="3297">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
-      <node id="3193">
+      <node id="3281">
         <label>filesystem</label>
       </node>
-      <node id="3191">
+      <node id="3279">
         <label>Utils/ParserBase/ScannerBase.h</label>
-        <childnode refid="3192" relation="include">
+        <childnode refid="3280" relation="include">
         </childnode>
-        <childnode refid="3201" relation="include">
+        <childnode refid="3289" relation="include">
         </childnode>
-        <childnode refid="3208" relation="include">
+        <childnode refid="3296" relation="include">
         </childnode>
-        <childnode refid="3209" relation="include">
+        <childnode refid="3297" relation="include">
         </childnode>
       </node>
-      <node id="3208">
+      <node id="3296">
         <label>Utils/Path.h</label>
-        <childnode refid="3194" relation="include">
+        <childnode refid="3282" relation="include">
         </childnode>
       </node>
-      <node id="3211">
+      <node id="3299">
         <label>cstdint</label>
       </node>
-      <node id="3203">
+      <node id="3291">
         <label>Utils/Exception.h</label>
-        <childnode refid="3204" relation="include">
+        <childnode refid="3292" relation="include">
         </childnode>
-        <childnode refid="3205" relation="include">
+        <childnode refid="3293" relation="include">
         </childnode>
-        <childnode refid="3206" relation="include">
+        <childnode refid="3294" relation="include">
         </childnode>
-        <childnode refid="3207" relation="include">
+        <childnode refid="3295" relation="include">
         </childnode>
-        <childnode refid="3194" relation="include">
+        <childnode refid="3282" relation="include">
         </childnode>
       </node>
-      <node id="3205">
+      <node id="3293">
         <label>stdexcept</label>
       </node>
-      <node id="3198">
+      <node id="3286">
         <label>string</label>
       </node>
-      <node id="3202">
+      <node id="3290">
         <label>unordered_set</label>
       </node>
-      <node id="3204">
+      <node id="3292">
         <label>exception</label>
       </node>
-      <node id="3196">
+      <node id="3284">
         <label>fstream</label>
       </node>
-      <node id="3194">
+      <node id="3282">
         <label>Utils/String.h</label>
-        <childnode refid="3195" relation="include">
+        <childnode refid="3283" relation="include">
         </childnode>
-        <childnode refid="3196" relation="include">
+        <childnode refid="3284" relation="include">
         </childnode>
-        <childnode refid="3197" relation="include">
+        <childnode refid="3285" relation="include">
         </childnode>
-        <childnode refid="3198" relation="include">
+        <childnode refid="3286" relation="include">
         </childnode>
-        <childnode refid="3199" relation="include">
+        <childnode refid="3287" relation="include">
         </childnode>
-        <childnode refid="3200" relation="include">
+        <childnode refid="3288" relation="include">
         </childnode>
       </node>
-      <node id="3200">
+      <node id="3288">
         <label>vector</label>
       </node>
-      <node id="3190">
+      <node id="3278">
         <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
         <link refid="ScannerBase_8cpp"/>
-        <childnode refid="3191" relation="include">
+        <childnode refid="3279" relation="include">
         </childnode>
-        <childnode refid="3210" relation="include">
+        <childnode refid="3298" relation="include">
         </childnode>
-        <childnode refid="3212" relation="include">
+        <childnode refid="3300" relation="include">
         </childnode>
       </node>
-      <node id="3206">
+      <node id="3294">
         <label>utility</label>
       </node>
-      <node id="3197">
+      <node id="3285">
         <label>sstream</label>
       </node>
-      <node id="3210">
+      <node id="3298">
         <label>Utils/Char.h</label>
-        <childnode refid="3211" relation="include">
+        <childnode refid="3299" relation="include">
         </childnode>
-        <childnode refid="3194" relation="include">
+        <childnode refid="3282" relation="include">
         </childnode>
       </node>
-      <node id="3192">
+      <node id="3280">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="3193" relation="include">
+        <childnode refid="3281" relation="include">
         </childnode>
-        <childnode refid="3194" relation="include">
+        <childnode refid="3282" relation="include">
         </childnode>
       </node>
-      <node id="3212">
+      <node id="3300">
         <label>Utils/ParserBase/ParseError.h</label>
-        <childnode refid="3203" relation="include">
+        <childnode refid="3291" relation="include">
         </childnode>
       </node>
-      <node id="3195">
+      <node id="3283">
         <label>deque</label>
       </node>
-      <node id="3199">
+      <node id="3287">
         <label>unordered_map</label>
       </node>
-      <node id="3201">
+      <node id="3289">
         <label>Utils/IndexCache.h</label>
-        <childnode refid="3199" relation="include">
+        <childnode refid="3287" relation="include">
         </childnode>
-        <childnode refid="3202" relation="include">
+        <childnode refid="3290" relation="include">
         </childnode>
-        <childnode refid="3203" relation="include">
+        <childnode refid="3291" relation="include">
         </childnode>
       </node>
     </incdepgraph>

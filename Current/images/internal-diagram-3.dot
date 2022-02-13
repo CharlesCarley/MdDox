@@ -1,26 +1,35 @@
-
 digraph {
-     bgcolor = none;
-     rankdir = "LR";
-     node [
-         shape     = none
-         fontname  = "Segoe UI"
-         fontcolor = "#010509FF"
-         fontsize  = "11"
-     ]
-     edge [
-         arrowsize = "0.5"
-         color     = "#FF1040FF"
-     ]
-     SiteBuilder->Config;
-
-     {rank=same Config SiteBuilder}
-
-     SiteBuilder->buildFromXml
-     buildFromXml->Build
-     buildFromXml->WriteIndex
-     buildFromXml->Dispatch
-     Dispatch->BuildItem
-     Dispatch->WriteItem
-     SiteBuilder->ConvertGraphs
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ dDsJfGf[
+   shape    = none
+   label    = "CompoundDefQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WZ7JfGf[
+   shape    = none
+   label    = "PageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WK8JfGf[
+   shape    = none
+   label    = "ClassPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WZ7JfGf->WK8JfGf
+ dDsJfGf->WZ7JfGf
 }

@@ -7,80 +7,80 @@
     <includedby refid="Common_8cpp" local="yes">Tools/GenApi/Common.cpp</includedby>
     <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <incdepgraph>
-      <node id="8557">
+      <node id="8672">
         <label>functional</label>
       </node>
-      <node id="8552">
+      <node id="8667">
         <label>string</label>
       </node>
-      <node id="8550">
+      <node id="8665">
         <label>fstream</label>
       </node>
-      <node id="8556">
+      <node id="8671">
         <label>Xml/Node.h</label>
-        <childnode refid="8557" relation="include">
+        <childnode refid="8672" relation="include">
         </childnode>
-        <childnode refid="8553" relation="include">
+        <childnode refid="8668" relation="include">
         </childnode>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8663" relation="include">
         </childnode>
       </node>
-      <node id="8555">
+      <node id="8670">
         <label>Writer.h</label>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8663" relation="include">
         </childnode>
-        <childnode refid="8556" relation="include">
+        <childnode refid="8671" relation="include">
         </childnode>
       </node>
-      <node id="8547">
+      <node id="8662">
         <label>Tools/GenApi/Common.h</label>
         <link refid="Common_8h"/>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8663" relation="include">
         </childnode>
-        <childnode refid="8555" relation="include">
+        <childnode refid="8670" relation="include">
         </childnode>
       </node>
-      <node id="8548">
+      <node id="8663">
         <label>Utils/String.h</label>
-        <childnode refid="8549" relation="include">
+        <childnode refid="8664" relation="include">
         </childnode>
-        <childnode refid="8550" relation="include">
+        <childnode refid="8665" relation="include">
         </childnode>
-        <childnode refid="8551" relation="include">
+        <childnode refid="8666" relation="include">
         </childnode>
-        <childnode refid="8552" relation="include">
+        <childnode refid="8667" relation="include">
         </childnode>
-        <childnode refid="8553" relation="include">
+        <childnode refid="8668" relation="include">
         </childnode>
-        <childnode refid="8554" relation="include">
+        <childnode refid="8669" relation="include">
         </childnode>
       </node>
-      <node id="8554">
+      <node id="8669">
         <label>vector</label>
       </node>
-      <node id="8551">
+      <node id="8666">
         <label>sstream</label>
       </node>
-      <node id="8549">
+      <node id="8664">
         <label>deque</label>
       </node>
-      <node id="8553">
+      <node id="8668">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8560">
+      <node id="8675">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="8558">
+      <node id="8673">
         <label>Tools/GenApi/Common.h</label>
         <link refid="Common_8h"/>
-        <childnode refid="8559" relation="include">
+        <childnode refid="8674" relation="include">
         </childnode>
-        <childnode refid="8560" relation="include">
+        <childnode refid="8675" relation="include">
         </childnode>
       </node>
-      <node id="8559">
+      <node id="8674">
         <label>Tools/GenApi/Common.cpp</label>
       </node>
     </invincdepgraph>

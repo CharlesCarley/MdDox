@@ -67,14 +67,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="285">
+      <node id="286">
         <label>MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor"/>
       </node>
-      <node id="286">
+      <node id="287">
         <label>MdDox::LinkedTextWriter</label>
         <link refid="classMdDox_1_1LinkedTextWriter"/>
-        <childnode refid="285" relation="public-inheritance">
+        <childnode refid="286" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

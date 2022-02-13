@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="233" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.h" bodystart="666" bodyend="669"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a574643c4d49a926b6836bdd1ce4200b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="248" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="574" bodyend="595"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a0bd8564f77c19fc99a9570ac55c08412" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="254" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="569" bodyend="572"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="256" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="36" bodyend="106"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a517e31a3b398865139ac319704fc1636" compoundref="MemberdefQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a2dc11969cc7b3596edb064093a472c23" compoundref="MemberdefQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedReImplements</references>
@@ -210,7 +210,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="262" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="114" bodyend="119"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac68cf32ca18b91aa10c6cd998eff35c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">DoxMemberKindEnum</ref></type>
@@ -226,7 +226,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="269" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="121" bodyend="126"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxMemberKind_1a6aba6ff41752f6ada40f7855784cd518" compoundref="DoxMemberKind_8cpp" startline="30" endline="61">MdDox::Doxygen::DoxMemberKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afdf3d79363dfc1a234dca71369be1134" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -242,7 +242,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="276" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="128" bodyend="133"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1abc9f6ddce57d11e7c30831058b9ca5d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -258,7 +258,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="283" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="135" bodyend="140"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aa9c8edf5326401b9258bdf663bdd6bbe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -274,7 +274,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="290" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="142" bodyend="147"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a75f1fac0102b576635dd2e9168cd4ea3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
@@ -290,7 +290,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="297" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="149" bodyend="154"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a872820a95ac0719c7f0ecd4f94169cc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -306,7 +306,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="156" bodyend="161"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab9e06a723b1a48957d10c2ed9cc5b34b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a2d0defe73aa325f7cb3ac7666f0d29a8" kindref="member">DoxAccessorEnum</ref></type>
@@ -322,7 +322,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="311" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="163" bodyend="168"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxAccessor_1a31dd146fe72ae37909b1b6f811bb8919" compoundref="DoxAccessor_8cpp" startline="30" endline="45">MdDox::Doxygen::DoxAccessor::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab4707557f8e1755a6d1db91ec3250c47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -338,7 +338,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="318" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="170" bodyend="175"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a8ad7c5d9f108a0c4beec1a0df2906a70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -354,7 +354,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="325" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="177" bodyend="182"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1af100088b8f1867617336eff263e2da42" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504d" kindref="member">DoxRefQualifierKindEnum</ref></type>
@@ -370,7 +370,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="332" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="184" bodyend="189"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind_1a42b121dfb560f7f100d59da6b346514d" compoundref="DoxRefQualifierKind_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxRefQualifierKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a873d441075d1f897724c12bac2d432da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -386,7 +386,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="191" bodyend="196"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a82a46d887ad13a489346a02dfd64bd57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -402,7 +402,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="346" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="198" bodyend="203"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a92102b32b9a2b92eb52100805e2062dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807ba" kindref="member">DoxVirtualKindEnum</ref></type>
@@ -418,7 +418,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="353" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="205" bodyend="210"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" compoundref="DoxVirtualKind_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxVirtualKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a69f292b5ae68f7528d7cee0315a0e4c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -434,7 +434,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="360" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="212" bodyend="217"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab4e1aa07a3b06cc73ef1d56fa7908733" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -450,7 +450,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="367" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="219" bodyend="224"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae6f447f0d3efd646036df6e8d1792477" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -466,7 +466,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="226" bodyend="231"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aef6c32a20ff8683b1bf898badea5eea4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -482,7 +482,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="381" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="233" bodyend="238"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a77040d9d161ed009287a3d273e09dbcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -498,7 +498,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="388" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="240" bodyend="245"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a173776ef112d810e738cb50b97101f22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -514,7 +514,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="395" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="247" bodyend="252"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aa4a790c6c914a4c3e4226ab036db044d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -530,7 +530,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="402" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="254" bodyend="259"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a7c7ce0c6bebf1fc268b3ec33c2f7c123" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -546,7 +546,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="261" bodyend="266"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1af7e49bdd18e2dad023b80728856d556e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -562,7 +562,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="416" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="268" bodyend="273"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a20f0098891aa413505b8b9c571d3ac34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -578,7 +578,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="423" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="275" bodyend="280"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1abcad5a811c68b9ab0b2880a83362fbf6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -594,7 +594,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="430" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="282" bodyend="287"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a03ad8f9448ddf4b04425293fa37e5fb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -610,7 +610,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="437" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="289" bodyend="294"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aec1d6b4a3e902ff3a73b131ae811b5f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -626,7 +626,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="296" bodyend="301"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a12c28b4c55b0c19c19aca90533ee1b23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -642,7 +642,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="451" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="303" bodyend="308"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aa512a80354d614085090e082d5f1b950" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -658,7 +658,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="458" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="310" bodyend="315"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a26802b1297d29f9c75db8fae83e83874" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -674,7 +674,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="465" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="317" bodyend="322"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a6d2b56d2134b1eb7f675f79940908d17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -690,7 +690,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="472" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="324" bodyend="329"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5eb34cb488c9a3d8f5a640eb80f83f26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -706,7 +706,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="479" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="331" bodyend="336"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a2ae578a8311803345c805f07b7b5aa4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -722,7 +722,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="486" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="338" bodyend="343"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a6d4055ef46c6cb5dfc23a69e9802697c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -738,7 +738,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="493" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="345" bodyend="350"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a2ba1e6f030398c82d4364fe0fa8ecaf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -754,7 +754,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="500" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="352" bodyend="357"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5ea29c981968fa624fe6a04534084ba3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -774,7 +774,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="508" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="107" bodyend="112"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae1a4925e507ac7b00f3855d757091a9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -795,8 +795,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="515" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="359" bodyend="367"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a86789de1f95aca0415e5ea1fe8078f80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -817,8 +817,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="522" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="369" bodyend="377"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -839,8 +839,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="529" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="379" bodyend="387"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a94743d50b42047f1e9d1a3c3131eb7a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -861,8 +861,8 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="536" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="389" bodyend="397"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a72ac94ac6f4c11234452fc5a25e24980" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -881,7 +881,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="541" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="399" bodyend="408"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" compoundref="TemplateParamListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TemplateParamListQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a4fdf8d52a83eb3794f8f9b0a0a0fd4f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -914,7 +914,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="551" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="417" bodyend="426"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a3292b2495f4bc715640f492ab5063399" compoundref="LinkedTextQuery_8h" startline="124" endline="127">MdDox::Doxygen::LinkedTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1af2003656982e3c23f8cb413d97190650" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -947,7 +947,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="561" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="435" bodyend="444"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a3292b2495f4bc715640f492ab5063399" compoundref="LinkedTextQuery_8h" startline="124" endline="127">MdDox::Doxygen::LinkedTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab913e0540334b966f660a41ad6aabc94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -980,7 +980,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="571" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="453" bodyend="462"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a3292b2495f4bc715640f492ab5063399" compoundref="LinkedTextQuery_8h" startline="124" endline="127">MdDox::Doxygen::LinkedTextQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9683d3ff1a714a1970fca30d86ab4bd4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -1013,7 +1013,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="581" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="471" bodyend="480"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aa32005f70f074c0b81e31d3d252272bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -1046,7 +1046,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="591" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="489" bodyend="498"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab0e058b6b5725db719a2c46fd6ac9348" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -1079,7 +1079,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="601" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="507" bodyend="516"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ace81e9fb2df4e02fabe14142560a0cfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -1112,7 +1112,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MemberdefQuery.h" line="611" column="1" bodyfile="Tools/Doxygen/MemberdefQuery.cpp" bodystart="525" bodyend="534"/>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" compoundref="MemberdefQuery_8h" startline="661" endline="664">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1af2de0e6a910a8fdd0e4e7adf2b4a239a" compoundref="LocationQuery_8h" startline="142" endline="145">MdDox::Doxygen::LocationQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a4de2bddb5239a71f579f6a991ab6a460" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

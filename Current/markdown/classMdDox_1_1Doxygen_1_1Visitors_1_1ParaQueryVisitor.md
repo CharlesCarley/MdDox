@@ -27,6 +27,7 @@
 </a>
 </span>
 <br/>
+<img src="../images/internal-diagram-17.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~paraqueryvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~ParaQueryVisitor</span>
@@ -184,8 +185,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>ClassPageWriter.visitedInheritanceGraph</b></span>
-<br/>
 <a id="~paraqueryvisitor"></a>
 <h2>~ParaQueryVisitor</h2>
 <span class="bold-text"><b>~ParaQueryVisitor</b></span>
@@ -225,8 +224,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedlinebreak"></a>
 <h2>visitedLineBreak</h2>
@@ -263,8 +260,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedhruler"></a>
@@ -303,8 +298,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedpreformatted"></a>
 <h2>visitedPreFormatted</h2>
@@ -342,8 +335,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedprogramlisting"></a>
 <h2>visitedProgramListing</h2>
@@ -380,8 +371,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedindexentry"></a>
@@ -457,8 +446,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visiteditemizedlist"></a>
 <h2>visitedItemizedList</h2>
@@ -495,8 +482,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedsimplesect"></a>
@@ -535,8 +520,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -573,8 +556,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedvariablelist"></a>
@@ -613,8 +594,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedtable"></a>
 <h2>visitedTable</h2>
@@ -651,8 +630,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L93" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedheading"></a>
@@ -691,8 +668,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedimage"></a>
 <h2>visitedImage</h2>
@@ -729,8 +704,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L103" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visiteddotfile"></a>
@@ -769,8 +742,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedtoclist"></a>
 <h2>visitedTocList</h2>
@@ -807,8 +778,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedlanguage"></a>
@@ -847,8 +816,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedparameterlist"></a>
 <h2>visitedParameterList</h2>
@@ -885,8 +852,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedblockquote"></a>
@@ -925,8 +890,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedparblock"></a>
 <h2>visitedParBlock</h2>
@@ -963,8 +926,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedverbatim"></a>
@@ -1038,8 +999,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedbold"></a>
 <h2>visitedBold</h2>
@@ -1076,8 +1035,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedemphasis"></a>
@@ -1116,8 +1073,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedcomputeroutput"></a>
 <h2>visitedComputerOutput</h2>
@@ -1154,8 +1109,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedcenter"></a>
@@ -1194,8 +1147,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedsmall"></a>
 <h2>visitedSmall</h2>
@@ -1232,8 +1183,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedanchor"></a>
@@ -1272,8 +1221,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedref"></a>
 <h2>visitedRef</h2>
@@ -1311,8 +1258,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedsect"></a>
 <h2>visitedSect</h2>
@@ -1349,8 +1294,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L183" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedregistered"></a>
@@ -1426,8 +1369,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedpart"></a>
 <h2>visitedPart</h2>
@@ -1465,8 +1406,6 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
-<br/>
 <br/>
 <a id="visitedprop"></a>
 <h2>visitedProp</h2>
@@ -1503,8 +1442,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParaQuery.h#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery.h</span>
 </a>
 </span>
-<br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
 <a id="visitedlang"></a>
@@ -1578,9 +1515,19 @@
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>FunctionDefWriter.visitedReImplementedBy</b></span>
 <br/>
 <br/>
+<blockquote>
+<img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor.xml#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside24px.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

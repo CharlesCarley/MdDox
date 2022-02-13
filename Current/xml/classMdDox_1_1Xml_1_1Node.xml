@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Xml_1_1Node" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Xml::Node</compoundname>
+    <derivedcompoundref refid="classMdDox_1_1LocalNode" prot="public" virt="non-virtual">MdDox::LocalNode</derivedcompoundref>
     <includes local="no">Source/Xml/Node.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1ad0ed61bad907bc0da4e82945dbcb1b25" prot="private" static="no" mutable="no">
@@ -96,6 +97,21 @@
         <location file="Source/Xml/Node.h" line="82" column="1" bodyfile="Source/Xml/Node.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::_autoDelete</definition>
+        <argsstring></argsstring>
+        <name>_autoDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="85" column="1" bodyfile="Source/Xml/Node.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aca71abf00d43782a922933bc7d4aec2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -108,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="88" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="32" bodyend="37"/>
+        <location file="Source/Xml/Node.h" line="91" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="32" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a80fdda29892a61ea96f1855312830504" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -133,7 +149,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="94" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="39" bodyend="45"/>
+        <location file="Source/Xml/Node.h" line="97" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="40" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aa4305357352d028f2ff0e31685f3ee53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -146,7 +162,8 @@
 <para>Deletes all child nodes. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="101" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="47" bodyend="51"/>
+        <location file="Source/Xml/Node.h" line="104" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="49" bodyend="56"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" compoundref="Node_8h" startline="85">_autoDelete</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a208a5c60b47b7fa3c13de7c997351972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -171,7 +188,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="108" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="53" bodyend="64"/>
+        <location file="Source/Xml/Node.h" line="111" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="58" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">NodeArray</ref> &amp;</type>
@@ -185,7 +202,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="114" column="1" bodyfile="Source/Xml/Node.h" bodystart="268" bodyend="271"/>
+        <location file="Source/Xml/Node.h" line="117" column="1" bodyfile="Source/Xml/Node.h" bodystart="271" bodyend="274"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab412278d4e2bdfade1e9fa45fd6768c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -211,7 +228,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="121" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="66" bodyend="72"/>
+        <location file="Source/Xml/Node.h" line="124" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="71" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ac65bb68aafa6e0889052adad248c6481" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -237,7 +254,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="126" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="74" bodyend="80"/>
+        <location file="Source/Xml/Node.h" line="129" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="79" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af7516023a308caa444e5da160689cd9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -251,7 +268,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="131" column="1" bodyfile="Source/Xml/Node.h" bodystart="308" bodyend="311"/>
+        <location file="Source/Xml/Node.h" line="134" column="1" bodyfile="Source/Xml/Node.h" bodystart="311" bodyend="314"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6ca6b702ea2c5cebede8d75776b35191" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -266,7 +283,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="138" column="1" bodyfile="Source/Xml/Node.h" bodystart="273" bodyend="276"/>
+        <location file="Source/Xml/Node.h" line="141" column="1" bodyfile="Source/Xml/Node.h" bodystart="276" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -280,7 +297,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="143" column="1" bodyfile="Source/Xml/Node.h" bodystart="278" bodyend="281"/>
+        <location file="Source/Xml/Node.h" line="146" column="1" bodyfile="Source/Xml/Node.h" bodystart="281" bodyend="284"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -303,7 +320,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="170" column="1" bodyfile="Source/Xml/Node.h" bodystart="283" bodyend="286"/>
+        <location file="Source/Xml/Node.h" line="173" column="1" bodyfile="Source/Xml/Node.h" bodystart="286" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a5ef5cf3675c04702677dce3cbf767803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -328,8 +345,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="176" column="1" bodyfile="Source/Xml/Node.h" bodystart="288" bodyend="291"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">text</references>
+        <location file="Source/Xml/Node.h" line="179" column="1" bodyfile="Source/Xml/Node.h" bodystart="291" bodyend="294"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int64_t</type>
@@ -342,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="181" column="1" bodyfile="Source/Xml/Node.h" bodystart="313" bodyend="316"/>
+        <location file="Source/Xml/Node.h" line="184" column="1" bodyfile="Source/Xml/Node.h" bodystart="316" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1adfad587ec429e52c9140c76d0b6f83c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -359,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="186" column="1" bodyfile="Source/Xml/Node.h" bodystart="318" bodyend="321"/>
+        <location file="Source/Xml/Node.h" line="189" column="1" bodyfile="Source/Xml/Node.h" bodystart="321" bodyend="324"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a2b9c690324ebb34535cb2f41a3c4cace" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref> &amp;</type>
@@ -372,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="188" column="1" bodyfile="Source/Xml/Node.h" bodystart="293" bodyend="296"/>
+        <location file="Source/Xml/Node.h" line="191" column="1" bodyfile="Source/Xml/Node.h" bodystart="296" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a4416339f625f6f3057a265e8a355a458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -389,8 +406,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="190" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="82" bodyend="86"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+        <location file="Source/Xml/Node.h" line="193" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="87" bodyend="91"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6171d66e4ccac877114a9dcea2950a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -411,8 +428,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="192" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="88" bodyend="93"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+        <location file="Source/Xml/Node.h" line="195" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="93" bodyend="98"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab38a9a4aaa25a138918401ea97a1180e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -429,8 +446,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="194" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="95" bodyend="102"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+        <location file="Source/Xml/Node.h" line="197" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="100" bodyend="107"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a155387e434a57ea107317a8a41ed5a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -451,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="196" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="158" bodyend="168"/>
+        <location file="Source/Xml/Node.h" line="199" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="163" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a80fc8e1401910987742533404ff32638" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
@@ -465,7 +482,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="201" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="170" bodyend="175"/>
+        <location file="Source/Xml/Node.h" line="204" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="175" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -482,8 +499,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="203" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="177" bodyend="199"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+        <location file="Source/Xml/Node.h" line="206" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="182" bodyend="204"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="281" endline="284">name</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab9c5ef38f588a8ae17d1b45ea1797fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -500,8 +517,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="205" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="201" bodyend="222"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">getTypeCode</references>
+        <location file="Source/Xml/Node.h" line="208" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="206" bodyend="227"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -518,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="207" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="224" bodyend="235"/>
+        <location file="Source/Xml/Node.h" line="210" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="229" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1add1af0fb2e1a5e62d0ca9871eccac544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -535,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="209" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="237" bodyend="245"/>
+        <location file="Source/Xml/Node.h" line="212" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="242" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a770676dddec389533501d27e6aa8fe7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -552,8 +569,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="211" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="247" bodyend="260"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="120" endline="128">isTypeOf</references>
+        <location file="Source/Xml/Node.h" line="214" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="252" bodyend="265"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="125" endline="133">isTypeOf</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab4f10f3a1137837fb067493ef1f8c7da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -570,8 +587,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="213" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="262" bodyend="272"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="120" endline="128">isTypeOf</references>
+        <location file="Source/Xml/Node.h" line="216" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="267" bodyend="277"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="125" endline="133">isTypeOf</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -609,8 +626,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="221" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="104" bodyend="110"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+        <location file="Source/Xml/Node.h" line="224" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="109" bodyend="115"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="281" endline="284">name</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -648,9 +665,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="226" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="112" bodyend="118"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+        <location file="Source/Xml/Node.h" line="229" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="117" bodyend="123"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="281" endline="284">name</references>
         <references refid="classMdDox_1_1Char_1a313ba0faa8c51cf6015437248d9e9016" compoundref="Char_8cpp" startline="83" endline="90">MdDox::Char::toInt64</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -677,7 +694,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="233" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="120" bodyend="128"/>
+        <location file="Source/Xml/Node.h" line="236" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="125" bodyend="133"/>
         <references refid="classMdDox_1_1Char_1adbfa0ed00df7a3807ed71f4e3f4fee7f" compoundref="Char_8cpp" startline="41" endline="50">MdDox::Char::equals</references>
         <references refid="classMdDox_1_1Char_1a5b40b89b3198fcfa306a09047d3803e0" compoundref="Char_8cpp" startline="36" endline="39">MdDox::Char::length</references>
       </memberdef>
@@ -705,7 +722,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="240" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="130" bodyend="133"/>
+        <location file="Source/Xml/Node.h" line="243" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="135" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -719,7 +736,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="245" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="135" bodyend="138"/>
+        <location file="Source/Xml/Node.h" line="248" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="140" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a756a2b737aa4083208589a7ee6d35d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -745,7 +762,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="253" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="140" bodyend="151"/>
+        <location file="Source/Xml/Node.h" line="256" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="145" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ac45b67b9f89a5576d08008b2f2ad2ed1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -759,7 +776,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="258" column="1" bodyfile="Source/Xml/Node.h" bodystart="298" bodyend="301"/>
+        <location file="Source/Xml/Node.h" line="261" column="1" bodyfile="Source/Xml/Node.h" bodystart="301" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a5e712a998e0507036835fe5b2ccd254b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -773,7 +790,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="263" column="1" bodyfile="Source/Xml/Node.h" bodystart="303" bodyend="306"/>
+        <location file="Source/Xml/Node.h" line="266" column="1" bodyfile="Source/Xml/Node.h" bodystart="306" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -790,16 +807,41 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="265" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="153" bodyend="156"/>
+        <location file="Source/Xml/Node.h" line="268" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="158" bodyend="161"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provides a tree structure to contain an XML document. </para>    </briefdescription>
     <detaileddescription>
 <para>A <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> represents a single XML tag.</para><para>A single node in the tree can have one parent and (N) number of children.</para><para>Each node may contain any number of attributes attached to it.</para><para>Any node can optionally have plain-text data associated with it. In order to keep the internal text inline with tag based nodes, the parser creates a specialty node with the name <bold>_text_node</bold> to store blocks of text in between tags. The text node is pushed as a child node to the node on the top of the parse stack.</para><para>All attributes are defined in the form of a string. Any extra type of serialization is beyond the scope of this class and must be handled elsewhere. There is, however, one exception to this if a type filter has been applied before parsing the file, an optional type code can be assigned to the node itself so that nodes can be type-checked with integers VS strings. </para>    </detaileddescription>
-    <location file="Source/Xml/Node.h" line="74" column="1" bodyfile="Source/Xml/Node.h" bodystart="73" bodyend="266"/>
+    <inheritancegraph>
+      <node id="653">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+      </node>
+      <node id="654">
+        <label>MdDox::LocalNode</label>
+        <link refid="classMdDox_1_1LocalNode"/>
+        <childnode refid="653" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="655">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+        <childnode refid="656" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="656">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Xml/Node.h" line="74" column="1" bodyfile="Source/Xml/Node.h" bodystart="73" bodyend="269"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Xml_1_1Node_1a49824e1be14454c30f40e6326960d97e" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_attributes</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_autoDelete</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1aefcbd7fd3633a3caa86f992f694f4fca" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_children</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1ad0ed61bad907bc0da4e82945dbcb1b25" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_name</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a4a86474e6d943e38472db5c6368e8428" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_next</name></member>

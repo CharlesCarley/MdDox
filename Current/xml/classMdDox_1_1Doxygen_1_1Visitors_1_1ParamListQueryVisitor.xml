@@ -66,14 +66,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="309">
+      <node id="310">
         <label>MdDox::Doxygen::Visitors::ParamListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor"/>
       </node>
-      <node id="310">
+      <node id="311">
         <label>MdDox::ParameterListWriter</label>
         <link refid="classMdDox_1_1ParameterListWriter"/>
-        <childnode refid="309" relation="public-inheritance">
+        <childnode refid="310" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

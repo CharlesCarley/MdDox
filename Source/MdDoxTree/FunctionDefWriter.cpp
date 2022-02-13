@@ -44,14 +44,14 @@ namespace MdDox
 
     void FunctionDefWriter::visitedReImplements(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedReImplements");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedReImplements");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedReImplementedBy(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedReImplementedBy");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedReImplementedBy");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedEnumValue(const Doxygen::EnumValueQuery& query)

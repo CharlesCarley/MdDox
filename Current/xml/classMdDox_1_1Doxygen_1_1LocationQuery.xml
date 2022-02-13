@@ -91,7 +91,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/LocationQuery.h" bodystart="152" bodyend="155"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1af2de0e6a910a8fdd0e4e7adf2b4a239a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -135,8 +135,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="69" bodyend="90"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1ac1fbaaeb82e40dea65fde31e6070191e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -156,7 +156,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="64" bodyend="67"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1acc6307af92b229be442f2516e60dd942" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -176,7 +176,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="100" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="28" bodyend="33"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1a27a144259da294a167d424f007bbf31b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -196,7 +196,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="35" bodyend="40"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1a325ddd25202ab7653bc2383165ff014a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -215,7 +215,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="42" bodyend="45"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="112" endline="118">MdDox::Xml::Node::integer</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1a46d01e0e64d48888dcfdc062821f3e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -234,7 +234,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="120" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="47" bodyend="50"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="112" endline="118">MdDox::Xml::Node::integer</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1a6a8703060d4afdceceea8c212a9e9e85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -253,7 +253,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="126" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="52" bodyend="55"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="112" endline="118">MdDox::Xml::Node::integer</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LocationQuery_1ad6d13c5d2a7649ab5bd57e867a6dcb76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -272,7 +272,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LocationQuery.h" line="132" column="1" bodyfile="Tools/Doxygen/LocationQuery.cpp" bodystart="57" bodyend="60"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="112" endline="118">MdDox::Xml::Node::integer</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
