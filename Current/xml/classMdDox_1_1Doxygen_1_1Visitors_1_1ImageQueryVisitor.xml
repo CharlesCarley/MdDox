@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::ImageQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/ImageQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a46c89469c8d1da54d56500c78c6fb96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::ImageQueryVisitor::~ImageQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ImageQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a68caf298541fb69865303602ea1513ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a4d89863686398e326e4a9dad98bea81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedULink</definition>
+        <argsstring>(const UrlLinkQuery &amp;query)</argsstring>
+        <name>visitedULink</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a795bffc62d17e99c8fca53ef199e52b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedBold</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedBold</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a0a70de6e8e58bcb9eed33f71b63f2075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedEmphasis</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedEmphasis</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a8a386c4ead8cfbb50b6c32e0411c1a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedComputerOutput</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedComputerOutput</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="59" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a595337931d502ee2c38181bb9d377255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedCenter</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedCenter</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ac8336fe96aad2eaae9c781266e378438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedSmall</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedSmall</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad3477218abb66123991b559b7072d84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedAnchor</definition>
+        <argsstring>(const AnchorQuery &amp;query)</argsstring>
+        <name>visitedAnchor</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a60e3a679b7ac56197d4f6e8583ad8d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedRef</definition>
+        <argsstring>(const RefTextQuery &amp;query)</argsstring>
+        <name>visitedRef</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>ref</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3ce525b716acdc57cb66515cdab0661b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedSect</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedSect</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>sect</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a81fe8a87bc7fd2477548208af12db1e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedRegistered</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedRegistered</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>registered</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a43f8bd4e6fd09eae5ba1c2c5d8bfd6e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3a8c09d9b2db880c12d957c0a7fefcf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedPart</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedPart</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1adfd05c385145a8d9b9ae44163ff4335a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedProp</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedProp</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="104" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad31b1bdbd7260a61b4e223ffcc7f4645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedLang</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedLang</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>lang</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="109" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1af4d4ff6efd35a7e9c6c918a5b3101458" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ImageQueryVisitor::visitedDot</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ImageQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/ImageQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="31" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad3477218abb66123991b559b7072d84a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedAnchor</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a795bffc62d17e99c8fca53ef199e52b4" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedBold</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a595337931d502ee2c38181bb9d377255" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedCenter</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a8a386c4ead8cfbb50b6c32e0411c1a0c" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedComputerOutput</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1af4d4ff6efd35a7e9c6c918a5b3101458" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedDot</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a0a70de6e8e58bcb9eed33f71b63f2075" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedEmphasis</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad31b1bdbd7260a61b4e223ffcc7f4645" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedLang</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a43f8bd4e6fd09eae5ba1c2c5d8bfd6e4" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3a8c09d9b2db880c12d957c0a7fefcf3" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedPart</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1adfd05c385145a8d9b9ae44163ff4335a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedProp</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a60e3a679b7ac56197d4f6e8583ad8d1a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedRef</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a81fe8a87bc7fd2477548208af12db1e4" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedRegistered</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3ce525b716acdc57cb66515cdab0661b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedSect</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ac8336fe96aad2eaae9c781266e378438" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedSmall</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a68caf298541fb69865303602ea1513ce" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a4d89863686398e326e4a9dad98bea81b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedULink</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a46c89469c8d1da54d56500c78c6fb96a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>~ImageQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

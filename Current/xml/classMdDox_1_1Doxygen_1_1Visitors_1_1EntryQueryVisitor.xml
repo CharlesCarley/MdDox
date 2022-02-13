@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::EntryQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/EntryQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1a3cf528efe1f0608f0a9edbe6e93523c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::EntryQueryVisitor::~EntryQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~EntryQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1ad3807f66c0f91833e6a5ed29451a1835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1a5cd41667d9414b86cefd500e40d51398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/EntryQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="31" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1a5cd41667d9414b86cefd500e40d51398" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::EntryQueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1ad3807f66c0f91833e6a5ed29451a1835" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::EntryQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1a3cf528efe1f0608f0a9edbe6e93523c7" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::EntryQueryVisitor</scope><name>~EntryQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

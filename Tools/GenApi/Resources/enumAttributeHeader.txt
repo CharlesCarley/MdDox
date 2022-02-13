@@ -1,0 +1,6 @@
+        /**
+         * \brief Provides access to the <b>${searchTerm}</b> element.
+         *
+         * \return The <b>${searchTerm}</b> enumerated value or -1 if the value is not found. 
+         */
+        ${type}Enum get${name}() const;

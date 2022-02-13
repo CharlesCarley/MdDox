@@ -1,0 +1,9 @@
+        /**
+         * \brief Provides access to the <b>${searchTerm}</b> attribute.
+         */
+        void get${name}(${type} &dest) const;
+
+        /**
+         * \brief Provides access to the <b>${searchTerm}</b> attribute.
+         */
+        ${type} get${name}() const;

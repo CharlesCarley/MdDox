@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir">
+    <compoundname>MdDoxTree</compoundname>
+    <innerfile refid="ClassPageWriter_8cpp">ClassPageWriter.cpp</innerfile>
+    <innerfile refid="ClassPageWriter_8h">ClassPageWriter.h</innerfile>
+    <innerfile refid="Config_8cpp">Config.cpp</innerfile>
+    <innerfile refid="Config_8h">Config.h</innerfile>
+    <innerfile refid="DescriptionWriter_8cpp">DescriptionWriter.cpp</innerfile>
+    <innerfile refid="DescriptionWriter_8h">DescriptionWriter.h</innerfile>
+    <innerfile refid="DirectoryPageWriter_8cpp">DirectoryPageWriter.cpp</innerfile>
+    <innerfile refid="DirectoryPageWriter_8h">DirectoryPageWriter.h</innerfile>
+    <innerfile refid="DocumentWriter_8h">DocumentWriter.h</innerfile>
+    <innerfile refid="DotWriter_8cpp">DotWriter.cpp</innerfile>
+    <innerfile refid="DotWriter_8h">DotWriter.h</innerfile>
+    <innerfile refid="EnumDefWriter_8cpp">EnumDefWriter.cpp</innerfile>
+    <innerfile refid="EnumDefWriter_8h">EnumDefWriter.h</innerfile>
+    <innerfile refid="FunctionDefWriter_8cpp">FunctionDefWriter.cpp</innerfile>
+    <innerfile refid="FunctionDefWriter_8h">FunctionDefWriter.h</innerfile>
+    <innerfile refid="GenericPageWriter_8cpp">GenericPageWriter.cpp</innerfile>
+    <innerfile refid="GenericPageWriter_8h">GenericPageWriter.h</innerfile>
+    <innerfile refid="HashUtils_8cpp">HashUtils.cpp</innerfile>
+    <innerfile refid="HashUtils_8h">HashUtils.h</innerfile>
+    <innerfile refid="HtmlCommandWriter_8cpp">HtmlCommandWriter.cpp</innerfile>
+    <innerfile refid="HtmlCommandWriter_8h">HtmlCommandWriter.h</innerfile>
+    <innerfile refid="HtmlDocumentWriter_8cpp">HtmlDocumentWriter.cpp</innerfile>
+    <innerfile refid="HtmlDocumentWriter_8h">HtmlDocumentWriter.h</innerfile>
+    <innerfile refid="IconSet_8cpp">IconSet.cpp</innerfile>
+    <innerfile refid="IconSet_8h">IconSet.h</innerfile>
+    <innerfile refid="IndexPageWriter_8cpp">IndexPageWriter.cpp</innerfile>
+    <innerfile refid="IndexPageWriter_8h">IndexPageWriter.h</innerfile>
+    <innerfile refid="Link_8cpp">Link.cpp</innerfile>
+    <innerfile refid="Link_8h">Link.h</innerfile>
+    <innerfile refid="LinkedTextWriter_8cpp">LinkedTextWriter.cpp</innerfile>
+    <innerfile refid="LinkedTextWriter_8h">LinkedTextWriter.h</innerfile>
+    <innerfile refid="Location_8h">Location.h</innerfile>
+    <innerfile refid="LocationWriter_8cpp">LocationWriter.cpp</innerfile>
+    <innerfile refid="LocationWriter_8h">LocationWriter.h</innerfile>
+    <innerfile refid="MarkdownCommandWriter_8cpp">MarkdownCommandWriter.cpp</innerfile>
+    <innerfile refid="MarkdownCommandWriter_8h">MarkdownCommandWriter.h</innerfile>
+    <innerfile refid="MarkdownDocumentWriter_8cpp">MarkdownDocumentWriter.cpp</innerfile>
+    <innerfile refid="MarkdownDocumentWriter_8h">MarkdownDocumentWriter.h</innerfile>
+    <innerfile refid="MemberDefListingWriter_8cpp">MemberDefListingWriter.cpp</innerfile>
+    <innerfile refid="MemberDefListingWriter_8h">MemberDefListingWriter.h</innerfile>
+    <innerfile refid="MemberDefWriter_8cpp">MemberDefWriter.cpp</innerfile>
+    <innerfile refid="MemberDefWriter_8h">MemberDefWriter.h</innerfile>
+    <innerfile refid="NamespacePageWriter_8cpp">NamespacePageWriter.cpp</innerfile>
+    <innerfile refid="NamespacePageWriter_8h">NamespacePageWriter.h</innerfile>
+    <innerfile refid="PageWriter_8cpp">PageWriter.cpp</innerfile>
+    <innerfile refid="PageWriter_8h">PageWriter.h</innerfile>
+    <innerfile refid="ParagraphWriter_8cpp">ParagraphWriter.cpp</innerfile>
+    <innerfile refid="ParagraphWriter_8h">ParagraphWriter.h</innerfile>
+    <innerfile refid="ParameterListWriter_8cpp">ParameterListWriter.cpp</innerfile>
+    <innerfile refid="ParameterListWriter_8h">ParameterListWriter.h</innerfile>
+    <innerfile refid="ParameterWriter_8cpp">ParameterWriter.cpp</innerfile>
+    <innerfile refid="ParameterWriter_8h">ParameterWriter.h</innerfile>
+    <innerfile refid="Reference_8h">Reference.h</innerfile>
+    <innerfile refid="RepoFile_8cpp">RepoFile.cpp</innerfile>
+    <innerfile refid="RepoFile_8h">RepoFile.h</innerfile>
+    <innerfile refid="Section1Writer_8cpp">Section1Writer.cpp</innerfile>
+    <innerfile refid="Section1Writer_8h">Section1Writer.h</innerfile>
+    <innerfile refid="Section2Writer_8cpp">Section2Writer.cpp</innerfile>
+    <innerfile refid="Section2Writer_8h">Section2Writer.h</innerfile>
+    <innerfile refid="Section3Writer_8cpp">Section3Writer.cpp</innerfile>
+    <innerfile refid="Section3Writer_8h">Section3Writer.h</innerfile>
+    <innerfile refid="Section4Writer_8cpp">Section4Writer.cpp</innerfile>
+    <innerfile refid="Section4Writer_8h">Section4Writer.h</innerfile>
+    <innerfile refid="SectionDefListingWriter_8cpp">SectionDefListingWriter.cpp</innerfile>
+    <innerfile refid="SectionDefListingWriter_8h">SectionDefListingWriter.h</innerfile>
+    <innerfile refid="SectionDefWriter_8cpp">SectionDefWriter.cpp</innerfile>
+    <innerfile refid="SectionDefWriter_8h">SectionDefWriter.h</innerfile>
+    <innerfile refid="SiteBuilder_8cpp">SiteBuilder.cpp</innerfile>
+    <innerfile refid="SiteBuilder_8h">SiteBuilder.h</innerfile>
+    <innerfile refid="SourceFile_8cpp">SourceFile.cpp</innerfile>
+    <innerfile refid="SourceFile_8h">SourceFile.h</innerfile>
+    <innerfile refid="VariableDefWriter_8cpp">VariableDefWriter.cpp</innerfile>
+    <innerfile refid="VariableDefWriter_8h">VariableDefWriter.h</innerfile>
+    <innerfile refid="WriteUtils_8cpp">WriteUtils.cpp</innerfile>
+    <innerfile refid="WriteUtils_8h">WriteUtils.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Implements the main program. It is primarily composed of <ref refid="namespaceMdDox_1_1Doxygen_1_1Visitors" kindref="compound">Visitors</ref> </para>    </detaileddescription>
+    <location file="Source/MdDoxTree/"/>
+  </compounddef>
+</doxygen>

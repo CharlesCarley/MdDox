@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="Path_8h" kind="file" language="C++">
+    <compoundname>Path.h</compoundname>
+    <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includedby refid="PageWriter_8h" local="yes">PageWriter.h</includedby>
+    <includedby refid="ClassPageWriter_8h" local="yes">ClassPageWriter.h</includedby>
+    <includedby refid="DescriptionWriter_8h" local="yes">DescriptionWriter.h</includedby>
+    <includedby refid="ParagraphWriter_8h" local="yes">ParagraphWriter.h</includedby>
+    <includedby refid="Section1Writer_8h" local="yes">Section1Writer.h</includedby>
+    <includedby refid="DirectoryPageWriter_8h" local="yes">DirectoryPageWriter.h</includedby>
+    <includedby refid="EnumDefWriter_8h" local="yes">EnumDefWriter.h</includedby>
+    <includedby refid="FunctionDefWriter_8h" local="yes">FunctionDefWriter.h</includedby>
+    <includedby refid="LinkedTextWriter_8h" local="yes">LinkedTextWriter.h</includedby>
+    <includedby refid="Link_8h" local="yes">Link.h</includedby>
+    <includedby refid="ParameterWriter_8h" local="yes">ParameterWriter.h</includedby>
+    <includedby refid="GenericPageWriter_8h" local="yes">GenericPageWriter.h</includedby>
+    <includedby refid="IndexPageWriter_8h" local="yes">IndexPageWriter.h</includedby>
+    <includedby refid="NamespacePageWriter_8h" local="yes">NamespacePageWriter.h</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">IndexPageWriter.cpp</includedby>
+    <includedby refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includedby>
+    <includedby refid="MemberDefListingWriter_8h" local="yes">MemberDefListingWriter.h</includedby>
+    <includedby refid="MemberDefWriter_8h" local="yes">MemberDefWriter.h</includedby>
+    <includedby refid="SectionDefListingWriter_8h" local="yes">SectionDefListingWriter.h</includedby>
+    <includedby refid="ParameterListWriter_8h" local="yes">ParameterListWriter.h</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">ParagraphWriter.cpp</includedby>
+    <includedby refid="Section2Writer_8h" local="yes">Section2Writer.h</includedby>
+    <includedby refid="Section3Writer_8h" local="yes">Section3Writer.h</includedby>
+    <includedby refid="Section4Writer_8h" local="yes">Section4Writer.h</includedby>
+    <includedby refid="SourceFile_8cpp" local="yes">SourceFile.cpp</includedby>
+    <includedby refid="ScannerBase_8h" local="yes">ScannerBase.h</includedby>
+    <includedby refid="Path_8cpp" local="yes">Path.cpp</includedby>
+    <includedby refid="Common_8cpp" local="yes">Common.cpp</includedby>
+    <includedby refid="Complex_8cpp" local="yes">Complex.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
+    <includedby refid="Simple_8cpp" local="yes">Simple.cpp</includedby>
+    <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Main.cpp</includedby>
+    <incdepgraph>
+      <node id="6658">
+        <label>Utils/String.h</label>
+        <childnode refid="6659" relation="include">
+        </childnode>
+        <childnode refid="6660" relation="include">
+        </childnode>
+        <childnode refid="6661" relation="include">
+        </childnode>
+        <childnode refid="6662" relation="include">
+        </childnode>
+        <childnode refid="6663" relation="include">
+        </childnode>
+        <childnode refid="6664" relation="include">
+        </childnode>
+      </node>
+      <node id="6662">
+        <label>string</label>
+      </node>
+      <node id="6660">
+        <label>fstream</label>
+      </node>
+      <node id="6664">
+        <label>vector</label>
+      </node>
+      <node id="6657">
+        <label>Path.h</label>
+        <link refid="Path_8h"/>
+        <childnode refid="6658" relation="include">
+        </childnode>
+      </node>
+      <node id="6661">
+        <label>sstream</label>
+      </node>
+      <node id="6659">
+        <label>deque</label>
+      </node>
+      <node id="6663">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6697">
+        <label>Link.cpp</label>
+      </node>
+      <node id="6681">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="6684">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="6721">
+        <label>Config.cpp</label>
+      </node>
+      <node id="6728">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="6680">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="6678">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="6703">
+        <label>Main.cpp</label>
+      </node>
+      <node id="6734">
+        <label>Main.cpp</label>
+      </node>
+      <node id="6698">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="6706">
+        <label>RepoFile.cpp</label>
+      </node>
+      <node id="6699">
+        <label>ParameterWriter.h</label>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6695" relation="include">
+        </childnode>
+      </node>
+      <node id="6727">
+        <label>Scanner.h</label>
+        <childnode refid="6724" relation="include">
+        </childnode>
+        <childnode refid="6728" relation="include">
+        </childnode>
+      </node>
+      <node id="6714">
+        <label>Section2Writer.h</label>
+        <childnode refid="6686" relation="include">
+        </childnode>
+        <childnode refid="6687" relation="include">
+        </childnode>
+      </node>
+      <node id="6720">
+        <label>ParserBase.h</label>
+        <childnode refid="6721" relation="include">
+        </childnode>
+        <childnode refid="6719" relation="include">
+        </childnode>
+        <childnode refid="6722" relation="include">
+        </childnode>
+        <childnode refid="6723" relation="include">
+        </childnode>
+      </node>
+      <node id="6695">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="6708">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="6685">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="6694">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="6683">
+        <label>ParagraphWriter.h</label>
+        <childnode refid="6678" relation="include">
+        </childnode>
+        <childnode refid="6684" relation="include">
+        </childnode>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6686" relation="include">
+        </childnode>
+        <childnode refid="6687" relation="include">
+        </childnode>
+        <childnode refid="6688" relation="include">
+        </childnode>
+        <childnode refid="6689" relation="include">
+        </childnode>
+      </node>
+      <node id="6710">
+        <label>MemberDefWriter.h</label>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6711" relation="include">
+        </childnode>
+      </node>
+      <node id="6701">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="6729">
+        <label>Path.cpp</label>
+      </node>
+      <node id="6671">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="6691">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="6679" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+      </node>
+      <node id="6676">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="6669">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="6692">
+        <label>FunctionDefWriter.h</label>
+        <childnode refid="6679" relation="include">
+        </childnode>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+      </node>
+      <node id="6723">
+        <label>Parser.h</label>
+        <childnode refid="6703" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6701" relation="include">
+        </childnode>
+        <childnode refid="6724" relation="include">
+        </childnode>
+        <childnode refid="6725" relation="include">
+        </childnode>
+      </node>
+      <node id="6673">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="6712">
+        <label>SectionDefListingWriter.h</label>
+        <childnode refid="6676" relation="include">
+        </childnode>
+        <childnode refid="6709" relation="include">
+        </childnode>
+      </node>
+      <node id="6715">
+        <label>Section3Writer.h</label>
+        <childnode refid="6687" relation="include">
+        </childnode>
+        <childnode refid="6688" relation="include">
+        </childnode>
+      </node>
+      <node id="6679">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="6668">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="6733">
+        <label>Simple.cpp</label>
+      </node>
+      <node id="6709">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="6711">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="6702">
+        <label>SiteBuilder.h</label>
+        <childnode refid="6703" relation="include">
+        </childnode>
+        <childnode refid="6668" relation="include">
+        </childnode>
+        <childnode refid="6671" relation="include">
+        </childnode>
+        <childnode refid="6673" relation="include">
+        </childnode>
+        <childnode refid="6704" relation="include">
+        </childnode>
+        <childnode refid="6684" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6697" relation="include">
+        </childnode>
+        <childnode refid="6705" relation="include">
+        </childnode>
+        <childnode refid="6675" relation="include">
+        </childnode>
+        <childnode refid="6676" relation="include">
+        </childnode>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6706" relation="include">
+        </childnode>
+        <childnode refid="6701" relation="include">
+        </childnode>
+        <childnode refid="6698" relation="include">
+        </childnode>
+      </node>
+      <node id="6732">
+        <label>Generator.cpp</label>
+      </node>
+      <node id="6670">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="6671" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+      </node>
+      <node id="6675">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="6665">
+        <label>Path.h</label>
+        <link refid="Path_8h"/>
+        <childnode refid="6666" relation="include">
+        </childnode>
+        <childnode refid="6667" relation="include">
+        </childnode>
+        <childnode refid="6677" relation="include">
+        </childnode>
+        <childnode refid="6683" relation="include">
+        </childnode>
+        <childnode refid="6690" relation="include">
+        </childnode>
+        <childnode refid="6670" relation="include">
+        </childnode>
+        <childnode refid="6691" relation="include">
+        </childnode>
+        <childnode refid="6692" relation="include">
+        </childnode>
+        <childnode refid="6693" relation="include">
+        </childnode>
+        <childnode refid="6696" relation="include">
+        </childnode>
+        <childnode refid="6699" relation="include">
+        </childnode>
+        <childnode refid="6672" relation="include">
+        </childnode>
+        <childnode refid="6700" relation="include">
+        </childnode>
+        <childnode refid="6674" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6702" relation="include">
+        </childnode>
+        <childnode refid="6707" relation="include">
+        </childnode>
+        <childnode refid="6710" relation="include">
+        </childnode>
+        <childnode refid="6712" relation="include">
+        </childnode>
+        <childnode refid="6713" relation="include">
+        </childnode>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6714" relation="include">
+        </childnode>
+        <childnode refid="6715" relation="include">
+        </childnode>
+        <childnode refid="6716" relation="include">
+        </childnode>
+        <childnode refid="6717" relation="include">
+        </childnode>
+        <childnode refid="6718" relation="include">
+        </childnode>
+        <childnode refid="6729" relation="include">
+        </childnode>
+        <childnode refid="6730" relation="include">
+        </childnode>
+        <childnode refid="6731" relation="include">
+        </childnode>
+        <childnode refid="6732" relation="include">
+        </childnode>
+        <childnode refid="6733" relation="include">
+        </childnode>
+        <childnode refid="6734" relation="include">
+        </childnode>
+      </node>
+      <node id="6726">
+        <label>ScannerBase.cpp</label>
+      </node>
+      <node id="6674">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6675" relation="include">
+        </childnode>
+      </node>
+      <node id="6718">
+        <label>ScannerBase.h</label>
+        <childnode refid="6719" relation="include">
+        </childnode>
+        <childnode refid="6720" relation="include">
+        </childnode>
+        <childnode refid="6726" relation="include">
+        </childnode>
+        <childnode refid="6727" relation="include">
+        </childnode>
+      </node>
+      <node id="6725">
+        <label>Main.cpp</label>
+      </node>
+      <node id="6730">
+        <label>Common.cpp</label>
+      </node>
+      <node id="6716">
+        <label>Section4Writer.h</label>
+        <childnode refid="6688" relation="include">
+        </childnode>
+        <childnode refid="6689" relation="include">
+        </childnode>
+      </node>
+      <node id="6672">
+        <label>GenericPageWriter.h</label>
+        <childnode refid="6673" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+      </node>
+      <node id="6689">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="6717">
+        <label>SourceFile.cpp</label>
+      </node>
+      <node id="6693">
+        <label>LinkedTextWriter.h</label>
+        <childnode refid="6679" relation="include">
+        </childnode>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6694" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6695" relation="include">
+        </childnode>
+      </node>
+      <node id="6705">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="6677">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="6678" relation="include">
+        </childnode>
+        <childnode refid="6679" relation="include">
+        </childnode>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6676" relation="include">
+        </childnode>
+        <childnode refid="6682" relation="include">
+        </childnode>
+      </node>
+      <node id="6688">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="6731">
+        <label>Complex.cpp</label>
+      </node>
+      <node id="6687">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="6722">
+        <label>Node.cpp</label>
+      </node>
+      <node id="6696">
+        <label>Link.h</label>
+        <childnode refid="6680" relation="include">
+        </childnode>
+        <childnode refid="6684" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6697" relation="include">
+        </childnode>
+        <childnode refid="6681" relation="include">
+        </childnode>
+        <childnode refid="6675" relation="include">
+        </childnode>
+        <childnode refid="6676" relation="include">
+        </childnode>
+        <childnode refid="6698" relation="include">
+        </childnode>
+      </node>
+      <node id="6686">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="6666">
+        <label>PageWriter.h</label>
+        <childnode refid="6667" relation="include">
+        </childnode>
+        <childnode refid="6670" relation="include">
+        </childnode>
+        <childnode refid="6672" relation="include">
+        </childnode>
+        <childnode refid="6674" relation="include">
+        </childnode>
+        <childnode refid="6676" relation="include">
+        </childnode>
+      </node>
+      <node id="6682">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="6724">
+        <label>Parser.cpp</label>
+      </node>
+      <node id="6667">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="6668" relation="include">
+        </childnode>
+        <childnode refid="6669" relation="include">
+        </childnode>
+      </node>
+      <node id="6690">
+        <label>Section1Writer.h</label>
+        <childnode refid="6678" relation="include">
+        </childnode>
+        <childnode refid="6686" relation="include">
+        </childnode>
+      </node>
+      <node id="6713">
+        <label>ParameterListWriter.h</label>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6682" relation="include">
+        </childnode>
+      </node>
+      <node id="6719">
+        <label>ParserBase.cpp</label>
+      </node>
+      <node id="6704">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="6700">
+        <label>IndexPageWriter.h</label>
+        <childnode refid="6669" relation="include">
+        </childnode>
+        <childnode refid="6701" relation="include">
+        </childnode>
+      </node>
+      <node id="6707">
+        <label>MemberDefListingWriter.h</label>
+        <childnode refid="6708" relation="include">
+        </childnode>
+        <childnode refid="6709" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1PathUtil" prot="public">MdDox::PathUtil</innerclass>
+    <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="classMdDox_1_1PathUtil" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/>_root;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/>_directory;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/>_file;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>_extension;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>construct(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PathUtil_1ab700791e12adae1858bd6b1857178196" kindref="member">PathUtil</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PathUtil_1ab700791e12adae1858bd6b1857178196" kindref="member">PathUtil</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>oth);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1ab700791e12adae1858bd6b1857178196" kindref="member">PathUtil</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1PathUtil_1a427df069f254486f7d267ef73c635e8f" kindref="member" tooltip="Provides access to the directory portion of the file. ">directory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1ae224919f5f05b5b5158beb0c1c5ee965" kindref="member">directoryList</ref>(<ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref>&amp;<sp/>dir)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a6590dc139b29c2aa6dbbcad479525cbb" kindref="member">hasDirectory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1a4f90af1ff20339ccecf185ea8f98e99d" kindref="member">parentDir</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/><ref refid="classMdDox_1_1PathUtil_1a3adff6cf06d3b25c56d689966b8e95f3" kindref="member">parentPath</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a76a0e63f574b4c06d4945dc764df1243" kindref="member">exists</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" kindref="member">fullExtension</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1af0fc081128488c4ca57f3a32030bb9a4" kindref="member">primaryExtension</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1ae5ba330b1ad93db34d508d8dd29f63c8" kindref="member">appendDirectory</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>filePath);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1ae5ba330b1ad93db34d508d8dd29f63c8" kindref="member">appendDirectory</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>filePath);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classMdDox_1_1PathUtil_1a38c8b6c0791f16a60e2b9f542a7ef561" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a38c8b6c0791f16a60e2b9f542a7ef561" kindref="member">empty</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="113"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_file.empty();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Utils/Path.h"/>
+  </compounddef>
+</doxygen>

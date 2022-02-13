@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDoc_1_1Xml_1_1Parser" kind="class" language="C++" prot="public" final="yes">
+    <briefdescription>
+      <para>
+        A<br/>
+        <ref refid="A" kindref="compound">B</ref><br/> 
+        C<br/>
+        <ref refid="B" kindref="compound">D</ref><br/>
+        E<br/>
+      </para>
+    </briefdescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1GenApi_1_1Writer" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::GenApi::Writer</compoundname>
+    <includes local="no">Tools/GenApi/Writer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a819fa57ca0640a4f068d6781435abf55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Writer::Writer</definition>
+        <argsstring>()=default</argsstring>
+        <name>Writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a08e0443cca4d2a35f6d429fad9b0db7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::GenApi::Writer::~Writer</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a4239f603f60ad7e7863fcff4b6dc978e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MdDox::GenApi::Writer::text</definition>
+        <argsstring>(OStream &amp;out, int n, Args &amp;&amp;... args)</argsstring>
+        <name>text</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1adfd9a5bb5cd7e0ea7c59e19aee5ff0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MdDox::GenApi::Writer::text</definition>
+        <argsstring>(OStream &amp;out, const int n, Args &amp;&amp;... args)</argsstring>
+        <name>text</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="46" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="46" bodyend="53"/>
+        <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">MdDox::WriteUtils::indent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a77943657b2ed56ed61bbd25981700cbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Writer::indent</definition>
+        <argsstring>(OStream &amp;out, int n)</argsstring>
+        <name>indent</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="35" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1ad6dc0058634ff2163ef4c677f808561e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Writer::newLine</definition>
+        <argsstring>(OStream &amp;out, int n)</argsstring>
+        <name>newLine</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="37" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a9d4ef574ec47a3ab1646d20a82b3a5d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Writer::next</definition>
+        <argsstring>(OStream &amp;out, int n)</argsstring>
+        <name>next</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Writer.h" line="39" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="67" bodyend="71"/>
+        <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">MdDox::WriteUtils::indent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/GenApi/Writer.h" line="29" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1a77943657b2ed56ed61bbd25981700cbc" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>indent</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1ad6dc0058634ff2163ef4c677f808561e" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>newLine</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1a9d4ef574ec47a3ab1646d20a82b3a5d4" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>next</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1a4239f603f60ad7e7863fcff4b6dc978e" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>text</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1adfd9a5bb5cd7e0ea7c59e19aee5ff0ad" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>text</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1a819fa57ca0640a4f068d6781435abf55" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>Writer</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Writer_1a08e0443cca4d2a35f6d429fad9b0db7f" prot="public" virt="virtual"><scope>MdDox::GenApi::Writer</scope><name>~Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

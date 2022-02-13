@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="Xml_2Scanner_8h" kind="file" language="C++">
+    <compoundname>Xml/Scanner.h</compoundname>
+    <includes refid="ScannerBase_8h" local="yes">Utils/ParserBase/ScannerBase.h</includes>
+    <includes refid="Xml_2Token_8h" local="yes">Xml/Token.h</includes>
+    <includedby refid="Xml_2Parser_8cpp" local="yes">Parser.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8cpp" local="yes">Scanner.cpp</includedby>
+    <incdepgraph>
+      <node id="7108">
+        <label>Utils/Exception.h</label>
+        <childnode refid="7109" relation="include">
+        </childnode>
+        <childnode refid="7110" relation="include">
+        </childnode>
+        <childnode refid="7111" relation="include">
+        </childnode>
+        <childnode refid="7112" relation="include">
+        </childnode>
+        <childnode refid="7099" relation="include">
+        </childnode>
+      </node>
+      <node id="7098">
+        <label>filesystem</label>
+      </node>
+      <node id="7099">
+        <label>Utils/String.h</label>
+        <childnode refid="7100" relation="include">
+        </childnode>
+        <childnode refid="7101" relation="include">
+        </childnode>
+        <childnode refid="7102" relation="include">
+        </childnode>
+        <childnode refid="7103" relation="include">
+        </childnode>
+        <childnode refid="7104" relation="include">
+        </childnode>
+        <childnode refid="7105" relation="include">
+        </childnode>
+      </node>
+      <node id="7095">
+        <label>Scanner.h</label>
+        <link refid="Xml_2Scanner_8h"/>
+        <childnode refid="7096" relation="include">
+        </childnode>
+        <childnode refid="7115" relation="include">
+        </childnode>
+      </node>
+      <node id="7110">
+        <label>stdexcept</label>
+      </node>
+      <node id="7103">
+        <label>string</label>
+      </node>
+      <node id="7107">
+        <label>unordered_set</label>
+      </node>
+      <node id="7109">
+        <label>exception</label>
+      </node>
+      <node id="7101">
+        <label>fstream</label>
+      </node>
+      <node id="7115">
+        <label>Xml/Token.h</label>
+        <childnode refid="7114" relation="include">
+        </childnode>
+      </node>
+      <node id="7106">
+        <label>Utils/IndexCache.h</label>
+        <childnode refid="7104" relation="include">
+        </childnode>
+        <childnode refid="7107" relation="include">
+        </childnode>
+        <childnode refid="7108" relation="include">
+        </childnode>
+      </node>
+      <node id="7105">
+        <label>vector</label>
+      </node>
+      <node id="7113">
+        <label>Utils/Path.h</label>
+        <childnode refid="7099" relation="include">
+        </childnode>
+      </node>
+      <node id="7096">
+        <label>Utils/ParserBase/ScannerBase.h</label>
+        <childnode refid="7097" relation="include">
+        </childnode>
+        <childnode refid="7106" relation="include">
+        </childnode>
+        <childnode refid="7113" relation="include">
+        </childnode>
+        <childnode refid="7114" relation="include">
+        </childnode>
+      </node>
+      <node id="7111">
+        <label>utility</label>
+      </node>
+      <node id="7102">
+        <label>sstream</label>
+      </node>
+      <node id="7112">
+        <label>Utils/Console.h</label>
+        <childnode refid="7099" relation="include">
+        </childnode>
+      </node>
+      <node id="7097">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="7098" relation="include">
+        </childnode>
+        <childnode refid="7099" relation="include">
+        </childnode>
+      </node>
+      <node id="7100">
+        <label>deque</label>
+      </node>
+      <node id="7104">
+        <label>unordered_map</label>
+      </node>
+      <node id="7114">
+        <label>Utils/ParserBase/TokenBase.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7118">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="7116">
+        <label>Scanner.h</label>
+        <link refid="Xml_2Scanner_8h"/>
+        <childnode refid="7117" relation="include">
+        </childnode>
+        <childnode refid="7118" relation="include">
+        </childnode>
+      </node>
+      <node id="7117">
+        <label>Parser.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1Xml_1_1Scanner" prot="public">MdDox::Xml::Scanner</innerclass>
+    <innernamespace refid="namespaceMdDox_1_1Xml">MdDox::Xml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/ParserBase/ScannerBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Token.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Xml" kindref="compound" tooltip="Provides a grouping of classes that handle parsing XML files. ">MdDox::Xml</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28" refid="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" kindref="member">CodeCache</ref><sp/>=<sp/>std::vector&lt;String&gt;;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classMdDox_1_1Xml_1_1Scanner" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Xml_1_1Scanner" kindref="compound">Scanner</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ScannerBase" kindref="compound">ScannerBase</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" kindref="member">CodeCache</ref><sp/>_code;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_defaultState;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>scanSymbol(<ref refid="classMdDox_1_1TokenBase" kindref="compound">Token</ref>&amp;<sp/>tok);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>scanString(<ref refid="classMdDox_1_1TokenBase" kindref="compound">Token</ref>&amp;<sp/>tok);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Scanner_1a91997787c4161d02429bc864d417aebc" kindref="member">Scanner</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Scanner_1a4689c87e60bf43fc47f5eba0b9d875ff" kindref="member" tooltip="Abstract method, derived scanners should implement their own scan loop. ">scan</ref>(<ref refid="classMdDox_1_1TokenBase" kindref="compound">Token</ref>&amp;<sp/>tok)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Scanner_1a5f7bb6c4da2248ba409b9ec5315cb2e2" kindref="member">getCode</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>idx);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Xml/Scanner.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="Types_8h" kind="file" language="C++">
+    <compoundname>Types.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includedby refid="Group_8h" local="yes">Group.h</includedby>
+    <includedby refid="Complex_8h" local="yes">Complex.h</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
+    <incdepgraph>
+      <node id="8695">
+        <label>Types.h</label>
+        <link refid="Types_8h"/>
+        <childnode refid="8696" relation="include">
+        </childnode>
+        <childnode refid="8697" relation="include">
+        </childnode>
+      </node>
+      <node id="8697">
+        <label>Utils/String.h</label>
+        <childnode refid="8698" relation="include">
+        </childnode>
+        <childnode refid="8699" relation="include">
+        </childnode>
+        <childnode refid="8700" relation="include">
+        </childnode>
+        <childnode refid="8701" relation="include">
+        </childnode>
+        <childnode refid="8702" relation="include">
+        </childnode>
+        <childnode refid="8703" relation="include">
+        </childnode>
+      </node>
+      <node id="8696">
+        <label>cstdint</label>
+      </node>
+      <node id="8701">
+        <label>string</label>
+      </node>
+      <node id="8699">
+        <label>fstream</label>
+      </node>
+      <node id="8703">
+        <label>vector</label>
+      </node>
+      <node id="8700">
+        <label>sstream</label>
+      </node>
+      <node id="8698">
+        <label>deque</label>
+      </node>
+      <node id="8702">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8704">
+        <label>Types.h</label>
+        <link refid="Types_8h"/>
+        <childnode refid="8705" relation="include">
+        </childnode>
+        <childnode refid="8706" relation="include">
+        </childnode>
+        <childnode refid="8708" relation="include">
+        </childnode>
+      </node>
+      <node id="8706">
+        <label>Complex.h</label>
+        <childnode refid="8707" relation="include">
+        </childnode>
+        <childnode refid="8708" relation="include">
+        </childnode>
+      </node>
+      <node id="8710">
+        <label>Simple.cpp</label>
+      </node>
+      <node id="8708">
+        <label>Generator.cpp</label>
+      </node>
+      <node id="8711">
+        <label>Group.cpp</label>
+      </node>
+      <node id="8705">
+        <label>Group.h</label>
+        <childnode refid="8706" relation="include">
+        </childnode>
+        <childnode refid="8709" relation="include">
+        </childnode>
+        <childnode refid="8711" relation="include">
+        </childnode>
+        <childnode refid="8710" relation="include">
+        </childnode>
+      </node>
+      <node id="8709">
+        <label>Simple.h</label>
+        <childnode refid="8708" relation="include">
+        </childnode>
+        <childnode refid="8710" relation="include">
+        </childnode>
+      </node>
+      <node id="8707">
+        <label>Complex.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMdDox_1_1GenApi_1_1Element" prot="public">MdDox::GenApi::Element</innerclass>
+    <innerclass refid="structMdDox_1_1GenApi_1_1Attribute" prot="public">MdDox::GenApi::Attribute</innerclass>
+    <innernamespace refid="namespaceMdDox_1_1GenApi">MdDox::GenApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1GenApi" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1e" kindref="member">ElementType</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" kindref="member">BASE_TYPE</ref><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="32" refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" kindref="member">SIMPLE_TYPE</ref><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="33" refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" kindref="member">COMPLEX_TYPE</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="34" refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" kindref="member">GROUP_TYPE</ref><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structMdDox_1_1GenApi_1_1Element" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39" refid="structMdDox_1_1GenApi_1_1Element_1ab211980964d03c28db3b7fae00ddb51a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1ab211980964d03c28db3b7fae00ddb51a" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="40" refid="structMdDox_1_1GenApi_1_1Element_1a8df80b3a68a2bd42873c91e84b8cf808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a8df80b3a68a2bd42873c91e84b8cf808" kindref="member">minOccurs</ref>;</highlight></codeline>
+<codeline lineno="41" refid="structMdDox_1_1GenApi_1_1Element_1a331e957e73e4a7f248305a565a44b300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a331e957e73e4a7f248305a565a44b300" kindref="member">maxOccurs</ref>;</highlight></codeline>
+<codeline lineno="42" refid="structMdDox_1_1GenApi_1_1Element_1a46982632722937610d685465b0d929ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a46982632722937610d685465b0d929ac" kindref="member">searchTerm</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" kindref="member">genType</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" kindref="member">genName</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47" refid="structMdDox_1_1GenApi_1_1Element_1a867a4db696362671994a8436d25cdf10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a867a4db696362671994a8436d25cdf10" kindref="member">isRequired</ref>;</highlight></codeline>
+<codeline lineno="48" refid="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" kindref="member">isUnbounded</ref>;</highlight></codeline>
+<codeline lineno="49" refid="structMdDox_1_1GenApi_1_1Element_1ab1ecd0902df1444e42939b2b32ca3c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1ab1ecd0902df1444e42939b2b32ca3c43" kindref="member">isSingle</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" kindref="member">isValid</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structMdDox_1_1GenApi_1_1Element_1ac358ed3ea23cf478037a2bbfd67cd305" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1ac358ed3ea23cf478037a2bbfd67cd305" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref>&amp;<sp/>el)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="53"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref><sp/>==<sp/>el.<ref refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="structMdDox_1_1GenApi_1_1Attribute" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Representation of an xml tag&amp;#39;s attribute. ">Attribute</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60" refid="structMdDox_1_1GenApi_1_1Attribute_1a9d2605079d65d800705c0f17e27b3474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="structMdDox_1_1GenApi_1_1Attribute_1a9d2605079d65d800705c0f17e27b3474" kindref="member">genType</ref>;</highlight></codeline>
+<codeline lineno="61" refid="structMdDox_1_1GenApi_1_1Attribute_1ad574d36f4222db87ee9bcc8c42bea2e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="structMdDox_1_1GenApi_1_1Attribute_1ad574d36f4222db87ee9bcc8c42bea2e4" kindref="member">genName</ref>;</highlight></codeline>
+<codeline lineno="62" refid="structMdDox_1_1GenApi_1_1Attribute_1a431a9a458518616849b8bd0872f251ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="structMdDox_1_1GenApi_1_1Attribute_1a431a9a458518616849b8bd0872f251ba" kindref="member">searchTerm</ref>;</highlight></codeline>
+<codeline lineno="63" refid="structMdDox_1_1GenApi_1_1Attribute_1aa50e6b42239a8911cfc926fa759e8b5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structMdDox_1_1GenApi_1_1Attribute_1aa50e6b42239a8911cfc926fa759e8b5d" kindref="member">isRequired</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/GenApi/Types.h"/>
+  </compounddef>
+</doxygen>

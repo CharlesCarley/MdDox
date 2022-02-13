@@ -1,0 +1,102 @@
+
+
+digraph {
+    bgcolor = none;
+    rankdir = "LR";
+    layout  = dot;
+    
+    node [
+        shape     = none
+        fontname  = "Segoe UI"
+        fontcolor = "#828EA0FF"
+        fontsize  = "11"
+    ]
+    edge [
+        arrowsize = "0.5"
+        color     = "#828EA0FF"
+        fontname  = "Segoe UI"
+        fontcolor = "#828EA0FF"
+        fontsize  = "11"
+    ]
+
+    subgraph cluster_a{
+        peripheries = 0
+        bgcolor     = none
+
+        Application[label=<
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+                <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Application</b></font></td></tr>
+                <tr><td align="left">
+                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+                <tr><td align="center">Setup</td></tr>
+                <tr><td align="left" port="C">-c</td></tr>
+                <tr><td align="left" port="G">-g</td></tr>
+                <tr><td align="left" port="E">-e</td></tr>
+                <tr><td align="left" port="S">-s</td></tr>
+                <tr><td align="left" port="N">-n</td></tr>
+                <tr><td align="center">Generate</td></tr>
+                <tr><td align="left" port="I">-i</td></tr>
+                </table>
+                </td></tr>
+            </table>
+        >];
+
+        Database[label=<
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+                <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Swap Database</b></font></td></tr>
+                <tr><td align="left">
+                <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+                <tr><td align="left" port="C">Complex.txt</td></tr>
+                <tr><td align="left" port="G">Groups.txt</td></tr>
+                <tr><td align="left" port="E">Elements.xt</td></tr>
+                <tr><td align="left" port="S">Simple.txt</td></tr>
+                <tr><td align="left" port="N">Enums.txt</td></tr>
+                <tr><td align="left" port="I">input.xsd</td></tr>
+                </table>
+                </td></tr>
+            </table>
+        >];
+        
+        Index[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+            <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
+            <tr><td align="left">
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
+            <tr><td align="left" port="C">xsd:complexType</td></tr>
+            <tr><td align="left" port="G">xsd:group</td></tr>
+            <tr><td align="left" port="E">xsd:element</td></tr>
+            <tr><td align="left" port="S">xsd:simpleType</td></tr>
+            <tr><td align="left" port="N">xsd:enumeration</td></tr>
+            <tr><td align="left" port="I">input.xsd</td></tr>
+            </table>
+            </td></tr>
+        </table>
+        >];
+
+    }
+
+    subgraph cluster_b{
+        peripheries=0
+        Input[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+            <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>input.xsd</b></font></td></tr>
+        </table>
+        >];
+    }
+    
+    Application:C->Database:C
+    Application:S->Database:S
+    Application:E->Database:E
+    Application:N->Database:N
+    Application:G->Database:G
+    
+
+    Application:I->Input;
+    Database:C->Index:C;
+    Database:S->Index:S;
+    Database:E->Index:E;
+    Database:N->Index:N;
+    Database:G->Index:G;
+    Input->Database:I;
+    Input->Index:I;
+}

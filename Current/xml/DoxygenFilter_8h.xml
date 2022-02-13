@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="DoxygenFilter_8h" kind="file" language="C++">
+    <compoundname>DoxygenFilter.h</compoundname>
+    <includes refid="TypeFilter_8h" local="yes">Utils/TypeFilter.h</includes>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">ClassPageWriter.cpp</includedby>
+    <includedby refid="DirectoryPageWriter_8cpp" local="yes">DirectoryPageWriter.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">FunctionDefWriter.cpp</includedby>
+    <includedby refid="GenericPageWriter_8cpp" local="yes">GenericPageWriter.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">IndexPageWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">MemberDefWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">NamespacePageWriter.cpp</includedby>
+    <includedby refid="PageWriter_8cpp" local="yes">PageWriter.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8cpp" local="yes">SectionDefListingWriter.cpp</includedby>
+    <includedby refid="SiteBuilder_8cpp" local="yes">SiteBuilder.cpp</includedby>
+    <includedby refid="DoxygenFilter_8cpp" local="yes">DoxygenFilter.cpp</includedby>
+    <includedby refid="AnchorQuery_8cpp" local="yes">AnchorQuery.cpp</includedby>
+    <includedby refid="BlockQuoteQuery_8cpp" local="yes">BlockQuoteQuery.cpp</includedby>
+    <includedby refid="CaptionQuery_8cpp" local="yes">CaptionQuery.cpp</includedby>
+    <includedby refid="ChildNodeQuery_8cpp" local="yes">ChildNodeQuery.cpp</includedby>
+    <includedby refid="CodeLineQuery_8cpp" local="yes">CodeLineQuery.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
+    <includedby refid="CompoundIndexQuery_8cpp" local="yes">CompoundIndexQuery.cpp</includedby>
+    <includedby refid="CompoundRefQuery_8cpp" local="yes">CompoundRefQuery.cpp</includedby>
+    <includedby refid="CopyQuery_8cpp" local="yes">CopyQuery.cpp</includedby>
+    <includedby refid="DescriptionQuery_8cpp" local="yes">DescriptionQuery.cpp</includedby>
+    <includedby refid="DoxygenIndexQuery_8cpp" local="yes">DoxygenIndexQuery.cpp</includedby>
+    <includedby refid="DoxygenQuery_8cpp" local="yes">DoxygenQuery.cpp</includedby>
+    <includedby refid="EmptyQuery_8cpp" local="yes">EmptyQuery.cpp</includedby>
+    <includedby refid="EntryQuery_8cpp" local="yes">EntryQuery.cpp</includedby>
+    <includedby refid="EnumValueQuery_8cpp" local="yes">EnumValueQuery.cpp</includedby>
+    <includedby refid="FileQuery_8cpp" local="yes">FileQuery.cpp</includedby>
+    <includedby refid="FormulaQuery_8cpp" local="yes">FormulaQuery.cpp</includedby>
+    <includedby refid="GraphQuery_8cpp" local="yes">GraphQuery.cpp</includedby>
+    <includedby refid="HeadingQuery_8cpp" local="yes">HeadingQuery.cpp</includedby>
+    <includedby refid="HighlightQuery_8cpp" local="yes">HighlightQuery.cpp</includedby>
+    <includedby refid="ImageQuery_8cpp" local="yes">ImageQuery.cpp</includedby>
+    <includedby refid="IncQuery_8cpp" local="yes">IncQuery.cpp</includedby>
+    <includedby refid="IndexEntryQuery_8cpp" local="yes">IndexEntryQuery.cpp</includedby>
+    <includedby refid="InternalQuery_8cpp" local="yes">InternalQuery.cpp</includedby>
+    <includedby refid="InternalS1Query_8cpp" local="yes">InternalS1Query.cpp</includedby>
+    <includedby refid="InternalS2Query_8cpp" local="yes">InternalS2Query.cpp</includedby>
+    <includedby refid="InternalS3Query_8cpp" local="yes">InternalS3Query.cpp</includedby>
+    <includedby refid="InternalS4Query_8cpp" local="yes">InternalS4Query.cpp</includedby>
+    <includedby refid="LanguageQuery_8cpp" local="yes">LanguageQuery.cpp</includedby>
+    <includedby refid="LinkedTextQuery_8cpp" local="yes">LinkedTextQuery.cpp</includedby>
+    <includedby refid="LinkQuery_8cpp" local="yes">LinkQuery.cpp</includedby>
+    <includedby refid="ListingQuery_8cpp" local="yes">ListingQuery.cpp</includedby>
+    <includedby refid="ListItemQuery_8cpp" local="yes">ListItemQuery.cpp</includedby>
+    <includedby refid="ListOfAllmembersQuery_8cpp" local="yes">ListOfAllmembersQuery.cpp</includedby>
+    <includedby refid="ListQuery_8cpp" local="yes">ListQuery.cpp</includedby>
+    <includedby refid="LocationQuery_8cpp" local="yes">LocationQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">MarkupQuery.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">MemberDefQuery.cpp</includedby>
+    <includedby refid="MemberIndexQuery_8cpp" local="yes">MemberIndexQuery.cpp</includedby>
+    <includedby refid="MemberRefQuery_8cpp" local="yes">MemberRefQuery.cpp</includedby>
+    <includedby refid="NodeQuery_8cpp" local="yes">NodeQuery.cpp</includedby>
+    <includedby refid="ParamListItemQuery_8cpp" local="yes">ParamListItemQuery.cpp</includedby>
+    <includedby refid="ParamListQuery_8cpp" local="yes">ParamListQuery.cpp</includedby>
+    <includedby refid="ParamNameListQuery_8cpp" local="yes">ParamNameListQuery.cpp</includedby>
+    <includedby refid="ParamNameQuery_8cpp" local="yes">ParamNameQuery.cpp</includedby>
+    <includedby refid="ParamQuery_8cpp" local="yes">ParamQuery.cpp</includedby>
+    <includedby refid="ParamTypeQuery_8cpp" local="yes">ParamTypeQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">ParaQuery.cpp</includedby>
+    <includedby refid="ParBlockQuery_8cpp" local="yes">ParBlockQuery.cpp</includedby>
+    <includedby refid="ReferenceQuery_8cpp" local="yes">ReferenceQuery.cpp</includedby>
+    <includedby refid="RefQuery_8cpp" local="yes">RefQuery.cpp</includedby>
+    <includedby refid="RefTextQuery_8cpp" local="yes">RefTextQuery.cpp</includedby>
+    <includedby refid="ReimplementQuery_8cpp" local="yes">ReimplementQuery.cpp</includedby>
+    <includedby refid="RowQuery_8cpp" local="yes">RowQuery.cpp</includedby>
+    <includedby refid="Sect1Query_8cpp" local="yes">Sect1Query.cpp</includedby>
+    <includedby refid="Sect2Query_8cpp" local="yes">Sect2Query.cpp</includedby>
+    <includedby refid="Sect3Query_8cpp" local="yes">Sect3Query.cpp</includedby>
+    <includedby refid="Sect4Query_8cpp" local="yes">Sect4Query.cpp</includedby>
+    <includedby refid="SectionDefQuery_8cpp" local="yes">SectionDefQuery.cpp</includedby>
+    <includedby refid="SimpleSectQuery_8cpp" local="yes">SimpleSectQuery.cpp</includedby>
+    <includedby refid="SpQuery_8cpp" local="yes">SpQuery.cpp</includedby>
+    <includedby refid="TableQuery_8cpp" local="yes">TableQuery.cpp</includedby>
+    <includedby refid="TemplateParamListQuery_8cpp" local="yes">TemplateParamListQuery.cpp</includedby>
+    <includedby refid="TitleQuery_8cpp" local="yes">TitleQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">TocItemQuery.cpp</includedby>
+    <includedby refid="TocListQuery_8cpp" local="yes">TocListQuery.cpp</includedby>
+    <includedby refid="UrlLinkQuery_8cpp" local="yes">UrlLinkQuery.cpp</includedby>
+    <includedby refid="VariableListQuery_8cpp" local="yes">VariableListQuery.cpp</includedby>
+    <includedby refid="VarListEntryQuery_8cpp" local="yes">VarListEntryQuery.cpp</includedby>
+    <includedby refid="XRefSectQuery_8cpp" local="yes">XRefSectQuery.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
+    <incdepgraph>
+      <node id="2464">
+        <label>Utils/String.h</label>
+        <childnode refid="2465" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+        <childnode refid="2467" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2469" relation="include">
+        </childnode>
+        <childnode refid="2470" relation="include">
+        </childnode>
+      </node>
+      <node id="2463">
+        <label>cstdint</label>
+      </node>
+      <node id="2468">
+        <label>string</label>
+      </node>
+      <node id="2461">
+        <label>DoxygenFilter.h</label>
+        <link refid="DoxygenFilter_8h"/>
+        <childnode refid="2462" relation="include">
+        </childnode>
+      </node>
+      <node id="2466">
+        <label>fstream</label>
+      </node>
+      <node id="2470">
+        <label>vector</label>
+      </node>
+      <node id="2467">
+        <label>sstream</label>
+      </node>
+      <node id="2465">
+        <label>deque</label>
+      </node>
+      <node id="2469">
+        <label>unordered_map</label>
+      </node>
+      <node id="2462">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2478">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="2510">
+        <label>InternalS3Query.cpp</label>
+      </node>
+      <node id="2552">
+        <label>VarListEntryQuery.cpp</label>
+      </node>
+      <node id="2530">
+        <label>ParamTypeQuery.cpp</label>
+      </node>
+      <node id="2507">
+        <label>InternalQuery.cpp</label>
+      </node>
+      <node id="2542">
+        <label>SectionDefQuery.cpp</label>
+      </node>
+      <node id="2522">
+        <label>MemberIndexQuery.cpp</label>
+      </node>
+      <node id="2524">
+        <label>NodeQuery.cpp</label>
+      </node>
+      <node id="2511">
+        <label>InternalS4Query.cpp</label>
+      </node>
+      <node id="2475">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="2521">
+        <label>MemberDefQuery.cpp</label>
+      </node>
+      <node id="2528">
+        <label>ParamNameQuery.cpp</label>
+      </node>
+      <node id="2495">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="2508">
+        <label>InternalS1Query.cpp</label>
+      </node>
+      <node id="2525">
+        <label>ParamListItemQuery.cpp</label>
+      </node>
+      <node id="2517">
+        <label>ListOfAllmembersQuery.cpp</label>
+      </node>
+      <node id="2527">
+        <label>ParamNameListQuery.cpp</label>
+      </node>
+      <node id="2537">
+        <label>RowQuery.cpp</label>
+      </node>
+      <node id="2509">
+        <label>InternalS2Query.cpp</label>
+      </node>
+      <node id="2534">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="2539">
+        <label>Sect2Query.cpp</label>
+      </node>
+      <node id="2496">
+        <label>EmptyQuery.cpp</label>
+      </node>
+      <node id="2485">
+        <label>BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="2503">
+        <label>HighlightQuery.cpp</label>
+      </node>
+      <node id="2538">
+        <label>Sect1Query.cpp</label>
+      </node>
+      <node id="2487">
+        <label>ChildNodeQuery.cpp</label>
+      </node>
+      <node id="2504">
+        <label>ImageQuery.cpp</label>
+      </node>
+      <node id="2543">
+        <label>SimpleSectQuery.cpp</label>
+      </node>
+      <node id="2482">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="2545">
+        <label>TableQuery.cpp</label>
+      </node>
+      <node id="2536">
+        <label>ReimplementQuery.cpp</label>
+      </node>
+      <node id="2473">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="2492">
+        <label>CopyQuery.cpp</label>
+      </node>
+      <node id="2547">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="2480">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="2477">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="2471">
+        <label>DoxygenFilter.h</label>
+        <link refid="DoxygenFilter_8h"/>
+        <childnode refid="2472" relation="include">
+        </childnode>
+        <childnode refid="2473" relation="include">
+        </childnode>
+        <childnode refid="2474" relation="include">
+        </childnode>
+        <childnode refid="2475" relation="include">
+        </childnode>
+        <childnode refid="2476" relation="include">
+        </childnode>
+        <childnode refid="2477" relation="include">
+        </childnode>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+        <childnode refid="2480" relation="include">
+        </childnode>
+        <childnode refid="2481" relation="include">
+        </childnode>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
+        <childnode refid="2484" relation="include">
+        </childnode>
+        <childnode refid="2485" relation="include">
+        </childnode>
+        <childnode refid="2486" relation="include">
+        </childnode>
+        <childnode refid="2487" relation="include">
+        </childnode>
+        <childnode refid="2488" relation="include">
+        </childnode>
+        <childnode refid="2489" relation="include">
+        </childnode>
+        <childnode refid="2490" relation="include">
+        </childnode>
+        <childnode refid="2491" relation="include">
+        </childnode>
+        <childnode refid="2492" relation="include">
+        </childnode>
+        <childnode refid="2493" relation="include">
+        </childnode>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+        <childnode refid="2500" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2502" relation="include">
+        </childnode>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+        <childnode refid="2507" relation="include">
+        </childnode>
+        <childnode refid="2508" relation="include">
+        </childnode>
+        <childnode refid="2509" relation="include">
+        </childnode>
+        <childnode refid="2510" relation="include">
+        </childnode>
+        <childnode refid="2511" relation="include">
+        </childnode>
+        <childnode refid="2512" relation="include">
+        </childnode>
+        <childnode refid="2513" relation="include">
+        </childnode>
+        <childnode refid="2514" relation="include">
+        </childnode>
+        <childnode refid="2515" relation="include">
+        </childnode>
+        <childnode refid="2516" relation="include">
+        </childnode>
+        <childnode refid="2517" relation="include">
+        </childnode>
+        <childnode refid="2518" relation="include">
+        </childnode>
+        <childnode refid="2519" relation="include">
+        </childnode>
+        <childnode refid="2520" relation="include">
+        </childnode>
+        <childnode refid="2521" relation="include">
+        </childnode>
+        <childnode refid="2522" relation="include">
+        </childnode>
+        <childnode refid="2523" relation="include">
+        </childnode>
+        <childnode refid="2524" relation="include">
+        </childnode>
+        <childnode refid="2525" relation="include">
+        </childnode>
+        <childnode refid="2526" relation="include">
+        </childnode>
+        <childnode refid="2527" relation="include">
+        </childnode>
+        <childnode refid="2528" relation="include">
+        </childnode>
+        <childnode refid="2529" relation="include">
+        </childnode>
+        <childnode refid="2530" relation="include">
+        </childnode>
+        <childnode refid="2531" relation="include">
+        </childnode>
+        <childnode refid="2532" relation="include">
+        </childnode>
+        <childnode refid="2533" relation="include">
+        </childnode>
+        <childnode refid="2534" relation="include">
+        </childnode>
+        <childnode refid="2535" relation="include">
+        </childnode>
+        <childnode refid="2536" relation="include">
+        </childnode>
+        <childnode refid="2537" relation="include">
+        </childnode>
+        <childnode refid="2538" relation="include">
+        </childnode>
+        <childnode refid="2539" relation="include">
+        </childnode>
+        <childnode refid="2540" relation="include">
+        </childnode>
+        <childnode refid="2541" relation="include">
+        </childnode>
+        <childnode refid="2542" relation="include">
+        </childnode>
+        <childnode refid="2543" relation="include">
+        </childnode>
+        <childnode refid="2544" relation="include">
+        </childnode>
+        <childnode refid="2545" relation="include">
+        </childnode>
+        <childnode refid="2546" relation="include">
+        </childnode>
+        <childnode refid="2547" relation="include">
+        </childnode>
+        <childnode refid="2548" relation="include">
+        </childnode>
+        <childnode refid="2549" relation="include">
+        </childnode>
+        <childnode refid="2550" relation="include">
+        </childnode>
+        <childnode refid="2551" relation="include">
+        </childnode>
+        <childnode refid="2552" relation="include">
+        </childnode>
+        <childnode refid="2553" relation="include">
+        </childnode>
+        <childnode refid="2554" relation="include">
+        </childnode>
+      </node>
+      <node id="2493">
+        <label>DescriptionQuery.cpp</label>
+      </node>
+      <node id="2550">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="2532">
+        <label>ParBlockQuery.cpp</label>
+      </node>
+      <node id="2476">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="2531">
+        <label>ParaQuery.cpp</label>
+      </node>
+      <node id="2551">
+        <label>VariableListQuery.cpp</label>
+      </node>
+      <node id="2474">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="2472">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="2518">
+        <label>ListQuery.cpp</label>
+      </node>
+      <node id="2481">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="2490">
+        <label>CompoundIndexQuery.cpp</label>
+      </node>
+      <node id="2546">
+        <label>TemplateParamListQuery.cpp</label>
+      </node>
+      <node id="2506">
+        <label>IndexEntryQuery.cpp</label>
+      </node>
+      <node id="2500">
+        <label>FormulaQuery.cpp</label>
+      </node>
+      <node id="2554">
+        <label>Generator.cpp</label>
+      </node>
+      <node id="2488">
+        <label>CodeLineQuery.cpp</label>
+      </node>
+      <node id="2553">
+        <label>XRefSectQuery.cpp</label>
+      </node>
+      <node id="2484">
+        <label>AnchorQuery.cpp</label>
+      </node>
+      <node id="2497">
+        <label>EntryQuery.cpp</label>
+      </node>
+      <node id="2479">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="2494">
+        <label>DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="2529">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="2483">
+        <label>DoxygenFilter.cpp</label>
+      </node>
+      <node id="2512">
+        <label>LanguageQuery.cpp</label>
+      </node>
+      <node id="2505">
+        <label>IncQuery.cpp</label>
+      </node>
+      <node id="2526">
+        <label>ParamListQuery.cpp</label>
+      </node>
+      <node id="2486">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="2499">
+        <label>FileQuery.cpp</label>
+      </node>
+      <node id="2489">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="2549">
+        <label>TocListQuery.cpp</label>
+      </node>
+      <node id="2501">
+        <label>GraphQuery.cpp</label>
+      </node>
+      <node id="2520">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="2533">
+        <label>ReferenceQuery.cpp</label>
+      </node>
+      <node id="2491">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="2498">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="2519">
+        <label>LocationQuery.cpp</label>
+      </node>
+      <node id="2502">
+        <label>HeadingQuery.cpp</label>
+      </node>
+      <node id="2516">
+        <label>ListItemQuery.cpp</label>
+      </node>
+      <node id="2541">
+        <label>Sect4Query.cpp</label>
+      </node>
+      <node id="2514">
+        <label>LinkQuery.cpp</label>
+      </node>
+      <node id="2513">
+        <label>LinkedTextQuery.cpp</label>
+      </node>
+      <node id="2548">
+        <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="2540">
+        <label>Sect3Query.cpp</label>
+      </node>
+      <node id="2544">
+        <label>SpQuery.cpp</label>
+      </node>
+      <node id="2523">
+        <label>MemberRefQuery.cpp</label>
+      </node>
+      <node id="2535">
+        <label>RefTextQuery.cpp</label>
+      </node>
+      <node id="2515">
+        <label>ListingQuery.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/TypeFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06" kindref="member">UsedElements</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a0fd2e27f767656fb873d01e674b8a07c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a0fd2e27f767656fb873d01e674b8a07c" kindref="member">DoxUndefined</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="31" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" kindref="member">DoxTextNode</ref>,</highlight></codeline>
+<codeline lineno="32" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6afe3123fdfe7d65590c7db6ef70f7b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6afe3123fdfe7d65590c7db6ef70f7b9" kindref="member">DoxAnchor</ref>,</highlight></codeline>
+<codeline lineno="33" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8158231a91f7b992d9975a48d4fc4cd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8158231a91f7b992d9975a48d4fc4cd4" kindref="member">DoxArgString</ref>,</highlight></codeline>
+<codeline lineno="34" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1b5ce87b4c99ff191bfad4d81629a363" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1b5ce87b4c99ff191bfad4d81629a363" kindref="member">DoxArray</ref>,</highlight></codeline>
+<codeline lineno="35" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a12ca31d157653e00da7b68e9852ce5d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a12ca31d157653e00da7b68e9852ce5d9" kindref="member">DoxBaseCompoundRef</ref>,</highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab057b9cd03927f00b89362941cdddc27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab057b9cd03927f00b89362941cdddc27" kindref="member">DoxBlockQuote</ref>,</highlight></codeline>
+<codeline lineno="37" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a647639951a0cdc4ceb8d2311a41bc495" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a647639951a0cdc4ceb8d2311a41bc495" kindref="member">DoxBold</ref>,</highlight></codeline>
+<codeline lineno="38" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a53af8dfaa01a1ed5b6dac555c58c1996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a53af8dfaa01a1ed5b6dac555c58c1996" kindref="member">DoxBriefDescription</ref>,</highlight></codeline>
+<codeline lineno="39" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8bc39ebea80190125fb9ed70ff08ad15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8bc39ebea80190125fb9ed70ff08ad15" kindref="member">DoxCaption</ref>,</highlight></codeline>
+<codeline lineno="40" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae277f150de8c13b20d7db1da44944143" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae277f150de8c13b20d7db1da44944143" kindref="member">DoxCenter</ref>,</highlight></codeline>
+<codeline lineno="41" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a890168db904729bafd2f9ef1f55f1a81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a890168db904729bafd2f9ef1f55f1a81" kindref="member">DoxChildNode</ref>,</highlight></codeline>
+<codeline lineno="42" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab288f7acc73fe858c7654d72727425ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab288f7acc73fe858c7654d72727425ce" kindref="member">DoxCodeLine</ref>,</highlight></codeline>
+<codeline lineno="43" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a89c98599b162137603c131c298b17b73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a89c98599b162137603c131c298b17b73" kindref="member">DoxCollaborationGraph</ref>,</highlight></codeline>
+<codeline lineno="44" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" kindref="member">DoxCompoundDef</ref>,</highlight></codeline>
+<codeline lineno="45" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a58ddadbd5f1792c71d9a8c41e0bed774" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a58ddadbd5f1792c71d9a8c41e0bed774" kindref="member">DoxCompound</ref>,</highlight></codeline>
+<codeline lineno="46" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a631ba36fcd59d7ccd27bdff26eb1d448" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a631ba36fcd59d7ccd27bdff26eb1d448" kindref="member">DoxCompoundName</ref>,</highlight></codeline>
+<codeline lineno="47" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af5f089a829dd523c19eb4ba19d37b4a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af5f089a829dd523c19eb4ba19d37b4a8" kindref="member">DoxComputerOutput</ref>,</highlight></codeline>
+<codeline lineno="48" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ada1852f56d462cc59b00c345dc1d0e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ada1852f56d462cc59b00c345dc1d0e1f" kindref="member">DoxDeclName</ref>,</highlight></codeline>
+<codeline lineno="49" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2799e040389f10aeafc974e8c87f3b90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2799e040389f10aeafc974e8c87f3b90" kindref="member">DoxDefinition</ref>,</highlight></codeline>
+<codeline lineno="50" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4b7d2b1d7a77cfc7122acb5d0c7df24b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4b7d2b1d7a77cfc7122acb5d0c7df24b" kindref="member">DoxDefName</ref>,</highlight></codeline>
+<codeline lineno="51" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a32af96c3efe8e3b5038f350d6df53186" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a32af96c3efe8e3b5038f350d6df53186" kindref="member">DoxDefVal</ref>,</highlight></codeline>
+<codeline lineno="52" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aefd5b999548aae2b27e6d4497493b7d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aefd5b999548aae2b27e6d4497493b7d7" kindref="member">DoxDerivedCompoundRef</ref>,</highlight></codeline>
+<codeline lineno="53" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae713d237dea07ac6a75031ee97352f1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae713d237dea07ac6a75031ee97352f1c" kindref="member">DoxDescription</ref>,</highlight></codeline>
+<codeline lineno="54" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" kindref="member">DoxDetailedDescription</ref>,</highlight></codeline>
+<codeline lineno="55" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a779497e91e7199cd4c52a8de0454aff8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a779497e91e7199cd4c52a8de0454aff8" kindref="member">DoxDot</ref>,</highlight></codeline>
+<codeline lineno="56" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abec49270592b6fe57e850fde8b907e08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abec49270592b6fe57e850fde8b907e08" kindref="member">DoxDotFile</ref>,</highlight></codeline>
+<codeline lineno="57" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a192203feaaefb3e53eecadb95ae06c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a192203feaaefb3e53eecadb95ae06c1e" kindref="member">DoxDoxygen</ref>,</highlight></codeline>
+<codeline lineno="58" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae6efc0e0c35c3292da3e72a083338256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae6efc0e0c35c3292da3e72a083338256" kindref="member">DoxDoxygenIndex</ref>,</highlight></codeline>
+<codeline lineno="59" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a64f5b95ee1e83478dd9cc18791d9a420" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a64f5b95ee1e83478dd9cc18791d9a420" kindref="member">DoxEdgeLabel</ref>,</highlight></codeline>
+<codeline lineno="60" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9c92defc3c5f03222608b5ebab19dea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9c92defc3c5f03222608b5ebab19dea2" kindref="member">DoxEmphasis</ref>,</highlight></codeline>
+<codeline lineno="61" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9318472f246238324559bbc32d038ea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9318472f246238324559bbc32d038ea9" kindref="member">DoxEntry</ref>,</highlight></codeline>
+<codeline lineno="62" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" kindref="member">DoxEnumValue</ref>,</highlight></codeline>
+<codeline lineno="63" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa5503622b88df4ab6180e1d72a1db249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa5503622b88df4ab6180e1d72a1db249" kindref="member">DoxExceptions</ref>,</highlight></codeline>
+<codeline lineno="64" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af61282b0fc3e920e52576e41a71919ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af61282b0fc3e920e52576e41a71919ee" kindref="member">DoxHeader</ref>,</highlight></codeline>
+<codeline lineno="65" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a025b850427149e0474bb80217f41fab3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a025b850427149e0474bb80217f41fab3" kindref="member">DoxHeading</ref>,</highlight></codeline>
+<codeline lineno="66" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6c81024e832e0e8d9723f85382304b6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6c81024e832e0e8d9723f85382304b6a" kindref="member">DoxHighlight</ref>,</highlight></codeline>
+<codeline lineno="67" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a5350242784bed8045a8bbf3a92ad6ee8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a5350242784bed8045a8bbf3a92ad6ee8" kindref="member">DoxHruler</ref>,</highlight></codeline>
+<codeline lineno="68" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ad90592549c2723ea120781f45d073269" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ad90592549c2723ea120781f45d073269" kindref="member">DoxImage</ref>,</highlight></codeline>
+<codeline lineno="69" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a882cdb491a78f9b5550db73de4e507f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a882cdb491a78f9b5550db73de4e507f5" kindref="member">DoxInBodyDescription</ref>,</highlight></codeline>
+<codeline lineno="70" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a115114baafff2bf971c07275f8180da8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a115114baafff2bf971c07275f8180da8" kindref="member">DoxIncDepGraph</ref>,</highlight></codeline>
+<codeline lineno="71" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a387eb81fee9d85e4be95b6d928d212ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a387eb81fee9d85e4be95b6d928d212ea" kindref="member">DoxIncludedBy</ref>,</highlight></codeline>
+<codeline lineno="72" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2c51b07403b79f3a5a320092b759ce17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2c51b07403b79f3a5a320092b759ce17" kindref="member">DoxIncludes</ref>,</highlight></codeline>
+<codeline lineno="73" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7dccbb7567252352a529477605758be9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7dccbb7567252352a529477605758be9" kindref="member">DoxIndexEntry</ref>,</highlight></codeline>
+<codeline lineno="74" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6659f0022c2180684c46dd8c58181532" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6659f0022c2180684c46dd8c58181532" kindref="member">DoxInheritanceGraph</ref>,</highlight></codeline>
+<codeline lineno="75" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac5dac5294d6cda4748bdc3fb1058deed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac5dac5294d6cda4748bdc3fb1058deed" kindref="member">DoxInitializer</ref>,</highlight></codeline>
+<codeline lineno="76" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aaff8a266b910b62471b81a13e05c8b5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aaff8a266b910b62471b81a13e05c8b5b" kindref="member">DoxInnerclass</ref>,</highlight></codeline>
+<codeline lineno="77" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06adce8e4f3db684d8cda2166aea0d29961" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06adce8e4f3db684d8cda2166aea0d29961" kindref="member">DoxInnerDir</ref>,</highlight></codeline>
+<codeline lineno="78" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a764c8785168a6067edd01017f7facf41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a764c8785168a6067edd01017f7facf41" kindref="member">DoxInnerFile</ref>,</highlight></codeline>
+<codeline lineno="79" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a03510b6936ca925348c9c40a76fea759" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a03510b6936ca925348c9c40a76fea759" kindref="member">DoxInnerGroup</ref>,</highlight></codeline>
+<codeline lineno="80" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a12586fa8c00fdb6ec13ede3914af98a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a12586fa8c00fdb6ec13ede3914af98a7" kindref="member">DoxInnerNamespace</ref>,</highlight></codeline>
+<codeline lineno="81" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a561f62905239cdf6b7ae7dde74f7b147" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a561f62905239cdf6b7ae7dde74f7b147" kindref="member">DoxInnerPage</ref>,</highlight></codeline>
+<codeline lineno="82" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3a71ef54b910c533c8648fac9707cf88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3a71ef54b910c533c8648fac9707cf88" kindref="member">DoxInt</ref>,</highlight></codeline>
+<codeline lineno="83" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae15972f1341c9af30e7ee7ab694ebc07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae15972f1341c9af30e7ee7ab694ebc07" kindref="member">DoxInternal</ref>,</highlight></codeline>
+<codeline lineno="84" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af6a4727d3541ec4b60e242eae3e79664" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af6a4727d3541ec4b60e242eae3e79664" kindref="member">DoxInvIncDepGraph</ref>,</highlight></codeline>
+<codeline lineno="85" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9bafb3b82a41fcaa22c5ad80a571a75c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9bafb3b82a41fcaa22c5ad80a571a75c" kindref="member">DoxItemizedList</ref>,</highlight></codeline>
+<codeline lineno="86" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3075725e8acc7defebc4f8e809edb9c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3075725e8acc7defebc4f8e809edb9c8" kindref="member">DoxLabel</ref>,</highlight></codeline>
+<codeline lineno="87" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac995447382bb7bb92b7ad46b61d8d933" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac995447382bb7bb92b7ad46b61d8d933" kindref="member">DoxLang</ref>,</highlight></codeline>
+<codeline lineno="88" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a879f1cde1013d653dffc0ea325d4ffc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a879f1cde1013d653dffc0ea325d4ffc6" kindref="member">DoxLanguage</ref>,</highlight></codeline>
+<codeline lineno="89" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4cbcfb1c15bf287392b0a177bfac9bf7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4cbcfb1c15bf287392b0a177bfac9bf7" kindref="member">DoxLineBreak</ref>,</highlight></codeline>
+<codeline lineno="90" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a839590de47d09b56ecbe921c43201735" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a839590de47d09b56ecbe921c43201735" kindref="member">DoxLink</ref>,</highlight></codeline>
+<codeline lineno="91" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3799ef45ef84c4ba2165c43523ad1bc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3799ef45ef84c4ba2165c43523ad1bc9" kindref="member">DoxListItem</ref>,</highlight></codeline>
+<codeline lineno="92" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a30ecc1a8698d108b7e0b62e10118bcde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a30ecc1a8698d108b7e0b62e10118bcde" kindref="member">DoxListOfAllMembers</ref>,</highlight></codeline>
+<codeline lineno="93" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" kindref="member">DoxLocation</ref>,</highlight></codeline>
+<codeline lineno="94" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8874e9c792963f35f583981d58c56369" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8874e9c792963f35f583981d58c56369" kindref="member">DoxMember</ref>,</highlight></codeline>
+<codeline lineno="95" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" kindref="member">DoxMemberDef</ref>,</highlight></codeline>
+<codeline lineno="96" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" kindref="member">DoxName</ref>,</highlight></codeline>
+<codeline lineno="97" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a806c34609bd890c9cde018279e334d86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a806c34609bd890c9cde018279e334d86" kindref="member">DoxNode</ref>,</highlight></codeline>
+<codeline lineno="98" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3453f8d107900311321adf22fc80a9bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3453f8d107900311321adf22fc80a9bb" kindref="member">DoxOrderedList</ref>,</highlight></codeline>
+<codeline lineno="99" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8aa7cc80deee8ce4572c0987ed623b58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a8aa7cc80deee8ce4572c0987ed623b58" kindref="member">DoxPara</ref>,</highlight></codeline>
+<codeline lineno="100" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac195972a46c9b7f6400b66683861bbb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac195972a46c9b7f6400b66683861bbb4" kindref="member">DoxParam</ref>,</highlight></codeline>
+<codeline lineno="101" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a0508e38677531f2434af1c26b32ef2fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a0508e38677531f2434af1c26b32ef2fe" kindref="member">DoxParameterDescription</ref>,</highlight></codeline>
+<codeline lineno="102" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae29656fab94cd325e3a184dc4b1dd778" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae29656fab94cd325e3a184dc4b1dd778" kindref="member">DoxParameterItem</ref>,</highlight></codeline>
+<codeline lineno="103" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a656ad0c6284a83100db2159d5f1a06d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a656ad0c6284a83100db2159d5f1a06d1" kindref="member">DoxParameterList</ref>,</highlight></codeline>
+<codeline lineno="104" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af65ccf18fb916fab7788292e8e00cf95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af65ccf18fb916fab7788292e8e00cf95" kindref="member">DoxParameterName</ref>,</highlight></codeline>
+<codeline lineno="105" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aff2112d724356eecc0582bbfcf6c7603" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aff2112d724356eecc0582bbfcf6c7603" kindref="member">DoxParameterNameList</ref>,</highlight></codeline>
+<codeline lineno="106" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6724d8c811b908a02f27d10f088f3dab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6724d8c811b908a02f27d10f088f3dab" kindref="member">DoxParameterType</ref>,</highlight></codeline>
+<codeline lineno="107" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4ec8ea2b2209e3e38f69127da6971cc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4ec8ea2b2209e3e38f69127da6971cc6" kindref="member">DoxParBlock</ref>,</highlight></codeline>
+<codeline lineno="108" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae0e2764fc04a0e60cc5cbe8bd7af1d8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae0e2764fc04a0e60cc5cbe8bd7af1d8c" kindref="member">DoxPart</ref>,</highlight></codeline>
+<codeline lineno="109" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ad4b11b79116f69ce05cee787da220e2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ad4b11b79116f69ce05cee787da220e2c" kindref="member">DoxPreFormatted</ref>,</highlight></codeline>
+<codeline lineno="110" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aafab1427a1a92029b49382651f5e1a6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aafab1427a1a92029b49382651f5e1a6f" kindref="member">DoxProd</ref>,</highlight></codeline>
+<codeline lineno="111" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3ee99a20dd457c2917f638c91e1c578a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3ee99a20dd457c2917f638c91e1c578a" kindref="member">DoxProgramListing</ref>,</highlight></codeline>
+<codeline lineno="112" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab49f71138dbd902da7fc32ecb934357b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ab49f71138dbd902da7fc32ecb934357b" kindref="member">DoxProp</ref>,</highlight></codeline>
+<codeline lineno="113" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a5d3ffb834da85f9a7514e5b372ece70d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a5d3ffb834da85f9a7514e5b372ece70d" kindref="member">DoxRef</ref>,</highlight></codeline>
+<codeline lineno="114" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae50ea4c75b5c7eeb6932ad8f2dd5cd1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae50ea4c75b5c7eeb6932ad8f2dd5cd1b" kindref="member">DoxReferencedBy</ref>,</highlight></codeline>
+<codeline lineno="115" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa11cccfac848487ebc691b7a9cb4ba18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa11cccfac848487ebc691b7a9cb4ba18" kindref="member">DoxReferences</ref>,</highlight></codeline>
+<codeline lineno="116" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a52556030b7dd543abecb3781a71d9047" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a52556030b7dd543abecb3781a71d9047" kindref="member">DoxRegistered</ref>,</highlight></codeline>
+<codeline lineno="117" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abf78c4105dc232713c46def438d8ebfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abf78c4105dc232713c46def438d8ebfc" kindref="member">DoxReImplementedBy</ref>,</highlight></codeline>
+<codeline lineno="118" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ace02340e0ce564ee36be72c5e5115ff7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ace02340e0ce564ee36be72c5e5115ff7" kindref="member">DoxReImplements</ref>,</highlight></codeline>
+<codeline lineno="119" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af1e8268d30c095ef9b4cf9ed84295f12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af1e8268d30c095ef9b4cf9ed84295f12" kindref="member">DoxScope</ref>,</highlight></codeline>
+<codeline lineno="120" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6bcfbc18afe076528ab20f60e48163d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a6bcfbc18afe076528ab20f60e48163d1" kindref="member">DoxSect</ref>,</highlight></codeline>
+<codeline lineno="121" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acf3f9bb2ae038eaa00e3ee1bc4595e1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acf3f9bb2ae038eaa00e3ee1bc4595e1f" kindref="member">DoxSect1</ref>,</highlight></codeline>
+<codeline lineno="122" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7f883112d715a0cd670d0882e0bdc874" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7f883112d715a0cd670d0882e0bdc874" kindref="member">DoxSect2</ref>,</highlight></codeline>
+<codeline lineno="123" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa7786020cff07002b3713a9236fc003a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa7786020cff07002b3713a9236fc003a" kindref="member">DoxSect3</ref>,</highlight></codeline>
+<codeline lineno="124" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac79df363ba55f400dc69cfd50b678680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ac79df363ba55f400dc69cfd50b678680" kindref="member">DoxSect4</ref>,</highlight></codeline>
+<codeline lineno="125" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a87140cb95a74356cae78803b5dfaf7fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a87140cb95a74356cae78803b5dfaf7fa" kindref="member">DoxSectionDef</ref>,</highlight></codeline>
+<codeline lineno="126" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1c04104837c0bfd637bceeafbe21e0b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1c04104837c0bfd637bceeafbe21e0b8" kindref="member">DoxSimpleSect</ref>,</highlight></codeline>
+<codeline lineno="127" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4b6731f6360cdd07748352be718a416a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a4b6731f6360cdd07748352be718a416a" kindref="member">DoxSmall</ref>,</highlight></codeline>
+<codeline lineno="128" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9aef37eeb7e6c90a6e2e02995226dc59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a9aef37eeb7e6c90a6e2e02995226dc59" kindref="member">DoxSp</ref>,</highlight></codeline>
+<codeline lineno="129" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a463ee61803c7d59b68f1a5d92f1b7b34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a463ee61803c7d59b68f1a5d92f1b7b34" kindref="member">DoxTable</ref>,</highlight></codeline>
+<codeline lineno="130" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a36634d053c9c77d32df9639d1788920f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a36634d053c9c77d32df9639d1788920f" kindref="member">DoxTableOfContents</ref>,</highlight></codeline>
+<codeline lineno="131" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a77b273a7edae87bbe6293c14307f05eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a77b273a7edae87bbe6293c14307f05eb" kindref="member">DoxTocItem</ref>,</highlight></codeline>
+<codeline lineno="132" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06addddc121ba82fe10d5bacf7114e4bd51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06addddc121ba82fe10d5bacf7114e4bd51" kindref="member">DoxTocList</ref>,</highlight></codeline>
+<codeline lineno="133" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a450e5bc8ac2031c489c0c171c4474672" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a450e5bc8ac2031c489c0c171c4474672" kindref="member">DoxTemplateParamList</ref>,</highlight></codeline>
+<codeline lineno="134" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abbe8727df6ff69fe3e71c58b0884793d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06abbe8727df6ff69fe3e71c58b0884793d" kindref="member">DoxTitle</ref>,</highlight></codeline>
+<codeline lineno="135" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" kindref="member">DoxType</ref>,</highlight></codeline>
+<codeline lineno="136" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acc254276dbdec900aec1f52e2bafae3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acc254276dbdec900aec1f52e2bafae3e" kindref="member">DoxUlink</ref>,</highlight></codeline>
+<codeline lineno="137" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae9e291ae252dbd246b9f00367f0b14b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae9e291ae252dbd246b9f00367f0b14b4" kindref="member">DoxVariableList</ref>,</highlight></codeline>
+<codeline lineno="138" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3ef5c4a7077780ffa80c12dd75b60eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a3ef5c4a7077780ffa80c12dd75b60eef" kindref="member">DoxVarListEntry</ref>,</highlight></codeline>
+<codeline lineno="139" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2763c854745b084aea63119578222702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2763c854745b084aea63119578222702" kindref="member">DoxVerbatim</ref>,</highlight></codeline>
+<codeline lineno="140" refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a170d4834970695b6769eaf3125514ccb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a170d4834970695b6769eaf3125514ccb" kindref="member">DoxWrite</ref>,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>constexpr<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref>*<sp/><ref refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" kindref="member">getFilter</ref>();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" kindref="member">getFilterSize</ref>();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/TypeFilter/DoxygenFilter.h"/>
+  </compounddef>
+</doxygen>

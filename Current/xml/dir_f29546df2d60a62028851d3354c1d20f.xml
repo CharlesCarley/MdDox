@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_f29546df2d60a62028851d3354c1d20f" kind="dir">
+    <compoundname>GenApi</compoundname>
+    <innerfile refid="Common_8cpp">Common.cpp</innerfile>
+    <innerfile refid="Common_8h">Common.h</innerfile>
+    <innerfile refid="Complex_8cpp">Complex.cpp</innerfile>
+    <innerfile refid="Complex_8h">Complex.h</innerfile>
+    <innerfile refid="Database_8cpp">Database.cpp</innerfile>
+    <innerfile refid="Database_8h">Database.h</innerfile>
+    <innerfile refid="Generator_8cpp">Generator.cpp</innerfile>
+    <innerfile refid="Generator_8h">Generator.h</innerfile>
+    <innerfile refid="Group_8cpp">Group.cpp</innerfile>
+    <innerfile refid="Group_8h">Group.h</innerfile>
+    <innerfile refid="Tools_2GenApi_2Main_8cpp">Tools/GenApi/Main.cpp</innerfile>
+    <innerfile refid="Object_8h">Object.h</innerfile>
+    <innerfile refid="Resources_8cpp">Resources.cpp</innerfile>
+    <innerfile refid="Resources_8h">Resources.h</innerfile>
+    <innerfile refid="Simple_8cpp">Simple.cpp</innerfile>
+    <innerfile refid="Simple_8h">Simple.h</innerfile>
+    <innerfile refid="Types_8h">Types.h</innerfile>
+    <innerfile refid="Tools_2GenApi_2Writer_8h">Tools/GenApi/Writer.h</innerfile>
+    <briefdescription>
+<para>Contains the generator for the Doxygen scaffolding library. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/GenApi/"/>
+  </compounddef>
+</doxygen>

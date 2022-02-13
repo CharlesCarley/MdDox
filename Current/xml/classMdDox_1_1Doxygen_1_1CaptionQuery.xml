@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1CaptionQuery" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::CaptionQuery</compoundname>
+    <includes local="no">Tools/Doxygen/CaptionQuery.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a288cb536e4771c823f99abd79711806f" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::Doxygen::CaptionQuery::_node</definition>
+        <argsstring></argsstring>
+        <name>_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="132" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6e9c85acc5aa07c41fff4fdf99925e57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CaptionQuery::CaptionQuery</definition>
+        <argsstring>()</argsstring>
+        <name>CaptionQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="135" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4d9cd25aa79f78c86e950ef7bb415071" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CaptionQuery::CaptionQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>CaptionQuery</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="140" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a0190f6266c569c5216f320d2d8ad5229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CaptionQuery::CaptionQuery</definition>
+        <argsstring>(const CaptionQuery &amp;other)=default</argsstring>
+        <name>CaptionQuery</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1CaptionQuery" kindref="compound">CaptionQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a23561a1c9b14c37fc4bd6d8ff2ddc68f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::CaptionQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="150" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1abc927f8261836aea35a07431ebfcf7a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::CaptionQuery::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+<para>Checks to see if the internal node has children. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="155" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="344" bodyend="347"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1af1d94053fd3882fe16f548dc58d1c23e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="160" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="334" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node * MdDox::Doxygen::CaptionQuery::node</definition>
+        <argsstring>() const</argsstring>
+        <name>node</name>
+        <briefdescription>
+<para>Returns the wrapped node pointer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="165" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="339" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6dddac0352f17d1e0a12c6b803b2fbe1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::sort</definition>
+        <argsstring>(const SortMap &amp;childOrder) const</argsstring>
+        <name>sort</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">SortMap</ref> &amp;</type>
+          <declname>childOrder</declname>
+        </param>
+        <briefdescription>
+<para>Sorts the nodes in the query based on priority of type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="170" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="365" bodyend="386"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6f6cec247c3abe52abfac756bdff346c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CaptionQuery::text</definition>
+        <argsstring>(const String &amp;def=&quot;&quot;) const</argsstring>
+        <name>text</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>def</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the node&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The text data associated with this node the default value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="176" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="360" bodyend="363"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1a82e3afd1f2d53631221e3b9df39d8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::visit</definition>
+        <argsstring>(Visitors::CaptionQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor" kindref="compound">Visitors::CaptionQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="178" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="34" bodyend="95"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a4db20846d4fb8445f3f8ea5bb2d0b61c" compoundref="CaptionQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedText</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a30bd56ab2f22f080fddbe126b32687c1" compoundref="CaptionQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedULink</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a3a905eafd8a942bef35d4c3ea44a19cc" compoundref="CaptionQuery_8h" startline="48" endline="48">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedBold</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a109d6870f6586349e205c8d400f09e75" compoundref="CaptionQuery_8h" startline="53" endline="53">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedEmphasis</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a17c719e43a92fa1379e94cabab11f7ce" compoundref="CaptionQuery_8h" startline="58" endline="58">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedComputerOutput</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1aea997c0ff8afe6cb7d15aec8930fd678" compoundref="CaptionQuery_8h" startline="63" endline="63">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedCenter</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1adbf027a7b5d686dffeaa3c1ee37a542f" compoundref="CaptionQuery_8h" startline="68" endline="68">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedSmall</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a2c16bd0a1de989c6449746fa211ef494" compoundref="CaptionQuery_8h" startline="73" endline="73">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedAnchor</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a877ea931513cf73bce4452dc412471a2" compoundref="CaptionQuery_8h" startline="78" endline="78">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedRef</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a512bc21655bfe1f28a309960530d7d4b" compoundref="CaptionQuery_8h" startline="83" endline="83">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedSect</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a5389d99dfc8d97d4496bde3e962ee66c" compoundref="CaptionQuery_8h" startline="88" endline="88">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedRegistered</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ad82cb6cfff5297a2124b6316c7417d81" compoundref="CaptionQuery_8h" startline="93" endline="93">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedParagraph</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a621d4bda64afe30c5fe8495d8614f7c5" compoundref="CaptionQuery_8h" startline="98" endline="98">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedPart</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ad0614e1adb4bdd6a1b297a61154e064f" compoundref="CaptionQuery_8h" startline="103" endline="103">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedProp</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a67393b129c645fe71f998be730bc3170" compoundref="CaptionQuery_8h" startline="108" endline="108">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedLang</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ae2d7d32df02068ca5d4b50f1fcee3a3a" compoundref="CaptionQuery_8h" startline="113" endline="113">MdDox::Doxygen::Visitors::CaptionQueryVisitor::visitedDot</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a10fdc119926307a2c9ab16d6421de59e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CaptionQuery::getDot</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>dot</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>dot&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="184" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="96" bodyend="104"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a7bbc39e82e709285fcbae71580e45e31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getULink</definition>
+        <argsstring>(UrlLinkQuery &amp;dest) const</argsstring>
+        <name>getULink</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="189" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="106" bodyend="115"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a50121825f1a47d0918ff82f367528954" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref></type>
+        <definition>UrlLinkQuery MdDox::Doxygen::CaptionQuery::getULink</definition>
+        <argsstring>() const</argsstring>
+        <name>getULink</name>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="194" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa0ca697e78e3bacb064c41b42a181604" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getBold</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getBold</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="199" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="124" bodyend="133"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a2b601b9aabb27ec83db75d35ac2bbe9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::CaptionQuery::getBold</definition>
+        <argsstring>() const</argsstring>
+        <name>getBold</name>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="204" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="135" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a9af25305c2c3333b600f8f74f4e084f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getEmphasis</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getEmphasis</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="209" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="142" bodyend="151"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a07379a1c9687efb41430f8e8d4b0fb40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::CaptionQuery::getEmphasis</definition>
+        <argsstring>() const</argsstring>
+        <name>getEmphasis</name>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="214" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="153" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a57083ebf665eef4199db0f7741f4a83f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getComputerOutput</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getComputerOutput</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="219" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="160" bodyend="169"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aad97ee40d4d09cba64c369ad46d72a8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::CaptionQuery::getComputerOutput</definition>
+        <argsstring>() const</argsstring>
+        <name>getComputerOutput</name>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="224" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="171" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa881a27564262537054d759139a18bd1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getCenter</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getCenter</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="229" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="178" bodyend="187"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4af9abf0becf5a45e9dfeaae6974fa57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::CaptionQuery::getCenter</definition>
+        <argsstring>() const</argsstring>
+        <name>getCenter</name>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="234" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa3e3b0c4ced9ea82b9cc597f3370f3a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getSmall</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getSmall</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="239" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="196" bodyend="205"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a168025efb4750c1f6ec9ed169b3c5bab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::CaptionQuery::getSmall</definition>
+        <argsstring>() const</argsstring>
+        <name>getSmall</name>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="244" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="207" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8e8009e1ae092f60dc81e2b9b633b03e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getAnchor</definition>
+        <argsstring>(AnchorQuery &amp;dest) const</argsstring>
+        <name>getAnchor</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="249" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="214" bodyend="223"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a30a003d5be74122c81168a45432c3994" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref></type>
+        <definition>AnchorQuery MdDox::Doxygen::CaptionQuery::getAnchor</definition>
+        <argsstring>() const</argsstring>
+        <name>getAnchor</name>
+        <briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="254" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="225" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aecdb38086eab21d8b9d5dd025a376c7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getRef</definition>
+        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
+        <name>getRef</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="259" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="232" bodyend="241"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4f541952da656bd793caf2befc0ca845" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
+        <definition>RefTextQuery MdDox::Doxygen::CaptionQuery::getRef</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef</name>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="264" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="243" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a433d8f77847bf1edbd95330fb61ee32e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getSect</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getSect</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="269" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="250" bodyend="259"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1ad2d5fb8b8ab966bc7f434c7ab5eba99e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::CaptionQuery::getSect</definition>
+        <argsstring>() const</argsstring>
+        <name>getSect</name>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="274" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="261" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa8c6600d54bf39fd0f1cfb567ccc8edb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getRegistered</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getRegistered</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="279" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="268" bodyend="277"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a234eb232cd5d5c9a04b817397b63ac3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::CaptionQuery::getRegistered</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegistered</name>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="284" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="279" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1af7ea8becdd7097d69036ebf87d6adb4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getParagraph</definition>
+        <argsstring>(ParaQuery &amp;dest) const</argsstring>
+        <name>getParagraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="286" bodyend="295"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">MdDox::Doxygen::ParaQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a53e916bd687929923d6bb082492dd442" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref></type>
+        <definition>ParaQuery MdDox::Doxygen::CaptionQuery::getParagraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getParagraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="297" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a26efa44409f0860bcc1049c8b6d8d11e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getPart</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getPart</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="304" bodyend="313"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a48417df2928925f5a13668966d49e619" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::CaptionQuery::getPart</definition>
+        <argsstring>() const</argsstring>
+        <name>getPart</name>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="315" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1552d122f1885755f39fce0d0237deb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getProp</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getProp</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="322" bodyend="331"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8b92572a1078de687cbe8a9e449b1d28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::CaptionQuery::getProp</definition>
+        <argsstring>() const</argsstring>
+        <name>getProp</name>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="314" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4bd03136588b9a3d46260aae1252a36a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CaptionQuery::getLang</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getLang</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="340" bodyend="349"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" compoundref="CaptionQuery_8h" startline="339" endline="342">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CaptionQuery_1afe950e9057ee51ca64458789a68f3c8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::CaptionQuery::getLang</definition>
+        <argsstring>() const</argsstring>
+        <name>getLang</name>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="324" column="1" bodyfile="Tools/Doxygen/CaptionQuery.cpp" bodystart="351" bodyend="356"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docCaptionType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docCaptionType</bold> scaffolding.</para><para><programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docCaptionType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:group</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">ref</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docTitleCmdGroup&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="Tools/Doxygen/CaptionQuery.h" line="130" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="129" bodyend="327"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a288cb536e4771c823f99abd79711806f" prot="private" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>_node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6e9c85acc5aa07c41fff4fdf99925e57" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>CaptionQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4d9cd25aa79f78c86e950ef7bb415071" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>CaptionQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a0190f6266c569c5216f320d2d8ad5229" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>CaptionQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1abc927f8261836aea35a07431ebfcf7a3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>empty</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8e8009e1ae092f60dc81e2b9b633b03e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getAnchor</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a30a003d5be74122c81168a45432c3994" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getAnchor</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa0ca697e78e3bacb064c41b42a181604" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getBold</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a2b601b9aabb27ec83db75d35ac2bbe9a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getBold</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa881a27564262537054d759139a18bd1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getCenter</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4af9abf0becf5a45e9dfeaae6974fa57" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getCenter</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a57083ebf665eef4199db0f7741f4a83f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getComputerOutput</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aad97ee40d4d09cba64c369ad46d72a8c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getComputerOutput</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a10fdc119926307a2c9ab16d6421de59e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getDot</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a9af25305c2c3333b600f8f74f4e084f4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getEmphasis</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a07379a1c9687efb41430f8e8d4b0fb40" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getEmphasis</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4bd03136588b9a3d46260aae1252a36a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getLang</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1afe950e9057ee51ca64458789a68f3c8e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getLang</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1af7ea8becdd7097d69036ebf87d6adb4f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a53e916bd687929923d6bb082492dd442" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a26efa44409f0860bcc1049c8b6d8d11e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getPart</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a48417df2928925f5a13668966d49e619" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getPart</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1552d122f1885755f39fce0d0237deb2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getProp</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8b92572a1078de687cbe8a9e449b1d28" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getProp</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aecdb38086eab21d8b9d5dd025a376c7b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getRef</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4f541952da656bd793caf2befc0ca845" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getRef</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa8c6600d54bf39fd0f1cfb567ccc8edb" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getRegistered</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a234eb232cd5d5c9a04b817397b63ac3e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getRegistered</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a433d8f77847bf1edbd95330fb61ee32e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getSect</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1ad2d5fb8b8ab966bc7f434c7ab5eba99e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getSect</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa3e3b0c4ced9ea82b9cc597f3370f3a5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getSmall</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a168025efb4750c1f6ec9ed169b3c5bab" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getSmall</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a7bbc39e82e709285fcbae71580e45e31" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getULink</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a50121825f1a47d0918ff82f367528954" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>getULink</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a23561a1c9b14c37fc4bd6d8ff2ddc68f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>isValid</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1af1d94053fd3882fe16f548dc58d1c23e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>reset</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6dddac0352f17d1e0a12c6b803b2fbe1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>sort</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6f6cec247c3abe52abfac756bdff346c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>text</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1a82e3afd1f2d53631221e3b9df39d8e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CaptionQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

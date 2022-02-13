@@ -1,0 +1,2132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="Doxygen_8h" kind="file" language="C++">
+    <compoundname>Doxygen.h</compoundname>
+    <includes local="no">functional</includes>
+    <includes local="no">unordered_map</includes>
+    <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
+    <includes refid="Exception_8h" local="yes">Utils/Exception.h</includes>
+    <includedby refid="AnchorQuery_8h" local="yes">AnchorQuery.h</includedby>
+    <includedby refid="BlockQuoteQuery_8h" local="yes">BlockQuoteQuery.h</includedby>
+    <includedby refid="ParaQuery_8h" local="yes">ParaQuery.h</includedby>
+    <includedby refid="CaptionQuery_8h" local="yes">CaptionQuery.h</includedby>
+    <includedby refid="EmptyQuery_8h" local="yes">EmptyQuery.h</includedby>
+    <includedby refid="UrlLinkQuery_8h" local="yes">UrlLinkQuery.h</includedby>
+    <includedby refid="MarkupQuery_8h" local="yes">MarkupQuery.h</includedby>
+    <includedby refid="RefTextQuery_8h" local="yes">RefTextQuery.h</includedby>
+    <includedby refid="DoxRefKind_8h" local="yes">DoxRefKind.h</includedby>
+    <includedby refid="ChildNodeQuery_8h" local="yes">ChildNodeQuery.h</includedby>
+    <includedby refid="DoxGraphRelation_8h" local="yes">DoxGraphRelation.h</includedby>
+    <includedby refid="CodeLineQuery_8h" local="yes">CodeLineQuery.h</includedby>
+    <includedby refid="DoxBool_8h" local="yes">DoxBool.h</includedby>
+    <includedby refid="HighlightQuery_8h" local="yes">HighlightQuery.h</includedby>
+    <includedby refid="DoxHighlightClass_8h" local="yes">DoxHighlightClass.h</includedby>
+    <includedby refid="CompoundDefQuery_8h" local="yes">CompoundDefQuery.h</includedby>
+    <includedby refid="DoxCompoundKind_8h" local="yes">DoxCompoundKind.h</includedby>
+    <includedby refid="DoxLanguage_8h" local="yes">DoxLanguage.h</includedby>
+    <includedby refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includedby>
+    <includedby refid="DescriptionQuery_8h" local="yes">DescriptionQuery.h</includedby>
+    <includedby refid="CompoundRefQuery_8h" local="yes">CompoundRefQuery.h</includedby>
+    <includedby refid="DoxVirtualKind_8h" local="yes">DoxVirtualKind.h</includedby>
+    <includedby refid="ListingQuery_8h" local="yes">ListingQuery.h</includedby>
+    <includedby refid="IncQuery_8h" local="yes">IncQuery.h</includedby>
+    <includedby refid="GraphQuery_8h" local="yes">GraphQuery.h</includedby>
+    <includedby refid="RefQuery_8h" local="yes">RefQuery.h</includedby>
+    <includedby refid="TemplateParamListQuery_8h" local="yes">TemplateParamListQuery.h</includedby>
+    <includedby refid="SectionDefQuery_8h" local="yes">SectionDefQuery.h</includedby>
+    <includedby refid="DoxSectionKind_8h" local="yes">DoxSectionKind.h</includedby>
+    <includedby refid="LocationQuery_8h" local="yes">LocationQuery.h</includedby>
+    <includedby refid="CompoundIndexQuery_8h" local="yes">CompoundIndexQuery.h</includedby>
+    <includedby refid="MemberIndexQuery_8h" local="yes">MemberIndexQuery.h</includedby>
+    <includedby refid="DoxMemberKind_8h" local="yes">DoxMemberKind.h</includedby>
+    <includedby refid="CopyQuery_8h" local="yes">CopyQuery.h</includedby>
+    <includedby refid="Sect1Query_8h" local="yes">Sect1Query.h</includedby>
+    <includedby refid="InternalQuery_8h" local="yes">InternalQuery.h</includedby>
+    <includedby refid="DoxAccessor_8h" local="yes">DoxAccessor.h</includedby>
+    <includedby refid="DoxCharRange_8h" local="yes">DoxCharRange.h</includedby>
+    <includedby refid="DoxImageKind_8h" local="yes">DoxImageKind.h</includedby>
+    <includedby refid="DoxParamDir_8h" local="yes">DoxParamDir.h</includedby>
+    <includedby refid="DoxParamListKind_8h" local="yes">DoxParamListKind.h</includedby>
+    <includedby refid="DoxRefQualifierKind_8h" local="yes">DoxRefQualifierKind.h</includedby>
+    <includedby refid="DoxSimpleSectKind_8h" local="yes">DoxSimpleSectKind.h</includedby>
+    <includedby refid="DoxVersionNumber_8h" local="yes">DoxVersionNumber.h</includedby>
+    <includedby refid="DoxygenIndexQuery_8h" local="yes">DoxygenIndexQuery.h</includedby>
+    <includedby refid="DoxygenQuery_8h" local="yes">DoxygenQuery.h</includedby>
+    <includedby refid="EntryQuery_8h" local="yes">EntryQuery.h</includedby>
+    <includedby refid="EnumValueQuery_8h" local="yes">EnumValueQuery.h</includedby>
+    <includedby refid="LinkedTextQuery_8h" local="yes">LinkedTextQuery.h</includedby>
+    <includedby refid="FileQuery_8h" local="yes">FileQuery.h</includedby>
+    <includedby refid="FormulaQuery_8h" local="yes">FormulaQuery.h</includedby>
+    <includedby refid="NodeQuery_8h" local="yes">NodeQuery.h</includedby>
+    <includedby refid="HeadingQuery_8h" local="yes">HeadingQuery.h</includedby>
+    <includedby refid="SpQuery_8h" local="yes">SpQuery.h</includedby>
+    <includedby refid="ImageQuery_8h" local="yes">ImageQuery.h</includedby>
+    <includedby refid="IndexEntryQuery_8h" local="yes">IndexEntryQuery.h</includedby>
+    <includedby refid="InternalS1Query_8h" local="yes">InternalS1Query.h</includedby>
+    <includedby refid="Sect2Query_8h" local="yes">Sect2Query.h</includedby>
+    <includedby refid="InternalS2Query_8h" local="yes">InternalS2Query.h</includedby>
+    <includedby refid="Sect3Query_8h" local="yes">Sect3Query.h</includedby>
+    <includedby refid="InternalS3Query_8h" local="yes">InternalS3Query.h</includedby>
+    <includedby refid="Sect4Query_8h" local="yes">Sect4Query.h</includedby>
+    <includedby refid="InternalS4Query_8h" local="yes">InternalS4Query.h</includedby>
+    <includedby refid="LanguageQuery_8h" local="yes">LanguageQuery.h</includedby>
+    <includedby refid="LinkQuery_8h" local="yes">LinkQuery.h</includedby>
+    <includedby refid="ListItemQuery_8h" local="yes">ListItemQuery.h</includedby>
+    <includedby refid="MemberRefQuery_8h" local="yes">MemberRefQuery.h</includedby>
+    <includedby refid="ListOfAllmembersQuery_8h" local="yes">ListOfAllmembersQuery.h</includedby>
+    <includedby refid="ListQuery_8h" local="yes">ListQuery.h</includedby>
+    <includedby refid="TitleQuery_8h" local="yes">TitleQuery.h</includedby>
+    <includedby refid="TableQuery_8h" local="yes">TableQuery.h</includedby>
+    <includedby refid="VariableListQuery_8h" local="yes">VariableListQuery.h</includedby>
+    <includedby refid="SimpleSectQuery_8h" local="yes">SimpleSectQuery.h</includedby>
+    <includedby refid="TocListQuery_8h" local="yes">TocListQuery.h</includedby>
+    <includedby refid="ParamListQuery_8h" local="yes">ParamListQuery.h</includedby>
+    <includedby refid="ParBlockQuery_8h" local="yes">ParBlockQuery.h</includedby>
+    <includedby refid="MemberDefQuery_8h" local="yes">MemberDefQuery.h</includedby>
+    <includedby refid="ReimplementQuery_8h" local="yes">ReimplementQuery.h</includedby>
+    <includedby refid="ReferenceQuery_8h" local="yes">ReferenceQuery.h</includedby>
+    <includedby refid="ParamQuery_8h" local="yes">ParamQuery.h</includedby>
+    <includedby refid="ParamListItemQuery_8h" local="yes">ParamListItemQuery.h</includedby>
+    <includedby refid="ParamNameListQuery_8h" local="yes">ParamNameListQuery.h</includedby>
+    <includedby refid="ParamNameQuery_8h" local="yes">ParamNameQuery.h</includedby>
+    <includedby refid="ParamTypeQuery_8h" local="yes">ParamTypeQuery.h</includedby>
+    <includedby refid="RowQuery_8h" local="yes">RowQuery.h</includedby>
+    <includedby refid="TocItemQuery_8h" local="yes">TocItemQuery.h</includedby>
+    <includedby refid="VarListEntryQuery_8h" local="yes">VarListEntryQuery.h</includedby>
+    <includedby refid="XRefSectQuery_8h" local="yes">XRefSectQuery.h</includedby>
+    <incdepgraph>
+      <node id="2210">
+        <label>functional</label>
+      </node>
+      <node id="2219">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2220" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2212">
+        <label>Utils/String.h</label>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2214" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+      </node>
+      <node id="2221">
+        <label>stdexcept</label>
+      </node>
+      <node id="2216">
+        <label>string</label>
+      </node>
+      <node id="2218">
+        <label>Xml/Node.h</label>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2220">
+        <label>exception</label>
+      </node>
+      <node id="2214">
+        <label>fstream</label>
+      </node>
+      <node id="2209">
+        <label>Doxygen.h</label>
+        <link refid="Doxygen_8h"/>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2218" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+      </node>
+      <node id="2217">
+        <label>vector</label>
+      </node>
+      <node id="2222">
+        <label>utility</label>
+      </node>
+      <node id="2215">
+        <label>sstream</label>
+      </node>
+      <node id="2223">
+        <label>Utils/Console.h</label>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2213">
+        <label>deque</label>
+      </node>
+      <node id="2211">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2442">
+        <label>ParamTypeQuery.h</label>
+        <childnode refid="2274" relation="include">
+        </childnode>
+      </node>
+      <node id="2304">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="2396">
+        <label>DoxygenIndexQuery.h</label>
+        <childnode refid="2397" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2330" relation="include">
+        </childnode>
+      </node>
+      <node id="2372">
+        <label>DoxAccessor.h</label>
+        <childnode refid="2373" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2352">
+        <label>GraphQuery.h</label>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2353" relation="include">
+        </childnode>
+      </node>
+      <node id="2242">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="2335">
+        <label>CompoundRefQuery.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2336" relation="include">
+        </childnode>
+      </node>
+      <node id="2253">
+        <label>InternalS3Query.cpp</label>
+      </node>
+      <node id="2446">
+        <label>VarListEntryQuery.cpp</label>
+      </node>
+      <node id="2274">
+        <label>ParamTypeQuery.cpp</label>
+      </node>
+      <node id="2250">
+        <label>InternalQuery.cpp</label>
+      </node>
+      <node id="2323">
+        <label>SectionDefQuery.cpp</label>
+      </node>
+      <node id="2426">
+        <label>ListQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2365">
+        <label>MemberIndexQuery.cpp</label>
+      </node>
+      <node id="2283">
+        <label>NodeQuery.cpp</label>
+      </node>
+      <node id="2447">
+        <label>XRefSectQuery.h</label>
+        <childnode refid="2448" relation="include">
+        </childnode>
+      </node>
+      <node id="2277">
+        <label>CodeLineQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2278" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+      </node>
+      <node id="2254">
+        <label>InternalS4Query.cpp</label>
+      </node>
+      <node id="2301">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="2322">
+        <label>MemberDefQuery.cpp</label>
+      </node>
+      <node id="2388">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="2389" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2240">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="2404">
+        <label>NodeQuery.h</label>
+        <childnode refid="2353" relation="include">
+        </childnode>
+        <childnode refid="2283" relation="include">
+        </childnode>
+      </node>
+      <node id="2263">
+        <label>CaptionQuery.h</label>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2264" relation="include">
+        </childnode>
+      </node>
+      <node id="2309">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="2273">
+        <label>ParamNameQuery.cpp</label>
+      </node>
+      <node id="2373">
+        <label>DoxAccessor.cpp</label>
+      </node>
+      <node id="2311">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="2436">
+        <label>ReferenceQuery.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2437" relation="include">
+        </childnode>
+      </node>
+      <node id="2268">
+        <label>MarkupQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2380">
+        <label>DoxParamDir.cpp</label>
+      </node>
+      <node id="2439">
+        <label>ParameterWriter.h</label>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+      </node>
+      <node id="2251">
+        <label>InternalS1Query.cpp</label>
+      </node>
+      <node id="2312">
+        <label>IncQuery.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2313" relation="include">
+        </childnode>
+      </node>
+      <node id="2267">
+        <label>UrlLinkQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2412">
+        <label>Section2Writer.h</label>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2244" relation="include">
+        </childnode>
+      </node>
+      <node id="2402">
+        <label>FormulaQuery.h</label>
+        <childnode refid="2403" relation="include">
+        </childnode>
+      </node>
+      <node id="2421">
+        <label>LinkQuery.h</label>
+        <childnode refid="2422" relation="include">
+        </childnode>
+        <childnode refid="2283" relation="include">
+        </childnode>
+      </node>
+      <node id="2347">
+        <label>ParamListItemQuery.cpp</label>
+      </node>
+      <node id="2343">
+        <label>ListOfAllmembersQuery.cpp</label>
+      </node>
+      <node id="2382">
+        <label>ParamNameListQuery.cpp</label>
+      </node>
+      <node id="2405">
+        <label>HeadingQuery.h</label>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2287">
+        <label>CompoundDefQuery.h</label>
+        <childnode refid="2288" relation="include">
+        </childnode>
+        <childnode refid="2289" relation="include">
+        </childnode>
+        <childnode refid="2299" relation="include">
+        </childnode>
+        <childnode refid="2292" relation="include">
+        </childnode>
+        <childnode refid="2294" relation="include">
+        </childnode>
+        <childnode refid="2309" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2311" relation="include">
+        </childnode>
+      </node>
+      <node id="2316">
+        <label>RowQuery.cpp</label>
+      </node>
+      <node id="2306">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="2252">
+        <label>InternalS2Query.cpp</label>
+      </node>
+      <node id="2338">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="2303">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="2259">
+        <label>Sect2Query.cpp</label>
+      </node>
+      <node id="2236">
+        <label>BlockQuoteQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2238" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2332">
+        <label>DoxLanguage.h</label>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2333" relation="include">
+        </childnode>
+      </node>
+      <node id="2237">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="2270">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="2427">
+        <label>TitleQuery.h</label>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2262" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+      </node>
+      <node id="2239">
+        <label>ParaQuery.h</label>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2241" relation="include">
+        </childnode>
+        <childnode refid="2238" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2247" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2249" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2250" relation="include">
+        </childnode>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2252" relation="include">
+        </childnode>
+        <childnode refid="2253" relation="include">
+        </childnode>
+        <childnode refid="2254" relation="include">
+        </childnode>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2256" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2257" relation="include">
+        </childnode>
+        <childnode refid="2258" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+        <childnode refid="2260" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
+        <childnode refid="2262" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2266">
+        <label>EmptyQuery.cpp</label>
+      </node>
+      <node id="2238">
+        <label>BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="2271">
+        <label>HighlightQuery.cpp</label>
+      </node>
+      <node id="2378">
+        <label>ImageQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2284">
+        <label>DoxGraphRelation.h</label>
+        <childnode refid="2281" relation="include">
+        </childnode>
+        <childnode refid="2285" relation="include">
+        </childnode>
+      </node>
+      <node id="2225">
+        <label>AnchorQuery.h</label>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2383">
+        <label>DoxParamListKind.h</label>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+      </node>
+      <node id="2258">
+        <label>Sect1Query.cpp</label>
+      </node>
+      <node id="2241">
+        <label>ParagraphWriter.h</label>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2242" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2244" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+        <childnode refid="2246" relation="include">
+        </childnode>
+      </node>
+      <node id="2285">
+        <label>DoxGraphRelation.cpp</label>
+      </node>
+      <node id="2282">
+        <label>ChildNodeQuery.cpp</label>
+      </node>
+      <node id="2425">
+        <label>ListOfAllmembersQuery.h</label>
+      </node>
+      <node id="2230">
+        <label>ImageQuery.cpp</label>
+      </node>
+      <node id="2262">
+        <label>SimpleSectQuery.cpp</label>
+      </node>
+      <node id="2321">
+        <label>MemberDefWriter.h</label>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2308" relation="include">
+        </childnode>
+      </node>
+      <node id="2339">
+        <label>DoxProtectionKind.cpp</label>
+      </node>
+      <node id="2398">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="2264">
+        <label>TableQuery.cpp</label>
+      </node>
+      <node id="2435">
+        <label>ReimplementQuery.cpp</label>
+      </node>
+      <node id="2349">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="2335" relation="include">
+        </childnode>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2342" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2293">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="2247">
+        <label>CopyQuery.cpp</label>
+      </node>
+      <node id="2318">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+      </node>
+      <node id="2354">
+        <label>TemplateParamListQuery.h</label>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+      </node>
+      <node id="2233">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="2298">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="2291">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="2319">
+        <label>FunctionDefWriter.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+      </node>
+      <node id="2248">
+        <label>DescriptionQuery.cpp</label>
+      </node>
+      <node id="2334">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2335" relation="include">
+        </childnode>
+        <childnode refid="2337" relation="include">
+        </childnode>
+        <childnode refid="2339" relation="include">
+        </childnode>
+        <childnode refid="2340" relation="include">
+        </childnode>
+        <childnode refid="2342" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2235">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="2428">
+        <label>TableQuery.h</label>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2264" relation="include">
+        </childnode>
+      </node>
+      <node id="2257">
+        <label>ParBlockQuery.cpp</label>
+      </node>
+      <node id="2295">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="2232">
+        <label>ParaQuery.cpp</label>
+      </node>
+      <node id="2357">
+        <label>SectionDefListingWriter.h</label>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+      </node>
+      <node id="2377">
+        <label>DoxImageKind.cpp</label>
+      </node>
+      <node id="2326">
+        <label>DoxHighlightClass.cpp</label>
+      </node>
+      <node id="2430">
+        <label>VariableListQuery.cpp</label>
+      </node>
+      <node id="2415">
+        <label>Section3Writer.h</label>
+        <childnode refid="2244" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+      </node>
+      <node id="2300">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="2371">
+        <label>InternalQuery.h</label>
+        <childnode refid="2247" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2250" relation="include">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>SpQuery.h</label>
+        <childnode refid="2271" relation="include">
+        </childnode>
+        <childnode refid="2407" relation="include">
+        </childnode>
+      </node>
+      <node id="2290">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="2444">
+        <label>TocItemQuery.h</label>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+      </node>
+      <node id="2390">
+        <label>DoxSimpleSectKind.h</label>
+        <childnode refid="2391" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+      </node>
+      <node id="2424">
+        <label>ListQuery.cpp</label>
+      </node>
+      <node id="2307">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="2224">
+        <label>Doxygen.h</label>
+        <link refid="Doxygen_8h"/>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+        <childnode refid="2239" relation="include">
+        </childnode>
+        <childnode refid="2263" relation="include">
+        </childnode>
+        <childnode refid="2265" relation="include">
+        </childnode>
+        <childnode refid="2267" relation="include">
+        </childnode>
+        <childnode refid="2268" relation="include">
+        </childnode>
+        <childnode refid="2269" relation="include">
+        </childnode>
+        <childnode refid="2276" relation="include">
+        </childnode>
+        <childnode refid="2281" relation="include">
+        </childnode>
+        <childnode refid="2284" relation="include">
+        </childnode>
+        <childnode refid="2277" relation="include">
+        </childnode>
+        <childnode refid="2286" relation="include">
+        </childnode>
+        <childnode refid="2324" relation="include">
+        </childnode>
+        <childnode refid="2325" relation="include">
+        </childnode>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2327" relation="include">
+        </childnode>
+        <childnode refid="2332" relation="include">
+        </childnode>
+        <childnode refid="2334" relation="include">
+        </childnode>
+        <childnode refid="2345" relation="include">
+        </childnode>
+        <childnode refid="2335" relation="include">
+        </childnode>
+        <childnode refid="2349" relation="include">
+        </childnode>
+        <childnode refid="2351" relation="include">
+        </childnode>
+        <childnode refid="2312" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2337" relation="include">
+        </childnode>
+        <childnode refid="2354" relation="include">
+        </childnode>
+        <childnode refid="2356" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+        <childnode refid="2361" relation="include">
+        </childnode>
+        <childnode refid="2328" relation="include">
+        </childnode>
+        <childnode refid="2364" relation="include">
+        </childnode>
+        <childnode refid="2366" relation="include">
+        </childnode>
+        <childnode refid="2368" relation="include">
+        </childnode>
+        <childnode refid="2369" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2315" relation="include">
+        </childnode>
+        <childnode refid="2340" relation="include">
+        </childnode>
+        <childnode refid="2399" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2402" relation="include">
+        </childnode>
+        <childnode refid="2404" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+        <childnode refid="2406" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2408" relation="include">
+        </childnode>
+        <childnode refid="2410" relation="include">
+        </childnode>
+        <childnode refid="2411" relation="include">
+        </childnode>
+        <childnode refid="2413" relation="include">
+        </childnode>
+        <childnode refid="2414" relation="include">
+        </childnode>
+        <childnode refid="2416" relation="include">
+        </childnode>
+        <childnode refid="2417" relation="include">
+        </childnode>
+        <childnode refid="2419" relation="include">
+        </childnode>
+        <childnode refid="2420" relation="include">
+        </childnode>
+        <childnode refid="2421" relation="include">
+        </childnode>
+        <childnode refid="2423" relation="include">
+        </childnode>
+        <childnode refid="2342" relation="include">
+        </childnode>
+        <childnode refid="2425" relation="include">
+        </childnode>
+        <childnode refid="2426" relation="include">
+        </childnode>
+        <childnode refid="2427" relation="include">
+        </childnode>
+        <childnode refid="2428" relation="include">
+        </childnode>
+        <childnode refid="2429" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2433" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+        <childnode refid="2434" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
+        </childnode>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2444" relation="include">
+        </childnode>
+        <childnode refid="2445" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+      <node id="2329">
+        <label>CompoundIndexQuery.cpp</label>
+      </node>
+      <node id="2324">
+        <label>HighlightQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2278" relation="include">
+        </childnode>
+        <childnode refid="2271" relation="include">
+        </childnode>
+      </node>
+      <node id="2416">
+        <label>InternalS3Query.h</label>
+        <childnode refid="2253" relation="include">
+        </childnode>
+        <childnode refid="2260" relation="include">
+        </childnode>
+      </node>
+      <node id="2355">
+        <label>TemplateParamListQuery.cpp</label>
+      </node>
+      <node id="2331">
+        <label>DoxCompoundKind.cpp</label>
+      </node>
+      <node id="2308">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="2419">
+        <label>InternalS4Query.h</label>
+        <childnode refid="2254" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
+      </node>
+      <node id="2393">
+        <label>DoxVersionNumber.h</label>
+        <childnode refid="2394" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+      </node>
+      <node id="2409">
+        <label>IndexEntryQuery.cpp</label>
+      </node>
+      <node id="2438">
+        <label>ParamQuery.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+      </node>
+      <node id="2337">
+        <label>RefQuery.h</label>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2338" relation="include">
+        </childnode>
+      </node>
+      <node id="2410">
+        <label>InternalS1Query.h</label>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2258" relation="include">
+        </childnode>
+      </node>
+      <node id="2327">
+        <label>DoxCompoundKind.h</label>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2328" relation="include">
+        </childnode>
+        <childnode refid="2331" relation="include">
+        </childnode>
+      </node>
+      <node id="2374">
+        <label>DoxCharRange.h</label>
+        <childnode refid="2375" relation="include">
+        </childnode>
+      </node>
+      <node id="2317">
+        <label>MemberDefQuery.h</label>
+        <childnode refid="2318" relation="include">
+        </childnode>
+        <childnode refid="2319" relation="include">
+        </childnode>
+        <childnode refid="2320" relation="include">
+        </childnode>
+        <childnode refid="2321" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2323" relation="include">
+        </childnode>
+      </node>
+      <node id="2265">
+        <label>EmptyQuery.h</label>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2266" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2413">
+        <label>InternalS2Query.h</label>
+        <childnode refid="2252" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+      </node>
+      <node id="2384">
+        <label>DoxParamListKind.cpp</label>
+      </node>
+      <node id="2360">
+        <label>DoxSectionKind.cpp</label>
+      </node>
+      <node id="2403">
+        <label>FormulaQuery.cpp</label>
+      </node>
+      <node id="2401">
+        <label>FileQuery.h</label>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2278">
+        <label>CodeLineQuery.cpp</label>
+      </node>
+      <node id="2448">
+        <label>XRefSectQuery.cpp</label>
+      </node>
+      <node id="2394">
+        <label>DoxVersionNumber.cpp</label>
+      </node>
+      <node id="2280">
+        <label>DoxRefKind.cpp</label>
+      </node>
+      <node id="2226">
+        <label>AnchorQuery.cpp</label>
+      </node>
+      <node id="2361">
+        <label>LocationQuery.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2362" relation="include">
+        </childnode>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2363" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+      </node>
+      <node id="2249">
+        <label>EntryQuery.cpp</label>
+      </node>
+      <node id="2292">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+      </node>
+      <node id="2445">
+        <label>VarListEntryQuery.h</label>
+        <childnode refid="2446" relation="include">
+        </childnode>
+      </node>
+      <node id="2297">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="2379">
+        <label>DoxParamDir.h</label>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2389">
+        <label>DoxRefQualifierKind.cpp</label>
+      </node>
+      <node id="2345">
+        <label>DescriptionQuery.h</label>
+        <childnode refid="2346" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+        <childnode refid="2323" relation="include">
+        </childnode>
+      </node>
+      <node id="2330">
+        <label>DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="2348">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="2299">
+        <label>WriteUtils.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2270" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+        <childnode refid="2303" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2244" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+        <childnode refid="2246" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2308" relation="include">
+        </childnode>
+        <childnode refid="2309" relation="include">
+        </childnode>
+      </node>
+      <node id="2420">
+        <label>LanguageQuery.h</label>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2296">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+      </node>
+      <node id="2255">
+        <label>LanguageQuery.cpp</label>
+      </node>
+      <node id="2313">
+        <label>IncQuery.cpp</label>
+      </node>
+      <node id="2281">
+        <label>ChildNodeQuery.h</label>
+        <childnode refid="2282" relation="include">
+        </childnode>
+        <childnode refid="2283" relation="include">
+        </childnode>
+      </node>
+      <node id="2387">
+        <label>ParamListQuery.cpp</label>
+      </node>
+      <node id="2340">
+        <label>EnumValueQuery.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+      </node>
+      <node id="2227">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="2314">
+        <label>DoxBool.cpp</label>
+      </node>
+      <node id="2228">
+        <label>FileQuery.cpp</label>
+      </node>
+      <node id="2418">
+        <label>Section4Writer.h</label>
+        <childnode refid="2245" relation="include">
+        </childnode>
+        <childnode refid="2246" relation="include">
+        </childnode>
+      </node>
+      <node id="2315">
+        <label>EntryQuery.h</label>
+        <childnode refid="2249" relation="include">
+        </childnode>
+        <childnode refid="2316" relation="include">
+        </childnode>
+      </node>
+      <node id="2441">
+        <label>ParamNameListQuery.h</label>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+      </node>
+      <node id="2294">
+        <label>GenericPageWriter.h</label>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+      </node>
+      <node id="2269">
+        <label>RefTextQuery.h</label>
+        <childnode refid="2270" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2271" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2272" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2273" relation="include">
+        </childnode>
+        <childnode refid="2274" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2275" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+      </node>
+      <node id="2342">
+        <label>MemberRefQuery.h</label>
+        <childnode refid="2343" relation="include">
+        </childnode>
+        <childnode refid="2344" relation="include">
+        </childnode>
+      </node>
+      <node id="2359">
+        <label>DoxSectionKind.h</label>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2357" relation="include">
+        </childnode>
+        <childnode refid="2356" relation="include">
+        </childnode>
+        <childnode refid="2360" relation="include">
+        </childnode>
+      </node>
+      <node id="2310">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="2286">
+        <label>DoxBool.h</label>
+        <childnode refid="2277" relation="include">
+        </childnode>
+        <childnode refid="2287" relation="include">
+        </childnode>
+        <childnode refid="2312" relation="include">
+        </childnode>
+        <childnode refid="2314" relation="include">
+        </childnode>
+        <childnode refid="2315" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2443">
+        <label>RowQuery.h</label>
+        <childnode refid="2316" relation="include">
+        </childnode>
+      </node>
+      <node id="2432">
+        <label>TocListQuery.cpp</label>
+      </node>
+      <node id="2375">
+        <label>DoxCharRange.cpp</label>
+      </node>
+      <node id="2362">
+        <label>LocationWriter.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+      </node>
+      <node id="2246">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="2350">
+        <label>DoxVirtualKind.cpp</label>
+      </node>
+      <node id="2400">
+        <label>LinkedTextWriter.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2270" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+      </node>
+      <node id="2434">
+        <label>ReimplementQuery.h</label>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2435" relation="include">
+        </childnode>
+      </node>
+      <node id="2423">
+        <label>ListItemQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2256" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+      </node>
+      <node id="2353">
+        <label>GraphQuery.cpp</label>
+      </node>
+      <node id="2381">
+        <label>ParamNameQuery.h</label>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2273" relation="include">
+        </childnode>
+      </node>
+      <node id="2346">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+      </node>
+      <node id="2231">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="2367">
+        <label>DoxMemberKind.cpp</label>
+      </node>
+      <node id="2437">
+        <label>ReferenceQuery.cpp</label>
+      </node>
+      <node id="2245">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="2431">
+        <label>TocListQuery.h</label>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+      </node>
+      <node id="2433">
+        <label>ParBlockQuery.h</label>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2257" relation="include">
+        </childnode>
+      </node>
+      <node id="2351">
+        <label>ListingQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2391">
+        <label>DoxSimpleSectKind.cpp</label>
+      </node>
+      <node id="2368">
+        <label>CopyQuery.h</label>
+        <childnode refid="2247" relation="include">
+        </childnode>
+      </node>
+      <node id="2302">
+        <label>LocationWriter.cpp</label>
+      </node>
+      <node id="2333">
+        <label>DoxLanguage.cpp</label>
+      </node>
+      <node id="2336">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="2408">
+        <label>IndexEntryQuery.h</label>
+        <childnode refid="2409" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2325">
+        <label>DoxHighlightClass.h</label>
+        <childnode refid="2324" relation="include">
+        </childnode>
+        <childnode refid="2326" relation="include">
+        </childnode>
+      </node>
+      <node id="2244">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="2341">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="2363">
+        <label>LocationQuery.cpp</label>
+      </node>
+      <node id="2229">
+        <label>HeadingQuery.cpp</label>
+      </node>
+      <node id="2366">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="2364" relation="include">
+        </childnode>
+        <childnode refid="2367" relation="include">
+        </childnode>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2364">
+        <label>MemberIndexQuery.h</label>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2329" relation="include">
+        </childnode>
+        <childnode refid="2365" relation="include">
+        </childnode>
+      </node>
+      <node id="2399">
+        <label>LinkedTextQuery.h</label>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2272" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+      </node>
+      <node id="2256">
+        <label>ListItemQuery.cpp</label>
+      </node>
+      <node id="2429">
+        <label>VariableListQuery.h</label>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2430" relation="include">
+        </childnode>
+      </node>
+      <node id="2261">
+        <label>Sect4Query.cpp</label>
+      </node>
+      <node id="2243">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="2288">
+        <label>PageWriter.h</label>
+        <childnode refid="2289" relation="include">
+        </childnode>
+        <childnode refid="2292" relation="include">
+        </childnode>
+        <childnode refid="2294" relation="include">
+        </childnode>
+        <childnode refid="2296" relation="include">
+        </childnode>
+        <childnode refid="2298" relation="include">
+        </childnode>
+      </node>
+      <node id="2305">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="2422">
+        <label>LinkQuery.cpp</label>
+      </node>
+      <node id="2272">
+        <label>LinkedTextQuery.cpp</label>
+      </node>
+      <node id="2417">
+        <label>Sect4Query.h</label>
+        <childnode refid="2418" relation="include">
+        </childnode>
+        <childnode refid="2253" relation="include">
+        </childnode>
+        <childnode refid="2260" relation="include">
+        </childnode>
+        <childnode refid="2261" relation="include">
+        </childnode>
+      </node>
+      <node id="2395">
+        <label>DoxygenQuery.h</label>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2311" relation="include">
+        </childnode>
+      </node>
+      <node id="2289">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="2290" relation="include">
+        </childnode>
+        <childnode refid="2291" relation="include">
+        </childnode>
+      </node>
+      <node id="2414">
+        <label>Sect3Query.h</label>
+        <childnode refid="2415" relation="include">
+        </childnode>
+        <childnode refid="2252" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+        <childnode refid="2260" relation="include">
+        </childnode>
+      </node>
+      <node id="2370">
+        <label>Section1Writer.h</label>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+      </node>
+      <node id="2234">
+        <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="2260">
+        <label>Sect3Query.cpp</label>
+      </node>
+      <node id="2407">
+        <label>SpQuery.cpp</label>
+      </node>
+      <node id="2386">
+        <label>ParameterListWriter.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+      </node>
+      <node id="2376">
+        <label>DoxImageKind.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+      </node>
+      <node id="2385">
+        <label>ParamListQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+      </node>
+      <node id="2276">
+        <label>DoxRefKind.h</label>
+        <childnode refid="2270" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2269" relation="include">
+        </childnode>
+        <childnode refid="2277" relation="include">
+        </childnode>
+        <childnode refid="2280" relation="include">
+        </childnode>
+      </node>
+      <node id="2344">
+        <label>MemberRefQuery.cpp</label>
+      </node>
+      <node id="2275">
+        <label>RefTextQuery.cpp</label>
+      </node>
+      <node id="2397">
+        <label>IndexPageWriter.h</label>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+      </node>
+      <node id="2411">
+        <label>Sect2Query.h</label>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2258" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+      </node>
+      <node id="2279">
+        <label>ListingQuery.cpp</label>
+      </node>
+      <node id="2440">
+        <label>ParamListItemQuery.h</label>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+      </node>
+      <node id="2392">
+        <label>SimpleSectQuery.h</label>
+        <childnode refid="2237" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2262" relation="include">
+        </childnode>
+      </node>
+      <node id="2356">
+        <label>SectionDefQuery.h</label>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2357" relation="include">
+        </childnode>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2323" relation="include">
+        </childnode>
+      </node>
+      <node id="2320">
+        <label>MemberDefListingWriter.h</label>
+        <childnode refid="2303" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+      </node>
+      <node id="2358">
+        <label>SectionDefWriter.h</label>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2308" relation="include">
+        </childnode>
+      </node>
+      <node id="2369">
+        <label>Sect1Query.h</label>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2370" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2247" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2250" relation="include">
+        </childnode>
+        <childnode refid="2258" relation="include">
+        </childnode>
+      </node>
+      <node id="2328">
+        <label>CompoundIndexQuery.h</label>
+        <childnode refid="2288" relation="include">
+        </childnode>
+        <childnode refid="2289" relation="include">
+        </childnode>
+        <childnode refid="2292" relation="include">
+        </childnode>
+        <childnode refid="2294" relation="include">
+        </childnode>
+        <childnode refid="2296" relation="include">
+        </childnode>
+        <childnode refid="2329" relation="include">
+        </childnode>
+        <childnode refid="2330" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CompoundRefQuery;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TitleQuery;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RefTextQuery;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DoxygenIndexQuery;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MemberIndexQuery;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CompoundIndexQuery;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Sect3Query;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DoxygenQuery;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CompoundDefQuery;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ListItemQuery;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ImageQuery;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ListOfAllMembersQuery;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SimpleSectQuery;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MemberRefQuery;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReimplementQuery;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IncQuery;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">GraphQuery;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RefQuery;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParBlockQuery;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DescriptionQuery;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RefTextQuery;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SectionDefQuery;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">VarListEntryQuery;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MemberDefQuery;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">VariableListQuery;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ListQuery;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">InternalS2Query;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">EnumValueQuery;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">InternalQuery;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Sect2Query;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TemplateParamListQuery;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamQuery;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">InternalS4Query;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LinkedTextQuery;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FormulaQuery;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">NodeQuery;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IndexEntryQuery;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ChildNodeQuery;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Sect1Query;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LinkQuery;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ListingQuery;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CodeLineQuery;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">HighlightQuery;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UrlLinkQuery;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TocItemQuery;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SpQuery;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceQuery;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LocationQuery;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Sect4Query;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">InternalS1Query;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">InternalS3Query;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParaQuery;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamNameListQuery;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MarkupQuery;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AnchorQuery;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TableQuery;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RowQuery;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LanguageQuery;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">EntryQuery;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CaptionQuery;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">HeadingQuery;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FileQuery;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TocListQuery;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamListQuery;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamListItemQuery;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamTypeQuery;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ParamNameQuery;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">XRefSectQuery;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CopyQuery;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BlockQuoteQuery;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">EmptyQuery;<sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" kindref="member">CompoundRefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CompoundRefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="107" refid="namespaceMdDox_1_1Doxygen_1ac4d778469f74e9884c5573938fceae55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac4d778469f74e9884c5573938fceae55" kindref="member">TitleQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>TitleQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="108" refid="namespaceMdDox_1_1Doxygen_1a46268b958deb80651b37ca98be759388" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a46268b958deb80651b37ca98be759388" kindref="member">RefTextQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>RefTextQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="109" refid="namespaceMdDox_1_1Doxygen_1afbeb0e0552bafd85ffb8ea95e9f88dba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1afbeb0e0552bafd85ffb8ea95e9f88dba" kindref="member">DoxygenIndexQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>DoxygenIndexQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="110" refid="namespaceMdDox_1_1Doxygen_1adf5bc76bd26975dbc362f58c906e3534" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adf5bc76bd26975dbc362f58c906e3534" kindref="member">MemberIndexQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>MemberIndexQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="111" refid="namespaceMdDox_1_1Doxygen_1a4fc3a64f77aa6faca62530a9c3a7cc6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a4fc3a64f77aa6faca62530a9c3a7cc6c" kindref="member">CompoundIndexQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CompoundIndexQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="112" refid="namespaceMdDox_1_1Doxygen_1a84818546eb5af5c04fa10ab756c53a52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a84818546eb5af5c04fa10ab756c53a52" kindref="member">Sect3QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>Sect3Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="113" refid="namespaceMdDox_1_1Doxygen_1a1e4e17e2fad891498a31d22b1a99e349" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a1e4e17e2fad891498a31d22b1a99e349" kindref="member">DoxygenQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>DoxygenQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="114" refid="namespaceMdDox_1_1Doxygen_1a4cab794eb3f5cd7f4d9a541092086c6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a4cab794eb3f5cd7f4d9a541092086c6c" kindref="member">CompoundDefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CompoundDefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="115" refid="namespaceMdDox_1_1Doxygen_1aca424a13e91d2ba0862eb67c3785bc08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aca424a13e91d2ba0862eb67c3785bc08" kindref="member">ListItemQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ListItemQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="116" refid="namespaceMdDox_1_1Doxygen_1a7df3a4aae8b57c6500abecb9110481fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7df3a4aae8b57c6500abecb9110481fb" kindref="member">ImageQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ImageQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="117" refid="namespaceMdDox_1_1Doxygen_1a58cc8633743045dfcba353af8aa5a5cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a58cc8633743045dfcba353af8aa5a5cd" kindref="member">ListOfAllMembersQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ListOfAllMembersQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="118" refid="namespaceMdDox_1_1Doxygen_1ae2064994c1fc385c40007c6b85b4b558" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ae2064994c1fc385c40007c6b85b4b558" kindref="member">SimpleSectQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>SimpleSectQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="119" refid="namespaceMdDox_1_1Doxygen_1aca996ae89264d89f3b1c0c7043d45f4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aca996ae89264d89f3b1c0c7043d45f4f" kindref="member">MemberRefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>MemberRefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="120" refid="namespaceMdDox_1_1Doxygen_1a023abc93b94116f6140c122c5df97f62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a023abc93b94116f6140c122c5df97f62" kindref="member">ReimplementQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ReimplementQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="121" refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" kindref="member">IncQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>IncQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="122" refid="namespaceMdDox_1_1Doxygen_1ac3aa8e7e99590e29a67ce94345f400f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac3aa8e7e99590e29a67ce94345f400f4" kindref="member">GraphQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>GraphQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="123" refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>RefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="124" refid="namespaceMdDox_1_1Doxygen_1abf820d70f2d7d8c7e0c7c9d62735d061" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1abf820d70f2d7d8c7e0c7c9d62735d061" kindref="member">ParBlockQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParBlockQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="125" refid="namespaceMdDox_1_1Doxygen_1a99e30c5e71c6aa5d43d1d07520bb0ea6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a99e30c5e71c6aa5d43d1d07520bb0ea6" kindref="member">DescriptionQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>DescriptionQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a46268b958deb80651b37ca98be759388" kindref="member">RefTextQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>RefTextQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="127" refid="namespaceMdDox_1_1Doxygen_1a30d35eaa94a79fab382eda801584ea6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a30d35eaa94a79fab382eda801584ea6e" kindref="member">SectionDefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>SectionDefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="128" refid="namespaceMdDox_1_1Doxygen_1ab966a70ae88164652b3a19949a5c1b55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ab966a70ae88164652b3a19949a5c1b55" kindref="member">VarListEntryQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>VarListEntryQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="129" refid="namespaceMdDox_1_1Doxygen_1abb37e33489c0eea415c2767c4fc741a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1abb37e33489c0eea415c2767c4fc741a2" kindref="member">MemberDefQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>MemberDefQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="130" refid="namespaceMdDox_1_1Doxygen_1ab1ec10f2dc079daa5070dc9374fc790e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ab1ec10f2dc079daa5070dc9374fc790e" kindref="member">VariableListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>VariableListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="131" refid="namespaceMdDox_1_1Doxygen_1a5f20d3769d5ebaa297b8f64882631513" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a5f20d3769d5ebaa297b8f64882631513" kindref="member">ListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="132" refid="namespaceMdDox_1_1Doxygen_1a4b2e2c0a1c4dfbd2f3e4d1f8122c6516" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a4b2e2c0a1c4dfbd2f3e4d1f8122c6516" kindref="member">InternalS2QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>InternalS2Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="133" refid="namespaceMdDox_1_1Doxygen_1abdf791cd6e3263c121019567116609b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1abdf791cd6e3263c121019567116609b6" kindref="member">EnumValueQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>EnumValueQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="134" refid="namespaceMdDox_1_1Doxygen_1a94630335791090e31bd2c9fd3df82e85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a94630335791090e31bd2c9fd3df82e85" kindref="member">InternalQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>InternalQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="135" refid="namespaceMdDox_1_1Doxygen_1ac07adaa4ad5c10ee7087f9aeb139a12e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac07adaa4ad5c10ee7087f9aeb139a12e" kindref="member">Sect2QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>Sect2Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="136" refid="namespaceMdDox_1_1Doxygen_1a23cf32f353943fc003eeee7de66b3673" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a23cf32f353943fc003eeee7de66b3673" kindref="member">TemplateParamListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>TemplateParamListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="137" refid="namespaceMdDox_1_1Doxygen_1ae7dcf069d0dac0e3a20af5c13a924cac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ae7dcf069d0dac0e3a20af5c13a924cac" kindref="member">ParamQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="138" refid="namespaceMdDox_1_1Doxygen_1a20b23191c97d90c17508a4963d6ea02a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a20b23191c97d90c17508a4963d6ea02a" kindref="member">InternalS4QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>InternalS4Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="139" refid="namespaceMdDox_1_1Doxygen_1acd6991970bfebb8c3a4d3ff2767e90ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acd6991970bfebb8c3a4d3ff2767e90ee" kindref="member">LinkedTextQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>LinkedTextQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="140" refid="namespaceMdDox_1_1Doxygen_1a44bd20f6ba2904859287d6cab03ebc18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a44bd20f6ba2904859287d6cab03ebc18" kindref="member">FormulaQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>FormulaQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="141" refid="namespaceMdDox_1_1Doxygen_1a7eceacdb191eb70b832221f0cb4ef62a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7eceacdb191eb70b832221f0cb4ef62a" kindref="member">NodeQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>NodeQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="142" refid="namespaceMdDox_1_1Doxygen_1aff7cdd76266ef35d6e77b7cecfc216e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aff7cdd76266ef35d6e77b7cecfc216e1" kindref="member">IndexEntryQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>IndexEntryQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="143" refid="namespaceMdDox_1_1Doxygen_1a6e9d86d79f82d0b1abac1a1b3debee64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a6e9d86d79f82d0b1abac1a1b3debee64" kindref="member">ChildNodeQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ChildNodeQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="144" refid="namespaceMdDox_1_1Doxygen_1a6438087de1dd68238d70bafc49bee2a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a6438087de1dd68238d70bafc49bee2a0" kindref="member">Sect1QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>Sect1Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="145" refid="namespaceMdDox_1_1Doxygen_1a96517e83f1ae6a5443b42ce3ee36ca3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a96517e83f1ae6a5443b42ce3ee36ca3f" kindref="member">LinkQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>LinkQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="146" refid="namespaceMdDox_1_1Doxygen_1a92f4c8eb3fdc6a3da50c7d6063ddc05a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a92f4c8eb3fdc6a3da50c7d6063ddc05a" kindref="member">ListingQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ListingQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="147" refid="namespaceMdDox_1_1Doxygen_1a8ba80d0e92051680d25804196a1e87dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a8ba80d0e92051680d25804196a1e87dc" kindref="member">CodeLineQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CodeLineQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="148" refid="namespaceMdDox_1_1Doxygen_1a0e9966aae01821f595308362aef6b814" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a0e9966aae01821f595308362aef6b814" kindref="member">HighlightQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>HighlightQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="149" refid="namespaceMdDox_1_1Doxygen_1aa7a9a3b64115545d14399f572e856374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aa7a9a3b64115545d14399f572e856374" kindref="member">UrlLinkQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>UrlLinkQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="150" refid="namespaceMdDox_1_1Doxygen_1ae8083890b5d3b02815478813b7f2a92b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ae8083890b5d3b02815478813b7f2a92b" kindref="member">TocItemQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>TocItemQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="151" refid="namespaceMdDox_1_1Doxygen_1a0932abe1bc0c254bae8df2e5407a51ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a0932abe1bc0c254bae8df2e5407a51ff" kindref="member">SpQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>SpQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="152" refid="namespaceMdDox_1_1Doxygen_1af3f8e0145ba622fad98cdf86534bc255" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1af3f8e0145ba622fad98cdf86534bc255" kindref="member">ReferenceQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ReferenceQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="153" refid="namespaceMdDox_1_1Doxygen_1ab6933ae45fae1b548a8c8c8468ac9dbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ab6933ae45fae1b548a8c8c8468ac9dbf" kindref="member">LocationQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>LocationQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="154" refid="namespaceMdDox_1_1Doxygen_1afa53006511388342be3fe9edeb1123c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1afa53006511388342be3fe9edeb1123c1" kindref="member">Sect4QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>Sect4Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="155" refid="namespaceMdDox_1_1Doxygen_1acc3fc4d408299fbf692514465e487555" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acc3fc4d408299fbf692514465e487555" kindref="member">InternalS1QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>InternalS1Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="156" refid="namespaceMdDox_1_1Doxygen_1a446abba8eb2a9f370c7bde2ec228ea61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a446abba8eb2a9f370c7bde2ec228ea61" kindref="member">InternalS3QueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>InternalS3Query&amp;)&gt;;</highlight></codeline>
+<codeline lineno="157" refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParaQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="158" refid="namespaceMdDox_1_1Doxygen_1aed8ad68b3681dc193cee4e91f6d56eea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aed8ad68b3681dc193cee4e91f6d56eea" kindref="member">ParamNameListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamNameListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="159" refid="namespaceMdDox_1_1Doxygen_1ac753ae283d389e37d41e576ee9575f83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac753ae283d389e37d41e576ee9575f83" kindref="member">MarkupQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>MarkupQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="160" refid="namespaceMdDox_1_1Doxygen_1af99ab9c2f4619da8ddcba3c9e7f2710d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1af99ab9c2f4619da8ddcba3c9e7f2710d" kindref="member">AnchorQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>AnchorQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="161" refid="namespaceMdDox_1_1Doxygen_1af0447c5e63b2a0c658f7996c7cef13ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1af0447c5e63b2a0c658f7996c7cef13ac" kindref="member">TableQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>TableQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="162" refid="namespaceMdDox_1_1Doxygen_1a659245c78b2d41e6d9345f0918da31b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a659245c78b2d41e6d9345f0918da31b4" kindref="member">RowQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>RowQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="163" refid="namespaceMdDox_1_1Doxygen_1a10e40b1a00f4b51a99a37f2cde07a5d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a10e40b1a00f4b51a99a37f2cde07a5d2" kindref="member">LanguageQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>LanguageQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="164" refid="namespaceMdDox_1_1Doxygen_1aa3dff15edac42505788c4d8db006a3e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aa3dff15edac42505788c4d8db006a3e0" kindref="member">EntryQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>EntryQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="165" refid="namespaceMdDox_1_1Doxygen_1af4846e9942ae15b38412a41a1f90cad4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1af4846e9942ae15b38412a41a1f90cad4" kindref="member">CaptionQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CaptionQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="166" refid="namespaceMdDox_1_1Doxygen_1ae545fd0fa7b310de1c606fcb1ecf5e2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ae545fd0fa7b310de1c606fcb1ecf5e2e" kindref="member">HeadingQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>HeadingQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="167" refid="namespaceMdDox_1_1Doxygen_1a70084381d08005d7b1708f7eac43a9bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a70084381d08005d7b1708f7eac43a9bf" kindref="member">FileQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>FileQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="168" refid="namespaceMdDox_1_1Doxygen_1a97d6ca42cdf5608362d5f557f88279a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a97d6ca42cdf5608362d5f557f88279a9" kindref="member">TocListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>TocListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="169" refid="namespaceMdDox_1_1Doxygen_1a7dca4fc6f4981773bf36480e17b41a8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7dca4fc6f4981773bf36480e17b41a8f" kindref="member">ParamListQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamListQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="170" refid="namespaceMdDox_1_1Doxygen_1a8102444e5fdc6819b1264293ef452cbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a8102444e5fdc6819b1264293ef452cbb" kindref="member">ParamListItemQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamListItemQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="171" refid="namespaceMdDox_1_1Doxygen_1a5b36dfb7d366adcb051ab8ade95713f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a5b36dfb7d366adcb051ab8ade95713f9" kindref="member">ParamTypeQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamTypeQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="172" refid="namespaceMdDox_1_1Doxygen_1a291d963c8506a8144c73fbc1496c7cc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a291d963c8506a8144c73fbc1496c7cc9" kindref="member">ParamNameQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>ParamNameQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="173" refid="namespaceMdDox_1_1Doxygen_1acfcd287c285a78c64eff4e35db394de7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acfcd287c285a78c64eff4e35db394de7" kindref="member">XRefSectQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>XRefSectQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="174" refid="namespaceMdDox_1_1Doxygen_1a1c02f9e40438585e0c55687009ce53cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a1c02f9e40438585e0c55687009ce53cb" kindref="member">CopyQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>CopyQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="175" refid="namespaceMdDox_1_1Doxygen_1aa7fa713d20ff329404bcb898a3b87948" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aa7fa713d20ff329404bcb898a3b87948" kindref="member">BlockQuoteQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>BlockQuoteQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="176" refid="namespaceMdDox_1_1Doxygen_1a568c4663d4367db32a0f7349ecb24f09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a568c4663d4367db32a0f7349ecb24f09" kindref="member">EmptyQueryFunction</ref><sp/>=<sp/>std::function&lt;void<sp/>(const<sp/>EmptyQuery&amp;)&gt;;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">SortMap</ref><sp/>=<sp/>std::unordered_map&lt;int,<sp/>int&gt;;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Query,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">64_t<sp/>Code&gt;</highlight></codeline>
+<codeline lineno="181" refid="namespaceMdDox_1_1Doxygen_1aed26b7fdd7f7669ba749800039c040bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1aed26b7fdd7f7669ba749800039c040bc" kindref="member">QueryForEach</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Query&amp;)&gt;&amp;<sp/>invoke,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fromNode)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fromNode)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member" tooltip="Defines the child node storage array container. ">Xml::NodeArray</ref>&amp;<sp/>objects<sp/>=<sp/>fromNode-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" kindref="member" tooltip="Provides access to the array of child nodes attached to this node. ">children</ref>();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>node<sp/>:<sp/>objects)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(node-&gt;isTypeOf(Code))</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>invoke(Query(node));</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/Doxygen.h"/>
+  </compounddef>
+</doxygen>

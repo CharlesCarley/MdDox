@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::Sect3QueryVisitor</compoundname>
+    <derivedcompoundref refid="classMdDox_1_1Section3Writer" prot="public" virt="non-virtual">MdDox::Section3Writer</derivedcompoundref>
+    <includes local="no">Tools/Doxygen/Sect3Query.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae6d3f0cdcc82624d9e889c43437e24e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::Sect3QueryVisitor::~Sect3QueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Sect3QueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a7ea4c3dd8b45f8f223a8a0902d2d70ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect3QueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="38" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1afb95032846ed99552245860c7315544e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect3QueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <reimplementedby refid="classMdDox_1_1Section3Writer_1a3e5dde6dc015c09f56cdfaf261d2ebe9">visitedParagraph</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="43" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ac70954427ff78404009791026b356cc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect3QueryVisitor::visitedSect4</definition>
+        <argsstring>(const Sect4Query &amp;query)</argsstring>
+        <name>visitedSect4</name>
+        <reimplementedby refid="classMdDox_1_1Section3Writer_1a488ff28a70ea60ac8a9d8b699db246ce">visitedSect4</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1Sect4Query" kindref="compound">Sect4Query</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>sect4</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1Sect4Query" kindref="compound">Sect4Query</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="48" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae3a50542cc3a9d428b8ece630a88bcfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect3QueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalS3Query &amp;query)</argsstring>
+        <name>visitedInternal</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalS3Query" kindref="compound">InternalS3Query</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalS3Query" kindref="compound">InternalS3Query</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="53" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a9f32cbb32908967de1542b0e212d78aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect3QueryVisitor::visitedTitle</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedTitle</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect3Query.h" line="58" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="336">
+        <label>MdDox::Section3Writer</label>
+        <link refid="classMdDox_1_1Section3Writer"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>MdDox::Doxygen::Visitors::Sect3QueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor"/>
+      </node>
+    </inheritancegraph>
+    <location file="Tools/Doxygen/Sect3Query.h" line="31" column="1" bodyfile="Tools/Doxygen/Sect3Query.h" bodystart="30" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae3a50542cc3a9d428b8ece630a88bcfe" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>visitedInternal</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1afb95032846ed99552245860c7315544e" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ac70954427ff78404009791026b356cc9" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>visitedSect4</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a7ea4c3dd8b45f8f223a8a0902d2d70ee" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a9f32cbb32908967de1542b0e212d78aa" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>visitedTitle</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae6d3f0cdcc82624d9e889c43437e24e0" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect3QueryVisitor</scope><name>~Sect3QueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

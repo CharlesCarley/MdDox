@@ -1,0 +1,107 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ DxzKpO3[
+   shape    = none
+   label    = "ParagraphCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DU14hpu[
+   shape    = none
+   label    = "CodeCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DNf4hpu[
+   shape    = none
+   label    = "ImageCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ q8Z4hpu[
+   shape    = none
+   label    = "KeyValueListCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ q4r4hpu[
+   shape    = none
+   label    = "LinkCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qEd4hpu[
+   shape    = none
+   label    = "ListCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qKZ4hpu[
+   shape    = none
+   label    = "SectionCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qRZ4hpu[
+   shape    = none
+   label    = "SectionCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DB14hpu[
+   shape    = none
+   label    = "SubParagraphCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DJr4hpu[
+   shape    = none
+   label    = "TextCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DOZ4hpu[
+   shape    = none
+   label    = "TextDecoCommand"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DxzKpO3->DU14hpu
+ DxzKpO3->DNf4hpu
+ DxzKpO3->q8Z4hpu
+ DxzKpO3->q4r4hpu
+ DxzKpO3->qEd4hpu
+ DxzKpO3->qKZ4hpu
+ DxzKpO3->qRZ4hpu
+ DxzKpO3->DB14hpu
+ DxzKpO3->DJr4hpu
+ DxzKpO3->DOZ4hpu
+}

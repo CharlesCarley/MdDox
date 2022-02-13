@@ -1,0 +1,4 @@
+    int64_t ${className}::get${name}(int64_t def) const
+    {
+        return _node ? _node->integer("${searchTerm}") : def;
+    }

@@ -1,0 +1,9 @@
+    const String& ${className}::get${name}(const String& notFound) const
+    {
+        if (_node) {
+            Xml::Node *node = _node->firstChildOf(${typeCode});
+            if (node)
+                return node->text();
+        }
+        return notFound;
+    }

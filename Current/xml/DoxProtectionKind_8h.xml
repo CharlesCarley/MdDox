@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="DoxProtectionKind_8h" kind="file" language="C++">
+    <compoundname>DoxProtectionKind.h</compoundname>
+    <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
+    <includedby refid="CompoundDefQuery_8h" local="yes">CompoundDefQuery.h</includedby>
+    <includedby refid="CompoundRefQuery_8h" local="yes">CompoundRefQuery.h</includedby>
+    <includedby refid="RefQuery_8h" local="yes">RefQuery.h</includedby>
+    <includedby refid="DoxProtectionKind_8cpp" local="yes">DoxProtectionKind.cpp</includedby>
+    <includedby refid="EnumValueQuery_8h" local="yes">EnumValueQuery.h</includedby>
+    <includedby refid="MemberRefQuery_8h" local="yes">MemberRefQuery.h</includedby>
+    <includedby refid="MemberDefQuery_8h" local="yes">MemberDefQuery.h</includedby>
+    <incdepgraph>
+      <node id="1856">
+        <label>functional</label>
+      </node>
+      <node id="1865">
+        <label>Utils/Exception.h</label>
+        <childnode refid="1866" relation="include">
+        </childnode>
+        <childnode refid="1867" relation="include">
+        </childnode>
+        <childnode refid="1868" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+      <node id="1858">
+        <label>Utils/String.h</label>
+        <childnode refid="1859" relation="include">
+        </childnode>
+        <childnode refid="1860" relation="include">
+        </childnode>
+        <childnode refid="1861" relation="include">
+        </childnode>
+        <childnode refid="1862" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+        <childnode refid="1863" relation="include">
+        </childnode>
+      </node>
+      <node id="1867">
+        <label>stdexcept</label>
+      </node>
+      <node id="1862">
+        <label>string</label>
+      </node>
+      <node id="1864">
+        <label>Xml/Node.h</label>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+      <node id="1866">
+        <label>exception</label>
+      </node>
+      <node id="1860">
+        <label>fstream</label>
+      </node>
+      <node id="1854">
+        <label>DoxProtectionKind.h</label>
+        <link refid="DoxProtectionKind_8h"/>
+        <childnode refid="1855" relation="include">
+        </childnode>
+      </node>
+      <node id="1855">
+        <label>Doxygen.h</label>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+        <childnode refid="1864" relation="include">
+        </childnode>
+        <childnode refid="1865" relation="include">
+        </childnode>
+      </node>
+      <node id="1863">
+        <label>vector</label>
+      </node>
+      <node id="1868">
+        <label>utility</label>
+      </node>
+      <node id="1861">
+        <label>sstream</label>
+      </node>
+      <node id="1869">
+        <label>Utils/Console.h</label>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+      <node id="1859">
+        <label>deque</label>
+      </node>
+      <node id="1857">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1890">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="1903">
+        <label>CompoundRefQuery.h</label>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1904" relation="include">
+        </childnode>
+      </node>
+      <node id="1919">
+        <label>SectionDefQuery.cpp</label>
+      </node>
+      <node id="1886">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1910">
+        <label>MemberDefQuery.cpp</label>
+      </node>
+      <node id="1884">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="1900">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="1902">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="1912">
+        <label>ListOfAllmembersQuery.cpp</label>
+      </node>
+      <node id="1871">
+        <label>CompoundDefQuery.h</label>
+        <childnode refid="1872" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1883" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+        <childnode refid="1878" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1902" relation="include">
+        </childnode>
+      </node>
+      <node id="1893">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="1906">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="1889">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="1891">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="1887">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="1918">
+        <label>MemberDefWriter.h</label>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+      </node>
+      <node id="1907">
+        <label>DoxProtectionKind.cpp</label>
+      </node>
+      <node id="1877">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="1915">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+      </node>
+      <node id="1882">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="1875">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="1916">
+        <label>FunctionDefWriter.h</label>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1886" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+      </node>
+      <node id="1870">
+        <label>DoxProtectionKind.h</label>
+        <link refid="DoxProtectionKind_8h"/>
+        <childnode refid="1871" relation="include">
+        </childnode>
+        <childnode refid="1903" relation="include">
+        </childnode>
+        <childnode refid="1905" relation="include">
+        </childnode>
+        <childnode refid="1907" relation="include">
+        </childnode>
+        <childnode refid="1908" relation="include">
+        </childnode>
+        <childnode refid="1911" relation="include">
+        </childnode>
+        <childnode refid="1914" relation="include">
+        </childnode>
+      </node>
+      <node id="1879">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="1885">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="1874">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="1898">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="1899">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="1905">
+        <label>RefQuery.h</label>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1906" relation="include">
+        </childnode>
+      </node>
+      <node id="1914">
+        <label>MemberDefQuery.h</label>
+        <childnode refid="1915" relation="include">
+        </childnode>
+        <childnode refid="1916" relation="include">
+        </childnode>
+        <childnode refid="1917" relation="include">
+        </childnode>
+        <childnode refid="1918" relation="include">
+        </childnode>
+        <childnode refid="1910" relation="include">
+        </childnode>
+        <childnode refid="1919" relation="include">
+        </childnode>
+      </node>
+      <node id="1876">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+      </node>
+      <node id="1881">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1883">
+        <label>WriteUtils.h</label>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1886" relation="include">
+        </childnode>
+        <childnode refid="1879" relation="include">
+        </childnode>
+        <childnode refid="1887" relation="include">
+        </childnode>
+        <childnode refid="1888" relation="include">
+        </childnode>
+        <childnode refid="1889" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+        <childnode refid="1891" relation="include">
+        </childnode>
+        <childnode refid="1892" relation="include">
+        </childnode>
+        <childnode refid="1893" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1896" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+      </node>
+      <node id="1880">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="1875" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+      </node>
+      <node id="1908">
+        <label>EnumValueQuery.h</label>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1886" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1909" relation="include">
+        </childnode>
+        <childnode refid="1910" relation="include">
+        </childnode>
+      </node>
+      <node id="1878">
+        <label>GenericPageWriter.h</label>
+        <childnode refid="1879" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+      </node>
+      <node id="1911">
+        <label>MemberRefQuery.h</label>
+        <childnode refid="1912" relation="include">
+        </childnode>
+        <childnode refid="1913" relation="include">
+        </childnode>
+      </node>
+      <node id="1901">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="1897">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="1896">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="1888">
+        <label>LocationWriter.cpp</label>
+      </node>
+      <node id="1904">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="1895">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="1909">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="1894">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="1872">
+        <label>PageWriter.h</label>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+        <childnode refid="1878" relation="include">
+        </childnode>
+        <childnode refid="1880" relation="include">
+        </childnode>
+        <childnode refid="1882" relation="include">
+        </childnode>
+      </node>
+      <node id="1892">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="1873">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+      </node>
+      <node id="1913">
+        <label>MemberRefQuery.cpp</label>
+      </node>
+      <node id="1917">
+        <label>MemberDefListingWriter.h</label>
+        <childnode refid="1889" relation="include">
+        </childnode>
+        <childnode refid="1898" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind" prot="public">MdDox::Doxygen::DoxProtectionKind</innerclass>
+    <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714aa296299d5fb5eb7a4ba185537699788a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714aa296299d5fb5eb7a4ba185537699788a" kindref="member">DPK_INVALID</ref>=-1,</highlight></codeline>
+<codeline lineno="50" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a36c67f4dc195401d0e2aa4d4acba46e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a36c67f4dc195401d0e2aa4d4acba46e7" kindref="member" tooltip="Definition for the DoxProtectionKind.public value. ">DPK_PUBLIC</ref>,</highlight></codeline>
+<codeline lineno="54" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a388ef2b543ed6def085ee9b481dac3d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a388ef2b543ed6def085ee9b481dac3d5" kindref="member" tooltip="Definition for the DoxProtectionKind.protected value. ">DPK_PROTECTED</ref>,</highlight></codeline>
+<codeline lineno="58" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a24f5f8d9cb60eff95fe280f8638a9efc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a24f5f8d9cb60eff95fe280f8638a9efc" kindref="member" tooltip="Definition for the DoxProtectionKind.private value. ">DPK_PRIVATE</ref>,</highlight></codeline>
+<codeline lineno="62" refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a7213cc5b9d1a289550463c81fb9c2bfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a7213cc5b9d1a289550463c81fb9c2bfc" kindref="member" tooltip="Definition for the DoxProtectionKind.package value. ">DPK_PACKAGE</ref>,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind" kindref="compound">DoxProtectionKind</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/DoxProtectionKind.h"/>
+  </compounddef>
+</doxygen>

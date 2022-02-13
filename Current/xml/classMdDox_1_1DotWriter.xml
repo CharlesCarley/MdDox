@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1DotWriter" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::DotWriter</compoundname>
+    <includes local="no">Source/MdDoxTree/DotWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::DotWriter::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1DotWriter_1a0449cd41bad31126d26057685a6f3b08" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::DotWriter</definition>
+        <argsstring>(Xml::Node *root)</argsstring>
+        <name>DotWriter</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::~DotWriter</definition>
+        <argsstring>()=default</argsstring>
+        <name>~DotWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::DotWriter::write</definition>
+        <argsstring>(OStream &amp;out) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="113" bodyend="117"/>
+        <references refid="classMdDox_1_1DotWriterImpl_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="DotWriter_8cpp" startline="97" endline="105">MdDox::DotWriterImpl::writeContent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/MdDoxTree/DotWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="29" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>_root</name></member>
+      <member refid="classMdDox_1_1DotWriter_1a0449cd41bad31126d26057685a6f3b08" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>DotWriter</name></member>
+      <member refid="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>write</name></member>
+      <member refid="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>~DotWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

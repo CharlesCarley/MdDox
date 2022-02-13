@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ DxzKpO3[
+   shape    = none
+   label    = "ParagraphWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DcZ4hpu[
+   shape    = none
+   label    = "HtmlParagraphWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DQ14hpu[
+   shape    = none
+   label    = "MarkdownParagraphWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DxzKpO3->DcZ4hpu
+ DxzKpO3->DQ14hpu
+}

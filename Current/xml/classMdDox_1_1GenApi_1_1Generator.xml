@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1GenApi_1_1Generator" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::GenApi::Generator</compoundname>
+    <includes local="no">Tools/GenApi/Generator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Generator_1a6a12427a9938a2e7cd73571e86d0d987" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::GenApi::Generator::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.h" line="34" column="1" bodyfile="Tools/GenApi/Generator.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Generator_1a5213b701c279f38514a95b5aae7c4a45" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Generator::Generator</definition>
+        <argsstring>(Xml::Node *root)</argsstring>
+        <name>Generator</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.h" line="37" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="507" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Generator_1abd80adea26cdaf4c3b75dd62d29764df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Generator::~Generator</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Generator_1af500d26e74f6c8e58092fc67141df721" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Generator::write</definition>
+        <argsstring>(const PathUtil &amp;out) const</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.h" line="41" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="512" bodyend="516"/>
+        <references refid="classMdDox_1_1GenApi_1_1GeneratorImpl_1afa320dcbadcfe7ab4176bde28ab32b6f" compoundref="Generator_8cpp" startline="493" endline="504">MdDox::GenApi::GeneratorImpl::write</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/GenApi/Generator.h" line="32" column="1" bodyfile="Tools/GenApi/Generator.h" bodystart="31" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1GenApi_1_1Generator_1a6a12427a9938a2e7cd73571e86d0d987" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Generator</scope><name>_root</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Generator_1a5213b701c279f38514a95b5aae7c4a45" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Generator</scope><name>Generator</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Generator_1af500d26e74f6c8e58092fc67141df721" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Generator</scope><name>write</name></member>
+      <member refid="classMdDox_1_1GenApi_1_1Generator_1abd80adea26cdaf4c3b75dd62d29764df" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Generator</scope><name>~Generator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

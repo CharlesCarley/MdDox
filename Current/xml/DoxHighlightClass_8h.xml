@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="DoxHighlightClass_8h" kind="file" language="C++">
+    <compoundname>DoxHighlightClass.h</compoundname>
+    <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
+    <includedby refid="HighlightQuery_8h" local="yes">HighlightQuery.h</includedby>
+    <includedby refid="DoxHighlightClass_8cpp" local="yes">DoxHighlightClass.cpp</includedby>
+    <incdepgraph>
+      <node id="1571">
+        <label>functional</label>
+      </node>
+      <node id="1580">
+        <label>Utils/Exception.h</label>
+        <childnode refid="1581" relation="include">
+        </childnode>
+        <childnode refid="1582" relation="include">
+        </childnode>
+        <childnode refid="1583" relation="include">
+        </childnode>
+        <childnode refid="1584" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1573">
+        <label>Utils/String.h</label>
+        <childnode refid="1574" relation="include">
+        </childnode>
+        <childnode refid="1575" relation="include">
+        </childnode>
+        <childnode refid="1576" relation="include">
+        </childnode>
+        <childnode refid="1577" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1578" relation="include">
+        </childnode>
+      </node>
+      <node id="1582">
+        <label>stdexcept</label>
+      </node>
+      <node id="1577">
+        <label>string</label>
+      </node>
+      <node id="1579">
+        <label>Xml/Node.h</label>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1581">
+        <label>exception</label>
+      </node>
+      <node id="1575">
+        <label>fstream</label>
+      </node>
+      <node id="1570">
+        <label>Doxygen.h</label>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+        <childnode refid="1580" relation="include">
+        </childnode>
+      </node>
+      <node id="1578">
+        <label>vector</label>
+      </node>
+      <node id="1583">
+        <label>utility</label>
+      </node>
+      <node id="1576">
+        <label>sstream</label>
+      </node>
+      <node id="1584">
+        <label>Utils/Console.h</label>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1574">
+        <label>deque</label>
+      </node>
+      <node id="1572">
+        <label>unordered_map</label>
+      </node>
+      <node id="1569">
+        <label>DoxHighlightClass.h</label>
+        <link refid="DoxHighlightClass_8h"/>
+        <childnode refid="1570" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1587">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="1589">
+        <label>HighlightQuery.cpp</label>
+      </node>
+      <node id="1590">
+        <label>DoxHighlightClass.cpp</label>
+      </node>
+      <node id="1586">
+        <label>HighlightQuery.h</label>
+        <childnode refid="1587" relation="include">
+        </childnode>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+      </node>
+      <node id="1588">
+        <label>CodeLineQuery.cpp</label>
+      </node>
+      <node id="1585">
+        <label>DoxHighlightClass.h</label>
+        <link refid="DoxHighlightClass_8h"/>
+        <childnode refid="1586" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass" prot="public">MdDox::Doxygen::DoxHighlightClass</innerclass>
+    <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a159c7eb2b82ca47edb7889f79c02687d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a159c7eb2b82ca47edb7889f79c02687d" kindref="member">DHC_INVALID</ref>=-1,</highlight></codeline>
+<codeline lineno="54" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a16b9f238cc7b4495f41772d2d7899e73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a16b9f238cc7b4495f41772d2d7899e73" kindref="member" tooltip="Definition for the DoxHighlightClass.comment value. ">DHC_COMMENT</ref>,</highlight></codeline>
+<codeline lineno="58" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5acbe87582bee9a603c903b65b00890d7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5acbe87582bee9a603c903b65b00890d7b" kindref="member" tooltip="Definition for the DoxHighlightClass.preprocessor value. ">DHC_PREPROCESSOR</ref>,</highlight></codeline>
+<codeline lineno="62" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a70c662fa365b77058bd0f4500c5e2fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a70c662fa365b77058bd0f4500c5e2fca" kindref="member" tooltip="Definition for the DoxHighlightClass.normal value. ">DHC_NORMAL</ref>,</highlight></codeline>
+<codeline lineno="66" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5ab316289804f497c27e6f5732a4202ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5ab316289804f497c27e6f5732a4202ce9" kindref="member" tooltip="Definition for the DoxHighlightClass.charliteral value. ">DHC_CHAR_LITERAL</ref>,</highlight></codeline>
+<codeline lineno="70" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a5a8160efc30790eee80d3e2170acb4df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a5a8160efc30790eee80d3e2170acb4df" kindref="member" tooltip="Definition for the DoxHighlightClass.keywordflow value. ">DHC_KEYWORD_FLOW</ref>,</highlight></codeline>
+<codeline lineno="74" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a2301ef01c6822a4cf15a2eb26bf74741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a2301ef01c6822a4cf15a2eb26bf74741" kindref="member" tooltip="Definition for the DoxHighlightClass.keywordtype value. ">DHC_KEYWORD_TYPE</ref>,</highlight></codeline>
+<codeline lineno="78" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a90fcd0495dfec81dc570660c5ee37f39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a90fcd0495dfec81dc570660c5ee37f39" kindref="member" tooltip="Definition for the DoxHighlightClass.keyword value. ">DHC_KEYWORD</ref>,</highlight></codeline>
+<codeline lineno="82" refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a61c4cb5be7a467271384a5dff7bbff83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a61c4cb5be7a467271384a5dff7bbff83" kindref="member" tooltip="Definition for the DoxHighlightClass.stringliteral value. ">DHC_STRINGLITERAL</ref>,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass" kindref="compound">DoxHighlightClass</ref></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/DoxHighlightClass.h"/>
+  </compounddef>
+</doxygen>

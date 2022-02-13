@@ -1,0 +1,13 @@
+
+digraph {
+    bgcolor = none;
+    rankdir = "LR";
+
+    node [shape=none fontname= "Segoe UI" fontcolor="#828EA0FF" fontsize="11"]
+    edge [arrowsize = 0.5 color="#56AA56FF"]
+
+    MemberDefQuery->DoxMemberKind;
+    MemberDefQuery->LinkedTextQuery;
+    MemberDefQuery->Brief->DescriptionQuery;
+    MemberDefQuery->Detail->DescriptionQuery;
+}

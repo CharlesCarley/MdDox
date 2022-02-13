@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir">
+    <compoundname>Source</compoundname>
+    <innerdir refid="dir_1197a0c1c846bc690425b2973182343c">MdDox</innerdir>
+    <innerdir refid="dir_d9935c0f1a540c725bfb5aaaadd541e0">MdDoxTree</innerdir>
+    <innerdir refid="dir_24e808f5dc59c4f65549a2d6918dbd79">TypeFilter</innerdir>
+    <innerdir refid="dir_5c09e96eccedf512ae411d636afd2712">Utils</innerdir>
+    <innerdir refid="dir_19b9d1dd05713e515e11a6d5d9c80351">Xml</innerdir>
+    <briefdescription>
+<para>Is the primary source directory. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/"/>
+  </compounddef>
+</doxygen>

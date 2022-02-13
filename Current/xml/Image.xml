@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="Image" kind="page">
+    <compoundname>Image</compoundname>
+    <title>Image handling</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><bold>Image handling information.</bold><linebreak/>
+</para><para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document.</para><para>For example, the following shows the current set of navigation icons.</para><para><blockquote><para><image type="html" name="sideBar.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="back18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="error18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="folder18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="home18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="link18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="jumpToTop18px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="debug24px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="file24px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="link24px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="lookInside24px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="class24px.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="namespace24px.svg"></image>
+ </para></blockquote><blockquote><para>The command <computeroutput>\image html [file-stem.file-extension]</computeroutput> embeds the image. <linebreak/>
+ A common gray color with the value: <computeroutput>#828EA0FF</computeroutput> allows a seamless transition with different GitHub themes. </para></blockquote></para><para>Icons are expected to be in the <ulink url="../images">images</ulink> directory.</para><sect1 id="Image_1Internal">
+<title>Icons</title>
+<para>The static class <ref refid="classMdDox_1_1IconSet" kindref="compound">MdDox::IconSet</ref> maps the enum <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">MdDox::IconId</ref> to the following files to use specific icons internally.</para><sect2 id="Image_1Sources">
+<title>Sources</title>
+<para>A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: <ulink url="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</ulink> </para></sect2>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,706 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespaceMdDox_1_1Md" kind="namespace" language="C++">
+    <compoundname>MdDox::Md</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a1bbfa5a6f176d8d5affe9032cf462352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::lineBreak</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>lineBreak</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Writes a <ref refid="namespaceMdDox_1_1Html" kindref="compound">Html</ref> break tag. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="29" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a8c6ce069a7657e1e44e33755b0034e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::newLine</definition>
+        <argsstring>(OStream &amp;output, int number)</argsstring>
+        <name>newLine</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Writes a newline character to the output stream. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of newline characters to write </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="34" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac56667f85a5027c17551d31279949a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::heading</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, int depth)</argsstring>
+        <name>heading</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+<para>Writes a section heading. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The heading title. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The heading depth. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="40" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="40" bodyend="45"/>
+        <references refid="namespaceMdDox_1_1Md_1aabb7b82b8902d06f9674962517957b89" compoundref="MarkdownCommandWriter_8cpp" startline="47" endline="53">addHash</references>
+        <references refid="namespaceMdDox_1_1Md_1a8c6ce069a7657e1e44e33755b0034e7b" compoundref="MarkdownCommandWriter_8cpp" startline="34" endline="38">newLine</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aabb7b82b8902d06f9674962517957b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::addHash</definition>
+        <argsstring>(OStream &amp;output, int i)</argsstring>
+        <name>addHash</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="47" bodyend="53"/>
+        <references refid="namespaceMdDox_1_1Md_1aa41ba467f4e9f2b5556ca3e45de79032" compoundref="MarkdownCommandWriter_8cpp" startline="55" endline="59">space</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aa41ba467f4e9f2b5556ca3e45de79032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::space</definition>
+        <argsstring>(OStream &amp;output, int i)</argsstring>
+        <name>space</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="55" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1af932eecfb3d9926023e7f2e39ddfc72f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::bullet</definition>
+        <argsstring>(OStream &amp;output, int n)</argsstring>
+        <name>bullet</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="61" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a32a576acc0eeb6376191c044ed0b3af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::blockQuote</definition>
+        <argsstring>(OStream &amp;output, int n)</argsstring>
+        <name>blockQuote</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="68" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a258dd6e1733bcc65d00c51524ea7db83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::beginBlockQuote</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>beginBlockQuote</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Begins a block quote block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="75" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1ab243fd0ee25dc2bb1c86e8d775957d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::endBlockQuote</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>endBlockQuote</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Ends a block quote block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="80" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aa2c400b4ee238fc0e7baa6bbef1ac039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::beginParagraph</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>beginParagraph</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Begins a paragraph block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="85" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a66cd199e9c617f0be33708aac0f90227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::endParagraph</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>endParagraph</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Ends a paragraph block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="89" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a971bd77df5dda67d8e511774518130d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::beginListItem</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>beginListItem</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Starts a list block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="93" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aac5f57c597d908d45c6febe5820fd6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::endListItem</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>endListItem</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Ends a list block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="98" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::code</definition>
+        <argsstring>(OStream &amp;output, const String &amp;code, const String &amp;type=&quot;txt&quot;)</argsstring>
+        <name>code</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>type</declname>
+          <defval>&quot;txt&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Writes a code block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block of text that contains the code. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the code in the code parameter. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="103" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="103" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a3acd21f86d8d71ec6377b3b29336ad11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::paragraph</definition>
+        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
+        <name>paragraph</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="112" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a391bd2ebc8dede3771c5fda158496040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::horizontalRule</definition>
+        <argsstring>(OStream &amp;output)</argsstring>
+        <name>horizontalRule</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Writes a horizontal rule. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="117" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac0a76b857e91a0965d2eaddace8b324c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::inlineText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
+        <name>inlineText</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="122" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="122" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac167ccf210f3f74d7607a872e4c12028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::typewriterText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
+        <name>typewriterText</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="146" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="146" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a47dca2edf63dad855a4604e4925cda44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::boldText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
+        <name>boldText</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="156" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="156" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1af813993f9fb190c9e1fd8b561851b7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::italicText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
+        <name>italicText</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="166" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="166" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a3f83d4b402ebc91a292977ee95bd4eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::linkImage</definition>
+        <argsstring>(OStream &amp;output, const String &amp;image, const String &amp;reference, const String &amp;comment)</argsstring>
+        <name>linkImage</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="176" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a1589c72af048cf851d49292e4de7c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::embedImage</definition>
+        <argsstring>(OStream &amp;output, const String &amp;reference, const String &amp;)</argsstring>
+        <name>embedImage</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>comment</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="185" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="185" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aba570ffee1aef0a5d0ffcdd9c0e00276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::embedContent</definition>
+        <argsstring>(OStream &amp;output, const String &amp;content, bool addNewLine)</argsstring>
+        <name>embedContent</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addNewLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="195" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1aec045ae8beeb9efd4770617651b44c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::embedContentLink</definition>
+        <argsstring>(OStream &amp;output, const String &amp;content, const String &amp;reference, bool addNewLine)</argsstring>
+        <name>embedContentLink</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addNewLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="200" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="200" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a69fb615cc34aa2dc1580438fd812f129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::embedLinkContentPoint</definition>
+        <argsstring>(OStream &amp;output, const String &amp;content, const String &amp;reference, const String &amp;point, bool addNewLine)</argsstring>
+        <name>embedLinkContentPoint</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addNewLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="211" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="211" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1Md_1a8d36a6d81c85553d03aeda9402771751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Md::linkRef</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;reference, const String &amp;comment)</argsstring>
+        <name>linkRef</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="222" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="222" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides markdown utility write functions. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="28" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,846 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Xml_1_1Node" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Xml::Node</compoundname>
+    <includes local="no">Source/Xml/Node.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1ad0ed61bad907bc0da4e82945dbcb1b25" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::Xml::Node::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="76" column="1" bodyfile="Source/Xml/Node.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a66f6c15c1542f25b35da3e3615f6e023" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::Xml::Node::_text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="77" column="1" bodyfile="Source/Xml/Node.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a09ca5fa4c0a5e6a60a5be82ac1b69f8a" prot="private" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Xml::Node::_typeCode</definition>
+        <argsstring></argsstring>
+        <name>_typeCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="78" column="1" bodyfile="Source/Xml/Node.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a49824e1be14454c30f40e6326960d97e" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
+        <definition>AttributeMap MdDox::Xml::Node::_attributes</definition>
+        <argsstring></argsstring>
+        <name>_attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="79" column="1" bodyfile="Source/Xml/Node.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a108ad32d4d9d0c4ffed945a165edd244" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node* MdDox::Xml::Node::_parent</definition>
+        <argsstring></argsstring>
+        <name>_parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="80" column="1" bodyfile="Source/Xml/Node.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a4a86474e6d943e38472db5c6368e8428" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node* MdDox::Xml::Node::_next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="81" column="1" bodyfile="Source/Xml/Node.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1aefcbd7fd3633a3caa86f992f694f4fca" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">NodeArray</ref></type>
+        <definition>NodeArray MdDox::Xml::Node::_children</definition>
+        <argsstring></argsstring>
+        <name>_children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="82" column="1" bodyfile="Source/Xml/Node.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aca71abf00d43782a922933bc7d4aec2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Node::Node</definition>
+        <argsstring>()</argsstring>
+        <name>Node</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="88" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a80fdda29892a61ea96f1855312830504" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Node::Node</definition>
+        <argsstring>(String name)</argsstring>
+        <name>Node</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a node with a name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name to associate with this node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="94" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="39" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aa4305357352d028f2ff0e31685f3ee53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Node::~Node</definition>
+        <argsstring>()</argsstring>
+        <name>~Node</name>
+        <briefdescription>
+<para>Default destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Deletes all child nodes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="101" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a208a5c60b47b7fa3c13de7c997351972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::addChild</definition>
+        <argsstring>(Node *child)</argsstring>
+        <name>addChild</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+<para>Appends a child node to the current list of children, and sets the child node&apos;s parent to the current instance. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>child</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The node to append. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="108" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="53" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">NodeArray</ref> &amp;</type>
+        <definition>const NodeArray &amp; MdDox::Xml::Node::children</definition>
+        <argsstring>() const</argsstring>
+        <name>children</name>
+        <briefdescription>
+<para>Provides access to the array of child nodes attached to this node. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Const access to the array of children. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="114" column="1" bodyfile="Source/Xml/Node.h" bodystart="268" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab412278d4e2bdfade1e9fa45fd6768c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::at</definition>
+        <argsstring>(const size_t &amp;idx)</argsstring>
+        <name>at</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the child node at the supplied index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the child node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The node at the supplied index. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="121" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ac65bb68aafa6e0889052adad248c6481" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>const Node * MdDox::Xml::Node::at</definition>
+        <argsstring>(const size_t &amp;idx) const</argsstring>
+        <name>at</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the child node at the supplied index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the child node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The node at the supplied index. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="126" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af7516023a308caa444e5da160689cd9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::Xml::Node::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of children attached to this node. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="131" column="1" bodyfile="Source/Xml/Node.h" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6ca6b702ea2c5cebede8d75776b35191" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::parent</definition>
+        <argsstring>() const</argsstring>
+        <name>parent</name>
+        <briefdescription>
+<para>Provides access to this nodes parent. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>All nodes except the root node have a parent. </para></simplesect>
+<simplesect kind="return"><para>The parent node of this node. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="138" column="1" bodyfile="Source/Xml/Node.h" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Xml::Node::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The name associated with this node. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="143" column="1" bodyfile="Source/Xml/Node.h" bodystart="278" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Xml::Node::text</definition>
+        <argsstring>() const</argsstring>
+        <name>text</name>
+        <briefdescription>
+<para>Provides access to plan text content associated with this node. </para>        </briefdescription>
+        <detaileddescription>
+<para>Any text that is placed in between tags gets pushed to the list of children for a specific node. It is defined by the name <computeroutput>_text_node</computeroutput> </para><para><bold>For example:</bold> <programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">root</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">foo</highlight><highlight class="normal">&gt;</highlight><highlight class="keyword">A</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">b</highlight><highlight class="normal">&gt;</highlight><highlight class="keyword">B</highlight><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">b</highlight><highlight class="normal">&gt;</highlight><highlight class="keyword">C</highlight><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">foo</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">root</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting></para><para>Would be defined as <programlisting filename=".txt"><codeline><highlight class="normal">-root</highlight></codeline>
+<codeline><highlight class="normal">--foo</highlight></codeline>
+<codeline><highlight class="normal">---_text_node</highlight></codeline>
+<codeline><highlight class="normal">---b</highlight></codeline>
+<codeline><highlight class="normal">----_text_node</highlight></codeline>
+<codeline><highlight class="normal">---_text_node</highlight></codeline>
+</programlisting> <simplesect kind="return"><para>Any text associated with this node. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="170" column="1" bodyfile="Source/Xml/Node.h" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a5ef5cf3675c04702677dce3cbf767803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::text</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>text</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Provides the ability to set the inner text on the node. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to store in the node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="176" column="1" bodyfile="Source/Xml/Node.h" bodystart="288" bodyend="291"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Xml::Node::getTypeCode</definition>
+        <argsstring>() const</argsstring>
+        <name>getTypeCode</name>
+        <briefdescription>
+<para>Provides access to any type code associated with the node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="181" column="1" bodyfile="Source/Xml/Node.h" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1adfad587ec429e52c9140c76d0b6f83c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::setTypeCode</definition>
+        <argsstring>(int64_t code)</argsstring>
+        <name>setTypeCode</name>
+        <param>
+          <type>int64_t</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+<para>Associates a type code for this node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="186" column="1" bodyfile="Source/Xml/Node.h" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a2b9c690324ebb34535cb2f41a3c4cace" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref> &amp;</type>
+        <definition>const AttributeMap &amp; MdDox::Xml::Node::attributes</definition>
+        <argsstring>() const</argsstring>
+        <name>attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="188" column="1" bodyfile="Source/Xml/Node.h" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a4416339f625f6f3057a265e8a355a458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::contains</definition>
+        <argsstring>(const String &amp;attribute)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>attribute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="190" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="82" bodyend="86"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6171d66e4ccac877114a9dcea2950a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::insert</definition>
+        <argsstring>(const String &amp;attribute, const String &amp;value)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="192" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="88" bodyend="93"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab38a9a4aaa25a138918401ea97a1180e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Xml::Node::get</definition>
+        <argsstring>(const String &amp;attribute)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>attribute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="194" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="95" bodyend="102"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a155387e434a57ea107317a8a41ed5a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::siblingsOf</definition>
+        <argsstring>(NodeArray &amp;, const String &amp;tag)</argsstring>
+        <name>siblingsOf</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">NodeArray</ref> &amp;</type>
+          <defname>dest</defname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="196" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="158" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a80fc8e1401910987742533404ff32638" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
+        <definition>const Node &amp; MdDox::Xml::Node::firstChild</definition>
+        <argsstring>() const</argsstring>
+        <name>firstChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a const reference to the first element in the _children vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="201" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::getFirstChild</definition>
+        <argsstring>(const String &amp;requireType)</argsstring>
+        <name>getFirstChild</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>requireType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="203" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="177" bodyend="199"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab9c5ef38f588a8ae17d1b45ea1797fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::getFirstChild</definition>
+        <argsstring>(const int64_t &amp;requireType)</argsstring>
+        <name>getFirstChild</name>
+        <param>
+          <type>const int64_t &amp;</type>
+          <declname>requireType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="205" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="201" bodyend="222"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">getTypeCode</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::firstChildOf</definition>
+        <argsstring>(const String &amp;tag)</argsstring>
+        <name>firstChildOf</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="207" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="224" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1add1af0fb2e1a5e62d0ca9871eccac544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::firstChildOf</definition>
+        <argsstring>(const int64_t &amp;tag)</argsstring>
+        <name>firstChildOf</name>
+        <param>
+          <type>const int64_t &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="209" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="237" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a770676dddec389533501d27e6aa8fe7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::nextSiblingOf</definition>
+        <argsstring>(const String &amp;tag) const</argsstring>
+        <name>nextSiblingOf</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="211" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="247" bodyend="260"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="120" endline="128">isTypeOf</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ab4f10f3a1137837fb067493ef1f8c7da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Node::nextSiblingOf</definition>
+        <argsstring>(const int64_t &amp;tag) const</argsstring>
+        <name>nextSiblingOf</name>
+        <param>
+          <type>const int64_t &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="213" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="262" bodyend="272"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" compoundref="Node_8cpp" startline="120" endline="128">isTypeOf</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Xml::Node::attribute</definition>
+        <argsstring>(const String &amp;name, const String &amp;def=&quot;&quot;) const</argsstring>
+        <name>attribute</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>def</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Looks up the supplied name in the attribute map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The search term </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>def</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default value if the search fails. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The found attribute value on success, otherwise returns the default value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="221" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="104" bodyend="110"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Xml::Node::integer</definition>
+        <argsstring>(const String &amp;name, int64_t def=-1) const</argsstring>
+        <name>integer</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Looks up the supplied name in the attribute map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The search term </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>def</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default value if the search fails. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The found attribute value on success, otherwise returns the default value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="226" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="112" bodyend="118"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">attribute</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" compoundref="Node_8h" startline="278" endline="281">name</references>
+        <references refid="classMdDox_1_1Char_1a313ba0faa8c51cf6015437248d9e9016" compoundref="Char_8cpp" startline="83" endline="90">MdDox::Char::toInt64</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::isTypeOf</definition>
+        <argsstring>(const char *tagName) const</argsstring>
+        <name>isTypeOf</name>
+        <param>
+          <type>const char *</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+<para>Compares the supplied string with the internal tag name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tagName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the XML tag to test for equality. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the two match. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="233" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="120" bodyend="128"/>
+        <references refid="classMdDox_1_1Char_1adbfa0ed00df7a3807ed71f4e3f4fee7f" compoundref="Char_8cpp" startline="41" endline="50">MdDox::Char::equals</references>
+        <references refid="classMdDox_1_1Char_1a5b40b89b3198fcfa306a09047d3803e0" compoundref="Char_8cpp" startline="36" endline="39">MdDox::Char::length</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1af3856f265f659975722e3dc2d0ba902d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::isTypeOf</definition>
+        <argsstring>(int64_t type) const</argsstring>
+        <name>isTypeOf</name>
+        <param>
+          <type>int64_t</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Compares the supplied string with the internal tag name. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the XML tag to test for equality. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the two match. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="240" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::hasChildren</definition>
+        <argsstring>() const</argsstring>
+        <name>hasChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the _children member is not empty </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="245" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a756a2b737aa4083208589a7ee6d35d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::hasChild</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>hasChild</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Preforms a linear search over of all child nodes and matches the node&apos;s name with the supplied string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the search parameter. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true on the first match otherwise false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="253" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="140" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1ac45b67b9f89a5576d08008b2f2ad2ed1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::hasText</definition>
+        <argsstring>() const</argsstring>
+        <name>hasText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the node has any text data associated with it. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="258" column="1" bodyfile="Source/Xml/Node.h" bodystart="298" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a5e712a998e0507036835fe5b2ccd254b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Node::hasAttributes</definition>
+        <argsstring>() const</argsstring>
+        <name>hasAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the node has attributes attached to it. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="263" column="1" bodyfile="Source/Xml/Node.h" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Node::sort</definition>
+        <argsstring>(NodeSortFunc fnc)</argsstring>
+        <name>sort</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1_1Xml_1a010a26f3b7d0ee89ab19eab357474ca9" kindref="member">NodeSortFunc</ref></type>
+          <declname>fnc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="265" column="1" bodyfile="Source/Xml/Node.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a tree structure to contain an XML document. </para>    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> represents a single XML tag.</para><para>A single node in the tree can have one parent and (N) number of children.</para><para>Each node may contain any number of attributes attached to it.</para><para>Any node can optionally have plain-text data associated with it. In order to keep the internal text inline with tag based nodes, the parser creates a specialty node with the name <bold>_text_node</bold> to store blocks of text in between tags. The text node is pushed as a child node to the node on the top of the parse stack.</para><para>All attributes are defined in the form of a string. Any extra type of serialization is beyond the scope of this class and must be handled elsewhere. There is, however, one exception to this if a type filter has been applied before parsing the file, an optional type code can be assigned to the node itself so that nodes can be type-checked with integers VS strings. </para>    </detaileddescription>
+    <location file="Source/Xml/Node.h" line="74" column="1" bodyfile="Source/Xml/Node.h" bodystart="73" bodyend="266"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a49824e1be14454c30f40e6326960d97e" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_attributes</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aefcbd7fd3633a3caa86f992f694f4fca" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_children</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ad0ed61bad907bc0da4e82945dbcb1b25" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_name</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a4a86474e6d943e38472db5c6368e8428" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_next</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a108ad32d4d9d0c4ffed945a165edd244" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_parent</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a66f6c15c1542f25b35da3e3615f6e023" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_text</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a09ca5fa4c0a5e6a60a5be82ac1b69f8a" prot="private" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>_typeCode</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a208a5c60b47b7fa3c13de7c997351972" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>addChild</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ab412278d4e2bdfade1e9fa45fd6768c2" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>at</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ac65bb68aafa6e0889052adad248c6481" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>at</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>attribute</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a2b9c690324ebb34535cb2f41a3c4cace" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>attributes</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>children</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a4416339f625f6f3057a265e8a355a458" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>contains</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a80fc8e1401910987742533404ff32638" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>firstChild</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>firstChildOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1add1af0fb2e1a5e62d0ca9871eccac544" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>firstChildOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ab38a9a4aaa25a138918401ea97a1180e" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>get</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>getFirstChild</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ab9c5ef38f588a8ae17d1b45ea1797fa3" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>getFirstChild</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>getTypeCode</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a5e712a998e0507036835fe5b2ccd254b" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>hasAttributes</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a756a2b737aa4083208589a7ee6d35d6c" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>hasChild</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>hasChildren</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ac45b67b9f89a5576d08008b2f2ad2ed1" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>hasText</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a6171d66e4ccac877114a9dcea2950a53" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>insert</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>integer</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a9d5753492b09c134f7c9401729cff881" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>isTypeOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1af3856f265f659975722e3dc2d0ba902d" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>isTypeOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1af0c11e088103f304dc0e28fccccf105e" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>name</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a770676dddec389533501d27e6aa8fe7e" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>nextSiblingOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ab4f10f3a1137837fb067493ef1f8c7da" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>nextSiblingOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aca71abf00d43782a922933bc7d4aec2e" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>Node</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a80fdda29892a61ea96f1855312830504" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>Node</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a6ca6b702ea2c5cebede8d75776b35191" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>parent</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1adfad587ec429e52c9140c76d0b6f83c7" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>setTypeCode</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a155387e434a57ea107317a8a41ed5a98" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>siblingsOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1af7516023a308caa444e5da160689cd9e" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>size</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>sort</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>text</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a5ef5cf3675c04702677dce3cbf767803" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>text</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aa4305357352d028f2ff0e31685f3ee53" prot="public" virt="non-virtual"><scope>MdDox::Xml::Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = 0.75
+   color     ="#9C709CFF"
+ ]
+ D4HIlMA[
+   shape    = none
+   label    = "Document"
+   fontname = "Segoe UI"
+   fontcolor= "#70809CFF"
+   fontsize = 11
+ ]
+ WWw3zFL[
+   shape    = none
+   label    = "MemberFragment"
+   fontname = "Segoe UI"
+   fontcolor= "#70809CFF"
+   fontsize = 11
+ ]
+ WrK3zFL[
+   shape    = none
+   label    = "Page"
+   fontname = "Segoe UI"
+   fontcolor= "#70809CFF"
+   fontsize = 11
+ ]
+ dcG3zFL[
+   shape    = none
+   label    = "Parameter"
+   fontname = "Segoe UI"
+   fontcolor= "#70809CFF"
+   fontsize = 11
+ ]
+ D4HIlMA->WWw3zFL
+ D4HIlMA->WrK3zFL
+ D4HIlMA->dcG3zFL
+}

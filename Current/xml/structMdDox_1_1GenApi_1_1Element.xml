@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structMdDox_1_1GenApi_1_1Element" kind="struct" language="C++" prot="public">
+    <compoundname>MdDox::GenApi::Element</compoundname>
+    <includes local="no">Tools/GenApi/Types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1ab211980964d03c28db3b7fae00ddb51a" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t MdDox::GenApi::Element::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="39" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a8df80b3a68a2bd42873c91e84b8cf808" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MdDox::GenApi::Element::minOccurs</definition>
+        <argsstring></argsstring>
+        <name>minOccurs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="40" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a331e957e73e4a7f248305a565a44b300" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MdDox::GenApi::Element::maxOccurs</definition>
+        <argsstring></argsstring>
+        <name>maxOccurs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="41" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a46982632722937610d685465b0d929ac" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Element::searchTerm</definition>
+        <argsstring></argsstring>
+        <name>searchTerm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="42" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Element::genType</definition>
+        <argsstring></argsstring>
+        <name>genType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="43" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Element::genName</definition>
+        <argsstring></argsstring>
+        <name>genName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="44" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::GenApi::Element::typeCode</definition>
+        <argsstring></argsstring>
+        <name>typeCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="45" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a867a4db696362671994a8436d25cdf10" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Element::isRequired</definition>
+        <argsstring></argsstring>
+        <name>isRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="47" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Element::isUnbounded</definition>
+        <argsstring></argsstring>
+        <name>isUnbounded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="48" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1ab1ecd0902df1444e42939b2b32ca3c43" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Element::isSingle</definition>
+        <argsstring></argsstring>
+        <name>isSingle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="49" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Element::isValid</definition>
+        <argsstring></argsstring>
+        <name>isValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="50" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMdDox_1_1GenApi_1_1Element_1ac358ed3ea23cf478037a2bbfd67cd305" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Element::operator==</definition>
+        <argsstring>(const Element &amp;el) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref> &amp;</type>
+          <declname>el</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="52" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="52" bodyend="55"/>
+        <references refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" compoundref="Types_8h" startline="45">typeCode</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="411">
+        <label>int32_t</label>
+      </node>
+      <node id="414">
+        <label>string</label>
+      </node>
+      <node id="412">
+        <label>uint32_t</label>
+      </node>
+      <node id="413">
+        <label>bool</label>
+      </node>
+      <node id="410">
+        <label>int64_t</label>
+      </node>
+      <node id="409">
+        <label>MdDox::GenApi::Element</label>
+        <link refid="structMdDox_1_1GenApi_1_1Element"/>
+        <childnode refid="410" relation="usage">
+          <edgelabel>typeCode</edgelabel>
+        </childnode>
+        <childnode refid="411" relation="usage">
+          <edgelabel>type</edgelabel>
+        </childnode>
+        <childnode refid="412" relation="usage">
+          <edgelabel>maxOccurs</edgelabel>
+          <edgelabel>minOccurs</edgelabel>
+        </childnode>
+        <childnode refid="413" relation="usage">
+          <edgelabel>isRequired</edgelabel>
+          <edgelabel>isUnbounded</edgelabel>
+          <edgelabel>isSingle</edgelabel>
+          <edgelabel>isValid</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>genName</edgelabel>
+          <edgelabel>searchTerm</edgelabel>
+          <edgelabel>genType</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/GenApi/Types.h" line="38" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="37" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>genName</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>genType</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a867a4db696362671994a8436d25cdf10" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>isRequired</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1ab1ecd0902df1444e42939b2b32ca3c43" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>isSingle</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a63dbdef548c0434a5bda7dbe9ef72027" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>isUnbounded</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1ac64b747912c6e887c357414cf9cfd68c" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>isValid</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a331e957e73e4a7f248305a565a44b300" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>maxOccurs</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a8df80b3a68a2bd42873c91e84b8cf808" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>minOccurs</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1ac358ed3ea23cf478037a2bbfd67cd305" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>operator==</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a46982632722937610d685465b0d929ac" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>searchTerm</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1ab211980964d03c28db3b7fae00ddb51a" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>type</name></member>
+      <member refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Element</scope><name>typeCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

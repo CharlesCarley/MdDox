@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="TypeFilter_8h" kind="file" language="C++">
+    <compoundname>TypeFilter.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includedby refid="DoxygenFilter_8h" local="yes">DoxygenFilter.h</includedby>
+    <includedby refid="DoxygenFilter_8cpp" local="yes">DoxygenFilter.cpp</includedby>
+    <includedby refid="TypeFilter_8cpp" local="yes">TypeFilter.cpp</includedby>
+    <includedby refid="Xml_2Parser_8cpp" local="yes">Parser.cpp</includedby>
+    <includedby refid="Xml_2Parser_8h" local="yes">Parser.h</includedby>
+    <incdepgraph>
+      <node id="8598">
+        <label>Utils/String.h</label>
+        <childnode refid="8599" relation="include">
+        </childnode>
+        <childnode refid="8600" relation="include">
+        </childnode>
+        <childnode refid="8601" relation="include">
+        </childnode>
+        <childnode refid="8602" relation="include">
+        </childnode>
+        <childnode refid="8603" relation="include">
+        </childnode>
+        <childnode refid="8604" relation="include">
+        </childnode>
+      </node>
+      <node id="8597">
+        <label>cstdint</label>
+      </node>
+      <node id="8602">
+        <label>string</label>
+      </node>
+      <node id="8600">
+        <label>fstream</label>
+      </node>
+      <node id="8604">
+        <label>vector</label>
+      </node>
+      <node id="8601">
+        <label>sstream</label>
+      </node>
+      <node id="8599">
+        <label>deque</label>
+      </node>
+      <node id="8603">
+        <label>unordered_map</label>
+      </node>
+      <node id="8596">
+        <label>TypeFilter.h</label>
+        <link refid="TypeFilter_8h"/>
+        <childnode refid="8597" relation="include">
+        </childnode>
+        <childnode refid="8598" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8613">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="8645">
+        <label>InternalS3Query.cpp</label>
+      </node>
+      <node id="8687">
+        <label>VarListEntryQuery.cpp</label>
+      </node>
+      <node id="8665">
+        <label>ParamTypeQuery.cpp</label>
+      </node>
+      <node id="8642">
+        <label>InternalQuery.cpp</label>
+      </node>
+      <node id="8677">
+        <label>SectionDefQuery.cpp</label>
+      </node>
+      <node id="8657">
+        <label>MemberIndexQuery.cpp</label>
+      </node>
+      <node id="8659">
+        <label>NodeQuery.cpp</label>
+      </node>
+      <node id="8646">
+        <label>InternalS4Query.cpp</label>
+      </node>
+      <node id="8610">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="8656">
+        <label>MemberDefQuery.cpp</label>
+      </node>
+      <node id="8693">
+        <label>Main.cpp</label>
+      </node>
+      <node id="8663">
+        <label>ParamNameQuery.cpp</label>
+      </node>
+      <node id="8630">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="8643">
+        <label>InternalS1Query.cpp</label>
+      </node>
+      <node id="8660">
+        <label>ParamListItemQuery.cpp</label>
+      </node>
+      <node id="8652">
+        <label>ListOfAllmembersQuery.cpp</label>
+      </node>
+      <node id="8662">
+        <label>ParamNameListQuery.cpp</label>
+      </node>
+      <node id="8672">
+        <label>RowQuery.cpp</label>
+      </node>
+      <node id="8644">
+        <label>InternalS2Query.cpp</label>
+      </node>
+      <node id="8669">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="8674">
+        <label>Sect2Query.cpp</label>
+      </node>
+      <node id="8631">
+        <label>EmptyQuery.cpp</label>
+      </node>
+      <node id="8620">
+        <label>BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="8638">
+        <label>HighlightQuery.cpp</label>
+      </node>
+      <node id="8673">
+        <label>Sect1Query.cpp</label>
+      </node>
+      <node id="8622">
+        <label>ChildNodeQuery.cpp</label>
+      </node>
+      <node id="8639">
+        <label>ImageQuery.cpp</label>
+      </node>
+      <node id="8678">
+        <label>SimpleSectQuery.cpp</label>
+      </node>
+      <node id="8617">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="8680">
+        <label>TableQuery.cpp</label>
+      </node>
+      <node id="8671">
+        <label>ReimplementQuery.cpp</label>
+      </node>
+      <node id="8608">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="8627">
+        <label>CopyQuery.cpp</label>
+      </node>
+      <node id="8682">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="8615">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="8612">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="8606">
+        <label>DoxygenFilter.h</label>
+        <childnode refid="8607" relation="include">
+        </childnode>
+        <childnode refid="8608" relation="include">
+        </childnode>
+        <childnode refid="8609" relation="include">
+        </childnode>
+        <childnode refid="8610" relation="include">
+        </childnode>
+        <childnode refid="8611" relation="include">
+        </childnode>
+        <childnode refid="8612" relation="include">
+        </childnode>
+        <childnode refid="8613" relation="include">
+        </childnode>
+        <childnode refid="8614" relation="include">
+        </childnode>
+        <childnode refid="8615" relation="include">
+        </childnode>
+        <childnode refid="8616" relation="include">
+        </childnode>
+        <childnode refid="8617" relation="include">
+        </childnode>
+        <childnode refid="8618" relation="include">
+        </childnode>
+        <childnode refid="8619" relation="include">
+        </childnode>
+        <childnode refid="8620" relation="include">
+        </childnode>
+        <childnode refid="8621" relation="include">
+        </childnode>
+        <childnode refid="8622" relation="include">
+        </childnode>
+        <childnode refid="8623" relation="include">
+        </childnode>
+        <childnode refid="8624" relation="include">
+        </childnode>
+        <childnode refid="8625" relation="include">
+        </childnode>
+        <childnode refid="8626" relation="include">
+        </childnode>
+        <childnode refid="8627" relation="include">
+        </childnode>
+        <childnode refid="8628" relation="include">
+        </childnode>
+        <childnode refid="8629" relation="include">
+        </childnode>
+        <childnode refid="8630" relation="include">
+        </childnode>
+        <childnode refid="8631" relation="include">
+        </childnode>
+        <childnode refid="8632" relation="include">
+        </childnode>
+        <childnode refid="8633" relation="include">
+        </childnode>
+        <childnode refid="8634" relation="include">
+        </childnode>
+        <childnode refid="8635" relation="include">
+        </childnode>
+        <childnode refid="8636" relation="include">
+        </childnode>
+        <childnode refid="8637" relation="include">
+        </childnode>
+        <childnode refid="8638" relation="include">
+        </childnode>
+        <childnode refid="8639" relation="include">
+        </childnode>
+        <childnode refid="8640" relation="include">
+        </childnode>
+        <childnode refid="8641" relation="include">
+        </childnode>
+        <childnode refid="8642" relation="include">
+        </childnode>
+        <childnode refid="8643" relation="include">
+        </childnode>
+        <childnode refid="8644" relation="include">
+        </childnode>
+        <childnode refid="8645" relation="include">
+        </childnode>
+        <childnode refid="8646" relation="include">
+        </childnode>
+        <childnode refid="8647" relation="include">
+        </childnode>
+        <childnode refid="8648" relation="include">
+        </childnode>
+        <childnode refid="8649" relation="include">
+        </childnode>
+        <childnode refid="8650" relation="include">
+        </childnode>
+        <childnode refid="8651" relation="include">
+        </childnode>
+        <childnode refid="8652" relation="include">
+        </childnode>
+        <childnode refid="8653" relation="include">
+        </childnode>
+        <childnode refid="8654" relation="include">
+        </childnode>
+        <childnode refid="8655" relation="include">
+        </childnode>
+        <childnode refid="8656" relation="include">
+        </childnode>
+        <childnode refid="8657" relation="include">
+        </childnode>
+        <childnode refid="8658" relation="include">
+        </childnode>
+        <childnode refid="8659" relation="include">
+        </childnode>
+        <childnode refid="8660" relation="include">
+        </childnode>
+        <childnode refid="8661" relation="include">
+        </childnode>
+        <childnode refid="8662" relation="include">
+        </childnode>
+        <childnode refid="8663" relation="include">
+        </childnode>
+        <childnode refid="8664" relation="include">
+        </childnode>
+        <childnode refid="8665" relation="include">
+        </childnode>
+        <childnode refid="8666" relation="include">
+        </childnode>
+        <childnode refid="8667" relation="include">
+        </childnode>
+        <childnode refid="8668" relation="include">
+        </childnode>
+        <childnode refid="8669" relation="include">
+        </childnode>
+        <childnode refid="8670" relation="include">
+        </childnode>
+        <childnode refid="8671" relation="include">
+        </childnode>
+        <childnode refid="8672" relation="include">
+        </childnode>
+        <childnode refid="8673" relation="include">
+        </childnode>
+        <childnode refid="8674" relation="include">
+        </childnode>
+        <childnode refid="8675" relation="include">
+        </childnode>
+        <childnode refid="8676" relation="include">
+        </childnode>
+        <childnode refid="8677" relation="include">
+        </childnode>
+        <childnode refid="8678" relation="include">
+        </childnode>
+        <childnode refid="8679" relation="include">
+        </childnode>
+        <childnode refid="8680" relation="include">
+        </childnode>
+        <childnode refid="8681" relation="include">
+        </childnode>
+        <childnode refid="8682" relation="include">
+        </childnode>
+        <childnode refid="8683" relation="include">
+        </childnode>
+        <childnode refid="8684" relation="include">
+        </childnode>
+        <childnode refid="8685" relation="include">
+        </childnode>
+        <childnode refid="8686" relation="include">
+        </childnode>
+        <childnode refid="8687" relation="include">
+        </childnode>
+        <childnode refid="8688" relation="include">
+        </childnode>
+        <childnode refid="8689" relation="include">
+        </childnode>
+      </node>
+      <node id="8628">
+        <label>DescriptionQuery.cpp</label>
+      </node>
+      <node id="8692">
+        <label>Parser.h</label>
+        <childnode refid="8693" relation="include">
+        </childnode>
+        <childnode refid="8612" relation="include">
+        </childnode>
+        <childnode refid="8617" relation="include">
+        </childnode>
+        <childnode refid="8691" relation="include">
+        </childnode>
+        <childnode refid="8694" relation="include">
+        </childnode>
+      </node>
+      <node id="8685">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="8667">
+        <label>ParBlockQuery.cpp</label>
+      </node>
+      <node id="8611">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="8666">
+        <label>ParaQuery.cpp</label>
+      </node>
+      <node id="8686">
+        <label>VariableListQuery.cpp</label>
+      </node>
+      <node id="8609">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="8607">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="8653">
+        <label>ListQuery.cpp</label>
+      </node>
+      <node id="8616">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="8625">
+        <label>CompoundIndexQuery.cpp</label>
+      </node>
+      <node id="8681">
+        <label>TemplateParamListQuery.cpp</label>
+      </node>
+      <node id="8641">
+        <label>IndexEntryQuery.cpp</label>
+      </node>
+      <node id="8690">
+        <label>TypeFilter.cpp</label>
+      </node>
+      <node id="8635">
+        <label>FormulaQuery.cpp</label>
+      </node>
+      <node id="8689">
+        <label>Generator.cpp</label>
+      </node>
+      <node id="8623">
+        <label>CodeLineQuery.cpp</label>
+      </node>
+      <node id="8688">
+        <label>XRefSectQuery.cpp</label>
+      </node>
+      <node id="8619">
+        <label>AnchorQuery.cpp</label>
+      </node>
+      <node id="8632">
+        <label>EntryQuery.cpp</label>
+      </node>
+      <node id="8614">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="8629">
+        <label>DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="8664">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="8618">
+        <label>DoxygenFilter.cpp</label>
+      </node>
+      <node id="8694">
+        <label>Main.cpp</label>
+      </node>
+      <node id="8647">
+        <label>LanguageQuery.cpp</label>
+      </node>
+      <node id="8640">
+        <label>IncQuery.cpp</label>
+      </node>
+      <node id="8661">
+        <label>ParamListQuery.cpp</label>
+      </node>
+      <node id="8621">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="8634">
+        <label>FileQuery.cpp</label>
+      </node>
+      <node id="8624">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="8684">
+        <label>TocListQuery.cpp</label>
+      </node>
+      <node id="8636">
+        <label>GraphQuery.cpp</label>
+      </node>
+      <node id="8655">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="8668">
+        <label>ReferenceQuery.cpp</label>
+      </node>
+      <node id="8626">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="8633">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="8654">
+        <label>LocationQuery.cpp</label>
+      </node>
+      <node id="8637">
+        <label>HeadingQuery.cpp</label>
+      </node>
+      <node id="8651">
+        <label>ListItemQuery.cpp</label>
+      </node>
+      <node id="8676">
+        <label>Sect4Query.cpp</label>
+      </node>
+      <node id="8649">
+        <label>LinkQuery.cpp</label>
+      </node>
+      <node id="8648">
+        <label>LinkedTextQuery.cpp</label>
+      </node>
+      <node id="8691">
+        <label>Parser.cpp</label>
+      </node>
+      <node id="8605">
+        <label>TypeFilter.h</label>
+        <link refid="TypeFilter_8h"/>
+        <childnode refid="8606" relation="include">
+        </childnode>
+        <childnode refid="8618" relation="include">
+        </childnode>
+        <childnode refid="8690" relation="include">
+        </childnode>
+        <childnode refid="8691" relation="include">
+        </childnode>
+        <childnode refid="8692" relation="include">
+        </childnode>
+      </node>
+      <node id="8683">
+        <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="8675">
+        <label>Sect3Query.cpp</label>
+      </node>
+      <node id="8679">
+        <label>SpQuery.cpp</label>
+      </node>
+      <node id="8658">
+        <label>MemberRefQuery.cpp</label>
+      </node>
+      <node id="8670">
+        <label>RefTextQuery.cpp</label>
+      </node>
+      <node id="8650">
+        <label>ListingQuery.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMdDox_1_1TypeFilter" prot="public">MdDox::TypeFilter</innerclass>
+    <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28" refid="structMdDox_1_1TypeFilter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" kindref="member">typeName</ref>;</highlight></codeline>
+<codeline lineno="31" refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" kindref="member">typeCode</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><sp/><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref><sp/>=<sp/>std::unordered_map&lt;String,<sp/>int64_t&gt;;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kindref="member">makeTypeFilter</ref>(<ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Utils/TypeFilter.h"/>
+  </compounddef>
+</doxygen>

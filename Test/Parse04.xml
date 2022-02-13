@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::DoxApi::Sect2QueryVisitor</compoundname>
+    <includes local="no">Source/DoxApi/Api/Sect2Query.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1a4d8a11696ac0b9d0e8be8227672c3003" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::DoxApi::Sect2QueryVisitor::~Sect2QueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Sect2QueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/DoxApi/Api/Sect2Query.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1a454d9f2151d053cab433b6dcfc49e53a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::DoxApi::Sect2QueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;paragraph) const</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1DoxApi_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>paragraph</declname>
+        </param>
+        <briefdescription>
+<para>Invoked on <computeroutput>para</computeroutput> nodes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>paragraph</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contains the scaffolding. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/DoxApi/Api/Sect2Query.h" line="47" column="1" bodyfile="Source/DoxApi/Api/Sect2Query.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1ae2c84da55d5182ac63cacb8d4a20466e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::DoxApi::Sect2QueryVisitor::visitedSect3</definition>
+        <argsstring>(const Sect3Query &amp;sect3) const</argsstring>
+        <name>visitedSect3</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1DoxApi_1_1Sect3Query" kindref="compound">Sect3Query</ref> &amp;</type>
+          <declname>sect3</declname>
+        </param>
+        <briefdescription>
+<para>Invoked on <computeroutput>sect3</computeroutput> nodes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sect3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contains the scaffolding. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/DoxApi/Api/Sect2Query.h" line="53" column="1" bodyfile="Source/DoxApi/Api/Sect2Query.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1ab3b1f49ee93b00830e660b6563759ba5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::DoxApi::Sect2QueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalS2Query &amp;internal) const</argsstring>
+        <name>visitedInternal</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1DoxApi_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> &amp;</type>
+          <declname>internal</declname>
+        </param>
+        <briefdescription>
+<para>Invoked on <computeroutput>internal</computeroutput> nodes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>internal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contains the scaffolding. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/DoxApi/Api/Sect2Query.h" line="59" column="1" bodyfile="Source/DoxApi/Api/Sect2Query.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements a visitor pattern for the <ref refid="classMdDox_1_1DoxApi_1_1Sect2Query" kindref="compound">Sect2Query</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/DoxApi/Api/Sect2Query.h" line="39" column="1" bodyfile="Source/DoxApi/Api/Sect2Query.h" bodystart="38" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1ab3b1f49ee93b00830e660b6563759ba5" prot="public" virt="virtual"><scope>MdDox::DoxApi::Sect2QueryVisitor</scope><name>visitedInternal</name></member>
+      <member refid="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1a454d9f2151d053cab433b6dcfc49e53a" prot="public" virt="virtual"><scope>MdDox::DoxApi::Sect2QueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1ae2c84da55d5182ac63cacb8d4a20466e" prot="public" virt="virtual"><scope>MdDox::DoxApi::Sect2QueryVisitor</scope><name>visitedSect3</name></member>
+      <member refid="classMdDox_1_1DoxApi_1_1Sect2QueryVisitor_1a4d8a11696ac0b9d0e8be8227672c3003" prot="public" virt="virtual"><scope>MdDox::DoxApi::Sect2QueryVisitor</scope><name>~Sect2QueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

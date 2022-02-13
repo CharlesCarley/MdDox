@@ -1,0 +1,17 @@
+	void ${className}::get${name}(${type} &dest) const
+	{
+		if (_node) {
+			Xml::Node *node = _node->firstChildOf(${typeCode});
+			if (node)
+				dest = ${type}(node);
+			else
+				dest.reset();
+		}
+	}
+
+	${type} ${className}::get${name}() const
+	{
+		${type} dest;
+		get${name}(dest);
+		return dest;
+	}

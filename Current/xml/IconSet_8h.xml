@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="IconSet_8h" kind="file" language="C++">
+    <compoundname>IconSet.h</compoundname>
+    <includes refid="String_8h" local="yes">Utils/String.h</includes>
+    <includedby refid="WriteUtils_8h" local="yes">WriteUtils.h</includedby>
+    <includedby refid="DocumentWriter_8h" local="yes">DocumentWriter.h</includedby>
+    <includedby refid="HtmlDocumentWriter_8cpp" local="yes">HtmlDocumentWriter.cpp</includedby>
+    <includedby refid="IconSet_8cpp" local="yes">IconSet.cpp</includedby>
+    <includedby refid="IndexPageWriter_8h" local="yes">IndexPageWriter.h</includedby>
+    <includedby refid="WriteUtils_8cpp" local="yes">WriteUtils.cpp</includedby>
+    <incdepgraph>
+      <node id="3775">
+        <label>IconSet.h</label>
+        <link refid="IconSet_8h"/>
+        <childnode refid="3776" relation="include">
+        </childnode>
+      </node>
+      <node id="3776">
+        <label>Utils/String.h</label>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3780" relation="include">
+        </childnode>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3782" relation="include">
+        </childnode>
+      </node>
+      <node id="3780">
+        <label>string</label>
+      </node>
+      <node id="3778">
+        <label>fstream</label>
+      </node>
+      <node id="3782">
+        <label>vector</label>
+      </node>
+      <node id="3779">
+        <label>sstream</label>
+      </node>
+      <node id="3777">
+        <label>deque</label>
+      </node>
+      <node id="3781">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3794">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="3810">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="3789">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="3786">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="3808">
+        <label>Main.cpp</label>
+      </node>
+      <node id="3805">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="3783">
+        <label>IconSet.h</label>
+        <link refid="IconSet_8h"/>
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3806" relation="include">
+        </childnode>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+      </node>
+      <node id="3817">
+        <label>IconSet.cpp</label>
+      </node>
+      <node id="3798">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="3793">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="3796">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="3791">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="3816">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="3787">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="3815">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="3814">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="3790">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="3788">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="3785">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="3803">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="3804">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="3806">
+        <label>DocumentWriter.h</label>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3807" relation="include">
+        </childnode>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3793" relation="include">
+        </childnode>
+        <childnode refid="3794" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3815" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+      </node>
+      <node id="3813">
+        <label>MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="3795">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="3784">
+        <label>WriteUtils.h</label>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3793" relation="include">
+        </childnode>
+        <childnode refid="3794" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+      </node>
+      <node id="3811">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="3808" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="3802">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="3812">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="3807">
+        <label>HtmlDocumentWriter.h</label>
+        <childnode refid="3808" relation="include">
+        </childnode>
+        <childnode refid="3809" relation="include">
+        </childnode>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+      </node>
+      <node id="3801">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="3792">
+        <label>LocationWriter.cpp</label>
+      </node>
+      <node id="3800">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="3799">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="3797">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="3809">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="3818">
+        <label>IndexPageWriter.h</label>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1IconSet" prot="public">MdDox::IconSet</innerclass>
+    <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" kindref="member">ICO_NONE</ref>,</highlight></codeline>
+<codeline lineno="33" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" kindref="member">ICO_BACK</ref>,</highlight></codeline>
+<codeline lineno="34" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" kindref="member">ICO_DEBUG</ref>,</highlight></codeline>
+<codeline lineno="35" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,</highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" kindref="member">ICO_FOLDER</ref>,</highlight></codeline>
+<codeline lineno="37" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" kindref="member">ICO_HOME</ref>,</highlight></codeline>
+<codeline lineno="38" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" kindref="member">ICO_H_SPACE_12</ref>,</highlight></codeline>
+<codeline lineno="39" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" kindref="member">ICO_H_SPACE_24</ref>,</highlight></codeline>
+<codeline lineno="40" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" kindref="member">ICO_JUMP_TO_TOP</ref>,</highlight></codeline>
+<codeline lineno="41" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" kindref="member">ICO_LINK</ref>,</highlight></codeline>
+<codeline lineno="42" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad034467ad5c3f26ad6c2190e0eb44312" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad034467ad5c3f26ad6c2190e0eb44312" kindref="member">ICO_LINK_SM</ref>,</highlight></codeline>
+<codeline lineno="43" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" kindref="member">ICO_CODE_BEHIND</ref>,</highlight></codeline>
+<codeline lineno="44" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac0f8cc7c665f6c748e93efb89cc832c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac0f8cc7c665f6c748e93efb89cc832c4" kindref="member">ICO_ISO_BAR</ref>,</highlight></codeline>
+<codeline lineno="45" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" kindref="member">ICO_CLASS</ref>,</highlight></codeline>
+<codeline lineno="46" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>,</highlight></codeline>
+<codeline lineno="47" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" kindref="member">ICO_VAR_PRIVATE</ref>,</highlight></codeline>
+<codeline lineno="48" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" kindref="member">ICO_NAMESPACE</ref>,</highlight></codeline>
+<codeline lineno="49" refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a14f3817351b63072d2bccdc0392a80e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a14f3817351b63072d2bccdc0392a80e5" kindref="member">ICO_SEP_BAR</ref>,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classMdDox_1_1IconSet" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1IconSet" kindref="compound" tooltip="Is a static class to access predefined navigation icons. ">IconSet</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1IconSet_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">fileName</ref>(<ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/IconSet.h"/>
+  </compounddef>
+</doxygen>

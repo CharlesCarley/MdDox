@@ -1,0 +1,6 @@
+    const String& ${className}::get${name}(const String& notFound) const
+    {
+        if (_node)
+            return _node->attribute("${searchTerm}", notFound);
+        return notFound;
+    }

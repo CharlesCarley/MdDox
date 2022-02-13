@@ -1,0 +1,6 @@
+	${type}Enum ${className}::get${name}() const
+	{
+		if (_node)
+			return (${type}Enum)${type}::get(_node->attribute("${searchTerm}"));
+		return (${type}Enum)-1; 
+	}

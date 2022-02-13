@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1ParameterListWriter" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::ParameterListWriter</compoundname>
+    <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::ParamListQueryVisitor</basecompoundref>
+    <includes local="no">Source/MdDoxTree/ParameterListWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1ParameterListWriter_1ae0fd80e6bab7928cba754d09d58756d3" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::ParameterListWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1ParameterListWriter_1a52224c344c0596506f2004c769b79d04" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::ParameterListWriter::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1ParameterListWriter_1aeaf42f4debb495033ca526231d9af958" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::ParameterListWriter::_out</definition>
+        <argsstring></argsstring>
+        <name>_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1ParameterListWriter_1ad6e0e77a86b64f0128194f888c3dd887" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParameterListWriter::visitedParameterItem</definition>
+        <argsstring>(const Doxygen::ParamListItemQuery &amp;query) override</argsstring>
+        <name>visitedParameterItem</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1a541190e5976f3e6dd4d53c00bdbe55bf">visitedParameterItem</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery" kindref="compound">Doxygen::ParamListItemQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parameteritem</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParamListItemQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1ParameterListWriter_1a2b76f542ab989611bb7e008248e32f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::ParameterListWriter::ParameterListWriter</definition>
+        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
+        <name>ParameterListWriter</name>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParameterListWriter_1a984133e037be191dddf7ddf63788b110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::ParameterListWriter::write</definition>
+        <argsstring>(const Doxygen::ParamListQuery &amp;paramList)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">Doxygen::ParamListQuery</ref> &amp;</type>
+          <declname>paramList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterListWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="114" bodyend="124"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a054b0bf9aea488a590ea14e6a8a8de9e" compoundref="ParamListQuery_8h" startline="128" endline="131">MdDox::Doxygen::ParamListQuery::isValid</references>
+        <references refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9">MdDox::DocumentWriter::beginList</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" compoundref="ParamListQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::ParamListQuery::visit</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed">MdDox::DocumentWriter::endList</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="548">
+        <label>MdDox::Doxygen::Visitors::ParamListQueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor"/>
+      </node>
+      <node id="547">
+        <label>MdDox::ParameterListWriter</label>
+        <link refid="classMdDox_1_1ParameterListWriter"/>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="550">
+        <label>MdDox::Doxygen::Visitors::ParamListQueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor"/>
+      </node>
+      <node id="549">
+        <label>MdDox::ParameterListWriter</label>
+        <link refid="classMdDox_1_1ParameterListWriter"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/ParameterListWriter.h" line="31" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.h" bodystart="30" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1ParameterListWriter_1aeaf42f4debb495033ca526231d9af958" prot="private" virt="non-virtual"><scope>MdDox::ParameterListWriter</scope><name>_out</name></member>
+      <member refid="classMdDox_1_1ParameterListWriter_1a52224c344c0596506f2004c769b79d04" prot="private" virt="non-virtual"><scope>MdDox::ParameterListWriter</scope><name>_stream</name></member>
+      <member refid="classMdDox_1_1ParameterListWriter_1ae0fd80e6bab7928cba754d09d58756d3" prot="private" virt="non-virtual"><scope>MdDox::ParameterListWriter</scope><name>_writer</name></member>
+      <member refid="classMdDox_1_1ParameterListWriter_1a2b76f542ab989611bb7e008248e32f3c" prot="public" virt="non-virtual"><scope>MdDox::ParameterListWriter</scope><name>ParameterListWriter</name></member>
+      <member refid="classMdDox_1_1ParameterListWriter_1ad6e0e77a86b64f0128194f888c3dd887" prot="private" virt="virtual"><scope>MdDox::ParameterListWriter</scope><name>visitedParameterItem</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1ac9c074f3fc8eaca1be96da2669ff15f4" prot="public" virt="virtual"><scope>MdDox::ParameterListWriter</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1ParameterListWriter_1a984133e037be191dddf7ddf63788b110" prot="public" virt="non-virtual"><scope>MdDox::ParameterListWriter</scope><name>write</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1acfc0f754bb061baea850ace20b24507e" prot="public" virt="virtual"><scope>MdDox::ParameterListWriter</scope><name>~ParamListQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

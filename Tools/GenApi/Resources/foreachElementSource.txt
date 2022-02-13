@@ -1,0 +1,4 @@
+    void ${className}::foreach${name}(const ${type}Function& invoke) const
+    {
+        QueryForEach<${type}, ${typeCode}>(invoke, _node);
+    }

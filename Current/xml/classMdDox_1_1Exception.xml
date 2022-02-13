@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Exception" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Exception</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+    <derivedcompoundref refid="classMdDox_1_1ParseError" prot="public" virt="non-virtual">MdDox::ParseError</derivedcompoundref>
+    <includes local="no">Source/Utils/Exception.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Exception_1a0acf51fb91c67fc2346c112b21d11cf8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::Exception::_string</definition>
+        <argsstring></argsstring>
+        <name>_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="38" column="1" bodyfile="Source/Utils/Exception.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Exception_1a985e384f9423e24326ace2ccb20acda8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Exception::Exception</definition>
+        <argsstring>(const char *what)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type>const char *</type>
+          <declname>what</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="41" column="1" bodyfile="Source/Utils/Exception.h" bodystart="41" bodyend="46"/>
+        <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Exception_1a5c2d4b2bc9d1c63e5d44a30b5dbdf0e7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Exception::Exception</definition>
+        <argsstring>(String what)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>what</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="48" column="1" bodyfile="Source/Utils/Exception.h" bodystart="48" bodyend="53"/>
+        <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Exception_1a7d25fb77bd695998453d2d85d2a80746" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MdDox::Exception::Exception</definition>
+        <argsstring>(const String &amp;what, Args &amp;&amp;... args)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="56" column="1" bodyfile="Source/Utils/Exception.h" bodystart="56" bodyend="65"/>
+        <references refid="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" compoundref="Exception_8h" startline="67" endline="70">what</references>
+        <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* MdDox::Exception::what</definition>
+        <argsstring>() const noexcept override</argsstring>
+        <name>what</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="67" column="1" bodyfile="Source/Utils/Exception.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Primary class for exception handling <linebreak/>
+ </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="366">
+        <label>std::exception</label>
+      </node>
+      <node id="365">
+        <label>MdDox::Exception</label>
+        <link refid="classMdDox_1_1Exception"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>MdDox::ParseError</label>
+        <link refid="classMdDox_1_1ParseError"/>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="369">
+        <label>std::exception</label>
+      </node>
+      <node id="368">
+        <label>MdDox::Exception</label>
+        <link refid="classMdDox_1_1Exception"/>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Utils/Exception.h" line="36" column="1" bodyfile="Source/Utils/Exception.h" bodystart="35" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Exception_1a0acf51fb91c67fc2346c112b21d11cf8" prot="private" virt="non-virtual"><scope>MdDox::Exception</scope><name>_string</name></member>
+      <member refid="classMdDox_1_1Exception_1a985e384f9423e24326ace2ccb20acda8" prot="public" virt="non-virtual"><scope>MdDox::Exception</scope><name>Exception</name></member>
+      <member refid="classMdDox_1_1Exception_1a5c2d4b2bc9d1c63e5d44a30b5dbdf0e7" prot="public" virt="non-virtual"><scope>MdDox::Exception</scope><name>Exception</name></member>
+      <member refid="classMdDox_1_1Exception_1a7d25fb77bd695998453d2d85d2a80746" prot="public" virt="non-virtual"><scope>MdDox::Exception</scope><name>Exception</name></member>
+      <member refid="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" prot="public" virt="non-virtual"><scope>MdDox::Exception</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

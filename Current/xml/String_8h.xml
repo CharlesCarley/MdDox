@@ -1,0 +1,3042 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="String_8h" kind="file" language="C++">
+    <compoundname>String.h</compoundname>
+    <includes local="no">deque</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="WriteUtils_8h" local="yes">WriteUtils.h</includedby>
+    <includedby refid="Config_8h" local="yes">Config.h</includedby>
+    <includedby refid="IconSet_8h" local="yes">IconSet.h</includedby>
+    <includedby refid="DocumentWriter_8h" local="yes">DocumentWriter.h</includedby>
+    <includedby refid="DotWriter_8h" local="yes">DotWriter.h</includedby>
+    <includedby refid="Link_8h" local="yes">Link.h</includedby>
+    <includedby refid="HashUtils_8h" local="yes">HashUtils.h</includedby>
+    <includedby refid="HtmlCommandWriter_8h" local="yes">HtmlCommandWriter.h</includedby>
+    <includedby refid="HtmlDocumentWriter_8h" local="yes">HtmlDocumentWriter.h</includedby>
+    <includedby refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includedby>
+    <includedby refid="MarkdownCommandWriter_8h" local="yes">MarkdownCommandWriter.h</includedby>
+    <includedby refid="MarkdownDocumentWriter_8h" local="yes">MarkdownDocumentWriter.h</includedby>
+    <includedby refid="Reference_8h" local="yes">Reference.h</includedby>
+    <includedby refid="RepoFile_8h" local="yes">RepoFile.h</includedby>
+    <includedby refid="RepoFile_8cpp" local="yes">RepoFile.cpp</includedby>
+    <includedby refid="SourceFile_8cpp" local="yes">SourceFile.cpp</includedby>
+    <includedby refid="SourceFile_8h" local="yes">SourceFile.h</includedby>
+    <includedby refid="Char_8cpp" local="yes">Char.cpp</includedby>
+    <includedby refid="Char_8h" local="yes">Char.h</includedby>
+    <includedby refid="Option_8h" local="yes">Option.h</includedby>
+    <includedby refid="Utils_2CommandLine_2Token_8h" local="yes">Token.h</includedby>
+    <includedby refid="Console_8h" local="yes">Console.h</includedby>
+    <includedby refid="Exception_8h" local="yes">Exception.h</includedby>
+    <includedby refid="FileSystem_8h" local="yes">FileSystem.h</includedby>
+    <includedby refid="Path_8h" local="yes">Path.h</includedby>
+    <includedby refid="String_8cpp" local="yes">String.cpp</includedby>
+    <includedby refid="TextStreamWriter_8h" local="yes">TextStreamWriter.h</includedby>
+    <includedby refid="TypeFilter_8h" local="yes">TypeFilter.h</includedby>
+    <includedby refid="TypeFilter_8cpp" local="yes">TypeFilter.cpp</includedby>
+    <includedby refid="Attribute_8h" local="yes">Attribute.h</includedby>
+    <includedby refid="Node_8h" local="yes">Node.h</includedby>
+    <includedby refid="Xml_2Parser_8h" local="yes">Parser.h</includedby>
+    <includedby refid="Source_2Xml_2Writer_8h" local="yes">Writer.h</includedby>
+    <includedby refid="Doxygen_8h" local="yes">Doxygen.h</includedby>
+    <includedby refid="Common_8h" local="yes">Common.h</includedby>
+    <includedby refid="Tools_2GenApi_2Writer_8h" local="yes">Writer.h</includedby>
+    <includedby refid="Object_8h" local="yes">Object.h</includedby>
+    <includedby refid="Types_8h" local="yes">Types.h</includedby>
+    <includedby refid="Group_8h" local="yes">Group.h</includedby>
+    <includedby refid="Complex_8h" local="yes">Complex.h</includedby>
+    <includedby refid="Complex_8cpp" local="yes">Complex.cpp</includedby>
+    <includedby refid="Database_8h" local="yes">Database.h</includedby>
+    <includedby refid="Simple_8h" local="yes">Simple.h</includedby>
+    <includedby refid="Group_8cpp" local="yes">Group.cpp</includedby>
+    <includedby refid="Simple_8cpp" local="yes">Simple.cpp</includedby>
+    <incdepgraph>
+      <node id="8000">
+        <label>String.h</label>
+        <link refid="String_8h"/>
+        <childnode refid="8001" relation="include">
+        </childnode>
+        <childnode refid="8002" relation="include">
+        </childnode>
+        <childnode refid="8003" relation="include">
+        </childnode>
+        <childnode refid="8004" relation="include">
+        </childnode>
+        <childnode refid="8005" relation="include">
+        </childnode>
+        <childnode refid="8006" relation="include">
+        </childnode>
+      </node>
+      <node id="8004">
+        <label>string</label>
+      </node>
+      <node id="8002">
+        <label>fstream</label>
+      </node>
+      <node id="8006">
+        <label>vector</label>
+      </node>
+      <node id="8003">
+        <label>sstream</label>
+      </node>
+      <node id="8001">
+        <label>deque</label>
+      </node>
+      <node id="8005">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8037">
+        <label>Link.cpp</label>
+      </node>
+      <node id="8282">
+        <label>ParamTypeQuery.h</label>
+        <childnode refid="8138" relation="include">
+        </childnode>
+      </node>
+      <node id="8018">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="8238">
+        <label>DoxygenIndexQuery.h</label>
+        <childnode refid="8048" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8172" relation="include">
+        </childnode>
+      </node>
+      <node id="8214">
+        <label>DoxAccessor.h</label>
+        <childnode refid="8215" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8194">
+        <label>GraphQuery.h</label>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8195" relation="include">
+        </childnode>
+      </node>
+      <node id="8035">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="8177">
+        <label>CompoundRefQuery.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8178" relation="include">
+        </childnode>
+      </node>
+      <node id="8118">
+        <label>InternalS3Query.cpp</label>
+      </node>
+      <node id="8031">
+        <label>Config.cpp</label>
+      </node>
+      <node id="8286">
+        <label>VarListEntryQuery.cpp</label>
+      </node>
+      <node id="8138">
+        <label>ParamTypeQuery.cpp</label>
+      </node>
+      <node id="8115">
+        <label>InternalQuery.cpp</label>
+      </node>
+      <node id="8165">
+        <label>SectionDefQuery.cpp</label>
+      </node>
+      <node id="8088">
+        <label>Exception.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8089" relation="include">
+        </childnode>
+        <childnode refid="8094" relation="include">
+        </childnode>
+        <childnode refid="8078" relation="include">
+        </childnode>
+        <childnode refid="8096" relation="include">
+        </childnode>
+        <childnode refid="8215" relation="include">
+        </childnode>
+        <childnode refid="8156" relation="include">
+        </childnode>
+        <childnode refid="8217" relation="include">
+        </childnode>
+        <childnode refid="8173" relation="include">
+        </childnode>
+        <childnode refid="8149" relation="include">
+        </childnode>
+        <childnode refid="8168" relation="include">
+        </childnode>
+        <childnode refid="8219" relation="include">
+        </childnode>
+        <childnode refid="8175" relation="include">
+        </childnode>
+        <childnode refid="8209" relation="include">
+        </childnode>
+        <childnode refid="8222" relation="include">
+        </childnode>
+        <childnode refid="8226" relation="include">
+        </childnode>
+        <childnode refid="8181" relation="include">
+        </childnode>
+        <childnode refid="8144" relation="include">
+        </childnode>
+        <childnode refid="8231" relation="include">
+        </childnode>
+        <childnode refid="8202" relation="include">
+        </childnode>
+        <childnode refid="8233" relation="include">
+        </childnode>
+        <childnode refid="8236" relation="include">
+        </childnode>
+        <childnode refid="8192" relation="include">
+        </childnode>
+        <childnode refid="8289" relation="include">
+        </childnode>
+        <childnode refid="8290" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8071" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+        <childnode refid="8072" relation="include">
+        </childnode>
+      </node>
+      <node id="8266">
+        <label>ListQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8264" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8080">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="8207">
+        <label>MemberIndexQuery.cpp</label>
+      </node>
+      <node id="8147">
+        <label>NodeQuery.cpp</label>
+      </node>
+      <node id="8287">
+        <label>XRefSectQuery.h</label>
+        <childnode refid="8288" relation="include">
+        </childnode>
+      </node>
+      <node id="8141">
+        <label>CodeLineQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8142" relation="include">
+        </childnode>
+        <childnode refid="8143" relation="include">
+        </childnode>
+      </node>
+      <node id="8119">
+        <label>InternalS4Query.cpp</label>
+      </node>
+      <node id="8013">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="8164">
+        <label>MemberDefQuery.cpp</label>
+      </node>
+      <node id="8310">
+        <label>Types.h</label>
+        <childnode refid="8305" relation="include">
+        </childnode>
+        <childnode refid="8306" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8230">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="8231" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8010">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="8244">
+        <label>NodeQuery.h</label>
+        <childnode refid="8195" relation="include">
+        </childnode>
+        <childnode refid="8147" relation="include">
+        </childnode>
+      </node>
+      <node id="8033">
+        <label>Main.cpp</label>
+      </node>
+      <node id="8306">
+        <label>Complex.h</label>
+        <childnode refid="8290" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8128">
+        <label>CaptionQuery.h</label>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8129" relation="include">
+        </childnode>
+      </node>
+      <node id="8072">
+        <label>Main.cpp</label>
+      </node>
+      <node id="8029">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="8137">
+        <label>ParamNameQuery.cpp</label>
+      </node>
+      <node id="8311">
+        <label>Database.h</label>
+        <childnode refid="8312" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8215">
+        <label>DoxAccessor.cpp</label>
+      </node>
+      <node id="8050">
+        <label>DotWriter.cpp</label>
+      </node>
+      <node id="8153">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="8276">
+        <label>ReferenceQuery.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8277" relation="include">
+        </childnode>
+      </node>
+      <node id="8073">
+        <label>FileSystem.cpp</label>
+      </node>
+      <node id="8042">
+        <label>IconSet.h</label>
+        <childnode refid="8008" relation="include">
+        </childnode>
+        <childnode refid="8043" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8047" relation="include">
+        </childnode>
+        <childnode refid="8048" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8007">
+        <label>String.h</label>
+        <link refid="String_8h"/>
+        <childnode refid="8008" relation="include">
+        </childnode>
+        <childnode refid="8030" relation="include">
+        </childnode>
+        <childnode refid="8042" relation="include">
+        </childnode>
+        <childnode refid="8043" relation="include">
+        </childnode>
+        <childnode refid="8049" relation="include">
+        </childnode>
+        <childnode refid="8051" relation="include">
+        </childnode>
+        <childnode refid="8052" relation="include">
+        </childnode>
+        <childnode refid="8055" relation="include">
+        </childnode>
+        <childnode refid="8044" relation="include">
+        </childnode>
+        <childnode refid="8032" relation="include">
+        </childnode>
+        <childnode refid="8056" relation="include">
+        </childnode>
+        <childnode refid="8045" relation="include">
+        </childnode>
+        <childnode refid="8057" relation="include">
+        </childnode>
+        <childnode refid="8063" relation="include">
+        </childnode>
+        <childnode refid="8040" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+        <childnode refid="8065" relation="include">
+        </childnode>
+        <childnode refid="8066" relation="include">
+        </childnode>
+        <childnode refid="8067" relation="include">
+        </childnode>
+        <childnode refid="8068" relation="include">
+        </childnode>
+        <childnode refid="8083" relation="include">
+        </childnode>
+        <childnode refid="8086" relation="include">
+        </childnode>
+        <childnode refid="8088" relation="include">
+        </childnode>
+        <childnode refid="8292" relation="include">
+        </childnode>
+        <childnode refid="8294" relation="include">
+        </childnode>
+        <childnode refid="8077" relation="include">
+        </childnode>
+        <childnode refid="8295" relation="include">
+        </childnode>
+        <childnode refid="8296" relation="include">
+        </childnode>
+        <childnode refid="8299" relation="include">
+        </childnode>
+        <childnode refid="8300" relation="include">
+        </childnode>
+        <childnode refid="8301" relation="include">
+        </childnode>
+        <childnode refid="8092" relation="include">
+        </childnode>
+        <childnode refid="8309" relation="include">
+        </childnode>
+        <childnode refid="8096" relation="include">
+        </childnode>
+        <childnode refid="8303" relation="include">
+        </childnode>
+        <childnode refid="8302" relation="include">
+        </childnode>
+        <childnode refid="8304" relation="include">
+        </childnode>
+        <childnode refid="8310" relation="include">
+        </childnode>
+        <childnode refid="8305" relation="include">
+        </childnode>
+        <childnode refid="8306" relation="include">
+        </childnode>
+        <childnode refid="8290" relation="include">
+        </childnode>
+        <childnode refid="8311" relation="include">
+        </childnode>
+        <childnode refid="8307" relation="include">
+        </childnode>
+        <childnode refid="8082" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+      </node>
+      <node id="8133">
+        <label>MarkupQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8222">
+        <label>DoxParamDir.cpp</label>
+      </node>
+      <node id="8040">
+        <label>RepoFile.cpp</label>
+      </node>
+      <node id="8279">
+        <label>ParameterWriter.h</label>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8022" relation="include">
+        </childnode>
+      </node>
+      <node id="8116">
+        <label>InternalS1Query.cpp</label>
+      </node>
+      <node id="8093">
+        <label>Scanner.h</label>
+        <childnode refid="8079" relation="include">
+        </childnode>
+        <childnode refid="8080" relation="include">
+        </childnode>
+      </node>
+      <node id="8154">
+        <label>IncQuery.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8155" relation="include">
+        </childnode>
+      </node>
+      <node id="8132">
+        <label>UrlLinkQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8252">
+        <label>Section2Writer.h</label>
+        <childnode refid="8023" relation="include">
+        </childnode>
+        <childnode refid="8024" relation="include">
+        </childnode>
+      </node>
+      <node id="8242">
+        <label>FormulaQuery.h</label>
+        <childnode refid="8243" relation="include">
+        </childnode>
+      </node>
+      <node id="8047">
+        <label>IconSet.cpp</label>
+      </node>
+      <node id="8261">
+        <label>LinkQuery.h</label>
+        <childnode refid="8262" relation="include">
+        </childnode>
+        <childnode refid="8147" relation="include">
+        </childnode>
+      </node>
+      <node id="8189">
+        <label>ParamListItemQuery.cpp</label>
+      </node>
+      <node id="8185">
+        <label>ListOfAllmembersQuery.cpp</label>
+      </node>
+      <node id="8085">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="8224">
+        <label>ParamNameListQuery.cpp</label>
+      </node>
+      <node id="8245">
+        <label>HeadingQuery.h</label>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8151">
+        <label>CompoundDefQuery.h</label>
+        <childnode refid="8058" relation="include">
+        </childnode>
+        <childnode refid="8059" relation="include">
+        </childnode>
+        <childnode refid="8008" relation="include">
+        </childnode>
+        <childnode refid="8060" relation="include">
+        </childnode>
+        <childnode refid="8061" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8153" relation="include">
+        </childnode>
+      </node>
+      <node id="8158">
+        <label>RowQuery.cpp</label>
+      </node>
+      <node id="8091">
+        <label>ParserBase.h</label>
+        <childnode refid="8031" relation="include">
+        </childnode>
+        <childnode refid="8074" relation="include">
+        </childnode>
+        <childnode refid="8078" relation="include">
+        </childnode>
+        <childnode refid="8092" relation="include">
+        </childnode>
+      </node>
+      <node id="8022">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="8053">
+        <label>HashUtils.cpp</label>
+      </node>
+      <node id="8117">
+        <label>InternalS2Query.cpp</label>
+      </node>
+      <node id="8067">
+        <label>Char.h</label>
+        <childnode refid="8031" relation="include">
+        </childnode>
+        <childnode refid="8034" relation="include">
+        </childnode>
+        <childnode refid="8038" relation="include">
+        </childnode>
+        <childnode refid="8066" relation="include">
+        </childnode>
+        <childnode refid="8068" relation="include">
+        </childnode>
+        <childnode refid="8073" relation="include">
+        </childnode>
+        <childnode refid="8074" relation="include">
+        </childnode>
+        <childnode refid="8075" relation="include">
+        </childnode>
+        <childnode refid="8076" relation="include">
+        </childnode>
+        <childnode refid="8077" relation="include">
+        </childnode>
+        <childnode refid="8078" relation="include">
+        </childnode>
+        <childnode refid="8079" relation="include">
+        </childnode>
+        <childnode refid="8080" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8082" relation="include">
+        </childnode>
+      </node>
+      <node id="8180">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="8095">
+        <label>ParseError.cpp</label>
+      </node>
+      <node id="8017">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="8124">
+        <label>Sect2Query.cpp</label>
+      </node>
+      <node id="8108">
+        <label>BlockQuoteQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8109" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8174">
+        <label>DoxLanguage.h</label>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8175" relation="include">
+        </childnode>
+      </node>
+      <node id="8020">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="8015">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="8267">
+        <label>TitleQuery.h</label>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8127" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+      </node>
+      <node id="8110">
+        <label>ParaQuery.h</label>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8111" relation="include">
+        </childnode>
+        <childnode refid="8109" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8112" relation="include">
+        </childnode>
+        <childnode refid="8113" relation="include">
+        </childnode>
+        <childnode refid="8114" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8115" relation="include">
+        </childnode>
+        <childnode refid="8116" relation="include">
+        </childnode>
+        <childnode refid="8117" relation="include">
+        </childnode>
+        <childnode refid="8118" relation="include">
+        </childnode>
+        <childnode refid="8119" relation="include">
+        </childnode>
+        <childnode refid="8120" relation="include">
+        </childnode>
+        <childnode refid="8121" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8122" relation="include">
+        </childnode>
+        <childnode refid="8123" relation="include">
+        </childnode>
+        <childnode refid="8124" relation="include">
+        </childnode>
+        <childnode refid="8125" relation="include">
+        </childnode>
+        <childnode refid="8126" relation="include">
+        </childnode>
+        <childnode refid="8127" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8131">
+        <label>EmptyQuery.cpp</label>
+      </node>
+      <node id="8109">
+        <label>BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="8135">
+        <label>HighlightQuery.cpp</label>
+      </node>
+      <node id="8066">
+        <label>Char.cpp</label>
+      </node>
+      <node id="8220">
+        <label>ImageQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8148">
+        <label>DoxGraphRelation.h</label>
+        <childnode refid="8145" relation="include">
+        </childnode>
+        <childnode refid="8149" relation="include">
+        </childnode>
+      </node>
+      <node id="8097">
+        <label>AnchorQuery.h</label>
+        <childnode refid="8098" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8225">
+        <label>DoxParamListKind.h</label>
+        <childnode refid="8226" relation="include">
+        </childnode>
+        <childnode refid="8227" relation="include">
+        </childnode>
+      </node>
+      <node id="8123">
+        <label>Sect1Query.cpp</label>
+      </node>
+      <node id="8295">
+        <label>TextStreamWriter.h</label>
+        <childnode refid="8050" relation="include">
+        </childnode>
+        <childnode refid="8072" relation="include">
+        </childnode>
+      </node>
+      <node id="8111">
+        <label>ParagraphWriter.h</label>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8023" relation="include">
+        </childnode>
+        <childnode refid="8024" relation="include">
+        </childnode>
+        <childnode refid="8025" relation="include">
+        </childnode>
+        <childnode refid="8026" relation="include">
+        </childnode>
+      </node>
+      <node id="8149">
+        <label>DoxGraphRelation.cpp</label>
+      </node>
+      <node id="8146">
+        <label>ChildNodeQuery.cpp</label>
+      </node>
+      <node id="8070">
+        <label>Parser.cpp</label>
+      </node>
+      <node id="8265">
+        <label>ListOfAllmembersQuery.h</label>
+      </node>
+      <node id="8102">
+        <label>ImageQuery.cpp</label>
+      </node>
+      <node id="8127">
+        <label>SimpleSectQuery.cpp</label>
+      </node>
+      <node id="8163">
+        <label>MemberDefWriter.h</label>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8028" relation="include">
+        </childnode>
+      </node>
+      <node id="8181">
+        <label>DoxProtectionKind.cpp</label>
+      </node>
+      <node id="8041">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="8076">
+        <label>Path.cpp</label>
+      </node>
+      <node id="8129">
+        <label>TableQuery.cpp</label>
+      </node>
+      <node id="8312">
+        <label>Database.cpp</label>
+      </node>
+      <node id="8275">
+        <label>ReimplementQuery.cpp</label>
+      </node>
+      <node id="8309">
+        <label>Writer.h</label>
+        <childnode refid="8293" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8082" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+      </node>
+      <node id="8191">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="8177" relation="include">
+        </childnode>
+        <childnode refid="8192" relation="include">
+        </childnode>
+        <childnode refid="8184" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8301">
+        <label>Node.h</label>
+        <childnode refid="8030" relation="include">
+        </childnode>
+        <childnode refid="8049" relation="include">
+        </childnode>
+        <childnode refid="8050" relation="include">
+        </childnode>
+        <childnode refid="8078" relation="include">
+        </childnode>
+        <childnode refid="8079" relation="include">
+        </childnode>
+        <childnode refid="8092" relation="include">
+        </childnode>
+        <childnode refid="8293" relation="include">
+        </childnode>
+        <childnode refid="8096" relation="include">
+        </childnode>
+        <childnode refid="8302" relation="include">
+        </childnode>
+        <childnode refid="8304" relation="include">
+        </childnode>
+        <childnode refid="8305" relation="include">
+        </childnode>
+        <childnode refid="8306" relation="include">
+        </childnode>
+        <childnode refid="8308" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8011">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="8112">
+        <label>CopyQuery.cpp</label>
+      </node>
+      <node id="8160">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+      </node>
+      <node id="8303">
+        <label>Common.h</label>
+        <childnode refid="8289" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8196">
+        <label>TemplateParamListQuery.h</label>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8197" relation="include">
+        </childnode>
+      </node>
+      <node id="8105">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="8052">
+        <label>HashUtils.h</label>
+        <childnode refid="8053" relation="include">
+        </childnode>
+        <childnode refid="8034" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8037" relation="include">
+        </childnode>
+        <childnode refid="8046" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8040" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8039">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="8036">
+        <label>IndexPageWriter.cpp</label>
+      </node>
+      <node id="8297">
+        <label>DoxygenFilter.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8027" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8298" relation="include">
+        </childnode>
+        <childnode refid="8098" relation="include">
+        </childnode>
+        <childnode refid="8109" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8146" relation="include">
+        </childnode>
+        <childnode refid="8142" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8171" relation="include">
+        </childnode>
+        <childnode refid="8178" relation="include">
+        </childnode>
+        <childnode refid="8112" relation="include">
+        </childnode>
+        <childnode refid="8113" relation="include">
+        </childnode>
+        <childnode refid="8172" relation="include">
+        </childnode>
+        <childnode refid="8153" relation="include">
+        </childnode>
+        <childnode refid="8131" relation="include">
+        </childnode>
+        <childnode refid="8114" relation="include">
+        </childnode>
+        <childnode refid="8183" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8243" relation="include">
+        </childnode>
+        <childnode refid="8195" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8135" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8155" relation="include">
+        </childnode>
+        <childnode refid="8249" relation="include">
+        </childnode>
+        <childnode refid="8115" relation="include">
+        </childnode>
+        <childnode refid="8116" relation="include">
+        </childnode>
+        <childnode refid="8117" relation="include">
+        </childnode>
+        <childnode refid="8118" relation="include">
+        </childnode>
+        <childnode refid="8119" relation="include">
+        </childnode>
+        <childnode refid="8120" relation="include">
+        </childnode>
+        <childnode refid="8136" relation="include">
+        </childnode>
+        <childnode refid="8262" relation="include">
+        </childnode>
+        <childnode refid="8143" relation="include">
+        </childnode>
+        <childnode refid="8121" relation="include">
+        </childnode>
+        <childnode refid="8185" relation="include">
+        </childnode>
+        <childnode refid="8264" relation="include">
+        </childnode>
+        <childnode refid="8205" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8207" relation="include">
+        </childnode>
+        <childnode refid="8186" relation="include">
+        </childnode>
+        <childnode refid="8147" relation="include">
+        </childnode>
+        <childnode refid="8189" relation="include">
+        </childnode>
+        <childnode refid="8229" relation="include">
+        </childnode>
+        <childnode refid="8224" relation="include">
+        </childnode>
+        <childnode refid="8137" relation="include">
+        </childnode>
+        <childnode refid="8190" relation="include">
+        </childnode>
+        <childnode refid="8138" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8122" relation="include">
+        </childnode>
+        <childnode refid="8277" relation="include">
+        </childnode>
+        <childnode refid="8180" relation="include">
+        </childnode>
+        <childnode refid="8139" relation="include">
+        </childnode>
+        <childnode refid="8275" relation="include">
+        </childnode>
+        <childnode refid="8158" relation="include">
+        </childnode>
+        <childnode refid="8123" relation="include">
+        </childnode>
+        <childnode refid="8124" relation="include">
+        </childnode>
+        <childnode refid="8125" relation="include">
+        </childnode>
+        <childnode refid="8126" relation="include">
+        </childnode>
+        <childnode refid="8165" relation="include">
+        </childnode>
+        <childnode refid="8127" relation="include">
+        </childnode>
+        <childnode refid="8247" relation="include">
+        </childnode>
+        <childnode refid="8129" relation="include">
+        </childnode>
+        <childnode refid="8197" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8272" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+        <childnode refid="8270" relation="include">
+        </childnode>
+        <childnode refid="8286" relation="include">
+        </childnode>
+        <childnode refid="8288" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8161">
+        <label>FunctionDefWriter.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+      </node>
+      <node id="8113">
+        <label>DescriptionQuery.cpp</label>
+      </node>
+      <node id="8092">
+        <label>Parser.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8079" relation="include">
+        </childnode>
+        <childnode refid="8071" relation="include">
+        </childnode>
+      </node>
+      <node id="8293">
+        <label>Writer.cpp</label>
+      </node>
+      <node id="8176">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8177" relation="include">
+        </childnode>
+        <childnode refid="8179" relation="include">
+        </childnode>
+        <childnode refid="8181" relation="include">
+        </childnode>
+        <childnode refid="8182" relation="include">
+        </childnode>
+        <childnode refid="8184" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8107">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="8268">
+        <label>TableQuery.h</label>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8129" relation="include">
+        </childnode>
+      </node>
+      <node id="8122">
+        <label>ParBlockQuery.cpp</label>
+      </node>
+      <node id="8014">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="8104">
+        <label>ParaQuery.cpp</label>
+      </node>
+      <node id="8199">
+        <label>SectionDefListingWriter.h</label>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8027" relation="include">
+        </childnode>
+      </node>
+      <node id="8219">
+        <label>DoxImageKind.cpp</label>
+      </node>
+      <node id="8168">
+        <label>DoxHighlightClass.cpp</label>
+      </node>
+      <node id="8270">
+        <label>VariableListQuery.cpp</label>
+      </node>
+      <node id="8255">
+        <label>Section3Writer.h</label>
+        <childnode refid="8024" relation="include">
+        </childnode>
+        <childnode refid="8025" relation="include">
+        </childnode>
+      </node>
+      <node id="8084">
+        <label>Scanner.h</label>
+        <childnode refid="8069" relation="include">
+        </childnode>
+        <childnode refid="8085" relation="include">
+        </childnode>
+      </node>
+      <node id="8012">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="8213">
+        <label>InternalQuery.h</label>
+        <childnode refid="8112" relation="include">
+        </childnode>
+        <childnode refid="8113" relation="include">
+        </childnode>
+        <childnode refid="8115" relation="include">
+        </childnode>
+      </node>
+      <node id="8246">
+        <label>SpQuery.h</label>
+        <childnode refid="8135" relation="include">
+        </childnode>
+        <childnode refid="8247" relation="include">
+        </childnode>
+      </node>
+      <node id="8009">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="8284">
+        <label>TocItemQuery.h</label>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8272" relation="include">
+        </childnode>
+      </node>
+      <node id="8232">
+        <label>DoxSimpleSectKind.h</label>
+        <childnode refid="8233" relation="include">
+        </childnode>
+        <childnode refid="8234" relation="include">
+        </childnode>
+      </node>
+      <node id="8291">
+        <label>Simple.cpp</label>
+      </node>
+      <node id="8264">
+        <label>ListQuery.cpp</label>
+      </node>
+      <node id="8089">
+        <label>IndexCache.h</label>
+        <childnode refid="8090" relation="include">
+        </childnode>
+      </node>
+      <node id="8027">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="8096">
+        <label>Doxygen.h</label>
+        <childnode refid="8097" relation="include">
+        </childnode>
+        <childnode refid="8108" relation="include">
+        </childnode>
+        <childnode refid="8110" relation="include">
+        </childnode>
+        <childnode refid="8128" relation="include">
+        </childnode>
+        <childnode refid="8130" relation="include">
+        </childnode>
+        <childnode refid="8132" relation="include">
+        </childnode>
+        <childnode refid="8133" relation="include">
+        </childnode>
+        <childnode refid="8134" relation="include">
+        </childnode>
+        <childnode refid="8140" relation="include">
+        </childnode>
+        <childnode refid="8145" relation="include">
+        </childnode>
+        <childnode refid="8148" relation="include">
+        </childnode>
+        <childnode refid="8141" relation="include">
+        </childnode>
+        <childnode refid="8150" relation="include">
+        </childnode>
+        <childnode refid="8166" relation="include">
+        </childnode>
+        <childnode refid="8167" relation="include">
+        </childnode>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8169" relation="include">
+        </childnode>
+        <childnode refid="8174" relation="include">
+        </childnode>
+        <childnode refid="8176" relation="include">
+        </childnode>
+        <childnode refid="8187" relation="include">
+        </childnode>
+        <childnode refid="8177" relation="include">
+        </childnode>
+        <childnode refid="8191" relation="include">
+        </childnode>
+        <childnode refid="8193" relation="include">
+        </childnode>
+        <childnode refid="8154" relation="include">
+        </childnode>
+        <childnode refid="8194" relation="include">
+        </childnode>
+        <childnode refid="8179" relation="include">
+        </childnode>
+        <childnode refid="8196" relation="include">
+        </childnode>
+        <childnode refid="8198" relation="include">
+        </childnode>
+        <childnode refid="8201" relation="include">
+        </childnode>
+        <childnode refid="8203" relation="include">
+        </childnode>
+        <childnode refid="8170" relation="include">
+        </childnode>
+        <childnode refid="8206" relation="include">
+        </childnode>
+        <childnode refid="8208" relation="include">
+        </childnode>
+        <childnode refid="8210" relation="include">
+        </childnode>
+        <childnode refid="8211" relation="include">
+        </childnode>
+        <childnode refid="8213" relation="include">
+        </childnode>
+        <childnode refid="8214" relation="include">
+        </childnode>
+        <childnode refid="8216" relation="include">
+        </childnode>
+        <childnode refid="8218" relation="include">
+        </childnode>
+        <childnode refid="8221" relation="include">
+        </childnode>
+        <childnode refid="8225" relation="include">
+        </childnode>
+        <childnode refid="8230" relation="include">
+        </childnode>
+        <childnode refid="8232" relation="include">
+        </childnode>
+        <childnode refid="8235" relation="include">
+        </childnode>
+        <childnode refid="8238" relation="include">
+        </childnode>
+        <childnode refid="8237" relation="include">
+        </childnode>
+        <childnode refid="8157" relation="include">
+        </childnode>
+        <childnode refid="8182" relation="include">
+        </childnode>
+        <childnode refid="8239" relation="include">
+        </childnode>
+        <childnode refid="8241" relation="include">
+        </childnode>
+        <childnode refid="8242" relation="include">
+        </childnode>
+        <childnode refid="8244" relation="include">
+        </childnode>
+        <childnode refid="8245" relation="include">
+        </childnode>
+        <childnode refid="8246" relation="include">
+        </childnode>
+        <childnode refid="8220" relation="include">
+        </childnode>
+        <childnode refid="8248" relation="include">
+        </childnode>
+        <childnode refid="8250" relation="include">
+        </childnode>
+        <childnode refid="8251" relation="include">
+        </childnode>
+        <childnode refid="8253" relation="include">
+        </childnode>
+        <childnode refid="8254" relation="include">
+        </childnode>
+        <childnode refid="8256" relation="include">
+        </childnode>
+        <childnode refid="8257" relation="include">
+        </childnode>
+        <childnode refid="8259" relation="include">
+        </childnode>
+        <childnode refid="8260" relation="include">
+        </childnode>
+        <childnode refid="8261" relation="include">
+        </childnode>
+        <childnode refid="8263" relation="include">
+        </childnode>
+        <childnode refid="8184" relation="include">
+        </childnode>
+        <childnode refid="8265" relation="include">
+        </childnode>
+        <childnode refid="8266" relation="include">
+        </childnode>
+        <childnode refid="8267" relation="include">
+        </childnode>
+        <childnode refid="8268" relation="include">
+        </childnode>
+        <childnode refid="8269" relation="include">
+        </childnode>
+        <childnode refid="8234" relation="include">
+        </childnode>
+        <childnode refid="8271" relation="include">
+        </childnode>
+        <childnode refid="8227" relation="include">
+        </childnode>
+        <childnode refid="8273" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+        <childnode refid="8274" relation="include">
+        </childnode>
+        <childnode refid="8276" relation="include">
+        </childnode>
+        <childnode refid="8278" relation="include">
+        </childnode>
+        <childnode refid="8280" relation="include">
+        </childnode>
+        <childnode refid="8281" relation="include">
+        </childnode>
+        <childnode refid="8223" relation="include">
+        </childnode>
+        <childnode refid="8282" relation="include">
+        </childnode>
+        <childnode refid="8283" relation="include">
+        </childnode>
+        <childnode refid="8284" relation="include">
+        </childnode>
+        <childnode refid="8285" relation="include">
+        </childnode>
+        <childnode refid="8287" relation="include">
+        </childnode>
+      </node>
+      <node id="8171">
+        <label>CompoundIndexQuery.cpp</label>
+      </node>
+      <node id="8049">
+        <label>DotWriter.h</label>
+        <childnode refid="8050" relation="include">
+        </childnode>
+      </node>
+      <node id="8166">
+        <label>HighlightQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8142" relation="include">
+        </childnode>
+        <childnode refid="8135" relation="include">
+        </childnode>
+      </node>
+      <node id="8256">
+        <label>InternalS3Query.h</label>
+        <childnode refid="8118" relation="include">
+        </childnode>
+        <childnode refid="8125" relation="include">
+        </childnode>
+      </node>
+      <node id="8197">
+        <label>TemplateParamListQuery.cpp</label>
+      </node>
+      <node id="8173">
+        <label>DoxCompoundKind.cpp</label>
+      </node>
+      <node id="8028">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="8259">
+        <label>InternalS4Query.h</label>
+        <childnode refid="8119" relation="include">
+        </childnode>
+        <childnode refid="8126" relation="include">
+        </childnode>
+      </node>
+      <node id="8056">
+        <label>MarkdownCommandWriter.h</label>
+        <childnode refid="8038" relation="include">
+        </childnode>
+        <childnode refid="8046" relation="include">
+        </childnode>
+      </node>
+      <node id="8235">
+        <label>DoxVersionNumber.h</label>
+        <childnode refid="8236" relation="include">
+        </childnode>
+        <childnode refid="8237" relation="include">
+        </childnode>
+      </node>
+      <node id="8043">
+        <label>DocumentWriter.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8044" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8015" relation="include">
+        </childnode>
+        <childnode refid="8016" relation="include">
+        </childnode>
+        <childnode refid="8017" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8021" relation="include">
+        </childnode>
+        <childnode refid="8022" relation="include">
+        </childnode>
+        <childnode refid="8023" relation="include">
+        </childnode>
+        <childnode refid="8024" relation="include">
+        </childnode>
+        <childnode refid="8025" relation="include">
+        </childnode>
+        <childnode refid="8026" relation="include">
+        </childnode>
+        <childnode refid="8027" relation="include">
+        </childnode>
+        <childnode refid="8028" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8249">
+        <label>IndexEntryQuery.cpp</label>
+      </node>
+      <node id="8055">
+        <label>HtmlCommandWriter.h</label>
+        <childnode refid="8034" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8046" relation="include">
+        </childnode>
+      </node>
+      <node id="8278">
+        <label>ParamQuery.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8279" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8190" relation="include">
+        </childnode>
+        <childnode refid="8197" relation="include">
+        </childnode>
+      </node>
+      <node id="8179">
+        <label>RefQuery.h</label>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8180" relation="include">
+        </childnode>
+      </node>
+      <node id="8250">
+        <label>InternalS1Query.h</label>
+        <childnode refid="8116" relation="include">
+        </childnode>
+        <childnode refid="8123" relation="include">
+        </childnode>
+      </node>
+      <node id="8032">
+        <label>SiteBuilder.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8034" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8037" relation="include">
+        </childnode>
+        <childnode refid="8038" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8040" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8169">
+        <label>DoxCompoundKind.h</label>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8170" relation="include">
+        </childnode>
+        <childnode refid="8173" relation="include">
+        </childnode>
+      </node>
+      <node id="8216">
+        <label>DoxCharRange.h</label>
+        <childnode refid="8217" relation="include">
+        </childnode>
+      </node>
+      <node id="8159">
+        <label>MemberDefQuery.h</label>
+        <childnode refid="8160" relation="include">
+        </childnode>
+        <childnode refid="8161" relation="include">
+        </childnode>
+        <childnode refid="8162" relation="include">
+        </childnode>
+        <childnode refid="8163" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8165" relation="include">
+        </childnode>
+      </node>
+      <node id="8130">
+        <label>EmptyQuery.h</label>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8131" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8253">
+        <label>InternalS2Query.h</label>
+        <childnode refid="8117" relation="include">
+        </childnode>
+        <childnode refid="8124" relation="include">
+        </childnode>
+      </node>
+      <node id="8226">
+        <label>DoxParamListKind.cpp</label>
+      </node>
+      <node id="8046">
+        <label>MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="8299">
+        <label>TypeFilter.cpp</label>
+      </node>
+      <node id="8202">
+        <label>DoxSectionKind.cpp</label>
+      </node>
+      <node id="8243">
+        <label>FormulaQuery.cpp</label>
+      </node>
+      <node id="8241">
+        <label>FileQuery.h</label>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8081">
+        <label>Generator.cpp</label>
+      </node>
+      <node id="8142">
+        <label>CodeLineQuery.cpp</label>
+      </node>
+      <node id="8288">
+        <label>XRefSectQuery.cpp</label>
+      </node>
+      <node id="8087">
+        <label>Console.cpp</label>
+      </node>
+      <node id="8236">
+        <label>DoxVersionNumber.cpp</label>
+      </node>
+      <node id="8144">
+        <label>DoxRefKind.cpp</label>
+      </node>
+      <node id="8308">
+        <label>Generator.h</label>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8071" relation="include">
+        </childnode>
+      </node>
+      <node id="8098">
+        <label>AnchorQuery.cpp</label>
+      </node>
+      <node id="8203">
+        <label>LocationQuery.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8204" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8205" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+      </node>
+      <node id="8114">
+        <label>EntryQuery.cpp</label>
+      </node>
+      <node id="8060">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+      </node>
+      <node id="8285">
+        <label>VarListEntryQuery.h</label>
+        <childnode refid="8286" relation="include">
+        </childnode>
+      </node>
+      <node id="8083">
+        <label>Token.h</label>
+        <childnode refid="8084" relation="include">
+        </childnode>
+      </node>
+      <node id="8019">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="8221">
+        <label>DoxParamDir.h</label>
+        <childnode refid="8222" relation="include">
+        </childnode>
+        <childnode refid="8223" relation="include">
+        </childnode>
+      </node>
+      <node id="8304">
+        <label>Object.h</label>
+        <childnode refid="8305" relation="include">
+        </childnode>
+      </node>
+      <node id="8294">
+        <label>Path.h</label>
+        <childnode refid="8058" relation="include">
+        </childnode>
+        <childnode refid="8059" relation="include">
+        </childnode>
+        <childnode refid="8188" relation="include">
+        </childnode>
+        <childnode refid="8111" relation="include">
+        </childnode>
+        <childnode refid="8212" relation="include">
+        </childnode>
+        <childnode refid="8060" relation="include">
+        </childnode>
+        <childnode refid="8160" relation="include">
+        </childnode>
+        <childnode refid="8161" relation="include">
+        </childnode>
+        <childnode refid="8240" relation="include">
+        </childnode>
+        <childnode refid="8051" relation="include">
+        </childnode>
+        <childnode refid="8279" relation="include">
+        </childnode>
+        <childnode refid="8061" relation="include">
+        </childnode>
+        <childnode refid="8048" relation="include">
+        </childnode>
+        <childnode refid="8062" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8032" relation="include">
+        </childnode>
+        <childnode refid="8162" relation="include">
+        </childnode>
+        <childnode refid="8163" relation="include">
+        </childnode>
+        <childnode refid="8199" relation="include">
+        </childnode>
+        <childnode refid="8228" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8252" relation="include">
+        </childnode>
+        <childnode refid="8255" relation="include">
+        </childnode>
+        <childnode refid="8258" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+        <childnode refid="8090" relation="include">
+        </childnode>
+        <childnode refid="8076" relation="include">
+        </childnode>
+        <childnode refid="8289" relation="include">
+        </childnode>
+        <childnode refid="8290" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+        <childnode refid="8072" relation="include">
+        </childnode>
+      </node>
+      <node id="8231">
+        <label>DoxRefQualifierKind.cpp</label>
+      </node>
+      <node id="8187">
+        <label>DescriptionQuery.h</label>
+        <childnode refid="8188" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8113" relation="include">
+        </childnode>
+        <childnode refid="8183" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8189" relation="include">
+        </childnode>
+        <childnode refid="8190" relation="include">
+        </childnode>
+        <childnode refid="8165" relation="include">
+        </childnode>
+      </node>
+      <node id="8075">
+        <label>ScannerBase.cpp</label>
+      </node>
+      <node id="8172">
+        <label>DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="8082">
+        <label>Group.cpp</label>
+      </node>
+      <node id="8190">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="8008">
+        <label>WriteUtils.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8015" relation="include">
+        </childnode>
+        <childnode refid="8016" relation="include">
+        </childnode>
+        <childnode refid="8017" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8021" relation="include">
+        </childnode>
+        <childnode refid="8022" relation="include">
+        </childnode>
+        <childnode refid="8023" relation="include">
+        </childnode>
+        <childnode refid="8024" relation="include">
+        </childnode>
+        <childnode refid="8025" relation="include">
+        </childnode>
+        <childnode refid="8026" relation="include">
+        </childnode>
+        <childnode refid="8027" relation="include">
+        </childnode>
+        <childnode refid="8028" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8298">
+        <label>DoxygenFilter.cpp</label>
+      </node>
+      <node id="8305">
+        <label>Group.h</label>
+        <childnode refid="8306" relation="include">
+        </childnode>
+        <childnode refid="8307" relation="include">
+        </childnode>
+        <childnode refid="8082" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+      </node>
+      <node id="8260">
+        <label>LanguageQuery.h</label>
+        <childnode refid="8120" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8062">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+      </node>
+      <node id="8307">
+        <label>Simple.h</label>
+        <childnode refid="8081" relation="include">
+        </childnode>
+        <childnode refid="8291" relation="include">
+        </childnode>
+      </node>
+      <node id="8090">
+        <label>ScannerBase.h</label>
+        <childnode refid="8074" relation="include">
+        </childnode>
+        <childnode refid="8091" relation="include">
+        </childnode>
+        <childnode refid="8075" relation="include">
+        </childnode>
+        <childnode refid="8093" relation="include">
+        </childnode>
+      </node>
+      <node id="8071">
+        <label>Main.cpp</label>
+      </node>
+      <node id="8120">
+        <label>LanguageQuery.cpp</label>
+      </node>
+      <node id="8155">
+        <label>IncQuery.cpp</label>
+      </node>
+      <node id="8145">
+        <label>ChildNodeQuery.h</label>
+        <childnode refid="8146" relation="include">
+        </childnode>
+        <childnode refid="8147" relation="include">
+        </childnode>
+      </node>
+      <node id="8229">
+        <label>ParamListQuery.cpp</label>
+      </node>
+      <node id="8289">
+        <label>Common.cpp</label>
+      </node>
+      <node id="8045">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8038" relation="include">
+        </childnode>
+        <childnode refid="8046" relation="include">
+        </childnode>
+      </node>
+      <node id="8182">
+        <label>EnumValueQuery.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8183" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+      </node>
+      <node id="8099">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="8086">
+        <label>Console.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8070" relation="include">
+        </childnode>
+        <childnode refid="8087" relation="include">
+        </childnode>
+        <childnode refid="8088" relation="include">
+        </childnode>
+        <childnode refid="8215" relation="include">
+        </childnode>
+        <childnode refid="8156" relation="include">
+        </childnode>
+        <childnode refid="8217" relation="include">
+        </childnode>
+        <childnode refid="8173" relation="include">
+        </childnode>
+        <childnode refid="8149" relation="include">
+        </childnode>
+        <childnode refid="8168" relation="include">
+        </childnode>
+        <childnode refid="8219" relation="include">
+        </childnode>
+        <childnode refid="8175" relation="include">
+        </childnode>
+        <childnode refid="8209" relation="include">
+        </childnode>
+        <childnode refid="8222" relation="include">
+        </childnode>
+        <childnode refid="8226" relation="include">
+        </childnode>
+        <childnode refid="8181" relation="include">
+        </childnode>
+        <childnode refid="8144" relation="include">
+        </childnode>
+        <childnode refid="8231" relation="include">
+        </childnode>
+        <childnode refid="8202" relation="include">
+        </childnode>
+        <childnode refid="8233" relation="include">
+        </childnode>
+        <childnode refid="8236" relation="include">
+        </childnode>
+        <childnode refid="8192" relation="include">
+        </childnode>
+        <childnode refid="8071" relation="include">
+        </childnode>
+        <childnode refid="8072" relation="include">
+        </childnode>
+      </node>
+      <node id="8156">
+        <label>DoxBool.cpp</label>
+      </node>
+      <node id="8100">
+        <label>FileQuery.cpp</label>
+      </node>
+      <node id="8094">
+        <label>ParseError.h</label>
+        <childnode refid="8095" relation="include">
+        </childnode>
+        <childnode refid="8074" relation="include">
+        </childnode>
+        <childnode refid="8075" relation="include">
+        </childnode>
+      </node>
+      <node id="8258">
+        <label>Section4Writer.h</label>
+        <childnode refid="8025" relation="include">
+        </childnode>
+        <childnode refid="8026" relation="include">
+        </childnode>
+      </node>
+      <node id="8157">
+        <label>EntryQuery.h</label>
+        <childnode refid="8114" relation="include">
+        </childnode>
+        <childnode refid="8158" relation="include">
+        </childnode>
+      </node>
+      <node id="8281">
+        <label>ParamNameListQuery.h</label>
+        <childnode refid="8021" relation="include">
+        </childnode>
+        <childnode refid="8189" relation="include">
+        </childnode>
+        <childnode refid="8224" relation="include">
+        </childnode>
+      </node>
+      <node id="8061">
+        <label>GenericPageWriter.h</label>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+      </node>
+      <node id="8134">
+        <label>RefTextQuery.h</label>
+        <childnode refid="8015" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8099" relation="include">
+        </childnode>
+        <childnode refid="8100" relation="include">
+        </childnode>
+        <childnode refid="8101" relation="include">
+        </childnode>
+        <childnode refid="8135" relation="include">
+        </childnode>
+        <childnode refid="8102" relation="include">
+        </childnode>
+        <childnode refid="8136" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8137" relation="include">
+        </childnode>
+        <childnode refid="8138" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8139" relation="include">
+        </childnode>
+        <childnode refid="8105" relation="include">
+        </childnode>
+        <childnode refid="8106" relation="include">
+        </childnode>
+        <childnode refid="8107" relation="include">
+        </childnode>
+      </node>
+      <node id="8184">
+        <label>MemberRefQuery.h</label>
+        <childnode refid="8185" relation="include">
+        </childnode>
+        <childnode refid="8186" relation="include">
+        </childnode>
+      </node>
+      <node id="8201">
+        <label>DoxSectionKind.h</label>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8199" relation="include">
+        </childnode>
+        <childnode refid="8198" relation="include">
+        </childnode>
+        <childnode refid="8202" relation="include">
+        </childnode>
+      </node>
+      <node id="8065">
+        <label>SourceFile.h</label>
+        <childnode refid="8064" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+      </node>
+      <node id="8152">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="8150">
+        <label>DoxBool.h</label>
+        <childnode refid="8141" relation="include">
+        </childnode>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8154" relation="include">
+        </childnode>
+        <childnode refid="8156" relation="include">
+        </childnode>
+        <childnode refid="8157" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8283">
+        <label>RowQuery.h</label>
+        <childnode refid="8158" relation="include">
+        </childnode>
+      </node>
+      <node id="8272">
+        <label>TocListQuery.cpp</label>
+      </node>
+      <node id="8217">
+        <label>DoxCharRange.cpp</label>
+      </node>
+      <node id="8204">
+        <label>LocationWriter.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8016" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+      </node>
+      <node id="8026">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="8030">
+        <label>Config.h</label>
+        <childnode refid="8031" relation="include">
+        </childnode>
+        <childnode refid="8032" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+      </node>
+      <node id="8192">
+        <label>DoxVirtualKind.cpp</label>
+      </node>
+      <node id="8054">
+        <label>SourceFile.cpp</label>
+      </node>
+      <node id="8240">
+        <label>LinkedTextWriter.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8015" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8022" relation="include">
+        </childnode>
+      </node>
+      <node id="8274">
+        <label>ReimplementQuery.h</label>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8275" relation="include">
+        </childnode>
+      </node>
+      <node id="8038">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="8292">
+        <label>FileSystem.h</label>
+        <childnode refid="8043" relation="include">
+        </childnode>
+        <childnode refid="8044" relation="include">
+        </childnode>
+        <childnode refid="8037" relation="include">
+        </childnode>
+        <childnode refid="8045" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+        <childnode refid="8069" relation="include">
+        </childnode>
+        <childnode refid="8073" relation="include">
+        </childnode>
+        <childnode refid="8074" relation="include">
+        </childnode>
+        <childnode refid="8090" relation="include">
+        </childnode>
+        <childnode refid="8076" relation="include">
+        </childnode>
+        <childnode refid="8293" relation="include">
+        </childnode>
+        <childnode refid="8081" relation="include">
+        </childnode>
+      </node>
+      <node id="8263">
+        <label>ListItemQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8121" relation="include">
+        </childnode>
+        <childnode refid="8264" relation="include">
+        </childnode>
+      </node>
+      <node id="8044">
+        <label>HtmlDocumentWriter.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8034" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8045" relation="include">
+        </childnode>
+      </node>
+      <node id="8195">
+        <label>GraphQuery.cpp</label>
+      </node>
+      <node id="8223">
+        <label>ParamNameQuery.h</label>
+        <childnode refid="8021" relation="include">
+        </childnode>
+        <childnode refid="8224" relation="include">
+        </childnode>
+        <childnode refid="8137" relation="include">
+        </childnode>
+      </node>
+      <node id="8188">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8021" relation="include">
+        </childnode>
+      </node>
+      <node id="8103">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="8300">
+        <label>Attribute.h</label>
+        <childnode refid="8078" relation="include">
+        </childnode>
+      </node>
+      <node id="8064">
+        <label>Location.h</label>
+        <childnode refid="8016" relation="include">
+        </childnode>
+      </node>
+      <node id="8209">
+        <label>DoxMemberKind.cpp</label>
+      </node>
+      <node id="8277">
+        <label>ReferenceQuery.cpp</label>
+      </node>
+      <node id="8025">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="8271">
+        <label>TocListQuery.h</label>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8272" relation="include">
+        </childnode>
+      </node>
+      <node id="8273">
+        <label>ParBlockQuery.h</label>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8122" relation="include">
+        </childnode>
+      </node>
+      <node id="8193">
+        <label>ListingQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8143" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8302">
+        <label>Writer.h</label>
+        <childnode refid="8303" relation="include">
+        </childnode>
+        <childnode refid="8304" relation="include">
+        </childnode>
+      </node>
+      <node id="8233">
+        <label>DoxSimpleSectKind.cpp</label>
+      </node>
+      <node id="8210">
+        <label>CopyQuery.h</label>
+        <childnode refid="8112" relation="include">
+        </childnode>
+      </node>
+      <node id="8016">
+        <label>LocationWriter.cpp</label>
+      </node>
+      <node id="8063">
+        <label>RepoFile.h</label>
+        <childnode refid="8064" relation="include">
+        </childnode>
+        <childnode refid="8040" relation="include">
+        </childnode>
+        <childnode refid="8054" relation="include">
+        </childnode>
+        <childnode refid="8065" relation="include">
+        </childnode>
+      </node>
+      <node id="8175">
+        <label>DoxLanguage.cpp</label>
+      </node>
+      <node id="8178">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="8290">
+        <label>Complex.cpp</label>
+      </node>
+      <node id="8248">
+        <label>IndexEntryQuery.h</label>
+        <childnode refid="8249" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8167">
+        <label>DoxHighlightClass.h</label>
+        <childnode refid="8166" relation="include">
+        </childnode>
+        <childnode refid="8168" relation="include">
+        </childnode>
+      </node>
+      <node id="8024">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="8183">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="8205">
+        <label>LocationQuery.cpp</label>
+      </node>
+      <node id="8101">
+        <label>HeadingQuery.cpp</label>
+      </node>
+      <node id="8208">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="8206" relation="include">
+        </childnode>
+        <childnode refid="8209" relation="include">
+        </childnode>
+        <childnode refid="8159" relation="include">
+        </childnode>
+      </node>
+      <node id="8206">
+        <label>MemberIndexQuery.h</label>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8171" relation="include">
+        </childnode>
+        <childnode refid="8207" relation="include">
+        </childnode>
+      </node>
+      <node id="8239">
+        <label>LinkedTextQuery.h</label>
+        <childnode refid="8012" relation="include">
+        </childnode>
+        <childnode refid="8240" relation="include">
+        </childnode>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8183" relation="include">
+        </childnode>
+        <childnode refid="8136" relation="include">
+        </childnode>
+        <childnode refid="8164" relation="include">
+        </childnode>
+        <childnode refid="8190" relation="include">
+        </childnode>
+      </node>
+      <node id="8121">
+        <label>ListItemQuery.cpp</label>
+      </node>
+      <node id="8078">
+        <label>Node.cpp</label>
+      </node>
+      <node id="8269">
+        <label>VariableListQuery.h</label>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8270" relation="include">
+        </childnode>
+      </node>
+      <node id="8126">
+        <label>Sect4Query.cpp</label>
+      </node>
+      <node id="8057">
+        <label>Reference.h</label>
+        <childnode refid="8058" relation="include">
+        </childnode>
+        <childnode refid="8059" relation="include">
+        </childnode>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8008" relation="include">
+        </childnode>
+        <childnode refid="8060" relation="include">
+        </childnode>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8061" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8048" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8062" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8051">
+        <label>Link.h</label>
+        <childnode refid="8013" relation="include">
+        </childnode>
+        <childnode refid="8035" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8037" relation="include">
+        </childnode>
+        <childnode refid="8018" relation="include">
+        </childnode>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8029" relation="include">
+        </childnode>
+      </node>
+      <node id="8023">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="8058">
+        <label>PageWriter.h</label>
+        <childnode refid="8059" relation="include">
+        </childnode>
+        <childnode refid="8060" relation="include">
+        </childnode>
+        <childnode refid="8061" relation="include">
+        </childnode>
+        <childnode refid="8062" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+      </node>
+      <node id="8021">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="8262">
+        <label>LinkQuery.cpp</label>
+      </node>
+      <node id="8077">
+        <label>String.cpp</label>
+      </node>
+      <node id="8136">
+        <label>LinkedTextQuery.cpp</label>
+      </node>
+      <node id="8257">
+        <label>Sect4Query.h</label>
+        <childnode refid="8258" relation="include">
+        </childnode>
+        <childnode refid="8118" relation="include">
+        </childnode>
+        <childnode refid="8125" relation="include">
+        </childnode>
+        <childnode refid="8126" relation="include">
+        </childnode>
+      </node>
+      <node id="8069">
+        <label>Parser.h</label>
+        <childnode refid="8033" relation="include">
+        </childnode>
+        <childnode refid="8070" relation="include">
+        </childnode>
+        <childnode refid="8071" relation="include">
+        </childnode>
+        <childnode refid="8072" relation="include">
+        </childnode>
+      </node>
+      <node id="8237">
+        <label>DoxygenQuery.h</label>
+        <childnode refid="8011" relation="include">
+        </childnode>
+        <childnode refid="8014" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8153" relation="include">
+        </childnode>
+      </node>
+      <node id="8079">
+        <label>Parser.cpp</label>
+      </node>
+      <node id="8296">
+        <label>TypeFilter.h</label>
+        <childnode refid="8297" relation="include">
+        </childnode>
+        <childnode refid="8298" relation="include">
+        </childnode>
+        <childnode refid="8299" relation="include">
+        </childnode>
+        <childnode refid="8079" relation="include">
+        </childnode>
+        <childnode refid="8092" relation="include">
+        </childnode>
+      </node>
+      <node id="8059">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="8009" relation="include">
+        </childnode>
+        <childnode refid="8036" relation="include">
+        </childnode>
+      </node>
+      <node id="8254">
+        <label>Sect3Query.h</label>
+        <childnode refid="8255" relation="include">
+        </childnode>
+        <childnode refid="8117" relation="include">
+        </childnode>
+        <childnode refid="8124" relation="include">
+        </childnode>
+        <childnode refid="8125" relation="include">
+        </childnode>
+      </node>
+      <node id="8212">
+        <label>Section1Writer.h</label>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8023" relation="include">
+        </childnode>
+      </node>
+      <node id="8106">
+        <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="8125">
+        <label>Sect3Query.cpp</label>
+      </node>
+      <node id="8247">
+        <label>SpQuery.cpp</label>
+      </node>
+      <node id="8228">
+        <label>ParameterListWriter.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8021" relation="include">
+        </childnode>
+      </node>
+      <node id="8218">
+        <label>DoxImageKind.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8219" relation="include">
+        </childnode>
+        <childnode refid="8220" relation="include">
+        </childnode>
+      </node>
+      <node id="8068">
+        <label>Option.h</label>
+        <childnode refid="8069" relation="include">
+        </childnode>
+      </node>
+      <node id="8074">
+        <label>ParserBase.cpp</label>
+      </node>
+      <node id="8034">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="8227">
+        <label>ParamListQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8228" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8229" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+      </node>
+      <node id="8140">
+        <label>DoxRefKind.h</label>
+        <childnode refid="8015" relation="include">
+        </childnode>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8134" relation="include">
+        </childnode>
+        <childnode refid="8141" relation="include">
+        </childnode>
+        <childnode refid="8144" relation="include">
+        </childnode>
+      </node>
+      <node id="8186">
+        <label>MemberRefQuery.cpp</label>
+      </node>
+      <node id="8139">
+        <label>RefTextQuery.cpp</label>
+      </node>
+      <node id="8048">
+        <label>IndexPageWriter.h</label>
+        <childnode refid="8036" relation="include">
+        </childnode>
+        <childnode refid="8041" relation="include">
+        </childnode>
+      </node>
+      <node id="8251">
+        <label>Sect2Query.h</label>
+        <childnode refid="8252" relation="include">
+        </childnode>
+        <childnode refid="8116" relation="include">
+        </childnode>
+        <childnode refid="8123" relation="include">
+        </childnode>
+        <childnode refid="8124" relation="include">
+        </childnode>
+      </node>
+      <node id="8143">
+        <label>ListingQuery.cpp</label>
+      </node>
+      <node id="8280">
+        <label>ParamListItemQuery.h</label>
+        <childnode refid="8021" relation="include">
+        </childnode>
+        <childnode refid="8189" relation="include">
+        </childnode>
+        <childnode refid="8229" relation="include">
+        </childnode>
+      </node>
+      <node id="8234">
+        <label>SimpleSectQuery.h</label>
+        <childnode refid="8020" relation="include">
+        </childnode>
+        <childnode refid="8103" relation="include">
+        </childnode>
+        <childnode refid="8104" relation="include">
+        </childnode>
+        <childnode refid="8127" relation="include">
+        </childnode>
+      </node>
+      <node id="8198">
+        <label>SectionDefQuery.h</label>
+        <childnode refid="8019" relation="include">
+        </childnode>
+        <childnode refid="8199" relation="include">
+        </childnode>
+        <childnode refid="8200" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8165" relation="include">
+        </childnode>
+      </node>
+      <node id="8162">
+        <label>MemberDefListingWriter.h</label>
+        <childnode refid="8017" relation="include">
+        </childnode>
+        <childnode refid="8027" relation="include">
+        </childnode>
+      </node>
+      <node id="8200">
+        <label>SectionDefWriter.h</label>
+        <childnode refid="8039" relation="include">
+        </childnode>
+        <childnode refid="8028" relation="include">
+        </childnode>
+      </node>
+      <node id="8211">
+        <label>Sect1Query.h</label>
+        <childnode refid="8010" relation="include">
+        </childnode>
+        <childnode refid="8212" relation="include">
+        </childnode>
+        <childnode refid="8023" relation="include">
+        </childnode>
+        <childnode refid="8112" relation="include">
+        </childnode>
+        <childnode refid="8113" relation="include">
+        </childnode>
+        <childnode refid="8115" relation="include">
+        </childnode>
+        <childnode refid="8123" relation="include">
+        </childnode>
+      </node>
+      <node id="8170">
+        <label>CompoundIndexQuery.h</label>
+        <childnode refid="8058" relation="include">
+        </childnode>
+        <childnode refid="8059" relation="include">
+        </childnode>
+        <childnode refid="8060" relation="include">
+        </childnode>
+        <childnode refid="8061" relation="include">
+        </childnode>
+        <childnode refid="8062" relation="include">
+        </childnode>
+        <childnode refid="8171" relation="include">
+        </childnode>
+        <childnode refid="8172" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMdDox_1_1StringUtils" prot="public">MdDox::StringUtils</innerclass>
+    <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;deque&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>=<sp/>std::string;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>=<sp/>std::deque&lt;std::string&gt;;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/>=<sp/>std::vector&lt;std::string&gt;;</highlight></codeline>
+<codeline lineno="50" refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member" tooltip="Structure to hold a key value string. ">StringMap</ref><sp/>=<sp/>std::unordered_map&lt;std::string,<sp/>std::string&gt;;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" kindref="member" tooltip="Declaration of an input/output string stream. ">StringStream</ref><sp/>=<sp/>std::stringstream;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" kindref="member" tooltip="Declaration of an input only string stream. ">InputStringStream</ref><sp/>=<sp/>std::istringstream;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>=<sp/>std::ostringstream;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" kindref="member" tooltip="Declaration of the input stream base class. ">IStream</ref><sp/>=<sp/>std::istream;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref><sp/>=<sp/>std::ostream;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" kindref="member" tooltip="Declaration of the input file stream class. ">InputFileStream</ref><sp/>=<sp/>std::ifstream;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>=<sp/>std::ofstream;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classMdDox_1_1StringUtils" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1StringUtils" kindref="compound" tooltip="Provides general string conversion utility routines. ">StringUtils</ref></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>separator);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a4e2a0d38a0435a6f041509d70b4c0cd7" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">splitRejectEmpty</ref>(<ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>separator);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>separator);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>separator);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" kindref="member" tooltip="Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomiz...">scramble</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>randomize=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1StringUtils_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" kindref="member" tooltip="Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomiz...">scramble</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>randomize<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a25d7c52c64b0071b83d11feee43ea0cb" kindref="member" tooltip="Scrambles and combines a contextually unique counter, time stamp, and a memory address. ">generate</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>counter,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>seed);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">trimWhiteSpace</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a87fc763d8ed23042621827d65de690aa" kindref="member" tooltip="Removes all occurrences of the supplied character from the left hand side of the string. ">trimL</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a84fd2c771eb5953236d6fee9acc6d8d6" kindref="member" tooltip="Removes all occurrences of the supplied character from the right hand side of the string...">trimR</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a7dd724d8a259c73e7f952d01b4f42548" kindref="member" tooltip="A combination of trimL and trimR. ">trim</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a182fe1efd809e486f6d93d53f573b92d" kindref="member">splitLine</ref>(<ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>swap<sp/>=<sp/></highlight><highlight class="charliteral">&apos;$&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" kindref="member">replaceAll</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>b);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1a0c6460ffd00b82ae4cd21ce37ea22a4e" kindref="member">toLower</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1StringUtils_1ab56d6cf09aedb16bd222016a02709fc8" kindref="member">toUpper</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1StringUtils_1a25b8d33edc11ae70f016f217cb7ae330" kindref="member">toLowerFirst</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1StringUtils_1a10a2d9d4209047792b39cc2330cf646a" kindref="member">toUpperFirst</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="214" refid="namespaceMdDox_1a0a58f178b85f56fe1d08c136ee981a23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a0a58f178b85f56fe1d08c136ee981a23" kindref="member">StreamMerge</ref>(<ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref>&amp;<sp/>dest,<sp/>Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>&lt;&lt;<sp/>oss.str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="222" refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/>Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/>oss.str();</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="230" refid="namespaceMdDox_1a7d54a855d1dfafa2f06b225dd346553f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Utils/String.h"/>
+  </compounddef>
+</doxygen>

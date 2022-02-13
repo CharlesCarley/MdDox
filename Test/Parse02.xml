@@ -1,0 +1,34 @@
+<doxygen>
+  <compounddef id="test">
+    <briefdescription>
+      <para>
+        A<br/>
+        <para>
+          <ref refid="G" kindref="foo">B</ref>
+          <sp/>
+          <br/>
+          <para>
+            <parameterlist kind="param">
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>N1</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>D1 D2 D3 D4</para>
+                </parameterdescription>
+              </parameteritem>
+              <parameteritem>
+                <parameternamelist>
+                  <parametername>N2</parametername>
+                </parameternamelist>
+                <parameterdescription>
+                  <para>D5 D6 D7 D8</para>
+                </parameterdescription>
+              </parameteritem>
+            </parameterlist>
+          </para>
+        </para>
+      </para>
+    </briefdescription>
+  </compounddef>
+</doxygen>

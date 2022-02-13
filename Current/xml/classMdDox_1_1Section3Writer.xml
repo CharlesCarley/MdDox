@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Section3Writer" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::Section3Writer</compoundname>
+    <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::Sect3QueryVisitor</basecompoundref>
+    <includes local="no">Source/MdDoxTree/Section3Writer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Section3Writer_1a0d6ab9acb5ec9ce4ed5d7d1144e55207" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::Section3Writer::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="34" column="1" bodyfile="Source/MdDoxTree/Section3Writer.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Section3Writer_1af8becb45becd010273614bbf42581494" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::Section3Writer::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="35" column="1" bodyfile="Source/MdDoxTree/Section3Writer.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Section3Writer_1a9399eda9ada926f6b64fca85f36688d5" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::Section3Writer::_out</definition>
+        <argsstring></argsstring>
+        <name>_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="36" column="1" bodyfile="Source/MdDoxTree/Section3Writer.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1Section3Writer_1a3e5dde6dc015c09f56cdfaf261d2ebe9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Section3Writer::visitedParagraph</definition>
+        <argsstring>(const Doxygen::ParaQuery &amp;query) override</argsstring>
+        <name>visitedParagraph</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1afb95032846ed99552245860c7315544e">visitedParagraph</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">Doxygen::ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParaQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="38" column="1" bodyfile="Source/MdDoxTree/Section3Writer.cpp" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Section3Writer_1a488ff28a70ea60ac8a9d8b699db246ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Section3Writer::visitedSect4</definition>
+        <argsstring>(const Doxygen::Sect4Query &amp;query) override</argsstring>
+        <name>visitedSect4</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ac70954427ff78404009791026b356cc9">visitedSect4</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1Sect4Query" kindref="compound">Doxygen::Sect4Query</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>sect4</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the Sect4Query class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="40" column="1" bodyfile="Source/MdDoxTree/Section3Writer.cpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Section3Writer_1a00ad1c234e55530ba4114e07efb2cd44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Section3Writer::Section3Writer</definition>
+        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
+        <name>Section3Writer</name>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="43" column="1" bodyfile="Source/MdDoxTree/Section3Writer.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Section3Writer_1abe1311fd9f73b388a55d72b9c1e76a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Section3Writer::write</definition>
+        <argsstring>(const Doxygen::Sect3Query &amp;sec)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1Sect3Query" kindref="compound">Doxygen::Sect3Query</ref> &amp;</type>
+          <declname>sec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Section3Writer.h" line="45" column="1" bodyfile="Source/MdDoxTree/Section3Writer.cpp" bodystart="36" bodyend="44"/>
+        <references refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea">MdDox::DocumentWriter::anchor</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a163d015a7a3de3811b29a53eda31b98b" compoundref="Sect3Query_8cpp" startline="60" endline="65">MdDox::Doxygen::Sect3Query::getId</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09">MdDox::DocumentWriter::beginSection</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Sect3Query_1adb8f9c39a2f3f1cecebf8cc2615d7723" compoundref="Sect3Query_8cpp" startline="67" endline="75">MdDox::Doxygen::Sect3Query::getTitle</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Sect3Query_1ac5031e9fdb86389ff7bb0c2eb9d1792d" compoundref="Sect3Query_8cpp" startline="31" endline="59">MdDox::Doxygen::Sect3Query::visit</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64">MdDox::DocumentWriter::endSection</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="601">
+        <label>MdDox::Section3Writer</label>
+        <link refid="classMdDox_1_1Section3Writer"/>
+        <childnode refid="602" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="602">
+        <label>MdDox::Doxygen::Visitors::Sect3QueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="603">
+        <label>MdDox::Section3Writer</label>
+        <link refid="classMdDox_1_1Section3Writer"/>
+        <childnode refid="604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="604">
+        <label>MdDox::Doxygen::Visitors::Sect3QueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/Section3Writer.h" line="32" column="1" bodyfile="Source/MdDoxTree/Section3Writer.h" bodystart="31" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Section3Writer_1a9399eda9ada926f6b64fca85f36688d5" prot="private" virt="non-virtual"><scope>MdDox::Section3Writer</scope><name>_out</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1af8becb45becd010273614bbf42581494" prot="private" virt="non-virtual"><scope>MdDox::Section3Writer</scope><name>_stream</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1a0d6ab9acb5ec9ce4ed5d7d1144e55207" prot="private" virt="non-virtual"><scope>MdDox::Section3Writer</scope><name>_writer</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1a00ad1c234e55530ba4114e07efb2cd44" prot="public" virt="non-virtual"><scope>MdDox::Section3Writer</scope><name>Section3Writer</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae3a50542cc3a9d428b8ece630a88bcfe" prot="public" virt="virtual"><scope>MdDox::Section3Writer</scope><name>visitedInternal</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1a3e5dde6dc015c09f56cdfaf261d2ebe9" prot="private" virt="virtual"><scope>MdDox::Section3Writer</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1a488ff28a70ea60ac8a9d8b699db246ce" prot="private" virt="virtual"><scope>MdDox::Section3Writer</scope><name>visitedSect4</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a7ea4c3dd8b45f8f223a8a0902d2d70ee" prot="public" virt="virtual"><scope>MdDox::Section3Writer</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1a9f32cbb32908967de1542b0e212d78aa" prot="public" virt="virtual"><scope>MdDox::Section3Writer</scope><name>visitedTitle</name></member>
+      <member refid="classMdDox_1_1Section3Writer_1abe1311fd9f73b388a55d72b9c1e76a16" prot="public" virt="non-virtual"><scope>MdDox::Section3Writer</scope><name>write</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor_1ae6d3f0cdcc82624d9e889c43437e24e0" prot="public" virt="virtual"><scope>MdDox::Section3Writer</scope><name>~Sect3QueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

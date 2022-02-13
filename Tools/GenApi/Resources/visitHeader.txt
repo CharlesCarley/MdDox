@@ -1,0 +1,14 @@
+    namespace Visitors
+    {
+        class ${className}Visitor
+        {
+        public:
+            virtual ~${className}Visitor() = default;
+
+            /**
+             * \brief Callback for every _text_node
+             */
+            virtual void visitedText(const String& ) {}
+${visitors}
+        };
+    }

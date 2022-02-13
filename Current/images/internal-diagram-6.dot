@@ -1,0 +1,141 @@
+
+digraph {
+    bgcolor    = none;
+    rankdir    = "TB";
+    layout     = dot;
+
+    node [shape=none fontname="Segoe UI" fontcolor="#828EA0FF" fontsize="11" ]
+    edge [arrowsize = 0.5 color="#EA3E53FF"]
+    
+    Site[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center"><font color="#AEB6C2FF"><b>Site</b></font></td></tr>
+            <tr><td align="left" port="IndexList">IndexList</td></tr>
+            <tr><td align="left" port="Config">Config</td></tr>
+        </table>
+    >];
+    {rank=min Site}
+
+
+    Site:Config->Config;
+    Config[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center"><font color="#AEB6C2FF"><b>Config</b></font></td></tr>
+            <tr><td align="left">Settings</td></tr>
+        </table>
+    >];
+
+    Site->IndexList:Index;
+    IndexList[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Index"><font color="#AEB6C2FF"><b>IndexList</b></font></td></tr>
+            <tr><td align="left">Id</td></tr>
+            <tr><td align="left" port="Fragment">Fragment</td></tr>
+        </table>
+    >];
+
+    {rank=same Site IndexList Fragment}
+
+    IndexList:Fragment->Fragment:Fragment;
+    Fragment[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Fragment"><font color="#AEB6C2FF"><b>Fragment</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td align="left">Title</td></tr>
+            <tr><td align="left">Brief</td></tr>
+            <tr><td align="left">Detail</td></tr>
+        </table>
+    >];
+
+    Fragment:Page->Page:Page;
+    Page[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Page"><font color="#AEB6C2FF"><b>Page</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td>
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center"><font color="#AEB6C2FF"><b>Type</b></font></td></tr>
+            <tr><td align="left" port="Generic">Generic</td></tr>
+            <tr><td align="left" port="Specs">Specs</td></tr>
+            <tr><td align="left" port="Module">Module</td></tr>
+            <tr><td align="left" port="Class">Class</td></tr>
+            <tr><td align="left" port="Directory">Directory</td></tr>
+            </table>
+            </td></tr>
+        </table>
+    >];
+
+    Page:Generic->Generic;
+    Generic[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Generic"><font color="#AEB6C2FF"><b>Generic</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+        </table>
+    >];
+
+    
+
+    {rank=same Generic Page}
+
+    Page:Module->Module;
+    Module[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Module"><font color="#AEB6C2FF"><b>Module</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td align="left">Functions</td></tr>
+            <tr><td align="left">Variables</td></tr>
+            <tr><td align="left">Aliases</td></tr>
+            <tr><td align="left">Enumerations</td></tr>
+            <tr><td align="left">Classes</td></tr>
+            <tr><td align="left">Modules</td></tr>
+        </table>
+    >];
+
+    Page:Class->Class;
+    Class[label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Class"><font color="#AEB6C2FF" ><b>Class</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td align="left">Base</td></tr>
+            <tr><td align="left">Derived</td></tr>
+            <tr><td align="left">
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+                <tr><td align="center"><b>Sections</b></td></tr>
+                <tr><td align="left">Functions</td></tr>
+                <tr><td align="left">Variables</td></tr>
+                <tr><td align="left">Aliases</td></tr>
+                <tr><td align="left">Enumerations</td></tr>
+                <tr><td align="left">Modules</td></tr>
+                <tr><td align="left">Classes</td></tr>
+            </table>
+            </td></tr>
+        </table>
+    >];
+
+
+    Page:Directory->Directory;
+    Directory[
+        label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Directory"><font color="#AEB6C2FF" ><b>Directory</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td align="left">Directories</td></tr>
+            <tr><td align="left">Files</td></tr>
+            <tr><td align="left">Stats</td></tr>
+        </table>
+    >];
+
+    Page:Specs->Specs;
+    Specs[
+        label=<
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#828EA010">
+            <tr><td align="center" port="Specs"><font color="#AEB6C2FF" ><b>Specs</b></font></td></tr>
+            <tr><td align="left">(Inherit)</td></tr>
+            <tr><td align="left">Files</td></tr>
+            <tr><td align="left">Directories</td></tr>
+            <tr><td align="left">Lines</td></tr>
+            <tr><td align="left">Classes</td></tr>
+            <tr><td align="left">Namespaces</td></tr>
+        </table>
+    >];
+}

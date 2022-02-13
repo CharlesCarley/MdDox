@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/InternalS2Query.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a9cca879917a4b7a70cdee6a351278d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::InternalS2QueryVisitor::~InternalS2QueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~InternalS2QueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="43" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a6c48f9da5f20a21b14009520c1ed34c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedSect3</definition>
+        <argsstring>(const Sect3Query &amp;query)</argsstring>
+        <name>visitedSect3</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1Sect3Query" kindref="compound">Sect3Query</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>sect3</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1Sect3Query" kindref="compound">Sect3Query</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="48" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/InternalS2Query.h" line="31" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="30" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a6c48f9da5f20a21b14009520c1ed34c9" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>visitedSect3</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>visitedText</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a9cca879917a4b7a70cdee6a351278d3b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>~InternalS2QueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+
+digraph {
+     bgcolor = none;
+     rankdir = "LR";
+     node [
+         shape     = none
+         fontname  = "Segoe UI"
+         fontcolor = "#828EA0FF"
+         fontsize  = "11"
+     ]
+     edge [
+         arrowsize = "0.5"
+         color     = "#EA3E53FF"
+     ]
+     SiteBuilder->Config;
+
+     {rank=same Config SiteBuilder}
+
+     SiteBuilder->buildFromXml
+     buildFromXml->Build
+     buildFromXml->WriteIndex
+     buildFromXml->Dispatch
+     Dispatch->BuildItem
+     Dispatch->WriteItem
+     SiteBuilder->ConvertGraphs
+}

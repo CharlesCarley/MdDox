@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1CommandLine_1_1Parser" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::CommandLine::Parser</compoundname>
+    <includes local="no">Source/Utils/CommandLine/Parser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1ac70f0c2508d48c69e7d2464e8201043a" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> * &gt;</type>
+        <definition>typedef std::unordered_map&lt;String, ParseOption*&gt; MdDox::CommandLine::Parser::Switches</definition>
+        <argsstring></argsstring>
+        <name>Switches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="40" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1acb40e289a0151bf925e9f0d4c2785ec1" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> * &gt;</type>
+        <definition>typedef std::vector&lt;ParseOption*&gt; MdDox::CommandLine::Parser::Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="41" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>typedef std::vector&lt;String&gt; MdDox::CommandLine::Parser::StringArray</definition>
+        <argsstring></argsstring>
+        <name>StringArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="42" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a72ff5102f6dffdb6093524fd83304422" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref></type>
+        <definition>Path MdDox::CommandLine::Parser::_programName</definition>
+        <argsstring></argsstring>
+        <name>_programName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="45" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1aeb057c4a0fd705df2915ced97aa4db42" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MdDox::CommandLine::Parser::_maxLongSwitch</definition>
+        <argsstring></argsstring>
+        <name>_maxLongSwitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="46" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1ab7df47ea565249a9d9ae6b907cec470b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MdDox::CommandLine::Parser::_required</definition>
+        <argsstring></argsstring>
+        <name>_required</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="47" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1acb888dba2a04a11985568b3820d5e22d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MdDox::CommandLine::Parser::_used</definition>
+        <argsstring></argsstring>
+        <name>_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="48" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a27b01cd3267cc4ed41d863ff3ebf1b18" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1Scanner" kindref="compound">Scanner</ref></type>
+        <definition>Scanner MdDox::CommandLine::Parser::_scanner</definition>
+        <argsstring></argsstring>
+        <name>_scanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="49" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a6e761abefa3e2ec3bc723b45364092c4" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ac70f0c2508d48c69e7d2464e8201043a" kindref="member">Switches</ref></type>
+        <definition>Switches MdDox::CommandLine::Parser::_switches</definition>
+        <argsstring></argsstring>
+        <name>_switches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="50" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a1a768497058891d7d2b1fcb1578e9949" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" kindref="member">StringArray</ref></type>
+        <definition>StringArray MdDox::CommandLine::Parser::_argumentList</definition>
+        <argsstring></argsstring>
+        <name>_argumentList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="51" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1abf709ecc42558785263ecdf7dcb2d9fc" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1acb40e289a0151bf925e9f0d4c2785ec1" kindref="member">Options</ref></type>
+        <definition>Options MdDox::CommandLine::Parser::_options</definition>
+        <argsstring></argsstring>
+        <name>_options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="52" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a7f088b86e02d53c921837eadd73e286a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::Parser::hasSwitch</definition>
+        <argsstring>(const String &amp;sw) const</argsstring>
+        <name>hasSwitch</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>sw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="54" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a42e1d6c203b0498a174daa07556e5f91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::Parser::initializeOption</definition>
+        <argsstring>(ParseOption *opt, const Switch &amp;sw)</argsstring>
+        <name>initializeOption</name>
+        <param>
+          <type><ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> *</type>
+          <declname>opt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref> &amp;</type>
+          <declname>sw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="56" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="321" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a1ad26535400686d5c36c584ed0b12267" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::Parser::initializeSwitches</definition>
+        <argsstring>(const Switch *switches, uint32_t count)</argsstring>
+        <name>initializeSwitches</name>
+        <param>
+          <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref> *</type>
+          <declname>switches</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="58" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="364" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a774642759b4423d67eaf4ddcb733caa5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MdDox::CommandLine::Parser::writeError</definition>
+        <argsstring>(const OutputStringStream &amp;stream) const</argsstring>
+        <name>writeError</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="60" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="394" bodyend="399"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1addc5031e697c8c0ffe149891eb4fd15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::CommandLine::Parser::Parser</definition>
+        <argsstring>()</argsstring>
+        <name>Parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="63" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a38e6169ec6b58f3d43ef844cfdf78094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::CommandLine::Parser::~Parser</definition>
+        <argsstring>()</argsstring>
+        <name>~Parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="64" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MdDox::CommandLine::Parser::parse</definition>
+        <argsstring>(int argc, char **argv, const Switch *switches, uint32_t count)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref> *</type>
+          <declname>switches</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to match the rules supplied in the switch specifications with the supplied argument vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="70" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="52" bodyend="176"/>
+        <references refid="classMdDox_1_1CommandLine_1_1Scanner_1ad3569d482516b31a861788ca480fb4cc" compoundref="Utils_2CommandLine_2Scanner_8cpp" startline="57" endline="60">MdDox::CommandLine::Scanner::clear</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Scanner_1a99d7af5a585f76229673d580ab09780e" compoundref="Utils_2CommandLine_2Scanner_8cpp" startline="62" endline="66">MdDox::CommandLine::Scanner::append</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Token_1abd4f5663daaf010fb3d3fdbf5922050d" compoundref="Utils_2CommandLine_2Token_8h" startline="60" endline="63">MdDox::CommandLine::Token::getType</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a1d6999ba00df0f8fe5044a5fe91e37ad" compoundref="Utils_2CommandLine_2Token_8h" startline="43">MdDox::CommandLine::TOK_EOS</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Scanner_1a25aa3ecb530e661d7302a48c616888af" compoundref="Utils_2CommandLine_2Scanner_8cpp" startline="68" endline="142">MdDox::CommandLine::Scanner::lex</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a594cda9fe8f31c481dfd70012adb9a2f" compoundref="Utils_2CommandLine_2Token_8h" startline="44">MdDox::CommandLine::TOK_ERROR</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" compoundref="Utils_2CommandLine_2Token_8h" startline="70" endline="73">MdDox::CommandLine::Token::getValue</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="257" endline="262">usage</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8adefa4c3792d7f2337acf3d6f3f799d9f" compoundref="Utils_2CommandLine_2Token_8h" startline="31">MdDox::CommandLine::TOK_SWITCH_SHORT</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a05a2d08c2b15bd0f35f3363e31945c2f" compoundref="Utils_2CommandLine_2Token_8h" startline="32">MdDox::CommandLine::TOK_SWITCH_LONG</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a5a7fb23fd3b79f2ac74709ccb7d88215" compoundref="Utils_2CommandLine_2Token_8h" startline="33">MdDox::CommandLine::TOK_NEXT</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" compoundref="Option_8h" startline="137" endline="140">MdDox::CommandLine::ParseOption::makePresent</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" compoundref="Option_8h" startline="122" endline="125">MdDox::CommandLine::ParseOption::isOptional</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abfefe3c88f484cd4ce61e53fea8ca3a2" compoundref="Option_8h" startline="132" endline="135">MdDox::CommandLine::ParseOption::getArgCount</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8acb940d3c384d587411d9e062100b194a" compoundref="Utils_2CommandLine_2Token_8h" startline="40">MdDox::CommandLine::TOK_IDENTIFIER</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" compoundref="Option_8h" startline="158" endline="162">MdDox::CommandLine::ParseOption::setValue</references>
+        <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a7b900831ba61e82ad856c6824525ee2d" compoundref="Utils_2CommandLine_2Token_8h" startline="34">MdDox::CommandLine::TOK_OPTION</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a792daed8b9aa007697cce9f3e242b485" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::Parser::logInput</definition>
+        <argsstring>() const</argsstring>
+        <name>logInput</name>
+        <briefdescription>
+<para>Logs the supplied input to stdout. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="75" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="178" bodyend="183"/>
+        <references refid="classMdDox_1_1CommandLine_1_1Scanner_1a6a2097b64f77cf77601ed7eb2cb1b21f" compoundref="Utils_2CommandLine_2Scanner_8h" startline="45" endline="48">MdDox::CommandLine::Scanner::getValue</references>
+        <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1adf2a9e1325ac03721a8aeb0a8393280d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" kindref="member">StringArray</ref> &amp;</type>
+        <definition>StringArray&amp; MdDox::CommandLine::Parser::arguments</definition>
+        <argsstring>()</argsstring>
+        <name>arguments</name>
+        <briefdescription>
+<para>Returns the list of arguments that were not handled with switches. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="80" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a9a5d1bfc608d3f4456d74f3646def83d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::CommandLine::Parser::programPath</definition>
+        <argsstring>() const</argsstring>
+        <name>programPath</name>
+        <briefdescription>
+<para>Returns the path of the program that was supplied to main via argv[0] </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="88" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::CommandLine::Parser::programName</definition>
+        <argsstring>() const</argsstring>
+        <name>programName</name>
+        <briefdescription>
+<para>Returns only the file name portion of the program that was supplied to main via argv[0] </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="96" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a60e1ab514e10484c50322b9a6b49052b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::CommandLine::Parser::programDirectory</definition>
+        <argsstring>() const</argsstring>
+        <name>programDirectory</name>
+        <briefdescription>
+<para>Extracts the directory from the supplied path to main. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The directory name of the program from argv[0]</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="102" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a8bf42d630de22b3fd7791e01fcfebd29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::Parser::isPresent</definition>
+        <argsstring>(const uint32_t &amp;enumId) const</argsstring>
+        <name>isPresent</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>enumId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enumId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The switch id</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if it is supplied on the command line false otherwise</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="112" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a489a1a67ce19d2c25dc1abf6bc6b8511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> *</type>
+        <definition>ParseOption * MdDox::CommandLine::Parser::option</definition>
+        <argsstring>(const uint32_t &amp;enumId)</argsstring>
+        <name>option</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>enumId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enumId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The switch id</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the option at the enumId or null if the id is out of bounds</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="116" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="207" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a368d1613dba6bef0583ba4b7097ffedc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t MdDox::CommandLine::Parser::int32</definition>
+        <argsstring>(const uint32_t &amp;enumId, size_t idx=0, int32_t defaultValue=-1, int32_t base=10) const</argsstring>
+        <name>int32</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>enumId</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>defaultValue</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="118" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="214" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a4d741ceb543aef0179ae192bd8de1eac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::CommandLine::Parser::int64</definition>
+        <argsstring>(const uint32_t &amp;enumId, size_t idx=0, int64_t defaultValue=-1, int32_t base=10) const</argsstring>
+        <name>int64</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>enumId</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>defaultValue</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="123" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="227" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::CommandLine::Parser::string</definition>
+        <argsstring>(const uint32_t &amp;enumId, size_t idx=0, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
+        <name>string</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>enumId</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>defaultValue</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="128" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="240" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::Parser::usage</definition>
+        <argsstring>() const</argsstring>
+        <name>usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="132" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="257" bodyend="262"/>
+        <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a38d11e8c1d31ebb3e29a80b18e760112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::Parser::usage</definition>
+        <argsstring>(String &amp;dest) const</argsstring>
+        <name>usage</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="134" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="264" bodyend="319"/>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="185" endline="188">programName</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1aef08c879912d8fec0a1b6043f7e31907" compoundref="Option_8h" startline="46">MdDox::CommandLine::Switch::shortSwitch</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab5ccb589304a934849750177c8c8a251" compoundref="Option_8h" startline="53">MdDox::CommandLine::Switch::longSwitch</references>
+        <references refid="classMdDox_1_1Char_1a5b40b89b3198fcfa306a09047d3803e0" compoundref="Char_8cpp" startline="36" endline="39">MdDox::Char::length</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab157d592a8dea1468146f550084a16c9" compoundref="Option_8h" startline="58">MdDox::CommandLine::Switch::description</references>
+        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a91273d026f345bd8ead3aa624b1f0769" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::CommandLine::Parser::currentDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>currentDirectory</name>
+        <briefdescription>
+<para>Returns the current working directory for this process. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current working directory.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Parser.h" line="108" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="195" bodyend="198"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Is a basic command line parser that matches arguments supplied by main with predetermined rules. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Utils/CommandLine/Parser.h" line="38" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="37" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a1a768497058891d7d2b1fcb1578e9949" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_argumentList</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1aeb057c4a0fd705df2915ced97aa4db42" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_maxLongSwitch</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1abf709ecc42558785263ecdf7dcb2d9fc" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_options</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a72ff5102f6dffdb6093524fd83304422" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_programName</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1ab7df47ea565249a9d9ae6b907cec470b" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_required</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a27b01cd3267cc4ed41d863ff3ebf1b18" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_scanner</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a6e761abefa3e2ec3bc723b45364092c4" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_switches</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1acb888dba2a04a11985568b3820d5e22d" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_used</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1adf2a9e1325ac03721a8aeb0a8393280d" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>arguments</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a91273d026f345bd8ead3aa624b1f0769" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>currentDirectory</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a7f088b86e02d53c921837eadd73e286a" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>hasSwitch</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a42e1d6c203b0498a174daa07556e5f91" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>initializeOption</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a1ad26535400686d5c36c584ed0b12267" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>initializeSwitches</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a368d1613dba6bef0583ba4b7097ffedc" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>int32</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a4d741ceb543aef0179ae192bd8de1eac" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>int64</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a8bf42d630de22b3fd7791e01fcfebd29" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>isPresent</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a792daed8b9aa007697cce9f3e242b485" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>logInput</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a489a1a67ce19d2c25dc1abf6bc6b8511" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>option</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1acb40e289a0151bf925e9f0d4c2785ec1" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>Options</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>parse</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1addc5031e697c8c0ffe149891eb4fd15f" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>Parser</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a60e1ab514e10484c50322b9a6b49052b" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>programDirectory</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>programName</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a9a5d1bfc608d3f4456d74f3646def83d" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>programPath</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>string</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>StringArray</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1ac70f0c2508d48c69e7d2464e8201043a" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>Switches</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>usage</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a38d11e8c1d31ebb3e29a80b18e760112" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>usage</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a774642759b4423d67eaf4ddcb733caa5" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>writeError</name></member>
+      <member refid="classMdDox_1_1CommandLine_1_1Parser_1a38e6169ec6b58f3d43ef844cfdf78094" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>~Parser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

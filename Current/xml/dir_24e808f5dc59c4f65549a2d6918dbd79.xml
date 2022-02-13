@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir">
+    <compoundname>TypeFilter</compoundname>
+    <innerfile refid="DoxygenFilter_8cpp">DoxygenFilter.cpp</innerfile>
+    <innerfile refid="DoxygenFilter_8h">DoxygenFilter.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/TypeFilter/"/>
+  </compounddef>
+</doxygen>

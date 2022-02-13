@@ -1,0 +1,6 @@
+        /**
+         * \brief Provides access to the <b>${searchTerm}</b> tag's inner text.
+         *
+         * \return The <b>${searchTerm}'s</b> text or the default value if the node is invalid. 
+         */
+        const String& get${name}(const String& notFound="") const;

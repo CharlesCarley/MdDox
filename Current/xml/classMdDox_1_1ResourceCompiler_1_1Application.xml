@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1ResourceCompiler_1_1Application" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::ResourceCompiler::Application</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1ResourceCompiler_1_1Application_1ab5317d11475fc3428bc888bd8b1544e6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::ResourceCompiler::Application::_namespace</definition>
+        <argsstring></argsstring>
+        <name>_namespace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="98" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1ResourceCompiler_1_1Application_1a5be808815cd940ac31e428abdc969481" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::ResourceCompiler::Application::_output</definition>
+        <argsstring></argsstring>
+        <name>_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="99" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1ResourceCompiler_1_1Application_1a44ce939a52aea6f5ce6fa8649ee57bd3" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
+        <definition>StringArray MdDox::ResourceCompiler::Application::_input</definition>
+        <argsstring></argsstring>
+        <name>_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="100" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1ResourceCompiler_1_1Application_1ad0fd5d0b309f8689edaee51092f48247" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1ResourceCompiler_1a07848dc58b0b0b065d8227b4bd9c03ae" kindref="member">ResourceMap</ref></type>
+        <definition>ResourceMap MdDox::ResourceCompiler::Application::_resources</definition>
+        <argsstring></argsstring>
+        <name>_resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="101" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1a5dade6fcd6cd3d41cd28212ee14ce43d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::ResourceCompiler::Application::Application</definition>
+        <argsstring>()=default</argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1ae55c72720b3cc35bc13cd45408da6f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::ResourceCompiler::Application::parse</definition>
+        <argsstring>(const int argc, char **argv)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="106" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="106" bodyend="119"/>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="52" endline="176">MdDox::CommandLine::Parser::parse</references>
+        <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="98">MdDox::Switches</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="240" endline="255">MdDox::CommandLine::Parser::string</references>
+        <references refid="namespaceMdDox_1_1ResourceCompiler_1ab60d339791bbbcc1c9265cf2f8588fd5a0d3f15ee9a8003dfe779dacebb39f777" compoundref="Tools_2ResourceCompiler_2Main_8cpp" startline="47">MdDox::ResourceCompiler::OptOutputFileName</references>
+        <references refid="namespaceMdDox_1_1ResourceCompiler_1ab60d339791bbbcc1c9265cf2f8588fd5a39c64723a942e5a9a7c878ad55ed630e" compoundref="Tools_2ResourceCompiler_2Main_8cpp" startline="56">MdDox::ResourceCompiler::OptNameSpace</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1adf2a9e1325ac03721a8aeb0a8393280d" compoundref="Utils_2CommandLine_2Parser_8h" startline="80" endline="83">MdDox::CommandLine::Parser::arguments</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1a5bfceacbc602c827abef315cd2914c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ResourceCompiler::Application::loadInput</definition>
+        <argsstring>(const String &amp;input)</argsstring>
+        <name>loadInput</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="121" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="121" bodyend="163"/>
+        <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1a30ea0e05f3dad705df3a7912eb96226e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ResourceCompiler::Application::writeHeader</definition>
+        <argsstring>(OStream &amp;out)</argsstring>
+        <name>writeHeader</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="165" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="165" bodyend="206"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1a8328a1756c2ecfca9af8cb8920bc3f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ResourceCompiler::Application::writeSource</definition>
+        <argsstring>(OStream &amp;out)</argsstring>
+        <name>writeSource</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="208" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="208" bodyend="254"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ResourceCompiler_1_1Application_1a1011164b4a2035903ca3a07bcd560685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MdDox::ResourceCompiler::Application::go</definition>
+        <argsstring>()</argsstring>
+        <name>go</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="256" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="256" bodyend="275"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Entry point for the <ref refid="namespaceMdDox_1_1ResourceCompiler" kindref="compound">ResourceCompiler</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/ResourceCompiler/Main.cpp" line="96" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="95" bodyend="276"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a44ce939a52aea6f5ce6fa8649ee57bd3" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_input</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1ab5317d11475fc3428bc888bd8b1544e6" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_namespace</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a5be808815cd940ac31e428abdc969481" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_output</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1ad0fd5d0b309f8689edaee51092f48247" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_resources</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a5dade6fcd6cd3d41cd28212ee14ce43d" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>Application</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a1011164b4a2035903ca3a07bcd560685" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>go</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a5bfceacbc602c827abef315cd2914c8b" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>loadInput</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1ae55c72720b3cc35bc13cd45408da6f6b" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>parse</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a30ea0e05f3dad705df3a7912eb96226e" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>writeHeader</name></member>
+      <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a8328a1756c2ecfca9af8cb8920bc3f44" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>writeSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

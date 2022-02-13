@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="FileQuery_8cpp" kind="file" language="C++">
+    <compoundname>FileQuery.cpp</compoundname>
+    <includes refid="FileQuery_8h" local="yes">FileQuery.h</includes>
+    <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
+    <includes refid="EmptyQuery_8h" local="yes">EmptyQuery.h</includes>
+    <includes refid="UrlLinkQuery_8h" local="yes">UrlLinkQuery.h</includes>
+    <includes refid="MarkupQuery_8h" local="yes">MarkupQuery.h</includes>
+    <includes refid="AnchorQuery_8h" local="yes">AnchorQuery.h</includes>
+    <includes refid="RefTextQuery_8h" local="yes">RefTextQuery.h</includes>
+    <includes refid="ParaQuery_8h" local="yes">ParaQuery.h</includes>
+    <incdepgraph>
+      <node id="3123">
+        <label>functional</label>
+      </node>
+      <node id="3132">
+        <label>Utils/Exception.h</label>
+        <childnode refid="3133" relation="include">
+        </childnode>
+        <childnode refid="3134" relation="include">
+        </childnode>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3136" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+      </node>
+      <node id="3125">
+        <label>Utils/String.h</label>
+        <childnode refid="3126" relation="include">
+        </childnode>
+        <childnode refid="3127" relation="include">
+        </childnode>
+        <childnode refid="3128" relation="include">
+        </childnode>
+        <childnode refid="3129" relation="include">
+        </childnode>
+        <childnode refid="3124" relation="include">
+        </childnode>
+        <childnode refid="3130" relation="include">
+        </childnode>
+      </node>
+      <node id="3142">
+        <label>MarkupQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3139">
+        <label>cstdint</label>
+      </node>
+      <node id="3141">
+        <label>UrlLinkQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3146">
+        <label>ParaQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3134">
+        <label>stdexcept</label>
+      </node>
+      <node id="3143">
+        <label>AnchorQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3129">
+        <label>string</label>
+      </node>
+      <node id="3131">
+        <label>Xml/Node.h</label>
+        <childnode refid="3123" relation="include">
+        </childnode>
+        <childnode refid="3124" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+      </node>
+      <node id="3137">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="3138" relation="include">
+        </childnode>
+      </node>
+      <node id="3133">
+        <label>exception</label>
+      </node>
+      <node id="3127">
+        <label>fstream</label>
+      </node>
+      <node id="3122">
+        <label>Doxygen.h</label>
+        <childnode refid="3123" relation="include">
+        </childnode>
+        <childnode refid="3124" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+        <childnode refid="3131" relation="include">
+        </childnode>
+        <childnode refid="3132" relation="include">
+        </childnode>
+      </node>
+      <node id="3140">
+        <label>EmptyQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3121">
+        <label>FileQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+      <node id="3130">
+        <label>vector</label>
+      </node>
+      <node id="3135">
+        <label>utility</label>
+      </node>
+      <node id="3128">
+        <label>sstream</label>
+      </node>
+      <node id="3136">
+        <label>Utils/Console.h</label>
+        <childnode refid="3125" relation="include">
+        </childnode>
+      </node>
+      <node id="3120">
+        <label>FileQuery.cpp</label>
+        <link refid="FileQuery_8cpp"/>
+        <childnode refid="3121" relation="include">
+        </childnode>
+        <childnode refid="3137" relation="include">
+        </childnode>
+        <childnode refid="3140" relation="include">
+        </childnode>
+        <childnode refid="3141" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+        <childnode refid="3143" relation="include">
+        </childnode>
+        <childnode refid="3144" relation="include">
+        </childnode>
+        <childnode refid="3146" relation="include">
+        </childnode>
+      </node>
+      <node id="3144">
+        <label>RefTextQuery.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+        <childnode refid="3145" relation="include">
+        </childnode>
+      </node>
+      <node id="3126">
+        <label>deque</label>
+      </node>
+      <node id="3124">
+        <label>unordered_map</label>
+      </node>
+      <node id="3138">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="3139" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+      </node>
+      <node id="3145">
+        <label>DoxRefKind.h</label>
+        <childnode refid="3122" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FileQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EmptyQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UrlLinkQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MarkupQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AnchorQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;RefTextQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ParaQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34" refid="classMdDox_1_1Doxygen_1_1FileQuery_1ad7f6a6d3896927373438c9fa935a7a5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1ad7f6a6d3896927373438c9fa935a7a5a" kindref="member">FileQuery::visit</ref>(<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor" kindref="compound">Visitors::FileQueryVisitor</ref><sp/>*visitor)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="35"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_node<sp/>||<sp/>!visitor)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member" tooltip="Defines the child node storage array container. ">Xml::NodeArray</ref>&amp;<sp/>objects<sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" kindref="member" tooltip="Provides access to the array of child nodes attached to this node. ">children</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>obj<sp/>:<sp/>objects)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(obj-&gt;getTypeCode())<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" kindref="member">DoxTextNode</ref>:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obj-&gt;hasText())</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a590e390f2629229799645353d0eb74f2" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(obj-&gt;text());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>105:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ae10eb37fe054d97e5b0d0f545f14b02e" kindref="member" tooltip="Called when the element ulink is found. ">visitedULink</ref>(<ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound" tooltip="Implements the docURLLink scaffolding. ">UrlLinkQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ab571f8e8065db70d76b6741d549aa56e" kindref="member" tooltip="Called when the element bold is found. ">visitedBold</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>29:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ad222cfbe01ef273a4d404435843280de" kindref="member" tooltip="Called when the element emphasis is found. ">visitedEmphasis</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>16:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1acb20ef738281a525d274ee684ba93054" kindref="member" tooltip="Called when the element computeroutput is found. ">visitedComputerOutput</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ae9cd11cd772e4ded4efb0fd6789e5dbf" kindref="member" tooltip="Called when the element center is found. ">visitedCenter</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>96:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1adce1f867adfcb9a0c67bcab06f355ade" kindref="member" tooltip="Called when the element small is found. ">visitedSmall</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a664de6cdd85c1dfd07e7af0fc18262f6" kindref="member" tooltip="Called when the element anchor is found. ">visitedAnchor</ref>(<ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>82:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ac46bc04cff47ff5a402a6f82035597f4" kindref="member" tooltip="Called when the element ref is found. ">visitedRef</ref>(<ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>89:</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a1d2acf478f3df022cb686ff0601f4f04" kindref="member" tooltip="Called when the element sect is found. ">visitedSect</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>85:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ac83af78c69eec1a257826c8f7c4e86dc" kindref="member" tooltip="Called when the element registered is found. ">visitedRegistered</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>68:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a1249a6c16d9f7606c7f1819a77aae468" kindref="member" tooltip="Called when the element para is found. ">visitedParagraph</ref>(<ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>77:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a27121953040cf627df052f833e751a2e" kindref="member" tooltip="Called when the element part is found. ">visitedPart</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>81:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1ac14e58c9310ccc554d0c3b957202fe68" kindref="member" tooltip="Called when the element prop is found. ">visitedProp</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>56:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1a0b8346be9ce2e222c869f494a209b4d2" kindref="member" tooltip="Called when the element lang is found. ">visitedLang</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>24:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor_1afcc77de9b89e035d580ba87f688fee0a" kindref="member" tooltip="Called when the element dot is found. ">visitedDot</ref>(obj-&gt;text());</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa319c257837e3723223b096b61f1fcea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa319c257837e3723223b096b61f1fcea" kindref="member" tooltip="Provides access to the name attribute. ">FileQuery::getName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="97"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/>notFound);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a52c2f65e9fe788c7f015e3dd4561a224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a52c2f65e9fe788c7f015e3dd4561a224" kindref="member" tooltip="Provides access to the dot tag&amp;#39;s inner text. ">FileQuery::getDot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="104"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(24);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" kindref="member" tooltip="Provides access to plan text content associated with this node. ">text</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a57ace44cade40fe585151f940f41a37f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8e54b7663ad97da5984fa698fce1ef07" kindref="member" tooltip="Provides access to the ulink attribute. ">FileQuery::getULink</ref>(<ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound" tooltip="Implements the docURLLink scaffolding. ">UrlLinkQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="114"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(105);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound" tooltip="Implements the docURLLink scaffolding. ">UrlLinkQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8e54b7663ad97da5984fa698fce1ef07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound" tooltip="Implements the docURLLink scaffolding. ">UrlLinkQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8e54b7663ad97da5984fa698fce1ef07" kindref="member" tooltip="Provides access to the ulink attribute. ">FileQuery::getULink</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="125"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound" tooltip="Implements the docURLLink scaffolding. ">UrlLinkQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8e54b7663ad97da5984fa698fce1ef07" kindref="member" tooltip="Provides access to the ulink attribute. ">getULink</ref>(dest);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae169f8f88fcf6c26ebb55d885ac3f3ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a4de1462934ce8796845b912953eb5a5c" kindref="member" tooltip="Provides access to the bold attribute. ">FileQuery::getBold</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="132"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(6);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a4de1462934ce8796845b912953eb5a5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a4de1462934ce8796845b912953eb5a5c" kindref="member" tooltip="Provides access to the bold attribute. ">FileQuery::getBold</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="143"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a4de1462934ce8796845b912953eb5a5c" kindref="member" tooltip="Provides access to the bold attribute. ">getBold</ref>(dest);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aebf4df4054574a43a6eacce80c2dcae0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9108397f7ec0348be1675a20f5326be7" kindref="member" tooltip="Provides access to the emphasis attribute. ">FileQuery::getEmphasis</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="150"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(29);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9108397f7ec0348be1675a20f5326be7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9108397f7ec0348be1675a20f5326be7" kindref="member" tooltip="Provides access to the emphasis attribute. ">FileQuery::getEmphasis</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="161"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9108397f7ec0348be1675a20f5326be7" kindref="member" tooltip="Provides access to the emphasis attribute. ">getEmphasis</ref>(dest);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a981d57754fda125f75dfe3a11a0be579" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a1d7e6bcfb45cb0d68c804a3cb9b538fd" kindref="member" tooltip="Provides access to the computeroutput attribute. ">FileQuery::getComputerOutput</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="168"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(16);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a1d7e6bcfb45cb0d68c804a3cb9b538fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a1d7e6bcfb45cb0d68c804a3cb9b538fd" kindref="member" tooltip="Provides access to the computeroutput attribute. ">FileQuery::getComputerOutput</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="179"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a1d7e6bcfb45cb0d68c804a3cb9b538fd" kindref="member" tooltip="Provides access to the computeroutput attribute. ">getComputerOutput</ref>(dest);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9103459598d16b53f2781bd45691c097" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1acb0836f86d77c64a1f247c75ee147bbd" kindref="member" tooltip="Provides access to the center attribute. ">FileQuery::getCenter</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="186"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(9);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="classMdDox_1_1Doxygen_1_1FileQuery_1acb0836f86d77c64a1f247c75ee147bbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1acb0836f86d77c64a1f247c75ee147bbd" kindref="member" tooltip="Provides access to the center attribute. ">FileQuery::getCenter</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="197"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1acb0836f86d77c64a1f247c75ee147bbd" kindref="member" tooltip="Provides access to the center attribute. ">getCenter</ref>(dest);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a40f5a0cb4363e01e9a480851e788d7ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6baa3f4ec87c5bc6956d7ac8b9cf1c56" kindref="member" tooltip="Provides access to the small attribute. ">FileQuery::getSmall</ref>(<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="204"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(96);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6baa3f4ec87c5bc6956d7ac8b9cf1c56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6baa3f4ec87c5bc6956d7ac8b9cf1c56" kindref="member" tooltip="Provides access to the small attribute. ">FileQuery::getSmall</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="215"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound" tooltip="Implements the docMarkupType scaffolding. ">MarkupQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6baa3f4ec87c5bc6956d7ac8b9cf1c56" kindref="member" tooltip="Provides access to the small attribute. ">getSmall</ref>(dest);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aef79cdf1ca303266d184bf578c771051" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a46c50afe5b8995ec717b9a81d6dddba6" kindref="member" tooltip="Provides access to the anchor attribute. ">FileQuery::getAnchor</ref>(<ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="222"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(1);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a46c50afe5b8995ec717b9a81d6dddba6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a46c50afe5b8995ec717b9a81d6dddba6" kindref="member" tooltip="Provides access to the anchor attribute. ">FileQuery::getAnchor</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="233"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a46c50afe5b8995ec717b9a81d6dddba6" kindref="member" tooltip="Provides access to the anchor attribute. ">getAnchor</ref>(dest);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aea4f182b7913fe4d253de38619081baf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a915ff602bf9f03ff203a198c07ed1d96" kindref="member" tooltip="Provides access to the ref attribute. ">FileQuery::getRef</ref>(<ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="240"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(82);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a915ff602bf9f03ff203a198c07ed1d96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a915ff602bf9f03ff203a198c07ed1d96" kindref="member" tooltip="Provides access to the ref attribute. ">FileQuery::getRef</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="251"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a915ff602bf9f03ff203a198c07ed1d96" kindref="member" tooltip="Provides access to the ref attribute. ">getRef</ref>(dest);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8136470d736a17e168a8a54288697da9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa16ad5d5c4f69a1e6b5e65ef474bfa55" kindref="member" tooltip="Provides access to the sect attribute. ">FileQuery::getSect</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="258"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(89);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa16ad5d5c4f69a1e6b5e65ef474bfa55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa16ad5d5c4f69a1e6b5e65ef474bfa55" kindref="member" tooltip="Provides access to the sect attribute. ">FileQuery::getSect</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="269"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa16ad5d5c4f69a1e6b5e65ef474bfa55" kindref="member" tooltip="Provides access to the sect attribute. ">getSect</ref>(dest);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a5d22e5e22914b81d1761b7e101fbed87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1afaa7aa1dad7fc2ebc2ae1fa0cb086c91" kindref="member" tooltip="Provides access to the registered attribute. ">FileQuery::getRegistered</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="276"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(85);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="classMdDox_1_1Doxygen_1_1FileQuery_1afaa7aa1dad7fc2ebc2ae1fa0cb086c91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1afaa7aa1dad7fc2ebc2ae1fa0cb086c91" kindref="member" tooltip="Provides access to the registered attribute. ">FileQuery::getRegistered</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="287"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1afaa7aa1dad7fc2ebc2ae1fa0cb086c91" kindref="member" tooltip="Provides access to the registered attribute. ">getRegistered</ref>(dest);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="classMdDox_1_1Doxygen_1_1FileQuery_1ac72bef1f1b27bcf5ad9e917ef57612c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a0fb9f4b271572d78612c2392b64db647" kindref="member" tooltip="Provides access to the para attribute. ">FileQuery::getParagraph</ref>(<ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="294"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(68);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a0fb9f4b271572d78612c2392b64db647" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a0fb9f4b271572d78612c2392b64db647" kindref="member" tooltip="Provides access to the para attribute. ">FileQuery::getParagraph</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="305"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a0fb9f4b271572d78612c2392b64db647" kindref="member" tooltip="Provides access to the para attribute. ">getParagraph</ref>(dest);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a9029e99dc9b5bf94963750b77e4cda3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a192c6784bf188111d1295058b0dfb464" kindref="member" tooltip="Provides access to the part attribute. ">FileQuery::getPart</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="312"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(77);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a192c6784bf188111d1295058b0dfb464" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a192c6784bf188111d1295058b0dfb464" kindref="member" tooltip="Provides access to the part attribute. ">FileQuery::getPart</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="323"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a192c6784bf188111d1295058b0dfb464" kindref="member" tooltip="Provides access to the part attribute. ">getPart</ref>(dest);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae0e30c775052a7564a492e96b84f822b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6e84df224683cb593044d8d119a42cdb" kindref="member" tooltip="Provides access to the prop attribute. ">FileQuery::getProp</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="330"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(81);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6e84df224683cb593044d8d119a42cdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6e84df224683cb593044d8d119a42cdb" kindref="member" tooltip="Provides access to the prop attribute. ">FileQuery::getProp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="341"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6e84df224683cb593044d8d119a42cdb" kindref="member" tooltip="Provides access to the prop attribute. ">getProp</ref>(dest);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae42a79dfec1e34136eb7f265b3a14c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa7bf5bc24fd97194fa9a5fcda3b0b8b9" kindref="member" tooltip="Provides access to the lang attribute. ">FileQuery::getLang</ref>(<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="348"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(56);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref>(<ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa7bf5bc24fd97194fa9a5fcda3b0b8b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa7bf5bc24fd97194fa9a5fcda3b0b8b9" kindref="member" tooltip="Provides access to the lang attribute. ">FileQuery::getLang</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="359"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound" tooltip="Implements the docEmptyType scaffolding. ">EmptyQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1aa7bf5bc24fd97194fa9a5fcda3b0b8b9" kindref="member" tooltip="Provides access to the lang attribute. ">getLang</ref>(dest);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a3605393e28c9ee94be1e24d1f20d0af4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a3605393e28c9ee94be1e24d1f20d0af4" kindref="member" tooltip="Provides access to the node&amp;#39;s inner text. ">FileQuery::text</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;def)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="368"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_node<sp/>?<sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" kindref="member" tooltip="Provides access to plan text content associated with this node. ">text</ref>()<sp/>:<sp/>def;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="372" refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6d7d5c93ab33eb28d1d87b0297e71c2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6d7d5c93ab33eb28d1d87b0297e71c2d" kindref="member" tooltip="Sorts the nodes in the query based on priority of type. ">FileQuery::sort</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">SortMap</ref>&amp;<sp/>childOrder)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="373"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_node)<sp/>{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_node-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" kindref="member">sort</ref>(</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[childOrder](<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*a,<sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>b){</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>gives<sp/>unmapped<sp/>sections<sp/>a<sp/>higher<sp/>index<sp/>so<sp/>that</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>they<sp/>are<sp/>pushed<sp/>to<sp/>the<sp/>end.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>va<sp/>=<sp/>100000;</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vb<sp/>=<sp/>100000;</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SortMap::const_iterator<sp/>findA<sp/>=<sp/>childOrder.find((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)a-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" kindref="member" tooltip="Provides access to any type code associated with the node. ">getTypeCode</ref>());</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(findA<sp/>!=<sp/>childOrder.end())</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va<sp/>=<sp/>findA-&gt;second;</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SortMap::const_iterator<sp/>findB<sp/>=<sp/>childOrder.find((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)b-&gt;<ref refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" kindref="member" tooltip="Provides access to any type code associated with the node. ">getTypeCode</ref>());</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(findB<sp/>!=<sp/>childOrder.end())</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vb<sp/>=<sp/>findB-&gt;second;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sort<sp/>less</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>va<sp/>&lt;<sp/>vb;</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/FileQuery.cpp"/>
+  </compounddef>
+</doxygen>

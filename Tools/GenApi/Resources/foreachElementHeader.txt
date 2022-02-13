@@ -1,0 +1,4 @@
+        /**
+         * \brief Invokes the supplied callback on <b>${searchTerm}</b> elements.
+         */
+        void foreach${name}(const ${type}Function& invoke) const;

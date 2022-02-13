@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespaceMdDox_1_1Doxygen_1_1Visitors" kind="namespace" language="C++">
+    <compoundname>MdDox::Doxygen::Visitors</compoundname>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor" prot="public">MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CaptionQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CodeLineQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundIndexQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CopyQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DoxygenQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor" prot="public">MdDox::Doxygen::Visitors::EntryQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor" prot="public">MdDox::Doxygen::Visitors::EnumValueQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1FileQueryVisitor" prot="public">MdDox::Doxygen::Visitors::FileQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor" prot="public">MdDox::Doxygen::Visitors::GraphQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor" prot="public">MdDox::Doxygen::Visitors::HeadingQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HighlightQueryVisitor" prot="public">MdDox::Doxygen::Visitors::HighlightQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ImageQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalQueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS1QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS1QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS2QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS3QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS3QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS4QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LanguageQueryVisitor" prot="public">MdDox::Doxygen::Visitors::LanguageQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListingQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListItemQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListOfAllMembersQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor" prot="public">MdDox::Doxygen::Visitors::MarkupQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1NodeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::NodeQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamListQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamNameListQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamNameQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamTypeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParaQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParBlockQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1RowQueryVisitor" prot="public">MdDox::Doxygen::Visitors::RowQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect1QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect2QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect3QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect4QueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SectionDefQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TableQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TableQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TemplateParamListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TemplateParamListQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TitleQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TitleQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TocItemQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TocListQueryVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor" prot="public">MdDox::Doxygen::Visitors::UrlLinkQueryVisitor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/BlockQuoteQuery.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1DoxImageKind" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxImageKind</compoundname>
+    <includes local="no">Tools/Doxygen/DoxImageKind.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxImageKind_1a3f9dbedc3ecced5cd670164796b78e14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6" kindref="member">DoxImageKindEnum</ref></type>
+        <definition>DoxImageKindEnum MdDox::Doxygen::DoxImageKind::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxImageKind.h" line="63" column="1" bodyfile="Tools/Doxygen/DoxImageKind.cpp" bodystart="30" bodyend="39"/>
+        <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a115343b5e42cb9f67028a7cadb709199" compoundref="DoxImageKind_8h" startline="49">MdDox::Doxygen::DIK_HTML</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a776d6b285e4ee4aba9b2e709a6a23bdd" compoundref="DoxImageKind_8h" startline="53">MdDox::Doxygen::DIK_LATEX</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a5554e1244e2d9e39daf44f4edf992284" compoundref="DoxImageKind_8h" startline="57">MdDox::Doxygen::DIK_RTF</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a63b1d9ac7883071b8d05b4a2861ec7c0" compoundref="DoxImageKind_8h" startline="45">MdDox::Doxygen::DIK_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxImageKind.h" line="61" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="60" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1DoxImageKind_1a3f9dbedc3ecced5cd670164796b78e14" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxImageKind</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

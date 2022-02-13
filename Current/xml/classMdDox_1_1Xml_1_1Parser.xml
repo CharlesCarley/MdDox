@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Xml_1_1Parser" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::Xml::Parser</compoundname>
+    <basecompoundref refid="classMdDox_1_1ParserBase" prot="public" virt="non-virtual">MdDox::ParserBase</basecompoundref>
+    <includes local="no">Source/Xml/Parser.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1acbc5e5ac7a7c9bf774fb11df9f2182a1" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" kindref="member">StringCache</ref></type>
+        <definition>StringCache MdDox::Xml::Parser::_labels</definition>
+        <argsstring></argsstring>
+        <name>_labels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="121" column="1" bodyfile="Source/Xml/Parser.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1a8c8a55e48d62397c1b38e3c736316171" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node* MdDox::Xml::Parser::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="122" column="1" bodyfile="Source/Xml/Parser.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1afde26565d43fb1eeb72a95028351ff70" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1_1Xml_1a642d5079d25ebeb0618bf168bea03f17" kindref="member">NodeStack</ref></type>
+        <definition>NodeStack MdDox::Xml::Parser::_stack</definition>
+        <argsstring></argsstring>
+        <name>_stack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="123" column="1" bodyfile="Source/Xml/Parser.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1ae8f8a0a808bded1f497d5a5daa997061" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref></type>
+        <definition>TypeFilterMap MdDox::Xml::Parser::_filter</definition>
+        <argsstring></argsstring>
+        <name>_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="124" column="1" bodyfile="Source/Xml/Parser.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a30e57acd6ad20a321818d83d3b52a465" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::parseImpl</definition>
+        <argsstring>(IStream &amp;input) override</argsstring>
+        <name>parseImpl</name>
+        <reimplements refid="classMdDox_1_1ParserBase_1a5404ff42a2123418470cb05d4dfed7ef">parseImpl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" kindref="member">IStream</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Implements the actual parse loop. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream to read from. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="131" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="341" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1adbc7b2e81049dbc50d276a24f0c6b55e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::writeImpl</definition>
+        <argsstring>(OStream &amp;output, int format=0) override</argsstring>
+        <name>writeImpl</name>
+        <reimplements refid="classMdDox_1_1ParserBase_1a1314b474cbdbc362d47dcf241a517222">writeImpl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Implements a write method to write the node tree to file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provides a custom format argument to pass down to the implementation. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="138" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="367" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1acbd30a8a4a818bd4c91d582bbb792022" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleAttributeList</definition>
+        <argsstring>()</argsstring>
+        <name>ruleAttributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="140" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="127" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a014417adb1e7747a33592a554eca041c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>ruleAttribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="142" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="145" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ac1cd32ee5c88d45203045f07848c4805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleObject</definition>
+        <argsstring>()</argsstring>
+        <name>ruleObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="144" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="306" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a1acf90cdb63ec33ca8317e1eb2e4416e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleStartTag</definition>
+        <argsstring>()</argsstring>
+        <name>ruleStartTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="146" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="204" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a8c2c37cbbd7ca0025f4aa60adb06219c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleContent</definition>
+        <argsstring>()</argsstring>
+        <name>ruleContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="148" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="246" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a5b764186988b953ea67169d99ae4f673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleEndTag</definition>
+        <argsstring>()</argsstring>
+        <name>ruleEndTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="150" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="269" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a91084c368850d513d76794e50c18427b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleXmlRoot</definition>
+        <argsstring>()</argsstring>
+        <name>ruleXmlRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="152" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="173" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aefe6d6b3ca82ac19c975afd53b51087d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleObjectList</definition>
+        <argsstring>()</argsstring>
+        <name>ruleObjectList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="154" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="320" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad942766c4eca0ec622d50f6568b2b336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Parser::createTag</definition>
+        <argsstring>(const String &amp;name)</argsstring>
+        <name>createTag</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="156" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a3a83b5ff3f9a6e9257dfd671f604cf7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::reduceRule</definition>
+        <argsstring>()</argsstring>
+        <name>reduceRule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="158" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="89" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad1864441af85d97d13e3a4cfdf843a28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::dropRule</definition>
+        <argsstring>()</argsstring>
+        <name>dropRule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="160" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="117" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afafe60ffe9140b8525ea320ffc76fc11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
+        <definition>Node &amp; MdDox::Xml::Parser::top</definition>
+        <argsstring>()</argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="162" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a98dee9f1e397676429379b4f37f4a102" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::parseErrorMessageImpl</definition>
+        <argsstring>(String &amp;dest, const String &amp;message) override</argsstring>
+        <name>parseErrorMessageImpl</name>
+        <reimplements refid="classMdDox_1_1ParserBase_1a02bc2a2a593910851baa7ceabd40a2d7">parseErrorMessageImpl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="164" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="51" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a9daa7a3adeb058debf469223be26bb43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Parser::Parser</definition>
+        <argsstring>()</argsstring>
+        <name>Parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="167" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="31" bodyend="35"/>
+        <references refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" compoundref="ParserBase_8h" startline="42">MdDox::ParserBase::_scanner</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aba334ae34e18febdf133855df6b357c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Parser::~Parser</definition>
+        <argsstring>() override</argsstring>
+        <name>~Parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="168" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="37" bodyend="44"/>
+        <references refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" compoundref="ParserBase_8h" startline="42">MdDox::ParserBase::_scanner</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::applyFilter</definition>
+        <argsstring>(const TypeFilter *, size_t filterSize)</argsstring>
+        <name>applyFilter</name>
+        <param>
+          <type>const <ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref> *</type>
+          <defname>filter</defname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>filterSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="170" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="46" bodyend="49"/>
+        <references refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" compoundref="TypeFilter_8cpp" startline="27" endline="35">MdDox::makeTypeFilter</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Parser::root</definition>
+        <argsstring>() const</argsstring>
+        <name>root</name>
+        <briefdescription>
+<para>Provides access to the root of the node tree. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="174" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="82" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classMdDox_1_1Xml_1_1Parser" kindref="compound">Parser</ref> is the XML based implementation of the ParseBase base class. </para>    </briefdescription>
+    <detaileddescription>
+<para>It&apos;s primary responsibility is to manage the <ref refid="classMdDox_1_1Xml_1_1Scanner" kindref="compound">Scanner</ref> and build the <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> tree.</para><para>It uses the following grammar to define an XML document.</para><para><programlisting filename=".txt"><codeline><highlight class="normal">&lt;Document&gt;<sp/>::=<sp/><sp/>&lt;XmlRoot&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>&lt;ObjectList&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;XmlRoot&gt;<sp/>::=<sp/></highlight><highlight class="stringliteral">&apos;&lt;?xml&apos;</highlight><highlight class="normal"><sp/>&lt;AttributeList&gt;<sp/></highlight><highlight class="stringliteral">&apos;?&gt;&apos;</highlight><highlight class="normal"><sp/>&lt;Object&gt;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;ObjectList&gt;<sp/>::=<sp/>&lt;Object&gt;<sp/>&lt;ObjectList&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>&lt;Object&gt;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;Content&gt;<sp/>::=<sp/>&lt;ObjectList&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>&lt;Text&gt;<sp/>&lt;Content&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;Object&gt;<sp/>::=<sp/>&lt;StartObject&gt;<sp/><sp/>&lt;Content&gt;<sp/>&lt;EndObject&gt;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;StartObject&gt;<sp/><sp/>::=<sp/></highlight><highlight class="charliteral">&apos;&lt;&apos;</highlight><highlight class="normal"><sp/>Identifier<sp/>&lt;AttributeList&gt;<sp/></highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/></highlight><highlight class="charliteral">&apos;&lt;&apos;</highlight><highlight class="normal"><sp/>Identifier<sp/>&lt;AttributeList&gt;<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;EndObject&gt;<sp/><sp/><sp/><sp/>::=<sp/></highlight><highlight class="charliteral">&apos;&lt;&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal"><sp/>Identifier<sp/></highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;AttributeList&gt;<sp/>::=<sp/>&lt;Attribute&gt;<sp/>&lt;AttributeList&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">&lt;Attribute&gt;<sp/>::=<sp/><sp/>&lt;AttributeName&gt;<sp/></highlight><highlight class="charliteral">&apos;=&apos;</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref></highlight></codeline>
+<codeline><highlight class="normal">&lt;AttributeName&gt;<sp/>::=<sp/>Identifier</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Identifier<sp/></highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal"><sp/>Identifier</highlight></codeline>
+<codeline><highlight class="normal">&lt;Text&gt;<sp/>::=<sp/>Content</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Identifier</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="641">
+        <label>MdDox::Xml::Parser</label>
+        <link refid="classMdDox_1_1Xml_1_1Parser"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>MdDox::ParserBase</label>
+        <link refid="classMdDox_1_1ParserBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="649">
+        <label>MdDox::ScannerBase</label>
+        <link refid="classMdDox_1_1ScannerBase"/>
+        <childnode refid="650" relation="usage">
+          <edgelabel>_stringTable</edgelabel>
+        </childnode>
+        <childnode refid="651" relation="usage">
+          <edgelabel>_intTable</edgelabel>
+        </childnode>
+        <childnode refid="652" relation="usage">
+          <edgelabel>_line</edgelabel>
+        </childnode>
+        <childnode refid="647" relation="usage">
+          <edgelabel>_file</edgelabel>
+        </childnode>
+        <childnode refid="653" relation="usage">
+          <edgelabel>_stream</edgelabel>
+        </childnode>
+      </node>
+      <node id="652">
+        <label>size_t</label>
+      </node>
+      <node id="653">
+        <label>IStream *</label>
+      </node>
+      <node id="646">
+        <label>int32_t</label>
+      </node>
+      <node id="648">
+        <label>string</label>
+      </node>
+      <node id="645">
+        <label>vector&lt; TokenBase &gt;</label>
+      </node>
+      <node id="651">
+        <label>MdDox::IndexCache&lt; int &gt;</label>
+        <link refid="classMdDox_1_1IndexCache"/>
+      </node>
+      <node id="650">
+        <label>MdDox::IndexCache&lt; String &gt;</label>
+        <link refid="classMdDox_1_1IndexCache"/>
+      </node>
+      <node id="643">
+        <label>MdDox::Xml::Parser</label>
+        <link refid="classMdDox_1_1Xml_1_1Parser"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>MdDox::ParserBase</label>
+        <link refid="classMdDox_1_1ParserBase"/>
+        <childnode refid="645" relation="usage">
+          <edgelabel>_tokens</edgelabel>
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>_cursor</edgelabel>
+        </childnode>
+        <childnode refid="647" relation="usage">
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="648" relation="usage">
+          <edgelabel>_file</edgelabel>
+        </childnode>
+        <childnode refid="649" relation="usage">
+          <edgelabel>_scanner</edgelabel>
+        </childnode>
+      </node>
+      <node id="647">
+        <label>MdDox::PathUtil</label>
+        <link refid="classMdDox_1_1PathUtil"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Xml/Parser.h" line="119" column="1" bodyfile="Source/Xml/Parser.h" bodystart="118" bodyend="175"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1ParserBase_1abb5519919fc923246a9f1920fb2ba9c7" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_cursor</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_file</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a107eaa72f369cbc2c57f443a800f1217" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_filePath</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1ae8f8a0a808bded1f497d5a5daa997061" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_filter</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1acbc5e5ac7a7c9bf774fb11df9f2182a1" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_labels</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a8c8a55e48d62397c1b38e3c736316171" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_root</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_scanner</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1afde26565d43fb1eeb72a95028351ff70" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_stack</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a42fbee3a9242a5258e95e9ab385e9e5a" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_tokens</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a6956fda4c66dbc07218db8042445e179" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>advanceCursor</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>applyFilter</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1ad942766c4eca0ec622d50f6568b2b336" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>createTag</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1ad1864441af85d97d13e3a4cfdf843a28" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>dropRule</name></member>
+      <member refid="classMdDox_1_1ParserBase_1ad734d784406cf4f771ea2a49e812c653" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>filename</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a5f2b7f9f1caaf55cd7e44e0e3dd6b0a8" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>getToken</name></member>
+      <member refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>parse</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a884796f223c9d1b9057608f92a9af001" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>parse</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a13e425882d79abc83dba96ab48d1dce1" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>parseError</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a98dee9f1e397676429379b4f37f4a102" prot="private" virt="virtual"><scope>MdDox::Xml::Parser</scope><name>parseErrorMessageImpl</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a30e57acd6ad20a321818d83d3b52a465" prot="private" virt="virtual"><scope>MdDox::Xml::Parser</scope><name>parseImpl</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a9daa7a3adeb058debf469223be26bb43" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>Parser</name></member>
+      <member refid="classMdDox_1_1ParserBase_1aebb2025156d05505a546823d7ba001b7" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ParserBase</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a615ff06f3d6d887d2848a4760124909a" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>readToken</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a3a83b5ff3f9a6e9257dfd671f604cf7d" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>reduceRule</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>root</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a014417adb1e7747a33592a554eca041c" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleAttribute</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1acbd30a8a4a818bd4c91d582bbb792022" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleAttributeList</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a8c2c37cbbd7ca0025f4aa60adb06219c" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleContent</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a5b764186988b953ea67169d99ae4f673" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleEndTag</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1ac1cd32ee5c88d45203045f07848c4805" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleObject</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1aefe6d6b3ca82ac19c975afd53b51087d" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleObjectList</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a1acf90cdb63ec33ca8317e1eb2e4416e" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleStartTag</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1a91084c368850d513d76794e50c18427b" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>ruleXmlRoot</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a94883c47ca05b4a4e7cce0ca6a3113aa" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>Tokens</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1afafe60ffe9140b8525ea320ffc76fc11" prot="private" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>top</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a6d6c1f0ad6c720d3ef28e1cc5a5fb0fd" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>write</name></member>
+      <member refid="classMdDox_1_1ParserBase_1abbe1d457527272c0cf2c4ab4376b9b11" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>write</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1adbc7b2e81049dbc50d276a24f0c6b55e" prot="private" virt="virtual"><scope>MdDox::Xml::Parser</scope><name>writeImpl</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Parser_1aba334ae34e18febdf133855df6b357c8" prot="public" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>~Parser</name></member>
+      <member refid="classMdDox_1_1ParserBase_1a249b185c5ebf2037d80b9945761f4cbf" prot="public" virt="virtual"><scope>MdDox::Xml::Parser</scope><name>~ParserBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

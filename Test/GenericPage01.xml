@@ -1,0 +1,103 @@
+<doxygen>
+  <compounddef id="GenericPage01"
+               kind="page">
+    <compoundname>Notes</compoundname>
+    <briefdescription>
+      <para>
+        Is a tool to transform <bold>Doxygen</bold> XML output into <bold>GitHub</bold> embedded documentation.
+      </para>
+    </briefdescription>
+    <detaileddescription>
+      <para>
+        Is a tool to transform <bold>Doxygen</bold> XML output into <bold>GitHub</bold> embedded documentation.The embedded content serves the same purpose as a static HTML site linked to GitHub. It allows cross-linking source files to regions in the current repository.
+      </para>
+      <sect1 id="index_1Topics">
+        <title>Topics</title>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                <ref refid="Design"
+                     kindref="compound">Design tests</ref>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <ref refid="Image"
+                     kindref="compound">Image handling</ref>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <ref refid="Commands"
+                     kindref="compound">Commands</ref>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <ref refid="Html"
+                     kindref="compound">Style Sheet</ref>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <ref refid="Notes"
+                     kindref="compound">Notes</ref>
+              </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </sect1>
+    </detaileddescription>
+    <!--<briefdescription>
+      <para>This is a brief description.</para>
+    </briefdescription>
+    <detaileddescription>
+      <sect1>
+        <title>ABC</title>
+        <para>
+          Para #1 This is a <bold>detailed</bold> description.
+        </para>
+        <para>
+          Para #2 This is a <emphasis>detailed</emphasis> description.
+        </para>
+        <para>
+          Para #3 This is a <computeroutput>detailed</computeroutput> description.
+        </para>
+        <para>
+          Para #1 This is a <bold>detailed</bold> description. Para #2 This is a <emphasis>detailed</emphasis> description. Para #2 This is a <computeroutput>detailed</computeroutput> description. <emphasis>Para #4 This is a detailed description.</emphasis>
+        </para>
+        <sect2>
+          <title>DEF</title>
+          <para>
+            This is a block of text that is nested inside a 
+            <computeroutput>para</computeroutput> tag that is inside
+            a <computeroutput>sect1</computeroutput> tag, that is also inside 
+            a <computeroutput>sect2</computeroutput> tag.
+          </para>
+          <sect3>
+            <title>HIJ</title>
+            <para>
+              This is a block of text that is nested inside a
+              <computeroutput>para</computeroutput> tag that is inside
+              a <computeroutput>sect1</computeroutput> tag, that is also inside
+              a <computeroutput>sect2</computeroutput> tag, that is also inside
+              a <computeroutput>sect3</computeroutput> tag.
+            </para>
+          <sect4>
+            <title>KLM</title>
+            <para>
+              This is a block of text that is nested inside a
+              <computeroutput>para</computeroutput> tag that is inside
+              a <computeroutput>sect1</computeroutput> tag, that is also inside
+              a <computeroutput>sect2</computeroutput> tag, that is also inside
+              a <computeroutput>sect3</computeroutput> tag, that is also inside
+              a <computeroutput>sect4</computeroutput> tag.
+            </para>
+          </sect4>
+          </sect3>
+        </sect2>
+      </sect1>
+    </detaileddescription>-->
+  </compounddef>
+</doxygen>

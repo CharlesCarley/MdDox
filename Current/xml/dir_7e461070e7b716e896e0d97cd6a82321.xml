@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_7e461070e7b716e896e0d97cd6a82321" kind="dir">
+    <compoundname>Tools</compoundname>
+    <innerdir refid="dir_b7487e7b43f0278857c63f4e9ad683a3">Doxygen</innerdir>
+    <innerdir refid="dir_f29546df2d60a62028851d3354c1d20f">GenApi</innerdir>
+    <innerdir refid="dir_ad64d74126afa4ea39d3914a0c472a63">ResourceCompiler</innerdir>
+    <briefdescription>
+<para>Contains three targets, a scaffolding library, the generator that writes the library and a resource compiler for the generator. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#FF1040FF"
+ ]
+ DxzKpO3[
+   shape    = none
+   label    = "Object"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ D6K4hpu[
+   shape    = none
+   label    = "Group"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qwt4hpu[
+   shape    = none
+   label    = "Simple"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DxzKpO3->D6K4hpu
+ DxzKpO3->qwt4hpu
+}

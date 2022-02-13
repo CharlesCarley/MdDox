@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1HighlightQuery" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::HighlightQuery</compoundname>
+    <includes local="no">Tools/Doxygen/HighlightQuery.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a8dca264af9b747398fb1567e2372d01e" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::Doxygen::HighlightQuery::_node</definition>
+        <argsstring></argsstring>
+        <name>_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a3ae69a3d79f4a3c4eafa9fa283bf35a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
+        <argsstring>()</argsstring>
+        <name>HighlightQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a556ee43cd70a783beb36248395d0156d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>HighlightQuery</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a77fe9f7b426f80d3457485483d5198d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
+        <argsstring>(const HighlightQuery &amp;other)=default</argsstring>
+        <name>HighlightQuery</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1HighlightQuery" kindref="compound">HighlightQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0076f6656355ea1021745c30838659cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::HighlightQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="90" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1aca9600121a5eedc38fdeee52de62727d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::HighlightQuery::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+<para>Checks to see if the internal node has children. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="95" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="164" bodyend="167"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="135" endline="138">MdDox::Xml::Node::hasChildren</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a248c964eee2b8b9f23e31b6f24fc85f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::HighlightQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="100" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0d0404e7d9f2b2f9cd309e0b9ed77549" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node * MdDox::Doxygen::HighlightQuery::node</definition>
+        <argsstring>() const</argsstring>
+        <name>node</name>
+        <briefdescription>
+<para>Returns the wrapped node pointer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="105" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1adc28692b4362c2daa12567a5f68f1d7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::HighlightQuery::sort</definition>
+        <argsstring>(const SortMap &amp;childOrder) const</argsstring>
+        <name>sort</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">SortMap</ref> &amp;</type>
+          <declname>childOrder</declname>
+        </param>
+        <briefdescription>
+<para>Sorts the nodes in the query based on priority of type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="110" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="103" bodyend="124"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="153" endline="156">MdDox::Xml::Node::sort</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="313" endline="316">MdDox::Xml::Node::getTypeCode</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1af76e5540fb3aee4598990fe50f24d9a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::HighlightQuery::text</definition>
+        <argsstring>(const String &amp;def=&quot;&quot;) const</argsstring>
+        <name>text</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>def</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the node&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The text data associated with this node the default value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="116" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="98" bodyend="101"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="283" endline="286">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1ab02c49d464c9c4edfd6878cf79d95bfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::HighlightQuery::visit</definition>
+        <argsstring>(Visitors::HighlightQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HighlightQueryVisitor" kindref="compound">Visitors::HighlightQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="30" bodyend="52"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="268" endline="271">MdDox::Xml::Node::children</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HighlightQueryVisitor_1a90f696010e0b5a3c69e1bcbbb80551f8" compoundref="HighlightQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedText</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HighlightQueryVisitor_1a02464ca497410c2a3ace5cb1a63e8204" compoundref="HighlightQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedSp</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HighlightQueryVisitor_1a068af587d0f76905ee7b82f4367bf01b" compoundref="HighlightQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedRef</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a578834e328b62a7aba98430162fb068d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref></type>
+        <definition>DoxHighlightClassEnum MdDox::Doxygen::HighlightQuery::getClass</definition>
+        <argsstring>() const</argsstring>
+        <name>getClass</name>
+        <briefdescription>
+<para>Provides access to the <bold>class</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>class</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="124" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="53" bodyend="58"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass_1acc48a67c313a21d666ad703da040518a" compoundref="DoxHighlightClass_8cpp" startline="30" endline="49">MdDox::Doxygen::DoxHighlightClass::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="104" endline="110">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1ace0a9d373120bde7f1c8cfc1880d31d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::HighlightQuery::getSp</definition>
+        <argsstring>(SpQuery &amp;dest) const</argsstring>
+        <name>getSp</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1SpQuery" kindref="compound">SpQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>sp</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="129" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="60" bodyend="69"/>
+        <references refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0d0404e7d9f2b2f9cd309e0b9ed77549" compoundref="HighlightQuery_8h" startline="159" endline="162">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1SpQuery_1a39659944a81ba2c551844003ece208e2" compoundref="SpQuery_8h" startline="103" endline="106">MdDox::Doxygen::SpQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a963c488aad14c145a0bfd9d5dc308eae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1SpQuery" kindref="compound">SpQuery</ref></type>
+        <definition>SpQuery MdDox::Doxygen::HighlightQuery::getSp</definition>
+        <argsstring>() const</argsstring>
+        <name>getSp</name>
+        <briefdescription>
+<para>Provides access to the <bold>sp</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="134" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0aeadbe7c094116077aedb32897d374a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::HighlightQuery::getRef</definition>
+        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
+        <name>getRef</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="139" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="78" bodyend="87"/>
+        <references refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0d0404e7d9f2b2f9cd309e0b9ed77549" compoundref="HighlightQuery_8h" startline="159" endline="162">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1aa870e651570f57dbd587666a995f8b19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
+        <definition>RefTextQuery MdDox::Doxygen::HighlightQuery::getRef</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef</name>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="144" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="89" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>highlightType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>highlightType</bold> scaffolding.</para><para><programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;highlightType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:choice</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sp&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;spType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refTextType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:choice</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxHighlightClass&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="Tools/Doxygen/HighlightQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="69" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a8dca264af9b747398fb1567e2372d01e" prot="private" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>_node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1aca9600121a5eedc38fdeee52de62727d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>empty</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a578834e328b62a7aba98430162fb068d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getClass</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0aeadbe7c094116077aedb32897d374a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getRef</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1aa870e651570f57dbd587666a995f8b19" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getRef</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1ace0a9d373120bde7f1c8cfc1880d31d6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getSp</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a963c488aad14c145a0bfd9d5dc308eae" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getSp</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a3ae69a3d79f4a3c4eafa9fa283bf35a0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a556ee43cd70a783beb36248395d0156d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a77fe9f7b426f80d3457485483d5198d3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0076f6656355ea1021745c30838659cd" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>isValid</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0d0404e7d9f2b2f9cd309e0b9ed77549" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a248c964eee2b8b9f23e31b6f24fc85f9" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>reset</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1adc28692b4362c2daa12567a5f68f1d7c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>sort</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1af76e5540fb3aee4598990fe50f24d9a8" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>text</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1ab02c49d464c9c4edfd6878cf79d95bfa" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1DoxParamDir" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxParamDir</compoundname>
+    <includes local="no">Tools/Doxygen/DoxParamDir.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxParamDir_1ac862377898cac9cc2dd17ca25594a7fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" kindref="member">DoxParamDirEnum</ref></type>
+        <definition>DoxParamDirEnum MdDox::Doxygen::DoxParamDir::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxParamDir.h" line="63" column="1" bodyfile="Tools/Doxygen/DoxParamDir.cpp" bodystart="30" bodyend="39"/>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba7e7c540ba6b9030440d79e96d16088d8" compoundref="DoxParamDir_8h" startline="49">MdDox::Doxygen::DPD_IN</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba2d6437f73ca52745a979621ee46cb945" compoundref="DoxParamDir_8h" startline="53">MdDox::Doxygen::DPD_OUT</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba61cff92a5b7bec82abdbe9ff10e77cdd" compoundref="DoxParamDir_8h" startline="57">MdDox::Doxygen::DPD_INOUT</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869bad297611a114f1c4a17a37719b2d6cb2a" compoundref="DoxParamDir_8h" startline="45">MdDox::Doxygen::DPD_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxParamDir.h" line="61" column="1" bodyfile="Tools/Doxygen/DoxParamDir.h" bodystart="60" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1DoxParamDir_1ac862377898cac9cc2dd17ca25594a7fe" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxParamDir</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

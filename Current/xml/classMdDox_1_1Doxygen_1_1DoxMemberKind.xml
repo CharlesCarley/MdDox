@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classMdDox_1_1Doxygen_1_1DoxMemberKind" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxMemberKind</compoundname>
+    <includes local="no">Tools/Doxygen/DoxMemberKind.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxMemberKind_1a6aba6ff41752f6ada40f7855784cd518" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">DoxMemberKindEnum</ref></type>
+        <definition>DoxMemberKindEnum MdDox::Doxygen::DoxMemberKind::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxMemberKind.h" line="118" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.cpp" bodystart="30" bodyend="61"/>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4adf151ea8518524a8df827d2b48eb8fae" compoundref="DoxMemberKind_8h" startline="60">MdDox::Doxygen::DMK_DEFINE</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ad1458999750564d3858a4050dd2657c0" compoundref="DoxMemberKind_8h" startline="64">MdDox::Doxygen::DMK_ENUM</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a877a0238be37a70f5939d01f59b6dc19" compoundref="DoxMemberKind_8h" startline="68">MdDox::Doxygen::DMK_PROPERTY</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4aa005882f8090d5f0b648927af6354467" compoundref="DoxMemberKind_8h" startline="72">MdDox::Doxygen::DMK_EVENT</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4af964dc6873bd94a12a0de4c70ba6c28c" compoundref="DoxMemberKind_8h" startline="76">MdDox::Doxygen::DMK_VARIABLE</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a289703d05a6bc42bcb205007e6e5de48" compoundref="DoxMemberKind_8h" startline="80">MdDox::Doxygen::DMK_TYPEDEF</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ab0bd4ceb63c9efda529003aad5fb27b7" compoundref="DoxMemberKind_8h" startline="84">MdDox::Doxygen::DMK_FUNCTION</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a9738cc0236b1cd7ea964d248b2c4d03d" compoundref="DoxMemberKind_8h" startline="88">MdDox::Doxygen::DMK_SIGNAL</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ac3d0d72a0f5b23c57e5c2acbb7647f25" compoundref="DoxMemberKind_8h" startline="92">MdDox::Doxygen::DMK_PROTOTYPE</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4aeac470c9a804a3c349f839f43d4f2125" compoundref="DoxMemberKind_8h" startline="96">MdDox::Doxygen::DMK_FRIEND</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a468cfaddb0b12b57d4bb3ae1bc975464" compoundref="DoxMemberKind_8h" startline="100">MdDox::Doxygen::DMK_DCOP</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ac0dac5c051a1bd4f723f9126c87150e2" compoundref="DoxMemberKind_8h" startline="104">MdDox::Doxygen::DMK_SLOT</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ae66ccd35352a785870255ae2533fe103" compoundref="DoxMemberKind_8h" startline="108">MdDox::Doxygen::DMK_INTERFACE</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a541ec914f4fdaa16966e41394cfe88aa" compoundref="DoxMemberKind_8h" startline="112">MdDox::Doxygen::DMK_SERVICE</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a15118713cbeff24e4971ff43277c1adc" compoundref="DoxMemberKind_8h" startline="56">MdDox::Doxygen::DMK_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxMemberKind.h" line="116" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="115" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classMdDox_1_1Doxygen_1_1DoxMemberKind_1a6aba6ff41752f6ada40f7855784cd518" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxMemberKind</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

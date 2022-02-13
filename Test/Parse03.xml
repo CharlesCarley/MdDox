@@ -1,0 +1,19 @@
+<doxygen>
+  <compounddef id="test">
+    <briefdescription>
+      <para>
+        <para>A</para>
+        <para>B</para>
+        <para>C</para>
+        <para>D</para>
+        <para>E</para>
+        <para>F</para>
+        <para>G</para>
+        <para>H</para>
+        <para>
+          A <ulink url="https://www.example.com/">click</ulink> Away
+        </para>
+      </para>
+    </briefdescription>
+  </compounddef>
+</doxygen>

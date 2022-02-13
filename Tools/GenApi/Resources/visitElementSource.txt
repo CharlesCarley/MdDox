@@ -1,0 +1,17 @@
+    void ${className}::visit(Visitors::${className}Visitor *visitor) const
+    {
+        if (!_node || !visitor)
+            return;
+        const Xml::NodeArray& objects = _node->children();
+        for (Xml::Node* obj : objects) {
+            switch (obj->getTypeCode()) {
+            case DoxTextNode:
+                if (obj->hasText())
+                    visitor->visitedText(obj->text());
+                break;
+${select}        
+            default:
+                break;
+            }
+        }
+    }

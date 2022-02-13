@@ -1,0 +1,5 @@
+        /**
+         * \brief Sorts the nodes in the query based on priority of 
+         *  type codes in the supplied map.
+         */
+        void sort(const SortMap& childOrder) const;

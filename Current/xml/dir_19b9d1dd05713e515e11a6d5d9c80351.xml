@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir">
+    <compoundname>Xml</compoundname>
+    <innerfile refid="Attribute_8h">Attribute.h</innerfile>
+    <innerfile refid="Node_8cpp">Node.cpp</innerfile>
+    <innerfile refid="Node_8h">Node.h</innerfile>
+    <innerfile refid="Xml_2Parser_8cpp">Xml/Parser.cpp</innerfile>
+    <innerfile refid="Xml_2Parser_8h">Xml/Parser.h</innerfile>
+    <innerfile refid="Xml_2Scanner_8cpp">Xml/Scanner.cpp</innerfile>
+    <innerfile refid="Xml_2Scanner_8h">Xml/Scanner.h</innerfile>
+    <innerfile refid="Xml_2Token_8h">Xml/Token.h</innerfile>
+    <innerfile refid="Writer_8cpp">Writer.cpp</innerfile>
+    <innerfile refid="Source_2Xml_2Writer_8h">Source/Xml/Writer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Xml/"/>
+  </compounddef>
+</doxygen>

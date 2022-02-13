@@ -1,0 +1,5 @@
+            /**
+             * \brief Called when the element <b>${searchTerm}</b> is found.
+             * \param text Const reference to the internal text.
+             */
+            virtual void visited${name}(const String& text) {}
