@@ -7,65 +7,65 @@
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">HtmlDocumentWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="3703">
-        <label>Utils/String.h</label>
-        <childnode refid="3704" relation="include">
-        </childnode>
-        <childnode refid="3705" relation="include">
-        </childnode>
-        <childnode refid="3706" relation="include">
-        </childnode>
-        <childnode refid="3707" relation="include">
-        </childnode>
-        <childnode refid="3708" relation="include">
-        </childnode>
-        <childnode refid="3709" relation="include">
-        </childnode>
-      </node>
-      <node id="3707">
+      <node id="3593">
         <label>string</label>
       </node>
-      <node id="3705">
+      <node id="3591">
         <label>fstream</label>
       </node>
-      <node id="3702">
-        <label>HtmlCommandWriter.h</label>
-        <link refid="HtmlCommandWriter_8h"/>
-        <childnode refid="3703" relation="include">
+      <node id="3589">
+        <label>Utils/String.h</label>
+        <childnode refid="3590" relation="include">
+        </childnode>
+        <childnode refid="3591" relation="include">
+        </childnode>
+        <childnode refid="3592" relation="include">
+        </childnode>
+        <childnode refid="3593" relation="include">
+        </childnode>
+        <childnode refid="3594" relation="include">
+        </childnode>
+        <childnode refid="3595" relation="include">
         </childnode>
       </node>
-      <node id="3709">
+      <node id="3595">
         <label>vector</label>
       </node>
-      <node id="3706">
+      <node id="3592">
         <label>sstream</label>
       </node>
-      <node id="3704">
+      <node id="3590">
         <label>deque</label>
       </node>
-      <node id="3708">
+      <node id="3594">
         <label>unordered_map</label>
+      </node>
+      <node id="3588">
+        <label>HtmlCommandWriter.h</label>
+        <link refid="HtmlCommandWriter_8h"/>
+        <childnode refid="3589" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3712">
+      <node id="3597">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="3598">
         <label>HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="3710">
-        <label>HtmlCommandWriter.h</label>
-        <link refid="HtmlCommandWriter_8h"/>
-        <childnode refid="3711" relation="include">
-        </childnode>
-        <childnode refid="3712" relation="include">
-        </childnode>
-        <childnode refid="3713" relation="include">
-        </childnode>
-      </node>
-      <node id="3713">
+      <node id="3599">
         <label>MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="3711">
-        <label>HtmlCommandWriter.cpp</label>
+      <node id="3596">
+        <label>HtmlCommandWriter.h</label>
+        <link refid="HtmlCommandWriter_8h"/>
+        <childnode refid="3597" relation="include">
+        </childnode>
+        <childnode refid="3598" relation="include">
+        </childnode>
+        <childnode refid="3599" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMdDox_1_1Html">MdDox::Html</innernamespace>

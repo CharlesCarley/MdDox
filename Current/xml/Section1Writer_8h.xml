@@ -7,124 +7,124 @@
     <includedby refid="DescriptionWriter_8cpp" local="yes">DescriptionWriter.cpp</includedby>
     <includedby refid="Section1Writer_8cpp" local="yes">Section1Writer.cpp</includedby>
     <incdepgraph>
-      <node id="7402">
+      <node id="7243">
+        <label>Utils/Console.h</label>
+        <childnode refid="7232" relation="include">
+        </childnode>
+      </node>
+      <node id="7230">
         <label>functional</label>
       </node>
-      <node id="7411">
+      <node id="7244">
+        <label>Utils/Path.h</label>
+        <childnode refid="7232" relation="include">
+        </childnode>
+      </node>
+      <node id="7239">
         <label>Utils/Exception.h</label>
-        <childnode refid="7412" relation="include">
+        <childnode refid="7240" relation="include">
         </childnode>
-        <childnode refid="7413" relation="include">
+        <childnode refid="7241" relation="include">
         </childnode>
-        <childnode refid="7414" relation="include">
+        <childnode refid="7242" relation="include">
         </childnode>
-        <childnode refid="7415" relation="include">
+        <childnode refid="7243" relation="include">
         </childnode>
-        <childnode refid="7404" relation="include">
-        </childnode>
-      </node>
-      <node id="7404">
-        <label>Utils/String.h</label>
-        <childnode refid="7405" relation="include">
-        </childnode>
-        <childnode refid="7406" relation="include">
-        </childnode>
-        <childnode refid="7407" relation="include">
-        </childnode>
-        <childnode refid="7408" relation="include">
-        </childnode>
-        <childnode refid="7403" relation="include">
-        </childnode>
-        <childnode refid="7409" relation="include">
+        <childnode refid="7232" relation="include">
         </childnode>
       </node>
-      <node id="7413">
+      <node id="7241">
         <label>stdexcept</label>
       </node>
-      <node id="7408">
+      <node id="7236">
         <label>string</label>
       </node>
-      <node id="7410">
-        <label>Xml/Node.h</label>
-        <childnode refid="7402" relation="include">
+      <node id="7229">
+        <label>Doxygen.h</label>
+        <childnode refid="7230" relation="include">
         </childnode>
-        <childnode refid="7403" relation="include">
+        <childnode refid="7231" relation="include">
         </childnode>
-        <childnode refid="7404" relation="include">
+        <childnode refid="7232" relation="include">
+        </childnode>
+        <childnode refid="7238" relation="include">
+        </childnode>
+        <childnode refid="7239" relation="include">
         </childnode>
       </node>
-      <node id="7412">
+      <node id="7240">
         <label>exception</label>
       </node>
-      <node id="7406">
+      <node id="7234">
         <label>fstream</label>
       </node>
-      <node id="7401">
-        <label>Doxygen.h</label>
-        <childnode refid="7402" relation="include">
+      <node id="7238">
+        <label>Xml/Node.h</label>
+        <childnode refid="7230" relation="include">
         </childnode>
-        <childnode refid="7403" relation="include">
+        <childnode refid="7231" relation="include">
         </childnode>
-        <childnode refid="7404" relation="include">
-        </childnode>
-        <childnode refid="7410" relation="include">
-        </childnode>
-        <childnode refid="7411" relation="include">
+        <childnode refid="7232" relation="include">
         </childnode>
       </node>
-      <node id="7409">
-        <label>vector</label>
-      </node>
-      <node id="7416">
-        <label>Utils/Path.h</label>
-        <childnode refid="7404" relation="include">
+      <node id="7228">
+        <label>Doxygen/Sect1Query.h</label>
+        <childnode refid="7229" relation="include">
         </childnode>
       </node>
-      <node id="7414">
-        <label>utility</label>
-      </node>
-      <node id="7407">
-        <label>sstream</label>
-      </node>
-      <node id="7415">
-        <label>Utils/Console.h</label>
-        <childnode refid="7404" relation="include">
-        </childnode>
-      </node>
-      <node id="7405">
-        <label>deque</label>
-      </node>
-      <node id="7403">
-        <label>unordered_map</label>
-      </node>
-      <node id="7399">
+      <node id="7227">
         <label>Section1Writer.h</label>
         <link refid="Section1Writer_8h"/>
-        <childnode refid="7400" relation="include">
+        <childnode refid="7228" relation="include">
         </childnode>
-        <childnode refid="7416" relation="include">
+        <childnode refid="7244" relation="include">
         </childnode>
       </node>
-      <node id="7400">
-        <label>Doxygen/Sect1Query.h</label>
-        <childnode refid="7401" relation="include">
+      <node id="7232">
+        <label>Utils/String.h</label>
+        <childnode refid="7233" relation="include">
         </childnode>
+        <childnode refid="7234" relation="include">
+        </childnode>
+        <childnode refid="7235" relation="include">
+        </childnode>
+        <childnode refid="7236" relation="include">
+        </childnode>
+        <childnode refid="7231" relation="include">
+        </childnode>
+        <childnode refid="7237" relation="include">
+        </childnode>
+      </node>
+      <node id="7237">
+        <label>vector</label>
+      </node>
+      <node id="7242">
+        <label>utility</label>
+      </node>
+      <node id="7235">
+        <label>sstream</label>
+      </node>
+      <node id="7233">
+        <label>deque</label>
+      </node>
+      <node id="7231">
+        <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7418">
-        <label>DescriptionWriter.cpp</label>
-      </node>
-      <node id="7419">
-        <label>Section1Writer.cpp</label>
-      </node>
-      <node id="7417">
+      <node id="7245">
         <label>Section1Writer.h</label>
         <link refid="Section1Writer_8h"/>
-        <childnode refid="7418" relation="include">
+        <childnode refid="7246" relation="include">
         </childnode>
-        <childnode refid="7419" relation="include">
+        <childnode refid="7247" relation="include">
         </childnode>
+      </node>
+      <node id="7246">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="7247">
+        <label>Section1Writer.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Section1Writer" prot="public">MdDox::Section1Writer</innerclass>

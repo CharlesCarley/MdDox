@@ -9,14 +9,9 @@
     <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
     <includedby refid="CompoundRefQuery_8cpp" local="yes">CompoundRefQuery.cpp</includedby>
     <incdepgraph>
-      <node id="598">
-        <label>CompoundRefQuery.h</label>
-        <link refid="CompoundRefQuery_8h"/>
-        <childnode refid="599" relation="include">
-        </childnode>
-        <childnode refid="614" relation="include">
-        </childnode>
-        <childnode refid="615" relation="include">
+      <node id="613">
+        <label>Utils/Console.h</label>
+        <childnode refid="602" relation="include">
         </childnode>
       </node>
       <node id="600">
@@ -35,6 +30,45 @@
         <childnode refid="602" relation="include">
         </childnode>
       </node>
+      <node id="611">
+        <label>stdexcept</label>
+      </node>
+      <node id="606">
+        <label>string</label>
+      </node>
+      <node id="599">
+        <label>Doxygen.h</label>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+      </node>
+      <node id="610">
+        <label>exception</label>
+      </node>
+      <node id="604">
+        <label>fstream</label>
+      </node>
+      <node id="608">
+        <label>Xml/Node.h</label>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="599" relation="include">
+        </childnode>
+      </node>
       <node id="602">
         <label>Utils/String.h</label>
         <childnode refid="603" relation="include">
@@ -50,52 +84,18 @@
         <childnode refid="607" relation="include">
         </childnode>
       </node>
-      <node id="611">
-        <label>stdexcept</label>
-      </node>
-      <node id="606">
-        <label>string</label>
-      </node>
-      <node id="614">
-        <label>DoxVirtualKind.h</label>
-        <childnode refid="599" relation="include">
-        </childnode>
-      </node>
-      <node id="608">
-        <label>Xml/Node.h</label>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="601" relation="include">
-        </childnode>
-        <childnode refid="602" relation="include">
-        </childnode>
-      </node>
-      <node id="610">
-        <label>exception</label>
-      </node>
-      <node id="604">
-        <label>fstream</label>
-      </node>
-      <node id="615">
-        <label>DoxProtectionKind.h</label>
-        <childnode refid="599" relation="include">
-        </childnode>
-      </node>
-      <node id="599">
-        <label>Doxygen.h</label>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="601" relation="include">
-        </childnode>
-        <childnode refid="602" relation="include">
-        </childnode>
-        <childnode refid="608" relation="include">
-        </childnode>
-        <childnode refid="609" relation="include">
-        </childnode>
-      </node>
       <node id="607">
         <label>vector</label>
+      </node>
+      <node id="598">
+        <label>CompoundRefQuery.h</label>
+        <link refid="CompoundRefQuery_8h"/>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="614" relation="include">
+        </childnode>
+        <childnode refid="615" relation="include">
+        </childnode>
       </node>
       <node id="612">
         <label>utility</label>
@@ -103,9 +103,9 @@
       <node id="605">
         <label>sstream</label>
       </node>
-      <node id="613">
-        <label>Utils/Console.h</label>
-        <childnode refid="602" relation="include">
+      <node id="614">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="599" relation="include">
         </childnode>
       </node>
       <node id="603">
@@ -116,6 +116,9 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="617">
+        <label>ClassPageWriter.cpp</label>
+      </node>
       <node id="616">
         <label>CompoundRefQuery.h</label>
         <link refid="CompoundRefQuery_8h"/>
@@ -126,14 +129,11 @@
         <childnode refid="619" relation="include">
         </childnode>
       </node>
-      <node id="617">
-        <label>ClassPageWriter.cpp</label>
+      <node id="619">
+        <label>CompoundRefQuery.cpp</label>
       </node>
       <node id="618">
         <label>CompoundDefQuery.cpp</label>
-      </node>
-      <node id="619">
-        <label>CompoundRefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery" prot="public">MdDox::Doxygen::CompoundRefQuery</innerclass>

@@ -9,26 +9,284 @@
     <includedby refid="DoxProtectionKind_8cpp" local="yes">DoxProtectionKind.cpp</includedby>
     <includedby refid="EnumValueQuery_8h" local="yes">EnumValueQuery.h</includedby>
     <includedby refid="MemberRefQuery_8h" local="yes">MemberRefQuery.h</includedby>
-    <includedby refid="MemberDefQuery_8h" local="yes">MemberDefQuery.h</includedby>
+    <includedby refid="MemberdefQuery_8h" local="yes">MemberdefQuery.h</includedby>
     <incdepgraph>
-      <node id="1856">
+      <node id="1834">
+        <label>Utils/Console.h</label>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1821">
         <label>functional</label>
       </node>
-      <node id="1865">
+      <node id="1830">
         <label>Utils/Exception.h</label>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1832">
+        <label>stdexcept</label>
+      </node>
+      <node id="1827">
+        <label>string</label>
+      </node>
+      <node id="1820">
+        <label>Doxygen.h</label>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+      </node>
+      <node id="1831">
+        <label>exception</label>
+      </node>
+      <node id="1825">
+        <label>fstream</label>
+      </node>
+      <node id="1829">
+        <label>Xml/Node.h</label>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+      </node>
+      <node id="1819">
+        <label>DoxProtectionKind.h</label>
+        <link refid="DoxProtectionKind_8h"/>
+        <childnode refid="1820" relation="include">
+        </childnode>
+      </node>
+      <node id="1823">
+        <label>Utils/String.h</label>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+      </node>
+      <node id="1828">
+        <label>vector</label>
+      </node>
+      <node id="1833">
+        <label>utility</label>
+      </node>
+      <node id="1826">
+        <label>sstream</label>
+      </node>
+      <node id="1824">
+        <label>deque</label>
+      </node>
+      <node id="1822">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1858">
+        <label>ParameterWriter.cpp</label>
+      </node>
+      <node id="1855">
+        <label>MemberDefWriter.cpp</label>
+      </node>
+      <node id="1876">
+        <label>MemberRefQuery.h</label>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1878" relation="include">
+        </childnode>
+      </node>
+      <node id="1844">
+        <label>GenericPageWriter.cpp</label>
+      </node>
+      <node id="1864">
+        <label>SectionDefWriter.cpp</label>
+      </node>
+      <node id="1865">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="1877">
+        <label>ListOfAllMembersQuery.cpp</label>
+      </node>
+      <node id="1879">
+        <label>MemberdefQuery.h</label>
+      </node>
+      <node id="1845">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+      </node>
+      <node id="1870">
+        <label>RefQuery.h</label>
+        <childnode refid="1842" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1866" relation="include">
+        </childnode>
+        <childnode refid="1871" relation="include">
+        </childnode>
+      </node>
+      <node id="1871">
+        <label>RefQuery.cpp</label>
+      </node>
+      <node id="1862">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="1850">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="1838">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
+      </node>
+      <node id="1846">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1847">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="1875">
+        <label>MemberdefQuery.cpp</label>
+      </node>
+      <node id="1836">
+        <label>CompoundDefQuery.h</label>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1838" relation="include">
+        </childnode>
+        <childnode refid="1848" relation="include">
+        </childnode>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1843" relation="include">
+        </childnode>
+        <childnode refid="1865" relation="include">
+        </childnode>
         <childnode refid="1866" relation="include">
         </childnode>
         <childnode refid="1867" relation="include">
         </childnode>
+      </node>
+      <node id="1861">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="1835">
+        <label>DoxProtectionKind.h</label>
+        <link refid="DoxProtectionKind_8h"/>
+        <childnode refid="1836" relation="include">
+        </childnode>
         <childnode refid="1868" relation="include">
+        </childnode>
+        <childnode refid="1870" relation="include">
+        </childnode>
+        <childnode refid="1872" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+        <childnode refid="1879" relation="include">
+        </childnode>
+      </node>
+      <node id="1851">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1860">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="1849">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="1839">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="1857">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="1859">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="1874">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="1856">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="1868">
+        <label>CompoundRefQuery.h</label>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1866" relation="include">
         </childnode>
         <childnode refid="1869" relation="include">
         </childnode>
+      </node>
+      <node id="1872">
+        <label>DoxProtectionKind.cpp</label>
+      </node>
+      <node id="1852">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="1869">
+        <label>CompoundRefQuery.cpp</label>
+      </node>
+      <node id="1848">
+        <label>WriteUtils.h</label>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1851" relation="include">
+        </childnode>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1852" relation="include">
+        </childnode>
+        <childnode refid="1853" relation="include">
+        </childnode>
+        <childnode refid="1854" relation="include">
+        </childnode>
+        <childnode refid="1855" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
         <childnode refid="1858" relation="include">
         </childnode>
-      </node>
-      <node id="1858">
-        <label>Utils/String.h</label>
         <childnode refid="1859" relation="include">
         </childnode>
         <childnode refid="1860" relation="include">
@@ -37,45 +295,7 @@
         </childnode>
         <childnode refid="1862" relation="include">
         </childnode>
-        <childnode refid="1857" relation="include">
-        </childnode>
         <childnode refid="1863" relation="include">
-        </childnode>
-      </node>
-      <node id="1867">
-        <label>stdexcept</label>
-      </node>
-      <node id="1862">
-        <label>string</label>
-      </node>
-      <node id="1864">
-        <label>Xml/Node.h</label>
-        <childnode refid="1856" relation="include">
-        </childnode>
-        <childnode refid="1857" relation="include">
-        </childnode>
-        <childnode refid="1858" relation="include">
-        </childnode>
-      </node>
-      <node id="1866">
-        <label>exception</label>
-      </node>
-      <node id="1860">
-        <label>fstream</label>
-      </node>
-      <node id="1854">
-        <label>DoxProtectionKind.h</label>
-        <link refid="DoxProtectionKind_8h"/>
-        <childnode refid="1855" relation="include">
-        </childnode>
-      </node>
-      <node id="1855">
-        <label>Doxygen.h</label>
-        <childnode refid="1856" relation="include">
-        </childnode>
-        <childnode refid="1857" relation="include">
-        </childnode>
-        <childnode refid="1858" relation="include">
         </childnode>
         <childnode refid="1864" relation="include">
         </childnode>
@@ -83,333 +303,68 @@
         </childnode>
       </node>
       <node id="1863">
-        <label>vector</label>
-      </node>
-      <node id="1868">
-        <label>utility</label>
-      </node>
-      <node id="1861">
-        <label>sstream</label>
-      </node>
-      <node id="1869">
-        <label>Utils/Console.h</label>
-        <childnode refid="1858" relation="include">
-        </childnode>
-      </node>
-      <node id="1859">
-        <label>deque</label>
-      </node>
-      <node id="1857">
-        <label>unordered_map</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="1890">
-        <label>MemberDefWriter.cpp</label>
-      </node>
-      <node id="1903">
-        <label>CompoundRefQuery.h</label>
-        <childnode refid="1874" relation="include">
-        </childnode>
-        <childnode refid="1901" relation="include">
-        </childnode>
-        <childnode refid="1904" relation="include">
-        </childnode>
-      </node>
-      <node id="1919">
-        <label>SectionDefQuery.cpp</label>
-      </node>
-      <node id="1886">
-        <label>FunctionDefWriter.cpp</label>
-      </node>
-      <node id="1910">
-        <label>MemberDefQuery.cpp</label>
-      </node>
-      <node id="1884">
-        <label>DescriptionWriter.cpp</label>
-      </node>
-      <node id="1900">
-        <label>WriteUtils.cpp</label>
-      </node>
-      <node id="1902">
-        <label>DoxygenQuery.cpp</label>
-      </node>
-      <node id="1912">
-        <label>ListOfAllmembersQuery.cpp</label>
-      </node>
-      <node id="1871">
-        <label>CompoundDefQuery.h</label>
-        <childnode refid="1872" relation="include">
-        </childnode>
-        <childnode refid="1873" relation="include">
-        </childnode>
-        <childnode refid="1883" relation="include">
-        </childnode>
-        <childnode refid="1876" relation="include">
-        </childnode>
-        <childnode refid="1878" relation="include">
-        </childnode>
-        <childnode refid="1900" relation="include">
-        </childnode>
-        <childnode refid="1901" relation="include">
-        </childnode>
-        <childnode refid="1902" relation="include">
-        </childnode>
-      </node>
-      <node id="1893">
-        <label>ParameterWriter.cpp</label>
-      </node>
-      <node id="1906">
-        <label>RefQuery.cpp</label>
-      </node>
-      <node id="1889">
-        <label>MemberDefListingWriter.cpp</label>
-      </node>
-      <node id="1891">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="1887">
-        <label>LinkedTextWriter.cpp</label>
-      </node>
-      <node id="1918">
-        <label>MemberDefWriter.h</label>
-        <childnode refid="1890" relation="include">
-        </childnode>
-        <childnode refid="1899" relation="include">
-        </childnode>
-      </node>
-      <node id="1907">
-        <label>DoxProtectionKind.cpp</label>
-      </node>
-      <node id="1877">
-        <label>DirectoryPageWriter.cpp</label>
-      </node>
-      <node id="1915">
-        <label>EnumDefWriter.h</label>
-        <childnode refid="1885" relation="include">
-        </childnode>
-        <childnode refid="1890" relation="include">
-        </childnode>
-      </node>
-      <node id="1882">
-        <label>PageWriter.cpp</label>
-      </node>
-      <node id="1875">
-        <label>IndexPageWriter.cpp</label>
-      </node>
-      <node id="1916">
-        <label>FunctionDefWriter.h</label>
-        <childnode refid="1885" relation="include">
-        </childnode>
-        <childnode refid="1886" relation="include">
-        </childnode>
-        <childnode refid="1890" relation="include">
-        </childnode>
-      </node>
-      <node id="1870">
-        <label>DoxProtectionKind.h</label>
-        <link refid="DoxProtectionKind_8h"/>
-        <childnode refid="1871" relation="include">
-        </childnode>
-        <childnode refid="1903" relation="include">
-        </childnode>
-        <childnode refid="1905" relation="include">
-        </childnode>
-        <childnode refid="1907" relation="include">
-        </childnode>
-        <childnode refid="1908" relation="include">
-        </childnode>
-        <childnode refid="1911" relation="include">
-        </childnode>
-        <childnode refid="1914" relation="include">
-        </childnode>
-      </node>
-      <node id="1879">
-        <label>GenericPageWriter.cpp</label>
-      </node>
-      <node id="1885">
-        <label>EnumDefWriter.cpp</label>
-      </node>
-      <node id="1874">
-        <label>ClassPageWriter.cpp</label>
-      </node>
-      <node id="1898">
         <label>SectionDefListingWriter.cpp</label>
       </node>
-      <node id="1899">
-        <label>SectionDefWriter.cpp</label>
-      </node>
-      <node id="1905">
-        <label>RefQuery.h</label>
-        <childnode refid="1877" relation="include">
-        </childnode>
-        <childnode refid="1881" relation="include">
-        </childnode>
-        <childnode refid="1901" relation="include">
-        </childnode>
-        <childnode refid="1906" relation="include">
-        </childnode>
-      </node>
-      <node id="1914">
-        <label>MemberDefQuery.h</label>
-        <childnode refid="1915" relation="include">
-        </childnode>
-        <childnode refid="1916" relation="include">
-        </childnode>
-        <childnode refid="1917" relation="include">
-        </childnode>
-        <childnode refid="1918" relation="include">
-        </childnode>
-        <childnode refid="1910" relation="include">
-        </childnode>
-        <childnode refid="1919" relation="include">
-        </childnode>
-      </node>
-      <node id="1876">
-        <label>DirectoryPageWriter.h</label>
-        <childnode refid="1877" relation="include">
-        </childnode>
-        <childnode refid="1875" relation="include">
-        </childnode>
-      </node>
-      <node id="1881">
-        <label>NamespacePageWriter.cpp</label>
-      </node>
-      <node id="1883">
-        <label>WriteUtils.h</label>
-        <childnode refid="1874" relation="include">
-        </childnode>
-        <childnode refid="1884" relation="include">
-        </childnode>
-        <childnode refid="1877" relation="include">
-        </childnode>
-        <childnode refid="1885" relation="include">
-        </childnode>
-        <childnode refid="1886" relation="include">
-        </childnode>
-        <childnode refid="1879" relation="include">
-        </childnode>
-        <childnode refid="1887" relation="include">
-        </childnode>
-        <childnode refid="1888" relation="include">
-        </childnode>
-        <childnode refid="1889" relation="include">
-        </childnode>
-        <childnode refid="1890" relation="include">
-        </childnode>
-        <childnode refid="1881" relation="include">
-        </childnode>
-        <childnode refid="1891" relation="include">
-        </childnode>
-        <childnode refid="1892" relation="include">
-        </childnode>
-        <childnode refid="1893" relation="include">
-        </childnode>
-        <childnode refid="1894" relation="include">
-        </childnode>
-        <childnode refid="1895" relation="include">
-        </childnode>
-        <childnode refid="1896" relation="include">
-        </childnode>
-        <childnode refid="1897" relation="include">
-        </childnode>
-        <childnode refid="1898" relation="include">
-        </childnode>
-        <childnode refid="1899" relation="include">
-        </childnode>
-        <childnode refid="1900" relation="include">
-        </childnode>
-      </node>
-      <node id="1880">
-        <label>NamespacePageWriter.h</label>
-        <childnode refid="1875" relation="include">
-        </childnode>
-        <childnode refid="1881" relation="include">
-        </childnode>
-      </node>
-      <node id="1908">
-        <label>EnumValueQuery.h</label>
-        <childnode refid="1885" relation="include">
-        </childnode>
-        <childnode refid="1886" relation="include">
-        </childnode>
-        <childnode refid="1890" relation="include">
-        </childnode>
-        <childnode refid="1909" relation="include">
-        </childnode>
-        <childnode refid="1910" relation="include">
-        </childnode>
+      <node id="1867">
+        <label>DoxygenQuery.cpp</label>
       </node>
       <node id="1878">
-        <label>GenericPageWriter.h</label>
-        <childnode refid="1879" relation="include">
-        </childnode>
-        <childnode refid="1875" relation="include">
-        </childnode>
+        <label>MemberRefQuery.cpp</label>
       </node>
-      <node id="1911">
-        <label>MemberRefQuery.h</label>
-        <childnode refid="1912" relation="include">
-        </childnode>
-        <childnode refid="1913" relation="include">
-        </childnode>
-      </node>
-      <node id="1901">
+      <node id="1866">
         <label>CompoundDefQuery.cpp</label>
       </node>
-      <node id="1897">
-        <label>Section4Writer.cpp</label>
+      <node id="1854">
+        <label>MemberDefListingWriter.cpp</label>
       </node>
-      <node id="1896">
-        <label>Section3Writer.cpp</label>
+      <node id="1843">
+        <label>GenericPageWriter.h</label>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
       </node>
-      <node id="1888">
-        <label>LocationWriter.cpp</label>
-      </node>
-      <node id="1904">
-        <label>CompoundRefQuery.cpp</label>
-      </node>
-      <node id="1895">
-        <label>Section2Writer.cpp</label>
-      </node>
-      <node id="1909">
-        <label>EnumValueQuery.cpp</label>
-      </node>
-      <node id="1894">
-        <label>Section1Writer.cpp</label>
-      </node>
-      <node id="1872">
+      <node id="1837">
         <label>PageWriter.h</label>
-        <childnode refid="1873" relation="include">
+        <childnode refid="1838" relation="include">
         </childnode>
-        <childnode refid="1876" relation="include">
+        <childnode refid="1841" relation="include">
         </childnode>
-        <childnode refid="1878" relation="include">
+        <childnode refid="1843" relation="include">
         </childnode>
-        <childnode refid="1880" relation="include">
+        <childnode refid="1845" relation="include">
         </childnode>
-        <childnode refid="1882" relation="include">
+        <childnode refid="1847" relation="include">
         </childnode>
-      </node>
-      <node id="1892">
-        <label>ParameterListWriter.cpp</label>
       </node>
       <node id="1873">
-        <label>ClassPageWriter.h</label>
+        <label>EnumValueQuery.h</label>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1851" relation="include">
+        </childnode>
+        <childnode refid="1855" relation="include">
+        </childnode>
         <childnode refid="1874" relation="include">
         </childnode>
         <childnode refid="1875" relation="include">
         </childnode>
       </node>
-      <node id="1913">
-        <label>MemberRefQuery.cpp</label>
+      <node id="1853">
+        <label>LocationWriter.cpp</label>
       </node>
-      <node id="1917">
-        <label>MemberDefListingWriter.h</label>
-        <childnode refid="1889" relation="include">
+      <node id="1842">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="1841">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="1842" relation="include">
         </childnode>
-        <childnode refid="1898" relation="include">
+        <childnode refid="1840" relation="include">
         </childnode>
+      </node>
+      <node id="1840">
+        <label>IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind" prot="public">MdDox::Doxygen::DoxProtectionKind</innerclass>

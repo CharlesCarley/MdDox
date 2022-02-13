@@ -11,153 +11,153 @@
     <includes refid="TextStreamWriter_8h" local="yes">Utils/TextStreamWriter.h</includes>
     <includes refid="CrtUtils_8h" local="yes">Utils/Win32/CrtUtils.h</includes>
     <incdepgraph>
-      <node id="4887">
-        <label>Utils/Exception.h</label>
-        <childnode refid="4888" relation="include">
-        </childnode>
-        <childnode refid="4889" relation="include">
-        </childnode>
-        <childnode refid="4890" relation="include">
-        </childnode>
-        <childnode refid="4886" relation="include">
-        </childnode>
-        <childnode refid="4876" relation="include">
+      <node id="4774">
+        <label>Utils/Console.h</label>
+        <childnode refid="4764" relation="include">
         </childnode>
       </node>
-      <node id="4885">
-        <label>filesystem</label>
-      </node>
-      <node id="4868">
+      <node id="4756">
         <label>Main.cpp</label>
         <link refid="Tools_2ResourceCompiler_2Main_8cpp"/>
-        <childnode refid="4869" relation="include">
+        <childnode refid="4757" relation="include">
         </childnode>
-        <childnode refid="4870" relation="include">
+        <childnode refid="4758" relation="include">
         </childnode>
-        <childnode refid="4871" relation="include">
+        <childnode refid="4759" relation="include">
         </childnode>
-        <childnode refid="4886" relation="include">
+        <childnode refid="4774" relation="include">
         </childnode>
-        <childnode refid="4887" relation="include">
+        <childnode refid="4775" relation="include">
         </childnode>
-        <childnode refid="4891" relation="include">
+        <childnode refid="4779" relation="include">
         </childnode>
-        <childnode refid="4892" relation="include">
+        <childnode refid="4780" relation="include">
         </childnode>
-        <childnode refid="4893" relation="include">
-        </childnode>
-      </node>
-      <node id="4876">
-        <label>Utils/String.h</label>
-        <childnode refid="4877" relation="include">
-        </childnode>
-        <childnode refid="4878" relation="include">
-        </childnode>
-        <childnode refid="4879" relation="include">
-        </childnode>
-        <childnode refid="4880" relation="include">
-        </childnode>
-        <childnode refid="4872" relation="include">
-        </childnode>
-        <childnode refid="4881" relation="include">
+        <childnode refid="4781" relation="include">
         </childnode>
       </node>
-      <node id="4869">
+      <node id="4773">
+        <label>filesystem</label>
+      </node>
+      <node id="4779">
+        <label>Utils/Path.h</label>
+        <childnode refid="4764" relation="include">
+        </childnode>
+      </node>
+      <node id="4757">
         <label>cstdint</label>
       </node>
-      <node id="4875">
-        <label>Utils/Char.h</label>
-        <childnode refid="4869" relation="include">
+      <node id="4775">
+        <label>Utils/Exception.h</label>
+        <childnode refid="4776" relation="include">
         </childnode>
-        <childnode refid="4876" relation="include">
+        <childnode refid="4777" relation="include">
+        </childnode>
+        <childnode refid="4778" relation="include">
+        </childnode>
+        <childnode refid="4774" relation="include">
+        </childnode>
+        <childnode refid="4764" relation="include">
         </childnode>
       </node>
-      <node id="4874">
+      <node id="4762">
         <label>cassert</label>
       </node>
-      <node id="4889">
+      <node id="4777">
         <label>stdexcept</label>
       </node>
-      <node id="4892">
-        <label>Utils/TextStreamWriter.h</label>
-        <childnode refid="4876" relation="include">
-        </childnode>
-      </node>
-      <node id="4880">
-        <label>string</label>
-      </node>
-      <node id="4888">
-        <label>exception</label>
-      </node>
-      <node id="4878">
-        <label>fstream</label>
-      </node>
-      <node id="4882">
-        <label>Utils/CommandLine/Scanner.h</label>
-        <childnode refid="4883" relation="include">
-        </childnode>
-      </node>
-      <node id="4893">
+      <node id="4781">
         <label>Utils/Win32/CrtUtils.h</label>
       </node>
-      <node id="4883">
-        <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="4876" relation="include">
+      <node id="4768">
+        <label>string</label>
+      </node>
+      <node id="4776">
+        <label>exception</label>
+      </node>
+      <node id="4766">
+        <label>fstream</label>
+      </node>
+      <node id="4759">
+        <label>Utils/CommandLine/Parser.h</label>
+        <childnode refid="4760" relation="include">
+        </childnode>
+        <childnode refid="4761" relation="include">
+        </childnode>
+        <childnode refid="4770" relation="include">
+        </childnode>
+        <childnode refid="4772" relation="include">
         </childnode>
       </node>
-      <node id="4881">
+      <node id="4761">
+        <label>Utils/CommandLine/Option.h</label>
+        <childnode refid="4762" relation="include">
+        </childnode>
+        <childnode refid="4763" relation="include">
+        </childnode>
+        <childnode refid="4764" relation="include">
+        </childnode>
+      </node>
+      <node id="4764">
+        <label>Utils/String.h</label>
+        <childnode refid="4765" relation="include">
+        </childnode>
+        <childnode refid="4766" relation="include">
+        </childnode>
+        <childnode refid="4767" relation="include">
+        </childnode>
+        <childnode refid="4768" relation="include">
+        </childnode>
+        <childnode refid="4760" relation="include">
+        </childnode>
+        <childnode refid="4769" relation="include">
+        </childnode>
+      </node>
+      <node id="4770">
+        <label>Utils/CommandLine/Scanner.h</label>
+        <childnode refid="4771" relation="include">
+        </childnode>
+      </node>
+      <node id="4769">
         <label>vector</label>
       </node>
-      <node id="4891">
-        <label>Utils/Path.h</label>
-        <childnode refid="4876" relation="include">
-        </childnode>
-      </node>
-      <node id="4890">
+      <node id="4778">
         <label>utility</label>
       </node>
-      <node id="4879">
+      <node id="4767">
         <label>sstream</label>
       </node>
-      <node id="4886">
-        <label>Utils/Console.h</label>
-        <childnode refid="4876" relation="include">
+      <node id="4763">
+        <label>Utils/Char.h</label>
+        <childnode refid="4757" relation="include">
+        </childnode>
+        <childnode refid="4764" relation="include">
         </childnode>
       </node>
-      <node id="4884">
+      <node id="4772">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="4885" relation="include">
+        <childnode refid="4773" relation="include">
         </childnode>
-        <childnode refid="4876" relation="include">
+        <childnode refid="4764" relation="include">
         </childnode>
       </node>
-      <node id="4870">
+      <node id="4780">
+        <label>Utils/TextStreamWriter.h</label>
+        <childnode refid="4764" relation="include">
+        </childnode>
+      </node>
+      <node id="4758">
         <label>iostream</label>
       </node>
-      <node id="4877">
+      <node id="4765">
         <label>deque</label>
       </node>
-      <node id="4872">
+      <node id="4760">
         <label>unordered_map</label>
       </node>
-      <node id="4871">
-        <label>Utils/CommandLine/Parser.h</label>
-        <childnode refid="4872" relation="include">
-        </childnode>
-        <childnode refid="4873" relation="include">
-        </childnode>
-        <childnode refid="4882" relation="include">
-        </childnode>
-        <childnode refid="4884" relation="include">
-        </childnode>
-      </node>
-      <node id="4873">
-        <label>Utils/CommandLine/Option.h</label>
-        <childnode refid="4874" relation="include">
-        </childnode>
-        <childnode refid="4875" relation="include">
-        </childnode>
-        <childnode refid="4876" relation="include">
+      <node id="4771">
+        <label>Utils/CommandLine/Token.h</label>
+        <childnode refid="4764" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -9,161 +9,161 @@
     <includedby refid="MemberDefWriter_8cpp" local="yes">MemberDefWriter.cpp</includedby>
     <includedby refid="EnumValueQuery_8cpp" local="yes">EnumValueQuery.cpp</includedby>
     <includedby refid="LinkedTextQuery_8cpp" local="yes">LinkedTextQuery.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">MemberDefQuery.cpp</includedby>
+    <includedby refid="MemberdefQuery_8cpp" local="yes">MemberdefQuery.cpp</includedby>
     <includedby refid="ParamQuery_8cpp" local="yes">ParamQuery.cpp</includedby>
     <incdepgraph>
-      <node id="4378">
+      <node id="4277">
+        <label>Utils/Console.h</label>
+        <childnode refid="4266" relation="include">
+        </childnode>
+      </node>
+      <node id="4264">
         <label>functional</label>
       </node>
-      <node id="4387">
+      <node id="4273">
         <label>Utils/Exception.h</label>
-        <childnode refid="4388" relation="include">
+        <childnode refid="4274" relation="include">
         </childnode>
-        <childnode refid="4389" relation="include">
+        <childnode refid="4275" relation="include">
         </childnode>
-        <childnode refid="4390" relation="include">
+        <childnode refid="4276" relation="include">
         </childnode>
-        <childnode refid="4391" relation="include">
+        <childnode refid="4277" relation="include">
         </childnode>
-        <childnode refid="4380" relation="include">
-        </childnode>
-      </node>
-      <node id="4380">
-        <label>Utils/String.h</label>
-        <childnode refid="4381" relation="include">
-        </childnode>
-        <childnode refid="4382" relation="include">
-        </childnode>
-        <childnode refid="4383" relation="include">
-        </childnode>
-        <childnode refid="4384" relation="include">
-        </childnode>
-        <childnode refid="4379" relation="include">
-        </childnode>
-        <childnode refid="4385" relation="include">
+        <childnode refid="4266" relation="include">
         </childnode>
       </node>
-      <node id="4389">
+      <node id="4275">
         <label>stdexcept</label>
       </node>
-      <node id="4384">
+      <node id="4270">
         <label>string</label>
       </node>
-      <node id="4386">
-        <label>Xml/Node.h</label>
-        <childnode refid="4378" relation="include">
+      <node id="4263">
+        <label>Doxygen.h</label>
+        <childnode refid="4264" relation="include">
         </childnode>
-        <childnode refid="4379" relation="include">
+        <childnode refid="4265" relation="include">
         </childnode>
-        <childnode refid="4380" relation="include">
+        <childnode refid="4266" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4273" relation="include">
         </childnode>
       </node>
-      <node id="4388">
+      <node id="4274">
         <label>exception</label>
       </node>
-      <node id="4382">
+      <node id="4268">
         <label>fstream</label>
       </node>
-      <node id="4377">
-        <label>Doxygen.h</label>
-        <childnode refid="4378" relation="include">
+      <node id="4272">
+        <label>Xml/Node.h</label>
+        <childnode refid="4264" relation="include">
         </childnode>
-        <childnode refid="4379" relation="include">
+        <childnode refid="4265" relation="include">
         </childnode>
-        <childnode refid="4380" relation="include">
-        </childnode>
-        <childnode refid="4386" relation="include">
-        </childnode>
-        <childnode refid="4387" relation="include">
+        <childnode refid="4266" relation="include">
         </childnode>
       </node>
-      <node id="4385">
+      <node id="4266">
+        <label>Utils/String.h</label>
+        <childnode refid="4267" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4269" relation="include">
+        </childnode>
+        <childnode refid="4270" relation="include">
+        </childnode>
+        <childnode refid="4265" relation="include">
+        </childnode>
+        <childnode refid="4271" relation="include">
+        </childnode>
+      </node>
+      <node id="4271">
         <label>vector</label>
       </node>
-      <node id="4390">
+      <node id="4276">
         <label>utility</label>
       </node>
-      <node id="4383">
+      <node id="4269">
         <label>sstream</label>
       </node>
-      <node id="4391">
-        <label>Utils/Console.h</label>
-        <childnode refid="4380" relation="include">
-        </childnode>
-      </node>
-      <node id="4381">
-        <label>deque</label>
-      </node>
-      <node id="4379">
-        <label>unordered_map</label>
-      </node>
-      <node id="4376">
+      <node id="4262">
         <label>LinkedTextQuery.h</label>
         <link refid="LinkedTextQuery_8h"/>
-        <childnode refid="4377" relation="include">
+        <childnode refid="4263" relation="include">
         </childnode>
+      </node>
+      <node id="4267">
+        <label>deque</label>
+      </node>
+      <node id="4265">
+        <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4397">
-        <label>MemberDefWriter.cpp</label>
-      </node>
-      <node id="4395">
-        <label>FunctionDefWriter.cpp</label>
-      </node>
-      <node id="4401">
-        <label>MemberDefQuery.cpp</label>
-      </node>
-      <node id="4398">
+      <node id="4284">
         <label>ParameterWriter.cpp</label>
       </node>
-      <node id="4396">
-        <label>LinkedTextWriter.cpp</label>
+      <node id="4283">
+        <label>MemberDefWriter.cpp</label>
       </node>
-      <node id="4393">
+      <node id="4279">
         <label>EnumDefWriter.cpp</label>
       </node>
-      <node id="4402">
-        <label>ParamQuery.cpp</label>
+      <node id="4287">
+        <label>MemberdefQuery.cpp</label>
       </node>
-      <node id="4394">
+      <node id="4281">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="4280">
         <label>LinkedTextWriter.h</label>
-        <childnode refid="4393" relation="include">
+        <childnode refid="4279" relation="include">
         </childnode>
-        <childnode refid="4395" relation="include">
+        <childnode refid="4281" relation="include">
         </childnode>
-        <childnode refid="4396" relation="include">
+        <childnode refid="4282" relation="include">
         </childnode>
-        <childnode refid="4397" relation="include">
+        <childnode refid="4283" relation="include">
         </childnode>
-        <childnode refid="4398" relation="include">
+        <childnode refid="4284" relation="include">
         </childnode>
       </node>
-      <node id="4399">
+      <node id="4285">
         <label>EnumValueQuery.cpp</label>
       </node>
-      <node id="4392">
+      <node id="4286">
+        <label>LinkedTextQuery.cpp</label>
+      </node>
+      <node id="4282">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="4288">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="4278">
         <label>LinkedTextQuery.h</label>
         <link refid="LinkedTextQuery_8h"/>
-        <childnode refid="4393" relation="include">
+        <childnode refid="4279" relation="include">
         </childnode>
-        <childnode refid="4394" relation="include">
+        <childnode refid="4280" relation="include">
         </childnode>
-        <childnode refid="4395" relation="include">
+        <childnode refid="4281" relation="include">
         </childnode>
-        <childnode refid="4397" relation="include">
+        <childnode refid="4283" relation="include">
         </childnode>
-        <childnode refid="4399" relation="include">
+        <childnode refid="4285" relation="include">
         </childnode>
-        <childnode refid="4400" relation="include">
+        <childnode refid="4286" relation="include">
         </childnode>
-        <childnode refid="4401" relation="include">
+        <childnode refid="4287" relation="include">
         </childnode>
-        <childnode refid="4402" relation="include">
+        <childnode refid="4288" relation="include">
         </childnode>
-      </node>
-      <node id="4400">
-        <label>LinkedTextQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</innerclass>

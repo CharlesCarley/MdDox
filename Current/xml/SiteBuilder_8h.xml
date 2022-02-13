@@ -22,155 +22,155 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">SiteBuilder.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="7899">
+      <node id="7687">
         <label>functional</label>
       </node>
-      <node id="7892">
-        <label>Utils/String.h</label>
-        <childnode refid="7893" relation="include">
-        </childnode>
-        <childnode refid="7894" relation="include">
-        </childnode>
-        <childnode refid="7895" relation="include">
-        </childnode>
-        <childnode refid="7896" relation="include">
-        </childnode>
-        <childnode refid="7890" relation="include">
-        </childnode>
-        <childnode refid="7897" relation="include">
+      <node id="7688">
+        <label>Utils/Path.h</label>
+        <childnode refid="7680" relation="include">
         </childnode>
       </node>
-      <node id="7896">
+      <node id="7684">
         <label>string</label>
       </node>
-      <node id="7898">
-        <label>Xml/Node.h</label>
-        <childnode refid="7899" relation="include">
-        </childnode>
-        <childnode refid="7890" relation="include">
-        </childnode>
-        <childnode refid="7892" relation="include">
-        </childnode>
-      </node>
-      <node id="7894">
+      <node id="7682">
         <label>fstream</label>
       </node>
-      <node id="7889">
+      <node id="7677">
         <label>SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="7890" relation="include">
+        <childnode refid="7678" relation="include">
         </childnode>
-        <childnode refid="7891" relation="include">
+        <childnode refid="7679" relation="include">
         </childnode>
-        <childnode refid="7900" relation="include">
+        <childnode refid="7688" relation="include">
         </childnode>
-        <childnode refid="7892" relation="include">
+        <childnode refid="7680" relation="include">
         </childnode>
       </node>
-      <node id="7897">
+      <node id="7686">
+        <label>Xml/Node.h</label>
+        <childnode refid="7687" relation="include">
+        </childnode>
+        <childnode refid="7678" relation="include">
+        </childnode>
+        <childnode refid="7680" relation="include">
+        </childnode>
+      </node>
+      <node id="7680">
+        <label>Utils/String.h</label>
+        <childnode refid="7681" relation="include">
+        </childnode>
+        <childnode refid="7682" relation="include">
+        </childnode>
+        <childnode refid="7683" relation="include">
+        </childnode>
+        <childnode refid="7684" relation="include">
+        </childnode>
+        <childnode refid="7678" relation="include">
+        </childnode>
+        <childnode refid="7685" relation="include">
+        </childnode>
+      </node>
+      <node id="7685">
         <label>vector</label>
       </node>
-      <node id="7900">
-        <label>Utils/Path.h</label>
-        <childnode refid="7892" relation="include">
-        </childnode>
-      </node>
-      <node id="7895">
+      <node id="7683">
         <label>sstream</label>
       </node>
-      <node id="7891">
-        <label>Config.h</label>
-        <childnode refid="7892" relation="include">
-        </childnode>
-        <childnode refid="7898" relation="include">
-        </childnode>
-      </node>
-      <node id="7893">
+      <node id="7681">
         <label>deque</label>
       </node>
-      <node id="7890">
+      <node id="7678">
         <label>unordered_map</label>
+      </node>
+      <node id="7679">
+        <label>Config.h</label>
+        <childnode refid="7680" relation="include">
+        </childnode>
+        <childnode refid="7686" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7909">
-        <label>Link.cpp</label>
-      </node>
-      <node id="7907">
-        <label>HtmlDocumentWriter.cpp</label>
-      </node>
-      <node id="7902">
-        <label>Main.cpp</label>
-      </node>
-      <node id="7916">
-        <label>WriteUtils.cpp</label>
-      </node>
-      <node id="7914">
+      <node id="7702">
         <label>RepoFile.cpp</label>
       </node>
-      <node id="7913">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="7915">
-        <label>SiteBuilder.cpp</label>
-      </node>
-      <node id="7904">
-        <label>DirectoryPageWriter.cpp</label>
-      </node>
-      <node id="7912">
-        <label>PageWriter.cpp</label>
-      </node>
-      <node id="7908">
-        <label>IndexPageWriter.cpp</label>
-      </node>
-      <node id="7905">
+      <node id="7693">
         <label>GenericPageWriter.cpp</label>
       </node>
-      <node id="7903">
-        <label>ClassPageWriter.cpp</label>
+      <node id="7704">
+        <label>WriteUtils.cpp</label>
       </node>
-      <node id="7901">
+      <node id="7689">
         <label>SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="7902" relation="include">
+        <childnode refid="7690" relation="include">
         </childnode>
-        <childnode refid="7903" relation="include">
+        <childnode refid="7691" relation="include">
         </childnode>
-        <childnode refid="7904" relation="include">
+        <childnode refid="7692" relation="include">
         </childnode>
-        <childnode refid="7905" relation="include">
+        <childnode refid="7693" relation="include">
         </childnode>
-        <childnode refid="7906" relation="include">
+        <childnode refid="7694" relation="include">
         </childnode>
-        <childnode refid="7907" relation="include">
+        <childnode refid="7695" relation="include">
         </childnode>
-        <childnode refid="7908" relation="include">
+        <childnode refid="7696" relation="include">
         </childnode>
-        <childnode refid="7909" relation="include">
+        <childnode refid="7697" relation="include">
         </childnode>
-        <childnode refid="7910" relation="include">
+        <childnode refid="7698" relation="include">
         </childnode>
-        <childnode refid="7911" relation="include">
+        <childnode refid="7699" relation="include">
         </childnode>
-        <childnode refid="7912" relation="include">
+        <childnode refid="7700" relation="include">
         </childnode>
-        <childnode refid="7913" relation="include">
+        <childnode refid="7701" relation="include">
         </childnode>
-        <childnode refid="7914" relation="include">
+        <childnode refid="7702" relation="include">
         </childnode>
-        <childnode refid="7915" relation="include">
+        <childnode refid="7703" relation="include">
         </childnode>
-        <childnode refid="7916" relation="include">
+        <childnode refid="7704" relation="include">
         </childnode>
       </node>
-      <node id="7911">
+      <node id="7694">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="7699">
         <label>NamespacePageWriter.cpp</label>
       </node>
-      <node id="7910">
+      <node id="7700">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="7695">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="7691">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="7703">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="7698">
         <label>MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="7906">
-        <label>HtmlCommandWriter.cpp</label>
+      <node id="7701">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="7690">
+        <label>Main.cpp</label>
+      </node>
+      <node id="7697">
+        <label>Link.cpp</label>
+      </node>
+      <node id="7692">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="7696">
+        <label>IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1SiteBuilder" prot="public">MdDox::SiteBuilder</innerclass>

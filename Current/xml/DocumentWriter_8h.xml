@@ -31,130 +31,83 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">SiteBuilder.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="1214">
+      <node id="1209">
         <label>filesystem</label>
       </node>
       <node id="1205">
+        <label>string</label>
+      </node>
+      <node id="1203">
+        <label>fstream</label>
+      </node>
+      <node id="1200">
         <label>IconSet.h</label>
-        <childnode refid="1206" relation="include">
+        <childnode refid="1201" relation="include">
         </childnode>
       </node>
-      <node id="1206">
-        <label>Utils/String.h</label>
-        <childnode refid="1207" relation="include">
+      <node id="1199">
+        <label>DocumentWriter.h</label>
+        <link refid="DocumentWriter_8h"/>
+        <childnode refid="1200" relation="include">
         </childnode>
         <childnode refid="1208" relation="include">
         </childnode>
-        <childnode refid="1209" relation="include">
-        </childnode>
-        <childnode refid="1210" relation="include">
-        </childnode>
-        <childnode refid="1211" relation="include">
-        </childnode>
-        <childnode refid="1212" relation="include">
+        <childnode refid="1201" relation="include">
         </childnode>
       </node>
-      <node id="1210">
-        <label>string</label>
-      </node>
-      <node id="1208">
-        <label>fstream</label>
-      </node>
-      <node id="1204">
-        <label>DocumentWriter.h</label>
-        <link refid="DocumentWriter_8h"/>
+      <node id="1201">
+        <label>Utils/String.h</label>
+        <childnode refid="1202" relation="include">
+        </childnode>
+        <childnode refid="1203" relation="include">
+        </childnode>
+        <childnode refid="1204" relation="include">
+        </childnode>
         <childnode refid="1205" relation="include">
         </childnode>
-        <childnode refid="1213" relation="include">
-        </childnode>
         <childnode refid="1206" relation="include">
         </childnode>
-      </node>
-      <node id="1212">
-        <label>vector</label>
-      </node>
-      <node id="1209">
-        <label>sstream</label>
-      </node>
-      <node id="1213">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="1214" relation="include">
-        </childnode>
-        <childnode refid="1206" relation="include">
+        <childnode refid="1207" relation="include">
         </childnode>
       </node>
       <node id="1207">
+        <label>vector</label>
+      </node>
+      <node id="1204">
+        <label>sstream</label>
+      </node>
+      <node id="1208">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1201" relation="include">
+        </childnode>
+      </node>
+      <node id="1202">
         <label>deque</label>
       </node>
-      <node id="1211">
+      <node id="1206">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1233">
-        <label>MemberDefWriter.cpp</label>
-      </node>
-      <node id="1225">
-        <label>HtmlDocumentWriter.cpp</label>
-      </node>
-      <node id="1220">
-        <label>FunctionDefWriter.cpp</label>
-      </node>
-      <node id="1217">
-        <label>DescriptionWriter.cpp</label>
-      </node>
-      <node id="1223">
-        <label>Main.cpp</label>
-      </node>
-      <node id="1246">
-        <label>WriteUtils.cpp</label>
-      </node>
-      <node id="1238">
         <label>ParameterWriter.cpp</label>
       </node>
-      <node id="1232">
-        <label>MemberDefListingWriter.cpp</label>
-      </node>
-      <node id="1236">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="1230">
-        <label>LinkedTextWriter.cpp</label>
-      </node>
-      <node id="1245">
-        <label>SiteBuilder.cpp</label>
-      </node>
-      <node id="1218">
-        <label>DirectoryPageWriter.cpp</label>
-      </node>
-      <node id="1235">
-        <label>PageWriter.cpp</label>
-      </node>
-      <node id="1229">
-        <label>IndexPageWriter.cpp</label>
-      </node>
-      <node id="1221">
-        <label>GenericPageWriter.cpp</label>
-      </node>
-      <node id="1219">
-        <label>EnumDefWriter.cpp</label>
+      <node id="1228">
+        <label>MemberDefWriter.cpp</label>
       </node>
       <node id="1216">
-        <label>ClassPageWriter.cpp</label>
+        <label>GenericPageWriter.cpp</label>
       </node>
-      <node id="1243">
-        <label>SectionDefListingWriter.cpp</label>
-      </node>
-      <node id="1244">
+      <node id="1239">
         <label>SectionDefWriter.cpp</label>
       </node>
-      <node id="1215">
-        <label>DocumentWriter.h</label>
-        <link refid="DocumentWriter_8h"/>
-        <childnode refid="1216" relation="include">
-        </childnode>
-        <childnode refid="1217" relation="include">
-        </childnode>
+      <node id="1241">
+        <label>WriteUtils.cpp</label>
+      </node>
+      <node id="1217">
+        <label>HtmlDocumentWriter.h</label>
         <childnode refid="1218" relation="include">
         </childnode>
         <childnode refid="1219" relation="include">
@@ -163,7 +116,36 @@
         </childnode>
         <childnode refid="1221" relation="include">
         </childnode>
-        <childnode refid="1222" relation="include">
+      </node>
+      <node id="1219">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="1210">
+        <label>DocumentWriter.h</label>
+        <link refid="DocumentWriter_8h"/>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+        <childnode refid="1227" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
         </childnode>
         <childnode refid="1229" relation="include">
         </childnode>
@@ -191,66 +173,84 @@
         </childnode>
         <childnode refid="1241" relation="include">
         </childnode>
-        <childnode refid="1242" relation="include">
-        </childnode>
-        <childnode refid="1243" relation="include">
-        </childnode>
-        <childnode refid="1244" relation="include">
-        </childnode>
-        <childnode refid="1245" relation="include">
-        </childnode>
-        <childnode refid="1246" relation="include">
-        </childnode>
-      </node>
-      <node id="1228">
-        <label>MarkdownDocumentWriter.cpp</label>
-      </node>
-      <node id="1234">
-        <label>NamespacePageWriter.cpp</label>
-      </node>
-      <node id="1226">
-        <label>MarkdownDocumentWriter.h</label>
-        <childnode refid="1223" relation="include">
-        </childnode>
-        <childnode refid="1227" relation="include">
-        </childnode>
-        <childnode refid="1228" relation="include">
-        </childnode>
-      </node>
-      <node id="1242">
-        <label>Section4Writer.cpp</label>
-      </node>
-      <node id="1227">
-        <label>MarkdownCommandWriter.cpp</label>
-      </node>
-      <node id="1222">
-        <label>HtmlDocumentWriter.h</label>
-        <childnode refid="1223" relation="include">
-        </childnode>
-        <childnode refid="1224" relation="include">
-        </childnode>
-        <childnode refid="1225" relation="include">
-        </childnode>
-        <childnode refid="1226" relation="include">
-        </childnode>
-      </node>
-      <node id="1241">
-        <label>Section3Writer.cpp</label>
-      </node>
-      <node id="1231">
-        <label>LocationWriter.cpp</label>
-      </node>
-      <node id="1240">
-        <label>Section2Writer.cpp</label>
-      </node>
-      <node id="1239">
-        <label>Section1Writer.cpp</label>
       </node>
       <node id="1237">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="1214">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="1221">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1230">
+        <label>PageWriter.cpp</label>
+      </node>
+      <node id="1236">
+        <label>Section3Writer.cpp</label>
+      </node>
+      <node id="1215">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1235">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="1212">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="1220">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="1211">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="1240">
+        <label>SiteBuilder.cpp</label>
+      </node>
+      <node id="1232">
         <label>ParameterListWriter.cpp</label>
       </node>
+      <node id="1234">
+        <label>Section1Writer.cpp</label>
+      </node>
+      <node id="1223">
+        <label>MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="1222">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="1231">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="1218">
+        <label>Main.cpp</label>
+      </node>
+      <node id="1225">
+        <label>LinkedTextWriter.cpp</label>
+      </node>
+      <node id="1238">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="1227">
+        <label>MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="1226">
+        <label>LocationWriter.cpp</label>
+      </node>
+      <node id="1213">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
       <node id="1224">
-        <label>HtmlCommandWriter.cpp</label>
+        <label>IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1DocumentWriter" prot="public">MdDox::DocumentWriter</innerclass>

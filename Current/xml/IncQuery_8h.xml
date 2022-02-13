@@ -9,128 +9,128 @@
     <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
     <includedby refid="IncQuery_8cpp" local="yes">IncQuery.cpp</includedby>
     <incdepgraph>
-      <node id="3896">
+      <node id="3795">
+        <label>Utils/Console.h</label>
+        <childnode refid="3784" relation="include">
+        </childnode>
+      </node>
+      <node id="3782">
         <label>functional</label>
       </node>
-      <node id="3905">
+      <node id="3791">
         <label>Utils/Exception.h</label>
-        <childnode refid="3906" relation="include">
+        <childnode refid="3792" relation="include">
         </childnode>
-        <childnode refid="3907" relation="include">
+        <childnode refid="3793" relation="include">
         </childnode>
-        <childnode refid="3908" relation="include">
+        <childnode refid="3794" relation="include">
         </childnode>
-        <childnode refid="3909" relation="include">
+        <childnode refid="3795" relation="include">
         </childnode>
-        <childnode refid="3898" relation="include">
-        </childnode>
-      </node>
-      <node id="3898">
-        <label>Utils/String.h</label>
-        <childnode refid="3899" relation="include">
-        </childnode>
-        <childnode refid="3900" relation="include">
-        </childnode>
-        <childnode refid="3901" relation="include">
-        </childnode>
-        <childnode refid="3902" relation="include">
-        </childnode>
-        <childnode refid="3897" relation="include">
-        </childnode>
-        <childnode refid="3903" relation="include">
+        <childnode refid="3784" relation="include">
         </childnode>
       </node>
-      <node id="3894">
-        <label>IncQuery.h</label>
-        <link refid="IncQuery_8h"/>
-        <childnode refid="3895" relation="include">
-        </childnode>
-        <childnode refid="3910" relation="include">
-        </childnode>
-      </node>
-      <node id="3907">
+      <node id="3793">
         <label>stdexcept</label>
       </node>
-      <node id="3902">
+      <node id="3788">
         <label>string</label>
       </node>
-      <node id="3904">
-        <label>Xml/Node.h</label>
-        <childnode refid="3896" relation="include">
+      <node id="3781">
+        <label>Doxygen.h</label>
+        <childnode refid="3782" relation="include">
         </childnode>
-        <childnode refid="3897" relation="include">
+        <childnode refid="3783" relation="include">
         </childnode>
-        <childnode refid="3898" relation="include">
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
         </childnode>
       </node>
-      <node id="3906">
+      <node id="3792">
         <label>exception</label>
       </node>
-      <node id="3900">
+      <node id="3786">
         <label>fstream</label>
       </node>
-      <node id="3895">
-        <label>Doxygen.h</label>
-        <childnode refid="3896" relation="include">
+      <node id="3790">
+        <label>Xml/Node.h</label>
+        <childnode refid="3782" relation="include">
         </childnode>
-        <childnode refid="3897" relation="include">
+        <childnode refid="3783" relation="include">
         </childnode>
-        <childnode refid="3898" relation="include">
-        </childnode>
-        <childnode refid="3904" relation="include">
-        </childnode>
-        <childnode refid="3905" relation="include">
+        <childnode refid="3784" relation="include">
         </childnode>
       </node>
-      <node id="3903">
+      <node id="3780">
+        <label>IncQuery.h</label>
+        <link refid="IncQuery_8h"/>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+      </node>
+      <node id="3784">
+        <label>Utils/String.h</label>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+      </node>
+      <node id="3789">
         <label>vector</label>
       </node>
-      <node id="3908">
+      <node id="3794">
         <label>utility</label>
       </node>
-      <node id="3901">
+      <node id="3787">
         <label>sstream</label>
       </node>
-      <node id="3909">
-        <label>Utils/Console.h</label>
-        <childnode refid="3898" relation="include">
-        </childnode>
-      </node>
-      <node id="3910">
-        <label>DoxBool.h</label>
-        <childnode refid="3895" relation="include">
-        </childnode>
-      </node>
-      <node id="3899">
+      <node id="3785">
         <label>deque</label>
       </node>
-      <node id="3897">
+      <node id="3783">
         <label>unordered_map</label>
+      </node>
+      <node id="3796">
+        <label>DoxBool.h</label>
+        <childnode refid="3781" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3911">
-        <label>IncQuery.h</label>
-        <link refid="IncQuery_8h"/>
-        <childnode refid="3912" relation="include">
-        </childnode>
-        <childnode refid="3913" relation="include">
-        </childnode>
-        <childnode refid="3914" relation="include">
-        </childnode>
-        <childnode refid="3915" relation="include">
-        </childnode>
-      </node>
-      <node id="3912">
-        <label>ClassPageWriter.cpp</label>
-      </node>
-      <node id="3913">
-        <label>NamespacePageWriter.cpp</label>
-      </node>
-      <node id="3915">
+      <node id="3801">
         <label>IncQuery.cpp</label>
       </node>
-      <node id="3914">
+      <node id="3799">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="3797">
+        <label>IncQuery.h</label>
+        <link refid="IncQuery_8h"/>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+      </node>
+      <node id="3798">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="3800">
         <label>CompoundDefQuery.cpp</label>
       </node>
     </invincdepgraph>

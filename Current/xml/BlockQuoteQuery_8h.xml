@@ -8,6 +8,11 @@
     <includedby refid="MarkupQuery_8cpp" local="yes">MarkupQuery.cpp</includedby>
     <includedby refid="ParaQuery_8cpp" local="yes">ParaQuery.cpp</includedby>
     <incdepgraph>
+      <node id="96">
+        <label>Utils/Console.h</label>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
       <node id="83">
         <label>functional</label>
       </node>
@@ -20,6 +25,40 @@
         <childnode refid="95" relation="include">
         </childnode>
         <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>stdexcept</label>
+      </node>
+      <node id="89">
+        <label>string</label>
+      </node>
+      <node id="82">
+        <label>Doxygen.h</label>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>exception</label>
+      </node>
+      <node id="87">
+        <label>fstream</label>
+      </node>
+      <node id="91">
+        <label>Xml/Node.h</label>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
         </childnode>
         <childnode refid="85" relation="include">
         </childnode>
@@ -39,46 +78,6 @@
         <childnode refid="90" relation="include">
         </childnode>
       </node>
-      <node id="81">
-        <label>BlockQuoteQuery.h</label>
-        <link refid="BlockQuoteQuery_8h"/>
-        <childnode refid="82" relation="include">
-        </childnode>
-      </node>
-      <node id="94">
-        <label>stdexcept</label>
-      </node>
-      <node id="89">
-        <label>string</label>
-      </node>
-      <node id="91">
-        <label>Xml/Node.h</label>
-        <childnode refid="83" relation="include">
-        </childnode>
-        <childnode refid="84" relation="include">
-        </childnode>
-        <childnode refid="85" relation="include">
-        </childnode>
-      </node>
-      <node id="93">
-        <label>exception</label>
-      </node>
-      <node id="87">
-        <label>fstream</label>
-      </node>
-      <node id="82">
-        <label>Doxygen.h</label>
-        <childnode refid="83" relation="include">
-        </childnode>
-        <childnode refid="84" relation="include">
-        </childnode>
-        <childnode refid="85" relation="include">
-        </childnode>
-        <childnode refid="91" relation="include">
-        </childnode>
-        <childnode refid="92" relation="include">
-        </childnode>
-      </node>
       <node id="90">
         <label>vector</label>
       </node>
@@ -88,19 +87,32 @@
       <node id="88">
         <label>sstream</label>
       </node>
-      <node id="96">
-        <label>Utils/Console.h</label>
-        <childnode refid="85" relation="include">
-        </childnode>
-      </node>
       <node id="86">
         <label>deque</label>
       </node>
       <node id="84">
         <label>unordered_map</label>
       </node>
+      <node id="81">
+        <label>BlockQuoteQuery.h</label>
+        <link refid="BlockQuoteQuery_8h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="101">
+        <label>ParaQuery.cpp</label>
+      </node>
+      <node id="100">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="98">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="99">
+        <label>BlockQuoteQuery.cpp</label>
+      </node>
       <node id="97">
         <label>BlockQuoteQuery.h</label>
         <link refid="BlockQuoteQuery_8h"/>
@@ -112,18 +124,6 @@
         </childnode>
         <childnode refid="101" relation="include">
         </childnode>
-      </node>
-      <node id="98">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="99">
-        <label>BlockQuoteQuery.cpp</label>
-      </node>
-      <node id="101">
-        <label>ParaQuery.cpp</label>
-      </node>
-      <node id="100">
-        <label>MarkupQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor" prot="public">MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</innerclass>

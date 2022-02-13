@@ -10,110 +10,110 @@
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">HtmlDocumentWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8h" local="yes">MarkdownDocumentWriter.h</includedby>
     <incdepgraph>
-      <node id="3755">
+      <node id="3641">
         <label>filesystem</label>
       </node>
-      <node id="3746">
-        <label>IconSet.h</label>
-        <childnode refid="3747" relation="include">
-        </childnode>
-      </node>
-      <node id="3747">
-        <label>Utils/String.h</label>
-        <childnode refid="3748" relation="include">
-        </childnode>
-        <childnode refid="3749" relation="include">
-        </childnode>
-        <childnode refid="3750" relation="include">
-        </childnode>
-        <childnode refid="3751" relation="include">
-        </childnode>
-        <childnode refid="3752" relation="include">
-        </childnode>
-        <childnode refid="3753" relation="include">
-        </childnode>
-      </node>
-      <node id="3751">
-        <label>string</label>
-      </node>
-      <node id="3749">
-        <label>fstream</label>
-      </node>
-      <node id="3745">
-        <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="3746" relation="include">
-        </childnode>
-        <childnode refid="3754" relation="include">
-        </childnode>
-        <childnode refid="3747" relation="include">
-        </childnode>
-      </node>
-      <node id="3753">
-        <label>vector</label>
-      </node>
-      <node id="3750">
-        <label>sstream</label>
-      </node>
-      <node id="3754">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="3755" relation="include">
-        </childnode>
-        <childnode refid="3747" relation="include">
-        </childnode>
-      </node>
-      <node id="3744">
+      <node id="3630">
         <label>HtmlDocumentWriter.h</label>
         <link refid="HtmlDocumentWriter_8h"/>
-        <childnode refid="3745" relation="include">
+        <childnode refid="3631" relation="include">
         </childnode>
-        <childnode refid="3754" relation="include">
+        <childnode refid="3640" relation="include">
         </childnode>
-        <childnode refid="3747" relation="include">
+        <childnode refid="3633" relation="include">
         </childnode>
       </node>
-      <node id="3748">
+      <node id="3637">
+        <label>string</label>
+      </node>
+      <node id="3635">
+        <label>fstream</label>
+      </node>
+      <node id="3632">
+        <label>IconSet.h</label>
+        <childnode refid="3633" relation="include">
+        </childnode>
+      </node>
+      <node id="3631">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="3632" relation="include">
+        </childnode>
+        <childnode refid="3640" relation="include">
+        </childnode>
+        <childnode refid="3633" relation="include">
+        </childnode>
+      </node>
+      <node id="3633">
+        <label>Utils/String.h</label>
+        <childnode refid="3634" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3636" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+        <childnode refid="3638" relation="include">
+        </childnode>
+        <childnode refid="3639" relation="include">
+        </childnode>
+      </node>
+      <node id="3639">
+        <label>vector</label>
+      </node>
+      <node id="3636">
+        <label>sstream</label>
+      </node>
+      <node id="3640">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="3641" relation="include">
+        </childnode>
+        <childnode refid="3633" relation="include">
+        </childnode>
+      </node>
+      <node id="3634">
         <label>deque</label>
       </node>
-      <node id="3752">
+      <node id="3638">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3759">
-        <label>HtmlDocumentWriter.cpp</label>
-      </node>
-      <node id="3757">
-        <label>Main.cpp</label>
-      </node>
-      <node id="3762">
-        <label>MarkdownDocumentWriter.cpp</label>
-      </node>
-      <node id="3760">
-        <label>MarkdownDocumentWriter.h</label>
-        <childnode refid="3757" relation="include">
-        </childnode>
-        <childnode refid="3761" relation="include">
-        </childnode>
-        <childnode refid="3762" relation="include">
-        </childnode>
-      </node>
-      <node id="3761">
-        <label>MarkdownCommandWriter.cpp</label>
-      </node>
-      <node id="3756">
+      <node id="3642">
         <label>HtmlDocumentWriter.h</label>
         <link refid="HtmlDocumentWriter_8h"/>
-        <childnode refid="3757" relation="include">
+        <childnode refid="3643" relation="include">
         </childnode>
-        <childnode refid="3758" relation="include">
+        <childnode refid="3644" relation="include">
         </childnode>
-        <childnode refid="3759" relation="include">
+        <childnode refid="3645" relation="include">
         </childnode>
-        <childnode refid="3760" relation="include">
+        <childnode refid="3646" relation="include">
         </childnode>
       </node>
-      <node id="3758">
+      <node id="3644">
         <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="3646">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="3643" relation="include">
+        </childnode>
+        <childnode refid="3647" relation="include">
+        </childnode>
+        <childnode refid="3648" relation="include">
+        </childnode>
+      </node>
+      <node id="3645">
+        <label>HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="3648">
+        <label>MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="3647">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="3643">
+        <label>Main.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1HtmlDocumentWriter" prot="public">MdDox::HtmlDocumentWriter</innerclass>

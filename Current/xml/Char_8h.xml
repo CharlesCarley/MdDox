@@ -20,6 +20,15 @@
     <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
     <includedby refid="Group_8cpp" local="yes">Group.cpp</includedby>
     <incdepgraph>
+      <node id="166">
+        <label>cstdint</label>
+      </node>
+      <node id="171">
+        <label>string</label>
+      </node>
+      <node id="169">
+        <label>fstream</label>
+      </node>
       <node id="167">
         <label>Utils/String.h</label>
         <childnode refid="168" relation="include">
@@ -35,8 +44,11 @@
         <childnode refid="173" relation="include">
         </childnode>
       </node>
-      <node id="166">
-        <label>cstdint</label>
+      <node id="173">
+        <label>vector</label>
+      </node>
+      <node id="170">
+        <label>sstream</label>
       </node>
       <node id="165">
         <label>Char.h</label>
@@ -46,18 +58,6 @@
         <childnode refid="167" relation="include">
         </childnode>
       </node>
-      <node id="171">
-        <label>string</label>
-      </node>
-      <node id="169">
-        <label>fstream</label>
-      </node>
-      <node id="173">
-        <label>vector</label>
-      </node>
-      <node id="170">
-        <label>sstream</label>
-      </node>
       <node id="168">
         <label>deque</label>
       </node>
@@ -66,20 +66,69 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="175">
-        <label>Config.cpp</label>
+      <node id="191">
+        <label>Parser.cpp</label>
       </node>
-      <node id="192">
-        <label>Scanner.cpp</label>
-      </node>
-      <node id="181">
-        <label>Main.cpp</label>
+      <node id="193">
+        <label>Generator.cpp</label>
       </node>
       <node id="184">
         <label>Main.cpp</label>
       </node>
+      <node id="183">
+        <label>Main.cpp</label>
+      </node>
+      <node id="189">
+        <label>String.cpp</label>
+      </node>
+      <node id="182">
+        <label>Parser.cpp</label>
+      </node>
+      <node id="188">
+        <label>Path.cpp</label>
+      </node>
       <node id="185">
         <label>FileSystem.cpp</label>
+      </node>
+      <node id="175">
+        <label>Config.cpp</label>
+      </node>
+      <node id="176">
+        <label>HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="178">
+        <label>Char.cpp</label>
+      </node>
+      <node id="180">
+        <label>Parser.h</label>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>ParserBase.cpp</label>
+      </node>
+      <node id="179">
+        <label>Option.h</label>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="177">
+        <label>MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="187">
+        <label>ScannerBase.cpp</label>
+      </node>
+      <node id="181">
+        <label>Main.cpp</label>
       </node>
       <node id="174">
         <label>Char.h</label>
@@ -115,60 +164,11 @@
         <childnode refid="194" relation="include">
         </childnode>
       </node>
-      <node id="178">
-        <label>Char.cpp</label>
-      </node>
-      <node id="182">
-        <label>Parser.cpp</label>
-      </node>
-      <node id="188">
-        <label>Path.cpp</label>
-      </node>
-      <node id="193">
-        <label>Generator.cpp</label>
-      </node>
-      <node id="187">
-        <label>ScannerBase.cpp</label>
-      </node>
       <node id="194">
         <label>Group.cpp</label>
       </node>
-      <node id="183">
-        <label>Main.cpp</label>
-      </node>
-      <node id="177">
-        <label>MarkdownCommandWriter.cpp</label>
-      </node>
       <node id="190">
         <label>Node.cpp</label>
-      </node>
-      <node id="189">
-        <label>String.cpp</label>
-      </node>
-      <node id="180">
-        <label>Parser.h</label>
-        <childnode refid="181" relation="include">
-        </childnode>
-        <childnode refid="182" relation="include">
-        </childnode>
-        <childnode refid="183" relation="include">
-        </childnode>
-        <childnode refid="184" relation="include">
-        </childnode>
-      </node>
-      <node id="191">
-        <label>Parser.cpp</label>
-      </node>
-      <node id="179">
-        <label>Option.h</label>
-        <childnode refid="180" relation="include">
-        </childnode>
-      </node>
-      <node id="186">
-        <label>ParserBase.cpp</label>
-      </node>
-      <node id="176">
-        <label>HtmlCommandWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Char" prot="public">MdDox::Char</innerclass>

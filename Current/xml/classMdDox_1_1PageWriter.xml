@@ -172,7 +172,7 @@
         <references refid="classMdDox_1_1SectionDefListingWriter_1a687b673217b074953bb64347127e778a" compoundref="SectionDefListingWriter_8cpp" startline="37" endline="40">MdDox::SectionDefListingWriter::setDepth</references>
         <references refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" compoundref="SectionDefListingWriter_8cpp" startline="177" endline="196">MdDox::SectionDefListingWriter::write</references>
         <references refid="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" compoundref="PageWriter_8h" startline="41">_sections</references>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectionDefQuery_8h" startline="167" endline="170">MdDox::Doxygen::SectionDefQuery::node</references>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">MdDox::Doxygen::SectionDefQuery::node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a7160540760aa919d69427ad74df8ebc5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>

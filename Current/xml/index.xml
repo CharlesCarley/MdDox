@@ -4337,9 +4337,9 @@
   </compound>
   <compound refid="ListItemQuery_8h" kind="file"><name>ListItemQuery.h</name>
   </compound>
-  <compound refid="ListOfAllmembersQuery_8cpp" kind="file"><name>ListOfAllmembersQuery.cpp</name>
+  <compound refid="ListOfAllMembersQuery_8cpp" kind="file"><name>ListOfAllMembersQuery.cpp</name>
   </compound>
-  <compound refid="ListOfAllmembersQuery_8h" kind="file"><name>ListOfAllmembersQuery.h</name>
+  <compound refid="ListOfAllMembersQuery_8h" kind="file"><name>ListOfAllMembersQuery.h</name>
   </compound>
   <compound refid="ListQuery_8cpp" kind="file"><name>ListQuery.cpp</name>
   </compound>
@@ -4380,9 +4380,9 @@
   </compound>
   <compound refid="MemberDefListingWriter_8h" kind="file"><name>MemberDefListingWriter.h</name>
   </compound>
-  <compound refid="MemberDefQuery_8cpp" kind="file"><name>MemberDefQuery.cpp</name>
+  <compound refid="MemberdefQuery_8cpp" kind="file"><name>MemberdefQuery.cpp</name>
   </compound>
-  <compound refid="MemberDefQuery_8h" kind="file"><name>MemberDefQuery.h</name>
+  <compound refid="MemberdefQuery_8h" kind="file"><name>MemberdefQuery.h</name>
   </compound>
   <compound refid="MemberDefWriter_8cpp" kind="file"><name>MemberDefWriter.cpp</name>
   </compound>
@@ -4565,9 +4565,9 @@
   </compound>
   <compound refid="SectionDefListingWriter_8h" kind="file"><name>SectionDefListingWriter.h</name>
   </compound>
-  <compound refid="SectionDefQuery_8cpp" kind="file"><name>SectionDefQuery.cpp</name>
+  <compound refid="SectiondefQuery_8cpp" kind="file"><name>SectiondefQuery.cpp</name>
   </compound>
-  <compound refid="SectionDefQuery_8h" kind="file"><name>SectionDefQuery.h</name>
+  <compound refid="SectiondefQuery_8h" kind="file"><name>SectiondefQuery.h</name>
   </compound>
   <compound refid="SectionDefWriter_8cpp" kind="file"><name>SectionDefWriter.cpp</name>
   </compound>

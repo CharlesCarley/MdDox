@@ -7,117 +7,117 @@
     <includedby refid="MarkupQuery_8cpp" local="yes">MarkupQuery.cpp</includedby>
     <includedby refid="ParaQuery_8cpp" local="yes">ParaQuery.cpp</includedby>
     <incdepgraph>
-      <node id="3615">
+      <node id="3514">
+        <label>Utils/Console.h</label>
+        <childnode refid="3503" relation="include">
+        </childnode>
+      </node>
+      <node id="3501">
         <label>functional</label>
       </node>
-      <node id="3624">
+      <node id="3510">
         <label>Utils/Exception.h</label>
-        <childnode refid="3625" relation="include">
+        <childnode refid="3511" relation="include">
         </childnode>
-        <childnode refid="3626" relation="include">
+        <childnode refid="3512" relation="include">
         </childnode>
-        <childnode refid="3627" relation="include">
+        <childnode refid="3513" relation="include">
         </childnode>
-        <childnode refid="3628" relation="include">
+        <childnode refid="3514" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
-        </childnode>
-      </node>
-      <node id="3617">
-        <label>Utils/String.h</label>
-        <childnode refid="3618" relation="include">
-        </childnode>
-        <childnode refid="3619" relation="include">
-        </childnode>
-        <childnode refid="3620" relation="include">
-        </childnode>
-        <childnode refid="3621" relation="include">
-        </childnode>
-        <childnode refid="3616" relation="include">
-        </childnode>
-        <childnode refid="3622" relation="include">
+        <childnode refid="3503" relation="include">
         </childnode>
       </node>
-      <node id="3613">
-        <label>HeadingQuery.h</label>
-        <link refid="HeadingQuery_8h"/>
-        <childnode refid="3614" relation="include">
-        </childnode>
-      </node>
-      <node id="3626">
+      <node id="3512">
         <label>stdexcept</label>
       </node>
-      <node id="3621">
+      <node id="3507">
         <label>string</label>
       </node>
-      <node id="3623">
-        <label>Xml/Node.h</label>
-        <childnode refid="3615" relation="include">
+      <node id="3500">
+        <label>Doxygen.h</label>
+        <childnode refid="3501" relation="include">
         </childnode>
-        <childnode refid="3616" relation="include">
+        <childnode refid="3502" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
+        <childnode refid="3503" relation="include">
+        </childnode>
+        <childnode refid="3509" relation="include">
+        </childnode>
+        <childnode refid="3510" relation="include">
         </childnode>
       </node>
-      <node id="3625">
+      <node id="3511">
         <label>exception</label>
       </node>
-      <node id="3619">
+      <node id="3505">
         <label>fstream</label>
       </node>
-      <node id="3614">
-        <label>Doxygen.h</label>
-        <childnode refid="3615" relation="include">
+      <node id="3509">
+        <label>Xml/Node.h</label>
+        <childnode refid="3501" relation="include">
         </childnode>
-        <childnode refid="3616" relation="include">
+        <childnode refid="3502" relation="include">
         </childnode>
-        <childnode refid="3617" relation="include">
-        </childnode>
-        <childnode refid="3623" relation="include">
-        </childnode>
-        <childnode refid="3624" relation="include">
+        <childnode refid="3503" relation="include">
         </childnode>
       </node>
-      <node id="3622">
+      <node id="3503">
+        <label>Utils/String.h</label>
+        <childnode refid="3504" relation="include">
+        </childnode>
+        <childnode refid="3505" relation="include">
+        </childnode>
+        <childnode refid="3506" relation="include">
+        </childnode>
+        <childnode refid="3507" relation="include">
+        </childnode>
+        <childnode refid="3502" relation="include">
+        </childnode>
+        <childnode refid="3508" relation="include">
+        </childnode>
+      </node>
+      <node id="3508">
         <label>vector</label>
       </node>
-      <node id="3627">
+      <node id="3513">
         <label>utility</label>
       </node>
-      <node id="3620">
+      <node id="3506">
         <label>sstream</label>
       </node>
-      <node id="3628">
-        <label>Utils/Console.h</label>
-        <childnode refid="3617" relation="include">
-        </childnode>
-      </node>
-      <node id="3618">
+      <node id="3504">
         <label>deque</label>
       </node>
-      <node id="3616">
+      <node id="3502">
         <label>unordered_map</label>
+      </node>
+      <node id="3499">
+        <label>HeadingQuery.h</label>
+        <link refid="HeadingQuery_8h"/>
+        <childnode refid="3500" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3629">
-        <label>HeadingQuery.h</label>
-        <link refid="HeadingQuery_8h"/>
-        <childnode refid="3630" relation="include">
-        </childnode>
-        <childnode refid="3631" relation="include">
-        </childnode>
-        <childnode refid="3632" relation="include">
-        </childnode>
-      </node>
-      <node id="3632">
+      <node id="3518">
         <label>ParaQuery.cpp</label>
       </node>
-      <node id="3631">
+      <node id="3516">
+        <label>HeadingQuery.cpp</label>
+      </node>
+      <node id="3517">
         <label>MarkupQuery.cpp</label>
       </node>
-      <node id="3630">
-        <label>HeadingQuery.cpp</label>
+      <node id="3515">
+        <label>HeadingQuery.h</label>
+        <link refid="HeadingQuery_8h"/>
+        <childnode refid="3516" relation="include">
+        </childnode>
+        <childnode refid="3517" relation="include">
+        </childnode>
+        <childnode refid="3518" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor" prot="public">MdDox::Doxygen::Visitors::HeadingQueryVisitor</innerclass>

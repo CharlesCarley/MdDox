@@ -7,133 +7,133 @@
     <includedby refid="DoxImageKind_8cpp" local="yes">DoxImageKind.cpp</includedby>
     <includedby refid="ImageQuery_8h" local="yes">ImageQuery.h</includedby>
     <incdepgraph>
-      <node id="1611">
+      <node id="1601">
+        <label>Utils/Console.h</label>
+        <childnode refid="1590" relation="include">
+        </childnode>
+      </node>
+      <node id="1588">
         <label>functional</label>
       </node>
-      <node id="1620">
+      <node id="1597">
         <label>Utils/Exception.h</label>
-        <childnode refid="1621" relation="include">
+        <childnode refid="1598" relation="include">
         </childnode>
-        <childnode refid="1622" relation="include">
+        <childnode refid="1599" relation="include">
         </childnode>
-        <childnode refid="1623" relation="include">
+        <childnode refid="1600" relation="include">
         </childnode>
-        <childnode refid="1624" relation="include">
+        <childnode refid="1601" relation="include">
         </childnode>
-        <childnode refid="1613" relation="include">
-        </childnode>
-      </node>
-      <node id="1613">
-        <label>Utils/String.h</label>
-        <childnode refid="1614" relation="include">
-        </childnode>
-        <childnode refid="1615" relation="include">
-        </childnode>
-        <childnode refid="1616" relation="include">
-        </childnode>
-        <childnode refid="1617" relation="include">
-        </childnode>
-        <childnode refid="1612" relation="include">
-        </childnode>
-        <childnode refid="1618" relation="include">
+        <childnode refid="1590" relation="include">
         </childnode>
       </node>
-      <node id="1622">
-        <label>stdexcept</label>
-      </node>
-      <node id="1617">
-        <label>string</label>
-      </node>
-      <node id="1619">
-        <label>Xml/Node.h</label>
-        <childnode refid="1611" relation="include">
-        </childnode>
-        <childnode refid="1612" relation="include">
-        </childnode>
-        <childnode refid="1613" relation="include">
-        </childnode>
-      </node>
-      <node id="1621">
-        <label>exception</label>
-      </node>
-      <node id="1615">
-        <label>fstream</label>
-      </node>
-      <node id="1610">
-        <label>Doxygen.h</label>
-        <childnode refid="1611" relation="include">
-        </childnode>
-        <childnode refid="1612" relation="include">
-        </childnode>
-        <childnode refid="1613" relation="include">
-        </childnode>
-        <childnode refid="1619" relation="include">
-        </childnode>
-        <childnode refid="1620" relation="include">
-        </childnode>
-      </node>
-      <node id="1618">
-        <label>vector</label>
-      </node>
-      <node id="1623">
-        <label>utility</label>
-      </node>
-      <node id="1616">
-        <label>sstream</label>
-      </node>
-      <node id="1624">
-        <label>Utils/Console.h</label>
-        <childnode refid="1613" relation="include">
-        </childnode>
-      </node>
-      <node id="1614">
-        <label>deque</label>
-      </node>
-      <node id="1612">
-        <label>unordered_map</label>
-      </node>
-      <node id="1609">
+      <node id="1586">
         <label>DoxImageKind.h</label>
         <link refid="DoxImageKind_8h"/>
-        <childnode refid="1610" relation="include">
+        <childnode refid="1587" relation="include">
         </childnode>
+      </node>
+      <node id="1599">
+        <label>stdexcept</label>
+      </node>
+      <node id="1594">
+        <label>string</label>
+      </node>
+      <node id="1587">
+        <label>Doxygen.h</label>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>exception</label>
+      </node>
+      <node id="1592">
+        <label>fstream</label>
+      </node>
+      <node id="1596">
+        <label>Xml/Node.h</label>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+      </node>
+      <node id="1590">
+        <label>Utils/String.h</label>
+        <childnode refid="1591" relation="include">
+        </childnode>
+        <childnode refid="1592" relation="include">
+        </childnode>
+        <childnode refid="1593" relation="include">
+        </childnode>
+        <childnode refid="1594" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1595" relation="include">
+        </childnode>
+      </node>
+      <node id="1595">
+        <label>vector</label>
+      </node>
+      <node id="1600">
+        <label>utility</label>
+      </node>
+      <node id="1593">
+        <label>sstream</label>
+      </node>
+      <node id="1591">
+        <label>deque</label>
+      </node>
+      <node id="1589">
+        <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1626">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="1628">
-        <label>ImageQuery.h</label>
-        <childnode refid="1626" relation="include">
-        </childnode>
-        <childnode refid="1629" relation="include">
-        </childnode>
-        <childnode refid="1630" relation="include">
-        </childnode>
-        <childnode refid="1631" relation="include">
-        </childnode>
-      </node>
-      <node id="1629">
-        <label>ImageQuery.cpp</label>
-      </node>
-      <node id="1631">
+      <node id="1608">
         <label>ParaQuery.cpp</label>
       </node>
-      <node id="1627">
-        <label>DoxImageKind.cpp</label>
+      <node id="1606">
+        <label>ImageQuery.cpp</label>
       </node>
-      <node id="1630">
-        <label>MarkupQuery.cpp</label>
-      </node>
-      <node id="1625">
+      <node id="1602">
         <label>DoxImageKind.h</label>
         <link refid="DoxImageKind_8h"/>
-        <childnode refid="1626" relation="include">
+        <childnode refid="1603" relation="include">
         </childnode>
-        <childnode refid="1627" relation="include">
+        <childnode refid="1604" relation="include">
         </childnode>
-        <childnode refid="1628" relation="include">
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="1603">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="1604">
+        <label>DoxImageKind.cpp</label>
+      </node>
+      <node id="1605">
+        <label>ImageQuery.h</label>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1606" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

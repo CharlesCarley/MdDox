@@ -6,111 +6,111 @@
     <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
     <includedby refid="GraphQuery_8cpp" local="yes">GraphQuery.cpp</includedby>
     <incdepgraph>
-      <node id="3496">
-        <label>GraphQuery.h</label>
-        <link refid="GraphQuery_8h"/>
-        <childnode refid="3497" relation="include">
+      <node id="3397">
+        <label>Utils/Console.h</label>
+        <childnode refid="3386" relation="include">
         </childnode>
       </node>
-      <node id="3498">
+      <node id="3384">
         <label>functional</label>
       </node>
-      <node id="3507">
+      <node id="3393">
         <label>Utils/Exception.h</label>
-        <childnode refid="3508" relation="include">
+        <childnode refid="3394" relation="include">
         </childnode>
-        <childnode refid="3509" relation="include">
+        <childnode refid="3395" relation="include">
         </childnode>
-        <childnode refid="3510" relation="include">
+        <childnode refid="3396" relation="include">
         </childnode>
-        <childnode refid="3511" relation="include">
+        <childnode refid="3397" relation="include">
         </childnode>
-        <childnode refid="3500" relation="include">
-        </childnode>
-      </node>
-      <node id="3500">
-        <label>Utils/String.h</label>
-        <childnode refid="3501" relation="include">
-        </childnode>
-        <childnode refid="3502" relation="include">
-        </childnode>
-        <childnode refid="3503" relation="include">
-        </childnode>
-        <childnode refid="3504" relation="include">
-        </childnode>
-        <childnode refid="3499" relation="include">
-        </childnode>
-        <childnode refid="3505" relation="include">
+        <childnode refid="3386" relation="include">
         </childnode>
       </node>
-      <node id="3509">
+      <node id="3395">
         <label>stdexcept</label>
       </node>
-      <node id="3504">
+      <node id="3390">
         <label>string</label>
       </node>
-      <node id="3506">
-        <label>Xml/Node.h</label>
-        <childnode refid="3498" relation="include">
+      <node id="3383">
+        <label>Doxygen.h</label>
+        <childnode refid="3384" relation="include">
         </childnode>
-        <childnode refid="3499" relation="include">
+        <childnode refid="3385" relation="include">
         </childnode>
-        <childnode refid="3500" relation="include">
+        <childnode refid="3386" relation="include">
+        </childnode>
+        <childnode refid="3392" relation="include">
+        </childnode>
+        <childnode refid="3393" relation="include">
         </childnode>
       </node>
-      <node id="3508">
+      <node id="3394">
         <label>exception</label>
       </node>
-      <node id="3502">
+      <node id="3388">
         <label>fstream</label>
       </node>
-      <node id="3497">
-        <label>Doxygen.h</label>
-        <childnode refid="3498" relation="include">
+      <node id="3392">
+        <label>Xml/Node.h</label>
+        <childnode refid="3384" relation="include">
         </childnode>
-        <childnode refid="3499" relation="include">
+        <childnode refid="3385" relation="include">
         </childnode>
-        <childnode refid="3500" relation="include">
-        </childnode>
-        <childnode refid="3506" relation="include">
-        </childnode>
-        <childnode refid="3507" relation="include">
+        <childnode refid="3386" relation="include">
         </childnode>
       </node>
-      <node id="3505">
+      <node id="3382">
+        <label>GraphQuery.h</label>
+        <link refid="GraphQuery_8h"/>
+        <childnode refid="3383" relation="include">
+        </childnode>
+      </node>
+      <node id="3386">
+        <label>Utils/String.h</label>
+        <childnode refid="3387" relation="include">
+        </childnode>
+        <childnode refid="3388" relation="include">
+        </childnode>
+        <childnode refid="3389" relation="include">
+        </childnode>
+        <childnode refid="3390" relation="include">
+        </childnode>
+        <childnode refid="3385" relation="include">
+        </childnode>
+        <childnode refid="3391" relation="include">
+        </childnode>
+      </node>
+      <node id="3391">
         <label>vector</label>
       </node>
-      <node id="3510">
+      <node id="3396">
         <label>utility</label>
       </node>
-      <node id="3503">
+      <node id="3389">
         <label>sstream</label>
       </node>
-      <node id="3511">
-        <label>Utils/Console.h</label>
-        <childnode refid="3500" relation="include">
-        </childnode>
-      </node>
-      <node id="3501">
+      <node id="3387">
         <label>deque</label>
       </node>
-      <node id="3499">
+      <node id="3385">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3512">
+      <node id="3398">
         <label>GraphQuery.h</label>
         <link refid="GraphQuery_8h"/>
-        <childnode refid="3513" relation="include">
+        <childnode refid="3399" relation="include">
         </childnode>
-        <childnode refid="3514" relation="include">
+        <childnode refid="3400" relation="include">
         </childnode>
       </node>
-      <node id="3513">
+      <node id="3399">
         <label>CompoundDefQuery.cpp</label>
       </node>
-      <node id="3514">
+      <node id="3400">
         <label>GraphQuery.cpp</label>
       </node>
     </invincdepgraph>

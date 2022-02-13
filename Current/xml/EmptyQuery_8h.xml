@@ -14,152 +14,152 @@
     <includedby refid="TocItemQuery_8cpp" local="yes">TocItemQuery.cpp</includedby>
     <includedby refid="UrlLinkQuery_8cpp" local="yes">UrlLinkQuery.cpp</includedby>
     <incdepgraph>
-      <node id="2672">
+      <node id="2612">
+        <label>Utils/Console.h</label>
+        <childnode refid="2601" relation="include">
+        </childnode>
+      </node>
+      <node id="2599">
         <label>functional</label>
       </node>
-      <node id="2681">
+      <node id="2608">
         <label>Utils/Exception.h</label>
-        <childnode refid="2682" relation="include">
+        <childnode refid="2609" relation="include">
         </childnode>
-        <childnode refid="2683" relation="include">
+        <childnode refid="2610" relation="include">
         </childnode>
-        <childnode refid="2684" relation="include">
+        <childnode refid="2611" relation="include">
         </childnode>
-        <childnode refid="2685" relation="include">
+        <childnode refid="2612" relation="include">
         </childnode>
-        <childnode refid="2674" relation="include">
-        </childnode>
-      </node>
-      <node id="2674">
-        <label>Utils/String.h</label>
-        <childnode refid="2675" relation="include">
-        </childnode>
-        <childnode refid="2676" relation="include">
-        </childnode>
-        <childnode refid="2677" relation="include">
-        </childnode>
-        <childnode refid="2678" relation="include">
-        </childnode>
-        <childnode refid="2673" relation="include">
-        </childnode>
-        <childnode refid="2679" relation="include">
+        <childnode refid="2601" relation="include">
         </childnode>
       </node>
-      <node id="2683">
+      <node id="2610">
         <label>stdexcept</label>
       </node>
-      <node id="2678">
+      <node id="2605">
         <label>string</label>
       </node>
-      <node id="2680">
-        <label>Xml/Node.h</label>
-        <childnode refid="2672" relation="include">
+      <node id="2598">
+        <label>Doxygen.h</label>
+        <childnode refid="2599" relation="include">
         </childnode>
-        <childnode refid="2673" relation="include">
+        <childnode refid="2600" relation="include">
         </childnode>
-        <childnode refid="2674" relation="include">
+        <childnode refid="2601" relation="include">
+        </childnode>
+        <childnode refid="2607" relation="include">
+        </childnode>
+        <childnode refid="2608" relation="include">
         </childnode>
       </node>
-      <node id="2682">
+      <node id="2609">
         <label>exception</label>
       </node>
-      <node id="2676">
+      <node id="2603">
         <label>fstream</label>
       </node>
-      <node id="2671">
-        <label>Doxygen.h</label>
-        <childnode refid="2672" relation="include">
+      <node id="2607">
+        <label>Xml/Node.h</label>
+        <childnode refid="2599" relation="include">
         </childnode>
-        <childnode refid="2673" relation="include">
+        <childnode refid="2600" relation="include">
         </childnode>
-        <childnode refid="2674" relation="include">
-        </childnode>
-        <childnode refid="2680" relation="include">
-        </childnode>
-        <childnode refid="2681" relation="include">
+        <childnode refid="2601" relation="include">
         </childnode>
       </node>
-      <node id="2670">
-        <label>EmptyQuery.h</label>
-        <link refid="EmptyQuery_8h"/>
-        <childnode refid="2671" relation="include">
+      <node id="2601">
+        <label>Utils/String.h</label>
+        <childnode refid="2602" relation="include">
+        </childnode>
+        <childnode refid="2603" relation="include">
+        </childnode>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+        <childnode refid="2600" relation="include">
+        </childnode>
+        <childnode refid="2606" relation="include">
         </childnode>
       </node>
-      <node id="2679">
+      <node id="2606">
         <label>vector</label>
       </node>
-      <node id="2684">
+      <node id="2611">
         <label>utility</label>
       </node>
-      <node id="2677">
+      <node id="2604">
         <label>sstream</label>
       </node>
-      <node id="2685">
-        <label>Utils/Console.h</label>
-        <childnode refid="2674" relation="include">
-        </childnode>
-      </node>
-      <node id="2675">
+      <node id="2602">
         <label>deque</label>
       </node>
-      <node id="2673">
+      <node id="2600">
         <label>unordered_map</label>
+      </node>
+      <node id="2597">
+        <label>EmptyQuery.h</label>
+        <link refid="EmptyQuery_8h"/>
+        <childnode refid="2598" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2688">
-        <label>EmptyQuery.cpp</label>
-      </node>
-      <node id="2691">
-        <label>ImageQuery.cpp</label>
-      </node>
-      <node id="2694">
-        <label>TitleQuery.cpp</label>
-      </node>
-      <node id="2696">
-        <label>UrlLinkQuery.cpp</label>
-      </node>
-      <node id="2693">
+      <node id="2620">
         <label>ParaQuery.cpp</label>
       </node>
-      <node id="2686">
-        <label>EmptyQuery.h</label>
-        <link refid="EmptyQuery_8h"/>
-        <childnode refid="2687" relation="include">
-        </childnode>
-        <childnode refid="2688" relation="include">
-        </childnode>
-        <childnode refid="2689" relation="include">
-        </childnode>
-        <childnode refid="2690" relation="include">
-        </childnode>
-        <childnode refid="2691" relation="include">
-        </childnode>
-        <childnode refid="2692" relation="include">
-        </childnode>
-        <childnode refid="2693" relation="include">
-        </childnode>
-        <childnode refid="2694" relation="include">
-        </childnode>
-        <childnode refid="2695" relation="include">
-        </childnode>
-        <childnode refid="2696" relation="include">
-        </childnode>
+      <node id="2618">
+        <label>ImageQuery.cpp</label>
       </node>
-      <node id="2687">
-        <label>CaptionQuery.cpp</label>
-      </node>
-      <node id="2689">
-        <label>FileQuery.cpp</label>
-      </node>
-      <node id="2692">
-        <label>MarkupQuery.cpp</label>
-      </node>
-      <node id="2690">
+      <node id="2617">
         <label>HeadingQuery.cpp</label>
       </node>
-      <node id="2695">
+      <node id="2623">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="2622">
         <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="2619">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="2614">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="2621">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="2615">
+        <label>EmptyQuery.cpp</label>
+      </node>
+      <node id="2616">
+        <label>FileQuery.cpp</label>
+      </node>
+      <node id="2613">
+        <label>EmptyQuery.h</label>
+        <link refid="EmptyQuery_8h"/>
+        <childnode refid="2614" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+        <childnode refid="2616" relation="include">
+        </childnode>
+        <childnode refid="2617" relation="include">
+        </childnode>
+        <childnode refid="2618" relation="include">
+        </childnode>
+        <childnode refid="2619" relation="include">
+        </childnode>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2621" relation="include">
+        </childnode>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2623" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1EmptyQuery" prot="public">MdDox::Doxygen::EmptyQuery</innerclass>

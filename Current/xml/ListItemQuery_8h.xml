@@ -7,117 +7,117 @@
     <includedby refid="ListItemQuery_8cpp" local="yes">ListItemQuery.cpp</includedby>
     <includedby refid="ListQuery_8cpp" local="yes">ListQuery.cpp</includedby>
     <incdepgraph>
-      <node id="4570">
+      <node id="4469">
+        <label>Utils/Console.h</label>
+        <childnode refid="4458" relation="include">
+        </childnode>
+      </node>
+      <node id="4456">
         <label>functional</label>
       </node>
-      <node id="4579">
+      <node id="4465">
         <label>Utils/Exception.h</label>
-        <childnode refid="4580" relation="include">
+        <childnode refid="4466" relation="include">
         </childnode>
-        <childnode refid="4581" relation="include">
+        <childnode refid="4467" relation="include">
         </childnode>
-        <childnode refid="4582" relation="include">
+        <childnode refid="4468" relation="include">
         </childnode>
-        <childnode refid="4583" relation="include">
+        <childnode refid="4469" relation="include">
         </childnode>
-        <childnode refid="4572" relation="include">
-        </childnode>
-      </node>
-      <node id="4572">
-        <label>Utils/String.h</label>
-        <childnode refid="4573" relation="include">
-        </childnode>
-        <childnode refid="4574" relation="include">
-        </childnode>
-        <childnode refid="4575" relation="include">
-        </childnode>
-        <childnode refid="4576" relation="include">
-        </childnode>
-        <childnode refid="4571" relation="include">
-        </childnode>
-        <childnode refid="4577" relation="include">
+        <childnode refid="4458" relation="include">
         </childnode>
       </node>
-      <node id="4581">
+      <node id="4467">
         <label>stdexcept</label>
       </node>
-      <node id="4576">
+      <node id="4462">
         <label>string</label>
       </node>
-      <node id="4578">
-        <label>Xml/Node.h</label>
-        <childnode refid="4570" relation="include">
+      <node id="4455">
+        <label>Doxygen.h</label>
+        <childnode refid="4456" relation="include">
         </childnode>
-        <childnode refid="4571" relation="include">
+        <childnode refid="4457" relation="include">
         </childnode>
-        <childnode refid="4572" relation="include">
+        <childnode refid="4458" relation="include">
+        </childnode>
+        <childnode refid="4464" relation="include">
+        </childnode>
+        <childnode refid="4465" relation="include">
         </childnode>
       </node>
-      <node id="4580">
+      <node id="4466">
         <label>exception</label>
       </node>
-      <node id="4574">
+      <node id="4460">
         <label>fstream</label>
       </node>
-      <node id="4569">
-        <label>Doxygen.h</label>
-        <childnode refid="4570" relation="include">
+      <node id="4464">
+        <label>Xml/Node.h</label>
+        <childnode refid="4456" relation="include">
         </childnode>
-        <childnode refid="4571" relation="include">
+        <childnode refid="4457" relation="include">
         </childnode>
-        <childnode refid="4572" relation="include">
-        </childnode>
-        <childnode refid="4578" relation="include">
-        </childnode>
-        <childnode refid="4579" relation="include">
+        <childnode refid="4458" relation="include">
         </childnode>
       </node>
-      <node id="4577">
-        <label>vector</label>
-      </node>
-      <node id="4582">
-        <label>utility</label>
-      </node>
-      <node id="4575">
-        <label>sstream</label>
-      </node>
-      <node id="4583">
-        <label>Utils/Console.h</label>
-        <childnode refid="4572" relation="include">
+      <node id="4458">
+        <label>Utils/String.h</label>
+        <childnode refid="4459" relation="include">
+        </childnode>
+        <childnode refid="4460" relation="include">
+        </childnode>
+        <childnode refid="4461" relation="include">
+        </childnode>
+        <childnode refid="4462" relation="include">
+        </childnode>
+        <childnode refid="4457" relation="include">
+        </childnode>
+        <childnode refid="4463" relation="include">
         </childnode>
       </node>
-      <node id="4568">
+      <node id="4454">
         <label>ListItemQuery.h</label>
         <link refid="ListItemQuery_8h"/>
-        <childnode refid="4569" relation="include">
+        <childnode refid="4455" relation="include">
         </childnode>
       </node>
-      <node id="4573">
+      <node id="4463">
+        <label>vector</label>
+      </node>
+      <node id="4468">
+        <label>utility</label>
+      </node>
+      <node id="4461">
+        <label>sstream</label>
+      </node>
+      <node id="4459">
         <label>deque</label>
       </node>
-      <node id="4571">
+      <node id="4457">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4585">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="4587">
+      <node id="4473">
         <label>ListQuery.cpp</label>
       </node>
-      <node id="4584">
+      <node id="4472">
+        <label>ListItemQuery.cpp</label>
+      </node>
+      <node id="4470">
         <label>ListItemQuery.h</label>
         <link refid="ListItemQuery_8h"/>
-        <childnode refid="4585" relation="include">
+        <childnode refid="4471" relation="include">
         </childnode>
-        <childnode refid="4586" relation="include">
+        <childnode refid="4472" relation="include">
         </childnode>
-        <childnode refid="4587" relation="include">
+        <childnode refid="4473" relation="include">
         </childnode>
       </node>
-      <node id="4586">
-        <label>ListItemQuery.cpp</label>
+      <node id="4471">
+        <label>ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListItemQueryVisitor</innerclass>

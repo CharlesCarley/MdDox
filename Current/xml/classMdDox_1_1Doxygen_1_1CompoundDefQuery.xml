@@ -699,7 +699,7 @@
         <location file="Tools/Doxygen/CompoundDefQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="368" bodyend="377"/>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="224" endline="235">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a57a09154bc9d27505e214917b615eaa5" compoundref="ListOfAllmembersQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListOfAllMembersQuery::reset</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a57a09154bc9d27505e214917b615eaa5" compoundref="ListOfAllMembersQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListOfAllMembersQuery::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a65e5f1b0154f333af438040acb79c86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref></type>

@@ -14,152 +14,152 @@
     <includedby refid="TocItemQuery_8cpp" local="yes">TocItemQuery.cpp</includedby>
     <includedby refid="UrlLinkQuery_8cpp" local="yes">UrlLinkQuery.cpp</includedby>
     <incdepgraph>
-      <node id="8741">
+      <node id="8541">
+        <label>Utils/Console.h</label>
+        <childnode refid="8530" relation="include">
+        </childnode>
+      </node>
+      <node id="8528">
         <label>functional</label>
       </node>
-      <node id="8750">
+      <node id="8537">
         <label>Utils/Exception.h</label>
-        <childnode refid="8751" relation="include">
+        <childnode refid="8538" relation="include">
         </childnode>
-        <childnode refid="8752" relation="include">
+        <childnode refid="8539" relation="include">
         </childnode>
-        <childnode refid="8753" relation="include">
+        <childnode refid="8540" relation="include">
         </childnode>
-        <childnode refid="8754" relation="include">
+        <childnode refid="8541" relation="include">
         </childnode>
-        <childnode refid="8743" relation="include">
-        </childnode>
-      </node>
-      <node id="8743">
-        <label>Utils/String.h</label>
-        <childnode refid="8744" relation="include">
-        </childnode>
-        <childnode refid="8745" relation="include">
-        </childnode>
-        <childnode refid="8746" relation="include">
-        </childnode>
-        <childnode refid="8747" relation="include">
-        </childnode>
-        <childnode refid="8742" relation="include">
-        </childnode>
-        <childnode refid="8748" relation="include">
+        <childnode refid="8530" relation="include">
         </childnode>
       </node>
-      <node id="8739">
+      <node id="8526">
         <label>UrlLinkQuery.h</label>
         <link refid="UrlLinkQuery_8h"/>
-        <childnode refid="8740" relation="include">
+        <childnode refid="8527" relation="include">
         </childnode>
       </node>
-      <node id="8752">
+      <node id="8539">
         <label>stdexcept</label>
       </node>
-      <node id="8747">
+      <node id="8534">
         <label>string</label>
       </node>
-      <node id="8749">
-        <label>Xml/Node.h</label>
-        <childnode refid="8741" relation="include">
+      <node id="8527">
+        <label>Doxygen.h</label>
+        <childnode refid="8528" relation="include">
         </childnode>
-        <childnode refid="8742" relation="include">
+        <childnode refid="8529" relation="include">
         </childnode>
-        <childnode refid="8743" relation="include">
+        <childnode refid="8530" relation="include">
+        </childnode>
+        <childnode refid="8536" relation="include">
+        </childnode>
+        <childnode refid="8537" relation="include">
         </childnode>
       </node>
-      <node id="8751">
+      <node id="8538">
         <label>exception</label>
       </node>
-      <node id="8745">
+      <node id="8532">
         <label>fstream</label>
       </node>
-      <node id="8740">
-        <label>Doxygen.h</label>
-        <childnode refid="8741" relation="include">
+      <node id="8536">
+        <label>Xml/Node.h</label>
+        <childnode refid="8528" relation="include">
         </childnode>
-        <childnode refid="8742" relation="include">
+        <childnode refid="8529" relation="include">
         </childnode>
-        <childnode refid="8743" relation="include">
-        </childnode>
-        <childnode refid="8749" relation="include">
-        </childnode>
-        <childnode refid="8750" relation="include">
+        <childnode refid="8530" relation="include">
         </childnode>
       </node>
-      <node id="8748">
+      <node id="8530">
+        <label>Utils/String.h</label>
+        <childnode refid="8531" relation="include">
+        </childnode>
+        <childnode refid="8532" relation="include">
+        </childnode>
+        <childnode refid="8533" relation="include">
+        </childnode>
+        <childnode refid="8534" relation="include">
+        </childnode>
+        <childnode refid="8529" relation="include">
+        </childnode>
+        <childnode refid="8535" relation="include">
+        </childnode>
+      </node>
+      <node id="8535">
         <label>vector</label>
       </node>
-      <node id="8753">
+      <node id="8540">
         <label>utility</label>
       </node>
-      <node id="8746">
+      <node id="8533">
         <label>sstream</label>
       </node>
-      <node id="8754">
-        <label>Utils/Console.h</label>
-        <childnode refid="8743" relation="include">
-        </childnode>
-      </node>
-      <node id="8744">
+      <node id="8531">
         <label>deque</label>
       </node>
-      <node id="8742">
+      <node id="8529">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8755">
-        <label>UrlLinkQuery.h</label>
-        <link refid="UrlLinkQuery_8h"/>
-        <childnode refid="8756" relation="include">
-        </childnode>
-        <childnode refid="8757" relation="include">
-        </childnode>
-        <childnode refid="8758" relation="include">
-        </childnode>
-        <childnode refid="8759" relation="include">
-        </childnode>
-        <childnode refid="8760" relation="include">
-        </childnode>
-        <childnode refid="8761" relation="include">
-        </childnode>
-        <childnode refid="8762" relation="include">
-        </childnode>
-        <childnode refid="8763" relation="include">
-        </childnode>
-        <childnode refid="8764" relation="include">
-        </childnode>
-        <childnode refid="8765" relation="include">
-        </childnode>
-      </node>
-      <node id="8756">
-        <label>ParagraphWriter.cpp</label>
-      </node>
-      <node id="8760">
-        <label>ImageQuery.cpp</label>
-      </node>
-      <node id="8763">
-        <label>TitleQuery.cpp</label>
-      </node>
-      <node id="8765">
-        <label>UrlLinkQuery.cpp</label>
-      </node>
-      <node id="8762">
+      <node id="8549">
         <label>ParaQuery.cpp</label>
       </node>
-      <node id="8757">
-        <label>CaptionQuery.cpp</label>
+      <node id="8547">
+        <label>ImageQuery.cpp</label>
       </node>
-      <node id="8758">
-        <label>FileQuery.cpp</label>
-      </node>
-      <node id="8761">
-        <label>MarkupQuery.cpp</label>
-      </node>
-      <node id="8759">
+      <node id="8546">
         <label>HeadingQuery.cpp</label>
       </node>
-      <node id="8764">
+      <node id="8542">
+        <label>UrlLinkQuery.h</label>
+        <link refid="UrlLinkQuery_8h"/>
+        <childnode refid="8543" relation="include">
+        </childnode>
+        <childnode refid="8544" relation="include">
+        </childnode>
+        <childnode refid="8545" relation="include">
+        </childnode>
+        <childnode refid="8546" relation="include">
+        </childnode>
+        <childnode refid="8547" relation="include">
+        </childnode>
+        <childnode refid="8548" relation="include">
+        </childnode>
+        <childnode refid="8549" relation="include">
+        </childnode>
+        <childnode refid="8550" relation="include">
+        </childnode>
+        <childnode refid="8551" relation="include">
+        </childnode>
+        <childnode refid="8552" relation="include">
+        </childnode>
+      </node>
+      <node id="8552">
+        <label>UrlLinkQuery.cpp</label>
+      </node>
+      <node id="8551">
         <label>TocItemQuery.cpp</label>
+      </node>
+      <node id="8548">
+        <label>MarkupQuery.cpp</label>
+      </node>
+      <node id="8544">
+        <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="8550">
+        <label>TitleQuery.cpp</label>
+      </node>
+      <node id="8543">
+        <label>ParagraphWriter.cpp</label>
+      </node>
+      <node id="8545">
+        <label>FileQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor" prot="public">MdDox::Doxygen::Visitors::UrlLinkQueryVisitor</innerclass>

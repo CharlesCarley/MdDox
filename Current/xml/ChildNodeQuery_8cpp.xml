@@ -5,8 +5,16 @@
     <includes refid="ChildNodeQuery_8h" local="yes">ChildNodeQuery.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <incdepgraph>
+      <node id="211">
+        <label>Utils/Console.h</label>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
       <node id="198">
         <label>functional</label>
+      </node>
+      <node id="215">
+        <label>cstdint</label>
       </node>
       <node id="207">
         <label>Utils/Exception.h</label>
@@ -17,6 +25,48 @@
         <childnode refid="210" relation="include">
         </childnode>
         <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>stdexcept</label>
+      </node>
+      <node id="195">
+        <label>ChildNodeQuery.cpp</label>
+        <link refid="ChildNodeQuery_8cpp"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>string</label>
+      </node>
+      <node id="197">
+        <label>Doxygen.h</label>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>exception</label>
+      </node>
+      <node id="202">
+        <label>fstream</label>
+      </node>
+      <node id="206">
+        <label>Xml/Node.h</label>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
         </childnode>
         <childnode refid="200" relation="include">
         </childnode>
@@ -36,70 +86,8 @@
         <childnode refid="205" relation="include">
         </childnode>
       </node>
-      <node id="215">
-        <label>cstdint</label>
-      </node>
-      <node id="209">
-        <label>stdexcept</label>
-      </node>
-      <node id="212">
-        <label>DoxGraphRelation.h</label>
-        <childnode refid="197" relation="include">
-        </childnode>
-      </node>
-      <node id="204">
-        <label>string</label>
-      </node>
-      <node id="195">
-        <label>ChildNodeQuery.cpp</label>
-        <link refid="ChildNodeQuery_8cpp"/>
-        <childnode refid="196" relation="include">
-        </childnode>
-        <childnode refid="213" relation="include">
-        </childnode>
-      </node>
-      <node id="206">
-        <label>Xml/Node.h</label>
-        <childnode refid="198" relation="include">
-        </childnode>
-        <childnode refid="199" relation="include">
-        </childnode>
-        <childnode refid="200" relation="include">
-        </childnode>
-      </node>
-      <node id="213">
-        <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="214" relation="include">
-        </childnode>
-      </node>
-      <node id="208">
-        <label>exception</label>
-      </node>
-      <node id="202">
-        <label>fstream</label>
-      </node>
-      <node id="197">
-        <label>Doxygen.h</label>
-        <childnode refid="198" relation="include">
-        </childnode>
-        <childnode refid="199" relation="include">
-        </childnode>
-        <childnode refid="200" relation="include">
-        </childnode>
-        <childnode refid="206" relation="include">
-        </childnode>
-        <childnode refid="207" relation="include">
-        </childnode>
-      </node>
       <node id="205">
         <label>vector</label>
-      </node>
-      <node id="196">
-        <label>ChildNodeQuery.h</label>
-        <childnode refid="197" relation="include">
-        </childnode>
-        <childnode refid="212" relation="include">
-        </childnode>
       </node>
       <node id="210">
         <label>utility</label>
@@ -107,9 +95,14 @@
       <node id="203">
         <label>sstream</label>
       </node>
-      <node id="211">
-        <label>Utils/Console.h</label>
-        <childnode refid="200" relation="include">
+      <node id="212">
+        <label>DoxGraphRelation.h</label>
+        <childnode refid="197" relation="include">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="214" relation="include">
         </childnode>
       </node>
       <node id="201">
@@ -117,6 +110,13 @@
       </node>
       <node id="199">
         <label>unordered_map</label>
+      </node>
+      <node id="196">
+        <label>ChildNodeQuery.h</label>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
       </node>
       <node id="214">
         <label>Utils/TypeFilter.h</label>

@@ -16,6 +16,11 @@
     <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
     <includedby refid="DoxygenQuery_8cpp" local="yes">DoxygenQuery.cpp</includedby>
     <incdepgraph>
+      <node id="483">
+        <label>Utils/Console.h</label>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
       <node id="470">
         <label>functional</label>
       </node>
@@ -30,6 +35,64 @@
         <childnode refid="483" relation="include">
         </childnode>
         <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="485">
+        <label>DoxLanguage.h</label>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>stdexcept</label>
+      </node>
+      <node id="476">
+        <label>string</label>
+      </node>
+      <node id="469">
+        <label>Doxygen.h</label>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>exception</label>
+      </node>
+      <node id="474">
+        <label>fstream</label>
+      </node>
+      <node id="478">
+        <label>Xml/Node.h</label>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>CompoundDefQuery.h</label>
+        <link refid="CompoundDefQuery_8h"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="469" relation="include">
         </childnode>
       </node>
       <node id="472">
@@ -47,69 +110,6 @@
         <childnode refid="477" relation="include">
         </childnode>
       </node>
-      <node id="468">
-        <label>CompoundDefQuery.h</label>
-        <link refid="CompoundDefQuery_8h"/>
-        <childnode refid="469" relation="include">
-        </childnode>
-        <childnode refid="484" relation="include">
-        </childnode>
-        <childnode refid="485" relation="include">
-        </childnode>
-        <childnode refid="486" relation="include">
-        </childnode>
-        <childnode refid="487" relation="include">
-        </childnode>
-      </node>
-      <node id="485">
-        <label>DoxLanguage.h</label>
-        <childnode refid="469" relation="include">
-        </childnode>
-      </node>
-      <node id="481">
-        <label>stdexcept</label>
-      </node>
-      <node id="476">
-        <label>string</label>
-      </node>
-      <node id="478">
-        <label>Xml/Node.h</label>
-        <childnode refid="470" relation="include">
-        </childnode>
-        <childnode refid="471" relation="include">
-        </childnode>
-        <childnode refid="472" relation="include">
-        </childnode>
-      </node>
-      <node id="480">
-        <label>exception</label>
-      </node>
-      <node id="474">
-        <label>fstream</label>
-      </node>
-      <node id="486">
-        <label>DoxProtectionKind.h</label>
-        <childnode refid="469" relation="include">
-        </childnode>
-      </node>
-      <node id="469">
-        <label>Doxygen.h</label>
-        <childnode refid="470" relation="include">
-        </childnode>
-        <childnode refid="471" relation="include">
-        </childnode>
-        <childnode refid="472" relation="include">
-        </childnode>
-        <childnode refid="478" relation="include">
-        </childnode>
-        <childnode refid="479" relation="include">
-        </childnode>
-      </node>
-      <node id="484">
-        <label>DoxCompoundKind.h</label>
-        <childnode refid="469" relation="include">
-        </childnode>
-      </node>
       <node id="477">
         <label>vector</label>
       </node>
@@ -119,38 +119,64 @@
       <node id="475">
         <label>sstream</label>
       </node>
-      <node id="483">
-        <label>Utils/Console.h</label>
-        <childnode refid="472" relation="include">
-        </childnode>
-      </node>
-      <node id="487">
-        <label>DoxBool.h</label>
-        <childnode refid="469" relation="include">
-        </childnode>
-      </node>
       <node id="473">
         <label>deque</label>
       </node>
       <node id="471">
         <label>unordered_map</label>
       </node>
+      <node id="487">
+        <label>DoxBool.h</label>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>DoxCompoundKind.h</label>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="510">
+        <label>ParameterWriter.cpp</label>
+      </node>
       <node id="507">
         <label>MemberDefWriter.cpp</label>
       </node>
-      <node id="503">
-        <label>FunctionDefWriter.cpp</label>
+      <node id="496">
+        <label>GenericPageWriter.cpp</label>
       </node>
-      <node id="501">
-        <label>DescriptionWriter.cpp</label>
+      <node id="516">
+        <label>SectionDefWriter.cpp</label>
       </node>
       <node id="517">
         <label>WriteUtils.cpp</label>
       </node>
-      <node id="519">
-        <label>DoxygenQuery.cpp</label>
+      <node id="497">
+        <label>NamespacePageWriter.h</label>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+      </node>
+      <node id="514">
+        <label>Section4Writer.cpp</label>
+      </node>
+      <node id="502">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="490">
+        <label>ClassPageWriter.h</label>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="499">
+        <label>PageWriter.cpp</label>
       </node>
       <node id="488">
         <label>CompoundDefQuery.h</label>
@@ -172,51 +198,32 @@
         <childnode refid="519" relation="include">
         </childnode>
       </node>
-      <node id="510">
-        <label>ParameterWriter.cpp</label>
+      <node id="513">
+        <label>Section3Writer.cpp</label>
       </node>
-      <node id="506">
-        <label>MemberDefListingWriter.cpp</label>
+      <node id="503">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="512">
+        <label>Section2Writer.cpp</label>
+      </node>
+      <node id="501">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="491">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="509">
+        <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="511">
+        <label>Section1Writer.cpp</label>
       </node>
       <node id="508">
         <label>ParagraphWriter.cpp</label>
       </node>
       <node id="504">
         <label>LinkedTextWriter.cpp</label>
-      </node>
-      <node id="494">
-        <label>DirectoryPageWriter.cpp</label>
-      </node>
-      <node id="499">
-        <label>PageWriter.cpp</label>
-      </node>
-      <node id="492">
-        <label>IndexPageWriter.cpp</label>
-      </node>
-      <node id="496">
-        <label>GenericPageWriter.cpp</label>
-      </node>
-      <node id="502">
-        <label>EnumDefWriter.cpp</label>
-      </node>
-      <node id="491">
-        <label>ClassPageWriter.cpp</label>
-      </node>
-      <node id="515">
-        <label>SectionDefListingWriter.cpp</label>
-      </node>
-      <node id="516">
-        <label>SectionDefWriter.cpp</label>
-      </node>
-      <node id="493">
-        <label>DirectoryPageWriter.h</label>
-        <childnode refid="494" relation="include">
-        </childnode>
-        <childnode refid="492" relation="include">
-        </childnode>
-      </node>
-      <node id="498">
-        <label>NamespacePageWriter.cpp</label>
       </node>
       <node id="500">
         <label>WriteUtils.h</label>
@@ -263,12 +270,17 @@
         <childnode refid="517" relation="include">
         </childnode>
       </node>
-      <node id="497">
-        <label>NamespacePageWriter.h</label>
-        <childnode refid="492" relation="include">
-        </childnode>
-        <childnode refid="498" relation="include">
-        </childnode>
+      <node id="515">
+        <label>SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="519">
+        <label>DoxygenQuery.cpp</label>
+      </node>
+      <node id="518">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="506">
+        <label>MemberDefListingWriter.cpp</label>
       </node>
       <node id="495">
         <label>GenericPageWriter.h</label>
@@ -276,24 +288,6 @@
         </childnode>
         <childnode refid="492" relation="include">
         </childnode>
-      </node>
-      <node id="518">
-        <label>CompoundDefQuery.cpp</label>
-      </node>
-      <node id="514">
-        <label>Section4Writer.cpp</label>
-      </node>
-      <node id="513">
-        <label>Section3Writer.cpp</label>
-      </node>
-      <node id="505">
-        <label>LocationWriter.cpp</label>
-      </node>
-      <node id="512">
-        <label>Section2Writer.cpp</label>
-      </node>
-      <node id="511">
-        <label>Section1Writer.cpp</label>
       </node>
       <node id="489">
         <label>PageWriter.h</label>
@@ -308,15 +302,21 @@
         <childnode refid="499" relation="include">
         </childnode>
       </node>
-      <node id="509">
-        <label>ParameterListWriter.cpp</label>
+      <node id="505">
+        <label>LocationWriter.cpp</label>
       </node>
-      <node id="490">
-        <label>ClassPageWriter.h</label>
-        <childnode refid="491" relation="include">
+      <node id="494">
+        <label>DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="493">
+        <label>DirectoryPageWriter.h</label>
+        <childnode refid="494" relation="include">
         </childnode>
         <childnode refid="492" relation="include">
         </childnode>
+      </node>
+      <node id="492">
+        <label>IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</innerclass>

@@ -8,165 +8,111 @@
     <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
     <includedby refid="DescriptionQuery_8cpp" local="yes">DescriptionQuery.cpp</includedby>
     <includedby refid="EnumValueQuery_8cpp" local="yes">EnumValueQuery.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">MemberDefQuery.cpp</includedby>
+    <includedby refid="MemberdefQuery_8cpp" local="yes">MemberdefQuery.cpp</includedby>
     <includedby refid="ParamListItemQuery_8cpp" local="yes">ParamListItemQuery.cpp</includedby>
     <includedby refid="ParamQuery_8cpp" local="yes">ParamQuery.cpp</includedby>
-    <includedby refid="SectionDefQuery_8cpp" local="yes">SectionDefQuery.cpp</includedby>
+    <includedby refid="SectiondefQuery_8cpp" local="yes">SectiondefQuery.cpp</includedby>
     <incdepgraph>
-      <node id="1041">
+      <node id="1049">
+        <label>Utils/Console.h</label>
+        <childnode refid="1038" relation="include">
+        </childnode>
+      </node>
+      <node id="1036">
         <label>functional</label>
       </node>
-      <node id="1050">
+      <node id="1045">
         <label>Utils/Exception.h</label>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1046" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1047" relation="include">
         </childnode>
-        <childnode refid="1053" relation="include">
+        <childnode refid="1048" relation="include">
         </childnode>
-        <childnode refid="1054" relation="include">
+        <childnode refid="1049" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>DescriptionQuery.h</label>
+        <link refid="DescriptionQuery_8h"/>
+        <childnode refid="1035" relation="include">
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>stdexcept</label>
+      </node>
+      <node id="1042">
+        <label>string</label>
+      </node>
+      <node id="1035">
+        <label>Doxygen.h</label>
+        <childnode refid="1036" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+        <childnode refid="1044" relation="include">
+        </childnode>
+        <childnode refid="1045" relation="include">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>exception</label>
+      </node>
+      <node id="1040">
+        <label>fstream</label>
+      </node>
+      <node id="1044">
+        <label>Xml/Node.h</label>
+        <childnode refid="1036" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>Utils/String.h</label>
+        <childnode refid="1039" relation="include">
+        </childnode>
+        <childnode refid="1040" relation="include">
+        </childnode>
+        <childnode refid="1041" relation="include">
+        </childnode>
+        <childnode refid="1042" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
         </childnode>
         <childnode refid="1043" relation="include">
         </childnode>
       </node>
       <node id="1043">
-        <label>Utils/String.h</label>
-        <childnode refid="1044" relation="include">
-        </childnode>
-        <childnode refid="1045" relation="include">
-        </childnode>
-        <childnode refid="1046" relation="include">
-        </childnode>
-        <childnode refid="1047" relation="include">
-        </childnode>
-        <childnode refid="1042" relation="include">
-        </childnode>
-        <childnode refid="1048" relation="include">
-        </childnode>
-      </node>
-      <node id="1052">
-        <label>stdexcept</label>
-      </node>
-      <node id="1047">
-        <label>string</label>
-      </node>
-      <node id="1049">
-        <label>Xml/Node.h</label>
-        <childnode refid="1041" relation="include">
-        </childnode>
-        <childnode refid="1042" relation="include">
-        </childnode>
-        <childnode refid="1043" relation="include">
-        </childnode>
-      </node>
-      <node id="1051">
-        <label>exception</label>
-      </node>
-      <node id="1045">
-        <label>fstream</label>
-      </node>
-      <node id="1040">
-        <label>Doxygen.h</label>
-        <childnode refid="1041" relation="include">
-        </childnode>
-        <childnode refid="1042" relation="include">
-        </childnode>
-        <childnode refid="1043" relation="include">
-        </childnode>
-        <childnode refid="1049" relation="include">
-        </childnode>
-        <childnode refid="1050" relation="include">
-        </childnode>
-      </node>
-      <node id="1048">
         <label>vector</label>
       </node>
-      <node id="1039">
-        <label>DescriptionQuery.h</label>
-        <link refid="DescriptionQuery_8h"/>
-        <childnode refid="1040" relation="include">
-        </childnode>
-      </node>
-      <node id="1053">
+      <node id="1048">
         <label>utility</label>
       </node>
-      <node id="1046">
+      <node id="1041">
         <label>sstream</label>
       </node>
-      <node id="1054">
-        <label>Utils/Console.h</label>
-        <childnode refid="1043" relation="include">
-        </childnode>
-      </node>
-      <node id="1044">
+      <node id="1039">
         <label>deque</label>
       </node>
-      <node id="1042">
+      <node id="1037">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1060">
+      <node id="1055">
         <label>MemberDefWriter.cpp</label>
       </node>
-      <node id="1070">
-        <label>SectionDefQuery.cpp</label>
-      </node>
-      <node id="1059">
-        <label>FunctionDefWriter.cpp</label>
-      </node>
-      <node id="1067">
-        <label>MemberDefQuery.cpp</label>
-      </node>
-      <node id="1057">
-        <label>DescriptionWriter.cpp</label>
-      </node>
-      <node id="1068">
-        <label>ParamListItemQuery.cpp</label>
-      </node>
-      <node id="1061">
-        <label>PageWriter.cpp</label>
-      </node>
-      <node id="1065">
-        <label>DescriptionQuery.cpp</label>
-      </node>
-      <node id="1058">
-        <label>EnumDefWriter.cpp</label>
-      </node>
-      <node id="1063">
-        <label>NamespacePageWriter.cpp</label>
-      </node>
-      <node id="1055">
+      <node id="1050">
         <label>DescriptionQuery.h</label>
         <link refid="DescriptionQuery_8h"/>
-        <childnode refid="1056" relation="include">
-        </childnode>
-        <childnode refid="1063" relation="include">
-        </childnode>
-        <childnode refid="1064" relation="include">
-        </childnode>
-        <childnode refid="1065" relation="include">
-        </childnode>
-        <childnode refid="1066" relation="include">
-        </childnode>
-        <childnode refid="1067" relation="include">
-        </childnode>
-        <childnode refid="1068" relation="include">
-        </childnode>
-        <childnode refid="1069" relation="include">
-        </childnode>
-        <childnode refid="1070" relation="include">
-        </childnode>
-      </node>
-      <node id="1069">
-        <label>ParamQuery.cpp</label>
-      </node>
-      <node id="1064">
-        <label>CompoundDefQuery.cpp</label>
-      </node>
-      <node id="1056">
-        <label>DescriptionWriter.h</label>
-        <childnode refid="1057" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
         <childnode refid="1058" relation="include">
         </childnode>
@@ -178,12 +124,66 @@
         </childnode>
         <childnode refid="1062" relation="include">
         </childnode>
+        <childnode refid="1063" relation="include">
+        </childnode>
+        <childnode refid="1064" relation="include">
+        </childnode>
+        <childnode refid="1065" relation="include">
+        </childnode>
       </node>
-      <node id="1066">
-        <label>EnumValueQuery.cpp</label>
+      <node id="1053">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="1058">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1056">
+        <label>PageWriter.cpp</label>
       </node>
       <node id="1062">
+        <label>MemberdefQuery.cpp</label>
+      </node>
+      <node id="1065">
+        <label>SectiondefQuery.cpp</label>
+      </node>
+      <node id="1054">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1052">
+        <label>DescriptionWriter.cpp</label>
+      </node>
+      <node id="1057">
         <label>ParameterListWriter.cpp</label>
+      </node>
+      <node id="1061">
+        <label>EnumValueQuery.cpp</label>
+      </node>
+      <node id="1051">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>ParamQuery.cpp</label>
+      </node>
+      <node id="1059">
+        <label>CompoundDefQuery.cpp</label>
+      </node>
+      <node id="1060">
+        <label>DescriptionQuery.cpp</label>
+      </node>
+      <node id="1063">
+        <label>ParamListItemQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</innerclass>

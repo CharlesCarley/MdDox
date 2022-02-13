@@ -6,6 +6,11 @@
     <includedby refid="CaptionQuery_8cpp" local="yes">CaptionQuery.cpp</includedby>
     <includedby refid="TableQuery_8cpp" local="yes">TableQuery.cpp</includedby>
     <incdepgraph>
+      <node id="145">
+        <label>Utils/Console.h</label>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
       <node id="132">
         <label>functional</label>
       </node>
@@ -22,10 +27,44 @@
         <childnode refid="134" relation="include">
         </childnode>
       </node>
+      <node id="143">
+        <label>stdexcept</label>
+      </node>
       <node id="130">
         <label>CaptionQuery.h</label>
         <link refid="CaptionQuery_8h"/>
         <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>string</label>
+      </node>
+      <node id="131">
+        <label>Doxygen.h</label>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>exception</label>
+      </node>
+      <node id="136">
+        <label>fstream</label>
+      </node>
+      <node id="140">
+        <label>Xml/Node.h</label>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
         </childnode>
       </node>
       <node id="134">
@@ -43,40 +82,6 @@
         <childnode refid="139" relation="include">
         </childnode>
       </node>
-      <node id="143">
-        <label>stdexcept</label>
-      </node>
-      <node id="138">
-        <label>string</label>
-      </node>
-      <node id="140">
-        <label>Xml/Node.h</label>
-        <childnode refid="132" relation="include">
-        </childnode>
-        <childnode refid="133" relation="include">
-        </childnode>
-        <childnode refid="134" relation="include">
-        </childnode>
-      </node>
-      <node id="142">
-        <label>exception</label>
-      </node>
-      <node id="136">
-        <label>fstream</label>
-      </node>
-      <node id="131">
-        <label>Doxygen.h</label>
-        <childnode refid="132" relation="include">
-        </childnode>
-        <childnode refid="133" relation="include">
-        </childnode>
-        <childnode refid="134" relation="include">
-        </childnode>
-        <childnode refid="140" relation="include">
-        </childnode>
-        <childnode refid="141" relation="include">
-        </childnode>
-      </node>
       <node id="139">
         <label>vector</label>
       </node>
@@ -85,11 +90,6 @@
       </node>
       <node id="137">
         <label>sstream</label>
-      </node>
-      <node id="145">
-        <label>Utils/Console.h</label>
-        <childnode refid="134" relation="include">
-        </childnode>
       </node>
       <node id="135">
         <label>deque</label>
@@ -107,11 +107,11 @@
         <childnode refid="148" relation="include">
         </childnode>
       </node>
-      <node id="148">
-        <label>TableQuery.cpp</label>
-      </node>
       <node id="147">
         <label>CaptionQuery.cpp</label>
+      </node>
+      <node id="148">
+        <label>TableQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CaptionQueryVisitor</innerclass>

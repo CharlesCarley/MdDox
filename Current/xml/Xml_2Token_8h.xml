@@ -7,39 +7,39 @@
     <includedby refid="Xml_2Scanner_8cpp" local="yes">Scanner.cpp</includedby>
     <includedby refid="Xml_2Scanner_8h" local="yes">Scanner.h</includedby>
     <incdepgraph>
-      <node id="8562">
+      <node id="8349">
         <label>Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="8563" relation="include">
+        <childnode refid="8350" relation="include">
         </childnode>
       </node>
-      <node id="8563">
+      <node id="8350">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8566">
-        <label>Scanner.cpp</label>
+      <node id="8352">
+        <label>Parser.cpp</label>
       </node>
-      <node id="8567">
-        <label>Scanner.h</label>
-        <childnode refid="8565" relation="include">
-        </childnode>
-        <childnode refid="8566" relation="include">
-        </childnode>
-      </node>
-      <node id="8564">
+      <node id="8351">
         <label>Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="8565" relation="include">
+        <childnode refid="8352" relation="include">
         </childnode>
-        <childnode refid="8566" relation="include">
+        <childnode refid="8353" relation="include">
         </childnode>
-        <childnode refid="8567" relation="include">
+        <childnode refid="8354" relation="include">
         </childnode>
       </node>
-      <node id="8565">
-        <label>Parser.cpp</label>
+      <node id="8353">
+        <label>Scanner.cpp</label>
+      </node>
+      <node id="8354">
+        <label>Scanner.h</label>
+        <childnode refid="8352" relation="include">
+        </childnode>
+        <childnode refid="8353" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMdDox_1_1Xml">MdDox::Xml</innernamespace>

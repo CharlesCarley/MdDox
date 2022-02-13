@@ -10,136 +10,136 @@
     <includedby refid="MemberDefWriter_8cpp" local="yes">MemberDefWriter.cpp</includedby>
     <includedby refid="NamespacePageWriter_8cpp" local="yes">NamespacePageWriter.cpp</includedby>
     <incdepgraph>
-      <node id="4769">
+      <node id="4670">
+        <label>Utils/Console.h</label>
+        <childnode refid="4659" relation="include">
+        </childnode>
+      </node>
+      <node id="4657">
         <label>functional</label>
       </node>
-      <node id="4778">
+      <node id="4666">
         <label>Utils/Exception.h</label>
-        <childnode refid="4779" relation="include">
+        <childnode refid="4667" relation="include">
         </childnode>
-        <childnode refid="4780" relation="include">
+        <childnode refid="4668" relation="include">
         </childnode>
-        <childnode refid="4781" relation="include">
+        <childnode refid="4669" relation="include">
         </childnode>
-        <childnode refid="4782" relation="include">
+        <childnode refid="4670" relation="include">
         </childnode>
-        <childnode refid="4771" relation="include">
-        </childnode>
-      </node>
-      <node id="4771">
-        <label>Utils/String.h</label>
-        <childnode refid="4772" relation="include">
-        </childnode>
-        <childnode refid="4773" relation="include">
-        </childnode>
-        <childnode refid="4774" relation="include">
-        </childnode>
-        <childnode refid="4775" relation="include">
-        </childnode>
-        <childnode refid="4770" relation="include">
-        </childnode>
-        <childnode refid="4776" relation="include">
+        <childnode refid="4659" relation="include">
         </childnode>
       </node>
-      <node id="4780">
+      <node id="4668">
         <label>stdexcept</label>
       </node>
-      <node id="4775">
+      <node id="4663">
         <label>string</label>
       </node>
-      <node id="4777">
-        <label>Xml/Node.h</label>
-        <childnode refid="4769" relation="include">
+      <node id="4656">
+        <label>Doxygen.h</label>
+        <childnode refid="4657" relation="include">
         </childnode>
-        <childnode refid="4770" relation="include">
+        <childnode refid="4658" relation="include">
         </childnode>
-        <childnode refid="4771" relation="include">
+        <childnode refid="4659" relation="include">
+        </childnode>
+        <childnode refid="4665" relation="include">
+        </childnode>
+        <childnode refid="4666" relation="include">
         </childnode>
       </node>
-      <node id="4779">
+      <node id="4667">
         <label>exception</label>
       </node>
-      <node id="4773">
+      <node id="4661">
         <label>fstream</label>
       </node>
-      <node id="4768">
-        <label>Doxygen.h</label>
-        <childnode refid="4769" relation="include">
-        </childnode>
-        <childnode refid="4770" relation="include">
-        </childnode>
-        <childnode refid="4771" relation="include">
-        </childnode>
-        <childnode refid="4777" relation="include">
-        </childnode>
-        <childnode refid="4778" relation="include">
-        </childnode>
-      </node>
-      <node id="4767">
-        <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="4768" relation="include">
-        </childnode>
-      </node>
-      <node id="4776">
-        <label>vector</label>
-      </node>
-      <node id="4781">
-        <label>utility</label>
-      </node>
-      <node id="4774">
-        <label>sstream</label>
-      </node>
-      <node id="4782">
-        <label>Utils/Console.h</label>
-        <childnode refid="4771" relation="include">
-        </childnode>
-      </node>
-      <node id="4766">
+      <node id="4654">
         <label>LocationWriter.h</label>
         <link refid="LocationWriter_8h"/>
-        <childnode refid="4767" relation="include">
+        <childnode refid="4655" relation="include">
         </childnode>
       </node>
-      <node id="4772">
+      <node id="4665">
+        <label>Xml/Node.h</label>
+        <childnode refid="4657" relation="include">
+        </childnode>
+        <childnode refid="4658" relation="include">
+        </childnode>
+        <childnode refid="4659" relation="include">
+        </childnode>
+      </node>
+      <node id="4659">
+        <label>Utils/String.h</label>
+        <childnode refid="4660" relation="include">
+        </childnode>
+        <childnode refid="4661" relation="include">
+        </childnode>
+        <childnode refid="4662" relation="include">
+        </childnode>
+        <childnode refid="4663" relation="include">
+        </childnode>
+        <childnode refid="4658" relation="include">
+        </childnode>
+        <childnode refid="4664" relation="include">
+        </childnode>
+      </node>
+      <node id="4655">
+        <label>Doxygen/LocationQuery.h</label>
+        <childnode refid="4656" relation="include">
+        </childnode>
+      </node>
+      <node id="4664">
+        <label>vector</label>
+      </node>
+      <node id="4669">
+        <label>utility</label>
+      </node>
+      <node id="4662">
+        <label>sstream</label>
+      </node>
+      <node id="4660">
         <label>deque</label>
       </node>
-      <node id="4770">
+      <node id="4658">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4788">
+      <node id="4676">
         <label>MemberDefWriter.cpp</label>
       </node>
-      <node id="4786">
-        <label>FunctionDefWriter.cpp</label>
-      </node>
-      <node id="4785">
-        <label>EnumDefWriter.cpp</label>
-      </node>
-      <node id="4784">
-        <label>ClassPageWriter.cpp</label>
-      </node>
-      <node id="4789">
-        <label>NamespacePageWriter.cpp</label>
-      </node>
-      <node id="4783">
+      <node id="4671">
         <label>LocationWriter.h</label>
         <link refid="LocationWriter_8h"/>
-        <childnode refid="4784" relation="include">
+        <childnode refid="4672" relation="include">
         </childnode>
-        <childnode refid="4785" relation="include">
+        <childnode refid="4673" relation="include">
         </childnode>
-        <childnode refid="4786" relation="include">
+        <childnode refid="4674" relation="include">
         </childnode>
-        <childnode refid="4787" relation="include">
+        <childnode refid="4675" relation="include">
         </childnode>
-        <childnode refid="4788" relation="include">
+        <childnode refid="4676" relation="include">
         </childnode>
-        <childnode refid="4789" relation="include">
+        <childnode refid="4677" relation="include">
         </childnode>
       </node>
-      <node id="4787">
+      <node id="4673">
+        <label>EnumDefWriter.cpp</label>
+      </node>
+      <node id="4677">
+        <label>NamespacePageWriter.cpp</label>
+      </node>
+      <node id="4674">
+        <label>FunctionDefWriter.cpp</label>
+      </node>
+      <node id="4672">
+        <label>ClassPageWriter.cpp</label>
+      </node>
+      <node id="4675">
         <label>LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
