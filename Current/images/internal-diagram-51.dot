@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- d1oRrGf[
+ d45cf2Z[
    shape    = none
    label    = "Sect1QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WoARrGf[
+ WNIcf2Z[
    shape    = none
    label    = "Section1Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d1oRrGf->WoARrGf
+ d45cf2Z->WNIcf2Z
 }

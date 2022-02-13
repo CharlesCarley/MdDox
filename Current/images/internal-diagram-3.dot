@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- dDsJfGf[
+ WZ3Of2Z[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WZ7JfGf[
+ WcKOf2Z[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WK8JfGf[
+ dm5Of2Z[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WZ7JfGf->WK8JfGf
- dDsJfGf->WZ7JfGf
+ WcKOf2Z->dm5Of2Z
+ WZ3Of2Z->WcKOf2Z
 }

@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- dLrarGf[
+ WJAcf2Z[
    shape    = none
    label    = "ScannerBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dzrarGf[
+ d4Acf2Z[
    shape    = none
    label    = "Scanner"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dLrarGf->dzrarGf
+ WJAcf2Z->d4Acf2Z
 }

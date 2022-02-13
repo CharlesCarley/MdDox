@@ -9,27 +9,27 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 238,-40 238,4 -4,4"/>
-<!-- dOfarGf -->
-<g id="node1" class="node"><title>dOfarGf</title>
+<!-- d3Ocf2Z -->
+<g id="node1" class="node"><title>d3Ocf2Z</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Writer</text>
 </g>
-<!-- dEfarGf -->
-<g id="node2" class="node"><title>dEfarGf</title>
+<!-- d8xcf2Z -->
+<g id="node2" class="node"><title>d8xcf2Z</title>
 <text text-anchor="middle" x="117" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Object</text>
 </g>
-<!-- dOfarGf&#45;&gt;dEfarGf -->
-<g id="edge2" class="edge"><title>dOfarGf&#45;&gt;dEfarGf</title>
-<path fill="none" stroke="#ff1040" d="M54.4029,-18C63.9738,-18 74.8745,-18 84.8184,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="84.919,-19.7501 89.919,-18 84.919,-16.2501 84.919,-19.7501"/>
+<!-- d3Ocf2Z&#45;&gt;d8xcf2Z -->
+<g id="edge2" class="edge"><title>d3Ocf2Z&#45;&gt;d8xcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M54.4029,-18C63.9738,-18 74.8745,-18 84.8184,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="84.919,-19.7501 89.919,-18 84.919,-16.2501 84.919,-19.7501"/>
 </g>
-<!-- WfwarGf -->
-<g id="node3" class="node"><title>WfwarGf</title>
+<!-- WJOcf2Z -->
+<g id="node3" class="node"><title>WJOcf2Z</title>
 <text text-anchor="middle" x="207" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Simple</text>
 </g>
-<!-- dEfarGf&#45;&gt;WfwarGf -->
-<g id="edge1" class="edge"><title>dEfarGf&#45;&gt;WfwarGf</title>
-<path fill="none" stroke="#ff1040" d="M144.403,-18C153.974,-18 164.875,-18 174.818,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="174.919,-19.7501 179.919,-18 174.919,-16.2501 174.919,-19.7501"/>
+<!-- d8xcf2Z&#45;&gt;WJOcf2Z -->
+<g id="edge1" class="edge"><title>d8xcf2Z&#45;&gt;WJOcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M144.403,-18C153.974,-18 164.875,-18 174.818,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="174.919,-19.7501 179.919,-18 174.919,-16.2501 174.919,-19.7501"/>
 </g>
 </g>
 </svg>

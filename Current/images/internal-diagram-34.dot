@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- W5oRrGf[
+ dLIcf2Z[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- da0RrGf[
+ d75cf2Z[
    shape    = none
    label    = "IndexPageFilter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W5oRrGf->da0RrGf
+ dLIcf2Z->d75cf2Z
 }

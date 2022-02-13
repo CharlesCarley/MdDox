@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- DtO4fGf[
+ dUIwf2Z[
    shape    = none
    label    = "ParaQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q3O4fGf[
+ W8Kwf2Z[
    shape    = none
    label    = "ParagraphWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DtO4fGf->q3O4fGf
+ dUIwf2Z->W8Kwf2Z
 }

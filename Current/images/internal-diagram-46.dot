@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- WzpRrGf[
+ dEtcf2Z[
    shape    = none
    label    = "ParamListQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WEJRrGf[
+ W3Zcf2Z[
    shape    = none
    label    = "ParameterListWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WzpRrGf->WEJRrGf
+ dEtcf2Z->W3Zcf2Z
 }

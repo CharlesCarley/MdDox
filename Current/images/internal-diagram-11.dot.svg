@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 244,-40 244,4 -4,4"/>
-<!-- dHURrGf -->
-<g id="node1" class="node"><title>dHURrGf</title>
+<!-- ddQcf2Z -->
+<g id="node1" class="node"><title>ddQcf2Z</title>
 <text text-anchor="middle" x="58.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LinkedTextQueryVisitor</text>
 </g>
-<!-- dCyRrGf -->
-<g id="node2" class="node"><title>dCyRrGf</title>
+<!-- W3Qcf2Z -->
+<g id="node2" class="node"><title>W3Qcf2Z</title>
 <text text-anchor="middle" x="196.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LinkedTextWriter</text>
 </g>
-<!-- dHURrGf&#45;&gt;dCyRrGf -->
-<g id="edge1" class="edge"><title>dHURrGf&#45;&gt;dCyRrGf</title>
-<path fill="none" stroke="#ff1040" d="M117.176,-18C127.287,-18 137.709,-18 147.521,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="147.591,-19.7501 152.591,-18 147.591,-16.2501 147.591,-19.7501"/>
+<!-- ddQcf2Z&#45;&gt;W3Qcf2Z -->
+<g id="edge1" class="edge"><title>ddQcf2Z&#45;&gt;W3Qcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M117.176,-18C127.287,-18 137.709,-18 147.521,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="147.591,-19.7501 152.591,-18 147.591,-16.2501 147.591,-19.7501"/>
 </g>
 </g>
 </svg>

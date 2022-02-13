@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- Du9wfGf[
+ qfxZf2Z[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qKJwfGf[
+ qQWZf2Z[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qo9wfGf[
+ qBWZf2Z[
    shape    = none
    label    = "MemberDefListingWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DiLwfGf[
+ D8xZf2Z[
    shape    = none
    label    = "FunctionDefWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DapwfGf[
+ D3OZf2Z[
    shape    = none
    label    = "EnumDefWriter"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Du9wfGf->qKJwfGf
- Du9wfGf->qo9wfGf
- Du9wfGf->DiLwfGf
- Du9wfGf->DapwfGf
+ qfxZf2Z->qQWZf2Z
+ qfxZf2Z->qBWZf2Z
+ qfxZf2Z->D8xZf2Z
+ qfxZf2Z->D3OZf2Z
 }

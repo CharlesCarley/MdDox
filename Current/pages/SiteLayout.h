@@ -63,7 +63,7 @@ digraph {
 	>];
 	{rank=min Index MainPage}
 
-	MainPage:Title->Index:Description[label="Copied"];
+	MainPage:Title->Index:Description;
 
 
 	ClassIndex[label=<

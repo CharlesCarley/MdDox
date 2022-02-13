@@ -9,54 +9,54 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 121)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-121 328,-121 328,4 -4,4"/>
-<!-- WOYarGf -->
-<g id="node1" class="node"><title>WOYarGf</title>
+<!-- W5ucf2Z -->
+<g id="node1" class="node"><title>W5ucf2Z</title>
 <text text-anchor="middle" x="27" y="-69.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Writer</text>
 </g>
-<!-- dAtarGf -->
-<g id="node2" class="node"><title>dAtarGf</title>
+<!-- dOucf2Z -->
+<g id="node2" class="node"><title>dOucf2Z</title>
 <text text-anchor="middle" x="117" y="-96.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Common</text>
 </g>
-<!-- WOYarGf&#45;&gt;dAtarGf -->
-<g id="edge4" class="edge"><title>WOYarGf&#45;&gt;dAtarGf</title>
-<path fill="none" stroke="#ff1040" d="M54.4029,-80.1009C64.0616,-83.0643 75.0747,-86.4434 85.0918,-89.5168"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="84.6256,-91.2042 89.919,-90.9979 85.6523,-87.8582 84.6256,-91.2042"/>
+<!-- W5ucf2Z&#45;&gt;dOucf2Z -->
+<g id="edge4" class="edge"><title>W5ucf2Z&#45;&gt;dOucf2Z</title>
+<path fill="none" stroke="#69bfff" d="M54.4029,-80.1009C64.0616,-83.0643 75.0747,-86.4434 85.0918,-89.5168"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="84.6256,-91.2042 89.919,-90.9979 85.6523,-87.8582 84.6256,-91.2042"/>
 </g>
-<!-- d35arGf -->
-<g id="node3" class="node"><title>d35arGf</title>
+<!-- dLNcf2Z -->
+<g id="node3" class="node"><title>dLNcf2Z</title>
 <text text-anchor="middle" x="117" y="-42.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Object</text>
 </g>
-<!-- WOYarGf&#45;&gt;d35arGf -->
-<g id="edge5" class="edge"><title>WOYarGf&#45;&gt;d35arGf</title>
-<path fill="none" stroke="#ff1040" d="M54.4029,-63.8991C64.0616,-60.9357 75.0747,-57.5566 85.0918,-54.4832"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="85.6523,-56.1418 89.919,-53.0021 84.6256,-52.7958 85.6523,-56.1418"/>
+<!-- W5ucf2Z&#45;&gt;dLNcf2Z -->
+<g id="edge5" class="edge"><title>W5ucf2Z&#45;&gt;dLNcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M54.4029,-63.8991C64.0616,-60.9357 75.0747,-57.5566 85.0918,-54.4832"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="85.6523,-56.1418 89.919,-53.0021 84.6256,-52.7958 85.6523,-56.1418"/>
 </g>
-<!-- WNdarGf -->
-<g id="node4" class="node"><title>WNdarGf</title>
+<!-- Wwucf2Z -->
+<g id="node4" class="node"><title>Wwucf2Z</title>
 <text text-anchor="middle" x="207" y="-69.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Simple</text>
 </g>
-<!-- d35arGf&#45;&gt;WNdarGf -->
-<g id="edge2" class="edge"><title>d35arGf&#45;&gt;WNdarGf</title>
-<path fill="none" stroke="#ff1040" d="M144.403,-53.1009C154.062,-56.0643 165.075,-59.4434 175.092,-62.5168"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="174.626,-64.2042 179.919,-63.9979 175.652,-60.8582 174.626,-64.2042"/>
+<!-- dLNcf2Z&#45;&gt;Wwucf2Z -->
+<g id="edge2" class="edge"><title>dLNcf2Z&#45;&gt;Wwucf2Z</title>
+<path fill="none" stroke="#69bfff" d="M144.403,-53.1009C154.062,-56.0643 165.075,-59.4434 175.092,-62.5168"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="174.626,-64.2042 179.919,-63.9979 175.652,-60.8582 174.626,-64.2042"/>
 </g>
-<!-- dntarGf -->
-<g id="node5" class="node"><title>dntarGf</title>
+<!-- WZucf2Z -->
+<g id="node5" class="node"><title>WZucf2Z</title>
 <text text-anchor="middle" x="207" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Group</text>
 </g>
-<!-- d35arGf&#45;&gt;dntarGf -->
-<g id="edge3" class="edge"><title>d35arGf&#45;&gt;dntarGf</title>
-<path fill="none" stroke="#ff1040" d="M144.403,-36.8991C154.062,-33.9357 165.075,-30.5566 175.092,-27.4832"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="175.652,-29.1418 179.919,-26.0021 174.626,-25.7958 175.652,-29.1418"/>
+<!-- dLNcf2Z&#45;&gt;WZucf2Z -->
+<g id="edge3" class="edge"><title>dLNcf2Z&#45;&gt;WZucf2Z</title>
+<path fill="none" stroke="#69bfff" d="M144.403,-36.8991C154.062,-33.9357 165.075,-30.5566 175.092,-27.4832"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="175.652,-29.1418 179.919,-26.0021 174.626,-25.7958 175.652,-29.1418"/>
 </g>
-<!-- Wx5arGf -->
-<g id="node6" class="node"><title>Wx5arGf</title>
+<!-- Wracf2Z -->
+<g id="node6" class="node"><title>Wracf2Z</title>
 <text text-anchor="middle" x="297" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Complex</text>
 </g>
-<!-- dntarGf&#45;&gt;Wx5arGf -->
-<g id="edge1" class="edge"><title>dntarGf&#45;&gt;Wx5arGf</title>
-<path fill="none" stroke="#ff1040" d="M234.403,-18C243.974,-18 254.875,-18 264.818,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="264.919,-19.7501 269.919,-18 264.919,-16.2501 264.919,-19.7501"/>
+<!-- WZucf2Z&#45;&gt;Wracf2Z -->
+<g id="edge1" class="edge"><title>WZucf2Z&#45;&gt;Wracf2Z</title>
+<path fill="none" stroke="#69bfff" d="M234.403,-18C243.974,-18 254.875,-18 264.818,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="264.919,-19.7501 269.919,-18 264.919,-16.2501 264.919,-19.7501"/>
 </g>
 </g>
 </svg>

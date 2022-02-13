@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- dNrsfGf[
+ D3qtf2Z[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WorsfGf[
+ Dtqtf2Z[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFZsfGf[
+ qGZtf2Z[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d11sfGf[
+ q3qtf2Z[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFZsfGf->d11sfGf
- WorsfGf->dFZsfGf
- dNrsfGf->WorsfGf
+ qGZtf2Z->q3qtf2Z
+ Dtqtf2Z->qGZtf2Z
+ D3qtf2Z->Dtqtf2Z
 }

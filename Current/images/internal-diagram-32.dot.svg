@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 196,-40 196,4 -4,4"/>
-<!-- dgaRrGf -->
-<g id="node1" class="node"><title>dgaRrGf</title>
+<!-- dI3Df2Z -->
+<g id="node1" class="node"><title>dI3Df2Z</title>
 <text text-anchor="middle" x="46.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">GraphQueryVisitor</text>
 </g>
-<!-- WaORrGf -->
-<g id="node2" class="node"><title>WaORrGf</title>
+<!-- doIDf2Z -->
+<g id="node2" class="node"><title>doIDf2Z</title>
 <text text-anchor="middle" x="160.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">GraphWriter</text>
 </g>
-<!-- dgaRrGf&#45;&gt;WaORrGf -->
-<g id="edge1" class="edge"><title>dgaRrGf&#45;&gt;WaORrGf</title>
-<path fill="none" stroke="#ff1040" d="M93.0547,-18C103.266,-18 113.958,-18 123.706,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="123.71,-19.7501 128.71,-18 123.71,-16.2501 123.71,-19.7501"/>
+<!-- dI3Df2Z&#45;&gt;doIDf2Z -->
+<g id="edge1" class="edge"><title>dI3Df2Z&#45;&gt;doIDf2Z</title>
+<path fill="none" stroke="#69bfff" d="M93.0547,-18C103.266,-18 113.958,-18 123.706,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="123.71,-19.7501 128.71,-18 123.71,-16.2501 123.71,-19.7501"/>
 </g>
 </g>
 </svg>

@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 250,-40 250,4 -4,4"/>
-<!-- WJ9RrGf -->
-<g id="node1" class="node"><title>WJ9RrGf</title>
+<!-- dZdcf2Z -->
+<g id="node1" class="node"><title>dZdcf2Z</title>
 <text text-anchor="middle" x="60" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">DescriptionQueryVisitor</text>
 </g>
-<!-- dLLRrGf -->
-<g id="node2" class="node"><title>dLLRrGf</title>
+<!-- WK1cf2Z -->
+<g id="node2" class="node"><title>WK1cf2Z</title>
 <text text-anchor="middle" x="201" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">DescriptionWriter</text>
 </g>
-<!-- WJ9RrGf&#45;&gt;dLLRrGf -->
-<g id="edge1" class="edge"><title>WJ9RrGf&#45;&gt;dLLRrGf</title>
-<path fill="none" stroke="#ff1040" d="M120.352,-18C130.531,-18 141.007,-18 150.881,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="150.985,-19.7501 155.985,-18 150.985,-16.2501 150.985,-19.7501"/>
+<!-- dZdcf2Z&#45;&gt;WK1cf2Z -->
+<g id="edge1" class="edge"><title>dZdcf2Z&#45;&gt;WK1cf2Z</title>
+<path fill="none" stroke="#69bfff" d="M120.352,-18C130.531,-18 141.007,-18 150.881,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="150.985,-19.7501 155.985,-18 150.985,-16.2501 150.985,-19.7501"/>
 </g>
 </g>
 </svg>

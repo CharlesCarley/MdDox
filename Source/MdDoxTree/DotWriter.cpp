@@ -75,7 +75,7 @@ namespace MdDox
             write(_out, 0x02, "layout  = dot;");
             write(_out, 0x02, "edge [");
             write(_out, 0x04, "arrowsize = \"${arrow-size}\"");
-            write(_out, 0x04, "color     = \"${edge-red}\"");
+            write(_out, 0x04, "color     = \"${grey-table-edge}\"");
             write(_out, 0x02, "]");
         }
 

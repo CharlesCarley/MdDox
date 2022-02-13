@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 151,-40 151,4 -4,4"/>
-<!-- WEu9fGf -->
-<g id="node1" class="node"><title>WEu9fGf</title>
+<!-- WiGYf2Z -->
+<g id="node1" class="node"><title>WiGYf2Z</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Node</text>
 </g>
-<!-- Wpn9fGf -->
-<g id="node2" class="node"><title>Wpn9fGf</title>
+<!-- WOfYf2Z -->
+<g id="node2" class="node"><title>WOfYf2Z</title>
 <text text-anchor="middle" x="118.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LocalNode</text>
 </g>
-<!-- WEu9fGf&#45;&gt;Wpn9fGf -->
-<g id="edge1" class="edge"><title>WEu9fGf&#45;&gt;Wpn9fGf</title>
-<path fill="none" stroke="#ff1040" d="M54.3689,-18C63.8533,-18 74.6709,-18 84.6398,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="84.764,-19.7501 89.764,-18 84.764,-16.2501 84.764,-19.7501"/>
+<!-- WiGYf2Z&#45;&gt;WOfYf2Z -->
+<g id="edge1" class="edge"><title>WiGYf2Z&#45;&gt;WOfYf2Z</title>
+<path fill="none" stroke="#69bfff" d="M54.3689,-18C63.8533,-18 74.6709,-18 84.6398,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="84.764,-19.7501 89.764,-18 84.764,-16.2501 84.764,-19.7501"/>
 </g>
 </g>
 </svg>

@@ -9,27 +9,27 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 238,-40 238,4 -4,4"/>
-<!-- WyLRrGf -->
-<g id="node1" class="node"><title>WyLRrGf</title>
+<!-- dJYcf2Z -->
+<g id="node1" class="node"><title>dJYcf2Z</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">exception</text>
 </g>
-<!-- dr9RrGf -->
-<g id="node2" class="node"><title>dr9RrGf</title>
+<!-- W0Ycf2Z -->
+<g id="node2" class="node"><title>W0Ycf2Z</title>
 <text text-anchor="middle" x="117" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Exception</text>
 </g>
-<!-- WyLRrGf&#45;&gt;dr9RrGf -->
-<g id="edge2" class="edge"><title>WyLRrGf&#45;&gt;dr9RrGf</title>
-<path fill="none" stroke="#ff1040" d="M54.4029,-18C63.9738,-18 74.8745,-18 84.8184,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="84.919,-19.7501 89.919,-18 84.919,-16.2501 84.919,-19.7501"/>
+<!-- dJYcf2Z&#45;&gt;W0Ycf2Z -->
+<g id="edge2" class="edge"><title>dJYcf2Z&#45;&gt;W0Ycf2Z</title>
+<path fill="none" stroke="#69bfff" d="M54.4029,-18C63.9738,-18 74.8745,-18 84.8184,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="84.919,-19.7501 89.919,-18 84.919,-16.2501 84.919,-19.7501"/>
 </g>
-<!-- W6LRrGf -->
-<g id="node3" class="node"><title>W6LRrGf</title>
+<!-- dxYcf2Z -->
+<g id="node3" class="node"><title>dxYcf2Z</title>
 <text text-anchor="middle" x="207" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParseError</text>
 </g>
-<!-- dr9RrGf&#45;&gt;W6LRrGf -->
-<g id="edge1" class="edge"><title>dr9RrGf&#45;&gt;W6LRrGf</title>
-<path fill="none" stroke="#ff1040" d="M144.403,-18C153.974,-18 164.875,-18 174.818,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="174.919,-19.7501 179.919,-18 174.919,-16.2501 174.919,-19.7501"/>
+<!-- W0Ycf2Z&#45;&gt;dxYcf2Z -->
+<g id="edge1" class="edge"><title>W0Ycf2Z&#45;&gt;dxYcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M144.403,-18C153.974,-18 164.875,-18 174.818,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="174.919,-19.7501 179.919,-18 174.919,-16.2501 174.919,-19.7501"/>
 </g>
 </g>
 </svg>

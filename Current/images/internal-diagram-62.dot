@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- WOYarGf[
+ W5ucf2Z[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dAtarGf[
+ dOucf2Z[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d35arGf[
+ dLNcf2Z[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WNdarGf[
+ Wwucf2Z[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dntarGf[
+ WZucf2Z[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wx5arGf[
+ Wracf2Z[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dntarGf->Wx5arGf
- d35arGf->WNdarGf
- d35arGf->dntarGf
- WOYarGf->dAtarGf
- WOYarGf->d35arGf
+ WZucf2Z->Wracf2Z
+ dLNcf2Z->Wwucf2Z
+ dLNcf2Z->WZucf2Z
+ W5ucf2Z->dOucf2Z
+ W5ucf2Z->dLNcf2Z
 }

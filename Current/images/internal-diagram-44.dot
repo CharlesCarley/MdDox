@@ -4,9 +4,9 @@ digraph {
  layout  = dot;
  edge [
    arrowsize = "0.5"
-   color     = "#FF1040FF"
+   color     = "#69BFFFFF"
  ]
- dxBLfGf[
+ qFEwf2Z[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFBLfGf[
+ D4xwf2Z[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dBKLfGf[
+ DqEwf2Z[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WE6LfGf[
+ qZ7wf2Z[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d2tLfGf[
+ D3xwf2Z[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W8BLfGf[
+ q1swf2Z[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFBLfGf->dBKLfGf
- dFBLfGf->WE6LfGf
- dFBLfGf->d2tLfGf
- dFBLfGf->W8BLfGf
- dxBLfGf->dFBLfGf
+ D4xwf2Z->DqEwf2Z
+ D4xwf2Z->qZ7wf2Z
+ D4xwf2Z->D3xwf2Z
+ D4xwf2Z->q1swf2Z
+ qFEwf2Z->D4xwf2Z
 }

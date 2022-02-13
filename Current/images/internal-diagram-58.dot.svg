@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 263,-40 263,4 -4,4"/>
-<!-- dEKarGf -->
-<g id="node1" class="node"><title>dEKarGf</title>
+<!-- d0scf2Z -->
+<g id="node1" class="node"><title>d0scf2Z</title>
 <text text-anchor="middle" x="68.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">CompoundDefQueryVisitor</text>
 </g>
-<!-- WoIarGf -->
-<g id="node2" class="node"><title>WoIarGf</title>
+<!-- dLxcf2Z -->
+<g id="node2" class="node"><title>dLxcf2Z</title>
 <text text-anchor="middle" x="216" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">TableOfContents</text>
 </g>
-<!-- dEKarGf&#45;&gt;WoIarGf -->
-<g id="edge1" class="edge"><title>dEKarGf&#45;&gt;WoIarGf</title>
-<path fill="none" stroke="#ff1040" d="M137.139,-18C147.503,-18 158.006,-18 167.801,-18"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="167.854,-19.7501 172.854,-18 167.854,-16.2501 167.854,-19.7501"/>
+<!-- d0scf2Z&#45;&gt;dLxcf2Z -->
+<g id="edge1" class="edge"><title>d0scf2Z&#45;&gt;dLxcf2Z</title>
+<path fill="none" stroke="#69bfff" d="M137.139,-18C147.503,-18 158.006,-18 167.801,-18"/>
+<polygon fill="#69bfff" stroke="#69bfff" points="167.854,-19.7501 172.854,-18 167.854,-16.2501 167.854,-19.7501"/>
 </g>
 </g>
 </svg>
