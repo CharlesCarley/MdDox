@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="style-sheet"></a>
 <h1>Style Sheet</h1>
 <a id="Html"></a>
@@ -54,7 +49,6 @@
 <code class="typewriter">blockquote</code>
 </li>
 </ul>
-<span class="inline-text">It splits the document into two primary regions. Defined by the tags:</span>
 <ul>
 <li><span class="inline-text">p: </span>
 <code class="typewriter">paragraph</code>
@@ -102,8 +96,6 @@
 <code class="typewriter">section-bar</code>
 </li>
 </ul>
-<span class="inline-text">fontcolor = 000001FF NodeBG = #70809CFF AEB6C2FF</span>
-<span class="inline-text">yellow = #9C9C70FF red = 9C709CFF red2 = 9C5050FF </span>
 <br/>
 <blockquote>
 <img src="../images/debug24px.svg"/><span class="inline-text">The following sources were used to generate this page.</span>

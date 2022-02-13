@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="mddoxtree"></a>
 <h1>MdDoxTree</h1>
 <a id="dir_d9935c0f1a540c725bfb5aaaadd541e0"></a>

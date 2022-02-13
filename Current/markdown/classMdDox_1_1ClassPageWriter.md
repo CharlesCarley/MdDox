@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="classpagewriter"></a>
 <h1>ClassPageWriter</h1>
 <a id="classMdDox_1_1ClassPageWriter"></a>
@@ -146,9 +141,8 @@
 </a>
 </span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -158,9 +152,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>_baseInit</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -171,9 +164,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>_deriveInit</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -192,8 +184,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>basecompoundref</b></span>
 <span class="inline-text"> is found. </span>
@@ -206,9 +198,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -231,8 +222,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>derivedcompoundref</b></span>
 <span class="inline-text"> is found. </span>
@@ -245,9 +236,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -270,8 +260,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>includes</b></span>
 <span class="inline-text"> is found. </span>
@@ -284,9 +274,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -309,8 +298,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>includedby</b></span>
 <span class="inline-text"> is found. </span>
@@ -323,9 +312,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -348,8 +336,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerdir</b></span>
 <span class="inline-text"> is found. </span>
@@ -362,9 +350,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -387,8 +374,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerfile</b></span>
 <span class="inline-text"> is found. </span>
@@ -401,9 +388,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -426,8 +412,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerclass</b></span>
 <span class="inline-text"> is found. </span>
@@ -440,9 +426,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -465,8 +450,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innernamespace</b></span>
 <span class="inline-text"> is found. </span>
@@ -479,9 +464,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -504,8 +488,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerpage</b></span>
 <span class="inline-text"> is found. </span>
@@ -518,9 +502,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -543,8 +526,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innergroup</b></span>
 <span class="inline-text"> is found. </span>
@@ -557,9 +540,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -582,8 +564,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>incdepgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -596,9 +578,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -621,8 +602,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>invincdepgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -635,9 +616,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -660,8 +640,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>templateparamlist</b></span>
 <span class="inline-text"> is found. </span>
@@ -674,9 +654,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -699,8 +678,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>inheritancegraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -713,9 +692,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -738,8 +716,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>collaborationgraph</b></span>
 <span class="inline-text"> is found. </span>
@@ -752,9 +730,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -777,8 +754,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>programlisting</b></span>
 <span class="inline-text"> is found. </span>
@@ -791,9 +768,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -816,8 +792,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>location</b></span>
 <span class="inline-text"> is found. </span>
@@ -830,9 +806,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L72" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -855,8 +830,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>listofallmembers</b></span>
 <span class="inline-text"> is found. </span>
@@ -869,9 +844,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -894,8 +868,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>compoundname</b></span>
 <span class="inline-text"> is found. </span>
@@ -908,9 +882,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -933,8 +906,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>title</b></span>
 <span class="inline-text"> is found. </span>
@@ -947,9 +920,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -972,8 +944,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>tableofcontents</b></span>
 <span class="inline-text"> is found. </span>
@@ -986,9 +958,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1011,11 +982,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1038,11 +1008,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1065,11 +1034,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L87" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1092,11 +1060,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1131,11 +1098,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L93" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>
@@ -1150,11 +1116,10 @@
 <span class="bold-text"><b>~ClassPageWriter</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.h#L95" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.h</span>
 </a>
 </span>

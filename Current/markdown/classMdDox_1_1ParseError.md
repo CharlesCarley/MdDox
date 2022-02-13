@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="parseerror"></a>
 <h1>ParseError</h1>
 <a id="classMdDox_1_1ParseError"></a>
@@ -47,9 +42,8 @@
 </a>
 </span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParseError.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
@@ -86,11 +80,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParseError.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
@@ -105,11 +98,10 @@
 <span class="bold-text"><b>ParseError</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParseError.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
@@ -127,11 +119,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParseError.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
@@ -166,8 +157,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Constructs the exception with a file, line and a message. </span>
 <br/>
 <br/>
@@ -207,9 +198,8 @@ The message if formatted as: </span>
 <span class="inline-text"> : </span>
 <code class="typewriter">message</code>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ParseError.h#L61" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>

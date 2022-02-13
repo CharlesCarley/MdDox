@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="linkutils"></a>
 <h1>LinkUtils</h1>
 <a id="namespaceMdDox_1_1LinkUtils"></a>
@@ -31,9 +26,8 @@
 </a>
 </span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
@@ -58,11 +52,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
@@ -71,6 +64,8 @@
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
@@ -107,11 +102,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
@@ -120,6 +114,8 @@
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
 </a>
 </span>
@@ -138,11 +134,10 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
@@ -151,6 +146,8 @@
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#splitbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitBinaryResolution</span>
 </a>
 </span>

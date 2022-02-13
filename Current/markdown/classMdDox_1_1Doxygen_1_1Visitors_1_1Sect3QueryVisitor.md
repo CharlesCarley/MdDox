@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="sect3queryvisitor"></a>
 <h1>Sect3QueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor"></a>
@@ -54,9 +49,8 @@
 </a>
 </span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -66,11 +60,10 @@
 <span class="bold-text"><b>~Sect3QueryVisitor</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -88,14 +81,13 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Callback for every _text_node. </span>
 <br/>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -114,8 +106,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>para</b></span>
 <span class="inline-text"> is found. </span>
@@ -130,9 +122,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -151,8 +142,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>sect4</b></span>
 <span class="inline-text"> is found. </span>
@@ -167,9 +158,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -188,8 +178,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>internal</b></span>
 <span class="inline-text"> is found. </span>
@@ -204,9 +194,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>
@@ -225,8 +214,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>title</b></span>
 <span class="inline-text"> is found. </span>
@@ -239,9 +228,8 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Sect3Query.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query.h</span>
 </a>
 </span>

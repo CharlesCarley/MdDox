@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="tableofcontents"></a>
 <h1>TableOfContents</h1>
 <a id="classMdDox_1_1TableOfContents"></a>
@@ -68,9 +63,8 @@
 </a>
 </span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -80,9 +74,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasNamespaces</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -93,9 +86,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasClasses</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -106,9 +98,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasEnums</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -119,9 +110,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasTypes</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -132,9 +122,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasVariables</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -145,9 +134,8 @@
 <span class="inline-text">bool</span>
 <span class="bold-text"><b>hasFunctions</b></span>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
@@ -159,15 +147,16 @@
 <span class="bold-text"><b>hasAny</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#hasnamespaces" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasNamespaces</span>
 </a>
 </span>
@@ -206,8 +195,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innernamespace</b></span>
 <span class="inline-text"> is found. </span>
@@ -220,13 +209,14 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#hasnamespaces" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasNamespaces</span>
 </a>
 </span>
@@ -245,8 +235,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>innerclass</b></span>
 <span class="inline-text"> is found. </span>
@@ -259,13 +249,14 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#hasclasses" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasClasses</span>
 </a>
 </span>
@@ -284,8 +275,8 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<br/>
-<br/>
+<a id="details"></a>
+<h3>Details</h3>
 <span class="inline-text">Called when the element </span>
 <span class="bold-text"><b>sectiondef</b></span>
 <span class="inline-text"> is found. </span>
@@ -298,13 +289,14 @@
 </li>
 </ul>
 <br/>
-<br/>
-<span class="bold-text"><b>Defined in</b></span>
-<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#getkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getKind</span>
 </a>
 </span>

@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="pages"></a>
 <h1>pages</h1>
 <a id="dir_0fdaa85f2db5425911c36efff1ab1b08"></a>

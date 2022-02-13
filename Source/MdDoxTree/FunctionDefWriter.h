@@ -34,6 +34,7 @@ namespace MdDox
         OStream*           _stream;
         OutputStringStream _out;
         bool               _firstParam;
+        bool               _firstRef;
 
         void visitedReImplements(const Doxygen::ReimplementQuery& query) override;
 

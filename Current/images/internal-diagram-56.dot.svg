@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 246,-40 246,4 -4,4"/>
-<!-- WxBDf2Z -->
-<g id="node1" class="node"><title>WxBDf2Z</title>
+<!-- WJapdW8 -->
+<g id="node1" class="node"><title>WJapdW8</title>
 <text text-anchor="middle" x="59" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefQueryVisitor</text>
 </g>
-<!-- dRtDf2Z -->
-<g id="node2" class="node"><title>dRtDf2Z</title>
+<!-- WsnpdW8 -->
+<g id="node2" class="node"><title>WsnpdW8</title>
 <text text-anchor="middle" x="198" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefWriter</text>
 </g>
-<!-- WxBDf2Z&#45;&gt;dRtDf2Z -->
-<g id="edge1" class="edge"><title>WxBDf2Z&#45;&gt;dRtDf2Z</title>
+<!-- WJapdW8&#45;&gt;WsnpdW8 -->
+<g id="edge1" class="edge"><title>WJapdW8&#45;&gt;WsnpdW8</title>
 <path fill="none" stroke="#69bfff" d="M118.1,-18C128.285,-18 138.784,-18 148.668,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="148.776,-19.7501 153.776,-18 148.776,-16.2501 148.776,-19.7501"/>
 </g>

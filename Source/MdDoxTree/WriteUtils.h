@@ -20,7 +20,6 @@
 -------------------------------------------------------------------------------
 */
 #pragma once
-#include "Doxygen/CompoundDefQuery.h"
 #include "MdDoxTree/IconSet.h"
 #include "MdDoxTree/Reference.h"
 #include "Utils/String.h"
@@ -57,7 +56,6 @@ namespace MdDox
     extern void writeReferenceIconLinkHeading(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id);
     extern void writeReferenceIconStub(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id);
 
-
-    extern bool syncStream(OStream* stream, OutputStringStream &out);
+    extern bool syncStream(OStream* stream, OutputStringStream& out);
 
 }  // namespace MdDox

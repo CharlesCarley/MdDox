@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="image-handling"></a>
 <h1>Image handling</h1>
 <a id="Image"></a>

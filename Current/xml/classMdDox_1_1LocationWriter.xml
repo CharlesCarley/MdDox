@@ -81,17 +81,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="35" bodyend="79"/>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="35" bodyend="77"/>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a27a144259da294a167d424f007bbf31b" compoundref="LocationQuery_8cpp" startline="35" endline="40">MdDox::Doxygen::LocationQuery::getFile</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1acc6307af92b229be442f2516e60dd942" compoundref="LocationQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::LocationQuery::getBodyFile</references>
         <references refid="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" compoundref="SourceFile_8h" startline="66" endline="69">MdDox::SourceFile::setFile</references>
         <references refid="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" compoundref="SourceFile_8h" startline="76" endline="79">MdDox::SourceFile::setLine</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a6a8703060d4afdceceea8c212a9e9e85" compoundref="LocationQuery_8cpp" startline="52" endline="55">MdDox::Doxygen::LocationQuery::getLine</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a325ddd25202ab7653bc2383165ff014a" compoundref="LocationQuery_8cpp" startline="42" endline="45">MdDox::Doxygen::LocationQuery::getBodyStart</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-        <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>

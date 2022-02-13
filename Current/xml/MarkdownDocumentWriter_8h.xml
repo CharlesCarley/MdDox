@@ -9,101 +9,101 @@
     <includedby refid="MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1173">
+      <node id="1145">
         <label>filesystem</label>
       </node>
-      <node id="1162">
+      <node id="1134">
         <label>MdDoxTree/HtmlDocumentWriter.h</label>
-        <childnode refid="1163" relation="include">
+        <childnode refid="1135" relation="include">
         </childnode>
-        <childnode refid="1172" relation="include">
+        <childnode refid="1144" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1137" relation="include">
         </childnode>
       </node>
-      <node id="1169">
+      <node id="1141">
         <label>string</label>
       </node>
-      <node id="1167">
+      <node id="1139">
         <label>fstream</label>
       </node>
-      <node id="1164">
+      <node id="1136">
         <label>IconSet.h</label>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1137" relation="include">
         </childnode>
       </node>
-      <node id="1163">
+      <node id="1135">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="1164" relation="include">
+        <childnode refid="1136" relation="include">
         </childnode>
-        <childnode refid="1172" relation="include">
+        <childnode refid="1144" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1137" relation="include">
         </childnode>
       </node>
-      <node id="1161">
+      <node id="1133">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
         <link refid="MarkdownDocumentWriter_8h"/>
-        <childnode refid="1162" relation="include">
+        <childnode refid="1134" relation="include">
         </childnode>
-        <childnode refid="1172" relation="include">
+        <childnode refid="1144" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1137" relation="include">
         </childnode>
       </node>
-      <node id="1165">
+      <node id="1137">
         <label>Utils/String.h</label>
-        <childnode refid="1166" relation="include">
+        <childnode refid="1138" relation="include">
         </childnode>
-        <childnode refid="1167" relation="include">
+        <childnode refid="1139" relation="include">
         </childnode>
-        <childnode refid="1168" relation="include">
+        <childnode refid="1140" relation="include">
         </childnode>
-        <childnode refid="1169" relation="include">
+        <childnode refid="1141" relation="include">
         </childnode>
-        <childnode refid="1170" relation="include">
+        <childnode refid="1142" relation="include">
         </childnode>
-        <childnode refid="1171" relation="include">
+        <childnode refid="1143" relation="include">
         </childnode>
       </node>
-      <node id="1171">
+      <node id="1143">
         <label>vector</label>
       </node>
-      <node id="1168">
+      <node id="1140">
         <label>sstream</label>
       </node>
-      <node id="1172">
+      <node id="1144">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1173" relation="include">
+        <childnode refid="1145" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1137" relation="include">
         </childnode>
       </node>
-      <node id="1166">
+      <node id="1138">
         <label>deque</label>
       </node>
-      <node id="1170">
+      <node id="1142">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1174">
+      <node id="1146">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
         <link refid="MarkdownDocumentWriter_8h"/>
-        <childnode refid="1175" relation="include">
+        <childnode refid="1147" relation="include">
         </childnode>
-        <childnode refid="1176" relation="include">
+        <childnode refid="1148" relation="include">
         </childnode>
-        <childnode refid="1177" relation="include">
+        <childnode refid="1149" relation="include">
         </childnode>
       </node>
-      <node id="1177">
+      <node id="1149">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="1176">
+      <node id="1148">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="1175">
+      <node id="1147">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>

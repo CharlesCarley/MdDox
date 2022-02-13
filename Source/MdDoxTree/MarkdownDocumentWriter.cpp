@@ -32,15 +32,11 @@ namespace MdDox
 
     void MarkdownDocumentWriter::beginDocument(OStream& output, const String& title)
     {
-        output << R"(<!DOCTYPE html>)" << std::endl;
-        output << R"(<html>)" << std::endl;
-        output << "<head>" << std::endl;
-        output << "</head>" << std::endl;
-        output << "<body>" << std::endl;
 
         Html::anchor(output, HashUtils::titleOnly(title));
         Html::heading(output, 1, title);
     }
+    
 
     void MarkdownDocumentWriter::code(OStream& output, const String& text, const String& type)
     {

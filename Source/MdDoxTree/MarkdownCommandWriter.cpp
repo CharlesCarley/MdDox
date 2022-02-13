@@ -28,7 +28,9 @@ namespace MdDox::Md
 {
     void lineBreak(OStream& output)
     {
-        output << "<br/>" << std::endl;
+        int number = 1;
+        while (number-- > 0)
+            output << std::endl;
     }
 
     void newLine(OStream& output, int number)
@@ -84,20 +86,32 @@ namespace MdDox::Md
 
     void beginParagraph(OStream& output)
     {
+        output << "<p>";
     }
 
     void endParagraph(OStream& output)
     {
+        output << "</p>" << std::endl;
+    }
+
+    void beginList(OStream& output)
+    {
+        output << "<ul>" << std::endl;
+    }
+
+    void endList(OStream& output)
+    {
+        output << "</ul>" << std::endl;
     }
 
     void beginListItem(OStream& output)
     {
-        output << "- ";
+        output << "<li>";
     }
 
     void endListItem(OStream& output)
     {
-        newLine(output, 1);
+        output << "</li>" << std::endl;
     }
 
     void code(OStream& output, const String& code, const String& type)

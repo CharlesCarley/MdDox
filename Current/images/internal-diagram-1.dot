@@ -110,13 +110,9 @@ digraph {
         </table>
     >];
 
-
-
     Index:Directory->DirectoryIndex:Title;
 
     {rank=same Index DirectoryIndex}
-
-
 
     ClassIndex:Item->ClassPage;
     DirectoryIndex:Item->DirectoryPage;

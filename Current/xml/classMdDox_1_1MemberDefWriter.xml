@@ -491,7 +491,7 @@
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberdefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac68cf32ca18b91aa10c6cd998eff35c9" compoundref="MemberdefQuery_8cpp" startline="121" endline="126">MdDox::Doxygen::MemberDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ab0bd4ceb63c9efda529003aad5fb27b7" compoundref="DoxMemberKind_8h" startline="84">MdDox::Doxygen::DMK_FUNCTION</references>
-        <references refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" compoundref="FunctionDefWriter_8cpp" startline="155" endline="179">MdDox::FunctionDefWriter::write</references>
+        <references refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" compoundref="FunctionDefWriter_8cpp" startline="161" endline="185">MdDox::FunctionDefWriter::write</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ad1458999750564d3858a4050dd2657c0" compoundref="DoxMemberKind_8h" startline="64">MdDox::Doxygen::DMK_ENUM</references>
         <references refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" compoundref="EnumDefWriter_8cpp" startline="193" endline="217">MdDox::EnumDefWriter::write</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" compoundref="DoxygenFilter_8h" startline="62">MdDox::Doxygen::DoxEnumValue</references>

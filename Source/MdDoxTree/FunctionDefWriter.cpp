@@ -38,7 +38,8 @@ namespace MdDox
     FunctionDefWriter::FunctionDefWriter(DocumentWriter* writer, OStream* out) :
         _writer(writer),
         _stream(out),
-        _firstParam(true)
+        _firstParam(true),
+        _firstRef(true)
     {
     }
 
@@ -62,6 +63,12 @@ namespace MdDox
 
     void FunctionDefWriter::visitedReferences(const Doxygen::ReferenceQuery& query)
     {
+        if (_firstRef)
+        {
+            _writer->addSection(_out, "References", 4);
+            _firstRef = false;
+        }
+
         Reference ref;
         ref.setName(LinkUtils::lastBinaryResolution(query.text()));
         ref.setReference(query.getRefId());
@@ -71,33 +78,32 @@ namespace MdDox
 
     void FunctionDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedReferencedBy");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedReferencedBy");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedTemplateParamList");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedInitializer(const Doxygen::LinkedTextQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedInitializer");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedInitializer");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedExceptions(const Doxygen::LinkedTextQuery& query)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedExceptions");
-        _writer->lineBreak(_out);
+        //_writer->boldText(_out, "FunctionDefWriter.visitedExceptions");
+        //_writer->lineBreak(_out);
     }
 
     void FunctionDefWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
     {
         _writer->italicText(_out, ")");
-        _writer->lineBreak(_out);
-        _writer->lineBreak(_out);
+        _writer->addSection(_out, "Details", 3);
 
         DescriptionWriter dw(_writer, &_out);
         if (dw.write(query))

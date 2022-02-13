@@ -158,7 +158,7 @@ namespace MdDox
                                              const String&        heading,
                                              const ReferenceList& list) const
     {
-        _writer->beginSection(out, heading);
+        _writer->beginSection(out, heading, 2);
         for (const Reference& page : list)
         {
             _writer->embedContentLinkText(out, icon, makeFilename(page), LinkUtils::lastBinaryResolution(page.getName()));
@@ -172,7 +172,7 @@ namespace MdDox
                                                       const String&        heading,
                                                       const ReferenceList& list) const
     {
-        _writer->beginSection(out, heading);
+        _writer->beginSection(out, heading, 2);
         for (const Reference& page : list)
         {
             StringArray arr;
@@ -213,23 +213,24 @@ namespace MdDox
             _writer->beginList(out);
 
             _writer->beginListItem(out);
+            _writer->linkHeading(out, "Directories", "#directories");
+            _writer->endListItem(out);
+
+        	_writer->beginListItem(out);
             _writer->linkHeading(out, "Namespaces", "#namespaces");
             _writer->endListItem(out);
 
             _writer->beginListItem(out);
-            _writer->linkHeading(out, "Classes", "#namespaces");
-            _writer->endListItem(out);
-
-            _writer->beginListItem(out);
-            _writer->linkHeading(out, "Directories", "#namespaces");
+            _writer->linkHeading(out, "Classes", "#classes");
             _writer->endListItem(out);
 
             _writer->endList(out);
             _writer->endSection(out);
 
+
+        	writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
             writeReferenceList(out, ICO_NAMESPACE, "Namespaces", filter.namespaces);
             writeReferenceList(out, ICO_CLASS, "Classes", filter.classes);
-            writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
 
             _writer->endDocument(out, "../index.xml");
 

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qfxZf2Z[
+ qS8KdW8[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qQWZf2Z[
+ DD8KdW8[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qBWZf2Z[
+ qdnKdW8[
    shape    = none
    label    = "MemberDefListingWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D8xZf2Z[
+ qt8KdW8[
    shape    = none
    label    = "FunctionDefWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D3OZf2Z[
+ qUxKdW8[
    shape    = none
    label    = "EnumDefWriter"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qfxZf2Z->qQWZf2Z
- qfxZf2Z->qBWZf2Z
- qfxZf2Z->D8xZf2Z
- qfxZf2Z->D3OZf2Z
+ qS8KdW8->DD8KdW8
+ qS8KdW8->qdnKdW8
+ qS8KdW8->qt8KdW8
+ qS8KdW8->qUxKdW8
 }

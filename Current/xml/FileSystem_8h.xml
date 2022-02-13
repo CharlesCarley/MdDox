@@ -17,341 +17,341 @@
     <includedby refid="Writer_8cpp" local="yes">Source/Xml/Writer.cpp</includedby>
     <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <incdepgraph>
-      <node id="3100">
+      <node id="2984">
         <label>filesystem</label>
       </node>
-      <node id="3105">
+      <node id="2989">
         <label>string</label>
       </node>
-      <node id="3103">
+      <node id="2987">
         <label>fstream</label>
       </node>
-      <node id="3101">
+      <node id="2985">
         <label>Utils/String.h</label>
-        <childnode refid="3102" relation="include">
+        <childnode refid="2986" relation="include">
         </childnode>
-        <childnode refid="3103" relation="include">
+        <childnode refid="2987" relation="include">
         </childnode>
-        <childnode refid="3104" relation="include">
+        <childnode refid="2988" relation="include">
         </childnode>
-        <childnode refid="3105" relation="include">
+        <childnode refid="2989" relation="include">
         </childnode>
-        <childnode refid="3106" relation="include">
+        <childnode refid="2990" relation="include">
         </childnode>
-        <childnode refid="3107" relation="include">
+        <childnode refid="2991" relation="include">
         </childnode>
       </node>
-      <node id="3107">
+      <node id="2991">
         <label>vector</label>
       </node>
-      <node id="3104">
+      <node id="2988">
         <label>sstream</label>
       </node>
-      <node id="3099">
+      <node id="2983">
         <label>Source/Utils/FileSystem.h</label>
         <link refid="FileSystem_8h"/>
-        <childnode refid="3100" relation="include">
+        <childnode refid="2984" relation="include">
         </childnode>
-        <childnode refid="3101" relation="include">
+        <childnode refid="2985" relation="include">
         </childnode>
       </node>
-      <node id="3102">
+      <node id="2986">
         <label>deque</label>
       </node>
-      <node id="3106">
+      <node id="2990">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3155">
+      <node id="3039">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="3161">
+      <node id="3045">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="3147">
+      <node id="3031">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="3133">
+      <node id="3017">
         <label>Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
-      <node id="3146">
+      <node id="3030">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="3128">
+      <node id="3012">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="3150">
+      <node id="3034">
         <label>Source/Utils/ParserBase/ScannerBase.h</label>
-        <childnode refid="3149" relation="include">
+        <childnode refid="3033" relation="include">
         </childnode>
-        <childnode refid="3151" relation="include">
+        <childnode refid="3035" relation="include">
         </childnode>
-        <childnode refid="3156" relation="include">
+        <childnode refid="3040" relation="include">
         </childnode>
-        <childnode refid="3157" relation="include">
+        <childnode refid="3041" relation="include">
         </childnode>
       </node>
-      <node id="3115">
+      <node id="2999">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="3151">
+      <node id="3035">
         <label>Source/Utils/ParserBase/ParserBase.h</label>
-        <childnode refid="3152" relation="include">
+        <childnode refid="3036" relation="include">
         </childnode>
-        <childnode refid="3149" relation="include">
+        <childnode refid="3033" relation="include">
         </childnode>
-        <childnode refid="3153" relation="include">
+        <childnode refid="3037" relation="include">
         </childnode>
-        <childnode refid="3154" relation="include">
+        <childnode refid="3038" relation="include">
         </childnode>
       </node>
-      <node id="3139">
+      <node id="3023">
         <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="3141">
+      <node id="3025">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="3145">
+      <node id="3029">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="3117">
+      <node id="3001">
         <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
-        <childnode refid="3118" relation="include">
+        <childnode refid="3002" relation="include">
         </childnode>
-        <childnode refid="3119" relation="include">
+        <childnode refid="3003" relation="include">
         </childnode>
-        <childnode refid="3120" relation="include">
+        <childnode refid="3004" relation="include">
         </childnode>
-        <childnode refid="3121" relation="include">
+        <childnode refid="3005" relation="include">
         </childnode>
       </node>
-      <node id="3116">
+      <node id="3000">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="3159">
+      <node id="3043">
         <label>Source/Utils/Path.cpp</label>
       </node>
-      <node id="3148">
+      <node id="3032">
         <label>Source/Utils/FileSystem.cpp</label>
       </node>
-      <node id="3152">
+      <node id="3036">
         <label>Source/MdDoxTree/Config.cpp</label>
       </node>
-      <node id="3119">
+      <node id="3003">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="3109">
+      <node id="2993">
         <label>Source/MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="3110" relation="include">
+        <childnode refid="2994" relation="include">
         </childnode>
-        <childnode refid="3111" relation="include">
+        <childnode refid="2995" relation="include">
         </childnode>
-        <childnode refid="3112" relation="include">
+        <childnode refid="2996" relation="include">
         </childnode>
-        <childnode refid="3113" relation="include">
+        <childnode refid="2997" relation="include">
         </childnode>
-        <childnode refid="3114" relation="include">
+        <childnode refid="2998" relation="include">
         </childnode>
-        <childnode refid="3115" relation="include">
+        <childnode refid="2999" relation="include">
         </childnode>
-        <childnode refid="3116" relation="include">
+        <childnode refid="3000" relation="include">
         </childnode>
-        <childnode refid="3117" relation="include">
+        <childnode refid="3001" relation="include">
         </childnode>
-        <childnode refid="3124" relation="include">
+        <childnode refid="3008" relation="include">
         </childnode>
-        <childnode refid="3125" relation="include">
+        <childnode refid="3009" relation="include">
         </childnode>
-        <childnode refid="3126" relation="include">
+        <childnode refid="3010" relation="include">
         </childnode>
-        <childnode refid="3127" relation="include">
+        <childnode refid="3011" relation="include">
         </childnode>
-        <childnode refid="3128" relation="include">
+        <childnode refid="3012" relation="include">
         </childnode>
-        <childnode refid="3129" relation="include">
+        <childnode refid="3013" relation="include">
         </childnode>
-        <childnode refid="3130" relation="include">
+        <childnode refid="3014" relation="include">
         </childnode>
-        <childnode refid="3131" relation="include">
+        <childnode refid="3015" relation="include">
         </childnode>
-        <childnode refid="3132" relation="include">
+        <childnode refid="3016" relation="include">
         </childnode>
-        <childnode refid="3133" relation="include">
+        <childnode refid="3017" relation="include">
         </childnode>
-        <childnode refid="3134" relation="include">
+        <childnode refid="3018" relation="include">
         </childnode>
-        <childnode refid="3135" relation="include">
+        <childnode refid="3019" relation="include">
         </childnode>
-        <childnode refid="3136" relation="include">
+        <childnode refid="3020" relation="include">
         </childnode>
-        <childnode refid="3137" relation="include">
+        <childnode refid="3021" relation="include">
         </childnode>
-        <childnode refid="3138" relation="include">
+        <childnode refid="3022" relation="include">
         </childnode>
-        <childnode refid="3139" relation="include">
+        <childnode refid="3023" relation="include">
         </childnode>
-        <childnode refid="3140" relation="include">
+        <childnode refid="3024" relation="include">
         </childnode>
-        <childnode refid="3141" relation="include">
+        <childnode refid="3025" relation="include">
         </childnode>
       </node>
-      <node id="3137">
+      <node id="3021">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="3144">
+      <node id="3028">
         <label>Source/Utils/CommandLine/Parser.h</label>
-        <childnode refid="3118" relation="include">
+        <childnode refid="3002" relation="include">
         </childnode>
-        <childnode refid="3145" relation="include">
+        <childnode refid="3029" relation="include">
         </childnode>
-        <childnode refid="3146" relation="include">
+        <childnode refid="3030" relation="include">
         </childnode>
-        <childnode refid="3147" relation="include">
+        <childnode refid="3031" relation="include">
         </childnode>
       </node>
-      <node id="3113">
+      <node id="2997">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="3149">
+      <node id="3033">
         <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
-      <node id="3121">
+      <node id="3005">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
-        <childnode refid="3118" relation="include">
+        <childnode refid="3002" relation="include">
         </childnode>
-        <childnode refid="3122" relation="include">
+        <childnode refid="3006" relation="include">
         </childnode>
-        <childnode refid="3123" relation="include">
+        <childnode refid="3007" relation="include">
         </childnode>
       </node>
-      <node id="3129">
+      <node id="3013">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="3130">
+      <node id="3014">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="3136">
+      <node id="3020">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="3160">
+      <node id="3044">
         <label>Source/Xml/Writer.cpp</label>
       </node>
-      <node id="3158">
+      <node id="3042">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="3114">
+      <node id="2998">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="3135">
+      <node id="3019">
         <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
-      <node id="3154">
+      <node id="3038">
         <label>Source/Xml/Parser.h</label>
-        <childnode refid="3118" relation="include">
+        <childnode refid="3002" relation="include">
         </childnode>
-        <childnode refid="3124" relation="include">
+        <childnode refid="3008" relation="include">
         </childnode>
-        <childnode refid="3140" relation="include">
+        <childnode refid="3024" relation="include">
         </childnode>
-        <childnode refid="3155" relation="include">
+        <childnode refid="3039" relation="include">
         </childnode>
-        <childnode refid="3146" relation="include">
+        <childnode refid="3030" relation="include">
         </childnode>
       </node>
-      <node id="3111">
+      <node id="2995">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="3120">
+      <node id="3004">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="3110">
+      <node id="2994">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="3140">
+      <node id="3024">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="3132">
+      <node id="3016">
         <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
-      <node id="3134">
+      <node id="3018">
         <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="3123">
+      <node id="3007">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="3122">
+      <node id="3006">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="3143">
+      <node id="3027">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="3131">
+      <node id="3015">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="3156">
+      <node id="3040">
         <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
       </node>
-      <node id="3118">
+      <node id="3002">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="3125">
+      <node id="3009">
         <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
       </node>
-      <node id="3138">
+      <node id="3022">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="3108">
+      <node id="2992">
         <label>Source/Utils/FileSystem.h</label>
         <link refid="FileSystem_8h"/>
-        <childnode refid="3109" relation="include">
+        <childnode refid="2993" relation="include">
         </childnode>
-        <childnode refid="3117" relation="include">
+        <childnode refid="3001" relation="include">
         </childnode>
-        <childnode refid="3142" relation="include">
+        <childnode refid="3026" relation="include">
         </childnode>
-        <childnode refid="3121" relation="include">
+        <childnode refid="3005" relation="include">
         </childnode>
-        <childnode refid="3143" relation="include">
+        <childnode refid="3027" relation="include">
         </childnode>
-        <childnode refid="3144" relation="include">
+        <childnode refid="3028" relation="include">
         </childnode>
-        <childnode refid="3148" relation="include">
+        <childnode refid="3032" relation="include">
         </childnode>
-        <childnode refid="3149" relation="include">
+        <childnode refid="3033" relation="include">
         </childnode>
-        <childnode refid="3150" relation="include">
+        <childnode refid="3034" relation="include">
         </childnode>
-        <childnode refid="3159" relation="include">
+        <childnode refid="3043" relation="include">
         </childnode>
-        <childnode refid="3160" relation="include">
+        <childnode refid="3044" relation="include">
         </childnode>
-        <childnode refid="3161" relation="include">
+        <childnode refid="3045" relation="include">
         </childnode>
       </node>
-      <node id="3157">
+      <node id="3041">
         <label>Source/Xml/Scanner.h</label>
-        <childnode refid="3155" relation="include">
+        <childnode refid="3039" relation="include">
         </childnode>
-        <childnode refid="3158" relation="include">
+        <childnode refid="3042" relation="include">
         </childnode>
       </node>
-      <node id="3127">
+      <node id="3011">
         <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
-      <node id="3142">
+      <node id="3026">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="3126">
+      <node id="3010">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
-      <node id="3112">
+      <node id="2996">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="3124">
+      <node id="3008">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
-      <node id="3153">
+      <node id="3037">
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>

@@ -6,124 +6,124 @@
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="TocItemQuery_8h" local="yes">TocItemQuery.h</includes>
     <incdepgraph>
-      <node id="8426">
+      <node id="8218">
         <label>TocListQuery.h</label>
-        <childnode refid="8427" relation="include">
+        <childnode refid="8219" relation="include">
         </childnode>
       </node>
-      <node id="8441">
+      <node id="8233">
         <label>Utils/Console.h</label>
-        <childnode refid="8430" relation="include">
+        <childnode refid="8222" relation="include">
         </childnode>
       </node>
-      <node id="8428">
+      <node id="8220">
         <label>functional</label>
       </node>
-      <node id="8444">
+      <node id="8236">
         <label>cstdint</label>
       </node>
-      <node id="8425">
+      <node id="8217">
         <label>Tools/Doxygen/TocListQuery.cpp</label>
         <link refid="TocListQuery_8cpp"/>
-        <childnode refid="8426" relation="include">
+        <childnode refid="8218" relation="include">
         </childnode>
-        <childnode refid="8442" relation="include">
+        <childnode refid="8234" relation="include">
         </childnode>
-        <childnode refid="8445" relation="include">
+        <childnode refid="8237" relation="include">
         </childnode>
       </node>
-      <node id="8437">
+      <node id="8229">
         <label>Utils/Exception.h</label>
-        <childnode refid="8438" relation="include">
+        <childnode refid="8230" relation="include">
         </childnode>
-        <childnode refid="8439" relation="include">
+        <childnode refid="8231" relation="include">
         </childnode>
-        <childnode refid="8440" relation="include">
+        <childnode refid="8232" relation="include">
         </childnode>
-        <childnode refid="8441" relation="include">
+        <childnode refid="8233" relation="include">
         </childnode>
-        <childnode refid="8430" relation="include">
+        <childnode refid="8222" relation="include">
         </childnode>
       </node>
-      <node id="8439">
+      <node id="8231">
         <label>stdexcept</label>
       </node>
-      <node id="8434">
+      <node id="8226">
         <label>string</label>
       </node>
-      <node id="8427">
+      <node id="8219">
         <label>Doxygen.h</label>
-        <childnode refid="8428" relation="include">
+        <childnode refid="8220" relation="include">
         </childnode>
-        <childnode refid="8429" relation="include">
+        <childnode refid="8221" relation="include">
         </childnode>
-        <childnode refid="8430" relation="include">
+        <childnode refid="8222" relation="include">
         </childnode>
-        <childnode refid="8436" relation="include">
+        <childnode refid="8228" relation="include">
         </childnode>
-        <childnode refid="8437" relation="include">
+        <childnode refid="8229" relation="include">
         </childnode>
       </node>
-      <node id="8438">
+      <node id="8230">
         <label>exception</label>
       </node>
-      <node id="8432">
+      <node id="8224">
         <label>fstream</label>
       </node>
-      <node id="8436">
+      <node id="8228">
         <label>Xml/Node.h</label>
-        <childnode refid="8428" relation="include">
+        <childnode refid="8220" relation="include">
         </childnode>
-        <childnode refid="8429" relation="include">
+        <childnode refid="8221" relation="include">
         </childnode>
-        <childnode refid="8430" relation="include">
+        <childnode refid="8222" relation="include">
         </childnode>
       </node>
-      <node id="8430">
+      <node id="8222">
         <label>Utils/String.h</label>
-        <childnode refid="8431" relation="include">
+        <childnode refid="8223" relation="include">
         </childnode>
-        <childnode refid="8432" relation="include">
+        <childnode refid="8224" relation="include">
         </childnode>
-        <childnode refid="8433" relation="include">
+        <childnode refid="8225" relation="include">
         </childnode>
-        <childnode refid="8434" relation="include">
+        <childnode refid="8226" relation="include">
         </childnode>
-        <childnode refid="8429" relation="include">
+        <childnode refid="8221" relation="include">
         </childnode>
-        <childnode refid="8435" relation="include">
+        <childnode refid="8227" relation="include">
         </childnode>
       </node>
-      <node id="8435">
+      <node id="8227">
         <label>vector</label>
       </node>
-      <node id="8440">
+      <node id="8232">
         <label>utility</label>
       </node>
-      <node id="8433">
+      <node id="8225">
         <label>sstream</label>
       </node>
-      <node id="8445">
+      <node id="8237">
         <label>TocItemQuery.h</label>
-        <childnode refid="8427" relation="include">
+        <childnode refid="8219" relation="include">
         </childnode>
       </node>
-      <node id="8442">
+      <node id="8234">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="8443" relation="include">
+        <childnode refid="8235" relation="include">
         </childnode>
       </node>
-      <node id="8431">
+      <node id="8223">
         <label>deque</label>
       </node>
-      <node id="8429">
+      <node id="8221">
         <label>unordered_map</label>
       </node>
-      <node id="8443">
+      <node id="8235">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="8444" relation="include">
+        <childnode refid="8236" relation="include">
         </childnode>
-        <childnode refid="8430" relation="include">
+        <childnode refid="8222" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -11,117 +11,117 @@
     <includedby refid="Tools_2GenApi_2Main_8cpp" local="yes">Tools/GenApi/Main.cpp</includedby>
     <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Tools/ResourceCompiler/Main.cpp</includedby>
     <incdepgraph>
-      <node id="2430">
+      <node id="2320">
         <label>filesystem</label>
       </node>
-      <node id="2420">
+      <node id="2310">
         <label>cstdint</label>
       </node>
-      <node id="2418">
+      <node id="2308">
         <label>cassert</label>
       </node>
-      <node id="2425">
+      <node id="2315">
         <label>string</label>
       </node>
-      <node id="2423">
+      <node id="2313">
         <label>fstream</label>
       </node>
-      <node id="2415">
+      <node id="2305">
         <label>Source/Utils/CommandLine/Parser.h</label>
         <link refid="Utils_2CommandLine_2Parser_8h"/>
-        <childnode refid="2416" relation="include">
+        <childnode refid="2306" relation="include">
         </childnode>
-        <childnode refid="2417" relation="include">
+        <childnode refid="2307" relation="include">
         </childnode>
-        <childnode refid="2427" relation="include">
+        <childnode refid="2317" relation="include">
         </childnode>
-        <childnode refid="2429" relation="include">
+        <childnode refid="2319" relation="include">
         </childnode>
       </node>
-      <node id="2417">
+      <node id="2307">
         <label>Utils/CommandLine/Option.h</label>
-        <childnode refid="2418" relation="include">
+        <childnode refid="2308" relation="include">
         </childnode>
-        <childnode refid="2419" relation="include">
+        <childnode refid="2309" relation="include">
         </childnode>
-        <childnode refid="2421" relation="include">
+        <childnode refid="2311" relation="include">
         </childnode>
       </node>
-      <node id="2421">
+      <node id="2311">
         <label>Utils/String.h</label>
-        <childnode refid="2422" relation="include">
+        <childnode refid="2312" relation="include">
         </childnode>
-        <childnode refid="2423" relation="include">
+        <childnode refid="2313" relation="include">
         </childnode>
-        <childnode refid="2424" relation="include">
+        <childnode refid="2314" relation="include">
         </childnode>
-        <childnode refid="2425" relation="include">
+        <childnode refid="2315" relation="include">
         </childnode>
-        <childnode refid="2416" relation="include">
+        <childnode refid="2306" relation="include">
         </childnode>
-        <childnode refid="2426" relation="include">
+        <childnode refid="2316" relation="include">
         </childnode>
       </node>
-      <node id="2427">
+      <node id="2317">
         <label>Utils/CommandLine/Scanner.h</label>
-        <childnode refid="2428" relation="include">
+        <childnode refid="2318" relation="include">
         </childnode>
       </node>
-      <node id="2426">
+      <node id="2316">
         <label>vector</label>
       </node>
-      <node id="2424">
+      <node id="2314">
         <label>sstream</label>
       </node>
-      <node id="2419">
+      <node id="2309">
         <label>Utils/Char.h</label>
-        <childnode refid="2420" relation="include">
+        <childnode refid="2310" relation="include">
         </childnode>
-        <childnode refid="2421" relation="include">
+        <childnode refid="2311" relation="include">
         </childnode>
       </node>
-      <node id="2429">
+      <node id="2319">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="2430" relation="include">
+        <childnode refid="2320" relation="include">
         </childnode>
-        <childnode refid="2421" relation="include">
+        <childnode refid="2311" relation="include">
         </childnode>
       </node>
-      <node id="2422">
+      <node id="2312">
         <label>deque</label>
       </node>
-      <node id="2416">
+      <node id="2306">
         <label>unordered_map</label>
       </node>
-      <node id="2428">
+      <node id="2318">
         <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="2421" relation="include">
+        <childnode refid="2311" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2435">
+      <node id="2325">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2434">
+      <node id="2324">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2433">
+      <node id="2323">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2431">
+      <node id="2321">
         <label>Source/Utils/CommandLine/Parser.h</label>
         <link refid="Utils_2CommandLine_2Parser_8h"/>
-        <childnode refid="2432" relation="include">
+        <childnode refid="2322" relation="include">
         </childnode>
-        <childnode refid="2433" relation="include">
+        <childnode refid="2323" relation="include">
         </childnode>
-        <childnode refid="2434" relation="include">
+        <childnode refid="2324" relation="include">
         </childnode>
-        <childnode refid="2435" relation="include">
+        <childnode refid="2325" relation="include">
         </childnode>
       </node>
-      <node id="2432">
+      <node id="2322">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>

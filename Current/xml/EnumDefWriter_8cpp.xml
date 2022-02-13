@@ -15,278 +15,248 @@
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="483">
+      <node id="478">
         <label>FunctionDefWriter.h</label>
-        <childnode refid="455" relation="include">
+        <childnode refid="450" relation="include">
         </childnode>
-        <childnode refid="456" relation="include">
+        <childnode refid="451" relation="include">
         </childnode>
       </node>
-      <node id="473">
+      <node id="468">
         <label>Utils/Console.h</label>
-        <childnode refid="457" relation="include">
+        <childnode refid="452" relation="include">
         </childnode>
       </node>
-      <node id="467">
+      <node id="462">
         <label>functional</label>
       </node>
-      <node id="477">
+      <node id="472">
         <label>filesystem</label>
       </node>
-      <node id="456">
+      <node id="451">
         <label>Utils/Path.h</label>
-        <childnode refid="457" relation="include">
+        <childnode refid="452" relation="include">
         </childnode>
       </node>
-      <node id="489">
+      <node id="484">
         <label>cstdint</label>
       </node>
-      <node id="469">
+      <node id="464">
         <label>Utils/Exception.h</label>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>Doxygen/DescriptionQuery.h</label>
+        <childnode refid="461" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>Doxygen/ReferenceQuery.h</label>
+        <childnode refid="461" relation="include">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>stdexcept</label>
+      </node>
+      <node id="456">
+        <label>string</label>
+      </node>
+      <node id="461">
+        <label>Doxygen.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="450">
+        <label>Doxygen/MemberDefQuery.h</label>
+      </node>
+      <node id="465">
+        <label>exception</label>
+      </node>
+      <node id="454">
+        <label>fstream</label>
+      </node>
+      <node id="480">
+        <label>LocationWriter.h</label>
+        <childnode refid="481" relation="include">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>IconSet.h</label>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>Xml/Node.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>DocumentWriter.h</label>
         <childnode refid="470" relation="include">
         </childnode>
         <childnode refid="471" relation="include">
         </childnode>
-        <childnode refid="472" relation="include">
-        </childnode>
-        <childnode refid="473" relation="include">
-        </childnode>
-        <childnode refid="457" relation="include">
+        <childnode refid="452" relation="include">
         </childnode>
       </node>
-      <node id="465">
-        <label>Doxygen/DescriptionQuery.h</label>
-        <childnode refid="466" relation="include">
+      <node id="448">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <link refid="EnumDefWriter_8cpp"/>
+        <childnode refid="449" relation="include">
         </childnode>
-      </node>
-      <node id="493">
-        <label>DoxLanguage.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="482">
-        <label>Doxygen/ReferenceQuery.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="471">
-        <label>stdexcept</label>
-      </node>
-      <node id="461">
-        <label>string</label>
-      </node>
-      <node id="466">
-        <label>Doxygen.h</label>
-        <childnode refid="467" relation="include">
-        </childnode>
-        <childnode refid="462" relation="include">
-        </childnode>
-        <childnode refid="457" relation="include">
-        </childnode>
-        <childnode refid="468" relation="include">
+        <childnode refid="459" relation="include">
         </childnode>
         <childnode refid="469" relation="include">
         </childnode>
-      </node>
-      <node id="455">
-        <label>Doxygen/MemberDefQuery.h</label>
-      </node>
-      <node id="470">
-        <label>exception</label>
-      </node>
-      <node id="459">
-        <label>fstream</label>
-      </node>
-      <node id="485">
-        <label>LocationWriter.h</label>
-        <childnode refid="486" relation="include">
+        <childnode refid="473" relation="include">
         </childnode>
-      </node>
-      <node id="475">
-        <label>IconSet.h</label>
-        <childnode refid="457" relation="include">
-        </childnode>
-      </node>
-      <node id="468">
-        <label>Xml/Node.h</label>
-        <childnode refid="467" relation="include">
-        </childnode>
-        <childnode refid="462" relation="include">
-        </childnode>
-        <childnode refid="457" relation="include">
-        </childnode>
-      </node>
-      <node id="474">
-        <label>DocumentWriter.h</label>
         <childnode refid="475" relation="include">
         </childnode>
         <childnode refid="476" relation="include">
         </childnode>
-        <childnode refid="457" relation="include">
-        </childnode>
-      </node>
-      <node id="453">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
-        <link refid="EnumDefWriter_8cpp"/>
-        <childnode refid="454" relation="include">
-        </childnode>
-        <childnode refid="464" relation="include">
-        </childnode>
-        <childnode refid="474" relation="include">
+        <childnode refid="477" relation="include">
         </childnode>
         <childnode refid="478" relation="include">
         </childnode>
-        <childnode refid="480" relation="include">
+        <childnode refid="479" relation="include">
         </childnode>
-        <childnode refid="481" relation="include">
+        <childnode refid="480" relation="include">
         </childnode>
         <childnode refid="482" relation="include">
         </childnode>
-        <childnode refid="483" relation="include">
-        </childnode>
-        <childnode refid="484" relation="include">
-        </childnode>
         <childnode refid="485" relation="include">
         </childnode>
-        <childnode refid="487" relation="include">
-        </childnode>
-        <childnode refid="490" relation="include">
-        </childnode>
       </node>
-      <node id="491">
-        <label>Doxygen/CompoundDefQuery.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-        <childnode refid="492" relation="include">
-        </childnode>
-        <childnode refid="493" relation="include">
-        </childnode>
-        <childnode refid="479" relation="include">
-        </childnode>
-        <childnode refid="494" relation="include">
+      <node id="474">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="461" relation="include">
         </childnode>
       </node>
       <node id="479">
-        <label>DoxProtectionKind.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="484">
         <label>LinkedTextWriter.h</label>
-        <childnode refid="480" relation="include">
-        </childnode>
-        <childnode refid="456" relation="include">
-        </childnode>
-      </node>
-      <node id="457">
-        <label>Utils/String.h</label>
-        <childnode refid="458" relation="include">
-        </childnode>
-        <childnode refid="459" relation="include">
-        </childnode>
-        <childnode refid="460" relation="include">
-        </childnode>
-        <childnode refid="461" relation="include">
-        </childnode>
-        <childnode refid="462" relation="include">
-        </childnode>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="486">
-        <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="464">
-        <label>DescriptionWriter.h</label>
-        <childnode refid="465" relation="include">
-        </childnode>
-        <childnode refid="456" relation="include">
-        </childnode>
-      </node>
-      <node id="463">
-        <label>vector</label>
-      </node>
-      <node id="472">
-        <label>utility</label>
-      </node>
-      <node id="460">
-        <label>sstream</label>
-      </node>
-      <node id="490">
-        <label>WriteUtils.h</label>
-        <childnode refid="491" relation="include">
-        </childnode>
         <childnode refid="475" relation="include">
         </childnode>
-        <childnode refid="495" relation="include">
-        </childnode>
-        <childnode refid="457" relation="include">
+        <childnode refid="451" relation="include">
         </childnode>
       </node>
-      <node id="487">
-        <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="488" relation="include">
+      <node id="452">
+        <label>Utils/String.h</label>
+        <childnode refid="453" relation="include">
         </childnode>
-      </node>
-      <node id="476">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="477" relation="include">
+        <childnode refid="454" relation="include">
         </childnode>
-        <childnode refid="457" relation="include">
-        </childnode>
-      </node>
-      <node id="480">
-        <label>Doxygen/LinkedTextQuery.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="458">
-        <label>deque</label>
-      </node>
-      <node id="462">
-        <label>unordered_map</label>
-      </node>
-      <node id="478">
-        <label>Doxygen/EnumValueQuery.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-        <childnode refid="479" relation="include">
-        </childnode>
-      </node>
-      <node id="454">
-        <label>EnumDefWriter.h</label>
         <childnode refid="455" relation="include">
         </childnode>
         <childnode refid="456" relation="include">
         </childnode>
-      </node>
-      <node id="488">
-        <label>Utils/TypeFilter.h</label>
-        <childnode refid="489" relation="include">
-        </childnode>
         <childnode refid="457" relation="include">
         </childnode>
-      </node>
-      <node id="494">
-        <label>DoxBool.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="492">
-        <label>DoxCompoundKind.h</label>
-        <childnode refid="466" relation="include">
+        <childnode refid="458" relation="include">
         </childnode>
       </node>
       <node id="481">
-        <label>Doxygen/ParamQuery.h</label>
-        <childnode refid="466" relation="include">
+        <label>Doxygen/LocationQuery.h</label>
+        <childnode refid="461" relation="include">
         </childnode>
       </node>
-      <node id="495">
+      <node id="459">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="451" relation="include">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>vector</label>
+      </node>
+      <node id="467">
+        <label>utility</label>
+      </node>
+      <node id="455">
+        <label>sstream</label>
+      </node>
+      <node id="485">
+        <label>WriteUtils.h</label>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="483" relation="include">
+        </childnode>
+      </node>
+      <node id="471">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>Doxygen/LinkedTextQuery.h</label>
+        <childnode refid="461" relation="include">
+        </childnode>
+      </node>
+      <node id="453">
+        <label>deque</label>
+      </node>
+      <node id="457">
+        <label>unordered_map</label>
+      </node>
+      <node id="473">
+        <label>Doxygen/EnumValueQuery.h</label>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="450" relation="include">
+        </childnode>
+        <childnode refid="451" relation="include">
+        </childnode>
+      </node>
+      <node id="483">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="484" relation="include">
+        </childnode>
+        <childnode refid="452" relation="include">
+        </childnode>
+      </node>
+      <node id="476">
+        <label>Doxygen/ParamQuery.h</label>
+        <childnode refid="461" relation="include">
+        </childnode>
+      </node>
+      <node id="486">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="457" relation="include">
+        <childnode refid="452" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -62,9 +62,7 @@ namespace MdDox
 
         if (!list.empty())
         {
-            _writer->lineBreak(_out);
-            _writer->boldText(_out, "Defined in");
-            _writer->lineBreak(_out);
+            _writer->addSection(_out, "Defined in", 4);
             for (SourceFile& ref : list)
             {
                 _writer->embedContentLinkText(_out,

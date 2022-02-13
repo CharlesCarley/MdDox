@@ -7,145 +7,145 @@
     <includes refid="SpQuery_8h" local="yes">SpQuery.h</includes>
     <includes refid="RefTextQuery_8h" local="yes">RefTextQuery.h</includes>
     <incdepgraph>
-      <node id="6311">
+      <node id="6103">
         <label>Utils/Console.h</label>
-        <childnode refid="6300" relation="include">
+        <childnode refid="6092" relation="include">
         </childnode>
       </node>
-      <node id="6298">
+      <node id="6090">
         <label>functional</label>
       </node>
-      <node id="6295">
+      <node id="6087">
         <label>Tools/Doxygen/HighlightQuery.cpp</label>
         <link refid="HighlightQuery_8cpp"/>
-        <childnode refid="6296" relation="include">
+        <childnode refid="6088" relation="include">
         </childnode>
-        <childnode refid="6313" relation="include">
+        <childnode refid="6105" relation="include">
         </childnode>
-        <childnode refid="6316" relation="include">
+        <childnode refid="6108" relation="include">
         </childnode>
-        <childnode refid="6317" relation="include">
+        <childnode refid="6109" relation="include">
         </childnode>
       </node>
-      <node id="6315">
+      <node id="6107">
         <label>cstdint</label>
       </node>
-      <node id="6307">
+      <node id="6099">
         <label>Utils/Exception.h</label>
-        <childnode refid="6308" relation="include">
+        <childnode refid="6100" relation="include">
         </childnode>
-        <childnode refid="6309" relation="include">
+        <childnode refid="6101" relation="include">
         </childnode>
-        <childnode refid="6310" relation="include">
+        <childnode refid="6102" relation="include">
         </childnode>
-        <childnode refid="6311" relation="include">
+        <childnode refid="6103" relation="include">
         </childnode>
-        <childnode refid="6300" relation="include">
+        <childnode refid="6092" relation="include">
         </childnode>
       </node>
-      <node id="6309">
+      <node id="6101">
         <label>stdexcept</label>
       </node>
-      <node id="6304">
+      <node id="6096">
         <label>string</label>
       </node>
-      <node id="6297">
+      <node id="6089">
         <label>Doxygen.h</label>
-        <childnode refid="6298" relation="include">
+        <childnode refid="6090" relation="include">
         </childnode>
-        <childnode refid="6299" relation="include">
+        <childnode refid="6091" relation="include">
         </childnode>
-        <childnode refid="6300" relation="include">
+        <childnode refid="6092" relation="include">
         </childnode>
-        <childnode refid="6306" relation="include">
+        <childnode refid="6098" relation="include">
         </childnode>
-        <childnode refid="6307" relation="include">
+        <childnode refid="6099" relation="include">
         </childnode>
       </node>
-      <node id="6312">
+      <node id="6104">
         <label>DoxHighlightClass.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
       </node>
-      <node id="6308">
+      <node id="6100">
         <label>exception</label>
       </node>
-      <node id="6302">
+      <node id="6094">
         <label>fstream</label>
       </node>
-      <node id="6306">
+      <node id="6098">
         <label>Xml/Node.h</label>
-        <childnode refid="6298" relation="include">
+        <childnode refid="6090" relation="include">
         </childnode>
-        <childnode refid="6299" relation="include">
+        <childnode refid="6091" relation="include">
         </childnode>
-        <childnode refid="6300" relation="include">
+        <childnode refid="6092" relation="include">
         </childnode>
       </node>
-      <node id="6318">
+      <node id="6110">
         <label>DoxRefKind.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
       </node>
-      <node id="6300">
+      <node id="6092">
         <label>Utils/String.h</label>
-        <childnode refid="6301" relation="include">
+        <childnode refid="6093" relation="include">
         </childnode>
-        <childnode refid="6302" relation="include">
+        <childnode refid="6094" relation="include">
         </childnode>
-        <childnode refid="6303" relation="include">
+        <childnode refid="6095" relation="include">
         </childnode>
-        <childnode refid="6304" relation="include">
+        <childnode refid="6096" relation="include">
         </childnode>
-        <childnode refid="6299" relation="include">
+        <childnode refid="6091" relation="include">
         </childnode>
-        <childnode refid="6305" relation="include">
+        <childnode refid="6097" relation="include">
         </childnode>
       </node>
-      <node id="6305">
+      <node id="6097">
         <label>vector</label>
       </node>
-      <node id="6296">
+      <node id="6088">
         <label>HighlightQuery.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
-        <childnode refid="6312" relation="include">
+        <childnode refid="6104" relation="include">
         </childnode>
       </node>
-      <node id="6310">
+      <node id="6102">
         <label>utility</label>
       </node>
-      <node id="6303">
+      <node id="6095">
         <label>sstream</label>
       </node>
-      <node id="6316">
+      <node id="6108">
         <label>SpQuery.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
       </node>
-      <node id="6313">
+      <node id="6105">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="6314" relation="include">
+        <childnode refid="6106" relation="include">
         </childnode>
       </node>
-      <node id="6301">
+      <node id="6093">
         <label>deque</label>
       </node>
-      <node id="6299">
+      <node id="6091">
         <label>unordered_map</label>
       </node>
-      <node id="6317">
+      <node id="6109">
         <label>RefTextQuery.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="6089" relation="include">
         </childnode>
-        <childnode refid="6318" relation="include">
+        <childnode refid="6110" relation="include">
         </childnode>
       </node>
-      <node id="6314">
+      <node id="6106">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="6315" relation="include">
+        <childnode refid="6107" relation="include">
         </childnode>
-        <childnode refid="6300" relation="include">
+        <childnode refid="6092" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
 <a id="design-tests"></a>
 <h1>Design tests</h1>
 <a id="Design"></a>

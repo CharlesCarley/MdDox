@@ -52,10 +52,6 @@ namespace MdDox::Md
 
     extern void space(OStream& output, int i);
 
-    [[deprecated]] extern void bullet(OStream& output, int n);
-
-    [[deprecated]] extern void blockQuote(OStream& output, int n);
-
     /**
      * \brief Begins a block quote block.
      * \param output The output stream to write to.
@@ -80,6 +76,11 @@ namespace MdDox::Md
      */
     extern void endParagraph(OStream& output);
 
+
+
+	extern void beginList(OStream& output);
+    extern void endList(OStream& output);
+	
     /**
      * \brief Starts a list block.
      * \param output The output stream to write to.

@@ -8,7 +8,7 @@
     <detaileddescription>
 <para>The html output is intended to replicate the look of Markdown.</para><para><itemizedlist>
 <listitem><para>It needs the hard-coded file <computeroutput>style.css</computeroutput> </para></listitem><listitem><para>It uses the standard tags, <computeroutput>h1</computeroutput>, <computeroutput>h2</computeroutput>, <computeroutput>h3</computeroutput>, <computeroutput>h4</computeroutput>, <computeroutput>h5</computeroutput>, <computeroutput>h6</computeroutput>, <computeroutput>a</computeroutput>, <computeroutput>b</computeroutput>, <computeroutput>i</computeroutput>, <computeroutput>p</computeroutput>, <computeroutput>div</computeroutput>, <computeroutput>pre</computeroutput>, <computeroutput>img</computeroutput>, <computeroutput>code</computeroutput>, <computeroutput>span</computeroutput>, <computeroutput>blockquote</computeroutput> </para></listitem></itemizedlist>
-</para><para>It splits the document into two primary regions. Defined by the tags:</para><para><itemizedlist>
+</para><para><itemizedlist>
 <listitem>
 <para>p: <computeroutput>paragraph</computeroutput> </para></listitem>
 <listitem>
@@ -40,6 +40,6 @@
 <listitem>
 <para>div: <computeroutput>section-bar</computeroutput> </para></listitem>
 </itemizedlist>
-</para><para>fontcolor = 000001FF NodeBG = #70809CFF AEB6C2FF</para><para>yellow = #9C9C70FF red = 9C709CFF red2 = 9C5050FF </para>    </detaileddescription>
+</para>    </detaileddescription>
   </compounddef>
 </doxygen>

@@ -2429,6 +2429,8 @@
     <member refid="classMdDox_1_1FunctionDefWriter_1a2d66bcd4fed1f78c3465cf208ae9dfec" kind="variable"><name>_stream</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1afcabe2e7cfd19ab892986050497d4a44" kind="variable"><name>_out</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1ab2bfa56361ccba8dd9136c843c7d6f88" kind="variable"><name>_firstParam</name></member>
+    <member refid="classMdDox_1_1FunctionDefWriter_1a456734f06e2c37a90cd4247ccd9fda1e" kind="variable"><name>_firstRef</name></member>
+    <member refid="classMdDox_1_1FunctionDefWriter_1ac39e129b875bfe56ef93fcf1129a23d9" kind="variable"><name>_hasDetail</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1ae8e0614e82c0bda2d02d30bec0446e58" kind="function"><name>visitedReImplements</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1ac7f5c18bd4a1681063322cebc1e2e3d5" kind="function"><name>visitedReImplementedBy</name></member>
     <member refid="classMdDox_1_1FunctionDefWriter_1a7f80078b0fb192eba7d7e474bb882029" kind="function"><name>visitedEnumValue</name></member>
@@ -3977,6 +3979,8 @@
     <member refid="namespaceMdDox_1_1Md_1ab243fd0ee25dc2bb1c86e8d775957d26" kind="function"><name>endBlockQuote</name></member>
     <member refid="namespaceMdDox_1_1Md_1aa2c400b4ee238fc0e7baa6bbef1ac039" kind="function"><name>beginParagraph</name></member>
     <member refid="namespaceMdDox_1_1Md_1a66cd199e9c617f0be33708aac0f90227" kind="function"><name>endParagraph</name></member>
+    <member refid="namespaceMdDox_1_1Md_1ac9fe7e754a6a825bedbd8a54ab210906" kind="function"><name>beginList</name></member>
+    <member refid="namespaceMdDox_1_1Md_1aaa61a276d522d32dac5862879b34c515" kind="function"><name>endList</name></member>
     <member refid="namespaceMdDox_1_1Md_1a971bd77df5dda67d8e511774518130d8" kind="function"><name>beginListItem</name></member>
     <member refid="namespaceMdDox_1_1Md_1aac5f57c597d908d45c6febe5820fd6aa" kind="function"><name>endListItem</name></member>
     <member refid="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" kind="function"><name>code</name></member>
