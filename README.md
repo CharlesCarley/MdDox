@@ -19,4 +19,4 @@ graphs. But is there still a lot of loose ends that need to be worked out.
 The MdDox output for this repository can be found
 in the [Current](Current/) directory.
 
-- [Index](Current/markdown/index.md#mddox)
+- [Index](Current/markdown/indexpage.md#mddox)
