@@ -3,166 +3,166 @@
   <compounddef id="LocationQuery_8h" kind="file" language="C++">
     <compoundname>LocationQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">ClassPageWriter.cpp</includedby>
-    <includedby refid="LocationWriter_8h" local="yes">LocationWriter.h</includedby>
-    <includedby refid="DirectoryPageWriter_8cpp" local="yes">DirectoryPageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
-    <includedby refid="LocationQuery_8cpp" local="yes">LocationQuery.cpp</includedby>
-    <includedby refid="MemberdefQuery_8cpp" local="yes">MemberdefQuery.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="LocationWriter_8h" local="yes">Source/MdDoxTree/LocationWriter.h</includedby>
+    <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="LocationQuery_8cpp" local="yes">Tools/Doxygen/LocationQuery.cpp</includedby>
+    <includedby refid="MemberdefQuery_8cpp" local="yes">Tools/Doxygen/MemberdefQuery.cpp</includedby>
     <incdepgraph>
-      <node id="4608">
+      <node id="6920">
         <label>Utils/Console.h</label>
-        <childnode refid="4597" relation="include">
+        <childnode refid="6909" relation="include">
         </childnode>
       </node>
-      <node id="4595">
+      <node id="6907">
         <label>functional</label>
       </node>
-      <node id="4604">
+      <node id="6916">
         <label>Utils/Exception.h</label>
-        <childnode refid="4605" relation="include">
+        <childnode refid="6917" relation="include">
         </childnode>
-        <childnode refid="4606" relation="include">
+        <childnode refid="6918" relation="include">
         </childnode>
-        <childnode refid="4607" relation="include">
+        <childnode refid="6919" relation="include">
         </childnode>
-        <childnode refid="4608" relation="include">
+        <childnode refid="6920" relation="include">
         </childnode>
-        <childnode refid="4597" relation="include">
+        <childnode refid="6909" relation="include">
         </childnode>
       </node>
-      <node id="4606">
+      <node id="6918">
         <label>stdexcept</label>
       </node>
-      <node id="4601">
+      <node id="6913">
         <label>string</label>
       </node>
-      <node id="4594">
+      <node id="6906">
         <label>Doxygen.h</label>
-        <childnode refid="4595" relation="include">
+        <childnode refid="6907" relation="include">
         </childnode>
-        <childnode refid="4596" relation="include">
+        <childnode refid="6908" relation="include">
         </childnode>
-        <childnode refid="4597" relation="include">
+        <childnode refid="6909" relation="include">
         </childnode>
-        <childnode refid="4603" relation="include">
+        <childnode refid="6915" relation="include">
         </childnode>
-        <childnode refid="4604" relation="include">
+        <childnode refid="6916" relation="include">
         </childnode>
       </node>
-      <node id="4605">
+      <node id="6917">
         <label>exception</label>
       </node>
-      <node id="4599">
+      <node id="6911">
         <label>fstream</label>
       </node>
-      <node id="4603">
+      <node id="6915">
         <label>Xml/Node.h</label>
-        <childnode refid="4595" relation="include">
+        <childnode refid="6907" relation="include">
         </childnode>
-        <childnode refid="4596" relation="include">
+        <childnode refid="6908" relation="include">
         </childnode>
-        <childnode refid="4597" relation="include">
+        <childnode refid="6909" relation="include">
         </childnode>
       </node>
-      <node id="4597">
+      <node id="6909">
         <label>Utils/String.h</label>
-        <childnode refid="4598" relation="include">
+        <childnode refid="6910" relation="include">
         </childnode>
-        <childnode refid="4599" relation="include">
+        <childnode refid="6911" relation="include">
         </childnode>
-        <childnode refid="4600" relation="include">
+        <childnode refid="6912" relation="include">
         </childnode>
-        <childnode refid="4601" relation="include">
+        <childnode refid="6913" relation="include">
         </childnode>
-        <childnode refid="4596" relation="include">
+        <childnode refid="6908" relation="include">
         </childnode>
-        <childnode refid="4602" relation="include">
+        <childnode refid="6914" relation="include">
         </childnode>
       </node>
-      <node id="4593">
-        <label>LocationQuery.h</label>
+      <node id="6905">
+        <label>Tools/Doxygen/LocationQuery.h</label>
         <link refid="LocationQuery_8h"/>
-        <childnode refid="4594" relation="include">
+        <childnode refid="6906" relation="include">
         </childnode>
       </node>
-      <node id="4602">
+      <node id="6914">
         <label>vector</label>
       </node>
-      <node id="4607">
+      <node id="6919">
         <label>utility</label>
       </node>
-      <node id="4600">
+      <node id="6912">
         <label>sstream</label>
       </node>
-      <node id="4598">
+      <node id="6910">
         <label>deque</label>
       </node>
-      <node id="4596">
+      <node id="6908">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4619">
-        <label>LocationQuery.cpp</label>
+      <node id="6931">
+        <label>Tools/Doxygen/LocationQuery.cpp</label>
       </node>
-      <node id="4615">
-        <label>MemberDefWriter.cpp</label>
+      <node id="6927">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="4611">
-        <label>LocationWriter.h</label>
-        <childnode refid="4610" relation="include">
+      <node id="6923">
+        <label>Source/MdDoxTree/LocationWriter.h</label>
+        <childnode refid="6922" relation="include">
         </childnode>
-        <childnode refid="4612" relation="include">
+        <childnode refid="6924" relation="include">
         </childnode>
-        <childnode refid="4613" relation="include">
+        <childnode refid="6925" relation="include">
         </childnode>
-        <childnode refid="4614" relation="include">
+        <childnode refid="6926" relation="include">
         </childnode>
-        <childnode refid="4615" relation="include">
+        <childnode refid="6927" relation="include">
         </childnode>
-        <childnode refid="4616" relation="include">
+        <childnode refid="6928" relation="include">
         </childnode>
       </node>
-      <node id="4612">
-        <label>EnumDefWriter.cpp</label>
+      <node id="6924">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="4616">
-        <label>NamespacePageWriter.cpp</label>
+      <node id="6928">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="4620">
-        <label>MemberdefQuery.cpp</label>
+      <node id="6932">
+        <label>Tools/Doxygen/MemberdefQuery.cpp</label>
       </node>
-      <node id="4613">
-        <label>FunctionDefWriter.cpp</label>
+      <node id="6925">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="4610">
-        <label>ClassPageWriter.cpp</label>
+      <node id="6922">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="4609">
-        <label>LocationQuery.h</label>
+      <node id="6921">
+        <label>Tools/Doxygen/LocationQuery.h</label>
         <link refid="LocationQuery_8h"/>
-        <childnode refid="4610" relation="include">
+        <childnode refid="6922" relation="include">
         </childnode>
-        <childnode refid="4611" relation="include">
+        <childnode refid="6923" relation="include">
         </childnode>
-        <childnode refid="4617" relation="include">
+        <childnode refid="6929" relation="include">
         </childnode>
-        <childnode refid="4618" relation="include">
+        <childnode refid="6930" relation="include">
         </childnode>
-        <childnode refid="4619" relation="include">
+        <childnode refid="6931" relation="include">
         </childnode>
-        <childnode refid="4620" relation="include">
+        <childnode refid="6932" relation="include">
         </childnode>
       </node>
-      <node id="4618">
-        <label>CompoundDefQuery.cpp</label>
+      <node id="6930">
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
-      <node id="4614">
-        <label>LocationWriter.cpp</label>
+      <node id="6926">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
-      <node id="4617">
-        <label>DirectoryPageWriter.cpp</label>
+      <node id="6929">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1LocationQuery" prot="public">MdDox::Doxygen::LocationQuery</innerclass>

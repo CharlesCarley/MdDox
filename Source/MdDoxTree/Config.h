@@ -49,7 +49,13 @@ namespace MdDox
         const String& getValue(const String& key, const String& def = "");
 
         bool getBool(const String& key, bool def=false);
-        int  getInt(const String& key, int def=0);
+
+    	int  getInt(const String& key, int def=0);
+
+
+    	const StringMap& attributes() const;
+    	
+    	
     };
 
 }  // namespace MdDox

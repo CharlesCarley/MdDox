@@ -1,44 +1,44 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="Xml_2Token_8h" kind="file" language="C++">
-    <compoundname>Xml/Token.h</compoundname>
+    <compoundname>Token.h</compoundname>
     <includes refid="TokenBase_8h" local="yes">Utils/ParserBase/TokenBase.h</includes>
-    <includedby refid="Xml_2Parser_8cpp" local="yes">Parser.cpp</includedby>
-    <includedby refid="Xml_2Scanner_8cpp" local="yes">Scanner.cpp</includedby>
-    <includedby refid="Xml_2Scanner_8h" local="yes">Scanner.h</includedby>
+    <includedby refid="Xml_2Parser_8cpp" local="yes">Source/Xml/Parser.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8cpp" local="yes">Source/Xml/Scanner.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8h" local="yes">Source/Xml/Scanner.h</includedby>
     <incdepgraph>
-      <node id="8349">
-        <label>Token.h</label>
+      <node id="2477">
+        <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="8350" relation="include">
+        <childnode refid="2478" relation="include">
         </childnode>
       </node>
-      <node id="8350">
+      <node id="2478">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8352">
-        <label>Parser.cpp</label>
+      <node id="2480">
+        <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="8351">
-        <label>Token.h</label>
+      <node id="2479">
+        <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="8352" relation="include">
+        <childnode refid="2480" relation="include">
         </childnode>
-        <childnode refid="8353" relation="include">
+        <childnode refid="2481" relation="include">
         </childnode>
-        <childnode refid="8354" relation="include">
+        <childnode refid="2482" relation="include">
         </childnode>
       </node>
-      <node id="8353">
-        <label>Scanner.cpp</label>
+      <node id="2481">
+        <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="8354">
-        <label>Scanner.h</label>
-        <childnode refid="8352" relation="include">
+      <node id="2482">
+        <label>Source/Xml/Scanner.h</label>
+        <childnode refid="2480" relation="include">
         </childnode>
-        <childnode refid="8353" relation="include">
+        <childnode refid="2481" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

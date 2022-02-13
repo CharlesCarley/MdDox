@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir">
-    <compoundname>MdDoxTree</compoundname>
+    <compoundname>Source/MdDoxTree</compoundname>
     <innerfile refid="ClassPageWriter_8cpp">ClassPageWriter.cpp</innerfile>
     <innerfile refid="ClassPageWriter_8h">ClassPageWriter.h</innerfile>
     <innerfile refid="Config_8cpp">Config.cpp</innerfile>

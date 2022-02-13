@@ -3,95 +3,95 @@
   <compounddef id="ParseError_8h" kind="file" language="C++">
     <compoundname>ParseError.h</compoundname>
     <includes refid="Exception_8h" local="yes">Utils/Exception.h</includes>
-    <includedby refid="ParseError_8cpp" local="yes">ParseError.cpp</includedby>
-    <includedby refid="ParserBase_8cpp" local="yes">ParserBase.cpp</includedby>
-    <includedby refid="ScannerBase_8cpp" local="yes">ScannerBase.cpp</includedby>
+    <includedby refid="ParseError_8cpp" local="yes">Source/Utils/ParserBase/ParseError.cpp</includedby>
+    <includedby refid="ParserBase_8cpp" local="yes">Source/Utils/ParserBase/ParserBase.cpp</includedby>
+    <includedby refid="ScannerBase_8cpp" local="yes">Source/Utils/ParserBase/ScannerBase.cpp</includedby>
     <incdepgraph>
-      <node id="6300">
+      <node id="3123">
         <label>Utils/Console.h</label>
-        <childnode refid="6301" relation="include">
+        <childnode refid="3124" relation="include">
         </childnode>
       </node>
-      <node id="6296">
+      <node id="3119">
         <label>Utils/Exception.h</label>
-        <childnode refid="6297" relation="include">
+        <childnode refid="3120" relation="include">
         </childnode>
-        <childnode refid="6298" relation="include">
+        <childnode refid="3121" relation="include">
         </childnode>
-        <childnode refid="6299" relation="include">
+        <childnode refid="3122" relation="include">
         </childnode>
-        <childnode refid="6300" relation="include">
+        <childnode refid="3123" relation="include">
         </childnode>
-        <childnode refid="6301" relation="include">
+        <childnode refid="3124" relation="include">
         </childnode>
       </node>
-      <node id="6298">
+      <node id="3121">
         <label>stdexcept</label>
       </node>
-      <node id="6305">
+      <node id="3128">
         <label>string</label>
       </node>
-      <node id="6297">
+      <node id="3120">
         <label>exception</label>
       </node>
-      <node id="6303">
+      <node id="3126">
         <label>fstream</label>
       </node>
-      <node id="6301">
+      <node id="3124">
         <label>Utils/String.h</label>
-        <childnode refid="6302" relation="include">
+        <childnode refid="3125" relation="include">
         </childnode>
-        <childnode refid="6303" relation="include">
+        <childnode refid="3126" relation="include">
         </childnode>
-        <childnode refid="6304" relation="include">
+        <childnode refid="3127" relation="include">
         </childnode>
-        <childnode refid="6305" relation="include">
+        <childnode refid="3128" relation="include">
         </childnode>
-        <childnode refid="6306" relation="include">
+        <childnode refid="3129" relation="include">
         </childnode>
-        <childnode refid="6307" relation="include">
+        <childnode refid="3130" relation="include">
         </childnode>
       </node>
-      <node id="6307">
+      <node id="3130">
         <label>vector</label>
       </node>
-      <node id="6299">
+      <node id="3122">
         <label>utility</label>
       </node>
-      <node id="6304">
+      <node id="3127">
         <label>sstream</label>
       </node>
-      <node id="6295">
-        <label>ParseError.h</label>
+      <node id="3118">
+        <label>Source/Utils/ParserBase/ParseError.h</label>
         <link refid="ParseError_8h"/>
-        <childnode refid="6296" relation="include">
+        <childnode refid="3119" relation="include">
         </childnode>
       </node>
-      <node id="6302">
+      <node id="3125">
         <label>deque</label>
       </node>
-      <node id="6306">
+      <node id="3129">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6309">
-        <label>ParseError.cpp</label>
+      <node id="3132">
+        <label>Source/Utils/ParserBase/ParseError.cpp</label>
       </node>
-      <node id="6310">
-        <label>ParserBase.cpp</label>
+      <node id="3133">
+        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
-      <node id="6311">
-        <label>ScannerBase.cpp</label>
+      <node id="3134">
+        <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
       </node>
-      <node id="6308">
-        <label>ParseError.h</label>
+      <node id="3131">
+        <label>Source/Utils/ParserBase/ParseError.h</label>
         <link refid="ParseError_8h"/>
-        <childnode refid="6309" relation="include">
+        <childnode refid="3132" relation="include">
         </childnode>
-        <childnode refid="6310" relation="include">
+        <childnode refid="3133" relation="include">
         </childnode>
-        <childnode refid="6311" relation="include">
+        <childnode refid="3134" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

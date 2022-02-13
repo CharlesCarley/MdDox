@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>DoxygenIndexQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="doxygenindexquery"></a>
 <h1>DoxygenIndexQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery"></a>
@@ -85,15 +95,15 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>DoxygenIndexType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="DoxygenIndexType">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="compound" type="CompoundIndexType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="version" type="xsd:string" use="required"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;DoxygenIndexType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;compound&quot; type=&quot;CompoundIndexType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;version&quot; type=&quot;xsd:string&quot; use=&quot;required&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

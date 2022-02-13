@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>SpQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="spquery"></a>
 <h1>SpQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1SpQuery"></a>
@@ -77,12 +87,12 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>spType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="spType" mixed="true">
-  <xsd:attribute name="value" type="xsd:integer" use="optional"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;spType&quot; mixed=&quot;true&quot;&gt;
+  &lt;xsd:attribute name=&quot;value&quot; type=&quot;xsd:integer&quot; use=&quot;optional&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

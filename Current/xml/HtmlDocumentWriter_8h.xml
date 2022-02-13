@@ -5,115 +5,115 @@
     <includes refid="DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
     <includes refid="FileSystem_8h" local="yes">Utils/FileSystem.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Source_2MdDox_2Main_8cpp" local="yes">Main.cpp</includedby>
-    <includedby refid="HtmlCommandWriter_8cpp" local="yes">HtmlCommandWriter.cpp</includedby>
-    <includedby refid="HtmlDocumentWriter_8cpp" local="yes">HtmlDocumentWriter.cpp</includedby>
-    <includedby refid="MarkdownDocumentWriter_8h" local="yes">MarkdownDocumentWriter.h</includedby>
+    <includedby refid="Source_2MdDox_2Main_8cpp" local="yes">Source/MdDox/Main.cpp</includedby>
+    <includedby refid="HtmlCommandWriter_8cpp" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
+    <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
+    <includedby refid="MarkdownDocumentWriter_8h" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.h</includedby>
     <incdepgraph>
-      <node id="3641">
+      <node id="728">
         <label>filesystem</label>
       </node>
-      <node id="3630">
-        <label>HtmlDocumentWriter.h</label>
+      <node id="717">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
         <link refid="HtmlDocumentWriter_8h"/>
-        <childnode refid="3631" relation="include">
+        <childnode refid="718" relation="include">
         </childnode>
-        <childnode refid="3640" relation="include">
+        <childnode refid="727" relation="include">
         </childnode>
-        <childnode refid="3633" relation="include">
+        <childnode refid="720" relation="include">
         </childnode>
       </node>
-      <node id="3637">
+      <node id="724">
         <label>string</label>
       </node>
-      <node id="3635">
+      <node id="722">
         <label>fstream</label>
       </node>
-      <node id="3632">
+      <node id="719">
         <label>IconSet.h</label>
-        <childnode refid="3633" relation="include">
+        <childnode refid="720" relation="include">
         </childnode>
       </node>
-      <node id="3631">
+      <node id="718">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="3632" relation="include">
+        <childnode refid="719" relation="include">
         </childnode>
-        <childnode refid="3640" relation="include">
+        <childnode refid="727" relation="include">
         </childnode>
-        <childnode refid="3633" relation="include">
+        <childnode refid="720" relation="include">
         </childnode>
       </node>
-      <node id="3633">
+      <node id="720">
         <label>Utils/String.h</label>
-        <childnode refid="3634" relation="include">
+        <childnode refid="721" relation="include">
         </childnode>
-        <childnode refid="3635" relation="include">
+        <childnode refid="722" relation="include">
         </childnode>
-        <childnode refid="3636" relation="include">
+        <childnode refid="723" relation="include">
         </childnode>
-        <childnode refid="3637" relation="include">
+        <childnode refid="724" relation="include">
         </childnode>
-        <childnode refid="3638" relation="include">
+        <childnode refid="725" relation="include">
         </childnode>
-        <childnode refid="3639" relation="include">
+        <childnode refid="726" relation="include">
         </childnode>
       </node>
-      <node id="3639">
+      <node id="726">
         <label>vector</label>
       </node>
-      <node id="3636">
+      <node id="723">
         <label>sstream</label>
       </node>
-      <node id="3640">
+      <node id="727">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="3641" relation="include">
+        <childnode refid="728" relation="include">
         </childnode>
-        <childnode refid="3633" relation="include">
+        <childnode refid="720" relation="include">
         </childnode>
       </node>
-      <node id="3634">
+      <node id="721">
         <label>deque</label>
       </node>
-      <node id="3638">
+      <node id="725">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3642">
-        <label>HtmlDocumentWriter.h</label>
+      <node id="729">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
         <link refid="HtmlDocumentWriter_8h"/>
-        <childnode refid="3643" relation="include">
+        <childnode refid="730" relation="include">
         </childnode>
-        <childnode refid="3644" relation="include">
+        <childnode refid="731" relation="include">
         </childnode>
-        <childnode refid="3645" relation="include">
+        <childnode refid="732" relation="include">
         </childnode>
-        <childnode refid="3646" relation="include">
-        </childnode>
-      </node>
-      <node id="3644">
-        <label>HtmlCommandWriter.cpp</label>
-      </node>
-      <node id="3646">
-        <label>MarkdownDocumentWriter.h</label>
-        <childnode refid="3643" relation="include">
-        </childnode>
-        <childnode refid="3647" relation="include">
-        </childnode>
-        <childnode refid="3648" relation="include">
+        <childnode refid="733" relation="include">
         </childnode>
       </node>
-      <node id="3645">
-        <label>HtmlDocumentWriter.cpp</label>
+      <node id="731">
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="3648">
-        <label>MarkdownDocumentWriter.cpp</label>
+      <node id="733">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
+        <childnode refid="730" relation="include">
+        </childnode>
+        <childnode refid="734" relation="include">
+        </childnode>
+        <childnode refid="735" relation="include">
+        </childnode>
       </node>
-      <node id="3647">
-        <label>MarkdownCommandWriter.cpp</label>
+      <node id="732">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="3643">
-        <label>Main.cpp</label>
+      <node id="735">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="734">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="730">
+        <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1HtmlDocumentWriter" prot="public">MdDox::HtmlDocumentWriter</innerclass>
@@ -222,29 +222,30 @@
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" kindref="member" tooltip="Implementations should write a list item block with an icon and link to the title. ">listIcon</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kindref="member" tooltip="Implementations should write an image block. ">image</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a4d219e0fcf40a90b2f34884234ec0809" kindref="member">keyValueListItem</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" kindref="member" tooltip="Implementations write an anchor. ">anchor</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kindref="member" tooltip="Implementations write a horizontal rule. ">horizontalRule</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kindref="member" tooltip="Implementations write text link. ">linkText</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kindref="member" tooltip="Implementations write text link to a page. ">linkPage</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" kindref="member" tooltip="Implementations write text link to a page. ">linkPageMember</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kindref="member" tooltip="Implementations write text link to a page. ">linkHeading</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" kindref="member" tooltip="Implementations should embed the predefined content icon. ">embedContent</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL. ">embedContentLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="242"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[deprecated]]</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a4d219e0fcf40a90b2f34884234ec0809" kindref="member">keyValueListItem</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" kindref="member" tooltip="Implementations write an anchor. ">anchor</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kindref="member" tooltip="Implementations write a horizontal rule. ">horizontalRule</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kindref="member" tooltip="Implementations write text link. ">linkText</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kindref="member" tooltip="Implementations write text link to a page. ">linkPage</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" kindref="member" tooltip="Implementations write text link to a page. ">linkPageMember</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kindref="member" tooltip="Implementations write text link to a page. ">linkHeading</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" kindref="member" tooltip="Implementations should embed the predefined content icon. ">embedContent</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL. ">embedContentLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/HtmlDocumentWriter.h"/>
   </compounddef>

@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>ParamListItemQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="paramlistitemquery"></a>
 <h1>ParamListItemQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1ParamListItemQuery"></a>
@@ -89,15 +99,15 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docParamListItem</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="docParamListItem">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="parameternamelist" type="docParamNameList" maxOccurs="unbounded"/>
-    <xsd:element name="parameterdescription" type="descriptionType"/>
-  </xsd:sequence>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;docParamListItem&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;parameternamelist&quot; type=&quot;docParamNameList&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element name=&quot;parameterdescription&quot; type=&quot;descriptionType&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

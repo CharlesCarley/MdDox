@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>EnumValueQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="enumvaluequery"></a>
 <h1>EnumValueQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1EnumValueQuery"></a>
@@ -113,19 +123,19 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>enumvalueType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="enumvalueType" mixed="true">
-  <xsd:sequence>
-    <xsd:element name="name"/>
-    <xsd:element minOccurs="0" name="initializer" type="linkedTextType"/>
-    <xsd:element minOccurs="0" name="briefdescription" type="descriptionType"/>
-    <xsd:element minOccurs="0" name="detaileddescription" type="descriptionType"/>
-  </xsd:sequence>
-  <xsd:attribute name="id" type="xsd:string"/>
-  <xsd:attribute name="prot" type="DoxProtectionKind"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;enumvalueType&quot; mixed=&quot;true&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;name&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;initializer&quot; type=&quot;linkedTextType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;briefdescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;detaileddescription&quot; type=&quot;descriptionType&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;id&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;prot&quot; type=&quot;DoxProtectionKind&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

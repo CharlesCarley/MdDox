@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Node</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="node"></a>
 <h1>Node</h1>
 <a id="classMdDox_1_1Xml_1_1Node"></a>
@@ -611,22 +621,22 @@
 <span class="inline-text">Any text that is placed in between tags gets pushed to the list of children for a specific node. It is defined by the name </span>
 <code class="typewriter">_text_node</code>
 <span class="bold-text"><b>For example:</b></span>
-
-```xml
-<root>
- <foo>A<b>B</b>C</foo>
-</root>
-```
+<div class="code-block">
+<pre><code>&lt;root&gt;
+ &lt;foo&gt;A&lt;b&gt;B&lt;/b&gt;C&lt;/foo&gt;
+&lt;/root&gt;
+</code></pre>
+</div>
 <span class="inline-text">Would be defined as </span>
-
-```txt
--root
+<div class="code-block">
+<pre><code>-root
 --foo
 ---_text_node
 ---b
 ----_text_node
 ---_text_node
-```
+</code></pre>
+</div>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">Any text associated with this node. </span>

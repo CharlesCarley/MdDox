@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>CompoundDefQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="compounddefquery"></a>
 <h1>CompoundDefQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1CompoundDefQuery"></a>
@@ -241,44 +251,44 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>compounddefType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="compounddefType">
-  <xsd:sequence>
-    <xsd:element name="compoundname" type="xsd:string"/>
-    <xsd:element minOccurs="0" name="title" type="xsd:string"/>
-    <xsd:element minOccurs="0" name="basecompoundref" type="compoundRefType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="derivedcompoundref" type="compoundRefType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="includes" type="incType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="includedby" type="incType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="incdepgraph" type="graphType"/>
-    <xsd:element minOccurs="0" name="invincdepgraph" type="graphType"/>
-    <xsd:element minOccurs="0" name="innerdir" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="innerfile" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="innerclass" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="innernamespace" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="innerpage" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="innergroup" type="refType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="templateparamlist" type="templateparamlistType"/>
-    <xsd:element minOccurs="0" name="sectiondef" type="sectiondefType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="tableofcontents" maxOccurs="1"/>
-    <xsd:element minOccurs="0" name="briefdescription" type="descriptionType"/>
-    <xsd:element minOccurs="0" name="detaileddescription" type="descriptionType"/>
-    <xsd:element minOccurs="0" name="inheritancegraph" type="graphType"/>
-    <xsd:element minOccurs="0" name="collaborationgraph" type="graphType"/>
-    <xsd:element minOccurs="0" name="programlisting" type="listingType"/>
-    <xsd:element minOccurs="0" name="location" type="locationType"/>
-    <xsd:element minOccurs="0" name="listofallmembers" type="listofallmembersType"/>
-  </xsd:sequence>
-  <xsd:attribute name="id" type="xsd:string"/>
-  <xsd:attribute name="kind" type="DoxCompoundKind"/>
-  <xsd:attribute name="language" type="DoxLanguage" use="optional"/>
-  <xsd:attribute name="prot" type="DoxProtectionKind"/>
-  <xsd:attribute name="final" type="DoxBool" use="optional"/>
-  <xsd:attribute name="sealed" type="DoxBool" use="optional"/>
-  <xsd:attribute name="abstract" type="DoxBool" use="optional"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;compounddefType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;compoundname&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;title&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;basecompoundref&quot; type=&quot;compoundRefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;derivedcompoundref&quot; type=&quot;compoundRefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;includes&quot; type=&quot;incType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;includedby&quot; type=&quot;incType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;incdepgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;invincdepgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerdir&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerfile&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerclass&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innernamespace&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerpage&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innergroup&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;templateparamlist&quot; type=&quot;templateparamlistType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;sectiondef&quot; type=&quot;sectiondefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;tableofcontents&quot; maxOccurs=&quot;1&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;briefdescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;detaileddescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;inheritancegraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;collaborationgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;programlisting&quot; type=&quot;listingType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;location&quot; type=&quot;locationType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;listofallmembers&quot; type=&quot;listofallmembersType&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;id&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;DoxCompoundKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;language&quot; type=&quot;DoxLanguage&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;prot&quot; type=&quot;DoxProtectionKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;final&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;sealed&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;abstract&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

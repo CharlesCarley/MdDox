@@ -4,71 +4,71 @@
     <compoundname>DotWriter.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
-    <includedby refid="DotWriter_8cpp" local="yes">DotWriter.cpp</includedby>
+    <includedby refid="DotWriter_8cpp" local="yes">Source/MdDoxTree/DotWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1256">
-        <label>DotWriter.h</label>
+      <node id="428">
+        <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
-        <childnode refid="1257" relation="include">
+        <childnode refid="429" relation="include">
         </childnode>
-        <childnode refid="1264" relation="include">
+        <childnode refid="436" relation="include">
         </childnode>
       </node>
-      <node id="1265">
+      <node id="437">
         <label>functional</label>
       </node>
-      <node id="1261">
+      <node id="433">
         <label>string</label>
       </node>
-      <node id="1259">
+      <node id="431">
         <label>fstream</label>
       </node>
-      <node id="1264">
+      <node id="436">
         <label>Xml/Node.h</label>
-        <childnode refid="1265" relation="include">
+        <childnode refid="437" relation="include">
         </childnode>
-        <childnode refid="1262" relation="include">
+        <childnode refid="434" relation="include">
         </childnode>
-        <childnode refid="1257" relation="include">
+        <childnode refid="429" relation="include">
         </childnode>
       </node>
-      <node id="1257">
+      <node id="429">
         <label>Utils/String.h</label>
-        <childnode refid="1258" relation="include">
+        <childnode refid="430" relation="include">
         </childnode>
-        <childnode refid="1259" relation="include">
+        <childnode refid="431" relation="include">
         </childnode>
-        <childnode refid="1260" relation="include">
+        <childnode refid="432" relation="include">
         </childnode>
-        <childnode refid="1261" relation="include">
+        <childnode refid="433" relation="include">
         </childnode>
-        <childnode refid="1262" relation="include">
+        <childnode refid="434" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="435" relation="include">
         </childnode>
       </node>
-      <node id="1263">
+      <node id="435">
         <label>vector</label>
       </node>
-      <node id="1260">
+      <node id="432">
         <label>sstream</label>
       </node>
-      <node id="1258">
+      <node id="430">
         <label>deque</label>
       </node>
-      <node id="1262">
+      <node id="434">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1266">
-        <label>DotWriter.h</label>
+      <node id="438">
+        <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
-        <childnode refid="1267" relation="include">
+        <childnode refid="439" relation="include">
         </childnode>
       </node>
-      <node id="1267">
-        <label>DotWriter.cpp</label>
+      <node id="439">
+        <label>Source/MdDoxTree/DotWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1DotWriter" prot="public">MdDox::DotWriter</innerclass>

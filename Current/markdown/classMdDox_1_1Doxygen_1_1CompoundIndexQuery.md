@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>CompoundIndexQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="compoundindexquery"></a>
 <h1>CompoundIndexQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1CompoundIndexQuery"></a>
@@ -93,17 +103,17 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>CompoundIndexType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="CompoundIndexType">
-  <xsd:sequence>
-    <xsd:element name="name" type="xsd:string"/>
-    <xsd:element minOccurs="0" name="member" type="MemberIndexType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="refid" type="xsd:string" use="required"/>
-  <xsd:attribute name="kind" type="CompoundKind" use="required"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;CompoundIndexType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;name&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;member&quot; type=&quot;MemberIndexType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;refid&quot; type=&quot;xsd:string&quot; use=&quot;required&quot;/&gt;
+  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;CompoundKind&quot; use=&quot;required&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

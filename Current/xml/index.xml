@@ -199,6 +199,7 @@
     <member refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" kind="function"><name>getValue</name></member>
     <member refid="classMdDox_1_1Config_1afbb5b638949896b8307a556ec2c5bc8c" kind="function"><name>getBool</name></member>
     <member refid="classMdDox_1_1Config_1afe4fb79617f31856dd5266ffd883caae" kind="function"><name>getInt</name></member>
+    <member refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" kind="function"><name>attributes</name></member>
   </compound>
   <compound refid="classMdDox_1_1Console" kind="class"><name>MdDox::Console</name>
     <member refid="classMdDox_1_1Console_1a458c8cd8f98835785ee41ba08cabfc2a" kind="function"><name>read</name></member>
@@ -2749,6 +2750,7 @@
     <member refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kind="variable"><name>classes</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kind="variable"><name>namespaces</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kind="variable"><name>directories</name></member>
+    <member refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" kind="variable"><name>dirPaths</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a0272d01ca025bd91ac7dd9b6656569c5" kind="function"><name>visitedCompound</name></member>
   </compound>
   <compound refid="classMdDox_1_1IndexPageWriter" kind="class"><name>MdDox::IndexPageWriter</name>
@@ -2759,6 +2761,7 @@
     <member refid="classMdDox_1_1IndexPageWriter_1aec94abb8b8d9f45b1fa2e7685aa47cb5" kind="function"><name>dispatchFilter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1afd6bd463f95fc3691b896eb248718fbf" kind="function"><name>makeFilename</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1a98cfd9fe52ab14b691e63013930ebefa" kind="function"><name>writeReferenceList</name></member>
+    <member refid="classMdDox_1_1IndexPageWriter_1a2ca2a2a95a7e397141b29d2b222842d5" kind="function"><name>writeReferenceListDirectory</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1af32e63230ba9618577ed2c40727804a6" kind="function"><name>IndexPageWriter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" kind="function"><name>exec</name></member>
   </compound>
@@ -3175,6 +3178,7 @@
     <member refid="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" kind="variable"><name>_names</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" kind="variable"><name>_members</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a07b8222cb15ac8e3748c832e6c878a07" kind="variable"><name>_dotFiles</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a59232660bea40b74e4e4b60b39003f5a" kind="variable"><name>_dot</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1aa8528c516b08e52edc47724156b27b44" kind="variable"><name>hidePrivate</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a49a03a45d3b43385b7b95e39b0bef9b5" kind="variable"><name>hideProtected</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a65fd9f3daae987d541cc4cb9b7b5e2b3" kind="variable"><name>skipUndocumented</name></member>
@@ -4004,11 +4008,283 @@
     <member refid="namespaceMdDox_1_1Xml_1a3614d2269202e4804c65d03fafd977d1" kind="function"><name>isValidIdentifier</name></member>
     <member refid="namespaceMdDox_1_1Xml_1ac0ae22fbb9d6aa5ddcffbc2df4348963" kind="function"><name>isQuote</name></member>
   </compound>
+  <compound refid="Design_8h" kind="file"><name>Design.h</name>
+  </compound>
+  <compound refid="Directories_8h" kind="file"><name>Directories.h</name>
+  </compound>
+  <compound refid="HtmlStyle_8h" kind="file"><name>HtmlStyle.h</name>
+  </compound>
+  <compound refid="Image_8h" kind="file"><name>Image.h</name>
+  </compound>
+  <compound refid="Index_8h" kind="file"><name>Index.h</name>
+  </compound>
+  <compound refid="SiteLayout_8h" kind="file"><name>SiteLayout.h</name>
+  </compound>
+  <compound refid="Source_2MdDox_2Main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="Source_2MdDox_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="Tools_2GenApi_2Main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="Tools_2GenApi_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="Tools_2ResourceCompiler_2Main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="Tools_2ResourceCompiler_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="ClassPageWriter_8cpp" kind="file"><name>ClassPageWriter.cpp</name>
+  </compound>
+  <compound refid="ClassPageWriter_8h" kind="file"><name>ClassPageWriter.h</name>
+  </compound>
+  <compound refid="Config_8cpp" kind="file"><name>Config.cpp</name>
+  </compound>
+  <compound refid="Config_8h" kind="file"><name>Config.h</name>
+  </compound>
+  <compound refid="DescriptionWriter_8cpp" kind="file"><name>DescriptionWriter.cpp</name>
+  </compound>
+  <compound refid="DescriptionWriter_8h" kind="file"><name>DescriptionWriter.h</name>
+  </compound>
+  <compound refid="DirectoryPageWriter_8cpp" kind="file"><name>DirectoryPageWriter.cpp</name>
+  </compound>
+  <compound refid="DirectoryPageWriter_8h" kind="file"><name>DirectoryPageWriter.h</name>
+  </compound>
+  <compound refid="DocumentWriter_8h" kind="file"><name>DocumentWriter.h</name>
+  </compound>
+  <compound refid="DotWriter_8cpp" kind="file"><name>DotWriter.cpp</name>
+  </compound>
+  <compound refid="DotWriter_8h" kind="file"><name>DotWriter.h</name>
+  </compound>
+  <compound refid="EnumDefWriter_8cpp" kind="file"><name>EnumDefWriter.cpp</name>
+  </compound>
+  <compound refid="EnumDefWriter_8h" kind="file"><name>EnumDefWriter.h</name>
+  </compound>
+  <compound refid="FunctionDefWriter_8cpp" kind="file"><name>FunctionDefWriter.cpp</name>
+  </compound>
+  <compound refid="FunctionDefWriter_8h" kind="file"><name>FunctionDefWriter.h</name>
+  </compound>
+  <compound refid="GenericPageWriter_8cpp" kind="file"><name>GenericPageWriter.cpp</name>
+  </compound>
+  <compound refid="GenericPageWriter_8h" kind="file"><name>GenericPageWriter.h</name>
+  </compound>
+  <compound refid="HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
+  </compound>
+  <compound refid="HashUtils_8h" kind="file"><name>HashUtils.h</name>
+  </compound>
+  <compound refid="HtmlCommandWriter_8cpp" kind="file"><name>HtmlCommandWriter.cpp</name>
+  </compound>
+  <compound refid="HtmlCommandWriter_8h" kind="file"><name>HtmlCommandWriter.h</name>
+  </compound>
+  <compound refid="HtmlDocumentWriter_8cpp" kind="file"><name>HtmlDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="HtmlDocumentWriter_8h" kind="file"><name>HtmlDocumentWriter.h</name>
+  </compound>
+  <compound refid="IconSet_8cpp" kind="file"><name>IconSet.cpp</name>
+  </compound>
+  <compound refid="IconSet_8h" kind="file"><name>IconSet.h</name>
+  </compound>
+  <compound refid="IndexPageWriter_8cpp" kind="file"><name>IndexPageWriter.cpp</name>
+  </compound>
+  <compound refid="IndexPageWriter_8h" kind="file"><name>IndexPageWriter.h</name>
+  </compound>
+  <compound refid="Link_8cpp" kind="file"><name>Link.cpp</name>
+  </compound>
+  <compound refid="Link_8h" kind="file"><name>Link.h</name>
+  </compound>
+  <compound refid="LinkedTextWriter_8cpp" kind="file"><name>LinkedTextWriter.cpp</name>
+  </compound>
+  <compound refid="LinkedTextWriter_8h" kind="file"><name>LinkedTextWriter.h</name>
+  </compound>
+  <compound refid="Location_8h" kind="file"><name>Location.h</name>
+  </compound>
+  <compound refid="LocationWriter_8cpp" kind="file"><name>LocationWriter.cpp</name>
+  </compound>
+  <compound refid="LocationWriter_8h" kind="file"><name>LocationWriter.h</name>
+  </compound>
+  <compound refid="MarkdownCommandWriter_8cpp" kind="file"><name>MarkdownCommandWriter.cpp</name>
+  </compound>
+  <compound refid="MarkdownCommandWriter_8h" kind="file"><name>MarkdownCommandWriter.h</name>
+  </compound>
+  <compound refid="MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
+  </compound>
+  <compound refid="MemberDefListingWriter_8cpp" kind="file"><name>MemberDefListingWriter.cpp</name>
+  </compound>
+  <compound refid="MemberDefListingWriter_8h" kind="file"><name>MemberDefListingWriter.h</name>
+  </compound>
+  <compound refid="MemberDefWriter_8cpp" kind="file"><name>MemberDefWriter.cpp</name>
+  </compound>
+  <compound refid="MemberDefWriter_8h" kind="file"><name>MemberDefWriter.h</name>
+  </compound>
+  <compound refid="NamespacePageWriter_8cpp" kind="file"><name>NamespacePageWriter.cpp</name>
+  </compound>
+  <compound refid="NamespacePageWriter_8h" kind="file"><name>NamespacePageWriter.h</name>
+  </compound>
+  <compound refid="PageWriter_8cpp" kind="file"><name>PageWriter.cpp</name>
+  </compound>
+  <compound refid="PageWriter_8h" kind="file"><name>PageWriter.h</name>
+  </compound>
+  <compound refid="ParagraphWriter_8cpp" kind="file"><name>ParagraphWriter.cpp</name>
+  </compound>
+  <compound refid="ParagraphWriter_8h" kind="file"><name>ParagraphWriter.h</name>
+  </compound>
+  <compound refid="ParameterListWriter_8cpp" kind="file"><name>ParameterListWriter.cpp</name>
+  </compound>
+  <compound refid="ParameterListWriter_8h" kind="file"><name>ParameterListWriter.h</name>
+  </compound>
+  <compound refid="ParameterWriter_8cpp" kind="file"><name>ParameterWriter.cpp</name>
+  </compound>
+  <compound refid="ParameterWriter_8h" kind="file"><name>ParameterWriter.h</name>
+  </compound>
+  <compound refid="Reference_8h" kind="file"><name>Reference.h</name>
+  </compound>
+  <compound refid="RepoFile_8cpp" kind="file"><name>RepoFile.cpp</name>
+  </compound>
+  <compound refid="RepoFile_8h" kind="file"><name>RepoFile.h</name>
+  </compound>
+  <compound refid="Section1Writer_8cpp" kind="file"><name>Section1Writer.cpp</name>
+  </compound>
+  <compound refid="Section1Writer_8h" kind="file"><name>Section1Writer.h</name>
+  </compound>
+  <compound refid="Section2Writer_8cpp" kind="file"><name>Section2Writer.cpp</name>
+  </compound>
+  <compound refid="Section2Writer_8h" kind="file"><name>Section2Writer.h</name>
+  </compound>
+  <compound refid="Section3Writer_8cpp" kind="file"><name>Section3Writer.cpp</name>
+  </compound>
+  <compound refid="Section3Writer_8h" kind="file"><name>Section3Writer.h</name>
+  </compound>
+  <compound refid="Section4Writer_8cpp" kind="file"><name>Section4Writer.cpp</name>
+  </compound>
+  <compound refid="Section4Writer_8h" kind="file"><name>Section4Writer.h</name>
+  </compound>
+  <compound refid="SectionDefListingWriter_8cpp" kind="file"><name>SectionDefListingWriter.cpp</name>
+  </compound>
+  <compound refid="SectionDefListingWriter_8h" kind="file"><name>SectionDefListingWriter.h</name>
+  </compound>
+  <compound refid="SectionDefWriter_8cpp" kind="file"><name>SectionDefWriter.cpp</name>
+  </compound>
+  <compound refid="SectionDefWriter_8h" kind="file"><name>SectionDefWriter.h</name>
+  </compound>
+  <compound refid="SiteBuilder_8cpp" kind="file"><name>SiteBuilder.cpp</name>
+  </compound>
+  <compound refid="SiteBuilder_8h" kind="file"><name>SiteBuilder.h</name>
+  </compound>
+  <compound refid="SourceFile_8cpp" kind="file"><name>SourceFile.cpp</name>
+  </compound>
+  <compound refid="SourceFile_8h" kind="file"><name>SourceFile.h</name>
+  </compound>
+  <compound refid="VariableDefWriter_8cpp" kind="file"><name>VariableDefWriter.cpp</name>
+  </compound>
+  <compound refid="VariableDefWriter_8h" kind="file"><name>VariableDefWriter.h</name>
+  </compound>
+  <compound refid="WriteUtils_8cpp" kind="file"><name>WriteUtils.cpp</name>
+  </compound>
+  <compound refid="WriteUtils_8h" kind="file"><name>WriteUtils.h</name>
+  </compound>
+  <compound refid="DoxygenFilter_8cpp" kind="file"><name>DoxygenFilter.cpp</name>
+  </compound>
+  <compound refid="DoxygenFilter_8h" kind="file"><name>DoxygenFilter.h</name>
+  </compound>
+  <compound refid="Char_8cpp" kind="file"><name>Char.cpp</name>
+    <member refid="Char_8cpp_1af08ec37a8c99d747fb60fa15bc28678b" kind="define"><name>_CRT_SECURE_NO_WARNINGS</name></member>
+  </compound>
+  <compound refid="Char_8h" kind="file"><name>Char.h</name>
+  </compound>
+  <compound refid="Option_8h" kind="file"><name>Option.h</name>
+  </compound>
+  <compound refid="Utils_2CommandLine_2Parser_8cpp" kind="file"><name>Parser.cpp</name>
+    <member refid="Utils_2CommandLine_2Parser_8cpp_1a5a93f561424c1ab4b6dbd1d569b14bb3" kind="define"><name>pad</name></member>
+  </compound>
+  <compound refid="Xml_2Parser_8cpp" kind="file"><name>Parser.cpp</name>
+  </compound>
+  <compound refid="Utils_2CommandLine_2Parser_8h" kind="file"><name>Parser.h</name>
+  </compound>
+  <compound refid="Xml_2Parser_8h" kind="file"><name>Parser.h</name>
+  </compound>
+  <compound refid="Utils_2CommandLine_2Scanner_8cpp" kind="file"><name>Scanner.cpp</name>
+    <member refid="Utils_2CommandLine_2Scanner_8cpp_1ac3cd1b079ed7176efca57b086b4efc0d" kind="define"><name>LowerCaseAz</name></member>
+    <member refid="Utils_2CommandLine_2Scanner_8cpp_1aa883c9593fad7ae7cf64210b4aeb5810" kind="define"><name>UpperCaseAz</name></member>
+    <member refid="Utils_2CommandLine_2Scanner_8cpp_1a6381d62d288c299e72ba79f181fe969d" kind="define"><name>Digits09</name></member>
+  </compound>
+  <compound refid="Xml_2Scanner_8cpp" kind="file"><name>Scanner.cpp</name>
+  </compound>
+  <compound refid="Utils_2CommandLine_2Scanner_8h" kind="file"><name>Scanner.h</name>
+  </compound>
+  <compound refid="Xml_2Scanner_8h" kind="file"><name>Scanner.h</name>
+  </compound>
+  <compound refid="Utils_2CommandLine_2Token_8h" kind="file"><name>Token.h</name>
+  </compound>
+  <compound refid="Xml_2Token_8h" kind="file"><name>Token.h</name>
+  </compound>
+  <compound refid="Console_8cpp" kind="file"><name>Console.cpp</name>
+  </compound>
+  <compound refid="Console_8h" kind="file"><name>Console.h</name>
+  </compound>
+  <compound refid="Exception_8h" kind="file"><name>Exception.h</name>
+    <member refid="Exception_8h_1ac9f8dec9dca79e02098daf925ed44a10" kind="define"><name>NotImplemented</name></member>
+    <member refid="Exception_8h_1ac1164df13e715364a5cd65e192513826" kind="define"><name>IndexOutOfBounds</name></member>
+    <member refid="Exception_8h_1a68f8e9e3ac3d7829c531fd864f73e740" kind="define"><name>NotFound</name></member>
+    <member refid="Exception_8h_1a4fc6793fe96e18ed1a6bd985318c59f7" kind="define"><name>InvalidPointer</name></member>
+    <member refid="Exception_8h_1a2bbee531f06255ece6918eda9b0fda36" kind="define"><name>InvalidFile</name></member>
+    <member refid="Exception_8h_1adfc16123f1d9a4be310fc07c19ac2e9c" kind="define"><name>InputException</name></member>
+    <member refid="Exception_8h_1a82d014f17d8f8c6b6fc3da097c89afb5" kind="define"><name>MessageException</name></member>
+    <member refid="Exception_8h_1ac3e050a4f799a41fda0d24c94fe632d3" kind="define"><name>NullOrEmptyString</name></member>
+  </compound>
+  <compound refid="FileSystem_8cpp" kind="file"><name>FileSystem.cpp</name>
+  </compound>
+  <compound refid="FileSystem_8h" kind="file"><name>FileSystem.h</name>
+  </compound>
+  <compound refid="IndexCache_8h" kind="file"><name>IndexCache.h</name>
+  </compound>
+  <compound refid="ParseError_8cpp" kind="file"><name>ParseError.cpp</name>
+  </compound>
+  <compound refid="ParseError_8h" kind="file"><name>ParseError.h</name>
+  </compound>
+  <compound refid="ParserBase_8cpp" kind="file"><name>ParserBase.cpp</name>
+  </compound>
+  <compound refid="ParserBase_8h" kind="file"><name>ParserBase.h</name>
+  </compound>
+  <compound refid="ScannerBase_8cpp" kind="file"><name>ScannerBase.cpp</name>
+  </compound>
+  <compound refid="ScannerBase_8h" kind="file"><name>ScannerBase.h</name>
+    <member refid="ScannerBase_8h_1ac3cd1b079ed7176efca57b086b4efc0d" kind="define"><name>LowerCaseAz</name></member>
+    <member refid="ScannerBase_8h_1aa883c9593fad7ae7cf64210b4aeb5810" kind="define"><name>UpperCaseAz</name></member>
+    <member refid="ScannerBase_8h_1a6381d62d288c299e72ba79f181fe969d" kind="define"><name>Digits09</name></member>
+  </compound>
+  <compound refid="TokenBase_8h" kind="file"><name>TokenBase.h</name>
+  </compound>
+  <compound refid="Path_8cpp" kind="file"><name>Path.cpp</name>
+  </compound>
+  <compound refid="Path_8h" kind="file"><name>Path.h</name>
+  </compound>
+  <compound refid="String_8cpp" kind="file"><name>String.cpp</name>
+    <member refid="String_8cpp_1acc4a9ad83f9350a588d117e0c8916d45" kind="define"><name>NOW</name></member>
+  </compound>
+  <compound refid="String_8h" kind="file"><name>String.h</name>
+  </compound>
+  <compound refid="TextStreamWriter_8h" kind="file"><name>TextStreamWriter.h</name>
+  </compound>
+  <compound refid="TypeFilter_8cpp" kind="file"><name>TypeFilter.cpp</name>
+  </compound>
+  <compound refid="TypeFilter_8h" kind="file"><name>TypeFilter.h</name>
+  </compound>
+  <compound refid="CrtUtils_8cpp" kind="file"><name>CrtUtils.cpp</name>
+  </compound>
+  <compound refid="CrtUtils_8h" kind="file"><name>CrtUtils.h</name>
+  </compound>
+  <compound refid="Attribute_8h" kind="file"><name>Attribute.h</name>
+  </compound>
+  <compound refid="Node_8cpp" kind="file"><name>Node.cpp</name>
+  </compound>
+  <compound refid="Node_8h" kind="file"><name>Node.h</name>
+  </compound>
+  <compound refid="Writer_8cpp" kind="file"><name>Writer.cpp</name>
+  </compound>
+  <compound refid="Source_2Xml_2Writer_8h" kind="file"><name>Writer.h</name>
+  </compound>
+  <compound refid="Tools_2GenApi_2Writer_8h" kind="file"><name>Writer.h</name>
+  </compound>
   <compound refid="AnchorQuery_8cpp" kind="file"><name>AnchorQuery.cpp</name>
   </compound>
   <compound refid="AnchorQuery_8h" kind="file"><name>AnchorQuery.h</name>
-  </compound>
-  <compound refid="Attribute_8h" kind="file"><name>Attribute.h</name>
   </compound>
   <compound refid="BlockQuoteQuery_8cpp" kind="file"><name>BlockQuoteQuery.cpp</name>
   </compound>
@@ -4018,30 +4294,13 @@
   </compound>
   <compound refid="CaptionQuery_8h" kind="file"><name>CaptionQuery.h</name>
   </compound>
-  <compound refid="Char_8cpp" kind="file"><name>Char.cpp</name>
-    <member refid="Char_8cpp_1af08ec37a8c99d747fb60fa15bc28678b" kind="define"><name>_CRT_SECURE_NO_WARNINGS</name></member>
-  </compound>
-  <compound refid="Char_8h" kind="file"><name>Char.h</name>
-  </compound>
   <compound refid="ChildNodeQuery_8cpp" kind="file"><name>ChildNodeQuery.cpp</name>
   </compound>
   <compound refid="ChildNodeQuery_8h" kind="file"><name>ChildNodeQuery.h</name>
   </compound>
-  <compound refid="ClassPageWriter_8cpp" kind="file"><name>ClassPageWriter.cpp</name>
-  </compound>
-  <compound refid="ClassPageWriter_8h" kind="file"><name>ClassPageWriter.h</name>
-  </compound>
   <compound refid="CodeLineQuery_8cpp" kind="file"><name>CodeLineQuery.cpp</name>
   </compound>
   <compound refid="CodeLineQuery_8h" kind="file"><name>CodeLineQuery.h</name>
-  </compound>
-  <compound refid="Common_8cpp" kind="file"><name>Common.cpp</name>
-  </compound>
-  <compound refid="Common_8h" kind="file"><name>Common.h</name>
-  </compound>
-  <compound refid="Complex_8cpp" kind="file"><name>Complex.cpp</name>
-  </compound>
-  <compound refid="Complex_8h" kind="file"><name>Complex.h</name>
   </compound>
   <compound refid="CompoundDefQuery_8cpp" kind="file"><name>CompoundDefQuery.cpp</name>
   </compound>
@@ -4055,47 +4314,13 @@
   </compound>
   <compound refid="CompoundRefQuery_8h" kind="file"><name>CompoundRefQuery.h</name>
   </compound>
-  <compound refid="Config_8cpp" kind="file"><name>Config.cpp</name>
-  </compound>
-  <compound refid="Config_8h" kind="file"><name>Config.h</name>
-  </compound>
-  <compound refid="Console_8cpp" kind="file"><name>Console.cpp</name>
-  </compound>
-  <compound refid="Console_8h" kind="file"><name>Console.h</name>
-  </compound>
   <compound refid="CopyQuery_8cpp" kind="file"><name>CopyQuery.cpp</name>
   </compound>
   <compound refid="CopyQuery_8h" kind="file"><name>CopyQuery.h</name>
   </compound>
-  <compound refid="CrtUtils_8cpp" kind="file"><name>CrtUtils.cpp</name>
-  </compound>
-  <compound refid="CrtUtils_8h" kind="file"><name>CrtUtils.h</name>
-  </compound>
-  <compound refid="Database_8cpp" kind="file"><name>Database.cpp</name>
-  </compound>
-  <compound refid="Database_8h" kind="file"><name>Database.h</name>
-  </compound>
   <compound refid="DescriptionQuery_8cpp" kind="file"><name>DescriptionQuery.cpp</name>
   </compound>
   <compound refid="DescriptionQuery_8h" kind="file"><name>DescriptionQuery.h</name>
-  </compound>
-  <compound refid="DescriptionWriter_8cpp" kind="file"><name>DescriptionWriter.cpp</name>
-  </compound>
-  <compound refid="DescriptionWriter_8h" kind="file"><name>DescriptionWriter.h</name>
-  </compound>
-  <compound refid="Design_8h" kind="file"><name>Design.h</name>
-  </compound>
-  <compound refid="Directories_8h" kind="file"><name>Directories.h</name>
-  </compound>
-  <compound refid="DirectoryPageWriter_8cpp" kind="file"><name>DirectoryPageWriter.cpp</name>
-  </compound>
-  <compound refid="DirectoryPageWriter_8h" kind="file"><name>DirectoryPageWriter.h</name>
-  </compound>
-  <compound refid="DocumentWriter_8h" kind="file"><name>DocumentWriter.h</name>
-  </compound>
-  <compound refid="DotWriter_8cpp" kind="file"><name>DotWriter.cpp</name>
-  </compound>
-  <compound refid="DotWriter_8h" kind="file"><name>DotWriter.h</name>
   </compound>
   <compound refid="DoxAccessor_8cpp" kind="file"><name>DoxAccessor.cpp</name>
   </compound>
@@ -4171,10 +4396,6 @@
   </compound>
   <compound refid="Doxygen_8h" kind="file"><name>Doxygen.h</name>
   </compound>
-  <compound refid="DoxygenFilter_8cpp" kind="file"><name>DoxygenFilter.cpp</name>
-  </compound>
-  <compound refid="DoxygenFilter_8h" kind="file"><name>DoxygenFilter.h</name>
-  </compound>
   <compound refid="DoxygenIndexQuery_8cpp" kind="file"><name>DoxygenIndexQuery.cpp</name>
   </compound>
   <compound refid="DoxygenIndexQuery_8h" kind="file"><name>DoxygenIndexQuery.h</name>
@@ -4191,59 +4412,21 @@
   </compound>
   <compound refid="EntryQuery_8h" kind="file"><name>EntryQuery.h</name>
   </compound>
-  <compound refid="EnumDefWriter_8cpp" kind="file"><name>EnumDefWriter.cpp</name>
-  </compound>
-  <compound refid="EnumDefWriter_8h" kind="file"><name>EnumDefWriter.h</name>
-  </compound>
   <compound refid="EnumValueQuery_8cpp" kind="file"><name>EnumValueQuery.cpp</name>
   </compound>
   <compound refid="EnumValueQuery_8h" kind="file"><name>EnumValueQuery.h</name>
-  </compound>
-  <compound refid="Exception_8h" kind="file"><name>Exception.h</name>
-    <member refid="Exception_8h_1ac9f8dec9dca79e02098daf925ed44a10" kind="define"><name>NotImplemented</name></member>
-    <member refid="Exception_8h_1ac1164df13e715364a5cd65e192513826" kind="define"><name>IndexOutOfBounds</name></member>
-    <member refid="Exception_8h_1a68f8e9e3ac3d7829c531fd864f73e740" kind="define"><name>NotFound</name></member>
-    <member refid="Exception_8h_1a4fc6793fe96e18ed1a6bd985318c59f7" kind="define"><name>InvalidPointer</name></member>
-    <member refid="Exception_8h_1a2bbee531f06255ece6918eda9b0fda36" kind="define"><name>InvalidFile</name></member>
-    <member refid="Exception_8h_1adfc16123f1d9a4be310fc07c19ac2e9c" kind="define"><name>InputException</name></member>
-    <member refid="Exception_8h_1a82d014f17d8f8c6b6fc3da097c89afb5" kind="define"><name>MessageException</name></member>
-    <member refid="Exception_8h_1ac3e050a4f799a41fda0d24c94fe632d3" kind="define"><name>NullOrEmptyString</name></member>
   </compound>
   <compound refid="FileQuery_8cpp" kind="file"><name>FileQuery.cpp</name>
   </compound>
   <compound refid="FileQuery_8h" kind="file"><name>FileQuery.h</name>
   </compound>
-  <compound refid="FileSystem_8cpp" kind="file"><name>FileSystem.cpp</name>
-  </compound>
-  <compound refid="FileSystem_8h" kind="file"><name>FileSystem.h</name>
-  </compound>
   <compound refid="FormulaQuery_8cpp" kind="file"><name>FormulaQuery.cpp</name>
   </compound>
   <compound refid="FormulaQuery_8h" kind="file"><name>FormulaQuery.h</name>
   </compound>
-  <compound refid="FunctionDefWriter_8cpp" kind="file"><name>FunctionDefWriter.cpp</name>
-  </compound>
-  <compound refid="FunctionDefWriter_8h" kind="file"><name>FunctionDefWriter.h</name>
-  </compound>
-  <compound refid="Generator_8cpp" kind="file"><name>Generator.cpp</name>
-  </compound>
-  <compound refid="Generator_8h" kind="file"><name>Generator.h</name>
-  </compound>
-  <compound refid="GenericPageWriter_8cpp" kind="file"><name>GenericPageWriter.cpp</name>
-  </compound>
-  <compound refid="GenericPageWriter_8h" kind="file"><name>GenericPageWriter.h</name>
-  </compound>
   <compound refid="GraphQuery_8cpp" kind="file"><name>GraphQuery.cpp</name>
   </compound>
   <compound refid="GraphQuery_8h" kind="file"><name>GraphQuery.h</name>
-  </compound>
-  <compound refid="Group_8cpp" kind="file"><name>Group.cpp</name>
-  </compound>
-  <compound refid="Group_8h" kind="file"><name>Group.h</name>
-  </compound>
-  <compound refid="HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
-  </compound>
-  <compound refid="HashUtils_8h" kind="file"><name>HashUtils.h</name>
   </compound>
   <compound refid="HeadingQuery_8cpp" kind="file"><name>HeadingQuery.cpp</name>
   </compound>
@@ -4253,22 +4436,6 @@
   </compound>
   <compound refid="HighlightQuery_8h" kind="file"><name>HighlightQuery.h</name>
   </compound>
-  <compound refid="HtmlCommandWriter_8cpp" kind="file"><name>HtmlCommandWriter.cpp</name>
-  </compound>
-  <compound refid="HtmlCommandWriter_8h" kind="file"><name>HtmlCommandWriter.h</name>
-  </compound>
-  <compound refid="HtmlDocumentWriter_8cpp" kind="file"><name>HtmlDocumentWriter.cpp</name>
-  </compound>
-  <compound refid="HtmlDocumentWriter_8h" kind="file"><name>HtmlDocumentWriter.h</name>
-  </compound>
-  <compound refid="HtmlStyle_8h" kind="file"><name>HtmlStyle.h</name>
-  </compound>
-  <compound refid="IconSet_8cpp" kind="file"><name>IconSet.cpp</name>
-  </compound>
-  <compound refid="IconSet_8h" kind="file"><name>IconSet.h</name>
-  </compound>
-  <compound refid="Image_8h" kind="file"><name>Image.h</name>
-  </compound>
   <compound refid="ImageQuery_8cpp" kind="file"><name>ImageQuery.cpp</name>
   </compound>
   <compound refid="ImageQuery_8h" kind="file"><name>ImageQuery.h</name>
@@ -4277,17 +4444,9 @@
   </compound>
   <compound refid="IncQuery_8h" kind="file"><name>IncQuery.h</name>
   </compound>
-  <compound refid="Index_8h" kind="file"><name>Index.h</name>
-  </compound>
-  <compound refid="IndexCache_8h" kind="file"><name>IndexCache.h</name>
-  </compound>
   <compound refid="IndexEntryQuery_8cpp" kind="file"><name>IndexEntryQuery.cpp</name>
   </compound>
   <compound refid="IndexEntryQuery_8h" kind="file"><name>IndexEntryQuery.h</name>
-  </compound>
-  <compound refid="IndexPageWriter_8cpp" kind="file"><name>IndexPageWriter.cpp</name>
-  </compound>
-  <compound refid="IndexPageWriter_8h" kind="file"><name>IndexPageWriter.h</name>
   </compound>
   <compound refid="InternalQuery_8cpp" kind="file"><name>InternalQuery.cpp</name>
   </compound>
@@ -4313,17 +4472,9 @@
   </compound>
   <compound refid="LanguageQuery_8h" kind="file"><name>LanguageQuery.h</name>
   </compound>
-  <compound refid="Link_8cpp" kind="file"><name>Link.cpp</name>
-  </compound>
-  <compound refid="Link_8h" kind="file"><name>Link.h</name>
-  </compound>
   <compound refid="LinkedTextQuery_8cpp" kind="file"><name>LinkedTextQuery.cpp</name>
   </compound>
   <compound refid="LinkedTextQuery_8h" kind="file"><name>LinkedTextQuery.h</name>
-  </compound>
-  <compound refid="LinkedTextWriter_8cpp" kind="file"><name>LinkedTextWriter.cpp</name>
-  </compound>
-  <compound refid="LinkedTextWriter_8h" kind="file"><name>LinkedTextWriter.h</name>
   </compound>
   <compound refid="LinkQuery_8cpp" kind="file"><name>LinkQuery.cpp</name>
   </compound>
@@ -4345,48 +4496,17 @@
   </compound>
   <compound refid="ListQuery_8h" kind="file"><name>ListQuery.h</name>
   </compound>
-  <compound refid="Location_8h" kind="file"><name>Location.h</name>
-  </compound>
   <compound refid="LocationQuery_8cpp" kind="file"><name>LocationQuery.cpp</name>
   </compound>
   <compound refid="LocationQuery_8h" kind="file"><name>LocationQuery.h</name>
-  </compound>
-  <compound refid="LocationWriter_8cpp" kind="file"><name>LocationWriter.cpp</name>
-  </compound>
-  <compound refid="LocationWriter_8h" kind="file"><name>LocationWriter.h</name>
-  </compound>
-  <compound refid="Source_2MdDox_2Main_8cpp" kind="file"><name>Source/MdDox/Main.cpp</name>
-    <member refid="Source_2MdDox_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="Tools_2GenApi_2Main_8cpp" kind="file"><name>Tools/GenApi/Main.cpp</name>
-    <member refid="Tools_2GenApi_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="Tools_2ResourceCompiler_2Main_8cpp" kind="file"><name>Tools/ResourceCompiler/Main.cpp</name>
-    <member refid="Tools_2ResourceCompiler_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
-  </compound>
-  <compound refid="MarkdownCommandWriter_8cpp" kind="file"><name>MarkdownCommandWriter.cpp</name>
-  </compound>
-  <compound refid="MarkdownCommandWriter_8h" kind="file"><name>MarkdownCommandWriter.h</name>
-  </compound>
-  <compound refid="MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
-  </compound>
-  <compound refid="MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
   </compound>
   <compound refid="MarkupQuery_8cpp" kind="file"><name>MarkupQuery.cpp</name>
   </compound>
   <compound refid="MarkupQuery_8h" kind="file"><name>MarkupQuery.h</name>
   </compound>
-  <compound refid="MemberDefListingWriter_8cpp" kind="file"><name>MemberDefListingWriter.cpp</name>
-  </compound>
-  <compound refid="MemberDefListingWriter_8h" kind="file"><name>MemberDefListingWriter.h</name>
-  </compound>
   <compound refid="MemberdefQuery_8cpp" kind="file"><name>MemberdefQuery.cpp</name>
   </compound>
   <compound refid="MemberdefQuery_8h" kind="file"><name>MemberdefQuery.h</name>
-  </compound>
-  <compound refid="MemberDefWriter_8cpp" kind="file"><name>MemberDefWriter.cpp</name>
-  </compound>
-  <compound refid="MemberDefWriter_8h" kind="file"><name>MemberDefWriter.h</name>
   </compound>
   <compound refid="MemberIndexQuery_8cpp" kind="file"><name>MemberIndexQuery.cpp</name>
   </compound>
@@ -4396,37 +4516,9 @@
   </compound>
   <compound refid="MemberRefQuery_8h" kind="file"><name>MemberRefQuery.h</name>
   </compound>
-  <compound refid="NamespacePageWriter_8cpp" kind="file"><name>NamespacePageWriter.cpp</name>
-  </compound>
-  <compound refid="NamespacePageWriter_8h" kind="file"><name>NamespacePageWriter.h</name>
-  </compound>
-  <compound refid="Node_8cpp" kind="file"><name>Node.cpp</name>
-  </compound>
-  <compound refid="Node_8h" kind="file"><name>Node.h</name>
-  </compound>
   <compound refid="NodeQuery_8cpp" kind="file"><name>NodeQuery.cpp</name>
   </compound>
   <compound refid="NodeQuery_8h" kind="file"><name>NodeQuery.h</name>
-  </compound>
-  <compound refid="Object_8h" kind="file"><name>Object.h</name>
-  </compound>
-  <compound refid="Option_8h" kind="file"><name>Option.h</name>
-  </compound>
-  <compound refid="PageWriter_8cpp" kind="file"><name>PageWriter.cpp</name>
-  </compound>
-  <compound refid="PageWriter_8h" kind="file"><name>PageWriter.h</name>
-  </compound>
-  <compound refid="ParagraphWriter_8cpp" kind="file"><name>ParagraphWriter.cpp</name>
-  </compound>
-  <compound refid="ParagraphWriter_8h" kind="file"><name>ParagraphWriter.h</name>
-  </compound>
-  <compound refid="ParameterListWriter_8cpp" kind="file"><name>ParameterListWriter.cpp</name>
-  </compound>
-  <compound refid="ParameterListWriter_8h" kind="file"><name>ParameterListWriter.h</name>
-  </compound>
-  <compound refid="ParameterWriter_8cpp" kind="file"><name>ParameterWriter.cpp</name>
-  </compound>
-  <compound refid="ParameterWriter_8h" kind="file"><name>ParameterWriter.h</name>
   </compound>
   <compound refid="ParamListItemQuery_8cpp" kind="file"><name>ParamListItemQuery.cpp</name>
   </compound>
@@ -4460,29 +4552,6 @@
   </compound>
   <compound refid="ParBlockQuery_8h" kind="file"><name>ParBlockQuery.h</name>
   </compound>
-  <compound refid="ParseError_8cpp" kind="file"><name>ParseError.cpp</name>
-  </compound>
-  <compound refid="ParseError_8h" kind="file"><name>ParseError.h</name>
-  </compound>
-  <compound refid="Utils_2CommandLine_2Parser_8cpp" kind="file"><name>Utils/CommandLine/Parser.cpp</name>
-    <member refid="Utils_2CommandLine_2Parser_8cpp_1a5a93f561424c1ab4b6dbd1d569b14bb3" kind="define"><name>pad</name></member>
-  </compound>
-  <compound refid="Xml_2Parser_8cpp" kind="file"><name>Xml/Parser.cpp</name>
-  </compound>
-  <compound refid="Utils_2CommandLine_2Parser_8h" kind="file"><name>Utils/CommandLine/Parser.h</name>
-  </compound>
-  <compound refid="Xml_2Parser_8h" kind="file"><name>Xml/Parser.h</name>
-  </compound>
-  <compound refid="ParserBase_8cpp" kind="file"><name>ParserBase.cpp</name>
-  </compound>
-  <compound refid="ParserBase_8h" kind="file"><name>ParserBase.h</name>
-  </compound>
-  <compound refid="Path_8cpp" kind="file"><name>Path.cpp</name>
-  </compound>
-  <compound refid="Path_8h" kind="file"><name>Path.h</name>
-  </compound>
-  <compound refid="Reference_8h" kind="file"><name>Reference.h</name>
-  </compound>
   <compound refid="ReferenceQuery_8cpp" kind="file"><name>ReferenceQuery.cpp</name>
   </compound>
   <compound refid="ReferenceQuery_8h" kind="file"><name>ReferenceQuery.h</name>
@@ -4499,35 +4568,9 @@
   </compound>
   <compound refid="ReimplementQuery_8h" kind="file"><name>ReimplementQuery.h</name>
   </compound>
-  <compound refid="RepoFile_8cpp" kind="file"><name>RepoFile.cpp</name>
-  </compound>
-  <compound refid="RepoFile_8h" kind="file"><name>RepoFile.h</name>
-  </compound>
-  <compound refid="Resources_8cpp" kind="file"><name>Resources.cpp</name>
-  </compound>
-  <compound refid="Resources_8h" kind="file"><name>Resources.h</name>
-  </compound>
   <compound refid="RowQuery_8cpp" kind="file"><name>RowQuery.cpp</name>
   </compound>
   <compound refid="RowQuery_8h" kind="file"><name>RowQuery.h</name>
-  </compound>
-  <compound refid="Utils_2CommandLine_2Scanner_8cpp" kind="file"><name>Utils/CommandLine/Scanner.cpp</name>
-    <member refid="Utils_2CommandLine_2Scanner_8cpp_1ac3cd1b079ed7176efca57b086b4efc0d" kind="define"><name>LowerCaseAz</name></member>
-    <member refid="Utils_2CommandLine_2Scanner_8cpp_1aa883c9593fad7ae7cf64210b4aeb5810" kind="define"><name>UpperCaseAz</name></member>
-    <member refid="Utils_2CommandLine_2Scanner_8cpp_1a6381d62d288c299e72ba79f181fe969d" kind="define"><name>Digits09</name></member>
-  </compound>
-  <compound refid="Xml_2Scanner_8cpp" kind="file"><name>Xml/Scanner.cpp</name>
-  </compound>
-  <compound refid="Utils_2CommandLine_2Scanner_8h" kind="file"><name>Utils/CommandLine/Scanner.h</name>
-  </compound>
-  <compound refid="Xml_2Scanner_8h" kind="file"><name>Xml/Scanner.h</name>
-  </compound>
-  <compound refid="ScannerBase_8cpp" kind="file"><name>ScannerBase.cpp</name>
-  </compound>
-  <compound refid="ScannerBase_8h" kind="file"><name>ScannerBase.h</name>
-    <member refid="ScannerBase_8h_1ac3cd1b079ed7176efca57b086b4efc0d" kind="define"><name>LowerCaseAz</name></member>
-    <member refid="ScannerBase_8h_1aa883c9593fad7ae7cf64210b4aeb5810" kind="define"><name>UpperCaseAz</name></member>
-    <member refid="ScannerBase_8h_1a6381d62d288c299e72ba79f181fe969d" kind="define"><name>Digits09</name></member>
   </compound>
   <compound refid="Sect1Query_8cpp" kind="file"><name>Sect1Query.cpp</name>
   </compound>
@@ -4545,60 +4588,17 @@
   </compound>
   <compound refid="Sect4Query_8h" kind="file"><name>Sect4Query.h</name>
   </compound>
-  <compound refid="Section1Writer_8cpp" kind="file"><name>Section1Writer.cpp</name>
-  </compound>
-  <compound refid="Section1Writer_8h" kind="file"><name>Section1Writer.h</name>
-  </compound>
-  <compound refid="Section2Writer_8cpp" kind="file"><name>Section2Writer.cpp</name>
-  </compound>
-  <compound refid="Section2Writer_8h" kind="file"><name>Section2Writer.h</name>
-  </compound>
-  <compound refid="Section3Writer_8cpp" kind="file"><name>Section3Writer.cpp</name>
-  </compound>
-  <compound refid="Section3Writer_8h" kind="file"><name>Section3Writer.h</name>
-  </compound>
-  <compound refid="Section4Writer_8cpp" kind="file"><name>Section4Writer.cpp</name>
-  </compound>
-  <compound refid="Section4Writer_8h" kind="file"><name>Section4Writer.h</name>
-  </compound>
-  <compound refid="SectionDefListingWriter_8cpp" kind="file"><name>SectionDefListingWriter.cpp</name>
-  </compound>
-  <compound refid="SectionDefListingWriter_8h" kind="file"><name>SectionDefListingWriter.h</name>
-  </compound>
   <compound refid="SectiondefQuery_8cpp" kind="file"><name>SectiondefQuery.cpp</name>
   </compound>
   <compound refid="SectiondefQuery_8h" kind="file"><name>SectiondefQuery.h</name>
-  </compound>
-  <compound refid="SectionDefWriter_8cpp" kind="file"><name>SectionDefWriter.cpp</name>
-  </compound>
-  <compound refid="SectionDefWriter_8h" kind="file"><name>SectionDefWriter.h</name>
-  </compound>
-  <compound refid="Simple_8cpp" kind="file"><name>Simple.cpp</name>
-  </compound>
-  <compound refid="Simple_8h" kind="file"><name>Simple.h</name>
   </compound>
   <compound refid="SimpleSectQuery_8cpp" kind="file"><name>SimpleSectQuery.cpp</name>
   </compound>
   <compound refid="SimpleSectQuery_8h" kind="file"><name>SimpleSectQuery.h</name>
   </compound>
-  <compound refid="SiteBuilder_8cpp" kind="file"><name>SiteBuilder.cpp</name>
-  </compound>
-  <compound refid="SiteBuilder_8h" kind="file"><name>SiteBuilder.h</name>
-  </compound>
-  <compound refid="SiteLayout_8h" kind="file"><name>SiteLayout.h</name>
-  </compound>
-  <compound refid="SourceFile_8cpp" kind="file"><name>SourceFile.cpp</name>
-  </compound>
-  <compound refid="SourceFile_8h" kind="file"><name>SourceFile.h</name>
-  </compound>
   <compound refid="SpQuery_8cpp" kind="file"><name>SpQuery.cpp</name>
   </compound>
   <compound refid="SpQuery_8h" kind="file"><name>SpQuery.h</name>
-  </compound>
-  <compound refid="String_8cpp" kind="file"><name>String.cpp</name>
-    <member refid="String_8cpp_1acc4a9ad83f9350a588d117e0c8916d45" kind="define"><name>NOW</name></member>
-  </compound>
-  <compound refid="String_8h" kind="file"><name>String.h</name>
   </compound>
   <compound refid="TableQuery_8cpp" kind="file"><name>TableQuery.cpp</name>
   </compound>
@@ -4607,8 +4607,6 @@
   <compound refid="TemplateParamListQuery_8cpp" kind="file"><name>TemplateParamListQuery.cpp</name>
   </compound>
   <compound refid="TemplateParamListQuery_8h" kind="file"><name>TemplateParamListQuery.h</name>
-  </compound>
-  <compound refid="TextStreamWriter_8h" kind="file"><name>TextStreamWriter.h</name>
   </compound>
   <compound refid="TitleQuery_8cpp" kind="file"><name>TitleQuery.cpp</name>
   </compound>
@@ -4622,25 +4620,9 @@
   </compound>
   <compound refid="TocListQuery_8h" kind="file"><name>TocListQuery.h</name>
   </compound>
-  <compound refid="Utils_2CommandLine_2Token_8h" kind="file"><name>Utils/CommandLine/Token.h</name>
-  </compound>
-  <compound refid="Xml_2Token_8h" kind="file"><name>Xml/Token.h</name>
-  </compound>
-  <compound refid="TokenBase_8h" kind="file"><name>TokenBase.h</name>
-  </compound>
-  <compound refid="TypeFilter_8cpp" kind="file"><name>TypeFilter.cpp</name>
-  </compound>
-  <compound refid="TypeFilter_8h" kind="file"><name>TypeFilter.h</name>
-  </compound>
-  <compound refid="Types_8h" kind="file"><name>Types.h</name>
-  </compound>
   <compound refid="UrlLinkQuery_8cpp" kind="file"><name>UrlLinkQuery.cpp</name>
   </compound>
   <compound refid="UrlLinkQuery_8h" kind="file"><name>UrlLinkQuery.h</name>
-  </compound>
-  <compound refid="VariableDefWriter_8cpp" kind="file"><name>VariableDefWriter.cpp</name>
-  </compound>
-  <compound refid="VariableDefWriter_8h" kind="file"><name>VariableDefWriter.h</name>
   </compound>
   <compound refid="VariableListQuery_8cpp" kind="file"><name>VariableListQuery.cpp</name>
   </compound>
@@ -4650,19 +4632,41 @@
   </compound>
   <compound refid="VarListEntryQuery_8h" kind="file"><name>VarListEntryQuery.h</name>
   </compound>
-  <compound refid="Writer_8cpp" kind="file"><name>Writer.cpp</name>
-  </compound>
-  <compound refid="Source_2Xml_2Writer_8h" kind="file"><name>Source/Xml/Writer.h</name>
-  </compound>
-  <compound refid="Tools_2GenApi_2Writer_8h" kind="file"><name>Tools/GenApi/Writer.h</name>
-  </compound>
-  <compound refid="WriteUtils_8cpp" kind="file"><name>WriteUtils.cpp</name>
-  </compound>
-  <compound refid="WriteUtils_8h" kind="file"><name>WriteUtils.h</name>
-  </compound>
   <compound refid="XRefSectQuery_8cpp" kind="file"><name>XRefSectQuery.cpp</name>
   </compound>
   <compound refid="XRefSectQuery_8h" kind="file"><name>XRefSectQuery.h</name>
+  </compound>
+  <compound refid="Common_8cpp" kind="file"><name>Common.cpp</name>
+  </compound>
+  <compound refid="Common_8h" kind="file"><name>Common.h</name>
+  </compound>
+  <compound refid="Complex_8cpp" kind="file"><name>Complex.cpp</name>
+  </compound>
+  <compound refid="Complex_8h" kind="file"><name>Complex.h</name>
+  </compound>
+  <compound refid="Database_8cpp" kind="file"><name>Database.cpp</name>
+  </compound>
+  <compound refid="Database_8h" kind="file"><name>Database.h</name>
+  </compound>
+  <compound refid="Generator_8cpp" kind="file"><name>Generator.cpp</name>
+  </compound>
+  <compound refid="Generator_8h" kind="file"><name>Generator.h</name>
+  </compound>
+  <compound refid="Group_8cpp" kind="file"><name>Group.cpp</name>
+  </compound>
+  <compound refid="Group_8h" kind="file"><name>Group.h</name>
+  </compound>
+  <compound refid="Object_8h" kind="file"><name>Object.h</name>
+  </compound>
+  <compound refid="Resources_8cpp" kind="file"><name>Resources.cpp</name>
+  </compound>
+  <compound refid="Resources_8h" kind="file"><name>Resources.h</name>
+  </compound>
+  <compound refid="Simple_8cpp" kind="file"><name>Simple.cpp</name>
+  </compound>
+  <compound refid="Simple_8h" kind="file"><name>Simple.h</name>
+  </compound>
+  <compound refid="Types_8h" kind="file"><name>Types.h</name>
   </compound>
   <compound refid="Design" kind="page"><name>Design</name>
   </compound>
@@ -4672,35 +4676,35 @@
   </compound>
   <compound refid="Site" kind="page"><name>Site</name>
   </compound>
-  <compound refid="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir"><name>CommandLine</name>
+  <compound refid="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir"><name>Source/Utils/CommandLine</name>
   </compound>
   <compound refid="dir_f19befb0a20a037054255eb425fb4872" kind="dir"><name>Current</name>
   </compound>
-  <compound refid="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir"><name>Doxygen</name>
+  <compound refid="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir"><name>Tools/Doxygen</name>
   </compound>
-  <compound refid="dir_f29546df2d60a62028851d3354c1d20f" kind="dir"><name>GenApi</name>
+  <compound refid="dir_f29546df2d60a62028851d3354c1d20f" kind="dir"><name>Tools/GenApi</name>
   </compound>
-  <compound refid="dir_1197a0c1c846bc690425b2973182343c" kind="dir"><name>MdDox</name>
+  <compound refid="dir_1197a0c1c846bc690425b2973182343c" kind="dir"><name>Source/MdDox</name>
   </compound>
-  <compound refid="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir"><name>MdDoxTree</name>
+  <compound refid="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir"><name>Source/MdDoxTree</name>
   </compound>
-  <compound refid="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir"><name>pages</name>
+  <compound refid="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir"><name>Current/pages</name>
   </compound>
-  <compound refid="dir_228a382b75cefd1e10dd6a0b6021583d" kind="dir"><name>ParserBase</name>
+  <compound refid="dir_228a382b75cefd1e10dd6a0b6021583d" kind="dir"><name>Source/Utils/ParserBase</name>
   </compound>
-  <compound refid="dir_ad64d74126afa4ea39d3914a0c472a63" kind="dir"><name>ResourceCompiler</name>
+  <compound refid="dir_ad64d74126afa4ea39d3914a0c472a63" kind="dir"><name>Tools/ResourceCompiler</name>
   </compound>
   <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
   </compound>
   <compound refid="dir_7e461070e7b716e896e0d97cd6a82321" kind="dir"><name>Tools</name>
   </compound>
-  <compound refid="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir"><name>TypeFilter</name>
+  <compound refid="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir"><name>Source/TypeFilter</name>
   </compound>
-  <compound refid="dir_5c09e96eccedf512ae411d636afd2712" kind="dir"><name>Utils</name>
+  <compound refid="dir_5c09e96eccedf512ae411d636afd2712" kind="dir"><name>Source/Utils</name>
   </compound>
-  <compound refid="dir_df7f76837457d332ed2eae6561f124cc" kind="dir"><name>Win32</name>
+  <compound refid="dir_df7f76837457d332ed2eae6561f124cc" kind="dir"><name>Source/Utils/Win32</name>
   </compound>
-  <compound refid="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir"><name>Xml</name>
+  <compound refid="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir"><name>Source/Xml</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

@@ -1,22 +1,4 @@
 # Doxyfile 1.8.14
-# ------ MdDox : ${TargetName} ------
-# 
-# Using Doxygen  : ${DOXYGEN_VERSION}
-#  
-# ProjectName    : ${MdDoxBuilder_ProjectName}
-# ProjectVersion : ${MdDoxBuilder_ProjecVersion}
-# Brief          : ${MdDoxBuilder_Brief}
-#  
-# SourceLocation : ${MdDoxBuilder_SourceLocation}
-# OutputDir      : ${MdDoxBuilder_OutputDir}
-# ExamplePaths   : ${MdDoxBuilder_ExamplePaths}
-# ImagePaths     : ${MdDoxBuilder_ImagePaths}
-#  
-# ConfigIn       : ${ConfigIn} 
-# ConfigOut      : ${ConfigOut}
-#  
-#  ------ MdDox  ------
-		
 #---------------------------------------------------------------------------
 # Project related configuration options
 #---------------------------------------------------------------------------
@@ -44,7 +26,7 @@ ABBREVIATE_BRIEF       = "The $name class" \
                          the
 ALWAYS_DETAILED_SEC    = YES
 INLINE_INHERITED_MEMB  = NO
-FULL_PATH_NAMES        = NO
+FULL_PATH_NAMES        = YES
 STRIP_FROM_PATH        = "${CMAKE_SOURCE_DIR}"
 STRIP_FROM_INC_PATH    = "${CMAKE_SOURCE_DIR}"
 SHORT_NAMES            = NO

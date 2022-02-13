@@ -4,72 +4,72 @@
     <compoundname>MemberDefWriter.h</compoundname>
     <includes local="yes">Doxygen/MemberDefQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">MemberDefWriter.cpp</includedby>
-    <includedby refid="SectionDefWriter_8cpp" local="yes">SectionDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
     <incdepgraph>
-      <node id="5068">
+      <node id="1191">
         <label>Utils/Path.h</label>
-        <childnode refid="5069" relation="include">
+        <childnode refid="1192" relation="include">
         </childnode>
       </node>
-      <node id="5073">
+      <node id="1196">
         <label>string</label>
       </node>
-      <node id="5067">
+      <node id="1190">
         <label>Doxygen/MemberDefQuery.h</label>
       </node>
-      <node id="5071">
+      <node id="1194">
         <label>fstream</label>
       </node>
-      <node id="5069">
+      <node id="1192">
         <label>Utils/String.h</label>
-        <childnode refid="5070" relation="include">
+        <childnode refid="1193" relation="include">
         </childnode>
-        <childnode refid="5071" relation="include">
+        <childnode refid="1194" relation="include">
         </childnode>
-        <childnode refid="5072" relation="include">
+        <childnode refid="1195" relation="include">
         </childnode>
-        <childnode refid="5073" relation="include">
+        <childnode refid="1196" relation="include">
         </childnode>
-        <childnode refid="5074" relation="include">
+        <childnode refid="1197" relation="include">
         </childnode>
-        <childnode refid="5075" relation="include">
+        <childnode refid="1198" relation="include">
         </childnode>
       </node>
-      <node id="5075">
+      <node id="1198">
         <label>vector</label>
       </node>
-      <node id="5072">
+      <node id="1195">
         <label>sstream</label>
       </node>
-      <node id="5066">
-        <label>MemberDefWriter.h</label>
+      <node id="1189">
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <link refid="MemberDefWriter_8h"/>
-        <childnode refid="5067" relation="include">
+        <childnode refid="1190" relation="include">
         </childnode>
-        <childnode refid="5068" relation="include">
+        <childnode refid="1191" relation="include">
         </childnode>
       </node>
-      <node id="5070">
+      <node id="1193">
         <label>deque</label>
       </node>
-      <node id="5074">
+      <node id="1197">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5077">
-        <label>MemberDefWriter.cpp</label>
+      <node id="1200">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="5078">
-        <label>SectionDefWriter.cpp</label>
+      <node id="1201">
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="5076">
-        <label>MemberDefWriter.h</label>
+      <node id="1199">
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <link refid="MemberDefWriter_8h"/>
-        <childnode refid="5077" relation="include">
+        <childnode refid="1200" relation="include">
         </childnode>
-        <childnode refid="5078" relation="include">
+        <childnode refid="1201" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -1,77 +1,77 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="Source_2Xml_2Writer_8h" kind="file" language="C++">
-    <compoundname>Source/Xml/Writer.h</compoundname>
+    <compoundname>Writer.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Writer_8cpp" local="yes">Writer.cpp</includedby>
-    <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
-    <includedby refid="Group_8cpp" local="yes">Group.cpp</includedby>
-    <includedby refid="Simple_8cpp" local="yes">Simple.cpp</includedby>
+    <includedby refid="Writer_8cpp" local="yes">Source/Xml/Writer.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
+    <includedby refid="Group_8cpp" local="yes">Tools/GenApi/Group.cpp</includedby>
+    <includedby refid="Simple_8cpp" local="yes">Tools/GenApi/Simple.cpp</includedby>
     <incdepgraph>
-      <node id="8657">
+      <node id="4127">
         <label>string</label>
       </node>
-      <node id="8655">
+      <node id="4125">
         <label>fstream</label>
       </node>
-      <node id="8652">
-        <label>Writer.h</label>
+      <node id="4122">
+        <label>Source/Xml/Writer.h</label>
         <link refid="Source_2Xml_2Writer_8h"/>
-        <childnode refid="8653" relation="include">
+        <childnode refid="4123" relation="include">
         </childnode>
       </node>
-      <node id="8653">
+      <node id="4123">
         <label>Utils/String.h</label>
-        <childnode refid="8654" relation="include">
+        <childnode refid="4124" relation="include">
         </childnode>
-        <childnode refid="8655" relation="include">
+        <childnode refid="4125" relation="include">
         </childnode>
-        <childnode refid="8656" relation="include">
+        <childnode refid="4126" relation="include">
         </childnode>
-        <childnode refid="8657" relation="include">
+        <childnode refid="4127" relation="include">
         </childnode>
-        <childnode refid="8658" relation="include">
+        <childnode refid="4128" relation="include">
         </childnode>
-        <childnode refid="8659" relation="include">
+        <childnode refid="4129" relation="include">
         </childnode>
       </node>
-      <node id="8659">
+      <node id="4129">
         <label>vector</label>
       </node>
-      <node id="8656">
+      <node id="4126">
         <label>sstream</label>
       </node>
-      <node id="8654">
+      <node id="4124">
         <label>deque</label>
       </node>
-      <node id="8658">
+      <node id="4128">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8662">
-        <label>Generator.cpp</label>
+      <node id="4132">
+        <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="8660">
-        <label>Writer.h</label>
+      <node id="4130">
+        <label>Source/Xml/Writer.h</label>
         <link refid="Source_2Xml_2Writer_8h"/>
-        <childnode refid="8661" relation="include">
+        <childnode refid="4131" relation="include">
         </childnode>
-        <childnode refid="8662" relation="include">
+        <childnode refid="4132" relation="include">
         </childnode>
-        <childnode refid="8663" relation="include">
+        <childnode refid="4133" relation="include">
         </childnode>
-        <childnode refid="8664" relation="include">
+        <childnode refid="4134" relation="include">
         </childnode>
       </node>
-      <node id="8661">
-        <label>Writer.cpp</label>
+      <node id="4131">
+        <label>Source/Xml/Writer.cpp</label>
       </node>
-      <node id="8664">
-        <label>Simple.cpp</label>
+      <node id="4134">
+        <label>Tools/GenApi/Simple.cpp</label>
       </node>
-      <node id="8663">
-        <label>Group.cpp</label>
+      <node id="4133">
+        <label>Tools/GenApi/Group.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Xml_1_1Writer" prot="public">MdDox::Xml::Writer</innerclass>

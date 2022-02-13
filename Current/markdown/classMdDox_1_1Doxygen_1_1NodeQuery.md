@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>NodeQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="nodequery"></a>
 <h1>NodeQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1NodeQuery"></a>
@@ -97,17 +107,17 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>nodeType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="nodeType">
-  <xsd:sequence>
-    <xsd:element name="label"/>
-    <xsd:element minOccurs="0" name="link" type="linkType"/>
-    <xsd:element minOccurs="0" name="childnode" type="childnodeType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="id" type="xsd:string"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;nodeType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;label&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;link&quot; type=&quot;linkType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;childnode&quot; type=&quot;childnodeType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;id&quot; type=&quot;xsd:string&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

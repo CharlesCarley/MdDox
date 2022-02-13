@@ -4,134 +4,134 @@
     <compoundname>IncQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxBool_8h" local="yes">DoxBool.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">ClassPageWriter.cpp</includedby>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">NamespacePageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">CompoundDefQuery.cpp</includedby>
-    <includedby refid="IncQuery_8cpp" local="yes">IncQuery.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="IncQuery_8cpp" local="yes">Tools/Doxygen/IncQuery.cpp</includedby>
     <incdepgraph>
-      <node id="3795">
+      <node id="6320">
         <label>Utils/Console.h</label>
-        <childnode refid="3784" relation="include">
+        <childnode refid="6309" relation="include">
         </childnode>
       </node>
-      <node id="3782">
+      <node id="6307">
         <label>functional</label>
       </node>
-      <node id="3791">
+      <node id="6316">
         <label>Utils/Exception.h</label>
-        <childnode refid="3792" relation="include">
+        <childnode refid="6317" relation="include">
         </childnode>
-        <childnode refid="3793" relation="include">
+        <childnode refid="6318" relation="include">
         </childnode>
-        <childnode refid="3794" relation="include">
+        <childnode refid="6319" relation="include">
         </childnode>
-        <childnode refid="3795" relation="include">
+        <childnode refid="6320" relation="include">
         </childnode>
-        <childnode refid="3784" relation="include">
+        <childnode refid="6309" relation="include">
         </childnode>
       </node>
-      <node id="3793">
+      <node id="6318">
         <label>stdexcept</label>
       </node>
-      <node id="3788">
+      <node id="6313">
         <label>string</label>
       </node>
-      <node id="3781">
+      <node id="6306">
         <label>Doxygen.h</label>
-        <childnode refid="3782" relation="include">
+        <childnode refid="6307" relation="include">
         </childnode>
-        <childnode refid="3783" relation="include">
+        <childnode refid="6308" relation="include">
         </childnode>
-        <childnode refid="3784" relation="include">
+        <childnode refid="6309" relation="include">
         </childnode>
-        <childnode refid="3790" relation="include">
+        <childnode refid="6315" relation="include">
         </childnode>
-        <childnode refid="3791" relation="include">
+        <childnode refid="6316" relation="include">
         </childnode>
       </node>
-      <node id="3792">
+      <node id="6317">
         <label>exception</label>
       </node>
-      <node id="3786">
+      <node id="6311">
         <label>fstream</label>
       </node>
-      <node id="3790">
+      <node id="6315">
         <label>Xml/Node.h</label>
-        <childnode refid="3782" relation="include">
+        <childnode refid="6307" relation="include">
         </childnode>
-        <childnode refid="3783" relation="include">
+        <childnode refid="6308" relation="include">
         </childnode>
-        <childnode refid="3784" relation="include">
+        <childnode refid="6309" relation="include">
         </childnode>
       </node>
-      <node id="3780">
-        <label>IncQuery.h</label>
+      <node id="6305">
+        <label>Tools/Doxygen/IncQuery.h</label>
         <link refid="IncQuery_8h"/>
-        <childnode refid="3781" relation="include">
+        <childnode refid="6306" relation="include">
         </childnode>
-        <childnode refid="3796" relation="include">
+        <childnode refid="6321" relation="include">
         </childnode>
       </node>
-      <node id="3784">
+      <node id="6309">
         <label>Utils/String.h</label>
-        <childnode refid="3785" relation="include">
+        <childnode refid="6310" relation="include">
         </childnode>
-        <childnode refid="3786" relation="include">
+        <childnode refid="6311" relation="include">
         </childnode>
-        <childnode refid="3787" relation="include">
+        <childnode refid="6312" relation="include">
         </childnode>
-        <childnode refid="3788" relation="include">
+        <childnode refid="6313" relation="include">
         </childnode>
-        <childnode refid="3783" relation="include">
+        <childnode refid="6308" relation="include">
         </childnode>
-        <childnode refid="3789" relation="include">
+        <childnode refid="6314" relation="include">
         </childnode>
       </node>
-      <node id="3789">
+      <node id="6314">
         <label>vector</label>
       </node>
-      <node id="3794">
+      <node id="6319">
         <label>utility</label>
       </node>
-      <node id="3787">
+      <node id="6312">
         <label>sstream</label>
       </node>
-      <node id="3785">
+      <node id="6310">
         <label>deque</label>
       </node>
-      <node id="3783">
+      <node id="6308">
         <label>unordered_map</label>
       </node>
-      <node id="3796">
+      <node id="6321">
         <label>DoxBool.h</label>
-        <childnode refid="3781" relation="include">
+        <childnode refid="6306" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3801">
-        <label>IncQuery.cpp</label>
+      <node id="6326">
+        <label>Tools/Doxygen/IncQuery.cpp</label>
       </node>
-      <node id="3799">
-        <label>NamespacePageWriter.cpp</label>
+      <node id="6324">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="3797">
-        <label>IncQuery.h</label>
+      <node id="6322">
+        <label>Tools/Doxygen/IncQuery.h</label>
         <link refid="IncQuery_8h"/>
-        <childnode refid="3798" relation="include">
+        <childnode refid="6323" relation="include">
         </childnode>
-        <childnode refid="3799" relation="include">
+        <childnode refid="6324" relation="include">
         </childnode>
-        <childnode refid="3800" relation="include">
+        <childnode refid="6325" relation="include">
         </childnode>
-        <childnode refid="3801" relation="include">
+        <childnode refid="6326" relation="include">
         </childnode>
       </node>
-      <node id="3798">
-        <label>ClassPageWriter.cpp</label>
+      <node id="6323">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="3800">
-        <label>CompoundDefQuery.cpp</label>
+      <node id="6325">
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1IncQuery" prot="public">MdDox::Doxygen::IncQuery</innerclass>

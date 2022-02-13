@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>IndexEntryQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="indexentryquery"></a>
 <h1>IndexEntryQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1IndexEntryQuery"></a>
@@ -73,15 +83,15 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docIndexEntryType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="docIndexEntryType">
-  <xsd:sequence>
-    <xsd:element name="primaryie" type="xsd:string"/>
-    <xsd:element name="secondaryie" type="xsd:string"/>
-  </xsd:sequence>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;docIndexEntryType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;primaryie&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element name=&quot;secondaryie&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

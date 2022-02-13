@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>RefTextQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="reftextquery"></a>
 <h1>RefTextQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1RefTextQuery"></a>
@@ -89,19 +99,19 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>refTextType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="refTextType">
-  <xsd:simpleContent>
-    <xsd:extension base="xsd:string">
-      <xsd:attribute name="refid" type="xsd:string"/>
-      <xsd:attribute name="kindref" type="DoxRefKind"/>
-      <xsd:attribute name="external" type="xsd:string" use="optional"/>
-      <xsd:attribute name="tooltip" type="xsd:string" use="optional"/>
-    </xsd:extension>
-  </xsd:simpleContent>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;refTextType&quot;&gt;
+  &lt;xsd:simpleContent&gt;
+    &lt;xsd:extension base=&quot;xsd:string&quot;&gt;
+      &lt;xsd:attribute name=&quot;refid&quot; type=&quot;xsd:string&quot;/&gt;
+      &lt;xsd:attribute name=&quot;kindref&quot; type=&quot;DoxRefKind&quot;/&gt;
+      &lt;xsd:attribute name=&quot;external&quot; type=&quot;xsd:string&quot; use=&quot;optional&quot;/&gt;
+      &lt;xsd:attribute name=&quot;tooltip&quot; type=&quot;xsd:string&quot; use=&quot;optional&quot;/&gt;
+    &lt;/xsd:extension&gt;
+  &lt;/xsd:simpleContent&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

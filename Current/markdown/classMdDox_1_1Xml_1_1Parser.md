@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Parser</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="parser"></a>
 <h1>Parser</h1>
 <a id="classMdDox_1_1Xml_1_1Parser"></a>
@@ -135,38 +145,38 @@
 <a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
 <span class="inline-text"> tree.</span>
 <span class="inline-text">It uses the following grammar to define an XML document.</span>
-
-```txt
-<Document> ::=  <XmlRoot> 
-             |  <ObjectList>
+<div class="code-block">
+<pre><code>&lt;Document&gt; ::=  &lt;XmlRoot&gt; 
+             |  &lt;ObjectList&gt;
              |
 
-<XmlRoot> ::= '<?xml' <AttributeList> '?>' <Object>
+&lt;XmlRoot&gt; ::= &apos;&lt;?xml&apos; &lt;AttributeList&gt; &apos;?&gt;&apos; &lt;Object&gt;
 
-<ObjectList> ::= <Object> <ObjectList>
-               | <Object>
+&lt;ObjectList&gt; ::= &lt;Object&gt; &lt;ObjectList&gt;
+               | &lt;Object&gt;
 
-<Content> ::= <ObjectList>
-            | <Text> <Content>
+&lt;Content&gt; ::= &lt;ObjectList&gt;
+            | &lt;Text&gt; &lt;Content&gt;
             |
 
-<Object> ::= <StartObject>  <Content> <EndObject>
+&lt;Object&gt; ::= &lt;StartObject&gt;  &lt;Content&gt; &lt;EndObject&gt;
 
-<StartObject>  ::= '<' Identifier <AttributeList> '>'
-                 | '<' Identifier <AttributeList> '/' '>'
+&lt;StartObject&gt;  ::= &apos;&lt;&apos; Identifier &lt;AttributeList&gt; &apos;&gt;&apos;
+                 | &apos;&lt;&apos; Identifier &lt;AttributeList&gt; &apos;/&apos; &apos;&gt;&apos;
 
-<EndObject>    ::= '<' '/' Identifier '>'
+&lt;EndObject&gt;    ::= &apos;&lt;&apos; &apos;/&apos; Identifier &apos;&gt;&apos;
 
-<AttributeList> ::= <Attribute> <AttributeList>
+&lt;AttributeList&gt; ::= &lt;Attribute&gt; &lt;AttributeList&gt;
                   |
 
-<Attribute> ::=  <AttributeName> '=' String
-<AttributeName> ::= Identifier
-                  | Identifier ':' Identifier
-<Text> ::= Content
+&lt;Attribute&gt; ::=  &lt;AttributeName&gt; &apos;=&apos; String
+&lt;AttributeName&gt; ::= Identifier
+                  | Identifier &apos;:&apos; Identifier
+&lt;Text&gt; ::= Content
          | String
          | Identifier
-```
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

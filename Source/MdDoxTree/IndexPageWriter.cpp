@@ -25,6 +25,7 @@
 #include "DirectoryPageWriter.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxygenQuery.h"
+#include "Doxygen/MemberIndexQuery.h"
 #include "GenericPageWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/HashUtils.h"
@@ -32,7 +33,6 @@
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "NamespacePageWriter.h"
-#include "Doxygen/MemberIndexQuery.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Path.h"
 #include "Xml/Parser.h"
@@ -46,6 +46,7 @@ namespace MdDox
         ReferenceList classes;
         ReferenceList namespaces;
         ReferenceList directories;
+        ReferenceList dirPaths;
 
     public:
         void visitedCompound(const Doxygen::CompoundIndexQuery& query) override
@@ -70,8 +71,18 @@ namespace MdDox
                 classes.push_back(compoundRef);
                 break;
             case Doxygen::DCK_DIR:
+            {
+                dirPaths.push_back(compoundRef);
+                const String name = compoundRef.getName();
+
+                StringArray str;
+                StringUtils::split(str, name, "/");
+                if (!str.empty())
+                    compoundRef.setName(str.back());
+
                 directories.push_back(compoundRef);
-                break;
+            }
+            break;
             case Doxygen::DCK_GROUP:
             case Doxygen::DCK_INTERFACE:
             case Doxygen::DCK_SERVICE:
@@ -85,13 +96,12 @@ namespace MdDox
             default:
                 break;
             }
-
-
             SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getReference());
 
-        	query.foreachMember(
-                [compoundRef](const Doxygen::MemberIndexQuery& member) {
-                	SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getReference());
+            query.foreachMember(
+                [compoundRef](const Doxygen::MemberIndexQuery& member)
+                {
+                    SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getReference());
                 });
         }
     };
@@ -157,6 +167,25 @@ namespace MdDox
         _writer->endSection(out);
     }
 
+    void IndexPageWriter::writeReferenceListDirectory(OStream&             out,
+                                                      const IconId         icon,
+                                                      const String&        heading,
+                                                      const ReferenceList& list) const
+    {
+        _writer->beginSection(out, heading);
+        for (const Reference& page : list)
+        {
+            StringArray arr;
+            StringUtils::split(arr, page.getName(), "/");
+            if (arr.size() == 1)
+            {
+                _writer->embedContentLinkText(out, icon, makeFilename(page), LinkUtils::lastBinaryResolution(page.getName()));
+                _writer->lineBreak(out);
+            }
+        }
+        _writer->endSection(out);
+    }
+
     void IndexPageWriter::exec(const Doxygen::DoxygenIndexQuery& query, const PathUtil& outDir)
     {
         _outDir = outDir;
@@ -171,10 +200,9 @@ namespace MdDox
             query.visit(&filter);
             const SiteBuilder& builder = SiteBuilder::get();
 
-        	
             _writer->beginDocument(out, builder.projectTitle);
 
-        	_writer->linkText(out, "~", builder.siteUrl);
+            _writer->linkText(out, "~", builder.siteUrl);
             _writer->linkPage(out, "Main", "indexpage");
             _writer->inlineText(out, "/");
             _writer->boldText(out, "Index");
@@ -201,7 +229,7 @@ namespace MdDox
 
             writeReferenceList(out, ICO_NAMESPACE, "Namespaces", filter.namespaces);
             writeReferenceList(out, ICO_CLASS, "Classes", filter.classes);
-            writeReferenceList(out, ICO_FOLDER, "Directories", filter.directories);
+            writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
 
             _writer->endDocument(out, "../index.xml");
 

@@ -60,16 +60,16 @@ digraph {
     
     node [
 		shape     = none
-		fontname  = "--font-family"
-		fontcolor = "--text"
-		fontsize  = "--font-size"
+		fontname  = "${font-family}"
+		fontcolor = "${text}"
+		fontsize  = "${font-size}"
 	]
     edge [
-		arrowsize = "--arrow-size"
-		color     = "--grey-table-edge"
-		fontname  = "--font-family"
-		fontcolor = "--text"
-		fontsize  = "--font-size"
+		arrowsize = "${arrow-size}"
+		color     = "${grey-table-edge}"
+		fontname  = "${font-family}"
+		fontcolor = "${text}"
+		fontsize  = "${font-size}"
 	]
 
 	subgraph cluster_a{
@@ -77,10 +77,10 @@ digraph {
 	    bgcolor     = none
 
 		Application[label=<
-			<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-0">
-				<tr><td align="center" port="Title"><font color="--bold"><b>Application</b></font></td></tr>
+			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
+				<tr><td align="center" port="Title"><font color="${bold}"><b>Application</b></font></td></tr>
 				<tr><td align="left">
-				<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-1">
+				<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
 				<tr><td align="center">Setup</td></tr>
 				<tr><td align="left" port="C">-c</td></tr>
 				<tr><td align="left" port="G">-g</td></tr>
@@ -95,10 +95,10 @@ digraph {
 		>];
 
 	    Database[label=<
-			<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-0">
-				<tr><td align="center" port="Title"><font color="--bold"><b>Swap Database</b></font></td></tr>
+			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
+				<tr><td align="center" port="Title"><font color="${bold}"><b>Swap Database</b></font></td></tr>
 				<tr><td align="left">
-				<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-1">
+				<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
 				<tr><td align="left" port="C">Complex.txt</td></tr>
 				<tr><td align="left" port="G">Groups.txt</td></tr>
 				<tr><td align="left" port="E">Elements.xt</td></tr>
@@ -111,10 +111,10 @@ digraph {
 		>];
 		
 		Index[label=<
-		<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-0">
-			<tr><td align="center" port="Title"><font color="--bold"><b>Index</b></font></td></tr>
+		<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
+			<tr><td align="center" port="Title"><font color="${bold}"><b>Index</b></font></td></tr>
 			<tr><td align="left">
-			<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-1">
+			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
 			<tr><td align="left" port="C">xsd:complexType</td></tr>
 			<tr><td align="left" port="G">xsd:group</td></tr>
 			<tr><td align="left" port="E">xsd:element</td></tr>
@@ -131,8 +131,8 @@ digraph {
 	subgraph cluster_b{
 		peripheries=0
 		Input[label=<
-		<table border="0" cellspacing="0" cellpadding="4" bgcolor="--grey-table-0">
-			<tr><td align="center" port="Title"><font color="--bold"><b>input.xsd</b></font></td></tr>
+		<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
+			<tr><td align="center" port="Title"><font color="${bold}"><b>input.xsd</b></font></td></tr>
 		</table>
 		>];
 	}

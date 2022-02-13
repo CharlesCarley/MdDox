@@ -287,16 +287,16 @@ digraph {
     
     node [
         shape     = none
-        fontname  = &quot;--font-family&quot;
-        fontcolor = &quot;--text&quot;
-        fontsize  = &quot;--font-size&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontcolor = &quot;${text}&quot;
+        fontsize  = &quot;${font-size}&quot;
     ]
     edge [
-        arrowsize = &quot;--arrow-size&quot;
-        color     = &quot;--grey-table-edge&quot;
-        fontname  = &quot;--font-family&quot;
-        fontcolor = &quot;--text&quot;
-        fontsize  = &quot;--font-size&quot;
+        arrowsize = &quot;${arrow-size}&quot;
+        color     = &quot;${grey-table-edge}&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontcolor = &quot;${text}&quot;
+        fontsize  = &quot;${font-size}&quot;
     ]
 
     subgraph cluster_a{
@@ -304,10 +304,10 @@ digraph {
         bgcolor     = none
 
         Application[label=&lt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-0&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
+                &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-                &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-1&quot;&gt;
+                &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
                 &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Setup&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;C&quot;&gt;-c&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;G&quot;&gt;-g&lt;/td&gt;&lt;/tr&gt;
@@ -322,10 +322,10 @@ digraph {
         &gt;];
 
         Database[label=&lt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-0&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Swap Database&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
+                &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Swap Database&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-                &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-1&quot;&gt;
+                &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;C&quot;&gt;Complex.txt&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;G&quot;&gt;Groups.txt&lt;/td&gt;&lt;/tr&gt;
                 &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;E&quot;&gt;Elements.xt&lt;/td&gt;&lt;/tr&gt;
@@ -338,10 +338,10 @@ digraph {
         &gt;];
         
         Index[label=&lt;
-        &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-0&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-1&quot;&gt;
+            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;C&quot;&gt;xsd:complexType&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;G&quot;&gt;xsd:group&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;E&quot;&gt;xsd:element&lt;/td&gt;&lt;/tr&gt;
@@ -358,8 +358,8 @@ digraph {
     subgraph cluster_b{
         peripheries=0
         Input[label=&lt;
-        &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--grey-table-0&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;input.xsd&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;input.xsd&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
         &lt;/table&gt;
         &gt;];
     }

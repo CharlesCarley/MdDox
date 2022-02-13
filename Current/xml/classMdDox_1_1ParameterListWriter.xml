@@ -115,7 +115,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9">MdDox::DocumentWriter::beginList</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" compoundref="ParamListQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::ParamListQuery::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed">MdDox::DocumentWriter::endList</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="233" endline="244">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

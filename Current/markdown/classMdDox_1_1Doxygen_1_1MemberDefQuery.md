@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>MemberDefQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="memberdefquery"></a>
 <h1>MemberDefQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1MemberDefQuery"></a>
@@ -325,69 +335,69 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>memberdefType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="memberdefType">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="templateparamlist" type="templateparamlistType"/>
-    <xsd:element minOccurs="0" name="type" type="linkedTextType"/>
-    <xsd:element minOccurs="0" name="definition"/>
-    <xsd:element minOccurs="0" name="argsstring"/>
-    <xsd:element name="name"/>
-    <xsd:element minOccurs="0" name="read"/>
-    <xsd:element minOccurs="0" name="write"/>
-    <xsd:element minOccurs="0" name="bitfield"/>
-    <xsd:element minOccurs="0" name="reimplements" type="reimplementType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="reimplementedby" type="reimplementType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="param" type="paramType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="enumvalue" type="enumvalueType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="initializer" type="linkedTextType"/>
-    <xsd:element minOccurs="0" name="exceptions" type="linkedTextType"/>
-    <xsd:element minOccurs="0" name="briefdescription" type="descriptionType"/>
-    <xsd:element minOccurs="0" name="detaileddescription" type="descriptionType"/>
-    <xsd:element minOccurs="0" name="inbodydescription" type="descriptionType"/>
-    <xsd:element name="location" type="locationType"/>
-    <xsd:element minOccurs="0" name="references" type="referenceType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="referencedby" type="referenceType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="kind" type="DoxMemberKind"/>
-  <xsd:attribute name="id" type="xsd:string"/>
-  <xsd:attribute name="prot" type="DoxProtectionKind"/>
-  <xsd:attribute name="static" type="DoxBool"/>
-  <xsd:attribute name="strong" type="DoxBool" use="optional"/>
-  <xsd:attribute name="const" type="DoxBool" use="optional"/>
-  <xsd:attribute name="explicit" type="DoxBool" use="optional"/>
-  <xsd:attribute name="inline" type="DoxBool" use="optional"/>
-  <xsd:attribute name="refqual" type="DoxRefQualifierKind" use="optional"/>
-  <xsd:attribute name="virt" type="DoxVirtualKind" use="optional"/>
-  <xsd:attribute name="volatile" type="DoxBool" use="optional"/>
-  <xsd:attribute name="mutable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="readable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="writable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="initonly" type="DoxBool" use="optional"/>
-  <xsd:attribute name="settable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="gettable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="final" type="DoxBool" use="optional"/>
-  <xsd:attribute name="sealed" type="DoxBool" use="optional"/>
-  <xsd:attribute name="new" type="DoxBool" use="optional"/>
-  <xsd:attribute name="add" type="DoxBool" use="optional"/>
-  <xsd:attribute name="remove" type="DoxBool" use="optional"/>
-  <xsd:attribute name="raise" type="DoxBool" use="optional"/>
-  <xsd:attribute name="optional" type="DoxBool" use="optional"/>
-  <xsd:attribute name="required" type="DoxBool" use="optional"/>
-  <xsd:attribute name="accessor" type="DoxAccessor" use="optional"/>
-  <xsd:attribute name="attribute" type="DoxBool" use="optional"/>
-  <xsd:attribute name="property" type="DoxBool" use="optional"/>
-  <xsd:attribute name="readonly" type="DoxBool" use="optional"/>
-  <xsd:attribute name="bound" type="DoxBool" use="optional"/>
-  <xsd:attribute name="removable" type="DoxBool" use="optional"/>
-  <xsd:attribute name="contrained" type="DoxBool" use="optional"/>
-  <xsd:attribute name="transient" type="DoxBool" use="optional"/>
-  <xsd:attribute name="maybevoid" type="DoxBool" use="optional"/>
-  <xsd:attribute name="maybedefault" type="DoxBool" use="optional"/>
-  <xsd:attribute name="maybeambiguous" type="DoxBool" use="optional"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;memberdefType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;templateparamlist&quot; type=&quot;templateparamlistType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;type&quot; type=&quot;linkedTextType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;definition&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;argsstring&quot;/&gt;
+    &lt;xsd:element name=&quot;name&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;read&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;write&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;bitfield&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;reimplements&quot; type=&quot;reimplementType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;reimplementedby&quot; type=&quot;reimplementType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;param&quot; type=&quot;paramType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;enumvalue&quot; type=&quot;enumvalueType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;initializer&quot; type=&quot;linkedTextType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;exceptions&quot; type=&quot;linkedTextType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;briefdescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;detaileddescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;inbodydescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element name=&quot;location&quot; type=&quot;locationType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;references&quot; type=&quot;referenceType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;referencedby&quot; type=&quot;referenceType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;DoxMemberKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;id&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;prot&quot; type=&quot;DoxProtectionKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;static&quot; type=&quot;DoxBool&quot;/&gt;
+  &lt;xsd:attribute name=&quot;strong&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;const&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;explicit&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;inline&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;refqual&quot; type=&quot;DoxRefQualifierKind&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;virt&quot; type=&quot;DoxVirtualKind&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;volatile&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;mutable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;readable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;writable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;initonly&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;settable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;gettable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;final&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;sealed&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;new&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;add&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;remove&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;raise&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;optional&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;required&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;accessor&quot; type=&quot;DoxAccessor&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;attribute&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;property&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;readonly&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;bound&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;removable&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;contrained&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;transient&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;maybevoid&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;maybedefault&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;maybeambiguous&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

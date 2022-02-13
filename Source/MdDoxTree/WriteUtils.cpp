@@ -184,9 +184,9 @@ namespace MdDox
 
     void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
-        const String title    = LinkUtils::lastBinaryResolution(ref.getName());
+        const String title = LinkUtils::lastBinaryResolution(ref.getName());
 
-    	String memberRef = SiteBuilder::get().findMember(ref.getReference());
+        String memberRef = SiteBuilder::get().findMember(ref.getReference());
         if (memberRef.empty())
         {
             memberRef = SiteBuilder::get().findReference(ref.getReference());
@@ -194,9 +194,8 @@ namespace MdDox
                 memberRef = ref.getReference();
         }
 
-
-    	const String cleanRef = memberRef;
-        const String file = StringCombine(
+        const String cleanRef = memberRef;
+        const String file     = StringCombine(
             cleanRef,
             SiteBuilder::get().outputFileExt);
 

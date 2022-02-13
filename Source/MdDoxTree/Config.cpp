@@ -35,6 +35,8 @@ namespace MdDox
         {
             char ch;
             input.read(&ch, 1);
+            if (ch < 0)
+                break;
 
             if (ch == '#')
                 scanComment(input);
@@ -98,11 +100,15 @@ namespace MdDox
             case ':':
             case '#':
             case ',':
+            case '_':
+            case '-':
             case '.':
             case '/':
             case '@':
             case '(':
             case ')':
+            case ' ':
+            case '\t':
             case Digits09:
             case LowerCaseAz:
             case UpperCaseAz:
@@ -200,6 +206,11 @@ namespace MdDox
     int Config::getInt(const String& key, const int def)
     {
         return Char::toInt32(getValue(key), def);
+    }
+
+    const StringMap& Config::attributes() const
+    {
+        return _attributes;
     }
 
 }  // namespace MdDox

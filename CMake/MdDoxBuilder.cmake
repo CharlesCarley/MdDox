@@ -122,6 +122,7 @@ function(MdDox ConfigIn ConfigOut)
 			${PagesH} 
 			${OutputMd}
 			${MdDoxBuilder_Config}
+			${MdDoxBuilder_ExtraSource}
 			${ARGN}
 		)
 		
@@ -188,6 +189,7 @@ function(MdDox ConfigIn ConfigOut)
 				)
 			endforeach()
 		endif()
+
 		set_target_properties(${TargetName} PROPERTIES FOLDER "CMakePredefinedTargets/Document")
 		set_target_properties(${MdDox_Target} PROPERTIES FOLDER "CMakePredefinedTargets/Document")
 	endif()

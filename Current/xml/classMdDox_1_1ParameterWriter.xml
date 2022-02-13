@@ -243,7 +243,7 @@
         <location file="Source/MdDoxTree/ParameterWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="71" bodyend="79"/>
         <references refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a3c5c334b0a5eb35e93ca7e4f6fd15ec4" compoundref="ParamQuery_8h" startline="196" endline="199">MdDox::Doxygen::ParamQuery::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamQuery_1ad077a8a1da9c0689d325010ad183e550" compoundref="ParamQuery_8cpp" startline="30" endline="64">MdDox::Doxygen::ParamQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="233" endline="244">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

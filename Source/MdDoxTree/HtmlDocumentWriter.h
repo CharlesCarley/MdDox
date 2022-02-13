@@ -187,6 +187,7 @@ namespace MdDox
         /**
          * \copydoc MdDox::DocumentWriter::keyValueListItem
          */
+        [[deprecated]]
         void keyValueListItem(OStream& output, const String& key, const String& value) override;
 
         /**

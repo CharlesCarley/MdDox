@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>HighlightQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="highlightquery"></a>
 <h1>HighlightQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1HighlightQuery"></a>
@@ -97,16 +107,16 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>highlightType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="highlightType" mixed="true">
-  <xsd:choice minOccurs="0" maxOccurs="unbounded">
-    <xsd:element name="sp" type="spType"/>
-    <xsd:element name="ref" type="refTextType"/>
-  </xsd:choice>
-  <xsd:attribute name="class" type="DoxHighlightClass"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;highlightType&quot; mixed=&quot;true&quot;&gt;
+  &lt;xsd:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+    &lt;xsd:element name=&quot;sp&quot; type=&quot;spType&quot;/&gt;
+    &lt;xsd:element name=&quot;ref&quot; type=&quot;refTextType&quot;/&gt;
+  &lt;/xsd:choice&gt;
+  &lt;xsd:attribute name=&quot;class&quot; type=&quot;DoxHighlightClass&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

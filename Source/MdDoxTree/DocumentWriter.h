@@ -235,6 +235,7 @@ namespace MdDox
          */
         virtual void listIcon(OStream& output, const String& image, const String& ref) = 0;
 
+    	[[deprecated]]
         virtual void keyValueListItem(OStream& output, const String& key, const String& value) = 0;
 
         /**

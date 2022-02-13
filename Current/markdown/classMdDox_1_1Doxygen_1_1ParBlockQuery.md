@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>ParBlockQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="parblockquery"></a>
 <h1>ParBlockQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1ParBlockQuery"></a>
@@ -81,14 +91,14 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docParBlockType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="docParBlockType">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="para" type="docParaType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;docParBlockType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;para&quot; type=&quot;docParaType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

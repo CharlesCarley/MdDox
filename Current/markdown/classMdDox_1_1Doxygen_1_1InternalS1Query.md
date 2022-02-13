@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>InternalS1Query</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="internals1query"></a>
 <h1>InternalS1Query</h1>
 <a id="classMdDox_1_1Doxygen_1_1InternalS1Query"></a>
@@ -85,15 +95,15 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docInternalS1Type</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="docInternalS1Type" mixed="true">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="para" type="docParaType" maxOccurs="unbounded"/>
-    <xsd:element minOccurs="0" name="sect2" type="docSect2Type" maxOccurs="unbounded"/>
-  </xsd:sequence>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;docInternalS1Type&quot; mixed=&quot;true&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;para&quot; type=&quot;docParaType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;sect2&quot; type=&quot;docSect2Type&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

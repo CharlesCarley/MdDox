@@ -3,121 +3,121 @@
   <compounddef id="InternalQuery_8h" kind="file" language="C++">
     <compoundname>InternalQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CopyQuery_8cpp" local="yes">CopyQuery.cpp</includedby>
-    <includedby refid="DescriptionQuery_8cpp" local="yes">DescriptionQuery.cpp</includedby>
-    <includedby refid="InternalQuery_8cpp" local="yes">InternalQuery.cpp</includedby>
+    <includedby refid="CopyQuery_8cpp" local="yes">Tools/Doxygen/CopyQuery.cpp</includedby>
+    <includedby refid="DescriptionQuery_8cpp" local="yes">Tools/Doxygen/DescriptionQuery.cpp</includedby>
+    <includedby refid="InternalQuery_8cpp" local="yes">Tools/Doxygen/InternalQuery.cpp</includedby>
     <incdepgraph>
-      <node id="3989">
+      <node id="6406">
         <label>Utils/Console.h</label>
-        <childnode refid="3978" relation="include">
+        <childnode refid="6395" relation="include">
         </childnode>
       </node>
-      <node id="3976">
+      <node id="6393">
         <label>functional</label>
       </node>
-      <node id="3985">
+      <node id="6402">
         <label>Utils/Exception.h</label>
-        <childnode refid="3986" relation="include">
+        <childnode refid="6403" relation="include">
         </childnode>
-        <childnode refid="3987" relation="include">
+        <childnode refid="6404" relation="include">
         </childnode>
-        <childnode refid="3988" relation="include">
+        <childnode refid="6405" relation="include">
         </childnode>
-        <childnode refid="3989" relation="include">
+        <childnode refid="6406" relation="include">
         </childnode>
-        <childnode refid="3978" relation="include">
+        <childnode refid="6395" relation="include">
         </childnode>
       </node>
-      <node id="3987">
+      <node id="6404">
         <label>stdexcept</label>
       </node>
-      <node id="3982">
+      <node id="6399">
         <label>string</label>
       </node>
-      <node id="3975">
+      <node id="6392">
         <label>Doxygen.h</label>
-        <childnode refid="3976" relation="include">
+        <childnode refid="6393" relation="include">
         </childnode>
-        <childnode refid="3977" relation="include">
+        <childnode refid="6394" relation="include">
         </childnode>
-        <childnode refid="3978" relation="include">
+        <childnode refid="6395" relation="include">
         </childnode>
-        <childnode refid="3984" relation="include">
+        <childnode refid="6401" relation="include">
         </childnode>
-        <childnode refid="3985" relation="include">
+        <childnode refid="6402" relation="include">
         </childnode>
       </node>
-      <node id="3986">
+      <node id="6403">
         <label>exception</label>
       </node>
-      <node id="3974">
-        <label>InternalQuery.h</label>
+      <node id="6391">
+        <label>Tools/Doxygen/InternalQuery.h</label>
         <link refid="InternalQuery_8h"/>
-        <childnode refid="3975" relation="include">
+        <childnode refid="6392" relation="include">
         </childnode>
       </node>
-      <node id="3980">
+      <node id="6397">
         <label>fstream</label>
       </node>
-      <node id="3984">
+      <node id="6401">
         <label>Xml/Node.h</label>
-        <childnode refid="3976" relation="include">
+        <childnode refid="6393" relation="include">
         </childnode>
-        <childnode refid="3977" relation="include">
+        <childnode refid="6394" relation="include">
         </childnode>
-        <childnode refid="3978" relation="include">
+        <childnode refid="6395" relation="include">
         </childnode>
       </node>
-      <node id="3978">
+      <node id="6395">
         <label>Utils/String.h</label>
-        <childnode refid="3979" relation="include">
+        <childnode refid="6396" relation="include">
         </childnode>
-        <childnode refid="3980" relation="include">
+        <childnode refid="6397" relation="include">
         </childnode>
-        <childnode refid="3981" relation="include">
+        <childnode refid="6398" relation="include">
         </childnode>
-        <childnode refid="3982" relation="include">
+        <childnode refid="6399" relation="include">
         </childnode>
-        <childnode refid="3977" relation="include">
+        <childnode refid="6394" relation="include">
         </childnode>
-        <childnode refid="3983" relation="include">
+        <childnode refid="6400" relation="include">
         </childnode>
       </node>
-      <node id="3983">
+      <node id="6400">
         <label>vector</label>
       </node>
-      <node id="3988">
+      <node id="6405">
         <label>utility</label>
       </node>
-      <node id="3981">
+      <node id="6398">
         <label>sstream</label>
       </node>
-      <node id="3979">
+      <node id="6396">
         <label>deque</label>
       </node>
-      <node id="3977">
+      <node id="6394">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3993">
-        <label>InternalQuery.cpp</label>
+      <node id="6410">
+        <label>Tools/Doxygen/InternalQuery.cpp</label>
       </node>
-      <node id="3991">
-        <label>CopyQuery.cpp</label>
+      <node id="6408">
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
       </node>
-      <node id="3990">
-        <label>InternalQuery.h</label>
+      <node id="6407">
+        <label>Tools/Doxygen/InternalQuery.h</label>
         <link refid="InternalQuery_8h"/>
-        <childnode refid="3991" relation="include">
+        <childnode refid="6408" relation="include">
         </childnode>
-        <childnode refid="3992" relation="include">
+        <childnode refid="6409" relation="include">
         </childnode>
-        <childnode refid="3993" relation="include">
+        <childnode refid="6410" relation="include">
         </childnode>
       </node>
-      <node id="3992">
-        <label>DescriptionQuery.cpp</label>
+      <node id="6409">
+        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalQueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalQueryVisitor</innerclass>

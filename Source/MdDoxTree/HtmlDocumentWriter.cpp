@@ -333,9 +333,13 @@ namespace MdDox
     void HtmlDocumentWriter::linkPage(OStream& output, const String& title, const String& ref)
     {
         const String hash = HashUtils::heading(title);
-        const String link = SiteBuilder::get().findReference(ref, ref);
-
-        Html::linkRef(output, title, StringCombine(StringCombine(link, SiteBuilder::get().outputFileExt), hash));
+        if (ref != "index")
+        {
+            const String link = SiteBuilder::get().findReference(ref, ref);
+            Html::linkRef(output, title, StringCombine(StringCombine(link, SiteBuilder::get().outputFileExt), hash));
+        }
+        else
+            Html::linkRef(output, title, StringCombine(StringCombine(ref, SiteBuilder::get().outputFileExt), hash));
     }
 
     void HtmlDocumentWriter::linkPageMember(OStream& output, const String& title, const String& ref)

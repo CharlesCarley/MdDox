@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>SectionDefQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="sectiondefquery"></a>
 <h1>SectionDefQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1SectionDefQuery"></a>
@@ -97,17 +107,17 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>sectiondefType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="sectiondefType">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="header" type="xsd:string"/>
-    <xsd:element minOccurs="0" name="description" type="descriptionType"/>
-    <xsd:element name="memberdef" type="memberdefType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="kind" type="DoxSectionKind"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;sectiondefType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;header&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;description&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element name=&quot;memberdef&quot; type=&quot;memberdefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;DoxSectionKind&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

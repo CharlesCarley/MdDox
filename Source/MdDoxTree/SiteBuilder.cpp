@@ -108,17 +108,27 @@ namespace MdDox
             outputDir = config.getValue("OUTPUT_DIR");
         outputDir = FileSystem::absolute(outputDir).string();
 
-        styleSheet   = config.getValue("STYLESHEET");
-        imageDir     = config.getValue("IMAGE_DIR");
-        inputDir     = std::filesystem::current_path().string();
+        styleSheet = config.getValue("STYLESHEET");
+        imageDir   = config.getValue("IMAGE_DIR");
+        inputDir   = std::filesystem::current_path().string();
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
-    	siteUrl      = config.getValue("SITE_URL");
-        baseUrl      = config.getValue("BASE_URL");
+        siteUrl = config.getValue("SITE_URL");
+        baseUrl = config.getValue("BASE_URL");
 
-    	projectRoot  = config.getValue("PROJECT_ROOT");
+        projectRoot  = config.getValue("PROJECT_ROOT");
         projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");
+
+        String dotCfg = config.getValue("DOT_CONFIG");
+        if (!dotCfg.empty())
+        {
+            InputFileStream dotStream(dotCfg);
+            if (!dotStream.is_open())
+                throw InputException("failed to load the supplied file ", dotCfg);
+
+            _dot.load(dotStream);
+        }
     }
 
     void SiteBuilder::registerCompound(const String& name, const String& reference) const
@@ -148,7 +158,7 @@ namespace MdDox
 
     void SiteBuilder::registerMember(const String& member, const String& compound) const
     {
-	    const ReferenceMap::iterator it = _members.find(member);
+        const ReferenceMap::iterator it = _members.find(member);
         if (it == _members.end())
             _members.insert(std::make_pair(member, compound));
         else
@@ -186,7 +196,13 @@ namespace MdDox
 
     String SiteBuilder::registerDot(const String& text) const
     {
-        _dotFiles.push_back(text);
+        String source = text;
+
+        const StringMap& attributes = _dot.attributes();
+        for (const auto& [key, value] : attributes)
+            StringUtils::replaceAll(source, source, StringCombine("${", key, "}"), value);
+
+        _dotFiles.push_back(source);
         return StringCombine("internal-diagram-", _dotFiles.size(), ".dot.svg");
     }
 

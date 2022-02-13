@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Writer</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="writer"></a>
 <h1>Writer</h1>
 <a id="classMdDox_1_1Xml_1_1Writer"></a>
@@ -402,10 +412,10 @@ When write is invoked, the text based structure will be logged to the supplied s
 <span class="inline-text">If this is true the xml header will be written to the stream</span>
 </li>
 </ul>
-
-```xml
-<?xml version="1.0"?>
-```
+<div class="code-block">
+<pre><code>&lt;?xml version=&quot;1.0&quot;?&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

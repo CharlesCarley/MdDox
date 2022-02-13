@@ -7,131 +7,131 @@
     <includes refid="ParaQuery_8h" local="yes">ParaQuery.h</includes>
     <includes refid="InternalS4Query_8h" local="yes">InternalS4Query.h</includes>
     <incdepgraph>
-      <node id="7162">
+      <node id="7973">
         <label>Utils/Console.h</label>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7962" relation="include">
         </childnode>
       </node>
-      <node id="7149">
+      <node id="7960">
         <label>functional</label>
       </node>
-      <node id="7165">
+      <node id="7976">
         <label>cstdint</label>
       </node>
-      <node id="7158">
+      <node id="7969">
         <label>Utils/Exception.h</label>
-        <childnode refid="7159" relation="include">
+        <childnode refid="7970" relation="include">
         </childnode>
-        <childnode refid="7160" relation="include">
+        <childnode refid="7971" relation="include">
         </childnode>
-        <childnode refid="7161" relation="include">
+        <childnode refid="7972" relation="include">
         </childnode>
-        <childnode refid="7162" relation="include">
+        <childnode refid="7973" relation="include">
         </childnode>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7962" relation="include">
         </childnode>
       </node>
-      <node id="7160">
+      <node id="7971">
         <label>stdexcept</label>
       </node>
-      <node id="7155">
+      <node id="7966">
         <label>string</label>
       </node>
-      <node id="7148">
+      <node id="7959">
         <label>Doxygen.h</label>
-        <childnode refid="7149" relation="include">
+        <childnode refid="7960" relation="include">
         </childnode>
-        <childnode refid="7150" relation="include">
+        <childnode refid="7961" relation="include">
         </childnode>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7962" relation="include">
         </childnode>
-        <childnode refid="7157" relation="include">
+        <childnode refid="7968" relation="include">
         </childnode>
-        <childnode refid="7158" relation="include">
+        <childnode refid="7969" relation="include">
         </childnode>
       </node>
-      <node id="7159">
+      <node id="7970">
         <label>exception</label>
       </node>
-      <node id="7153">
+      <node id="7964">
         <label>fstream</label>
       </node>
-      <node id="7147">
+      <node id="7958">
         <label>Sect4Query.h</label>
-        <childnode refid="7148" relation="include">
+        <childnode refid="7959" relation="include">
         </childnode>
       </node>
-      <node id="7157">
+      <node id="7968">
         <label>Xml/Node.h</label>
-        <childnode refid="7149" relation="include">
+        <childnode refid="7960" relation="include">
         </childnode>
-        <childnode refid="7150" relation="include">
+        <childnode refid="7961" relation="include">
         </childnode>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7962" relation="include">
         </childnode>
       </node>
-      <node id="7166">
+      <node id="7977">
         <label>ParaQuery.h</label>
-        <childnode refid="7148" relation="include">
+        <childnode refid="7959" relation="include">
         </childnode>
       </node>
-      <node id="7151">
+      <node id="7962">
         <label>Utils/String.h</label>
-        <childnode refid="7152" relation="include">
+        <childnode refid="7963" relation="include">
         </childnode>
-        <childnode refid="7153" relation="include">
+        <childnode refid="7964" relation="include">
         </childnode>
-        <childnode refid="7154" relation="include">
+        <childnode refid="7965" relation="include">
         </childnode>
-        <childnode refid="7155" relation="include">
+        <childnode refid="7966" relation="include">
         </childnode>
-        <childnode refid="7150" relation="include">
+        <childnode refid="7961" relation="include">
         </childnode>
-        <childnode refid="7156" relation="include">
+        <childnode refid="7967" relation="include">
         </childnode>
       </node>
-      <node id="7156">
+      <node id="7967">
         <label>vector</label>
       </node>
-      <node id="7161">
+      <node id="7972">
         <label>utility</label>
       </node>
-      <node id="7154">
+      <node id="7965">
         <label>sstream</label>
       </node>
-      <node id="7146">
-        <label>Sect4Query.cpp</label>
+      <node id="7957">
+        <label>Tools/Doxygen/Sect4Query.cpp</label>
         <link refid="Sect4Query_8cpp"/>
-        <childnode refid="7147" relation="include">
+        <childnode refid="7958" relation="include">
         </childnode>
-        <childnode refid="7163" relation="include">
+        <childnode refid="7974" relation="include">
         </childnode>
-        <childnode refid="7166" relation="include">
+        <childnode refid="7977" relation="include">
         </childnode>
-        <childnode refid="7167" relation="include">
+        <childnode refid="7978" relation="include">
         </childnode>
       </node>
-      <node id="7163">
+      <node id="7974">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="7164" relation="include">
+        <childnode refid="7975" relation="include">
         </childnode>
       </node>
-      <node id="7167">
+      <node id="7978">
         <label>InternalS4Query.h</label>
-        <childnode refid="7148" relation="include">
+        <childnode refid="7959" relation="include">
         </childnode>
       </node>
-      <node id="7152">
+      <node id="7963">
         <label>deque</label>
       </node>
-      <node id="7150">
+      <node id="7961">
         <label>unordered_map</label>
       </node>
-      <node id="7164">
+      <node id="7975">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="7165" relation="include">
+        <childnode refid="7976" relation="include">
         </childnode>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7962" relation="include">
         </childnode>
       </node>
     </incdepgraph>

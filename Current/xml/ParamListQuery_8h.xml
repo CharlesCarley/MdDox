@@ -4,147 +4,147 @@
     <compoundname>ParamListQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxParamListKind_8h" local="yes">DoxParamListKind.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">ParagraphWriter.cpp</includedby>
-    <includedby refid="ParameterListWriter_8h" local="yes">ParameterListWriter.h</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">MarkupQuery.cpp</includedby>
-    <includedby refid="ParamListQuery_8cpp" local="yes">ParamListQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">ParaQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="ParameterListWriter_8h" local="yes">Source/MdDoxTree/ParameterListWriter.h</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParamListQuery_8cpp" local="yes">Tools/Doxygen/ParamListQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
     <incdepgraph>
-      <node id="5957">
+      <node id="7268">
         <label>DoxParamListKind.h</label>
-        <childnode refid="5942" relation="include">
+        <childnode refid="7253" relation="include">
         </childnode>
       </node>
-      <node id="5956">
+      <node id="7267">
         <label>Utils/Console.h</label>
-        <childnode refid="5945" relation="include">
+        <childnode refid="7256" relation="include">
         </childnode>
       </node>
-      <node id="5943">
+      <node id="7254">
         <label>functional</label>
       </node>
-      <node id="5941">
-        <label>ParamListQuery.h</label>
+      <node id="7252">
+        <label>Tools/Doxygen/ParamListQuery.h</label>
         <link refid="ParamListQuery_8h"/>
-        <childnode refid="5942" relation="include">
+        <childnode refid="7253" relation="include">
         </childnode>
-        <childnode refid="5957" relation="include">
+        <childnode refid="7268" relation="include">
         </childnode>
       </node>
-      <node id="5952">
+      <node id="7263">
         <label>Utils/Exception.h</label>
-        <childnode refid="5953" relation="include">
+        <childnode refid="7264" relation="include">
         </childnode>
-        <childnode refid="5954" relation="include">
+        <childnode refid="7265" relation="include">
         </childnode>
-        <childnode refid="5955" relation="include">
+        <childnode refid="7266" relation="include">
         </childnode>
-        <childnode refid="5956" relation="include">
+        <childnode refid="7267" relation="include">
         </childnode>
-        <childnode refid="5945" relation="include">
+        <childnode refid="7256" relation="include">
         </childnode>
       </node>
-      <node id="5954">
+      <node id="7265">
         <label>stdexcept</label>
       </node>
-      <node id="5949">
+      <node id="7260">
         <label>string</label>
       </node>
-      <node id="5942">
+      <node id="7253">
         <label>Doxygen.h</label>
-        <childnode refid="5943" relation="include">
+        <childnode refid="7254" relation="include">
         </childnode>
-        <childnode refid="5944" relation="include">
+        <childnode refid="7255" relation="include">
         </childnode>
-        <childnode refid="5945" relation="include">
+        <childnode refid="7256" relation="include">
         </childnode>
-        <childnode refid="5951" relation="include">
+        <childnode refid="7262" relation="include">
         </childnode>
-        <childnode refid="5952" relation="include">
+        <childnode refid="7263" relation="include">
         </childnode>
       </node>
-      <node id="5953">
+      <node id="7264">
         <label>exception</label>
       </node>
-      <node id="5947">
+      <node id="7258">
         <label>fstream</label>
       </node>
-      <node id="5951">
+      <node id="7262">
         <label>Xml/Node.h</label>
-        <childnode refid="5943" relation="include">
+        <childnode refid="7254" relation="include">
         </childnode>
-        <childnode refid="5944" relation="include">
+        <childnode refid="7255" relation="include">
         </childnode>
-        <childnode refid="5945" relation="include">
+        <childnode refid="7256" relation="include">
         </childnode>
       </node>
-      <node id="5945">
+      <node id="7256">
         <label>Utils/String.h</label>
-        <childnode refid="5946" relation="include">
+        <childnode refid="7257" relation="include">
         </childnode>
-        <childnode refid="5947" relation="include">
+        <childnode refid="7258" relation="include">
         </childnode>
-        <childnode refid="5948" relation="include">
+        <childnode refid="7259" relation="include">
         </childnode>
-        <childnode refid="5949" relation="include">
+        <childnode refid="7260" relation="include">
         </childnode>
-        <childnode refid="5944" relation="include">
+        <childnode refid="7255" relation="include">
         </childnode>
-        <childnode refid="5950" relation="include">
+        <childnode refid="7261" relation="include">
         </childnode>
       </node>
-      <node id="5950">
+      <node id="7261">
         <label>vector</label>
       </node>
-      <node id="5955">
+      <node id="7266">
         <label>utility</label>
       </node>
-      <node id="5948">
+      <node id="7259">
         <label>sstream</label>
       </node>
-      <node id="5946">
+      <node id="7257">
         <label>deque</label>
       </node>
-      <node id="5944">
+      <node id="7255">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5958">
-        <label>ParamListQuery.h</label>
+      <node id="7269">
+        <label>Tools/Doxygen/ParamListQuery.h</label>
         <link refid="ParamListQuery_8h"/>
-        <childnode refid="5959" relation="include">
+        <childnode refid="7270" relation="include">
         </childnode>
-        <childnode refid="5960" relation="include">
+        <childnode refid="7271" relation="include">
         </childnode>
-        <childnode refid="5962" relation="include">
+        <childnode refid="7273" relation="include">
         </childnode>
-        <childnode refid="5963" relation="include">
+        <childnode refid="7274" relation="include">
         </childnode>
-        <childnode refid="5964" relation="include">
-        </childnode>
-      </node>
-      <node id="5964">
-        <label>ParaQuery.cpp</label>
-      </node>
-      <node id="5963">
-        <label>ParamListQuery.cpp</label>
-      </node>
-      <node id="5960">
-        <label>ParameterListWriter.h</label>
-        <childnode refid="5959" relation="include">
-        </childnode>
-        <childnode refid="5961" relation="include">
+        <childnode refid="7275" relation="include">
         </childnode>
       </node>
-      <node id="5962">
-        <label>MarkupQuery.cpp</label>
+      <node id="7275">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
-      <node id="5961">
-        <label>ParameterListWriter.cpp</label>
+      <node id="7274">
+        <label>Tools/Doxygen/ParamListQuery.cpp</label>
       </node>
-      <node id="5959">
-        <label>ParagraphWriter.cpp</label>
+      <node id="7271">
+        <label>Source/MdDoxTree/ParameterListWriter.h</label>
+        <childnode refid="7270" relation="include">
+        </childnode>
+        <childnode refid="7272" relation="include">
+        </childnode>
+      </node>
+      <node id="7273">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="7272">
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="7270">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamListQueryVisitor</innerclass>

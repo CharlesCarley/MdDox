@@ -67,7 +67,7 @@ namespace MdDox
         ref.setName(LinkUtils::lastBinaryResolution(query.text()));
         ref.setReference(query.getCompoundRef());
 
-        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+    	writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
     }
 
     void MemberDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)

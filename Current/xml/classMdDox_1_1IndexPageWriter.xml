@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="127" bodyend="137"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="137" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1IndexPageWriter_1afd6bd463f95fc3691b896eb248718fbf" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="139" bodyend="144"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="149" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1IndexPageWriter_1a98cfd9fe52ab14b691e63013930ebefa" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -120,7 +120,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="146" bodyend="158"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="156" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1IndexPageWriter_1a2ca2a2a95a7e397141b29d2b222842d5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::IndexPageWriter::writeReferenceListDirectory</definition>
+        <argsstring>(OStream &amp;out, IconId icon, const String &amp;heading, const ReferenceList &amp;list) const</argsstring>
+        <name>writeReferenceListDirectory</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref> &amp;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="170" bodyend="187"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -143,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="99" bodyend="104"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="109" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -164,20 +193,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="160" bodyend="211"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="189" bodyend="239"/>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="195" endline="200">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" compoundref="DoxygenIndexQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::DoxygenIndexQuery::visit</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="155">MdDox::SiteBuilder::projectTitle</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="189">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="156">MdDox::SiteBuilder::projectTitle</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" compoundref="IconSet_8h" startline="48">MdDox::ICO_NAMESPACE</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" compoundref="IndexPageWriter_8cpp" startline="47">MdDox::IndexPageFilter::namespaces</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" compoundref="IconSet_8h" startline="45">MdDox::ICO_CLASS</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" compoundref="IndexPageWriter_8cpp" startline="46">MdDox::IndexPageFilter::classes</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" compoundref="IconSet_8h" startline="36">MdDox::ICO_FOLDER</references>
-        <references refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" compoundref="IndexPageWriter_8cpp" startline="48">MdDox::IndexPageFilter::directories</references>
+        <references refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" compoundref="IndexPageWriter_8cpp" startline="49">MdDox::IndexPageFilter::dirPaths</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -208,7 +237,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/IndexPageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="34" bodyend="52"/>
+    <location file="Source/MdDoxTree/IndexPageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="34" bodyend="53"/>
     <listofallmembers>
       <member refid="classMdDox_1_1IndexPageWriter_1a5e71817af14879ceeb0b7b3f693f4074" prot="private" virt="non-virtual"><scope>MdDox::IndexPageWriter</scope><name>_indexDir</name></member>
       <member refid="classMdDox_1_1IndexPageWriter_1aeae7102d403da0869553dfba7acd1120" prot="private" virt="non-virtual"><scope>MdDox::IndexPageWriter</scope><name>_outDir</name></member>
@@ -221,6 +250,7 @@
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor_1af842c6cf37aa95f753ba014eda4832f2" prot="public" virt="virtual"><scope>MdDox::IndexPageWriter</scope><name>visitedCompound</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor_1aee3b9d953712e03e879fd89455634d92" prot="public" virt="virtual"><scope>MdDox::IndexPageWriter</scope><name>visitedText</name></member>
       <member refid="classMdDox_1_1IndexPageWriter_1a98cfd9fe52ab14b691e63013930ebefa" prot="private" virt="non-virtual"><scope>MdDox::IndexPageWriter</scope><name>writeReferenceList</name></member>
+      <member refid="classMdDox_1_1IndexPageWriter_1a2ca2a2a95a7e397141b29d2b222842d5" prot="private" virt="non-virtual"><scope>MdDox::IndexPageWriter</scope><name>writeReferenceListDirectory</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor_1a881d221a3666470719a896e8e6da056a" prot="public" virt="virtual"><scope>MdDox::IndexPageWriter</scope><name>~DoxygenIndexQueryVisitor</name></member>
     </listofallmembers>
   </compounddef>

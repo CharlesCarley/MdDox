@@ -24,7 +24,7 @@ digraph {
         bgcolor     = none
 
         Application[label=<
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
                 <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Application</b></font></td></tr>
                 <tr><td align="left">
                 <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
@@ -42,7 +42,7 @@ digraph {
         >];
 
         Database[label=<
-            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+            <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
                 <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Swap Database</b></font></td></tr>
                 <tr><td align="left">
                 <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
@@ -58,7 +58,7 @@ digraph {
         >];
         
         Index[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
             <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>Index</b></font></td></tr>
             <tr><td align="left">
             <table border="0" cellspacing="0" cellpadding="4" bgcolor="#464948C0">
@@ -78,7 +78,7 @@ digraph {
     subgraph cluster_b{
         peripheries=0
         Input[label=<
-        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#242726FF">
+        <table border="0" cellspacing="0" cellpadding="4" bgcolor="#343736FF">
             <tr><td align="center" port="Title"><font color="#AEB6C2FF"><b>input.xsd</b></font></td></tr>
         </table>
         >];

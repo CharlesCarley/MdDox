@@ -4,84 +4,84 @@
     <compoundname>Common.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="Tools_2GenApi_2Writer_8h" local="yes">Writer.h</includes>
-    <includedby refid="Common_8cpp" local="yes">Common.cpp</includedby>
-    <includedby refid="Generator_8cpp" local="yes">Generator.cpp</includedby>
+    <includedby refid="Common_8cpp" local="yes">Tools/GenApi/Common.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <incdepgraph>
-      <node id="386">
+      <node id="8557">
         <label>functional</label>
       </node>
-      <node id="381">
+      <node id="8552">
         <label>string</label>
       </node>
-      <node id="379">
+      <node id="8550">
         <label>fstream</label>
       </node>
-      <node id="385">
+      <node id="8556">
         <label>Xml/Node.h</label>
-        <childnode refid="386" relation="include">
+        <childnode refid="8557" relation="include">
         </childnode>
-        <childnode refid="382" relation="include">
+        <childnode refid="8553" relation="include">
         </childnode>
-        <childnode refid="377" relation="include">
+        <childnode refid="8548" relation="include">
         </childnode>
       </node>
-      <node id="384">
+      <node id="8555">
         <label>Writer.h</label>
-        <childnode refid="377" relation="include">
+        <childnode refid="8548" relation="include">
         </childnode>
-        <childnode refid="385" relation="include">
+        <childnode refid="8556" relation="include">
         </childnode>
       </node>
-      <node id="376">
-        <label>Common.h</label>
+      <node id="8547">
+        <label>Tools/GenApi/Common.h</label>
         <link refid="Common_8h"/>
-        <childnode refid="377" relation="include">
+        <childnode refid="8548" relation="include">
         </childnode>
-        <childnode refid="384" relation="include">
+        <childnode refid="8555" relation="include">
         </childnode>
       </node>
-      <node id="377">
+      <node id="8548">
         <label>Utils/String.h</label>
-        <childnode refid="378" relation="include">
+        <childnode refid="8549" relation="include">
         </childnode>
-        <childnode refid="379" relation="include">
+        <childnode refid="8550" relation="include">
         </childnode>
-        <childnode refid="380" relation="include">
+        <childnode refid="8551" relation="include">
         </childnode>
-        <childnode refid="381" relation="include">
+        <childnode refid="8552" relation="include">
         </childnode>
-        <childnode refid="382" relation="include">
+        <childnode refid="8553" relation="include">
         </childnode>
-        <childnode refid="383" relation="include">
+        <childnode refid="8554" relation="include">
         </childnode>
       </node>
-      <node id="383">
+      <node id="8554">
         <label>vector</label>
       </node>
-      <node id="380">
+      <node id="8551">
         <label>sstream</label>
       </node>
-      <node id="378">
+      <node id="8549">
         <label>deque</label>
       </node>
-      <node id="382">
+      <node id="8553">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="389">
-        <label>Generator.cpp</label>
+      <node id="8560">
+        <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="387">
-        <label>Common.h</label>
+      <node id="8558">
+        <label>Tools/GenApi/Common.h</label>
         <link refid="Common_8h"/>
-        <childnode refid="388" relation="include">
+        <childnode refid="8559" relation="include">
         </childnode>
-        <childnode refid="389" relation="include">
+        <childnode refid="8560" relation="include">
         </childnode>
       </node>
-      <node id="388">
-        <label>Common.cpp</label>
+      <node id="8559">
+        <label>Tools/GenApi/Common.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1GenApi_1_1Common" prot="public">MdDox::GenApi::Common</innerclass>

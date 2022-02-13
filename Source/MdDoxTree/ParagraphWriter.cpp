@@ -33,12 +33,12 @@
 #include "Doxygen/ParamListQuery.h"
 #include "Doxygen/RefTextQuery.h"
 #include "Doxygen/SimpleSectQuery.h"
+#include "Doxygen/UrlLinkQuery.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "ParameterListWriter.h"
-#include "WriteUtils.h"
-#include "Doxygen/UrlLinkQuery.h"
 #include "Utils/Path.h"
+#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -144,7 +144,7 @@ namespace MdDox
             {
                 _writer->beginListItem(_out);
 
-            	liq.foreachParagraph(
+                liq.foreachParagraph(
                     [this, stream](const Doxygen::ParaQuery& para)
                     {
                         ParagraphWriter pw(_writer, stream);
@@ -273,7 +273,7 @@ namespace MdDox
         }
     }
 
-	void ParagraphWriter::visitedDotFile(const Doxygen::FileQuery& query)
+    void ParagraphWriter::visitedDotFile(const Doxygen::FileQuery& query)
     {
         _writer->boldText(_out, "ParagraphWriter.visitedDotFile");
         _writer->lineBreak(_out);
@@ -321,7 +321,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedULink(const Doxygen::UrlLinkQuery& query)
     {
-    	_writer->linkText(_out, query.text(), query.getUrl());
+        _writer->linkText(_out, query.text(), query.getUrl());
     }
 
     void ParagraphWriter::visitedBold(const Doxygen::MarkupQuery& query)

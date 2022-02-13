@@ -5,94 +5,94 @@
     <includes local="no">cassert</includes>
     <includes refid="Char_8h" local="yes">Utils/Char.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Utils_2CommandLine_2Parser_8h" local="yes">Parser.h</includedby>
+    <includedby refid="Utils_2CommandLine_2Parser_8h" local="yes">Source/Utils/CommandLine/Parser.h</includedby>
     <incdepgraph>
-      <node id="5589">
+      <node id="2267">
         <label>cstdint</label>
       </node>
-      <node id="5587">
+      <node id="2265">
         <label>cassert</label>
       </node>
-      <node id="5594">
+      <node id="2272">
         <label>string</label>
       </node>
-      <node id="5592">
+      <node id="2270">
         <label>fstream</label>
       </node>
-      <node id="5586">
-        <label>Option.h</label>
+      <node id="2264">
+        <label>Source/Utils/CommandLine/Option.h</label>
         <link refid="Option_8h"/>
-        <childnode refid="5587" relation="include">
+        <childnode refid="2265" relation="include">
         </childnode>
-        <childnode refid="5588" relation="include">
+        <childnode refid="2266" relation="include">
         </childnode>
-        <childnode refid="5590" relation="include">
+        <childnode refid="2268" relation="include">
         </childnode>
       </node>
-      <node id="5590">
+      <node id="2268">
         <label>Utils/String.h</label>
-        <childnode refid="5591" relation="include">
+        <childnode refid="2269" relation="include">
         </childnode>
-        <childnode refid="5592" relation="include">
+        <childnode refid="2270" relation="include">
         </childnode>
-        <childnode refid="5593" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
-        <childnode refid="5594" relation="include">
+        <childnode refid="2272" relation="include">
         </childnode>
-        <childnode refid="5595" relation="include">
+        <childnode refid="2273" relation="include">
         </childnode>
-        <childnode refid="5596" relation="include">
+        <childnode refid="2274" relation="include">
         </childnode>
       </node>
-      <node id="5596">
+      <node id="2274">
         <label>vector</label>
       </node>
-      <node id="5593">
+      <node id="2271">
         <label>sstream</label>
       </node>
-      <node id="5588">
+      <node id="2266">
         <label>Utils/Char.h</label>
-        <childnode refid="5589" relation="include">
+        <childnode refid="2267" relation="include">
         </childnode>
-        <childnode refid="5590" relation="include">
+        <childnode refid="2268" relation="include">
         </childnode>
       </node>
-      <node id="5591">
+      <node id="2269">
         <label>deque</label>
       </node>
-      <node id="5595">
+      <node id="2273">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5602">
-        <label>Main.cpp</label>
+      <node id="2280">
+        <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="5601">
-        <label>Main.cpp</label>
+      <node id="2279">
+        <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="5600">
-        <label>Parser.cpp</label>
+      <node id="2278">
+        <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="5598">
-        <label>Parser.h</label>
-        <childnode refid="5599" relation="include">
+      <node id="2276">
+        <label>Source/Utils/CommandLine/Parser.h</label>
+        <childnode refid="2277" relation="include">
         </childnode>
-        <childnode refid="5600" relation="include">
+        <childnode refid="2278" relation="include">
         </childnode>
-        <childnode refid="5601" relation="include">
+        <childnode refid="2279" relation="include">
         </childnode>
-        <childnode refid="5602" relation="include">
+        <childnode refid="2280" relation="include">
         </childnode>
       </node>
-      <node id="5597">
-        <label>Option.h</label>
+      <node id="2275">
+        <label>Source/Utils/CommandLine/Option.h</label>
         <link refid="Option_8h"/>
-        <childnode refid="5598" relation="include">
+        <childnode refid="2276" relation="include">
         </childnode>
       </node>
-      <node id="5599">
-        <label>Main.cpp</label>
+      <node id="2277">
+        <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="structMdDox_1_1CommandLine_1_1Switch" prot="public">MdDox::CommandLine::Switch</innerclass>

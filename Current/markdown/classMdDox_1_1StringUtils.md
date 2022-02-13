@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>StringUtils</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="stringutils"></a>
 <h1>StringUtils</h1>
 <a id="classMdDox_1_1StringUtils"></a>
@@ -374,9 +384,8 @@ Removes any empty strings from the result. </span>
 <span class="inline-text">If true, the result will randomly be shifted.</span>
 </li>
 </ul>
-
-```txt
-Randomized:
+<div class="code-block">
+<pre><code>Randomized:
   1ILtZEF
   h804iWy
   DpZzzmg
@@ -387,7 +396,8 @@ Not-Randomized:
   n1mLZd3
   n1mLZd3
   n1mLZd3
-```
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

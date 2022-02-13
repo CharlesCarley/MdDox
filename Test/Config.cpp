@@ -47,7 +47,7 @@ GTEST_TEST(General, Config1)
 
     cfg.load(input);
 
-    EXPECT_TRUE("true", cfg.getBool("SHOW_DEBUG"));
+    EXPECT_TRUE(cfg.getBool("SHOW_DEBUG"));
     EXPECT_EQ(".md", cfg.getValue("OUTPUT_FILE_EXT"));
     EXPECT_EQ("markdown", cfg.getValue("OUTPUT_DIR"));
     EXPECT_EQ("MdDox", cfg.getValue("PROJECT_ROOT"));

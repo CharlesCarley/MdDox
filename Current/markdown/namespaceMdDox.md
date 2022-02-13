@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>MdDox</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="mddox"></a>
 <h1>MdDox</h1>
 <a id="namespaceMdDox"></a>
@@ -1674,22 +1684,22 @@
 <br/>
 <img src="../images/enum24px.svg"/><span class="inline-text">OpMax</span>
 <br/>
-
-```
-Usage: MdDox <options> <arg[0] .. arg[n]>
+<div class="code-block">
+<pre><code>Usage: MdDox &lt;options&gt; &lt;arg[0] .. arg[n]&gt;
 
      -h, --help    Display this help message
      -o, --output  Specify an output directory
                      If one is not specified the current directory will be used
 
      -i, --index   Specify the index.xml file to use
-                     <path>
+                     &lt;path&gt;
 
      -t, --type    Specify the generator backend type
-                     <id>
+                     &lt;id&gt;
                       md   - Generates a GFM markdown site.
                       html - Generates a HTML site.
-```
+</code></pre>
+</div>
 <br/>
 <a id="optoutputdirectory"></a>
 <h4>OptOutputDirectory</h4>

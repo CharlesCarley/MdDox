@@ -142,21 +142,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDox/Main.cpp" line="201" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="201" bodyend="228"/>
-        <references refid="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" compoundref="SiteBuilder_8cpp" startline="90" endline="122">MdDox::SiteBuilder::loadConfig</references>
-        <references refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" compoundref="SiteBuilder_8h" startline="204">MdDox::SiteBuilder::showDebug</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="170">MdDox::SiteBuilder::outputFileExt</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a99f644177e54d4186f5a98201f73a6fe" compoundref="SiteBuilder_8h" startline="165">MdDox::SiteBuilder::projectRoot</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="155">MdDox::SiteBuilder::projectTitle</references>
+        <references refid="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" compoundref="SiteBuilder_8cpp" startline="90" endline="132">MdDox::SiteBuilder::loadConfig</references>
+        <references refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" compoundref="SiteBuilder_8h" startline="205">MdDox::SiteBuilder::showDebug</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="171">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a99f644177e54d4186f5a98201f73a6fe" compoundref="SiteBuilder_8h" startline="166">MdDox::SiteBuilder::projectRoot</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="156">MdDox::SiteBuilder::projectTitle</references>
         <references refid="classMdDox_1_1PathUtil_1a4f90af1ff20339ccecf185ea8f98e99d" compoundref="Path_8cpp" startline="146" endline="169">MdDox::PathUtil::parentDir</references>
         <references refid="classMdDox_1_1PathUtil_1ae5ba330b1ad93db34d508d8dd29f63c8" compoundref="Path_8cpp" startline="204" endline="208">MdDox::PathUtil::appendDirectory</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" compoundref="SiteBuilder_8h" startline="206">MdDox::SiteBuilder::styleSheet</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" compoundref="SiteBuilder_8h" startline="174">MdDox::SiteBuilder::imageDir</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" compoundref="SiteBuilder_8h" startline="179">MdDox::SiteBuilder::inputDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" compoundref="SiteBuilder_8h" startline="207">MdDox::SiteBuilder::styleSheet</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" compoundref="SiteBuilder_8h" startline="175">MdDox::SiteBuilder::imageDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" compoundref="SiteBuilder_8h" startline="180">MdDox::SiteBuilder::inputDir</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="184">MdDox::SiteBuilder::outputDir</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="189">MdDox::SiteBuilder::siteUrl</references>
-        <references refid="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" compoundref="SiteBuilder_8h" startline="194">MdDox::SiteBuilder::baseUrl</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" compoundref="SiteBuilder_8h" startline="199">MdDox::SiteBuilder::searchDirs</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="185">MdDox::SiteBuilder::outputDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" compoundref="SiteBuilder_8h" startline="195">MdDox::SiteBuilder::baseUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" compoundref="SiteBuilder_8h" startline="200">MdDox::SiteBuilder::searchDirs</references>
         <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="62" endline="88">MdDox::SiteBuilder::buildFromXml</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
       </memberdef>

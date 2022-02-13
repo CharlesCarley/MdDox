@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>CodeLineQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="codelinequery"></a>
 <h1>CodeLineQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1CodeLineQuery"></a>
@@ -97,18 +107,18 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>codelineType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="codelineType">
-  <xsd:sequence>
-    <xsd:element minOccurs="0" name="highlight" type="highlightType" maxOccurs="unbounded"/>
-  </xsd:sequence>
-  <xsd:attribute name="lineno" type="xsd:integer"/>
-  <xsd:attribute name="refid" type="xsd:string"/>
-  <xsd:attribute name="refkind" type="DoxRefKind"/>
-  <xsd:attribute name="external" type="DoxBool"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;codelineType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;highlight&quot; type=&quot;highlightType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;lineno&quot; type=&quot;xsd:integer&quot;/&gt;
+  &lt;xsd:attribute name=&quot;refid&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;refkind&quot; type=&quot;DoxRefKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;external&quot; type=&quot;DoxBool&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

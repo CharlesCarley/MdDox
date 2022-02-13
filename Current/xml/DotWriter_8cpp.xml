@@ -7,76 +7,76 @@
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
     <includes refid="TextStreamWriter_8h" local="yes">Utils/TextStreamWriter.h</includes>
     <incdepgraph>
-      <node id="1243">
+      <node id="415">
         <label>DotWriter.h</label>
-        <childnode refid="1244" relation="include">
+        <childnode refid="416" relation="include">
         </childnode>
-        <childnode refid="1251" relation="include">
+        <childnode refid="423" relation="include">
         </childnode>
       </node>
-      <node id="1253">
+      <node id="425">
         <label>iomanip</label>
       </node>
-      <node id="1252">
+      <node id="424">
         <label>functional</label>
       </node>
-      <node id="1242">
-        <label>DotWriter.cpp</label>
+      <node id="414">
+        <label>Source/MdDoxTree/DotWriter.cpp</label>
         <link refid="DotWriter_8cpp"/>
-        <childnode refid="1243" relation="include">
+        <childnode refid="415" relation="include">
         </childnode>
-        <childnode refid="1253" relation="include">
+        <childnode refid="425" relation="include">
         </childnode>
-        <childnode refid="1251" relation="include">
+        <childnode refid="423" relation="include">
         </childnode>
-        <childnode refid="1254" relation="include">
+        <childnode refid="426" relation="include">
         </childnode>
       </node>
-      <node id="1248">
+      <node id="420">
         <label>string</label>
       </node>
-      <node id="1246">
+      <node id="418">
         <label>fstream</label>
       </node>
-      <node id="1251">
+      <node id="423">
         <label>Xml/Node.h</label>
-        <childnode refid="1252" relation="include">
+        <childnode refid="424" relation="include">
         </childnode>
-        <childnode refid="1249" relation="include">
+        <childnode refid="421" relation="include">
         </childnode>
-        <childnode refid="1244" relation="include">
+        <childnode refid="416" relation="include">
         </childnode>
       </node>
-      <node id="1244">
+      <node id="416">
         <label>Utils/String.h</label>
-        <childnode refid="1245" relation="include">
+        <childnode refid="417" relation="include">
         </childnode>
-        <childnode refid="1246" relation="include">
+        <childnode refid="418" relation="include">
         </childnode>
-        <childnode refid="1247" relation="include">
+        <childnode refid="419" relation="include">
         </childnode>
-        <childnode refid="1248" relation="include">
+        <childnode refid="420" relation="include">
         </childnode>
-        <childnode refid="1249" relation="include">
+        <childnode refid="421" relation="include">
         </childnode>
-        <childnode refid="1250" relation="include">
+        <childnode refid="422" relation="include">
         </childnode>
       </node>
-      <node id="1250">
+      <node id="422">
         <label>vector</label>
       </node>
-      <node id="1247">
+      <node id="419">
         <label>sstream</label>
       </node>
-      <node id="1254">
+      <node id="426">
         <label>Utils/TextStreamWriter.h</label>
-        <childnode refid="1244" relation="include">
+        <childnode refid="416" relation="include">
         </childnode>
       </node>
-      <node id="1245">
+      <node id="417">
         <label>deque</label>
       </node>
-      <node id="1249">
+      <node id="421">
         <label>unordered_map</label>
       </node>
     </incdepgraph>

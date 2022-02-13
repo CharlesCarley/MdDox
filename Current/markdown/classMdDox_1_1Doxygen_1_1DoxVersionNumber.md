@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>DoxVersionNumber</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="doxversionnumber"></a>
 <h1>DoxVersionNumber</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxVersionNumber"></a>

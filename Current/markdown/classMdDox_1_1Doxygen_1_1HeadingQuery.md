@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>HeadingQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="headingquery"></a>
 <h1>HeadingQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1HeadingQuery"></a>
@@ -197,13 +207,13 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>docHeadingType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="docHeadingType" mixed="true">
-  <xsd:group ref="docTitleCmdGroup" minOccurs="0" maxOccurs="unbounded"/>
-  <xsd:attribute name="level" type="xsd:integer"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;docHeadingType&quot; mixed=&quot;true&quot;&gt;
+  &lt;xsd:group ref=&quot;docTitleCmdGroup&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;xsd:attribute name=&quot;level&quot; type=&quot;xsd:integer&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

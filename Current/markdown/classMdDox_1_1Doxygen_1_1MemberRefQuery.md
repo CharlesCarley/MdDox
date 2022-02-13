@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>MemberRefQuery</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="memberrefquery"></a>
 <h1>MemberRefQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1MemberRefQuery"></a>
@@ -97,19 +107,19 @@
 <span class="inline-text">The following xml provides the source for the </span>
 <span class="bold-text"><b>memberRefType</b></span>
 <span class="inline-text"> scaffolding.</span>
-
-```xml
-<xsd:complexType name="memberRefType">
-  <xsd:sequence>
-    <xsd:element name="scope"/>
-    <xsd:element name="name"/>
-  </xsd:sequence>
-  <xsd:attribute name="refid" type="xsd:string"/>
-  <xsd:attribute name="prot" type="DoxProtectionKind"/>
-  <xsd:attribute name="virt" type="DoxVirtualKind"/>
-  <xsd:attribute name="ambiguityscope" type="xsd:string"/>
-</xsd:complexType>
-```
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;memberRefType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;scope&quot;/&gt;
+    &lt;xsd:element name=&quot;name&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;refid&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;prot&quot; type=&quot;DoxProtectionKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;virt&quot; type=&quot;DoxVirtualKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;ambiguityscope&quot; type=&quot;xsd:string&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
 <br/>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>

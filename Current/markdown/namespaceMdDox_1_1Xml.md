@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Xml</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="xml"></a>
 <h1>Xml</h1>
 <a id="namespaceMdDox_1_1Xml"></a>
@@ -41,13 +51,12 @@
 <a href="#parserroot()">Parser::root()</a>
 <span class="inline-text"> method will return the root node of the tree.</span>
 <span class="inline-text">The following example shows how to use it.</span>
-
-```cpp
-using namespace MdDox;
+<div class="code-block">
+<pre><code>using namespace MdDox;
 try
 {
      Xml::Parser parser;
-     parser.parse("file.xml");
+     parser.parse(&quot;file.xml&quot;);
 
      Xml::Node *root = parser.root();
 
@@ -58,7 +67,8 @@ catch(Exception &ex)
 {
      Console::writeLine(ex.what());
 }
-```
+</code></pre>
+</div>
 <a id="classes"></a>
 <h2>Classes</h2>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Attribute.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Attribute</span>

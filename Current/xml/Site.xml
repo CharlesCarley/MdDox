@@ -36,21 +36,21 @@ digraph {
     
     node [
         shape     = none
-        fontname  = &quot;--font-family&quot;
-        fontcolor = &quot;--text&quot;
-        fontsize  = &quot;--font-size&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontcolor = &quot;${text}&quot;
+        fontsize  = &quot;${font-size}&quot;
     ]
     edge [
-        arrowsize = &quot;--arrow-size&quot;
-        color     = &quot;--edge-grey&quot;
-        fontname  = &quot;--font-family&quot;
-        fontcolor = &quot;--text&quot;
-        fontsize  = &quot;--font-size&quot;
+        arrowsize = &quot;${arrow-size}&quot;
+        color     = &quot;${edge-grey}&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontcolor = &quot;${text}&quot;
+        fontsize  = &quot;${font-size}&quot;
     ]
     
     MainPage[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;MainPage&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;MainPage&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Brief&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Detail&lt;/td&gt;&lt;/tr&gt;
         &lt;/table&gt;
@@ -58,12 +58,12 @@ digraph {
 
 
     Index[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Description&quot;&gt;Description&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Contents&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Directory&quot;&gt;Directory&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Class&quot;&gt;Class&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Page&quot;&gt;Page&lt;/td&gt;&lt;/tr&gt;
@@ -78,11 +78,11 @@ digraph {
 
 
     ClassIndex[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Class[0]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Class[1]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Class[n]&lt;/td&gt;&lt;/tr&gt;
@@ -94,11 +94,11 @@ digraph {
 
 
     NamespaceIndex[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[0]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[1]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Namespace[n]&lt;/td&gt;&lt;/tr&gt;
@@ -110,11 +110,11 @@ digraph {
     Index:Namespace-&gt;NamespaceIndex;
 
     PageIndex[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[0]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[1]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;ITem&quot;&gt;Page[n]&lt;/td&gt;&lt;/tr&gt;
@@ -127,11 +127,11 @@ digraph {
 
 
     DirectoryIndex[label=&lt;
-        &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;--table-border-size&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;--table-bg&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;--bold&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[0]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[1]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Dir[n]&lt;/td&gt;&lt;/tr&gt;

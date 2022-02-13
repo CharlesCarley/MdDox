@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>GeneratorImpl</title>
 </head>
 <body>
+<div class="document">
+<div class="document-header">
 <a id="generatorimpl"></a>
 <h1>GeneratorImpl</h1>
 <a id="classMdDox_1_1GenApi_1_1GeneratorImpl"></a>

@@ -51,13 +51,13 @@ namespace MdDox
      *      rankdir = "LR";
      *      node [
      *          shape     = none
-     *          fontname  = "--font-family"
-     *          fontcolor = "--text"
-     *          fontsize  = "--font-size"
+     *          fontname  = "${font-family}"
+     *          fontcolor = "${text}"
+     *          fontsize  = "${font-size}"
      *      ]
      *      edge [
-     *          arrowsize = "--arrow-size"
-     *          color     = "--edge-red"
+     *          arrowsize = "${arrow-size}"
+     *          color     = "${edge-red}"
      *      ]
      *      SiteBuilder->Config;
      *
@@ -89,6 +89,7 @@ namespace MdDox
         mutable ReferenceMap _names;
         mutable ReferenceMap _members;
         mutable StringArray  _dotFiles;
+        mutable Config       _dot;
 
         void dispatchDot() const;
 
