@@ -217,7 +217,7 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" compoundref="DoxygenFilter_8h" startline="95">MdDox::Doxygen::DoxMemberDef</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" compoundref="SectiondefQuery_8cpp" startline="102" endline="123">MdDox::Doxygen::SectionDefQuery::sort</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectiondefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="233" endline="244">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -92,7 +92,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="233" endline="244">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

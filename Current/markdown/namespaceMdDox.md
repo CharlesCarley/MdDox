@@ -1209,6 +1209,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#beginparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContent</span>
 </a>
 </span>
@@ -1221,7 +1225,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#endparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endParagraph</span>
 </a>
 </span>
 <br/>
@@ -1249,7 +1253,7 @@
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L233" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L234" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1672,8 +1676,10 @@
 </a>
 </span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OpMax</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OpMax</span>
+</span>
+</div>
 
 ```
 Usage: MdDox <options> <arg[0] .. arg[n]>
@@ -1776,42 +1782,78 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="inline-text">internal icons to this system </span>
 <br/>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_NONE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_BACK</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_DEBUG</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_FILE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_FOLDER</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_HOME</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK_SM</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_ISO_BAR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_CLASS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_ENUM</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_NAMESPACE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">ICO_SEP_BAR</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_NONE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_BACK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_DEBUG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_FILE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_FOLDER</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_HOME</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK_SM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_ISO_BAR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_CLASS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_ENUM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_NAMESPACE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_SEP_BAR</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
@@ -1827,38 +1869,70 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="inline-text">Enum for adding specific background and foreground colors to the console. </span>
 <br/>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_BLACK</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_BLUE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_GREEN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_CYAN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_RED</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_GREY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_BLUE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_GREEN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_CYAN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_RED</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_MAGENTA</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_YELLOW</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">CS_WHITE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_BLACK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_BLUE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_GREEN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_CYAN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_RED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_GREY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_BLUE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_GREEN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_CYAN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_RED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_MAGENTA</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_YELLOW</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_WHITE</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>

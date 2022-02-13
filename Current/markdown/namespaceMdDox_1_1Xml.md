@@ -152,30 +152,54 @@ catch(Exception &ex)
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_ERROR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_EOF</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_NULL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_STRING</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_TEXT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_EQUALS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_ST_TAG</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_EN_TAG</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_SLASH</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_QUESTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_KW_XML</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_ERROR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_EOF</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_NULL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_STRING</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_TEXT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_EQUALS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_ST_TAG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_EN_TAG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_SLASH</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_QUESTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_KW_XML</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>

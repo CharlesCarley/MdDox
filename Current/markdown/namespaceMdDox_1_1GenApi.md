@@ -185,24 +185,42 @@
 <span class="inline-text">Document. </span>
 <br/>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptInputFile</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptOutDir</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptLogComplexTypes</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptLogSimpleTypes</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptLogAttributeNames</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptLogElementNames</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptLogGroupNames</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptOpLogEnumValues</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptionsMax</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptInputFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptOutDir</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptLogComplexTypes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptLogSimpleTypes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptLogAttributeNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptLogElementNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptLogGroupNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptOpLogEnumValues</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptionsMax</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
@@ -215,14 +233,22 @@
 <h2>ElementType</h2>
 <span class="bold-text"><b>ElementType</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">BASE_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">SIMPLE_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">COMPLEX_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">GROUP_TYPE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">BASE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">SIMPLE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">COMPLEX_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">GROUP_TYPE</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>

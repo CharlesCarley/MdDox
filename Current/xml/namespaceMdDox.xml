@@ -1071,11 +1071,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="226" bodyend="231"/>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="226" bodyend="232"/>
+        <references refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
         <references refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1096,7 +1097,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="233" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="233" bodyend="244"/>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="234" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="234" bodyend="245"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1ae499b565ea54f70247a7add01c6ac602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

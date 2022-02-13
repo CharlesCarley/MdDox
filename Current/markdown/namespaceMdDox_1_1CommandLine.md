@@ -65,28 +65,50 @@
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_NONE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_SWITCH_SHORT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_SWITCH_LONG</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_NEXT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_OPTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_INTEGER</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_REAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_FILEPATH</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_EOS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">TOK_ERROR</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_NONE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_SWITCH_SHORT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_SWITCH_LONG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_NEXT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_OPTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_INTEGER</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_REAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_FILEPATH</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_EOS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">TOK_ERROR</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>

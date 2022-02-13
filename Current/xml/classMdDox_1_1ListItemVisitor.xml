@@ -140,7 +140,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233">MdDox::DocumentWriter::beginListItem</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a6240c1e609721da2b7311bbc2f673131" compoundref="ParamListItemQuery_8cpp" startline="30" endline="52">MdDox::Doxygen::ParamListItemQuery::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29">MdDox::DocumentWriter::endListItem</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="233" endline="244">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -68,8 +68,10 @@
 </a>
 </span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">OptionsMax</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OptionsMax</span>
+</span>
+</div>
 <a id="optoutputfilename"></a>
 <h4>OptOutputFileName</h4>
 <br/>

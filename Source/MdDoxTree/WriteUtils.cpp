@@ -225,9 +225,10 @@ namespace MdDox
 
     void writeReferenceIconStub(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
+        writer->beginParagraph(out);
         writer->embedContent(out, id);
         writer->inlineText(out, ref.getName());
-        writer->lineBreak(out);
+        writer->endParagraph(out);
     }
 
     bool syncStream(OStream* stream, OutputStringStream& out)

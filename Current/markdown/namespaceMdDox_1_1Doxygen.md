@@ -862,228 +862,450 @@
 <h2>UsedElements</h2>
 <span class="bold-text"><b>UsedElements</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTextNode</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxAnchor</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxArgString</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxArray</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxBlockQuote</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxBold</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxBriefDescription</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCaption</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCenter</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxChildNode</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCodeLine</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCollaborationGraph</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundDef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCompound</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundName</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxComputerOutput</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDeclName</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDefinition</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDefName</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDefVal</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDescription</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDetailedDescription</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDot</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDotFile</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygen</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygenIndex</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxEdgeLabel</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxEmphasis</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxEntry</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxEnumValue</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxExceptions</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxHeader</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxHeading</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxHighlight</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxHruler</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxImage</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInBodyDescription</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxIncDepGraph</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludedBy</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludes</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxIndexEntry</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInheritanceGraph</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInitializer</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerclass</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerDir</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerFile</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerGroup</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerNamespace</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerPage</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInt</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInternal</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxItemizedList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLabel</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLang</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLanguage</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLineBreak</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLink</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxListItem</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxListOfAllMembers</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxLocation</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxMember</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxMemberDef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxName</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxNode</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxOrderedList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxPara</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParam</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterDescription</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterItem</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterName</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterNameList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterType</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxParBlock</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxPart</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxPreFormatted</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxProd</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxProgramListing</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxProp</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxRef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxReferencedBy</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxReferences</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxRegistered</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplementedBy</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplements</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxScope</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSect</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSect1</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSect2</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSect3</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSect4</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSectionDef</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSimpleSect</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSmall</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxSp</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTable</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTableOfContents</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTocItem</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTocList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTemplateParamList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxTitle</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxType</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxUlink</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxVariableList</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxVarListEntry</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxVerbatim</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxWrite</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DoxUndefined</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTextNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxAnchor</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArgString</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArray</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBlockQuote</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBold</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBriefDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCaption</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCenter</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxChildNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCodeLine</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCollaborationGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompound</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxComputerOutput</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDeclName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefinition</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefVal</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDetailedDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDot</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDotFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygen</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygenIndex</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEdgeLabel</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEmphasis</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEnumValue</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxExceptions</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeader</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeading</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHighlight</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHruler</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxImage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInBodyDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncDepGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIndexEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInheritanceGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInitializer</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerclass</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerDir</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerGroup</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerNamespace</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerPage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInt</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInternal</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxItemizedList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLabel</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLang</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLanguage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLineBreak</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLink</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListOfAllMembers</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLocation</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMember</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMemberDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxOrderedList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPara</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParam</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterNameList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterType</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParBlock</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPart</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPreFormatted</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProd</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProgramListing</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProp</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferencedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferences</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRegistered</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplementedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplements</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxScope</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect1</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect2</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect3</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect4</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSectionDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSimpleSect</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSmall</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSp</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTable</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTableOfContents</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTemplateParamList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTitle</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxType</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUlink</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVariableList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVarListEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVerbatim</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxWrite</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUndefined</span>
+</span>
+</div>
 <br/>
 <span class="bold-text"><b>Defined in</b></span>
 <br/>
@@ -1096,20 +1318,34 @@
 <h2>DoxAccessorEnum</h2>
 <span class="bold-text"><b>DoxAccessorEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_ASSIGN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_COPY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_RETAIN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_WEAK</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_STRONG</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DA_UNRETAINED</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_ASSIGN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_COPY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_RETAIN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_WEAK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_STRONG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_UNRETAINED</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1139,12 +1375,18 @@
 <h2>DoxBoolEnum</h2>
 <span class="bold-text"><b>DoxBoolEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DB_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DB_YES</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DB_NO</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_YES</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_NO</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1170,8 +1412,10 @@
 <h2>DoxCharRangeEnum</h2>
 <span class="bold-text"><b>DoxCharRangeEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCR_INVALID</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCR_INVALID</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1196,42 +1440,78 @@
 <h2>DoxCompoundKindEnum</h2>
 <span class="bold-text"><b>DoxCompoundKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_CLASS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_INTERFACE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_NAMESPACE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_STRUCT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_SERVICE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_UNION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_PROTOCOL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_CATEGORY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_PAGE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXCEPTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_SINGLETON</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_MODULE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_FILE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_GROUP</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXAMPLE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DCK_DIR</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_CLASS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_INTERFACE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_NAMESPACE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_STRUCT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_SERVICE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_UNION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_PROTOCOL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_CATEGORY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_PAGE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXCEPTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_SINGLETON</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_MODULE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_FILE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_GROUP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXAMPLE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_DIR</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1272,22 +1552,38 @@
 <h2>DoxGraphRelationEnum</h2>
 <span class="bold-text"><b>DoxGraphRelationEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_TYPE_CONSTRAINT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_INCLUDE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_USAGE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_PRIVATE_INHERITANCE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_TEMPLATE_INSTANCE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_PUBLIC_INHERITANCE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DGR_PROTECTED_INHERITANCE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_TYPE_CONSTRAINT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_INCLUDE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_USAGE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PRIVATE_INHERITANCE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_TEMPLATE_INSTANCE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PUBLIC_INHERITANCE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PROTECTED_INHERITANCE</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1318,24 +1614,42 @@
 <h2>DoxHighlightClassEnum</h2>
 <span class="bold-text"><b>DoxHighlightClassEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_COMMENT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_PREPROCESSOR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_NORMAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_CHAR_LITERAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_FLOW</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DHC_STRINGLITERAL</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_COMMENT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_PREPROCESSOR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_NORMAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_CHAR_LITERAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_FLOW</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_STRINGLITERAL</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1367,14 +1681,22 @@
 <h2>DoxImageKindEnum</h2>
 <span class="bold-text"><b>DoxImageKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DIK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DIK_HTML</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DIK_LATEX</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DIK_RTF</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_HTML</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_LATEX</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_RTF</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1401,40 +1723,74 @@
 <h2>DoxLanguageEnum</h2>
 <span class="bold-text"><b>DoxLanguageEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_UNKNOWN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_TCL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_IDL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_OBJECTIVE_C</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVA</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_D</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_CSHARP</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_PHP</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_CPLUSPLUS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVASCRIPT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_PYTHON</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_FORTRAN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_VHDL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_XML</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_SQL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DL_MARKDOWN</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_UNKNOWN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_TCL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_IDL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_OBJECTIVE_C</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVA</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_D</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_CSHARP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_PHP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_CPLUSPLUS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVASCRIPT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_PYTHON</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_FORTRAN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_VHDL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_XML</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_SQL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_MARKDOWN</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1474,36 +1830,66 @@
 <h2>DoxMemberKindEnum</h2>
 <span class="bold-text"><b>DoxMemberKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_DEFINE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_ENUM</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROPERTY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_EVENT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_VARIABLE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_TYPEDEF</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_FUNCTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_SIGNAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROTOTYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_FRIEND</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_DCOP</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_SLOT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_INTERFACE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DMK_SERVICE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_DEFINE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_ENUM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROPERTY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_EVENT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_VARIABLE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_TYPEDEF</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_FUNCTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SIGNAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROTOTYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_FRIEND</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_DCOP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SLOT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_INTERFACE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SERVICE</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1541,14 +1927,22 @@
 <h2>DoxParamDirEnum</h2>
 <span class="bold-text"><b>DoxParamDirEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPD_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPD_IN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPD_OUT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPD_INOUT</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_IN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_OUT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_INOUT</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1575,16 +1969,26 @@
 <h2>DoxParamListKindEnum</h2>
 <span class="bold-text"><b>DoxParamListKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPLK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPLK_PARAM</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPLK_RET_VAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPLK_EXCEPTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPLK_TEMPLATE_PARAM</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_PARAM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_RET_VAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_EXCEPTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_TEMPLATE_PARAM</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1612,16 +2016,26 @@
 <h2>DoxProtectionKindEnum</h2>
 <span class="bold-text"><b>DoxProtectionKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPK_PUBLIC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPK_PROTECTED</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPK_PRIVATE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DPK_PACKAGE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PUBLIC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PROTECTED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PRIVATE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PACKAGE</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1649,12 +2063,18 @@
 <h2>DoxRefKindEnum</h2>
 <span class="bold-text"><b>DoxRefKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRK_COMPOUND</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRK_MEMBER</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_COMPOUND</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_MEMBER</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1680,12 +2100,18 @@
 <h2>DoxRefQualifierKindEnum</h2>
 <span class="bold-text"><b>DoxRefQualifierKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRQK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRQK_LVALUE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DRQK_RVALUE</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_LVALUE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_RVALUE</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1711,80 +2137,154 @@
 <h2>DoxSectionKindEnum</h2>
 <span class="bold-text"><b>DoxSectionKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_USER_DEFINED</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_SLOT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_SIGNAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROPERTY</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_DCOP_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_SLOT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_EVENT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_TYPEDEF</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_RELATED</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_SLOT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_DEFINE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_TYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_FUNC</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_ATTRIB</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_FRIEND</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTOTYPE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_ENUM</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_VAR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSK_INVALID</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_USER_DEFINED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_SLOT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_SIGNAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROPERTY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_DCOP_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_SLOT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_EVENT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_TYPEDEF</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_RELATED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_SLOT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_DEFINE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_FUNC</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_ATTRIB</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_FRIEND</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTOTYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_ENUM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_VAR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_INVALID</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1844,42 +2344,78 @@
 <h2>DoxSimpleSectKindEnum</h2>
 <span class="bold-text"><b>DoxSimpleSectKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SEE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_VERSION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RETURN</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHORS</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHOR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SINCE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_NOTE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_ATTENTION</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_DATE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_WARNING</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PRE</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_POST</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_COPYRIGHT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVARIANT</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_REMARK</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PAR</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RCS</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SEE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_VERSION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RETURN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHORS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHOR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SINCE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_NOTE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_ATTENTION</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_DATE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_WARNING</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PRE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_POST</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_COPYRIGHT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVARIANT</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_REMARK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PAR</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RCS</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1920,8 +2456,10 @@
 <h2>DoxVersionNumberEnum</h2>
 <span class="bold-text"><b>DoxVersionNumberEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DVN_INVALID</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVN_INVALID</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
@@ -1946,14 +2484,22 @@
 <h2>DoxVirtualKindEnum</h2>
 <span class="bold-text"><b>DoxVirtualKindEnum</b></span>
 <br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DVK_INVALID</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DVK_NON_VIRTUAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DVK_VIRTUAL</span>
-<br/>
-<img src="../images/enum24px.svg"/><span class="inline-text">DVK_PURE_VIRTUAL</span>
-<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_NON_VIRTUAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_VIRTUAL</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_PURE_VIRTUAL</span>
+</span>
+</div>
 <span class="inline-text">The following xml provides the </span>
 <span class="bold-text"><b></b></span>
 <span class="inline-text"> declaration.</span>
