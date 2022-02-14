@@ -53,7 +53,7 @@ set(Target_SRC
     Complex.cpp
     Simple.cpp
     Group.cpp
-    Compound.xsd
+    compound.xsd
     ${Target_TMPL}
     ${Target_RES}
     ${Target_MAPS}
