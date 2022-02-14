@@ -20,4 +20,4 @@ out. It needs tested on different repositories.
 
 The output for this repository can be found in the [Current](Current/) directory.
 
-- [Index](Current/markdown/indexpage.md#mddox)
+- [Index](Current/markdown/indexpage.md#main)
