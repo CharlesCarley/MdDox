@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qb2UMA2[
+ W1ZlZuL[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DCKUMA2[
+ dIElZuL[
    shape    = none
    label    = "ChildNodeQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qb2UMA2->DCKUMA2
+ W1ZlZuL->dIElZuL
 }

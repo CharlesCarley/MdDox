@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 179,-40 179,4 -4,4"/>
-<!-- Wxw8MA2 -->
-<g id="node1" class="node"><title>Wxw8MA2</title>
+<!-- DdEOLuL -->
+<g id="node1" class="node"><title>DdEOLuL</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- d2G8MA2 -->
-<g id="node2" class="node"><title>d2G8MA2</title>
+<!-- qLEOLuL -->
+<g id="node2" class="node"><title>qLEOLuL</title>
 <text text-anchor="middle" x="132.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LinkedTextQuery</text>
 </g>
-<!-- Wxw8MA2&#45;&gt;d2G8MA2 -->
-<g id="edge1" class="edge"><title>Wxw8MA2&#45;&gt;d2G8MA2</title>
+<!-- DdEOLuL&#45;&gt;qLEOLuL -->
+<g id="edge1" class="edge"><title>DdEOLuL&#45;&gt;qLEOLuL</title>
 <path fill="none" stroke="#69bfff" d="M54.1174,-18C63.3809,-18 74.1103,-18 84.5743,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.6823,-19.7501 89.6823,-18 84.6823,-16.2501 84.6823,-19.7501"/>
 </g>

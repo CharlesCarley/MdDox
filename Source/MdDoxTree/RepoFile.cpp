@@ -24,6 +24,7 @@
 #include "SiteBuilder.h"
 #include "Utils/String.h"
 #include "HashUtils.h"
+#include "Utils/Path.h"
 
 namespace MdDox
 {
@@ -40,8 +41,6 @@ namespace MdDox
     String RepoFile::getDocUrl() const
     {
         const PathUtil pu(_file);
-
-
         const SiteBuilder &builder = SiteBuilder::get();
 
         String url;
@@ -63,7 +62,7 @@ namespace MdDox
 
     String RepoFile::getSiteUrl() const
     {
-        const String& url = SiteBuilder::get().baseUrl;
+        const String& url = SiteBuilder::get().fileUrl;
         return StringCombine(url, '/', _file);
     }
 

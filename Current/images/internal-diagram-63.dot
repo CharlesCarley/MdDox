@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qfAlmA2[
+ qEuOLuL[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DYAlmA2[
+ qxOOLuL[
    shape    = none
    label    = "Sect2Query"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qfAlmA2->DYAlmA2
+ qEuOLuL->qxOOLuL
 }

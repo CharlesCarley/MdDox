@@ -23,17 +23,17 @@
 
 namespace MdDox::HashUtils
 {
-    String lineNumber(const int64_t& line)
+    String lineNumber(const uint32_t& line)
     {
-        return StringCombine("#L", line);
+        return StringCombine("#L", std::max<uint32_t>(1, line));
     }
 
     String heading(const String& title)
     {
-        return StringCombine("#", titleOnly(title));
+        return StringCombine("#", cleanTitle(title));
     }
 
-    String titleOnly(const String& title)
+    String cleanTitle(const String& title)
     {
         String headingTitle;
         StringUtils::replaceAll(headingTitle, title, "::", "");
@@ -44,7 +44,7 @@ namespace MdDox::HashUtils
         return headingTitle;
     }
 
-    String id(const String& id)
+    String anchor(const String& id)
     {
         return StringCombine("#", id);
     }

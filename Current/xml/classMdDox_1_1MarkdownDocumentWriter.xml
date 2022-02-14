@@ -68,7 +68,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="33" bodyend="38"/>
         <references refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" compoundref="HtmlCommandWriter_8cpp" startline="127" endline="130">MdDox::Html::anchor</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" compoundref="HashUtils_8cpp" startline="36" endline="45">MdDox::HashUtils::titleOnly</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" compoundref="HashUtils_8cpp" startline="36" endline="45">MdDox::HashUtils::cleanTitle</references>
         <references refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" compoundref="HtmlCommandWriter_8cpp" startline="214" endline="219">MdDox::Html::heading</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -119,7 +119,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="41" bodyend="48"/>
-        <references refid="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" compoundref="MarkdownCommandWriter_8cpp" startline="117" endline="124">MdDox::Md::code</references>
+        <references refid="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" compoundref="MarkdownCommandWriter_8cpp" startline="118" endline="125">MdDox::Md::code</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>

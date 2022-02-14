@@ -9,27 +9,31 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="HashUtils_8h" local="yes">HashUtils.h</includes>
     <incdepgraph>
-      <node id="2192">
+      <node id="2190">
         <label>iomanip</label>
       </node>
-      <node id="2195">
+      <node id="2193">
         <label>Utils/Path.h</label>
-        <childnode refid="2185" relation="include">
+        <childnode refid="2183" relation="include">
         </childnode>
-      </node>
-      <node id="2189">
-        <label>string</label>
       </node>
       <node id="2187">
-        <label>fstream</label>
-      </node>
-      <node id="2196">
-        <label>HashUtils.h</label>
-        <childnode refid="2185" relation="include">
-        </childnode>
+        <label>string</label>
       </node>
       <node id="2185">
+        <label>fstream</label>
+      </node>
+      <node id="2194">
+        <label>HashUtils.h</label>
+        <childnode refid="2183" relation="include">
+        </childnode>
+      </node>
+      <node id="2183">
         <label>Utils/String.h</label>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
         <childnode refid="2186" relation="include">
         </childnode>
         <childnode refid="2187" relation="include">
@@ -40,59 +44,55 @@
         </childnode>
         <childnode refid="2190" relation="include">
         </childnode>
-        <childnode refid="2191" relation="include">
-        </childnode>
-        <childnode refid="2192" relation="include">
-        </childnode>
       </node>
-      <node id="2191">
+      <node id="2189">
         <label>vector</label>
       </node>
-      <node id="2182">
+      <node id="2180">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
         <link refid="SourceFile_8cpp"/>
-        <childnode refid="2183" relation="include">
+        <childnode refid="2181" relation="include">
         </childnode>
-        <childnode refid="2184" relation="include">
+        <childnode refid="2182" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
         </childnode>
         <childnode refid="2193" relation="include">
         </childnode>
-        <childnode refid="2195" relation="include">
+        <childnode refid="2183" relation="include">
         </childnode>
-        <childnode refid="2185" relation="include">
-        </childnode>
-        <childnode refid="2196" relation="include">
-        </childnode>
-      </node>
-      <node id="2188">
-        <label>sstream</label>
-      </node>
-      <node id="2184">
-        <label>MdDoxTree/RepoFile.h</label>
-        <childnode refid="2185" relation="include">
-        </childnode>
-      </node>
-      <node id="2183">
-        <label>MdDoxTree/SourceFile.h</label>
-        <childnode refid="2184" relation="include">
-        </childnode>
-        <childnode refid="2185" relation="include">
-        </childnode>
-      </node>
-      <node id="2193">
-        <label>Utils/FileSystem.h</label>
         <childnode refid="2194" relation="include">
-        </childnode>
-        <childnode refid="2185" relation="include">
         </childnode>
       </node>
       <node id="2186">
+        <label>sstream</label>
+      </node>
+      <node id="2182">
+        <label>MdDoxTree/RepoFile.h</label>
+        <childnode refid="2183" relation="include">
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>MdDoxTree/SourceFile.h</label>
+        <childnode refid="2182" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+      </node>
+      <node id="2191">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+      </node>
+      <node id="2184">
         <label>deque</label>
       </node>
-      <node id="2190">
+      <node id="2188">
         <label>unordered_map</label>
       </node>
-      <node id="2194">
+      <node id="2192">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -134,7 +134,7 @@
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31" refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" kindref="member">SourceFile::getLinkToRepo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="32"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_file.<ref refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" kindref="member">getSiteUrl</ref>(),<sp/><ref refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" kindref="member">HashUtils::lineNumber</ref>(_line));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_file.<ref refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" kindref="member">getSiteUrl</ref>(),<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(_line));</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" kindref="member">SourceFile::directory</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>

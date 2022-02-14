@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dLfDMA2[
+ qORRZuL[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d6rDMA2[
+ DxaRZuL[
    shape    = none
    label    = "ParamListItemQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dLfDMA2->d6rDMA2
+ qORRZuL->DxaRZuL
 }

@@ -32,7 +32,7 @@ namespace MdDox
     {
     private:
         RepoFile _file;
-        int64_t  _line{1};
+        uint32_t _line{1};
 
     public:
         SourceFile(const SourceFile&) = default;
@@ -41,7 +41,7 @@ namespace MdDox
 
         const RepoFile& repoFile() const;
 
-    	String          getLinkToRepo() const;
+        String getLinkToRepo() const;
 
         String directory() const;
 
@@ -51,9 +51,9 @@ namespace MdDox
 
         void setFile(const String& text);
 
-        int64_t getLine() const;
+        uint32_t getLine() const;
 
-        void setLine(const int64_t& line);
+        void setLine(const uint32_t& line);
 
         bool empty() const;
     };
@@ -68,12 +68,12 @@ namespace MdDox
         _file.setFile(text);
     }
 
-    inline int64_t SourceFile::getLine() const
+    inline uint32_t SourceFile::getLine() const
     {
         return _line;
     }
 
-    inline void SourceFile::setLine(const int64_t& line)
+    inline void SourceFile::setLine(const uint32_t& line)
     {
         _line = line;
     }
@@ -82,4 +82,4 @@ namespace MdDox
     {
         return _file.empty();
     }
-}  // namespace MdDoc
+}  // namespace MdDox

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dBKuMA2[
+ qmBoLuL[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKGuMA2[
+ DBaoLuL[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d9wuMA2[
+ DsloLuL[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dMGuMA2[
+ qEloLuL[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dEwuMA2[
+ qnaoLuL[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WrSuMA2[
+ DLaoLuL[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKGuMA2->d9wuMA2
- WKGuMA2->dMGuMA2
- WKGuMA2->dEwuMA2
- WKGuMA2->WrSuMA2
- dBKuMA2->WKGuMA2
+ DBaoLuL->DsloLuL
+ DBaoLuL->qEloLuL
+ DBaoLuL->qnaoLuL
+ DBaoLuL->DLaoLuL
+ qmBoLuL->DBaoLuL
 }

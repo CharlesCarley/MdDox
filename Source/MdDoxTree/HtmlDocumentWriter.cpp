@@ -60,7 +60,7 @@ namespace MdDox
 
         Html::beginDivSection(output, "document");
         Html::beginDivSection(output, "document-header");
-        Html::anchor(output, HashUtils::titleOnly(title));
+        Html::anchor(output, HashUtils::cleanTitle(title));
 
         Html::heading(output, 1, title);
     }
@@ -115,13 +115,13 @@ namespace MdDox
 
     void HtmlDocumentWriter::addSection(OStream& output, const String& title, int depth)
     {
-        Html::anchor(output, HashUtils::titleOnly(title));
+        Html::anchor(output, HashUtils::cleanTitle(title));
         Html::heading(output, depth, title);
     }
 
     void HtmlDocumentWriter::writeSection(OStream& output, const String& title) const
     {
-        Html::anchor(output, HashUtils::titleOnly(title));
+        Html::anchor(output, HashUtils::cleanTitle(title));
         Html::heading(output, _sectionDepth, title);
     }
 

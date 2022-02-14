@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D4fxMA2[
+ qcpxLuL[
    shape    = none
    label    = "ParaQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DCZxMA2[
+ DWgxLuL[
    shape    = none
    label    = "ParagraphWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D4fxMA2->DCZxMA2
+ qcpxLuL->DWgxLuL
 }

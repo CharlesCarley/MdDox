@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WIfDMA2[
+ DJ7aZuL[
    shape    = none
    label    = "ParamQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dQfDMA2[
+ qp7aZuL[
    shape    = none
    label    = "ParameterWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WIfDMA2->dQfDMA2
+ DJ7aZuL->qp7aZuL
 }

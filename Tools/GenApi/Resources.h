@@ -7,12 +7,6 @@ namespace MdDox::GenApi::Resources
    class Resource
    {
    public:
-       static std::string getSource();
-       static void getSource(std::string &dest);
-
-       static std::string getBase();
-       static void getBase(std::string &dest);
-
        static std::string getCommon();
        static void getCommon(std::string &dest);
 
@@ -48,6 +42,9 @@ namespace MdDox::GenApi::Resources
 
        static std::string getSingleElementSource();
        static void getSingleElementSource(std::string &dest);
+
+       static std::string getSource();
+       static void getSource(std::string &dest);
 
        static std::string getStringAttributeHeader();
        static void getStringAttributeHeader(std::string &dest);

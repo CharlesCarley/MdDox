@@ -76,18 +76,18 @@ namespace MdDox
         PathUtil xmlFileDir(PathUtil(fileName).parentDir(1));
         xmlFileDir.appendDirectory("xml");
 
-        IndexPageWriter iq(writer, xmlFileDir.rootedDir());
-        iq.exec(query, PathUtil(outputDir));
+        IndexPageWriter indexPageWriter(writer, xmlFileDir.rootedDir());
+        indexPageWriter.exec(query, PathUtil(outputDir));
 
         dispatchDot();
     }
 
-    void SiteBuilder::loadConfig(const String& cfg)
+    void SiteBuilder::loadConfig(const String& configFile)
     {
-        InputFileStream ifs(cfg);
+        InputFileStream ifs(configFile);
 
         if (!ifs.is_open())
-            throw InputException("failed to load the supplied file ", cfg);
+            throw InputException("failed to load the supplied file ", configFile);
 
         Config config;
         config.load(ifs);
@@ -109,10 +109,9 @@ namespace MdDox
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
         siteUrl = config.getValue("SITE_URL");
-        baseUrl = config.getValue("BASE_URL");
+    	StringCombine(fileUrl, siteUrl, "/blob/master/");
 
-        projectRoot  = config.getValue("PROJECT_ROOT");
-        projectTitle = config.getValue("PROJECT_TITLE");
+    	projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");
 
         String dotCfg = config.getValue("DOT_CONFIG");

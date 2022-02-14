@@ -33,7 +33,7 @@ namespace MdDox
     void MarkdownDocumentWriter::beginDocument(OStream& output, const String& title)
     {
 
-        Html::anchor(output, HashUtils::titleOnly(title));
+        Html::anchor(output, HashUtils::cleanTitle(title));
         Html::heading(output, 1, title);
     }
     

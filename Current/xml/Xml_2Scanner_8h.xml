@@ -7,68 +7,72 @@
     <includedby refid="Xml_2Parser_8cpp" local="yes">Source/Xml/Parser.cpp</includedby>
     <includedby refid="Xml_2Scanner_8cpp" local="yes">Source/Xml/Scanner.cpp</includedby>
     <incdepgraph>
-      <node id="2641">
+      <node id="2639">
         <label>Xml/Token.h</label>
-        <childnode refid="2640" relation="include">
+        <childnode refid="2638" relation="include">
         </childnode>
       </node>
-      <node id="2638">
+      <node id="2636">
         <label>Utils/Console.h</label>
-        <childnode refid="2624" relation="include">
-        </childnode>
-      </node>
-      <node id="2631">
-        <label>iomanip</label>
-      </node>
-      <node id="2640">
-        <label>Utils/ParserBase/TokenBase.h</label>
-      </node>
-      <node id="2621">
-        <label>Utils/ParserBase/ScannerBase.h</label>
         <childnode refid="2622" relation="include">
         </childnode>
-        <childnode refid="2632" relation="include">
-        </childnode>
-        <childnode refid="2639" relation="include">
-        </childnode>
-        <childnode refid="2640" relation="include">
-        </childnode>
       </node>
-      <node id="2639">
-        <label>Utils/Path.h</label>
-        <childnode refid="2624" relation="include">
-        </childnode>
+      <node id="2629">
+        <label>iomanip</label>
       </node>
-      <node id="2634">
-        <label>Utils/Exception.h</label>
-        <childnode refid="2635" relation="include">
+      <node id="2638">
+        <label>Utils/ParserBase/TokenBase.h</label>
+      </node>
+      <node id="2619">
+        <label>Utils/ParserBase/ScannerBase.h</label>
+        <childnode refid="2620" relation="include">
         </childnode>
-        <childnode refid="2636" relation="include">
+        <childnode refid="2630" relation="include">
         </childnode>
         <childnode refid="2637" relation="include">
         </childnode>
         <childnode refid="2638" relation="include">
         </childnode>
-        <childnode refid="2624" relation="include">
+      </node>
+      <node id="2637">
+        <label>Utils/Path.h</label>
+        <childnode refid="2622" relation="include">
         </childnode>
       </node>
-      <node id="2636">
+      <node id="2632">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2633" relation="include">
+        </childnode>
+        <childnode refid="2634" relation="include">
+        </childnode>
+        <childnode refid="2635" relation="include">
+        </childnode>
+        <childnode refid="2636" relation="include">
+        </childnode>
+        <childnode refid="2622" relation="include">
+        </childnode>
+      </node>
+      <node id="2634">
         <label>stdexcept</label>
       </node>
-      <node id="2628">
+      <node id="2626">
         <label>string</label>
       </node>
-      <node id="2633">
+      <node id="2631">
         <label>unordered_set</label>
       </node>
-      <node id="2635">
+      <node id="2633">
         <label>exception</label>
       </node>
-      <node id="2626">
+      <node id="2624">
         <label>fstream</label>
       </node>
-      <node id="2624">
+      <node id="2622">
         <label>Utils/String.h</label>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
         <childnode refid="2625" relation="include">
         </childnode>
         <childnode refid="2626" relation="include">
@@ -79,67 +83,63 @@
         </childnode>
         <childnode refid="2629" relation="include">
         </childnode>
-        <childnode refid="2630" relation="include">
-        </childnode>
-        <childnode refid="2631" relation="include">
-        </childnode>
       </node>
-      <node id="2630">
+      <node id="2628">
         <label>vector</label>
       </node>
-      <node id="2637">
+      <node id="2635">
         <label>utility</label>
       </node>
-      <node id="2627">
+      <node id="2625">
         <label>sstream</label>
       </node>
-      <node id="2622">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="2623" relation="include">
-        </childnode>
-        <childnode refid="2624" relation="include">
-        </childnode>
-      </node>
       <node id="2620">
-        <label>Source/Xml/Scanner.h</label>
-        <link refid="Xml_2Scanner_8h"/>
+        <label>Utils/FileSystem.h</label>
         <childnode refid="2621" relation="include">
         </childnode>
-        <childnode refid="2641" relation="include">
+        <childnode refid="2622" relation="include">
         </childnode>
       </node>
-      <node id="2625">
-        <label>deque</label>
-      </node>
-      <node id="2629">
-        <label>unordered_map</label>
-      </node>
-      <node id="2632">
-        <label>Utils/IndexCache.h</label>
-        <childnode refid="2629" relation="include">
+      <node id="2618">
+        <label>Source/Xml/Scanner.h</label>
+        <link refid="Xml_2Scanner_8h"/>
+        <childnode refid="2619" relation="include">
         </childnode>
-        <childnode refid="2633" relation="include">
-        </childnode>
-        <childnode refid="2634" relation="include">
+        <childnode refid="2639" relation="include">
         </childnode>
       </node>
       <node id="2623">
+        <label>deque</label>
+      </node>
+      <node id="2627">
+        <label>unordered_map</label>
+      </node>
+      <node id="2630">
+        <label>Utils/IndexCache.h</label>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+      </node>
+      <node id="2621">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2643">
+      <node id="2641">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="2644">
+      <node id="2642">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="2642">
+      <node id="2640">
         <label>Source/Xml/Scanner.h</label>
         <link refid="Xml_2Scanner_8h"/>
-        <childnode refid="2643" relation="include">
+        <childnode refid="2641" relation="include">
         </childnode>
-        <childnode refid="2644" relation="include">
+        <childnode refid="2642" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

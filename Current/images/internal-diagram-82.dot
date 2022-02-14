@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dMWuMA2[
+ qYqoLuL[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WfpuMA2[
+ DtqoLuL[
    shape    = none
    label    = "MemberDefListingWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dtpuMA2[
+ DphoLuL[
    shape    = none
    label    = "FunctionDefWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKpuMA2[
+ qZEoLuL[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WMpuMA2[
+ qWhoLuL[
    shape    = none
    label    = "EnumDefWriter"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dMWuMA2->WfpuMA2
- dMWuMA2->dtpuMA2
- dMWuMA2->WKpuMA2
- dMWuMA2->WMpuMA2
+ qYqoLuL->DtqoLuL
+ qYqoLuL->DphoLuL
+ qYqoLuL->qZEoLuL
+ qYqoLuL->qWhoLuL
 }

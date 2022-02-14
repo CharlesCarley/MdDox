@@ -231,7 +231,7 @@
         <location file="Tools/GenApi/Group.h" line="82" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="256" bodyend="276"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" compoundref="Group_8h" startline="60">_foreach</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1feb3bedb869d91708ff5d2e1a4bd481" compoundref="Resources_8cpp" startline="588" endline="593">MdDox::GenApi::Resources::Resource::getForeachElementHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1feb3bedb869d91708ff5d2e1a4bd481" compoundref="Resources_8cpp" startline="465" endline="470">MdDox::GenApi::Resources::Resource::getForeachElementHeader</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
       </memberdef>
@@ -253,7 +253,7 @@
         <location file="Tools/GenApi/Group.h" line="84" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="278" bodyend="300"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" compoundref="Group_8h" startline="60">_foreach</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a42c4a95c6f5c6fedb66b5489351606ab" compoundref="Resources_8cpp" startline="617" endline="622">MdDox::GenApi::Resources::Resource::getForeachElementSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a42c4a95c6f5c6fedb66b5489351606ab" compoundref="Resources_8cpp" startline="494" endline="499">MdDox::GenApi::Resources::Resource::getForeachElementSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1Char_1a7549ee9c43ba6b7244dce1df25366637" compoundref="Char_8cpp" startline="212" endline="217">MdDox::Char::toString</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
@@ -277,7 +277,7 @@
         <location file="Tools/GenApi/Group.h" line="66" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="405" bodyend="454"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ab691fb2100aa94a659dcda88a5884b7a" compoundref="Group_8h" startline="52">_dependentHeaderTypes</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a8d616c9df8cf6fa56e4bbbde7be635b5" compoundref="Group_8cpp" startline="307" endline="323">canHaveVisitors</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1af659c5870eb578ce5d6d8a5682e1a254" compoundref="Resources_8cpp" startline="1072" endline="1077">MdDox::GenApi::Resources::Resource::getVisitHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1af659c5870eb578ce5d6d8a5682e1a254" compoundref="Resources_8cpp" startline="1056" endline="1061">MdDox::GenApi::Resources::Resource::getVisitHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a54a45dd15eb51ff0b22923127e3f2dc5" compoundref="Group_8cpp" startline="325" endline="363">writeVisitElement</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
@@ -288,7 +288,7 @@
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a888bd481755c42946dfdf6f28f33a587" compoundref="Group_8cpp" startline="133" endline="189">writeStringGettersHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" compoundref="Group_8cpp" startline="256" endline="276">writeForeachHeader</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a738f43faab3ae80bfbcf91650c4b36eb" compoundref="Resources_8cpp" startline="644" endline="649">MdDox::GenApi::Resources::Resource::getHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a738f43faab3ae80bfbcf91650c4b36eb" compoundref="Resources_8cpp" startline="521" endline="526">MdDox::GenApi::Resources::Resource::getHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3f2b6d71aaefa528f3950197904307e4" compoundref="Group_8h" startline="46">_tagType</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1af9680b0901481956bf51c025c9d6a79d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -312,7 +312,7 @@
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45beb0e96c63403bbc99b7e7dadcaba0" compoundref="Group_8cpp" startline="365" endline="376">writeVisitElementSource</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a6283208a31ea3adfa8626e7713fe425a" compoundref="Group_8cpp" startline="191" endline="254">writeStringGettersSource</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a912a199b7b7d52badc355c7d89734263" compoundref="Group_8cpp" startline="278" endline="300">writeForeachSource</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" compoundref="Resources_8cpp" startline="5" endline="10">MdDox::GenApi::Resources::Resource::getSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" compoundref="Resources_8cpp" startline="792" endline="797">MdDox::GenApi::Resources::Resource::getSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
       </memberdef>
@@ -333,16 +333,16 @@
         </inbodydescription>
         <location file="Tools/GenApi/Group.h" line="78" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="133" bodyend="189"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="Group_8h" startline="50">_enumAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a99062292f50d60105c0cee18892b407d" compoundref="Resources_8cpp" startline="517" endline="522">MdDox::GenApi::Resources::Resource::getEnumAttributeHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a99062292f50d60105c0cee18892b407d" compoundref="Resources_8cpp" startline="394" endline="399">MdDox::GenApi::Resources::Resource::getEnumAttributeHeader</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a70c29435b823d9e9fb05f6e77101a228" compoundref="Group_8h" startline="48">_stringAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" compoundref="Resources_8cpp" startline="915" endline="920">MdDox::GenApi::Resources::Resource::getStringAttributeHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" compoundref="Resources_8cpp" startline="899" endline="904">MdDox::GenApi::Resources::Resource::getStringAttributeHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="Group_8h" startline="54">_textReturns</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" compoundref="Resources_8cpp" startline="551" endline="556">MdDox::GenApi::Resources::Resource::getElementTextHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" compoundref="Resources_8cpp" startline="428" endline="433">MdDox::GenApi::Resources::Resource::getElementTextHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a80fcd3d1a734fdbd657895b8e4088d54" compoundref="Resources_8cpp" startline="840" endline="845">MdDox::GenApi::Resources::Resource::getSingleElementHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a80fcd3d1a734fdbd657895b8e4088d54" compoundref="Resources_8cpp" startline="717" endline="722">MdDox::GenApi::Resources::Resource::getSingleElementHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="Group_8h" startline="49">_integerAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a982b4d9d6febca6c11a757361492ada5" compoundref="Resources_8cpp" startline="787" endline="792">MdDox::GenApi::Resources::Resource::getIntegerAttributeHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a982b4d9d6febca6c11a757361492ada5" compoundref="Resources_8cpp" startline="664" endline="669">MdDox::GenApi::Resources::Resource::getIntegerAttributeHeader</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a6283208a31ea3adfa8626e7713fe425a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -362,18 +362,18 @@
         </inbodydescription>
         <location file="Tools/GenApi/Group.h" line="80" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="191" bodyend="254"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a70c29435b823d9e9fb05f6e77101a228" compoundref="Group_8h" startline="48">_stringAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a089755e46a1dc86445c8e56abf8367bd" compoundref="Resources_8cpp" startline="953" endline="958">MdDox::GenApi::Resources::Resource::getStringAttributeSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a089755e46a1dc86445c8e56abf8367bd" compoundref="Resources_8cpp" startline="937" endline="942">MdDox::GenApi::Resources::Resource::getStringAttributeSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="Group_8h" startline="49">_integerAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a7bfb857bcb54200fe6c91b26c737cd50" compoundref="Resources_8cpp" startline="814" endline="819">MdDox::GenApi::Resources::Resource::getIntegerAttributeSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a7bfb857bcb54200fe6c91b26c737cd50" compoundref="Resources_8cpp" startline="691" endline="696">MdDox::GenApi::Resources::Resource::getIntegerAttributeSource</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="Group_8h" startline="50">_enumAttributes</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a4645b450e3dab3e2bf8872be4c3f79b2" compoundref="Resources_8cpp" startline="454" endline="459">MdDox::GenApi::Resources::Resource::getEnumAttributeSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a4645b450e3dab3e2bf8872be4c3f79b2" compoundref="Resources_8cpp" startline="331" endline="336">MdDox::GenApi::Resources::Resource::getEnumAttributeSource</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="Group_8h" startline="54">_textReturns</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfdd977a5cb98946491f619fa2292cc" compoundref="Resources_8cpp" startline="482" endline="487">MdDox::GenApi::Resources::Resource::getElementTextSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfdd977a5cb98946491f619fa2292cc" compoundref="Resources_8cpp" startline="359" endline="364">MdDox::GenApi::Resources::Resource::getElementTextSource</references>
         <references refid="classMdDox_1_1Char_1a7549ee9c43ba6b7244dce1df25366637" compoundref="Char_8cpp" startline="212" endline="217">MdDox::Char::toString</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a929acab4dfa9a419087f20cabc855a2a" compoundref="Resources_8cpp" startline="877" endline="882">MdDox::GenApi::Resources::Resource::getSingleElementSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a929acab4dfa9a419087f20cabc855a2a" compoundref="Resources_8cpp" startline="754" endline="759">MdDox::GenApi::Resources::Resource::getSingleElementSource</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a54a45dd15eb51ff0b22923127e3f2dc5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -393,11 +393,11 @@
         </inbodydescription>
         <location file="Tools/GenApi/Group.h" line="64" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="325" bodyend="363"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a11b6143d99f855b2a71893787a34df84" compoundref="Resources_8cpp" startline="983" endline="988">MdDox::GenApi::Resources::Resource::getVisitElementDecl</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a11b6143d99f855b2a71893787a34df84" compoundref="Resources_8cpp" startline="967" endline="972">MdDox::GenApi::Resources::Resource::getVisitElementDecl</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="Group_8h" startline="54">_textReturns</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a8fa1f87c8d7cad40db0e8840fc19b184" compoundref="Resources_8cpp" startline="1112" endline="1117">MdDox::GenApi::Resources::Resource::getVisitTextDecl</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a8fa1f87c8d7cad40db0e8840fc19b184" compoundref="Resources_8cpp" startline="1096" endline="1101">MdDox::GenApi::Resources::Resource::getVisitTextDecl</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a2f1e34a46c2afbc1f61057b31028db75" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -487,7 +487,7 @@
         </inbodydescription>
         <location file="Tools/GenApi/Group.h" line="68" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="365" bodyend="376"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a852f0637694bf248fd2f007db3eafeba" compoundref="Group_8cpp" startline="392" endline="403">writeVisitElementItems</references>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1adacbea03e116e2dad7cf6468b5617c65" compoundref="Resources_8cpp" startline="1017" endline="1022">MdDox::GenApi::Resources::Resource::getVisitElementSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1adacbea03e116e2dad7cf6468b5617c65" compoundref="Resources_8cpp" startline="1001" endline="1006">MdDox::GenApi::Resources::Resource::getVisitElementSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
       </memberdef>

@@ -215,7 +215,7 @@ namespace MdDox
     void writeExternalIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
         const String& title = ref.getName();
-        const String  file  = StringCombine(SiteBuilder::get().baseUrl, '/', ref.getReference());
+        const String  file  = StringCombine(SiteBuilder::get().fileUrl, '/', ref.getReference());
 
         const String link = StringCombine(file, HashUtils::lineNumber(1));
 

@@ -3,6 +3,44 @@
   <compounddef id="namespaceMdDox_1_1HashUtils" kind="namespace" language="C++">
     <compoundname>MdDox::HashUtils</compoundname>
       <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1a49ec2eb5df6b578da034ce5eb27b257d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::anchor</definition>
+        <argsstring>(const String &amp;id)</argsstring>
+        <name>anchor</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a heading fragment. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>id</computeroutput> <linebreak/>
+ Assumes that id points to an anchor somewhere in the current document. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="47" bodyend="50"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::cleanTitle</definition>
+        <argsstring>(const String &amp;title)</argsstring>
+        <name>cleanTitle</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Cleans the supplied title. </para>        </briefdescription>
+        <detaileddescription>
+<para>Removes all binary resolution operators. Replaces white space and path separators with a dash. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="36" bodyend="45"/>
+        <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
+        <references refid="classMdDox_1_1StringUtils_1a0c6460ffd00b82ae4cd21ce37ea22a4e" compoundref="String_8cpp" startline="76" endline="82">MdDox::StringUtils::toLower</references>
+      </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::HashUtils::heading</definition>
@@ -13,69 +51,33 @@
           <declname>title</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructs a heading fragment. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>title</computeroutput> <linebreak/>
+ Where title is sanitized with cleanTitle. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="31" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="31" bodyend="34"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" compoundref="HashUtils_8cpp" startline="36" endline="45">titleOnly</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" compoundref="HashUtils_8cpp" startline="36" endline="45">cleanTitle</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1adcb3767acb65a3f4f08673a3f11a155a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::HashUtils::id</definition>
-        <argsstring>(const String &amp;id)</argsstring>
-        <name>id</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/HashUtils.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="47" bodyend="50"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::HashUtils::lineNumber</definition>
-        <argsstring>(const int64_t &amp;line)</argsstring>
+        <argsstring>(const uint32_t &amp;line)</argsstring>
         <name>lineNumber</name>
         <param>
-          <type>const int64_t &amp;</type>
+          <type>const uint32_t &amp;</type>
           <declname>line</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructs a line fragment. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>L</computeroutput> <computeroutput>line</computeroutput> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="26" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="26" bodyend="29"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::HashUtils::titleOnly</definition>
-        <argsstring>(const String &amp;title)</argsstring>
-        <name>titleOnly</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>title</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/HashUtils.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="36" bodyend="45"/>
-        <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="classMdDox_1_1StringUtils_1a0c6460ffd00b82ae4cd21ce37ea22a4e" compoundref="String_8cpp" startline="76" endline="82">MdDox::StringUtils::toLower</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -7,173 +7,173 @@
     <includes refid="ParagraphWriter_8h" local="yes">ParagraphWriter.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="1961">
+      <node id="1960">
         <label>Utils/Console.h</label>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1948" relation="include">
         </childnode>
       </node>
-      <node id="1955">
+      <node id="1954">
         <label>iomanip</label>
       </node>
-      <node id="1947">
+      <node id="1946">
         <label>functional</label>
       </node>
-      <node id="1962">
+      <node id="1961">
         <label>Utils/Path.h</label>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1948" relation="include">
         </childnode>
       </node>
-      <node id="1957">
+      <node id="1956">
         <label>Utils/Exception.h</label>
+        <childnode refid="1957" relation="include">
+        </childnode>
         <childnode refid="1958" relation="include">
         </childnode>
         <childnode refid="1959" relation="include">
         </childnode>
         <childnode refid="1960" relation="include">
         </childnode>
-        <childnode refid="1961" relation="include">
-        </childnode>
-        <childnode refid="1949" relation="include">
-        </childnode>
-      </node>
-      <node id="1959">
-        <label>stdexcept</label>
-      </node>
-      <node id="1953">
-        <label>string</label>
-      </node>
-      <node id="1946">
-        <label>Doxygen.h</label>
-        <childnode refid="1947" relation="include">
-        </childnode>
         <childnode refid="1948" relation="include">
-        </childnode>
-        <childnode refid="1949" relation="include">
-        </childnode>
-        <childnode refid="1956" relation="include">
-        </childnode>
-        <childnode refid="1957" relation="include">
-        </childnode>
-      </node>
-      <node id="1944">
-        <label>Section4Writer.h</label>
-        <childnode refid="1945" relation="include">
-        </childnode>
-        <childnode refid="1962" relation="include">
         </childnode>
       </node>
       <node id="1958">
-        <label>exception</label>
+        <label>stdexcept</label>
       </node>
-      <node id="1951">
-        <label>fstream</label>
+      <node id="1952">
+        <label>string</label>
       </node>
       <node id="1945">
-        <label>Doxygen/Sect4Query.h</label>
+        <label>Doxygen.h</label>
         <childnode refid="1946" relation="include">
         </childnode>
-      </node>
-      <node id="1964">
-        <label>IconSet.h</label>
-        <childnode refid="1949" relation="include">
-        </childnode>
-      </node>
-      <node id="1956">
-        <label>Xml/Node.h</label>
         <childnode refid="1947" relation="include">
         </childnode>
         <childnode refid="1948" relation="include">
         </childnode>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1955" relation="include">
         </childnode>
-      </node>
-      <node id="1963">
-        <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="1964" relation="include">
-        </childnode>
-        <childnode refid="1965" relation="include">
-        </childnode>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1956" relation="include">
         </childnode>
       </node>
       <node id="1943">
-        <label>Source/MdDoxTree/Section4Writer.cpp</label>
-        <link refid="Section4Writer_8cpp"/>
+        <label>Section4Writer.h</label>
         <childnode refid="1944" relation="include">
         </childnode>
-        <childnode refid="1963" relation="include">
-        </childnode>
-        <childnode refid="1967" relation="include">
-        </childnode>
-        <childnode refid="1969" relation="include">
+        <childnode refid="1961" relation="include">
         </childnode>
       </node>
-      <node id="1968">
-        <label>Doxygen/ParaQuery.h</label>
+      <node id="1957">
+        <label>exception</label>
+      </node>
+      <node id="1950">
+        <label>fstream</label>
+      </node>
+      <node id="1944">
+        <label>Doxygen/Sect4Query.h</label>
+        <childnode refid="1945" relation="include">
+        </childnode>
+      </node>
+      <node id="1963">
+        <label>IconSet.h</label>
+        <childnode refid="1948" relation="include">
+        </childnode>
+      </node>
+      <node id="1955">
+        <label>Xml/Node.h</label>
         <childnode refid="1946" relation="include">
         </childnode>
+        <childnode refid="1947" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
       </node>
-      <node id="1949">
+      <node id="1962">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
+      </node>
+      <node id="1942">
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
+        <link refid="Section4Writer_8cpp"/>
+        <childnode refid="1943" relation="include">
+        </childnode>
+        <childnode refid="1962" relation="include">
+        </childnode>
+        <childnode refid="1966" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+      </node>
+      <node id="1967">
+        <label>Doxygen/ParaQuery.h</label>
+        <childnode refid="1945" relation="include">
+        </childnode>
+      </node>
+      <node id="1948">
         <label>Utils/String.h</label>
+        <childnode refid="1949" relation="include">
+        </childnode>
         <childnode refid="1950" relation="include">
         </childnode>
         <childnode refid="1951" relation="include">
         </childnode>
         <childnode refid="1952" relation="include">
         </childnode>
-        <childnode refid="1953" relation="include">
+        <childnode refid="1947" relation="include">
         </childnode>
-        <childnode refid="1948" relation="include">
+        <childnode refid="1953" relation="include">
         </childnode>
         <childnode refid="1954" relation="include">
         </childnode>
-        <childnode refid="1955" relation="include">
-        </childnode>
       </node>
-      <node id="1967">
+      <node id="1966">
         <label>ParagraphWriter.h</label>
-        <childnode refid="1968" relation="include">
+        <childnode refid="1967" relation="include">
         </childnode>
-        <childnode refid="1962" relation="include">
+        <childnode refid="1961" relation="include">
         </childnode>
       </node>
-      <node id="1954">
+      <node id="1953">
         <label>vector</label>
       </node>
-      <node id="1960">
+      <node id="1959">
         <label>utility</label>
       </node>
-      <node id="1952">
+      <node id="1951">
         <label>sstream</label>
       </node>
-      <node id="1969">
+      <node id="1968">
         <label>WriteUtils.h</label>
-        <childnode refid="1964" relation="include">
+        <childnode refid="1963" relation="include">
         </childnode>
-        <childnode refid="1970" relation="include">
+        <childnode refid="1969" relation="include">
         </childnode>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1948" relation="include">
+        </childnode>
+      </node>
+      <node id="1964">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="1965" relation="include">
+        </childnode>
+        <childnode refid="1948" relation="include">
+        </childnode>
+      </node>
+      <node id="1949">
+        <label>deque</label>
+      </node>
+      <node id="1947">
+        <label>unordered_map</label>
+      </node>
+      <node id="1969">
+        <label>MdDoxTree/Reference.h</label>
+        <childnode refid="1948" relation="include">
         </childnode>
       </node>
       <node id="1965">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="1966" relation="include">
-        </childnode>
-        <childnode refid="1949" relation="include">
-        </childnode>
-      </node>
-      <node id="1950">
-        <label>deque</label>
-      </node>
-      <node id="1948">
-        <label>unordered_map</label>
-      </node>
-      <node id="1970">
-        <label>MdDoxTree/Reference.h</label>
-        <childnode refid="1949" relation="include">
-        </childnode>
-      </node>
-      <node id="1966">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

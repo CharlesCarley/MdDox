@@ -10,133 +10,133 @@
     <includes refid="ParagraphWriter_8h" local="yes">MdDoxTree/ParagraphWriter.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">MdDoxTree/SiteBuilder.h</includes>
     <incdepgraph>
-      <node id="835">
+      <node id="834">
         <label>Utils/Console.h</label>
-        <childnode refid="812" relation="include">
+        <childnode refid="811" relation="include">
         </childnode>
       </node>
-      <node id="829">
+      <node id="828">
         <label>functional</label>
       </node>
-      <node id="819">
+      <node id="818">
         <label>iomanip</label>
       </node>
-      <node id="824">
+      <node id="823">
         <label>Utils/Path.h</label>
-        <childnode refid="812" relation="include">
+        <childnode refid="811" relation="include">
         </childnode>
       </node>
-      <node id="831">
+      <node id="830">
         <label>Utils/Exception.h</label>
+        <childnode refid="831" relation="include">
+        </childnode>
         <childnode refid="832" relation="include">
         </childnode>
         <childnode refid="833" relation="include">
         </childnode>
         <childnode refid="834" relation="include">
         </childnode>
-        <childnode refid="835" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="809">
-        <label>HtmlDocumentWriter.h</label>
-        <childnode refid="810" relation="include">
-        </childnode>
-        <childnode refid="820" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="833">
-        <label>stdexcept</label>
-      </node>
-      <node id="816">
-        <label>string</label>
-      </node>
-      <node id="828">
-        <label>Doxygen.h</label>
-        <childnode refid="829" relation="include">
-        </childnode>
-        <childnode refid="817" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-        <childnode refid="830" relation="include">
-        </childnode>
-        <childnode refid="831" relation="include">
-        </childnode>
-      </node>
-      <node id="832">
-        <label>exception</label>
-      </node>
-      <node id="814">
-        <label>fstream</label>
-      </node>
-      <node id="836">
-        <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="817" relation="include">
-        </childnode>
-        <childnode refid="837" relation="include">
-        </childnode>
-        <childnode refid="824" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="811">
-        <label>IconSet.h</label>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="830">
-        <label>Xml/Node.h</label>
-        <childnode refid="829" relation="include">
-        </childnode>
-        <childnode refid="817" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="810">
-        <label>MdDoxTree/DocumentWriter.h</label>
         <childnode refid="811" relation="include">
-        </childnode>
-        <childnode refid="820" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="825">
-        <label>MdDoxTree/HashUtils.h</label>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="827">
-        <label>Doxygen/ParaQuery.h</label>
-        <childnode refid="828" relation="include">
         </childnode>
       </node>
       <node id="808">
-        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
-        <link refid="HtmlDocumentWriter_8cpp"/>
+        <label>HtmlDocumentWriter.h</label>
         <childnode refid="809" relation="include">
         </childnode>
-        <childnode refid="822" relation="include">
-        </childnode>
-        <childnode refid="823" relation="include">
-        </childnode>
-        <childnode refid="825" relation="include">
+        <childnode refid="819" relation="include">
         </childnode>
         <childnode refid="811" relation="include">
         </childnode>
-        <childnode refid="826" relation="include">
+      </node>
+      <node id="832">
+        <label>stdexcept</label>
+      </node>
+      <node id="815">
+        <label>string</label>
+      </node>
+      <node id="827">
+        <label>Doxygen.h</label>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+      </node>
+      <node id="831">
+        <label>exception</label>
+      </node>
+      <node id="813">
+        <label>fstream</label>
+      </node>
+      <node id="835">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="816" relation="include">
         </childnode>
         <childnode refid="836" relation="include">
         </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
       </node>
-      <node id="812">
+      <node id="810">
+        <label>IconSet.h</label>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>Xml/Node.h</label>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="819" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="824">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>Doxygen/ParaQuery.h</label>
+        <childnode refid="827" relation="include">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+        <link refid="HtmlDocumentWriter_8cpp"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
         <label>Utils/String.h</label>
+        <childnode refid="812" relation="include">
+        </childnode>
         <childnode refid="813" relation="include">
         </childnode>
         <childnode refid="814" relation="include">
@@ -149,58 +149,56 @@
         </childnode>
         <childnode refid="818" relation="include">
         </childnode>
-        <childnode refid="819" relation="include">
-        </childnode>
       </node>
-      <node id="826">
+      <node id="825">
         <label>MdDoxTree/ParagraphWriter.h</label>
-        <childnode refid="827" relation="include">
+        <childnode refid="826" relation="include">
         </childnode>
-        <childnode refid="824" relation="include">
+        <childnode refid="823" relation="include">
         </childnode>
-      </node>
-      <node id="818">
-        <label>vector</label>
-      </node>
-      <node id="834">
-        <label>utility</label>
-      </node>
-      <node id="815">
-        <label>sstream</label>
-      </node>
-      <node id="820">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="821" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="823">
-        <label>Link.h</label>
-        <childnode refid="824" relation="include">
-        </childnode>
-        <childnode refid="812" relation="include">
-        </childnode>
-      </node>
-      <node id="813">
-        <label>deque</label>
       </node>
       <node id="817">
-        <label>unordered_map</label>
+        <label>vector</label>
+      </node>
+      <node id="833">
+        <label>utility</label>
+      </node>
+      <node id="814">
+        <label>sstream</label>
+      </node>
+      <node id="819">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="820" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
       </node>
       <node id="822">
-        <label>HtmlCommandWriter.h</label>
-        <childnode refid="812" relation="include">
+        <label>Link.h</label>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
         </childnode>
       </node>
-      <node id="837">
-        <label>Config.h</label>
-        <childnode refid="812" relation="include">
-        </childnode>
-        <childnode refid="830" relation="include">
-        </childnode>
+      <node id="812">
+        <label>deque</label>
+      </node>
+      <node id="816">
+        <label>unordered_map</label>
       </node>
       <node id="821">
+        <label>HtmlCommandWriter.h</label>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>Config.h</label>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="820">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -271,7 +269,7 @@
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document-header&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kindref="member">HashUtils::titleOnly</ref>(title));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>1,<sp/>title);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -326,13 +324,13 @@
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" kindref="member" tooltip="Implementations should start a subsection of the body. ">HtmlDocumentWriter::addSection</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kindref="member">HashUtils::titleOnly</ref>(title));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>depth,<sp/>title);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" kindref="member">HtmlDocumentWriter::writeSection</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="123"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kindref="member">HashUtils::titleOnly</ref>(title));</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>_sectionDepth,<sp/>title);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
@@ -532,7 +530,7 @@
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
 <codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kindref="member" tooltip="Implementations write text link to a page. ">HtmlDocumentWriter::linkPage</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)</highlight></codeline>
 <codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member">HashUtils::heading</ref>(title);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(title);</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ref<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kindref="member">findReference</ref>(ref,<sp/>ref);</highlight></codeline>
@@ -544,7 +542,7 @@
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
 <codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" kindref="member" tooltip="Implementations write text link to a page. ">HtmlDocumentWriter::linkPageMember</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member">HashUtils::heading</ref>(title);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(title);</highlight></codeline>
 <codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kindref="member">findMember</ref>(ref);</highlight></codeline>
 <codeline lineno="338"><highlight class="normal"></highlight></codeline>
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(link.empty())</highlight></codeline>
@@ -560,7 +558,7 @@
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kindref="member" tooltip="Implementations write text link to a page. ">HtmlDocumentWriter::linkHeading</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>href,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member">HashUtils::heading</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.empty()<sp/>?<sp/>title<sp/>:<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hash<sp/>=<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.empty()<sp/>?<sp/>title<sp/>:<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1aa984e524f17166592f0c4094d6155df8" kindref="member">Html::linkRef</ref>(output,<sp/>title,<sp/>hash);</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="355"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>

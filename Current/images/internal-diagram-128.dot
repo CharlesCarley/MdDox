@@ -20,7 +20,7 @@ digraph {
      buildFromXml->Build
      buildFromXml->WriteIndex
      buildFromXml->Dispatch
+     buildFromXml->ConvertGraphs
      Dispatch->BuildItem
      Dispatch->WriteItem
-     SiteBuilder->ConvertGraphs
 }

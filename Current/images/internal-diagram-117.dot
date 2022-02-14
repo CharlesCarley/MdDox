@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qpf1mA2[
+ dmDEZuL[
    shape    = none
    label    = "ParamListQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Duf1mA2[
+ du3EZuL[
    shape    = none
    label    = "ParameterListWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qpf1mA2->Duf1mA2
+ dmDEZuL->du3EZuL
 }

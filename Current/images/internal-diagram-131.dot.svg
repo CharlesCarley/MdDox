@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 150,-40 150,4 -4,4"/>
-<!-- WJmuMA2 -->
-<g id="node1" class="node"><title>WJmuMA2</title>
+<!-- DJ4aZuL -->
+<g id="node1" class="node"><title>DJ4aZuL</title>
 <text text-anchor="middle" x="28" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParserBase</text>
 </g>
-<!-- dmmuMA2 -->
-<g id="node2" class="node"><title>dmmuMA2</title>
+<!-- qKLaZuL -->
+<g id="node2" class="node"><title>qKLaZuL</title>
 <text text-anchor="middle" x="119" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Parser</text>
 </g>
-<!-- WJmuMA2&#45;&gt;dmmuMA2 -->
-<g id="edge1" class="edge"><title>WJmuMA2&#45;&gt;dmmuMA2</title>
+<!-- DJ4aZuL&#45;&gt;qKLaZuL -->
+<g id="edge1" class="edge"><title>DJ4aZuL&#45;&gt;qKLaZuL</title>
 <path fill="none" stroke="#69bfff" d="M56.1865,-18C65.8505,-18 76.8052,-18 86.7799,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="86.8947,-19.7501 91.8947,-18 86.8946,-16.2501 86.8947,-19.7501"/>
 </g>

@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 244,-40 244,4 -4,4"/>
-<!-- q3S1mA2 -->
-<g id="node1" class="node"><title>q3S1mA2</title>
+<!-- diREZuL -->
+<g id="node1" class="node"><title>diREZuL</title>
 <text text-anchor="middle" x="58.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LinkedTextQueryVisitor</text>
 </g>
-<!-- qx21mA2 -->
-<g id="node2" class="node"><title>qx21mA2</title>
+<!-- WYmEZuL -->
+<g id="node2" class="node"><title>WYmEZuL</title>
 <text text-anchor="middle" x="196.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LinkedTextWriter</text>
 </g>
-<!-- q3S1mA2&#45;&gt;qx21mA2 -->
-<g id="edge1" class="edge"><title>q3S1mA2&#45;&gt;qx21mA2</title>
+<!-- diREZuL&#45;&gt;WYmEZuL -->
+<g id="edge1" class="edge"><title>diREZuL&#45;&gt;WYmEZuL</title>
 <path fill="none" stroke="#69bfff" d="M117.176,-18C127.287,-18 137.709,-18 147.521,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="147.591,-19.7501 152.591,-18 147.591,-16.2501 147.591,-19.7501"/>
 </g>

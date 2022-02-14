@@ -7,59 +7,61 @@
     <includes refid="HashUtils_8h" local="yes">MdDoxTree/HashUtils.h</includes>
     <includes refid="HtmlCommandWriter_8h" local="yes">MdDoxTree/HtmlCommandWriter.h</includes>
     <incdepgraph>
-      <node id="1205">
+      <node id="1204">
         <label>iomanip</label>
       </node>
-      <node id="1195">
+      <node id="1194">
         <label>MdDoxTree/HtmlDocumentWriter.h</label>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>MarkdownCommandWriter.h</label>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>string</label>
+      </node>
+      <node id="1199">
+        <label>fstream</label>
+      </node>
+      <node id="1196">
+        <label>IconSet.h</label>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1195">
+        <label>MdDoxTree/DocumentWriter.h</label>
         <childnode refid="1196" relation="include">
         </childnode>
-        <childnode refid="1206" relation="include">
+        <childnode refid="1205" relation="include">
         </childnode>
-        <childnode refid="1198" relation="include">
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1193">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="1194" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
         </childnode>
       </node>
       <node id="1208">
-        <label>MarkdownCommandWriter.h</label>
-        <childnode refid="1198" relation="include">
-        </childnode>
-      </node>
-      <node id="1202">
-        <label>string</label>
-      </node>
-      <node id="1200">
-        <label>fstream</label>
-      </node>
-      <node id="1197">
-        <label>IconSet.h</label>
-        <childnode refid="1198" relation="include">
-        </childnode>
-      </node>
-      <node id="1196">
-        <label>MdDoxTree/DocumentWriter.h</label>
+        <label>MdDoxTree/HashUtils.h</label>
         <childnode refid="1197" relation="include">
         </childnode>
-        <childnode refid="1206" relation="include">
-        </childnode>
-        <childnode refid="1198" relation="include">
-        </childnode>
       </node>
-      <node id="1194">
-        <label>MarkdownDocumentWriter.h</label>
-        <childnode refid="1195" relation="include">
-        </childnode>
-        <childnode refid="1206" relation="include">
-        </childnode>
-        <childnode refid="1198" relation="include">
-        </childnode>
-      </node>
-      <node id="1209">
-        <label>MdDoxTree/HashUtils.h</label>
-        <childnode refid="1198" relation="include">
-        </childnode>
-      </node>
-      <node id="1198">
+      <node id="1197">
         <label>Utils/String.h</label>
+        <childnode refid="1198" relation="include">
+        </childnode>
         <childnode refid="1199" relation="include">
         </childnode>
         <childnode refid="1200" relation="include">
@@ -72,46 +74,44 @@
         </childnode>
         <childnode refid="1204" relation="include">
         </childnode>
-        <childnode refid="1205" relation="include">
-        </childnode>
       </node>
-      <node id="1193">
+      <node id="1192">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
         <link refid="MarkdownDocumentWriter_8cpp"/>
-        <childnode refid="1194" relation="include">
+        <childnode refid="1193" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
         </childnode>
         <childnode refid="1208" relation="include">
         </childnode>
         <childnode refid="1209" relation="include">
         </childnode>
-        <childnode refid="1210" relation="include">
-        </childnode>
-      </node>
-      <node id="1204">
-        <label>vector</label>
-      </node>
-      <node id="1201">
-        <label>sstream</label>
-      </node>
-      <node id="1206">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="1207" relation="include">
-        </childnode>
-        <childnode refid="1198" relation="include">
-        </childnode>
-      </node>
-      <node id="1199">
-        <label>deque</label>
       </node>
       <node id="1203">
-        <label>unordered_map</label>
+        <label>vector</label>
       </node>
-      <node id="1210">
-        <label>MdDoxTree/HtmlCommandWriter.h</label>
-        <childnode refid="1198" relation="include">
+      <node id="1200">
+        <label>sstream</label>
+      </node>
+      <node id="1205">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="1206" relation="include">
+        </childnode>
+        <childnode refid="1197" relation="include">
         </childnode>
       </node>
-      <node id="1207">
+      <node id="1198">
+        <label>deque</label>
+      </node>
+      <node id="1202">
+        <label>unordered_map</label>
+      </node>
+      <node id="1209">
+        <label>MdDoxTree/HtmlCommandWriter.h</label>
+        <childnode refid="1197" relation="include">
+        </childnode>
+      </node>
+      <node id="1206">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -156,7 +156,7 @@
 <codeline lineno="33" refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" kindref="member" tooltip="Implementations should write a common document header. ">MarkdownDocumentWriter::beginDocument</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kindref="member">HashUtils::titleOnly</ref>(title));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>1,<sp/>title);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>

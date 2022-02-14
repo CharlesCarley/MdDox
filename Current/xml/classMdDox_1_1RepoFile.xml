@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/RepoFile.h" line="36" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="30" bodyend="33"/>
+        <location file="Source/MdDoxTree/RepoFile.h" line="36" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="31" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1afa9c60f3fc727f33aa4c60064292b524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -102,12 +102,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/RepoFile.h" line="47" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="40" bodyend="57"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
+        <location file="Source/MdDoxTree/RepoFile.h" line="47" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="41" bodyend="56"/>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1ae224919f5f05b5b5158beb0c1c5ee965" compoundref="Path_8cpp" startline="136" endline="139">MdDox::PathUtil::directoryList</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="168" endline="174">MdDox::SiteBuilder::findReference</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="167" endline="173">MdDox::SiteBuilder::findReference</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="156">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="158">MdDox::SiteBuilder::outputFileExt</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/RepoFile.h" line="45" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="35" bodyend="38"/>
+        <location file="Source/MdDoxTree/RepoFile.h" line="45" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="36" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -146,9 +146,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/RepoFile.h" line="51" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="64" bodyend="68"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" compoundref="SiteBuilder_8h" startline="180">MdDox::SiteBuilder::baseUrl</references>
+        <location file="Source/MdDoxTree/RepoFile.h" line="51" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="63" bodyend="67"/>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="185">MdDox::SiteBuilder::fileUrl</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1ae3e34ed925fba77dac4717130617f33e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/RepoFile.h" line="49" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="59" bodyend="62"/>
+        <location file="Source/MdDoxTree/RepoFile.h" line="49" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="58" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1a92b9b5ea938b138a86f489c445f81cd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>

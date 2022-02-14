@@ -2132,8 +2132,6 @@
     <member refid="classMdDox_1_1GenApi_1_1Object_1a4386695048c025b9141bc42bd45c1bf4" kind="function"><name>~Object</name></member>
   </compound>
   <compound refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource" kind="class"><name>MdDox::GenApi::Resources::Resource</name>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a416f43c354339f1e7bbeedc38ae7ef58" kind="function"><name>getBase</name></member>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a9c5174f2c11659c4f10fdc861cb4a2f9" kind="function"><name>getBase</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a3ca4d4f3747d2bab8d48e9ebe9862c41" kind="function"><name>getCommon</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a5edcf9fde8af25f43949e503fab21b8e" kind="function"><name>getCommon</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" kind="function"><name>getElementTextHeader</name></member>
@@ -2722,14 +2720,13 @@
     <member refid="classMdDox_1_1SiteBuilder_1a47ef3a2580edebdbf164ad303804d875" kind="variable"><name>_ids</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" kind="variable"><name>_members</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" kind="variable"><name>_names</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" kind="variable"><name>baseUrl</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kind="variable"><name>fileUrl</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kind="variable"><name>imageDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kind="variable"><name>indexName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" kind="variable"><name>inputDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" kind="variable"><name>outputDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kind="variable"><name>outputFileExt</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" kind="variable"><name>projectBrief</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a99f644177e54d4186f5a98201f73a6fe" kind="variable"><name>projectRoot</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kind="variable"><name>projectTitle</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" kind="variable"><name>searchDirs</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" kind="variable"><name>showDebug</name></member>
@@ -2742,7 +2739,7 @@
     <member refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kind="function"><name>findMember</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" kind="function"><name>findName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kind="function"><name>findReference</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" kind="function"><name>loadConfig</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" kind="function"><name>loadConfig</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" kind="function"><name>registerCompound</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" kind="function"><name>registerDot</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" kind="function"><name>registerMember</name></member>
@@ -2750,7 +2747,7 @@
   </compound>
   <compound refid="classMdDox_1_1SourceFile" kind="class"><name>MdDox::SourceFile</name>
     <member refid="classMdDox_1_1SourceFile_1a79744c668995018b7b0e7bf499a01843" kind="variable"><name>_file</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a31c9062fd87ee97fb363382c0bc4af9f" kind="variable"><name>_line</name></member>
+    <member refid="classMdDox_1_1SourceFile_1a1ff28ea7a44aa35c2d3910f582ca8e2c" kind="variable"><name>_line</name></member>
     <member refid="classMdDox_1_1SourceFile_1acdf8941b8c74c12ade38c9bfcfd3df69" kind="function"><name>SourceFile</name></member>
     <member refid="classMdDox_1_1SourceFile_1a790e78ab622d1e6b5dada4d3be4326d6" kind="function"><name>SourceFile</name></member>
     <member refid="classMdDox_1_1SourceFile_1aa45080fe9b7df8c279a1edb82fb8731a" kind="function"><name>~SourceFile</name></member>
@@ -2758,11 +2755,11 @@
     <member refid="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" kind="function"><name>empty</name></member>
     <member refid="classMdDox_1_1SourceFile_1a5b50157a57f7ddbfc33a26bf25c661da" kind="function"><name>fileName</name></member>
     <member refid="classMdDox_1_1SourceFile_1adcc0d563c79fde68348987fc4eb3f40d" kind="function"><name>fullExtension</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" kind="function"><name>getLine</name></member>
+    <member refid="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" kind="function"><name>getLine</name></member>
     <member refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" kind="function"><name>getLinkToRepo</name></member>
     <member refid="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" kind="function"><name>repoFile</name></member>
     <member refid="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" kind="function"><name>setFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" kind="function"><name>setLine</name></member>
+    <member refid="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" kind="function"><name>setLine</name></member>
   </compound>
   <compound refid="classMdDox_1_1StringUtils" kind="class"><name>MdDox::StringUtils</name>
     <member refid="classMdDox_1_1StringUtils_1a25d7c52c64b0071b83d11feee43ea0cb" kind="function"><name>generate</name></member>
@@ -3425,10 +3422,10 @@
   <compound refid="namespaceMdDox_1_1GenApi_1_1Resources" kind="namespace"><name>MdDox::GenApi::Resources</name>
   </compound>
   <compound refid="namespaceMdDox_1_1HashUtils" kind="namespace"><name>MdDox::HashUtils</name>
+    <member refid="namespaceMdDox_1_1HashUtils_1a49ec2eb5df6b578da034ce5eb27b257d" kind="function"><name>anchor</name></member>
+    <member refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kind="function"><name>cleanTitle</name></member>
     <member refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kind="function"><name>heading</name></member>
-    <member refid="namespaceMdDox_1_1HashUtils_1adcb3767acb65a3f4f08673a3f11a155a" kind="function"><name>id</name></member>
-    <member refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" kind="function"><name>lineNumber</name></member>
-    <member refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kind="function"><name>titleOnly</name></member>
+    <member refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" kind="function"><name>lineNumber</name></member>
   </compound>
   <compound refid="namespaceMdDox_1_1Html" kind="namespace"><name>MdDox::Html</name>
     <member refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kind="function"><name>anchor</name></member>

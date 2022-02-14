@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qQw1mA2[
+ dZlEZuL[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qcG1mA2[
+ dxDqZuL[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DCG1mA2[
+ diREZuL[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DpK1mA2[
+ W3MEZuL[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DlG1mA2[
+ dpMEZuL[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DpK1mA2->DlG1mA2
- qcG1mA2->DCG1mA2
- qcG1mA2->DpK1mA2
- qQw1mA2->qcG1mA2
+ W3MEZuL->dpMEZuL
+ dxDqZuL->diREZuL
+ dxDqZuL->W3MEZuL
+ dZlEZuL->dxDqZuL
 }

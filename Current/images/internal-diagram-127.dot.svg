@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 246,-40 246,4 -4,4"/>
-<!-- dDguMA2 -->
-<g id="node1" class="node"><title>dDguMA2</title>
+<!-- qUnOLuL -->
+<g id="node1" class="node"><title>qUnOLuL</title>
 <text text-anchor="middle" x="59" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefQueryVisitor</text>
 </g>
-<!-- WLbuMA2 -->
-<g id="node2" class="node"><title>WLbuMA2</title>
+<!-- Dm8OLuL -->
+<g id="node2" class="node"><title>Dm8OLuL</title>
 <text text-anchor="middle" x="198" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefWriter</text>
 </g>
-<!-- dDguMA2&#45;&gt;WLbuMA2 -->
-<g id="edge1" class="edge"><title>dDguMA2&#45;&gt;WLbuMA2</title>
+<!-- qUnOLuL&#45;&gt;Dm8OLuL -->
+<g id="edge1" class="edge"><title>qUnOLuL&#45;&gt;Dm8OLuL</title>
 <path fill="none" stroke="#69bfff" d="M118.1,-18C128.285,-18 138.784,-18 148.668,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="148.776,-19.7501 153.776,-18 148.776,-16.2501 148.776,-19.7501"/>
 </g>

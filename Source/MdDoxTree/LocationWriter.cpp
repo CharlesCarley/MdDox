@@ -47,7 +47,7 @@ namespace MdDox
             SourceFile ref;
 
             ref.setFile(decl);
-            ref.setLine(query.getLine());
+            ref.setLine((uint32_t)query.getLine());
 
             list.push_back(ref);
         }
@@ -56,7 +56,7 @@ namespace MdDox
         {
             SourceFile ref;
             ref.setFile(impl);
-            ref.setLine(query.getBodyStart());
+            ref.setLine((uint32_t)query.getBodyStart());
             list.push_back(ref);
         }
 

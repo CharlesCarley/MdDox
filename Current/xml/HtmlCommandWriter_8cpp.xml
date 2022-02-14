@@ -14,12 +14,7 @@
       <node id="780">
         <label>iomanip</label>
       </node>
-      <node id="791">
-        <label>Utils/Path.h</label>
-        <childnode refid="773" relation="include">
-        </childnode>
-      </node>
-      <node id="793">
+      <node id="792">
         <label>cstdint</label>
       </node>
       <node id="781">
@@ -43,8 +38,6 @@
         </childnode>
         <childnode refid="788" relation="include">
         </childnode>
-        <childnode refid="791" relation="include">
-        </childnode>
         <childnode refid="773" relation="include">
         </childnode>
       </node>
@@ -64,7 +57,7 @@
         </childnode>
         <childnode refid="787" relation="include">
         </childnode>
-        <childnode refid="792" relation="include">
+        <childnode refid="791" relation="include">
         </childnode>
       </node>
       <node id="789">
@@ -113,9 +106,9 @@
       <node id="776">
         <label>sstream</label>
       </node>
-      <node id="792">
+      <node id="791">
         <label>Utils/Char.h</label>
-        <childnode refid="793" relation="include">
+        <childnode refid="792" relation="include">
         </childnode>
         <childnode refid="773" relation="include">
         </childnode>
@@ -211,7 +204,7 @@
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>depth<sp/>=<sp/>std::min(std::max(depth,<sp/>1),<sp/>6);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" kindref="member">HashUtils::titleOnly</ref>(name));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">anchor</ref>(output,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(name));</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>className<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(</highlight><highlight class="stringliteral">&quot;section-&quot;</highlight><highlight class="normal">,<sp/>depth);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">heading</ref>(output,<sp/>depth,<sp/>name);</highlight></codeline>

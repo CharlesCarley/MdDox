@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 154,-40 154,4 -4,4"/>
-<!-- dSIDMA2 -->
-<g id="node1" class="node"><title>dSIDMA2</title>
+<!-- DnZaZuL -->
+<g id="node1" class="node"><title>DnZaZuL</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- dq5DMA2 -->
-<g id="node2" class="node"><title>dq5DMA2</title>
+<!-- DYLaZuL -->
+<g id="node2" class="node"><title>DYLaZuL</title>
 <text text-anchor="middle" x="120" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">TableQuery</text>
 </g>
-<!-- dSIDMA2&#45;&gt;dq5DMA2 -->
-<g id="edge1" class="edge"><title>dSIDMA2&#45;&gt;dq5DMA2</title>
+<!-- DnZaZuL&#45;&gt;DYLaZuL -->
+<g id="edge1" class="edge"><title>DnZaZuL&#45;&gt;DYLaZuL</title>
 <path fill="none" stroke="#69bfff" d="M54.321,-18C63.7974,-18 74.6323,-18 84.6897,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.8668,-19.7501 89.8668,-18 84.8668,-16.2501 84.8668,-19.7501"/>
 </g>

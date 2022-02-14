@@ -54,7 +54,7 @@ namespace MdDox::Html
     {
         depth = std::min(std::max(depth, 1), 6);
 
-        anchor(output, HashUtils::titleOnly(name));
+        anchor(output, HashUtils::cleanTitle(name));
 
         const String className = StringCombine("section-", depth);
         heading(output, depth, name);

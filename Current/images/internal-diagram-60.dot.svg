@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 193,-40 193,4 -4,4"/>
-<!-- DBtRmA2 -->
-<g id="node1" class="node"><title>DBtRmA2</title>
+<!-- qZ0aZuL -->
+<g id="node1" class="node"><title>qZ0aZuL</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- q33RmA2 -->
-<g id="node2" class="node"><title>q33RmA2</title>
+<!-- Dg0aZuL -->
+<g id="node2" class="node"><title>Dg0aZuL</title>
 <text text-anchor="middle" x="139.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ReimplementQuery</text>
 </g>
-<!-- DBtRmA2&#45;&gt;q33RmA2 -->
-<g id="edge1" class="edge"><title>DBtRmA2&#45;&gt;q33RmA2</title>
+<!-- qZ0aZuL&#45;&gt;Dg0aZuL -->
+<g id="edge1" class="edge"><title>qZ0aZuL&#45;&gt;Dg0aZuL</title>
 <path fill="none" stroke="#69bfff" d="M54.187,-18C63.4011,-18 74.1229,-18 84.7694,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.9829,-19.7501 89.9828,-18 84.9828,-16.2501 84.9829,-19.7501"/>
 </g>

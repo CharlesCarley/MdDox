@@ -7,17 +7,21 @@
     <includedby refid="Location_8h" local="yes">Source/MdDoxTree/Location.h</includedby>
     <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
     <incdepgraph>
-      <node id="2207">
+      <node id="2205">
         <label>iomanip</label>
       </node>
-      <node id="2204">
+      <node id="2202">
         <label>string</label>
       </node>
-      <node id="2202">
+      <node id="2200">
         <label>fstream</label>
       </node>
-      <node id="2200">
+      <node id="2198">
         <label>Utils/String.h</label>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2200" relation="include">
+        </childnode>
         <childnode refid="2201" relation="include">
         </childnode>
         <childnode refid="2202" relation="include">
@@ -28,55 +32,51 @@
         </childnode>
         <childnode refid="2205" relation="include">
         </childnode>
-        <childnode refid="2206" relation="include">
-        </childnode>
-        <childnode refid="2207" relation="include">
-        </childnode>
       </node>
-      <node id="2206">
+      <node id="2204">
         <label>vector</label>
       </node>
-      <node id="2203">
+      <node id="2201">
         <label>sstream</label>
       </node>
-      <node id="2199">
+      <node id="2197">
         <label>MdDoxTree/RepoFile.h</label>
-        <childnode refid="2200" relation="include">
+        <childnode refid="2198" relation="include">
         </childnode>
       </node>
-      <node id="2198">
+      <node id="2196">
         <label>Source/MdDoxTree/SourceFile.h</label>
         <link refid="SourceFile_8h"/>
-        <childnode refid="2199" relation="include">
+        <childnode refid="2197" relation="include">
         </childnode>
-        <childnode refid="2200" relation="include">
+        <childnode refid="2198" relation="include">
         </childnode>
       </node>
-      <node id="2201">
+      <node id="2199">
         <label>deque</label>
       </node>
-      <node id="2205">
+      <node id="2203">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2211">
+      <node id="2209">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="2209">
+      <node id="2207">
         <label>Source/MdDoxTree/Location.h</label>
-        <childnode refid="2210" relation="include">
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2206">
+        <label>Source/MdDoxTree/SourceFile.h</label>
+        <link refid="SourceFile_8h"/>
+        <childnode refid="2207" relation="include">
+        </childnode>
+        <childnode refid="2209" relation="include">
         </childnode>
       </node>
       <node id="2208">
-        <label>Source/MdDoxTree/SourceFile.h</label>
-        <link refid="SourceFile_8h"/>
-        <childnode refid="2209" relation="include">
-        </childnode>
-        <childnode refid="2211" relation="include">
-        </childnode>
-      </node>
-      <node id="2210">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
@@ -118,7 +118,7 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1RepoFile" kindref="compound" tooltip="Represents a repository file. ">RepoFile</ref><sp/>_file;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><sp/>_line{1};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>_line{1};</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SourceFile_1a790e78ab622d1e6b5dada4d3be4326d6" kindref="member">SourceFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile" kindref="compound" tooltip="Represents a repository file. ">SourceFile</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
@@ -127,7 +127,7 @@
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1RepoFile" kindref="compound" tooltip="Represents a repository file. ">RepoFile</ref>&amp;<sp/><ref refid="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" kindref="member">repoFile</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" kindref="member">getLinkToRepo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" kindref="member">getLinkToRepo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" kindref="member">directory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
@@ -137,9 +137,9 @@
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" kindref="member">setFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" kindref="member">getLine</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" kindref="member">getLine</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" kindref="member">setLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>line);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" kindref="member">setLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t&amp;<sp/>line);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" kindref="member">empty</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
@@ -154,12 +154,12 @@
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_file.<ref refid="classMdDox_1_1RepoFile_1a92b9b5ea938b138a86f489c445f81cd4" kindref="member">setFile</ref>(text);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>int64_t<sp/><ref refid="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" kindref="member">SourceFile::getLine</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="71" refid="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" kindref="member">SourceFile::getLine</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="72"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_line;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" kindref="member">SourceFile::setLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>line)</highlight></codeline>
+<codeline lineno="76" refid="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" kindref="member">SourceFile::setLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t&amp;<sp/>line)</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_line<sp/>=<sp/>line;</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -168,7 +168,7 @@
 <codeline lineno="82"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_file.<ref refid="classMdDox_1_1RepoFile_1ab1ce5c61af97162889afb0b35b1054ac" kindref="member">empty</ref>();</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="85"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/SourceFile.h"/>
   </compounddef>

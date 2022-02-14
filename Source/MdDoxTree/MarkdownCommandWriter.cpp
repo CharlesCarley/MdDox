@@ -23,6 +23,7 @@
 #include "MarkdownDocumentWriter.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "Utils/Char.h"
+#include "Utils/Path.h"
 
 namespace MdDox::Md
 {

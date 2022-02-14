@@ -104,8 +104,6 @@
         </childnode>
         <childnode refid="713" relation="include">
         </childnode>
-        <childnode refid="700" relation="include">
-        </childnode>
         <childnode refid="686" relation="include">
         </childnode>
       </node>

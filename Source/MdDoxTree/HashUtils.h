@@ -29,13 +29,39 @@ namespace MdDox
      */
     namespace HashUtils
     {
-        extern String lineNumber(const int64_t& line);
+	    /**
+         * \brief Constructs a line fragment.
+         *
+    	 * Returns a string formatted as: \c \# \c L \c line
+         */
+        extern String lineNumber(const uint32_t& line);
 
+	    /**
+         * \brief Constructs a heading fragment.
+         *
+         * Returns a string formatted as: \c \# \c title
+         * <br/>
+         * Where title is sanitized with cleanTitle.
+         */
         extern String heading(const String& title);
 
-        extern String titleOnly(const String& title);
+    	
+	    /**
+         * \brief Cleans the supplied title.
+         * 
+         * Removes all binary resolution operators.
+         * Replaces white space and path separators with a dash.
+         */
+        extern String cleanTitle(const String& title);
 
-        extern String id(const String& id);
+	    /**
+         * \brief Constructs a heading fragment.
+         *
+         * Returns a string formatted as: \c \# \c id
+         * <br/>
+         * Assumes that id points to an anchor somewhere in the current document.
+         */
+        extern String anchor(const String& id);
 
     }  // namespace HashUtils
 

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WgbuMA2[
+ WaDEZuL[
    shape    = none
    label    = "LinkedTextQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dtCuMA2[
+ dmDEZuL[
    shape    = none
    label    = "LinkedTextWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WgbuMA2->dtCuMA2
+ WaDEZuL->dmDEZuL
 }

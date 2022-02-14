@@ -22,7 +22,6 @@
 #pragma once
 #include <unordered_map>
 #include "Config.h"
-#include "Utils/Path.h"
 #include "Utils/String.h"
 
 namespace MdDox
@@ -40,11 +39,12 @@ namespace MdDox
      * access to properties during the build stage. 
      *
      * <b>The site builder</b> handles setting up and running the main loop.
-     * It handles storing mapped references to other pages, and general configuration
-     * properties
+     * It stores references to other pages and general configuration
+     * properties.
      * <br/>
      * <br/>
      * The following diagram outlines its main routine.
+     * 
      * \dot
      * digraph {
      *      bgcolor = none;
@@ -67,9 +67,9 @@ namespace MdDox
      *      buildFromXml->Build
      *      buildFromXml->WriteIndex
      *      buildFromXml->Dispatch
+     *      buildFromXml->ConvertGraphs
      *      Dispatch->BuildItem
      *      Dispatch->WriteItem
-     *      SiteBuilder->ConvertGraphs
      * }
      * \enddot
      * <br/>
@@ -77,8 +77,8 @@ namespace MdDox
      * First, it should have all necessary configuration parameters before running.
      * From there, it needs to load an index file.  Then based on the contents of the index,
      * It should write the primary index. After that, It should dispatch all sub-page writers.
-     * Page writers can register graph files during their dispatch routine. After all pages have completed,
-     * any registered graph files get processed.
+     * Page writers can register graph files during their dispatch routine. After all pages have
+     * completed any registered graph files are processed.
      */
     class SiteBuilder
     {
@@ -90,6 +90,9 @@ namespace MdDox
         mutable StringArray  _dotFiles;
         mutable Config       _dot;
 
+        /**
+         * \brief Writes all dot files to disk.
+         */
         void dispatchDot() const;
 
     public:
@@ -104,7 +107,11 @@ namespace MdDox
         void buildFromXml(DocumentWriter* writer, const String& fileName) const;
 
 
-    	void loadConfig(const String& cfg);
+        /**
+    	 * \brief Attempts to load the primary config file. 
+    	 * \param configFile path to the file. 
+    	 */
+    	void loadConfig(const String& configFile);
 
         /**
          * \brief Register a name that can be linked to a reference
@@ -144,40 +151,38 @@ namespace MdDox
          * \brief Defines a brief description for the current project.
          */
         String projectBrief;
-
+        
         /**
-         * \brief 
-         */
-        String projectRoot;
-
-        /**
-         * \brief 
+         * \brief Defines the file extension for pages.
          */
         String outputFileExt;
-        /**
-         * \brief 
+
+    	/**
+         * \brief Defines the image lookup directory.
          */
         String imageDir;
 
         /**
-         * \brief 
+         * \brief Defines the input xml directory.
          */
         String inputDir;
 
         /**
-         * \brief 
+         * \brief Defines the output directory for pages.
          */
         String outputDir;
 
         /**
-         * \brief 
+         * \brief Defines the GitHub project URL.
          */
         String siteUrl;
 
         /**
-         * \brief 
+         * \brief Defined as <tt>${siteUrl}/blob/master/<tt>
+         *
+         * Used to link local file paths to GitHub URLs  
          */
-        String baseUrl;
+        String fileUrl;
 
         /**
          * \brief 

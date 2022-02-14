@@ -82,7 +82,7 @@ namespace MdDox
         }
         _writer->beginDocument(_out, LinkUtils::lastBinaryResolution(title));
         _writer->anchor(_out, _ref.getReference());
-        _writer->anchor(_out, HashUtils::titleOnly(title));
+        _writer->anchor(_out, HashUtils::cleanTitle(title));
     }
 
     void PageWriter::endDocument(const Doxygen::CompoundDefQuery&)
