@@ -72,15 +72,17 @@ if (MdDox_AUTO_RUN_TEST)
 
    add_custom_command(
 	TARGET  ${TestTargetName} POST_BUILD
-        WORKING_DIRECTORY ${MdDox_CURRENT_SOURCE_DIR}
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
         COMMAND  $<TARGET_FILE:${TestTargetName}>
     )
 
-    set_target_properties(
-        ${TestTargetName} 
-        PROPERTIES 
-        VS_DEBUGGER_WORKING_DIRECTORY  
-        ${MdDox_CURRENT_SOURCE_DIR}
-    )
+    if (MSVC)
+        set_target_properties(
+            ${TestTargetName} 
+            PROPERTIES 
+            VS_DEBUGGER_WORKING_DIRECTORY  
+            ${CMAKE_CURRENT_SOURCE_DIR}
+        )
+    endif()
 
 endif()
