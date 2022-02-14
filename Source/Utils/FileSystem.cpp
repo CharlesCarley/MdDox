@@ -25,19 +25,6 @@
 
 namespace MdDox
 {
-    void FileSystem::glob(PathArray& dest, const String& dir, const String& ext)
-    {
-        const Path pth = dir;
-
-        std::filesystem::directory_iterator dirIt(pth);
-
-        for (const std::filesystem::directory_entry& entry : dirIt)
-        {
-            if (entry.is_regular_file() && entry.path().extension() == ext)
-                dest.push_back(std::filesystem::absolute(entry.path()));
-        }
-    }
-
     String FileSystem::normalize(const String& path)
     {
 #ifdef _WIN32
@@ -66,11 +53,19 @@ namespace MdDox
 
         if (!value.has_root_directory())
         {
-            return combine(
-                std::filesystem::current_path().string(),
+            const String current = currentPath();
+            return normalize(StringCombine(
+                current,
                 '/',
-                input);
+                input));
         }
+
         return normalize(value);
     }
+
+    String FileSystem::currentPath()
+    {
+        return local_filesystem::current_path().string();
+    }
+
 }  // namespace MdDox

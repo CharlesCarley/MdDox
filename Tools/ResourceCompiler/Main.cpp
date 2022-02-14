@@ -21,6 +21,7 @@
 */
 #include <cstdint>
 #include <iostream>
+#include <iomanip>
 #include "Utils/CommandLine/Parser.h"
 #include "Utils/Console.h"
 #include "Utils/Exception.h"

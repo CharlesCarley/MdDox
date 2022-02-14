@@ -22,9 +22,9 @@ find_package(Doxygen)
 find_package (Python COMPONENTS Interpreter)
 
 set(MdDoxBuilder_ProjectName    ${CMAKE_PROJECT_NAME}         CACHE STRING "")
-set(MdDoxBuilder_ProjecVersion  ${CMAKE_PROJECT_VERSION}      CACHE STRING "")
-set(MdDoxBuilder_ProjecUrl      ${CMAKE_PROJECT_HOMEPAGE_URL} CACHE STRING "")
-set(MdDoxBuilder_Brief          ${CMAKE_PROJECT_DESCRIPTION}  CACHE STRING "")
+set(MdDoxBuilder_ProjecVersion  ${MdDox_PROJECT_VERSION}      CACHE STRING "")
+set(MdDoxBuilder_ProjecUrl      ${MdDox_PROJECT_HOMEPAGE_URL} CACHE STRING "")
+set(MdDoxBuilder_Brief          ${MdDox_PROJECT_DESCRIPTION}  CACHE STRING "")
 set(MdDoxBuilder_ALL     FALSE)
 set(MdDoxBuilder_BackEnd md)
 

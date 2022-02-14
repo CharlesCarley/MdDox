@@ -11,117 +11,122 @@
     <includedby refid="Tools_2GenApi_2Main_8cpp" local="yes">Tools/GenApi/Main.cpp</includedby>
     <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Tools/ResourceCompiler/Main.cpp</includedby>
     <incdepgraph>
-      <node id="2320">
-        <label>filesystem</label>
+      <node id="2399">
+        <label>iomanip</label>
       </node>
-      <node id="2310">
+      <node id="2392">
         <label>cstdint</label>
       </node>
-      <node id="2308">
+      <node id="2390">
         <label>cassert</label>
       </node>
-      <node id="2315">
+      <node id="2397">
         <label>string</label>
       </node>
-      <node id="2313">
+      <node id="2395">
         <label>fstream</label>
       </node>
-      <node id="2305">
+      <node id="2387">
         <label>Source/Utils/CommandLine/Parser.h</label>
         <link refid="Utils_2CommandLine_2Parser_8h"/>
-        <childnode refid="2306" relation="include">
+        <childnode refid="2388" relation="include">
         </childnode>
-        <childnode refid="2307" relation="include">
+        <childnode refid="2389" relation="include">
         </childnode>
-        <childnode refid="2317" relation="include">
+        <childnode refid="2400" relation="include">
         </childnode>
-        <childnode refid="2319" relation="include">
+        <childnode refid="2402" relation="include">
         </childnode>
       </node>
-      <node id="2307">
+      <node id="2389">
         <label>Utils/CommandLine/Option.h</label>
-        <childnode refid="2308" relation="include">
+        <childnode refid="2390" relation="include">
         </childnode>
-        <childnode refid="2309" relation="include">
+        <childnode refid="2391" relation="include">
         </childnode>
-        <childnode refid="2311" relation="include">
+        <childnode refid="2393" relation="include">
         </childnode>
       </node>
-      <node id="2311">
+      <node id="2393">
         <label>Utils/String.h</label>
-        <childnode refid="2312" relation="include">
+        <childnode refid="2394" relation="include">
         </childnode>
-        <childnode refid="2313" relation="include">
+        <childnode refid="2395" relation="include">
         </childnode>
-        <childnode refid="2314" relation="include">
+        <childnode refid="2396" relation="include">
         </childnode>
-        <childnode refid="2315" relation="include">
+        <childnode refid="2397" relation="include">
         </childnode>
-        <childnode refid="2306" relation="include">
+        <childnode refid="2388" relation="include">
         </childnode>
-        <childnode refid="2316" relation="include">
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2399" relation="include">
         </childnode>
       </node>
-      <node id="2317">
+      <node id="2400">
         <label>Utils/CommandLine/Scanner.h</label>
-        <childnode refid="2318" relation="include">
+        <childnode refid="2401" relation="include">
         </childnode>
       </node>
-      <node id="2316">
+      <node id="2398">
         <label>vector</label>
       </node>
-      <node id="2314">
+      <node id="2396">
         <label>sstream</label>
       </node>
-      <node id="2309">
+      <node id="2391">
         <label>Utils/Char.h</label>
-        <childnode refid="2310" relation="include">
+        <childnode refid="2392" relation="include">
         </childnode>
-        <childnode refid="2311" relation="include">
+        <childnode refid="2393" relation="include">
         </childnode>
       </node>
-      <node id="2319">
+      <node id="2402">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="2320" relation="include">
+        <childnode refid="2403" relation="include">
         </childnode>
-        <childnode refid="2311" relation="include">
+        <childnode refid="2393" relation="include">
         </childnode>
       </node>
-      <node id="2312">
+      <node id="2394">
         <label>deque</label>
       </node>
-      <node id="2306">
+      <node id="2388">
         <label>unordered_map</label>
       </node>
-      <node id="2318">
+      <node id="2401">
         <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="2311" relation="include">
+        <childnode refid="2393" relation="include">
         </childnode>
+      </node>
+      <node id="2403">
+        <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2325">
+      <node id="2408">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2324">
+      <node id="2407">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2323">
+      <node id="2406">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2321">
+      <node id="2404">
         <label>Source/Utils/CommandLine/Parser.h</label>
         <link refid="Utils_2CommandLine_2Parser_8h"/>
-        <childnode refid="2322" relation="include">
+        <childnode refid="2405" relation="include">
         </childnode>
-        <childnode refid="2323" relation="include">
+        <childnode refid="2406" relation="include">
         </childnode>
-        <childnode refid="2324" relation="include">
+        <childnode refid="2407" relation="include">
         </childnode>
-        <childnode refid="2325" relation="include">
+        <childnode refid="2408" relation="include">
         </childnode>
       </node>
-      <node id="2322">
+      <node id="2405">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>
@@ -169,7 +174,7 @@
 <codeline lineno="42" refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;String&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" kindref="member">StringArray</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_programName;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_programName;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_maxLongSwitch;</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_required;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_used;</highlight></codeline>

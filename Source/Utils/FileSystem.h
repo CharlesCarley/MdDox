@@ -21,12 +21,20 @@
 */
 #pragma once
 
+#ifdef _WIN32
 #include <filesystem>
+#define local_filesystem std::filesystem
+#else
+#include <experimental/filesystem>
+#define local_filesystem std::experimental::filesystem
+#endif
+
 #include "Utils/String.h"
 
 namespace MdDox
 {
-    using Path      = std::filesystem::path;
+    using Path = local_filesystem::path;
+
     using PathArray = std::vector<Path>;
 
     /**
@@ -35,19 +43,12 @@ namespace MdDox
     class FileSystem
     {
     public:
-        static void glob(PathArray& dest, const String& dir, const String& ext);
-
         static String normalize(const String& path);
-        static Path   normalize(const Path& path);
+
+        static Path normalize(const Path& path);
 
         static Path absolute(const String& input);
 
-        template <typename... Args>
-        static Path combine(Args&&... args)
-        {
-            OutputStringStream oss;
-            ((oss << std::forward<Args>(args)), ...);
-            return absolute(oss.str());
-        }
+        static String currentPath();
     };
 }  // namespace MdDox

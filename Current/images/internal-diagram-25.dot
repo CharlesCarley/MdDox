@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D6zEIxx[
+ D2rZ03o[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DxLEIxx[
+ D5dZ03o[
    shape    = none
    label    = "FunctionDefWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D6zEIxx->DxLEIxx
+ D2rZ03o->D5dZ03o
 }

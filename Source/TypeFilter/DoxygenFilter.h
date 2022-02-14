@@ -140,6 +140,6 @@ namespace MdDox::Doxygen
         DoxWrite,
     };
 
-    extern constexpr const TypeFilter* getFilter();
-    extern size_t                      getFilterSize();
+    extern const TypeFilter* getFilter();
+    extern size_t            getFilterSize();
 }  // namespace MdDox::Doxygen

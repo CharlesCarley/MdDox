@@ -20,12 +20,13 @@
 -------------------------------------------------------------------------------
 */
 #include "Parser.h"
-#include <filesystem>
+#include "Utils/FileSystem.h"
 #include <iostream>
 #include <sstream>
+#include <iomanip>
 #include "Utils/Console.h"
 
-#define pad(w) setw((w)) << ' '
+#define pad(w) std::setw((w)) << ' '
 
 namespace MdDox::CommandLine
 {
@@ -194,7 +195,7 @@ namespace MdDox::CommandLine
 
     String Parser::currentDirectory()
     {
-        return std::filesystem::current_path().string();
+        return FileSystem::currentPath();
     }
 
     bool Parser::isPresent(const uint32_t& enumId) const

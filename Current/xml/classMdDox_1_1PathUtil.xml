@@ -150,7 +150,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Path.h" line="108" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="204" bodyend="208"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a3ad04e34c260d150cac4674ac8cf3980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -244,7 +244,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Path.h" line="95" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="107" bodyend="110"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">stem</references>
         <references refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" compoundref="Path_8cpp" startline="196" endline="202">fullExtension</references>
       </memberdef>
@@ -310,7 +310,7 @@
         </inbodydescription>
         <location file="Source/Utils/Path.h" line="85" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="181" bodyend="189"/>
         <references refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" compoundref="Path_8cpp" startline="196" endline="202">fullExtension</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a6590dc139b29c2aa6dbbcad479525cbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -343,7 +343,7 @@
         <location file="Source/Utils/Path.h" line="73" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="146" bodyend="169"/>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">rootedDir</references>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a3adff6cf06d3b25c56d689966b8e95f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref></type>
@@ -390,7 +390,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Path.h" line="90" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="191" bodyend="194"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>

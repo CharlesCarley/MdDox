@@ -39,4 +39,6 @@ set(Target_SRC
 include_directories(../)
 
 add_library(${TargetName} ${Target_SRC} ${Target_HDR})
+
+target_link_libraries(${TargetName} Utils TypeFilter)
 set_target_properties(${TargetName} PROPERTIES FOLDER "${TargetGroup}")

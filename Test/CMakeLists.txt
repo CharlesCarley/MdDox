@@ -65,7 +65,8 @@ target_link_libraries(
 	Utils 
 	MdDoxTree 
 	Xml 
-	Doxygen)
+	Doxygen
+    ${EXTRA_LIBS})
 
 if (MdDox_AUTO_RUN_TEST)
 

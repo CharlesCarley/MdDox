@@ -20,10 +20,8 @@
 -------------------------------------------------------------------------------
 */
 #include "Utils/ParserBase/ParserBase.h"
-#include <filesystem>
 #include <fstream>
 #include <vector>
-
 #include "Utils/FileSystem.h"
 #include "Utils/Char.h"
 #include "Utils/ParserBase/ParseError.h"

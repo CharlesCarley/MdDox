@@ -19,230 +19,232 @@
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
     <includes refid="Source_2Xml_2Writer_8h" local="yes">Xml/Writer.h</includes>
     <incdepgraph>
-      <node id="8530">
+      <node id="8825">
         <label>Tools/GenApi/Generator.cpp</label>
         <link refid="Generator_8cpp"/>
-        <childnode refid="8531" relation="include">
+        <childnode refid="8826" relation="include">
         </childnode>
-        <childnode refid="8533" relation="include">
+        <childnode refid="8828" relation="include">
         </childnode>
-        <childnode refid="8541" relation="include">
+        <childnode refid="8836" relation="include">
         </childnode>
-        <childnode refid="8542" relation="include">
+        <childnode refid="8837" relation="include">
         </childnode>
-        <childnode refid="8543" relation="include">
+        <childnode refid="8838" relation="include">
         </childnode>
-        <childnode refid="8545" relation="include">
+        <childnode refid="8840" relation="include">
         </childnode>
-        <childnode refid="8550" relation="include">
+        <childnode refid="8845" relation="include">
         </childnode>
-        <childnode refid="8551" relation="include">
+        <childnode refid="8846" relation="include">
         </childnode>
-        <childnode refid="8552" relation="include">
+        <childnode refid="8847" relation="include">
         </childnode>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8843" relation="include">
         </childnode>
-        <childnode refid="8554" relation="include">
+        <childnode refid="8849" relation="include">
         </childnode>
-        <childnode refid="8555" relation="include">
+        <childnode refid="8850" relation="include">
         </childnode>
-        <childnode refid="8560" relation="include">
+        <childnode refid="8855" relation="include">
         </childnode>
-        <childnode refid="8562" relation="include">
+        <childnode refid="8857" relation="include">
         </childnode>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
-        <childnode refid="8563" relation="include">
+        <childnode refid="8858" relation="include">
         </childnode>
       </node>
-      <node id="8559">
+      <node id="8854">
         <label>Utils/Console.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8541">
+      <node id="8836">
         <label>iomanip</label>
       </node>
-      <node id="8533">
+      <node id="8828">
         <label>functional</label>
       </node>
-      <node id="8561">
-        <label>filesystem</label>
-      </node>
-      <node id="8562">
+      <node id="8857">
         <label>Utils/Path.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8549">
+      <node id="8844">
         <label>cstdint</label>
       </node>
-      <node id="8555">
+      <node id="8850">
         <label>Utils/Exception.h</label>
-        <childnode refid="8556" relation="include">
+        <childnode refid="8851" relation="include">
         </childnode>
-        <childnode refid="8557" relation="include">
+        <childnode refid="8852" relation="include">
         </childnode>
-        <childnode refid="8558" relation="include">
+        <childnode refid="8853" relation="include">
         </childnode>
-        <childnode refid="8559" relation="include">
+        <childnode refid="8854" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8547">
+      <node id="8842">
         <label>Object.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
-        <childnode refid="8544" relation="include">
+        <childnode refid="8839" relation="include">
         </childnode>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
       </node>
-      <node id="8557">
+      <node id="8852">
         <label>stdexcept</label>
       </node>
-      <node id="8539">
+      <node id="8834">
         <label>string</label>
       </node>
-      <node id="8556">
+      <node id="8851">
         <label>exception</label>
       </node>
-      <node id="8550">
+      <node id="8845">
         <label>Database.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8537">
+      <node id="8832">
         <label>fstream</label>
       </node>
-      <node id="8548">
+      <node id="8843">
         <label>Types.h</label>
-        <childnode refid="8549" relation="include">
+        <childnode refid="8844" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8545">
+      <node id="8840">
         <label>Complex.h</label>
-        <childnode refid="8546" relation="include">
+        <childnode refid="8841" relation="include">
         </childnode>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8843" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
       </node>
-      <node id="8532">
+      <node id="8827">
         <label>Xml/Node.h</label>
-        <childnode refid="8533" relation="include">
+        <childnode refid="8828" relation="include">
         </childnode>
-        <childnode refid="8534" relation="include">
+        <childnode refid="8829" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8544">
+      <node id="8839">
         <label>Writer.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
       </node>
-      <node id="8543">
+      <node id="8838">
         <label>Common.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
-        <childnode refid="8544" relation="include">
+        <childnode refid="8839" relation="include">
         </childnode>
       </node>
-      <node id="8563">
+      <node id="8858">
         <label>Xml/Writer.h</label>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8551">
+      <node id="8846">
         <label>Simple.h</label>
-        <childnode refid="8546" relation="include">
+        <childnode refid="8841" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8535">
+      <node id="8830">
         <label>Utils/String.h</label>
-        <childnode refid="8536" relation="include">
+        <childnode refid="8831" relation="include">
         </childnode>
-        <childnode refid="8537" relation="include">
+        <childnode refid="8832" relation="include">
         </childnode>
-        <childnode refid="8538" relation="include">
+        <childnode refid="8833" relation="include">
         </childnode>
-        <childnode refid="8539" relation="include">
+        <childnode refid="8834" relation="include">
         </childnode>
-        <childnode refid="8534" relation="include">
+        <childnode refid="8829" relation="include">
         </childnode>
-        <childnode refid="8540" relation="include">
+        <childnode refid="8835" relation="include">
+        </childnode>
+        <childnode refid="8836" relation="include">
         </childnode>
       </node>
-      <node id="8540">
+      <node id="8835">
         <label>vector</label>
       </node>
-      <node id="8531">
+      <node id="8826">
         <label>Generator.h</label>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
       </node>
-      <node id="8558">
+      <node id="8853">
         <label>utility</label>
       </node>
-      <node id="8538">
+      <node id="8833">
         <label>sstream</label>
       </node>
-      <node id="8552">
+      <node id="8847">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="8553" relation="include">
+        <childnode refid="8848" relation="include">
         </childnode>
       </node>
-      <node id="8554">
+      <node id="8849">
         <label>Utils/Char.h</label>
-        <childnode refid="8549" relation="include">
+        <childnode refid="8844" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8560">
+      <node id="8855">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="8561" relation="include">
+        <childnode refid="8856" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8542">
+      <node id="8837">
         <label>iostream</label>
       </node>
-      <node id="8536">
+      <node id="8831">
         <label>deque</label>
       </node>
-      <node id="8534">
+      <node id="8829">
         <label>unordered_map</label>
       </node>
-      <node id="8553">
+      <node id="8848">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="8549" relation="include">
+        <childnode refid="8844" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
       </node>
-      <node id="8546">
+      <node id="8841">
         <label>Group.h</label>
-        <childnode refid="8547" relation="include">
+        <childnode refid="8842" relation="include">
         </childnode>
-        <childnode refid="8548" relation="include">
+        <childnode refid="8843" relation="include">
         </childnode>
-        <childnode refid="8535" relation="include">
+        <childnode refid="8830" relation="include">
         </childnode>
-        <childnode refid="8532" relation="include">
+        <childnode refid="8827" relation="include">
         </childnode>
+      </node>
+      <node id="8856">
+        <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <innerclass refid="classMdDox_1_1GenApi_1_1GeneratorImpl" prot="public">MdDox::GenApi::GeneratorImpl</innerclass>
@@ -723,7 +725,7 @@
 <codeline lineno="469"><highlight class="normal"></highlight></codeline>
 <codeline lineno="470" refid="classMdDox_1_1GenApi_1_1GeneratorImpl_1a1b451cd9d515f47c62849cda7b8c6321" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1GeneratorImpl_1a1b451cd9d515f47c62849cda7b8c6321" kindref="member">readSubstitutions</ref>()</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kindref="member">makeTypeFilter</ref>(_filter,<sp/><ref refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" kindref="member">Doxygen::getFilter</ref>(),<sp/><ref refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" kindref="member">Doxygen::getFilterSize</ref>());</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kindref="member">makeTypeFilter</ref>(_filter,<sp/><ref refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" kindref="member">Doxygen::getFilter</ref>(),<sp/><ref refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" kindref="member">Doxygen::getFilterSize</ref>());</highlight></codeline>
 <codeline lineno="473"><highlight class="normal"></highlight></codeline>
 <codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_complex.<ref refid="classMdDox_1_1GenApi_1_1Database_1aa76b00920ea8d6a9c10954c2c080ac99" kindref="member">read</ref>(</highlight><highlight class="stringliteral">&quot;Complex.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_simple.<ref refid="classMdDox_1_1GenApi_1_1Database_1aa76b00920ea8d6a9c10954c2c080ac99" kindref="member">read</ref>(</highlight><highlight class="stringliteral">&quot;Simple.txt&quot;</highlight><highlight class="normal">);</highlight></codeline>

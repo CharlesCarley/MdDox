@@ -408,9 +408,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMdDox_1a94068c3f59491d9ac7b255a403efe1a3" prot="public" static="no">
-        <type>std::filesystem::directory_entry</type>
-        <definition>using MdDox::Directory = typedef std::filesystem::directory_entry</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" prot="public" static="no">
+        <type>local_filesystem::directory_entry</type>
+        <definition>using MdDox::Directory = typedef local_filesystem::directory_entry</definition>
         <argsstring></argsstring>
         <name>Directory</name>
         <briefdescription>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="80" column="1" bodyfile="Source/Utils/String.h" bodystart="80" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="81" column="1" bodyfile="Source/Utils/String.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" prot="public" static="no">
         <type>std::istringstream</type>
@@ -445,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="60" column="1" bodyfile="Source/Utils/String.h" bodystart="60" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="61" column="1" bodyfile="Source/Utils/String.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" prot="public" static="no">
         <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; int &gt;</type>
@@ -471,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="70" column="1" bodyfile="Source/Utils/String.h" bodystart="70" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="71" column="1" bodyfile="Source/Utils/String.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" prot="public" static="no">
         <type>std::ostream</type>
@@ -484,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="75" column="1" bodyfile="Source/Utils/String.h" bodystart="75" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="76" column="1" bodyfile="Source/Utils/String.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" prot="public" static="no">
         <type>std::ofstream</type>
@@ -497,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="85" column="1" bodyfile="Source/Utils/String.h" bodystart="85" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="86" column="1" bodyfile="Source/Utils/String.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" prot="public" static="no">
         <type>std::ostringstream</type>
@@ -510,11 +510,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="65" column="1" bodyfile="Source/Utils/String.h" bodystart="65" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="66" column="1" bodyfile="Source/Utils/String.h" bodystart="66" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" prot="public" static="no">
-        <type>std::filesystem::path</type>
-        <definition>using MdDox::Path = typedef std::filesystem::path</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" prot="public" static="no">
+        <type>local_filesystem::path</type>
+        <definition>using MdDox::Path = typedef local_filesystem::path</definition>
         <argsstring></argsstring>
         <name>Path</name>
         <briefdescription>
@@ -523,10 +523,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="29" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="29" bodyend="-1"/>
+        <location file="Source/Utils/FileSystem.h" line="36" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref> &gt;</type>
+        <type>std::vector&lt; <ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref> &gt;</type>
         <definition>using MdDox::PathArray = typedef std::vector&lt;Path&gt;</definition>
         <argsstring></argsstring>
         <name>PathArray</name>
@@ -536,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="30" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="30" bodyend="-1"/>
+        <location file="Source/Utils/FileSystem.h" line="38" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &gt;</type>
@@ -575,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="36" column="1" bodyfile="Source/Utils/String.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="37" column="1" bodyfile="Source/Utils/String.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" prot="public" static="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -588,7 +588,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="46" column="1" bodyfile="Source/Utils/String.h" bodystart="46" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="47" column="1" bodyfile="Source/Utils/String.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" prot="public" static="no">
         <type>std::deque&lt; std::string &gt;</type>
@@ -601,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="41" column="1" bodyfile="Source/Utils/String.h" bodystart="41" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="42" column="1" bodyfile="Source/Utils/String.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" prot="public" static="no">
         <type>std::unordered_map&lt; std::string, std::string &gt;</type>
@@ -614,7 +614,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="50" column="1" bodyfile="Source/Utils/String.h" bodystart="50" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="51" column="1" bodyfile="Source/Utils/String.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" prot="public" static="no">
         <type>std::stringstream</type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="55" column="1" bodyfile="Source/Utils/String.h" bodystart="55" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="56" column="1" bodyfile="Source/Utils/String.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1ac3281bf161fc4483a362d7d0927b1625" prot="public" static="no">
         <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
@@ -840,12 +840,12 @@
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="117" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="117" bodyend="135"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" compoundref="Xml_2Parser_8cpp" startline="46" endline="49">MdDox::Xml::Parser::applyFilter</references>
-        <references refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="DoxygenFilter_8cpp" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
-        <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="85" endline="101">MdDox::ParserBase::parse</references>
+        <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
       </memberdef>
@@ -1009,7 +1009,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="214" column="1" bodyfile="Source/Utils/String.h" bodystart="214" bodyend="219"/>
+        <location file="Source/Utils/String.h" line="215" column="1" bodyfile="Source/Utils/String.h" bodystart="215" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1037,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="222" column="1" bodyfile="Source/Utils/String.h" bodystart="222" bodyend="227"/>
+        <location file="Source/Utils/String.h" line="223" column="1" bodyfile="Source/Utils/String.h" bodystart="223" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a7d54a855d1dfafa2f06b225dd346553f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1061,7 +1061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="230" column="1" bodyfile="Source/Utils/String.h" bodystart="230" bodyend="235"/>
+        <location file="Source/Utils/String.h" line="231" column="1" bodyfile="Source/Utils/String.h" bodystart="231" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1151,7 +1151,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="168" endline="174">MdDox::SiteBuilder::findReference</references>
         <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
       </memberdef>
@@ -1184,7 +1184,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="215" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="215" bodyend="224"/>
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
@@ -1221,7 +1221,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a7328335d7652fcbddccf5744f5b5c574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1261,7 +1261,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="168" endline="174">MdDox::SiteBuilder::findReference</references>
         <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
       </memberdef>
@@ -1329,7 +1329,7 @@
         <references refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" compoundref="SiteBuilder_8cpp" startline="184" endline="190">MdDox::SiteBuilder::findMember</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="168" endline="174">MdDox::SiteBuilder::findReference</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>

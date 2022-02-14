@@ -387,7 +387,7 @@
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
         <references refid="classMdDox_1_1PageWriter_1a3199dcb45dcad5468a8b8a1060bd25ec" compoundref="PageWriter_8h" startline="38">_outDir</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" compoundref="PageWriter_8h" startline="36">_ref</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>

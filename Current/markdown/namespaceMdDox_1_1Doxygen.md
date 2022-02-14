@@ -777,7 +777,7 @@
 <br/>
 <a id="getfilter"></a>
 <h2>getFilter</h2>
-<span class="inline-text">constexpr const </span>
+<span class="inline-text">const </span>
 <a href="structMdDox_1_1TypeFilter.md#typefilter">TypeFilter</a>
 <span class="inline-text"> *</span>
 <span class="bold-text"><b>getFilter</b></span>

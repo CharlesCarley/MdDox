@@ -23,7 +23,7 @@ set(TargetGroup )
 
 include_directories(${MdDox_SOURCE_DIR}/Source)
 add_executable(${TargetName} Main.cpp)
-target_link_libraries(${TargetName} Utils Xml Doxygen MdDoxTree)
+target_link_libraries(${TargetName} Utils Xml Doxygen MdDoxTree ${EXTRA_LIBS})
 
 copy_target(${TargetName} ${MdDox_BINARY_DIR}/build_files) 
     

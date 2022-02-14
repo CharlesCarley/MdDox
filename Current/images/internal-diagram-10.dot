@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dK9G5xx[
+ WKRRJ3o[
    shape    = none
    label    = "GraphQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dLpG5xx[
+ ddlRJ3o[
    shape    = none
    label    = "GraphWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dK9G5xx->dLpG5xx
+ WKRRJ3o->ddlRJ3o
 }

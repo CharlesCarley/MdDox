@@ -77,14 +77,12 @@ set(Utils_SRC
     TypeFilter.cpp
 )
 
-if (WIN32)
-    set(Utils_PLAT_HDR 
-        Win32/CrtUtils.h
-    )
-    set(Utils_PLAT_SRC 
-        Win32/CrtUtils.cpp
-    )
-endif()
+set(Utils_PLAT_HDR 
+    Win32/CrtUtils.h
+)
+set(Utils_PLAT_SRC 
+    Win32/CrtUtils.cpp
+)
 
 
 source_group("Header" FILES ${Utils_HDR} ${Utils_PLAT_HDR})

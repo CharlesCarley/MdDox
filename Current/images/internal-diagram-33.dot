@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dZA7Ixx[
+ DtlQ03o[
    shape    = none
    label    = "DocumentWriter"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dwA7Ixx[
+ DNHQ03o[
    shape    = none
    label    = "HtmlDocumentWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WQA7Ixx[
+ DpHQ03o[
    shape    = none
    label    = "MarkdownDocumentWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dwA7Ixx->WQA7Ixx
- dZA7Ixx->dwA7Ixx
+ DNHQ03o->DpHQ03o
+ DtlQ03o->DNHQ03o
 }

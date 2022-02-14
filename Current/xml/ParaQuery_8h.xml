@@ -32,273 +32,278 @@
     <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
     <includedby refid="UrlLinkQuery_8cpp" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
     <incdepgraph>
-      <node id="7420">
+      <node id="7666">
         <label>Utils/Console.h</label>
-        <childnode refid="7409" relation="include">
+        <childnode refid="7654" relation="include">
         </childnode>
       </node>
-      <node id="7407">
+      <node id="7660">
+        <label>iomanip</label>
+      </node>
+      <node id="7652">
         <label>functional</label>
       </node>
-      <node id="7416">
+      <node id="7662">
         <label>Utils/Exception.h</label>
-        <childnode refid="7417" relation="include">
+        <childnode refid="7663" relation="include">
         </childnode>
-        <childnode refid="7418" relation="include">
+        <childnode refid="7664" relation="include">
         </childnode>
-        <childnode refid="7419" relation="include">
+        <childnode refid="7665" relation="include">
         </childnode>
-        <childnode refid="7420" relation="include">
+        <childnode refid="7666" relation="include">
         </childnode>
-        <childnode refid="7409" relation="include">
+        <childnode refid="7654" relation="include">
         </childnode>
       </node>
-      <node id="7418">
+      <node id="7664">
         <label>stdexcept</label>
       </node>
-      <node id="7413">
+      <node id="7658">
         <label>string</label>
       </node>
-      <node id="7406">
+      <node id="7651">
         <label>Doxygen.h</label>
-        <childnode refid="7407" relation="include">
+        <childnode refid="7652" relation="include">
         </childnode>
-        <childnode refid="7408" relation="include">
+        <childnode refid="7653" relation="include">
         </childnode>
-        <childnode refid="7409" relation="include">
+        <childnode refid="7654" relation="include">
         </childnode>
-        <childnode refid="7415" relation="include">
+        <childnode refid="7661" relation="include">
         </childnode>
-        <childnode refid="7416" relation="include">
+        <childnode refid="7662" relation="include">
         </childnode>
       </node>
-      <node id="7417">
+      <node id="7663">
         <label>exception</label>
       </node>
-      <node id="7411">
+      <node id="7656">
         <label>fstream</label>
       </node>
-      <node id="7415">
+      <node id="7661">
         <label>Xml/Node.h</label>
-        <childnode refid="7407" relation="include">
+        <childnode refid="7652" relation="include">
         </childnode>
-        <childnode refid="7408" relation="include">
+        <childnode refid="7653" relation="include">
         </childnode>
-        <childnode refid="7409" relation="include">
+        <childnode refid="7654" relation="include">
         </childnode>
       </node>
-      <node id="7405">
+      <node id="7650">
         <label>Tools/Doxygen/ParaQuery.h</label>
         <link refid="ParaQuery_8h"/>
-        <childnode refid="7406" relation="include">
+        <childnode refid="7651" relation="include">
         </childnode>
       </node>
-      <node id="7409">
+      <node id="7654">
         <label>Utils/String.h</label>
-        <childnode refid="7410" relation="include">
+        <childnode refid="7655" relation="include">
         </childnode>
-        <childnode refid="7411" relation="include">
+        <childnode refid="7656" relation="include">
         </childnode>
-        <childnode refid="7412" relation="include">
+        <childnode refid="7657" relation="include">
         </childnode>
-        <childnode refid="7413" relation="include">
+        <childnode refid="7658" relation="include">
         </childnode>
-        <childnode refid="7408" relation="include">
+        <childnode refid="7653" relation="include">
         </childnode>
-        <childnode refid="7414" relation="include">
+        <childnode refid="7659" relation="include">
+        </childnode>
+        <childnode refid="7660" relation="include">
         </childnode>
       </node>
-      <node id="7414">
+      <node id="7659">
         <label>vector</label>
       </node>
-      <node id="7419">
+      <node id="7665">
         <label>utility</label>
       </node>
-      <node id="7412">
+      <node id="7657">
         <label>sstream</label>
       </node>
-      <node id="7410">
+      <node id="7655">
         <label>deque</label>
       </node>
-      <node id="7408">
+      <node id="7653">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7438">
+      <node id="7684">
         <label>Tools/Doxygen/InternalQuery.cpp</label>
       </node>
-      <node id="7449">
+      <node id="7695">
         <label>Tools/Doxygen/Sect2Query.cpp</label>
       </node>
-      <node id="7448">
+      <node id="7694">
         <label>Tools/Doxygen/Sect1Query.cpp</label>
       </node>
-      <node id="7434">
+      <node id="7680">
         <label>Tools/Doxygen/EntryQuery.cpp</label>
       </node>
-      <node id="7432">
+      <node id="7678">
         <label>Tools/Doxygen/CopyQuery.cpp</label>
       </node>
-      <node id="7446">
+      <node id="7692">
         <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
-      <node id="7437">
+      <node id="7683">
         <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
-      <node id="7436">
+      <node id="7682">
         <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
-      <node id="7455">
+      <node id="7701">
         <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
-      <node id="7447">
+      <node id="7693">
         <label>Tools/Doxygen/ParBlockQuery.cpp</label>
       </node>
-      <node id="7454">
+      <node id="7700">
         <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
-      <node id="7445">
+      <node id="7691">
         <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
-      <node id="7429">
+      <node id="7675">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="7431">
+      <node id="7677">
         <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
-      <node id="7428">
+      <node id="7674">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="7453">
+      <node id="7699">
         <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
-      <node id="7421">
+      <node id="7667">
         <label>Tools/Doxygen/ParaQuery.h</label>
         <link refid="ParaQuery_8h"/>
-        <childnode refid="7422" relation="include">
+        <childnode refid="7668" relation="include">
         </childnode>
-        <childnode refid="7423" relation="include">
+        <childnode refid="7669" relation="include">
         </childnode>
-        <childnode refid="7430" relation="include">
+        <childnode refid="7676" relation="include">
         </childnode>
-        <childnode refid="7431" relation="include">
+        <childnode refid="7677" relation="include">
         </childnode>
-        <childnode refid="7432" relation="include">
+        <childnode refid="7678" relation="include">
         </childnode>
-        <childnode refid="7433" relation="include">
+        <childnode refid="7679" relation="include">
         </childnode>
-        <childnode refid="7434" relation="include">
+        <childnode refid="7680" relation="include">
         </childnode>
-        <childnode refid="7435" relation="include">
+        <childnode refid="7681" relation="include">
         </childnode>
-        <childnode refid="7436" relation="include">
+        <childnode refid="7682" relation="include">
         </childnode>
-        <childnode refid="7437" relation="include">
+        <childnode refid="7683" relation="include">
         </childnode>
-        <childnode refid="7438" relation="include">
+        <childnode refid="7684" relation="include">
         </childnode>
-        <childnode refid="7439" relation="include">
+        <childnode refid="7685" relation="include">
         </childnode>
-        <childnode refid="7440" relation="include">
+        <childnode refid="7686" relation="include">
         </childnode>
-        <childnode refid="7441" relation="include">
+        <childnode refid="7687" relation="include">
         </childnode>
-        <childnode refid="7442" relation="include">
+        <childnode refid="7688" relation="include">
         </childnode>
-        <childnode refid="7443" relation="include">
+        <childnode refid="7689" relation="include">
         </childnode>
-        <childnode refid="7444" relation="include">
+        <childnode refid="7690" relation="include">
         </childnode>
-        <childnode refid="7445" relation="include">
+        <childnode refid="7691" relation="include">
         </childnode>
-        <childnode refid="7446" relation="include">
+        <childnode refid="7692" relation="include">
         </childnode>
-        <childnode refid="7447" relation="include">
+        <childnode refid="7693" relation="include">
         </childnode>
-        <childnode refid="7448" relation="include">
+        <childnode refid="7694" relation="include">
         </childnode>
-        <childnode refid="7449" relation="include">
+        <childnode refid="7695" relation="include">
         </childnode>
-        <childnode refid="7450" relation="include">
+        <childnode refid="7696" relation="include">
         </childnode>
-        <childnode refid="7451" relation="include">
+        <childnode refid="7697" relation="include">
         </childnode>
-        <childnode refid="7452" relation="include">
+        <childnode refid="7698" relation="include">
         </childnode>
-        <childnode refid="7453" relation="include">
+        <childnode refid="7699" relation="include">
         </childnode>
-        <childnode refid="7454" relation="include">
+        <childnode refid="7700" relation="include">
         </childnode>
-        <childnode refid="7455" relation="include">
+        <childnode refid="7701" relation="include">
         </childnode>
       </node>
-      <node id="7427">
+      <node id="7673">
         <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
-      <node id="7422">
+      <node id="7668">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="7424">
+      <node id="7670">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="7444">
+      <node id="7690">
         <label>Tools/Doxygen/ListItemQuery.cpp</label>
       </node>
-      <node id="7423">
+      <node id="7669">
         <label>Source/MdDoxTree/ParagraphWriter.h</label>
-        <childnode refid="7422" relation="include">
+        <childnode refid="7668" relation="include">
         </childnode>
-        <childnode refid="7424" relation="include">
+        <childnode refid="7670" relation="include">
         </childnode>
-        <childnode refid="7425" relation="include">
+        <childnode refid="7671" relation="include">
         </childnode>
-        <childnode refid="7426" relation="include">
+        <childnode refid="7672" relation="include">
         </childnode>
-        <childnode refid="7427" relation="include">
+        <childnode refid="7673" relation="include">
         </childnode>
-        <childnode refid="7428" relation="include">
+        <childnode refid="7674" relation="include">
         </childnode>
-        <childnode refid="7429" relation="include">
+        <childnode refid="7675" relation="include">
         </childnode>
       </node>
-      <node id="7426">
+      <node id="7672">
         <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="7425">
+      <node id="7671">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="7435">
+      <node id="7681">
         <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
-      <node id="7451">
+      <node id="7697">
         <label>Tools/Doxygen/Sect4Query.cpp</label>
       </node>
-      <node id="7443">
+      <node id="7689">
         <label>Tools/Doxygen/LanguageQuery.cpp</label>
       </node>
-      <node id="7450">
+      <node id="7696">
         <label>Tools/Doxygen/Sect3Query.cpp</label>
       </node>
-      <node id="7441">
+      <node id="7687">
         <label>Tools/Doxygen/InternalS3Query.cpp</label>
       </node>
-      <node id="7433">
+      <node id="7679">
         <label>Tools/Doxygen/DescriptionQuery.cpp</label>
       </node>
-      <node id="7442">
+      <node id="7688">
         <label>Tools/Doxygen/InternalS4Query.cpp</label>
       </node>
-      <node id="7439">
+      <node id="7685">
         <label>Tools/Doxygen/InternalS1Query.cpp</label>
       </node>
-      <node id="7430">
+      <node id="7676">
         <label>Tools/Doxygen/BlockQuoteQuery.cpp</label>
       </node>
-      <node id="7440">
+      <node id="7686">
         <label>Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
-      <node id="7452">
+      <node id="7698">
         <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>

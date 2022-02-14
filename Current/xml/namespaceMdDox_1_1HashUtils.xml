@@ -19,7 +19,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="31" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="31" bodyend="34"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" compoundref="HashUtils_8cpp" startline="36" endline="45">titleOnly</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1adcb3767acb65a3f4f08673a3f11a155a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -38,7 +38,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="47" bodyend="50"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -56,7 +56,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="26" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="26" bodyend="29"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1HashUtils_1accac63a50c967886ef92738e1dd06ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>

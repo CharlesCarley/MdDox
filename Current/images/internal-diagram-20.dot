@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WtWG5xx[
+ dMplJ3o[
    shape    = none
    label    = "Sect3QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d0OG5xx[
+ W4blJ3o[
    shape    = none
    label    = "Section3Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WtWG5xx->d0OG5xx
+ dMplJ3o->W4blJ3o
 }

@@ -47,7 +47,7 @@
         <location file="Source/MdDoxTree/Link.h" line="40" column="1" bodyfile="Source/MdDoxTree/Link.cpp" bodystart="37" bodyend="43"/>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="156">MdDox::SiteBuilder::outputFileExt</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
       </memberdef>
@@ -77,7 +77,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Link.h" line="42" column="1" bodyfile="Source/MdDoxTree/Link.cpp" bodystart="45" bodyend="49"/>
         <references refid="classMdDox_1_1Link_1a8bdafdb0a903e68bbacaeed067c2c7e9" compoundref="Link_8h" startline="54" endline="57">getInput</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Link_1a67e992a3e5f241cb628b3e823e36befc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -95,7 +95,7 @@
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="156">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1Link_1adf11b211d5ef482bbe21d62b0003ec87" compoundref="Link_8cpp" startline="37" endline="43">getOutput</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Link_1a409cd59619d88bd10f7831b6d753c1ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -131,7 +131,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Link.h" line="38" column="1" bodyfile="Source/MdDoxTree/Link.cpp" bodystart="29" bodyend="35"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
         <references refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" compoundref="Path_8cpp" startline="196" endline="202">MdDox::PathUtil::fullExtension</references>
       </memberdef>

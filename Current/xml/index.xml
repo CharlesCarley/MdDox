@@ -2418,8 +2418,7 @@
   </compound>
   <compound refid="classMdDox_1_1FileSystem" kind="class"><name>MdDox::FileSystem</name>
     <member refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" kind="function"><name>absolute</name></member>
-    <member refid="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" kind="function"><name>combine</name></member>
-    <member refid="classMdDox_1_1FileSystem_1a8e01d0caf20c40e6f960072e3e786172" kind="function"><name>glob</name></member>
+    <member refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" kind="function"><name>currentPath</name></member>
     <member refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" kind="function"><name>normalize</name></member>
     <member refid="classMdDox_1_1FileSystem_1aa233e70eca4df4ab76d586f54f552180" kind="function"><name>normalize</name></member>
   </compound>
@@ -3443,7 +3442,7 @@
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eafda00e3f71ab22247d399a7140839d29" kind="enumvalue"><name>OptGenType</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" kind="enumvalue"><name>OptConfigFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" kind="enumvalue"><name>OpMax</name></member>
-    <member refid="namespaceMdDox_1a94068c3f59491d9ac7b255a403efe1a3" kind="typedef"><name>Directory</name></member>
+    <member refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" kind="typedef"><name>Directory</name></member>
     <member refid="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" kind="typedef"><name>InputFileStream</name></member>
     <member refid="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" kind="typedef"><name>InputStringStream</name></member>
     <member refid="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" kind="typedef"><name>IntTable</name></member>
@@ -3451,7 +3450,7 @@
     <member refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kind="typedef"><name>OStream</name></member>
     <member refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kind="typedef"><name>OutputFileStream</name></member>
     <member refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kind="typedef"><name>OutputStringStream</name></member>
-    <member refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kind="typedef"><name>Path</name></member>
+    <member refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kind="typedef"><name>Path</name></member>
     <member refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" kind="typedef"><name>PathArray</name></member>
     <member refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kind="typedef"><name>ReferenceList</name></member>
     <member refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kind="typedef"><name>ReferenceMap</name></member>
@@ -3873,7 +3872,7 @@
     <member refid="namespaceMdDox_1_1Doxygen_1ab966a70ae88164652b3a19949a5c1b55" kind="typedef"><name>VarListEntryQueryFunction</name></member>
     <member refid="namespaceMdDox_1_1Doxygen_1acfcd287c285a78c64eff4e35db394de7" kind="typedef"><name>XRefSectQueryFunction</name></member>
     <member refid="namespaceMdDox_1_1Doxygen_1a237d270e235071f7d95f4a5a927f88ba" kind="variable"><name>CurrentTags</name></member>
-    <member refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" kind="function"><name>getFilter</name></member>
+    <member refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" kind="function"><name>getFilter</name></member>
     <member refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" kind="function"><name>getFilterSize</name></member>
     <member refid="namespaceMdDox_1_1Doxygen_1aed26b7fdd7f7669ba749800039c040bc" kind="function"><name>QueryForEach</name></member>
   </compound>
@@ -4257,6 +4256,7 @@
   <compound refid="FileSystem_8cpp" kind="file"><name>FileSystem.cpp</name>
   </compound>
   <compound refid="FileSystem_8h" kind="file"><name>FileSystem.h</name>
+    <member refid="FileSystem_8h_1aa6ccae2e55945539dc4001d69a2e0dbd" kind="define"><name>local_filesystem</name></member>
   </compound>
   <compound refid="IndexCache_8h" kind="file"><name>IndexCache.h</name>
   </compound>

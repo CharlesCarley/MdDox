@@ -139,7 +139,7 @@ namespace MdDox::Doxygen
         // clang-format on
     };
 
-    constexpr const TypeFilter* getFilter()
+    const TypeFilter* getFilter()
     {
         return CurrentTags;
     }

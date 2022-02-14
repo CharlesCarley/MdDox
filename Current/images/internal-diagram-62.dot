@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WohG5xx[
+ WiOlJ3o[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W8ZG5xx[
+ dRNlJ3o[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WLEG5xx[
+ dwalJ3o[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dzEG5xx[
+ WzalJ3o[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d2qG5xx[
+ WExlJ3o[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WGEG5xx[
+ WaalJ3o[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d2qG5xx->WGEG5xx
- WLEG5xx->dzEG5xx
- WLEG5xx->d2qG5xx
- WohG5xx->W8ZG5xx
- WohG5xx->WLEG5xx
+ WExlJ3o->WaalJ3o
+ dwalJ3o->WzalJ3o
+ dwalJ3o->WExlJ3o
+ WiOlJ3o->dRNlJ3o
+ WiOlJ3o->dwalJ3o
 }

@@ -693,6 +693,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#currentpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">currentPath</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#splitrejectempty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitRejectEmpty</span>
 </a>
 </span>

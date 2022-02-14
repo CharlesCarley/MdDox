@@ -55,5 +55,6 @@ if (MSVC)
 
 	
 else()
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC ")
+	set(EXTRA_LIBS "stdc++fs")
 endif()

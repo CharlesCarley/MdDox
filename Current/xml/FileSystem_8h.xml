@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="FileSystem_8h" kind="file" language="C++">
     <compoundname>FileSystem.h</compoundname>
-    <includes local="no">filesystem</includes>
+    <includes local="no">experimental/filesystem</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="DocumentWriter_8h" local="yes">Source/MdDoxTree/DocumentWriter.h</includedby>
     <includedby refid="HtmlDocumentWriter_8h" local="yes">Source/MdDoxTree/HtmlDocumentWriter.h</includedby>
@@ -10,6 +10,7 @@
     <includedby refid="MarkdownDocumentWriter_8h" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.h</includedby>
     <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
     <includedby refid="Utils_2CommandLine_2Parser_8h" local="yes">Source/Utils/CommandLine/Parser.h</includedby>
+    <includedby refid="Utils_2CommandLine_2Parser_8cpp" local="yes">Source/Utils/CommandLine/Parser.cpp</includedby>
     <includedby refid="FileSystem_8cpp" local="yes">Source/Utils/FileSystem.cpp</includedby>
     <includedby refid="ParserBase_8cpp" local="yes">Source/Utils/ParserBase/ParserBase.cpp</includedby>
     <includedby refid="ScannerBase_8h" local="yes">Source/Utils/ParserBase/ScannerBase.h</includedby>
@@ -17,346 +18,366 @@
     <includedby refid="Writer_8cpp" local="yes">Source/Xml/Writer.cpp</includedby>
     <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <incdepgraph>
-      <node id="2984">
-        <label>filesystem</label>
+      <node id="3085">
+        <label>iomanip</label>
       </node>
-      <node id="2989">
+      <node id="3082">
         <label>string</label>
       </node>
-      <node id="2987">
+      <node id="3080">
         <label>fstream</label>
       </node>
-      <node id="2985">
+      <node id="3078">
         <label>Utils/String.h</label>
-        <childnode refid="2986" relation="include">
+        <childnode refid="3079" relation="include">
         </childnode>
-        <childnode refid="2987" relation="include">
+        <childnode refid="3080" relation="include">
         </childnode>
-        <childnode refid="2988" relation="include">
+        <childnode refid="3081" relation="include">
         </childnode>
-        <childnode refid="2989" relation="include">
+        <childnode refid="3082" relation="include">
         </childnode>
-        <childnode refid="2990" relation="include">
+        <childnode refid="3083" relation="include">
         </childnode>
-        <childnode refid="2991" relation="include">
+        <childnode refid="3084" relation="include">
+        </childnode>
+        <childnode refid="3085" relation="include">
         </childnode>
       </node>
-      <node id="2991">
+      <node id="3084">
         <label>vector</label>
       </node>
-      <node id="2988">
+      <node id="3081">
         <label>sstream</label>
       </node>
-      <node id="2983">
+      <node id="3076">
         <label>Source/Utils/FileSystem.h</label>
         <link refid="FileSystem_8h"/>
-        <childnode refid="2984" relation="include">
+        <childnode refid="3077" relation="include">
         </childnode>
-        <childnode refid="2985" relation="include">
+        <childnode refid="3078" relation="include">
         </childnode>
       </node>
-      <node id="2986">
+      <node id="3079">
         <label>deque</label>
       </node>
-      <node id="2990">
+      <node id="3083">
         <label>unordered_map</label>
+      </node>
+      <node id="3077">
+        <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3039">
+      <node id="3133">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="3045">
+      <node id="3139">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="3031">
+      <node id="3125">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="3017">
+      <node id="3111">
         <label>Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
-      <node id="3030">
+      <node id="3124">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="3012">
+      <node id="3106">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="3034">
+      <node id="3128">
         <label>Source/Utils/ParserBase/ScannerBase.h</label>
-        <childnode refid="3033" relation="include">
+        <childnode refid="3127" relation="include">
         </childnode>
-        <childnode refid="3035" relation="include">
+        <childnode refid="3129" relation="include">
         </childnode>
-        <childnode refid="3040" relation="include">
+        <childnode refid="3134" relation="include">
         </childnode>
-        <childnode refid="3041" relation="include">
+        <childnode refid="3135" relation="include">
         </childnode>
       </node>
-      <node id="2999">
+      <node id="3093">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="3035">
+      <node id="3129">
         <label>Source/Utils/ParserBase/ParserBase.h</label>
-        <childnode refid="3036" relation="include">
+        <childnode refid="3130" relation="include">
         </childnode>
-        <childnode refid="3033" relation="include">
+        <childnode refid="3127" relation="include">
         </childnode>
-        <childnode refid="3037" relation="include">
+        <childnode refid="3131" relation="include">
         </childnode>
-        <childnode refid="3038" relation="include">
+        <childnode refid="3132" relation="include">
         </childnode>
       </node>
-      <node id="3023">
+      <node id="3117">
         <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="3025">
+      <node id="3119">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="3029">
+      <node id="3123">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="3001">
+      <node id="3095">
         <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
-        <childnode refid="3002" relation="include">
+        <childnode refid="3096" relation="include">
         </childnode>
-        <childnode refid="3003" relation="include">
+        <childnode refid="3097" relation="include">
         </childnode>
-        <childnode refid="3004" relation="include">
+        <childnode refid="3098" relation="include">
         </childnode>
-        <childnode refid="3005" relation="include">
+        <childnode refid="3099" relation="include">
         </childnode>
       </node>
-      <node id="3000">
+      <node id="3094">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="3043">
+      <node id="3137">
         <label>Source/Utils/Path.cpp</label>
       </node>
-      <node id="3032">
+      <node id="3126">
         <label>Source/Utils/FileSystem.cpp</label>
       </node>
-      <node id="3036">
+      <node id="3130">
         <label>Source/MdDoxTree/Config.cpp</label>
       </node>
-      <node id="3003">
+      <node id="3097">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="2993">
+      <node id="3087">
         <label>Source/MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="2994" relation="include">
+        <childnode refid="3088" relation="include">
         </childnode>
-        <childnode refid="2995" relation="include">
+        <childnode refid="3089" relation="include">
         </childnode>
-        <childnode refid="2996" relation="include">
+        <childnode refid="3090" relation="include">
         </childnode>
-        <childnode refid="2997" relation="include">
+        <childnode refid="3091" relation="include">
         </childnode>
-        <childnode refid="2998" relation="include">
+        <childnode refid="3092" relation="include">
         </childnode>
-        <childnode refid="2999" relation="include">
+        <childnode refid="3093" relation="include">
         </childnode>
-        <childnode refid="3000" relation="include">
+        <childnode refid="3094" relation="include">
         </childnode>
-        <childnode refid="3001" relation="include">
+        <childnode refid="3095" relation="include">
         </childnode>
-        <childnode refid="3008" relation="include">
+        <childnode refid="3102" relation="include">
         </childnode>
-        <childnode refid="3009" relation="include">
+        <childnode refid="3103" relation="include">
         </childnode>
-        <childnode refid="3010" relation="include">
+        <childnode refid="3104" relation="include">
         </childnode>
-        <childnode refid="3011" relation="include">
+        <childnode refid="3105" relation="include">
         </childnode>
-        <childnode refid="3012" relation="include">
+        <childnode refid="3106" relation="include">
         </childnode>
-        <childnode refid="3013" relation="include">
+        <childnode refid="3107" relation="include">
         </childnode>
-        <childnode refid="3014" relation="include">
+        <childnode refid="3108" relation="include">
         </childnode>
-        <childnode refid="3015" relation="include">
+        <childnode refid="3109" relation="include">
         </childnode>
-        <childnode refid="3016" relation="include">
+        <childnode refid="3110" relation="include">
         </childnode>
-        <childnode refid="3017" relation="include">
+        <childnode refid="3111" relation="include">
         </childnode>
-        <childnode refid="3018" relation="include">
+        <childnode refid="3112" relation="include">
         </childnode>
-        <childnode refid="3019" relation="include">
+        <childnode refid="3113" relation="include">
         </childnode>
-        <childnode refid="3020" relation="include">
+        <childnode refid="3114" relation="include">
         </childnode>
-        <childnode refid="3021" relation="include">
+        <childnode refid="3115" relation="include">
         </childnode>
-        <childnode refid="3022" relation="include">
+        <childnode refid="3116" relation="include">
         </childnode>
-        <childnode refid="3023" relation="include">
+        <childnode refid="3117" relation="include">
         </childnode>
-        <childnode refid="3024" relation="include">
+        <childnode refid="3118" relation="include">
         </childnode>
-        <childnode refid="3025" relation="include">
+        <childnode refid="3119" relation="include">
         </childnode>
       </node>
-      <node id="3021">
+      <node id="3115">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="3028">
+      <node id="3122">
         <label>Source/Utils/CommandLine/Parser.h</label>
-        <childnode refid="3002" relation="include">
+        <childnode refid="3096" relation="include">
         </childnode>
-        <childnode refid="3029" relation="include">
+        <childnode refid="3123" relation="include">
         </childnode>
-        <childnode refid="3030" relation="include">
+        <childnode refid="3124" relation="include">
         </childnode>
-        <childnode refid="3031" relation="include">
+        <childnode refid="3125" relation="include">
         </childnode>
       </node>
-      <node id="2997">
+      <node id="3091">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="3033">
+      <node id="3127">
         <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
-      <node id="3005">
+      <node id="3099">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
-        <childnode refid="3002" relation="include">
+        <childnode refid="3096" relation="include">
         </childnode>
-        <childnode refid="3006" relation="include">
+        <childnode refid="3100" relation="include">
         </childnode>
-        <childnode refid="3007" relation="include">
+        <childnode refid="3101" relation="include">
         </childnode>
       </node>
-      <node id="3013">
+      <node id="3107">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="3014">
+      <node id="3108">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="3020">
+      <node id="3114">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="3044">
+      <node id="3138">
         <label>Source/Xml/Writer.cpp</label>
       </node>
-      <node id="3042">
+      <node id="3136">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="2998">
+      <node id="3092">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="3019">
+      <node id="3113">
         <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
-      <node id="3038">
+      <node id="3132">
         <label>Source/Xml/Parser.h</label>
-        <childnode refid="3002" relation="include">
+        <childnode refid="3096" relation="include">
         </childnode>
-        <childnode refid="3008" relation="include">
+        <childnode refid="3102" relation="include">
         </childnode>
-        <childnode refid="3024" relation="include">
+        <childnode refid="3118" relation="include">
         </childnode>
-        <childnode refid="3039" relation="include">
+        <childnode refid="3133" relation="include">
         </childnode>
-        <childnode refid="3030" relation="include">
+        <childnode refid="3124" relation="include">
         </childnode>
       </node>
-      <node id="2995">
+      <node id="3089">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="3004">
+      <node id="3098">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="2994">
+      <node id="3088">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="3024">
+      <node id="3118">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="3016">
+      <node id="3110">
         <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
-      <node id="3018">
+      <node id="3112">
         <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="3007">
+      <node id="3101">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="3006">
+      <node id="3100">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="3027">
+      <node id="3121">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="3015">
+      <node id="3109">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="3040">
+      <node id="3134">
         <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
       </node>
-      <node id="3002">
+      <node id="3096">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="3009">
+      <node id="3103">
         <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
       </node>
-      <node id="3022">
+      <node id="3116">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="2992">
+      <node id="3086">
         <label>Source/Utils/FileSystem.h</label>
         <link refid="FileSystem_8h"/>
-        <childnode refid="2993" relation="include">
+        <childnode refid="3087" relation="include">
         </childnode>
-        <childnode refid="3001" relation="include">
+        <childnode refid="3095" relation="include">
         </childnode>
-        <childnode refid="3026" relation="include">
+        <childnode refid="3120" relation="include">
         </childnode>
-        <childnode refid="3005" relation="include">
+        <childnode refid="3099" relation="include">
         </childnode>
-        <childnode refid="3027" relation="include">
+        <childnode refid="3121" relation="include">
         </childnode>
-        <childnode refid="3028" relation="include">
+        <childnode refid="3122" relation="include">
         </childnode>
-        <childnode refid="3032" relation="include">
+        <childnode refid="3123" relation="include">
         </childnode>
-        <childnode refid="3033" relation="include">
+        <childnode refid="3126" relation="include">
         </childnode>
-        <childnode refid="3034" relation="include">
+        <childnode refid="3127" relation="include">
         </childnode>
-        <childnode refid="3043" relation="include">
+        <childnode refid="3128" relation="include">
         </childnode>
-        <childnode refid="3044" relation="include">
+        <childnode refid="3137" relation="include">
         </childnode>
-        <childnode refid="3045" relation="include">
+        <childnode refid="3138" relation="include">
+        </childnode>
+        <childnode refid="3139" relation="include">
         </childnode>
       </node>
-      <node id="3041">
+      <node id="3135">
         <label>Source/Xml/Scanner.h</label>
-        <childnode refid="3039" relation="include">
+        <childnode refid="3133" relation="include">
         </childnode>
-        <childnode refid="3042" relation="include">
+        <childnode refid="3136" relation="include">
         </childnode>
       </node>
-      <node id="3011">
+      <node id="3105">
         <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
-      <node id="3026">
+      <node id="3120">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="3010">
+      <node id="3104">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
-      <node id="2996">
+      <node id="3090">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="3008">
+      <node id="3102">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
-      <node id="3037">
+      <node id="3131">
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1FileSystem" prot="public">MdDox::FileSystem</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="FileSystem_8h_1aa6ccae2e55945539dc4001d69a2e0dbd" prot="public" static="no">
+        <name>local_filesystem</name>
+        <initializer>std::experimental::filesystem</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="29" column="11" bodyfile="Source/Utils/FileSystem.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -385,33 +406,34 @@
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29" refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>std::filesystem::path;</highlight></codeline>
-<codeline lineno="30" refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" kindref="member">PathArray</ref><sp/>=<sp/>std::vector&lt;Path&gt;;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>local_filesystem<sp/>std::filesystem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;experimental/filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>local_filesystem<sp/>std::experimental::filesystem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="classMdDox_1_1FileSystem" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1FileSystem" kindref="compound" tooltip="Static utility class for handling files. ">FileSystem</ref></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1FileSystem_1a8e01d0caf20c40e6f960072e3e786172" kindref="member">glob</ref>(<ref refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" kindref="member">PathArray</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ext);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref><sp/>=<sp/>local_filesystem::path;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" kindref="member">PathArray</ref><sp/>=<sp/>std::vector&lt;Path&gt;;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" kindref="member">normalize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>path);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref><sp/><sp/><sp/><ref refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" kindref="member">normalize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref>&amp;<sp/>path);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref><sp/><ref refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" kindref="member">absolute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
-<codeline lineno="46" refid="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref><sp/><ref refid="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" kindref="member">combine</ref>(Args&amp;&amp;...<sp/>args)</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" kindref="member">absolute</ref>(oss.str());</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="53"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classMdDox_1_1FileSystem" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1FileSystem" kindref="compound" tooltip="Static utility class for handling files. ">FileSystem</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" kindref="member">normalize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>path);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref><sp/><ref refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" kindref="member">normalize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref>&amp;<sp/>path);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref><sp/><ref refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" kindref="member">absolute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" kindref="member">currentPath</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/Utils/FileSystem.h"/>
   </compounddef>

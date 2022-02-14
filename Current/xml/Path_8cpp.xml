@@ -6,73 +6,78 @@
     <includes refid="Char_8h" local="yes">Char.h</includes>
     <includes refid="FileSystem_8h" local="yes">Utils/FileSystem.h</includes>
     <incdepgraph>
-      <node id="3248">
-        <label>filesystem</label>
+      <node id="3346">
+        <label>iomanip</label>
       </node>
-      <node id="3237">
+      <node id="3338">
         <label>Utils/Path.h</label>
-        <childnode refid="3238" relation="include">
+        <childnode refid="3339" relation="include">
         </childnode>
       </node>
-      <node id="3246">
+      <node id="3348">
         <label>cstdint</label>
       </node>
-      <node id="3236">
+      <node id="3337">
         <label>Source/Utils/Path.cpp</label>
         <link refid="Path_8cpp"/>
-        <childnode refid="3237" relation="include">
+        <childnode refid="3338" relation="include">
         </childnode>
-        <childnode refid="3245" relation="include">
+        <childnode refid="3347" relation="include">
         </childnode>
-        <childnode refid="3247" relation="include">
+        <childnode refid="3349" relation="include">
         </childnode>
       </node>
-      <node id="3242">
+      <node id="3343">
         <label>string</label>
       </node>
-      <node id="3240">
+      <node id="3341">
         <label>fstream</label>
       </node>
-      <node id="3238">
+      <node id="3339">
         <label>Utils/String.h</label>
-        <childnode refid="3239" relation="include">
+        <childnode refid="3340" relation="include">
         </childnode>
-        <childnode refid="3240" relation="include">
+        <childnode refid="3341" relation="include">
         </childnode>
-        <childnode refid="3241" relation="include">
+        <childnode refid="3342" relation="include">
         </childnode>
-        <childnode refid="3242" relation="include">
+        <childnode refid="3343" relation="include">
         </childnode>
-        <childnode refid="3243" relation="include">
+        <childnode refid="3344" relation="include">
         </childnode>
-        <childnode refid="3244" relation="include">
+        <childnode refid="3345" relation="include">
+        </childnode>
+        <childnode refid="3346" relation="include">
         </childnode>
       </node>
-      <node id="3244">
+      <node id="3345">
         <label>vector</label>
       </node>
-      <node id="3241">
+      <node id="3342">
         <label>sstream</label>
       </node>
-      <node id="3245">
+      <node id="3347">
         <label>Char.h</label>
-        <childnode refid="3246" relation="include">
+        <childnode refid="3348" relation="include">
         </childnode>
-        <childnode refid="3238" relation="include">
+        <childnode refid="3339" relation="include">
         </childnode>
       </node>
-      <node id="3247">
+      <node id="3349">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="3248" relation="include">
+        <childnode refid="3350" relation="include">
         </childnode>
-        <childnode refid="3238" relation="include">
+        <childnode refid="3339" relation="include">
         </childnode>
       </node>
-      <node id="3239">
+      <node id="3340">
         <label>deque</label>
       </node>
-      <node id="3243">
+      <node id="3344">
         <label>unordered_map</label>
+      </node>
+      <node id="3350">
+        <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
@@ -110,7 +115,7 @@
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28" refid="namespaceMdDox_1a725cb964f7d71eb46603b9b5a0ddc018" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a725cb964f7d71eb46603b9b5a0ddc018" kindref="member">NLoc</ref><sp/>=<sp/>(size_t)-1;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="namespaceMdDox_1a94068c3f59491d9ac7b255a403efe1a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a94068c3f59491d9ac7b255a403efe1a3" kindref="member">Directory</ref><sp/>=<sp/>std::filesystem::directory_entry;</highlight></codeline>
+<codeline lineno="30" refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" kindref="member">Directory</ref><sp/>=<sp/>local_filesystem::directory_entry;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PathUtil::construct(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -258,7 +263,7 @@
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
 <codeline lineno="176" refid="classMdDox_1_1PathUtil_1a76a0e63f574b4c06d4945dc764df1243" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil_1a76a0e63f574b4c06d4945dc764df1243" kindref="member">PathUtil::exists</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="177"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::filesystem::exists(<ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref>(<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>()));</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>local_filesystem::exists(<ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref>(<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>()));</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
 <codeline lineno="181" refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">PathUtil::fullPath</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>

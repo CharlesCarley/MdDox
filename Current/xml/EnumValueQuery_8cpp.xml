@@ -7,138 +7,143 @@
     <includes refid="LinkedTextQuery_8h" local="yes">LinkedTextQuery.h</includes>
     <includes refid="DescriptionQuery_8h" local="yes">DescriptionQuery.h</includes>
     <incdepgraph>
-      <node id="5877">
+      <node id="6056">
         <label>Utils/Console.h</label>
-        <childnode refid="5866" relation="include">
+        <childnode refid="6044" relation="include">
         </childnode>
       </node>
-      <node id="5864">
+      <node id="6050">
+        <label>iomanip</label>
+      </node>
+      <node id="6042">
         <label>functional</label>
       </node>
-      <node id="5881">
+      <node id="6060">
         <label>cstdint</label>
       </node>
-      <node id="5873">
+      <node id="6052">
         <label>Utils/Exception.h</label>
-        <childnode refid="5874" relation="include">
+        <childnode refid="6053" relation="include">
         </childnode>
-        <childnode refid="5875" relation="include">
+        <childnode refid="6054" relation="include">
         </childnode>
-        <childnode refid="5876" relation="include">
+        <childnode refid="6055" relation="include">
         </childnode>
-        <childnode refid="5877" relation="include">
+        <childnode refid="6056" relation="include">
         </childnode>
-        <childnode refid="5866" relation="include">
+        <childnode refid="6044" relation="include">
         </childnode>
       </node>
-      <node id="5883">
+      <node id="6062">
         <label>DescriptionQuery.h</label>
-        <childnode refid="5863" relation="include">
+        <childnode refid="6041" relation="include">
         </childnode>
       </node>
-      <node id="5875">
+      <node id="6054">
         <label>stdexcept</label>
       </node>
-      <node id="5870">
+      <node id="6048">
         <label>string</label>
       </node>
-      <node id="5863">
+      <node id="6041">
         <label>Doxygen.h</label>
-        <childnode refid="5864" relation="include">
+        <childnode refid="6042" relation="include">
         </childnode>
-        <childnode refid="5865" relation="include">
+        <childnode refid="6043" relation="include">
         </childnode>
-        <childnode refid="5866" relation="include">
+        <childnode refid="6044" relation="include">
         </childnode>
-        <childnode refid="5872" relation="include">
+        <childnode refid="6051" relation="include">
         </childnode>
-        <childnode refid="5873" relation="include">
+        <childnode refid="6052" relation="include">
         </childnode>
       </node>
-      <node id="5874">
+      <node id="6053">
         <label>exception</label>
       </node>
-      <node id="5868">
+      <node id="6046">
         <label>fstream</label>
       </node>
-      <node id="5872">
+      <node id="6051">
         <label>Xml/Node.h</label>
-        <childnode refid="5864" relation="include">
+        <childnode refid="6042" relation="include">
         </childnode>
-        <childnode refid="5865" relation="include">
+        <childnode refid="6043" relation="include">
         </childnode>
-        <childnode refid="5866" relation="include">
+        <childnode refid="6044" relation="include">
         </childnode>
       </node>
-      <node id="5878">
+      <node id="6057">
         <label>DoxProtectionKind.h</label>
-        <childnode refid="5863" relation="include">
+        <childnode refid="6041" relation="include">
         </childnode>
       </node>
-      <node id="5866">
+      <node id="6044">
         <label>Utils/String.h</label>
-        <childnode refid="5867" relation="include">
+        <childnode refid="6045" relation="include">
         </childnode>
-        <childnode refid="5868" relation="include">
+        <childnode refid="6046" relation="include">
         </childnode>
-        <childnode refid="5869" relation="include">
+        <childnode refid="6047" relation="include">
         </childnode>
-        <childnode refid="5870" relation="include">
+        <childnode refid="6048" relation="include">
         </childnode>
-        <childnode refid="5865" relation="include">
+        <childnode refid="6043" relation="include">
         </childnode>
-        <childnode refid="5871" relation="include">
+        <childnode refid="6049" relation="include">
+        </childnode>
+        <childnode refid="6050" relation="include">
         </childnode>
       </node>
-      <node id="5861">
+      <node id="6039">
         <label>Tools/Doxygen/EnumValueQuery.cpp</label>
         <link refid="EnumValueQuery_8cpp"/>
-        <childnode refid="5862" relation="include">
+        <childnode refid="6040" relation="include">
         </childnode>
-        <childnode refid="5879" relation="include">
+        <childnode refid="6058" relation="include">
         </childnode>
-        <childnode refid="5882" relation="include">
+        <childnode refid="6061" relation="include">
         </childnode>
-        <childnode refid="5883" relation="include">
+        <childnode refid="6062" relation="include">
         </childnode>
       </node>
-      <node id="5871">
+      <node id="6049">
         <label>vector</label>
       </node>
-      <node id="5876">
+      <node id="6055">
         <label>utility</label>
       </node>
-      <node id="5869">
+      <node id="6047">
         <label>sstream</label>
       </node>
-      <node id="5879">
+      <node id="6058">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="5880" relation="include">
+        <childnode refid="6059" relation="include">
         </childnode>
       </node>
-      <node id="5882">
+      <node id="6061">
         <label>LinkedTextQuery.h</label>
-        <childnode refid="5863" relation="include">
+        <childnode refid="6041" relation="include">
         </childnode>
       </node>
-      <node id="5867">
+      <node id="6045">
         <label>deque</label>
       </node>
-      <node id="5865">
+      <node id="6043">
         <label>unordered_map</label>
       </node>
-      <node id="5862">
+      <node id="6040">
         <label>EnumValueQuery.h</label>
-        <childnode refid="5863" relation="include">
+        <childnode refid="6041" relation="include">
         </childnode>
-        <childnode refid="5878" relation="include">
+        <childnode refid="6057" relation="include">
         </childnode>
       </node>
-      <node id="5880">
+      <node id="6059">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="5881" relation="include">
+        <childnode refid="6060" relation="include">
         </childnode>
-        <childnode refid="5866" relation="include">
+        <childnode refid="6044" relation="include">
         </childnode>
       </node>
     </incdepgraph>

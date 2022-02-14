@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DzYxIxx[
+ D2UG03o[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qK5xIxx[
+ DJMw03o[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZYxIxx[
+ qrMw03o[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DNtxIxx[
+ qgDG03o[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZYxIxx->DNtxIxx
- qK5xIxx->qZYxIxx
- DzYxIxx->qK5xIxx
+ qrMw03o->qgDG03o
+ DJMw03o->qrMw03o
+ D2UG03o->DJMw03o
 }

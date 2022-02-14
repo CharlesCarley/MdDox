@@ -105,7 +105,7 @@ namespace MdDox
 
         styleSheet = config.getValue("STYLESHEET");
         imageDir   = config.getValue("IMAGE_DIR");
-        inputDir   = std::filesystem::current_path().string();
+        inputDir   = FileSystem::currentPath();
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
         siteUrl = config.getValue("SITE_URL");

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Dr665xx[
+ W3xL03o[
    shape    = none
    label    = "ParserBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qd665xx[
+ dixL03o[
    shape    = none
    label    = "Parser"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dr665xx->qd665xx
+ W3xL03o->dixL03o
 }

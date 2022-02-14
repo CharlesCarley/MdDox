@@ -3391,9 +3391,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>constexpr const <ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref> *</type>
-        <definition>constexpr const TypeFilter * MdDox::Doxygen::getFilter</definition>
+      <memberdef kind="function" id="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref> *</type>
+        <definition>const TypeFilter * MdDox::Doxygen::getFilter</definition>
         <argsstring>()</argsstring>
         <name>getFilter</name>
         <briefdescription>

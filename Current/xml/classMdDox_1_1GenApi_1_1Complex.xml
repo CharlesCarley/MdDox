@@ -59,7 +59,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Complex.h" line="45" column="1" bodyfile="Tools/GenApi/Complex.cpp" bodystart="37" bodyend="57"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ae779a1556e2e68ee172437716dc02206" compoundref="Group_8cpp" startline="405" endline="454">MdDox::GenApi::Group::writeHeader</references>

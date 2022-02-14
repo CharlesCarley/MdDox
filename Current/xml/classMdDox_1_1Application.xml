@@ -135,16 +135,16 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDox/Main.cpp" line="170" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="170" bodyend="195"/>
-        <references refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="52" endline="176">MdDox::CommandLine::Parser::parse</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
         <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="98">MdDox::Switches</references>
         <references refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" compoundref="Source_2MdDox_2Main_8cpp" startline="95">MdDox::OpMax</references>
-        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="240" endline="255">MdDox::CommandLine::Parser::string</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
         <references refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" compoundref="Source_2MdDox_2Main_8cpp" startline="65">MdDox::OptOutputDirectory</references>
         <references refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" compoundref="Source_2MdDox_2Main_8cpp" startline="73">MdDox::OptIndexFile</references>
         <references refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" compoundref="Source_2MdDox_2Main_8cpp" startline="94">MdDox::OptConfigFile</references>
         <references refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eafda00e3f71ab22247d399a7140839d29" compoundref="Source_2MdDox_2Main_8cpp" startline="86">MdDox::OptGenType</references>
         <references refid="classMdDox_1_1PathUtil_1a38c8b6c0791f16a60e2b9f542a7ef561" compoundref="Path_8h" startline="112" endline="115">MdDox::PathUtil::empty</references>
-        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="257" endline="262">MdDox::CommandLine::Parser::usage</references>
+        <references refid="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="258" endline="263">MdDox::CommandLine::Parser::usage</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

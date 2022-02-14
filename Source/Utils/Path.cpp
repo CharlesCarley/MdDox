@@ -27,7 +27,7 @@ namespace MdDox
 {
     constexpr size_t NLoc = (size_t)-1;
 
-    using Directory = std::filesystem::directory_entry;
+    using Directory = local_filesystem::directory_entry;
 
     void PathUtil::construct(const String& str)
     {
@@ -175,7 +175,7 @@ namespace MdDox
 
     bool PathUtil::exists() const
     {
-        return std::filesystem::exists(Path(fullPath()));
+        return local_filesystem::exists(Path(fullPath()));
     }
 
     String PathUtil::fullPath() const

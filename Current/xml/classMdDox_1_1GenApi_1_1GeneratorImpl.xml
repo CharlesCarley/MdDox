@@ -298,7 +298,7 @@
         <references refid="classMdDox_1_1GenApi_1_1Common_1aec2be8ee6719b1bf9b501718be34c36a" compoundref="Common_8cpp" startline="75" endline="78">MdDox::GenApi::Common::addInclude</references>
         <references refid="classMdDox_1_1GenApi_1_1Common_1aca886b22514a354cf34e98b21383fe67" compoundref="Common_8cpp" startline="70" endline="73">MdDox::GenApi::Common::addForward</references>
         <references refid="classMdDox_1_1GenApi_1_1Common_1abfa39477bb8491c8429905a756feb567" compoundref="Common_8cpp" startline="35" endline="45">MdDox::GenApi::Common::write</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1adf53e0f5d17a36a5eac5a3243e931850" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -511,7 +511,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="377" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="377" bodyend="398"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a3d28cc86f4d43c414b5bcc0058981aa7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -630,7 +630,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="107" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="107" bodyend="129"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1GeneratorImpl_1a1b451cd9d515f47c62849cda7b8c6321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -646,7 +646,7 @@
         </inbodydescription>
         <location file="Tools/GenApi/Generator.cpp" line="470" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="470" bodyend="491"/>
         <references refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" compoundref="TypeFilter_8cpp" startline="27" endline="35">MdDox::makeTypeFilter</references>
-        <references refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="DoxygenFilter_8cpp" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa76b00920ea8d6a9c10954c2c080ac99" compoundref="Database_8cpp" startline="64" endline="83">MdDox::GenApi::Database::read</references>
       </memberdef>

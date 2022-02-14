@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W4NG5xx[
+ Wd9lJ3o[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WFaG5xx[
+ dg9lJ3o[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W4NG5xx->WFaG5xx
+ Wd9lJ3o->dg9lJ3o
 }

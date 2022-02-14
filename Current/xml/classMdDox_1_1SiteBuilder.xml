@@ -336,9 +336,9 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="104" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="57" bodyend="83"/>
         <references refid="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" compoundref="Xml_2Parser_8cpp" startline="46" endline="49">MdDox::Xml::Parser::applyFilter</references>
-        <references refid="namespaceMdDox_1_1Doxygen_1a8191e3e78f0a7b23e6ce895ed76a3b46" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
+        <references refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="DoxygenFilter_8cpp" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
-        <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="85" endline="101">MdDox::ParserBase::parse</references>
+        <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="189" endline="240">MdDox::IndexPageWriter::exec</references>
@@ -432,10 +432,11 @@
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="156">outputFileExt</references>
         <references refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" compoundref="Config_8cpp" startline="190" endline="196">MdDox::Config::getValue</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="170">outputDir</references>
-        <references refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" compoundref="FileSystem_8cpp" startline="63" endline="75">MdDox::FileSystem::absolute</references>
+        <references refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" compoundref="FileSystem_8cpp" startline="50" endline="64">MdDox::FileSystem::absolute</references>
         <references refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" compoundref="SiteBuilder_8h" startline="192">styleSheet</references>
         <references refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" compoundref="SiteBuilder_8h" startline="160">imageDir</references>
         <references refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" compoundref="SiteBuilder_8h" startline="165">inputDir</references>
+        <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="66" endline="69">MdDox::FileSystem::currentPath</references>
         <references refid="classMdDox_1_1StringUtils_1a4e2a0d38a0435a6f041509d70b4c0cd7" compoundref="String_8cpp" startline="134" endline="154">MdDox::StringUtils::splitRejectEmpty</references>
         <references refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" compoundref="SiteBuilder_8h" startline="185">searchDirs</references>
         <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="175">siteUrl</references>
@@ -499,7 +500,7 @@
         <location file="Source/MdDoxTree/SiteBuilder.h" line="129" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="192" bodyend="202"/>
         <references refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" compoundref="Config_8cpp" startline="211" endline="214">MdDox::Config::attributes</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

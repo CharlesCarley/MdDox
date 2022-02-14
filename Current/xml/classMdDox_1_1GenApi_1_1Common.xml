@@ -151,7 +151,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Common.h" line="195" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="35" bodyend="45"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
         <references refid="classMdDox_1_1GenApi_1_1Common_1ab290f1573b5e5b4a4008c1d8a682c681" compoundref="Common_8cpp" startline="47" endline="68">writeHeader</references>
