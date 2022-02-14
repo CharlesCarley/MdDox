@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qBZZ03o[
+ WCORbES[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DxZZ03o[
+ drNRbES[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DGZZ03o[
+ W3NRbES[
    shape    = none
    label    = "MemberDefListingWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qtdZ03o[
+ WgxRbES[
    shape    = none
    label    = "FunctionDefWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DZdZ03o[
+ WSNRbES[
    shape    = none
    label    = "EnumDefWriter"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qBZZ03o->DxZZ03o
- qBZZ03o->DGZZ03o
- qBZZ03o->qtdZ03o
- qBZZ03o->DZdZ03o
+ WCORbES->drNRbES
+ WCORbES->W3NRbES
+ WCORbES->WgxRbES
+ WCORbES->WSNRbES
 }

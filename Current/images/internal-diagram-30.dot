@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- daAlJ3o[
+ dOD8bES[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W30lJ3o[
+ WpmubES[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WgAlJ3o[
+ W7mubES[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W30lJ3o->WgAlJ3o
- daAlJ3o->W30lJ3o
+ WpmubES->W7mubES
+ dOD8bES->WpmubES
 }

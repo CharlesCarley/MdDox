@@ -1,15 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="MemberdefQuery_8cpp" kind="file" language="C++">
-    <compoundname>MemberdefQuery.cpp</compoundname>
-    <includes local="yes">MemberDefQuery.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxMemberKind.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxProtectionKind.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h</includes>
-    <includes local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.h</includes>
+  <compounddef id="MemberDefQuery_8cpp" kind="file" language="C++">
+    <compoundname>MemberDefQuery.cpp</compoundname>
+    <includes refid="MemberDefQuery_8h" local="yes">MemberDefQuery.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="TemplateParamListQuery_8h" local="yes">TemplateParamListQuery.h</includes>
     <includes refid="LinkedTextQuery_8h" local="yes">LinkedTextQuery.h</includes>
@@ -20,161 +13,222 @@
     <includes refid="ParamQuery_8h" local="yes">ParamQuery.h</includes>
     <includes refid="LocationQuery_8h" local="yes">LocationQuery.h</includes>
     <incdepgraph>
-      <node id="7142">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.h</label>
+      <node id="7381">
+        <label>DoxAccessor.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
       </node>
-      <node id="7153">
+      <node id="7375">
+        <label>Utils/Console.h</label>
+        <childnode refid="7363" relation="include">
+        </childnode>
+      </node>
+      <node id="7369">
         <label>iomanip</label>
       </node>
-      <node id="7141">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h</label>
+      <node id="7361">
+        <label>functional</label>
       </node>
-      <node id="7145">
+      <node id="7380">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
+      </node>
+      <node id="7384">
         <label>cstdint</label>
       </node>
-      <node id="7156">
+      <node id="7371">
+        <label>Utils/Exception.h</label>
+        <childnode refid="7372" relation="include">
+        </childnode>
+        <childnode refid="7373" relation="include">
+        </childnode>
+        <childnode refid="7374" relation="include">
+        </childnode>
+        <childnode refid="7375" relation="include">
+        </childnode>
+        <childnode refid="7363" relation="include">
+        </childnode>
+      </node>
+      <node id="7387">
         <label>DescriptionQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7159">
+      <node id="7390">
         <label>ReferenceQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7150">
+      <node id="7373">
+        <label>stdexcept</label>
+      </node>
+      <node id="7367">
         <label>string</label>
       </node>
-      <node id="7136">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h</label>
+      <node id="7360">
+        <label>Doxygen.h</label>
+        <childnode refid="7361" relation="include">
+        </childnode>
+        <childnode refid="7362" relation="include">
+        </childnode>
+        <childnode refid="7363" relation="include">
+        </childnode>
+        <childnode refid="7370" relation="include">
+        </childnode>
+        <childnode refid="7371" relation="include">
+        </childnode>
       </node>
-      <node id="7135">
-        <label>MemberDefQuery.h</label>
+      <node id="7372">
+        <label>exception</label>
       </node>
-      <node id="7148">
+      <node id="7365">
         <label>fstream</label>
       </node>
-      <node id="7154">
+      <node id="7385">
         <label>TemplateParamListQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7134">
-        <label>Tools/Doxygen/MemberdefQuery.cpp</label>
-        <link refid="MemberdefQuery_8cpp"/>
-        <childnode refid="7135" relation="include">
+      <node id="7370">
+        <label>Xml/Node.h</label>
+        <childnode refid="7361" relation="include">
         </childnode>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7362" relation="include">
         </childnode>
-        <childnode refid="7137" relation="include">
-        </childnode>
-        <childnode refid="7138" relation="include">
-        </childnode>
-        <childnode refid="7139" relation="include">
-        </childnode>
-        <childnode refid="7140" relation="include">
-        </childnode>
-        <childnode refid="7141" relation="include">
-        </childnode>
-        <childnode refid="7142" relation="include">
-        </childnode>
-        <childnode refid="7143" relation="include">
-        </childnode>
-        <childnode refid="7154" relation="include">
-        </childnode>
-        <childnode refid="7155" relation="include">
-        </childnode>
-        <childnode refid="7156" relation="include">
-        </childnode>
-        <childnode refid="7157" relation="include">
-        </childnode>
-        <childnode refid="7158" relation="include">
-        </childnode>
-        <childnode refid="7159" relation="include">
-        </childnode>
-        <childnode refid="7160" relation="include">
-        </childnode>
-        <childnode refid="7161" relation="include">
+        <childnode refid="7363" relation="include">
         </childnode>
       </node>
-      <node id="7139">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxProtectionKind.h</label>
+      <node id="7378">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
       </node>
-      <node id="7137">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxMemberKind.h</label>
+      <node id="7376">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
       </node>
-      <node id="7146">
+      <node id="7363">
         <label>Utils/String.h</label>
-        <childnode refid="7147" relation="include">
+        <childnode refid="7364" relation="include">
         </childnode>
-        <childnode refid="7148" relation="include">
+        <childnode refid="7365" relation="include">
         </childnode>
-        <childnode refid="7149" relation="include">
+        <childnode refid="7366" relation="include">
         </childnode>
-        <childnode refid="7150" relation="include">
+        <childnode refid="7367" relation="include">
         </childnode>
-        <childnode refid="7151" relation="include">
+        <childnode refid="7362" relation="include">
         </childnode>
-        <childnode refid="7152" relation="include">
+        <childnode refid="7368" relation="include">
         </childnode>
-        <childnode refid="7153" relation="include">
+        <childnode refid="7369" relation="include">
         </childnode>
       </node>
-      <node id="7161">
+      <node id="7392">
         <label>LocationQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7152">
+      <node id="7368">
         <label>vector</label>
       </node>
-      <node id="7149">
+      <node id="7374">
+        <label>utility</label>
+      </node>
+      <node id="7366">
         <label>sstream</label>
       </node>
-      <node id="7138">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h</label>
+      <node id="7377">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
       </node>
-      <node id="7158">
+      <node id="7389">
         <label>ReimplementQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7143">
+      <node id="7382">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="7144" relation="include">
+        <childnode refid="7383" relation="include">
         </childnode>
       </node>
-      <node id="7155">
+      <node id="7386">
         <label>LinkedTextQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
-      <node id="7147">
+      <node id="7364">
         <label>deque</label>
       </node>
-      <node id="7151">
+      <node id="7362">
         <label>unordered_map</label>
       </node>
-      <node id="7157">
+      <node id="7388">
         <label>EnumValueQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
-        <childnode refid="7139" relation="include">
+        <childnode refid="7378" relation="include">
         </childnode>
       </node>
-      <node id="7144">
+      <node id="7358">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+        <link refid="MemberDefQuery_8cpp"/>
+        <childnode refid="7359" relation="include">
+        </childnode>
+        <childnode refid="7382" relation="include">
+        </childnode>
+        <childnode refid="7385" relation="include">
+        </childnode>
+        <childnode refid="7386" relation="include">
+        </childnode>
+        <childnode refid="7387" relation="include">
+        </childnode>
+        <childnode refid="7388" relation="include">
+        </childnode>
+        <childnode refid="7389" relation="include">
+        </childnode>
+        <childnode refid="7390" relation="include">
+        </childnode>
+        <childnode refid="7391" relation="include">
+        </childnode>
+        <childnode refid="7392" relation="include">
+        </childnode>
+      </node>
+      <node id="7383">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="7145" relation="include">
+        <childnode refid="7384" relation="include">
         </childnode>
-        <childnode refid="7146" relation="include">
+        <childnode refid="7363" relation="include">
         </childnode>
       </node>
-      <node id="7140">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h</label>
+      <node id="7379">
+        <label>DoxBool.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
       </node>
-      <node id="7160">
+      <node id="7359">
+        <label>MemberDefQuery.h</label>
+        <childnode refid="7360" relation="include">
+        </childnode>
+        <childnode refid="7376" relation="include">
+        </childnode>
+        <childnode refid="7377" relation="include">
+        </childnode>
+        <childnode refid="7378" relation="include">
+        </childnode>
+        <childnode refid="7379" relation="include">
+        </childnode>
+        <childnode refid="7380" relation="include">
+        </childnode>
+        <childnode refid="7381" relation="include">
+        </childnode>
+      </node>
+      <node id="7391">
         <label>ParamQuery.h</label>
-        <childnode refid="7136" relation="include">
+        <childnode refid="7360" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -782,6 +836,6 @@
 <codeline lineno="596"><highlight class="normal"></highlight></codeline>
 <codeline lineno="597"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/MemberdefQuery.cpp"/>
+    <location file="Tools/Doxygen/MemberDefQuery.cpp"/>
   </compounddef>
 </doxygen>

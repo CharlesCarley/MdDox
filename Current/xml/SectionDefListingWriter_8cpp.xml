@@ -8,193 +8,241 @@
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="1927">
-        <label>Utils/Console.h</label>
-        <childnode refid="1915" relation="include">
+      <node id="2026">
+        <label>DoxAccessor.h</label>
+        <childnode refid="1997" relation="include">
         </childnode>
       </node>
-      <node id="1921">
+      <node id="2012">
+        <label>Utils/Console.h</label>
+        <childnode refid="2000" relation="include">
+        </childnode>
+      </node>
+      <node id="2006">
         <label>iomanip</label>
       </node>
-      <node id="1913">
+      <node id="1998">
         <label>functional</label>
       </node>
-      <node id="1929">
-        <label>Utils/Path.h</label>
-        <childnode refid="1915" relation="include">
+      <node id="2025">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="1997" relation="include">
         </childnode>
       </node>
-      <node id="1938">
+      <node id="2014">
+        <label>Utils/Path.h</label>
+        <childnode refid="2000" relation="include">
+        </childnode>
+      </node>
+      <node id="2029">
         <label>cstdint</label>
       </node>
-      <node id="1923">
+      <node id="2008">
         <label>Utils/Exception.h</label>
-        <childnode refid="1924" relation="include">
+        <childnode refid="2009" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2010" relation="include">
         </childnode>
-        <childnode refid="1926" relation="include">
+        <childnode refid="2011" relation="include">
         </childnode>
-        <childnode refid="1927" relation="include">
+        <childnode refid="2012" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1910">
+      <node id="1995">
         <label>SectionDefListingWriter.h</label>
-        <childnode refid="1911" relation="include">
+        <childnode refid="1996" relation="include">
         </childnode>
-        <childnode refid="1928" relation="include">
+        <childnode refid="2013" relation="include">
         </childnode>
-        <childnode refid="1929" relation="include">
+        <childnode refid="2014" relation="include">
         </childnode>
       </node>
-      <node id="1911">
+      <node id="1996">
         <label>Doxygen/DoxSectionKind.h</label>
-        <childnode refid="1912" relation="include">
+        <childnode refid="1997" relation="include">
         </childnode>
       </node>
-      <node id="1925">
+      <node id="2010">
         <label>stdexcept</label>
       </node>
-      <node id="1919">
+      <node id="2004">
         <label>string</label>
       </node>
-      <node id="1912">
+      <node id="1997">
         <label>Doxygen.h</label>
-        <childnode refid="1913" relation="include">
+        <childnode refid="1998" relation="include">
         </childnode>
-        <childnode refid="1914" relation="include">
+        <childnode refid="1999" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
-        <childnode refid="1922" relation="include">
+        <childnode refid="2007" relation="include">
         </childnode>
-        <childnode refid="1923" relation="include">
+        <childnode refid="2008" relation="include">
         </childnode>
       </node>
-      <node id="1935">
-        <label>Doxygen/MemberDefQuery.h</label>
-      </node>
-      <node id="1924">
+      <node id="2009">
         <label>exception</label>
       </node>
-      <node id="1917">
+      <node id="2002">
         <label>fstream</label>
       </node>
-      <node id="1931">
+      <node id="2016">
         <label>IconSet.h</label>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1922">
+      <node id="2007">
         <label>Xml/Node.h</label>
-        <childnode refid="1913" relation="include">
+        <childnode refid="1998" relation="include">
         </childnode>
-        <childnode refid="1914" relation="include">
+        <childnode refid="1999" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1930">
+      <node id="2015">
         <label>DocumentWriter.h</label>
-        <childnode refid="1931" relation="include">
+        <childnode refid="2016" relation="include">
         </childnode>
-        <childnode refid="1932" relation="include">
+        <childnode refid="2017" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1915">
+      <node id="2023">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+      </node>
+      <node id="2021">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+      </node>
+      <node id="2000">
         <label>Utils/String.h</label>
-        <childnode refid="1916" relation="include">
+        <childnode refid="2001" relation="include">
         </childnode>
-        <childnode refid="1917" relation="include">
+        <childnode refid="2002" relation="include">
         </childnode>
-        <childnode refid="1918" relation="include">
+        <childnode refid="2003" relation="include">
         </childnode>
-        <childnode refid="1919" relation="include">
+        <childnode refid="2004" relation="include">
         </childnode>
-        <childnode refid="1914" relation="include">
+        <childnode refid="1999" relation="include">
         </childnode>
-        <childnode refid="1920" relation="include">
+        <childnode refid="2005" relation="include">
         </childnode>
-        <childnode refid="1921" relation="include">
+        <childnode refid="2006" relation="include">
         </childnode>
       </node>
-      <node id="1920">
+      <node id="2005">
         <label>vector</label>
       </node>
-      <node id="1926">
+      <node id="2011">
         <label>utility</label>
       </node>
-      <node id="1918">
+      <node id="2003">
         <label>sstream</label>
       </node>
-      <node id="1939">
+      <node id="2030">
         <label>WriteUtils.h</label>
-        <childnode refid="1931" relation="include">
+        <childnode refid="2016" relation="include">
         </childnode>
-        <childnode refid="1940" relation="include">
+        <childnode refid="2031" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1909">
+      <node id="1994">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
         <link refid="SectionDefListingWriter_8cpp"/>
-        <childnode refid="1910" relation="include">
+        <childnode refid="1995" relation="include">
         </childnode>
-        <childnode refid="1930" relation="include">
+        <childnode refid="2015" relation="include">
         </childnode>
-        <childnode refid="1934" relation="include">
+        <childnode refid="2019" relation="include">
         </childnode>
-        <childnode refid="1936" relation="include">
+        <childnode refid="2027" relation="include">
         </childnode>
-        <childnode refid="1939" relation="include">
+        <childnode refid="2030" relation="include">
         </childnode>
       </node>
-      <node id="1936">
+      <node id="2022">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+      </node>
+      <node id="2027">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="1937" relation="include">
+        <childnode refid="2028" relation="include">
         </childnode>
       </node>
-      <node id="1932">
+      <node id="2017">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1933" relation="include">
+        <childnode refid="2018" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1916">
+      <node id="2001">
         <label>deque</label>
       </node>
-      <node id="1914">
+      <node id="1999">
         <label>unordered_map</label>
       </node>
-      <node id="1934">
+      <node id="2019">
         <label>MemberDefListingWriter.h</label>
-        <childnode refid="1935" relation="include">
+        <childnode refid="2020" relation="include">
         </childnode>
-        <childnode refid="1929" relation="include">
+        <childnode refid="2014" relation="include">
         </childnode>
       </node>
-      <node id="1928">
-        <label>Doxygen/SectionDefQuery.h</label>
-      </node>
-      <node id="1937">
+      <node id="2028">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="1938" relation="include">
+        <childnode refid="2029" relation="include">
         </childnode>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1940">
+      <node id="2024">
+        <label>DoxBool.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+      </node>
+      <node id="2020">
+        <label>Doxygen/MemberDefQuery.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+        <childnode refid="2023" relation="include">
+        </childnode>
+        <childnode refid="2024" relation="include">
+        </childnode>
+        <childnode refid="2025" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+      </node>
+      <node id="2013">
+        <label>Doxygen/SectionDefQuery.h</label>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+      </node>
+      <node id="2031">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="1915" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
       </node>
-      <node id="1933">
+      <node id="2018">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -318,56 +366,56 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa317b9e6d99ce42d6d302b98ef17f91ca" kindref="member" tooltip="Definition for the DoxSectionKind.private-static-attrib value. ">Doxygen::DSK_PRIVATE_STATIC_ATTRIB</ref>:</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;Private<sp/>Static<sp/>Members&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aab3f50f1d0a4d5816f951c20dd5e00ff5" kindref="member" tooltip="Definition for the DoxSectionKind.user-defined value. ">Doxygen::DSK_USER_DEFINED</ref>:</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_USER_DEFINED&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5c9fb6765a21348f97e3085c9b84b411" kindref="member" tooltip="Definition for the DoxSectionKind.private-type value. ">Doxygen::DSK_PRIVATE_TYPE</ref>:</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;Private<sp/>Typedefs&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa8000ce30d3cc98de60205dab7f662bb6" kindref="member" tooltip="Definition for the DoxSectionKind.package-static-func value. ">Doxygen::DSK_PACKAGE_STATIC_FUNC</ref>:</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_STATIC_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa2447912563759853932a0daf6d90e9a0" kindref="member" tooltip="Definition for the DoxSectionKind.protected-type value. ">Doxygen::DSK_PROTECTED_TYPE</ref>:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;Protected<sp/>Typedefs&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa447557d7249bf564b36d4db87840e912" kindref="member" tooltip="Definition for the DoxSectionKind.public-slot value. ">Doxygen::DSK_PUBLIC_SLOT</ref>:</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PUBLIC_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aab3f50f1d0a4d5816f951c20dd5e00ff5" kindref="member" tooltip="Definition for the DoxSectionKind.user-defined value. ">Doxygen::DSK_USER_DEFINED</ref>:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_USER_DEFINED&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa0c54373da4ff54b914e7f4c5c40f9e45" kindref="member" tooltip="Definition for the DoxSectionKind.package-static-attrib value. ">Doxygen::DSK_PACKAGE_STATIC_ATTRIB</ref>:</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_STATIC_ATTRIB&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa8000ce30d3cc98de60205dab7f662bb6" kindref="member" tooltip="Definition for the DoxSectionKind.package-static-func value. ">Doxygen::DSK_PACKAGE_STATIC_FUNC</ref>:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_STATIC_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa86ccbfbb3d0fc114517d9dbddfca58ad" kindref="member" tooltip="Definition for the DoxSectionKind.signal value. ">Doxygen::DSK_SIGNAL</ref>:</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_SIGNAL&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa447557d7249bf564b36d4db87840e912" kindref="member" tooltip="Definition for the DoxSectionKind.public-slot value. ">Doxygen::DSK_PUBLIC_SLOT</ref>:</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PUBLIC_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5b6d003688f0d5c050fc07d1c5e5fde2" kindref="member" tooltip="Definition for the DoxSectionKind.property value. ">Doxygen::DSK_PROPERTY</ref>:</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROPERTY&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa0c54373da4ff54b914e7f4c5c40f9e45" kindref="member" tooltip="Definition for the DoxSectionKind.package-static-attrib value. ">Doxygen::DSK_PACKAGE_STATIC_ATTRIB</ref>:</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_STATIC_ATTRIB&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa74e05c727dd81ca3468648035a36bcb3" kindref="member" tooltip="Definition for the DoxSectionKind.dcop-func value. ">Doxygen::DSK_DCOP_FUNC</ref>:</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_DCOP_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa86ccbfbb3d0fc114517d9dbddfca58ad" kindref="member" tooltip="Definition for the DoxSectionKind.signal value. ">Doxygen::DSK_SIGNAL</ref>:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_SIGNAL&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aaec53f0816e6ee8bfe6f36dcf6260fe03" kindref="member" tooltip="Definition for the DoxSectionKind.private-slot value. ">Doxygen::DSK_PRIVATE_SLOT</ref>:</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PRIVATE_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5b6d003688f0d5c050fc07d1c5e5fde2" kindref="member" tooltip="Definition for the DoxSectionKind.property value. ">Doxygen::DSK_PROPERTY</ref>:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROPERTY&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa3f5d7a1b70744a69826cdf51c919dd0e" kindref="member" tooltip="Definition for the DoxSectionKind.event value. ">Doxygen::DSK_EVENT</ref>:</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_EVENT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa74e05c727dd81ca3468648035a36bcb3" kindref="member" tooltip="Definition for the DoxSectionKind.dcop-func value. ">Doxygen::DSK_DCOP_FUNC</ref>:</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_DCOP_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa820d68bbb4444349bcc9a480317d4329" kindref="member" tooltip="Definition for the DoxSectionKind.package-func value. ">Doxygen::DSK_PACKAGE_FUNC</ref>:</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aaec53f0816e6ee8bfe6f36dcf6260fe03" kindref="member" tooltip="Definition for the DoxSectionKind.private-slot value. ">Doxygen::DSK_PRIVATE_SLOT</ref>:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PRIVATE_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5e1091887503d601e5bcd099d62a613d" kindref="member" tooltip="Definition for the DoxSectionKind.related value. ">Doxygen::DSK_RELATED</ref>:</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_RELATED&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa3f5d7a1b70744a69826cdf51c919dd0e" kindref="member" tooltip="Definition for the DoxSectionKind.event value. ">Doxygen::DSK_EVENT</ref>:</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_EVENT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa2447912563759853932a0daf6d90e9a0" kindref="member" tooltip="Definition for the DoxSectionKind.protected-type value. ">Doxygen::DSK_PROTECTED_TYPE</ref>:</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROTECTED_TYPE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa820d68bbb4444349bcc9a480317d4329" kindref="member" tooltip="Definition for the DoxSectionKind.package-func value. ">Doxygen::DSK_PACKAGE_FUNC</ref>:</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_FUNC&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aad8ee1872d561fc20a1e6c314e586e046" kindref="member" tooltip="Definition for the DoxSectionKind.protected-slot value. ">Doxygen::DSK_PROTECTED_SLOT</ref>:</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROTECTED_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5e1091887503d601e5bcd099d62a613d" kindref="member" tooltip="Definition for the DoxSectionKind.related value. ">Doxygen::DSK_RELATED</ref>:</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_RELATED&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa966a4c5feccfad6392f107e092e41921" kindref="member" tooltip="Definition for the DoxSectionKind.define value. ">Doxygen::DSK_DEFINE</ref>:</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_DEFINE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aad8ee1872d561fc20a1e6c314e586e046" kindref="member" tooltip="Definition for the DoxSectionKind.protected-slot value. ">Doxygen::DSK_PROTECTED_SLOT</ref>:</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROTECTED_SLOT&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa0e82e6a1a72723b1c8198012de8cd547" kindref="member" tooltip="Definition for the DoxSectionKind.package-type value. ">Doxygen::DSK_PACKAGE_TYPE</ref>:</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_TYPE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa966a4c5feccfad6392f107e092e41921" kindref="member" tooltip="Definition for the DoxSectionKind.define value. ">Doxygen::DSK_DEFINE</ref>:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_DEFINE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa6bc18e318f10c06b2373d01b90679a42" kindref="member" tooltip="Definition for the DoxSectionKind.package-attrib value. ">Doxygen::DSK_PACKAGE_ATTRIB</ref>:</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_ATTRIB&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa0e82e6a1a72723b1c8198012de8cd547" kindref="member" tooltip="Definition for the DoxSectionKind.package-type value. ">Doxygen::DSK_PACKAGE_TYPE</ref>:</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_TYPE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5c9fb6765a21348f97e3085c9b84b411" kindref="member" tooltip="Definition for the DoxSectionKind.private-type value. ">Doxygen::DSK_PRIVATE_TYPE</ref>:</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PRIVATE_TYPE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa6bc18e318f10c06b2373d01b90679a42" kindref="member" tooltip="Definition for the DoxSectionKind.package-attrib value. ">Doxygen::DSK_PACKAGE_ATTRIB</ref>:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PACKAGE_ATTRIB&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aad78bd8b74cc9b5266c7ad89e8d63e306" kindref="member" tooltip="Definition for the DoxSectionKind.friend value. ">Doxygen::DSK_FRIEND</ref>:</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_FRIEND&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
@@ -375,33 +423,36 @@
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa5eda391c8dfba9291ddfacbd4fcd9d35" kindref="member" tooltip="Definition for the DoxSectionKind.prototype value. ">Doxygen::DSK_PROTOTYPE</ref>:</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_PROTOTYPE&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" kindref="member">SectionDefListingWriter::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kindref="compound" tooltip="Implements the sectiondefType scaffolding. ">Doxygen::SectionDefQuery</ref>&amp;<sp/>sec)</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" kindref="member" tooltip="Checks to see if the internal node is usable. ">isValid</ref>())</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeHeading((<ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">Doxygen::DoxSectionKindEnum</ref>)sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>());</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">Doxygen::SortMap</ref><sp/>map;</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af61282b0fc3e920e52576e41a71919ee" kindref="member">Doxygen::DoxHeader</ref>]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae713d237dea07ac6a75031ee97352f1c" kindref="member">Doxygen::DoxDescription</ref>]<sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" kindref="member">Doxygen::DoxMemberDef</ref>]<sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" kindref="member" tooltip="Sorts the nodes in the query based on priority of type. ">sort</ref>(map);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aacce9799a7656f593ab7ef5e5e1779220" kindref="member">Doxygen::DSK_INVALID</ref>:<sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;DSK_INVALID&quot;</highlight><highlight class="normal">,<sp/>_depth);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" kindref="member">SectionDefListingWriter::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kindref="compound" tooltip="Implements the sectiondefType scaffolding. ">Doxygen::SectionDefQuery</ref>&amp;<sp/>sec)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" kindref="member" tooltip="Checks to see if the internal node is usable. ">isValid</ref>())</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeHeading((<ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">Doxygen::DoxSectionKindEnum</ref>)sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>());</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">Doxygen::SortMap</ref><sp/>map;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af61282b0fc3e920e52576e41a71919ee" kindref="member">Doxygen::DoxHeader</ref>]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae713d237dea07ac6a75031ee97352f1c" kindref="member">Doxygen::DoxDescription</ref>]<sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" kindref="member">Doxygen::DoxMemberDef</ref>]<sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" kindref="member" tooltip="Sorts the nodes in the query based on priority of type. ">sort</ref>(map);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sec.<ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/SectionDefListingWriter.cpp"/>
   </compounddef>

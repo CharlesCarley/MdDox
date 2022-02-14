@@ -61,7 +61,6 @@ body {
     text-align: center;
     display: inline-block;
     font: var(--font-common);
-    font-family:cursive;
     line-height: var(--line-height);
     background-color: var(--background-color);
     color: var(--foreground-color);

@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 209,-40 209,4 -4,4"/>
-<!-- WCJE03o -->
-<g id="node1" class="node"><title>WCJE03o</title>
+<!-- qbLabES -->
+<g id="node1" class="node"><title>qbLabES</title>
 <text text-anchor="middle" x="42.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParaQueryVisitor</text>
 </g>
-<!-- WnJE03o -->
-<g id="node2" class="node"><title>WnJE03o</title>
+<!-- DM4abES -->
+<g id="node2" class="node"><title>DM4abES</title>
 <text text-anchor="middle" x="163" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParagraphWriter</text>
 </g>
-<!-- WCJE03o&#45;&gt;WnJE03o -->
-<g id="edge1" class="edge"><title>WCJE03o&#45;&gt;WnJE03o</title>
+<!-- qbLabES&#45;&gt;DM4abES -->
+<g id="edge1" class="edge"><title>qbLabES&#45;&gt;DM4abES</title>
 <path fill="none" stroke="#69bfff" d="M85.2787,-18C95.152,-18 105.736,-18 115.793,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="115.997,-19.7501 120.997,-18 115.997,-16.2501 115.997,-19.7501"/>
 </g>

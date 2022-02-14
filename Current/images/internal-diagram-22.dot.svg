@@ -9,25 +9,25 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-94 278,-94 278,4 -4,4"/>
-<!-- WlglJ3o -->
-<g id="node1" class="node"><title>WlglJ3o</title>
+<!-- Wm3ubES -->
+<g id="node1" class="node"><title>Wm3ubES</title>
 <text text-anchor="middle" x="59" y="-42.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefQueryVisitor</text>
 </g>
-<!-- dDplJ3o -->
-<g id="node2" class="node"><title>dDplJ3o</title>
+<!-- dDBubES -->
+<g id="node2" class="node"><title>dDBubES</title>
 <text text-anchor="middle" x="214" y="-69.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefWriter</text>
 </g>
-<!-- WlglJ3o&#45;&gt;dDplJ3o -->
-<g id="edge1" class="edge"><title>WlglJ3o&#45;&gt;dDplJ3o</title>
+<!-- Wm3ubES&#45;&gt;dDBubES -->
+<g id="edge1" class="edge"><title>Wm3ubES&#45;&gt;dDBubES</title>
 <path fill="none" stroke="#69bfff" d="M118.279,-55.2846C133.605,-57.9892 149.967,-60.8766 164.705,-63.4774"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="164.409,-65.2021 169.637,-64.3478 165.018,-61.7554 164.409,-65.2021"/>
 </g>
-<!-- W4blJ3o -->
-<g id="node3" class="node"><title>W4blJ3o</title>
+<!-- WRBubES -->
+<g id="node3" class="node"><title>WRBubES</title>
 <text text-anchor="middle" x="214" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">SectionDefListingWriter</text>
 </g>
-<!-- WlglJ3o&#45;&gt;W4blJ3o -->
-<g id="edge2" class="edge"><title>WlglJ3o&#45;&gt;W4blJ3o</title>
+<!-- Wm3ubES&#45;&gt;WRBubES -->
+<g id="edge2" class="edge"><title>Wm3ubES&#45;&gt;WRBubES</title>
 <path fill="none" stroke="#69bfff" d="M118.279,-34.7154C128.294,-32.9481 138.752,-31.1026 148.909,-29.3101"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="149.249,-31.0274 153.868,-28.435 148.64,-27.5806 149.249,-31.0274"/>
 </g>

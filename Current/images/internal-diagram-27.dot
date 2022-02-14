@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- d7xlJ3o[
+ WDC8bES[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dRNlJ3o[
+ dEC8bES[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WBalJ3o[
+ Wcb8bES[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WONlJ3o[
+ dxy8bES[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WBalJ3o->WONlJ3o
- dRNlJ3o->WBalJ3o
- d7xlJ3o->dRNlJ3o
+ Wcb8bES->dxy8bES
+ dEC8bES->Wcb8bES
+ WDC8bES->dEC8bES
 }

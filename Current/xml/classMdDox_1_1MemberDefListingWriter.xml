@@ -111,8 +111,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.cpp" bodystart="42" bodyend="50"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberdefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberdefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberDefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>

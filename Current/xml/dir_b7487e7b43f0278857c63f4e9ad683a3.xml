@@ -113,8 +113,8 @@
     <innerfile refid="LocationQuery_8h">LocationQuery.h</innerfile>
     <innerfile refid="MarkupQuery_8cpp">MarkupQuery.cpp</innerfile>
     <innerfile refid="MarkupQuery_8h">MarkupQuery.h</innerfile>
-    <innerfile refid="MemberdefQuery_8cpp">MemberdefQuery.cpp</innerfile>
-    <innerfile refid="MemberdefQuery_8h">MemberdefQuery.h</innerfile>
+    <innerfile refid="MemberDefQuery_8cpp">MemberDefQuery.cpp</innerfile>
+    <innerfile refid="MemberDefQuery_8h">MemberDefQuery.h</innerfile>
     <innerfile refid="MemberIndexQuery_8cpp">MemberIndexQuery.cpp</innerfile>
     <innerfile refid="MemberIndexQuery_8h">MemberIndexQuery.h</innerfile>
     <innerfile refid="MemberRefQuery_8cpp">MemberRefQuery.cpp</innerfile>
@@ -155,8 +155,8 @@
     <innerfile refid="Sect3Query_8h">Sect3Query.h</innerfile>
     <innerfile refid="Sect4Query_8cpp">Sect4Query.cpp</innerfile>
     <innerfile refid="Sect4Query_8h">Sect4Query.h</innerfile>
-    <innerfile refid="SectiondefQuery_8cpp">SectiondefQuery.cpp</innerfile>
-    <innerfile refid="SectiondefQuery_8h">SectiondefQuery.h</innerfile>
+    <innerfile refid="SectionDefQuery_8cpp">SectionDefQuery.cpp</innerfile>
+    <innerfile refid="SectionDefQuery_8h">SectionDefQuery.h</innerfile>
     <innerfile refid="SimpleSectQuery_8cpp">SimpleSectQuery.cpp</innerfile>
     <innerfile refid="SimpleSectQuery_8h">SimpleSectQuery.h</innerfile>
     <innerfile refid="SpQuery_8cpp">SpQuery.cpp</innerfile>

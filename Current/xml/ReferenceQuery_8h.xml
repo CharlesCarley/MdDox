@@ -6,135 +6,135 @@
     <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
     <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
     <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="MemberdefQuery_8cpp" local="yes">Tools/Doxygen/MemberdefQuery.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
     <includedby refid="ReferenceQuery_8cpp" local="yes">Tools/Doxygen/ReferenceQuery.cpp</includedby>
     <incdepgraph>
-      <node id="7784">
+      <node id="8027">
         <label>Utils/Console.h</label>
-        <childnode refid="7772" relation="include">
+        <childnode refid="8015" relation="include">
         </childnode>
       </node>
-      <node id="7778">
+      <node id="8021">
         <label>iomanip</label>
       </node>
-      <node id="7770">
+      <node id="8013">
         <label>functional</label>
       </node>
-      <node id="7780">
+      <node id="8023">
         <label>Utils/Exception.h</label>
-        <childnode refid="7781" relation="include">
+        <childnode refid="8024" relation="include">
         </childnode>
-        <childnode refid="7782" relation="include">
+        <childnode refid="8025" relation="include">
         </childnode>
-        <childnode refid="7783" relation="include">
+        <childnode refid="8026" relation="include">
         </childnode>
-        <childnode refid="7784" relation="include">
+        <childnode refid="8027" relation="include">
         </childnode>
-        <childnode refid="7772" relation="include">
+        <childnode refid="8015" relation="include">
         </childnode>
       </node>
-      <node id="7768">
+      <node id="8011">
         <label>Tools/Doxygen/ReferenceQuery.h</label>
         <link refid="ReferenceQuery_8h"/>
-        <childnode refid="7769" relation="include">
+        <childnode refid="8012" relation="include">
         </childnode>
       </node>
-      <node id="7782">
+      <node id="8025">
         <label>stdexcept</label>
       </node>
-      <node id="7776">
+      <node id="8019">
         <label>string</label>
       </node>
-      <node id="7769">
+      <node id="8012">
         <label>Doxygen.h</label>
-        <childnode refid="7770" relation="include">
+        <childnode refid="8013" relation="include">
         </childnode>
-        <childnode refid="7771" relation="include">
+        <childnode refid="8014" relation="include">
         </childnode>
-        <childnode refid="7772" relation="include">
+        <childnode refid="8015" relation="include">
         </childnode>
-        <childnode refid="7779" relation="include">
+        <childnode refid="8022" relation="include">
         </childnode>
-        <childnode refid="7780" relation="include">
+        <childnode refid="8023" relation="include">
         </childnode>
       </node>
-      <node id="7781">
+      <node id="8024">
         <label>exception</label>
       </node>
-      <node id="7774">
+      <node id="8017">
         <label>fstream</label>
       </node>
-      <node id="7779">
+      <node id="8022">
         <label>Xml/Node.h</label>
-        <childnode refid="7770" relation="include">
+        <childnode refid="8013" relation="include">
         </childnode>
-        <childnode refid="7771" relation="include">
+        <childnode refid="8014" relation="include">
         </childnode>
-        <childnode refid="7772" relation="include">
+        <childnode refid="8015" relation="include">
         </childnode>
       </node>
-      <node id="7772">
+      <node id="8015">
         <label>Utils/String.h</label>
-        <childnode refid="7773" relation="include">
+        <childnode refid="8016" relation="include">
         </childnode>
-        <childnode refid="7774" relation="include">
+        <childnode refid="8017" relation="include">
         </childnode>
-        <childnode refid="7775" relation="include">
+        <childnode refid="8018" relation="include">
         </childnode>
-        <childnode refid="7776" relation="include">
+        <childnode refid="8019" relation="include">
         </childnode>
-        <childnode refid="7771" relation="include">
+        <childnode refid="8014" relation="include">
         </childnode>
-        <childnode refid="7777" relation="include">
+        <childnode refid="8020" relation="include">
         </childnode>
-        <childnode refid="7778" relation="include">
+        <childnode refid="8021" relation="include">
         </childnode>
       </node>
-      <node id="7777">
+      <node id="8020">
         <label>vector</label>
       </node>
-      <node id="7783">
+      <node id="8026">
         <label>utility</label>
       </node>
-      <node id="7775">
+      <node id="8018">
         <label>sstream</label>
       </node>
-      <node id="7773">
+      <node id="8016">
         <label>deque</label>
       </node>
-      <node id="7771">
+      <node id="8014">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7788">
+      <node id="8031">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="7790">
+      <node id="8033">
         <label>Tools/Doxygen/ReferenceQuery.cpp</label>
       </node>
-      <node id="7785">
+      <node id="8028">
         <label>Tools/Doxygen/ReferenceQuery.h</label>
         <link refid="ReferenceQuery_8h"/>
-        <childnode refid="7786" relation="include">
+        <childnode refid="8029" relation="include">
         </childnode>
-        <childnode refid="7787" relation="include">
+        <childnode refid="8030" relation="include">
         </childnode>
-        <childnode refid="7788" relation="include">
+        <childnode refid="8031" relation="include">
         </childnode>
-        <childnode refid="7789" relation="include">
+        <childnode refid="8032" relation="include">
         </childnode>
-        <childnode refid="7790" relation="include">
+        <childnode refid="8033" relation="include">
         </childnode>
       </node>
-      <node id="7786">
+      <node id="8029">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="7789">
-        <label>Tools/Doxygen/MemberdefQuery.cpp</label>
-      </node>
-      <node id="7787">
+      <node id="8030">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="8032">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ReferenceQuery" prot="public">MdDox::Doxygen::ReferenceQuery</innerclass>

@@ -527,7 +527,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/FunctionDefWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/FunctionDefWriter.cpp" bodystart="176" bodyend="201"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberdefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberDefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" compoundref="DoxygenFilter_8h" startline="62">MdDox::Doxygen::DoxEnumValue</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a450e5bc8ac2031c489c0c171c4474672" compoundref="DoxygenFilter_8h" startline="133">MdDox::Doxygen::DoxTemplateParamList</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" compoundref="DoxygenFilter_8h" startline="135">MdDox::Doxygen::DoxType</references>
@@ -538,10 +538,10 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2799e040389f10aeafc974e8c87f3b90" compoundref="DoxygenFilter_8h" startline="49">MdDox::Doxygen::DoxDefinition</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06aa11cccfac848487ebc691b7a9cb4ba18" compoundref="DoxygenFilter_8h" startline="115">MdDox::Doxygen::DoxReferences</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" compoundref="DoxygenFilter_8h" startline="93">MdDox::Doxygen::DoxLocation</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae3d212b3e0a20e172bffa9043b07dbd7" compoundref="MemberdefQuery_8cpp" startline="574" endline="595">MdDox::Doxygen::MemberDefQuery::sort</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae3d212b3e0a20e172bffa9043b07dbd7" compoundref="MemberDefQuery_8cpp" startline="574" endline="595">MdDox::Doxygen::MemberDefQuery::sort</references>
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberdefQuery_8cpp" startline="379" endline="387">MdDox::Doxygen::MemberDefQuery::getName</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberdefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="379" endline="387">MdDox::Doxygen::MemberDefQuery::getName</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>

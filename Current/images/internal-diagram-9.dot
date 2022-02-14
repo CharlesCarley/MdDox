@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WIHRJ3o[
+ dhrubES[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WWHRJ3o[
+ WLfubES[
    shape    = none
    label    = "IndexPageFilter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxMRJ3o[
+ daGubES[
    shape    = none
    label    = "IndexPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WIHRJ3o->WWHRJ3o
- WIHRJ3o->dxMRJ3o
+ dhrubES->WLfubES
+ dhrubES->daGubES
 }

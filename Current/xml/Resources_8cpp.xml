@@ -4,23 +4,23 @@
     <compoundname>Resources.cpp</compoundname>
     <includes refid="Resources_8h" local="yes">Resources.h</includes>
     <incdepgraph>
-      <node id="8940">
+      <node id="9198">
         <label>cstdint</label>
       </node>
-      <node id="8939">
+      <node id="9197">
         <label>string</label>
       </node>
-      <node id="8938">
+      <node id="9196">
         <label>Resources.h</label>
-        <childnode refid="8939" relation="include">
+        <childnode refid="9197" relation="include">
         </childnode>
-        <childnode refid="8940" relation="include">
+        <childnode refid="9198" relation="include">
         </childnode>
       </node>
-      <node id="8937">
+      <node id="9195">
         <label>Tools/GenApi/Resources.cpp</label>
         <link refid="Resources_8cpp"/>
-        <childnode refid="8938" relation="include">
+        <childnode refid="9196" relation="include">
         </childnode>
       </node>
     </incdepgraph>

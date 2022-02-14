@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1SectionDefQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::SectionDefQuery</compoundname>
-    <includes local="no">Tools/Doxygen/SectiondefQuery.h</includes>
+    <includes local="no">Tools/Doxygen/SectionDefQuery.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a4f8dd0655dbeabe884839f429ffc3215" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="78" bodyend="-1"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="81" bodyend="84"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="81" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a5636b06459510ba27958d0cbf9000952" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="86" bodyend="89"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="86" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a03e0e5d575641f7e4304c2cb7e0a2b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="91" column="1"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="91" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a2268021dd1212ebdb2ea444644303ba1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="172" bodyend="175"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="172" bodyend="175"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6c110513bb0290d400339e68f22a4969" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="91" bodyend="94"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="91" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ac1e73b8959b09d755c7e04d09b01131e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -112,8 +112,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="142" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="73" bodyend="82"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="142" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="73" bodyend="82"/>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectionDefQuery_8h" startline="167" endline="170">node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
       </memberdef>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="147" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="84" bodyend="89"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="147" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="84" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a42eb4eecda258260e5cb2cc4cc18a220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -147,8 +147,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="63" bodyend="71"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="63" bodyend="71"/>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectionDefQuery_8h" startline="167" endline="170">node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
@@ -164,7 +164,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="130" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="56" bodyend="61"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="130" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="56" bodyend="61"/>
         <references refid="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" compoundref="DoxSectionKind_8cpp" startline="30" endline="105">MdDox::Doxygen::DoxSectionKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="157" bodyend="160"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="157" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="111" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="167" bodyend="170"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="111" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="167" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6ea5f15185b5be99dc7c1deb7770df33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="162" bodyend="165"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="162" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="116" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="102" bodyend="123"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="116" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="102" bodyend="123"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
@@ -243,7 +243,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="122" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="97" bodyend="100"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="122" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="97" bodyend="100"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -261,13 +261,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="124" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="30" bodyend="55"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="124" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="30" bodyend="55"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
-        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1a43a37e76203bb3e0aad98d6849b69242" compoundref="SectiondefQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedText</references>
-        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aa4e6e06bef500ffce96cce1747792af4" compoundref="SectiondefQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedMemberDef</references>
-        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1a758bc002d20f20677ce6c923bb6d7406" compoundref="SectiondefQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedDescription</references>
-        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aeda8c075b90d3de6ec5f719e3e0b16ea" compoundref="SectiondefQuery_8h" startline="54" endline="54">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedHeader</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1a43a37e76203bb3e0aad98d6849b69242" compoundref="SectionDefQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedText</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aa4e6e06bef500ffce96cce1747792af4" compoundref="SectionDefQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedMemberDef</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1a758bc002d20f20677ce6c923bb6d7406" compoundref="SectionDefQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedDescription</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aeda8c075b90d3de6ec5f719e3e0b16ea" compoundref="SectionDefQuery_8h" startline="54" endline="54">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedHeader</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -282,7 +282,7 @@
 <codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;kind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxSectionKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
-    <location file="Tools/Doxygen/SectiondefQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="75" bodyend="155"/>
+    <location file="Tools/Doxygen/SectionDefQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="75" bodyend="155"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a4f8dd0655dbeabe884839f429ffc3215" prot="private" virt="non-virtual"><scope>MdDox::Doxygen::SectionDefQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a2268021dd1212ebdb2ea444644303ba1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SectionDefQuery</scope><name>empty</name></member>

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WlglJ3o[
+ dN3ubES[
    shape    = none
    label    = "ParamListQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dtglJ3o[
+ WWKubES[
    shape    = none
    label    = "ParameterListWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WlglJ3o->dtglJ3o
+ dN3ubES->WWKubES
 }

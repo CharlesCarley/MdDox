@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dUHRJ3o[
+ WorubES[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WgHRJ3o[
+ W4rubES[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WplRJ3o[
+ dprubES[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WhclJ3o[
+ Wt5ubES[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WdclJ3o[
+ dItubES[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WhclJ3o->WdclJ3o
- WgHRJ3o->WplRJ3o
- WgHRJ3o->WhclJ3o
- dUHRJ3o->WgHRJ3o
+ Wt5ubES->dItubES
+ W4rubES->dprubES
+ W4rubES->Wt5ubES
+ WorubES->W4rubES
 }

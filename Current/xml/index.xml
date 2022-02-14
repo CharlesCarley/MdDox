@@ -4530,9 +4530,9 @@
   </compound>
   <compound refid="MarkupQuery_8h" kind="file"><name>MarkupQuery.h</name>
   </compound>
-  <compound refid="MemberdefQuery_8cpp" kind="file"><name>MemberdefQuery.cpp</name>
+  <compound refid="MemberDefQuery_8cpp" kind="file"><name>MemberDefQuery.cpp</name>
   </compound>
-  <compound refid="MemberdefQuery_8h" kind="file"><name>MemberdefQuery.h</name>
+  <compound refid="MemberDefQuery_8h" kind="file"><name>MemberDefQuery.h</name>
   </compound>
   <compound refid="MemberIndexQuery_8cpp" kind="file"><name>MemberIndexQuery.cpp</name>
   </compound>
@@ -4614,9 +4614,9 @@
   </compound>
   <compound refid="Sect4Query_8h" kind="file"><name>Sect4Query.h</name>
   </compound>
-  <compound refid="SectiondefQuery_8cpp" kind="file"><name>SectiondefQuery.cpp</name>
+  <compound refid="SectionDefQuery_8cpp" kind="file"><name>SectionDefQuery.cpp</name>
   </compound>
-  <compound refid="SectiondefQuery_8h" kind="file"><name>SectiondefQuery.h</name>
+  <compound refid="SectionDefQuery_8h" kind="file"><name>SectionDefQuery.h</name>
   </compound>
   <compound refid="SimpleSectQuery_8cpp" kind="file"><name>SimpleSectQuery.cpp</name>
   </compound>

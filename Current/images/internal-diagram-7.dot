@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dbCL03o[
+ qCtbCES[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dpyL03o[
+ DUtbCES[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WBbL03o[
+ qAtbCES[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W2CL03o[
+ DBtbCES[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dlbL03o[
+ qrZbCES[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WcCL03o[
+ DaZbCES[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -54,11 +54,11 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dpyL03o->WBbL03o
- dpyL03o->W2CL03o
- dpyL03o->dlbL03o
- dpyL03o->WcCL03o
- d4yL03o[
+ DUtbCES->qAtbCES
+ DUtbCES->DBtbCES
+ DUtbCES->qrZbCES
+ DUtbCES->DaZbCES
+ DEZbCES[
    shape    = none
    label    = "TableOfContents"
    margin   = "0.01"
@@ -66,6 +66,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dbCL03o->dpyL03o
- dbCL03o->d4yL03o
+ qCtbCES->DUtbCES
+ qCtbCES->DEZbCES
 }

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dMplJ3o[
+ WfIubES[
    shape    = none
    label    = "Sect3QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W4blJ3o[
+ WZtubES[
    shape    = none
    label    = "Section3Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dMplJ3o->W4blJ3o
+ WfIubES->WZtubES
 }

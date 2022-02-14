@@ -9,43 +9,43 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 202)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-202 289,-202 289,4 -4,4"/>
-<!-- qBZZ03o -->
-<g id="node1" class="node"><title>qBZZ03o</title>
+<!-- WCORbES -->
+<g id="node1" class="node"><title>WCORbES</title>
 <text text-anchor="middle" x="61.5" y="-96.2" font-family="Segoe UI" font-size="11.00" fill="#010509">MemberDefQueryVisitor</text>
 </g>
-<!-- DxZZ03o -->
-<g id="node2" class="node"><title>DxZZ03o</title>
+<!-- drNRbES -->
+<g id="node2" class="node"><title>drNRbES</title>
 <text text-anchor="middle" x="222" y="-177.2" font-family="Segoe UI" font-size="11.00" fill="#010509">MemberDefWriter</text>
 </g>
-<!-- qBZZ03o&#45;&gt;DxZZ03o -->
-<g id="edge1" class="edge"><title>qBZZ03o&#45;&gt;DxZZ03o</title>
+<!-- WCORbES&#45;&gt;drNRbES -->
+<g id="edge1" class="edge"><title>WCORbES&#45;&gt;drNRbES</title>
 <path fill="none" stroke="#69bfff" d="M92.939,-117.058C111.729,-127.947 136.47,-141.825 159,-153 163.575,-155.269 168.386,-157.547 173.219,-159.765"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="172.777,-161.486 178.053,-161.96 174.224,-158.299 172.777,-161.486"/>
 </g>
-<!-- DGZZ03o -->
-<g id="node3" class="node"><title>DGZZ03o</title>
+<!-- W3NRbES -->
+<g id="node3" class="node"><title>W3NRbES</title>
 <text text-anchor="middle" x="222" y="-123.2" font-family="Segoe UI" font-size="11.00" fill="#010509">MemberDefListingWriter</text>
 </g>
-<!-- qBZZ03o&#45;&gt;DGZZ03o -->
-<g id="edge2" class="edge"><title>qBZZ03o&#45;&gt;DGZZ03o</title>
+<!-- WCORbES&#45;&gt;W3NRbES -->
+<g id="edge2" class="edge"><title>WCORbES&#45;&gt;W3NRbES</title>
 <path fill="none" stroke="#69bfff" d="M123.327,-109.362C133.305,-111.061 143.696,-112.831 153.818,-114.556"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="153.539,-116.283 158.762,-115.398 154.127,-112.833 153.539,-116.283"/>
 </g>
-<!-- qtdZ03o -->
-<g id="node4" class="node"><title>qtdZ03o</title>
+<!-- WgxRbES -->
+<g id="node4" class="node"><title>WgxRbES</title>
 <text text-anchor="middle" x="222" y="-69.2" font-family="Segoe UI" font-size="11.00" fill="#010509">FunctionDefWriter</text>
 </g>
-<!-- qBZZ03o&#45;&gt;qtdZ03o -->
-<g id="edge3" class="edge"><title>qBZZ03o&#45;&gt;qtdZ03o</title>
+<!-- WCORbES&#45;&gt;WgxRbES -->
+<g id="edge3" class="edge"><title>WCORbES&#45;&gt;WgxRbES</title>
 <path fill="none" stroke="#69bfff" d="M123.327,-88.6383C138.857,-85.9928 155.386,-83.1771 170.345,-80.6289"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="170.72,-82.3404 175.355,-79.7756 170.132,-78.8901 170.72,-82.3404"/>
 </g>
-<!-- DZdZ03o -->
-<g id="node5" class="node"><title>DZdZ03o</title>
+<!-- WSNRbES -->
+<g id="node5" class="node"><title>WSNRbES</title>
 <text text-anchor="middle" x="222" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">EnumDefWriter</text>
 </g>
-<!-- qBZZ03o&#45;&gt;DZdZ03o -->
-<g id="edge4" class="edge"><title>qBZZ03o&#45;&gt;DZdZ03o</title>
+<!-- WCORbES&#45;&gt;WSNRbES -->
+<g id="edge4" class="edge"><title>WCORbES&#45;&gt;WSNRbES</title>
 <path fill="none" stroke="#69bfff" d="M92.939,-80.9421C111.729,-70.0534 136.47,-56.1751 159,-45 164.951,-42.0485 171.299,-39.0827 177.58,-36.2533"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="178.509,-37.755 182.361,-34.1186 177.082,-34.559 178.509,-37.755"/>
 </g>
