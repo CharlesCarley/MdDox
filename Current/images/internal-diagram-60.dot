@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qix2bES[
+ DBtRmA2[
    shape    = none
-   label    = "ParserBase"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D3x2bES[
+ q33RmA2[
    shape    = none
-   label    = "Parser"
+   label    = "ReimplementQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qix2bES->D3x2bES
+ DBtRmA2->q33RmA2
 }

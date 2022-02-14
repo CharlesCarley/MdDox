@@ -22,7 +22,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-20.dot.svg"/><br/>
+<img src="../images/internal-diagram-90.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~sect3queryvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~Sect3QueryVisitor</span>

@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dOD8bES[
+ D0ZUMA2[
    shape    = none
-   label    = "Writer"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WpmubES[
+ qoLUMA2[
    shape    = none
-   label    = "Object"
+   label    = "InternalQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W7mubES[
-   shape    = none
-   label    = "Simple"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WpmubES->W7mubES
- dOD8bES->WpmubES
+ D0ZUMA2->qoLUMA2
 }

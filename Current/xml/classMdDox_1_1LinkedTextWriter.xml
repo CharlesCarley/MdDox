@@ -128,7 +128,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="59" bodyend="67"/>
-        <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a76dccb42f1fd2cd7844fabad6c2af3d3" compoundref="LinkedTextQuery_8h" startline="119" endline="122">MdDox::Doxygen::LinkedTextQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a87fbbc8198d459fc80cafc7f3394f404" compoundref="LinkedTextQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::LinkedTextQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
@@ -138,26 +138,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="495">
+      <node id="849">
         <label>MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor"/>
       </node>
-      <node id="494">
+      <node id="848">
         <label>MdDox::LinkedTextWriter</label>
         <link refid="classMdDox_1_1LinkedTextWriter"/>
-        <childnode refid="495" relation="public-inheritance">
+        <childnode refid="849" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="497">
+      <node id="851">
         <label>MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor"/>
       </node>
-      <node id="496">
+      <node id="850">
         <label>MdDox::LinkedTextWriter</label>
         <link refid="classMdDox_1_1LinkedTextWriter"/>
-        <childnode refid="497" relation="public-inheritance">
+        <childnode refid="851" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

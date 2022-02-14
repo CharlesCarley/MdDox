@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WKIubES[
+ Df9mmA2[
    shape    = none
-   label    = "Sect4QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wr3ubES[
+ q1JmmA2[
    shape    = none
-   label    = "Section4Writer"
+   label    = "ParaQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKIubES->Wr3ubES
+ Df9mmA2->q1JmmA2
 }

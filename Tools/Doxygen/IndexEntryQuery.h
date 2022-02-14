@@ -41,75 +41,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class IndexEntryQuery
+    class IndexEntryQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        IndexEntryQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit IndexEntryQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        IndexEntryQuery() = default;
         IndexEntryQuery(const IndexEntryQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit IndexEntryQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
     };
-
-    inline bool IndexEntryQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void IndexEntryQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* IndexEntryQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool IndexEntryQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

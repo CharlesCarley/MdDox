@@ -332,38 +332,22 @@
     <member refid="classMdDox_1_1DotWriterImpl_1aed5cbeb5a4b5ff7ee3ea7d4af5a4070e" kind="function"><name>writeNode</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kind="class"><name>MdDox::Doxygen::AnchorQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1ae54ab696fd898cd03ba9a37b554f5084" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1ae43e4dbe86ba0ec0d836c5d24f2bdc57" kind="function"><name>AnchorQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aaf04d97d9071cd499c184bcb0c2e8970" kind="function"><name>AnchorQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1ad55c095a132894bfd1a81c723cf3b94c" kind="function"><name>AnchorQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1afa134670cae90a8984f4185e17ea6dd1" kind="function"><name>AnchorQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1a418cdd1f60d740f3bad0c8e22219f5f7" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aaf04d97d9071cd499c184bcb0c2e8970" kind="function"><name>AnchorQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1a5f5c4845626720501d9e49a57ef5dfd3" kind="function"><name>getId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1a0434f1ecaab6c38677237d5d09e3a3aa" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1a04d2e89d9191d08a3922b7228852ba09" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1ae53ae0fba4e1b2270c1b8e9c91a901da" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1ab6a2a2aa44a7afba925d4469d9a3e566" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kind="class"><name>MdDox::Doxygen::BlockQuoteQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a328a8cb27ef06a7ed04eddc82c923834" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a5b33616419dca053a590006f3a228563" kind="function"><name>BlockQuoteQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a30d7fb3de6a949fbcfd40fcff2b16182" kind="function"><name>BlockQuoteQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a3931d864f947e3c69f4042a09929d6ff" kind="function"><name>BlockQuoteQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a882c29b74280bb2abc9187e9187249ee" kind="function"><name>BlockQuoteQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1af792d7971c826259e80953d3c4d2f034" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a30d7fb3de6a949fbcfd40fcff2b16182" kind="function"><name>BlockQuoteQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1abcf5951cc81d329e289a60198dc58cb1" kind="function"><name>foreachParagraph</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a7b4c25db8648d60abc480fbcbd2fc7a6" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1ad68abe0bce7d5d45417360246bbfcbd7" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a018ddf1f254e0a6dfe2a70dd78756698" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a2a49ac00c5c0c91f3e9786ad2885dd58" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a2393cac54069752e1f4542f2db9d2f25" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a2a310c0f3277b3be6c05ab85878c1e3a" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CaptionQuery" kind="class"><name>MdDox::Doxygen::CaptionQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a288cb536e4771c823f99abd79711806f" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6e9c85acc5aa07c41fff4fdf99925e57" kind="function"><name>CaptionQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4d9cd25aa79f78c86e950ef7bb415071" kind="function"><name>CaptionQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a2138ead5216da488761d3084fc35c20c" kind="function"><name>CaptionQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a0190f6266c569c5216f320d2d8ad5229" kind="function"><name>CaptionQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1abc927f8261836aea35a07431ebfcf7a3" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a4d9cd25aa79f78c86e950ef7bb415071" kind="function"><name>CaptionQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a8e8009e1ae092f60dc81e2b9b633b03e" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a30a003d5be74122c81168a45432c3994" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aa0ca697e78e3bacb064c41b42a181604" kind="function"><name>getBold</name></member>
@@ -393,52 +377,31 @@
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a168025efb4750c1f6ec9ed169b3c5bab" kind="function"><name>getSmall</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a7bbc39e82e709285fcbae71580e45e31" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a50121825f1a47d0918ff82f367528954" kind="function"><name>getULink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a23561a1c9b14c37fc4bd6d8ff2ddc68f" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1aaec5bddcd02d7d5a756bb9955e68dc4f" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1af1d94053fd3882fe16f548dc58d1c23e" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6dddac0352f17d1e0a12c6b803b2fbe1" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a6f6cec247c3abe52abfac756bdff346c" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CaptionQuery_1a1a82e3afd1f2d53631221e3b9df39d8e" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery" kind="class"><name>MdDox::Doxygen::ChildNodeQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1ab2e7ca7f83686cbdc8b250835f31cbeb" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a41122284197b1d8de8bf1ffd86886f32" kind="function"><name>ChildNodeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1aaae5ab28b05a77037ac2235bbb7047aa" kind="function"><name>ChildNodeQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a356b0d11b69b8a68943a25825cfdf76d" kind="function"><name>ChildNodeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1ad9ec3f7d241e207ee9eb0e3f2c4dda23" kind="function"><name>ChildNodeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1ab9c7a96af47c394396a426f09f59f127" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1aaae5ab28b05a77037ac2235bbb7047aa" kind="function"><name>ChildNodeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1ac98293f86898528dc9cc485b56b28bde" kind="function"><name>getEdgeLabel</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a3bea65770b170d95abd6a7fffe0ff3b0" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a0af3aba9197e46e74a7c7f1af858ccf6" kind="function"><name>getRelation</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a024020b8621adc7f524a7f0924c6cf2b" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1acae0fa502e399ee1af41ea78432619cb" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1ab69780a10f49dc67d368a16afec47e7a" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1abe4f816890eae8ec9a68bc48d4ea9a0a" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery_1a83f0af95571907e9381cf51877b0e3ed" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CodeLineQuery" kind="class"><name>MdDox::Doxygen::CodeLineQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a726e0a20f45d24e6dcdc1c279c2c9918" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a36df5b3f2b90f39e707b2e4c9020a693" kind="function"><name>CodeLineQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a22a96e9f59fbbbc718593f11b134ba15" kind="function"><name>CodeLineQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a1b3ac59072c56f2168a627140eb92f43" kind="function"><name>CodeLineQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a1fc8a71c434fcef88f127b2599a33f7e" kind="function"><name>CodeLineQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a06e8406727ddbf45859cba4756acdaf9" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a22a96e9f59fbbbc718593f11b134ba15" kind="function"><name>CodeLineQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a4c7e3b1b7a99587e79fed94528e0075f" kind="function"><name>foreachHighlight</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1af24871e0a7b22185a2af60939681e268" kind="function"><name>getExternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1ae3b5f83fb85eb287623520cfb2adf48d" kind="function"><name>getLineNo</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a745e54eb6fe812a08aa85899e33d3b3e" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a7de770923c951588d16f94a8fec62bbd" kind="function"><name>getRefKind</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1ab77b0ef38c6c5919e46fa7affa7a0441" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a2a699fed5068aa519f9fed9a3240a1b7" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a718bbd3f4bcf5c387d553f664467cbc6" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1a13fc226ab33189ebeb5a433d47e33472" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1aae211902868556cb40195ab1e8fd3629" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CodeLineQuery_1ada730dbab38c1f92a4e50d1f01dc6b88" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kind="class"><name>MdDox::Doxygen::CompoundDefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1afe27e229b6ae8291af38fab9fa51b3ab" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad10bf25bde92ea9c33eccec5f36c80ec" kind="function"><name>CompoundDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a242860438073756f16b64eb34f1b5cc4" kind="function"><name>CompoundDefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a37b9e98e3d98f9adfe82b988f52f096d" kind="function"><name>CompoundDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1af64972c2ac3fff5cdea06c45c9ac54fe" kind="function"><name>CompoundDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad02a5d4e005ff27ee8131f7c7adaa6e1" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a242860438073756f16b64eb34f1b5cc4" kind="function"><name>CompoundDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2c4d2a06b6ad68977117704c99698b20" kind="function"><name>foreachBaseCompoundRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a29f49da054a54dcc8d858735d9c99376" kind="function"><name>foreachDerivedCompoundRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3615bd4b9a77bf1ff3d5cffe664e9128" kind="function"><name>foreachIncludedBy</name></member>
@@ -480,79 +443,46 @@
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ac0c48c8042193a850c9cc4d655fa5bdd" kind="function"><name>getTemplateParamList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a68444b03966d51ed8e5b22603c89a1f2" kind="function"><name>getTemplateParamList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1afb4c8a3e2864c65b5d9302283d49e297" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a1de61b129be47f02b812dd674b765583" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ae788aa0df25e511b5f5582c5ad456a56" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a90b778a78acb305c5bde7ebb27007146" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3a14754e99af3f12ef1f16ce5ab1c8dc" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1afbf911af3cc16af4d9e4f3c27a9a3e65" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery" kind="class"><name>MdDox::Doxygen::CompoundIndexQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a3005ef60c64b2a0444e581e6dbf982a4" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1ae16978bd301f67b242e421d003ccdc9a" kind="function"><name>CompoundIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1abcf6690c48b3695f5eb5a42de3e207c9" kind="function"><name>CompoundIndexQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a4a276c0fb481523fdef12d47291940e1" kind="function"><name>CompoundIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a322474e7025e393c12bc85cb21bf0aa3" kind="function"><name>CompoundIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a138e453d1e3fcb86f09c1364620fadce" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1abcf6690c48b3695f5eb5a42de3e207c9" kind="function"><name>CompoundIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" kind="function"><name>foreachMember</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a5bd2c0056108f7775754848ff8180c89" kind="function"><name>getKind</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" kind="function"><name>getName</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a2d313ca23b09288ae5a0fc13fd3f92ae" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1ae9a2bc79cac3a03a6df0eaaf34ad6e10" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1ab41fd4255fab945dc7de6d8a01884a3b" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a65eeb520f7a47bc6b67dfb36ec812523" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a726c50936e711741433438f2a20a45f3" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a40ef33c97ed083ceb733be751b99e9e5" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1ac5b3f82512359bba95be26aff5ed0d3c" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery" kind="class"><name>MdDox::Doxygen::CompoundRefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1ac3ed4aa45a16d859658df3c18c3ac4da" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1ad7230030f40a40fa85fbc2a59db0b258" kind="function"><name>CompoundRefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a67038d537482d8694971a1c4282173a0" kind="function"><name>CompoundRefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a393774d3f4c8c04642ebad100da3498f" kind="function"><name>CompoundRefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a2d6a1538ec201794a4af50ba5ddfd563" kind="function"><name>CompoundRefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a35d3a69d07104749c702fe6918f57fe9" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a67038d537482d8694971a1c4282173a0" kind="function"><name>CompoundRefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1aef1e3efa4723d8b4f9e20bcbe9d365ec" kind="function"><name>getProt</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1aeeb6242188ae0a5027eeb27f3440f22f" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1aabd2f5019d2748fc17acb87f7b577641" kind="function"><name>getVirt</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1adfac86a631d041bc17f332cfd3568329" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a4d96dab3a603bf551f9f10f687362cd7" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a02b06b6d770c32d3d712f06cf11f965e" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1ae230149cecba0757ec04a9817f183a40" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1ab0d636a810608151ebb57b6bff5a751c" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1CopyQuery" kind="class"><name>MdDox::Doxygen::CopyQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a3df8edb7ec91e7e20fd64cdd565cd65a" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aea38283b5d7fff0dafb67ab636ee7e48" kind="function"><name>CopyQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a677ef2163c4c57b86376e742512d6727" kind="function"><name>CopyQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aef97f8689f5fc2d5ee371844c6331056" kind="function"><name>CopyQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a3f881a1ccc23544a6160c998f17b82e5" kind="function"><name>CopyQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1af3f74d3e958a1528cd6fc3ef9e6062e0" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a677ef2163c4c57b86376e742512d6727" kind="function"><name>CopyQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a550b4f87b6c4464366be070647b593b2" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aa0ffdcf1b52c20cc53b5a0b94586bc20" kind="function"><name>foreachSect1</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a24a27fddd9e7031c609ee0e6ad5b80b9" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a1f999b7b1416b011617d84d228f86af7" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aa2747757e19fea114a13db2e9bc86d61" kind="function"><name>getLink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aa7af0f635014125859e867cb0bbd5584" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a03e1838cf21f987808549ddf80c40786" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a965ff97e79ddb8aa8993de96adaa75d7" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a24536e6486af13024dd644b4050cdf22" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1a1ef9038130d457afad6257f38530aaf0" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1acb85379a1303fed5213111fa7b63b227" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kind="class"><name>MdDox::Doxygen::DescriptionQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a95e00f1eefdfdd5158ac992a09dc6353" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1acdda5a7b3ff5d5b57355669c5883b9bb" kind="function"><name>DescriptionQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a12db5cadfc456e2c890495b136443d0e" kind="function"><name>DescriptionQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af96e91748a6ec3ede93e1e6e074ce26f" kind="function"><name>DescriptionQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af4b0c158dfcd6cd1d6df42f5c5d90502" kind="function"><name>DescriptionQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1aa053a16161e0783853d93421f6cd4d19" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a12db5cadfc456e2c890495b136443d0e" kind="function"><name>DescriptionQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a55a80c292dc035fe04b301fc40706b26" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ad175cc0f4d7cb369053e562b56b2d268" kind="function"><name>foreachSect1</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af5c1351250dfebe8112e744fe390d502" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a37856feeb4e378b184938c6e7f89f1bc" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a1a4dfbbe6bb315bbc65c668d649bda75" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae538eab88a05f550479b51323e6d06eb" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a8e781578028f53700c191091dc08096a" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a59b80a8abe450c19cdf3014d2d7dc8de" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1accdbda736919dba0f05f3579902bb073" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a2e5ca314a6ec85172c3acd3e9411658c" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1DoxAccessor" kind="class"><name>MdDox::Doxygen::DoxAccessor</name>
@@ -610,68 +540,38 @@
     <member refid="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" kind="function"><name>get</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery" kind="class"><name>MdDox::Doxygen::DoxygenIndexQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ac00668451a52a035ce8f469a65086444" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a8025a31ab3fccd5eca885a6ca14846bb" kind="function"><name>DoxygenIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a37e7b788a0fdae0fef94c5e8f06854a3" kind="function"><name>DoxygenIndexQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a01611237cc2ac6672a84f25078342e26" kind="function"><name>DoxygenIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a7bd8ad72d11ab854a4286f72872380b4" kind="function"><name>DoxygenIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1aebe2766aa1d7b872eed62d9a10344a93" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a37e7b788a0fdae0fef94c5e8f06854a3" kind="function"><name>DoxygenIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a96b49a370dc98867be9a604dd6d67082" kind="function"><name>foreachCompound</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1af3abfd66323f5c0c60319f9149cd05fc" kind="function"><name>getVersion</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ac98c12d5abbb1a2589a2a55d014e635d" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ad93c9a874d3ba046e52a12d19ebee792" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a61047225fc6e49279751cfcd693322ee" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a89f1f8a014bc9ebd23f82110062980e0" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a39da5d3f56a7dc6b31340b37e667f262" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1DoxygenQuery" kind="class"><name>MdDox::Doxygen::DoxygenQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1afcacaab734c7a873971b3a6979000f8e" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1ae823adbe4ccb59e1cea40ac8b4f3257a" kind="function"><name>DoxygenQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1af4f2cc72a7d123299fbb8334485daa4f" kind="function"><name>DoxygenQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1a6cac15da7fc105759f88e7fea205a08a" kind="function"><name>DoxygenQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1a8b07348f8299999420420bb9820f95f9" kind="function"><name>DoxygenQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1aa557f7b9990d75ac0c69173080a95622" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1af4f2cc72a7d123299fbb8334485daa4f" kind="function"><name>DoxygenQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1a47f7b11440eaf023b3c3d6939b61b997" kind="function"><name>foreachCompoundDef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1ada8840f8da18fddda1a8c9f4b9ba4234" kind="function"><name>getVersion</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1afe824b1630bf2e83a4b8e27c57e5d874" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1af77ec6eede8f7c9872a833b8e8f2df12" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1af1b7c5cdeca137fd82f982b76cb73053" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1ae5713a0567d105d4f3e3f8dc64e28c70" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1ac54819608065782489901f053469340d" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1DoxygenQuery_1aa9b5f84b966c40f282d7d520ef2c3310" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kind="class"><name>MdDox::Doxygen::EmptyQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ac231a08f9d664652835912d12f66deb3" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a83fe73d8e5de5d71c609ecfc1fd91d0d" kind="function"><name>EmptyQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a1aaa37e14695447462866bfbcedcd97d" kind="function"><name>EmptyQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a0ac90df046d19020e23afa5d6d060560" kind="function"><name>EmptyQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a979cdce69e1d113d42fcebe404ad9cb1" kind="function"><name>EmptyQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1aae3ff6775fd3f75c1a79343f8de4b3d7" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a6d7e82767d0491e3db664aafcee1753c" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1aee59eb84305197dd656e346a713d8157" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a28f9fdbf3d4e6294f3a6933ef38ebacc" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1aa0638302d43cb019735561dc7203500e" kind="function"><name>text</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1a1aaa37e14695447462866bfbcedcd97d" kind="function"><name>EmptyQuery</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1EntryQuery" kind="class"><name>MdDox::Doxygen::EntryQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a837fa2b44618e679e204d1d4d59cf31c" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a432e060724841f02234f6a56a7fca96a" kind="function"><name>EntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a976effcc35e6ed8a6a2b95a4c5579ce3" kind="function"><name>EntryQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a050d85b552ad575cba310722b1c61e4d" kind="function"><name>EntryQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a584ec830d38d1f101f0d77edc57eaa61" kind="function"><name>EntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1afab0be81abc616a4c38eb0bc34f540c0" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a976effcc35e6ed8a6a2b95a4c5579ce3" kind="function"><name>EntryQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1aba3c7498e877a51deed1a7489b85f608" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" kind="function"><name>getThead</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a174745950b5bf296ca4e91a1c1405ad5" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a221dbe83acd9a5e09b5e63da317f6add" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a640a2495a8b5b344ea61eb146cdad5bf" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1aa02e5a4abb6de635f36a1e2760f00032" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a24cfbe66d39b791c9d9265226c82c6af" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EntryQuery_1a10eb80c3c095eb7b596bccc95b988305" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1EnumValueQuery" kind="class"><name>MdDox::Doxygen::EnumValueQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a586c09715e4eecce029853ebc1d6b6f5" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61cbf3da7e7600dde5bf172e1921419c" kind="function"><name>EnumValueQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a868fc00e1a5bc712683b67d23ffd4305" kind="function"><name>EnumValueQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1afce0e4a6110d18ccd0ded534e5b66a9b" kind="function"><name>EnumValueQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a83b7f087e2c0d75e63b2b944dc3fe1ca" kind="function"><name>EnumValueQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a3e2e70d04712e7aaef0a7ffdcc8fb3b8" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a868fc00e1a5bc712683b67d23ffd4305" kind="function"><name>EnumValueQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a9d97fca70b43a707eab3a6060cdd7874" kind="function"><name>getBriefDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a1f8dad836b756d88f26462ecfb76d347" kind="function"><name>getBriefDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1af483f04b8c0a49e0ffed8331a8013a28" kind="function"><name>getDetailedDescription</name></member>
@@ -681,19 +581,12 @@
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a65d6359fbf2607c89a3b6421da057a81" kind="function"><name>getInitializer</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a579306992ec7969b1a98f509f0a9836f" kind="function"><name>getName</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a288755136e1ebe4adf692da03a42213a" kind="function"><name>getProt</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1af653f60e7e924e70374259e472612240" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a61ed0208209c31cc804ec9c398b48074" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a46e6088c369a058a805390da66b0c292" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a797d145844d00c832ddab9868b4efea4" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a650146680c761a70b6b09bec0b213319" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1EnumValueQuery_1ada42d7ba0ca446992a75c4e40e7dad46" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1FileQuery" kind="class"><name>MdDox::Doxygen::FileQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a47c3ed38065f307f8a0b2b0c827003ed" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a1a03de38cadb1ded9a1ecacb451a146c" kind="function"><name>FileQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a967b8abb5290099ee788c51fb692d0ec" kind="function"><name>FileQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae47f42a1715d32b9b7455bc691363e2f" kind="function"><name>FileQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1afc112378bf1fc22f0ed0ba8677652c15" kind="function"><name>FileQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae7d096a2fbed790f29cb726bdb65e25c" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a967b8abb5290099ee788c51fb692d0ec" kind="function"><name>FileQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1aef79cdf1ca303266d184bf578c771051" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a46c50afe5b8995ec717b9a81d6dddba6" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1ae169f8f88fcf6c26ebb55d885ac3f3ea" kind="function"><name>getBold</name></member>
@@ -724,46 +617,25 @@
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6baa3f4ec87c5bc6956d7ac8b9cf1c56" kind="function"><name>getSmall</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a57ace44cade40fe585151f940f41a37f" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a8e54b7663ad97da5984fa698fce1ef07" kind="function"><name>getULink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1ad3c7dc888bcd4fc131b38f0b6a14d59d" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a06e5c6c2a0e8a311c5ae88a2b9744520" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a635f7683c2ce33b60f919da42424949a" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a6d7d5c93ab33eb28d1d87b0297e71c2d" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1a3605393e28c9ee94be1e24d1f20d0af4" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FileQuery_1ad7f6a6d3896927373438c9fa935a7a5a" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1FormulaQuery" kind="class"><name>MdDox::Doxygen::FormulaQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a9eac367d690b38410f9edb0f2e3aa9ff" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a6702334b98dcfdc9487853349d4295f2" kind="function"><name>FormulaQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a7d77b6b81d703a36efb7d97cc21a718e" kind="function"><name>FormulaQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1aaeca36719d0c3be8cb249e5bfba7c041" kind="function"><name>FormulaQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a805b05823d9d47a9c1f642e42be6f6e4" kind="function"><name>FormulaQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a3ba35d3dc8f8b450db19eb2306cc1a9f" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a7d77b6b81d703a36efb7d97cc21a718e" kind="function"><name>FormulaQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1abfac55c0287784b2e75d5c971e8a67e8" kind="function"><name>getId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1aadc104bd0fbd2091eab728dfbbcfe165" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a8f14564ec97402edfcaeeaf1a5d1fdc9" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a9be7504e3d448e6f1ef0f22e8a1bdcd6" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a44cf1082babbda2c419eb2c0c29260c0" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1FormulaQuery_1a1d3db6934677d8523f9c173628dd1e2f" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1GraphQuery" kind="class"><name>MdDox::Doxygen::GraphQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a049681ed5cb2df502905793d8cfcad24" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a57f1dea2863ab94e0f7c0c78ce0fcad6" kind="function"><name>GraphQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1ab0bd6c69d9ef1b3dd59b430eb665a332" kind="function"><name>GraphQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1aff1c145505f5c962ff23b904a99e2075" kind="function"><name>GraphQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a9c42fb71925496569a168e95e40955b8" kind="function"><name>GraphQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1acbd1fa7939dcbdfcb69ee7259adf1edd" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1ab0bd6c69d9ef1b3dd59b430eb665a332" kind="function"><name>GraphQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a3dd25c5d55cf0c4f4e354524345b97d2" kind="function"><name>foreachNode</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1af86635b15fa8d39e61770dd777305302" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a2ac4b2b22f8984aa2fd8eb8ce406ad99" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a0f5dfbc63ca1ee547289e4b503acbebc" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a7f8fabfc4fa6a129f40f59c9421cf576" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1GraphQuery_1af01da6f11f4c67620803993161f018e8" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kind="class"><name>MdDox::Doxygen::HeadingQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1af3b6caff8b67f9ab7e07817832ee7695" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a5f2e4365d5bc5c01f6442c3917d624e6" kind="function"><name>HeadingQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a950ebdca8b7658d299b71a8ba17e4b94" kind="function"><name>HeadingQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1abb722b255155a8a159ffaf7b44e7c83f" kind="function"><name>HeadingQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a6e255e228a5812beb4f6a79b88ad2cd4" kind="function"><name>HeadingQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1aefed006750970e6e75e1bfcc44ee6ac9" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a950ebdca8b7658d299b71a8ba17e4b94" kind="function"><name>HeadingQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a295c6ebc0691bbdecfbf5b1ff5b58ebe" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a9352ad693c383394f76f889298528425" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a341f1a7bccf63b0c8523400f0c8c529a" kind="function"><name>getBold</name></member>
@@ -794,37 +666,23 @@
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1ad4c1baad845bf0c1b9f4066ff6c23a1b" kind="function"><name>getSmall</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1ad188d03779b3530baf75c7e15155d2da" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1aaa10af8b11ddac2e4e190713a037e635" kind="function"><name>getULink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a16bc34d850902b9f598cb22794e0a264" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1aa62a1afa4276014a0fcf233930c555cd" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a2a97e3f62b47965ba987b8e39f5a4b55" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a202430f127b376854b058540d9531157" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1ac558a56787eebb9af38bc0da75a87bfb" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a22e802645c0a4a51be9dcb7727e3f189" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1HighlightQuery" kind="class"><name>MdDox::Doxygen::HighlightQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a8dca264af9b747398fb1567e2372d01e" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a3ae69a3d79f4a3c4eafa9fa283bf35a0" kind="function"><name>HighlightQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a556ee43cd70a783beb36248395d0156d" kind="function"><name>HighlightQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1af5a83b73095be7f961e2ca57fb307820" kind="function"><name>HighlightQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a77fe9f7b426f80d3457485483d5198d3" kind="function"><name>HighlightQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1aca9600121a5eedc38fdeee52de62727d" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a556ee43cd70a783beb36248395d0156d" kind="function"><name>HighlightQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a578834e328b62a7aba98430162fb068d" kind="function"><name>getClass</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0aeadbe7c094116077aedb32897d374a" kind="function"><name>getRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1aa870e651570f57dbd587666a995f8b19" kind="function"><name>getRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1ace0a9d373120bde7f1c8cfc1880d31d6" kind="function"><name>getSp</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a963c488aad14c145a0bfd9d5dc308eae" kind="function"><name>getSp</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0076f6656355ea1021745c30838659cd" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a0d0404e7d9f2b2f9cd309e0b9ed77549" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1a248c964eee2b8b9f23e31b6f24fc85f9" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1adc28692b4362c2daa12567a5f68f1d7c" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1af76e5540fb3aee4598990fe50f24d9a8" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1HighlightQuery_1ab02c49d464c9c4edfd6878cf79d95bfa" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ImageQuery" kind="class"><name>MdDox::Doxygen::ImageQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1aa5ad95e572a91a9b9170f2de2334d932" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a8398cf4decc81c51285e156b2757fdae" kind="function"><name>ImageQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1afcfcd201496bfee736e8ae60ba8d8a83" kind="function"><name>ImageQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a32918e4d9bbec3500c0ad45aa21d4bc4" kind="function"><name>ImageQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a99fb9a51bf62d5013c73e0bd76f63889" kind="function"><name>ImageQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a1aebe8f609e36896ce05e7a062f72beb" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1afcfcd201496bfee736e8ae60ba8d8a83" kind="function"><name>ImageQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a54955939644b37ab31493599aeb9ed0d" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a44b45d557b91c168dd130fe39af44592" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a6db1ede7767ac47d8963e7cdfec862fe" kind="function"><name>getBold</name></member>
@@ -858,237 +716,125 @@
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a2051dd33fb3a520be1eaeb7c112bcb4a" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a1d9e2e255036ad34d9c02bd4d96f5487" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a89f674cf8ce9450571f0107dbde14db3" kind="function"><name>getWidth</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ae025fc8e7428a0cde67832402dc7accb" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a92fde88c61f2f63bd94c41d4012e9bf8" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1abf581b1a9740a026c99fa47364ed38dd" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a675caa078013e52dd6965e9787f68fc3" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ImageQuery_1a6aeae9de0e3272bcb921d4574c76e990" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1IncQuery" kind="class"><name>MdDox::Doxygen::IncQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1af3aee228dfc6b4aa5675c4c16853bf49" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1adba037b3d41a5d73559cf59c6a1784b2" kind="function"><name>IncQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1ac304172fe8c77653d9455db977b14c32" kind="function"><name>IncQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1af143e4e583129e640db903a0ca05f725" kind="function"><name>IncQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1ad2bdabe9b4ae1198c235d368efaae552" kind="function"><name>IncQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1adcd597ffdf896539527a1ca8eed6beec" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1ac304172fe8c77653d9455db977b14c32" kind="function"><name>IncQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1a7ed10753fe1b2f28bcf189d43e61020e" kind="function"><name>getLocal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1a168f9be649875e2258b8502c5b5f90cd" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1af0dbad1d5db8dd3fdb81762b223819a3" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1a37b3f60799dee66106a6c78e5f9e1a08" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1ac8f78db08917b3f5df20bfa55a15ab68" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1a2db7a844621f0d5218b52f77d2ef37b0" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IncQuery_1a07ae0a7ae378cc2e169b0d1af47d8508" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kind="class"><name>MdDox::Doxygen::IndexEntryQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1ae8e8aeca31f2d1e3e441ff1ebac43391" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1affdce09638359a0459f0088e15c5058b" kind="function"><name>IndexEntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a7a82b2eb565c8813e1933501f4e1221b" kind="function"><name>IndexEntryQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a011b66ad350500c132b0243020dfdc75" kind="function"><name>IndexEntryQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a2d2e549d0a1e7f7420553435ce7aaf3f" kind="function"><name>IndexEntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a7cbc3d959dd0167a5a7e7d91913c5802" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a4ff44ccebe0ae2412a066073cd6b3ea6" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a405ff86eac06c90579f6a80f0d5f2ffa" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a3ace4842740f1c6a23ec1e19db107cf1" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a2cbac97c2c583da48720ffddb467c696" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1af252ab02de01a6fa87e80d3804646377" kind="function"><name>text</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a7a82b2eb565c8813e1933501f4e1221b" kind="function"><name>IndexEntryQuery</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1InternalQuery" kind="class"><name>MdDox::Doxygen::InternalQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a21a1f90511ad063c26cd2ba2d5833931" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1af5a9b4b6855488d46c7a7ec7675f578d" kind="function"><name>InternalQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a7b1e207dbea2fc649b37b8ebdf374e0f" kind="function"><name>InternalQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1abaffc543ad8c88d43b2ab497dd37be27" kind="function"><name>InternalQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a51fedc00638457836c6c16588a81015b" kind="function"><name>InternalQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a7ae5e93cfa508a4ba06bc3408efe9fef" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a7b1e207dbea2fc649b37b8ebdf374e0f" kind="function"><name>InternalQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1af3570923f39da573bd9cf4c2b7f7bf62" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a0ccdb6f32e1225639fea2036e79d76b0" kind="function"><name>foreachSect1</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a95f43e8d3efefca97f318f47e606f8b0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1af4967712de75bacf6e96451fcf2c3350" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a067e1ce2d340f88c7f0687a2f0638d0d" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1a6ce682078cf881240be99607344e234a" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1aa05ecb54bc17cee49cb054eb32c4eb21" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalQuery_1aafd7d0ada6159c129412b8f18fbf1410" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1InternalS1Query" kind="class"><name>MdDox::Doxygen::InternalS1Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a1338e2801b7c5dd66e4b23efd12cdfc2" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a20d29003b532b66ee3c7e07d7525ade7" kind="function"><name>InternalS1Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1ad9e757eb2e724b0a578687b2c1a876c0" kind="function"><name>InternalS1Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a1a21697d6f0cf0f782ca63cede305609" kind="function"><name>InternalS1Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1ac9d31661d968cafd8ac0db4bacc109d3" kind="function"><name>InternalS1Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a28195efb9307f9ee33826b54f2fe1735" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1ad9e757eb2e724b0a578687b2c1a876c0" kind="function"><name>InternalS1Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a2fa692f98ef78eb5d97f3c448e2f0357" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a287fecd84e3b98ae5e6d99b9b76a1d19" kind="function"><name>foreachSect2</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1aa7098f29ed887e3e694bb0249520ba98" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a87be271ee7f3119372fbbd379a52cf8c" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a86461ce38848715995f2b9cb00341516" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1ab68b665034f652e3ca558e11c1097bcd" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a7889c951b012ec15a0a40c03e015fb98" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS1Query_1a41b9f401644e94fa85efe5e0550768de" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kind="class"><name>MdDox::Doxygen::InternalS2Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ac7475c88dcee13427999692603e62f6d" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a08ffc339dadfc8258ef1fd4c92510674" kind="function"><name>InternalS2Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae94c7a0310808079d57367ca029976cc" kind="function"><name>InternalS2Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a47c314482aadd49abbbbc3e4c466a114" kind="function"><name>InternalS2Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a2c259a33b2665ad8ae025b08b5f59f13" kind="function"><name>InternalS2Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1acb57e141011a901b396abc5654c5d614" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae94c7a0310808079d57367ca029976cc" kind="function"><name>InternalS2Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1af2f457976e8ae23195b6475febdb1471" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a0ed69b3e839a7b0dbe7e56ebe0a8a14a" kind="function"><name>foreachSect3</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a1a0cf9541e1699a46828f5a0ac218ef8" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae189c5cc574d8bef078604e84ca62e4d" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae210506f3923f3f234619691b7116075" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a0937de38d4371b1e42671f0edaafdc34" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1a2ce8f8a2d5513dad091c22ad55d1e7ec" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS2Query_1ab4acd5f9bc623e9f98bd42f827033b76" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1InternalS3Query" kind="class"><name>MdDox::Doxygen::InternalS3Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a01659221ff8160c5e1fa0dbd34cecc22" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a2045f6a7b7dbacb182eff9f2e1d498ff" kind="function"><name>InternalS3Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1aa16687bb5ad33fd84af3cb9855a12ecc" kind="function"><name>InternalS3Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a164a8c87d7c23497592ea39288ab0fe2" kind="function"><name>InternalS3Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1ab44427abd273d8b31a3e0834e3de57d9" kind="function"><name>InternalS3Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a348375ab0d1394b9382c5fa3b0e272a0" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1aa16687bb5ad33fd84af3cb9855a12ecc" kind="function"><name>InternalS3Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a79b2260e92f22eff76a50d7ea6d3d3ab" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a51aa218fb106f1ca03f43292a667662c" kind="function"><name>foreachSect3</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a57d1c7cdf2834b2a4addab914390be53" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1ab75906e9787f8fd3c12661f93a8daaba" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1adfbb2123eee7ebfa1d38c6131aa92329" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1aa15fb791b10e34d98bacf67c9b097306" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1aff9f64a44473a5712c7b56510bcf6368" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS3Query_1a72e034115ab7438132db16bc2caabd6f" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1InternalS4Query" kind="class"><name>MdDox::Doxygen::InternalS4Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1ac76a60d28f227f7041d555863c0b0d84" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1afc45dbd0121d2142f463964b11aa2fb5" kind="function"><name>InternalS4Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a17c903961bf767039763134806645b65" kind="function"><name>InternalS4Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1adf6d06bd5ea075cbee4b34944dd329e3" kind="function"><name>InternalS4Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a4e088bee8989c18a587b1b7c69da0aa5" kind="function"><name>InternalS4Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1ad446bb00645388762380ceee752d5351" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a17c903961bf767039763134806645b65" kind="function"><name>InternalS4Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a2b3a670f81d2f7d5d7d2764325960061" kind="function"><name>foreachParagraph</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a0a6565f9ba7553a9758ff44ddc068ef0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a3fb4a4cf63b864915d7463912fd68be2" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a30f1295dfd46b817b9828f32acb99352" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1ac39b71d5e85b5098982cb1742f30b94e" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1aa07f637429e87b02764f2eed46c9f8c2" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1InternalS4Query_1a10ab42f4eebf9fc672b9793a9654d26d" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kind="class"><name>MdDox::Doxygen::LanguageQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a9e32715a9adbd6b10301ff8204328699" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a634ae045eb0de486c9064e360e815bdf" kind="function"><name>LanguageQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a192f9edecc05163532e2c1fbd189879b" kind="function"><name>LanguageQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a731666e678fb596c5512ee32ca4df91a" kind="function"><name>LanguageQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a0d2cd247440c3cf8c6cd21be86c2c15b" kind="function"><name>LanguageQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a406c7837f09d52c3cdf3d3105e425588" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a192f9edecc05163532e2c1fbd189879b" kind="function"><name>LanguageQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a524643b4bf075a9438a4362f5cd01ca4" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a4d15fd358de6c526255906e723e7950a" kind="function"><name>getLangId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a3d99d4e2c5f386d6f8fa8cd17b1ed84d" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1af70af94b2f54868805cdf601abd47ac0" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a8cf6ab05635116f56564470762794a80" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a1dd94e3788d217ac1ee10f900b4e2295" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a87d843e6530dc96c078bcfca54f7bb74" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a688446942cea3ab3d648da5107f27e22" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kind="class"><name>MdDox::Doxygen::LinkedTextQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1ade35322ec07286ebc94b57869935a4fd" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a4112d1af0dd2728e67b418a6975f3f3d" kind="function"><name>LinkedTextQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a376c3c41aed50929625a4516aba276f7" kind="function"><name>LinkedTextQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a187613cd5d36fb51fbc409bfbcf1deb6" kind="function"><name>LinkedTextQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a025e6b854b1e6adc8326b34751f5ecdf" kind="function"><name>LinkedTextQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a4e52354a78dae3f11b22a05a8424f14e" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a376c3c41aed50929625a4516aba276f7" kind="function"><name>LinkedTextQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a5921a06108adf44f29940a96944a9004" kind="function"><name>foreachRef</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a76dccb42f1fd2cd7844fabad6c2af3d3" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1aef743162ddb410656ed4447420da3e3a" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a3292b2495f4bc715640f492ab5063399" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1ae7541718e659c5ab35591fa90da706b8" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1ac64e4dda5ba0c86b1cc0d159ae9640f9" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a87fbbc8198d459fc80cafc7f3394f404" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1LinkQuery" kind="class"><name>MdDox::Doxygen::LinkQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a8c63e3d4f206da6f2abc41e50729a48a" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a3a4bf4659a7543c97f896eeb46f3b6d6" kind="function"><name>LinkQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a98f25327041722c92fcce2a814501565" kind="function"><name>LinkQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1aa0b2791713a2b9a0ffdf72b0bde69f98" kind="function"><name>LinkQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1ae626cc55e18aed21c65055f1e327a6fb" kind="function"><name>LinkQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1aee972546a1c3da9e93e984108223ee35" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a98f25327041722c92fcce2a814501565" kind="function"><name>LinkQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1af5982cb0d4c62f27ed3eb747b03b35df" kind="function"><name>getExternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1aa5364278aad46cf4f971c68ef423d5c9" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1ad34b358a1565b22102c0153cfad186d0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a641c9429620c77801996a9d169d73bf7" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1a14078597bf8c023468b91c50adda2e85" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1ad1807a1cbee75d6e1021dd7bad06c3ef" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LinkQuery_1af7884aed27893ce1220eef4246145408" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ListingQuery" kind="class"><name>MdDox::Doxygen::ListingQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ac48ba53c0c0bcec35639b0678e156a08" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ab30b70510c911ce05f175b3ac8b31f1b" kind="function"><name>ListingQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ac6c1f71fa33cdbf172c1113188aeca39" kind="function"><name>ListingQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ab391d8fa48d70f6a3f86b8faa5c9690b" kind="function"><name>ListingQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ad421433dc621fe4cec1c2d91ab758773" kind="function"><name>ListingQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a64ab11dad9dc2eb5b2c5e0a5f3d9c025" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ac6c1f71fa33cdbf172c1113188aeca39" kind="function"><name>ListingQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1aa351e41769387e5ff302cce906f2d715" kind="function"><name>foreachCodeLine</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1aacb6082a859da49c541137fdcdc12824" kind="function"><name>getFileName</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1af595e19cc888b5a0401ecced124e7628" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a1d33d5c8e8a201f88c9c0335d371a5df" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a1a9970dd81c036405087718e1a165e01" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a7e37e8c50c353dbbb5ba97452882e6e1" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListingQuery_1ace33eeabefb3f47a597c77dc320640a1" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ListItemQuery" kind="class"><name>MdDox::Doxygen::ListItemQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1af02bb3981971cec93fc674acd6d2b129" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1ad57e69e8af14fd9aeb27493b9918b639" kind="function"><name>ListItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1aba6afb9f3c9bf928a39edaa446f6646d" kind="function"><name>ListItemQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a2b75c9cc2ae531e5e5355b6adca1828a" kind="function"><name>ListItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1aa038898c20d519f2ab91f436e8d22a2e" kind="function"><name>ListItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a16911b43c34fc13d7d0e78c00ed94626" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1aba6afb9f3c9bf928a39edaa446f6646d" kind="function"><name>ListItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1afe6f2ecf102bd44bbbd0bdce19d43836" kind="function"><name>foreachParagraph</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a631556611ec5e5253d702493b7703794" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a044646c44f609ab47b4b66abbc9d29f2" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a9310bd3815e5a4f2446522232f27c1ac" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1aca5eb3c86588001a5cd206b7e372b541" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a2a0f6193277fd9bfddfb03fde80752f6" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListItemQuery_1a24ded5e1e8561cdd6da98030aaf3da20" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kind="class"><name>MdDox::Doxygen::ListOfAllMembersQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1ae41781680f895917aaa7dcc0841ed406" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a20fdce8fb0fcec9a3154f4a4b7de5691" kind="function"><name>ListOfAllMembersQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a3003fcf185b3247883d92da50eee2e99" kind="function"><name>ListOfAllMembersQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1aac2286abb8f738c0b8ac7e59e8a0109f" kind="function"><name>ListOfAllMembersQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a743dc78b166aec2965eefe02e1274672" kind="function"><name>ListOfAllMembersQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a2c702c0daad25877251b6f1b81f64b79" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a3003fcf185b3247883d92da50eee2e99" kind="function"><name>ListOfAllMembersQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a0f29767e2896f8afd5bd5b7487dda428" kind="function"><name>foreachMember</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a92143f5f7fcee5a9ae866e708ac5f2d2" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a83f7f178862961c8a801e2cca3dd6b87" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a57a09154bc9d27505e214917b615eaa5" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a44cf923d14ba5c8fe81bccb9bd62c8f9" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a38b2c1688aa1619d72ee8b7a960190f9" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a53fea9435af7d597e0a35dd08bdb2f45" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ListQuery" kind="class"><name>MdDox::Doxygen::ListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a259c27686dc76c9aea76d4f53caa00ec" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a489db07abdd6fa382894fef49b6bd071" kind="function"><name>ListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1acb876cd470200a9bd33c51e540d913be" kind="function"><name>ListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a5ebc3b1f15a432dad5a0b06cbc504a81" kind="function"><name>ListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a39c13e8a28ff2be830920df462408716" kind="function"><name>ListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a614270ba9281c16e84d8303b07b2237f" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1acb876cd470200a9bd33c51e540d913be" kind="function"><name>ListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1abb29e9ce975d8ea0d2257f5bd60418fe" kind="function"><name>foreachListItem</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1af709e2fd9e838e4568d30e13f3e9ad58" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a0ef06542b8e977d238ed2375abbdba2d" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1af09963920dd9bf05402a3ec897e490ca" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1a5c9afe94d5ca8b48a727460e8dad44e5" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ListQuery_1ac46bf25f821f5e934a5d7435ed39e9f6" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1LocationQuery" kind="class"><name>MdDox::Doxygen::LocationQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a62ffd244eb558f50fbce9a59d6b440f2" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a4241d44f4cfc0c3ea34ae923232915af" kind="function"><name>LocationQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1adf90ef4f5c0052cdb606d6d05dd7a7dd" kind="function"><name>LocationQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a09138023715b109267602b0ae5f430ba" kind="function"><name>LocationQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1adcbce31f9fe5ae35ca11181fae40816e" kind="function"><name>LocationQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a62b800571e43cb7d9096328cef5c37e7" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1adf90ef4f5c0052cdb606d6d05dd7a7dd" kind="function"><name>LocationQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1ad6d13c5d2a7649ab5bd57e867a6dcb76" kind="function"><name>getBodyEnd</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1acc6307af92b229be442f2516e60dd942" kind="function"><name>getBodyFile</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a325ddd25202ab7653bc2383165ff014a" kind="function"><name>getBodyStart</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a46d01e0e64d48888dcfdc062821f3e50" kind="function"><name>getColumn</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a27a144259da294a167d424f007bbf31b" kind="function"><name>getFile</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a6a8703060d4afdceceea8c212a9e9e85" kind="function"><name>getLine</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a553a909e75494be9365ae7204d00a765" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a46c356e436dcd5d0aac2500338fab620" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1af2de0e6a910a8fdd0e4e7adf2b4a239a" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a01579987a9eb6bc191cac9a5664141bc" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1LocationQuery_1ac1fbaaeb82e40dea65fde31e6070191e" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kind="class"><name>MdDox::Doxygen::MarkupQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae004b72f8dfed4f01bfe15a7e61983a7" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" kind="function"><name>MarkupQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab06c07dbb644567699bd5dbbb9ce95d3" kind="function"><name>MarkupQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a3b835c761fae97dfcb18a6d80cc40068" kind="function"><name>MarkupQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad5e9956a554cec1c6d7c86cb1de79cc3" kind="function"><name>MarkupQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a624d182778505154bdf6174370fd6d91" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab06c07dbb644567699bd5dbbb9ce95d3" kind="function"><name>MarkupQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac5dc7513af28d22dc7fab2049b437abb" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a801724459cb526e57b9d441d92b7d434" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a32f6701d2d5a595589a61429918bfcef" kind="function"><name>getBlockQuote</name></member>
@@ -1157,19 +903,12 @@
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a8dccdfeedb7e9bca9d5566d4672abbbb" kind="function"><name>getVariableList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4d3277ff2c3ca4f2638fb17049c708d9" kind="function"><name>getVariableList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6a38c304efea4ac689db95d5dcc9804c" kind="function"><name>getVerbatim</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a58876e3beec1cdc2bbbdcba59b752bb0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6d91f096eb1f3b3358c5dded3d33047f" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a36c4872baf834e2585dd046a55244e3e" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1afffef3b77f0ef99c43f8c0abd4f5a15f" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kind="class"><name>MdDox::Doxygen::MemberDefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1abcb2f56fa398e130e11ddbf522081b68" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac22f6c0153b08e5f9ec67fe19221dd1f" kind="function"><name>MemberDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac0b41e28049aa762cce0ede5a8fa6433" kind="function"><name>MemberDefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac302b2c89ef52bd771527d01b4f3bcf9" kind="function"><name>MemberDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a2c8571785894db54fbb9ce14c744e4ac" kind="function"><name>MemberDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1af3a477ddd0fbee3f83d8e1cce3e1a79b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac0b41e28049aa762cce0ede5a8fa6433" kind="function"><name>MemberDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1aea4360a466d342573e4bfde836a0fd5e" kind="function"><name>foreachEnumValue</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a25f270b30ad949e864d2d16209f63281" kind="function"><name>foreachParameter</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a4bbb4dd7b031b95e90a0032ee04fcf92" kind="function"><name>foreachReferencedBy</name></member>
@@ -1232,131 +971,75 @@
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a69f292b5ae68f7528d7cee0315a0e4c6" kind="function"><name>getVolatile</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a77040d9d161ed009287a3d273e09dbcc" kind="function"><name>getWritable</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a94743d50b42047f1e9d1a3c3131eb7a4" kind="function"><name>getWrite</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a9bbc4d89eca0f22a132401d4d5b1f6bd" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a574643c4d49a926b6836bdd1ce4200b5" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae3d212b3e0a20e172bffa9043b07dbd7" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a0bd8564f77c19fc99a9570ac55c08412" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery" kind="class"><name>MdDox::Doxygen::MemberIndexQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac80dc46721b96e8748366d6f9298f7bb" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a9e64e9d7e798d97e65425e83cc604451" kind="function"><name>MemberIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1acf4045f245ba4507d5c1a78f7d6ed841" kind="function"><name>MemberIndexQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a3e158f6997139879521deeec7255c9a5" kind="function"><name>MemberIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1abdec906ecf0a4b00da8f7549d2792c56" kind="function"><name>MemberIndexQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ae5be6bb89916b3948c71d5fc50298fc1" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1acf4045f245ba4507d5c1a78f7d6ed841" kind="function"><name>MemberIndexQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a5a5bae1112d62a0e6cbe0989eaa982f5" kind="function"><name>getKind</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a7c81dcf5501dddf5a75dc2c2f43fa3e6" kind="function"><name>getName</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac79c1254b4459778e9d57bc66d34f7c6" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1aa0304c3a546ad8f4329046240acf51d1" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a1da268b9ff4f2ecff1336b22212a487f" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ab413d30103f73de9cc2b896ef1741e15" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac026c475de335c3a9bc4eea8ac06d497" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a1a405a7f1c9bf98c360174b3d955eed9" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1MemberRefQuery" kind="class"><name>MdDox::Doxygen::MemberRefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a3100e19f59e9eff9824f8dcc289bf414" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9caa1e0f7e8bd9c200b6cd2dca5f996f" kind="function"><name>MemberRefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" kind="function"><name>MemberRefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a82cecdf4db423f3dd4e0f9652858e374" kind="function"><name>MemberRefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a119bbc4e153e39cee35fc137dba4c294" kind="function"><name>MemberRefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1ab951df7bd09b034b76c639b726a23546" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" kind="function"><name>MemberRefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aa7111ab4249fd86de589f9174df0cb67" kind="function"><name>getAmbiguityScope</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9eb95c0de517a1d68dc283141dee2d11" kind="function"><name>getName</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acc96ff723d2121cd456dee4b7752bbd7" kind="function"><name>getProt</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a4b205936e2607fc3cdffae40f4a8c246" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1af41f73c9498e07435c56bb7ccb44a854" kind="function"><name>getScope</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a1b8e7f3b6ff71a1b9ea036d3a8895909" kind="function"><name>getVirt</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf103a9c0ffdc2d46b9e1579aa7f7af4" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a6b53c88cc79a97176ea5dc20f2d3147f" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf7dc39556702cee19c9dbbb4fa61d28" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a828466ac965df66ad5784a36ade05808" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aaf4ff4405d868d4849c3e108d0aceca0" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1NodeQuery" kind="class"><name>MdDox::Doxygen::NodeQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a4e23faca6b2a492956033778a4778363" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a004a3aa593a63d6f5bd2fecea330ea08" kind="function"><name>NodeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a5f9b037c23d73cdf3399a284727684e9" kind="function"><name>NodeQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a15e8326a581f1cd27660e9d9b79d77cd" kind="function"><name>NodeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1aad2a1b6cb5474ee4de6f01e685d9489a" kind="function"><name>NodeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a1cc546a16d7970c14d162384c896d99b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a5f9b037c23d73cdf3399a284727684e9" kind="function"><name>NodeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a379a4961dcc2e51ef24a598133144e8f" kind="function"><name>foreachChildNode</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a7fed97b681408fb2368c65cf72011de3" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a0c4e27548b266320952b52a9bb1a4338" kind="function"><name>getLabel</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a8b0d7a56630146150a0198527d6dc649" kind="function"><name>getLink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a875dd588a36a5eb2a71a563d836e434d" kind="function"><name>getLink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1abefcaa6602bef26950813ed7f2a7b060" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a2786c1c2a2086203e55617a93c341580" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a11fb94aee36b6541c8a1c77524f231a0" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a95e302d042a9c54924f720a2d69db656" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a7d22876816800a92c33e3a8869357453" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1NodeQuery_1a467f4c7984d1d19fd0cfe0793a521a73" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery" kind="class"><name>MdDox::Doxygen::ParamListItemQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a295f88054cdfa0503e9d4493e7073997" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a01d2ea76a2c99e6d3f4300dc352d4030" kind="function"><name>ParamListItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1af4d56ac1210e6448a197b99cac4bf43b" kind="function"><name>ParamListItemQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a62d2cdaf5ba59a8b5e05cb32015601dd" kind="function"><name>ParamListItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1ae32627a7956bda48c13857e1b0fa8cf9" kind="function"><name>ParamListItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a3ea5297fe1808e80661695fe16ebf8f4" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1af4d56ac1210e6448a197b99cac4bf43b" kind="function"><name>ParamListItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a3312f75db03a04a7bdf8e90288e0dad0" kind="function"><name>foreachParameterNameList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1ae086591741f34c706b9a4e75aa5dac63" kind="function"><name>getParameterDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1abb996bad2c01ea9778e715608263ce17" kind="function"><name>getParameterDescription</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1af5204fd78f92bb763035c39d654a9717" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1af2acbbc2d820e3a6c6e727760710f6c1" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a3bf1d33c1fa1bd265b0f5417d4544184" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a255db2673c4f6c60deec09f7491bf34e" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a1855ead560bd349e913a6125c38006fe" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a6240c1e609721da2b7311bbc2f673131" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kind="class"><name>MdDox::Doxygen::ParamListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1afd86b7fe5be8e290f5eb2cb0ea407497" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1ac568c23382e65fc3ca29c63c03136fd0" kind="function"><name>ParamListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1ae7cd47e1c9b90a250416c08b883984d4" kind="function"><name>ParamListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a3b349d6e30704ad3962cacec158a7e7e" kind="function"><name>ParamListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1ab774d215c42211f24c6971b97983da6f" kind="function"><name>ParamListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1add5a045f81e17e7fd7a1aca1baa6fe1a" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1ae7cd47e1c9b90a250416c08b883984d4" kind="function"><name>ParamListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a715fa3dd085fb8d155e116aeb34f211e" kind="function"><name>foreachParameterItem</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a6efd087096e7e6dc37dd210f8ec645cb" kind="function"><name>getKind</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a054b0bf9aea488a590ea14e6a8a8de9e" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a91c7a2aa1ec004c4249f74955e2c6e7b" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a1fe0376029e051df97e7d03187e91798" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a32e5d42c66a28a082e7600181de5cea7" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a9460bfbf2727ca6ef296c57929830ca4" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery" kind="class"><name>MdDox::Doxygen::ParamNameListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a4fa4d3707f272a8b559c7ce48ab47f10" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1afe373486466eeb86a3b054ac08c30a2b" kind="function"><name>ParamNameListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a31513f6b12c2884fdb8bf2a51bea225f" kind="function"><name>ParamNameListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a728901a3573600e2988fd652e7eed7b9" kind="function"><name>ParamNameListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1afd4435dbd530b6f44a882ea2edf5753e" kind="function"><name>ParamNameListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a74135442acb246b655ea288c4fcdcb68" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a31513f6b12c2884fdb8bf2a51bea225f" kind="function"><name>ParamNameListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a7cd8bb30cd2963c6e96db018f213aa3a" kind="function"><name>foreachParameterName</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a33060ce2af4529c542da7eb8b09b81e2" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1acc0e76c10eec5c0038a79f3cce6d8e1c" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1aa8713cd91bac3cc4dd5ca3244930bf60" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1aa3b19fe83a3de42f5bdcf82e395ed2f0" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1ae0b0f2ca676c3a5e6e55554246f74d97" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery_1a10d4de71ebf7d4b10f55fa3b8af3166e" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamNameQuery" kind="class"><name>MdDox::Doxygen::ParamNameQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a51f8836654236d5ce9e56ee42780047d" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a98153c40908f7265f7c748d00859d7d9" kind="function"><name>ParamNameQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a8a4693f1adaeba6ed76e5a9ecec294ee" kind="function"><name>ParamNameQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1ae299ae3c89c56a10354ee6459474ead4" kind="function"><name>ParamNameQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a0ea094719dd88d97579e2d8cafe256b8" kind="function"><name>ParamNameQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1abe99889397964d8781f7568b48490b3b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a8a4693f1adaeba6ed76e5a9ecec294ee" kind="function"><name>ParamNameQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a09d5ad3826543bc9b665a9cb228c6094" kind="function"><name>getDirection</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1ac51e57a2dfa3e0a72c905a1975c3eb8c" kind="function"><name>getRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1aa527b08aea04ad59e046aa0780493fe4" kind="function"><name>getRef</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a93c39288f269ccdfe2ea27b57f566e46" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a88ba9e77c718babd4c255f86b76b4b24" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a6369ee5ed6dc9f47f482d5bd7e32bf49" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a336fcbbd833417c76843b008cd748b4d" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a17c07070502f3ad70fc184aa09487d44" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1af0a5cf0aeace43d75bff8fb9841267e6" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamQuery" kind="class"><name>MdDox::Doxygen::ParamQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a6955c68989ecc8a3b845c05d9133dbc3" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a5c2470c2aade78f90e29a1c349c575bb" kind="function"><name>ParamQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1aaf5dcdd84a613e13bf56fedf35c8c8ef" kind="function"><name>ParamQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a77a4833f58f7fe4967119d6ef8944582" kind="function"><name>ParamQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a5f04fe547d1465624c70c126b1606897" kind="function"><name>ParamQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a681046e72e2b748f2e2295b81ec7302f" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1aaf5dcdd84a613e13bf56fedf35c8c8ef" kind="function"><name>ParamQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1ae59a7bd40d3730bf7d31422861731964" kind="function"><name>getArray</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a570bfd858b95c3281c8c4a4e122a080b" kind="function"><name>getBriefDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a94b27700501d2420221deaa0e40a3888" kind="function"><name>getBriefDescription</name></member>
@@ -1366,34 +1049,20 @@
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1abeb48f1d4ce4a5708b0379afca071e3b" kind="function"><name>getDefVal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a7b83f48bbb1f5ebd6ec0742325fd9d48" kind="function"><name>getType</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a43e3a271fe509cb458ec6a8bf08534f8" kind="function"><name>getType</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a3c5c334b0a5eb35e93ca7e4f6fd15ec4" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a3d332ea5b2ff9f2e648589aa0761795b" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a979f18097dd883da046c5fcc2e2b8b46" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a300295239442714084d0622d5cc7fb92" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1a052e8c77b3e3d9478003d6da8e16eeea" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamQuery_1ad077a8a1da9c0689d325010ad183e550" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery" kind="class"><name>MdDox::Doxygen::ParamTypeQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a2bf96aa9b3bb76f7c51632d8940192e1" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a02e0895475e9d02ec9c178c933ee1783" kind="function"><name>ParamTypeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1accf968a6610c511d02ca4dc445100a54" kind="function"><name>ParamTypeQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a3c8e9ec3fbaaa11040354bf62096ed51" kind="function"><name>ParamTypeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1adf96880d286c7081ea6bc5b191904897" kind="function"><name>ParamTypeQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1ae29db250b3dd98cb683b73aabfc58624" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1accf968a6610c511d02ca4dc445100a54" kind="function"><name>ParamTypeQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1ae1296443619648b5ba8d724018819e5b" kind="function"><name>getRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a72871a768d6a6a7b9a2e04057bf577fa" kind="function"><name>getRef</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1ab8c49cc43c23a18e26087ad8af1593c4" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a1a7a3e17743e72fa1c5a998881d734a3" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a7a67c4d49aa91993aa937a41e2c60050" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a7088e1260e8baa5d17412d3ba826a426" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1a2566b82efdec4b33e11adaad4639d89a" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery_1aa5fe7016195aa3d9490855a7b8eba663" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParaQuery" kind="class"><name>MdDox::Doxygen::ParaQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1aa37ca599b0ecf833815a4efbc1272063" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ad4546c98afa50d3056b64c344120a7a1" kind="function"><name>ParaQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a99123a0fc28d1e7f659f089af5981cdf" kind="function"><name>ParaQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1abcf30f2fda0c7a64c5be1b41851efcc4" kind="function"><name>ParaQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ac61b1820b71589d903270cb33ef0888e" kind="function"><name>ParaQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1aade960f2f8bb4375b1329f20c01a586d" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a99123a0fc28d1e7f659f089af5981cdf" kind="function"><name>ParaQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a47d961ee4ba6036871258e9fde13ef65" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ac506172110282e5b4e0d1c1d1e33db8b" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ae33d673135bb82b98dfa89feaf3ea409" kind="function"><name>getBlockQuote</name></member>
@@ -1462,260 +1131,159 @@
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a7a052319adbba600823478bdef7d57c3" kind="function"><name>getVariableList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1aa04142087d8299c7bc295c7fd68c1fbe" kind="function"><name>getVariableList</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a0a8ce0d0a75d72b570feacb8ac34404b" kind="function"><name>getVerbatim</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ae094a083c4966ed92b9c234445757bb0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a0641835372003b58095265ec8e13a3f1" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a3e93761fe4cd979e7c77d24bd55a2fb6" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a98c4bfd058e8a90d20705596c37e5f3a" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kind="class"><name>MdDox::Doxygen::ParBlockQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1aaf8dd816672bce8f6ae804172cd7544a" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1afef32f55857b7a3256d9948f1fbb6273" kind="function"><name>ParBlockQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a030cea6ac42be3da6664294bd5efb12d" kind="function"><name>ParBlockQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a0acae7756a253b07b03f97008458ee30" kind="function"><name>ParBlockQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a2f8bebe69b0c2163349d3cb8d7a45052" kind="function"><name>ParBlockQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1af80abf2c85468c8fa62d1e89d5a6aaa6" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a030cea6ac42be3da6664294bd5efb12d" kind="function"><name>ParBlockQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1aa85c114f316b3aca0d200d34fa30ed68" kind="function"><name>foreachParagraph</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1aeaddc4a4d2401feb9a75f6a0184d049c" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a82dc08bb2fa279e2e1987e758025975d" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a136688f6dd9b40e056560a009425fae9" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a6116f8994890f7ed50600c0dfab2d192" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1ab85d49c4ebfedd1542eea86dd3c40e62" kind="function"><name>visit</name></member>
   </compound>
+  <compound refid="classMdDox_1_1Doxygen_1_1Query" kind="class"><name>MdDox::Doxygen::Query</name>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" kind="variable"><name>_node</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1a9d8694a0c158c4cc4c9befb54ff7a414" kind="function"><name>Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1ab6b6192452f57daccb41b10d3c3b0449" kind="function"><name>Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" kind="function"><name>isValid</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" kind="function"><name>node</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" kind="function"><name>reset</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" kind="function"><name>sort</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Query_1ab42423fc916a9d4321bc1cb8a3f4fb43" kind="function"><name>text</name></member>
+  </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ReferenceQuery" kind="class"><name>MdDox::Doxygen::ReferenceQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a804e8c967daaa8fbdeb4ddd8808f1f1e" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1ac3f601b1aead81b5b99b4bfe55e4caa2" kind="function"><name>ReferenceQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a1cffa6ed23051a809819b1e3387c430b" kind="function"><name>ReferenceQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1af4aca904934294c14b66f6f714c5fd58" kind="function"><name>ReferenceQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a53dc5f0981be9129a571a35dda93a98b" kind="function"><name>ReferenceQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a2849b9fdf021f9b14110ab6288391378" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a1cffa6ed23051a809819b1e3387c430b" kind="function"><name>ReferenceQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a41a31d5ef1fedb1c2e9ee59315365823" kind="function"><name>getCompoundRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a0dffad9ae13a73f03ad90fcaafadc418" kind="function"><name>getEndline</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1ae4a3aae9808cd028cced88426b8da8d9" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a580ae41ad553789bc1ee39f23aaccb5a" kind="function"><name>getStartLine</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a6f0dba9a45d7c7cbf4e27ea6f0cf51c9" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1aeab84f3522f7eb8e2863c85555500b0f" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a8fe3ef387ad193f0ee41091689da1794" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a98f4b11128107bd847030322c1672d8b" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReferenceQuery_1a516b01136545c8a4671241a66041f6e8" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1RefQuery" kind="class"><name>MdDox::Doxygen::RefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1af7c4126216a5f01e3e77097100c709d3" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a69218292865c90a0e321f3e6dbfb4aaf" kind="function"><name>RefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a48d6bd14a28867905019d1551291cbe6" kind="function"><name>RefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1acc3c3fc04436642f43b6f9befce9f55e" kind="function"><name>RefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a4b9bcb3f8484f07c9dd79b1ab3490875" kind="function"><name>RefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a2ff8ea7a273dbec636fd7b958a56a47a" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a48d6bd14a28867905019d1551291cbe6" kind="function"><name>RefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a8ad4e1bf13e4625297d929b54b7710b7" kind="function"><name>getProt</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1ac48f23e54ffe8a6604d7cf5c7c7007ec" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a7a07e6da9f9a8575b5d94825bf976367" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a684f7b6b6275e755aa785cc1fc2c9b5e" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1ac449796110b34c00572f1e1e0c7eba0a" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1aecf209e776bb25731f2da37b5518bcec" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefQuery_1a2bbea0b9c935a2fd481c6de4167da1bc" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kind="class"><name>MdDox::Doxygen::RefTextQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a1f49d7445aa57f19423cb1fb06f10ea4" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ad0255cb0523a79a9f96494e68f949d42" kind="function"><name>RefTextQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab52a10b01c1f31e368ab994413b3e963" kind="function"><name>RefTextQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1aef149d662b25905d3307bc4336e0f34f" kind="function"><name>RefTextQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a0200d0bb8141e6ee8f1cf5d8bb7d7d2a" kind="function"><name>RefTextQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1aa8e0d979429f2590052a6085796a8d8b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab52a10b01c1f31e368ab994413b3e963" kind="function"><name>RefTextQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a5404279850d4e73c3e7d4a66e490c285" kind="function"><name>getExternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a59bf192d94ec60a79e2aa8a4abf30ddc" kind="function"><name>getKindRef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a36c552982cb45721ae3577dd2f92829a" kind="function"><name>getRefId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a71b4db35212f7e70a0c51568b49964c4" kind="function"><name>getTooltip</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a4c92da95c74b9faffaced3323f81d66f" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a86be674d9537521e08d58d1efde79e87" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a15a4960454e41eb316e2a4ffaacb2f2d" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1a0e2daf6625fc6e1c01ca170144fe81af" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1ReimplementQuery" kind="class"><name>MdDox::Doxygen::ReimplementQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a21779b0cbfd60275597f69488e508c25" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a8cbba1d1139458cd7defff3e1ca8661c" kind="function"><name>ReimplementQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a9ef0836f37d7239c24f9b947f763d659" kind="function"><name>ReimplementQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a644d99b0642188edcc8e67116e5720e9" kind="function"><name>ReimplementQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a8ce02c244068f6bdd269ce58b398e2b9" kind="function"><name>ReimplementQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a313b5d93609079c2cee13c08424e5ead" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a9ef0836f37d7239c24f9b947f763d659" kind="function"><name>ReimplementQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a52e12cdeaad87124a17b111cef242158" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a821ae52313e53ca5a36b1bdafd391193" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1af942c174aa19e360005a85e79b65dbe5" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a62db69e8c5ac6c31fc7fe560cccc82ef" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a9b3dd83ff965ed5e50fec77f590f0cca" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a1f7dc964d5c2f125f6875908288ee207" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1RowQuery" kind="class"><name>MdDox::Doxygen::RowQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1acd27cd2128cf1c8867499c1b6d76be59" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1aff0308cce522b773f26fe8267b3bef94" kind="function"><name>RowQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a16ceac45cf43b74a630aa6254f4aeac5" kind="function"><name>RowQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1ab814bc10f3df8bb363108d469bb2962a" kind="function"><name>RowQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a188b2f7a6d619d8e73bba9ea2c330799" kind="function"><name>RowQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a181a80fec94753a23f0b2287ec78031d" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a16ceac45cf43b74a630aa6254f4aeac5" kind="function"><name>RowQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1ae71aface4dc17448eb14db446ae7b334" kind="function"><name>foreachEntry</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a7bff6667f4fcdf3c5d93bc367d4778af" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a4f7a5113b068eb9656203ae5df1688e5" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1ac1d426ffd47b039cfbd54edd9cdcb519" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1affd505eba386f62b87928551673e4743" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1a17b37f39cf52141cd114a4b9d6f8abbf" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1RowQuery_1aef98e06e4900a51e4f5313e6970d93b6" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1Sect1Query" kind="class"><name>MdDox::Doxygen::Sect1Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a9314b9abb8cfdeccd4aa0134ee2179de" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1afc5c6ecdfc2335482a6e2747feeeec3d" kind="function"><name>Sect1Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a1155eac4c745c517fd47a758624509ee" kind="function"><name>Sect1Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a41d697f077366acbd700093e52912efe" kind="function"><name>Sect1Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1abe059f68a52f85cbdfbb2d07a379eb29" kind="function"><name>Sect1Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a3383daa57baf142943f9cf68d92f5544" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a1155eac4c745c517fd47a758624509ee" kind="function"><name>Sect1Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1ad9c3ded613709ceffcaa47b8432a073d" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a5a638ee17b3a82e8b89abd73f3827f84" kind="function"><name>foreachSect2</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a86fcb50755a4d92b98beb25ba58b00d3" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1ac7a22fc36bfb1130929ec86c077b1a1e" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a4081e180bf695675ea0817097c04a758" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a534482eb30f4d66039311f9f75e71a07" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1ac76035b1e2a04fa6e6e21015cef3f339" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a7cd9edd143521aa50d25389906150279" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a22669b6e9ae63b1b1cead67fec957deb" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a53b43c02d12463ef55a03b72e1c83cfc" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1aff89ac4a310e1a5f5323b15bdddf434a" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a8f92497c26e4e5987a32bee782dd1207" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1Sect2Query" kind="class"><name>MdDox::Doxygen::Sect2Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1ac7a1e19a20cbbc5ec584756da5a51e3d" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a99f3f488037d27dea8c2a91ec8c82131" kind="function"><name>Sect2Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1aeebaa8e05cfa11247253e10c75415e3b" kind="function"><name>Sect2Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a195258541195178f474016cbbb2c69f7" kind="function"><name>Sect2Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a37b548da4f72752f6cda2c376d9a0b7e" kind="function"><name>Sect2Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a80cc8fae3c45ea1f7def1bfb9f73ebf8" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1aeebaa8e05cfa11247253e10c75415e3b" kind="function"><name>Sect2Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1ad97031ea509570cee00723b00edefa8c" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a7981286b1041908ed40b74b80273f235" kind="function"><name>foreachSect3</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a73a2defc15df28ada9bb2158db4883ef" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1abcc5cfe1838e90ae62dce29bac6aa813" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a349b61be8b3289664da359510b916644" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4ed2a7edec3acaa9ef83d5e294f5bbd7" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a66824214f1b02b7f4ca016b6f5aca54e" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a9dae2eee1f21a069c2ee211944ebf5a0" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a7355d5049241e6c5f7462f16ecdc5acc" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1afb5433b27111ae405cd1b4ddd5d8cb3a" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a8de42e70e0282e13a3eaa092ffa3e3f4" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4dbfe59718c3b0c0988371984915c24c" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1Sect3Query" kind="class"><name>MdDox::Doxygen::Sect3Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a1d474ef66006d5632c2ff6918358726e" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1ab39293b7b0724f965a2a8ef2b35be46a" kind="function"><name>Sect3Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1acdbec273b8a48da2b2401cb408afda63" kind="function"><name>Sect3Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a5eaffddcc504866942c870113bf993c9" kind="function"><name>Sect3Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a5e3f932088011c28c49820813ba765f4" kind="function"><name>Sect3Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a09a493649bf17857269481c506648c59" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1acdbec273b8a48da2b2401cb408afda63" kind="function"><name>Sect3Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1af278defea28cef3a1b0396bdd40c85d5" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a083da70506d825c6f3490733ef11fdfd" kind="function"><name>foreachSect4</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a163d015a7a3de3811b29a53eda31b98b" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a8af528dfc9a24d1131e3efebd8038ca5" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1ab38dbb08d8046309f10b4e1add7a4136" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1adb8f9c39a2f3f1cecebf8cc2615d7723" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1add29f2579f3490c252448597df4fb3fa" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a3e7aa4f9934db772ac8b25d2d2eae2c4" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a84a0cb3cfdf4e4c06558e58bbac5c44b" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1ad46759989dd447109902b08411b41acd" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1a1fff09d97f489ee158d881a4b969e94f" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect3Query_1ac5031e9fdb86389ff7bb0c2eb9d1792d" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1Sect4Query" kind="class"><name>MdDox::Doxygen::Sect4Query</name>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1aacaabbd3ca409dd5dceea43f0a0eb252" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a1408335bb7f85c621a2db6a024d4c616" kind="function"><name>Sect4Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a53677beb00f41f15d2fdfa10e2cfdecb" kind="function"><name>Sect4Query</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1aed87de5b04dd0a5fc7e4a466ba664284" kind="function"><name>Sect4Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1ae61e90066fc4e4586bf97ce075d06882" kind="function"><name>Sect4Query</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a0a217261064f43392628502316fe3028" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a53677beb00f41f15d2fdfa10e2cfdecb" kind="function"><name>Sect4Query</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a869a51669799d14f4602283855a0d49c" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a863ddec67b4edfa47019ef847ff00697" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a97e89b17f93c28de4092e529915b464a" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a5c4d113087369b7eeae06d2d771b3b04" kind="function"><name>getInternal</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1afe4d97cafd7e5bae8cfde980d1c69b09" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1ad69341aa4b2dfee041c1857af6f644fd" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1aa8102828991c95cab44374fc2684c15b" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a5c79b6cb13fe4c99560cf3c0ac499131" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1ad52015334034fc2a2e01604fa3d386c3" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a37c28102233533d45f7bda63015b8819" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1Sect4Query_1aec89c471dd0447f474a28c0e517afc59" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kind="class"><name>MdDox::Doxygen::SectionDefQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a4f8dd0655dbeabe884839f429ffc3215" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0c120c919994770edf24466bdb343bb6" kind="function"><name>SectionDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a5636b06459510ba27958d0cbf9000952" kind="function"><name>SectionDefQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1e1bb8889e630cd5d916a95bcce744ad" kind="function"><name>SectionDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a03e0e5d575641f7e4304c2cb7e0a2b89" kind="function"><name>SectionDefQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a2268021dd1212ebdb2ea444644303ba1" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a5636b06459510ba27958d0cbf9000952" kind="function"><name>SectionDefQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6c110513bb0290d400339e68f22a4969" kind="function"><name>foreachMemberDef</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ac1e73b8959b09d755c7e04d09b01131e" kind="function"><name>getDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1af635a61c5dc9d2b51e9d8184a441f725" kind="function"><name>getDescription</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a42eb4eecda258260e5cb2cc4cc18a220" kind="function"><name>getHeader</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" kind="function"><name>getKind</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6ea5f15185b5be99dc7c1deb7770df33" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e999659be6e55e0d0a4d9c468a09728" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kind="class"><name>MdDox::Doxygen::SimpleSectQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a6bc616e220ce39b30d25d3cecd0bf99b" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ab1099d2b06a80a394726cda6bc5d3950" kind="function"><name>SimpleSectQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4298306486bf0666fdf5c340fe9dbe7a" kind="function"><name>SimpleSectQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ab920e3a359433514295ffd1defc99ed1" kind="function"><name>SimpleSectQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a325c1ef2bb3f152d8182933cfc3a2a18" kind="function"><name>SimpleSectQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ada5db8b4ad59c9d200e2f43b3d59012b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4298306486bf0666fdf5c340fe9dbe7a" kind="function"><name>SimpleSectQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a9919d6ce4fcc77a3794ef0655faa8dc0" kind="function"><name>foreachParagraph</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a1fa4794de87e9323217d873485f373b8" kind="function"><name>getKind</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a83ebef4a7b83a68615015c34e6a2a3a0" kind="function"><name>getTitle</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ab7952e230de866632cadcf3537e87fce" kind="function"><name>getTitle</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a8a263dd06bd8da65198fd2ea64702db0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4e06b13a48a3c9978b220243559ffdf1" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a11c19a92ef7dd7be43b1973a9454a137" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a3df18952f7e73733b6be94832817c686" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a409c8437d0906aa6c0e81f0dfc110c50" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1SpQuery" kind="class"><name>MdDox::Doxygen::SpQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a758e6ff559e7736d03d804acd25189d5" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1ad441866ff0c0cb8912ea1e12f6d00658" kind="function"><name>SpQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1ad75c9fdf3374be891d992c1f63077a30" kind="function"><name>SpQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1af874e6ee22755df31f27b4cb21b7bcfa" kind="function"><name>SpQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1acb9011ddb54a887d0d48ce63789427be" kind="function"><name>SpQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a9d4ef74b9df697494bb798e1c2bf62a3" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1ad75c9fdf3374be891d992c1f63077a30" kind="function"><name>SpQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a81bfe6e403a856718e52cd5702e602cc" kind="function"><name>getValue</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a82f646a7dbb3e062892eb1db21457560" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a042a07a25c4cf963c9d48044675e543c" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a39659944a81ba2c551844003ece208e2" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1a943cba94b27f44b1ebe0f52aa1bc8715" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1SpQuery_1ac53072e20a52b03ff61da573bba4c176" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1TableQuery" kind="class"><name>MdDox::Doxygen::TableQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1af86f5ff32329720fe4f8615afb802fb3" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a6c0d38f41fca6387ec1d624d1f6a3c34" kind="function"><name>TableQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a37be2025113ef1841e5ab39a7ff4ab19" kind="function"><name>TableQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a81f769b339edb6a21e2ff79800239c1d" kind="function"><name>TableQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a64238a5ad0b1932eb847405e30eb3638" kind="function"><name>TableQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a18f7c9150104f3347e04e228584d88c1" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a37be2025113ef1841e5ab39a7ff4ab19" kind="function"><name>TableQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a8772e9ebbf3c28f9903280bfe92882dd" kind="function"><name>getCaption</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a5218a0b9c135f51bafe760bf683bb120" kind="function"><name>getCaption</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a13f2ccfb00fca36a7500a91d090f9f9e" kind="function"><name>getCols</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a7bf7946b0e6e5e5803cef5c917a5d759" kind="function"><name>getRows</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a5efcaea3fdae87945e8109f8991cd8c7" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a9db8d8a6d49e4c8d7aa00d0dbdae2810" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a0f50fe8967aa2d466fa0399cf2e952f7" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a552811d7e5a4c55068d07433fe052c3c" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1aa90ba24b7e7df2c5e32e18287cad1955" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TableQuery_1a7a5879749fd8a5c47832575bd312d834" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kind="class"><name>MdDox::Doxygen::TemplateParamListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a0579ce7797015cbc99cedbfec7b879aa" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1adc07ae140e34629d142048332fdb71b2" kind="function"><name>TemplateParamListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a19fe061f7375aa2ef53951109cb05ae7" kind="function"><name>TemplateParamListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a2ce0299f9b51a25cb3fee5d5c9b2c80b" kind="function"><name>TemplateParamListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a9656df16c6263c6a268d40fa77fc43f3" kind="function"><name>TemplateParamListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a73cd16c10d36b7796a6b80b591bcd8bb" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a19fe061f7375aa2ef53951109cb05ae7" kind="function"><name>TemplateParamListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a525eaf06f482028ccd423db8d9940577" kind="function"><name>foreachParameter</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a2d1ebc0ad132b873d3d9267bdc13f043" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a1da68d3fb46dd8c57385b00d65359a52" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1aaea82dc65dd442d444168721b475a3e0" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a474f687bc6662c1ad2333fac6f41ca90" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1afe48aeababe5db836bfd903eecf438a3" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1TitleQuery" kind="class"><name>MdDox::Doxygen::TitleQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a1672b2fe890c0ff0e30f4357fe766247" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a01784170632e8ebd222603821c410331" kind="function"><name>TitleQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1aebdcab367b9f5a0bf52b78389df3cadc" kind="function"><name>TitleQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1afbbe642d15646f98686edca41978883f" kind="function"><name>TitleQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a68649554c9d7a71d03d61d9759044330" kind="function"><name>TitleQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1ac84bc00855c7c1ab728c7c9193b562da" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1aebdcab367b9f5a0bf52b78389df3cadc" kind="function"><name>TitleQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a84cc4344d16ecbe2aabca5b9e5890f5a" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a82226a6a3176985f4d5dba4afa2ff535" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1aadcdb8571afec1e4bfe9b9cad08f9cb1" kind="function"><name>getBold</name></member>
@@ -1745,19 +1313,12 @@
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1af05c448ac57b5d10053948718c4df644" kind="function"><name>getSmall</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a298cd6a7691a55728ea6e8524187a91a" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a083959b2fb8c3b5f1eae28982f2ccb13" kind="function"><name>getULink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a1d3478bfa7898f90bdd62ab5aa394fe6" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1ab729c59e5bcb1c69a5837626e0568ca5" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1aa3f3538ce616d2452f77f915a651aba7" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a062293b6792d6a6b9facc23bc01b69b2" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a20622ff06e3c92c08a05755b1ca8e06a" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1TocItemQuery" kind="class"><name>MdDox::Doxygen::TocItemQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1abb16eb71126618aaed4362172fcd4702" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a7887eb88c94f69189b677183a1ab81fc" kind="function"><name>TocItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1af242cc46f1a0ef51f248803c75641f6b" kind="function"><name>TocItemQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a178829566dd0f0bfb89fa3d277f27e1c" kind="function"><name>TocItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a0bf66edbc4d0a2c50c0a456a2eb09bec" kind="function"><name>TocItemQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1ac8bbbcd172f6891eedb605f56f236d77" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1af242cc46f1a0ef51f248803c75641f6b" kind="function"><name>TocItemQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1abc838b9908873b555c0efa71dce3de0d" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a6ef66c249f09a84a3428eae079d276ab" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a458fb3c1def08cd39eed42fed2a25815" kind="function"><name>getBold</name></member>
@@ -1788,33 +1349,19 @@
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a56794881e479626a62cbc212a8f71aa0" kind="function"><name>getSmall</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a1139a771382e6996b6f107a46e9fdfa9" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a9caa9594c21d7a08178d2373d6ed3bc4" kind="function"><name>getULink</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a068da5cc2498e3948267dcaffecf2be0" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a18dfaafc0523f55b16cddb13c6e96614" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a3d6a1c877833000f1afe8bac2cd71feb" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a0388bf25fb6f18d473c32a943f921d70" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1ae3cac1766ceb64d4e5dadb548165fc76" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocItemQuery_1a2bfbae9f72f5e03fba753bacaa0a953d" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1TocListQuery" kind="class"><name>MdDox::Doxygen::TocListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1ad4b6e736c2ada4314f91e95bd495f22e" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1ad0095114a41c6014db50c2d03412a0de" kind="function"><name>TocListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1ab5e064aff4d1272ae5f2f1ebd3a68765" kind="function"><name>TocListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a7d6b5760a7871cc72af4f4e344d0af0a" kind="function"><name>TocListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a94dcf2d4ecd7b0414b0d62d65313c3bd" kind="function"><name>TocListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1acb236e87dafc94e8ade67203932011c3" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1ab5e064aff4d1272ae5f2f1ebd3a68765" kind="function"><name>TocListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a3679ce979c2c9ab62e833df54d1bf21f" kind="function"><name>foreachTocItem</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a1dddc6f441136ae984a5ad9064c2446e" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5c78c673609001e5fc38f35eb3a99b03" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a912f01a0d58aa08211acd5bb55d830c1" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a4938b297542f9b2d2d6f55ca36cd6500" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a42c0f6706dabf03e8156058ee14e3f42" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kind="class"><name>MdDox::Doxygen::UrlLinkQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a46f1a3b3c2c85f293c71604d5e556c91" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a4f653a7d983e2818fd4b272dbe903034" kind="function"><name>UrlLinkQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a047e832a3a87339badb89f4ceb554bf3" kind="function"><name>UrlLinkQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a30a244ef0e04b02cab9518acac20d85b" kind="function"><name>UrlLinkQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a08a95fe345b19c63caf69bff6e996ff7" kind="function"><name>UrlLinkQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1ac2ae8ee259023cb5f8d2ab0eb4634016" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a047e832a3a87339badb89f4ceb554bf3" kind="function"><name>UrlLinkQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a53ecae95b9a95d8ae59a31affae5e80b" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a8288ef40e6f7da54f687cbdfe768c8ad" kind="function"><name>getAnchor</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a7f5ccf9b909bc697de4ceebee184ce38" kind="function"><name>getBold</name></member>
@@ -1845,36 +1392,17 @@
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1ac5afb73073dc5942748a8b630ea2fdfc" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1acc004ec49b84536116f4509d5eed4d69" kind="function"><name>getULink</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1aa2887cdcd88a88f03982310835615fde" kind="function"><name>getUrl</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a70838c733bd018b92b06941829d2a96e" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a8840425dc3e23282fb6fc92a8cb64c5d" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1a4c7a654605cc830e0a8f4d9dd822a638" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1aeef94000aa0d86af76add4a07bbf4c07" kind="function"><name>text</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1ab71526cd658af807875dd5c80c1a828a" kind="function"><name>visit</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kind="class"><name>MdDox::Doxygen::VariableListQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a06f4fb7eb4e949c5c2c07224ee059aae" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a699810d6e4a8c35abdc9968d119d74ae" kind="function"><name>VariableListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a09ab831d32da7a9e1caaba50f83907d3" kind="function"><name>VariableListQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a642d3165cb1b1909e1d83dcbf9455d8f" kind="function"><name>VariableListQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a49910aa4412596295e42cb1ed3751dae" kind="function"><name>VariableListQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a2c50d27940d29aa9c38bc74354c5f945" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1ad046935c652d5380777f9af5f7280b61" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a98ba1dad4a4dd2c641c9928dec3d48d1" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1aff26c94243c99417bdc465ee6da3ebc3" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a52fc87d3bb0e738f38afe13dd291f6df" kind="function"><name>text</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1a09ab831d32da7a9e1caaba50f83907d3" kind="function"><name>VariableListQuery</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery" kind="class"><name>MdDox::Doxygen::VarListEntryQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a4a9851a80ca3f92b8d4e54bdb2bfd412" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a8bcf2005331a59f05a0aa16d212e4324" kind="function"><name>VarListEntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a5dfd28f87cc59413b8c3a725b733b9c9" kind="function"><name>VarListEntryQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a4a8f8979184c3d1ade613e1a69e8f125" kind="function"><name>VarListEntryQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1af9ce553e78fee0faf69f05575a002303" kind="function"><name>VarListEntryQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a06b2edfd256f45f8c441a4518bd47ef7" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1aefe7ca98c58d2699e8f359ce2a4a3a45" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a1b2fbab72ae2f00adfcafc700378a1fe" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1ae094c6a96c193e50d64d194e83655990" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a9546d57c2605d19bdeb1cd2aebf951c3" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a1b4005db6e11bb16798de42f9c80156b" kind="function"><name>text</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a5dfd28f87cc59413b8c3a725b733b9c9" kind="function"><name>VarListEntryQuery</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor" kind="class"><name>MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</name>
     <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1a1a5c223f98d5ef1dd642179609efdf3d" kind="function"><name>~BlockQuoteQueryVisitor</name></member>
@@ -2374,17 +1902,10 @@
     <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor_1acefe25b6cef0b5bdf437e9fc9b921311" kind="function"><name>visitedULink</name></member>
   </compound>
   <compound refid="classMdDox_1_1Doxygen_1_1XRefSectQuery" kind="class"><name>MdDox::Doxygen::XRefSectQuery</name>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1abaa2b08569d3ecd0910feb3cc9d104dc" kind="variable"><name>_node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1aeec7e2abd0ac74bd20b7487ec1cd90f9" kind="function"><name>XRefSectQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a8956ef57e7c6396fd4e5ea45db8dc63e" kind="function"><name>XRefSectQuery</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a43e3c04a516cb82be4503c750bac9bb9" kind="function"><name>XRefSectQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a5df863688257063148c91cadf289de9c" kind="function"><name>XRefSectQuery</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a8ea915fc30d8b68a9c78236b1d4c540b" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a8956ef57e7c6396fd4e5ea45db8dc63e" kind="function"><name>XRefSectQuery</name></member>
     <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a821bc22486175013b7c7613f624035f1" kind="function"><name>getId</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1af5d66267a2160f23b572277d6131940c" kind="function"><name>isValid</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a08fb948bbe1468e934446958aa0be227" kind="function"><name>node</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1ab521ac8b60d3c7e5f6568026e9f729d1" kind="function"><name>reset</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a5f84006ae29ee14dc96c745dd7114796" kind="function"><name>sort</name></member>
-    <member refid="classMdDox_1_1Doxygen_1_1XRefSectQuery_1abee3a4664533663880a52ffda27bbdde" kind="function"><name>text</name></member>
   </compound>
   <compound refid="classMdDox_1_1EnumDefWriter" kind="class"><name>MdDox::EnumDefWriter</name>
     <member refid="classMdDox_1_1EnumDefWriter_1a2308a0de21f86584d6d2ffd080225dcd" kind="variable"><name>_list</name></member>
@@ -2637,10 +2158,6 @@
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0194bea5f6b48de9f26f385cedb58585" kind="function"><name>getSingleElementHeader</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a929acab4dfa9a419087f20cabc855a2a" kind="function"><name>getSingleElementSource</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a247f290103bd13e34ea042f93e8ce520" kind="function"><name>getSingleElementSource</name></member>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a30994ac631cf3d47f7b41bc4c58d9528" kind="function"><name>getSortHeader</name></member>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae43a9b992edfb1c47b0a67cf6bcee83a" kind="function"><name>getSortHeader</name></member>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1c6aca46aa58f5739ba917eda9928bcb" kind="function"><name>getSortSource</name></member>
-    <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a77e0251a59452159a62942b35db4a1a9" kind="function"><name>getSortSource</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" kind="function"><name>getSource</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0c5d9201ce7b3cba7b4bf4722e5c7e88" kind="function"><name>getSource</name></member>
     <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" kind="function"><name>getStringAttributeHeader</name></member>

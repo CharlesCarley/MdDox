@@ -77,54 +77,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class Sect2Query
+    class Sect2Query : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        Sect2Query() :
-            _node(nullptr)
-        {
-        }
-
-        explicit Sect2Query(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        Sect2Query() = default;
         Sect2Query(const Sect2Query& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit Sect2Query(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::Sect2QueryVisitor *) const;
         /**
@@ -164,25 +126,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool Sect2Query::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void Sect2Query::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* Sect2Query::node() const
-    {
-        return _node;
-    }
-
-    inline bool Sect2Query::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

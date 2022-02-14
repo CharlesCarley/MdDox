@@ -163,7 +163,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/SectionDefWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="55" bodyend="63"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" compoundref="SectionDefQuery_8h" startline="157" endline="160">MdDox::Doxygen::SectionDefQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectionDefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
@@ -173,25 +173,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="627">
+      <node id="981">
         <label>MdDox::SectionDefWriter</label>
         <link refid="classMdDox_1_1SectionDefWriter"/>
-        <childnode refid="628" relation="public-inheritance">
+        <childnode refid="982" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="628">
+      <node id="982">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="629">
+      <node id="983">
         <label>MdDox::SectionDefWriter</label>
         <link refid="classMdDox_1_1SectionDefWriter"/>
-        <childnode refid="630" relation="public-inheritance">
+        <childnode refid="984" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="630">
+      <node id="984">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>

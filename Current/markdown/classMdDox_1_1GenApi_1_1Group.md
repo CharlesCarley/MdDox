@@ -26,7 +26,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-28.dot.svg"/><br/>
+<img src="../images/internal-diagram-99.dot.svg"/><br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_dependentheadertypes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_dependentHeaderTypes</span>

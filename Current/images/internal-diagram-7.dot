@@ -6,66 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qCtbCES[
+ dZw8MA2[
    shape    = none
-   label    = "CompoundDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DUtbCES[
+ dzw8MA2[
    shape    = none
-   label    = "PageWriter"
+   label    = "AnchorQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qAtbCES[
-   shape    = none
-   label    = "DirectoryPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- DBtbCES[
-   shape    = none
-   label    = "ClassPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- qrZbCES[
-   shape    = none
-   label    = "GenericPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- DaZbCES[
-   shape    = none
-   label    = "NamespacePageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- DUtbCES->qAtbCES
- DUtbCES->DBtbCES
- DUtbCES->qrZbCES
- DUtbCES->DaZbCES
- DEZbCES[
-   shape    = none
-   label    = "TableOfContents"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- qCtbCES->DUtbCES
- qCtbCES->DEZbCES
+ dZw8MA2->dzw8MA2
 }

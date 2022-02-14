@@ -111,7 +111,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/ParameterListWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="114" bodyend="124"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a054b0bf9aea488a590ea14e6a8a8de9e" compoundref="ParamListQuery_8h" startline="128" endline="131">MdDox::Doxygen::ParamListQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9">MdDox::DocumentWriter::beginList</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" compoundref="ParamListQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::ParamListQuery::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed">MdDox::DocumentWriter::endList</references>
@@ -123,26 +123,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="562">
+      <node id="916">
         <label>MdDox::Doxygen::Visitors::ParamListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor"/>
       </node>
-      <node id="561">
+      <node id="915">
         <label>MdDox::ParameterListWriter</label>
         <link refid="classMdDox_1_1ParameterListWriter"/>
-        <childnode refid="562" relation="public-inheritance">
+        <childnode refid="916" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="564">
+      <node id="918">
         <label>MdDox::Doxygen::Visitors::ParamListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor"/>
       </node>
-      <node id="563">
+      <node id="917">
         <label>MdDox::ParameterListWriter</label>
         <link refid="classMdDox_1_1ParameterListWriter"/>
-        <childnode refid="564" relation="public-inheritance">
+        <childnode refid="918" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -6,57 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- doU8bES[
+ dELDMA2[
    shape    = none
-   label    = "Writer"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WsC8bES[
+ WhEDMA2[
    shape    = none
-   label    = "Common"
+   label    = "Sect1Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WL38bES[
-   shape    = none
-   label    = "Object"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- Wiy8bES[
-   shape    = none
-   label    = "Simple"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- d3C8bES[
-   shape    = none
-   label    = "Group"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WuU8bES[
-   shape    = none
-   label    = "Complex"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- d3C8bES->WuU8bES
- WL38bES->Wiy8bES
- WL38bES->d3C8bES
- doU8bES->WsC8bES
- doU8bES->WL38bES
+ dELDMA2->WhEDMA2
 }

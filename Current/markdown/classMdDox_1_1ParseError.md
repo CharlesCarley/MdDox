@@ -21,7 +21,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-48.dot.svg"/><br/>
+<img src="../images/internal-diagram-119.dot.svg"/><br/>
 <a id="private-static-methods"></a>
 <h2>Private Static Methods</h2>
 <span class="icon-list-item"><a href="#geterror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getError</span>

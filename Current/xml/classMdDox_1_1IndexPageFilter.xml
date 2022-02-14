@@ -97,7 +97,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="106"/>
         <references refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" compoundref="Reference_8h" startline="54" endline="57">MdDox::Reference::setName</references>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" compoundref="CompoundIndexQuery_8cpp" startline="66" endline="74">MdDox::Doxygen::CompoundIndexQuery::getName</references>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" compoundref="CompoundIndexQuery_8cpp" startline="66" endline="73">MdDox::Doxygen::CompoundIndexQuery::getName</references>
         <references refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" compoundref="Reference_8h" startline="64" endline="67">MdDox::Reference::setReference</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a2d313ca23b09288ae5a0fc13fd3f92ae" compoundref="CompoundIndexQuery_8cpp" startline="52" endline="57">MdDox::Doxygen::CompoundIndexQuery::getRefId</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a5bd2c0056108f7775754848ff8180c89" compoundref="CompoundIndexQuery_8cpp" startline="59" endline="64">MdDox::Doxygen::CompoundIndexQuery::getKind</references>
@@ -129,7 +129,7 @@
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="206" endline="211">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" compoundref="SiteBuilder_8cpp" startline="129" endline="152">MdDox::SiteBuilder::registerCompound</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" compoundref="CompoundIndexQuery_8cpp" startline="76" endline="79">MdDox::Doxygen::CompoundIndexQuery::foreachMember</references>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" compoundref="CompoundIndexQuery_8cpp" startline="75" endline="78">MdDox::Doxygen::CompoundIndexQuery::foreachMember</references>
         <references refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" compoundref="SiteBuilder_8cpp" startline="154" endline="166">MdDox::SiteBuilder::registerMember</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac79c1254b4459778e9d57bc66d34f7c6" compoundref="MemberIndexQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::MemberIndexQuery::getRefId</references>
       </memberdef>
@@ -139,28 +139,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="482">
+      <node id="836">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="481">
+      <node id="835">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="482" relation="public-inheritance">
+        <childnode refid="836" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="484">
+      <node id="838">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="483">
+      <node id="837">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="484" relation="public-inheritance">
+        <childnode refid="838" relation="public-inheritance">
         </childnode>
-        <childnode refid="485" relation="usage">
+        <childnode refid="839" relation="usage">
           <edgelabel>dirPaths</edgelabel>
           <edgelabel>directories</edgelabel>
           <edgelabel>namespaces</edgelabel>
@@ -168,7 +168,7 @@
           <edgelabel>pages</edgelabel>
         </childnode>
       </node>
-      <node id="485">
+      <node id="839">
         <label>vector&lt; Reference &gt;</label>
       </node>
     </collaborationgraph>

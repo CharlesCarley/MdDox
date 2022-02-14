@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WFIubES[
+ D0ZUMA2[
    shape    = none
-   label    = "Node"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WHKubES[
+ qFZUMA2[
    shape    = none
-   label    = "LocalNode"
+   label    = "ListingQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WFIubES->WHKubES
+ D0ZUMA2->qFZUMA2
 }

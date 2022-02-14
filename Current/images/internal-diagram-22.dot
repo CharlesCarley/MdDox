@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Wm3ubES[
+ qisxMA2[
    shape    = none
-   label    = "SectionDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dDBubES[
+ DbhxMA2[
    shape    = none
-   label    = "SectionDefWriter"
+   label    = "FileQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WRBubES[
-   shape    = none
-   label    = "SectionDefListingWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- Wm3ubES->dDBubES
- Wm3ubES->WRBubES
+ qisxMA2->DbhxMA2
 }

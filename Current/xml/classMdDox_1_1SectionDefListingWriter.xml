@@ -210,12 +210,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.cpp" bodystart="180" bodyend="199"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" compoundref="SectionDefQuery_8h" startline="157" endline="160">MdDox::Doxygen::SectionDefQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" compoundref="SectionDefQuery_8cpp" startline="56" endline="61">MdDox::Doxygen::SectionDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af61282b0fc3e920e52576e41a71919ee" compoundref="DoxygenFilter_8h" startline="64">MdDox::Doxygen::DoxHeader</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06ae713d237dea07ac6a75031ee97352f1c" compoundref="DoxygenFilter_8h" startline="53">MdDox::Doxygen::DoxDescription</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" compoundref="DoxygenFilter_8h" startline="95">MdDox::Doxygen::DoxMemberDef</references>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" compoundref="SectionDefQuery_8cpp" startline="102" endline="123">MdDox::Doxygen::SectionDefQuery::sort</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" compoundref="Doxygen_8h" startline="246" endline="269">MdDox::Doxygen::Query::sort</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectionDefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
@@ -225,25 +225,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="623">
+      <node id="977">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="624" relation="public-inheritance">
+        <childnode refid="978" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="624">
+      <node id="978">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="625">
+      <node id="979">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="626" relation="public-inheritance">
+        <childnode refid="980" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="626">
+      <node id="980">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>

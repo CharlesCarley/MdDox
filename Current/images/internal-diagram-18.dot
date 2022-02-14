@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dMBubES[
+ ds38MA2[
    shape    = none
-   label    = "Sect1QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxBubES[
+ Wb38MA2[
    shape    = none
-   label    = "Section1Writer"
+   label    = "DoxygenQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dMBubES->dxBubES
+ ds38MA2->Wb38MA2
 }

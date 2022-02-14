@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dSIubES[
+ dLfDMA2[
    shape    = none
-   label    = "exception"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WbBubES[
+ d6rDMA2[
    shape    = none
-   label    = "Exception"
+   label    = "ParamListItemQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WgKubES[
-   shape    = none
-   label    = "ParseError"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WbBubES->WgKubES
- dSIubES->WbBubES
+ dLfDMA2->d6rDMA2
 }

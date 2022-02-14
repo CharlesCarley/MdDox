@@ -155,38 +155,38 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="513">
+      <node id="867">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="511">
+      <node id="865">
         <label>MdDox::MarkdownDocumentWriter</label>
         <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
-        <childnode refid="512" relation="public-inheritance">
+        <childnode refid="866" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="512">
+      <node id="866">
         <label>MdDox::HtmlDocumentWriter</label>
         <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="513" relation="public-inheritance">
+        <childnode refid="867" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="516">
+      <node id="870">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="514">
+      <node id="868">
         <label>MdDox::MarkdownDocumentWriter</label>
         <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
-        <childnode refid="515" relation="public-inheritance">
+        <childnode refid="869" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="515">
+      <node id="869">
         <label>MdDox::HtmlDocumentWriter</label>
         <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="516" relation="public-inheritance">
+        <childnode refid="870" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

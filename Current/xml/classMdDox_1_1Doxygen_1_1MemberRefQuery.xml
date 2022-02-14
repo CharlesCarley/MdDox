@@ -2,27 +2,13 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1MemberRefQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::MemberRefQuery</compoundname>
+    <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
     <includes local="no">Tools/Doxygen/MemberRefQuery.h</includes>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a3100e19f59e9eff9824f8dcc289bf414" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
-        <definition>Xml::Node* MdDox::Doxygen::MemberRefQuery::_node</definition>
-        <argsstring></argsstring>
-        <name>_node</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="53" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9caa1e0f7e8bd9c200b6cd2dca5f996f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a82cecdf4db423f3dd4e0f9652858e374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MdDox::Doxygen::MemberRefQuery::MemberRefQuery</definition>
-        <argsstring>()</argsstring>
+        <argsstring>()=default</argsstring>
         <name>MemberRefQuery</name>
         <briefdescription>
         </briefdescription>
@@ -30,24 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="56" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="56" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::MemberRefQuery::MemberRefQuery</definition>
-        <argsstring>(Xml::Node *node)</argsstring>
-        <name>MemberRefQuery</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="61" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="61" bodyend="64"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="53" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a119bbc4e153e39cee35fc137dba4c294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -64,21 +33,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="66" column="1"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="54" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1ab951df7bd09b034b76c639b726a23546" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::MemberRefQuery::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::MemberRefQuery::MemberRefQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>MemberRefQuery</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
         <briefdescription>
-<para>Checks to see if the internal node has children. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="160" bodyend="163"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="56" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="56" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aa7111ab4249fd86de589f9174df0cb67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -97,7 +69,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="126" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="35" bodyend="40"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="35" bodyend="40"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9eb95c0de517a1d68dc283141dee2d11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -117,8 +90,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="140" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="66" bodyend="74"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a6b53c88cc79a97176ea5dc20f2d3147f" compoundref="MemberRefQuery_8h" startline="155" endline="158">node</references>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="65" bodyend="72"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
@@ -134,7 +108,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="42" bodyend="47"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="65" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="42" bodyend="47"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -155,7 +130,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="28" bodyend="33"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1af41f73c9498e07435c56bb7ccb44a854" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -175,8 +151,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="133" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="56" bodyend="64"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a6b53c88cc79a97176ea5dc20f2d3147f" compoundref="MemberRefQuery_8h" startline="155" endline="158">node</references>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="95" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="56" bodyend="63"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
@@ -192,87 +169,10 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="110" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="49" bodyend="54"/>
+        <location file="Tools/Doxygen/MemberRefQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" compoundref="DoxVirtualKind_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxVirtualKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf103a9c0ffdc2d46b9e1579aa7f7af4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::MemberRefQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="71" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="145" bodyend="148"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a6b53c88cc79a97176ea5dc20f2d3147f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
-        <definition>Xml::Node * MdDox::Doxygen::MemberRefQuery::node</definition>
-        <argsstring>() const</argsstring>
-        <name>node</name>
-        <briefdescription>
-<para>Returns the wrapped node pointer. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="155" bodyend="158"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf7dc39556702cee19c9dbbb4fa61d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MemberRefQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="150" bodyend="153"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a828466ac965df66ad5784a36ade05808" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MemberRefQuery::sort</definition>
-        <argsstring>(const SortMap &amp;childOrder) const</argsstring>
-        <name>sort</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">SortMap</ref> &amp;</type>
-          <declname>childOrder</declname>
-        </param>
-        <briefdescription>
-<para>Sorts the nodes in the query based on priority of type. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="91" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="83" bodyend="104"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" compoundref="Node_8cpp" startline="158" endline="161">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aaf4ff4405d868d4849c3e108d0aceca0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::MemberRefQuery::text</definition>
-        <argsstring>(const String &amp;def=&quot;&quot;) const</argsstring>
-        <name>text</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>def</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the node&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The text data associated with this node the default value. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MemberRefQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.cpp" bodystart="78" bodyend="81"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -289,24 +189,63 @@
 <codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ambiguityscope&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
-    <location file="Tools/Doxygen/MemberRefQuery.h" line="51" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="50" bodyend="143"/>
+    <inheritancegraph>
+      <node id="329">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
+      </node>
+      <node id="328">
+        <label>MdDox::Doxygen::MemberRefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MemberRefQuery"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="332">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+        <childnode refid="333" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="331">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
+        <childnode refid="332" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="330">
+        <label>MdDox::Doxygen::MemberRefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MemberRefQuery"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/MemberRefQuery.h" line="51" column="1" bodyfile="Tools/Doxygen/MemberRefQuery.h" bodystart="50" bodyend="105"/>
     <listofallmembers>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a3100e19f59e9eff9824f8dcc289bf414" prot="private" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>_node</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1ab951df7bd09b034b76c639b726a23546" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>empty</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>_node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>empty</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aa7111ab4249fd86de589f9174df0cb67" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getAmbiguityScope</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9eb95c0de517a1d68dc283141dee2d11" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getName</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acc96ff723d2121cd456dee4b7752bbd7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getProt</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a4b205936e2607fc3cdffae40f4a8c246" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getRefId</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1af41f73c9498e07435c56bb7ccb44a854" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getScope</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a1b8e7f3b6ff71a1b9ea036d3a8895909" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>getVirt</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf103a9c0ffdc2d46b9e1579aa7f7af4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>isValid</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a9caa1e0f7e8bd9c200b6cd2dca5f996f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>MemberRefQuery</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>MemberRefQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>isValid</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a82cecdf4db423f3dd4e0f9652858e374" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>MemberRefQuery</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a119bbc4e153e39cee35fc137dba4c294" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>MemberRefQuery</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a6b53c88cc79a97176ea5dc20f2d3147f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>node</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1acf7dc39556702cee19c9dbbb4fa61d28" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>reset</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a828466ac965df66ad5784a36ade05808" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>sort</name></member>
-      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1aaf4ff4405d868d4849c3e108d0aceca0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>text</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1MemberRefQuery_1a93e6079668ac34fc201ce2b98bcb9a9b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>MemberRefQuery</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>node</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>Query</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>Query</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>reset</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>sort</name></member>
+      <member refid="classMdDox_1_1Doxygen_1_1Query_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberRefQuery</scope><name>text</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

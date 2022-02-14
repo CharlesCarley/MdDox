@@ -2,8 +2,7 @@
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(${typeCode});
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }

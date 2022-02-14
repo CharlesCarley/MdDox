@@ -104,8 +104,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(24);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -362,34 +361,5 @@ namespace MdDox::Doxygen
 		return dest;
 	}
 
-
-
-    const String& FileQuery::text(const String &def) const
-    {
-        return _node ? _node->text() : def;
-    }
-    
-    void FileQuery::sort(const SortMap& childOrder) const
-    {
-        if (_node) {
-            _node->sort(
-                [childOrder](Xml::Node *a, Xml::Node* b){
-                    // This gives unmapped sections a higher index so that
-                    // they are pushed to the end.
-                    int va = 100000;
-                    int vb = 100000;
-
-                    const SortMap::const_iterator findA = childOrder.find((int)a->getTypeCode());
-                    if (findA != childOrder.end())
-                        va = findA->second;
-
-                    const SortMap::const_iterator findB = childOrder.find((int)b->getTypeCode());
-                    if (findB != childOrder.end())
-                        vb = findB->second;
-                    // sort less
-                    return va < vb;
-            });
-        }
-    }
 
 } // namespace MdDox::Doxygen

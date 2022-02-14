@@ -226,54 +226,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class MarkupQuery
+    class MarkupQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        MarkupQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit MarkupQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        MarkupQuery() = default;
         MarkupQuery(const MarkupQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit MarkupQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::MarkupQueryVisitor *) const;
         /**
@@ -622,25 +584,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool MarkupQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void MarkupQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* MarkupQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool MarkupQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

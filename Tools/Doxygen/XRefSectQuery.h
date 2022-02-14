@@ -42,54 +42,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class XRefSectQuery
+    class XRefSectQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        XRefSectQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit XRefSectQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        XRefSectQuery() = default;
         XRefSectQuery(const XRefSectQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit XRefSectQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
         /**
          * \brief Provides access to the <b>id</b> attribute.
          *
@@ -100,25 +62,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool XRefSectQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void XRefSectQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* XRefSectQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool XRefSectQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

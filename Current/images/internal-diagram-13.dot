@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WSdubES[
+ q9blmA2[
    shape    = none
-   label    = "ParamListItemQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dGtubES[
+ qhylmA2[
    shape    = none
-   label    = "ListItemVisitor"
+   label    = "CompoundIndexQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WSdubES->dGtubES
+ q9blmA2->qhylmA2
 }

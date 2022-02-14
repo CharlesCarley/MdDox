@@ -36,20 +36,20 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="650">
+      <node id="1004">
         <label>const char *</label>
       </node>
-      <node id="648">
+      <node id="1002">
         <label>MdDox::TypeFilter</label>
         <link refid="structMdDox_1_1TypeFilter"/>
-        <childnode refid="649" relation="usage">
+        <childnode refid="1003" relation="usage">
           <edgelabel>typeCode</edgelabel>
         </childnode>
-        <childnode refid="650" relation="usage">
+        <childnode refid="1004" relation="usage">
           <edgelabel>typeName</edgelabel>
         </childnode>
       </node>
-      <node id="649">
+      <node id="1003">
         <label>int64_t</label>
       </node>
     </collaborationgraph>

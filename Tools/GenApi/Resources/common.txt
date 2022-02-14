@@ -47,4 +47,90 @@ ${declarations}
         }
     }
 
+    class Query
+    {
+    protected:
+        Xml::Node *_node;
+
+    public:
+        Query() :
+            _node(nullptr)
+        {
+        }
+
+        explicit Query(Xml::Node* node) :
+            _node(node)
+        {
+        }
+
+        /**
+         * \brief Checks to see if the internal node is usable.
+         */
+        bool isValid() const
+        {
+            return _node != nullptr;
+        }
+
+        /**
+         * \brief Checks to see if the internal node has children.
+         */
+        bool empty() const
+        {
+            return _node? !_node->hasChildren() : true;
+        }
+
+        /**
+         * \brief Resets the internal node pointer to null.
+         */
+        void reset()
+        {
+            _node = nullptr;
+        }
+
+        /**
+         * \brief Returns the wrapped node pointer.
+         */
+        Xml::Node* node() const
+        {
+            return _node;
+        }
+
+        /**
+         * \brief Sorts the nodes in the query based on priority of type.
+         */
+        void sort(const SortMap& childOrder) const
+        {
+            if (_node) {
+                _node->sort(
+                    [childOrder](Xml::Node *a, Xml::Node* b){
+                        // This gives unmapped sections a higher index so that
+                        // they are pushed to the end.
+                        int va = 100000;
+                        int vb = 100000;
+
+                        const SortMap::const_iterator findA = 
+                            childOrder.find((int)a->getTypeCode());
+                        if (findA != childOrder.end())
+                            va = findA->second;
+
+                        const SortMap::const_iterator findB = 
+                            childOrder.find((int)b->getTypeCode());
+                        if (findB != childOrder.end())
+                            vb = findB->second;
+                        // sort less
+                        return va < vb;
+                });
+            }
+        }
+
+        /**
+         * \brief Provides access to the node's inner text.
+         * \return The text data associated with this node the default value.
+         */
+        const String& text(const String& def="") const
+        {
+            return _node ? _node->text() : def;
+        }
+    };
+
 }  // namespace MdDox::Doxygen

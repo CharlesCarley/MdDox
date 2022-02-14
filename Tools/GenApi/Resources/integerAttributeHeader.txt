@@ -1,5 +1,4 @@
         /**
          * \brief Provides access to the <b>${searchTerm}</b> attribute.
-         *
          */
         int64_t get${name}(int64_t def = -1) const;

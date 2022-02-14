@@ -276,6 +276,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQuery</span>
 </a>
 </span>
@@ -821,7 +825,9 @@
 <span class="bold-text"><b>QueryForEach</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const std::function&lt; void(const Query &amp;)&gt; &amp;</span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Query.md#query">Query</a>
+<span class="inline-text"> &amp;)&gt; &amp;</span>
 <span class="inline-text">invoke</span>
 </span>
 </div>

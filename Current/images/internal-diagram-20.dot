@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WfIubES[
+ DfzUMA2[
    shape    = none
-   label    = "Sect3QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WZtubES[
+ DDzUMA2[
    shape    = none
-   label    = "Section3Writer"
+   label    = "EntryQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WfIubES->WZtubES
+ DfzUMA2->DDzUMA2
 }

@@ -114,7 +114,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea">MdDox::DocumentWriter::anchor</references>
         <references refid="classMdDox_1_1Doxygen_1_1Sect4Query_1a863ddec67b4edfa47019ef847ff00697" compoundref="Sect4Query_8cpp" startline="56" endline="61">MdDox::Doxygen::Sect4Query::getId</references>
         <references refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09">MdDox::DocumentWriter::beginSection</references>
-        <references refid="classMdDox_1_1Doxygen_1_1Sect4Query_1afe4d97cafd7e5bae8cfde980d1c69b09" compoundref="Sect4Query_8cpp" startline="63" endline="71">MdDox::Doxygen::Sect4Query::getTitle</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Sect4Query_1afe4d97cafd7e5bae8cfde980d1c69b09" compoundref="Sect4Query_8cpp" startline="63" endline="70">MdDox::Doxygen::Sect4Query::getTitle</references>
         <references refid="classMdDox_1_1Doxygen_1_1Sect4Query_1aec89c471dd0447f474a28c0e517afc59" compoundref="Sect4Query_8cpp" startline="30" endline="55">MdDox::Doxygen::Sect4Query::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64">MdDox::DocumentWriter::endSection</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
@@ -125,25 +125,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="619">
+      <node id="973">
         <label>MdDox::Section4Writer</label>
         <link refid="classMdDox_1_1Section4Writer"/>
-        <childnode refid="620" relation="public-inheritance">
+        <childnode refid="974" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="620">
+      <node id="974">
         <label>MdDox::Doxygen::Visitors::Sect4QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="621">
+      <node id="975">
         <label>MdDox::Section4Writer</label>
         <link refid="classMdDox_1_1Section4Writer"/>
-        <childnode refid="622" relation="public-inheritance">
+        <childnode refid="976" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="622">
+      <node id="976">
         <label>MdDox::Doxygen::Visitors::Sect4QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor"/>
       </node>

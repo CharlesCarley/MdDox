@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dBMubES[
+ Wg58MA2[
    shape    = none
-   label    = "CompoundDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dNmubES[
+ ds38MA2[
    shape    = none
-   label    = "PageWriter"
+   label    = "InternalS1Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dZMubES[
-   shape    = none
-   label    = "GenericPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- dNmubES->dZMubES
- dBMubES->dNmubES
+ Wg58MA2->ds38MA2
 }

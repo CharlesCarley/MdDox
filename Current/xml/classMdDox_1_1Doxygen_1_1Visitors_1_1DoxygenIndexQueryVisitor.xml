@@ -67,20 +67,20 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="253">
+      <node id="603">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="254">
+      <node id="604">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="253" relation="public-inheritance">
+        <childnode refid="603" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="255">
+      <node id="605">
         <label>MdDox::IndexPageWriter</label>
         <link refid="classMdDox_1_1IndexPageWriter"/>
-        <childnode refid="253" relation="public-inheritance">
+        <childnode refid="603" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

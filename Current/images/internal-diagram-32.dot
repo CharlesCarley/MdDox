@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dgaubES[
+ qyhUMA2[
    shape    = none
-   label    = "GraphQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WtlubES[
+ DIEUMA2[
    shape    = none
-   label    = "GraphWriter"
+   label    = "InternalS2Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dgaubES->WtlubES
+ qyhUMA2->DIEUMA2
 }

@@ -131,54 +131,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class ImageQuery
+    class ImageQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        ImageQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit ImageQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        ImageQuery() = default;
         ImageQuery(const ImageQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit ImageQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::ImageQueryVisitor *) const;
         /**
@@ -361,25 +323,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool ImageQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void ImageQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* ImageQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool ImageQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

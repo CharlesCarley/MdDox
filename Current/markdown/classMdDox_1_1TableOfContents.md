@@ -18,7 +18,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-58.dot.svg"/><br/>
+<img src="../images/internal-diagram-129.dot.svg"/><br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
 <span class="icon-list-item"><a href="#hasclasses" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasClasses</span>

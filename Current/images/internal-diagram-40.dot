@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WURubES[
+ d0d8MA2[
    shape    = none
-   label    = "MemberDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dGaubES[
+ W618MA2[
    shape    = none
-   label    = "MemberDefListingWriter"
+   label    = "ListOfAllMembersQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WURubES->dGaubES
+ d0d8MA2->W618MA2
 }

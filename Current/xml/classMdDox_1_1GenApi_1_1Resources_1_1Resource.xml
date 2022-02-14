@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="13" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="188" bodyend="193"/>
+        <location file="Tools/GenApi/Resources.h" line="13" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="112" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a9c5174f2c11659c4f10fdc861cb4a2f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="14" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="195" bodyend="202"/>
+        <location file="Tools/GenApi/Resources.h" line="14" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="119" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a3ca4d4f3747d2bab8d48e9ebe9862c41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="19" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="234" bodyend="239"/>
+        <location file="Tools/GenApi/Resources.h" line="16" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="128" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a5edcf9fde8af25f43949e503fab21b8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="20" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="241" bodyend="382"/>
+        <location file="Tools/GenApi/Resources.h" line="17" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="135" bodyend="452"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="31" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="482" bodyend="487"/>
+        <location file="Tools/GenApi/Resources.h" line="28" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="551" bodyend="556"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a33c82e262a076f4419f276167c11fae5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="32" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="489" bodyend="517"/>
+        <location file="Tools/GenApi/Resources.h" line="29" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="558" bodyend="586"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfdd977a5cb98946491f619fa2292cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="25" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="412" bodyend="417"/>
+        <location file="Tools/GenApi/Resources.h" line="22" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="482" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a7327af90b6788d0d2ff2936f077d6e72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="26" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="419" bodyend="446"/>
+        <location file="Tools/GenApi/Resources.h" line="23" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="489" bodyend="515"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a99062292f50d60105c0cee18892b407d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="28" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="448" bodyend="453"/>
+        <location file="Tools/GenApi/Resources.h" line="25" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="517" bodyend="522"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aa45bbc969d4bd20dc685204fbdf21392" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="29" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="455" bodyend="480"/>
+        <location file="Tools/GenApi/Resources.h" line="26" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="524" bodyend="549"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a4645b450e3dab3e2bf8872be4c3f79b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="22" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="384" bodyend="389"/>
+        <location file="Tools/GenApi/Resources.h" line="19" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="454" bodyend="459"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2e179ee881f91476a538558b03c1d21d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="23" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="391" bodyend="410"/>
+        <location file="Tools/GenApi/Resources.h" line="20" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="461" bodyend="480"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1feb3bedb869d91708ff5d2e1a4bd481" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="34" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="519" bodyend="524"/>
+        <location file="Tools/GenApi/Resources.h" line="31" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="588" bodyend="593"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a962fc948487f4f1552ab4f11153046f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="35" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="526" bodyend="546"/>
+        <location file="Tools/GenApi/Resources.h" line="32" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="595" bodyend="615"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a42c4a95c6f5c6fedb66b5489351606ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="37" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="548" bodyend="553"/>
+        <location file="Tools/GenApi/Resources.h" line="34" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="617" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1eddcef1ff50634c8b837defef144c1b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="38" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="555" bodyend="573"/>
+        <location file="Tools/GenApi/Resources.h" line="35" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="624" bodyend="642"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a738f43faab3ae80bfbcf91650c4b36eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="40" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="575" bodyend="580"/>
+        <location file="Tools/GenApi/Resources.h" line="37" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="644" bodyend="649"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae5199e64b14f27100f550a4b42184de9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="41" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="582" bodyend="812"/>
+        <location file="Tools/GenApi/Resources.h" line="38" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="651" bodyend="785"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a982b4d9d6febca6c11a757361492ada5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="43" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="814" bodyend="819"/>
+        <location file="Tools/GenApi/Resources.h" line="40" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="787" bodyend="792"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aa10b08016a03cc78969918742d4438f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="44" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="821" bodyend="840"/>
+        <location file="Tools/GenApi/Resources.h" line="41" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="794" bodyend="812"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a7bfb857bcb54200fe6c91b26c737cd50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="46" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="842" bodyend="847"/>
+        <location file="Tools/GenApi/Resources.h" line="43" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="814" bodyend="819"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a13133f34c3045f11e2a46586c5e7e302" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="47" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="849" bodyend="866"/>
+        <location file="Tools/GenApi/Resources.h" line="44" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="821" bodyend="838"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a80fcd3d1a734fdbd657895b8e4088d54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="49" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="868" bodyend="873"/>
+        <location file="Tools/GenApi/Resources.h" line="46" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="840" bodyend="845"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0194bea5f6b48de9f26f385cedb58585" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="50" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="875" bodyend="903"/>
+        <location file="Tools/GenApi/Resources.h" line="47" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="847" bodyend="875"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a929acab4dfa9a419087f20cabc855a2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -375,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="52" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="905" bodyend="910"/>
+        <location file="Tools/GenApi/Resources.h" line="49" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="877" bodyend="882"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a247f290103bd13e34ea042f93e8ce520" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -392,67 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="53" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="912" bodyend="941"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a30994ac631cf3d47f7b41bc4c58d9528" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getSortHeader</definition>
-        <argsstring>()</argsstring>
-        <name>getSortHeader</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="16" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="204" bodyend="209"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae43a9b992edfb1c47b0a67cf6bcee83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getSortHeader</definition>
-        <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getSortHeader</name>
-        <param>
-          <type>std::string &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="17" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="211" bodyend="232"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1c6aca46aa58f5739ba917eda9928bcb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getSortSource</definition>
-        <argsstring>()</argsstring>
-        <name>getSortSource</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="55" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="943" bodyend="948"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a77e0251a59452159a62942b35db4a1a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getSortSource</definition>
-        <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getSortSource</name>
-        <param>
-          <type>std::string &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="56" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="950" bodyend="1021"/>
+        <location file="Tools/GenApi/Resources.h" line="50" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="884" bodyend="913"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -482,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="11" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="12" bodyend="186"/>
+        <location file="Tools/GenApi/Resources.h" line="11" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="12" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -495,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="58" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1023" bodyend="1028"/>
+        <location file="Tools/GenApi/Resources.h" line="52" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="915" bodyend="920"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a81076ce06330e981176f0ea31015df6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -512,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="59" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1030" bodyend="1059"/>
+        <location file="Tools/GenApi/Resources.h" line="53" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="922" bodyend="951"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a089755e46a1dc86445c8e56abf8367bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -525,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="61" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1061" bodyend="1066"/>
+        <location file="Tools/GenApi/Resources.h" line="55" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="953" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a758795f78214ed7886e1de2fef7eb520" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -542,7 +482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="62" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1068" bodyend="1089"/>
+        <location file="Tools/GenApi/Resources.h" line="56" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="960" bodyend="981"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a11b6143d99f855b2a71893787a34df84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -555,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="64" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1091" bodyend="1096"/>
+        <location file="Tools/GenApi/Resources.h" line="58" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="983" bodyend="988"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f1aade9a88c5253877607f6ea4a8f9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -572,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="65" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1098" bodyend="1123"/>
+        <location file="Tools/GenApi/Resources.h" line="59" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="990" bodyend="1015"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1adacbea03e116e2dad7cf6468b5617c65" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -585,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="67" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1125" bodyend="1130"/>
+        <location file="Tools/GenApi/Resources.h" line="61" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1017" bodyend="1022"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1abad5c4638247c43c1e91c7404a6b0ae3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -602,7 +542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="68" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1132" bodyend="1178"/>
+        <location file="Tools/GenApi/Resources.h" line="62" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1024" bodyend="1070"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1af659c5870eb578ce5d6d8a5682e1a254" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -615,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="70" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1180" bodyend="1185"/>
+        <location file="Tools/GenApi/Resources.h" line="64" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1072" bodyend="1077"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1a1f817345409e9f7612d95c0cb3ed94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -632,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="71" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1187" bodyend="1218"/>
+        <location file="Tools/GenApi/Resources.h" line="65" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1079" bodyend="1110"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a8fa1f87c8d7cad40db0e8840fc19b184" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -645,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="73" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1220" bodyend="1225"/>
+        <location file="Tools/GenApi/Resources.h" line="67" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1112" bodyend="1117"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae1405eedad78ed32306044c0e3fa6e91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -662,14 +602,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="74" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1227" bodyend="1252"/>
+        <location file="Tools/GenApi/Resources.h" line="68" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="1119" bodyend="1144"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/GenApi/Resources.h" line="8" column="1" bodyfile="Tools/GenApi/Resources.h" bodystart="7" bodyend="75"/>
+    <location file="Tools/GenApi/Resources.h" line="8" column="1" bodyfile="Tools/GenApi/Resources.h" bodystart="7" bodyend="69"/>
     <listofallmembers>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a416f43c354339f1e7bbeedc38ae7ef58" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getBase</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a9c5174f2c11659c4f10fdc861cb4a2f9" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getBase</name></member>
@@ -697,10 +637,6 @@
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0194bea5f6b48de9f26f385cedb58585" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSingleElementHeader</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a929acab4dfa9a419087f20cabc855a2a" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSingleElementSource</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a247f290103bd13e34ea042f93e8ce520" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSingleElementSource</name></member>
-      <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a30994ac631cf3d47f7b41bc4c58d9528" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSortHeader</name></member>
-      <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae43a9b992edfb1c47b0a67cf6bcee83a" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSortHeader</name></member>
-      <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1c6aca46aa58f5739ba917eda9928bcb" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSortSource</name></member>
-      <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a77e0251a59452159a62942b35db4a1a9" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSortSource</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSource</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0c5d9201ce7b3cba7b4bf4722e5c7e88" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getSource</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Resources::Resource</scope><name>getStringAttributeHeader</name></member>

@@ -58,54 +58,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class InternalS4Query
+    class InternalS4Query : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        InternalS4Query() :
-            _node(nullptr)
-        {
-        }
-
-        explicit InternalS4Query(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        InternalS4Query() = default;
         InternalS4Query(const InternalS4Query& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit InternalS4Query(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::InternalS4QueryVisitor *) const;
         /**
@@ -115,25 +77,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool InternalS4Query::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void InternalS4Query::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* InternalS4Query::node() const
-    {
-        return _node;
-    }
-
-    inline bool InternalS4Query::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

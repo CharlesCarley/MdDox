@@ -6,48 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WCORbES[
+ DpccMA2[
    shape    = none
-   label    = "MemberDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- drNRbES[
+ DoccMA2[
    shape    = none
-   label    = "MemberDefWriter"
+   label    = "CompoundDefQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W3NRbES[
-   shape    = none
-   label    = "MemberDefListingWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WgxRbES[
-   shape    = none
-   label    = "FunctionDefWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WSNRbES[
-   shape    = none
-   label    = "EnumDefWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WCORbES->drNRbES
- WCORbES->W3NRbES
- WCORbES->WgxRbES
- WCORbES->WSNRbES
+ DpccMA2->DoccMA2
 }

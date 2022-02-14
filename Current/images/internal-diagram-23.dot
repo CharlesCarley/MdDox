@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WWJRbES[
+ dlQ8MA2[
    shape    = none
-   label    = "MemberDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W8LRbES[
+ dAQ8MA2[
    shape    = none
-   label    = "EnumDefWriter"
+   label    = "FormulaQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WWJRbES->W8LRbES
+ dlQ8MA2->dAQ8MA2
 }

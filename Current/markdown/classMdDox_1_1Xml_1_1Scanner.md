@@ -20,7 +20,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-61.dot.svg"/><br/>
+<img src="../images/internal-diagram-132.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_code" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_code</span>

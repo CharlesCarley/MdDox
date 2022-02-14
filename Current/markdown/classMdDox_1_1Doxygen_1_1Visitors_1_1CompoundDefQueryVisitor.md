@@ -26,7 +26,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-7.dot.svg"/><br/>
+<img src="../images/internal-diagram-77.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~compounddefqueryvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~CompoundDefQueryVisitor</span>

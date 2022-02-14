@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- q7U2bES[
+ WySDMA2[
    shape    = none
-   label    = "ScannerBase"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DuU2bES[
+ dWSDMA2[
    shape    = none
-   label    = "Scanner"
+   label    = "ParamNameListQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q7U2bES->DuU2bES
+ WySDMA2->dWSDMA2
 }

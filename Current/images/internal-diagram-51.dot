@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WYBubES[
+ WnI8MA2[
    shape    = none
-   label    = "Sect1QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dfBubES[
+ WSK8MA2[
    shape    = none
-   label    = "Section1Writer"
+   label    = "ParamNameQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WYBubES->dfBubES
+ WnI8MA2->WSK8MA2
 }

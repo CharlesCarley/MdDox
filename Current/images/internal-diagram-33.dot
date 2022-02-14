@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DxZUCES[
+ W038MA2[
    shape    = none
-   label    = "DocumentWriter"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qEdUCES[
+ dJ38MA2[
    shape    = none
-   label    = "HtmlDocumentWriter"
+   label    = "InternalS3Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DndUCES[
-   shape    = none
-   label    = "MarkdownDocumentWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- qEdUCES->DndUCES
- DxZUCES->qEdUCES
+ W038MA2->dJ38MA2
 }

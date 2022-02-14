@@ -62,19 +62,19 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="382">
+      <node id="736">
         <label>string</label>
       </node>
-      <node id="381">
+      <node id="735">
         <label>bool</label>
       </node>
-      <node id="380">
+      <node id="734">
         <label>MdDox::GenApi::Attribute</label>
         <link refid="structMdDox_1_1GenApi_1_1Attribute"/>
-        <childnode refid="381" relation="usage">
+        <childnode refid="735" relation="usage">
           <edgelabel>isRequired</edgelabel>
         </childnode>
-        <childnode refid="382" relation="usage">
+        <childnode refid="736" relation="usage">
           <edgelabel>genName</edgelabel>
           <edgelabel>searchTerm</edgelabel>
           <edgelabel>genType</edgelabel>

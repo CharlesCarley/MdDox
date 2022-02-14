@@ -136,7 +136,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="89" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="89" bodyend="99"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1af5204fd78f92bb763035c39d654a9717" compoundref="ParamListItemQuery_8h" startline="135" endline="138">MdDox::Doxygen::ParamListItemQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233">MdDox::DocumentWriter::beginListItem</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery_1a6240c1e609721da2b7311bbc2f673131" compoundref="ParamListItemQuery_8cpp" startline="30" endline="52">MdDox::Doxygen::ParamListItemQuery::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29">MdDox::DocumentWriter::endListItem</references>
@@ -148,26 +148,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="499">
+      <node id="853">
         <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor"/>
       </node>
-      <node id="498">
+      <node id="852">
         <label>MdDox::ListItemVisitor</label>
         <link refid="classMdDox_1_1ListItemVisitor"/>
-        <childnode refid="499" relation="public-inheritance">
+        <childnode refid="853" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="501">
+      <node id="855">
         <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor"/>
       </node>
-      <node id="500">
+      <node id="854">
         <label>MdDox::ListItemVisitor</label>
         <link refid="classMdDox_1_1ListItemVisitor"/>
-        <childnode refid="501" relation="public-inheritance">
+        <childnode refid="855" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

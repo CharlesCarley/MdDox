@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dyrubES[
+ Wgl8MA2[
    shape    = none
-   label    = "ParamNameListQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dfZubES[
+ WnH8MA2[
    shape    = none
-   label    = "NameListVisitor"
+   label    = "CopyQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dyrubES->dfZubES
+ Wgl8MA2->WnH8MA2
 }

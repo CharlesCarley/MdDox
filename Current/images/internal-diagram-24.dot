@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- d05ubES[
+ dtt8MA2[
    shape    = none
-   label    = "exception"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dnYubES[
+ WZZ8MA2[
    shape    = none
-   label    = "Exception"
+   label    = "GraphQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wc5ubES[
-   shape    = none
-   label    = "ParseError"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- dnYubES->Wc5ubES
- d05ubES->dnYubES
+ dtt8MA2->WZZ8MA2
 }

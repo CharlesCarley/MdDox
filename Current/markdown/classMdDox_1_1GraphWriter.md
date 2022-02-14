@@ -18,7 +18,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-32.dot.svg"/><br/>
+<img src="../images/internal-diagram-103.dot.svg"/><br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
 <span class="icon-list-item"><a href="#nodes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Nodes</span>
@@ -285,7 +285,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>

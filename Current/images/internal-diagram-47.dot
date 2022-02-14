@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dYb8bES[
+ WGl8MA2[
    shape    = none
-   label    = "ParamQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dC38bES[
+ dcH8MA2[
    shape    = none
-   label    = "ParameterWriter"
+   label    = "NodeQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dYb8bES->dC38bES
+ WGl8MA2->dcH8MA2
 }

@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dMBubES[
+ WKGDMA2[
    shape    = none
-   label    = "Sect3QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WFIubES[
+ dYwDMA2[
    shape    = none
-   label    = "Section3Writer"
+   label    = "ParamTypeQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dMBubES->WFIubES
+ WKGDMA2->dYwDMA2
 }

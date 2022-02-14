@@ -21,7 +21,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-49.dot.svg"/><br/>
+<img src="../images/internal-diagram-120.dot.svg"/><br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
 <span class="icon-list-item"><a href="#tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Tokens</span>

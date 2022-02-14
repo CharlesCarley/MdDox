@@ -58,54 +58,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class ListItemQuery
+    class ListItemQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        ListItemQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit ListItemQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        ListItemQuery() = default;
         ListItemQuery(const ListItemQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit ListItemQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::ListItemQueryVisitor *) const;
         /**
@@ -115,25 +77,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool ListItemQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void ListItemQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* ListItemQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool ListItemQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

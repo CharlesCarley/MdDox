@@ -142,13 +142,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="337">
+      <node id="687">
         <label>MdDox::Section3Writer</label>
         <link refid="classMdDox_1_1Section3Writer"/>
-        <childnode refid="336" relation="public-inheritance">
+        <childnode refid="686" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="336">
+      <node id="686">
         <label>MdDox::Doxygen::Visitors::Sect3QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect3QueryVisitor"/>
       </node>

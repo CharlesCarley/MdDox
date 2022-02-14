@@ -204,54 +204,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class MemberDefQuery
+    class MemberDefQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        MemberDefQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit MemberDefQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        MemberDefQuery() = default;
         MemberDefQuery(const MemberDefQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit MemberDefQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::MemberDefQueryVisitor *) const;
         /**
@@ -647,25 +609,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool MemberDefQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void MemberDefQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* MemberDefQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool MemberDefQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W8BubES[
+ dcG8MA2[
    shape    = none
-   label    = "DescriptionQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WFIubES[
+ dQw8MA2[
    shape    = none
-   label    = "DescriptionWriter"
+   label    = "BlockQuoteQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W8BubES->WFIubES
+ dcG8MA2->dQw8MA2
 }

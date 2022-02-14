@@ -6,39 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WDC8bES[
+ dFHuMA2[
    shape    = none
-   label    = "Writer"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dEC8bES[
+ WnluMA2[
    shape    = none
-   label    = "Object"
+   label    = "ImageQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wcb8bES[
-   shape    = none
-   label    = "Group"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- dxy8bES[
-   shape    = none
-   label    = "Complex"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- Wcb8bES->dxy8bES
- dEC8bES->Wcb8bES
- WDC8bES->dEC8bES
+ dFHuMA2->WnluMA2
 }

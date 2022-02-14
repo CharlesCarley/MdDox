@@ -71,105 +71,105 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="392">
+      <node id="746">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="391">
+      <node id="745">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="392" relation="public-inheritance">
+        <childnode refid="746" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="389">
+      <node id="743">
         <label>MdDox::GenApi::Complex</label>
         <link refid="classMdDox_1_1GenApi_1_1Complex"/>
-        <childnode refid="390" relation="public-inheritance">
+        <childnode refid="744" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="390">
+      <node id="744">
         <label>MdDox::GenApi::Group</label>
         <link refid="classMdDox_1_1GenApi_1_1Group"/>
-        <childnode refid="391" relation="public-inheritance">
+        <childnode refid="745" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="396">
+      <node id="750">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="403">
+      <node id="757">
         <label>vector&lt; Group *&gt;</label>
       </node>
-      <node id="395">
+      <node id="749">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="396" relation="public-inheritance">
+        <childnode refid="750" relation="public-inheritance">
         </childnode>
-        <childnode refid="397" relation="usage">
+        <childnode refid="751" relation="usage">
           <edgelabel>_name</edgelabel>
         </childnode>
       </node>
-      <node id="393">
+      <node id="747">
         <label>MdDox::GenApi::Complex</label>
         <link refid="classMdDox_1_1GenApi_1_1Complex"/>
-        <childnode refid="394" relation="public-inheritance">
+        <childnode refid="748" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="400">
+      <node id="754">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="401" relation="usage">
+        <childnode refid="755" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="398">
+      <node id="752">
         <label>unordered_map&lt; String, String &gt;</label>
       </node>
-      <node id="397">
+      <node id="751">
         <label>string</label>
       </node>
-      <node id="402">
+      <node id="756">
         <label>unordered_map&lt; std::string, std::string &gt;</label>
       </node>
-      <node id="394">
+      <node id="748">
         <label>MdDox::GenApi::Group</label>
         <link refid="classMdDox_1_1GenApi_1_1Group"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="749" relation="public-inheritance">
         </childnode>
-        <childnode refid="398" relation="usage">
+        <childnode refid="752" relation="usage">
           <edgelabel>_stringAttributes</edgelabel>
           <edgelabel>_enumAttributes</edgelabel>
           <edgelabel>_integerAttributes</edgelabel>
         </childnode>
-        <childnode refid="399" relation="usage">
+        <childnode refid="753" relation="usage">
           <edgelabel>_textReturns</edgelabel>
           <edgelabel>_elements</edgelabel>
           <edgelabel>_singleReturns</edgelabel>
         </childnode>
-        <childnode refid="400" relation="usage">
+        <childnode refid="754" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
-        <childnode refid="402" relation="usage">
+        <childnode refid="756" relation="usage">
           <edgelabel>_dependentHeaderTypes</edgelabel>
           <edgelabel>_dependentTypes</edgelabel>
         </childnode>
-        <childnode refid="401" relation="usage">
+        <childnode refid="755" relation="usage">
           <edgelabel>_first</edgelabel>
           <edgelabel>_foreach</edgelabel>
         </childnode>
-        <childnode refid="397" relation="usage">
+        <childnode refid="751" relation="usage">
           <edgelabel>_tagType</edgelabel>
         </childnode>
-        <childnode refid="403" relation="usage">
+        <childnode refid="757" relation="usage">
           <edgelabel>_groups</edgelabel>
         </childnode>
       </node>
-      <node id="399">
+      <node id="753">
         <label>vector&lt; Element &gt;</label>
       </node>
-      <node id="401">
+      <node id="755">
         <label>bool</label>
       </node>
     </collaborationgraph>

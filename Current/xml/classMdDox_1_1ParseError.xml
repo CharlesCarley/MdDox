@@ -133,36 +133,36 @@ The message if formatted as: <computeroutput>file</computeroutput> (<computerout
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="571">
+      <node id="925">
         <label>std::exception</label>
       </node>
-      <node id="570">
+      <node id="924">
         <label>MdDox::Exception</label>
         <link refid="classMdDox_1_1Exception"/>
-        <childnode refid="571" relation="public-inheritance">
+        <childnode refid="925" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="569">
+      <node id="923">
         <label>MdDox::ParseError</label>
         <link refid="classMdDox_1_1ParseError"/>
-        <childnode refid="570" relation="public-inheritance">
+        <childnode refid="924" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="574">
+      <node id="928">
         <label>std::exception</label>
       </node>
-      <node id="573">
+      <node id="927">
         <label>MdDox::Exception</label>
         <link refid="classMdDox_1_1Exception"/>
-        <childnode refid="574" relation="public-inheritance">
+        <childnode refid="928" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="572">
+      <node id="926">
         <label>MdDox::ParseError</label>
         <link refid="classMdDox_1_1ParseError"/>
-        <childnode refid="573" relation="public-inheritance">
+        <childnode refid="927" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

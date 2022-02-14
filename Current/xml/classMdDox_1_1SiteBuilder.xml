@@ -575,22 +575,22 @@ digraph {
  <linebreak/>
 </para><para>First, it should have all necessary configuration parameters before running. From there, it needs to load an index file. Then based on the contents of the index, It should write the primary index. After that, It should dispatch all sub-page writers. Page writers can register graph files during their dispatch routine. After all pages have completed, any registered graph files get processed. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="635">
+      <node id="989">
         <label>string</label>
       </node>
-      <node id="633">
+      <node id="987">
         <label>vector&lt; std::string &gt;</label>
       </node>
-      <node id="632">
+      <node id="986">
         <label>MdDox::SiteBuilder</label>
         <link refid="classMdDox_1_1SiteBuilder"/>
-        <childnode refid="633" relation="usage">
+        <childnode refid="987" relation="usage">
           <edgelabel>searchDirs</edgelabel>
         </childnode>
-        <childnode refid="634" relation="usage">
+        <childnode refid="988" relation="usage">
           <edgelabel>showDebug</edgelabel>
         </childnode>
-        <childnode refid="635" relation="usage">
+        <childnode refid="989" relation="usage">
           <edgelabel>styleSheet</edgelabel>
           <edgelabel>inputDir</edgelabel>
           <edgelabel>siteUrl</edgelabel>
@@ -604,7 +604,7 @@ digraph {
           <edgelabel>...</edgelabel>
         </childnode>
       </node>
-      <node id="634">
+      <node id="988">
         <label>bool</label>
       </node>
     </collaborationgraph>

@@ -916,26 +916,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="558">
+      <node id="912">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="557">
+      <node id="911">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="912" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="560">
+      <node id="914">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="559">
+      <node id="913">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="560" relation="public-inheritance">
+        <childnode refid="914" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

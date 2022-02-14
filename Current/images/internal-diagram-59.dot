@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qZ33CES[
+ D99lmA2[
    shape    = none
-   label    = "Node"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q8K3CES[
+ qq9lmA2[
    shape    = none
-   label    = "LocalNode"
+   label    = "RefTextQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZ33CES->q8K3CES
+ D99lmA2->qq9lmA2
 }

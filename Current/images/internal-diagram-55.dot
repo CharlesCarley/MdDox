@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dimubES[
+ q43RmA2[
    shape    = none
-   label    = "SectionDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WwD8bES[
+ DBtRmA2[
    shape    = none
-   label    = "SectionDefListingWriter"
+   label    = "ParBlockQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dimubES->WwD8bES
+ q43RmA2->DBtRmA2
 }

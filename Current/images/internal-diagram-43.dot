@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Wmi2bES[
+ DifOMA2[
    shape    = none
-   label    = "CompoundDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dzS2bES[
+ DDdOMA2[
    shape    = none
-   label    = "PageWriter"
+   label    = "MarkupQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dcK2bES[
-   shape    = none
-   label    = "NamespacePageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- dzS2bES->dcK2bES
- Wmi2bES->dzS2bES
+ DifOMA2->DDdOMA2
 }

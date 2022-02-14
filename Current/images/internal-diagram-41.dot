@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DDt3CES[
+ qL7UMA2[
    shape    = none
-   label    = "MemberDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D6I3CES[
+ qrxUMA2[
    shape    = none
-   label    = "MemberDefWriter"
+   label    = "ListQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DDt3CES->D6I3CES
+ qL7UMA2->qrxUMA2
 }

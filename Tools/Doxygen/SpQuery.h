@@ -38,81 +38,21 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class SpQuery
+    class SpQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        SpQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit SpQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        SpQuery() = default;
         SpQuery(const SpQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit SpQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
         /**
          * \brief Provides access to the <b>value</b> attribute.
-         *
          */
         int64_t getValue(int64_t def = -1) const;
 
 
     };
-
-    inline bool SpQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void SpQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* SpQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool SpQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

@@ -54,38 +54,11 @@ namespace MdDox::Doxygen
     {
         QueryForEach<ParaQuery, 68>(invoke, _node);
     }
+
     void InternalS3Query::foreachSect3(const Sect4QueryFunction& invoke) const
     {
         QueryForEach<Sect4Query, 92>(invoke, _node);
     }
 
-
-    const String& InternalS3Query::text(const String &def) const
-    {
-        return _node ? _node->text() : def;
-    }
-    
-    void InternalS3Query::sort(const SortMap& childOrder) const
-    {
-        if (_node) {
-            _node->sort(
-                [childOrder](Xml::Node *a, Xml::Node* b){
-                    // This gives unmapped sections a higher index so that
-                    // they are pushed to the end.
-                    int va = 100000;
-                    int vb = 100000;
-
-                    const SortMap::const_iterator findA = childOrder.find((int)a->getTypeCode());
-                    if (findA != childOrder.end())
-                        va = findA->second;
-
-                    const SortMap::const_iterator findB = childOrder.find((int)b->getTypeCode());
-                    if (findB != childOrder.end())
-                        vb = findB->second;
-                    // sort less
-                    return va < vb;
-            });
-        }
-    }
 
 } // namespace MdDox::Doxygen

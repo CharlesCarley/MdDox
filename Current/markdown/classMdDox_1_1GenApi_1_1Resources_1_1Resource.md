@@ -122,22 +122,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsortheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSortHeader</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getsortheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSortHeader</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getsortsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSortSource</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getsortsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSortSource</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#getsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSource</span>
 </a>
 </span>
@@ -212,7 +196,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L188" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -234,7 +218,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L195" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -247,11 +231,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L19" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L16" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L234" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -269,11 +253,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L20" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L17" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L241" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -282,84 +266,6 @@
 <h2>getElementTextHeader</h2>
 <span class="inline-text">std::string</span>
 <span class="bold-text"><b>getElementTextHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L482" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getelementtextheader"></a>
-<h2>getElementTextHeader</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getElementTextHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L489" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getelementtextsource"></a>
-<h2>getElementTextSource</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getElementTextSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L25" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L412" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getelementtextsource"></a>
-<h2>getElementTextSource</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getElementTextSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L419" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getenumattributeheader"></a>
-<h2>getEnumAttributeHeader</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getEnumAttributeHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -368,15 +274,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L448" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L551" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getenumattributeheader"></a>
-<h2>getEnumAttributeHeader</h2>
+<a id="getelementtextheader"></a>
+<h2>getElementTextHeader</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getEnumAttributeHeader</b></span>
+<span class="bold-text"><b>getElementTextHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -390,15 +296,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L455" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L558" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getenumattributesource"></a>
-<h2>getEnumAttributeSource</h2>
+<a id="getelementtextsource"></a>
+<h2>getElementTextSource</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getEnumAttributeSource</b></span>
+<span class="bold-text"><b>getElementTextSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -407,15 +313,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L384" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L482" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getenumattributesource"></a>
-<h2>getEnumAttributeSource</h2>
+<a id="getelementtextsource"></a>
+<h2>getElementTextSource</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getEnumAttributeSource</b></span>
+<span class="bold-text"><b>getElementTextSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -429,7 +335,85 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L391" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L489" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getenumattributeheader"></a>
+<h2>getEnumAttributeHeader</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>getEnumAttributeHeader</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L25" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L517" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getenumattributeheader"></a>
+<h2>getEnumAttributeHeader</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getEnumAttributeHeader</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L524" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getenumattributesource"></a>
+<h2>getEnumAttributeSource</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>getEnumAttributeSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L19" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L454" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getenumattributesource"></a>
+<h2>getEnumAttributeSource</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getEnumAttributeSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L20" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L461" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -442,11 +426,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L519" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L588" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -455,6 +439,45 @@
 <h2>getForeachElementHeader</h2>
 <span class="inline-text">void</span>
 <span class="bold-text"><b>getForeachElementHeader</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L595" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getforeachelementsource"></a>
+<h2>getForeachElementSource</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>getForeachElementSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L617" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getforeachelementsource"></a>
+<h2>getForeachElementSource</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getForeachElementSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -468,15 +491,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L526" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L624" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getforeachelementsource"></a>
-<h2>getForeachElementSource</h2>
+<a id="getheader"></a>
+<h2>getHeader</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getForeachElementSource</b></span>
+<span class="bold-text"><b>getHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -485,15 +508,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L548" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L644" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getforeachelementsource"></a>
-<h2>getForeachElementSource</h2>
+<a id="getheader"></a>
+<h2>getHeader</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getForeachElementSource</b></span>
+<span class="bold-text"><b>getHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -507,15 +530,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L555" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L651" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getheader"></a>
-<h2>getHeader</h2>
+<a id="getintegerattributeheader"></a>
+<h2>getIntegerAttributeHeader</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getHeader</b></span>
+<span class="bold-text"><b>getIntegerAttributeHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -524,15 +547,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L575" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L787" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getheader"></a>
-<h2>getHeader</h2>
+<a id="getintegerattributeheader"></a>
+<h2>getIntegerAttributeHeader</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getHeader</b></span>
+<span class="bold-text"><b>getIntegerAttributeHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -546,15 +569,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L582" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L794" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getintegerattributeheader"></a>
-<h2>getIntegerAttributeHeader</h2>
+<a id="getintegerattributesource"></a>
+<h2>getIntegerAttributeSource</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getIntegerAttributeHeader</b></span>
+<span class="bold-text"><b>getIntegerAttributeSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -568,10 +591,10 @@
 </span>
 <br/>
 <br/>
-<a id="getintegerattributeheader"></a>
-<h2>getIntegerAttributeHeader</h2>
+<a id="getintegerattributesource"></a>
+<h2>getIntegerAttributeSource</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getIntegerAttributeHeader</b></span>
+<span class="bold-text"><b>getIntegerAttributeSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -590,10 +613,10 @@
 </span>
 <br/>
 <br/>
-<a id="getintegerattributesource"></a>
-<h2>getIntegerAttributeSource</h2>
+<a id="getsingleelementheader"></a>
+<h2>getSingleElementHeader</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getIntegerAttributeSource</b></span>
+<span class="bold-text"><b>getSingleElementHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -602,15 +625,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L842" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L840" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getintegerattributesource"></a>
-<h2>getIntegerAttributeSource</h2>
+<a id="getsingleelementheader"></a>
+<h2>getSingleElementHeader</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getIntegerAttributeSource</b></span>
+<span class="bold-text"><b>getSingleElementHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -624,15 +647,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L849" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L847" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getsingleelementheader"></a>
-<h2>getSingleElementHeader</h2>
+<a id="getsingleelementsource"></a>
+<h2>getSingleElementSource</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getSingleElementHeader</b></span>
+<span class="bold-text"><b>getSingleElementSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -641,15 +664,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L868" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L877" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getsingleelementheader"></a>
-<h2>getSingleElementHeader</h2>
+<a id="getsingleelementsource"></a>
+<h2>getSingleElementSource</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getSingleElementHeader</b></span>
+<span class="bold-text"><b>getSingleElementSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -663,124 +686,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L875" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsingleelementsource"></a>
-<h2>getSingleElementSource</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getSingleElementSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L905" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsingleelementsource"></a>
-<h2>getSingleElementSource</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getSingleElementSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L912" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsortheader"></a>
-<h2>getSortHeader</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getSortHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L16" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L204" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsortheader"></a>
-<h2>getSortHeader</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getSortHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L17" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsortsource"></a>
-<h2>getSortSource</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getSortSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L943" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsortsource"></a>
-<h2>getSortSource</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getSortSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L950" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L884" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -832,11 +738,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1023" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L915" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -854,11 +760,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1030" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L922" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -871,11 +777,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L61" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1061" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L953" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
@@ -884,6 +790,84 @@
 <h2>getStringAttributeSource</h2>
 <span class="inline-text">void</span>
 <span class="bold-text"><b>getStringAttributeSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L960" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvisitelementdecl"></a>
+<h2>getVisitElementDecl</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>getVisitElementDecl</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L983" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvisitelementdecl"></a>
+<h2>getVisitElementDecl</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getVisitElementDecl</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L990" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvisitelementsource"></a>
+<h2>getVisitElementSource</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>getVisitElementSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L61" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1017" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvisitelementsource"></a>
+<h2>getVisitElementSource</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getVisitElementSource</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -897,15 +881,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1068" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1024" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getvisitelementdecl"></a>
-<h2>getVisitElementDecl</h2>
+<a id="getvisitheader"></a>
+<h2>getVisitHeader</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getVisitElementDecl</b></span>
+<span class="bold-text"><b>getVisitHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -914,15 +898,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1091" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1072" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getvisitelementdecl"></a>
-<h2>getVisitElementDecl</h2>
+<a id="getvisitheader"></a>
+<h2>getVisitHeader</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getVisitElementDecl</b></span>
+<span class="bold-text"><b>getVisitHeader</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -936,15 +920,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1098" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1079" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getvisitelementsource"></a>
-<h2>getVisitElementSource</h2>
+<a id="getvisittextdecl"></a>
+<h2>getVisitTextDecl</h2>
 <span class="inline-text">std::string</span>
-<span class="bold-text"><b>getVisitElementSource</b></span>
+<span class="bold-text"><b>getVisitTextDecl</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
@@ -953,15 +937,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="getvisitelementsource"></a>
-<h2>getVisitElementSource</h2>
+<a id="getvisittextdecl"></a>
+<h2>getVisitTextDecl</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>getVisitElementSource</b></span>
+<span class="bold-text"><b>getVisitTextDecl</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
@@ -975,85 +959,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvisitheader"></a>
-<h2>getVisitHeader</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getVisitHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1180" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvisitheader"></a>
-<h2>getVisitHeader</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getVisitHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1187" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvisittextdecl"></a>
-<h2>getVisitTextDecl</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>getVisitTextDecl</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1220" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvisittextdecl"></a>
-<h2>getVisitTextDecl</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getVisitTextDecl</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">std::string &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1227" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L1119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
 <br/>

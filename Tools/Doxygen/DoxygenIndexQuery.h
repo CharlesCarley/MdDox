@@ -59,54 +59,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class DoxygenIndexQuery
+    class DoxygenIndexQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        DoxygenIndexQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit DoxygenIndexQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        DoxygenIndexQuery() = default;
         DoxygenIndexQuery(const DoxygenIndexQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit DoxygenIndexQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::DoxygenIndexQueryVisitor *) const;
         /**
@@ -124,25 +86,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool DoxygenIndexQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void DoxygenIndexQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* DoxygenIndexQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool DoxygenIndexQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

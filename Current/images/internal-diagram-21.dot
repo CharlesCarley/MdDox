@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WudubES[
+ W9UuMA2[
    shape    = none
-   label    = "Sect4QueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dWtubES[
+ d0UuMA2[
    shape    = none
-   label    = "Section4Writer"
+   label    = "EnumValueQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WudubES->dWtubES
+ W9UuMA2->d0UuMA2
 }

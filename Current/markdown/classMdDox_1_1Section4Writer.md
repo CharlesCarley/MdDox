@@ -18,7 +18,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-54.dot.svg"/><br/>
+<img src="../images/internal-diagram-125.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>

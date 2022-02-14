@@ -13,9 +13,6 @@ namespace MdDox::GenApi::Resources
        static std::string getBase();
        static void getBase(std::string &dest);
 
-       static std::string getSortHeader();
-       static void getSortHeader(std::string &dest);
-
        static std::string getCommon();
        static void getCommon(std::string &dest);
 
@@ -51,9 +48,6 @@ namespace MdDox::GenApi::Resources
 
        static std::string getSingleElementSource();
        static void getSingleElementSource(std::string &dest);
-
-       static std::string getSortSource();
-       static void getSortSource(std::string &dest);
 
        static std::string getStringAttributeHeader();
        static void getStringAttributeHeader(std::string &dest);

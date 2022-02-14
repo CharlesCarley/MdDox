@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WKBubES[
+ Wxw8MA2[
    shape    = none
-   label    = "LinkedTextQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dfBubES[
+ d2G8MA2[
    shape    = none
-   label    = "LinkedTextWriter"
+   label    = "LinkedTextQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKBubES->dfBubES
+ Wxw8MA2->d2G8MA2
 }

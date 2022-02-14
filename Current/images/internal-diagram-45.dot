@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qbLabES[
+ WFa8MA2[
    shape    = none
-   label    = "ParaQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DM4abES[
+ Wt68MA2[
    shape    = none
-   label    = "ParagraphWriter"
+   label    = "MemberIndexQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qbLabES->DM4abES
+ WFa8MA2->Wt68MA2
 }

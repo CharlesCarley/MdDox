@@ -488,7 +488,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/MemberDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="154" bodyend="189"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1afd0a086aa8bc1a55a277e892f418473e" compoundref="MemberDefQuery_8h" startline="651" endline="654">MdDox::Doxygen::MemberDefQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac68cf32ca18b91aa10c6cd998eff35c9" compoundref="MemberDefQuery_8cpp" startline="121" endline="126">MdDox::Doxygen::MemberDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ab0bd4ceb63c9efda529003aad5fb27b7" compoundref="DoxMemberKind_8h" startline="84">MdDox::Doxygen::DMK_FUNCTION</references>
         <references refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" compoundref="FunctionDefWriter_8cpp" startline="176" endline="201">MdDox::FunctionDefWriter::write</references>
@@ -502,9 +502,9 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" compoundref="DoxygenFilter_8h" startline="54">MdDox::Doxygen::DoxDetailedDescription</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2799e040389f10aeafc974e8c87f3b90" compoundref="DoxygenFilter_8h" startline="49">MdDox::Doxygen::DoxDefinition</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" compoundref="DoxygenFilter_8h" startline="93">MdDox::Doxygen::DoxLocation</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ae3d212b3e0a20e172bffa9043b07dbd7" compoundref="MemberDefQuery_8cpp" startline="574" endline="595">MdDox::Doxygen::MemberDefQuery::sort</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" compoundref="Doxygen_8h" startline="246" endline="269">MdDox::Doxygen::Query::sort</references>
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="379" endline="387">MdDox::Doxygen::MemberDefQuery::getName</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="377" endline="384">MdDox::Doxygen::MemberDefQuery::getName</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
@@ -514,26 +514,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="522">
+      <node id="876">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="521">
+      <node id="875">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="522" relation="public-inheritance">
+        <childnode refid="876" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="524">
+      <node id="878">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="523">
+      <node id="877">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="524" relation="public-inheritance">
+        <childnode refid="878" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

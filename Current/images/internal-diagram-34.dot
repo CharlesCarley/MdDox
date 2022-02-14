@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dKBubES[
+ DDzUMA2[
    shape    = none
-   label    = "DoxygenIndexQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dd3ubES[
+ DFzUMA2[
    shape    = none
-   label    = "IndexPageFilter"
+   label    = "InternalS4Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dKBubES->dd3ubES
+ DDzUMA2->DFzUMA2
 }

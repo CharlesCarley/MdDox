@@ -69,6 +69,7 @@
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery" prot="public">MdDox::Doxygen::ParamTypeQuery</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParaQuery" prot="public">MdDox::Doxygen::ParaQuery</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" prot="public">MdDox::Doxygen::ParBlockQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Query" prot="public">MdDox::Doxygen::Query</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ReferenceQuery" prot="public">MdDox::Doxygen::ReferenceQuery</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1RefQuery" prot="public">MdDox::Doxygen::RefQuery</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1RefTextQuery" prot="public">MdDox::Doxygen::RefTextQuery</innerclass>
@@ -3435,7 +3436,7 @@
         <argsstring>(const std::function&lt; void(const Query &amp;)&gt; &amp;invoke, const Xml::Node *fromNode)</argsstring>
         <name>QueryForEach</name>
         <param>
-          <type>const std::function&lt; void(const Query &amp;)&gt; &amp;</type>
+          <type>const std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1Query" kindref="compound">Query</ref> &amp;)&gt; &amp;</type>
           <declname>invoke</declname>
         </param>
         <param>

@@ -42,32 +42,32 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="503">
+      <node id="857">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
       </node>
-      <node id="502">
+      <node id="856">
         <label>MdDox::LocalNode</label>
         <link refid="classMdDox_1_1LocalNode"/>
-        <childnode refid="503" relation="public-inheritance">
+        <childnode refid="857" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="505">
+      <node id="859">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="506" relation="usage">
+        <childnode refid="860" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="504">
+      <node id="858">
         <label>MdDox::LocalNode</label>
         <link refid="classMdDox_1_1LocalNode"/>
-        <childnode refid="505" relation="public-inheritance">
+        <childnode refid="859" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="506">
+      <node id="860">
         <label>bool</label>
       </node>
     </collaborationgraph>

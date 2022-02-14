@@ -6,57 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dJw2bES[
+ q1JQMA2[
    shape    = none
-   label    = "CompoundDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WIS2bES[
+ qx9QMA2[
    shape    = none
-   label    = "PageWriter"
+   label    = "MemberDefQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dLS2bES[
-   shape    = none
-   label    = "DirectoryPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- d1K2bES[
-   shape    = none
-   label    = "GenericPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WaG2bES[
-   shape    = none
-   label    = "NamespacePageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- W8w2bES[
-   shape    = none
-   label    = "ClassPageWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- WIS2bES->dLS2bES
- WIS2bES->d1K2bES
- WIS2bES->WaG2bES
- WIS2bES->W8w2bES
- dJw2bES->WIS2bES
+ q1JQMA2->qx9QMA2
 }

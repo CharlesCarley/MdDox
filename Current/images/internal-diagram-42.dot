@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dGtubES[
+ DItUMA2[
    shape    = none
-   label    = "ParamNameListQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WitubES[
+ Dc1UMA2[
    shape    = none
-   label    = "NameListVisitor"
+   label    = "LocationQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dGtubES->WitubES
+ DItUMA2->Dc1UMA2
 }

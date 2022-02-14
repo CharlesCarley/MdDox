@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dK98bES[
+ qqBRmA2[
    shape    = none
-   label    = "CompoundDefQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d2J8bES[
+ qJ6RmA2[
    shape    = none
-   label    = "TableOfContents"
+   label    = "RefQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dK98bES->d2J8bES
+ qqBRmA2->qJ6RmA2
 }

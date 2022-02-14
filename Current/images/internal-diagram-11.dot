@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dFZubES[
+ dsm8MA2[
    shape    = none
-   label    = "LinkedTextQueryVisitor"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dSGubES[
+ drM8MA2[
    shape    = none
-   label    = "LinkedTextWriter"
+   label    = "CodeLineQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dFZubES->dSGubES
+ dsm8MA2->drM8MA2
 }

@@ -62,7 +62,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Common.h" line="189" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="47" bodyend="68"/>
-        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a3ca4d4f3747d2bab8d48e9ebe9862c41" compoundref="Resources_8cpp" startline="234" endline="239">MdDox::GenApi::Resources::Resource::getCommon</references>
+        <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a3ca4d4f3747d2bab8d48e9ebe9862c41" compoundref="Resources_8cpp" startline="128" endline="133">MdDox::GenApi::Resources::Resource::getCommon</references>
         <references refid="classMdDox_1_1GenApi_1_1Common_1a3ed1d0aad3cf0281ff56e6b38f846e64" compoundref="Common_8h" startline="186">_includes</references>
         <references refid="classMdDox_1_1GenApi_1_1Common_1aa1f6ef1b66c2181ba326f69a12adf836" compoundref="Common_8h" startline="185">_forwards</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
@@ -162,39 +162,39 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="384">
+      <node id="738">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="383">
+      <node id="737">
         <label>MdDox::GenApi::Common</label>
         <link refid="classMdDox_1_1GenApi_1_1Common"/>
-        <childnode refid="384" relation="public-inheritance">
+        <childnode refid="738" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="386">
+      <node id="740">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="385">
+      <node id="739">
         <label>MdDox::GenApi::Common</label>
         <link refid="classMdDox_1_1GenApi_1_1Common"/>
-        <childnode refid="386" relation="public-inheritance">
+        <childnode refid="740" relation="public-inheritance">
         </childnode>
-        <childnode refid="387" relation="usage">
+        <childnode refid="741" relation="usage">
           <edgelabel>_includes</edgelabel>
           <edgelabel>_forwards</edgelabel>
         </childnode>
-        <childnode refid="388" relation="usage">
+        <childnode refid="742" relation="usage">
           <edgelabel>_header</edgelabel>
         </childnode>
       </node>
-      <node id="388">
+      <node id="742">
         <label>string</label>
       </node>
-      <node id="387">
+      <node id="741">
         <label>vector&lt; std::string &gt;</label>
       </node>
     </collaborationgraph>

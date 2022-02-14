@@ -6,30 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dA38bES[
+ d7f8MA2[
    shape    = none
-   label    = "DocumentWriter"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W9b8bES[
+ daw8MA2[
    shape    = none
-   label    = "HtmlDocumentWriter"
+   label    = "ListItemQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dbb8bES[
-   shape    = none
-   label    = "MarkdownDocumentWriter"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- W9b8bES->dbb8bES
- dA38bES->W9b8bES
+ d7f8MA2->daw8MA2
 }

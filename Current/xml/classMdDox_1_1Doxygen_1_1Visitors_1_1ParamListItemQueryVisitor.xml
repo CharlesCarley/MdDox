@@ -92,14 +92,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="307">
+      <node id="657">
         <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor"/>
       </node>
-      <node id="308">
+      <node id="658">
         <label>MdDox::ListItemVisitor</label>
         <link refid="classMdDox_1_1ListItemVisitor"/>
-        <childnode refid="307" relation="public-inheritance">
+        <childnode refid="657" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

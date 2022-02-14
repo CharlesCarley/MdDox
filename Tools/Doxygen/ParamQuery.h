@@ -89,54 +89,16 @@ namespace MdDox::Doxygen
      *  </xsd:complexType>
      * \endcode
      */
-    class ParamQuery
+    class ParamQuery : public Query
     {
-    private:
-        Xml::Node* _node;
-
     public:
-        ParamQuery() :
-            _node(nullptr)
-        {
-        }
-
-        explicit ParamQuery(Xml::Node* node) :
-            _node(node)
-        {
-        }
-
+        ParamQuery() = default;
         ParamQuery(const ParamQuery& other) = default;
 
-        /**
-         * \brief Checks to see if the internal node is usable.
-         */
-        bool isValid() const;
-
-        /**
-         * \brief Checks to see if the internal node has children.
-         */
-        bool empty() const;
-
-        /**
-         * \brief Resets the internal node pointer to null.
-         */
-        void reset();
-
-        /**
-         * \brief Returns the wrapped node pointer.
-         */
-        Xml::Node* node() const;
-
-        /**
-         * \brief Sorts the nodes in the query based on priority of type.
-         */
-        void sort(const SortMap& childOrder) const;
-
-        /**
-         * \brief Provides access to the node's inner text.
-         * \return The text data associated with this node the default value.
-         */
-        const String& text(const String& def="") const;
+        explicit ParamQuery(Xml::Node* node) :
+            Query(node)
+        {
+        }
 
         void visit(Visitors::ParamQueryVisitor *) const;
         /**
@@ -192,25 +154,4 @@ namespace MdDox::Doxygen
 
 
     };
-
-    inline bool ParamQuery::isValid() const
-    {
-        return _node != nullptr;
-    }
-
-    inline void ParamQuery::reset()
-    {
-        _node = nullptr;
-    }
-
-    inline Xml::Node* ParamQuery::node() const
-    {
-        return _node;
-    }
-
-    inline bool ParamQuery::empty() const
-    {
-        return _node? !_node->hasChildren() : true;
-    }
-
 } // namespace MdDox::Doxygen

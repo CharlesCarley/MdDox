@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WKc8bES[
+ dd4DMA2[
    shape    = none
-   label    = "ScannerBase"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WYc8bES[
+ dO2DMA2[
    shape    = none
-   label    = "Scanner"
+   label    = "RowQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKc8bES->WYc8bES
+ dd4DMA2->dO2DMA2
 }

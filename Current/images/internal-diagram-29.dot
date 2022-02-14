@@ -6,48 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WorubES[
+ qzuUMA2[
    shape    = none
-   label    = "Writer"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W4rubES[
+ qyNUMA2[
    shape    = none
-   label    = "Object"
+   label    = "IndexEntryQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dprubES[
-   shape    = none
-   label    = "Simple"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- Wt5ubES[
-   shape    = none
-   label    = "Group"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- dItubES[
-   shape    = none
-   label    = "Complex"
-   margin   = "0.01"
-   fontname = "Segoe UI"
-   fontsize = "11"
-   fontcolor= "#010509FF"
- ]
- Wt5ubES->dItubES
- W4rubES->dprubES
- W4rubES->Wt5ubES
- WorubES->W4rubES
+ qzuUMA2->qyNUMA2
 }

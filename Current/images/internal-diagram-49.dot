@@ -6,21 +6,21 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DtU2bES[
+ dNY8MA2[
    shape    = none
-   label    = "ParserBase"
+   label    = "Query"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qsc2bES[
+ WZZ8MA2[
    shape    = none
-   label    = "Parser"
+   label    = "ParamListQuery"
    margin   = "0.01"
    fontname = "Segoe UI"
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DtU2bES->qsc2bES
+ dNY8MA2->WZZ8MA2
 }

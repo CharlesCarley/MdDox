@@ -177,8 +177,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(15);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -187,8 +186,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(103);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -197,8 +195,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(99);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -387,74 +384,56 @@ namespace MdDox::Doxygen
     {
         QueryForEach<CompoundRefQuery, 4>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachDerivedCompoundRef(const CompoundRefQueryFunction& invoke) const
     {
         QueryForEach<CompoundRefQuery, 21>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachIncludes(const IncQueryFunction& invoke) const
     {
         QueryForEach<IncQuery, 41>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachIncludedBy(const IncQueryFunction& invoke) const
     {
         QueryForEach<IncQuery, 40>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerDir(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 46>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerFile(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 47>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerClass(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 45>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerNamespace(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 49>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerPage(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 50>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachInnerGroup(const RefQueryFunction& invoke) const
     {
         QueryForEach<RefQuery, 48>(invoke, _node);
     }
+
     void CompoundDefQuery::foreachSectionDef(const SectionDefQueryFunction& invoke) const
     {
         QueryForEach<SectionDefQuery, 94>(invoke, _node);
     }
 
-
-    const String& CompoundDefQuery::text(const String &def) const
-    {
-        return _node ? _node->text() : def;
-    }
-    
-    void CompoundDefQuery::sort(const SortMap& childOrder) const
-    {
-        if (_node) {
-            _node->sort(
-                [childOrder](Xml::Node *a, Xml::Node* b){
-                    // This gives unmapped sections a higher index so that
-                    // they are pushed to the end.
-                    int va = 100000;
-                    int vb = 100000;
-
-                    const SortMap::const_iterator findA = childOrder.find((int)a->getTypeCode());
-                    if (findA != childOrder.end())
-                        va = findA->second;
-
-                    const SortMap::const_iterator findB = childOrder.find((int)b->getTypeCode());
-                    if (findB != childOrder.end())
-                        vb = findB->second;
-                    // sort less
-                    return va < vb;
-            });
-        }
-    }
 
 } // namespace MdDox::Doxygen

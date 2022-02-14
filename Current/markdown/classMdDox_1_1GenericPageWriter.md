@@ -18,7 +18,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-31.dot.svg"/><br/>
+<img src="../images/internal-diagram-102.dot.svg"/><br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
 <span class="icon-list-item"><a href="#presortquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">preSortQuery</span>

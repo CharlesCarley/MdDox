@@ -191,7 +191,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/GraphWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="114" bodyend="125"/>
-        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1af86635b15fa8d39e61770dd777305302" compoundref="GraphQuery_8h" startline="119" endline="122">MdDox::Doxygen::GraphQuery::isValid</references>
+        <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1af01da6f11f4c67620803993161f018e8" compoundref="GraphQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::GraphQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
       </memberdef>
@@ -201,26 +201,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="469">
+      <node id="823">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="468">
+      <node id="822">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="469" relation="public-inheritance">
+        <childnode refid="823" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="471">
+      <node id="825">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="470">
+      <node id="824">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="471" relation="public-inheritance">
+        <childnode refid="825" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

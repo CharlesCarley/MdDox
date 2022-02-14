@@ -159,7 +159,7 @@
 <br/>
 <span class="inline-text">
  The following diagram outlines its main routine. </span>
-<img src="../images/internal-diagram-57.dot.svg"/><br/>
+<img src="../images/internal-diagram-128.dot.svg"/><br/>
 <br/>
 <span class="inline-text">First, it should have all necessary configuration parameters before running. From there, it needs to load an index file. Then based on the contents of the index, It should write the primary index. After that, It should dispatch all sub-page writers. Page writers can register graph files during their dispatch routine. After all pages have completed, any registered graph files get processed. </span>
 <br/>

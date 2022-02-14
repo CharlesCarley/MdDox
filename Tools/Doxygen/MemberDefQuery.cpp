@@ -360,8 +360,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(18);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -370,8 +369,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(2);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -380,8 +378,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(65);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -390,8 +387,7 @@ namespace MdDox::Doxygen
     {
         if (_node) {
             Xml::Node *node = _node->firstChildOf(109);
-            if (node)
-                return node->text();
+            if (node) return node->text();
         }
         return notFound;
     }
@@ -544,54 +540,31 @@ namespace MdDox::Doxygen
     {
         QueryForEach<ReimplementQuery, 87>(invoke, _node);
     }
+
     void MemberDefQuery::foreachReImplementedBy(const ReimplementQueryFunction& invoke) const
     {
         QueryForEach<ReimplementQuery, 86>(invoke, _node);
     }
+
     void MemberDefQuery::foreachParameter(const ParamQueryFunction& invoke) const
     {
         QueryForEach<ParamQuery, 69>(invoke, _node);
     }
+
     void MemberDefQuery::foreachEnumValue(const EnumValueQueryFunction& invoke) const
     {
         QueryForEach<EnumValueQuery, 31>(invoke, _node);
     }
+
     void MemberDefQuery::foreachReferences(const ReferenceQueryFunction& invoke) const
     {
         QueryForEach<ReferenceQuery, 84>(invoke, _node);
     }
+
     void MemberDefQuery::foreachReferencedBy(const ReferenceQueryFunction& invoke) const
     {
         QueryForEach<ReferenceQuery, 83>(invoke, _node);
     }
 
-
-    const String& MemberDefQuery::text(const String &def) const
-    {
-        return _node ? _node->text() : def;
-    }
-    
-    void MemberDefQuery::sort(const SortMap& childOrder) const
-    {
-        if (_node) {
-            _node->sort(
-                [childOrder](Xml::Node *a, Xml::Node* b){
-                    // This gives unmapped sections a higher index so that
-                    // they are pushed to the end.
-                    int va = 100000;
-                    int vb = 100000;
-
-                    const SortMap::const_iterator findA = childOrder.find((int)a->getTypeCode());
-                    if (findA != childOrder.end())
-                        va = findA->second;
-
-                    const SortMap::const_iterator findB = childOrder.find((int)b->getTypeCode());
-                    if (findB != childOrder.end())
-                        vb = findB->second;
-                    // sort less
-                    return va < vb;
-            });
-        }
-    }
 
 } // namespace MdDox::Doxygen

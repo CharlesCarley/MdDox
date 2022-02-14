@@ -711,44 +711,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="241">
+      <node id="591">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="589" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="239">
+      <node id="589">
         <label>MdDox::PageWriter</label>
         <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="238" relation="public-inheritance">
+        <childnode refid="588" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="244">
+      <node id="594">
         <label>MdDox::TableOfContents</label>
         <link refid="classMdDox_1_1TableOfContents"/>
-        <childnode refid="238" relation="public-inheritance">
+        <childnode refid="588" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="242">
+      <node id="592">
         <label>MdDox::GenericPageWriter</label>
         <link refid="classMdDox_1_1GenericPageWriter"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="589" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="243">
+      <node id="593">
         <label>MdDox::NamespacePageWriter</label>
         <link refid="classMdDox_1_1NamespacePageWriter"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="589" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="238">
+      <node id="588">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="240">
+      <node id="590">
         <label>MdDox::ClassPageWriter</label>
         <link refid="classMdDox_1_1ClassPageWriter"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="589" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
