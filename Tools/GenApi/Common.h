@@ -32,28 +32,27 @@ namespace MdDox
 
 \brief GenApi is used to generate a static scaffolding library.
 
-
-The idea behind the GenApi library is to convert an XML schema into a structure
-so that a branch of a node tree can be placed into a specific scaffolding class.
-Then, inserted nodes provide a predetermined route through the traversal.
+The main idea for the library is to place a node inside a shell or scaffolding to
+define a concrete structure. It does this by generating a library off of the compound
+schema file provided by Doxygen.
 <br/>
 <br/>
-It has a direct dependency on MdDox::Xml both to generate the library and in the
-final output.
+It has a direct dependency on MdDox::Xml both to generate the library and in
+the final output.
 <br/>
 <br/>
-The program will not work out of the box. It is designed to be flexible enough to
-allow renaming types in the schema without modifying the actual element names.
-Therefore, it needs to output a few extra files first before generating the API.
-The application command line provides the means to extract a 1:1 name mapping of
-all the needed names. After the initial setup is complete, any type can be renamed
-if desired. The generator will always use the first value when searching the file and
-second value as the output API name. 
+The program will not work out of the box. By design, it needs to be flexible
+enough to allow renaming types in the schema without modifying the actual
+element names. So, it needs to output a few extra files first before generating
+the API. The application command line provides the means to extract a 1:1
+mapping of all the needed names. After initial setup is complete, any type
+can be renamed. The generator always uses the first value when searching the
+file. The second value becomes the output name in the API 
 <br/>
 <br/>
 <b>Concept</b><br/>
-\dot
 
+\dot
 digraph {
     bgcolor = none;
     rankdir = "LR";
@@ -165,6 +164,8 @@ digraph {
 \enddot
 
 
+<b>For example</b> MdDox::Doxygen::CompoundDefQuery <br/>
+\copydetails MdDox::Doxygen::CompoundDefQuery
 
 
 The \ref MdDox::GenApi::Application "Application" class provides the entry point for the program.

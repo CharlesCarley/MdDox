@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WqghIlG[
+ WohG5xx[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W5ChIlG[
+ W8ZG5xx[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxghIlG[
+ WLEG5xx[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dUbhIlG[
+ dzEG5xx[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dabhIlG[
+ d2qG5xx[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dZbhIlG[
+ WGEG5xx[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dabhIlG->dZbhIlG
- dxghIlG->dUbhIlG
- dxghIlG->dabhIlG
- WqghIlG->W5ChIlG
- WqghIlG->dxghIlG
+ d2qG5xx->WGEG5xx
+ WLEG5xx->dzEG5xx
+ WLEG5xx->d2qG5xx
+ WohG5xx->W8ZG5xx
+ WohG5xx->WLEG5xx
 }

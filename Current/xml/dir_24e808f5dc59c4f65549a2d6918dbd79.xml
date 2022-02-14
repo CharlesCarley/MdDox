@@ -5,7 +5,7 @@
     <innerfile refid="DoxygenFilter_8cpp">DoxygenFilter.cpp</innerfile>
     <innerfile refid="DoxygenFilter_8h">DoxygenFilter.h</innerfile>
     <briefdescription>
-    </briefdescription>
+<para>Contains a constant static mapping of element names to enumerated types. To use, apply the filter to the parser before parsing a XML file. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <location file="Source/TypeFilter/"/>

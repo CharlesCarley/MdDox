@@ -15,7 +15,8 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para>Contains a custom XML parser.</para><para><simplesect kind="see"><para><ref refid="namespaceMdDox_1_1Xml" kindref="compound">MdDox::Xml</ref> </para></simplesect>
+</para>    </detaileddescription>
     <location file="Source/Xml/"/>
   </compounddef>
 </doxygen>

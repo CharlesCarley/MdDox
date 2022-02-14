@@ -185,12 +185,6 @@ namespace MdDox
         void listIcon(OStream& output, const String& image, const String& ref) override;
 
         /**
-         * \copydoc MdDox::DocumentWriter::keyValueListItem
-         */
-        [[deprecated]]
-        void keyValueListItem(OStream& output, const String& key, const String& value) override;
-
-        /**
          * \copydoc MdDox::DocumentWriter::anchor
          */
         void anchor(OStream& output, const String& id) override;
@@ -215,7 +209,7 @@ namespace MdDox
          */
         void linkPage(OStream& output, const String& title, const String& ref) override;
 
-    	/**
+        /**
          * \copydoc MdDox::DocumentWriter::linkPageMember
          */
         void linkPageMember(OStream& output, const String& title, const String& ref) override;

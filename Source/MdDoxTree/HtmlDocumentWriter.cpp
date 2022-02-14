@@ -71,10 +71,10 @@ namespace MdDox
         {
             const PathUtil util(docSource);
 
-        	Html::lineBreak(output);
+            Html::lineBreak(output);
             Html::beginBlockQuote(output);
 
-        	Html::embedContent(output, IconSet::fileName(ICO_DEBUG));
+            Html::embedContent(output, IconSet::fileName(ICO_DEBUG));
             Html::inlineText(output, "The following sources were used to generate this page.");
             Html::lineBreak(output);
             Html::embedLinkContentPoint(output,
@@ -281,17 +281,6 @@ namespace MdDox
         }
     }
 
-    void HtmlDocumentWriter::keyValueListItem(OStream& output, const String& key, const String& value)
-    {
-        String tKey, tVal;
-
-        StringUtils::trimWhiteSpace(tKey, key);
-        StringUtils::trimWhiteSpace(tVal, value);
-        StringUtils::trimR(tVal, tVal, '.');
-
-        // output << "- __" << tKey << "__ - _" << tVal << "_" << std::endl;
-    }
-
     void HtmlDocumentWriter::anchor(OStream& output, const String& id)
     {
         Html::anchor(output, id);
@@ -347,7 +336,7 @@ namespace MdDox
         const String hash = HashUtils::heading(title);
         const String link = SiteBuilder::get().findMember(ref);
 
-    	if (link.empty())
+        if (link.empty())
         {
             Console::writeLine("failed to find page member with the id: ", ref);
             Html::inlineText(output, title);
@@ -356,7 +345,6 @@ namespace MdDox
         {
             Html::linkRef(output, title, StringCombine(StringCombine(link, SiteBuilder::get().outputFileExt), hash));
         }
-    	
     }
 
     void HtmlDocumentWriter::linkHeading(OStream& output, const String& title, const String& href, const String& id)

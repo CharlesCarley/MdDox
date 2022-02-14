@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WpJhIlG[
+ dlFG5xx[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dmphIlG[
+ WtLG5xx[
    shape    = none
    label    = "TableOfContents"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WpJhIlG->dmphIlG
+ dlFG5xx->WtLG5xx
 }

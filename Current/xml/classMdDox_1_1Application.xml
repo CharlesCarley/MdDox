@@ -109,8 +109,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDox/Main.cpp" line="201" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="201" bodyend="207"/>
-        <references refid="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" compoundref="SiteBuilder_8cpp" startline="90" endline="132">MdDox::SiteBuilder::loadConfig</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="62" endline="88">MdDox::SiteBuilder::buildFromXml</references>
+        <references refid="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" compoundref="SiteBuilder_8cpp" startline="85" endline="127">MdDox::SiteBuilder::loadConfig</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="57" endline="83">MdDox::SiteBuilder::buildFromXml</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Application_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -148,9 +148,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para><ref refid="classMdDox_1_1Application" kindref="compound">Application</ref> is the primary <ref refid="namespaceMdDox" kindref="compound">MdDox</ref> entry point. </para>    </briefdescription>
+<para><ref refid="classMdDox_1_1Application" kindref="compound">Application</ref> is the primary entry point. </para>    </briefdescription>
     <detaileddescription>
-<para>The <ref refid="namespaceMdDox" kindref="compound">MdDox</ref> program reads <ref refid="namespaceMdDox_1_1Doxygen" kindref="compound">Doxygen</ref>&apos;s XML output file index.xml and converts it to a GFM based HTML document. </para>    </detaileddescription>
+<para>The application&apos;s responsibility is to collect enough information to instantiate a <ref refid="classMdDox_1_1SiteBuilder" kindref="compound">SiteBuilder</ref>. </para>    </detaileddescription>
     <location file="Source/MdDox/Main.cpp" line="146" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="145" bodyend="208"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Application_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_config</name></member>

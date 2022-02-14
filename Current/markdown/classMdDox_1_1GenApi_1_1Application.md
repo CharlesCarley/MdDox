@@ -103,11 +103,24 @@
 <br/>
 <a id="details"></a>
 <h2>Details</h2>
-<span class="inline-text">Details </span>
+
+```txt
+Usage: GenApi <options> <arg[0] .. arg[n]>
+
+     -h, --help        Display this help message
+     -i, --input       Specify input file
+     -o, --out         Specify an output directory
+     -c, --complex     Log complexType names
+     -s, --simple      Log simpleType names
+     -a, --attributes  Log attribute names
+     -e, --element     Log element names
+     -g, --group       Log group names
+     -n, --enum        Log enum values
+```
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L126" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -118,7 +131,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -130,7 +143,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L143" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -142,7 +155,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -154,7 +167,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -166,7 +179,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -178,7 +191,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -190,7 +203,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -202,7 +215,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -214,7 +227,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -245,7 +258,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L246" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L258" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -265,7 +278,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L193" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -284,7 +297,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L218" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L230" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -303,7 +316,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L215" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -322,7 +335,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L225" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L237" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -341,7 +354,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L239" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L251" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -360,7 +373,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L232" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L244" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -379,7 +392,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L223" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -464,7 +477,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L153" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -517,7 +530,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>

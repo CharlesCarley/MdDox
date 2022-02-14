@@ -9,25 +9,25 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 409,-40 409,4 -4,4"/>
-<!-- dMghIlG -->
-<g id="node1" class="node"><title>dMghIlG</title>
+<!-- dDZG5xx -->
+<g id="node1" class="node"><title>dDZG5xx</title>
 <text text-anchor="middle" x="42.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">DocumentWriter</text>
 </g>
-<!-- WtphIlG -->
-<g id="node2" class="node"><title>WtphIlG</title>
+<!-- d2qG5xx -->
+<g id="node2" class="node"><title>d2qG5xx</title>
 <text text-anchor="middle" x="176" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">HtmlDocumentWriter</text>
 </g>
-<!-- dMghIlG&#45;&gt;WtphIlG -->
-<g id="edge2" class="edge"><title>dMghIlG&#45;&gt;WtphIlG</title>
+<!-- dDZG5xx&#45;&gt;d2qG5xx -->
+<g id="edge2" class="edge"><title>dDZG5xx&#45;&gt;d2qG5xx</title>
 <path fill="none" stroke="#69bfff" d="M85.1074,-18C94.807,-18 105.321,-18 115.623,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="115.66,-19.7501 120.66,-18 115.66,-16.2501 115.66,-19.7501"/>
 </g>
-<!-- dayhIlG -->
-<g id="node3" class="node"><title>dayhIlG</title>
+<!-- WohG5xx -->
+<g id="node3" class="node"><title>WohG5xx</title>
 <text text-anchor="middle" x="336" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">MarkdownDocumentWriter</text>
 </g>
-<!-- WtphIlG&#45;&gt;dayhIlG -->
-<g id="edge1" class="edge"><title>WtphIlG&#45;&gt;dayhIlG</title>
+<!-- d2qG5xx&#45;&gt;WohG5xx -->
+<g id="edge1" class="edge"><title>d2qG5xx&#45;&gt;WohG5xx</title>
 <path fill="none" stroke="#69bfff" d="M231.375,-18C241.194,-18 251.577,-18 261.828,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="261.847,-19.7501 266.847,-18 261.847,-16.2501 261.847,-19.7501"/>
 </g>

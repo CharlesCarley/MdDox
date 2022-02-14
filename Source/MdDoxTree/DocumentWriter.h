@@ -235,9 +235,6 @@ namespace MdDox
          */
         virtual void listIcon(OStream& output, const String& image, const String& ref) = 0;
 
-    	[[deprecated]]
-        virtual void keyValueListItem(OStream& output, const String& key, const String& value) = 0;
-
         /**
          * \brief Implementations write an anchor.
          * \param output The output stream to write to.

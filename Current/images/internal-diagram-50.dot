@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qJqJ3lG[
+ qzE65xx[
    shape    = none
    label    = "ScannerBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qyZJ3lG[
+ DtL65xx[
    shape    = none
    label    = "Scanner"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qJqJ3lG->qyZJ3lG
+ qzE65xx->DtL65xx
 }

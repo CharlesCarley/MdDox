@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dg2zIlG[
+ WZ8G5xx[
    shape    = none
    label    = "SectionDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dESzIlG[
+ dtaG5xx[
    shape    = none
    label    = "SectionDefWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dg2zIlG->dESzIlG
+ WZ8G5xx->dtaG5xx
 }

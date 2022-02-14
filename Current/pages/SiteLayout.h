@@ -152,7 +152,6 @@ It needs to be defined somewhere in the project's source code <tt>\\mainpage</tt
 
 The index implements a project wide table of contents. It is sorted by directories, namespaces, and classes.
 
-
 <br/>
 \subsection NamespaceIndex
 

@@ -36,15 +36,15 @@ namespace MdDox
     using ReferenceMap = std::unordered_map<String, String>;
 
     /**
-     * \brief The site builder provides static access to properties
-     * during the build stage.
+     * \brief The site builder runs the main loop, and provides static
+     * access to properties during the build stage. 
      *
-     * <b>The site builder</b> is used to store a list of index-able items.
-     * Its primary responsibilities are to be able to create pages of a specific type,
-     * and to load an index.xml file. This file should be able to be interpreted as Doxygen
-     * or in it's own format.
+     * <b>The site builder</b> handles setting up and running the main loop.
+     * It handles storing mapped references to other pages, and general configuration
+     * properties
      * <br/>
-     *
+     * <br/>
+     * The following diagram outlines its main routine.
      * \dot
      * digraph {
      *      bgcolor = none;
@@ -73,13 +73,12 @@ namespace MdDox
      * }
      * \enddot
      * <br/>
-     * 
-	 * First, it should be supplied configuration parameters. From there it
-	 * needs to load an index file. An index file should be a list of pages
-	 * with links to each pages' source. The information stored in an index
-	 * item needs to be at least a name, an id and a reference to the source
-	 * file for it.
-     * 
+     *
+     * First, it should have all necessary configuration parameters before running.
+     * From there, it needs to load an index file.  Then based on the contents of the index,
+     * It should write the primary index. After that, It should dispatch all sub-page writers.
+     * Page writers can register graph files during their dispatch routine. After all pages have completed,
+     * any registered graph files get processed.
      */
     class SiteBuilder
     {
@@ -135,20 +134,6 @@ namespace MdDox
         static const SiteBuilder& get();
 
     public:
-        /**
-         * \brief Hides private member variables. 
-         */
-        bool hidePrivate{true};
-
-        /**
-         * \brief Hides protected member variables. 
-         */
-        bool hideProtected{true};
-
-        /**
-         * \brief Allows undocumented objects to be skipped.
-         */
-        bool skipUndocumented{true};
 
         /**
          * \brief Defines a title for the current project.
@@ -207,12 +192,6 @@ namespace MdDox
         String styleSheet;
 
         mutable String indexName;
-
-        String navClassName;
-        String navPageName;
-        String navNamespaceName;
-        String navNamespaceBar;
-        String navDirectoryName;
     };
 
 }  // namespace MdDox

@@ -137,10 +137,10 @@ namespace MdDox
     };
 
     /**
-     * \brief Application is the primary MdDox entry point.
+     * \brief Application is the primary entry point.
      *
-     * The MdDox program reads Doxygen's XML output file index.xml and
-     * converts it to a GFM based HTML document.
+     * The application's responsibility is to collect enough
+     * information to instantiate a SiteBuilder.
      */
     class Application
     {

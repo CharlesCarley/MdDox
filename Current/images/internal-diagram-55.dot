@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WNDhIlG[
+ Wy7G5xx[
    shape    = none
    label    = "SectionDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dmMzIlG[
+ Wh7G5xx[
    shape    = none
    label    = "SectionDefListingWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WNDhIlG->dmMzIlG
+ Wy7G5xx->Wh7G5xx
 }

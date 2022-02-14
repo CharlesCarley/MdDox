@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WRghIlG[
+ duzG5xx[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WUchIlG[
+ dYEG5xx[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dCchIlG[
+ WtEG5xx[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WUchIlG->dCchIlG
- WRghIlG->WUchIlG
+ dYEG5xx->WtEG5xx
+ duzG5xx->dYEG5xx
 }

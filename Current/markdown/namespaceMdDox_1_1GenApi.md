@@ -30,9 +30,9 @@
 </ul>
 <a id="details"></a>
 <h2>Details</h2>
-<span class="inline-text">The idea behind the </span>
-<a href="namespaceMdDox_1_1GenApi.md#genapi">GenApi</a>
-<span class="inline-text"> library is to convert an XML schema into a structure so that a branch of a node tree can be placed into a specific scaffolding class. Then, inserted nodes provide a predetermined route through the traversal. </span>
+<span class="inline-text">The main idea for the library is to place a node inside a shell or scaffolding to define a concrete structure. It does this by generating a library off of the compound schema file provided by </span>
+<a href="namespaceMdDox_1_1Doxygen.md#doxygen">Doxygen</a>
+<span class="inline-text">. </span>
 <br/>
 <br/>
 <span class="inline-text">
@@ -42,20 +42,77 @@
 <br/>
 <br/>
 <span class="inline-text">
- The program will not work out of the box. It is designed to be flexible enough to allow renaming types in the schema without modifying the actual element names. Therefore, it needs to output a few extra files first before generating the API. The application command line provides the means to extract a 1:1 name mapping of all the needed names. After the initial setup is complete, any type can be renamed if desired. The generator will always use the first value when searching the file and second value as the output API name. </span>
+ The program will not work out of the box. By design, it needs to be flexible enough to allow renaming types in the schema without modifying the actual element names. So, it needs to output a few extra files first before generating the API. The application command line provides the means to extract a 1:1 mapping of all the needed names. After initial setup is complete, any type can be renamed. The generator always uses the first value when searching the file. The second value becomes the output name in the API </span>
 <br/>
 <br/>
 <span class="bold-text"><b>Concept</b></span>
 <br/>
 <img src="../images/internal-diagram-2.dot.svg"/><br/>
+<span class="bold-text"><b>For example</b></span>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#mddoxdoxygencompounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
+<br/>
+<span class="inline-text">
+ The following xml provides the source for the </span>
+<span class="bold-text"><b>compounddefType</b></span>
+<span class="inline-text"> scaffolding.</span>
+
+```xml
+<xsd:complexType name="compounddefType">
+  <xsd:sequence>
+    <xsd:element name="compoundname" type="xsd:string"/>
+    <xsd:element minOccurs="0" name="title" type="xsd:string"/>
+    <xsd:element minOccurs="0" name="basecompoundref" type="compoundRefType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="derivedcompoundref" type="compoundRefType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="includes" type="incType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="includedby" type="incType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="incdepgraph" type="graphType"/>
+    <xsd:element minOccurs="0" name="invincdepgraph" type="graphType"/>
+    <xsd:element minOccurs="0" name="innerdir" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="innerfile" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="innerclass" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="innernamespace" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="innerpage" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="innergroup" type="refType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="templateparamlist" type="templateparamlistType"/>
+    <xsd:element minOccurs="0" name="sectiondef" type="sectiondefType" maxOccurs="unbounded"/>
+    <xsd:element minOccurs="0" name="tableofcontents" maxOccurs="1"/>
+    <xsd:element minOccurs="0" name="briefdescription" type="descriptionType"/>
+    <xsd:element minOccurs="0" name="detaileddescription" type="descriptionType"/>
+    <xsd:element minOccurs="0" name="inheritancegraph" type="graphType"/>
+    <xsd:element minOccurs="0" name="collaborationgraph" type="graphType"/>
+    <xsd:element minOccurs="0" name="programlisting" type="listingType"/>
+    <xsd:element minOccurs="0" name="location" type="locationType"/>
+    <xsd:element minOccurs="0" name="listofallmembers" type="listofallmembersType"/>
+  </xsd:sequence>
+  <xsd:attribute name="id" type="xsd:string"/>
+  <xsd:attribute name="kind" type="DoxCompoundKind"/>
+  <xsd:attribute name="language" type="DoxLanguage" use="optional"/>
+  <xsd:attribute name="prot" type="DoxProtectionKind"/>
+  <xsd:attribute name="final" type="DoxBool" use="optional"/>
+  <xsd:attribute name="sealed" type="DoxBool" use="optional"/>
+  <xsd:attribute name="abstract" type="DoxBool" use="optional"/>
+</xsd:complexType>
+```
 <span class="inline-text">The </span>
 <a href="classMdDox_1_1GenApi_1_1Application.md#application">Application</a>
 <span class="inline-text"> class provides the entry point for the program. </span>
 <br/>
 <span class="bold-text"><b>Usage</b></span>
 <br/>
-<span class="inline-text">
- Details </span>
+
+```txt
+Usage: GenApi <options> <arg[0] .. arg[n]>
+
+     -h, --help        Display this help message
+     -i, --input       Specify input file
+     -o, --out         Specify an output directory
+     -c, --complex     Log complexType names
+     -s, --simple      Log simpleType names
+     -a, --attributes  Log attribute names
+     -e, --element     Log element names
+     -g, --group       Log group names
+     -n, --enum        Log enum values
+```
 <a id="namespaces"></a>
 <h2>Namespaces</h2>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi_1_1Resources.md#resources" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Resources</span>

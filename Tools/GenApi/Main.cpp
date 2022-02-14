@@ -119,9 +119,21 @@ namespace MdDox::GenApi
 
     /**
      * \brief Entry point for the GenApi program.
-     * 
-     * Details 
-     */
+     *
+     * \code{.txt}
+     * Usage: GenApi <options> <arg[0] .. arg[n]>
+     *
+     *      -h, --help        Display this help message
+     *      -i, --input       Specify input file
+     *      -o, --out         Specify an output directory
+     *      -c, --complex     Log complexType names
+     *      -s, --simple      Log simpleType names
+     *      -a, --attributes  Log attribute names
+     *      -e, --element     Log element names
+     *      -g, --group       Log group names
+     *      -n, --enum        Log enum values
+     * \endcode
+	 */
     class Application
     {
     private:

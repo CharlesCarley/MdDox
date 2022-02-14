@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- d3SzIlG[
+ Ww8G5xx[
    shape    = none
    label    = "ParamQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WDSzIlG[
+ WrNG5xx[
    shape    = none
    label    = "ParameterWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d3SzIlG->WDSzIlG
+ Ww8G5xx->WrNG5xx
 }

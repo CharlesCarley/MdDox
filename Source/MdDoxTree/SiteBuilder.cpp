@@ -30,12 +30,7 @@
 
 namespace MdDox
 {
-    SiteBuilder::SiteBuilder() :
-        navClassName("Classes"),
-        navPageName("Pages"),
-        navNamespaceName("Namespaces"),
-        navNamespaceBar("{ .. }"),
-        navDirectoryName("Directories")
+    SiteBuilder::SiteBuilder()
     {
         _singleton = this;
     }

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dL8hIlG[
+ dY9G5xx[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WG8hIlG[
+ dgpG5xx[
    shape    = none
    label    = "IndexPageFilter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WruhIlG[
+ W3gG5xx[
    shape    = none
    label    = "IndexPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dL8hIlG->WG8hIlG
- dL8hIlG->WruhIlG
+ dY9G5xx->dgpG5xx
+ dY9G5xx->W3gG5xx
 }

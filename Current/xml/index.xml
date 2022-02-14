@@ -300,7 +300,6 @@
     <member refid="classMdDox_1_1DocumentWriter_1a1bfefc290328e0a867869dfe7b25d126" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393" kind="function"><name>inlineText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a27da8869f5b3463dc4aa46c2a1a1f0e3" kind="function"><name>italicText</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1a82342ed2ffdeef8744bd903fb35a337a" kind="function"><name>keyValueListItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kind="function"><name>lineBreak</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a8d7b5dbe4cec9f9e664bc50288f6347e" kind="function"><name>linkHeading</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97" kind="function"><name>linkPage</name></member>
@@ -2740,7 +2739,6 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" kind="function"><name>inlineText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" kind="function"><name>italicText</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1a4d219e0fcf40a90b2f34884234ec0809" kind="function"><name>keyValueListItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kind="function"><name>lineBreak</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kind="function"><name>linkHeading</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kind="function"><name>linkPage</name></member>
@@ -3209,16 +3207,9 @@
     <member refid="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" kind="variable"><name>_members</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" kind="variable"><name>_names</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" kind="variable"><name>baseUrl</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1aa8528c516b08e52edc47724156b27b44" kind="variable"><name>hidePrivate</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a49a03a45d3b43385b7b95e39b0bef9b5" kind="variable"><name>hideProtected</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kind="variable"><name>imageDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kind="variable"><name>indexName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" kind="variable"><name>inputDir</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a1b31649510d3b826c0e43d04005a6544" kind="variable"><name>navClassName</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a68b30659e6fea84606af7318bca4aab9" kind="variable"><name>navDirectoryName</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a68222fdaf2ea16445744263e30d4fcfd" kind="variable"><name>navNamespaceBar</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a7e29b116661fdd3ce8b8127f51160bd0" kind="variable"><name>navNamespaceName</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a8a85fb51af1b9083ddfc67deb628e26c" kind="variable"><name>navPageName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" kind="variable"><name>outputDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kind="variable"><name>outputFileExt</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" kind="variable"><name>projectBrief</name></member>
@@ -3227,7 +3218,6 @@
     <member refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" kind="variable"><name>searchDirs</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" kind="variable"><name>showDebug</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" kind="variable"><name>siteUrl</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a65fd9f3daae987d541cc4cb9b7b5e2b3" kind="variable"><name>skipUndocumented</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" kind="variable"><name>styleSheet</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1abb3727dd43d630470c2b2e874ac16dc8" kind="function"><name>dispatchDot</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0c1d126ac04e7e35f69dcc81893cfd8e" kind="function"><name>SiteBuilder</name></member>

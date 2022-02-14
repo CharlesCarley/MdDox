@@ -13,9 +13,7 @@
 <br/>
 <br/>
 <a href="classMdDox_1_1Application.md#application">Application</a>
-<span class="inline-text"> is the primary </span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
-<span class="inline-text"> entry point. </span>
+<span class="inline-text"> is the primary entry point. </span>
 <br/>
 <br/>
 <a id="private-members"></a>
@@ -60,11 +58,9 @@
 <br/>
 <a id="details"></a>
 <h2>Details</h2>
-<span class="inline-text">The </span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
-<span class="inline-text"> program reads </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygen">Doxygen</a>
-<span class="inline-text">&apos;s XML output file index.xml and converts it to a GFM based HTML document. </span>
+<span class="inline-text">The application&apos;s responsibility is to collect enough information to instantiate a </span>
+<a href="classMdDox_1_1SiteBuilder.md#sitebuilder">SiteBuilder</a>
+<span class="inline-text">. </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

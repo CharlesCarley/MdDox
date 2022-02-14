@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DJQJ3lG[
+ DitxIxx[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DUSJ3lG[
+ DtdxIxx[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- quwJ3lG[
+ qxtxIxx[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DQSJ3lG[
+ DdtxIxx[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DpiJ3lG[
+ D3dxIxx[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DtKJ3lG[
+ qLtxIxx[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -54,11 +54,11 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DUSJ3lG->quwJ3lG
- DUSJ3lG->DQSJ3lG
- DUSJ3lG->DpiJ3lG
- DUSJ3lG->DtKJ3lG
- qHiJ3lG[
+ DtdxIxx->qxtxIxx
+ DtdxIxx->DdtxIxx
+ DtdxIxx->D3dxIxx
+ DtdxIxx->qLtxIxx
+ qEIxIxx[
    shape    = none
    label    = "TableOfContents"
    margin   = "0.01"
@@ -66,6 +66,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DJQJ3lG->DUSJ3lG
- DJQJ3lG->qHiJ3lG
+ DitxIxx->DtdxIxx
+ DitxIxx->qEIxIxx
 }
