@@ -9,7 +9,12 @@ Except that it would be more integrated into the online source code browser. Ano
 dot graphs from the source code comments. 
 
 ## Current State
-It is still in active development, but it can embed into GitHub, and it can generate graphs. But there  are  still a lot of loose ends that needs worked out. It needs tested on different repositories. (Preferably on repositories that already use Doxygen as its primary engine)
+
+It is still in active development. In its current state, it can embed into GitHub,
+and it can generate graphs. There are still a lot of loose ends that need worked 
+out. It needs tested on different repositories. 
+(repositories that already use Doxygen as its primary engine)
+
  
 ## Documentation index
 
