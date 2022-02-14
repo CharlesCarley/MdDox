@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParaQuery.h" line="245" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae094a083c4966ed92b9c234445757bb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::ParaQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="250" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="626" bodyend="629"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aade960f2f8bb4375b1329f20c01a586d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::ParaQuery::empty</definition>
@@ -93,18 +80,1152 @@
         <location file="Tools/Doxygen/ParaQuery.h" line="255" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="641" bodyend="644"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a47d961ee4ba6036871258e9fde13ef65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::ParaQuery::getAnchor</definition>
+        <argsstring>(AnchorQuery &amp;dest) const</argsstring>
+        <name>getAnchor</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="260" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="631" bodyend="634"/>
+        <location file="Tools/Doxygen/ParaQuery.h" line="546" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="641" bodyend="650"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac506172110282e5b4e0d1c1d1e33db8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref></type>
+        <definition>AnchorQuery MdDox::Doxygen::ParaQuery::getAnchor</definition>
+        <argsstring>() const</argsstring>
+        <name>getAnchor</name>
+        <briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="551" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="652" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae33d673135bb82b98dfa89feaf3ea409" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getBlockQuote</definition>
+        <argsstring>(BlockQuoteQuery &amp;dest) const</argsstring>
+        <name>getBlockQuote</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="487" bodyend="496"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a018ddf1f254e0a6dfe2a70dd78756698" compoundref="BlockQuoteQuery_8h" startline="124" endline="127">MdDox::Doxygen::BlockQuoteQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac4b7db942580e97433218a0b53e0e86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref></type>
+        <definition>BlockQuoteQuery MdDox::Doxygen::ParaQuery::getBlockQuote</definition>
+        <argsstring>() const</argsstring>
+        <name>getBlockQuote</name>
+        <briefdescription>
+<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="498" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1a9aea8ffdbfd277ae84cebde4c1f882" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getBold</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getBold</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="496" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="551" bodyend="560"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8c4572cc67b14c0763e89df6fbe9e16d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getBold</definition>
+        <argsstring>() const</argsstring>
+        <name>getBold</name>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="501" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="562" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa4ad4bedacb164b37f65e342ae025c90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getCenter</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getCenter</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="526" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="605" bodyend="614"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae355401c9f78dcaa6a93035fd4de88ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getCenter</definition>
+        <argsstring>() const</argsstring>
+        <name>getCenter</name>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="531" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="616" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a614edd95c336c1916268535fcfdd21fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getComputerOutput</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getComputerOutput</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="516" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="587" bodyend="596"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9118bea843cd98e982a3d6e334d7f2d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getComputerOutput</definition>
+        <argsstring>() const</argsstring>
+        <name>getComputerOutput</name>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="521" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="598" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8aa4f8a997734cf7032e932978bd054b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ParaQuery::getDot</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>dot</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>dot&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="481" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="523" bodyend="531"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8cafb48d0c0bc2119d85532c489569cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getDotFile</definition>
+        <argsstring>(FileQuery &amp;dest) const</argsstring>
+        <name>getDotFile</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="415" bodyend="424"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1FileQuery_1a635f7683c2ce33b60f919da42424949a" compoundref="FileQuery_8h" startline="343" endline="346">MdDox::Doxygen::FileQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa37af64535c64dbcb53a2e82f0a22e44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref></type>
+        <definition>FileQuery MdDox::Doxygen::ParaQuery::getDotFile</definition>
+        <argsstring>() const</argsstring>
+        <name>getDotFile</name>
+        <briefdescription>
+<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="426" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a56e14e12f634a3abe001a2c6855bbd52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getEmphasis</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getEmphasis</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="506" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="569" bodyend="578"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a372e3d37337e0c9105e78c91a4730f29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getEmphasis</definition>
+        <argsstring>() const</argsstring>
+        <name>getEmphasis</name>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="511" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="580" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a98c678a5660bf15920dfecbdbf2d8088" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getHeading</definition>
+        <argsstring>(HeadingQuery &amp;dest) const</argsstring>
+        <name>getHeading</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="379" bodyend="388"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a2a97e3f62b47965ba987b8e39f5a4b55" compoundref="HeadingQuery_8h" startline="341" endline="344">MdDox::Doxygen::HeadingQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ab9f0fa723ab4af5df459f276ee77ce7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref></type>
+        <definition>HeadingQuery MdDox::Doxygen::ParaQuery::getHeading</definition>
+        <argsstring>() const</argsstring>
+        <name>getHeading</name>
+        <briefdescription>
+<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="390" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6b2dd76b200425ed2b43adfe85d4a2ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getHRuler</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getHRuler</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="199" bodyend="208"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0558c28914b7ff2d6b7fc7095c3e93e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getHRuler</definition>
+        <argsstring>() const</argsstring>
+        <name>getHRuler</name>
+        <briefdescription>
+<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="210" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1add19cba4a37c20508dfadf0c9e3160ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getImage</definition>
+        <argsstring>(ImageQuery &amp;dest) const</argsstring>
+        <name>getImage</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="397" bodyend="406"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" compoundref="ImageQuery_8h" startline="370" endline="373">MdDox::Doxygen::ImageQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a839a4ff27c5494b97a01a04c92e1ae2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref></type>
+        <definition>ImageQuery MdDox::Doxygen::ParaQuery::getImage</definition>
+        <argsstring>() const</argsstring>
+        <name>getImage</name>
+        <briefdescription>
+<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="408" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1afe1a4aa0a5c0f2c240ac966d373ddedc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getIndexEntry</definition>
+        <argsstring>(IndexEntryQuery &amp;dest) const</argsstring>
+        <name>getIndexEntry</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="253" bodyend="262"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a3ace4842740f1c6a23ec1e19db107cf1" compoundref="IndexEntryQuery_8h" startline="100" endline="103">MdDox::Doxygen::IndexEntryQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9e04c5e1f195d27bc5fc90a92f941a96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref></type>
+        <definition>IndexEntryQuery MdDox::Doxygen::ParaQuery::getIndexEntry</definition>
+        <argsstring>() const</argsstring>
+        <name>getIndexEntry</name>
+        <briefdescription>
+<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="264" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1adbaa1ce82b79d6f679e85c52c7aab284" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getItemizedList</definition>
+        <argsstring>(ListQuery &amp;dest) const</argsstring>
+        <name>getItemizedList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="289" bodyend="298"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa5953ce503472498c214954fad4bb8a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
+        <definition>ListQuery MdDox::Doxygen::ParaQuery::getItemizedList</definition>
+        <argsstring>() const</argsstring>
+        <name>getItemizedList</name>
+        <briefdescription>
+<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa94927592cc1008b5bf9665caca63ca5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getLang</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getLang</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="616" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="767" bodyend="776"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1f04eae3d5ef4b2ff53745ab70c2e3aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getLang</definition>
+        <argsstring>() const</argsstring>
+        <name>getLang</name>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="621" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="778" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8419a170f0b0c61135bf3590fb6732c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getLanguage</definition>
+        <argsstring>(LanguageQuery &amp;dest) const</argsstring>
+        <name>getLanguage</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="451" bodyend="460"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a8cf6ab05635116f56564470762794a80" compoundref="LanguageQuery_8h" startline="133" endline="136">MdDox::Doxygen::LanguageQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aba8336aac363a09d3626915312ea6532" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref></type>
+        <definition>LanguageQuery MdDox::Doxygen::ParaQuery::getLanguage</definition>
+        <argsstring>() const</argsstring>
+        <name>getLanguage</name>
+        <briefdescription>
+<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="462" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae3fd02cb514cca896a3148cc41c10358" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getLineBreak</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getLineBreak</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="181" bodyend="190"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1acb74cb0dc87956a56c39b6905c8d6b32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getLineBreak</definition>
+        <argsstring>() const</argsstring>
+        <name>getLineBreak</name>
+        <briefdescription>
+<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7d66b80005f684494155126cf06b9612" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getOrderedList</definition>
+        <argsstring>(ListQuery &amp;dest) const</argsstring>
+        <name>getOrderedList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="271" bodyend="280"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4c53c4acdfce7ac32e93dcd500d8bc6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
+        <definition>ListQuery MdDox::Doxygen::ParaQuery::getOrderedList</definition>
+        <argsstring>() const</argsstring>
+        <name>getOrderedList</name>
+        <briefdescription>
+<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="282" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac8bfd86acc3911af7ffef5e6596ff085" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getParagraph</definition>
+        <argsstring>(ParaQuery &amp;dest) const</argsstring>
+        <name>getParagraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="586" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="713" bodyend="722"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ad4546c98afa50d3056b64c344120a7a1" compoundref="ParaQuery_8h" startline="235" endline="238">ParaQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7b1c39ee9147b1bdfb83797ee13109aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref></type>
+        <definition>ParaQuery MdDox::Doxygen::ParaQuery::getParagraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getParagraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="591" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="724" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a3351739f9bb982c8dd638aaecc846ddc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getParameterList</definition>
+        <argsstring>(ParamListQuery &amp;dest) const</argsstring>
+        <name>getParameterList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="469" bodyend="478"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a1fe0376029e051df97e7d03187e91798" compoundref="ParamListQuery_8h" startline="133" endline="136">MdDox::Doxygen::ParamListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac2e68f4b7eff13ba596e3e8ddacd1792" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref></type>
+        <definition>ParamListQuery MdDox::Doxygen::ParaQuery::getParameterList</definition>
+        <argsstring>() const</argsstring>
+        <name>getParameterList</name>
+        <briefdescription>
+<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8622666245a2cad7d4e427cf647fbbd4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getParBlock</definition>
+        <argsstring>(ParBlockQuery &amp;dest) const</argsstring>
+        <name>getParBlock</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="505" bodyend="514"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" compoundref="ParBlockQuery_8h" startline="124" endline="127">MdDox::Doxygen::ParBlockQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a896b48af47a671484c938a4ed46f8f35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref></type>
+        <definition>ParBlockQuery MdDox::Doxygen::ParaQuery::getParBlock</definition>
+        <argsstring>() const</argsstring>
+        <name>getParBlock</name>
+        <briefdescription>
+<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="516" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a56681124f9e2659c6732002c3ebd5f15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getPart</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getPart</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="596" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="731" bodyend="740"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0115983a9917fe24c29afdb9f9820dc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getPart</definition>
+        <argsstring>() const</argsstring>
+        <name>getPart</name>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="601" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="742" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a70d09ab6831a68fdc1f99757bdc4b803" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getPreFormatted</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getPreFormatted</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="217" bodyend="226"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae5c31c68e9b95867746c4a43da64251e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getPreFormatted</definition>
+        <argsstring>() const</argsstring>
+        <name>getPreFormatted</name>
+        <briefdescription>
+<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="314" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7ac7b342f12bf85eac338e0d2054dba1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getProgramListing</definition>
+        <argsstring>(ListingQuery &amp;dest) const</argsstring>
+        <name>getProgramListing</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="235" bodyend="244"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aab47041fcce3e0051b6c5ad1376507e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
+        <definition>ListingQuery MdDox::Doxygen::ParaQuery::getProgramListing</definition>
+        <argsstring>() const</argsstring>
+        <name>getProgramListing</name>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="324" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac90b2016385bbfb2ed8eb8950f920290" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getProp</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getProp</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="606" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="749" bodyend="758"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1df7fe0174de947a317e939c876ae8aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getProp</definition>
+        <argsstring>() const</argsstring>
+        <name>getProp</name>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="611" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="760" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a38ac80ec5f3d6359112b2d3269f49fcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getRef</definition>
+        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
+        <name>getRef</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="556" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="659" bodyend="668"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a55e8f9f9fce59ea557c58008530b7e53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
+        <definition>RefTextQuery MdDox::Doxygen::ParaQuery::getRef</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef</name>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="561" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1af1f6b57099b51043ed5348b1ee2219d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getRegistered</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getRegistered</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="576" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="695" bodyend="704"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4ac5b370fb72a8f863658c508116580a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getRegistered</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegistered</name>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="581" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="706" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6b369230b5c7e3d3d2045735f228c3d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getSect</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getSect</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="566" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="677" bodyend="686"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a296bfaf73d548f468d88bcfe5ae85deb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getSect</definition>
+        <argsstring>() const</argsstring>
+        <name>getSect</name>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="571" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="688" bodyend="693"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6442be96fbf3252a6c141459b3f73e6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getSimpleSect</definition>
+        <argsstring>(SimpleSectQuery &amp;dest) const</argsstring>
+        <name>getSimpleSect</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="307" bodyend="316"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" compoundref="SimpleSectQuery_8h" startline="151" endline="154">MdDox::Doxygen::SimpleSectQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a251f004fb6f263a0ddb590ee213dbe9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref></type>
+        <definition>SimpleSectQuery MdDox::Doxygen::ParaQuery::getSimpleSect</definition>
+        <argsstring>() const</argsstring>
+        <name>getSimpleSect</name>
+        <briefdescription>
+<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a34093b110cb02a542a1f5b78065f5266" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getSmall</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getSmall</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="536" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="623" bodyend="632"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4e398cb848ba22c487296a945fea03c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getSmall</definition>
+        <argsstring>() const</argsstring>
+        <name>getSmall</name>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="541" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="634" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa5e287e7f20b04ea816407816330c28e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getTable</definition>
+        <argsstring>(TableQuery &amp;dest) const</argsstring>
+        <name>getTable</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="361" bodyend="370"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TableQuery_1a0f50fe8967aa2d466fa0399cf2e952f7" compoundref="TableQuery_8h" startline="144" endline="147">MdDox::Doxygen::TableQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1adbac00f831aa47da3c9fb303bf0e594d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref></type>
+        <definition>TableQuery MdDox::Doxygen::ParaQuery::getTable</definition>
+        <argsstring>() const</argsstring>
+        <name>getTable</name>
+        <briefdescription>
+<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="372" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9eed1665d36e3df44266eaae6f085c68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getTitle</definition>
+        <argsstring>(TitleQuery &amp;dest) const</argsstring>
+        <name>getTitle</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="325" bodyend="334"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4fa92760f2046ed25fe225fb76ceb94c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
+        <definition>TitleQuery MdDox::Doxygen::ParaQuery::getTitle</definition>
+        <argsstring>() const</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="336" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a083d5cea058b39930460605a19eea61a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getTocList</definition>
+        <argsstring>(TocListQuery &amp;dest) const</argsstring>
+        <name>getTocList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="433" bodyend="442"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" compoundref="TocListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TocListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a3b1796f0b3e4f1527df52feda0540ae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref></type>
+        <definition>TocListQuery MdDox::Doxygen::ParaQuery::getTocList</definition>
+        <argsstring>() const</argsstring>
+        <name>getTocList</name>
+        <briefdescription>
+<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="444" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6e4f615d3ec4c04a0665b908f0bcec9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getULink</definition>
+        <argsstring>(UrlLinkQuery &amp;dest) const</argsstring>
+        <name>getULink</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="486" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="533" bodyend="542"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6e5dc386e68dbe5bcbc7a06d6c968cd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref></type>
+        <definition>UrlLinkQuery MdDox::Doxygen::ParaQuery::getULink</definition>
+        <argsstring>() const</argsstring>
+        <name>getULink</name>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="491" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="544" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7a052319adbba600823478bdef7d57c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::getVariableList</definition>
+        <argsstring>(VariableListQuery &amp;dest) const</argsstring>
+        <name>getVariableList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="343" bodyend="352"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" compoundref="VariableListQuery_8h" startline="99" endline="102">MdDox::Doxygen::VariableListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa04142087d8299c7bc295c7fd68c1fbe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref></type>
+        <definition>VariableListQuery MdDox::Doxygen::ParaQuery::getVariableList</definition>
+        <argsstring>() const</argsstring>
+        <name>getVariableList</name>
+        <briefdescription>
+<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="354" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0a8ce0d0a75d72b570feacb8ac34404b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ParaQuery::getVerbatim</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getVerbatim</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>verbatim</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>verbatim&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="284" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="171" bodyend="179"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae094a083c4966ed92b9c234445757bb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::ParaQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="250" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="626" bodyend="629"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +1239,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParaQuery.h" line="265" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="636" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParaQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParaQuery.h" line="260" column="1" bodyfile="Tools/Doxygen/ParaQuery.h" bodystart="631" bodyend="634"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0641835372003b58095265ec8e13a3f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -213,1140 +1347,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab435d6ae6ac0fe38786b02c3a323ab7c" compoundref="ParaQuery_8h" startline="203" endline="203">MdDox::Doxygen::Visitors::ParaQueryVisitor::visitedProp</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1aae2f10e1c11d70f61c64baae9f871e62" compoundref="ParaQuery_8h" startline="208" endline="208">MdDox::Doxygen::Visitors::ParaQueryVisitor::visitedLang</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a8a80fd519868b13d0d751318f59c994b" compoundref="ParaQuery_8h" startline="213" endline="213">MdDox::Doxygen::Visitors::ParaQueryVisitor::visitedDot</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0a8ce0d0a75d72b570feacb8ac34404b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::ParaQuery::getVerbatim</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getVerbatim</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>verbatim</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>verbatim&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="284" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="171" bodyend="179"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae3fd02cb514cca896a3148cc41c10358" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getLineBreak</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getLineBreak</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="181" bodyend="190"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1acb74cb0dc87956a56c39b6905c8d6b32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getLineBreak</definition>
-        <argsstring>() const</argsstring>
-        <name>getLineBreak</name>
-        <briefdescription>
-<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="192" bodyend="197"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6b2dd76b200425ed2b43adfe85d4a2ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getHRuler</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getHRuler</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="199" bodyend="208"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0558c28914b7ff2d6b7fc7095c3e93e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getHRuler</definition>
-        <argsstring>() const</argsstring>
-        <name>getHRuler</name>
-        <briefdescription>
-<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="210" bodyend="215"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a70d09ab6831a68fdc1f99757bdc4b803" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getPreFormatted</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getPreFormatted</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="217" bodyend="226"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae5c31c68e9b95867746c4a43da64251e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getPreFormatted</definition>
-        <argsstring>() const</argsstring>
-        <name>getPreFormatted</name>
-        <briefdescription>
-<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="314" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="228" bodyend="233"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7ac7b342f12bf85eac338e0d2054dba1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getProgramListing</definition>
-        <argsstring>(ListingQuery &amp;dest) const</argsstring>
-        <name>getProgramListing</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="235" bodyend="244"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aab47041fcce3e0051b6c5ad1376507e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
-        <definition>ListingQuery MdDox::Doxygen::ParaQuery::getProgramListing</definition>
-        <argsstring>() const</argsstring>
-        <name>getProgramListing</name>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="324" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="246" bodyend="251"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1afe1a4aa0a5c0f2c240ac966d373ddedc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getIndexEntry</definition>
-        <argsstring>(IndexEntryQuery &amp;dest) const</argsstring>
-        <name>getIndexEntry</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="253" bodyend="262"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a3ace4842740f1c6a23ec1e19db107cf1" compoundref="IndexEntryQuery_8h" startline="100" endline="103">MdDox::Doxygen::IndexEntryQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9e04c5e1f195d27bc5fc90a92f941a96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref></type>
-        <definition>IndexEntryQuery MdDox::Doxygen::ParaQuery::getIndexEntry</definition>
-        <argsstring>() const</argsstring>
-        <name>getIndexEntry</name>
-        <briefdescription>
-<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="264" bodyend="269"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7d66b80005f684494155126cf06b9612" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getOrderedList</definition>
-        <argsstring>(ListQuery &amp;dest) const</argsstring>
-        <name>getOrderedList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="271" bodyend="280"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4c53c4acdfce7ac32e93dcd500d8bc6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
-        <definition>ListQuery MdDox::Doxygen::ParaQuery::getOrderedList</definition>
-        <argsstring>() const</argsstring>
-        <name>getOrderedList</name>
-        <briefdescription>
-<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="282" bodyend="287"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1adbaa1ce82b79d6f679e85c52c7aab284" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getItemizedList</definition>
-        <argsstring>(ListQuery &amp;dest) const</argsstring>
-        <name>getItemizedList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="289" bodyend="298"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa5953ce503472498c214954fad4bb8a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
-        <definition>ListQuery MdDox::Doxygen::ParaQuery::getItemizedList</definition>
-        <argsstring>() const</argsstring>
-        <name>getItemizedList</name>
-        <briefdescription>
-<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="300" bodyend="305"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6442be96fbf3252a6c141459b3f73e6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getSimpleSect</definition>
-        <argsstring>(SimpleSectQuery &amp;dest) const</argsstring>
-        <name>getSimpleSect</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="307" bodyend="316"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" compoundref="SimpleSectQuery_8h" startline="151" endline="154">MdDox::Doxygen::SimpleSectQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a251f004fb6f263a0ddb590ee213dbe9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref></type>
-        <definition>SimpleSectQuery MdDox::Doxygen::ParaQuery::getSimpleSect</definition>
-        <argsstring>() const</argsstring>
-        <name>getSimpleSect</name>
-        <briefdescription>
-<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="318" bodyend="323"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9eed1665d36e3df44266eaae6f085c68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getTitle</definition>
-        <argsstring>(TitleQuery &amp;dest) const</argsstring>
-        <name>getTitle</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="325" bodyend="334"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4fa92760f2046ed25fe225fb76ceb94c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
-        <definition>TitleQuery MdDox::Doxygen::ParaQuery::getTitle</definition>
-        <argsstring>() const</argsstring>
-        <name>getTitle</name>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="336" bodyend="341"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7a052319adbba600823478bdef7d57c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getVariableList</definition>
-        <argsstring>(VariableListQuery &amp;dest) const</argsstring>
-        <name>getVariableList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="343" bodyend="352"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" compoundref="VariableListQuery_8h" startline="99" endline="102">MdDox::Doxygen::VariableListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa04142087d8299c7bc295c7fd68c1fbe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref></type>
-        <definition>VariableListQuery MdDox::Doxygen::ParaQuery::getVariableList</definition>
-        <argsstring>() const</argsstring>
-        <name>getVariableList</name>
-        <briefdescription>
-<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="354" bodyend="359"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa5e287e7f20b04ea816407816330c28e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getTable</definition>
-        <argsstring>(TableQuery &amp;dest) const</argsstring>
-        <name>getTable</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="361" bodyend="370"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TableQuery_1a0f50fe8967aa2d466fa0399cf2e952f7" compoundref="TableQuery_8h" startline="144" endline="147">MdDox::Doxygen::TableQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1adbac00f831aa47da3c9fb303bf0e594d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref></type>
-        <definition>TableQuery MdDox::Doxygen::ParaQuery::getTable</definition>
-        <argsstring>() const</argsstring>
-        <name>getTable</name>
-        <briefdescription>
-<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="372" bodyend="377"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a98c678a5660bf15920dfecbdbf2d8088" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getHeading</definition>
-        <argsstring>(HeadingQuery &amp;dest) const</argsstring>
-        <name>getHeading</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="379" bodyend="388"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a2a97e3f62b47965ba987b8e39f5a4b55" compoundref="HeadingQuery_8h" startline="341" endline="344">MdDox::Doxygen::HeadingQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ab9f0fa723ab4af5df459f276ee77ce7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref></type>
-        <definition>HeadingQuery MdDox::Doxygen::ParaQuery::getHeading</definition>
-        <argsstring>() const</argsstring>
-        <name>getHeading</name>
-        <briefdescription>
-<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="390" bodyend="395"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1add19cba4a37c20508dfadf0c9e3160ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getImage</definition>
-        <argsstring>(ImageQuery &amp;dest) const</argsstring>
-        <name>getImage</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="397" bodyend="406"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" compoundref="ImageQuery_8h" startline="370" endline="373">MdDox::Doxygen::ImageQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a839a4ff27c5494b97a01a04c92e1ae2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref></type>
-        <definition>ImageQuery MdDox::Doxygen::ParaQuery::getImage</definition>
-        <argsstring>() const</argsstring>
-        <name>getImage</name>
-        <briefdescription>
-<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="408" bodyend="413"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8cafb48d0c0bc2119d85532c489569cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getDotFile</definition>
-        <argsstring>(FileQuery &amp;dest) const</argsstring>
-        <name>getDotFile</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="415" bodyend="424"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1FileQuery_1a635f7683c2ce33b60f919da42424949a" compoundref="FileQuery_8h" startline="343" endline="346">MdDox::Doxygen::FileQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa37af64535c64dbcb53a2e82f0a22e44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref></type>
-        <definition>FileQuery MdDox::Doxygen::ParaQuery::getDotFile</definition>
-        <argsstring>() const</argsstring>
-        <name>getDotFile</name>
-        <briefdescription>
-<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="426" bodyend="431"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a083d5cea058b39930460605a19eea61a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getTocList</definition>
-        <argsstring>(TocListQuery &amp;dest) const</argsstring>
-        <name>getTocList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="433" bodyend="442"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" compoundref="TocListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TocListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a3b1796f0b3e4f1527df52feda0540ae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref></type>
-        <definition>TocListQuery MdDox::Doxygen::ParaQuery::getTocList</definition>
-        <argsstring>() const</argsstring>
-        <name>getTocList</name>
-        <briefdescription>
-<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="444" bodyend="449"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8419a170f0b0c61135bf3590fb6732c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getLanguage</definition>
-        <argsstring>(LanguageQuery &amp;dest) const</argsstring>
-        <name>getLanguage</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="451" bodyend="460"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a8cf6ab05635116f56564470762794a80" compoundref="LanguageQuery_8h" startline="133" endline="136">MdDox::Doxygen::LanguageQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aba8336aac363a09d3626915312ea6532" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref></type>
-        <definition>LanguageQuery MdDox::Doxygen::ParaQuery::getLanguage</definition>
-        <argsstring>() const</argsstring>
-        <name>getLanguage</name>
-        <briefdescription>
-<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="462" bodyend="467"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a3351739f9bb982c8dd638aaecc846ddc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getParameterList</definition>
-        <argsstring>(ParamListQuery &amp;dest) const</argsstring>
-        <name>getParameterList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="469" bodyend="478"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a1fe0376029e051df97e7d03187e91798" compoundref="ParamListQuery_8h" startline="133" endline="136">MdDox::Doxygen::ParamListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac2e68f4b7eff13ba596e3e8ddacd1792" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref></type>
-        <definition>ParamListQuery MdDox::Doxygen::ParaQuery::getParameterList</definition>
-        <argsstring>() const</argsstring>
-        <name>getParameterList</name>
-        <briefdescription>
-<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="480" bodyend="485"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae33d673135bb82b98dfa89feaf3ea409" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getBlockQuote</definition>
-        <argsstring>(BlockQuoteQuery &amp;dest) const</argsstring>
-        <name>getBlockQuote</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="487" bodyend="496"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a018ddf1f254e0a6dfe2a70dd78756698" compoundref="BlockQuoteQuery_8h" startline="124" endline="127">MdDox::Doxygen::BlockQuoteQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac4b7db942580e97433218a0b53e0e86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref></type>
-        <definition>BlockQuoteQuery MdDox::Doxygen::ParaQuery::getBlockQuote</definition>
-        <argsstring>() const</argsstring>
-        <name>getBlockQuote</name>
-        <briefdescription>
-<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="498" bodyend="503"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8622666245a2cad7d4e427cf647fbbd4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getParBlock</definition>
-        <argsstring>(ParBlockQuery &amp;dest) const</argsstring>
-        <name>getParBlock</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="505" bodyend="514"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" compoundref="ParBlockQuery_8h" startline="124" endline="127">MdDox::Doxygen::ParBlockQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a896b48af47a671484c938a4ed46f8f35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref></type>
-        <definition>ParBlockQuery MdDox::Doxygen::ParaQuery::getParBlock</definition>
-        <argsstring>() const</argsstring>
-        <name>getParBlock</name>
-        <briefdescription>
-<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="516" bodyend="521"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8aa4f8a997734cf7032e932978bd054b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::ParaQuery::getDot</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getDot</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>dot</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>dot&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="481" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="523" bodyend="531"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6e4f615d3ec4c04a0665b908f0bcec9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getULink</definition>
-        <argsstring>(UrlLinkQuery &amp;dest) const</argsstring>
-        <name>getULink</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="486" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="533" bodyend="542"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6e5dc386e68dbe5bcbc7a06d6c968cd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref></type>
-        <definition>UrlLinkQuery MdDox::Doxygen::ParaQuery::getULink</definition>
-        <argsstring>() const</argsstring>
-        <name>getULink</name>
-        <briefdescription>
-<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="491" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="544" bodyend="549"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1a9aea8ffdbfd277ae84cebde4c1f882" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getBold</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getBold</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="496" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="551" bodyend="560"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a8c4572cc67b14c0763e89df6fbe9e16d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getBold</definition>
-        <argsstring>() const</argsstring>
-        <name>getBold</name>
-        <briefdescription>
-<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="501" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="562" bodyend="567"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a56e14e12f634a3abe001a2c6855bbd52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getEmphasis</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getEmphasis</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="506" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="569" bodyend="578"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a372e3d37337e0c9105e78c91a4730f29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getEmphasis</definition>
-        <argsstring>() const</argsstring>
-        <name>getEmphasis</name>
-        <briefdescription>
-<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="511" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="580" bodyend="585"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a614edd95c336c1916268535fcfdd21fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getComputerOutput</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getComputerOutput</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="516" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="587" bodyend="596"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a9118bea843cd98e982a3d6e334d7f2d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getComputerOutput</definition>
-        <argsstring>() const</argsstring>
-        <name>getComputerOutput</name>
-        <briefdescription>
-<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="521" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="598" bodyend="603"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa4ad4bedacb164b37f65e342ae025c90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getCenter</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getCenter</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="526" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="605" bodyend="614"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ae355401c9f78dcaa6a93035fd4de88ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getCenter</definition>
-        <argsstring>() const</argsstring>
-        <name>getCenter</name>
-        <briefdescription>
-<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="531" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="616" bodyend="621"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a34093b110cb02a542a1f5b78065f5266" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getSmall</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getSmall</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="536" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="623" bodyend="632"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">MdDox::Doxygen::MarkupQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4e398cb848ba22c487296a945fea03c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::ParaQuery::getSmall</definition>
-        <argsstring>() const</argsstring>
-        <name>getSmall</name>
-        <briefdescription>
-<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="541" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="634" bodyend="639"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a47d961ee4ba6036871258e9fde13ef65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getAnchor</definition>
-        <argsstring>(AnchorQuery &amp;dest) const</argsstring>
-        <name>getAnchor</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="546" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="641" bodyend="650"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac506172110282e5b4e0d1c1d1e33db8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref></type>
-        <definition>AnchorQuery MdDox::Doxygen::ParaQuery::getAnchor</definition>
-        <argsstring>() const</argsstring>
-        <name>getAnchor</name>
-        <briefdescription>
-<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="551" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="652" bodyend="657"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a38ac80ec5f3d6359112b2d3269f49fcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getRef</definition>
-        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
-        <name>getRef</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="556" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="659" bodyend="668"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a55e8f9f9fce59ea557c58008530b7e53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
-        <definition>RefTextQuery MdDox::Doxygen::ParaQuery::getRef</definition>
-        <argsstring>() const</argsstring>
-        <name>getRef</name>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="561" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="670" bodyend="675"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a6b369230b5c7e3d3d2045735f228c3d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getSect</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getSect</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="566" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="677" bodyend="686"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a296bfaf73d548f468d88bcfe5ae85deb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getSect</definition>
-        <argsstring>() const</argsstring>
-        <name>getSect</name>
-        <briefdescription>
-<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="571" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="688" bodyend="693"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1af1f6b57099b51043ed5348b1ee2219d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getRegistered</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getRegistered</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="576" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="695" bodyend="704"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a4ac5b370fb72a8f863658c508116580a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getRegistered</definition>
-        <argsstring>() const</argsstring>
-        <name>getRegistered</name>
-        <briefdescription>
-<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="581" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="706" bodyend="711"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac8bfd86acc3911af7ffef5e6596ff085" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getParagraph</definition>
-        <argsstring>(ParaQuery &amp;dest) const</argsstring>
-        <name>getParagraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="586" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="713" bodyend="722"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1ad4546c98afa50d3056b64c344120a7a1" compoundref="ParaQuery_8h" startline="235" endline="238">ParaQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a7b1c39ee9147b1bdfb83797ee13109aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref></type>
-        <definition>ParaQuery MdDox::Doxygen::ParaQuery::getParagraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getParagraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="591" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="724" bodyend="729"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a56681124f9e2659c6732002c3ebd5f15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getPart</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getPart</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="596" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="731" bodyend="740"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a0115983a9917fe24c29afdb9f9820dc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getPart</definition>
-        <argsstring>() const</argsstring>
-        <name>getPart</name>
-        <briefdescription>
-<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="601" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="742" bodyend="747"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1ac90b2016385bbfb2ed8eb8950f920290" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getProp</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getProp</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="606" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="749" bodyend="758"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1df7fe0174de947a317e939c876ae8aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getProp</definition>
-        <argsstring>() const</argsstring>
-        <name>getProp</name>
-        <briefdescription>
-<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="611" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="760" bodyend="765"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1aa94927592cc1008b5bf9665caca63ca5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParaQuery::getLang</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getLang</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="616" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="767" bodyend="776"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a365bef712199b086c3c3c53854c3d55c" compoundref="ParaQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParaQuery_1a1f04eae3d5ef4b2ff53745ab70c2e3aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::ParaQuery::getLang</definition>
-        <argsstring>() const</argsstring>
-        <name>getLang</name>
-        <briefdescription>
-<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParaQuery.h" line="621" column="1" bodyfile="Tools/Doxygen/ParaQuery.cpp" bodystart="778" bodyend="783"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

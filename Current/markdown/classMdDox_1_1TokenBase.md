@@ -18,11 +18,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_type</span>
+<span class="icon-list-item"><a href="#_line" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_line</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_line" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_line</span>
+<span class="icon-list-item"><a href="#_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_type</span>
 </a>
 </span>
 <br/>
@@ -48,15 +48,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getType</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#getline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#settype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setType</span>
+<span class="icon-list-item"><a href="#gettype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getType</span>
 </a>
 </span>
 <br/>
@@ -65,6 +61,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#setline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setLine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#settype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setType</span>
 </a>
 </span>
 <br/>
@@ -86,18 +86,6 @@
 </span>
 <br/>
 <br/>
-<a id="_type"></a>
-<h2>_type</h2>
-<span class="inline-text">int8_t</span>
-<span class="bold-text"><b>_type</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="_line"></a>
 <h2>_line</h2>
 <span class="inline-text">size_t</span>
@@ -106,6 +94,18 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_type"></a>
+<h2>_type</h2>
+<span class="inline-text">int8_t</span>
+<span class="bold-text"><b>_type</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
 <br/>
@@ -185,19 +185,6 @@
 </span>
 <br/>
 <br/>
-<a id="gettype"></a>
-<h2>getType</h2>
-<span class="inline-text">int8_t</span>
-<span class="bold-text"><b>getType</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="getline"></a>
 <h2>getLine</h2>
 <span class="inline-text">size_t</span>
@@ -211,20 +198,15 @@
 </span>
 <br/>
 <br/>
-<a id="settype"></a>
-<h2>setType</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>setType</b></span>
+<a id="gettype"></a>
+<h2>getType</h2>
+<span class="inline-text">int8_t</span>
+<span class="bold-text"><b>getType</b></span>
 <span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int8_t</span>
-<span class="inline-text">type</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
 <br/>
@@ -261,6 +243,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="settype"></a>
+<h2>setType</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>setType</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int8_t</span>
+<span class="inline-text">type</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/TokenBase.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
 <br/>

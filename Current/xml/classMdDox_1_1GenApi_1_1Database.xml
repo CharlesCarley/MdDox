@@ -71,6 +71,66 @@
         </inbodydescription>
         <location file="Tools/GenApi/Database.h" line="49" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a38d737f028d88ce9ef520e178f642bd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>NodeMap::const_iterator</type>
+        <definition>NodeMap::const_iterator MdDox::GenApi::Database::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Database.h" line="58" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="58" bodyend="61"/>
+        <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a42fa5011abd177fcc61f1c3878f98d97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::GenApi::Database::contains</definition>
+        <argsstring>(const String &amp;str) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Database.h" line="74" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="85" bodyend="88"/>
+        <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a1d14b7224daf22a5679edca764fa2bb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>NodeMap::const_iterator</type>
+        <definition>NodeMap::const_iterator MdDox::GenApi::Database::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Database.h" line="63" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="63" bodyend="66"/>
+        <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a05266f9da6bd09214427884b693ef187" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1_1GenApi_1af2b4cd88490b50caad596b4c4e489640" kindref="member">ObjectMap</ref> &amp;</type>
+        <definition>const ObjectMap&amp; MdDox::GenApi::Database::getObjects</definition>
+        <argsstring>() const</argsstring>
+        <name>getObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Database.h" line="68" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="68" bodyend="71"/>
+        <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1ad6a1847e7d3a2894bce36990ac0c71cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::GenApi::Database::hasKey</definition>
@@ -88,47 +148,6 @@
         </inbodydescription>
         <location file="Tools/GenApi/Database.h" line="51" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="29" bodyend="32"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::GenApi::Database::value</definition>
-        <argsstring>(const String &amp;key, const String &amp;def=&quot;&quot;) const</argsstring>
-        <name>value</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>def</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="52" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="34" bodyend="40"/>
-        <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a267e27ac456f08ff7f934778800962b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1GenApi_1_1Object" kindref="compound">Object</ref> *</type>
-        <definition>Object * MdDox::GenApi::Database::object</definition>
-        <argsstring>(const String &amp;key) const</argsstring>
-        <name>object</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>key</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="53" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="42" bodyend="48"/>
-        <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a85b93f8db61500ba827db235c6cf647b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176,46 +195,22 @@
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" compoundref="Database_8cpp" startline="34" endline="40">value</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a38d737f028d88ce9ef520e178f642bd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>NodeMap::const_iterator</type>
-        <definition>NodeMap::const_iterator MdDox::GenApi::Database::begin</definition>
-        <argsstring>() const</argsstring>
-        <name>begin</name>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a267e27ac456f08ff7f934778800962b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1GenApi_1_1Object" kindref="compound">Object</ref> *</type>
+        <definition>Object * MdDox::GenApi::Database::object</definition>
+        <argsstring>(const String &amp;key) const</argsstring>
+        <name>object</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="58" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="58" bodyend="61"/>
-        <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a1d14b7224daf22a5679edca764fa2bb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>NodeMap::const_iterator</type>
-        <definition>NodeMap::const_iterator MdDox::GenApi::Database::end</definition>
-        <argsstring>() const</argsstring>
-        <name>end</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="63" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="63" bodyend="66"/>
-        <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a05266f9da6bd09214427884b693ef187" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1_1GenApi_1af2b4cd88490b50caad596b4c4e489640" kindref="member">ObjectMap</ref> &amp;</type>
-        <definition>const ObjectMap&amp; MdDox::GenApi::Database::getObjects</definition>
-        <argsstring>() const</argsstring>
-        <name>getObjects</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="68" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="68" bodyend="71"/>
+        <location file="Tools/GenApi/Database.h" line="53" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="42" bodyend="48"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1aa76b00920ea8d6a9c10954c2c080ac99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -236,14 +231,19 @@
         <location file="Tools/GenApi/Database.h" line="73" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="64" bodyend="83"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a42fa5011abd177fcc61f1c3878f98d97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Database::contains</definition>
-        <argsstring>(const String &amp;str) const</argsstring>
-        <name>contains</name>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::GenApi::Database::value</definition>
+        <argsstring>(const String &amp;key, const String &amp;def=&quot;&quot;) const</argsstring>
+        <name>value</name>
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>def</declname>
+          <defval>&quot;&quot;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="74" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="85" bodyend="88"/>
+        <location file="Tools/GenApi/Database.h" line="52" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="34" bodyend="40"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
       </sectiondef>

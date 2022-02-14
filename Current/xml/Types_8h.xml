@@ -102,8 +102,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="structMdDox_1_1GenApi_1_1Element" prot="public">MdDox::GenApi::Element</innerclass>
     <innerclass refid="structMdDox_1_1GenApi_1_1Attribute" prot="public">MdDox::GenApi::Attribute</innerclass>
+    <innerclass refid="structMdDox_1_1GenApi_1_1Element" prot="public">MdDox::GenApi::Element</innerclass>
     <innernamespace refid="namespaceMdDox_1_1GenApi">MdDox::GenApi</innernamespace>
     <briefdescription>
     </briefdescription>

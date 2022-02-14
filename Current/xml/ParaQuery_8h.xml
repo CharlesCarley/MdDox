@@ -302,8 +302,8 @@
         <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParaQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParaQuery" prot="public">MdDox::Doxygen::ParaQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParaQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

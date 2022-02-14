@@ -39,19 +39,19 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
@@ -141,24 +141,6 @@
 </span>
 <br/>
 <br/>
-<a id="isvalid"></a>
-<h2>isValid</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isValid</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Checks to see if the internal node is usable. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/EmptyQuery.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="empty"></a>
 <h2>empty</h2>
 <span class="inline-text">bool</span>
@@ -183,20 +165,20 @@
 </span>
 <br/>
 <br/>
-<a id="reset"></a>
-<h2>reset</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>reset</b></span>
+<a id="isvalid"></a>
+<h2>isValid</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isValid</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Resets the internal node pointer to null. </span>
+<span class="inline-text">Checks to see if the internal node is usable. </span>
 <br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/EmptyQuery.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/EmptyQuery.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery.h</span>
 </a>
 </span>
 <br/>
@@ -216,6 +198,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/EmptyQuery.h#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reset"></a>
+<h2>reset</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>reset</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Resets the internal node pointer to null. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/EmptyQuery.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery.h</span>
 </a>
 </span>
 <br/>

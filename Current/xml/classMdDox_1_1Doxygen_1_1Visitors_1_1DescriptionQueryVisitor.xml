@@ -18,22 +18,30 @@
         </inbodydescription>
         <location file="Tools/Doxygen/DescriptionQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1a045455cffcebfabff67cd0197adbf006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1ab051404be127e09e92b0c0c4fecc70ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::DescriptionQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <reimplementedby refid="classMdDox_1_1DescriptionWriter_1ac0c03563720c3006bed234d25da34e4d">visitedText</reimplementedby>
+        <definition>virtual void MdDox::Doxygen::Visitors::DescriptionQueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalQuery &amp;query)</argsstring>
+        <name>visitedInternal</name>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/DescriptionQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1a3ae55caec989f8ed8b47906cdaa26ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -87,30 +95,22 @@
         </inbodydescription>
         <location file="Tools/Doxygen/DescriptionQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1ab051404be127e09e92b0c0c4fecc70ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1a045455cffcebfabff67cd0197adbf006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::DescriptionQueryVisitor::visitedInternal</definition>
-        <argsstring>(const InternalQuery &amp;query)</argsstring>
-        <name>visitedInternal</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::DescriptionQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <reimplementedby refid="classMdDox_1_1DescriptionWriter_1ac0c03563720c3006bed234d25da34e4d">visitedText</reimplementedby>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> &amp;</type>
-          <declname>query</declname>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
         </param>
         <briefdescription>
-<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="53" bodyend="53"/>
+        <location file="Tools/Doxygen/DescriptionQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1ade5089cfa1291090964ec4738d531fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>

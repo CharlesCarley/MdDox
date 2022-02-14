@@ -126,8 +126,8 @@
         <label>Tools/Doxygen/GraphQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1NodeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::NodeQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1NodeQuery" prot="public">MdDox::Doxygen::NodeQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1NodeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::NodeQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

@@ -111,19 +111,6 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a010a26f3b7d0ee89ab19eab357474ca9" prot="public" static="no">
-        <type>std::function&lt; bool(<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *a, <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *b)&gt;</type>
-        <definition>using MdDox::Xml::NodeSortFunc = typedef std::function&lt;bool(Node* a, Node* b)&gt;</definition>
-        <argsstring></argsstring>
-        <name>NodeSortFunc</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Node.h" line="32" column="1" bodyfile="Source/Xml/Node.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" prot="public" static="no">
         <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
         <definition>typedef std::unordered_map&lt;String, String&gt; MdDox::Xml::AttributeMap</definition>
@@ -136,6 +123,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Xml/Node.h" line="38" column="1" bodyfile="Source/Xml/Node.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::Xml::CodeCache = typedef std::vector&lt;String&gt;</definition>
+        <argsstring></argsstring>
+        <name>CodeCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="28" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> * &gt;</type>
@@ -163,18 +163,18 @@
         </inbodydescription>
         <location file="Source/Xml/Node.h" line="48" column="1" bodyfile="Source/Xml/Node.h" bodystart="48" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" prot="public" static="no">
-        <type><ref refid="classMdDox_1_1Cache" kindref="compound">Cache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::Xml::StringCache = typedef Cache&lt;String&gt;</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a010a26f3b7d0ee89ab19eab357474ca9" prot="public" static="no">
+        <type>std::function&lt; bool(<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *a, <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *b)&gt;</type>
+        <definition>using MdDox::Xml::NodeSortFunc = typedef std::function&lt;bool(Node* a, Node* b)&gt;</definition>
         <argsstring></argsstring>
-        <name>StringCache</name>
+        <name>NodeSortFunc</name>
         <briefdescription>
-<para>Provides a string based <ref refid="classMdDox_1_1Cache" kindref="compound">Cache</ref> implementation. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="71" column="1" bodyfile="Source/Xml/Parser.h" bodystart="71" bodyend="-1"/>
+        <location file="Source/Xml/Node.h" line="32" column="1" bodyfile="Source/Xml/Node.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a642d5079d25ebeb0618bf168bea03f17" prot="public" static="no">
         <type>std::stack&lt; <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> * &gt;</type>
@@ -189,18 +189,18 @@
         </inbodydescription>
         <location file="Source/Xml/Parser.h" line="76" column="1" bodyfile="Source/Xml/Parser.h" bodystart="76" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::Xml::CodeCache = typedef std::vector&lt;String&gt;</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" prot="public" static="no">
+        <type><ref refid="classMdDox_1_1Cache" kindref="compound">Cache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::Xml::StringCache = typedef Cache&lt;String&gt;</definition>
         <argsstring></argsstring>
-        <name>CodeCache</name>
+        <name>StringCache</name>
         <briefdescription>
-        </briefdescription>
+<para>Provides a string based <ref refid="classMdDox_1_1Cache" kindref="compound">Cache</ref> implementation. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Scanner.h" line="28" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="28" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="71" column="1" bodyfile="Source/Xml/Parser.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a63e69d53462a482c47cb25ec51c6d6d3" prot="public" static="no">
         <type><ref refid="classMdDox_1_1TokenBase" kindref="compound">TokenBase</ref></type>
@@ -233,6 +233,23 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMdDox_1_1Xml_1ac0ae22fbb9d6aa5ddcffbc2df4348963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::isQuote</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isQuote</name>
+        <param>
+          <type>const int</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.cpp" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Xml_1abe10ae08b1960d2b50fafa77f024f84e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Xml::isValidCharacter</definition>
@@ -269,29 +286,12 @@
         <references refid="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" compoundref="Char_8h" startline="205" endline="208">MdDox::isLetter</references>
         <references refid="namespaceMdDox_1a4338aec09dbef3739444c62befccc06b" compoundref="Char_8h" startline="199" endline="202">MdDox::isDecimal</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1Xml_1ac0ae22fbb9d6aa5ddcffbc2df4348963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Xml::isQuote</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isQuote</name>
-        <param>
-          <type>const int</type>
-          <declname>ch</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Scanner.cpp" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="46" bodyend="49"/>
-      </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provides a grouping of classes that handle parsing XML files. </para>    </briefdescription>
     <detaileddescription>
 <para><bold>Typical Usage:</bold><linebreak/>
-</para><para>The <ref refid="classMdDox_1_1Xml_1_1Parser" kindref="compound">Parser</ref> is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</para><para>Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the <ref refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" kindref="member">Parser::root()</ref> method will return the root node of the tree.</para><para>The following example shows how to use it.</para><para><programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
+</para><para>The <ref refid="classMdDox_1_1Xml_1_1Parser" kindref="compound">Parser</ref> is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</para><para>Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree.</para><para>The following example shows how to use it.</para><para><programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
 <codeline><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Parser" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Xml::Parser</ref><sp/>parser;</highlight></codeline>

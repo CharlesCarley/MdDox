@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/SimpleSectQuery.h" line="87" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a8a263dd06bd8da65198fd2ea64702db0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::SimpleSectQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="146" bodyend="149"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ada5db8b4ad59c9d200e2f43b3d59012b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::SimpleSectQuery::empty</definition>
@@ -93,18 +80,84 @@
         <location file="Tools/Doxygen/SimpleSectQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="161" bodyend="164"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a9919d6ce4fcc77a3794ef0655faa8dc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::SimpleSectQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::SimpleSectQuery::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="151" bodyend="154"/>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="141" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a1fa4794de87e9323217d873485f373b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ad" kindref="member">DoxSimpleSectKindEnum</ref></type>
+        <definition>DoxSimpleSectKindEnum MdDox::Doxygen::SimpleSectQuery::getKind</definition>
+        <argsstring>() const</argsstring>
+        <name>getKind</name>
+        <briefdescription>
+<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="126" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="53" bodyend="58"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind_1acd37d1a8bbcc5d31a274aa75a3775c09" compoundref="DoxSimpleSectKind_8cpp" startline="30" endline="67">MdDox::Doxygen::DoxSimpleSectKind::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a83ebef4a7b83a68615015c34e6a2a3a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::SimpleSectQuery::getTitle</definition>
+        <argsstring>(TitleQuery &amp;dest) const</argsstring>
+        <name>getTitle</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="131" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="60" bodyend="69"/>
+        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4e06b13a48a3c9978b220243559ffdf1" compoundref="SimpleSectQuery_8h" startline="156" endline="159">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ab7952e230de866632cadcf3537e87fce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
+        <definition>TitleQuery MdDox::Doxygen::SimpleSectQuery::getTitle</definition>
+        <argsstring>() const</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="136" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a8a263dd06bd8da65198fd2ea64702db0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::SimpleSectQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="146" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4e06b13a48a3c9978b220243559ffdf1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +171,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/SimpleSectQuery.h" line="107" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::SimpleSectQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="151" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a11c19a92ef7dd7be43b1973a9454a137" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -179,72 +245,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor_1a3d6667311037a3cef91e56a1b2131372" compoundref="SimpleSectQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor_1ac1f9e7a8c397e3f03f149ec79ee4fdb3" compoundref="SimpleSectQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedParagraph</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor_1a0b8380f630ffe7fe0f91bd47324d477a" compoundref="SimpleSectQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedTitle</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a1fa4794de87e9323217d873485f373b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ad" kindref="member">DoxSimpleSectKindEnum</ref></type>
-        <definition>DoxSimpleSectKindEnum MdDox::Doxygen::SimpleSectQuery::getKind</definition>
-        <argsstring>() const</argsstring>
-        <name>getKind</name>
-        <briefdescription>
-<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="126" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="53" bodyend="58"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind_1acd37d1a8bbcc5d31a274aa75a3775c09" compoundref="DoxSimpleSectKind_8cpp" startline="30" endline="67">MdDox::Doxygen::DoxSimpleSectKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a83ebef4a7b83a68615015c34e6a2a3a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::SimpleSectQuery::getTitle</definition>
-        <argsstring>(TitleQuery &amp;dest) const</argsstring>
-        <name>getTitle</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="131" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="60" bodyend="69"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a4e06b13a48a3c9978b220243559ffdf1" compoundref="SimpleSectQuery_8h" startline="156" endline="159">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1ab7952e230de866632cadcf3537e87fce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
-        <definition>TitleQuery MdDox::Doxygen::SimpleSectQuery::getTitle</definition>
-        <argsstring>() const</argsstring>
-        <name>getTitle</name>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="136" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="71" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a9919d6ce4fcc77a3794ef0655faa8dc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::SimpleSectQuery::foreachParagraph</definition>
-        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParagraph</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SimpleSectQuery.h" line="141" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.cpp" bodystart="78" bodyend="81"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

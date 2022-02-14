@@ -27,6 +27,10 @@
 <img src="../images/internal-diagram-60.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
+<span class="icon-list-item"><a href="#_filter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filter</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#_labels" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_labels</span>
 </a>
 </span>
@@ -39,21 +43,25 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_filter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filter</span>
+<a id="private-methods"></a>
+<h2>Private Methods</h2>
+<span class="icon-list-item"><a href="#createtag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">createTag</span>
 </a>
 </span>
 <br/>
-<a id="private-methods"></a>
-<h2>Private Methods</h2>
+<span class="icon-list-item"><a href="#droprule" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">dropRule</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#parseerrormessageimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorMessageImpl</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#parseimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#ruleattributelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleAttributeList</span>
+<span class="icon-list-item"><a href="#reducerule" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reduceRule</span>
 </a>
 </span>
 <br/>
@@ -61,11 +69,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#ruleobject" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleObject</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#rulestarttag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleStartTag</span>
+<span class="icon-list-item"><a href="#ruleattributelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleAttributeList</span>
 </a>
 </span>
 <br/>
@@ -77,7 +81,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#rulexmlroot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleXmlRoot</span>
+<span class="icon-list-item"><a href="#ruleobject" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleObject</span>
 </a>
 </span>
 <br/>
@@ -85,15 +89,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#createtag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">createTag</span>
+<span class="icon-list-item"><a href="#rulestarttag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleStartTag</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reducerule" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reduceRule</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#droprule" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">dropRule</span>
+<span class="icon-list-item"><a href="#rulexmlroot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ruleXmlRoot</span>
 </a>
 </span>
 <br/>
@@ -101,7 +101,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parseerrormessageimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorMessageImpl</span>
+<span class="icon-list-item"><a href="#writeimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
 </a>
 </span>
 <br/>
@@ -170,6 +170,18 @@
 </a>
 </span>
 <br/>
+<a id="_filter"></a>
+<h2>_filter</h2>
+<a href="namespaceMdDox.md#typefiltermap">TypeFilterMap</a>
+<span class="bold-text"><b>_filter</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="_labels"></a>
 <h2>_labels</h2>
 <a href="namespaceMdDox_1_1Xml.md#stringcache">StringCache</a>
@@ -207,14 +219,74 @@
 </span>
 <br/>
 <br/>
-<a id="_filter"></a>
-<h2>_filter</h2>
-<a href="namespaceMdDox.md#typefiltermap">TypeFilterMap</a>
-<span class="bold-text"><b>_filter</b></span>
-<br/>
+<a id="createtag"></a>
+<h2>createTag</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>createTag</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">name</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="droprule"></a>
+<h2>dropRule</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>dropRule</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="parseerrormessageimpl"></a>
+<h2>parseErrorMessageImpl</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>parseErrorMessageImpl</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">message</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
 <br/>
@@ -250,6 +322,177 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L341" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reducerule"></a>
+<h2>reduceRule</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>reduceRule</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ruleattribute"></a>
+<h2>ruleAttribute</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleAttribute</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ruleattributelist"></a>
+<h2>ruleAttributeList</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleAttributeList</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="rulecontent"></a>
+<h2>ruleContent</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleContent</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L246" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ruleendtag"></a>
+<h2>ruleEndTag</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleEndTag</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L269" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ruleobject"></a>
+<h2>ruleObject</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleObject</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L306" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ruleobjectlist"></a>
+<h2>ruleObjectList</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleObjectList</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L320" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="rulestarttag"></a>
+<h2>ruleStartTag</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleStartTag</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L204" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="rulexmlroot"></a>
+<h2>ruleXmlRoot</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>ruleXmlRoot</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="top"></a>
+<h2>top</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>top</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
 <br/>
@@ -296,249 +539,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L367" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ruleattributelist"></a>
-<h2>ruleAttributeList</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleAttributeList</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ruleattribute"></a>
-<h2>ruleAttribute</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleAttribute</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ruleobject"></a>
-<h2>ruleObject</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleObject</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L306" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="rulestarttag"></a>
-<h2>ruleStartTag</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleStartTag</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L204" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="rulecontent"></a>
-<h2>ruleContent</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleContent</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L246" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ruleendtag"></a>
-<h2>ruleEndTag</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleEndTag</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L269" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="rulexmlroot"></a>
-<h2>ruleXmlRoot</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleXmlRoot</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ruleobjectlist"></a>
-<h2>ruleObjectList</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>ruleObjectList</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L320" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="createtag"></a>
-<h2>createTag</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>createTag</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">name</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="reducerule"></a>
-<h2>reduceRule</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>reduceRule</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="droprule"></a>
-<h2>dropRule</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>dropRule</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="top"></a>
-<h2>top</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>top</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="parseerrormessageimpl"></a>
-<h2>parseErrorMessageImpl</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>parseErrorMessageImpl</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">message</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.cpp#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
 <br/>

@@ -38,7 +38,7 @@ namespace MdDox {
  * The Parser is easy to use, just create an instance of the parser then invoke it's parse method.
  *
  * Internally, parse and syntax errors will throw an exception so it needs to be wrapped
- * in a try catch block. On a successful parse, the Parser::root() method will return the root node of the tree.
+ * in a try catch block. On a successful parse, the root method will return the root node of the tree.
  *
  * The following example shows how to use it.
  *

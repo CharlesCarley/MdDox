@@ -104,8 +104,8 @@
         </childnode>
       </node>
     </incdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SectionDefQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" prot="public">MdDox::Doxygen::SectionDefQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SectionDefQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

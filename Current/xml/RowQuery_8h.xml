@@ -108,8 +108,8 @@
         <label>Tools/Doxygen/RowQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1RowQueryVisitor" prot="public">MdDox::Doxygen::Visitors::RowQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1RowQuery" prot="public">MdDox::Doxygen::RowQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1RowQueryVisitor" prot="public">MdDox::Doxygen::Visitors::RowQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

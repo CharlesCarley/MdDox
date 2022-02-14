@@ -21,18 +21,6 @@
 <img src="../images/internal-diagram-25.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_stream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_stream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#_firstparam" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_firstParam</span>
 </a>
 </span>
@@ -45,37 +33,21 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_stream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_stream</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
+</a>
+</span>
+<br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#visitedreimplements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReImplements</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedreimplementedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReImplementedBy</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedenumvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedEnumValue</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedreferences" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReferences</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedreferencedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReferencedBy</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedtemplateparamlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTemplateParamList</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedinitializer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInitializer</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedexceptions" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedExceptions</span>
+<span class="icon-list-item"><a href="#opendetail" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">openDetail</span>
 </a>
 </span>
 <br/>
@@ -83,7 +55,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedtype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedType</span>
+<span class="icon-list-item"><a href="#visiteddetaileddescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDetailedDescription</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedenumvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedEnumValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedexceptions" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedExceptions</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedinitializer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInitializer</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedlocation" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLocation</span>
 </a>
 </span>
 <br/>
@@ -95,19 +83,31 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visiteddetaileddescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDetailedDescription</span>
+<span class="icon-list-item"><a href="#visitedreferencedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReferencedBy</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedlocation" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLocation</span>
+<span class="icon-list-item"><a href="#visitedreferences" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReferences</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedreimplementedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReImplementedBy</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedreimplements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedReImplements</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtemplateparamlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTemplateParamList</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedType</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#visitedwrite" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedWrite</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#opendetail" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">openDetail</span>
 </a>
 </span>
 <br/>
@@ -126,44 +126,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
-<br/>
-<a id="_writer"></a>
-<h2>_writer</h2>
-<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_writer</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_stream"></a>
-<h2>_stream</h2>
-<a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_stream</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_out"></a>
-<h2>_out</h2>
-<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
-<span class="bold-text"><b>_out</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="_firstparam"></a>
 <h2>_firstParam</h2>
@@ -201,306 +163,57 @@
 </span>
 <br/>
 <br/>
-<a id="visitedreimplements"></a>
-<h2>visitedReImplements</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedReImplements</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#doxygenreimplementquery">Doxygen::ReimplementQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>reimplements</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ReimplementQuery class. </span>
-</li>
-</ul>
+<a id="_out"></a>
+<h2>_out</h2>
+<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
+<span class="bold-text"><b>_out</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedreimplementedby"></a>
-<h2>visitedReImplementedBy</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedReImplementedBy</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#doxygenreimplementquery">Doxygen::ReimplementQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>reimplementedby</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ReimplementQuery class. </span>
-</li>
-</ul>
+<a id="_stream"></a>
+<h2>_stream</h2>
+<a href="namespaceMdDox.md#ostream">OStream</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_stream</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedenumvalue"></a>
-<h2>visitedEnumValue</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedEnumValue</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#doxygenenumvaluequery">Doxygen::EnumValueQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>enumvalue</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the EnumValueQuery class. </span>
-</li>
-</ul>
+<a id="_writer"></a>
+<h2>_writer</h2>
+<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_writer</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedreferences"></a>
-<h2>visitedReferences</h2>
+<a id="opendetail"></a>
+<h2>openDetail</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedReferences</b></span>
+<span class="bold-text"><b>openDetail</b></span>
 <span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#doxygenreferencequery">Doxygen::ReferenceQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>references</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ReferenceQuery class. </span>
-</li>
-</ul>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedreferencedby"></a>
-<h2>visitedReferencedBy</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedReferencedBy</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#doxygenreferencequery">Doxygen::ReferenceQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>referencedby</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ReferenceQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedtemplateparamlist"></a>
-<h2>visitedTemplateParamList</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedTemplateParamList</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#doxygentemplateparamlistquery">Doxygen::TemplateParamListQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>templateparamlist</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the TemplateParamListQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedinitializer"></a>
-<h2>visitedInitializer</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedInitializer</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#doxygenlinkedtextquery">Doxygen::LinkedTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>initializer</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the LinkedTextQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedexceptions"></a>
-<h2>visitedExceptions</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedExceptions</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#doxygenlinkedtextquery">Doxygen::LinkedTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>exceptions</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the LinkedTextQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -543,10 +256,86 @@
 </span>
 <br/>
 <br/>
-<a id="visitedtype"></a>
-<h2>visitedType</h2>
+<a id="visiteddetaileddescription"></a>
+<h2>visitedDetailedDescription</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedType</b></span>
+<span class="bold-text"><b>visitedDetailedDescription</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>detaileddescription</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the DescriptionQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedenumvalue"></a>
+<h2>visitedEnumValue</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedEnumValue</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#doxygenenumvaluequery">Doxygen::EnumValueQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>enumvalue</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the EnumValueQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedexceptions"></a>
+<h2>visitedExceptions</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedExceptions</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
@@ -559,7 +348,7 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>type</b></span>
+<span class="bold-text"><b>exceptions</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
@@ -572,11 +361,87 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedinitializer"></a>
+<h2>visitedInitializer</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedInitializer</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#doxygenlinkedtextquery">Doxygen::LinkedTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>initializer</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the LinkedTextQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedlocation"></a>
+<h2>visitedLocation</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedLocation</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#doxygenlocationquery">Doxygen::LocationQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>location</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the LocationQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -657,14 +522,14 @@
 </span>
 <br/>
 <br/>
-<a id="visiteddetaileddescription"></a>
-<h2>visitedDetailedDescription</h2>
+<a id="visitedreferencedby"></a>
+<h2>visitedReferencedBy</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedDetailedDescription</b></span>
+<span class="bold-text"><b>visitedReferencedBy</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#doxygenreferencequery">Doxygen::ReferenceQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -673,36 +538,36 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>detaileddescription</b></span>
+<span class="bold-text"><b>referencedby</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the DescriptionQuery class. </span>
+<span class="inline-text">Const reference to the ReferenceQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedlocation"></a>
-<h2>visitedLocation</h2>
+<a id="visitedreferences"></a>
+<h2>visitedReferences</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedLocation</b></span>
+<span class="bold-text"><b>visitedReferences</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#doxygenlocationquery">Doxygen::LocationQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#doxygenreferencequery">Doxygen::ReferenceQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -711,24 +576,176 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>location</b></span>
+<span class="bold-text"><b>references</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the LocationQuery class. </span>
+<span class="inline-text">Const reference to the ReferenceQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedreimplementedby"></a>
+<h2>visitedReImplementedBy</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedReImplementedBy</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#doxygenreimplementquery">Doxygen::ReimplementQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>reimplementedby</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the ReimplementQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedreimplements"></a>
+<h2>visitedReImplements</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedReImplements</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#doxygenreimplementquery">Doxygen::ReimplementQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>reimplements</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the ReimplementQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtemplateparamlist"></a>
+<h2>visitedTemplateParamList</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedTemplateParamList</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#doxygentemplateparamlistquery">Doxygen::TemplateParamListQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>templateparamlist</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the TemplateParamListQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtype"></a>
+<h2>visitedType</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedType</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#doxygenlinkedtextquery">Doxygen::LinkedTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>type</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the LinkedTextQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -767,23 +784,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="opendetail"></a>
-<h2>openDetail</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>openDetail</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/FunctionDefWriter.cpp#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter.cpp</span>
 </a>
 </span>
 <br/>

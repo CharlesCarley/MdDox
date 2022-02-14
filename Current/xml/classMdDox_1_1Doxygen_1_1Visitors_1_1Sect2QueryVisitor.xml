@@ -18,21 +18,30 @@
         </inbodydescription>
         <location file="Tools/Doxygen/Sect2Query.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1af357519b043deae94fbe826659d6ec43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1a3eb703b292139bf92abd54b72e78a082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::Sect2QueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect2QueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalS2Query &amp;query)</argsstring>
+        <name>visitedInternal</name>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Sect2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/Sect2Query.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/Sect2Query.h" line="53" column="1" bodyfile="Tools/Doxygen/Sect2Query.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1ad8bf89334e0526fb58c64528a651664b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -86,30 +95,21 @@
         </inbodydescription>
         <location file="Tools/Doxygen/Sect2Query.h" line="48" column="1" bodyfile="Tools/Doxygen/Sect2Query.h" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1a3eb703b292139bf92abd54b72e78a082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1af357519b043deae94fbe826659d6ec43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::Sect2QueryVisitor::visitedInternal</definition>
-        <argsstring>(const InternalS2Query &amp;query)</argsstring>
-        <name>visitedInternal</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect2QueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> &amp;</type>
-          <declname>query</declname>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
         </param>
         <briefdescription>
-<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Sect2Query.h" line="53" column="1" bodyfile="Tools/Doxygen/Sect2Query.h" bodystart="53" bodyend="53"/>
+        <location file="Tools/Doxygen/Sect2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/Sect2Query.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor_1ac14c482a0c5e1efafee4a353b65896a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>

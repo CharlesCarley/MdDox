@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D0EEtt8[
+ Dy4MIlG[
    shape    = none
    label    = "ParaQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DwhEtt8[
+ qR2MIlG[
    shape    = none
    label    = "ParagraphWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D0EEtt8->DwhEtt8
+ Dy4MIlG->qR2MIlG
 }

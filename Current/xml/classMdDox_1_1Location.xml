@@ -87,19 +87,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Location.h" line="42" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="53" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Location_1afabe32817cf768601218030e409a01ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1SourceFile" kindref="compound">SourceFile</ref> &amp;</type>
-        <definition>SourceFile &amp; MdDox::Location::getSource</definition>
-        <argsstring>()</argsstring>
-        <name>getSource</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/Location.h" line="44" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="58" bodyend="61"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Location_1ade484d038c895bd9b6fc1b4cade4fc81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMdDox_1_1SourceFile" kindref="compound">SourceFile</ref> &amp;</type>
         <definition>const SourceFile &amp; MdDox::Location::getHeader</definition>
@@ -112,19 +99,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Location.h" line="46" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="63" bodyend="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Location_1aa359f486ccb2068af9f6d60cecdfa95f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMdDox_1_1SourceFile" kindref="compound">SourceFile</ref> &amp;</type>
-        <definition>const SourceFile &amp; MdDox::Location::getSource</definition>
-        <argsstring>() const</argsstring>
-        <name>getSource</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/Location.h" line="48" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="73" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Location_1a83d6f121e6d70ec14cc9baba67b2fa95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1RepoFile" kindref="compound">RepoFile</ref></type>
@@ -139,6 +113,32 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Location.h" line="50" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="68" bodyend="71"/>
         <references refid="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" compoundref="SourceFile_8h" startline="61" endline="64">MdDox::SourceFile::repoFile</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Location_1afabe32817cf768601218030e409a01ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1SourceFile" kindref="compound">SourceFile</ref> &amp;</type>
+        <definition>SourceFile &amp; MdDox::Location::getSource</definition>
+        <argsstring>()</argsstring>
+        <name>getSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Location.h" line="44" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Location_1aa359f486ccb2068af9f6d60cecdfa95f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMdDox_1_1SourceFile" kindref="compound">SourceFile</ref> &amp;</type>
+        <definition>const SourceFile &amp; MdDox::Location::getSource</definition>
+        <argsstring>() const</argsstring>
+        <name>getSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Location.h" line="48" column="1" bodyfile="Source/MdDoxTree/Location.h" bodystart="73" bodyend="76"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

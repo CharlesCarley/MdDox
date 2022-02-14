@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dr79tt8[
+ dfLhIlG[
    shape    = none
    label    = "Sect4QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WEz9tt8[
+ dxLhIlG[
    shape    = none
    label    = "Section4Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dr79tt8->WEz9tt8
+ dfLhIlG->dxLhIlG
 }

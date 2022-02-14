@@ -4,19 +4,6 @@
     <compoundname>MdDox::DotWriter</compoundname>
     <includes local="no">Source/MdDoxTree/DotWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
-        <definition>Xml::Node* MdDox::DotWriter::_root</definition>
-        <argsstring></argsstring>
-        <name>_root</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1DotWriter_1a585c3990952f96aa81a05b6771b26f29" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref> *</type>
         <definition>Xml::NodeArray* MdDox::DotWriter::_list</definition>
@@ -29,6 +16,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DotWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1DotWriter_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::DotWriter::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

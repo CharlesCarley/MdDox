@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/SpQuery.h" line="57" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a82f646a7dbb3e062892eb1db21457560" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::SpQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SpQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="98" bodyend="101"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a9d4ef74b9df697494bb798e1c2bf62a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::SpQuery::empty</definition>
@@ -93,18 +80,37 @@
         <location file="Tools/Doxygen/SpQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="113" bodyend="116"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a39659944a81ba2c551844003ece208e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::SpQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a81bfe6e403a856718e52cd5702e602cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::SpQuery::getValue</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Provides access to the <bold>value</bold> attribute. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SpQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="103" bodyend="106"/>
+        <location file="Tools/Doxygen/SpQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/SpQuery.cpp" bodystart="28" bodyend="31"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a82f646a7dbb3e062892eb1db21457560" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::SpQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a042a07a25c4cf963c9d48044675e543c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +124,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/SpQuery.h" line="77" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a39659944a81ba2c551844003ece208e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::SpQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="103" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a943cba94b27f44b1ebe0f52aa1bc8715" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -157,25 +176,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/SpQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/SpQuery.cpp" bodystart="35" bodyend="38"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SpQuery_1a81bfe6e403a856718e52cd5702e602cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>int64_t</type>
-        <definition>int64_t MdDox::Doxygen::SpQuery::getValue</definition>
-        <argsstring>(int64_t def=-1) const</argsstring>
-        <name>getValue</name>
-        <param>
-          <type>int64_t</type>
-          <declname>def</declname>
-          <defval>-1</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>value</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SpQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/SpQuery.cpp" bodystart="28" bodyend="31"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

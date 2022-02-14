@@ -41,23 +41,6 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMdDox_1_1Cache_1a90a267a336965f3e7bd2a9c3ff44cb2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Cache&lt; T &gt;::save</definition>
-        <argsstring>(const T &amp;value)</argsstring>
-        <name>save</name>
-        <param>
-          <type>const T &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="147" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="147" bodyend="153"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Cache_1aa75a1518122d0b18639d0a50a04b6ac4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Cache&lt; T &gt;::exists</definition>
@@ -74,6 +57,23 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="155" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Cache_1a90a267a336965f3e7bd2a9c3ff44cb2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Cache&lt; T &gt;::save</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>save</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="147" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="147" bodyend="153"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

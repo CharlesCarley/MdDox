@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/MemberDefListingWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1MemberDefListingWriter_1ae332c1e89c43033b4e961edf9f5b98f4" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::MemberDefListingWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1MemberDefListingWriter_1a31e945bfe890ee3662b6fea52a64d194" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::MemberDefListingWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1MemberDefListingWriter_1aac6450f3adc149ce3bb8002bdcdab7b1" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,18 +31,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1MemberDefListingWriter_1a31e945bfe890ee3662b6fea52a64d194" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::MemberDefListingWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1MemberDefListingWriter_1ae332c1e89c43033b4e961edf9f5b98f4" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::MemberDefListingWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">

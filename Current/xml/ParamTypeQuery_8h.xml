@@ -108,8 +108,8 @@
         <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamTypeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery" prot="public">MdDox::Doxygen::ParamTypeQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamTypeQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

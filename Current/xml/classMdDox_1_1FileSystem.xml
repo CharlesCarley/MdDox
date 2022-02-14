@@ -4,6 +4,50 @@
     <compoundname>MdDox::FileSystem</compoundname>
     <includes local="no">Source/Utils/FileSystem.h</includes>
       <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref></type>
+        <definition>Path MdDox::FileSystem::absolute</definition>
+        <argsstring>(const String &amp;input)</argsstring>
+        <name>absolute</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="43" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="63" bodyend="75"/>
+        <references refid="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" compoundref="FileSystem_8h" startline="46" endline="51">combine</references>
+        <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="41" endline="56">normalize</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref></type>
+        <definition>static Path MdDox::FileSystem::combine</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>combine</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="46" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="46" bodyend="51"/>
+        <references refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" compoundref="FileSystem_8cpp" startline="63" endline="75">absolute</references>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1FileSystem_1a8e01d0caf20c40e6f960072e3e786172" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::FileSystem::glob</definition>
@@ -65,50 +109,6 @@
         </inbodydescription>
         <location file="Source/Utils/FileSystem.h" line="41" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="58" bodyend="61"/>
         <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="41" endline="56">normalize</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref></type>
-        <definition>Path MdDox::FileSystem::absolute</definition>
-        <argsstring>(const String &amp;input)</argsstring>
-        <name>absolute</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="43" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="63" bodyend="75"/>
-        <references refid="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" compoundref="FileSystem_8h" startline="46" endline="51">combine</references>
-        <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="41" endline="56">normalize</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1FileSystem_1a12082204b0c541d2104da9a0ae37a513" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type><ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref></type>
-        <definition>static Path MdDox::FileSystem::combine</definition>
-        <argsstring>(Args &amp;&amp;... args)</argsstring>
-        <name>combine</name>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="46" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="46" bodyend="51"/>
-        <references refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" compoundref="FileSystem_8cpp" startline="63" endline="75">absolute</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

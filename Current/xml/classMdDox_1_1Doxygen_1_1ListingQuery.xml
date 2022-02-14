@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ListingQuery.h" line="78" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1af595e19cc888b5a0401ecced124e7628" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::ListingQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListingQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="128" bodyend="131"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1a64ab11dad9dc2eb5b2c5e0a5f3d9c025" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::ListingQuery::empty</definition>
@@ -93,18 +80,55 @@
         <location file="Tools/Doxygen/ListingQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="143" bodyend="146"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1aa351e41769387e5ff302cce906f2d715" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::ListingQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::ListingQuery::foreachCodeLine</definition>
+        <argsstring>(const CodeLineQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachCodeLine</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a8ba80d0e92051680d25804196a1e87dc" kindref="member">CodeLineQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>codeline</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ListingQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="133" bodyend="136"/>
+        <location file="Tools/Doxygen/ListingQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/ListingQuery.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1aacb6082a859da49c541137fdcdc12824" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ListingQuery::getFileName</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getFileName</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>filename</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>filename</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListingQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/ListingQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1af595e19cc888b5a0401ecced124e7628" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::ListingQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListingQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1a1d33d5c8e8a201f88c9c0335d371a5df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +142,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ListingQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ListingQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListingQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1a1a9970dd81c036405087718e1a165e01" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,43 +215,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor_1a1bf112d117f886905889469fa9a8923d" compoundref="ListingQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::ListingQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor_1a315221230fd817c4598cdc400eac145b" compoundref="ListingQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::ListingQueryVisitor::visitedCodeLine</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1aacb6082a859da49c541137fdcdc12824" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::ListingQuery::getFileName</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getFileName</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>filename</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>filename</bold> enumerated value or an empty string the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListingQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/ListingQuery.cpp" bodystart="49" bodyend="54"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ListingQuery_1aa351e41769387e5ff302cce906f2d715" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ListingQuery::foreachCodeLine</definition>
-        <argsstring>(const CodeLineQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachCodeLine</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a8ba80d0e92051680d25804196a1e87dc" kindref="member">CodeLineQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>codeline</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListingQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/ListingQuery.cpp" bodystart="56" bodyend="59"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

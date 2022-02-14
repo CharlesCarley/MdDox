@@ -20,44 +20,18 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a47ef3a2580edebdbf164ad303804d875" prot="private" static="no" mutable="yes">
-        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
-        <definition>ReferenceMap MdDox::SiteBuilder::_ids</definition>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a59232660bea40b74e4e4b60b39003f5a" prot="private" static="no" mutable="yes">
+        <type><ref refid="classMdDox_1_1Config" kindref="compound">Config</ref></type>
+        <definition>Config MdDox::SiteBuilder::_dot</definition>
         <argsstring></argsstring>
-        <name>_ids</name>
+        <name>_dot</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="88" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" prot="private" static="no" mutable="yes">
-        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
-        <definition>ReferenceMap MdDox::SiteBuilder::_names</definition>
-        <argsstring></argsstring>
-        <name>_names</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="89" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" prot="private" static="no" mutable="yes">
-        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
-        <definition>ReferenceMap MdDox::SiteBuilder::_members</definition>
-        <argsstring></argsstring>
-        <name>_members</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="90" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="90" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="92" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a07b8222cb15ac8e3748c832e6c878a07" prot="private" static="no" mutable="yes">
         <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
@@ -72,21 +46,60 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="91" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="91" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a59232660bea40b74e4e4b60b39003f5a" prot="private" static="no" mutable="yes">
-        <type><ref refid="classMdDox_1_1Config" kindref="compound">Config</ref></type>
-        <definition>Config MdDox::SiteBuilder::_dot</definition>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a47ef3a2580edebdbf164ad303804d875" prot="private" static="no" mutable="yes">
+        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
+        <definition>ReferenceMap MdDox::SiteBuilder::_ids</definition>
         <argsstring></argsstring>
-        <name>_dot</name>
+        <name>_ids</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="92" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="92" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="88" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" prot="private" static="no" mutable="yes">
+        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
+        <definition>ReferenceMap MdDox::SiteBuilder::_members</definition>
+        <argsstring></argsstring>
+        <name>_members</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="90" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" prot="private" static="no" mutable="yes">
+        <type><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member">ReferenceMap</ref></type>
+        <definition>ReferenceMap MdDox::SiteBuilder::_names</definition>
+        <argsstring></argsstring>
+        <name>_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="89" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::baseUrl</definition>
+        <argsstring></argsstring>
+        <name>baseUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="195" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1aa8528c516b08e52edc47724156b27b44" prot="public" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MdDox::SiteBuilder::hidePrivate</definition>
@@ -115,32 +128,135 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="146" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="146" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a65fd9f3daae987d541cc4cb9b7b5e2b3" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::SiteBuilder::skipUndocumented</definition>
-        <argsstring></argsstring>
-        <name>skipUndocumented</name>
-        <initializer>{true}</initializer>
-        <briefdescription>
-<para>Allows undocumented objects to be skipped. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="151" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="151" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::projectTitle</definition>
+        <definition>String MdDox::SiteBuilder::imageDir</definition>
         <argsstring></argsstring>
-        <name>projectTitle</name>
+        <name>imageDir</name>
         <briefdescription>
-<para>Defines a title for the current project. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="156" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="156" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="175" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" prot="public" static="no" mutable="yes">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::indexName</definition>
+        <argsstring></argsstring>
+        <name>indexName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="209" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::inputDir</definition>
+        <argsstring></argsstring>
+        <name>inputDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="180" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a1b31649510d3b826c0e43d04005a6544" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::navClassName</definition>
+        <argsstring></argsstring>
+        <name>navClassName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="211" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a68b30659e6fea84606af7318bca4aab9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::navDirectoryName</definition>
+        <argsstring></argsstring>
+        <name>navDirectoryName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="215" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a68222fdaf2ea16445744263e30d4fcfd" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::navNamespaceBar</definition>
+        <argsstring></argsstring>
+        <name>navNamespaceBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="214" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a7e29b116661fdd3ce8b8127f51160bd0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::navNamespaceName</definition>
+        <argsstring></argsstring>
+        <name>navNamespaceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="213" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a8a85fb51af1b9083ddfc67deb628e26c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::navPageName</definition>
+        <argsstring></argsstring>
+        <name>navPageName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="212" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::outputDir</definition>
+        <argsstring></argsstring>
+        <name>outputDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="185" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::outputFileExt</definition>
+        <argsstring></argsstring>
+        <name>outputFileExt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="171" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -168,83 +284,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="166" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="166" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::outputFileExt</definition>
+        <definition>String MdDox::SiteBuilder::projectTitle</definition>
         <argsstring></argsstring>
-        <name>outputFileExt</name>
+        <name>projectTitle</name>
         <briefdescription>
-        </briefdescription>
+<para>Defines a title for the current project. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="171" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="171" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::imageDir</definition>
-        <argsstring></argsstring>
-        <name>imageDir</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="175" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="175" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::inputDir</definition>
-        <argsstring></argsstring>
-        <name>inputDir</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="180" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="180" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::outputDir</definition>
-        <argsstring></argsstring>
-        <name>outputDir</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="185" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="185" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::siteUrl</definition>
-        <argsstring></argsstring>
-        <name>siteUrl</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="190" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="190" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1aca2e68137bb792a48d63f06800604827" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::baseUrl</definition>
-        <argsstring></argsstring>
-        <name>baseUrl</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="195" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="195" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="156" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
@@ -273,6 +324,33 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="205" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="205" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::siteUrl</definition>
+        <argsstring></argsstring>
+        <name>siteUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="190" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a65fd9f3daae987d541cc4cb9b7b5e2b3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::SiteBuilder::skipUndocumented</definition>
+        <argsstring></argsstring>
+        <name>skipUndocumented</name>
+        <initializer>{true}</initializer>
+        <briefdescription>
+<para>Allows undocumented objects to be skipped. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="151" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::SiteBuilder::styleSheet</definition>
@@ -285,84 +363,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="207" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="207" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" prot="public" static="no" mutable="yes">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::indexName</definition>
-        <argsstring></argsstring>
-        <name>indexName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="209" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="209" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a1b31649510d3b826c0e43d04005a6544" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::navClassName</definition>
-        <argsstring></argsstring>
-        <name>navClassName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="211" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="211" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a8a85fb51af1b9083ddfc67deb628e26c" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::navPageName</definition>
-        <argsstring></argsstring>
-        <name>navPageName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="212" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="212" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a7e29b116661fdd3ce8b8127f51160bd0" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::navNamespaceName</definition>
-        <argsstring></argsstring>
-        <name>navNamespaceName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="213" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="213" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a68222fdaf2ea16445744263e30d4fcfd" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::navNamespaceBar</definition>
-        <argsstring></argsstring>
-        <name>navNamespaceBar</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="214" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="214" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a68b30659e6fea84606af7318bca4aab9" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::navDirectoryName</definition>
-        <argsstring></argsstring>
-        <name>navDirectoryName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="215" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="215" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -451,6 +451,72 @@
         <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="189" endline="240">MdDox::IndexPageWriter::exec</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="185">outputDir</references>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::SiteBuilder::findMember</definition>
+        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
+        <name>findMember</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>defaultValue</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="128" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::SiteBuilder::findName</definition>
+        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
+        <name>findName</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>defaultValue</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="126" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="181" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::SiteBuilder::findReference</definition>
+        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
+        <name>findReference</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>defaultValue</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="124" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="173" bodyend="179"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1aff60d2bb28f0f7709b0e45f1cb494f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::SiteBuilder::loadConfig</definition>
@@ -522,6 +588,26 @@
         <location file="Source/MdDoxTree/SiteBuilder.h" line="115" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="134" bodyend="157"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SiteBuilder::registerDot</definition>
+        <argsstring>(const String &amp;text) const</argsstring>
+        <name>registerDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="130" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="197" bodyend="207"/>
+        <references refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" compoundref="Config_8cpp" startline="211" endline="214">MdDox::Config::attributes</references>
+        <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::SiteBuilder::registerMember</definition>
@@ -543,92 +629,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.h" line="121" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="159" bodyend="171"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::SiteBuilder::findReference</definition>
-        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
-        <name>findReference</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>defaultValue</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="124" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="173" bodyend="179"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::SiteBuilder::findName</definition>
-        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
-        <name>findName</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>defaultValue</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="126" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="181" bodyend="187"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::SiteBuilder::findMember</definition>
-        <argsstring>(const String &amp;name, const String &amp;defaultValue=&quot;&quot;) const</argsstring>
-        <name>findMember</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>defaultValue</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="128" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="189" bodyend="195"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SiteBuilder::registerDot</definition>
-        <argsstring>(const String &amp;text) const</argsstring>
-        <name>registerDot</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="130" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="197" bodyend="207"/>
-        <references refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" compoundref="Config_8cpp" startline="211" endline="214">MdDox::Config::attributes</references>
-        <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">

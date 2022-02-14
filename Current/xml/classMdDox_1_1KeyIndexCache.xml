@@ -12,19 +12,6 @@
       </param>
     </templateparamlist>
       <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="classMdDox_1_1KeyIndexCache_1aa88b20de0749e38302b6bc2c32dc651d" prot="public" static="no">
-        <type>std::unordered_map&lt; Key, size_t &gt;</type>
-        <definition>typedef std::unordered_map&lt;Key, size_t&gt; MdDox::KeyIndexCache&lt; Key, Value &gt;::Table</definition>
-        <argsstring></argsstring>
-        <name>Table</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="166" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="166" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="classMdDox_1_1KeyIndexCache_1a9f57af0f03626569c6eda2ae40c4ccae" prot="public" static="no">
         <type>std::vector&lt; Value &gt;</type>
         <definition>typedef std::vector&lt;Value&gt; MdDox::KeyIndexCache&lt; Key, Value &gt;::Array</definition>
@@ -37,6 +24,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="167" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMdDox_1_1KeyIndexCache_1aa88b20de0749e38302b6bc2c32dc651d" prot="public" static="no">
+        <type>std::unordered_map&lt; Key, size_t &gt;</type>
+        <definition>typedef std::unordered_map&lt;Key, size_t&gt; MdDox::KeyIndexCache&lt; Key, Value &gt;::Table</definition>
+        <argsstring></argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="166" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -68,27 +68,6 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a7fae4b84bbe5f79530d6019454f1d36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MdDox::KeyIndexCache&lt; Key, Value &gt;::insert</definition>
-        <argsstring>(const Key &amp;key, const Value &amp;value)</argsstring>
-        <name>insert</name>
-        <param>
-          <type>const Key &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>const Value &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="174" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="174" bodyend="190"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1aa1d778046a9a099a4eeaea9bcc395850" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::KeyIndexCache&lt; Key, Value &gt;::at</definition>
@@ -127,6 +106,32 @@
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="200" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="200" bodyend="205"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a3f8c410b767ad624a796cd5426e3d820" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Array::const_iterator</type>
+        <definition>Array::const_iterator MdDox::KeyIndexCache&lt; Key, Value &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="239" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a392af638a606b9c2a2050410694a869f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::KeyIndexCache&lt; Key, Value &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="233" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="233" bodyend="237"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a976c0c972f39a8550935cb6fd2575a19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::KeyIndexCache&lt; Key, Value &gt;::contains</definition>
@@ -161,6 +166,19 @@
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="214" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="214" bodyend="218"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1ad969f9d678761c05d1094b7932f54265" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Array::const_iterator</type>
+        <definition>Array::const_iterator MdDox::KeyIndexCache&lt; Key, Value &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="244" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="244" bodyend="247"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a7bdc10d563bfb66a7b4e0c3affb484fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MdDox::KeyIndexCache&lt; Key, Value &gt;::find</definition>
@@ -178,6 +196,27 @@
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="220" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="220" bodyend="226"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a7fae4b84bbe5f79530d6019454f1d36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::KeyIndexCache&lt; Key, Value &gt;::insert</definition>
+        <argsstring>(const Key &amp;key, const Value &amp;value)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const Key &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="174" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="174" bodyend="190"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a595fbc7f9dae84f151e9a0d9b204d7b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MdDox::KeyIndexCache&lt; Key, Value &gt;::size</definition>
@@ -190,45 +229,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/IndexCache.h" line="228" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="228" bodyend="231"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a392af638a606b9c2a2050410694a869f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::KeyIndexCache&lt; Key, Value &gt;::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="233" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="233" bodyend="237"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a3f8c410b767ad624a796cd5426e3d820" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Array::const_iterator</type>
-        <definition>Array::const_iterator MdDox::KeyIndexCache&lt; Key, Value &gt;::begin</definition>
-        <argsstring>() const</argsstring>
-        <name>begin</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="239" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="239" bodyend="242"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1ad969f9d678761c05d1094b7932f54265" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>Array::const_iterator</type>
-        <definition>Array::const_iterator MdDox::KeyIndexCache&lt; Key, Value &gt;::end</definition>
-        <argsstring>() const</argsstring>
-        <name>end</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="244" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="244" bodyend="247"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

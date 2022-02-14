@@ -39,31 +39,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#sort" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">sort</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visit" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
 </a>
 </span>
 <br/>
@@ -76,6 +52,30 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sort" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">sort</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visit" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
 </a>
 </span>
 <br/>
@@ -162,24 +162,6 @@
 </span>
 <br/>
 <br/>
-<a id="isvalid"></a>
-<h2>isValid</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isValid</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Checks to see if the internal node is usable. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="empty"></a>
 <h2>empty</h2>
 <span class="inline-text">bool</span>
@@ -204,20 +186,128 @@
 </span>
 <br/>
 <br/>
-<a id="reset"></a>
-<h2>reset</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>reset</b></span>
+<a id="getdirection"></a>
+<h2>getDirection</h2>
+<a href="namespaceMdDox_1_1Doxygen.md#doxparamdirenum">DoxParamDirEnum</a>
+<span class="bold-text"><b>getDirection</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Resets the internal node pointer to null. </span>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>direction</b></span>
+<span class="inline-text"> element. </span>
+<br/>
+<br/>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">The </span>
+<span class="bold-text"><b>direction</b></span>
+<span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getref"></a>
+<h2>getRef</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getRef</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> attribute. </span>
+<br/>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getref"></a>
+<h2>getRef</h2>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="bold-text"><b>getRef</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> attribute. </span>
 <br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L94" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L67" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="isvalid"></a>
+<h2>isValid</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isValid</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Checks to see if the internal node is usable. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
 </a>
 </span>
 <br/>
@@ -237,6 +327,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L99" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reset"></a>
+<h2>reset</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>reset</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Resets the internal node pointer to null. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L94" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
 </a>
 </span>
 <br/>
@@ -361,114 +469,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getdirection"></a>
-<h2>getDirection</h2>
-<a href="namespaceMdDox_1_1Doxygen.md#doxparamdirenum">DoxParamDirEnum</a>
-<span class="bold-text"><b>getDirection</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>direction</b></span>
-<span class="inline-text"> element. </span>
-<br/>
-<br/>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">The </span>
-<span class="bold-text"><b>direction</b></span>
-<span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getref"></a>
-<h2>getRef</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getRef</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getref"></a>
-<h2>getRef</h2>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
-<span class="bold-text"><b>getRef</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamNameQuery.cpp#L67" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery.cpp</span>
 </a>
 </span>
 <br/>

@@ -5,6 +5,19 @@
     <basecompoundref refid="classMdDox_1_1ParserBase" prot="public" virt="non-virtual">MdDox::ParserBase</basecompoundref>
     <includes local="no">Source/Xml/Parser.h</includes>
       <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1ae8f8a0a808bded1f497d5a5daa997061" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref></type>
+        <definition>TypeFilterMap MdDox::Xml::Parser::_filter</definition>
+        <argsstring></argsstring>
+        <name>_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="124" column="1" bodyfile="Source/Xml/Parser.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1acbc5e5ac7a7c9bf774fb11df9f2182a1" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" kindref="member">StringCache</ref></type>
         <definition>StringCache MdDox::Xml::Parser::_labels</definition>
@@ -44,21 +57,60 @@
         </inbodydescription>
         <location file="Source/Xml/Parser.h" line="123" column="1" bodyfile="Source/Xml/Parser.h" bodystart="123" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1ae8f8a0a808bded1f497d5a5daa997061" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref></type>
-        <definition>TypeFilterMap MdDox::Xml::Parser::_filter</definition>
-        <argsstring></argsstring>
-        <name>_filter</name>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad942766c4eca0ec622d50f6568b2b336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node * MdDox::Xml::Parser::createTag</definition>
+        <argsstring>(const String &amp;name)</argsstring>
+        <name>createTag</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="124" column="1" bodyfile="Source/Xml/Parser.h" bodystart="124" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="156" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="68" bodyend="73"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad1864441af85d97d13e3a4cfdf843a28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::dropRule</definition>
+        <argsstring>()</argsstring>
+        <name>dropRule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="160" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="117" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a98dee9f1e397676429379b4f37f4a102" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::parseErrorMessageImpl</definition>
+        <argsstring>(String &amp;dest, const String &amp;message) override</argsstring>
+        <name>parseErrorMessageImpl</name>
+        <reimplements refid="classMdDox_1_1ParserBase_1a02bc2a2a593910851baa7ceabd40a2d7">parseErrorMessageImpl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="164" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="51" bodyend="66"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a30e57acd6ad20a321818d83d3b52a465" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::Xml::Parser::parseImpl</definition>
@@ -84,6 +136,136 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Xml/Parser.h" line="131" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="341" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a3a83b5ff3f9a6e9257dfd671f604cf7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::reduceRule</definition>
+        <argsstring>()</argsstring>
+        <name>reduceRule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="158" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="89" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a014417adb1e7747a33592a554eca041c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>ruleAttribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="142" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="145" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1acbd30a8a4a818bd4c91d582bbb792022" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleAttributeList</definition>
+        <argsstring>()</argsstring>
+        <name>ruleAttributeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="140" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="127" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a8c2c37cbbd7ca0025f4aa60adb06219c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleContent</definition>
+        <argsstring>()</argsstring>
+        <name>ruleContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="148" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="246" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a5b764186988b953ea67169d99ae4f673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleEndTag</definition>
+        <argsstring>()</argsstring>
+        <name>ruleEndTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="150" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="269" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ac1cd32ee5c88d45203045f07848c4805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleObject</definition>
+        <argsstring>()</argsstring>
+        <name>ruleObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="144" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="306" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aefe6d6b3ca82ac19c975afd53b51087d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleObjectList</definition>
+        <argsstring>()</argsstring>
+        <name>ruleObjectList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="154" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="320" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a1acf90cdb63ec33ca8317e1eb2e4416e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleStartTag</definition>
+        <argsstring>()</argsstring>
+        <name>ruleStartTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="146" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="204" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a91084c368850d513d76794e50c18427b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Parser::ruleXmlRoot</definition>
+        <argsstring>()</argsstring>
+        <name>ruleXmlRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="152" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="173" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afafe60ffe9140b8525ea320ffc76fc11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
+        <definition>Node &amp; MdDox::Xml::Parser::top</definition>
+        <argsstring>()</argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="162" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="75" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1adbc7b2e81049dbc50d276a24f0c6b55e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -122,188 +304,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Xml/Parser.h" line="138" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="367" bodyend="369"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1acbd30a8a4a818bd4c91d582bbb792022" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleAttributeList</definition>
-        <argsstring>()</argsstring>
-        <name>ruleAttributeList</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="140" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="127" bodyend="143"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a014417adb1e7747a33592a554eca041c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleAttribute</definition>
-        <argsstring>()</argsstring>
-        <name>ruleAttribute</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="142" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="145" bodyend="171"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ac1cd32ee5c88d45203045f07848c4805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleObject</definition>
-        <argsstring>()</argsstring>
-        <name>ruleObject</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="144" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="306" bodyend="318"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a1acf90cdb63ec33ca8317e1eb2e4416e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleStartTag</definition>
-        <argsstring>()</argsstring>
-        <name>ruleStartTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="146" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="204" bodyend="244"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a8c2c37cbbd7ca0025f4aa60adb06219c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleContent</definition>
-        <argsstring>()</argsstring>
-        <name>ruleContent</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="148" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="246" bodyend="267"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a5b764186988b953ea67169d99ae4f673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleEndTag</definition>
-        <argsstring>()</argsstring>
-        <name>ruleEndTag</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="150" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="269" bodyend="304"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a91084c368850d513d76794e50c18427b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleXmlRoot</definition>
-        <argsstring>()</argsstring>
-        <name>ruleXmlRoot</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="152" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="173" bodyend="202"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aefe6d6b3ca82ac19c975afd53b51087d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::ruleObjectList</definition>
-        <argsstring>()</argsstring>
-        <name>ruleObjectList</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="154" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="320" bodyend="339"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad942766c4eca0ec622d50f6568b2b336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
-        <definition>Node * MdDox::Xml::Parser::createTag</definition>
-        <argsstring>(const String &amp;name)</argsstring>
-        <name>createTag</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="156" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="68" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a3a83b5ff3f9a6e9257dfd671f604cf7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::reduceRule</definition>
-        <argsstring>()</argsstring>
-        <name>reduceRule</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="158" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="89" bodyend="115"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad1864441af85d97d13e3a4cfdf843a28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::dropRule</definition>
-        <argsstring>()</argsstring>
-        <name>dropRule</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="160" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="117" bodyend="125"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afafe60ffe9140b8525ea320ffc76fc11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
-        <definition>Node &amp; MdDox::Xml::Parser::top</definition>
-        <argsstring>()</argsstring>
-        <name>top</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="162" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="75" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a98dee9f1e397676429379b4f37f4a102" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Parser::parseErrorMessageImpl</definition>
-        <argsstring>(String &amp;dest, const String &amp;message) override</argsstring>
-        <name>parseErrorMessageImpl</name>
-        <reimplements refid="classMdDox_1_1ParserBase_1a02bc2a2a593910851baa7ceabd40a2d7">parseErrorMessageImpl</reimplements>
-        <param>
-          <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>message</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="164" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="51" bodyend="66"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

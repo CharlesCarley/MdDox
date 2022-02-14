@@ -95,8 +95,8 @@
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="structMdDox_1_1CommandLine_1_1Switch" prot="public">MdDox::CommandLine::Switch</innerclass>
     <innerclass refid="classMdDox_1_1CommandLine_1_1ParseOption" prot="public">MdDox::CommandLine::ParseOption</innerclass>
+    <innerclass refid="structMdDox_1_1CommandLine_1_1Switch" prot="public">MdDox::CommandLine::Switch</innerclass>
     <innernamespace refid="namespaceMdDox_1_1CommandLine">MdDox::CommandLine</innernamespace>
     <briefdescription>
     </briefdescription>

@@ -210,8 +210,8 @@
         </childnode>
       </node>
     </incdepgraph>
-    <innerclass refid="classMdDox_1_1NameListVisitor" prot="public">MdDox::NameListVisitor</innerclass>
     <innerclass refid="classMdDox_1_1ListItemVisitor" prot="public">MdDox::ListItemVisitor</innerclass>
+    <innerclass refid="classMdDox_1_1NameListVisitor" prot="public">MdDox::NameListVisitor</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>

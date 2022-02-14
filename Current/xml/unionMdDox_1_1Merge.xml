@@ -3,6 +3,19 @@
   <compounddef id="unionMdDox_1_1Merge" kind="union" language="C++" prot="public">
     <compoundname>MdDox::Merge</compoundname>
       <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionMdDox_1_1Merge_1a9b71915964768f4d254bad795d80dbd5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t MdDox::Merge::b[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.cpp" line="232" column="1" bodyfile="Source/Utils/String.cpp" bodystart="232" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="unionMdDox_1_1Merge_1ae3f5124be758d5c50a6afd8e34347d7c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
         <definition>uint32_t MdDox::Merge::i</definition>
@@ -16,19 +29,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/String.cpp" line="231" column="1" bodyfile="Source/Utils/String.cpp" bodystart="231" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="unionMdDox_1_1Merge_1a9b71915964768f4d254bad795d80dbd5" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MdDox::Merge::b[8]</definition>
-        <argsstring>[8]</argsstring>
-        <name>b</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="232" column="1" bodyfile="Source/Utils/String.cpp" bodystart="232" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

@@ -43,19 +43,19 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSource</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#getheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getHeader</span>
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#getrepofile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRepoFile</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#getsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSource</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getrepofile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRepoFile</span>
+<span class="icon-list-item"><a href="#getsource" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSource</span>
 </a>
 </span>
 <br/>
@@ -145,20 +145,6 @@
 </span>
 <br/>
 <br/>
-<a id="getsource"></a>
-<h2>getSource</h2>
-<a href="classMdDox_1_1SourceFile.md#sourcefile">SourceFile</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="getheader"></a>
 <h2>getHeader</h2>
 <span class="inline-text">const </span>
@@ -170,21 +156,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsource"></a>
-<h2>getSource</h2>
-<span class="inline-text">const </span>
-<a href="classMdDox_1_1SourceFile.md#sourcefile">SourceFile</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getSource</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
 </a>
 </span>
 <br/>
@@ -204,6 +175,35 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getsource"></a>
+<h2>getSource</h2>
+<a href="classMdDox_1_1SourceFile.md#sourcefile">SourceFile</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getsource"></a>
+<h2>getSource</h2>
+<span class="inline-text">const </span>
+<a href="classMdDox_1_1SourceFile.md#sourcefile">SourceFile</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getSource</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Location.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Location.h</span>
 </a>
 </span>
 <br/>

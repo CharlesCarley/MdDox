@@ -6,18 +6,19 @@
     <derivedcompoundref refid="classMdDox_1_1GenApi_1_1Object" prot="public" virt="non-virtual">MdDox::GenApi::Object</derivedcompoundref>
     <includes local="no">Source/Xml/Writer.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a9131df5823d67bb98dbb74cb8701ffbf" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
-        <definition>Node* MdDox::Xml::Writer::_root</definition>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a26fc5a1d807d7ec6a5a73098de2e5c9b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MdDox::Xml::Writer::_indent</definition>
         <argsstring></argsstring>
-        <name>_root</name>
+        <name>_indent</name>
+        <initializer>{0}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Writer.h" line="37" column="1" bodyfile="Source/Xml/Writer.h" bodystart="37" bodyend="-1"/>
+        <location file="Source/Xml/Writer.h" line="39" column="1" bodyfile="Source/Xml/Writer.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a06512fccab73ff661c2660b5ed5ff31a" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
@@ -32,19 +33,18 @@
         </inbodydescription>
         <location file="Source/Xml/Writer.h" line="38" column="1" bodyfile="Source/Xml/Writer.h" bodystart="38" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a26fc5a1d807d7ec6a5a73098de2e5c9b" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MdDox::Xml::Writer::_indent</definition>
+      <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a9131df5823d67bb98dbb74cb8701ffbf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+        <definition>Node* MdDox::Xml::Writer::_root</definition>
         <argsstring></argsstring>
-        <name>_indent</name>
-        <initializer>{0}</initializer>
+        <name>_root</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Writer.h" line="39" column="1" bodyfile="Source/Xml/Writer.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/Xml/Writer.h" line="37" column="1" bodyfile="Source/Xml/Writer.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Writer_1a76d51d2d60b4bf45958b18d958c30c72" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -62,23 +62,6 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Writer_1a43221b6c280e64c821ff16cffa3cad3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Xml::Writer::openTag</definition>
-        <argsstring>(Node *tag)</argsstring>
-        <name>openTag</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
-          <declname>tag</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Xml/Writer.h" line="42" column="1" bodyfile="Source/Xml/Writer.cpp" bodystart="46" bodyend="56"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Writer_1affdc33c68ee995804d6fd060c0de0882" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Xml::Writer::closeTag</definition>
@@ -112,6 +95,23 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Xml/Writer.h" line="46" column="1" bodyfile="Source/Xml/Writer.cpp" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Xml_1_1Writer_1a43221b6c280e64c821ff16cffa3cad3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Writer::openTag</definition>
+        <argsstring>(Node *tag)</argsstring>
+        <name>openTag</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Writer.h" line="42" column="1" bodyfile="Source/Xml/Writer.cpp" bodystart="46" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Writer_1ad23d6d2ad7bf2abba64603c7cd72a596" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

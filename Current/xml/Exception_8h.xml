@@ -1928,18 +1928,6 @@
     <innerclass refid="classMdDox_1_1Exception" prot="public">MdDox::Exception</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
       <sectiondef kind="define">
-      <memberdef kind="define" id="Exception_8h_1ac9f8dec9dca79e02098daf925ed44a10" prot="public" static="no">
-        <name>NotImplemented</name>
-        <param></param>
-        <initializer>Exception(&quot;not implemented&quot;)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Exception.h" line="85" column="14" bodyfile="Source/Utils/Exception.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="define" id="Exception_8h_1ac1164df13e715364a5cd65e192513826" prot="public" static="no">
         <name>IndexOutOfBounds</name>
         <param></param>
@@ -1951,42 +1939,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Exception.h" line="86" column="13" bodyfile="Source/Utils/Exception.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="Exception_8h_1a68f8e9e3ac3d7829c531fd864f73e740" prot="public" static="no">
-        <name>NotFound</name>
-        <param></param>
-        <initializer>Exception(&quot;not found&quot;)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Exception.h" line="87" column="13" bodyfile="Source/Utils/Exception.h" bodystart="87" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="Exception_8h_1a4fc6793fe96e18ed1a6bd985318c59f7" prot="public" static="no">
-        <name>InvalidPointer</name>
-        <param></param>
-        <initializer>Exception(&quot;invalid pointer&quot;)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Exception.h" line="88" column="13" bodyfile="Source/Utils/Exception.h" bodystart="88" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="Exception_8h_1a2bbee531f06255ece6918eda9b0fda36" prot="public" static="no">
-        <name>InvalidFile</name>
-        <param><defname>file</defname></param>
-        <initializer>Exception(&quot;No such file path &apos;&quot;, file, &apos;\&apos;&apos;)</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Exception.h" line="89" column="13" bodyfile="Source/Utils/Exception.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="Exception_8h_1adfc16123f1d9a4be310fc07c19ac2e9c" prot="public" static="no">
         <name>InputException</name>
@@ -2001,6 +1953,30 @@
         </inbodydescription>
         <location file="Source/Utils/Exception.h" line="90" column="13" bodyfile="Source/Utils/Exception.h" bodystart="90" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="define" id="Exception_8h_1a2bbee531f06255ece6918eda9b0fda36" prot="public" static="no">
+        <name>InvalidFile</name>
+        <param><defname>file</defname></param>
+        <initializer>Exception(&quot;No such file path &apos;&quot;, file, &apos;\&apos;&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="89" column="13" bodyfile="Source/Utils/Exception.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Exception_8h_1a4fc6793fe96e18ed1a6bd985318c59f7" prot="public" static="no">
+        <name>InvalidPointer</name>
+        <param></param>
+        <initializer>Exception(&quot;invalid pointer&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="88" column="13" bodyfile="Source/Utils/Exception.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="define" id="Exception_8h_1a82d014f17d8f8c6b6fc3da097c89afb5" prot="public" static="no">
         <name>MessageException</name>
         <param><defname>msg</defname></param>
@@ -2012,6 +1988,30 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Exception.h" line="91" column="13" bodyfile="Source/Utils/Exception.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Exception_8h_1a68f8e9e3ac3d7829c531fd864f73e740" prot="public" static="no">
+        <name>NotFound</name>
+        <param></param>
+        <initializer>Exception(&quot;not found&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="87" column="13" bodyfile="Source/Utils/Exception.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Exception_8h_1ac9f8dec9dca79e02098daf925ed44a10" prot="public" static="no">
+        <name>NotImplemented</name>
+        <param></param>
+        <initializer>Exception(&quot;not implemented&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Exception.h" line="85" column="14" bodyfile="Source/Utils/Exception.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="Exception_8h_1ac3e050a4f799a41fda0d24c94fe632d3" prot="public" static="no">
         <name>NullOrEmptyString</name>

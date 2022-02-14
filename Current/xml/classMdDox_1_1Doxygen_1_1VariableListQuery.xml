@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/VariableListQuery.h" line="59" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1ad046935c652d5380777f9af5f7280b61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::VariableListQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/VariableListQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="94" bodyend="97"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1a2c50d27940d29aa9c38bc74354c5f945" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::VariableListQuery::empty</definition>
@@ -93,18 +80,18 @@
         <location file="Tools/Doxygen/VariableListQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="109" bodyend="112"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::VariableListQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1ad046935c652d5380777f9af5f7280b61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::VariableListQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/VariableListQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="99" bodyend="102"/>
+        <location file="Tools/Doxygen/VariableListQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1a98ba1dad4a4dd2c641c9928dec3d48d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +105,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/VariableListQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::VariableListQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/VariableListQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/VariableListQuery.h" bodystart="99" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VariableListQuery_1aff26c94243c99417bdc465ee6da3ebc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

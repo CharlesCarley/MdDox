@@ -21,19 +21,19 @@
 <img src="../images/internal-diagram-35.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_stream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_stream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#_indexdir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_indexDir</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#_outdir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_outDir</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_stream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_stream</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
 </a>
 </span>
 <br/>
@@ -71,6 +71,30 @@
 </a>
 </span>
 <br/>
+<a id="_indexdir"></a>
+<h2>_indexDir</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>_indexDir</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_outdir"></a>
+<h2>_outDir</h2>
+<a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
+<span class="bold-text"><b>_outDir</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="_stream"></a>
 <h2>_stream</h2>
 <a href="namespaceMdDox.md#outputfilestream">OutputFileStream</a>
@@ -93,30 +117,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_indexdir"></a>
-<h2>_indexDir</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>_indexDir</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_outdir"></a>
-<h2>_outDir</h2>
-<a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
-<span class="bold-text"><b>_outDir</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.h</span>
 </a>
 </span>
 <br/>

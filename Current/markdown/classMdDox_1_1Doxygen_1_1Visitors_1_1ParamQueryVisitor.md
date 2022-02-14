@@ -29,15 +29,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedtype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedType</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visiteddefval" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDefVal</span>
+<span class="icon-list-item"><a href="#visitedarray" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedArray</span>
 </a>
 </span>
 <br/>
@@ -53,7 +45,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedarray" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedArray</span>
+<span class="icon-list-item"><a href="#visiteddefval" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDefVal</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedType</span>
 </a>
 </span>
 <br/>
@@ -75,98 +75,36 @@
 </span>
 <br/>
 <br/>
-<a id="visitedtext"></a>
-<h2>visitedText</h2>
+<a id="visitedarray"></a>
+<h2>visitedArray</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedText</b></span>
+<span class="bold-text"><b>visitedArray</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Callback for every _text_node. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedtype"></a>
-<h2>visitedType</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedType</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
+<span class="inline-text">text</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>type</b></span>
+<span class="bold-text"><b>array</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
-<li><span class="bold-text"><b>query</b></span>
+<li><span class="bold-text"><b>text</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
-<span class="inline-text"> class. </span>
+<span class="inline-text">Const reference to the internal text. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visiteddefval"></a>
-<h2>visitedDefVal</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedDefVal</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>defval</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
 </a>
 </span>
 <br/>
@@ -275,36 +213,98 @@
 </span>
 <br/>
 <br/>
-<a id="visitedarray"></a>
-<h2>visitedArray</h2>
+<a id="visiteddefval"></a>
+<h2>visitedDefVal</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedArray</b></span>
+<span class="bold-text"><b>visitedDefVal</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">text</span>
+<span class="inline-text">query</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>array</b></span>
+<span class="bold-text"><b>defval</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
-<li><span class="bold-text"><b>text</b></span>
+<li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the internal text. </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
+<span class="inline-text"> class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtext"></a>
+<h2>visitedText</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedText</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Callback for every _text_node. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtype"></a>
+<h2>visitedType</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedType</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>type</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamQuery.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery.h</span>
 </a>
 </span>
 <br/>

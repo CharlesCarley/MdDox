@@ -114,8 +114,8 @@
         <label>Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS2QueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1InternalS2Query" prot="public">MdDox::Doxygen::InternalS2Query</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor" prot="public">MdDox::Doxygen::Visitors::InternalS2QueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

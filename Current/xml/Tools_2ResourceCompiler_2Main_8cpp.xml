@@ -161,8 +161,8 @@
         </childnode>
       </node>
     </incdepgraph>
-    <innerclass refid="structMdDox_1_1ResourceCompiler_1_1Resource" prot="public">MdDox::ResourceCompiler::Resource</innerclass>
     <innerclass refid="classMdDox_1_1ResourceCompiler_1_1Application" prot="public">MdDox::ResourceCompiler::Application</innerclass>
+    <innerclass refid="structMdDox_1_1ResourceCompiler_1_1Resource" prot="public">MdDox::ResourceCompiler::Resource</innerclass>
     <innernamespace refid="namespaceMdDox_1_1ResourceCompiler">MdDox::ResourceCompiler</innernamespace>
       <sectiondef kind="func">
       <memberdef kind="function" id="Tools_2ResourceCompiler_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">

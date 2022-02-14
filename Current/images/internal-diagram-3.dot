@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qDW7tt8[
+ qdmg3lG[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qOA7tt8[
+ D7mg3lG[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qEA7tt8[
+ qUMg3lG[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qOA7tt8->qEA7tt8
- qDW7tt8->qOA7tt8
+ D7mg3lG->qUMg3lG
+ qdmg3lG->D7mg3lG
 }

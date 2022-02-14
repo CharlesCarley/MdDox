@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::Sect4QueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/Section4Writer.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1Section4Writer_1a17bf7553d7516d80253097fd0565c81c" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::Section4Writer::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1Section4Writer_1a97c366db78955caafa8ecbf59e1f63b2" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::Section4Writer::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Section4Writer.h" line="34" column="1" bodyfile="Source/MdDoxTree/Section4Writer.h" bodystart="34" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Section4Writer.h" line="36" column="1" bodyfile="Source/MdDoxTree/Section4Writer.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Section4Writer_1a8dad400439ca003302a09f09ac400d53" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,18 +31,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Section4Writer.h" line="35" column="1" bodyfile="Source/MdDoxTree/Section4Writer.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1Section4Writer_1a97c366db78955caafa8ecbf59e1f63b2" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::Section4Writer::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1Section4Writer_1a17bf7553d7516d80253097fd0565c81c" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::Section4Writer::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Section4Writer.h" line="36" column="1" bodyfile="Source/MdDoxTree/Section4Writer.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Section4Writer.h" line="34" column="1" bodyfile="Source/MdDoxTree/Section4Writer.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">

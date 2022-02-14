@@ -18,23 +18,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/LinkedTextQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor_1ac26e6cc9872a77a4c59438793ca84bd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::LinkedTextQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <reimplementedby refid="classMdDox_1_1LinkedTextWriter_1a6c6887bdaf86c77a97a01e1fde4b3506">visitedText</reimplementedby>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/LinkedTextQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.h" bodystart="38" bodyend="38"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor_1a5a8fd9eaf1867743454d5eb4e8f81359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::LinkedTextQueryVisitor::visitedRef</definition>
@@ -60,6 +43,23 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/LinkedTextQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor_1ac26e6cc9872a77a4c59438793ca84bd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::LinkedTextQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <reimplementedby refid="classMdDox_1_1LinkedTextWriter_1a6c6887bdaf86c77a97a01e1fde4b3506">visitedText</reimplementedby>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

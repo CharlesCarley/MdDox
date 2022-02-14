@@ -17,22 +17,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParBlockQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="38" bodyend="38"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a73ae6cd099de3978c75d3be849ba9026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedParagraph</definition>
@@ -57,6 +41,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParBlockQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

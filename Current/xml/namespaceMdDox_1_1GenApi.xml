@@ -16,6 +16,49 @@
     <innerclass refid="classMdDox_1_1GenApi_1_1Writer" prot="public">MdDox::GenApi::Writer</innerclass>
     <innernamespace refid="namespaceMdDox_1_1GenApi_1_1Resources">MdDox::GenApi::Resources</innernamespace>
       <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ElementType</name>
+        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" prot="public">
+          <name>BASE_TYPE</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" prot="public">
+          <name>SIMPLE_TYPE</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" prot="public">
+          <name>COMPLEX_TYPE</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" prot="public">
+          <name>GROUP_TYPE</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Types.h" line="30" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="29" bodyend="35"/>
+      </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1GenApi_1a93cda827227cbbb45d150a9c37e59f8d" prot="public" static="no" strong="no">
         <type></type>
         <name>Options</name>
@@ -90,63 +133,20 @@
         </inbodydescription>
         <location file="Tools/GenApi/Main.cpp" line="38" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="37" bodyend="48"/>
       </memberdef>
-      <memberdef kind="enum" id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1e" prot="public" static="no" strong="no">
-        <type></type>
-        <name>ElementType</name>
-        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" prot="public">
-          <name>BASE_TYPE</name>
-          <initializer>= 1 &lt;&lt; 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" prot="public">
-          <name>SIMPLE_TYPE</name>
-          <initializer>= 1 &lt;&lt; 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" prot="public">
-          <name>COMPLEX_TYPE</name>
-          <initializer>= 1 &lt;&lt; 2</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1_1GenApi_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" prot="public">
-          <name>GROUP_TYPE</name>
-          <initializer>= 1 &lt;&lt; 3</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Types.h" line="30" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="29" bodyend="35"/>
-      </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1a8506c438f76b4e422a526477806e60da" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref> &gt;</type>
-        <definition>typedef std::vector&lt; Element &gt; MdDox::GenApi::ElementArray</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1ab693f8e870bc3385014f93d83771a1e1" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classMdDox_1_1Xml_1_1Writer" kindref="compound">Writer</ref> * &gt;</type>
+        <definition>using MdDox::GenApi::AllocArray = typedef std::vector&lt;Writer*&gt;</definition>
         <argsstring></argsstring>
-        <name>ElementArray</name>
+        <name>AllocArray</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Complex.h" line="35" column="1" bodyfile="Tools/GenApi/Complex.h" bodystart="35" bodyend="-1"/>
+        <location file="Tools/GenApi/Generator.cpp" line="42" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1afdad56995d9980eac00f17e1b815b488" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound">Attribute</ref> &gt;</type>
@@ -174,6 +174,58 @@
         </inbodydescription>
         <location file="Tools/GenApi/Complex.h" line="37" column="1" bodyfile="Tools/GenApi/Complex.h" bodystart="37" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1a4925865e110bfca4fddacbfbb105486f" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1GenApi_1_1Complex" kindref="compound">Complex</ref> * &gt;</type>
+        <definition>using MdDox::GenApi::ComplexMap = typedef std::unordered_map&lt;String, Complex*&gt;</definition>
+        <argsstring></argsstring>
+        <name>ComplexMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.cpp" line="43" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1a8506c438f76b4e422a526477806e60da" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref> &gt;</type>
+        <definition>typedef std::vector&lt; Element &gt; MdDox::GenApi::ElementArray</definition>
+        <argsstring></argsstring>
+        <name>ElementArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Complex.h" line="35" column="1" bodyfile="Tools/GenApi/Complex.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1aa966ac5451d8ded569e90d4d2dcffbb2" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classMdDox_1_1GenApi_1_1Group" kindref="compound">Group</ref> * &gt;</type>
+        <definition>using MdDox::GenApi::GroupArray = typedef std::vector&lt;Group*&gt;</definition>
+        <argsstring></argsstring>
+        <name>GroupArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Group.h" line="39" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1aa7d05a414a5992b892920cc7d2d4654b" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1GenApi_1_1Group" kindref="compound">Group</ref> * &gt;</type>
+        <definition>using MdDox::GenApi::GroupMap = typedef std::unordered_map&lt;String, Group*&gt;</definition>
+        <argsstring></argsstring>
+        <name>GroupMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Generator.cpp" line="44" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1a866b1513fcee51c1e646078d7b388660" prot="public" static="no">
         <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> * &gt;</type>
         <definition>using MdDox::GenApi::NodeMap = typedef std::unordered_map&lt;String, Xml::Node*&gt;</definition>
@@ -199,58 +251,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Database.h" line="38" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1ab693f8e870bc3385014f93d83771a1e1" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMdDox_1_1Xml_1_1Writer" kindref="compound">Writer</ref> * &gt;</type>
-        <definition>using MdDox::GenApi::AllocArray = typedef std::vector&lt;Writer*&gt;</definition>
-        <argsstring></argsstring>
-        <name>AllocArray</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Generator.cpp" line="42" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1a4925865e110bfca4fddacbfbb105486f" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1GenApi_1_1Complex" kindref="compound">Complex</ref> * &gt;</type>
-        <definition>using MdDox::GenApi::ComplexMap = typedef std::unordered_map&lt;String, Complex*&gt;</definition>
-        <argsstring></argsstring>
-        <name>ComplexMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Generator.cpp" line="43" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1aa7d05a414a5992b892920cc7d2d4654b" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1GenApi_1_1Group" kindref="compound">Group</ref> * &gt;</type>
-        <definition>using MdDox::GenApi::GroupMap = typedef std::unordered_map&lt;String, Group*&gt;</definition>
-        <argsstring></argsstring>
-        <name>GroupMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Generator.cpp" line="44" column="1" bodyfile="Tools/GenApi/Generator.cpp" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1_1GenApi_1aa966ac5451d8ded569e90d4d2dcffbb2" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMdDox_1_1GenApi_1_1Group" kindref="compound">Group</ref> * &gt;</type>
-        <definition>using MdDox::GenApi::GroupArray = typedef std::vector&lt;Group*&gt;</definition>
-        <argsstring></argsstring>
-        <name>GroupArray</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="39" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">

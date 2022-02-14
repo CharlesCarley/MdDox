@@ -4,6 +4,19 @@
     <compoundname>MdDox::Console</compoundname>
     <includes local="no">Source/Utils/Console.h</includes>
       <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Console::debugBreak</definition>
+        <argsstring>()</argsstring>
+        <name>debugBreak</name>
+        <briefdescription>
+<para>Breaks the current debugging process in Visual Studio. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Console.h" line="171" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="228" bodyend="234"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1a458c8cd8f98835785ee41ba08cabfc2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Console::read</definition>
@@ -251,22 +264,20 @@
         </inbodydescription>
         <location file="Source/Utils/Console.h" line="113" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="165" bodyend="168"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1af480ef519055b6029a3a65ad8b2bf87a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Console_1ab6d9236e6cd8dbc95d3c6daf19659789" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Console::setForeground</definition>
-        <argsstring>(ConsoleColor col)</argsstring>
-        <name>setForeground</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
-          <declname>col</declname>
-        </param>
+        <definition>void MdDox::Console::resetColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetColor</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Console.h" line="115" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="170" bodyend="173"/>
+        <location file="Source/Utils/Console.h" line="119" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="180" bodyend="191"/>
+        <references refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" compoundref="Console_8h" startline="47">MdDox::CS_WHITE</references>
+        <references refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" compoundref="Console_8h" startline="32">MdDox::CS_BLACK</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1a2ba5f3f6940f753dd40b54f7bf0b4be4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -285,20 +296,22 @@
         </inbodydescription>
         <location file="Source/Utils/Console.h" line="117" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="175" bodyend="178"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1ab6d9236e6cd8dbc95d3c6daf19659789" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Console_1af480ef519055b6029a3a65ad8b2bf87a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Console::resetColor</definition>
-        <argsstring>()</argsstring>
-        <name>resetColor</name>
+        <definition>void MdDox::Console::setForeground</definition>
+        <argsstring>(ConsoleColor col)</argsstring>
+        <name>setForeground</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
+          <declname>col</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Console.h" line="119" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="180" bodyend="191"/>
-        <references refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" compoundref="Console_8h" startline="47">MdDox::CS_WHITE</references>
-        <references refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" compoundref="Console_8h" startline="32">MdDox::CS_BLACK</references>
+        <location file="Source/Utils/Console.h" line="115" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="170" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1a610d7166e9a519d1e63a4549a50aa482" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -316,6 +329,107 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/Console.h" line="121" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Console_1a7ab316dd4277b4125bd81de266db16ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void MdDox::Console::write</definition>
+        <argsstring>(const String &amp;str, Args &amp;&amp;... args)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Console.h" line="148" column="1" bodyfile="Source/Utils/Console.h" bodystart="148" bodyend="154"/>
+        <references refid="classMdDox_1_1Console_1a610d7166e9a519d1e63a4549a50aa482" compoundref="Console_8cpp" startline="193" endline="197">write</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Console::writeError</definition>
+        <argsstring>(const String &amp;str)</argsstring>
+        <name>writeError</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Console.h" line="127" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Console_1a72a36589170f3ebc819fba23ad43f672" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void MdDox::Console::writeError</definition>
+        <argsstring>(const String &amp;str, Args &amp;&amp;... args)</argsstring>
+        <name>writeError</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Console.h" line="139" column="1" bodyfile="Source/Utils/Console.h" bodystart="139" bodyend="145"/>
+        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">writeError</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Console_1af5abf27ea17dee544bd6d21891d84a24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Console::writeError</definition>
+        <argsstring>(const OutputStringStream &amp;str)</argsstring>
+        <name>writeError</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Writes the contents of the supplied stream to stderr. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The content to write. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Console.h" line="166" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="223" bodyend="226"/>
+        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">writeError</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -353,23 +467,6 @@
         <location file="Source/Utils/Console.h" line="125" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="211" bodyend="216"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">writeLine</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Console::writeError</definition>
-        <argsstring>(const String &amp;str)</argsstring>
-        <name>writeError</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="127" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="206" bodyend="209"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1a162c10f923aeffb0b43bee23815779d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -399,64 +496,6 @@
         <location file="Source/Utils/Console.h" line="130" column="1" bodyfile="Source/Utils/Console.h" bodystart="130" bodyend="136"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">writeLine</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1a72a36589170f3ebc819fba23ad43f672" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>static void MdDox::Console::writeError</definition>
-        <argsstring>(const String &amp;str, Args &amp;&amp;... args)</argsstring>
-        <name>writeError</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="139" column="1" bodyfile="Source/Utils/Console.h" bodystart="139" bodyend="145"/>
-        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">writeError</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1a7ab316dd4277b4125bd81de266db16ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>static void MdDox::Console::write</definition>
-        <argsstring>(const String &amp;str, Args &amp;&amp;... args)</argsstring>
-        <name>write</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="148" column="1" bodyfile="Source/Utils/Console.h" bodystart="148" bodyend="154"/>
-        <references refid="classMdDox_1_1Console_1a610d7166e9a519d1e63a4549a50aa482" compoundref="Console_8cpp" startline="193" endline="197">write</references>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Console_1af7b32bc0afe801e32d739ebb6514401c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Console::writeLine</definition>
@@ -482,45 +521,6 @@
         </inbodydescription>
         <location file="Source/Utils/Console.h" line="160" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="218" bodyend="221"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">writeLine</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1af5abf27ea17dee544bd6d21891d84a24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Console::writeError</definition>
-        <argsstring>(const OutputStringStream &amp;str)</argsstring>
-        <name>writeError</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-<para>Writes the contents of the supplied stream to stderr. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>str</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The content to write. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="166" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="223" bodyend="226"/>
-        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">writeError</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Console::debugBreak</definition>
-        <argsstring>()</argsstring>
-        <name>debugBreak</name>
-        <briefdescription>
-<para>Breaks the current debugging process in Visual Studio. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="171" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="228" bodyend="234"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

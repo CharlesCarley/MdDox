@@ -39,19 +39,39 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="#getclass" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getClass</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getsp" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSp</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getsp" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSp</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
@@ -64,26 +84,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#visit" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getclass" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getClass</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getsp" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSp</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getsp" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSp</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
 </a>
 </span>
 <br/>
@@ -171,24 +171,6 @@
 </span>
 <br/>
 <br/>
-<a id="isvalid"></a>
-<h2>isValid</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isValid</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Checks to see if the internal node is usable. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L90" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="empty"></a>
 <h2>empty</h2>
 <span class="inline-text">bool</span>
@@ -213,20 +195,196 @@
 </span>
 <br/>
 <br/>
-<a id="reset"></a>
-<h2>reset</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>reset</b></span>
+<a id="getclass"></a>
+<h2>getClass</h2>
+<a href="namespaceMdDox_1_1Doxygen.md#doxhighlightclassenum">DoxHighlightClassEnum</a>
+<span class="bold-text"><b>getClass</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Resets the internal node pointer to null. </span>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>class</b></span>
+<span class="inline-text"> element. </span>
+<br/>
+<br/>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">The </span>
+<span class="bold-text"><b>class</b></span>
+<span class="inline-text"> enumerated value or -1 if the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getref"></a>
+<h2>getRef</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getRef</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> attribute. </span>
+<br/>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getref"></a>
+<h2>getRef</h2>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="bold-text"><b>getRef</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> attribute. </span>
 <br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getsp"></a>
+<h2>getSp</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getSp</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>sp</b></span>
+<span class="inline-text"> attribute. </span>
+<br/>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getsp"></a>
+<h2>getSp</h2>
+<a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
+<span class="bold-text"><b>getSp</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>sp</b></span>
+<span class="inline-text"> attribute. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="isvalid"></a>
+<h2>isValid</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isValid</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Checks to see if the internal node is usable. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L90" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
 </a>
 </span>
 <br/>
@@ -246,6 +404,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L105" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reset"></a>
+<h2>reset</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>reset</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Resets the internal node pointer to null. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
 </a>
 </span>
 <br/>
@@ -374,182 +550,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getclass"></a>
-<h2>getClass</h2>
-<a href="namespaceMdDox_1_1Doxygen.md#doxhighlightclassenum">DoxHighlightClassEnum</a>
-<span class="bold-text"><b>getClass</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>class</b></span>
-<span class="inline-text"> element. </span>
-<br/>
-<br/>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">The </span>
-<span class="bold-text"><b>class</b></span>
-<span class="inline-text"> enumerated value or -1 if the value is not found. </span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsp"></a>
-<h2>getSp</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getSp</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>sp</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getsp"></a>
-<h2>getSp</h2>
-<a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
-<span class="bold-text"><b>getSp</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>sp</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getref"></a>
-<h2>getRef</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getRef</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getref"></a>
-<h2>getRef</h2>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
-<span class="bold-text"><b>getRef</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/HighlightQuery.cpp#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery.cpp</span>
 </a>
 </span>
 <br/>

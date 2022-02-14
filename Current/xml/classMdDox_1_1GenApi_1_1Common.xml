@@ -5,19 +5,6 @@
     <basecompoundref refid="classMdDox_1_1Xml_1_1Writer" prot="public" virt="non-virtual">MdDox::Xml::Writer</basecompoundref>
     <includes local="no">Tools/GenApi/Common.h</includes>
       <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Common_1aa1569376c497781f16fb174df236b7c9" prot="protected" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Common::_header</definition>
-        <argsstring></argsstring>
-        <name>_header</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Common.h" line="183" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="183" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Common_1aa1f6ef1b66c2181ba326f69a12adf836" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
         <definition>StringArray MdDox::GenApi::Common::_forwards</definition>
@@ -30,6 +17,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Common.h" line="184" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Common_1aa1569376c497781f16fb174df236b7c9" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Common::_header</definition>
+        <argsstring></argsstring>
+        <name>_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="183" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Common_1a3ed1d0aad3cf0281ff56e6b38f846e64" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
@@ -99,27 +99,6 @@
         </inbodydescription>
         <location file="Tools/GenApi/Common.h" line="192" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Common_1abfa39477bb8491c8429905a756feb567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Common::write</definition>
-        <argsstring>(const PathUtil &amp;output)</argsstring>
-        <name>write</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Common.h" line="194" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="35" bodyend="45"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
-        <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
-        <references refid="classMdDox_1_1GenApi_1_1Common_1ab290f1573b5e5b4a4008c1d8a682c681" compoundref="Common_8cpp" startline="47" endline="68">writeHeader</references>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Common_1aca886b22514a354cf34e98b21383fe67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::GenApi::Common::addForward</definition>
@@ -155,6 +134,27 @@
         </inbodydescription>
         <location file="Tools/GenApi/Common.h" line="197" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="75" bodyend="78"/>
         <references refid="classMdDox_1_1GenApi_1_1Common_1a3ed1d0aad3cf0281ff56e6b38f846e64" compoundref="Common_8h" startline="185">_includes</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Common_1abfa39477bb8491c8429905a756feb567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Common::write</definition>
+        <argsstring>(const PathUtil &amp;output)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="194" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="35" bodyend="45"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
+        <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
+        <references refid="classMdDox_1_1GenApi_1_1Common_1ab290f1573b5e5b4a4008c1d8a682c681" compoundref="Common_8cpp" startline="47" endline="68">writeHeader</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

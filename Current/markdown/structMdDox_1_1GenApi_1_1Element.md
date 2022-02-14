@@ -16,19 +16,7 @@
 <br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
-<span class="icon-list-item"><a href="#type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">type</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#minoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">minOccurs</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#maxoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">maxOccurs</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#searchterm" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
+<span class="icon-list-item"><a href="#genname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">genName</span>
 </a>
 </span>
 <br/>
@@ -36,19 +24,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#genname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">genName</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#typecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#isrequired" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isRequired</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#isunbounded" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
 </a>
 </span>
 <br/>
@@ -56,7 +32,31 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#isunbounded" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#maxoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">maxOccurs</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#minoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">minOccurs</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#searchterm" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">type</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#typecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
 </a>
 </span>
 <br/>
@@ -72,50 +72,14 @@
 </a>
 </span>
 <br/>
-<a id="type"></a>
-<h2>type</h2>
-<span class="inline-text">int32_t</span>
-<span class="bold-text"><b>type</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="minoccurs"></a>
-<h2>minOccurs</h2>
-<span class="inline-text">uint32_t</span>
-<span class="bold-text"><b>minOccurs</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="maxoccurs"></a>
-<h2>maxOccurs</h2>
-<span class="inline-text">uint32_t</span>
-<span class="bold-text"><b>maxOccurs</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="searchterm"></a>
-<h2>searchTerm</h2>
+<a id="genname"></a>
+<h2>genName</h2>
 <a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>searchTerm</b></span>
+<span class="bold-text"><b>genName</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
 <br/>
@@ -132,30 +96,6 @@
 </span>
 <br/>
 <br/>
-<a id="genname"></a>
-<h2>genName</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>genName</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="typecode"></a>
-<h2>typeCode</h2>
-<span class="inline-text">int64_t</span>
-<span class="bold-text"><b>typeCode</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="isrequired"></a>
 <h2>isRequired</h2>
 <span class="inline-text">bool</span>
@@ -164,18 +104,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="isunbounded"></a>
-<h2>isUnbounded</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isUnbounded</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
 <br/>
@@ -192,6 +120,18 @@
 </span>
 <br/>
 <br/>
+<a id="isunbounded"></a>
+<h2>isUnbounded</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isUnbounded</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="isvalid"></a>
 <h2>isValid</h2>
 <span class="inline-text">bool</span>
@@ -200,6 +140,66 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="maxoccurs"></a>
+<h2>maxOccurs</h2>
+<span class="inline-text">uint32_t</span>
+<span class="bold-text"><b>maxOccurs</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="minoccurs"></a>
+<h2>minOccurs</h2>
+<span class="inline-text">uint32_t</span>
+<span class="bold-text"><b>minOccurs</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="searchterm"></a>
+<h2>searchTerm</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>searchTerm</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="type"></a>
+<h2>type</h2>
+<span class="inline-text">int32_t</span>
+<span class="bold-text"><b>type</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="typecode"></a>
+<h2>typeCode</h2>
+<span class="inline-text">int64_t</span>
+<span class="bold-text"><b>typeCode</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
 <br/>

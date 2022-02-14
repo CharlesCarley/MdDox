@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS3Query.h" line="83" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a57d1c7cdf2834b2a4addab914390be53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::InternalS3Query::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS3Query.h" line="88" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="130" bodyend="133"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a348375ab0d1394b9382c5fa3b0e272a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::InternalS3Query::empty</definition>
@@ -93,18 +80,52 @@
         <location file="Tools/Doxygen/InternalS3Query.h" line="93" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="145" bodyend="148"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1adfbb2123eee7ebfa1d38c6131aa92329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a79b2260e92f22eff76a50d7ea6d3d3ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS3Query::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::InternalS3Query::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS3Query.h" line="98" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="135" bodyend="138"/>
+        <location file="Tools/Doxygen/InternalS3Query.h" line="120" column="1" bodyfile="Tools/Doxygen/InternalS3Query.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a51aa218fb106f1ca03f43292a667662c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::InternalS3Query::foreachSect3</definition>
+        <argsstring>(const Sect4QueryFunction &amp;invoke) const</argsstring>
+        <name>foreachSect3</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1afa53006511388342be3fe9edeb1123c1" kindref="member">Sect4QueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>sect3</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS3Query.h" line="125" column="1" bodyfile="Tools/Doxygen/InternalS3Query.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a57d1c7cdf2834b2a4addab914390be53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::InternalS3Query::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS3Query.h" line="88" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="130" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1ab75906e9787f8fd3c12661f93a8daaba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +139,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS3Query.h" line="103" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1adfbb2123eee7ebfa1d38c6131aa92329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::InternalS3Query::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS3Query.h" line="98" column="1" bodyfile="Tools/Doxygen/InternalS3Query.h" bodystart="135" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1aa15fb791b10e34d98bacf67c9b097306" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -179,40 +213,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS3QueryVisitor_1a8db458e707892f3384db0c163c0708d9" compoundref="InternalS3Query_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::InternalS3QueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS3QueryVisitor_1a48ecb50bc2080cf402592a62d344392b" compoundref="InternalS3Query_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::InternalS3QueryVisitor::visitedParagraph</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS3QueryVisitor_1a2eff11290c91fcce912d90e7018ce585" compoundref="InternalS3Query_8h" startline="48" endline="48">MdDox::Doxygen::Visitors::InternalS3QueryVisitor::visitedSect3</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a79b2260e92f22eff76a50d7ea6d3d3ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS3Query::foreachParagraph</definition>
-        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParagraph</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS3Query.h" line="120" column="1" bodyfile="Tools/Doxygen/InternalS3Query.cpp" bodystart="53" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS3Query_1a51aa218fb106f1ca03f43292a667662c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS3Query::foreachSect3</definition>
-        <argsstring>(const Sect4QueryFunction &amp;invoke) const</argsstring>
-        <name>foreachSect3</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1afa53006511388342be3fe9edeb1123c1" kindref="member">Sect4QueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>sect3</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS3Query.h" line="125" column="1" bodyfile="Tools/Doxygen/InternalS3Query.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

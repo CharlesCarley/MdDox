@@ -21,7 +21,7 @@
 <img src="../images/internal-diagram-56.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
+<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
 </a>
 </span>
 <br/>
@@ -29,21 +29,21 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
+<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
 </a>
 </span>
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#visitedmemberdef" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedMemberDef</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#visiteddescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDescription</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#visitedheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedHeader</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedmemberdef" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedMemberDef</span>
 </a>
 </span>
 <br/>
@@ -63,15 +63,14 @@
 </a>
 </span>
 <br/>
-<a id="_writer"></a>
-<h2>_writer</h2>
-<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_writer</b></span>
+<a id="_out"></a>
+<h2>_out</h2>
+<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
+<span class="bold-text"><b>_out</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
 </a>
 </span>
 <br/>
@@ -89,52 +88,15 @@
 </span>
 <br/>
 <br/>
-<a id="_out"></a>
-<h2>_out</h2>
-<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
-<span class="bold-text"><b>_out</b></span>
+<a id="_writer"></a>
+<h2>_writer</h2>
+<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_writer</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedmemberdef"></a>
-<h2>visitedMemberDef</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedMemberDef</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#doxygenmemberdefquery">Doxygen::MemberDefQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>memberdef</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the MemberDefQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
 </a>
 </span>
 <br/>
@@ -211,6 +173,44 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedmemberdef"></a>
+<h2>visitedMemberDef</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedMemberDef</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#doxygenmemberdefquery">Doxygen::MemberDefQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>memberdef</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the MemberDefQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SectionDefWriter.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter.cpp</span>
 </a>
 </span>
 <br/>

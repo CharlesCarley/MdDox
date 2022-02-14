@@ -39,15 +39,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#repofile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">repoFile</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getlinktorepo" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLinkToRepo</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">directory</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
 </a>
 </span>
 <br/>
@@ -59,19 +55,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#setfile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setFile</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#getline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#setline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setLine</span>
+<span class="icon-list-item"><a href="#getlinktorepo" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLinkToRepo</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
+<span class="icon-list-item"><a href="#repofile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">repoFile</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#setfile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setFile</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#setline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setLine</span>
 </a>
 </span>
 <br/>
@@ -147,52 +147,6 @@
 </span>
 <br/>
 <br/>
-<a id="repofile"></a>
-<h2>repoFile</h2>
-<span class="inline-text">const </span>
-<a href="classMdDox_1_1RepoFile.md#repofile">RepoFile</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>repoFile</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getlinktorepo"></a>
-<h2>getLinkToRepo</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>getLinkToRepo</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#getsiteurl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSiteUrl</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#linenumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="directory"></a>
 <h2>directory</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -212,6 +166,25 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="empty"></a>
+<h2>empty</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>empty</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
 </a>
 </span>
 <br/>
@@ -262,6 +235,65 @@
 </span>
 <br/>
 <br/>
+<a id="getline"></a>
+<h2>getLine</h2>
+<span class="inline-text">int64_t</span>
+<span class="bold-text"><b>getLine</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getlinktorepo"></a>
+<h2>getLinkToRepo</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>getLinkToRepo</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#getsiteurl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSiteUrl</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#linenumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="repofile"></a>
+<h2>repoFile</h2>
+<span class="inline-text">const </span>
+<a href="classMdDox_1_1RepoFile.md#repofile">RepoFile</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>repoFile</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="setfile"></a>
 <h2>setFile</h2>
 <span class="inline-text">void</span>
@@ -288,19 +320,6 @@
 </span>
 <br/>
 <br/>
-<a id="getline"></a>
-<h2>getLine</h2>
-<span class="inline-text">int64_t</span>
-<span class="bold-text"><b>getLine</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="setline"></a>
 <h2>setLine</h2>
 <span class="inline-text">void</span>
@@ -315,25 +334,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="empty"></a>
-<h2>empty</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>empty</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SourceFile.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile.h</span>
 </a>
 </span>
 <br/>

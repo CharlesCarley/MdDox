@@ -30,19 +30,19 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#clear" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">clear</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#lex" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lex</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#append" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">append</span>
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#clear" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">clear</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#lex" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lex</span>
 </a>
 </span>
 <br/>
@@ -92,6 +92,28 @@
 </span>
 <br/>
 <br/>
+<a id="append"></a>
+<h2>append</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>append</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const char *</span>
+<span class="inline-text">arg</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.cpp#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="clear"></a>
 <h2>clear</h2>
 <span class="inline-text">void</span>
@@ -105,6 +127,21 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.cpp#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvalue"></a>
+<h2>getValue</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getValue</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
 </a>
 </span>
 <br/>
@@ -162,43 +199,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="append"></a>
-<h2>append</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>append</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const char *</span>
-<span class="inline-text">arg</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.cpp#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvalue"></a>
-<h2>getValue</h2>
-<span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getValue</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Scanner.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
 </a>
 </span>
 <br/>

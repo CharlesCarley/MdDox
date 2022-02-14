@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ReimplementQuery.h" line="61" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a821ae52313e53ca5a36b1bdafd391193" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::ReimplementQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ReimplementQuery.h" line="66" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="104" bodyend="107"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a313b5d93609079c2cee13c08424e5ead" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::ReimplementQuery::empty</definition>
@@ -93,18 +80,38 @@
         <location file="Tools/Doxygen/ReimplementQuery.h" line="71" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="119" bodyend="122"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a62db69e8c5ac6c31fc7fe560cccc82ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ReimplementQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a52e12cdeaad87124a17b111cef242158" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ReimplementQuery::getRefId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getRefId</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Provides access to the <bold>refid</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>refid</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReimplementQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.cpp" bodystart="28" bodyend="33"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a821ae52313e53ca5a36b1bdafd391193" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::ReimplementQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ReimplementQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="109" bodyend="112"/>
+        <location file="Tools/Doxygen/ReimplementQuery.h" line="66" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="104" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1af942c174aa19e360005a85e79b65dbe5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +125,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ReimplementQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a62db69e8c5ac6c31fc7fe560cccc82ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ReimplementQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReimplementQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.h" bodystart="109" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a9b3dd83ff965ed5e50fec77f590f0cca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -157,26 +177,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ReimplementQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.cpp" bodystart="37" bodyend="40"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ReimplementQuery_1a52e12cdeaad87124a17b111cef242158" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::ReimplementQuery::getRefId</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getRefId</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>refid</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>refid</bold> enumerated value or an empty string the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ReimplementQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/ReimplementQuery.cpp" bodystart="28" bodyend="33"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

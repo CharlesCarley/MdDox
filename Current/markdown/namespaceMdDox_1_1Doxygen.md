@@ -394,10 +394,6 @@
 <br/>
 <a id="enums"></a>
 <h2>Enums</h2>
-<span class="icon-list-item"><a href="#usedelements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UsedElements</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#doxaccessorenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessorEnum</span>
 </a>
 </span>
@@ -470,149 +466,21 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#usedelements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UsedElements</span>
+</a>
+</span>
+<br/>
 <a id="typedefs"></a>
 <h2>Typedefs</h2>
-<span class="icon-list-item"><a href="#compoundrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQueryFunction</span>
+<span class="icon-list-item"><a href="#anchorqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#titlequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQueryFunction</span>
+<span class="icon-list-item"><a href="#blockquotequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reftextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#doxygenindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#memberindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#compoundindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#sect3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#doxygenqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#compounddefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#listitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#imagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ImageQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#listofallmembersqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#simplesectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#memberrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#reimplementqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#incqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IncQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#graphqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#refqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#parblockqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#descriptionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#sectiondefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#varlistentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#memberdefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#variablelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#listqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#internals2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#enumvaluequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#internalqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#sect2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect2QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#templateparamlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#paramqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#internals4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#linkedtextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#formulaqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#nodequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#indexentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQueryFunction</span>
+<span class="icon-list-item"><a href="#captionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -620,7 +488,107 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect1QueryFunction</span>
+<span class="icon-list-item"><a href="#codelinequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#compounddefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#compoundindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#compoundrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#copyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CopyQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#descriptionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#doxygenindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#doxygenqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#emptyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#entryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EntryQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#enumvaluequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#filequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FileQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#formulaqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#graphqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#headingqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#highlightqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#imagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ImageQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#incqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IncQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#indexentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#internalqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#internals1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#internals2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#internals3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#internals4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#languagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#linkedtextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -632,27 +600,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#codelinequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQueryFunction</span>
+<span class="icon-list-item"><a href="#listitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#highlightqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQueryFunction</span>
+<span class="icon-list-item"><a href="#listofallmembersqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#urllinkqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#tocitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#spqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SpQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#referencequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQueryFunction</span>
+<span class="icon-list-item"><a href="#listqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -660,67 +616,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect4QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#internals1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#internals3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3QueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#paraqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#paramnamelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQueryFunction</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#markupqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#anchorqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQueryFunction</span>
+<span class="icon-list-item"><a href="#memberdefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#tablequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TableQueryFunction</span>
+<span class="icon-list-item"><a href="#memberindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#rowqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RowQueryFunction</span>
+<span class="icon-list-item"><a href="#memberrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#languagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#entryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EntryQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#captionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#headingqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#filequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FileQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#toclistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocListQueryFunction</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#paramlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQueryFunction</span>
+<span class="icon-list-item"><a href="#nodequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -728,7 +640,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramtypequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQueryFunction</span>
+<span class="icon-list-item"><a href="#paramlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#paramnamelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -736,23 +652,107 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#xrefsectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQueryFunction</span>
+<span class="icon-list-item"><a href="#paramqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#copyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CopyQueryFunction</span>
+<span class="icon-list-item"><a href="#paramtypequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#blockquotequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryFunction</span>
+<span class="icon-list-item"><a href="#paraqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#emptyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQueryFunction</span>
+<span class="icon-list-item"><a href="#parblockqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#referencequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#refqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reftextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reimplementqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#rowqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RowQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sect1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect1QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sect2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect2QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sect3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sect4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect4QueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#sectiondefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#simplesectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQueryFunction</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#sortmap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SortMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#spqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SpQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#tablequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TableQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#templateparamlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#titlequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#tocitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#toclistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocListQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#urllinkqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#variablelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#varlistentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQueryFunction</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#xrefsectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQueryFunction</span>
 </a>
 </span>
 <br/>
@@ -842,461 +842,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="usedelements"></a>
-<h2>UsedElements</h2>
-<span class="bold-text"><b>UsedElements</b></span>
-<br/>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTextNode</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxAnchor</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArgString</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArray</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBlockQuote</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBold</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBriefDescription</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCaption</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCenter</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxChildNode</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCodeLine</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCollaborationGraph</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundDef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompound</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundName</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxComputerOutput</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDeclName</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefinition</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefName</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefVal</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDescription</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDetailedDescription</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDot</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDotFile</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygen</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygenIndex</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEdgeLabel</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEmphasis</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEntry</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEnumValue</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxExceptions</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeader</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeading</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHighlight</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHruler</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxImage</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInBodyDescription</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncDepGraph</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludedBy</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludes</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIndexEntry</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInheritanceGraph</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInitializer</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerclass</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerDir</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerFile</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerGroup</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerNamespace</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerPage</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInt</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInternal</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxItemizedList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLabel</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLang</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLanguage</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLineBreak</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLink</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListItem</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListOfAllMembers</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLocation</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMember</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMemberDef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxName</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxNode</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxOrderedList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPara</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParam</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterDescription</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterItem</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterName</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterNameList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterType</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParBlock</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPart</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPreFormatted</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProd</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProgramListing</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProp</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferencedBy</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferences</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRegistered</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplementedBy</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplements</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxScope</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect1</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect2</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect3</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect4</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSectionDef</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSimpleSect</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSmall</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSp</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTable</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTableOfContents</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocItem</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTemplateParamList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTitle</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxType</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUlink</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVariableList</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVarListEntry</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVerbatim</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxWrite</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUndefined</span>
-</span>
-</div>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
 </a>
 </span>
 <br/>
@@ -2491,506 +2036,499 @@
 </span>
 <br/>
 <br/>
-<a id="compoundrefqueryfunction"></a>
-<h2>CompoundRefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery">CompoundRefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CompoundRefQueryFunction</b></span>
+<a id="usedelements"></a>
+<h2>UsedElements</h2>
+<span class="bold-text"><b>UsedElements</b></span>
 <br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTextNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxAnchor</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArgString</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArray</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBlockQuote</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBold</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBriefDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCaption</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCenter</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxChildNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCodeLine</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCollaborationGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompound</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxComputerOutput</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDeclName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefinition</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefVal</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDetailedDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDot</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDotFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygen</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygenIndex</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEdgeLabel</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEmphasis</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEnumValue</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxExceptions</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeader</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeading</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHighlight</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHruler</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxImage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInBodyDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncDepGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIndexEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInheritanceGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInitializer</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerclass</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerDir</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerGroup</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerNamespace</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerPage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInt</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInternal</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxItemizedList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLabel</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLang</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLanguage</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLineBreak</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLink</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListOfAllMembers</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLocation</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMember</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMemberDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxNode</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxOrderedList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPara</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParam</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterDescription</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterName</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterNameList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterType</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParBlock</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPart</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPreFormatted</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProd</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProgramListing</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProp</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferencedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferences</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRegistered</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplementedBy</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplements</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxScope</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect1</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect2</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect3</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect4</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSectionDef</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSimpleSect</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSmall</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSp</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTable</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTableOfContents</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocItem</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTemplateParamList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTitle</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxType</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUlink</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVariableList</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVarListEntry</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVerbatim</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxWrite</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUndefined</span>
+</span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="titlequeryfunction"></a>
-<h2>TitleQueryFunction</h2>
+<a id="anchorqueryfunction"></a>
+<h2>AnchorQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery">TitleQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery">AnchorQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>TitleQueryFunction</b></span>
+<span class="bold-text"><b>AnchorQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="reftextqueryfunction"></a>
-<h2>RefTextQueryFunction</h2>
+<a id="blockquotequeryfunction"></a>
+<h2>BlockQuoteQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery">BlockQuoteQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>RefTextQueryFunction</b></span>
+<span class="bold-text"><b>BlockQuoteQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="doxygenindexqueryfunction"></a>
-<h2>DoxygenIndexQueryFunction</h2>
+<a id="captionqueryfunction"></a>
+<h2>CaptionQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery">DoxygenIndexQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery">CaptionQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>DoxygenIndexQueryFunction</b></span>
+<span class="bold-text"><b>CaptionQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="memberindexqueryfunction"></a>
-<h2>MemberIndexQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery">MemberIndexQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>MemberIndexQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="compoundindexqueryfunction"></a>
-<h2>CompoundIndexQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery">CompoundIndexQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CompoundIndexQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="sect3queryfunction"></a>
-<h2>Sect3QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query">Sect3Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>Sect3QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="doxygenqueryfunction"></a>
-<h2>DoxygenQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery">DoxygenQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>DoxygenQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="compounddefqueryfunction"></a>
-<h2>CompoundDefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">CompoundDefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CompoundDefQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="listitemqueryfunction"></a>
-<h2>ListItemQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery">ListItemQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ListItemQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="imagequeryfunction"></a>
-<h2>ImageQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery">ImageQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ImageQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="listofallmembersqueryfunction"></a>
-<h2>ListOfAllMembersQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery">ListOfAllMembersQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ListOfAllMembersQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="simplesectqueryfunction"></a>
-<h2>SimpleSectQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery">SimpleSectQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>SimpleSectQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="memberrefqueryfunction"></a>
-<h2>MemberRefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery">MemberRefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>MemberRefQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="reimplementqueryfunction"></a>
-<h2>ReimplementQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery">ReimplementQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ReimplementQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="incqueryfunction"></a>
-<h2>IncQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery">IncQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>IncQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="graphqueryfunction"></a>
-<h2>GraphQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery">GraphQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>GraphQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="refqueryfunction"></a>
-<h2>RefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">RefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>RefQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="parblockqueryfunction"></a>
-<h2>ParBlockQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery">ParBlockQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParBlockQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="descriptionqueryfunction"></a>
-<h2>DescriptionQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">DescriptionQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>DescriptionQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="sectiondefqueryfunction"></a>
-<h2>SectionDefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">SectionDefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>SectionDefQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="varlistentryqueryfunction"></a>
-<h2>VarListEntryQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery">VarListEntryQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>VarListEntryQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="memberdefqueryfunction"></a>
-<h2>MemberDefQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery">MemberDefQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>MemberDefQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="variablelistqueryfunction"></a>
-<h2>VariableListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery">VariableListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>VariableListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="listqueryfunction"></a>
-<h2>ListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">ListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="internals2queryfunction"></a>
-<h2>InternalS2QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query">InternalS2Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>InternalS2QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="enumvaluequeryfunction"></a>
-<h2>EnumValueQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery">EnumValueQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>EnumValueQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="internalqueryfunction"></a>
-<h2>InternalQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery">InternalQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>InternalQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="sect2queryfunction"></a>
-<h2>Sect2QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query">Sect2Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>Sect2QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="templateparamlistqueryfunction"></a>
-<h2>TemplateParamListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery">TemplateParamListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>TemplateParamListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="paramqueryfunction"></a>
-<h2>ParamQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery">ParamQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParamQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="internals4queryfunction"></a>
-<h2>InternalS4QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query">InternalS4Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>InternalS4QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="linkedtextqueryfunction"></a>
-<h2>LinkedTextQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>LinkedTextQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="formulaqueryfunction"></a>
-<h2>FormulaQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery">FormulaQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>FormulaQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="nodequeryfunction"></a>
-<h2>NodeQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery">NodeQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>NodeQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="indexentryqueryfunction"></a>
-<h2>IndexEntryQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery">IndexEntryQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>IndexEntryQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3009,16 +2547,366 @@
 </span>
 <br/>
 <br/>
-<a id="sect1queryfunction"></a>
-<h2>Sect1QueryFunction</h2>
+<a id="codelinequeryfunction"></a>
+<h2>CodeLineQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query">Sect1Query</a>
+<a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery">CodeLineQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>Sect1QueryFunction</b></span>
+<span class="bold-text"><b>CodeLineQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="compounddefqueryfunction"></a>
+<h2>CompoundDefQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">CompoundDefQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>CompoundDefQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="compoundindexqueryfunction"></a>
+<h2>CompoundIndexQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery">CompoundIndexQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>CompoundIndexQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="compoundrefqueryfunction"></a>
+<h2>CompoundRefQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery">CompoundRefQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>CompoundRefQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="copyqueryfunction"></a>
+<h2>CopyQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery">CopyQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>CopyQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="descriptionqueryfunction"></a>
+<h2>DescriptionQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">DescriptionQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>DescriptionQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="doxygenindexqueryfunction"></a>
+<h2>DoxygenIndexQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery">DoxygenIndexQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>DoxygenIndexQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="doxygenqueryfunction"></a>
+<h2>DoxygenQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery">DoxygenQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>DoxygenQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="emptyqueryfunction"></a>
+<h2>EmptyQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>EmptyQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="entryqueryfunction"></a>
+<h2>EntryQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery">EntryQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>EntryQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="enumvaluequeryfunction"></a>
+<h2>EnumValueQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery">EnumValueQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>EnumValueQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="filequeryfunction"></a>
+<h2>FileQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery">FileQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>FileQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="formulaqueryfunction"></a>
+<h2>FormulaQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery">FormulaQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>FormulaQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="graphqueryfunction"></a>
+<h2>GraphQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery">GraphQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>GraphQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="headingqueryfunction"></a>
+<h2>HeadingQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery">HeadingQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>HeadingQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="highlightqueryfunction"></a>
+<h2>HighlightQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery">HighlightQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>HighlightQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="imagequeryfunction"></a>
+<h2>ImageQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery">ImageQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>ImageQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="incqueryfunction"></a>
+<h2>IncQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery">IncQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>IncQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="indexentryqueryfunction"></a>
+<h2>IndexEntryQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery">IndexEntryQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>IndexEntryQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="internalqueryfunction"></a>
+<h2>InternalQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery">InternalQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>InternalQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="internals1queryfunction"></a>
+<h2>InternalS1QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query">InternalS1Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>InternalS1QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="internals2queryfunction"></a>
+<h2>InternalS2QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query">InternalS2Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>InternalS2QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="internals3queryfunction"></a>
+<h2>InternalS3QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query">InternalS3Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>InternalS3QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="internals4queryfunction"></a>
+<h2>InternalS4QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query">InternalS4Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>InternalS4QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="languagequeryfunction"></a>
+<h2>LanguageQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery">LanguageQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>LanguageQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="linkedtextqueryfunction"></a>
+<h2>LinkedTextQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>LinkedTextQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3051,86 +2939,44 @@
 </span>
 <br/>
 <br/>
-<a id="codelinequeryfunction"></a>
-<h2>CodeLineQueryFunction</h2>
+<a id="listitemqueryfunction"></a>
+<h2>ListItemQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery">CodeLineQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery">ListItemQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CodeLineQueryFunction</b></span>
+<span class="bold-text"><b>ListItemQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="highlightqueryfunction"></a>
-<h2>HighlightQueryFunction</h2>
+<a id="listofallmembersqueryfunction"></a>
+<h2>ListOfAllMembersQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery">HighlightQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery">ListOfAllMembersQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>HighlightQueryFunction</b></span>
+<span class="bold-text"><b>ListOfAllMembersQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="urllinkqueryfunction"></a>
-<h2>UrlLinkQueryFunction</h2>
+<a id="listqueryfunction"></a>
+<h2>ListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">ListQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>UrlLinkQueryFunction</b></span>
+<span class="bold-text"><b>ListQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="tocitemqueryfunction"></a>
-<h2>TocItemQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery">TocItemQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>TocItemQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="spqueryfunction"></a>
-<h2>SpQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>SpQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="referencequeryfunction"></a>
-<h2>ReferenceQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery">ReferenceQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ReferenceQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3149,76 +2995,6 @@
 </span>
 <br/>
 <br/>
-<a id="sect4queryfunction"></a>
-<h2>Sect4QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query">Sect4Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>Sect4QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="internals1queryfunction"></a>
-<h2>InternalS1QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query">InternalS1Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>InternalS1QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="internals3queryfunction"></a>
-<h2>InternalS3QueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query">InternalS3Query</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>InternalS3QueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="paraqueryfunction"></a>
-<h2>ParaQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">ParaQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParaQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="paramnamelistqueryfunction"></a>
-<h2>ParamNameListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery">ParamNameListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParamNameListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="markupqueryfunction"></a>
 <h2>MarkupQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3233,142 +3009,58 @@
 </span>
 <br/>
 <br/>
-<a id="anchorqueryfunction"></a>
-<h2>AnchorQueryFunction</h2>
+<a id="memberdefqueryfunction"></a>
+<h2>MemberDefQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery">AnchorQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery">MemberDefQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>AnchorQueryFunction</b></span>
+<span class="bold-text"><b>MemberDefQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="tablequeryfunction"></a>
-<h2>TableQueryFunction</h2>
+<a id="memberindexqueryfunction"></a>
+<h2>MemberIndexQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery">TableQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery">MemberIndexQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>TableQueryFunction</b></span>
+<span class="bold-text"><b>MemberIndexQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="rowqueryfunction"></a>
-<h2>RowQueryFunction</h2>
+<a id="memberrefqueryfunction"></a>
+<h2>MemberRefQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery">RowQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery">MemberRefQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>RowQueryFunction</b></span>
+<span class="bold-text"><b>MemberRefQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="languagequeryfunction"></a>
-<h2>LanguageQueryFunction</h2>
+<a id="nodequeryfunction"></a>
+<h2>NodeQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery">LanguageQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery">NodeQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>LanguageQueryFunction</b></span>
+<span class="bold-text"><b>NodeQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="entryqueryfunction"></a>
-<h2>EntryQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery">EntryQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>EntryQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="captionqueryfunction"></a>
-<h2>CaptionQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery">CaptionQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CaptionQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="headingqueryfunction"></a>
-<h2>HeadingQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery">HeadingQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>HeadingQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="filequeryfunction"></a>
-<h2>FileQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery">FileQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>FileQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="toclistqueryfunction"></a>
-<h2>TocListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery">TocListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>TocListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="paramlistqueryfunction"></a>
-<h2>ParamListQueryFunction</h2>
-<span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery">ParamListQuery</a>
-<span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParamListQueryFunction</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3387,16 +3079,30 @@
 </span>
 <br/>
 <br/>
-<a id="paramtypequeryfunction"></a>
-<h2>ParamTypeQueryFunction</h2>
+<a id="paramlistqueryfunction"></a>
+<h2>ParamListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery">ParamTypeQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery">ParamListQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>ParamTypeQueryFunction</b></span>
+<span class="bold-text"><b>ParamListQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="paramnamelistqueryfunction"></a>
+<h2>ParamNameListQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery">ParamNameListQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>ParamNameListQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3415,58 +3121,212 @@
 </span>
 <br/>
 <br/>
-<a id="xrefsectqueryfunction"></a>
-<h2>XRefSectQueryFunction</h2>
+<a id="paramqueryfunction"></a>
+<h2>ParamQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery">XRefSectQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery">ParamQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>XRefSectQueryFunction</b></span>
+<span class="bold-text"><b>ParamQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="copyqueryfunction"></a>
-<h2>CopyQueryFunction</h2>
+<a id="paramtypequeryfunction"></a>
+<h2>ParamTypeQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery">CopyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery">ParamTypeQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>CopyQueryFunction</b></span>
+<span class="bold-text"><b>ParamTypeQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="blockquotequeryfunction"></a>
-<h2>BlockQuoteQueryFunction</h2>
+<a id="paraqueryfunction"></a>
+<h2>ParaQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery">BlockQuoteQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">ParaQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>BlockQuoteQueryFunction</b></span>
+<span class="bold-text"><b>ParaQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="emptyqueryfunction"></a>
-<h2>EmptyQueryFunction</h2>
+<a id="parblockqueryfunction"></a>
+<h2>ParBlockQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery">ParBlockQuery</a>
 <span class="inline-text"> &amp;)&gt;</span>
-<span class="bold-text"><b>EmptyQueryFunction</b></span>
+<span class="bold-text"><b>ParBlockQueryFunction</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="referencequeryfunction"></a>
+<h2>ReferenceQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery">ReferenceQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>ReferenceQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="refqueryfunction"></a>
+<h2>RefQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">RefQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>RefQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reftextqueryfunction"></a>
+<h2>RefTextQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>RefTextQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reimplementqueryfunction"></a>
+<h2>ReimplementQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery">ReimplementQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>ReimplementQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="rowqueryfunction"></a>
+<h2>RowQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery">RowQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>RowQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="sect1queryfunction"></a>
+<h2>Sect1QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query">Sect1Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>Sect1QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="sect2queryfunction"></a>
+<h2>Sect2QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query">Sect2Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>Sect2QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="sect3queryfunction"></a>
+<h2>Sect3QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query">Sect3Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>Sect3QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="sect4queryfunction"></a>
+<h2>Sect4QueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query">Sect4Query</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>Sect4QueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="sectiondefqueryfunction"></a>
+<h2>SectionDefQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">SectionDefQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>SectionDefQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="simplesectqueryfunction"></a>
+<h2>SimpleSectQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery">SimpleSectQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>SimpleSectQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3479,6 +3339,146 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="spqueryfunction"></a>
+<h2>SpQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>SpQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="tablequeryfunction"></a>
+<h2>TableQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery">TableQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>TableQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="templateparamlistqueryfunction"></a>
+<h2>TemplateParamListQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery">TemplateParamListQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>TemplateParamListQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="titlequeryfunction"></a>
+<h2>TitleQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery">TitleQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>TitleQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="tocitemqueryfunction"></a>
+<h2>TocItemQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery">TocItemQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>TocItemQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="toclistqueryfunction"></a>
+<h2>TocListQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery">TocListQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>TocListQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="urllinkqueryfunction"></a>
+<h2>UrlLinkQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>UrlLinkQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="variablelistqueryfunction"></a>
+<h2>VariableListQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery">VariableListQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>VariableListQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="varlistentryqueryfunction"></a>
+<h2>VarListEntryQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery">VarListEntryQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>VarListEntryQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="xrefsectqueryfunction"></a>
+<h2>XRefSectQueryFunction</h2>
+<span class="inline-text">std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery">XRefSectQuery</a>
+<span class="inline-text"> &amp;)&gt;</span>
+<span class="bold-text"><b>XRefSectQueryFunction</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>

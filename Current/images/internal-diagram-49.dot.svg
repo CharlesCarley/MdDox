@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 150,-40 150,4 -4,4"/>
-<!-- DLbEtt8 -->
-<g id="node1" class="node"><title>DLbEtt8</title>
+<!-- qSqJ3lG -->
+<g id="node1" class="node"><title>qSqJ3lG</title>
 <text text-anchor="middle" x="28" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParserBase</text>
 </g>
-<!-- qsgEtt8 -->
-<g id="node2" class="node"><title>qsgEtt8</title>
+<!-- q3qJ3lG -->
+<g id="node2" class="node"><title>q3qJ3lG</title>
 <text text-anchor="middle" x="119" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Parser</text>
 </g>
-<!-- DLbEtt8&#45;&gt;qsgEtt8 -->
-<g id="edge1" class="edge"><title>DLbEtt8&#45;&gt;qsgEtt8</title>
+<!-- qSqJ3lG&#45;&gt;q3qJ3lG -->
+<g id="edge1" class="edge"><title>qSqJ3lG&#45;&gt;q3qJ3lG</title>
 <path fill="none" stroke="#69bfff" d="M56.1865,-18C65.8505,-18 76.8052,-18 86.7799,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="86.8947,-19.7501 91.8947,-18 86.8946,-16.2501 86.8947,-19.7501"/>
 </g>

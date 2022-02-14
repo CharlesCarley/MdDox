@@ -9,31 +9,18 @@
     <derivedcompoundref refid="classMdDox_1_1NamespacePageWriter" prot="public" virt="non-virtual">MdDox::NamespacePageWriter</derivedcompoundref>
     <includes local="no">Source/MdDoxTree/PageWriter.h</includes>
       <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::PageWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1ac012825bbcafe1452762c50cd2d35037" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::PageWriter::_inDir</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_inDir</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref></type>
-        <definition>Reference MdDox::PageWriter::_ref</definition>
-        <argsstring></argsstring>
-        <name>_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member">OutputFileStream</ref></type>
@@ -61,18 +48,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/PageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="38" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1ac012825bbcafe1452762c50cd2d35037" prot="protected" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref></type>
-        <definition>PathUtil MdDox::PageWriter::_inDir</definition>
+      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref></type>
+        <definition>Reference MdDox::PageWriter::_ref</definition>
         <argsstring></argsstring>
-        <name>_inDir</name>
+        <name>_ref</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref></type>
@@ -87,25 +74,21 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/PageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="41" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a73b700549a5cdfc1fb925ddb50879307" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::PageWriter::writeDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
-        <name>writeDescription</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
+      <memberdef kind="variable" id="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::PageWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="63" bodyend="69"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1afc5873d30f45070066a2cce9b182e6c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::PageWriter::beginDocument</definition>
@@ -140,39 +123,101 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/PageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="88" bodyend="91"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::PageWriter::visitedSectionDef</definition>
-        <argsstring>(const Doxygen::SectionDefQuery &amp;query) override</argsstring>
-        <name>visitedSectionDef</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ae5a14b2fbf4ef46396cc42b03df57009">visitedSectionDef</reimplements>
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a73b700549a5cdfc1fb925ddb50879307" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::PageWriter::writeDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
+        <name>writeDescription</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kindref="compound">Doxygen::SectionDefQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>sectiondef</bold> is found. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the SectionDefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="93" bodyend="100"/>
-        <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
-        <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
-        <references refid="classMdDox_1_1SectionDefListingWriter_1a687b673217b074953bb64347127e778a" compoundref="SectionDefListingWriter_8cpp" startline="37" endline="40">MdDox::SectionDefListingWriter::setDepth</references>
-        <references refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" compoundref="SectionDefListingWriter_8cpp" startline="177" endline="196">MdDox::SectionDefListingWriter::write</references>
-        <references refid="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" compoundref="PageWriter_8h" startline="41">_sections</references>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">MdDox::Doxygen::SectionDefQuery::node</references>
+        <location file="Source/MdDoxTree/PageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="63" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a92b457f94cf847bb021dbacd0d292579" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::PageWriter::notifyBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
+        <name>notifyBriefDescription</name>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc">notifyBriefDescription</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91">notifyBriefDescription</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/PageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a4af6fb6bc18922ccfe3df4688f0c625e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::PageWriter::notifyDetailDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
+        <name>notifyDetailDescription</name>
+        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a0bc06fa770308bc08c13c200cb0793dc">notifyDetailDescription</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/PageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a34a7cd04b8e56c0c65d11084e1951d34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::PageWriter::notifyDetailDescriptionHeading</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
+        <name>notifyDetailDescriptionHeading</name>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a961f402ad5db3b86b0917bcbd0efdcd2">notifyDetailDescriptionHeading</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a5a812fc72f9826de858b822e6ea8d308">notifyDetailDescriptionHeading</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/PageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a85da1c3da15b04352ddaeb0fb877ce8c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::PageWriter::preSortQuery</definition>
+        <argsstring>(const Doxygen::CompoundDefQuery &amp;query)</argsstring>
+        <name>preSortQuery</name>
+        <reimplementedby refid="classMdDox_1_1GenericPageWriter_1a9abad2c98b3a9ecf672d6b1a45c859da">preSortQuery</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ae0cc932c250c18f470cbe75ac23415b5">preSortQuery</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2">preSortQuery</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a4a1cb00a84c2006d7a21bf7be2eb498b">preSortQuery</reimplementedby>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/PageWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a7160540760aa919d69427ad74df8ebc5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -230,82 +275,37 @@
         <references refid="classMdDox_1_1PageWriter_1a34a7cd04b8e56c0c65d11084e1951d34" compoundref="PageWriter_8h" startline="61" endline="61">notifyDetailDescriptionHeading</references>
         <references refid="classMdDox_1_1PageWriter_1a4af6fb6bc18922ccfe3df4688f0c625e" compoundref="PageWriter_8h" startline="63" endline="63">notifyDetailDescription</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a85da1c3da15b04352ddaeb0fb877ce8c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::PageWriter::preSortQuery</definition>
-        <argsstring>(const Doxygen::CompoundDefQuery &amp;query)</argsstring>
-        <name>preSortQuery</name>
-        <reimplementedby refid="classMdDox_1_1GenericPageWriter_1a9abad2c98b3a9ecf672d6b1a45c859da">preSortQuery</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ae0cc932c250c18f470cbe75ac23415b5">preSortQuery</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2">preSortQuery</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a4a1cb00a84c2006d7a21bf7be2eb498b">preSortQuery</reimplementedby>
+        <definition>void MdDox::PageWriter::visitedSectionDef</definition>
+        <argsstring>(const Doxygen::SectionDefQuery &amp;query) override</argsstring>
+        <name>visitedSectionDef</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ae5a14b2fbf4ef46396cc42b03df57009">visitedSectionDef</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kindref="compound">Doxygen::SectionDefQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Called when the element <bold>sectiondef</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the SectionDefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="57" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a92b457f94cf847bb021dbacd0d292579" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::PageWriter::notifyBriefDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
-        <name>notifyBriefDescription</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc">notifyBriefDescription</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91">notifyBriefDescription</reimplementedby>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="59" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a34a7cd04b8e56c0c65d11084e1951d34" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::PageWriter::notifyDetailDescriptionHeading</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
-        <name>notifyDetailDescriptionHeading</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a961f402ad5db3b86b0917bcbd0efdcd2">notifyDetailDescriptionHeading</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a5a812fc72f9826de858b822e6ea8d308">notifyDetailDescriptionHeading</reimplementedby>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1PageWriter_1a4af6fb6bc18922ccfe3df4688f0c625e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::PageWriter::notifyDetailDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
-        <name>notifyDetailDescription</name>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a0bc06fa770308bc08c13c200cb0793dc">notifyDetailDescription</reimplementedby>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="63" bodyend="63"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="93" bodyend="100"/>
+        <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
+        <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
+        <references refid="classMdDox_1_1SectionDefListingWriter_1a687b673217b074953bb64347127e778a" compoundref="SectionDefListingWriter_8cpp" startline="37" endline="40">MdDox::SectionDefListingWriter::setDepth</references>
+        <references refid="classMdDox_1_1SectionDefListingWriter_1ade13a6a2d0628c6afe0a71c4b5e073ed" compoundref="SectionDefListingWriter_8cpp" startline="177" endline="196">MdDox::SectionDefListingWriter::write</references>
+        <references refid="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" compoundref="PageWriter_8h" startline="41">_sections</references>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">MdDox::Doxygen::SectionDefQuery::node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

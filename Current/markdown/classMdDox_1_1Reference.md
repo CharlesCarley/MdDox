@@ -36,11 +36,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#setname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setName</span>
+<span class="icon-list-item"><a href="#getreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
+<span class="icon-list-item"><a href="#setname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setName</span>
 </a>
 </span>
 <br/>
@@ -117,6 +117,21 @@
 </span>
 <br/>
 <br/>
+<a id="getreference"></a>
+<h2>getReference</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getReference</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Reference.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="setname"></a>
 <h2>setName</h2>
 <span class="inline-text">void</span>
@@ -133,21 +148,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Reference.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getreference"></a>
-<h2>getReference</h2>
-<span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getReference</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Reference.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
 </a>
 </span>
 <br/>

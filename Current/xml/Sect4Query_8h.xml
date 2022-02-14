@@ -136,8 +136,8 @@
         <label>Tools/Doxygen/InternalS3Query.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect4QueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Sect4Query" prot="public">MdDox::Doxygen::Sect4Query</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect4QueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

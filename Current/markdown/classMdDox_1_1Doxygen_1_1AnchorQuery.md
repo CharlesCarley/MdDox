@@ -39,19 +39,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#empty" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="#getid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getId</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
@@ -60,10 +64,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getId</span>
 </a>
 </span>
 <br/>
@@ -147,24 +147,6 @@
 </span>
 <br/>
 <br/>
-<a id="isvalid"></a>
-<h2>isValid</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isValid</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Checks to see if the internal node is usable. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="empty"></a>
 <h2>empty</h2>
 <span class="inline-text">bool</span>
@@ -189,20 +171,67 @@
 </span>
 <br/>
 <br/>
-<a id="reset"></a>
-<h2>reset</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>reset</b></span>
+<a id="getid"></a>
+<h2>getId</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getId</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">notFound</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">&quot;&quot;</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Provides access to the </span>
+<span class="bold-text"><b>id</b></span>
+<span class="inline-text"> attribute. </span>
+<br/>
+<br/>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">The </span>
+<span class="bold-text"><b>id</b></span>
+<span class="inline-text"> enumerated value or an empty string the value is not found. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L95" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.cpp#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="isvalid"></a>
+<h2>isValid</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isValid</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Resets the internal node pointer to null. </span>
+<span class="inline-text">Checks to see if the internal node is usable. </span>
 <br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L72" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
 </a>
 </span>
 <br/>
@@ -222,6 +251,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L77" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="reset"></a>
+<h2>reset</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>reset</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Resets the internal node pointer to null. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L72" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
 </a>
 </span>
 <br/>
@@ -304,53 +351,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.cpp#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getid"></a>
-<h2>getId</h2>
-<span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getId</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">notFound</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">&quot;&quot;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Provides access to the </span>
-<span class="bold-text"><b>id</b></span>
-<span class="inline-text"> attribute. </span>
-<br/>
-<br/>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">The </span>
-<span class="bold-text"><b>id</b></span>
-<span class="inline-text"> enumerated value or an empty string the value is not found. </span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.h#L95" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/AnchorQuery.cpp#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery.cpp</span>
 </a>
 </span>
 <br/>

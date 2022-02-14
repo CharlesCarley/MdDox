@@ -184,8 +184,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" prot="public">MdDox::Doxygen::LinkedTextQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

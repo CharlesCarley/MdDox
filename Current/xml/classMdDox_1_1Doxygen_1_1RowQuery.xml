@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/RowQuery.h" line="77" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1a7bff6667f4fcdf3c5d93bc367d4778af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::RowQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/RowQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="119" bodyend="122"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1a181a80fec94753a23f0b2287ec78031d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::RowQuery::empty</definition>
@@ -93,18 +80,35 @@
         <location file="Tools/Doxygen/RowQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="134" bodyend="137"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1ac1d426ffd47b039cfbd54edd9cdcb519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1ae71aface4dc17448eb14db446ae7b334" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::RowQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::RowQuery::foreachEntry</definition>
+        <argsstring>(const EntryQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachEntry</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa3dff15edac42505788c4d8db006a3e0" kindref="member">EntryQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>entry</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/RowQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="124" bodyend="127"/>
+        <location file="Tools/Doxygen/RowQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/RowQuery.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1a7bff6667f4fcdf3c5d93bc367d4778af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::RowQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/RowQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1a4f7a5113b068eb9656203ae5df1688e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +122,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/RowQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1ac1d426ffd47b039cfbd54edd9cdcb519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::RowQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/RowQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1affd505eba386f62b87928551673e4743" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,23 +195,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1RowQueryVisitor_1aca71527bd37b67463582f736d985269b" compoundref="RowQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::RowQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1RowQueryVisitor_1ad09748699a745aeee3c7a7703a216911" compoundref="RowQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::RowQueryVisitor::visitedEntry</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RowQuery_1ae71aface4dc17448eb14db446ae7b334" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::RowQuery::foreachEntry</definition>
-        <argsstring>(const EntryQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachEntry</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa3dff15edac42505788c4d8db006a3e0" kindref="member">EntryQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>entry</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/RowQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/RowQuery.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

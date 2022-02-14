@@ -33,11 +33,11 @@
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#scansymbol" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanSymbol</span>
+<span class="icon-list-item"><a href="#scanstring" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanString</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#scanstring" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanString</span>
+<span class="icon-list-item"><a href="#scansymbol" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanSymbol</span>
 </a>
 </span>
 <br/>
@@ -47,11 +47,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#scan" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scan</span>
+<span class="icon-list-item"><a href="#getcode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getCode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getcode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getCode</span>
+<span class="icon-list-item"><a href="#scan" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scan</span>
 </a>
 </span>
 <br/>
@@ -85,29 +85,6 @@
 </span>
 <br/>
 <br/>
-<a id="scansymbol"></a>
-<h2>scanSymbol</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>scanSymbol</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox_1_1Xml.md#token">Token</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">tok</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="scanstring"></a>
 <h2>scanString</h2>
 <span class="inline-text">void</span>
@@ -131,6 +108,29 @@
 </span>
 <br/>
 <br/>
+<a id="scansymbol"></a>
+<h2>scanSymbol</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>scanSymbol</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox_1_1Xml.md#token">Token</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">tok</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="scanner"></a>
 <h2>Scanner</h2>
 <span class="bold-text"><b>Scanner</b></span>
@@ -143,6 +143,40 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getcode"></a>
+<h2>getCode</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>getCode</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const size_t &amp;</span>
+<span class="inline-text">idx</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#syntaxerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">syntaxError</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
 <br/>
@@ -252,40 +286,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getcode"></a>
-<h2>getCode</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>getCode</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const size_t &amp;</span>
-<span class="inline-text">idx</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#syntaxerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">syntaxError</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
 <br/>

@@ -17,7 +17,35 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
+<span class="icon-list-item"><a href="#generate" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">generate</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#replaceall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#splitline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitLine</span>
 </a>
 </span>
 <br/>
@@ -25,27 +53,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+<span class="icon-list-item"><a href="#tolower" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toLower</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+<span class="icon-list-item"><a href="#tolowerfirst" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toLowerFirst</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+<span class="icon-list-item"><a href="#toupper" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUpper</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+<span class="icon-list-item"><a href="#toupperfirst" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUpperFirst</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#generate" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">generate</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#trimwhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
+<span class="icon-list-item"><a href="#trim" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trim</span>
 </a>
 </span>
 <br/>
@@ -57,31 +81,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#trim" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trim</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#splitline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitLine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#replaceall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#tolower" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toLower</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#toupper" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUpper</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#tolowerfirst" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toLowerFirst</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#toupperfirst" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUpperFirst</span>
+<span class="icon-list-item"><a href="#trimwhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
 </a>
 </span>
 <br/>
@@ -91,133 +91,79 @@
 </a>
 </span>
 <br/>
-<a id="split"></a>
-<h2>split</h2>
+<a id="generate"></a>
+<h2>generate</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>split</b></span>
+<span class="bold-text"><b>generate</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">destination</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int &amp;</span>
+<span class="inline-text">counter</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
-<span class="inline-text">separator</span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">void *</span>
+<span class="inline-text">seed</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
+<span class="inline-text">Scrambles and combines a contextually unique counter, time stamp, and a memory address. </span>
 <br/>
 <br/>
+<span class="inline-text">Used to generate a unique string without using a GUID.</span>
 <ul>
 <li><span class="bold-text"><b>destination</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">The structure that will hold the sub-strings. </span>
+<span class="inline-text">The string that will hold the generated value </span>
 </li>
-<li><span class="bold-text"><b>input</b></span>
+<li><span class="bold-text"><b>counter</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">The input string to split. </span>
+<span class="inline-text">A reference to an external counter variable. </span>
 </li>
-<li><span class="bold-text"><b>separator</b></span>
+<li><span class="bold-text"><b>seed</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">The value that determines a split. </span>
+<span class="inline-text">The memory address to mix into the generated value. </span>
 </li>
 </ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L99" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="splitrejectempty"></a>
-<h2>splitRejectEmpty</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>splitRejectEmpty</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">destination</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
-<span class="inline-text">separator</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>destination</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The structure that will hold the sub-strings. </span>
-</li>
-<li><span class="bold-text"><b>input</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The input string to split. </span>
-</li>
-<li><span class="bold-text"><b>separator</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The value that determines a split.</span>
-</li>
-</ul>
-<span class="inline-text">
-Removes any empty strings from the result. </span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimwhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L257" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="split"></a>
-<h2>split</h2>
+<a id="replaceall"></a>
+<h2>replaceAll</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>split</b></span>
+<span class="bold-text"><b>replaceAll</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">destination</span>
+<span class="inline-text">dest</span>
 </span>
 </div>
 <div class="paragraph">
@@ -231,94 +177,24 @@ Removes any empty strings from the result. </span>
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">separator</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>destination</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The structure that will hold the sub-strings. </span>
-</li>
-<li><span class="bold-text"><b>input</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The input string to split. </span>
-</li>
-<li><span class="bold-text"><b>separator</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The value that determines a split. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="split"></a>
-<h2>split</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>split</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringdeque">StringDeque</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">destination</span>
+<span class="inline-text">a</span>
 </span>
 </div>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">separator</span>
+<span class="inline-text">b</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>destination</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The structure that will hold the sub-strings. </span>
-</li>
-<li><span class="bold-text"><b>input</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The input string to split. </span>
-</li>
-<li><span class="bold-text"><b>separator</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The value that determines a split. </span>
-</li>
-</ul>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -443,74 +319,397 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<a id="generate"></a>
-<h2>generate</h2>
+<a id="split"></a>
+<h2>split</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>generate</b></span>
+<span class="bold-text"><b>split</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">destination</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int &amp;</span>
-<span class="inline-text">counter</span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">void *</span>
-<span class="inline-text">seed</span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
+<span class="inline-text">separator</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Scrambles and combines a contextually unique counter, time stamp, and a memory address. </span>
+<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
 <br/>
 <br/>
-<span class="inline-text">Used to generate a unique string without using a GUID.</span>
 <ul>
 <li><span class="bold-text"><b>destination</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">The string that will hold the generated value </span>
+<span class="inline-text">The structure that will hold the sub-strings. </span>
 </li>
-<li><span class="bold-text"><b>counter</b></span>
+<li><span class="bold-text"><b>input</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">A reference to an external counter variable. </span>
+<span class="inline-text">The input string to split. </span>
 </li>
-<li><span class="bold-text"><b>seed</b></span>
+<li><span class="bold-text"><b>separator</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">The memory address to mix into the generated value. </span>
+<span class="inline-text">The value that determines a split. </span>
 </li>
 </ul>
 <br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L99" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="split"></a>
+<h2>split</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>split</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">destination</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">separator</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>destination</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The structure that will hold the sub-strings. </span>
+</li>
+<li><span class="bold-text"><b>input</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The input string to split. </span>
+</li>
+<li><span class="bold-text"><b>separator</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The value that determines a split. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="split"></a>
+<h2>split</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>split</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringdeque">StringDeque</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">destination</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">separator</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>destination</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The structure that will hold the sub-strings. </span>
+</li>
+<li><span class="bold-text"><b>input</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The input string to split. </span>
+</li>
+<li><span class="bold-text"><b>separator</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The value that determines a split. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="splitline"></a>
+<h2>splitLine</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>splitLine</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
+<span class="inline-text">swap</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">&apos;$&apos;</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#replaceall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L257" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="trimwhitespace"></a>
-<h2>trimWhiteSpace</h2>
+<a id="splitrejectempty"></a>
+<h2>splitRejectEmpty</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>trimWhiteSpace</b></span>
+<span class="bold-text"><b>splitRejectEmpty</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">destination</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
+<span class="inline-text">separator</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Splits the supplied string into a list of sub-strings. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>destination</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The structure that will hold the sub-strings. </span>
+</li>
+<li><span class="bold-text"><b>input</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The input string to split. </span>
+</li>
+<li><span class="bold-text"><b>separator</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The value that determines a split.</span>
+</li>
+</ul>
+<span class="inline-text">
+Removes any empty strings from the result. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimwhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="tolower"></a>
+<h2>toLower</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>toLower</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">in</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="tolowerfirst"></a>
+<h2>toLowerFirst</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>toLowerFirst</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">in</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="toupper"></a>
+<h2>toUpper</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>toUpper</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">in</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="toupperfirst"></a>
+<h2>toUpperFirst</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>toUpperFirst</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">in</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L209" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="trim"></a>
+<h2>trim</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>trim</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
@@ -525,10 +724,15 @@ Not-Randomized:
 <span class="inline-text">input</span>
 </span>
 </div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
+<span class="inline-text">character</span>
+</span>
+</div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Removes any white space characters from the start and end of the string. </span>
+<span class="inline-text">A combination of trimL and trimR. </span>
 <br/>
 <br/>
 <ul>
@@ -540,21 +744,29 @@ Not-Randomized:
 <span class="inline-text"> - </span>
 <span class="inline-text">The input string that needs to be trimmed. </span>
 </li>
+<li><span class="bold-text"><b>character</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">the character to trim. </span>
+</li>
 </ul>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#iswhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#triml" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimL</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimr" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimR</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L197" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L274" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L268" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -669,10 +881,10 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<a id="trim"></a>
-<h2>trim</h2>
+<a id="trimwhitespace"></a>
+<h2>trimWhiteSpace</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>trim</b></span>
+<span class="bold-text"><b>trimWhiteSpace</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
@@ -687,15 +899,10 @@ Not-Randomized:
 <span class="inline-text">input</span>
 </span>
 </div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
-<span class="inline-text">character</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">A combination of trimL and trimR. </span>
+<span class="inline-text">Removes any white space characters from the start and end of the string. </span>
 <br/>
 <br/>
 <ul>
@@ -707,228 +914,21 @@ Not-Randomized:
 <span class="inline-text"> - </span>
 <span class="inline-text">The input string that needs to be trimmed. </span>
 </li>
-<li><span class="bold-text"><b>character</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">the character to trim. </span>
-</li>
 </ul>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#triml" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimL</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimr" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">trimR</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#iswhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L197" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L268" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="splitline"></a>
-<h2>splitLine</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>splitLine</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#stringarray">StringArray</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">char</span>
-<span class="inline-text">swap</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">&apos;$&apos;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#replaceall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="replaceall"></a>
-<h2>replaceAll</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>replaceAll</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">a</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">b</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="tolower"></a>
-<h2>toLower</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>toLower</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">in</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L203" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="toupper"></a>
-<h2>toUpper</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>toUpper</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">in</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="tolowerfirst"></a>
-<h2>toLowerFirst</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>toLowerFirst</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">in</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L92" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="toupperfirst"></a>
-<h2>toUpperFirst</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>toUpperFirst</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">in</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L209" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L274" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>

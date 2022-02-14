@@ -26,11 +26,11 @@
 <br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#save" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">save</span>
+<span class="icon-list-item"><a href="#exists" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#exists" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
+<span class="icon-list-item"><a href="#save" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">save</span>
 </a>
 </span>
 <br/>
@@ -66,24 +66,6 @@
 </span>
 <br/>
 <br/>
-<a id="save"></a>
-<h2>save</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>save</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const T &amp;</span>
-<span class="inline-text">value</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/IndexCache.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="exists"></a>
 <h2>exists</h2>
 <span class="inline-text">bool</span>
@@ -98,6 +80,24 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/IndexCache.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="save"></a>
+<h2>save</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>save</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const T &amp;</span>
+<span class="inline-text">value</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/IndexCache.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>

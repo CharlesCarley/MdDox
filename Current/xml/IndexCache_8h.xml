@@ -161,8 +161,8 @@
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1IndexCache" prot="public">MdDox::IndexCache</innerclass>
     <innerclass refid="classMdDox_1_1Cache" prot="public">MdDox::Cache</innerclass>
+    <innerclass refid="classMdDox_1_1IndexCache" prot="public">MdDox::IndexCache</innerclass>
     <innerclass refid="classMdDox_1_1KeyIndexCache" prot="public">MdDox::KeyIndexCache</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
     <briefdescription>

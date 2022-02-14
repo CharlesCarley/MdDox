@@ -5,32 +5,6 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/IndexPageWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1IndexPageWriter_1af2ab5886d3134679fc01622bc9f70eae" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member">OutputFileStream</ref> *</type>
-        <definition>OutputFileStream* MdDox::IndexPageWriter::_stream</definition>
-        <argsstring></argsstring>
-        <name>_stream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1IndexPageWriter_1ad06e1785cdbe0f7186bb539769aced40" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::IndexPageWriter::_writer</definition>
-        <argsstring></argsstring>
-        <name>_writer</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1IndexPageWriter_1a5e71817af14879ceeb0b7b3f693f4074" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::IndexPageWriter::_indexDir</definition>
@@ -56,6 +30,32 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/IndexPageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1IndexPageWriter_1af2ab5886d3134679fc01622bc9f70eae" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member">OutputFileStream</ref> *</type>
+        <definition>OutputFileStream* MdDox::IndexPageWriter::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1IndexPageWriter_1ad06e1785cdbe0f7186bb539769aced40" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::IndexPageWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">

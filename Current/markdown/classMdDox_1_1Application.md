@@ -20,7 +20,11 @@
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
+<span class="icon-list-item"><a href="#_config" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_config</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_gentype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_genType</span>
 </a>
 </span>
 <br/>
@@ -32,11 +36,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_gentype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_genType</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_config" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_config</span>
+<span class="icon-list-item"><a href="#_writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
 </a>
 </span>
 <br/>
@@ -50,11 +50,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+<span class="icon-list-item"><a href="#go" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">go</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#go" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">go</span>
+<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
 </a>
 </span>
 <br/>
@@ -72,15 +72,26 @@
 </a>
 </span>
 <br/>
-<a id="_writer"></a>
-<h2>_writer</h2>
-<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_writer</b></span>
+<a id="_config"></a>
+<h2>_config</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>_config</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_gentype"></a>
+<h2>_genType</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>_genType</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -109,26 +120,15 @@
 </span>
 <br/>
 <br/>
-<a id="_gentype"></a>
-<h2>_genType</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>_genType</b></span>
+<a id="_writer"></a>
+<h2>_writer</h2>
+<a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_writer</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_config"></a>
-<h2>_config</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>_config</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -153,6 +153,42 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="go"></a>
+<h2>go</h2>
+<span class="inline-text">int</span>
+<span class="bold-text"><b>go</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Is the primary application routine. </span>
+<br/>
+<br/>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">Zero on success or not at all if an internal exception is raised. </span>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#loadconfig" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">loadConfig</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#buildfromxml" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">buildFromXml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -230,42 +266,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="go"></a>
-<h2>go</h2>
-<span class="inline-text">int</span>
-<span class="bold-text"><b>go</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Is the primary application routine. </span>
-<br/>
-<br/>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">Zero on success or not at all if an internal exception is raised. </span>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#loadconfig" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">loadConfig</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#buildfromxml" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">buildFromXml</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L201" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>

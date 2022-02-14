@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EmptyQuery.h" line="55" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a6d7e82767d0491e3db664aafcee1753c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::EmptyQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EmptyQuery.h" line="60" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="90" bodyend="93"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1aae3ff6775fd3f75c1a79343f8de4b3d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::EmptyQuery::empty</definition>
@@ -93,18 +80,18 @@
         <location file="Tools/Doxygen/EmptyQuery.h" line="65" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="105" bodyend="108"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::EmptyQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a6d7e82767d0491e3db664aafcee1753c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::EmptyQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/EmptyQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="95" bodyend="98"/>
+        <location file="Tools/Doxygen/EmptyQuery.h" line="60" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="90" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1aee59eb84305197dd656e346a713d8157" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +105,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EmptyQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::EmptyQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EmptyQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="95" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a28f9fdbf3d4e6294f3a6933ef38ebacc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

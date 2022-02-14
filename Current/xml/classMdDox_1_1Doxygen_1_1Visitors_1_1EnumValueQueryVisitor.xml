@@ -17,47 +17,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="34" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9b145b645b9ac842de9b5de18a6b7690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EnumValueQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a2667a88d3674c9409b49b7c2ed201120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedInitializer</definition>
-        <argsstring>(const LinkedTextQuery &amp;query)</argsstring>
-        <name>visitedInitializer</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">LinkedTextQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>initializer</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">LinkedTextQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EnumValueQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="44" bodyend="44"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9a6ce073c6946cd7c463b3fef1d7ef3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedBriefDescription</definition>
@@ -108,6 +67,31 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="54" bodyend="54"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a2667a88d3674c9409b49b7c2ed201120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedInitializer</definition>
+        <argsstring>(const LinkedTextQuery &amp;query)</argsstring>
+        <name>visitedInitializer</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>initializer</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">LinkedTextQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a915b323d62e3300fb6b52708cfe8b5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedName</definition>
@@ -132,6 +116,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="59" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9b145b645b9ac842de9b5de18a6b7690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="39" bodyend="39"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

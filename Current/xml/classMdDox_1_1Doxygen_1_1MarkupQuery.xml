@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="245" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a58876e3beec1cdc2bbbdcba59b752bb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::MarkupQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="250" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="626" bodyend="629"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a624d182778505154bdf6174370fd6d91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::MarkupQuery::empty</definition>
@@ -93,18 +80,1157 @@
         <location file="Tools/Doxygen/MarkupQuery.h" line="255" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="641" bodyend="644"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac5dc7513af28d22dc7fab2049b437abb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::MarkupQuery::getAnchor</definition>
+        <argsstring>(AnchorQuery &amp;dest) const</argsstring>
+        <name>getAnchor</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="260" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="631" bodyend="634"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="546" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="641" bodyend="650"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a801724459cb526e57b9d441d92b7d434" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref></type>
+        <definition>AnchorQuery MdDox::Doxygen::MarkupQuery::getAnchor</definition>
+        <argsstring>() const</argsstring>
+        <name>getAnchor</name>
+        <briefdescription>
+<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="551" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="652" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a32f6701d2d5a595589a61429918bfcef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getBlockQuote</definition>
+        <argsstring>(BlockQuoteQuery &amp;dest) const</argsstring>
+        <name>getBlockQuote</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="487" bodyend="496"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a018ddf1f254e0a6dfe2a70dd78756698" compoundref="BlockQuoteQuery_8h" startline="124" endline="127">MdDox::Doxygen::BlockQuoteQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a40ef56be6d45e70513ef450612924043" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref></type>
+        <definition>BlockQuoteQuery MdDox::Doxygen::MarkupQuery::getBlockQuote</definition>
+        <argsstring>() const</argsstring>
+        <name>getBlockQuote</name>
+        <briefdescription>
+<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="498" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a7479c181013a161891ea05901f5fb872" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getBold</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getBold</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="496" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="551" bodyend="560"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9938fe541b6748e5023446a8a970c92e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getBold</definition>
+        <argsstring>() const</argsstring>
+        <name>getBold</name>
+        <briefdescription>
+<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="501" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="562" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1b25dfd92890229a47cc0c2a658bbb9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getCenter</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getCenter</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="526" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="605" bodyend="614"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac1fd9f5781b2f8d6278b771f73c5e4a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getCenter</definition>
+        <argsstring>() const</argsstring>
+        <name>getCenter</name>
+        <briefdescription>
+<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="531" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="616" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a48172a10f6ecfd7528a94e9a9f4a4c02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getComputerOutput</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getComputerOutput</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="516" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="587" bodyend="596"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6745414787bfbd1b42f960c5441160c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getComputerOutput</definition>
+        <argsstring>() const</argsstring>
+        <name>getComputerOutput</name>
+        <briefdescription>
+<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="521" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="598" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa2be22773f69859af7c858f19651c067" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MarkupQuery::getDot</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>dot</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>dot&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="481" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="523" bodyend="531"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aacf7d387ce18c5bd0d448915cb984061" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getDotFile</definition>
+        <argsstring>(FileQuery &amp;dest) const</argsstring>
+        <name>getDotFile</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="415" bodyend="424"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1FileQuery_1a635f7683c2ce33b60f919da42424949a" compoundref="FileQuery_8h" startline="343" endline="346">MdDox::Doxygen::FileQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab7f0150cd0ef8ee99332f4b9aece6c35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref></type>
+        <definition>FileQuery MdDox::Doxygen::MarkupQuery::getDotFile</definition>
+        <argsstring>() const</argsstring>
+        <name>getDotFile</name>
+        <briefdescription>
+<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="426" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9c258703f1a71642388d9645535066b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getEmphasis</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getEmphasis</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="506" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="569" bodyend="578"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9776cc0538b9f97c67b1c84810207fd9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getEmphasis</definition>
+        <argsstring>() const</argsstring>
+        <name>getEmphasis</name>
+        <briefdescription>
+<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="511" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="580" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa9b5633a7085f55332739692fbedbcd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getHeading</definition>
+        <argsstring>(HeadingQuery &amp;dest) const</argsstring>
+        <name>getHeading</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="379" bodyend="388"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a2a97e3f62b47965ba987b8e39f5a4b55" compoundref="HeadingQuery_8h" startline="341" endline="344">MdDox::Doxygen::HeadingQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ace10d3ce6871dffd580523b67002a133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref></type>
+        <definition>HeadingQuery MdDox::Doxygen::MarkupQuery::getHeading</definition>
+        <argsstring>() const</argsstring>
+        <name>getHeading</name>
+        <briefdescription>
+<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="390" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab65ed00a21e3812c7d4231d6fd5f3f66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getHRuler</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getHRuler</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="199" bodyend="208"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2f80786f2b081c94b7ac06b54b4796f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getHRuler</definition>
+        <argsstring>() const</argsstring>
+        <name>getHRuler</name>
+        <briefdescription>
+<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="210" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a29399dd79960f6bc67e5c82f209b0d9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getImage</definition>
+        <argsstring>(ImageQuery &amp;dest) const</argsstring>
+        <name>getImage</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="397" bodyend="406"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" compoundref="ImageQuery_8h" startline="370" endline="373">MdDox::Doxygen::ImageQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5b5829acfdbc9e759990c70f71080973" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref></type>
+        <definition>ImageQuery MdDox::Doxygen::MarkupQuery::getImage</definition>
+        <argsstring>() const</argsstring>
+        <name>getImage</name>
+        <briefdescription>
+<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="408" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a7749313f061f573bb7e44d2408e7543d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getIndexEntry</definition>
+        <argsstring>(IndexEntryQuery &amp;dest) const</argsstring>
+        <name>getIndexEntry</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="253" bodyend="262"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a3ace4842740f1c6a23ec1e19db107cf1" compoundref="IndexEntryQuery_8h" startline="100" endline="103">MdDox::Doxygen::IndexEntryQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a36fffaf6934615ce10a80d2775d01e45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref></type>
+        <definition>IndexEntryQuery MdDox::Doxygen::MarkupQuery::getIndexEntry</definition>
+        <argsstring>() const</argsstring>
+        <name>getIndexEntry</name>
+        <briefdescription>
+<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="264" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1afa18713fd895fe21b4aa31b7e96a95f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getItemizedList</definition>
+        <argsstring>(ListQuery &amp;dest) const</argsstring>
+        <name>getItemizedList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="289" bodyend="298"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5f350b26af09c5fa9ea61cf280852c04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
+        <definition>ListQuery MdDox::Doxygen::MarkupQuery::getItemizedList</definition>
+        <argsstring>() const</argsstring>
+        <name>getItemizedList</name>
+        <briefdescription>
+<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2ef587ba62b00f9abe283232de3250db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getLang</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getLang</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="616" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="767" bodyend="776"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1abb8d8095a1bb198a5b0d591d86d370c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getLang</definition>
+        <argsstring>() const</argsstring>
+        <name>getLang</name>
+        <briefdescription>
+<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="621" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="778" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a46f4f7779fdc8b608d96aff3afd4e709" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getLanguage</definition>
+        <argsstring>(LanguageQuery &amp;dest) const</argsstring>
+        <name>getLanguage</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="451" bodyend="460"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a8cf6ab05635116f56564470762794a80" compoundref="LanguageQuery_8h" startline="133" endline="136">MdDox::Doxygen::LanguageQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5a1b82596a8f1e034d2722c5589b7031" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref></type>
+        <definition>LanguageQuery MdDox::Doxygen::MarkupQuery::getLanguage</definition>
+        <argsstring>() const</argsstring>
+        <name>getLanguage</name>
+        <briefdescription>
+<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="462" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae17949382a0a193d41d075563e02a888" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getLineBreak</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getLineBreak</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="181" bodyend="190"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1acf9c051d6a6a70d5f97de6568c03568d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getLineBreak</definition>
+        <argsstring>() const</argsstring>
+        <name>getLineBreak</name>
+        <briefdescription>
+<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5741aef11e5fd3dce73214ab1db3c419" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getOrderedList</definition>
+        <argsstring>(ListQuery &amp;dest) const</argsstring>
+        <name>getOrderedList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="271" bodyend="280"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa2ffbc10c47545bf93185049f3d90617" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
+        <definition>ListQuery MdDox::Doxygen::MarkupQuery::getOrderedList</definition>
+        <argsstring>() const</argsstring>
+        <name>getOrderedList</name>
+        <briefdescription>
+<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="282" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a931c3339de463e959394971d4186e051" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getParagraph</definition>
+        <argsstring>(ParaQuery &amp;dest) const</argsstring>
+        <name>getParagraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="586" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="713" bodyend="722"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">MdDox::Doxygen::ParaQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aaae8289e2a215064a80801ec4617964a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref></type>
+        <definition>ParaQuery MdDox::Doxygen::MarkupQuery::getParagraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getParagraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="591" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="724" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a30d272129e329e4ac61434b6f64ff120" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getParameterList</definition>
+        <argsstring>(ParamListQuery &amp;dest) const</argsstring>
+        <name>getParameterList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="469" bodyend="478"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a1fe0376029e051df97e7d03187e91798" compoundref="ParamListQuery_8h" startline="133" endline="136">MdDox::Doxygen::ParamListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae2cb133b32ff6822b4ca8e5b3de0893f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref></type>
+        <definition>ParamListQuery MdDox::Doxygen::MarkupQuery::getParameterList</definition>
+        <argsstring>() const</argsstring>
+        <name>getParameterList</name>
+        <briefdescription>
+<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac40238bee7eb0adf391690af50b3a22d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getParBlock</definition>
+        <argsstring>(ParBlockQuery &amp;dest) const</argsstring>
+        <name>getParBlock</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="505" bodyend="514"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" compoundref="ParBlockQuery_8h" startline="124" endline="127">MdDox::Doxygen::ParBlockQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9cd545d0f96d3673f81adfc0aa7b0a53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref></type>
+        <definition>ParBlockQuery MdDox::Doxygen::MarkupQuery::getParBlock</definition>
+        <argsstring>() const</argsstring>
+        <name>getParBlock</name>
+        <briefdescription>
+<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="516" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a62cc55aa4185381d7cc5fa378aecb0e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getPart</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getPart</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="596" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="731" bodyend="740"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9864abe3dc42cf4f12c7814abbdee804" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getPart</definition>
+        <argsstring>() const</argsstring>
+        <name>getPart</name>
+        <briefdescription>
+<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="601" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="742" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ace55e788de2689cc2cece372ff028c28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getPreFormatted</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getPreFormatted</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="217" bodyend="226"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad52f37a8b49bc428fbb9ff66b32beeac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getPreFormatted</definition>
+        <argsstring>() const</argsstring>
+        <name>getPreFormatted</name>
+        <briefdescription>
+<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="314" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1adc5fa87c703d02d0b7cea9be6e05d594" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getProgramListing</definition>
+        <argsstring>(ListingQuery &amp;dest) const</argsstring>
+        <name>getProgramListing</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="235" bodyend="244"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4304858bffb3a8daa3850b11c43032aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
+        <definition>ListingQuery MdDox::Doxygen::MarkupQuery::getProgramListing</definition>
+        <argsstring>() const</argsstring>
+        <name>getProgramListing</name>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="324" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac3d8bf5ef22547c0d6c2892f0b91e1c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getProp</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getProp</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="606" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="749" bodyend="758"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6fb5a1d2a0fb8d32a65a0d37ebebad49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getProp</definition>
+        <argsstring>() const</argsstring>
+        <name>getProp</name>
+        <briefdescription>
+<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="611" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="760" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9271d2b232ba30bbd3171c880bc002eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getRef</definition>
+        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
+        <name>getRef</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="556" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="659" bodyend="668"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1292cb3c0cc218ab2a480fe63ab0368c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
+        <definition>RefTextQuery MdDox::Doxygen::MarkupQuery::getRef</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef</name>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="561" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa24852efcf08accbf6cf86fa603abac8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getRegistered</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getRegistered</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="576" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="695" bodyend="704"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a3663afb0493300aa65991cdfb22549e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getRegistered</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegistered</name>
+        <briefdescription>
+<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="581" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="706" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2a5e9e1d919dc703fd635a4edeb6921a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getSect</definition>
+        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
+        <name>getSect</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="566" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="677" bodyend="686"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4b15678a47c621ee05673a50e833b8de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
+        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getSect</definition>
+        <argsstring>() const</argsstring>
+        <name>getSect</name>
+        <briefdescription>
+<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="571" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="688" bodyend="693"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a269b748861dca3117d21722121fb5d8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getSimpleSect</definition>
+        <argsstring>(SimpleSectQuery &amp;dest) const</argsstring>
+        <name>getSimpleSect</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="307" bodyend="316"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" compoundref="SimpleSectQuery_8h" startline="151" endline="154">MdDox::Doxygen::SimpleSectQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a3494d4862cac4c7383abf0b8f56373b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref></type>
+        <definition>SimpleSectQuery MdDox::Doxygen::MarkupQuery::getSimpleSect</definition>
+        <argsstring>() const</argsstring>
+        <name>getSimpleSect</name>
+        <briefdescription>
+<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a22a718286e3254e2a369ccc5d99ebb4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getSmall</definition>
+        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
+        <name>getSmall</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="536" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="623" bodyend="632"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1af53e3785fc3f377c6fd79d206cf39bd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
+        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getSmall</definition>
+        <argsstring>() const</argsstring>
+        <name>getSmall</name>
+        <briefdescription>
+<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="541" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="634" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1abfab7ff42feea08f3dc45d68b4fc6a9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getTable</definition>
+        <argsstring>(TableQuery &amp;dest) const</argsstring>
+        <name>getTable</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="361" bodyend="370"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TableQuery_1a0f50fe8967aa2d466fa0399cf2e952f7" compoundref="TableQuery_8h" startline="144" endline="147">MdDox::Doxygen::TableQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae966a01e853632d12aec88ab42131567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref></type>
+        <definition>TableQuery MdDox::Doxygen::MarkupQuery::getTable</definition>
+        <argsstring>() const</argsstring>
+        <name>getTable</name>
+        <briefdescription>
+<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="372" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a31be661119f3eafb89e6467e416c9cac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getTitle</definition>
+        <argsstring>(TitleQuery &amp;dest) const</argsstring>
+        <name>getTitle</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="325" bodyend="334"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac06fc319cf84891438bd4f87a2fa18fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
+        <definition>TitleQuery MdDox::Doxygen::MarkupQuery::getTitle</definition>
+        <argsstring>() const</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="336" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a072ee3d1015ed58cbcb24592a2946464" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getTocList</definition>
+        <argsstring>(TocListQuery &amp;dest) const</argsstring>
+        <name>getTocList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="433" bodyend="442"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" compoundref="TocListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TocListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a0a6aba0265737d87b4c8512a8885a7ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref></type>
+        <definition>TocListQuery MdDox::Doxygen::MarkupQuery::getTocList</definition>
+        <argsstring>() const</argsstring>
+        <name>getTocList</name>
+        <briefdescription>
+<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="444" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa8fdb0d37c8b2c444ab4ffc1ca73ca3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getULink</definition>
+        <argsstring>(UrlLinkQuery &amp;dest) const</argsstring>
+        <name>getULink</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="486" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="533" bodyend="542"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a0a230dc30520e25892d64bf25fb56cba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref></type>
+        <definition>UrlLinkQuery MdDox::Doxygen::MarkupQuery::getULink</definition>
+        <argsstring>() const</argsstring>
+        <name>getULink</name>
+        <briefdescription>
+<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="491" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="544" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a8dccdfeedb7e9bca9d5566d4672abbbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::getVariableList</definition>
+        <argsstring>(VariableListQuery &amp;dest) const</argsstring>
+        <name>getVariableList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="343" bodyend="352"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" compoundref="VariableListQuery_8h" startline="99" endline="102">MdDox::Doxygen::VariableListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4d3277ff2c3ca4f2638fb17049c708d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref></type>
+        <definition>VariableListQuery MdDox::Doxygen::MarkupQuery::getVariableList</definition>
+        <argsstring>() const</argsstring>
+        <name>getVariableList</name>
+        <briefdescription>
+<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="354" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6a38c304efea4ac689db95d5dcc9804c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MarkupQuery::getVerbatim</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getVerbatim</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>verbatim</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>verbatim&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="284" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="171" bodyend="179"/>
+        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a58876e3beec1cdc2bbbdcba59b752bb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::MarkupQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="250" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="626" bodyend="629"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +1244,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="265" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="636" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MarkupQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="260" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="631" bodyend="634"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6d91f096eb1f3b3358c5dded3d33047f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -213,1145 +1352,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac2c797e9d8fa54ffa44cf3c5bba52dfa" compoundref="MarkupQuery_8h" startline="203" endline="203">MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedProp</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a845a84a1bc6f46dbccc921c8328ad33d" compoundref="MarkupQuery_8h" startline="208" endline="208">MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedLang</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aec61efc2623f7d2040fe30c61e3f805e" compoundref="MarkupQuery_8h" startline="213" endline="213">MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedDot</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6a38c304efea4ac689db95d5dcc9804c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::MarkupQuery::getVerbatim</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getVerbatim</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>verbatim</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>verbatim&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="284" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="171" bodyend="179"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae17949382a0a193d41d075563e02a888" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getLineBreak</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getLineBreak</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="289" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="181" bodyend="190"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1acf9c051d6a6a70d5f97de6568c03568d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getLineBreak</definition>
-        <argsstring>() const</argsstring>
-        <name>getLineBreak</name>
-        <briefdescription>
-<para>Provides access to the <bold>linebreak</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="192" bodyend="197"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab65ed00a21e3812c7d4231d6fd5f3f66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getHRuler</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getHRuler</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="299" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="199" bodyend="208"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2f80786f2b081c94b7ac06b54b4796f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getHRuler</definition>
-        <argsstring>() const</argsstring>
-        <name>getHRuler</name>
-        <briefdescription>
-<para>Provides access to the <bold>hruler</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="304" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="210" bodyend="215"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ace55e788de2689cc2cece372ff028c28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getPreFormatted</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getPreFormatted</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="309" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="217" bodyend="226"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad52f37a8b49bc428fbb9ff66b32beeac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getPreFormatted</definition>
-        <argsstring>() const</argsstring>
-        <name>getPreFormatted</name>
-        <briefdescription>
-<para>Provides access to the <bold>preformatted</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="314" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="228" bodyend="233"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1adc5fa87c703d02d0b7cea9be6e05d594" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getProgramListing</definition>
-        <argsstring>(ListingQuery &amp;dest) const</argsstring>
-        <name>getProgramListing</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="319" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="235" bodyend="244"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4304858bffb3a8daa3850b11c43032aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
-        <definition>ListingQuery MdDox::Doxygen::MarkupQuery::getProgramListing</definition>
-        <argsstring>() const</argsstring>
-        <name>getProgramListing</name>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="324" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="246" bodyend="251"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a7749313f061f573bb7e44d2408e7543d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getIndexEntry</definition>
-        <argsstring>(IndexEntryQuery &amp;dest) const</argsstring>
-        <name>getIndexEntry</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="253" bodyend="262"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a3ace4842740f1c6a23ec1e19db107cf1" compoundref="IndexEntryQuery_8h" startline="100" endline="103">MdDox::Doxygen::IndexEntryQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a36fffaf6934615ce10a80d2775d01e45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref></type>
-        <definition>IndexEntryQuery MdDox::Doxygen::MarkupQuery::getIndexEntry</definition>
-        <argsstring>() const</argsstring>
-        <name>getIndexEntry</name>
-        <briefdescription>
-<para>Provides access to the <bold>indexentry</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="264" bodyend="269"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5741aef11e5fd3dce73214ab1db3c419" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getOrderedList</definition>
-        <argsstring>(ListQuery &amp;dest) const</argsstring>
-        <name>getOrderedList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="271" bodyend="280"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa2ffbc10c47545bf93185049f3d90617" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
-        <definition>ListQuery MdDox::Doxygen::MarkupQuery::getOrderedList</definition>
-        <argsstring>() const</argsstring>
-        <name>getOrderedList</name>
-        <briefdescription>
-<para>Provides access to the <bold>orderedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="282" bodyend="287"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1afa18713fd895fe21b4aa31b7e96a95f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getItemizedList</definition>
-        <argsstring>(ListQuery &amp;dest) const</argsstring>
-        <name>getItemizedList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="289" bodyend="298"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListQuery_1a4c7025ae0228122d453bd0aa1e8100f3" compoundref="ListQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5f350b26af09c5fa9ea61cf280852c04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref></type>
-        <definition>ListQuery MdDox::Doxygen::MarkupQuery::getItemizedList</definition>
-        <argsstring>() const</argsstring>
-        <name>getItemizedList</name>
-        <briefdescription>
-<para>Provides access to the <bold>itemizedlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="300" bodyend="305"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a269b748861dca3117d21722121fb5d8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getSimpleSect</definition>
-        <argsstring>(SimpleSectQuery &amp;dest) const</argsstring>
-        <name>getSimpleSect</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="307" bodyend="316"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery_1a2f03069f10ffc0ba8a2f2afcc5f8d085" compoundref="SimpleSectQuery_8h" startline="151" endline="154">MdDox::Doxygen::SimpleSectQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a3494d4862cac4c7383abf0b8f56373b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref></type>
-        <definition>SimpleSectQuery MdDox::Doxygen::MarkupQuery::getSimpleSect</definition>
-        <argsstring>() const</argsstring>
-        <name>getSimpleSect</name>
-        <briefdescription>
-<para>Provides access to the <bold>simplesect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="318" bodyend="323"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a31be661119f3eafb89e6467e416c9cac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getTitle</definition>
-        <argsstring>(TitleQuery &amp;dest) const</argsstring>
-        <name>getTitle</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="325" bodyend="334"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TitleQuery_1a6748546dc98cebbdf6fefcb799ee13ba" compoundref="TitleQuery_8h" startline="334" endline="337">MdDox::Doxygen::TitleQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac06fc319cf84891438bd4f87a2fa18fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref></type>
-        <definition>TitleQuery MdDox::Doxygen::MarkupQuery::getTitle</definition>
-        <argsstring>() const</argsstring>
-        <name>getTitle</name>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="336" bodyend="341"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a8dccdfeedb7e9bca9d5566d4672abbbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getVariableList</definition>
-        <argsstring>(VariableListQuery &amp;dest) const</argsstring>
-        <name>getVariableList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="343" bodyend="352"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1VariableListQuery_1af0974d5d17d8cf792ff1dd2f69b29dc4" compoundref="VariableListQuery_8h" startline="99" endline="102">MdDox::Doxygen::VariableListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4d3277ff2c3ca4f2638fb17049c708d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref></type>
-        <definition>VariableListQuery MdDox::Doxygen::MarkupQuery::getVariableList</definition>
-        <argsstring>() const</argsstring>
-        <name>getVariableList</name>
-        <briefdescription>
-<para>Provides access to the <bold>variablelist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="354" bodyend="359"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1abfab7ff42feea08f3dc45d68b4fc6a9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getTable</definition>
-        <argsstring>(TableQuery &amp;dest) const</argsstring>
-        <name>getTable</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="361" bodyend="370"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TableQuery_1a0f50fe8967aa2d466fa0399cf2e952f7" compoundref="TableQuery_8h" startline="144" endline="147">MdDox::Doxygen::TableQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae966a01e853632d12aec88ab42131567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref></type>
-        <definition>TableQuery MdDox::Doxygen::MarkupQuery::getTable</definition>
-        <argsstring>() const</argsstring>
-        <name>getTable</name>
-        <briefdescription>
-<para>Provides access to the <bold>table</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="372" bodyend="377"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa9b5633a7085f55332739692fbedbcd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getHeading</definition>
-        <argsstring>(HeadingQuery &amp;dest) const</argsstring>
-        <name>getHeading</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="379" bodyend="388"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1HeadingQuery_1a2a97e3f62b47965ba987b8e39f5a4b55" compoundref="HeadingQuery_8h" startline="341" endline="344">MdDox::Doxygen::HeadingQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ace10d3ce6871dffd580523b67002a133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref></type>
-        <definition>HeadingQuery MdDox::Doxygen::MarkupQuery::getHeading</definition>
-        <argsstring>() const</argsstring>
-        <name>getHeading</name>
-        <briefdescription>
-<para>Provides access to the <bold>heading</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="390" bodyend="395"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a29399dd79960f6bc67e5c82f209b0d9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getImage</definition>
-        <argsstring>(ImageQuery &amp;dest) const</argsstring>
-        <name>getImage</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="397" bodyend="406"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ImageQuery_1ac70cd07e37a957ebbb742987aff141ee" compoundref="ImageQuery_8h" startline="370" endline="373">MdDox::Doxygen::ImageQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5b5829acfdbc9e759990c70f71080973" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref></type>
-        <definition>ImageQuery MdDox::Doxygen::MarkupQuery::getImage</definition>
-        <argsstring>() const</argsstring>
-        <name>getImage</name>
-        <briefdescription>
-<para>Provides access to the <bold>image</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="408" bodyend="413"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aacf7d387ce18c5bd0d448915cb984061" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getDotFile</definition>
-        <argsstring>(FileQuery &amp;dest) const</argsstring>
-        <name>getDotFile</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="415" bodyend="424"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1FileQuery_1a635f7683c2ce33b60f919da42424949a" compoundref="FileQuery_8h" startline="343" endline="346">MdDox::Doxygen::FileQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ab7f0150cd0ef8ee99332f4b9aece6c35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref></type>
-        <definition>FileQuery MdDox::Doxygen::MarkupQuery::getDotFile</definition>
-        <argsstring>() const</argsstring>
-        <name>getDotFile</name>
-        <briefdescription>
-<para>Provides access to the <bold>dotfile</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="426" bodyend="431"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a072ee3d1015ed58cbcb24592a2946464" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getTocList</definition>
-        <argsstring>(TocListQuery &amp;dest) const</argsstring>
-        <name>getTocList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="433" bodyend="442"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" compoundref="TocListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TocListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a0a6aba0265737d87b4c8512a8885a7ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref></type>
-        <definition>TocListQuery MdDox::Doxygen::MarkupQuery::getTocList</definition>
-        <argsstring>() const</argsstring>
-        <name>getTocList</name>
-        <briefdescription>
-<para>Provides access to the <bold>toclist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="444" bodyend="449"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a46f4f7779fdc8b608d96aff3afd4e709" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getLanguage</definition>
-        <argsstring>(LanguageQuery &amp;dest) const</argsstring>
-        <name>getLanguage</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="451" bodyend="460"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1LanguageQuery_1a8cf6ab05635116f56564470762794a80" compoundref="LanguageQuery_8h" startline="133" endline="136">MdDox::Doxygen::LanguageQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a5a1b82596a8f1e034d2722c5589b7031" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref></type>
-        <definition>LanguageQuery MdDox::Doxygen::MarkupQuery::getLanguage</definition>
-        <argsstring>() const</argsstring>
-        <name>getLanguage</name>
-        <briefdescription>
-<para>Provides access to the <bold>language</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="462" bodyend="467"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a30d272129e329e4ac61434b6f64ff120" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getParameterList</definition>
-        <argsstring>(ParamListQuery &amp;dest) const</argsstring>
-        <name>getParameterList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="469" bodyend="478"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParamListQuery_1a1fe0376029e051df97e7d03187e91798" compoundref="ParamListQuery_8h" startline="133" endline="136">MdDox::Doxygen::ParamListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ae2cb133b32ff6822b4ca8e5b3de0893f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref></type>
-        <definition>ParamListQuery MdDox::Doxygen::MarkupQuery::getParameterList</definition>
-        <argsstring>() const</argsstring>
-        <name>getParameterList</name>
-        <briefdescription>
-<para>Provides access to the <bold>parameterlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="480" bodyend="485"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a32f6701d2d5a595589a61429918bfcef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getBlockQuote</definition>
-        <argsstring>(BlockQuoteQuery &amp;dest) const</argsstring>
-        <name>getBlockQuote</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="487" bodyend="496"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery_1a018ddf1f254e0a6dfe2a70dd78756698" compoundref="BlockQuoteQuery_8h" startline="124" endline="127">MdDox::Doxygen::BlockQuoteQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a40ef56be6d45e70513ef450612924043" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref></type>
-        <definition>BlockQuoteQuery MdDox::Doxygen::MarkupQuery::getBlockQuote</definition>
-        <argsstring>() const</argsstring>
-        <name>getBlockQuote</name>
-        <briefdescription>
-<para>Provides access to the <bold>blockquote</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="498" bodyend="503"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac40238bee7eb0adf391690af50b3a22d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getParBlock</definition>
-        <argsstring>(ParBlockQuery &amp;dest) const</argsstring>
-        <name>getParBlock</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="505" bodyend="514"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParBlockQuery_1a5ab71c2af22cf18a56c160cae4737bbb" compoundref="ParBlockQuery_8h" startline="124" endline="127">MdDox::Doxygen::ParBlockQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9cd545d0f96d3673f81adfc0aa7b0a53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref></type>
-        <definition>ParBlockQuery MdDox::Doxygen::MarkupQuery::getParBlock</definition>
-        <argsstring>() const</argsstring>
-        <name>getParBlock</name>
-        <briefdescription>
-<para>Provides access to the <bold>parblock</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="516" bodyend="521"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa2be22773f69859af7c858f19651c067" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::MarkupQuery::getDot</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getDot</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>dot</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>dot&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="481" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="523" bodyend="531"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa8fdb0d37c8b2c444ab4ffc1ca73ca3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getULink</definition>
-        <argsstring>(UrlLinkQuery &amp;dest) const</argsstring>
-        <name>getULink</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="486" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="533" bodyend="542"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery_1abc85dade7f5261ab414ba3b712b8b3c2" compoundref="UrlLinkQuery_8h" startline="343" endline="346">MdDox::Doxygen::UrlLinkQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a0a230dc30520e25892d64bf25fb56cba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref></type>
-        <definition>UrlLinkQuery MdDox::Doxygen::MarkupQuery::getULink</definition>
-        <argsstring>() const</argsstring>
-        <name>getULink</name>
-        <briefdescription>
-<para>Provides access to the <bold>ulink</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="491" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="544" bodyend="549"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a7479c181013a161891ea05901f5fb872" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getBold</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getBold</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="496" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="551" bodyend="560"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9938fe541b6748e5023446a8a970c92e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getBold</definition>
-        <argsstring>() const</argsstring>
-        <name>getBold</name>
-        <briefdescription>
-<para>Provides access to the <bold>bold</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="501" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="562" bodyend="567"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9c258703f1a71642388d9645535066b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getEmphasis</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getEmphasis</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="506" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="569" bodyend="578"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9776cc0538b9f97c67b1c84810207fd9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getEmphasis</definition>
-        <argsstring>() const</argsstring>
-        <name>getEmphasis</name>
-        <briefdescription>
-<para>Provides access to the <bold>emphasis</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="511" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="580" bodyend="585"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a48172a10f6ecfd7528a94e9a9f4a4c02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getComputerOutput</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getComputerOutput</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="516" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="587" bodyend="596"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6745414787bfbd1b42f960c5441160c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getComputerOutput</definition>
-        <argsstring>() const</argsstring>
-        <name>getComputerOutput</name>
-        <briefdescription>
-<para>Provides access to the <bold>computeroutput</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="521" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="598" bodyend="603"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1b25dfd92890229a47cc0c2a658bbb9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getCenter</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getCenter</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="526" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="605" bodyend="614"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac1fd9f5781b2f8d6278b771f73c5e4a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getCenter</definition>
-        <argsstring>() const</argsstring>
-        <name>getCenter</name>
-        <briefdescription>
-<para>Provides access to the <bold>center</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="531" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="616" bodyend="621"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a22a718286e3254e2a369ccc5d99ebb4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getSmall</definition>
-        <argsstring>(MarkupQuery &amp;dest) const</argsstring>
-        <name>getSmall</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="536" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="623" bodyend="632"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1aad7134a2efd6a23b148d62e21a08166f" compoundref="MarkupQuery_8h" startline="235" endline="238">MarkupQuery</references>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1f3b014e27a3368ee125438660f5b443" compoundref="MarkupQuery_8h" startline="631" endline="634">reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1af53e3785fc3f377c6fd79d206cf39bd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref></type>
-        <definition>MarkupQuery MdDox::Doxygen::MarkupQuery::getSmall</definition>
-        <argsstring>() const</argsstring>
-        <name>getSmall</name>
-        <briefdescription>
-<para>Provides access to the <bold>small</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="541" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="634" bodyend="639"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac5dc7513af28d22dc7fab2049b437abb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getAnchor</definition>
-        <argsstring>(AnchorQuery &amp;dest) const</argsstring>
-        <name>getAnchor</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="546" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="641" bodyend="650"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1AnchorQuery_1aa2227a05075ad59f47defece3541ab0c" compoundref="AnchorQuery_8h" startline="105" endline="108">MdDox::Doxygen::AnchorQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a801724459cb526e57b9d441d92b7d434" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref></type>
-        <definition>AnchorQuery MdDox::Doxygen::MarkupQuery::getAnchor</definition>
-        <argsstring>() const</argsstring>
-        <name>getAnchor</name>
-        <briefdescription>
-<para>Provides access to the <bold>anchor</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="551" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="652" bodyend="657"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9271d2b232ba30bbd3171c880bc002eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getRef</definition>
-        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
-        <name>getRef</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="556" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="659" bodyend="668"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a1292cb3c0cc218ab2a480fe63ab0368c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
-        <definition>RefTextQuery MdDox::Doxygen::MarkupQuery::getRef</definition>
-        <argsstring>() const</argsstring>
-        <name>getRef</name>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="561" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="670" bodyend="675"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2a5e9e1d919dc703fd635a4edeb6921a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getSect</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getSect</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="566" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="677" bodyend="686"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a4b15678a47c621ee05673a50e833b8de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getSect</definition>
-        <argsstring>() const</argsstring>
-        <name>getSect</name>
-        <briefdescription>
-<para>Provides access to the <bold>sect</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="571" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="688" bodyend="693"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aa24852efcf08accbf6cf86fa603abac8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getRegistered</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getRegistered</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="576" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="695" bodyend="704"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a3663afb0493300aa65991cdfb22549e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getRegistered</definition>
-        <argsstring>() const</argsstring>
-        <name>getRegistered</name>
-        <briefdescription>
-<para>Provides access to the <bold>registered</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="581" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="706" bodyend="711"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a931c3339de463e959394971d4186e051" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getParagraph</definition>
-        <argsstring>(ParaQuery &amp;dest) const</argsstring>
-        <name>getParagraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="586" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="713" bodyend="722"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ParaQuery_1a58ff97e0d889f6e0f96e4200ff1847e2" compoundref="ParaQuery_8h" startline="631" endline="634">MdDox::Doxygen::ParaQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1aaae8289e2a215064a80801ec4617964a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref></type>
-        <definition>ParaQuery MdDox::Doxygen::MarkupQuery::getParagraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getParagraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>para</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="591" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="724" bodyend="729"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a62cc55aa4185381d7cc5fa378aecb0e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getPart</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getPart</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="596" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="731" bodyend="740"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a9864abe3dc42cf4f12c7814abbdee804" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getPart</definition>
-        <argsstring>() const</argsstring>
-        <name>getPart</name>
-        <briefdescription>
-<para>Provides access to the <bold>part</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="601" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="742" bodyend="747"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1ac3d8bf5ef22547c0d6c2892f0b91e1c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getProp</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getProp</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="606" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="749" bodyend="758"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a6fb5a1d2a0fb8d32a65a0d37ebebad49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getProp</definition>
-        <argsstring>() const</argsstring>
-        <name>getProp</name>
-        <briefdescription>
-<para>Provides access to the <bold>prop</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="611" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="760" bodyend="765"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1a2ef587ba62b00f9abe283232de3250db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::MarkupQuery::getLang</definition>
-        <argsstring>(EmptyQuery &amp;dest) const</argsstring>
-        <name>getLang</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="616" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="767" bodyend="776"/>
-        <references refid="classMdDox_1_1Doxygen_1_1MarkupQuery_1ad8fb235fd5a8d8aeaf2f7885ae17f326" compoundref="MarkupQuery_8h" startline="636" endline="639">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1EmptyQuery_1ad00de1d4feab52c5ab15b422ab980ca1" compoundref="EmptyQuery_8h" startline="95" endline="98">MdDox::Doxygen::EmptyQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MarkupQuery_1abb8d8095a1bb198a5b0d591d86d370c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref></type>
-        <definition>EmptyQuery MdDox::Doxygen::MarkupQuery::getLang</definition>
-        <argsstring>() const</argsstring>
-        <name>getLang</name>
-        <briefdescription>
-<para>Provides access to the <bold>lang</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="621" column="1" bodyfile="Tools/Doxygen/MarkupQuery.cpp" bodystart="778" bodyend="783"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

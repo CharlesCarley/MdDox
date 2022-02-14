@@ -223,8 +223,8 @@
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" prot="public">MdDox::Doxygen::CompoundDefQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/DescriptionWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1DescriptionWriter_1af3593c56b578af02a1fd592595426bbd" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::DescriptionWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1DescriptionWriter_1aa12234f21298ac7d1589b82a6bfd08d8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::DescriptionWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DescriptionWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DescriptionWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1DescriptionWriter_1a0707e68089406485b9b1b12eefb3a5af" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,38 +31,21 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DescriptionWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1DescriptionWriter_1aa12234f21298ac7d1589b82a6bfd08d8" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::DescriptionWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1DescriptionWriter_1af3593c56b578af02a1fd592595426bbd" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::DescriptionWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DescriptionWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DescriptionWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1DescriptionWriter_1ac0c03563720c3006bed234d25da34e4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DescriptionWriter::visitedText</definition>
-        <argsstring>(const String &amp;) override</argsstring>
-        <name>visitedText</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1a045455cffcebfabff67cd0197adbf006">visitedText</reimplements>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DescriptionWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="44" bodyend="47"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DescriptionWriter_1a2deaaa6ac03c5d6a45f4e13b73251266" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::DescriptionWriter::visitedParagraph</definition>
@@ -114,6 +97,23 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DescriptionWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DescriptionWriter_1ac0c03563720c3006bed234d25da34e4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DescriptionWriter::visitedText</definition>
+        <argsstring>(const String &amp;) override</argsstring>
+        <name>visitedText</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor_1a045455cffcebfabff67cd0197adbf006">visitedText</reimplements>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DescriptionWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DescriptionWriter_1a7b8779524dd565f08ea964f74e050a80" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>

@@ -30,18 +30,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getType</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#settype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setType</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#append" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">append</span>
 </a>
 </span>
@@ -51,6 +39,18 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#clear" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">clear</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#gettype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getType</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#settype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setType</span>
 </a>
 </span>
 <br/>
@@ -92,52 +92,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="gettype"></a>
-<h2>getType</h2>
-<span class="inline-text">const int &amp;</span>
-<span class="bold-text"><b>getType</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="settype"></a>
-<h2>setType</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>setType</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int &amp;</span>
-<span class="inline-text">type</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvalue"></a>
-<h2>getValue</h2>
-<span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getValue</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
 <br/>
@@ -195,6 +149,52 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="gettype"></a>
+<h2>getType</h2>
+<span class="inline-text">const int &amp;</span>
+<span class="bold-text"><b>getType</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getvalue"></a>
+<h2>getValue</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getValue</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="settype"></a>
+<h2>setType</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>setType</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int &amp;</span>
+<span class="inline-text">type</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
 <br/>

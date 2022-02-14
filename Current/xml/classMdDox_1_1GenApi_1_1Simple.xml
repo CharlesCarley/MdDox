@@ -5,31 +5,18 @@
     <basecompoundref refid="classMdDox_1_1GenApi_1_1Object" prot="public" virt="non-virtual">MdDox::GenApi::Object</basecompoundref>
     <includes local="no">Tools/GenApi/Simple.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1af1fcc579adb8ab13a77ec4f69c0103a9" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
-        <definition>Xml::Node* MdDox::GenApi::Simple::_node</definition>
+      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1a96e3b5c71223a471029af4b195630ffe" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
+        <definition>StringMap MdDox::GenApi::Simple::_enums</definition>
         <argsstring></argsstring>
-        <name>_node</name>
+        <name>_enums</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="31" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1adfe826bdba42983f9989f761d806ef4e" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Simple::_tagType</definition>
-        <argsstring></argsstring>
-        <name>_tagType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="32" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="32" bodyend="-1"/>
+        <location file="Tools/GenApi/Simple.h" line="34" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1a192c3a961eb696260007f32bfdc71800" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -44,18 +31,18 @@
         </inbodydescription>
         <location file="Tools/GenApi/Simple.h" line="33" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1a96e3b5c71223a471029af4b195630ffe" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
-        <definition>StringMap MdDox::GenApi::Simple::_enums</definition>
+      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1af1fcc579adb8ab13a77ec4f69c0103a9" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::GenApi::Simple::_node</definition>
         <argsstring></argsstring>
-        <name>_enums</name>
+        <name>_node</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="34" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="34" bodyend="-1"/>
+        <location file="Tools/GenApi/Simple.h" line="31" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1a61f52ae01c4a2d0e3f22ecd17e24e777" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -69,6 +56,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Simple.h" line="35" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Simple_1adfe826bdba42983f9989f761d806ef4e" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Simple::_tagType</definition>
+        <argsstring></argsstring>
+        <name>_tagType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="32" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -115,6 +115,49 @@
         </inbodydescription>
         <location file="Tools/GenApi/Simple.h" line="39" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::addEnumValue</definition>
+        <argsstring>(const String &amp;searchTerm, const String &amp;value)</argsstring>
+        <name>addEnumValue</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>searchTerm</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="45" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1a16c28db586098493f7076662db0fb457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::write</definition>
+        <argsstring>(const String &amp;output)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="43" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="123" bodyend="143"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
+        <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
+        <references refid="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" compoundref="Simple_8cpp" startline="51" endline="96">writeHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Simple_1a7866e4471bb71712f2f3f86886c4e046" compoundref="Simple_8cpp" startline="98" endline="121">writeSource</references>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::GenApi::Simple::writeHeader</definition>
@@ -154,49 +197,6 @@
         </inbodydescription>
         <location file="Tools/GenApi/Simple.h" line="42" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="98" bodyend="121"/>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1a16c28db586098493f7076662db0fb457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Simple::write</definition>
-        <argsstring>(const String &amp;output)</argsstring>
-        <name>write</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="43" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="123" bodyend="143"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
-        <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
-        <references refid="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" compoundref="Simple_8cpp" startline="51" endline="96">writeHeader</references>
-        <references refid="classMdDox_1_1GenApi_1_1Simple_1a7866e4471bb71712f2f3f86886c4e046" compoundref="Simple_8cpp" startline="98" endline="121">writeSource</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Simple::addEnumValue</definition>
-        <argsstring>(const String &amp;searchTerm, const String &amp;value)</argsstring>
-        <name>addEnumValue</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>searchTerm</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="45" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="145" bodyend="149"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

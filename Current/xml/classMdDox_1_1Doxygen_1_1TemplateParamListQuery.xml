@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/TemplateParamListQuery.h" line="77" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a2d1ebc0ad132b873d3d9267bdc13f043" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::TemplateParamListQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="119" bodyend="122"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a73cd16c10d36b7796a6b80b591bcd8bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::TemplateParamListQuery::empty</definition>
@@ -93,18 +80,35 @@
         <location file="Tools/Doxygen/TemplateParamListQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="134" bodyend="137"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a525eaf06f482028ccd423db8d9940577" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::TemplateParamListQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::TemplateParamListQuery::foreachParameter</definition>
+        <argsstring>(const ParamQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParameter</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ae7dcf069d0dac0e3a20af5c13a924cac" kindref="member">ParamQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>param</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="124" bodyend="127"/>
+        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a2d1ebc0ad132b873d3d9267bdc13f043" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::TemplateParamListQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a1da68d3fb46dd8c57385b00d65359a52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +122,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/TemplateParamListQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::TemplateParamListQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.h" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1aaea82dc65dd442d444168721b475a3e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,23 +195,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TemplateParamListQueryVisitor_1a336b9c4ebeae9109c4c3753ef77b3776" compoundref="TemplateParamListQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::TemplateParamListQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TemplateParamListQueryVisitor_1a381d0f07488dff200d67aae68c707843" compoundref="TemplateParamListQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::TemplateParamListQueryVisitor::visitedParameter</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a525eaf06f482028ccd423db8d9940577" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::TemplateParamListQuery::foreachParameter</definition>
-        <argsstring>(const ParamQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParameter</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ae7dcf069d0dac0e3a20af5c13a924cac" kindref="member">ParamQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>param</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TemplateParamListQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/TemplateParamListQuery.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -17,22 +17,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ListingQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor_1a1bf112d117f886905889469fa9a8923d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::ListingQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListingQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="38" bodyend="38"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor_1a315221230fd817c4598cdc400eac145b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::ListingQueryVisitor::visitedCodeLine</definition>
@@ -57,6 +41,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ListingQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ListingQueryVisitor_1a1bf112d117f886905889469fa9a8923d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ListingQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListingQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ListingQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

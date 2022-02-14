@@ -4,36 +4,6 @@
     <compoundname>MdDox::GenApi::Resources::Resource</compoundname>
     <includes local="no">Tools/GenApi/Resources.h</includes>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getSource</definition>
-        <argsstring>()</argsstring>
-        <name>getSource</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="10" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="5" bodyend="10"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0c5d9201ce7b3cba7b4bf4722e5c7e88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getSource</definition>
-        <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getSource</name>
-        <param>
-          <type>std::string &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="11" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="12" bodyend="186"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a416f43c354339f1e7bbeedc38ae7ef58" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MdDox::GenApi::Resources::Resource::getBase</definition>
@@ -63,36 +33,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Resources.h" line="14" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="195" bodyend="202"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a30994ac631cf3d47f7b41bc4c58d9528" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getSortHeader</definition>
-        <argsstring>()</argsstring>
-        <name>getSortHeader</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="16" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="204" bodyend="209"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae43a9b992edfb1c47b0a67cf6bcee83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getSortHeader</definition>
-        <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getSortHeader</name>
-        <param>
-          <type>std::string &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="17" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="211" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a3ca4d4f3747d2bab8d48e9ebe9862c41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -124,24 +64,24 @@
         </inbodydescription>
         <location file="Tools/GenApi/Resources.h" line="20" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="241" bodyend="382"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a4645b450e3dab3e2bf8872be4c3f79b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getEnumAttributeSource</definition>
+        <definition>std::string MdDox::GenApi::Resources::Resource::getElementTextHeader</definition>
         <argsstring>()</argsstring>
-        <name>getEnumAttributeSource</name>
+        <name>getElementTextHeader</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="22" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="384" bodyend="389"/>
+        <location file="Tools/GenApi/Resources.h" line="31" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="482" bodyend="487"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2e179ee881f91476a538558b03c1d21d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a33c82e262a076f4419f276167c11fae5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getEnumAttributeSource</definition>
+        <definition>void MdDox::GenApi::Resources::Resource::getElementTextHeader</definition>
         <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getEnumAttributeSource</name>
+        <name>getElementTextHeader</name>
         <param>
           <type>std::string &amp;</type>
           <declname>dest</declname>
@@ -152,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="23" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="391" bodyend="410"/>
+        <location file="Tools/GenApi/Resources.h" line="32" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="489" bodyend="517"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfdd977a5cb98946491f619fa2292cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -214,24 +154,24 @@
         </inbodydescription>
         <location file="Tools/GenApi/Resources.h" line="29" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="455" bodyend="480"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1aebfb07774f19c2e362f4df8abc7b5655" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a4645b450e3dab3e2bf8872be4c3f79b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
-        <definition>std::string MdDox::GenApi::Resources::Resource::getElementTextHeader</definition>
+        <definition>std::string MdDox::GenApi::Resources::Resource::getEnumAttributeSource</definition>
         <argsstring>()</argsstring>
-        <name>getElementTextHeader</name>
+        <name>getEnumAttributeSource</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="31" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="482" bodyend="487"/>
+        <location file="Tools/GenApi/Resources.h" line="22" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="384" bodyend="389"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a33c82e262a076f4419f276167c11fae5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2e179ee881f91476a538558b03c1d21d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::GenApi::Resources::Resource::getElementTextHeader</definition>
+        <definition>void MdDox::GenApi::Resources::Resource::getEnumAttributeSource</definition>
         <argsstring>(std::string &amp;dest)</argsstring>
-        <name>getElementTextHeader</name>
+        <name>getEnumAttributeSource</name>
         <param>
           <type>std::string &amp;</type>
           <declname>dest</declname>
@@ -242,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Resources.h" line="32" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="489" bodyend="517"/>
+        <location file="Tools/GenApi/Resources.h" line="23" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="391" bodyend="410"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1feb3bedb869d91708ff5d2e1a4bd481" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -454,6 +394,36 @@
         </inbodydescription>
         <location file="Tools/GenApi/Resources.h" line="53" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="912" bodyend="941"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a30994ac631cf3d47f7b41bc4c58d9528" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MdDox::GenApi::Resources::Resource::getSortHeader</definition>
+        <argsstring>()</argsstring>
+        <name>getSortHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Resources.h" line="16" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="204" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ae43a9b992edfb1c47b0a67cf6bcee83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Resources::Resource::getSortHeader</definition>
+        <argsstring>(std::string &amp;dest)</argsstring>
+        <name>getSortHeader</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Resources.h" line="17" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="211" bodyend="232"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1c6aca46aa58f5739ba917eda9928bcb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string MdDox::GenApi::Resources::Resource::getSortSource</definition>
@@ -483,6 +453,36 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/GenApi/Resources.h" line="56" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="950" bodyend="1021"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1ac82634770606b797ea997222df60435d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MdDox::GenApi::Resources::Resource::getSource</definition>
+        <argsstring>()</argsstring>
+        <name>getSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Resources.h" line="10" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a0c5d9201ce7b3cba7b4bf4722e5c7e88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Resources::Resource::getSource</definition>
+        <argsstring>(std::string &amp;dest)</argsstring>
+        <name>getSource</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Resources.h" line="11" column="1" bodyfile="Tools/GenApi/Resources.cpp" bodystart="12" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a2f0a2000d4a01f4806b07a659d40641b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>

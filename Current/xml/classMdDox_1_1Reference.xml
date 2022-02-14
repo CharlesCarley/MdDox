@@ -71,6 +71,19 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="40" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="49" bodyend="52"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Reference::getReference</definition>
+        <argsstring>() const</argsstring>
+        <name>getReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Reference.h" line="44" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="59" bodyend="62"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Reference::setName</definition>
@@ -87,19 +100,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="42" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="54" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Reference::getReference</definition>
-        <argsstring>() const</argsstring>
-        <name>getReference</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/Reference.h" line="44" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="59" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>

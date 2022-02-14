@@ -23,11 +23,11 @@
 <img src="../images/internal-diagram-26.dot.svg"/><br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
-<span class="icon-list-item"><a href="#_header" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_header</span>
+<span class="icon-list-item"><a href="#_forwards" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_forwards</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_forwards" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_forwards</span>
+<span class="icon-list-item"><a href="#_header" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_header</span>
 </a>
 </span>
 <br/>
@@ -51,15 +51,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#addforward" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addForward</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#addinclude" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addInclude</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
@@ -69,18 +69,6 @@
 </a>
 </span>
 <br/>
-<a id="_header"></a>
-<h2>_header</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>_header</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.h#L183" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="_forwards"></a>
 <h2>_forwards</h2>
 <a href="namespaceMdDox.md#stringarray">StringArray</a>
@@ -89,6 +77,18 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.h#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_header"></a>
+<h2>_header</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>_header</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.h#L183" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.h</span>
 </a>
 </span>
 <br/>
@@ -179,48 +179,6 @@
 </span>
 <br/>
 <br/>
-<a id="write"></a>
-<h2>write</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>write</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#writeheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeHeader</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.h#L194" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.cpp#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="addforward"></a>
 <h2>addForward</h2>
 <span class="inline-text">void</span>
@@ -277,6 +235,48 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.cpp#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="write"></a>
+<h2>write</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>write</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">output</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#writeheader" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeHeader</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.h#L194" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.cpp#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Common.cpp</span>
 </a>
 </span>
 <br/>

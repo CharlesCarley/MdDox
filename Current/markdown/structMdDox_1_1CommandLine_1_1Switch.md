@@ -19,15 +19,7 @@
 <br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
-<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#shortswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">shortSwitch</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#longswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">longSwitch</span>
+<span class="icon-list-item"><a href="#argcount" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">argCount</span>
 </a>
 </span>
 <br/>
@@ -35,11 +27,19 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#longswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">longSwitch</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#optional" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">optional</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#argcount" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">argCount</span>
+<span class="icon-list-item"><a href="#shortswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">shortSwitch</span>
 </a>
 </span>
 <br/>
@@ -48,6 +48,37 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
+<br/>
+<a id="argcount"></a>
+<h2>argCount</h2>
+<span class="inline-text">size_t</span>
+<span class="bold-text"><b>argCount</b></span>
+<br/>
+<span class="inline-text">Defines the number of required arguments. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="description"></a>
+<h2>description</h2>
+<span class="inline-text">const char *</span>
+<span class="bold-text"><b>description</b></span>
+<br/>
+<span class="inline-text">Provides A brief description for the -h, </span>
+<span class="inline-text">help builtin option. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="id"></a>
 <h2>id</h2>
@@ -60,23 +91,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="shortswitch"></a>
-<h2>shortSwitch</h2>
-<span class="inline-text">char</span>
-<span class="bold-text"><b>shortSwitch</b></span>
-<br/>
-<span class="inline-text">Assigns a single character value for this switch -[a-zA-Z]. </span>
-<br/>
-<br/>
-<span class="inline-text">A value of 0 means unused. </span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -99,22 +113,6 @@
 </span>
 <br/>
 <br/>
-<a id="description"></a>
-<h2>description</h2>
-<span class="inline-text">const char *</span>
-<span class="bold-text"><b>description</b></span>
-<br/>
-<span class="inline-text">Provides A brief description for the -h, </span>
-<span class="inline-text">help builtin option. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="optional"></a>
 <h2>optional</h2>
 <span class="inline-text">bool</span>
@@ -130,17 +128,19 @@
 </span>
 <br/>
 <br/>
-<a id="argcount"></a>
-<h2>argCount</h2>
-<span class="inline-text">size_t</span>
-<span class="bold-text"><b>argCount</b></span>
+<a id="shortswitch"></a>
+<h2>shortSwitch</h2>
+<span class="inline-text">char</span>
+<span class="bold-text"><b>shortSwitch</b></span>
 <br/>
-<span class="inline-text">Defines the number of required arguments. </span>
+<span class="inline-text">Assigns a single character value for this switch -[a-zA-Z]. </span>
 <br/>
+<br/>
+<span class="inline-text">A value of 0 means unused. </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>

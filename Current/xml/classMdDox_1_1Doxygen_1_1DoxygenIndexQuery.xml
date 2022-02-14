@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="78" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ac98c12d5abbb1a2589a2a55d014e635d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::DoxygenIndexQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="128" bodyend="131"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1aebe2766aa1d7b872eed62d9a10344a93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::DoxygenIndexQuery::empty</definition>
@@ -93,18 +80,55 @@
         <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="143" bodyend="146"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a61047225fc6e49279751cfcd693322ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a96b49a370dc98867be9a604dd6d67082" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::DoxygenIndexQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::DoxygenIndexQuery::foreachCompound</definition>
+        <argsstring>(const CompoundIndexQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachCompound</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4fc3a64f77aa6faca62530a9c3a7cc6c" kindref="member">CompoundIndexQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>compound</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="133" bodyend="136"/>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1af3abfd66323f5c0c60319f9149cd05fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::DoxygenIndexQuery::getVersion</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>version</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>version</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ac98c12d5abbb1a2589a2a55d014e635d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::DoxygenIndexQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1ad93c9a874d3ba046e52a12d19ebee792" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +142,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a61047225fc6e49279751cfcd693322ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::DoxygenIndexQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a89f1f8a014bc9ebd23f82110062980e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,43 +215,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor_1aee3b9d953712e03e879fd89455634d92" compoundref="DoxygenIndexQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor_1af842c6cf37aa95f753ba014eda4832f2" compoundref="DoxygenIndexQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor::visitedCompound</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1af3abfd66323f5c0c60319f9149cd05fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::DoxygenIndexQuery::getVersion</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getVersion</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>version</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>version</bold> enumerated value or an empty string the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.cpp" bodystart="49" bodyend="54"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a96b49a370dc98867be9a604dd6d67082" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::DoxygenIndexQuery::foreachCompound</definition>
-        <argsstring>(const CompoundIndexQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachCompound</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4fc3a64f77aa6faca62530a9c3a7cc6c" kindref="member">CompoundIndexQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>compound</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.cpp" bodystart="56" bodyend="59"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

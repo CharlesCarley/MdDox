@@ -4,19 +4,6 @@
     <compoundname>MdDox::TypeFilter</compoundname>
     <includes local="no">Source/Utils/TypeFilter.h</includes>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" prot="public" static="no" mutable="no">
-        <type>const char *</type>
-        <definition>const char* MdDox::TypeFilter::typeName</definition>
-        <argsstring></argsstring>
-        <name>typeName</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/TypeFilter.h" line="30" column="1" bodyfile="Source/Utils/TypeFilter.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" prot="public" static="no" mutable="no">
         <type>int64_t</type>
         <definition>int64_t MdDox::TypeFilter::typeCode</definition>
@@ -29,6 +16,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/TypeFilter.h" line="31" column="1" bodyfile="Source/Utils/TypeFilter.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* MdDox::TypeFilter::typeName</definition>
+        <argsstring></argsstring>
+        <name>typeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/TypeFilter.h" line="30" column="1" bodyfile="Source/Utils/TypeFilter.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

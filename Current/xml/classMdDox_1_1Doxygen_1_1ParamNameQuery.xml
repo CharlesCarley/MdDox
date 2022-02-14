@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParamNameQuery.h" line="79" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a93c39288f269ccdfe2ea27b57f566e46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::ParamNameQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamNameQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="133" bodyend="136"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1abe99889397964d8781f7568b48490b3b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::ParamNameQuery::empty</definition>
@@ -93,18 +80,67 @@
         <location file="Tools/Doxygen/ParamNameQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="148" bodyend="151"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a6369ee5ed6dc9f47f482d5bd7e32bf49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParamNameQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a09d5ad3826543bc9b665a9cb228c6094" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" kindref="member">DoxParamDirEnum</ref></type>
+        <definition>DoxParamDirEnum MdDox::Doxygen::ParamNameQuery::getDirection</definition>
+        <argsstring>() const</argsstring>
+        <name>getDirection</name>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Provides access to the <bold>direction</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>direction</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamNameQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxParamDir_1ac862377898cac9cc2dd17ca25594a7fe" compoundref="DoxParamDir_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxParamDir::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1ac51e57a2dfa3e0a72c905a1975c3eb8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParamNameQuery::getRef</definition>
+        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
+        <name>getRef</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamNameQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="138" bodyend="141"/>
+        <location file="Tools/Doxygen/ParamNameQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="56" bodyend="65"/>
+        <references refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a88ba9e77c718babd4c255f86b76b4b24" compoundref="ParamNameQuery_8h" startline="143" endline="146">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1aa527b08aea04ad59e046aa0780493fe4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
+        <definition>RefTextQuery MdDox::Doxygen::ParamNameQuery::getRef</definition>
+        <argsstring>() const</argsstring>
+        <name>getRef</name>
+        <briefdescription>
+<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamNameQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a93c39288f269ccdfe2ea27b57f566e46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::ParamNameQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamNameQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a88ba9e77c718babd4c255f86b76b4b24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +154,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParamNameQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a6369ee5ed6dc9f47f482d5bd7e32bf49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParamNameQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamNameQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.h" bodystart="138" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a336fcbbd833417c76843b008cd748b4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,55 +227,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameQueryVisitor_1a13cd08807be177fe3eecc713437bc83e" compoundref="ParamNameQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::ParamNameQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameQueryVisitor_1acb22a919743b18fdb24f41b7b3bebe22" compoundref="ParamNameQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::ParamNameQueryVisitor::visitedRef</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a09d5ad3826543bc9b665a9cb228c6094" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" kindref="member">DoxParamDirEnum</ref></type>
-        <definition>DoxParamDirEnum MdDox::Doxygen::ParamNameQuery::getDirection</definition>
-        <argsstring>() const</argsstring>
-        <name>getDirection</name>
-        <briefdescription>
-<para>Provides access to the <bold>direction</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>direction</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamNameQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="49" bodyend="54"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxParamDir_1ac862377898cac9cc2dd17ca25594a7fe" compoundref="DoxParamDir_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxParamDir::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1ac51e57a2dfa3e0a72c905a1975c3eb8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParamNameQuery::getRef</definition>
-        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
-        <name>getRef</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamNameQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="56" bodyend="65"/>
-        <references refid="classMdDox_1_1Doxygen_1_1ParamNameQuery_1a88ba9e77c718babd4c255f86b76b4b24" compoundref="ParamNameQuery_8h" startline="143" endline="146">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab9f82d32c62b5d6bbd238e78f15f1c3f" compoundref="RefTextQuery_8h" startline="136" endline="139">MdDox::Doxygen::RefTextQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamNameQuery_1aa527b08aea04ad59e046aa0780493fe4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref></type>
-        <definition>RefTextQuery MdDox::Doxygen::ParamNameQuery::getRef</definition>
-        <argsstring>() const</argsstring>
-        <name>getRef</name>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamNameQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/ParamNameQuery.cpp" bodystart="67" bodyend="72"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

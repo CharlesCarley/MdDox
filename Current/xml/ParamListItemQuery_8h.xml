@@ -120,8 +120,8 @@
         <label>Tools/Doxygen/ParamListItemQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery" prot="public">MdDox::Doxygen::ParamListItemQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

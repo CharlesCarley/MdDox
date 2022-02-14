@@ -196,8 +196,8 @@
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundIndexQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery" prot="public">MdDox::Doxygen::CompoundIndexQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundIndexQueryVisitor" prot="public">MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

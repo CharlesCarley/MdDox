@@ -71,79 +71,129 @@
     <innernamespace refid="namespaceMdDox_1_1WriteUtils">MdDox::WriteUtils</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Xml">MdDox::Xml</innernamespace>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43e" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" prot="public" static="no" strong="no">
         <type></type>
-        <name>Options</name>
-        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" prot="public">
-          <name>OptOutputDirectory</name>
+        <name>ConsoleColor</name>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" prot="public">
+          <name>CS_BLACK</name>
+          <initializer>= 0</initializer>
           <briefdescription>
-<para>Provides the option to specify an output directory. </para>          </briefdescription>
+          </briefdescription>
           <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -o &lt;file-path&gt;</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>output &lt;file-path&gt;</computeroutput> <linebreak/>
- <simplesect kind="note"><para>if an output path is not specified then the current working directory will be used as the output directory. </para></simplesect>
-</para></listitem></itemizedlist>
-</para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" prot="public">
-          <name>OptIndexFile</name>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a77ac751d65708f142faccbe55fd27253" prot="public">
+          <name>CS_DARK_BLUE</name>
           <briefdescription>
-<para>Provides the option to specify the index file. </para>          </briefdescription>
+          </briefdescription>
           <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -i [file-path]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>input [file-path]</computeroutput> <linebreak/>
- </para></listitem></itemizedlist>
-</para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eafda00e3f71ab22247d399a7140839d29" prot="public">
-          <name>OptGenType</name>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a733f1014648e7eec256694f29071d9b6" prot="public">
+          <name>CS_DARK_GREEN</name>
           <briefdescription>
-<para>Provides the option to specify the backend document writer. </para>          </briefdescription>
+          </briefdescription>
           <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -t [type]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>input [type]</computeroutput> <linebreak/>
-</para></listitem></itemizedlist>
-</para><para><bold>type</bold></para><para><itemizedlist>
-<listitem><para>md - Use <ref refid="classMdDox_1_1MarkdownDocumentWriter" kindref="compound">MdDox::MarkdownDocumentWriter</ref> as the writer.</para></listitem><listitem><para>html - Use <ref refid="classMdDox_1_1HtmlDocumentWriter" kindref="compound">MdDox::HtmlDocumentWriter</ref> as the writer. </para></listitem></itemizedlist>
-</para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" prot="public">
-          <name>OptConfigFile</name>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a6a7bcd7a2fb5639b36571a1ddfa41f2e" prot="public">
+          <name>CS_DARK_CYAN</name>
           <briefdescription>
-<para>Provides the option to load a config file. </para>          </briefdescription>
+          </briefdescription>
           <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -c [file]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>config [file]</computeroutput> <linebreak/>
- </para></listitem></itemizedlist>
-</para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" prot="public">
-          <name>OpMax</name>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0aef497d518d9ef02d60cdfba77508c1a4" prot="public">
+          <name>CS_DARK_RED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ad397aa4f427eb0301710d0e8754ff22c" prot="public">
+          <name>CS_DARK_MAGENTA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af5cd3833abf8b79b529507833f934e37" prot="public">
+          <name>CS_DARK_YELLOW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a90a226ec6a7d4618a9887631d0c400f3" prot="public">
+          <name>CS_LIGHT_GREY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0afea73bb0fb9f2c902b10a54f9d40055a" prot="public">
+          <name>CS_GREY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ae70a5a5ecd6f61c686747b985dce6bd8" prot="public">
+          <name>CS_BLUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ace24727890ff11dadd56e713dd10b05c" prot="public">
+          <name>CS_GREEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ad2a1f80bd29fc58ec7b139ba24c6494f" prot="public">
+          <name>CS_CYAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a3a7fa658912b42911e47c56b374fb0e3" prot="public">
+          <name>CS_RED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a22592b526240b76bc9c65455fab2dfb1" prot="public">
+          <name>CS_MAGENTA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9ae71afe0ae8a0d82f5d6b9d81c5e6c2" prot="public">
+          <name>CS_YELLOW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" prot="public">
+          <name>CS_WHITE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Usage Options. </para>        </briefdescription>
+<para>Enum for adding specific background and foreground colors to the console. </para>        </briefdescription>
         <detaileddescription>
-<para><programlisting><codeline><highlight class="normal">Usage:<sp/>MdDox<sp/>&lt;options&gt;<sp/>&lt;arg[0]<sp/>..<sp/>arg[n]&gt;</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-h,<sp/>--help<sp/><sp/><sp/><sp/>Display<sp/>this<sp/>help<sp/>message</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-o,<sp/>--output<sp/><sp/>Specify<sp/>an<sp/>output<sp/>directory</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>one<sp/>is<sp/>not<sp/>specified<sp/>the<sp/>current<sp/>directory<sp/>will<sp/>be<sp/>used</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-i,<sp/>--index<sp/><sp/><sp/>Specify<sp/>the<sp/>index.xml<sp/>file<sp/>to<sp/>use</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;path&gt;</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-t,<sp/>--type<sp/><sp/><sp/><sp/>Specify<sp/>the<sp/>generator<sp/>backend<sp/>type</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;id&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>md<sp/><sp/><sp/>-<sp/>Generates<sp/>a<sp/>GFM<sp/>markdown<sp/>site.</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>html<sp/>-<sp/>Generates<sp/>a<sp/>HTML<sp/>site.</highlight></codeline>
-</programlisting> </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDox/Main.cpp" line="55" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="54" bodyend="96"/>
+        <location file="Source/Utils/Console.h" line="31" column="1" bodyfile="Source/Utils/Console.h" bodystart="30" bodyend="48"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" prot="public" static="no" strong="no">
         <type></type>
@@ -282,210 +332,82 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/IconSet.h" line="31" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="30" bodyend="50"/>
       </memberdef>
-      <memberdef kind="enum" id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43e" prot="public" static="no" strong="no">
         <type></type>
-        <name>ConsoleColor</name>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" prot="public">
-          <name>CS_BLACK</name>
-          <initializer>= 0</initializer>
+        <name>Options</name>
+        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" prot="public">
+          <name>OptOutputDirectory</name>
           <briefdescription>
-          </briefdescription>
+<para>Provides the option to specify an output directory. </para>          </briefdescription>
           <detaileddescription>
-          </detaileddescription>
+<para><itemizedlist>
+<listitem><para><computeroutput> -o &lt;file-path&gt;</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>output &lt;file-path&gt;</computeroutput> <linebreak/>
+ <simplesect kind="note"><para>if an output path is not specified then the current working directory will be used as the output directory. </para></simplesect>
+</para></listitem></itemizedlist>
+</para>          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a77ac751d65708f142faccbe55fd27253" prot="public">
-          <name>CS_DARK_BLUE</name>
+        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" prot="public">
+          <name>OptIndexFile</name>
           <briefdescription>
-          </briefdescription>
+<para>Provides the option to specify the index file. </para>          </briefdescription>
           <detaileddescription>
-          </detaileddescription>
+<para><itemizedlist>
+<listitem><para><computeroutput> -i [file-path]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>input [file-path]</computeroutput> <linebreak/>
+ </para></listitem></itemizedlist>
+</para>          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a733f1014648e7eec256694f29071d9b6" prot="public">
-          <name>CS_DARK_GREEN</name>
+        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eafda00e3f71ab22247d399a7140839d29" prot="public">
+          <name>OptGenType</name>
           <briefdescription>
-          </briefdescription>
+<para>Provides the option to specify the backend document writer. </para>          </briefdescription>
           <detaileddescription>
-          </detaileddescription>
+<para><itemizedlist>
+<listitem><para><computeroutput> -t [type]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>input [type]</computeroutput> <linebreak/>
+</para></listitem></itemizedlist>
+</para><para><bold>type</bold></para><para><itemizedlist>
+<listitem><para>md - Use <ref refid="classMdDox_1_1MarkdownDocumentWriter" kindref="compound">MdDox::MarkdownDocumentWriter</ref> as the writer.</para></listitem><listitem><para>html - Use <ref refid="classMdDox_1_1HtmlDocumentWriter" kindref="compound">MdDox::HtmlDocumentWriter</ref> as the writer. </para></listitem></itemizedlist>
+</para>          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a6a7bcd7a2fb5639b36571a1ddfa41f2e" prot="public">
-          <name>CS_DARK_CYAN</name>
+        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" prot="public">
+          <name>OptConfigFile</name>
           <briefdescription>
-          </briefdescription>
+<para>Provides the option to load a config file. </para>          </briefdescription>
           <detaileddescription>
-          </detaileddescription>
+<para><itemizedlist>
+<listitem><para><computeroutput> -c [file]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>config [file]</computeroutput> <linebreak/>
+ </para></listitem></itemizedlist>
+</para>          </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0aef497d518d9ef02d60cdfba77508c1a4" prot="public">
-          <name>CS_DARK_RED</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ad397aa4f427eb0301710d0e8754ff22c" prot="public">
-          <name>CS_DARK_MAGENTA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af5cd3833abf8b79b529507833f934e37" prot="public">
-          <name>CS_DARK_YELLOW</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a90a226ec6a7d4618a9887631d0c400f3" prot="public">
-          <name>CS_LIGHT_GREY</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0afea73bb0fb9f2c902b10a54f9d40055a" prot="public">
-          <name>CS_GREY</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ae70a5a5ecd6f61c686747b985dce6bd8" prot="public">
-          <name>CS_BLUE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ace24727890ff11dadd56e713dd10b05c" prot="public">
-          <name>CS_GREEN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0ad2a1f80bd29fc58ec7b139ba24c6494f" prot="public">
-          <name>CS_CYAN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a3a7fa658912b42911e47c56b374fb0e3" prot="public">
-          <name>CS_RED</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a22592b526240b76bc9c65455fab2dfb1" prot="public">
-          <name>CS_MAGENTA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9ae71afe0ae8a0d82f5d6b9d81c5e6c2" prot="public">
-          <name>CS_YELLOW</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" prot="public">
-          <name>CS_WHITE</name>
+        <enumvalue id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" prot="public">
+          <name>OpMax</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Enum for adding specific background and foreground colors to the console. </para>        </briefdescription>
+<para>Usage Options. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><programlisting><codeline><highlight class="normal">Usage:<sp/>MdDox<sp/>&lt;options&gt;<sp/>&lt;arg[0]<sp/>..<sp/>arg[n]&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-h,<sp/>--help<sp/><sp/><sp/><sp/>Display<sp/>this<sp/>help<sp/>message</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-o,<sp/>--output<sp/><sp/>Specify<sp/>an<sp/>output<sp/>directory</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>one<sp/>is<sp/>not<sp/>specified<sp/>the<sp/>current<sp/>directory<sp/>will<sp/>be<sp/>used</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-i,<sp/>--index<sp/><sp/><sp/>Specify<sp/>the<sp/>index.xml<sp/>file<sp/>to<sp/>use</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;path&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-t,<sp/>--type<sp/><sp/><sp/><sp/>Specify<sp/>the<sp/>generator<sp/>backend<sp/>type</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;id&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>md<sp/><sp/><sp/>-<sp/>Generates<sp/>a<sp/>GFM<sp/>markdown<sp/>site.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>html<sp/>-<sp/>Generates<sp/>a<sp/>HTML<sp/>site.</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Console.h" line="31" column="1" bodyfile="Source/Utils/Console.h" bodystart="30" bodyend="48"/>
+        <location file="Source/MdDox/Main.cpp" line="55" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="54" bodyend="96"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &gt;</type>
-        <definition>using MdDox::ReferenceList = typedef std::vector&lt;Reference&gt;</definition>
-        <argsstring></argsstring>
-        <name>ReferenceList</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/Reference.h" line="28" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::ReferenceMap = typedef std::unordered_map&lt;String, String&gt;</definition>
-        <argsstring></argsstring>
-        <name>ReferenceMap</name>
-        <briefdescription>
-<para>Container that is used to map a reference id attribute to a name. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="36" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" prot="public" static="no">
-        <type>std::filesystem::path</type>
-        <definition>using MdDox::Path = typedef std::filesystem::path</definition>
-        <argsstring></argsstring>
-        <name>Path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="29" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref> &gt;</type>
-        <definition>using MdDox::PathArray = typedef std::vector&lt;Path&gt;</definition>
-        <argsstring></argsstring>
-        <name>PathArray</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="30" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1ac3281bf161fc4483a362d7d0927b1625" prot="public" static="no">
-        <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::StringTable = typedef IndexCache&lt;String&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringTable</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="30" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" prot="public" static="no">
-        <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; int &gt;</type>
-        <definition>using MdDox::IntTable = typedef IndexCache&lt;int&gt;</definition>
-        <argsstring></argsstring>
-        <name>IntTable</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a94068c3f59491d9ac7b255a403efe1a3" prot="public" static="no">
         <type>std::filesystem::directory_entry</type>
         <definition>using MdDox::Directory = typedef std::filesystem::directory_entry</definition>
@@ -499,70 +421,18 @@
         </inbodydescription>
         <location file="Source/Utils/Path.cpp" line="30" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="30" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" prot="public" static="no">
-        <type>std::string</type>
-        <definition>using MdDox::String = typedef std::string</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" prot="public" static="no">
+        <type>std::ifstream</type>
+        <definition>using MdDox::InputFileStream = typedef std::ifstream</definition>
         <argsstring></argsstring>
-        <name>String</name>
+        <name>InputFileStream</name>
         <briefdescription>
-<para>Declaration of a string. </para>        </briefdescription>
+<para>Declaration of the input file stream class. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="36" column="1" bodyfile="Source/Utils/String.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" prot="public" static="no">
-        <type>std::deque&lt; std::string &gt;</type>
-        <definition>using MdDox::StringDeque = typedef std::deque&lt;std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringDeque</name>
-        <briefdescription>
-<para>Structure to hold a double ended queue of strings. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="41" column="1" bodyfile="Source/Utils/String.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" prot="public" static="no">
-        <type>std::vector&lt; std::string &gt;</type>
-        <definition>using MdDox::StringArray = typedef std::vector&lt;std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringArray</name>
-        <briefdescription>
-<para>Structure to hold a vector of strings. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="46" column="1" bodyfile="Source/Utils/String.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" prot="public" static="no">
-        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
-        <definition>using MdDox::StringMap = typedef std::unordered_map&lt;std::string, std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringMap</name>
-        <briefdescription>
-<para>Structure to hold a key value string. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="50" column="1" bodyfile="Source/Utils/String.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" prot="public" static="no">
-        <type>std::stringstream</type>
-        <definition>using MdDox::StringStream = typedef std::stringstream</definition>
-        <argsstring></argsstring>
-        <name>StringStream</name>
-        <briefdescription>
-<para>Declaration of an input/output string stream. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="55" column="1" bodyfile="Source/Utils/String.h" bodystart="55" bodyend="-1"/>
+        <location file="Source/Utils/String.h" line="80" column="1" bodyfile="Source/Utils/String.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" prot="public" static="no">
         <type>std::istringstream</type>
@@ -577,18 +447,18 @@
         </inbodydescription>
         <location file="Source/Utils/String.h" line="60" column="1" bodyfile="Source/Utils/String.h" bodystart="60" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" prot="public" static="no">
-        <type>std::ostringstream</type>
-        <definition>using MdDox::OutputStringStream = typedef std::ostringstream</definition>
+      <memberdef kind="typedef" id="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" prot="public" static="no">
+        <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; int &gt;</type>
+        <definition>using MdDox::IntTable = typedef IndexCache&lt;int&gt;</definition>
         <argsstring></argsstring>
-        <name>OutputStringStream</name>
+        <name>IntTable</name>
         <briefdescription>
-<para>Declaration of an output only string stream. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.h" line="65" column="1" bodyfile="Source/Utils/String.h" bodystart="65" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ScannerBase.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" prot="public" static="no">
         <type>std::istream</type>
@@ -616,19 +486,6 @@
         </inbodydescription>
         <location file="Source/Utils/String.h" line="75" column="1" bodyfile="Source/Utils/String.h" bodystart="75" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" prot="public" static="no">
-        <type>std::ifstream</type>
-        <definition>using MdDox::InputFileStream = typedef std::ifstream</definition>
-        <argsstring></argsstring>
-        <name>InputFileStream</name>
-        <briefdescription>
-<para>Declaration of the input file stream class. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="80" column="1" bodyfile="Source/Utils/String.h" bodystart="80" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" prot="public" static="no">
         <type>std::ofstream</type>
         <definition>using MdDox::OutputFileStream = typedef std::ofstream</definition>
@@ -641,6 +498,149 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/String.h" line="85" column="1" bodyfile="Source/Utils/String.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" prot="public" static="no">
+        <type>std::ostringstream</type>
+        <definition>using MdDox::OutputStringStream = typedef std::ostringstream</definition>
+        <argsstring></argsstring>
+        <name>OutputStringStream</name>
+        <briefdescription>
+<para>Declaration of an output only string stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="65" column="1" bodyfile="Source/Utils/String.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" prot="public" static="no">
+        <type>std::filesystem::path</type>
+        <definition>using MdDox::Path = typedef std::filesystem::path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="29" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespaceMdDox_1afd0bf9b718ffda793e5015c17bce4ff5" kindref="member">Path</ref> &gt;</type>
+        <definition>using MdDox::PathArray = typedef std::vector&lt;Path&gt;</definition>
+        <argsstring></argsstring>
+        <name>PathArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="30" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &gt;</type>
+        <definition>using MdDox::ReferenceList = typedef std::vector&lt;Reference&gt;</definition>
+        <argsstring></argsstring>
+        <name>ReferenceList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/Reference.h" line="28" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::ReferenceMap = typedef std::unordered_map&lt;String, String&gt;</definition>
+        <argsstring></argsstring>
+        <name>ReferenceMap</name>
+        <briefdescription>
+<para>Container that is used to map a reference id attribute to a name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="36" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using MdDox::String = typedef std::string</definition>
+        <argsstring></argsstring>
+        <name>String</name>
+        <briefdescription>
+<para>Declaration of a string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="36" column="1" bodyfile="Source/Utils/String.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" prot="public" static="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>using MdDox::StringArray = typedef std::vector&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>StringArray</name>
+        <briefdescription>
+<para>Structure to hold a vector of strings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="46" column="1" bodyfile="Source/Utils/String.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" prot="public" static="no">
+        <type>std::deque&lt; std::string &gt;</type>
+        <definition>using MdDox::StringDeque = typedef std::deque&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>StringDeque</name>
+        <briefdescription>
+<para>Structure to hold a double ended queue of strings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="41" column="1" bodyfile="Source/Utils/String.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" prot="public" static="no">
+        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
+        <definition>using MdDox::StringMap = typedef std::unordered_map&lt;std::string, std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>StringMap</name>
+        <briefdescription>
+<para>Structure to hold a key value string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="50" column="1" bodyfile="Source/Utils/String.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" prot="public" static="no">
+        <type>std::stringstream</type>
+        <definition>using MdDox::StringStream = typedef std::stringstream</definition>
+        <argsstring></argsstring>
+        <name>StringStream</name>
+        <briefdescription>
+<para>Declaration of an input/output string stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="55" column="1" bodyfile="Source/Utils/String.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMdDox_1ac3281bf161fc4483a362d7d0927b1625" prot="public" static="no">
+        <type><ref refid="classMdDox_1_1IndexCache" kindref="compound">IndexCache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::StringTable = typedef IndexCache&lt;String&gt;</definition>
+        <argsstring></argsstring>
+        <name>StringTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ScannerBase.h" line="30" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" prot="public" static="no">
         <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, int64_t &gt;</type>
@@ -657,18 +657,19 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" prot="public" static="no" mutable="no">
-        <type>constexpr <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">CommandLine::Switch</ref></type>
-        <definition>constexpr CommandLine::Switch MdDox::Switches[OpMax]</definition>
-        <argsstring>[OpMax]</argsstring>
-        <name>Switches</name>
+      <memberdef kind="variable" id="namespaceMdDox_1a28f35335310a4d1aa09614c91dab0f3f" prot="public" static="yes" mutable="no">
+        <type><ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
+        <definition>ConsoleColor MdDox::__gBackground</definition>
+        <argsstring></argsstring>
+        <name>__gBackground</name>
+        <initializer>= <ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" kindref="member">CS_BLACK</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDox/Main.cpp" line="98" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="98" bodyend="-1"/>
+        <location file="Source/Utils/Console.cpp" line="33" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespaceMdDox_1ac05449930d4a31a869805987c439e117" prot="public" static="yes" mutable="no">
         <type><ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
@@ -684,19 +685,42 @@
         </inbodydescription>
         <location file="Source/Utils/Console.cpp" line="32" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="32" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespaceMdDox_1a28f35335310a4d1aa09614c91dab0f3f" prot="public" static="yes" mutable="no">
-        <type><ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
-        <definition>ConsoleColor MdDox::__gBackground</definition>
-        <argsstring></argsstring>
-        <name>__gBackground</name>
-        <initializer>= <ref refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" kindref="member">CS_BLACK</ref></initializer>
+      <memberdef kind="variable" id="namespaceMdDox_1a42fb98e42434407c66cfe313080ee049" prot="public" static="no" mutable="no">
+        <type>constexpr char</type>
+        <definition>constexpr char MdDox::BaseChars[]</definition>
+        <argsstring>[]</argsstring>
+        <name>BaseChars</name>
+        <initializer>= {
+        &apos;D&apos;, &apos;c&apos;, &apos;U&apos;, &apos;y&apos;, &apos;3&apos;, &apos;b&apos;, &apos;C&apos;, &apos;g&apos;,
+        &apos;p&apos;, &apos;J&apos;, &apos;9&apos;, &apos;L&apos;, &apos;p&apos;, &apos;J&apos;, &apos;0&apos;, &apos;A&apos;,
+        &apos;W&apos;, &apos;o&apos;, &apos;x&apos;, &apos;O&apos;, &apos;a&apos;, &apos;N&apos;, &apos;u&apos;, &apos;8&apos;,
+        &apos;n&apos;, &apos;x&apos;, &apos;7&apos;, &apos;s&apos;, &apos;E&apos;, &apos;z&apos;, &apos;h&apos;, &apos;E&apos;,
+        &apos;q&apos;, &apos;Z&apos;, &apos;L&apos;, &apos;4&apos;, &apos;F&apos;, &apos;2&apos;, &apos;Q&apos;, &apos;i&apos;,
+        &apos;S&apos;, &apos;K&apos;, &apos;w&apos;, &apos;G&apos;, &apos;r&apos;, &apos;f&apos;, &apos;1&apos;, &apos;Z&apos;,
+        &apos;d&apos;, &apos;t&apos;, &apos;Y&apos;, &apos;5&apos;, &apos;I&apos;, &apos;3&apos;, &apos;K&apos;, &apos;t&apos;,
+        &apos;B&apos;, &apos;6&apos;, &apos;a&apos;, &apos;R&apos;, &apos;l&apos;, &apos;H&apos;, &apos;m&apos;, &apos;M&apos;,
+    }</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Console.cpp" line="33" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="33" bodyend="-1"/>
+        <location file="Source/Utils/String.cpp" line="190" column="1" bodyfile="Source/Utils/String.cpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMdDox_1ac1e40b26a321318c518279d7a346142e" prot="public" static="no" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t MdDox::BaseCharsSize</definition>
+        <argsstring></argsstring>
+        <name>BaseCharsSize</name>
+        <initializer>= sizeof <ref refid="namespaceMdDox_1a42fb98e42434407c66cfe313080ee049" kindref="member">BaseChars</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.cpp" line="202" column="1" bodyfile="Source/Utils/String.cpp" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespaceMdDox_1a655a1549e9d59b70fafb5626fa3adbf5" prot="public" static="no" mutable="no">
         <type>constexpr char</type>
@@ -740,45 +764,47 @@
         </inbodydescription>
         <location file="Source/Utils/Path.cpp" line="28" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="28" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespaceMdDox_1a42fb98e42434407c66cfe313080ee049" prot="public" static="no" mutable="no">
-        <type>constexpr char</type>
-        <definition>constexpr char MdDox::BaseChars[]</definition>
-        <argsstring>[]</argsstring>
-        <name>BaseChars</name>
-        <initializer>= {
-        &apos;D&apos;, &apos;c&apos;, &apos;U&apos;, &apos;y&apos;, &apos;3&apos;, &apos;b&apos;, &apos;C&apos;, &apos;g&apos;,
-        &apos;p&apos;, &apos;J&apos;, &apos;9&apos;, &apos;L&apos;, &apos;p&apos;, &apos;J&apos;, &apos;0&apos;, &apos;A&apos;,
-        &apos;W&apos;, &apos;o&apos;, &apos;x&apos;, &apos;O&apos;, &apos;a&apos;, &apos;N&apos;, &apos;u&apos;, &apos;8&apos;,
-        &apos;n&apos;, &apos;x&apos;, &apos;7&apos;, &apos;s&apos;, &apos;E&apos;, &apos;z&apos;, &apos;h&apos;, &apos;E&apos;,
-        &apos;q&apos;, &apos;Z&apos;, &apos;L&apos;, &apos;4&apos;, &apos;F&apos;, &apos;2&apos;, &apos;Q&apos;, &apos;i&apos;,
-        &apos;S&apos;, &apos;K&apos;, &apos;w&apos;, &apos;G&apos;, &apos;r&apos;, &apos;f&apos;, &apos;1&apos;, &apos;Z&apos;,
-        &apos;d&apos;, &apos;t&apos;, &apos;Y&apos;, &apos;5&apos;, &apos;I&apos;, &apos;3&apos;, &apos;K&apos;, &apos;t&apos;,
-        &apos;B&apos;, &apos;6&apos;, &apos;a&apos;, &apos;R&apos;, &apos;l&apos;, &apos;H&apos;, &apos;m&apos;, &apos;M&apos;,
-    }</initializer>
+      <memberdef kind="variable" id="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" prot="public" static="no" mutable="no">
+        <type>constexpr <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">CommandLine::Switch</ref></type>
+        <definition>constexpr CommandLine::Switch MdDox::Switches[OpMax]</definition>
+        <argsstring>[OpMax]</argsstring>
+        <name>Switches</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="190" column="1" bodyfile="Source/Utils/String.cpp" bodystart="190" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="namespaceMdDox_1ac1e40b26a321318c518279d7a346142e" prot="public" static="no" mutable="no">
-        <type>constexpr size_t</type>
-        <definition>constexpr size_t MdDox::BaseCharsSize</definition>
-        <argsstring></argsstring>
-        <name>BaseCharsSize</name>
-        <initializer>= sizeof <ref refid="namespaceMdDox_1a42fb98e42434407c66cfe313080ee049" kindref="member">BaseChars</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="202" column="1" bodyfile="Source/Utils/String.cpp" bodystart="202" bodyend="-1"/>
+        <location file="Source/MdDox/Main.cpp" line="98" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="98" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMdDox_1a882abed0385daed0f7c9d02ff800408f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CrtDump</definition>
+        <argsstring>()</argsstring>
+        <name>CrtDump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Win32/CrtUtils.cpp" line="55" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1a657f139bc5f6e89a7bb95a7fe0879214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CrtTestMemory</definition>
+        <argsstring>()</argsstring>
+        <name>CrtTestMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/Win32/CrtUtils.cpp" line="40" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="40" bodyend="53"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a10c86bf623d1e4477190dd7197e166dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -823,344 +849,41 @@
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a7328335d7652fcbddccf5744f5b5c574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeNamespaceTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, const String &amp;split)</argsstring>
-        <name>writeNamespaceTitleBar</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>split</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="33" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="33" bodyend="84"/>
-        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
-        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
-        <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a7e05100838d79dba58e61d8fef9fc01f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeDirectoryTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, const String &amp;split)</argsstring>
-        <name>writeDirectoryTitleBar</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>split</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="86" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="86" bodyend="137"/>
-        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
-        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
-        <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a49bab7aeddd0c92af286054a2f76ed3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeFilePath</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const String &amp;path)</argsstring>
-        <name>writeFilePath</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="139" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="139" bodyend="183"/>
-        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconLink</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconLink</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="185" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="185" bodyend="206"/>
-        <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" compoundref="SiteBuilder_8cpp" startline="189" endline="195">MdDox::SiteBuilder::findMember</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconLinkHeading</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconLinkHeading</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="208" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="208" bodyend="213"/>
-        <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeExternalIconLink</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeExternalIconLink</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="215" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="215" bodyend="224"/>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconStub</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconStub</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="226" bodyend="232"/>
-        <references refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
-        <references refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
-        <references refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1a4338aec09dbef3739444c62befccc06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MdDox::syncStream</definition>
-        <argsstring>(OStream *stream, OutputStringStream &amp;out)</argsstring>
-        <name>syncStream</name>
+        <definition>bool MdDox::isDecimal</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isDecimal</name>
         <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
-          <declname>stream</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
-          <declname>out</declname>
+          <type>const int</type>
+          <declname>ch</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para><simplesect kind="return"><para>True if the character is in the range of [0-9]</para></simplesect>
+</para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="234" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="234" bodyend="245"/>
+        <location file="Source/Utils/Char.h" line="199" column="1" bodyfile="Source/Utils/Char.h" bodystart="199" bodyend="202"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1ae499b565ea54f70247a7add01c6ac602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeNamespaceTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, [[deprecated]] const String &amp;split)</argsstring>
-        <name>writeNamespaceTitleBar</name>
+      <memberdef kind="function" id="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::isLetter</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isLetter</name>
         <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <param>
-          <attributes>[[deprecated]</attributes>
-          <type>] const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>split</declname>
+          <type>const int</type>
+          <declname>ch</declname>
         </param>
         <briefdescription>
-<para>Defines a navigation bar from a list of names that are separated with the binary resolution operator. </para>        </briefdescription>
+<para><simplesect kind="return"><para>True if the character is in the range of [a-zA-Z]</para></simplesect>
+</para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.h" line="36" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a112623d0a70175829922c2896a803852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeDirectoryTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, [[deprecated]] const String &amp;split)</argsstring>
-        <name>writeDirectoryTitleBar</name>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <param>
-          <attributes>[[deprecated]</attributes>
-          <type>] const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>split</declname>
-        </param>
-        <briefdescription>
-<para>Defines a navigation bar from a list of names that are separated with a path separator. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.h" line="45" column="1"/>
+        <location file="Source/Utils/Char.h" line="205" column="1" bodyfile="Source/Utils/Char.h" bodystart="205" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1aace85994356ad90a0d76534a0bbccc9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1199,41 +922,32 @@
         <location file="Source/Utils/Char.h" line="193" column="1" bodyfile="Source/Utils/Char.h" bodystart="193" bodyend="196"/>
         <references refid="namespaceMdDox_1aace85994356ad90a0d76534a0bbccc9d" compoundref="Char_8h" startline="184" endline="187">isNewLine</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a4338aec09dbef3739444c62befccc06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isDecimal</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isDecimal</name>
+      <memberdef kind="function" id="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::makeTypeFilter</definition>
+        <argsstring>(TypeFilterMap &amp;dest, const TypeFilter *filter, const size_t size)</argsstring>
+        <name>makeTypeFilter</name>
         <param>
-          <type>const int</type>
-          <declname>ch</declname>
+          <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref> *</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>const size_t</type>
+          <declname>size</declname>
         </param>
         <briefdescription>
-<para><simplesect kind="return"><para>True if the character is in the range of [0-9]</para></simplesect>
-</para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Char.h" line="199" column="1" bodyfile="Source/Utils/Char.h" bodystart="199" bodyend="202"/>
-      </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isLetter</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isLetter</name>
-        <param>
-          <type>const int</type>
-          <declname>ch</declname>
-        </param>
-        <briefdescription>
-<para><simplesect kind="return"><para>True if the character is in the range of [a-zA-Z]</para></simplesect>
-</para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Char.h" line="205" column="1" bodyfile="Source/Utils/Char.h" bodystart="205" bodyend="208"/>
+        <location file="Source/Utils/TypeFilter.cpp" line="27" column="1" bodyfile="Source/Utils/TypeFilter.cpp" bodystart="27" bodyend="35"/>
+        <references refid="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" compoundref="TypeFilter_8h" startline="30">MdDox::TypeFilter::typeName</references>
+        <references refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" compoundref="TypeFilter_8h" startline="31">MdDox::TypeFilter::typeCode</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a636a4ffa437f2a2e436f83e76e2004c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1349,22 +1063,18 @@
         </inbodydescription>
         <location file="Source/Utils/String.h" line="230" column="1" bodyfile="Source/Utils/String.h" bodystart="230" bodyend="235"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::makeTypeFilter</definition>
-        <argsstring>(TypeFilterMap &amp;dest, const TypeFilter *filter, const size_t size)</argsstring>
-        <name>makeTypeFilter</name>
+      <memberdef kind="function" id="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::syncStream</definition>
+        <argsstring>(OStream *stream, OutputStringStream &amp;out)</argsstring>
+        <name>syncStream</name>
         <param>
-          <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref> &amp;</type>
-          <declname>dest</declname>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>stream</declname>
         </param>
         <param>
-          <type>const <ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref> *</type>
-          <declname>filter</declname>
-        </param>
-        <param>
-          <type>const size_t</type>
-          <declname>size</declname>
+          <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
+          <declname>out</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1372,35 +1082,325 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/TypeFilter.cpp" line="27" column="1" bodyfile="Source/Utils/TypeFilter.cpp" bodystart="27" bodyend="35"/>
-        <references refid="structMdDox_1_1TypeFilter_1ac8b8e2faa2382e8a3a390364ed86611b" compoundref="TypeFilter_8h" startline="30">MdDox::TypeFilter::typeName</references>
-        <references refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" compoundref="TypeFilter_8h" startline="31">MdDox::TypeFilter::typeCode</references>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="234" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="234" bodyend="245"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a657f139bc5f6e89a7bb95a7fe0879214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1a112623d0a70175829922c2896a803852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::CrtTestMemory</definition>
-        <argsstring>()</argsstring>
-        <name>CrtTestMemory</name>
+        <definition>void MdDox::writeDirectoryTitleBar</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, [[deprecated]] const String &amp;split)</argsstring>
+        <name>writeDirectoryTitleBar</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <attributes>[[deprecated]</attributes>
+          <type>] const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>split</declname>
+        </param>
         <briefdescription>
-        </briefdescription>
+<para>Defines a navigation bar from a list of names that are separated with a path separator. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Win32/CrtUtils.cpp" line="40" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="40" bodyend="53"/>
+        <location file="Source/MdDoxTree/WriteUtils.h" line="45" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1a882abed0385daed0f7c9d02ff800408f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1a7e05100838d79dba58e61d8fef9fc01f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::CrtDump</definition>
-        <argsstring>()</argsstring>
-        <name>CrtDump</name>
+        <definition>void MdDox::writeDirectoryTitleBar</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, const String &amp;split)</argsstring>
+        <name>writeDirectoryTitleBar</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>split</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/Win32/CrtUtils.cpp" line="55" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="55" bodyend="64"/>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="86" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="86" bodyend="137"/>
+        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
+        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeExternalIconLink</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
+        <name>writeExternalIconLink</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="215" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="215" bodyend="224"/>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1a49bab7aeddd0c92af286054a2f76ed3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeFilePath</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const String &amp;path)</argsstring>
+        <name>writeFilePath</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="139" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="139" bodyend="183"/>
+        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
+        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1a7328335d7652fcbddccf5744f5b5c574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeNamespaceTitleBar</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, const String &amp;split)</argsstring>
+        <name>writeNamespaceTitleBar</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>split</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="33" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="33" bodyend="84"/>
+        <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="190">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
+        <references refid="classMdDox_1_1Console_1a23aa3c101d5708fb35bc1525759737ab" compoundref="Console_8cpp" startline="206" endline="209">MdDox::Console::writeError</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1ae499b565ea54f70247a7add01c6ac602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeNamespaceTitleBar</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item, [[deprecated]] const String &amp;split)</argsstring>
+        <name>writeNamespaceTitleBar</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <attributes>[[deprecated]</attributes>
+          <type>] const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>split</declname>
+        </param>
+        <briefdescription>
+<para>Defines a navigation bar from a list of names that are separated with the binary resolution operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeReferenceIconLink</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
+        <name>writeReferenceIconLink</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="185" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="185" bodyend="206"/>
+        <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="211" endline="216">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" compoundref="SiteBuilder_8cpp" startline="189" endline="195">MdDox::SiteBuilder::findMember</references>
+        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="173" endline="179">MdDox::SiteBuilder::findReference</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">StringCombine</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeReferenceIconLinkHeading</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
+        <name>writeReferenceIconLinkHeading</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="208" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="208" bodyend="213"/>
+        <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::writeReferenceIconStub</definition>
+        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
+        <name>writeReferenceIconStub</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/WriteUtils.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="226" bodyend="232"/>
+        <references refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
+        <references refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
+        <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/TocListQuery.h" line="77" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a1dddc6f441136ae984a5ad9064c2446e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::TocListQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocListQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="119" bodyend="122"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1acb236e87dafc94e8ade67203932011c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::TocListQuery::empty</definition>
@@ -93,18 +80,35 @@
         <location file="Tools/Doxygen/TocListQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="134" bodyend="137"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a3679ce979c2c9ab62e833df54d1bf21f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::TocListQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::TocListQuery::foreachTocItem</definition>
+        <argsstring>(const TocItemQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachTocItem</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ae8083890b5d3b02815478813b7f2a92b" kindref="member">TocItemQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>tocitem</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TocListQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="124" bodyend="127"/>
+        <location file="Tools/Doxygen/TocListQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/TocListQuery.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a1dddc6f441136ae984a5ad9064c2446e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::TocListQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TocListQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a5c78c673609001e5fc38f35eb3a99b03" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +122,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/TocListQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a5541f701eade742951fc51cc48e1f3fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::TocListQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TocListQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a912f01a0d58aa08211acd5bb55d830c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,23 +195,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocListQueryVisitor_1a06af1b07d58e64fd5e6aab0a43d61795" compoundref="TocListQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::TocListQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocListQueryVisitor_1afd58d69687d67c6baa15c8b9fed19ac1" compoundref="TocListQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::TocListQueryVisitor::visitedTocItem</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocListQuery_1a3679ce979c2c9ab62e833df54d1bf21f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::TocListQuery::foreachTocItem</definition>
-        <argsstring>(const TocItemQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachTocItem</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ae8083890b5d3b02815478813b7f2a92b" kindref="member">TocItemQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>tocitem</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocListQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/TocListQuery.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

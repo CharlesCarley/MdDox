@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::ParaQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/ParagraphWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1ParagraphWriter_1abf99a96c785ebe195f686c43e860954c" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::ParagraphWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1ParagraphWriter_1adc9512fba75ed51d4c18b9e4ecd81860" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::ParagraphWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParagraphWriter_1ab7d9431674eb1ded7739d82e62e09afd" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,37 +31,358 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParagraphWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1ParagraphWriter_1adc9512fba75ed51d4c18b9e4ecd81860" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::ParagraphWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1ParagraphWriter_1abf99a96c785ebe195f686c43e860954c" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::ParagraphWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a9bd4615a3a0de72d4a62786dc456eee5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4cc43804dfb804a5e9f90a5342959fbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedText</definition>
-        <argsstring>(const String &amp;) override</argsstring>
-        <name>visitedText</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab3c8127914a22c023b05be31a46486a7">visitedText</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedAnchor</definition>
+        <argsstring>(const Doxygen::AnchorQuery &amp;query) override</argsstring>
+        <name>visitedAnchor</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a985a2c6abba5cf159dac36973860d0ba">visitedAnchor</reimplements>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">Doxygen::AnchorQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the AnchorQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="57" bodyend="60"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="354" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3f0bdd1e7a65f48737b9a36c38dd59ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedBlockQuote</definition>
+        <argsstring>(const Doxygen::BlockQuoteQuery &amp;query) override</argsstring>
+        <name>visitedBlockQuote</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1add5ab647c6b56564b123234c53ddeddd">visitedBlockQuote</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">Doxygen::BlockQuoteQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>blockquote</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the BlockQuoteQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="300" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae140da60e1f09393451629bf6f43255e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedBold</definition>
+        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
+        <name>visitedBold</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1aafcefc14cd913fb7f28b4efd126f000c">visitedBold</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the MarkupQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="327" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aee83ae908841b8d2ed56668978605201" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedCenter</definition>
+        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
+        <name>visitedCenter</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a6295599586847df159e9320294d859af">visitedCenter</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the MarkupQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="342" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae0a4fd164752e739b92fc70d0c47726d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedComputerOutput</definition>
+        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
+        <name>visitedComputerOutput</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1adbf441b98bd94796c482129d563525cc">visitedComputerOutput</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the MarkupQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a40c1d7369068c2983a4ab6082c5bd497" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedDot</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedDot</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a8a80fd519868b13d0d751318f59c994b">visitedDot</reimplements>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="99" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="403" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3355c08d130a42358551c265db06afed" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedDotFile</definition>
+        <argsstring>(const Doxygen::FileQuery &amp;query) override</argsstring>
+        <name>visitedDotFile</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3ec71e410bec56515ee2c0dc12f8d2d7">visitedDotFile</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">Doxygen::FileQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>dotfile</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the FileQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="276" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aa0881769cf1aa1fe9caffc94b01fb7e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedEmphasis</definition>
+        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
+        <name>visitedEmphasis</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a8e98867891fed5791864c55775515bc6">visitedEmphasis</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the MarkupQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af0212ec2c0e0cdfc995bdd653d208fdd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedHeading</definition>
+        <argsstring>(const Doxygen::HeadingQuery &amp;query) override</argsstring>
+        <name>visitedHeading</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af1dea3819c1bca4e08f545f50c3bdf4c">visitedHeading</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">Doxygen::HeadingQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>heading</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the HeadingQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="247" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a89abac5bc767b71a8b5dd969f8769966" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedHRuler</definition>
+        <argsstring>(const Doxygen::EmptyQuery &amp;query) override</argsstring>
+        <name>visitedHRuler</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a2947ebb6d1dd3e155b16b4c015e85d89">visitedHRuler</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">Doxygen::EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>hruler</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the EmptyQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a6a2261a9a8d912e798ef41566f0b133c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedImage</definition>
+        <argsstring>(const Doxygen::ImageQuery &amp;query) override</argsstring>
+        <name>visitedImage</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af8441650509ee5f736bda7c82c5ef2cb">visitedImage</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">Doxygen::ImageQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>image</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ImageQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="253" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a5dc28d81da09fa63bba98f4e01feced2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedItemizedList</definition>
+        <argsstring>(const Doxygen::ListQuery &amp;query) override</argsstring>
+        <name>visitedItemizedList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a57d25ef3399ad3bf5fcccfc79373d655">visitedItemizedList</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">Doxygen::ListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>itemizedlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="138" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a2e0307641cc613efbe3ef7c26dfea28b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedLanguage</definition>
+        <argsstring>(const Doxygen::LanguageQuery &amp;query) override</argsstring>
+        <name>visitedLanguage</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a1dc582b4442b57f4022d500740e131c0">visitedLanguage</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">Doxygen::LanguageQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>language</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LanguageQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="288" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4063855338dd4a08c4ed26c5767f6734" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -89,18 +410,122 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParagraphWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="62" bodyend="65"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a89abac5bc767b71a8b5dd969f8769966" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a782f7cbbb9a9ca07d30f5f8f03a16ee6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedHRuler</definition>
+        <definition>void MdDox::ParagraphWriter::visitedOrderedList</definition>
+        <argsstring>(const Doxygen::ListQuery &amp;query) override</argsstring>
+        <name>visitedOrderedList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a6477027722fda28c4ee112e15b94583d">visitedOrderedList</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">Doxygen::ListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>orderedlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3213fc70b6b43db03062a6ace1ff9510" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedParagraph</definition>
+        <argsstring>(const Doxygen::ParaQuery &amp;query) override</argsstring>
+        <name>visitedParagraph</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab549326904fc361d993440e16df724a4">visitedParagraph</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">Doxygen::ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParaQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="385" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1acdd3fafbdd5988da7f6fb2f1a37177f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedParameterList</definition>
+        <argsstring>(const Doxygen::ParamListQuery &amp;query) override</argsstring>
+        <name>visitedParameterList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a14a08a380b4e08cda2d723936c453f65">visitedParameterList</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">Doxygen::ParamListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parameterlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParamListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="294" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a09c834994cf818a20696d6405f2b3814" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedParBlock</definition>
+        <argsstring>(const Doxygen::ParBlockQuery &amp;query) override</argsstring>
+        <name>visitedParBlock</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af06ef4291cfcf1e926b7fc73ad49e9da">visitedParBlock</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">Doxygen::ParBlockQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parblock</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParBlockQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="316" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4f0b0cc713bee4a44cb62aa76df4c729" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedPart</definition>
         <argsstring>(const Doxygen::EmptyQuery &amp;query) override</argsstring>
-        <name>visitedHRuler</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a2947ebb6d1dd3e155b16b4c015e85d89">visitedHRuler</reimplements>
+        <name>visitedPart</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1afefae5b110fb5d278ed60cd3f338724e">visitedPart</reimplements>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">Doxygen::EmptyQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>hruler</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -113,7 +538,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="67" bodyend="70"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="95" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="391" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a042d69cdc61b7d2afc199000ba360d1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -167,551 +592,31 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParagraphWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="78" bodyend="131"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a782f7cbbb9a9ca07d30f5f8f03a16ee6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a7c55b74a1031d8d8f26dab7fde82918c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedOrderedList</definition>
-        <argsstring>(const Doxygen::ListQuery &amp;query) override</argsstring>
-        <name>visitedOrderedList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a6477027722fda28c4ee112e15b94583d">visitedOrderedList</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedProp</definition>
+        <argsstring>(const Doxygen::EmptyQuery &amp;query) override</argsstring>
+        <name>visitedProp</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab435d6ae6ac0fe38786b02c3a323ab7c">visitedProp</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">Doxygen::ListQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">Doxygen::EmptyQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>orderedlist</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the ListQuery class. </para></parameterdescription>
+<para>Const reference to the EmptyQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="133" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a5dc28d81da09fa63bba98f4e01feced2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedItemizedList</definition>
-        <argsstring>(const Doxygen::ListQuery &amp;query) override</argsstring>
-        <name>visitedItemizedList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a57d25ef3399ad3bf5fcccfc79373d655">visitedItemizedList</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">Doxygen::ListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>itemizedlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="138" bodyend="157"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae40557d02adfcac2efd80ea67dab071f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedSimpleSect</definition>
-        <argsstring>(const Doxygen::SimpleSectQuery &amp;query) override</argsstring>
-        <name>visitedSimpleSect</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3b5eecd8b52f5c4a7aa935bbe764d423">visitedSimpleSect</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">Doxygen::SimpleSectQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>simplesect</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the SimpleSectQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="159" bodyend="227"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a619633dbeeb5c23e0f04c8d603892e1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedTitle</definition>
-        <argsstring>(const Doxygen::TitleQuery &amp;query) override</argsstring>
-        <name>visitedTitle</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3e2df1b6ae58d41d11d9e95bcc123c49">visitedTitle</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">Doxygen::TitleQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the TitleQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="229" bodyend="233"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a85b93dae7ab61093e25aba38e64c2601" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedVariableList</definition>
-        <argsstring>(const Doxygen::VariableListQuery &amp;query) override</argsstring>
-        <name>visitedVariableList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a431973d5771c0ce71a1df685f72061a9">visitedVariableList</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">Doxygen::VariableListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>variablelist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the VariableListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="235" bodyend="239"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af7599b9e1f74b739a08b7c32012edea6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedTable</definition>
-        <argsstring>(const Doxygen::TableQuery &amp;query) override</argsstring>
-        <name>visitedTable</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a46e2c7e6445401bdc3c75045184dc054">visitedTable</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">Doxygen::TableQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>table</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the TableQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="241" bodyend="245"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af0212ec2c0e0cdfc995bdd653d208fdd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedHeading</definition>
-        <argsstring>(const Doxygen::HeadingQuery &amp;query) override</argsstring>
-        <name>visitedHeading</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af1dea3819c1bca4e08f545f50c3bdf4c">visitedHeading</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">Doxygen::HeadingQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>heading</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the HeadingQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="247" bodyend="251"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a6a2261a9a8d912e798ef41566f0b133c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedImage</definition>
-        <argsstring>(const Doxygen::ImageQuery &amp;query) override</argsstring>
-        <name>visitedImage</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af8441650509ee5f736bda7c82c5ef2cb">visitedImage</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">Doxygen::ImageQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>image</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ImageQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="253" bodyend="274"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3355c08d130a42358551c265db06afed" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedDotFile</definition>
-        <argsstring>(const Doxygen::FileQuery &amp;query) override</argsstring>
-        <name>visitedDotFile</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3ec71e410bec56515ee2c0dc12f8d2d7">visitedDotFile</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">Doxygen::FileQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>dotfile</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the FileQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="276" bodyend="280"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ef70e4549c3d5fefae7918056c21925" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedTocList</definition>
-        <argsstring>(const Doxygen::TocListQuery &amp;query) override</argsstring>
-        <name>visitedTocList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1acfc2655ec07912a3fc51dcc3c93d8db2">visitedTocList</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">Doxygen::TocListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>toclist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the TocListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="282" bodyend="286"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a2e0307641cc613efbe3ef7c26dfea28b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedLanguage</definition>
-        <argsstring>(const Doxygen::LanguageQuery &amp;query) override</argsstring>
-        <name>visitedLanguage</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a1dc582b4442b57f4022d500740e131c0">visitedLanguage</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">Doxygen::LanguageQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>language</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the LanguageQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="288" bodyend="292"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1acdd3fafbdd5988da7f6fb2f1a37177f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedParameterList</definition>
-        <argsstring>(const Doxygen::ParamListQuery &amp;query) override</argsstring>
-        <name>visitedParameterList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a14a08a380b4e08cda2d723936c453f65">visitedParameterList</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">Doxygen::ParamListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parameterlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ParamListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="294" bodyend="298"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3f0bdd1e7a65f48737b9a36c38dd59ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedBlockQuote</definition>
-        <argsstring>(const Doxygen::BlockQuoteQuery &amp;query) override</argsstring>
-        <name>visitedBlockQuote</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1add5ab647c6b56564b123234c53ddeddd">visitedBlockQuote</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">Doxygen::BlockQuoteQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>blockquote</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the BlockQuoteQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="300" bodyend="314"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a09c834994cf818a20696d6405f2b3814" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedParBlock</definition>
-        <argsstring>(const Doxygen::ParBlockQuery &amp;query) override</argsstring>
-        <name>visitedParBlock</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1af06ef4291cfcf1e926b7fc73ad49e9da">visitedParBlock</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">Doxygen::ParBlockQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parblock</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ParBlockQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="316" bodyend="320"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae3609d087151a7c9859ceecb78a1f3e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedULink</definition>
-        <argsstring>(const Doxygen::UrlLinkQuery &amp;query) override</argsstring>
-        <name>visitedULink</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ae0a4b434414b903b08f237becdb9ebba">visitedULink</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">Doxygen::UrlLinkQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the UrlLinkQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="322" bodyend="325"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae140da60e1f09393451629bf6f43255e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedBold</definition>
-        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
-        <name>visitedBold</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1aafcefc14cd913fb7f28b4efd126f000c">visitedBold</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MarkupQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="327" bodyend="330"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aa0881769cf1aa1fe9caffc94b01fb7e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedEmphasis</definition>
-        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
-        <name>visitedEmphasis</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a8e98867891fed5791864c55775515bc6">visitedEmphasis</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MarkupQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="332" bodyend="335"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae0a4fd164752e739b92fc70d0c47726d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedComputerOutput</definition>
-        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
-        <name>visitedComputerOutput</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1adbf441b98bd94796c482129d563525cc">visitedComputerOutput</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MarkupQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="337" bodyend="340"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aee83ae908841b8d2ed56668978605201" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedCenter</definition>
-        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
-        <name>visitedCenter</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a6295599586847df159e9320294d859af">visitedCenter</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MarkupQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="342" bodyend="346"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ac97a696889a9d468585cbfdb1ee80b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedSmall</definition>
-        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
-        <name>visitedSmall</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a11f9e5b2af02e4f9155f0763d23be2fd">visitedSmall</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MarkupQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="348" bodyend="352"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4cc43804dfb804a5e9f90a5342959fbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedAnchor</definition>
-        <argsstring>(const Doxygen::AnchorQuery &amp;query) override</argsstring>
-        <name>visitedAnchor</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a985a2c6abba5cf159dac36973860d0ba">visitedAnchor</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">Doxygen::AnchorQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the AnchorQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="354" bodyend="358"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="97" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="397" bodyend="401"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a20617f49bd5fed1da6e84cee8daf09f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -765,109 +670,204 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParagraphWriter.h" line="91" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="379" bodyend="383"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3213fc70b6b43db03062a6ace1ff9510" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae40557d02adfcac2efd80ea67dab071f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedParagraph</definition>
-        <argsstring>(const Doxygen::ParaQuery &amp;query) override</argsstring>
-        <name>visitedParagraph</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab549326904fc361d993440e16df724a4">visitedParagraph</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedSimpleSect</definition>
+        <argsstring>(const Doxygen::SimpleSectQuery &amp;query) override</argsstring>
+        <name>visitedSimpleSect</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3b5eecd8b52f5c4a7aa935bbe764d423">visitedSimpleSect</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">Doxygen::ParaQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">Doxygen::SimpleSectQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>simplesect</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the ParaQuery class. </para></parameterdescription>
+<para>Const reference to the SimpleSectQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="385" bodyend="389"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="159" bodyend="227"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4f0b0cc713bee4a44cb62aa76df4c729" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ac97a696889a9d468585cbfdb1ee80b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedPart</definition>
-        <argsstring>(const Doxygen::EmptyQuery &amp;query) override</argsstring>
-        <name>visitedPart</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1afefae5b110fb5d278ed60cd3f338724e">visitedPart</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedSmall</definition>
+        <argsstring>(const Doxygen::MarkupQuery &amp;query) override</argsstring>
+        <name>visitedSmall</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a11f9e5b2af02e4f9155f0763d23be2fd">visitedSmall</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">Doxygen::EmptyQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">Doxygen::MarkupQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the EmptyQuery class. </para></parameterdescription>
+<para>Const reference to the MarkupQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="95" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="391" bodyend="395"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="348" bodyend="352"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a7c55b74a1031d8d8f26dab7fde82918c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af7599b9e1f74b739a08b7c32012edea6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedProp</definition>
-        <argsstring>(const Doxygen::EmptyQuery &amp;query) override</argsstring>
-        <name>visitedProp</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab435d6ae6ac0fe38786b02c3a323ab7c">visitedProp</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedTable</definition>
+        <argsstring>(const Doxygen::TableQuery &amp;query) override</argsstring>
+        <name>visitedTable</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a46e2c7e6445401bdc3c75045184dc054">visitedTable</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">Doxygen::EmptyQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">Doxygen::TableQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>table</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the EmptyQuery class. </para></parameterdescription>
+<para>Const reference to the TableQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="97" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="397" bodyend="401"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="241" bodyend="245"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a40c1d7369068c2983a4ab6082c5bd497" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a9bd4615a3a0de72d4a62786dc456eee5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParagraphWriter::visitedDot</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedDot</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a8a80fd519868b13d0d751318f59c994b">visitedDot</reimplements>
+        <definition>void MdDox::ParagraphWriter::visitedText</definition>
+        <argsstring>(const String &amp;) override</argsstring>
+        <name>visitedText</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ab3c8127914a22c023b05be31a46486a7">visitedText</reimplements>
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a619633dbeeb5c23e0f04c8d603892e1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedTitle</definition>
+        <argsstring>(const Doxygen::TitleQuery &amp;query) override</argsstring>
+        <name>visitedTitle</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a3e2df1b6ae58d41d11d9e95bcc123c49">visitedTitle</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">Doxygen::TitleQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>text</parametername>
+<parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
+<para>Const reference to the TitleQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="99" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="403" bodyend="421"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="229" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ef70e4549c3d5fefae7918056c21925" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedTocList</definition>
+        <argsstring>(const Doxygen::TocListQuery &amp;query) override</argsstring>
+        <name>visitedTocList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1acfc2655ec07912a3fc51dcc3c93d8db2">visitedTocList</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">Doxygen::TocListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>toclist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the TocListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="282" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae3609d087151a7c9859ceecb78a1f3e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedULink</definition>
+        <argsstring>(const Doxygen::UrlLinkQuery &amp;query) override</argsstring>
+        <name>visitedULink</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1ae0a4b434414b903b08f237becdb9ebba">visitedULink</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">Doxygen::UrlLinkQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the UrlLinkQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="322" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a85b93dae7ab61093e25aba38e64c2601" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParagraphWriter::visitedVariableList</definition>
+        <argsstring>(const Doxygen::VariableListQuery &amp;query) override</argsstring>
+        <name>visitedVariableList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor_1a431973d5771c0ce71a1df685f72061a9">visitedVariableList</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">Doxygen::VariableListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>variablelist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the VariableListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="235" bodyend="239"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

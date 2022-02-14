@@ -20,15 +20,7 @@
 <br/>
 <a id="private-static-methods"></a>
 <h2>Private Static Methods</h2>
-<span class="icon-list-item"><a href="#scantoquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanToQuote</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#scanvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanValue</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#scankey" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanKey</span>
+<span class="icon-list-item"><a href="#next" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
 </a>
 </span>
 <br/>
@@ -36,7 +28,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#next" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
+<span class="icon-list-item"><a href="#scankey" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanKey</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#scantoquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanToQuote</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#scanvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scanValue</span>
 </a>
 </span>
 <br/>
@@ -50,15 +50,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#load" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">load</span>
+<span class="icon-list-item"><a href="#attributes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attributes</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#contains" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
 </a>
 </span>
 <br/>
@@ -70,7 +66,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#attributes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attributes</span>
+<span class="icon-list-item"><a href="#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#load" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">load</span>
 </a>
 </span>
 <br/>
@@ -88,6 +88,81 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="next"></a>
+<h2>next</h2>
+<span class="inline-text">char</span>
+<span class="bold-text"><b>next</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L183" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="scancomment"></a>
+<h2>scanComment</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>scanComment</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="scankey"></a>
+<h2>scanKey</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>scanKey</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">dest</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
 <br/>
@@ -144,81 +219,6 @@
 </span>
 <br/>
 <br/>
-<a id="scankey"></a>
-<h2>scanKey</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>scanKey</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">dest</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="scancomment"></a>
-<h2>scanComment</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>scanComment</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="next"></a>
-<h2>next</h2>
-<span class="inline-text">char</span>
-<span class="bold-text"><b>next</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L183" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="config"></a>
 <h2>Config</h2>
 <span class="bold-text"><b>Config</b></span>
@@ -243,31 +243,21 @@
 </span>
 <br/>
 <br/>
-<a id="load"></a>
-<h2>load</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>load</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
+<a id="attributes"></a>
+<h2>attributes</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox.md#stringmap">StringMap</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
+<span class="bold-text"><b>attributes</b></span>
+<span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#isletter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isLetter</span>
-</a>
-</span>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
 <br/>
@@ -292,41 +282,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getvalue"></a>
-<h2>getValue</h2>
-<span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>getValue</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">key</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">def</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">&quot;&quot;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L190" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
 <br/>
@@ -409,21 +364,66 @@
 </span>
 <br/>
 <br/>
-<a id="attributes"></a>
-<h2>attributes</h2>
+<a id="getvalue"></a>
+<h2>getValue</h2>
 <span class="inline-text">const </span>
-<a href="namespaceMdDox.md#stringmap">StringMap</a>
+<a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>attributes</b></span>
+<span class="bold-text"><b>getValue</b></span>
 <span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">key</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">def</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">&quot;&quot;</span>
+</span>
+</div>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L190" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="load"></a>
+<h2>load</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>load</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#istream">IStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#isletter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isLetter</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Config.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
 <br/>

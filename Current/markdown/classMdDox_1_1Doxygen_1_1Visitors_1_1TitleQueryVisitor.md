@@ -22,11 +22,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedulink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedULink</span>
+<span class="icon-list-item"><a href="#visitedanchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedAnchor</span>
 </a>
 </span>
 <br/>
@@ -34,7 +30,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedemphasis" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedEmphasis</span>
+<span class="icon-list-item"><a href="#visitedcenter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCenter</span>
 </a>
 </span>
 <br/>
@@ -42,27 +38,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedcenter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCenter</span>
+<span class="icon-list-item"><a href="#visiteddot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDot</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedsmall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSmall</span>
+<span class="icon-list-item"><a href="#visitedemphasis" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedEmphasis</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedanchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedAnchor</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRef</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedsect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSect</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedregistered" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRegistered</span>
+<span class="icon-list-item"><a href="#visitedlang" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLang</span>
 </a>
 </span>
 <br/>
@@ -78,11 +62,27 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedlang" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLang</span>
+<span class="icon-list-item"><a href="#visitedref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRef</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visiteddot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDot</span>
+<span class="icon-list-item"><a href="#visitedregistered" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRegistered</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedsect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSect</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedsmall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSmall</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedulink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedULink</span>
 </a>
 </span>
 <br/>
@@ -100,246 +100,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedtext"></a>
-<h2>visitedText</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedText</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Callback for every _text_node. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedulink"></a>
-<h2>visitedULink</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedULink</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>ulink</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedbold"></a>
-<h2>visitedBold</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedBold</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>bold</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedemphasis"></a>
-<h2>visitedEmphasis</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedEmphasis</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>emphasis</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedcomputeroutput"></a>
-<h2>visitedComputerOutput</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedComputerOutput</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>computeroutput</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedcenter"></a>
-<h2>visitedCenter</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedCenter</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>center</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedsmall"></a>
-<h2>visitedSmall</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedSmall</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>small</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
-<span class="inline-text"> class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>
@@ -380,14 +140,14 @@
 </span>
 <br/>
 <br/>
-<a id="visitedref"></a>
-<h2>visitedRef</h2>
+<a id="visitedbold"></a>
+<h2>visitedBold</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedRef</b></span>
+<span class="bold-text"><b>visitedBold</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -396,7 +156,7 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>ref</b></span>
+<span class="bold-text"><b>bold</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
@@ -404,26 +164,26 @@
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
 <span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
 <span class="inline-text"> class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedsect"></a>
-<h2>visitedSect</h2>
+<a id="visitedcenter"></a>
+<h2>visitedCenter</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedSect</b></span>
+<span class="bold-text"><b>visitedCenter</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -432,7 +192,7 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>sect</b></span>
+<span class="bold-text"><b>center</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
@@ -440,22 +200,128 @@
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
 <span class="inline-text">Const reference to the </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
 <span class="inline-text"> class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedregistered"></a>
-<h2>visitedRegistered</h2>
+<a id="visitedcomputeroutput"></a>
+<h2>visitedComputerOutput</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedRegistered</b></span>
+<span class="bold-text"><b>visitedComputerOutput</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>computeroutput</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visiteddot"></a>
+<h2>visitedDot</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedDot</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">text</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>dot</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>text</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the internal text. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedemphasis"></a>
+<h2>visitedEmphasis</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedEmphasis</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>emphasis</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedlang"></a>
+<h2>visitedLang</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedLang</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
@@ -468,7 +334,7 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>registered</b></span>
+<span class="bold-text"><b>lang</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
@@ -483,7 +349,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>
@@ -596,10 +462,46 @@
 </span>
 <br/>
 <br/>
-<a id="visitedlang"></a>
-<h2>visitedLang</h2>
+<a id="visitedref"></a>
+<h2>visitedRef</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedLang</b></span>
+<span class="bold-text"><b>visitedRef</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedregistered"></a>
+<h2>visitedRegistered</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedRegistered</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
@@ -612,7 +514,7 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>lang</b></span>
+<span class="bold-text"><b>registered</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
@@ -627,41 +529,139 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visiteddot"></a>
-<h2>visitedDot</h2>
+<a id="visitedsect"></a>
+<h2>visitedSect</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedDot</b></span>
+<span class="bold-text"><b>visitedSect</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">text</span>
+<span class="inline-text">query</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>dot</b></span>
+<span class="bold-text"><b>sect</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
-<li><span class="bold-text"><b>text</b></span>
+<li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the internal text. </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+<span class="inline-text"> class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedsmall"></a>
+<h2>visitedSmall</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedSmall</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>small</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtext"></a>
+<h2>visitedText</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedText</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Callback for every _text_node. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedulink"></a>
+<h2>visitedULink</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedULink</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>ulink</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the </span>
+<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
+<span class="inline-text"> class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/TitleQuery.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery.h</span>
 </a>
 </span>
 <br/>

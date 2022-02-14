@@ -17,21 +17,30 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CopyQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor_1a02b4145a2f8e85a807f8c8638aba3886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor_1a702b16c902071c6db83d0ffba37ba502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CopyQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::CopyQueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalQuery &amp;query)</argsstring>
+        <name>visitedInternal</name>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/CopyQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor_1a951faf681d5f2ac08fb153efb356687f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -83,30 +92,21 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CopyQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor_1a702b16c902071c6db83d0ffba37ba502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CopyQueryVisitor_1a02b4145a2f8e85a807f8c8638aba3886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CopyQueryVisitor::visitedInternal</definition>
-        <argsstring>(const InternalQuery &amp;query)</argsstring>
-        <name>visitedInternal</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::CopyQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> &amp;</type>
-          <declname>query</declname>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
         </param>
         <briefdescription>
-<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/CopyQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="53" bodyend="53"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

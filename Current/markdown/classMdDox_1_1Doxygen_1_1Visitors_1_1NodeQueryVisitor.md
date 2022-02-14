@@ -22,11 +22,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
+<span class="icon-list-item"><a href="#visitedchildnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedChildNode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedchildnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedChildNode</span>
+<span class="icon-list-item"><a href="#visitedlabel" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLabel</span>
 </a>
 </span>
 <br/>
@@ -34,7 +34,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedlabel" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLabel</span>
+<span class="icon-list-item"><a href="#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
 </a>
 </span>
 <br/>
@@ -52,30 +52,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/NodeQuery.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedtext"></a>
-<h2>visitedText</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedText</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Callback for every _text_node. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/NodeQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
 <br/>
@@ -116,6 +92,40 @@
 </span>
 <br/>
 <br/>
+<a id="visitedlabel"></a>
+<h2>visitedLabel</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedLabel</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">text</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>label</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>text</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the internal text. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/NodeQuery.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="visitedlink"></a>
 <h2>visitedLink</h2>
 <span class="inline-text">void</span>
@@ -152,36 +162,26 @@
 </span>
 <br/>
 <br/>
-<a id="visitedlabel"></a>
-<h2>visitedLabel</h2>
+<a id="visitedtext"></a>
+<h2>visitedText</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedLabel</b></span>
+<span class="bold-text"><b>visitedText</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">text</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>label</b></span>
-<span class="inline-text"> is found. </span>
+<span class="inline-text">Callback for every _text_node. </span>
 <br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>text</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the internal text. </span>
-</li>
-</ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/NodeQuery.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/NodeQuery.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
 <br/>

@@ -120,8 +120,8 @@
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListItemQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ListItemQuery" prot="public">MdDox::Doxygen::ListItemQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListItemQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListItemQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

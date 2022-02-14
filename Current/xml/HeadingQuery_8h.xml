@@ -120,8 +120,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor" prot="public">MdDox::Doxygen::Visitors::HeadingQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1HeadingQuery" prot="public">MdDox::Doxygen::HeadingQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor" prot="public">MdDox::Doxygen::Visitors::HeadingQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

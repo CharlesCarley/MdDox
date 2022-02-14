@@ -17,22 +17,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CodeLineQuery.h" line="35" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor_1aaa9c28c16b755be89df334ca5d8375fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CodeLineQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CodeLineQuery.h" line="40" column="1" bodyfile="Tools/Doxygen/CodeLineQuery.h" bodystart="40" bodyend="40"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor_1aceebff00d323a394079447d4de5c970c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::CodeLineQueryVisitor::visitedHighlight</definition>
@@ -57,6 +41,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CodeLineQuery.h" line="45" column="1" bodyfile="Tools/Doxygen/CodeLineQuery.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor_1aaa9c28c16b755be89df334ca5d8375fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::CodeLineQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CodeLineQuery.h" line="40" column="1" bodyfile="Tools/Doxygen/CodeLineQuery.h" bodystart="40" bodyend="40"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

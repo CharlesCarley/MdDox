@@ -4,20 +4,6 @@
     <compoundname>MdDox::TableOfContents</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</basecompoundref>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::TableOfContents::hasNamespaces</definition>
-        <argsstring></argsstring>
-        <name>hasNamespaces</name>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="42" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="42" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" prot="public" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MdDox::TableOfContents::hasClasses</definition>
@@ -45,6 +31,34 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="44" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a4c426f63298a732bf8b34ce0ab94a286" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::TableOfContents::hasFunctions</definition>
+        <argsstring></argsstring>
+        <name>hasFunctions</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::TableOfContents::hasNamespaces</definition>
+        <argsstring></argsstring>
+        <name>hasNamespaces</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="42" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1abe3711d74212bfaeba2fe3643076d567" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -74,20 +88,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="46" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="46" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a4c426f63298a732bf8b34ce0ab94a286" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::TableOfContents::hasFunctions</definition>
-        <argsstring></argsstring>
-        <name>hasFunctions</name>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="47" bodyend="-1"/>
-      </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1TableOfContents_1acada8323e626b6d1569cea6ee16f596d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -108,33 +108,6 @@
         <references refid="classMdDox_1_1TableOfContents_1abe3711d74212bfaeba2fe3643076d567" compoundref="NamespacePageWriter_8cpp" startline="45">hasTypes</references>
         <references refid="classMdDox_1_1TableOfContents_1a4aad04cdb6e92db0eb0e0b2226b4f3f9" compoundref="NamespacePageWriter_8cpp" startline="46">hasVariables</references>
         <references refid="classMdDox_1_1TableOfContents_1a4c426f63298a732bf8b34ce0ab94a286" compoundref="NamespacePageWriter_8cpp" startline="47">hasFunctions</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1TableOfContents_1a1282b684b650ef263481e8043b414688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::TableOfContents::visitedInnerNamespace</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerNamespace</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a97bac53ff2623f83712993ab2f5ae852">visitedInnerNamespace</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="55" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="55" bodyend="58"/>
-        <references refid="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" compoundref="NamespacePageWriter_8cpp" startline="42">hasNamespaces</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TableOfContents_1ab8313f9d8b0905400019684d82d99d56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -162,6 +135,33 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="60" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="60" bodyend="63"/>
         <references refid="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" compoundref="NamespacePageWriter_8cpp" startline="43">hasClasses</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1TableOfContents_1a1282b684b650ef263481e8043b414688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::TableOfContents::visitedInnerNamespace</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerNamespace</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a97bac53ff2623f83712993ab2f5ae852">visitedInnerNamespace</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="55" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="55" bodyend="58"/>
+        <references refid="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" compoundref="NamespacePageWriter_8cpp" startline="42">hasNamespaces</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TableOfContents_1af5add9546e7ebd10114373b255b8848e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>

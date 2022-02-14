@@ -19,19 +19,19 @@
 </ul>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#linenumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#heading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#titleonly" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">titleOnly</span>
+<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
+<span class="icon-list-item"><a href="#linenumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#titleonly" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">titleOnly</span>
 </a>
 </span>
 <br/>
@@ -40,30 +40,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L25" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
 </a>
 </span>
-<br/>
-<a id="linenumber"></a>
-<h2>lineNumber</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>lineNumber</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int64_t &amp;</span>
-<span class="inline-text">line</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="heading"></a>
 <h2>heading</h2>
@@ -95,6 +71,56 @@
 </span>
 <br/>
 <br/>
+<a id="id"></a>
+<h2>id</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>id</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">id</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="linenumber"></a>
+<h2>lineNumber</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>lineNumber</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int64_t &amp;</span>
+<span class="inline-text">line</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="titleonly"></a>
 <h2>titleOnly</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -121,32 +147,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="id"></a>
-<h2>id</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>id</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">id</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/HashUtils.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils.cpp</span>
 </a>
 </span>
 <br/>

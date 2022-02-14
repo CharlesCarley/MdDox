@@ -14,6 +14,10 @@
 <br/>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
+<span class="icon-list-item"><a href="#lastbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#linkmarkdown" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkMarkdown</span>
 </a>
 </span>
@@ -22,15 +26,41 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#lastbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
-</a>
-</span>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
+<br/>
+<a id="lastbinaryresolution"></a>
+<h2>lastBinaryResolution</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>lastBinaryResolution</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">name</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#splitbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitBinaryResolution</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="linkmarkdown"></a>
 <h2>linkMarkdown</h2>
@@ -113,36 +143,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.cpp#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="lastbinaryresolution"></a>
-<h2>lastBinaryResolution</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>lastBinaryResolution</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">name</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#splitbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">splitBinaryResolution</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Link.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
 </a>
 </span>
 <br/>

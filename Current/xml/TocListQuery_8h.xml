@@ -120,8 +120,8 @@
         <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TocListQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1TocListQuery" prot="public">MdDox::Doxygen::TocListQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1TocListQueryVisitor" prot="public">MdDox::Doxygen::Visitors::TocListQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

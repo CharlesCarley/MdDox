@@ -14,11 +14,11 @@
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
+<span class="icon-list-item"><a href="#_list" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_list</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_list" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_list</span>
+<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
 </a>
 </span>
 <br/>
@@ -46,19 +46,6 @@
 </a>
 </span>
 <br/>
-<a id="_root"></a>
-<h2>_root</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_root</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DotWriter.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="_list"></a>
 <h2>_list</h2>
 <a href="namespaceMdDox_1_1Xml.md#xmlnodearray">Xml::NodeArray</a>
@@ -68,6 +55,19 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DotWriter.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_root"></a>
+<h2>_root</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_root</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DotWriter.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.h</span>
 </a>
 </span>
 <br/>

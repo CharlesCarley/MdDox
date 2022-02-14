@@ -18,22 +18,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParamListQuery.h" line="34" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1ac9c074f3fc8eaca1be96da2669ff15f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::ParamListQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamListQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/ParamListQuery.h" bodystart="39" bodyend="39"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1a541190e5976f3e6dd4d53c00bdbe55bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::ParamListQueryVisitor::visitedParameterItem</definition>
@@ -59,6 +43,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/ParamListQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/ParamListQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListQueryVisitor_1ac9c074f3fc8eaca1be96da2669ff15f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/ParamListQuery.h" bodystart="39" bodyend="39"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

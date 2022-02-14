@@ -18,21 +18,31 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParamListItemQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor_1ae70ad29573dafb0e4939ffeb1485348f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor_1abb167851f92aa42f3bbe217c018c2c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedParameterDescription</definition>
+        <argsstring>(const DescriptionQuery &amp;query)</argsstring>
+        <name>visitedParameterDescription</name>
+        <reimplementedby refid="classMdDox_1_1ListItemVisitor_1aef796bb55636bb4586b0f18c0320e37e">visitedParameterDescription</reimplementedby>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>parameterdescription</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamListItemQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor_1aba0722de677dc1d813b33da4c7c525aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -60,31 +70,21 @@
         </inbodydescription>
         <location file="Tools/Doxygen/ParamListItemQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor_1abb167851f92aa42f3bbe217c018c2c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamListItemQueryVisitor_1ae70ad29573dafb0e4939ffeb1485348f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedParameterDescription</definition>
-        <argsstring>(const DescriptionQuery &amp;query)</argsstring>
-        <name>visitedParameterDescription</name>
-        <reimplementedby refid="classMdDox_1_1ListItemVisitor_1aef796bb55636bb4586b0f18c0320e37e">visitedParameterDescription</reimplementedby>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
         </param>
         <briefdescription>
-<para>Called when the element <bold>parameterdescription</bold> is found. </para>        </briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamListItemQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="48" bodyend="48"/>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

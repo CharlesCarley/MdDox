@@ -114,8 +114,8 @@
         <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListOfAllMembersQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" prot="public">MdDox::Doxygen::ListOfAllMembersQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ListOfAllMembersQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

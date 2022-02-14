@@ -4,18 +4,18 @@
     <compoundname>MdDox::LocationWriter</compoundname>
     <includes local="no">Source/MdDoxTree/LocationWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a7195b14bf2bd7f60d5a7214d15c03abf" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::LocationWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a3078bab0955488084e2e4caffe63c377" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::LocationWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="32" bodyend="-1"/>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1af4cdfc377cc44f0870c4ae3c519a38c8" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -30,18 +30,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/LocationWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a3078bab0955488084e2e4caffe63c377" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::LocationWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a7195b14bf2bd7f60d5a7214d15c03abf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::LocationWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="34" bodyend="-1"/>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

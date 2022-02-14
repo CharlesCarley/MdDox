@@ -19,6 +19,19 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1ParseOption_1a886a1b31fda1f52ca1169a2a65f2f64f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::ParseOption::_isPresent</definition>
+        <argsstring></argsstring>
+        <name>_isPresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="79" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1ParseOption_1a99cac907cf35b2c07b72907154963b2e" prot="private" static="no" mutable="no">
         <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref></type>
         <definition>const Switch MdDox::CommandLine::ParseOption::_switch</definition>
@@ -45,19 +58,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Option.h" line="78" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="78" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1ParseOption_1a886a1b31fda1f52ca1169a2a65f2f64f" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::CommandLine::ParseOption::_isPresent</definition>
-        <argsstring></argsstring>
-        <name>_isPresent</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="79" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -92,33 +92,6 @@
         <location file="Source/Utils/CommandLine/Option.h" line="84" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="114" bodyend="120"/>
         <references refid="structMdDox_1_1CommandLine_1_1Switch_1a09fbb77898d2e598084f831f8114b53e" compoundref="Option_8h" startline="68">MdDox::CommandLine::Switch::argCount</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::CommandLine::ParseOption::isOptional</definition>
-        <argsstring>() const</argsstring>
-        <name>isOptional</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="86" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="122" bodyend="125"/>
-        <references refid="structMdDox_1_1CommandLine_1_1Switch_1a423cb5995f4e03b7e0943e4fc5c8c91c" compoundref="Option_8h" startline="63">MdDox::CommandLine::Switch::optional</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac16dc597a6d2fdc9e6768f0d49771614" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::CommandLine::ParseOption::isPresent</definition>
-        <argsstring>() const</argsstring>
-        <name>isPresent</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="88" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="127" bodyend="130"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1abfefe3c88f484cd4ce61e53fea8ca3a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MdDox::CommandLine::ParseOption::getArgCount</definition>
@@ -131,80 +104,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Option.h" line="90" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="132" bodyend="135"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CommandLine::ParseOption::makePresent</definition>
-        <argsstring>()</argsstring>
-        <name>makePresent</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="92" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="137" bodyend="140"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1aca4c165784dc74873555f2cebdedd9f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref> &amp;</type>
-        <definition>const Switch &amp; MdDox::CommandLine::ParseOption::getSwitch</definition>
-        <argsstring>() const</argsstring>
-        <name>getSwitch</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="94" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="142" bodyend="145"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a8bc93642c989d0df40ff9f8ce784e5ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMdDox_1_1CommandLine_1_1ParseOption_1aea0c328a423ccff2b2fafa2809afbe29" kindref="member">Arguments</ref> &amp;</type>
-        <definition>const ParseOption::Arguments &amp; MdDox::CommandLine::ParseOption::getValues</definition>
-        <argsstring>() const</argsstring>
-        <name>getValues</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="96" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="147" bodyend="150"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::CommandLine::ParseOption::getValue</definition>
-        <argsstring>(const size_t &amp;idx=0)</argsstring>
-        <name>getValue</name>
-        <param>
-          <type>const size_t &amp;</type>
-          <declname>idx</declname>
-          <defval>0</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="98" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="152" bodyend="156"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CommandLine::ParseOption::setValue</definition>
-        <argsstring>(const String &amp;str)</argsstring>
-        <name>setValue</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="100" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="158" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac8a38a748d423c99c4802a0e58b7d494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -265,6 +164,107 @@
         <location file="Source/Utils/CommandLine/Option.h" line="104" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="173" bodyend="180"/>
         <references refid="classMdDox_1_1Char_1a313ba0faa8c51cf6015437248d9e9016" compoundref="Char_8cpp" startline="83" endline="90">MdDox::Char::toInt64</references>
         <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" compoundref="Option_8h" startline="152" endline="156">getValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1aca4c165784dc74873555f2cebdedd9f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref> &amp;</type>
+        <definition>const Switch &amp; MdDox::CommandLine::ParseOption::getSwitch</definition>
+        <argsstring>() const</argsstring>
+        <name>getSwitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="94" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::CommandLine::ParseOption::getValue</definition>
+        <argsstring>(const size_t &amp;idx=0)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="98" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="152" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a8bc93642c989d0df40ff9f8ce784e5ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMdDox_1_1CommandLine_1_1ParseOption_1aea0c328a423ccff2b2fafa2809afbe29" kindref="member">Arguments</ref> &amp;</type>
+        <definition>const ParseOption::Arguments &amp; MdDox::CommandLine::ParseOption::getValues</definition>
+        <argsstring>() const</argsstring>
+        <name>getValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="96" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::ParseOption::isOptional</definition>
+        <argsstring>() const</argsstring>
+        <name>isOptional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="86" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="122" bodyend="125"/>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1a423cb5995f4e03b7e0943e4fc5c8c91c" compoundref="Option_8h" startline="63">MdDox::CommandLine::Switch::optional</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac16dc597a6d2fdc9e6768f0d49771614" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::CommandLine::ParseOption::isPresent</definition>
+        <argsstring>() const</argsstring>
+        <name>isPresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="88" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::ParseOption::makePresent</definition>
+        <argsstring>()</argsstring>
+        <name>makePresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="92" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::ParseOption::setValue</definition>
+        <argsstring>(const String &amp;str)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Option.h" line="100" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="158" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac748271ba77e440be67f1d341e18186c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>

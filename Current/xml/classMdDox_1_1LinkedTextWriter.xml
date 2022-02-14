@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/LinkedTextWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1aa331e52671ef372ef854d655bc767806" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::LinkedTextWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1ae3f267cee919aeaed4bb94bb6e97b679" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::LinkedTextWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1a5a2d4b02ea4606d24c55eef2b19b477e" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,38 +31,21 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/LinkedTextWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1ae3f267cee919aeaed4bb94bb6e97b679" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::LinkedTextWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1aa331e52671ef372ef854d655bc767806" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::LinkedTextWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1LinkedTextWriter_1a6c6887bdaf86c77a97a01e1fde4b3506" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::LinkedTextWriter::visitedText</definition>
-        <argsstring>(const String &amp;) override</argsstring>
-        <name>visitedText</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor_1ac26e6cc9872a77a4c59438793ca84bd4">visitedText</reimplements>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="36" bodyend="39"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1LinkedTextWriter_1ad31436f24612eb3f1dbdf361ea6fd31e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::LinkedTextWriter::visitedRef</definition>
@@ -88,6 +71,23 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/LinkedTextWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="41" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1LinkedTextWriter_1a6c6887bdaf86c77a97a01e1fde4b3506" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::LinkedTextWriter::visitedText</definition>
+        <argsstring>(const String &amp;) override</argsstring>
+        <name>visitedText</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor_1ac26e6cc9872a77a4c59438793ca84bd4">visitedText</reimplements>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="36" bodyend="39"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

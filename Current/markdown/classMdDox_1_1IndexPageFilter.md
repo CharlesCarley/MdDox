@@ -21,15 +21,7 @@
 <img src="../images/internal-diagram-34.dot.svg"/><br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
-<span class="icon-list-item"><a href="#pages" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">pages</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#classes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">classes</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#namespaces" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">namespaces</span>
 </a>
 </span>
 <br/>
@@ -38,6 +30,14 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#dirpaths" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">dirPaths</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#namespaces" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">namespaces</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#pages" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">pages</span>
 </a>
 </span>
 <br/>
@@ -53,18 +53,6 @@
 </a>
 </span>
 <br/>
-<a id="pages"></a>
-<h2>pages</h2>
-<a href="namespaceMdDox.md#referencelist">ReferenceList</a>
-<span class="bold-text"><b>pages</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="classes"></a>
 <h2>classes</h2>
 <a href="namespaceMdDox.md#referencelist">ReferenceList</a>
@@ -73,18 +61,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="namespaces"></a>
-<h2>namespaces</h2>
-<a href="namespaceMdDox.md#referencelist">ReferenceList</a>
-<span class="bold-text"><b>namespaces</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -109,6 +85,30 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="namespaces"></a>
+<h2>namespaces</h2>
+<a href="namespaceMdDox.md#referencelist">ReferenceList</a>
+<span class="bold-text"><b>namespaces</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="pages"></a>
+<h2>pages</h2>
+<a href="namespaceMdDox.md#referencelist">ReferenceList</a>
+<span class="bold-text"><b>pages</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>

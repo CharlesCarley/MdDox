@@ -162,8 +162,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor" prot="public">MdDox::Doxygen::Visitors::MarkupQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1MarkupQuery" prot="public">MdDox::Doxygen::MarkupQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor" prot="public">MdDox::Doxygen::Visitors::MarkupQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

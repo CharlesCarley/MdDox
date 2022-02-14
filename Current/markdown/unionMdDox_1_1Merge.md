@@ -14,11 +14,11 @@
 <br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
-<span class="icon-list-item"><a href="#i" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">i</span>
+<span class="icon-list-item"><a href="#b" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">b</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#b" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">b</span>
+<span class="icon-list-item"><a href="#i" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">i</span>
 </a>
 </span>
 <br/>
@@ -34,18 +34,6 @@
 </a>
 </span>
 <br/>
-<a id="i"></a>
-<h2>i</h2>
-<span class="inline-text">uint32_t</span>
-<span class="bold-text"><b>i</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L231" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="b"></a>
 <h2>b</h2>
 <span class="inline-text">uint8_t</span>
@@ -54,6 +42,18 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L232" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="i"></a>
+<h2>i</h2>
+<span class="inline-text">uint32_t</span>
+<span class="bold-text"><b>i</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L231" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>

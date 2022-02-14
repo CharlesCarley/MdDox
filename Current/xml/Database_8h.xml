@@ -64,8 +64,8 @@
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1GenApi_1_1Database" prot="public">MdDox::GenApi::Database</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
-    <innernamespace refid="namespaceMdDox_1_1Xml">MdDox::Xml</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1GenApi">MdDox::GenApi</innernamespace>
+    <innernamespace refid="namespaceMdDox_1_1Xml">MdDox::Xml</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

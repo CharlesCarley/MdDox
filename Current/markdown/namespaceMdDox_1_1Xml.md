@@ -32,9 +32,7 @@
 <span class="inline-text">The </span>
 <a href="classMdDox_1_1Xml_1_1Parser.md#parser">Parser</a>
 <span class="inline-text"> is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</span>
-<span class="inline-text">Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the </span>
-<a href="#parserroot()">Parser::root()</a>
-<span class="inline-text"> method will return the root node of the tree.</span>
+<span class="inline-text">Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree.</span>
 <span class="inline-text">The following example shows how to use it.</span>
 
 ```cpp
@@ -84,11 +82,11 @@ catch(Exception &ex)
 <br/>
 <a id="typedefs"></a>
 <h2>Typedefs</h2>
-<span class="icon-list-item"><a href="#nodesortfunc" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeSortFunc</span>
+<span class="icon-list-item"><a href="#attributemap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AttributeMap</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#attributemap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AttributeMap</span>
+<span class="icon-list-item"><a href="#codecache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeCache</span>
 </a>
 </span>
 <br/>
@@ -100,7 +98,7 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringcache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCache</span>
+<span class="icon-list-item"><a href="#nodesortfunc" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeSortFunc</span>
 </a>
 </span>
 <br/>
@@ -108,7 +106,7 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#codecache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeCache</span>
+<span class="icon-list-item"><a href="#stringcache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCache</span>
 </a>
 </span>
 <br/>
@@ -124,15 +122,15 @@ catch(Exception &ex)
 <br/>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
+<span class="icon-list-item"><a href="#isquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isQuote</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#isvalidcharacter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValidCharacter</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#isvalididentifier" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValidIdentifier</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#isquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isQuote</span>
 </a>
 </span>
 <br/>
@@ -201,22 +199,6 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<a id="nodesortfunc"></a>
-<h2>NodeSortFunc</h2>
-<span class="inline-text">std::function&lt; bool(</span>
-<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> *a, </span>
-<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> *b)&gt;</span>
-<span class="bold-text"><b>NodeSortFunc</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="attributemap"></a>
 <h2>AttributeMap</h2>
 <span class="inline-text">std::unordered_map&lt; </span>
@@ -232,6 +214,20 @@ catch(Exception &ex)
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="codecache"></a>
+<h2>CodeCache</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>CodeCache</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
 </a>
 </span>
 <br/>
@@ -272,22 +268,18 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<a id="stringcache"></a>
-<h2>StringCache</h2>
-<a href="classMdDox_1_1Cache.md#cache">Cache</a>
-<span class="inline-text">&lt; </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>StringCache</b></span>
-<br/>
-<span class="inline-text">Provides a string based </span>
-<a href="classMdDox_1_1Cache.md#cache">Cache</a>
-<span class="inline-text"> implementation. </span>
-<br/>
+<a id="nodesortfunc"></a>
+<h2>NodeSortFunc</h2>
+<span class="inline-text">std::function&lt; bool(</span>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *a, </span>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *b)&gt;</span>
+<span class="bold-text"><b>NodeSortFunc</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -309,16 +301,22 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<a id="codecache"></a>
-<h2>CodeCache</h2>
-<span class="inline-text">std::vector&lt; </span>
+<a id="stringcache"></a>
+<h2>StringCache</h2>
+<a href="classMdDox_1_1Cache.md#cache">Cache</a>
+<span class="inline-text">&lt; </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>CodeCache</b></span>
+<span class="bold-text"><b>StringCache</b></span>
+<br/>
+<span class="inline-text">Provides a string based </span>
+<a href="classMdDox_1_1Cache.md#cache">Cache</a>
+<span class="inline-text"> implementation. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>
@@ -343,6 +341,24 @@ catch(Exception &ex)
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="isquote"></a>
+<h2>isQuote</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isQuote</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int</span>
+<span class="inline-text">ch</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
 <br/>
@@ -389,24 +405,6 @@ catch(Exception &ex)
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="isquote"></a>
-<h2>isQuote</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isQuote</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int</span>
-<span class="inline-text">ch</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
 <br/>

@@ -162,8 +162,8 @@
         <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor" prot="public">MdDox::Doxygen::Visitors::UrlLinkQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" prot="public">MdDox::Doxygen::UrlLinkQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor" prot="public">MdDox::Doxygen::Visitors::UrlLinkQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

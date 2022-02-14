@@ -21,25 +21,25 @@
 <img src="../images/internal-diagram-43.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_namespaceheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_namespaceHeading</span>
+<span class="icon-list-item"><a href="#_classheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_classHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_classheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_classHeading</span>
+<span class="icon-list-item"><a href="#_namespaceheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_namespaceHeading</span>
 </a>
 </span>
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#visitedinnerclass" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerClass</span>
+<span class="icon-list-item"><a href="#notifybriefdescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">notifyBriefDescription</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedinnernamespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerNamespace</span>
+<span class="icon-list-item"><a href="#notifydetaildescriptionheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">notifyDetailDescriptionHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedcompoundname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCompoundName</span>
+<span class="icon-list-item"><a href="#presortquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">preSortQuery</span>
 </a>
 </span>
 <br/>
@@ -47,7 +47,23 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#visitedcollaborationgraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCollaborationGraph</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedcompoundname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCompoundName</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#visitedderivedcompoundref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDerivedCompoundRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedincdepgraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedIncDepGraph</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedincludedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedIncludedBy</span>
 </a>
 </span>
 <br/>
@@ -55,7 +71,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedincludedby" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedIncludedBy</span>
+<span class="icon-list-item"><a href="#visitedinheritancegraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInheritanceGraph</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedinnerclass" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerClass</span>
 </a>
 </span>
 <br/>
@@ -67,15 +87,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedinnerpage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerPage</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#visitedinnergroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerGroup</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedincdepgraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedIncDepGraph</span>
+<span class="icon-list-item"><a href="#visitedinnernamespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerNamespace</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedinnerpage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInnerPage</span>
 </a>
 </span>
 <br/>
@@ -83,19 +103,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedtemplateparamlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTemplateParamList</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedinheritancegraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedInheritanceGraph</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedcollaborationgraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCollaborationGraph</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedprogramlisting" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedProgramListing</span>
+<span class="icon-list-item"><a href="#visitedlistofallmembers" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedListOfAllMembers</span>
 </a>
 </span>
 <br/>
@@ -103,11 +111,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visitedlistofallmembers" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedListOfAllMembers</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#visitedtitle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTitle</span>
+<span class="icon-list-item"><a href="#visitedprogramlisting" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedProgramListing</span>
 </a>
 </span>
 <br/>
@@ -115,19 +119,15 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#visitedtemplateparamlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTemplateParamList</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visitedtitle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTitle</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#writetableofcontents" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeTableOfContents</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#presortquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">preSortQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#notifybriefdescription" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">notifyBriefDescription</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#notifydetaildescriptionheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">notifyDetailDescriptionHeading</span>
 </a>
 </span>
 <br/>
@@ -147,18 +147,6 @@
 </a>
 </span>
 <br/>
-<a id="_namespaceheading"></a>
-<h2>_namespaceHeading</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>_namespaceHeading</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="_classheading"></a>
 <h2>_classHeading</h2>
 <span class="inline-text">bool</span>
@@ -171,116 +159,86 @@
 </span>
 <br/>
 <br/>
-<a id="visitedinnerclass"></a>
-<h2>visitedInnerClass</h2>
+<a id="_namespaceheading"></a>
+<h2>_namespaceHeading</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>_namespaceHeading</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="notifybriefdescription"></a>
+<h2>notifyBriefDescription</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedInnerClass</b></span>
+<span class="bold-text"><b>notifyBriefDescription</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>innerclass</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the RefQuery class. </span>
-</li>
-</ul>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L271" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedinnernamespace"></a>
-<h2>visitedInnerNamespace</h2>
+<a id="notifydetaildescriptionheading"></a>
+<h2>notifyDetailDescriptionHeading</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedInnerNamespace</b></span>
+<span class="bold-text"><b>notifyDetailDescriptionHeading</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>innernamespace</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the RefQuery class. </span>
-</li>
-</ul>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L276" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="visitedcompoundname"></a>
-<h2>visitedCompoundName</h2>
+<a id="presortquery"></a>
+<h2>preSortQuery</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedCompoundName</b></span>
+<span class="bold-text"><b>preSortQuery</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">text</span>
+<span class="inline-text">query</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>compoundname</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>text</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the internal text. </span>
-</li>
-</ul>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L82" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L333" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -323,6 +281,82 @@
 </span>
 <br/>
 <br/>
+<a id="visitedcollaborationgraph"></a>
+<h2>visitedCollaborationGraph</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedCollaborationGraph</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>collaborationgraph</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the GraphQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedcompoundname"></a>
+<h2>visitedCompoundName</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedCompoundName</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">text</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>compoundname</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>text</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the internal text. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="visitedderivedcompoundref"></a>
 <h2>visitedDerivedCompoundRef</h2>
 <span class="inline-text">void</span>
@@ -357,6 +391,82 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedincdepgraph"></a>
+<h2>visitedIncDepGraph</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedIncDepGraph</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>incdepgraph</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the GraphQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L187" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedincludedby"></a>
+<h2>visitedIncludedBy</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedIncludedBy</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1IncQuery.md#doxygenincquery">Doxygen::IncQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>includedby</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the IncQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -399,14 +509,14 @@
 </span>
 <br/>
 <br/>
-<a id="visitedincludedby"></a>
-<h2>visitedIncludedBy</h2>
+<a id="visitedinheritancegraph"></a>
+<h2>visitedInheritanceGraph</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedIncludedBy</b></span>
+<span class="bold-text"><b>visitedInheritanceGraph</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1IncQuery.md#doxygenincquery">Doxygen::IncQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -415,24 +525,62 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>includedby</b></span>
+<span class="bold-text"><b>inheritancegraph</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the IncQuery class. </span>
+<span class="inline-text">Const reference to the GraphQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedinnerclass"></a>
+<h2>visitedInnerClass</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedInnerClass</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>innerclass</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the RefQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -513,44 +661,6 @@
 </span>
 <br/>
 <br/>
-<a id="visitedinnerpage"></a>
-<h2>visitedInnerPage</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedInnerPage</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>innerpage</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the RefQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L259" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="visitedinnergroup"></a>
 <h2>visitedInnerGroup</h2>
 <span class="inline-text">void</span>
@@ -589,14 +699,14 @@
 </span>
 <br/>
 <br/>
-<a id="visitedincdepgraph"></a>
-<h2>visitedIncDepGraph</h2>
+<a id="visitedinnernamespace"></a>
+<h2>visitedInnerNamespace</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedIncDepGraph</b></span>
+<span class="bold-text"><b>visitedInnerNamespace</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -605,24 +715,62 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>incdepgraph</b></span>
+<span class="bold-text"><b>innernamespace</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the GraphQuery class. </span>
+<span class="inline-text">Const reference to the RefQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L187" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedinnerpage"></a>
+<h2>visitedInnerPage</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedInnerPage</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>innerpage</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the RefQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L259" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -665,14 +813,14 @@
 </span>
 <br/>
 <br/>
-<a id="visitedtemplateparamlist"></a>
-<h2>visitedTemplateParamList</h2>
+<a id="visitedlistofallmembers"></a>
+<h2>visitedListOfAllMembers</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedTemplateParamList</b></span>
+<span class="bold-text"><b>visitedListOfAllMembers</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#doxygentemplateparamlistquery">Doxygen::TemplateParamListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#doxygenlistofallmembersquery">Doxygen::ListOfAllMembersQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -681,138 +829,24 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>templateparamlist</b></span>
+<span class="bold-text"><b>listofallmembers</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the TemplateParamListQuery class. </span>
+<span class="inline-text">Const reference to the ListOfAllMembersQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedinheritancegraph"></a>
-<h2>visitedInheritanceGraph</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedInheritanceGraph</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>inheritancegraph</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the GraphQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedcollaborationgraph"></a>
-<h2>visitedCollaborationGraph</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedCollaborationGraph</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>collaborationgraph</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the GraphQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L211" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedprogramlisting"></a>
-<h2>visitedProgramListing</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedProgramListing</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#doxygenlistingquery">Doxygen::ListingQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>programlisting</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>query</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ListingQuery class. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L217" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L229" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -855,14 +889,14 @@
 </span>
 <br/>
 <br/>
-<a id="visitedlistofallmembers"></a>
-<h2>visitedListOfAllMembers</h2>
+<a id="visitedprogramlisting"></a>
+<h2>visitedProgramListing</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>visitedListOfAllMembers</b></span>
+<span class="bold-text"><b>visitedProgramListing</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#doxygenlistofallmembersquery">Doxygen::ListOfAllMembersQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#doxygenlistingquery">Doxygen::ListingQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -871,62 +905,24 @@
 <a id="details"></a>
 <h4>Details</h4>
 <span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>listofallmembers</b></span>
+<span class="bold-text"><b>programlisting</b></span>
 <span class="inline-text"> is found. </span>
 <br/>
 <br/>
 <ul>
 <li><span class="bold-text"><b>query</b></span>
 <span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the ListOfAllMembersQuery class. </span>
+<span class="inline-text">Const reference to the ListingQuery class. </span>
 </li>
 </ul>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L70" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L229" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="visitedtitle"></a>
-<h2>visitedTitle</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>visitedTitle</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">text</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Called when the element </span>
-<span class="bold-text"><b>title</b></span>
-<span class="inline-text"> is found. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>text</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">Const reference to the internal text. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L235" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L217" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -969,6 +965,82 @@
 </span>
 <br/>
 <br/>
+<a id="visitedtemplateparamlist"></a>
+<h2>visitedTemplateParamList</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedTemplateParamList</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#doxygentemplateparamlistquery">Doxygen::TemplateParamListQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>templateparamlist</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the TemplateParamListQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="visitedtitle"></a>
+<h2>visitedTitle</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedTitle</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">text</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>title</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>text</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the internal text. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L235" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="writetableofcontents"></a>
 <h2>writeTableOfContents</h2>
 <span class="inline-text">void</span>
@@ -988,78 +1060,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L282" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="presortquery"></a>
-<h2>preSortQuery</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>preSortQuery</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L82" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L333" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="notifybriefdescription"></a>
-<h2>notifyBriefDescription</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>notifyBriefDescription</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L84" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L271" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="notifydetaildescriptionheading"></a>
-<h2>notifyDetailDescriptionHeading</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>notifyDetailDescriptionHeading</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">query</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/NamespacePageWriter.cpp#L276" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
 <br/>

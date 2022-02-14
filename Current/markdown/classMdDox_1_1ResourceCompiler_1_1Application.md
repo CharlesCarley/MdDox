@@ -21,15 +21,15 @@
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
+<span class="icon-list-item"><a href="#_input" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_input</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#_namespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_namespace</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#_output" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_output</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_input" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_input</span>
 </a>
 </span>
 <br/>
@@ -43,11 +43,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+<span class="icon-list-item"><a href="#go" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">go</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#loadinput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">loadInput</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
 </a>
 </span>
 <br/>
@@ -59,15 +63,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#go" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">go</span>
-</a>
-</span>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<a id="_input"></a>
+<h2>_input</h2>
+<a href="namespaceMdDox.md#stringarray">StringArray</a>
+<span class="bold-text"><b>_input</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="_namespace"></a>
 <h2>_namespace</h2>
@@ -93,18 +105,6 @@
 </span>
 <br/>
 <br/>
-<a id="_input"></a>
-<h2>_input</h2>
-<a href="namespaceMdDox.md#stringarray">StringArray</a>
-<span class="bold-text"><b>_input</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L100" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="_resources"></a>
 <h2>_resources</h2>
 <a href="namespaceMdDox_1_1ResourceCompiler.md#resourcemap">ResourceMap</a>
@@ -125,6 +125,51 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L104" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="go"></a>
+<h2>go</h2>
+<span class="inline-text">int</span>
+<span class="bold-text"><b>go</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L256" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="loadinput"></a>
+<h2>loadInput</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>loadInput</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">input</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -178,32 +223,6 @@
 </span>
 <br/>
 <br/>
-<a id="loadinput"></a>
-<h2>loadInput</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>loadInput</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">input</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="writeheader"></a>
 <h2>writeHeader</h2>
 <span class="inline-text">void</span>
@@ -250,25 +269,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L208" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="go"></a>
-<h2>go</h2>
-<span class="inline-text">int</span>
-<span class="bold-text"><b>go</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L256" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>

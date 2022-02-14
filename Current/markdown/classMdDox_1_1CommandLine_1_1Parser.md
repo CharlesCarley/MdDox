@@ -19,10 +19,6 @@
 <br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
-<span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
 </a>
 </span>
@@ -31,9 +27,13 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
+</a>
+</span>
+<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_programname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_programName</span>
+<span class="icon-list-item"><a href="#_argumentlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_argumentList</span>
 </a>
 </span>
 <br/>
@@ -41,11 +41,15 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_required" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_required</span>
+<span class="icon-list-item"><a href="#_options" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_options</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_used" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_used</span>
+<span class="icon-list-item"><a href="#_programname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_programName</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_required" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_required</span>
 </a>
 </span>
 <br/>
@@ -57,11 +61,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_argumentlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_argumentList</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#_options" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_options</span>
+<span class="icon-list-item"><a href="#_used" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_used</span>
 </a>
 </span>
 <br/>
@@ -93,35 +93,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#loginput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">logInput</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#arguments" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">arguments</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#programpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programPath</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#programname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programName</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#programdirectory" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programDirectory</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#ispresent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isPresent</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#option" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">option</span>
 </a>
 </span>
 <br/>
@@ -130,6 +102,34 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#int64" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">int64</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#ispresent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isPresent</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#loginput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">logInput</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#option" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">option</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#programdirectory" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programDirectory</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#programname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programName</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#programpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">programPath</span>
 </a>
 </span>
 <br/>
@@ -156,22 +156,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
-<a id="switches"></a>
-<h2>Switches</h2>
-<span class="inline-text">std::unordered_map&lt; </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text">, </span>
-<a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption">ParseOption</a>
-<span class="inline-text"> * &gt;</span>
-<span class="bold-text"><b>Switches</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="options"></a>
 <h2>Options</h2>
@@ -201,14 +185,30 @@
 </span>
 <br/>
 <br/>
-<a id="_programname"></a>
-<h2>_programName</h2>
-<a href="namespaceMdDox.md#path">Path</a>
-<span class="bold-text"><b>_programName</b></span>
+<a id="switches"></a>
+<h2>Switches</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption">ParseOption</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>Switches</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_argumentlist"></a>
+<h2>_argumentList</h2>
+<a href="classMdDox_1_1CommandLine_1_1Parser.md#stringarray">StringArray</a>
+<span class="bold-text"><b>_argumentList</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>
@@ -225,6 +225,30 @@
 </span>
 <br/>
 <br/>
+<a id="_options"></a>
+<h2>_options</h2>
+<a href="classMdDox_1_1CommandLine_1_1Parser.md#options">Options</a>
+<span class="bold-text"><b>_options</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_programname"></a>
+<h2>_programName</h2>
+<a href="namespaceMdDox.md#path">Path</a>
+<span class="bold-text"><b>_programName</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="_required"></a>
 <h2>_required</h2>
 <span class="inline-text">int</span>
@@ -233,18 +257,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_used"></a>
-<h2>_used</h2>
-<span class="inline-text">int</span>
-<span class="bold-text"><b>_used</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>
@@ -273,26 +285,14 @@
 </span>
 <br/>
 <br/>
-<a id="_argumentlist"></a>
-<h2>_argumentList</h2>
-<a href="classMdDox_1_1CommandLine_1_1Parser.md#stringarray">StringArray</a>
-<span class="bold-text"><b>_argumentList</b></span>
+<a id="_used"></a>
+<h2>_used</h2>
+<span class="inline-text">int</span>
+<span class="bold-text"><b>_used</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="_options"></a>
-<h2>_options</h2>
-<a href="classMdDox_1_1CommandLine_1_1Parser.md#options">Options</a>
-<span class="bold-text"><b>_options</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>
@@ -436,6 +436,212 @@
 </span>
 <br/>
 <br/>
+<a id="arguments"></a>
+<h2>arguments</h2>
+<a href="classMdDox_1_1CommandLine_1_1Parser.md#stringarray">StringArray</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>arguments</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Returns the list of arguments that were not handled with switches. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="int32"></a>
+<h2>int32</h2>
+<span class="inline-text">int32_t</span>
+<span class="bold-text"><b>int32</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
+<span class="inline-text">enumId</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">size_t</span>
+<span class="inline-text">idx</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">0</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
+<span class="inline-text">defaultValue</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">-1</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
+<span class="inline-text">base</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">10</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L214" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="int64"></a>
+<h2>int64</h2>
+<span class="inline-text">int64_t</span>
+<span class="bold-text"><b>int64</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
+<span class="inline-text">enumId</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">size_t</span>
+<span class="inline-text">idx</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">0</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int64_t</span>
+<span class="inline-text">defaultValue</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">-1</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
+<span class="inline-text">base</span>
+<span class="inline-text"> = </span>
+<span class="inline-text">10</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L227" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ispresent"></a>
+<h2>isPresent</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>isPresent</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
+<span class="inline-text">enumId</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<ul>
+<li><span class="bold-text"><b>enumId</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The switch id</span>
+</li>
+</ul>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">true if it is supplied on the command line false otherwise</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L200" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="loginput"></a>
+<h2>logInput</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>logInput</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Logs the supplied input to stdout. </span>
+<br/>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="option"></a>
+<h2>option</h2>
+<a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption">ParseOption</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>option</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
+<span class="inline-text">enumId</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<ul>
+<li><span class="bold-text"><b>enumId</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The switch id</span>
+</li>
+</ul>
+<a id="returns"></a>
+<h4>Returns</h4>
+<span class="inline-text">the option at the enumId or null if the id is out of bounds</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="parse"></a>
 <h2>parse</h2>
 <span class="inline-text">int</span>
@@ -550,97 +756,6 @@
 </span>
 <br/>
 <br/>
-<a id="loginput"></a>
-<h2>logInput</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>logInput</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Logs the supplied input to stdout. </span>
-<br/>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#getvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="arguments"></a>
-<h2>arguments</h2>
-<a href="classMdDox_1_1CommandLine_1_1Parser.md#stringarray">StringArray</a>
-<span class="inline-text"> &amp;</span>
-<span class="bold-text"><b>arguments</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Returns the list of arguments that were not handled with switches. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L80" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="programpath"></a>
-<h2>programPath</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>programPath</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Returns the path of the program that was supplied to main via argv[0] </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="programname"></a>
-<h2>programName</h2>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="bold-text"><b>programName</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Returns only the file name portion of the program that was supplied to main via argv[0] </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L185" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="programdirectory"></a>
 <h2>programDirectory</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -667,157 +782,42 @@
 </span>
 <br/>
 <br/>
-<a id="ispresent"></a>
-<h2>isPresent</h2>
-<span class="inline-text">bool</span>
-<span class="bold-text"><b>isPresent</b></span>
+<a id="programname"></a>
+<h2>programName</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>programName</b></span>
 <span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
-<span class="inline-text">enumId</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<ul>
-<li><span class="bold-text"><b>enumId</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The switch id</span>
-</li>
-</ul>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">true if it is supplied on the command line false otherwise</span>
+<span class="inline-text">Returns only the file name portion of the program that was supplied to main via argv[0] </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L96" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L200" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L185" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="option"></a>
-<h2>option</h2>
-<a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption">ParseOption</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>option</b></span>
+<a id="programpath"></a>
+<h2>programPath</h2>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="bold-text"><b>programPath</b></span>
 <span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
-<span class="inline-text">enumId</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<ul>
-<li><span class="bold-text"><b>enumId</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The switch id</span>
-</li>
-</ul>
-<a id="returns"></a>
-<h4>Returns</h4>
-<span class="inline-text">the option at the enumId or null if the id is out of bounds</span>
+<span class="inline-text">Returns the path of the program that was supplied to main via argv[0] </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L207" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="int32"></a>
-<h2>int32</h2>
-<span class="inline-text">int32_t</span>
-<span class="bold-text"><b>int32</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
-<span class="inline-text">enumId</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">size_t</span>
-<span class="inline-text">idx</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">0</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
-<span class="inline-text">defaultValue</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">-1</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
-<span class="inline-text">base</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">10</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L214" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="int64"></a>
-<h2>int64</h2>
-<span class="inline-text">int64_t</span>
-<span class="bold-text"><b>int64</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const uint32_t &amp;</span>
-<span class="inline-text">enumId</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">size_t</span>
-<span class="inline-text">idx</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">0</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int64_t</span>
-<span class="inline-text">defaultValue</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">-1</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">int32_t</span>
-<span class="inline-text">base</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">10</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.cpp#L227" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Parser.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
 <br/>

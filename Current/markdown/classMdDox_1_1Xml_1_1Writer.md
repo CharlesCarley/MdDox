@@ -30,7 +30,7 @@
 <img src="../images/internal-diagram-62.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
+<span class="icon-list-item"><a href="#_indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_indent</span>
 </a>
 </span>
 <br/>
@@ -38,7 +38,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_indent</span>
+<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
 </a>
 </span>
 <br/>
@@ -48,15 +48,15 @@
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#opentag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">openTag</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#closetag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">closeTag</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="#inlinetag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineTag</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#opentag" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">openTag</span>
 </a>
 </span>
 <br/>
@@ -96,15 +96,14 @@
 </a>
 </span>
 <br/>
-<a id="_root"></a>
-<h2>_root</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>_root</b></span>
+<a id="_indent"></a>
+<h2>_indent</h2>
+<span class="inline-text">int</span>
+<span class="bold-text"><b>_indent</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
 <br/>
@@ -121,14 +120,15 @@
 </span>
 <br/>
 <br/>
-<a id="_indent"></a>
-<h2>_indent</h2>
-<span class="inline-text">int</span>
-<span class="bold-text"><b>_indent</b></span>
+<a id="_root"></a>
+<h2>_root</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>_root</b></span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
 <br/>
@@ -141,29 +141,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="opentag"></a>
-<h2>openTag</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>openTag</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
-<span class="inline-text"> *</span>
-<span class="inline-text">tag</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
 <br/>
@@ -210,6 +187,29 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.cpp#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="opentag"></a>
+<h2>openTag</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>openTag</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="inline-text">tag</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.cpp#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
 <br/>

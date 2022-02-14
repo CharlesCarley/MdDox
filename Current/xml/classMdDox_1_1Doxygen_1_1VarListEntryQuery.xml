@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/VarListEntryQuery.h" line="59" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1aefe7ca98c58d2699e8f359ce2a4a3a45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::VarListEntryQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/VarListEntryQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="94" bodyend="97"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a06b2edfd256f45f8c441a4518bd47ef7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::VarListEntryQuery::empty</definition>
@@ -93,18 +80,18 @@
         <location file="Tools/Doxygen/VarListEntryQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="109" bodyend="112"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1ae094c6a96c193e50d64d194e83655990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::VarListEntryQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1aefe7ca98c58d2699e8f359ce2a4a3a45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::VarListEntryQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/VarListEntryQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="99" bodyend="102"/>
+        <location file="Tools/Doxygen/VarListEntryQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a1b2fbab72ae2f00adfcafc700378a1fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +105,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/VarListEntryQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1ae094c6a96c193e50d64d194e83655990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::VarListEntryQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/VarListEntryQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="99" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a9546d57c2605d19bdeb1cd2aebf951c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

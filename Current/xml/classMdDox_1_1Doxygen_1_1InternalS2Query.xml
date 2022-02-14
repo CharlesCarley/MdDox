@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS2Query.h" line="83" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1a1a0cf9541e1699a46828f5a0ac218ef8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::InternalS2Query::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="88" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="130" bodyend="133"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1acb57e141011a901b396abc5654c5d614" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::InternalS2Query::empty</definition>
@@ -93,18 +80,52 @@
         <location file="Tools/Doxygen/InternalS2Query.h" line="93" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="145" bodyend="148"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae210506f3923f3f234619691b7116075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1af2f457976e8ae23195b6475febdb1471" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS2Query::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::InternalS2Query::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="98" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="135" bodyend="138"/>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="120" column="1" bodyfile="Tools/Doxygen/InternalS2Query.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1a0ed69b3e839a7b0dbe7e56ebe0a8a14a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::InternalS2Query::foreachSect3</definition>
+        <argsstring>(const Sect3QueryFunction &amp;invoke) const</argsstring>
+        <name>foreachSect3</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a84818546eb5af5c04fa10ab756c53a52" kindref="member">Sect3QueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>sect3</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="125" column="1" bodyfile="Tools/Doxygen/InternalS2Query.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1a1a0cf9541e1699a46828f5a0ac218ef8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::InternalS2Query::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="88" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="130" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae189c5cc574d8bef078604e84ca62e4d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +139,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS2Query.h" line="103" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1ae210506f3923f3f234619691b7116075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::InternalS2Query::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="98" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="135" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1a0937de38d4371b1e42671f0edaafdc34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -179,40 +213,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" compoundref="InternalS2Query_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" compoundref="InternalS2Query_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedParagraph</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a6c48f9da5f20a21b14009520c1ed34c9" compoundref="InternalS2Query_8h" startline="48" endline="48">MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedSect3</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1af2f457976e8ae23195b6475febdb1471" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS2Query::foreachParagraph</definition>
-        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParagraph</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="120" column="1" bodyfile="Tools/Doxygen/InternalS2Query.cpp" bodystart="53" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1InternalS2Query_1a0ed69b3e839a7b0dbe7e56ebe0a8a14a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalS2Query::foreachSect3</definition>
-        <argsstring>(const Sect3QueryFunction &amp;invoke) const</argsstring>
-        <name>foreachSect3</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a84818546eb5af5c04fa10ab756c53a52" kindref="member">Sect3QueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>sect3</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="125" column="1" bodyfile="Tools/Doxygen/InternalS2Query.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

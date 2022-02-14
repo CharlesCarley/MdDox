@@ -5,31 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::SectionDefQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/SectionDefListingWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1ace0d32b57d3edd87ca79db8913e65a7f" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::SectionDefListingWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1ace002f13fb8ff20503cf49ced0a6c4cf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MdDox::SectionDefListingWriter::_depth</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_depth</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1a75038b028dee651298a43837bef9f26b" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
-        <definition>OStream* MdDox::SectionDefListingWriter::_stream</definition>
-        <argsstring></argsstring>
-        <name>_stream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1a0c2e186c9d32afa13e06ed24bffaaeea" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
@@ -44,47 +31,34 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="36" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1ace002f13fb8ff20503cf49ced0a6c4cf" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MdDox::SectionDefListingWriter::_depth</definition>
+      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1a75038b028dee651298a43837bef9f26b" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::SectionDefListingWriter::_stream</definition>
         <argsstring></argsstring>
-        <name>_depth</name>
+        <name>_stream</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="37" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1SectionDefListingWriter_1ace0d32b57d3edd87ca79db8913e65a7f" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::SectionDefListingWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1SectionDefListingWriter_1a24d9671fc484ec5b21cf98e7aa6665c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::SectionDefListingWriter::visitedMemberDef</definition>
-        <argsstring>(const Doxygen::MemberDefQuery &amp;query) override</argsstring>
-        <name>visitedMemberDef</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aa4e6e06bef500ffce96cce1747792af4">visitedMemberDef</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kindref="compound">Doxygen::MemberDefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>memberdef</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the MemberDefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.cpp" bodystart="42" bodyend="46"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SectionDefListingWriter_1aa75083d38e3b65a93340e4f9fdc40048" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::SectionDefListingWriter::visitedDescription</definition>
@@ -136,6 +110,32 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SectionDefListingWriter_1a24d9671fc484ec5b21cf98e7aa6665c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::SectionDefListingWriter::visitedMemberDef</definition>
+        <argsstring>(const Doxygen::MemberDefQuery &amp;query) override</argsstring>
+        <name>visitedMemberDef</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aa4e6e06bef500ffce96cce1747792af4">visitedMemberDef</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kindref="compound">Doxygen::MemberDefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>memberdef</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the MemberDefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SectionDefListingWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/SectionDefListingWriter.cpp" bodystart="42" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SectionDefListingWriter_1a7b97a0558f6501c65cc8a849231709c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

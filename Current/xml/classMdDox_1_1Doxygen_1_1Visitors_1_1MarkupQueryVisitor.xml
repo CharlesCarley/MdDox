@@ -17,21 +17,380 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a750d60985ae3b9c8e1f8574e53bc5b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad03e550d4e64db2d705ba2631b2e9c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedAnchor</definition>
+        <argsstring>(const AnchorQuery &amp;query)</argsstring>
+        <name>visitedAnchor</name>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
+<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="173" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aeda56608cd0d8e90a3bba737accdc95c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedBlockQuote</definition>
+        <argsstring>(const BlockQuoteQuery &amp;query)</argsstring>
+        <name>visitedBlockQuote</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>blockquote</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1abed4b5222b396f6d2725ac8db12efcab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedBold</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedBold</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="148" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad3687d9e414f16e4c31c60472c5af52c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedCenter</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedCenter</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="163" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0c6e191d1eb29165533a0cc1636aca13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedComputerOutput</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedComputerOutput</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="158" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aec61efc2623f7d2040fe30c61e3f805e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedDot</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedDot</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="213" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa3ea8bcbd2c8dca52d8ab05753ea329f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedDotFile</definition>
+        <argsstring>(const FileQuery &amp;query)</argsstring>
+        <name>visitedDotFile</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>dotfile</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afc7a7be4a6b8e3adb323b4d3e2b17b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedEmphasis</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedEmphasis</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="153" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a2f1f943ec8f32f55a3bd47ab2ca47d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedHeading</definition>
+        <argsstring>(const HeadingQuery &amp;query)</argsstring>
+        <name>visitedHeading</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>heading</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa6212f29eed6d67c82c9436037ba2444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedHRuler</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedHRuler</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>hruler</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac063b8f836f8641f1867b5588554144d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedImage</definition>
+        <argsstring>(const ImageQuery &amp;query)</argsstring>
+        <name>visitedImage</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>image</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae0584e3f288b313bc3bf4b38cf8a7e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedIndexEntry</definition>
+        <argsstring>(const IndexEntryQuery &amp;query)</argsstring>
+        <name>visitedIndexEntry</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>indexentry</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="63" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad9d5d0952be669f205a9c6073744bf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedItemizedList</definition>
+        <argsstring>(const ListQuery &amp;query)</argsstring>
+        <name>visitedItemizedList</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>itemizedlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a845a84a1bc6f46dbccc921c8328ad33d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedLang</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedLang</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>lang</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="208" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a39111cb53e6029d973557c23c0e8f3d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedLanguage</definition>
+        <argsstring>(const LanguageQuery &amp;query)</argsstring>
+        <name>visitedLanguage</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>language</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ada862a15477aebd932b66534ef195cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -58,17 +417,117 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa6212f29eed6d67c82c9436037ba2444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad58312336dad8f40a325f787202eb8fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedHRuler</definition>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedOrderedList</definition>
+        <argsstring>(const ListQuery &amp;query)</argsstring>
+        <name>visitedOrderedList</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>orderedlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a5a0ec6f9a3ee2a45bab0a2ffef7ba8d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="193" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af42901124399f89916d360b648857d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParameterList</definition>
+        <argsstring>(const ParamListQuery &amp;query)</argsstring>
+        <name>visitedParameterList</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parameterlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a10f72d668168fb331dbe6782d5764cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParBlock</definition>
+        <argsstring>(const ParBlockQuery &amp;query)</argsstring>
+        <name>visitedParBlock</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parblock</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="133" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a23aef8ff110f7922891442f592b0827b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedPart</definition>
         <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedHRuler</name>
+        <name>visitedPart</name>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>hruler</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -81,7 +540,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="48" bodyend="48"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="198" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="198" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ab12a37842fd090236dc6a0e01ad79ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -133,580 +592,30 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="58" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="58" bodyend="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae0584e3f288b313bc3bf4b38cf8a7e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac2c797e9d8fa54ffa44cf3c5bba52dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedIndexEntry</definition>
-        <argsstring>(const IndexEntryQuery &amp;query)</argsstring>
-        <name>visitedIndexEntry</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedProp</definition>
+        <argsstring>(const EmptyQuery &amp;query)</argsstring>
+        <name>visitedProp</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>indexentry</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> class. </para></parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="63" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="63" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad58312336dad8f40a325f787202eb8fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedOrderedList</definition>
-        <argsstring>(const ListQuery &amp;query)</argsstring>
-        <name>visitedOrderedList</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>orderedlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="68" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad9d5d0952be669f205a9c6073744bf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedItemizedList</definition>
-        <argsstring>(const ListQuery &amp;query)</argsstring>
-        <name>visitedItemizedList</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>itemizedlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="73" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a05a38c7a28dc807afd71e24a04552b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSimpleSect</definition>
-        <argsstring>(const SimpleSectQuery &amp;query)</argsstring>
-        <name>visitedSimpleSect</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>simplesect</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="78" bodyend="78"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad8a57bcc4cd0661cafa34511e5ba447b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTitle</definition>
-        <argsstring>(const TitleQuery &amp;query)</argsstring>
-        <name>visitedTitle</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a894ffe4b512b3c38d42d8f5e0b71c963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedVariableList</definition>
-        <argsstring>(const VariableListQuery &amp;query)</argsstring>
-        <name>visitedVariableList</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>variablelist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="88" bodyend="88"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad1c40a9dae9c6a6f32a6cac4daf13dd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTable</definition>
-        <argsstring>(const TableQuery &amp;query)</argsstring>
-        <name>visitedTable</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>table</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="93" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a2f1f943ec8f32f55a3bd47ab2ca47d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedHeading</definition>
-        <argsstring>(const HeadingQuery &amp;query)</argsstring>
-        <name>visitedHeading</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>heading</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="98" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac063b8f836f8641f1867b5588554144d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedImage</definition>
-        <argsstring>(const ImageQuery &amp;query)</argsstring>
-        <name>visitedImage</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>image</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="103" bodyend="103"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa3ea8bcbd2c8dca52d8ab05753ea329f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedDotFile</definition>
-        <argsstring>(const FileQuery &amp;query)</argsstring>
-        <name>visitedDotFile</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>dotfile</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="108" bodyend="108"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a60bcfdd37a16aca28aa5b983fb3717c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTocList</definition>
-        <argsstring>(const TocListQuery &amp;query)</argsstring>
-        <name>visitedTocList</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>toclist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="113" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="113" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a39111cb53e6029d973557c23c0e8f3d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedLanguage</definition>
-        <argsstring>(const LanguageQuery &amp;query)</argsstring>
-        <name>visitedLanguage</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>language</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="118" bodyend="118"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af42901124399f89916d360b648857d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParameterList</definition>
-        <argsstring>(const ParamListQuery &amp;query)</argsstring>
-        <name>visitedParameterList</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parameterlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="123" bodyend="123"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aeda56608cd0d8e90a3bba737accdc95c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedBlockQuote</definition>
-        <argsstring>(const BlockQuoteQuery &amp;query)</argsstring>
-        <name>visitedBlockQuote</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>blockquote</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="128" bodyend="128"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a10f72d668168fb331dbe6782d5764cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParBlock</definition>
-        <argsstring>(const ParBlockQuery &amp;query)</argsstring>
-        <name>visitedParBlock</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parblock</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="133" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="133" bodyend="133"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af2c1a561c0ead05dcad12d4de1e028f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedVerbatim</definition>
-        <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedVerbatim</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>verbatim</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="138" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="138" bodyend="138"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afe79c138e0d18d0c08ecaaf37c8ee6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedULink</definition>
-        <argsstring>(const UrlLinkQuery &amp;query)</argsstring>
-        <name>visitedULink</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="143" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="143" bodyend="143"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1abed4b5222b396f6d2725ac8db12efcab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedBold</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedBold</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="148" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="148" bodyend="148"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afc7a7be4a6b8e3adb323b4d3e2b17b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedEmphasis</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedEmphasis</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="153" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="153" bodyend="153"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0c6e191d1eb29165533a0cc1636aca13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedComputerOutput</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedComputerOutput</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="158" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="158" bodyend="158"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad3687d9e414f16e4c31c60472c5af52c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedCenter</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedCenter</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="163" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="163" bodyend="163"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0b2270663aff040edc45b45d232b5bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSmall</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedSmall</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="168" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="168" bodyend="168"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad03e550d4e64db2d705ba2631b2e9c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedAnchor</definition>
-        <argsstring>(const AnchorQuery &amp;query)</argsstring>
-        <name>visitedAnchor</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1AnchorQuery" kindref="compound">AnchorQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="173" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="173" bodyend="173"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="203" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="203" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae93af98c32b49f90ed21f6d32360731f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -733,31 +642,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="178" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="178" bodyend="178"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0dd6ba336b5069c82afe8c564d7d187e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSect</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedSect</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>sect</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="183" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="183" bodyend="183"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae70883b779206f16e338a56a85f97bdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedRegistered</definition>
@@ -783,42 +667,17 @@
         </inbodydescription>
         <location file="Tools/Doxygen/MarkupQuery.h" line="188" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="188" bodyend="188"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a5a0ec6f9a3ee2a45bab0a2ffef7ba8d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0dd6ba336b5069c82afe8c564d7d187e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedParagraph</definition>
-        <argsstring>(const ParaQuery &amp;query)</argsstring>
-        <name>visitedParagraph</name>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="193" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="193" bodyend="193"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a23aef8ff110f7922891442f592b0827b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedPart</definition>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSect</definition>
         <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedPart</name>
+        <name>visitedSect</name>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>sect</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -831,69 +690,210 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="198" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="198" bodyend="198"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="183" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="183" bodyend="183"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac2c797e9d8fa54ffa44cf3c5bba52dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a05a38c7a28dc807afd71e24a04552b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedProp</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedProp</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSimpleSect</definition>
+        <argsstring>(const SimpleSectQuery &amp;query)</argsstring>
+        <name>visitedSimpleSect</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>simplesect</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="203" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="203" bodyend="203"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="78" bodyend="78"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a845a84a1bc6f46dbccc921c8328ad33d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0b2270663aff040edc45b45d232b5bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedLang</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedLang</name>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedSmall</definition>
+        <argsstring>(const MarkupQuery &amp;query)</argsstring>
+        <name>visitedSmall</name>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>lang</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="208" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="208" bodyend="208"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="168" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="168" bodyend="168"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aec61efc2623f7d2040fe30c61e3f805e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad1c40a9dae9c6a6f32a6cac4daf13dd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedDot</definition>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTable</definition>
+        <argsstring>(const TableQuery &amp;query)</argsstring>
+        <name>visitedTable</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>table</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a750d60985ae3b9c8e1f8574e53bc5b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad8a57bcc4cd0661cafa34511e5ba447b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTitle</definition>
+        <argsstring>(const TitleQuery &amp;query)</argsstring>
+        <name>visitedTitle</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a60bcfdd37a16aca28aa5b983fb3717c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedTocList</definition>
+        <argsstring>(const TocListQuery &amp;query)</argsstring>
+        <name>visitedTocList</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>toclist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="113" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afe79c138e0d18d0c08ecaaf37c8ee6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedULink</definition>
+        <argsstring>(const UrlLinkQuery &amp;query)</argsstring>
+        <name>visitedULink</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="143" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a894ffe4b512b3c38d42d8f5e0b71c963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedVariableList</definition>
+        <argsstring>(const VariableListQuery &amp;query)</argsstring>
+        <name>visitedVariableList</name>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>variablelist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af2c1a561c0ead05dcad12d4de1e028f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedVerbatim</definition>
         <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedDot</name>
+        <name>visitedVerbatim</name>
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
           <declname>text</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>verbatim</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -906,7 +906,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="213" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="213" bodyend="213"/>
+        <location file="Tools/Doxygen/MarkupQuery.h" line="138" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="138" bodyend="138"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

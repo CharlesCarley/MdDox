@@ -5,18 +5,18 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::ParamQueryVisitor</basecompoundref>
     <includes local="no">Source/MdDoxTree/ParameterWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1ParameterWriter_1ac0827d646248caa701c2a09ed4f7283d" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::ParameterWriter::_writer</definition>
+      <memberdef kind="variable" id="classMdDox_1_1ParameterWriter_1a5bd5b7ed25a7605b17e0fa62c017b524" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::ParameterWriter::_out</definition>
         <argsstring></argsstring>
-        <name>_writer</name>
+        <name>_out</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ParameterWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParameterWriter_1ae052e1b3de6000092b4c38be3289735f" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -31,72 +31,46 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParameterWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1ParameterWriter_1a5bd5b7ed25a7605b17e0fa62c017b524" prot="private" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::ParameterWriter::_out</definition>
+      <memberdef kind="variable" id="classMdDox_1_1ParameterWriter_1ac0827d646248caa701c2a09ed4f7283d" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::ParameterWriter::_writer</definition>
         <argsstring></argsstring>
-        <name>_out</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ParameterWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1aa27291df87b6a86d1332aa1f57f17992" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1a73b8634ebf04e577ed35d86d63020159" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParameterWriter::visitedType</definition>
-        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
-        <name>visitedType</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1ac2577ef72d50f8f09eb9f6c44f21c89c">visitedType</reimplements>
+        <definition>void MdDox::ParameterWriter::visitedArray</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedArray</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1af526a2cfef88f52c6c6ff945522ebfe8">visitedArray</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
-          <declname>query</declname>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>type</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>array</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>query</parametername>
+<parametername>text</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="35" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1af0d3648f3a8471695f75c53b6d34a5b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ParameterWriter::visitedDefVal</definition>
-        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
-        <name>visitedDefVal</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1aa83543804ee4f7215edfccd00a39d7a4">visitedDefVal</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>defval</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="41" bodyend="46"/>
+        <location file="Source/MdDoxTree/ParameterWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="65" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1a66abcb843fc84bf25e3f2d744f8386bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -176,31 +150,57 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/ParameterWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="59" bodyend="63"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1a73b8634ebf04e577ed35d86d63020159" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1af0d3648f3a8471695f75c53b6d34a5b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::ParameterWriter::visitedArray</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedArray</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1af526a2cfef88f52c6c6ff945522ebfe8">visitedArray</reimplements>
+        <definition>void MdDox::ParameterWriter::visitedDefVal</definition>
+        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
+        <name>visitedDefVal</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1aa83543804ee4f7215edfccd00a39d7a4">visitedDefVal</reimplements>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>array</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>defval</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>text</parametername>
+<parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
+<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="65" bodyend="69"/>
+        <location file="Source/MdDoxTree/ParameterWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1ParameterWriter_1aa27291df87b6a86d1332aa1f57f17992" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParameterWriter::visitedType</definition>
+        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
+        <name>visitedType</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor_1ac2577ef72d50f8f09eb9f6c44f21c89c">visitedType</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>type</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ParameterWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="35" bodyend="39"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

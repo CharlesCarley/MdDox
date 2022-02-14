@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/SectiondefQuery.h" line="91" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::SectionDefQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="157" bodyend="160"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a2268021dd1212ebdb2ea444644303ba1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::SectionDefQuery::empty</definition>
@@ -93,18 +80,106 @@
         <location file="Tools/Doxygen/SectiondefQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="172" bodyend="175"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6ea5f15185b5be99dc7c1deb7770df33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6c110513bb0290d400339e68f22a4969" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::SectionDefQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::SectionDefQuery::foreachMemberDef</definition>
+        <argsstring>(const MemberDefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachMemberDef</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1abb37e33489c0eea415c2767c4fc741a2" kindref="member">MemberDefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>memberdef</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="162" bodyend="165"/>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ac1e73b8959b09d755c7e04d09b01131e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::SectionDefQuery::getDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getDescription</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>description</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="142" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="73" bodyend="82"/>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1af635a61c5dc9d2b51e9d8184a441f725" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::SectionDefQuery::getDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>description</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="147" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a42eb4eecda258260e5cb2cc4cc18a220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::SectionDefQuery::getHeader</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getHeader</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>header</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>header&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="63" bodyend="71"/>
+        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">DoxSectionKindEnum</ref></type>
+        <definition>DoxSectionKindEnum MdDox::Doxygen::SectionDefQuery::getKind</definition>
+        <argsstring>() const</argsstring>
+        <name>getKind</name>
+        <briefdescription>
+<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="130" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="56" bodyend="61"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" compoundref="DoxSectionKind_8cpp" startline="30" endline="105">MdDox::Doxygen::DoxSectionKind::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1c8d96826ffa7af2bb090e90655f0db2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::SectionDefQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="157" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +193,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/SectiondefQuery.h" line="111" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6ea5f15185b5be99dc7c1deb7770df33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::SectionDefQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SectiondefQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.h" bodystart="162" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a0b740bf1f9277f849fba76fb8d584988" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -180,94 +268,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aa4e6e06bef500ffce96cce1747792af4" compoundref="SectiondefQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedMemberDef</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1a758bc002d20f20677ce6c923bb6d7406" compoundref="SectiondefQuery_8h" startline="49" endline="49">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedDescription</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor_1aeda8c075b90d3de6ec5f719e3e0b16ea" compoundref="SectiondefQuery_8h" startline="54" endline="54">MdDox::Doxygen::Visitors::SectionDefQueryVisitor::visitedHeader</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">DoxSectionKindEnum</ref></type>
-        <definition>DoxSectionKindEnum MdDox::Doxygen::SectionDefQuery::getKind</definition>
-        <argsstring>() const</argsstring>
-        <name>getKind</name>
-        <briefdescription>
-<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="130" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="56" bodyend="61"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" compoundref="DoxSectionKind_8cpp" startline="30" endline="105">MdDox::Doxygen::DoxSectionKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a42eb4eecda258260e5cb2cc4cc18a220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::SectionDefQuery::getHeader</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getHeader</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>header</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>header&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="63" bodyend="71"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ac1e73b8959b09d755c7e04d09b01131e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::SectionDefQuery::getDescription</definition>
-        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
-        <name>getDescription</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>description</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="142" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="73" bodyend="82"/>
-        <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ae8784f7a33d5cfef046325611e2541e5" compoundref="SectiondefQuery_8h" startline="167" endline="170">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1af635a61c5dc9d2b51e9d8184a441f725" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
-        <definition>DescriptionQuery MdDox::Doxygen::SectionDefQuery::getDescription</definition>
-        <argsstring>() const</argsstring>
-        <name>getDescription</name>
-        <briefdescription>
-<para>Provides access to the <bold>description</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="147" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="84" bodyend="89"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6c110513bb0290d400339e68f22a4969" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::SectionDefQuery::foreachMemberDef</definition>
-        <argsstring>(const MemberDefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachMemberDef</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1abb37e33489c0eea415c2767c4fc741a2" kindref="member">MemberDefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>memberdef</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/SectiondefQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/SectiondefQuery.cpp" bodystart="91" bodyend="94"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

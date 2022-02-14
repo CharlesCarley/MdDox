@@ -140,8 +140,8 @@
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DoxygenQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxygenQuery" prot="public">MdDox::Doxygen::DoxygenQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenQueryVisitor" prot="public">MdDox::Doxygen::Visitors::DoxygenQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

@@ -45,49 +45,6 @@
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Token.h" line="54" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="54" bodyend="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abd4f5663daaf010fb3d3fdbf5922050d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const int &amp;</type>
-        <definition>const int&amp; MdDox::CommandLine::Token::getType</definition>
-        <argsstring>() const</argsstring>
-        <name>getType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="60" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="60" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abcd1c725a7b8dae7dd06462078ffd7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CommandLine::Token::setType</definition>
-        <argsstring>(const int &amp;type)</argsstring>
-        <name>setType</name>
-        <param>
-          <type>const int &amp;</type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="65" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="65" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String&amp; MdDox::CommandLine::Token::getValue</definition>
-        <argsstring>() const</argsstring>
-        <name>getValue</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="70" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="70" bodyend="73"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1a9ecda3f8cec12066e20c658f0c3cf32f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::CommandLine::Token::append</definition>
@@ -135,6 +92,49 @@
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Token.h" line="85" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="85" bodyend="89"/>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a1d6999ba00df0f8fe5044a5fe91e37ad" compoundref="Utils_2CommandLine_2Token_8h" startline="43">MdDox::CommandLine::TOK_EOS</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abd4f5663daaf010fb3d3fdbf5922050d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const int &amp;</type>
+        <definition>const int&amp; MdDox::CommandLine::Token::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Token.h" line="60" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String&amp; MdDox::CommandLine::Token::getValue</definition>
+        <argsstring>() const</argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Token.h" line="70" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abcd1c725a7b8dae7dd06462078ffd7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::Token::setType</definition>
+        <argsstring>(const int &amp;type)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Token.h" line="65" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="65" bodyend="68"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -75,35 +75,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SourceFile.h" line="40" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="classMdDox_1_1RepoFile" kindref="compound">RepoFile</ref> &amp;</type>
-        <definition>const RepoFile &amp; MdDox::SourceFile::repoFile</definition>
-        <argsstring>() const</argsstring>
-        <name>repoFile</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SourceFile.h" line="42" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="61" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::SourceFile::getLinkToRepo</definition>
-        <argsstring>() const</argsstring>
-        <name>getLinkToRepo</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SourceFile.h" line="44" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="31" bodyend="34"/>
-        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" compoundref="RepoFile_8cpp" startline="64" endline="68">MdDox::RepoFile::getSiteUrl</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::SourceFile::directory</definition>
@@ -117,6 +88,20 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SourceFile.h" line="46" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="36" bodyend="39"/>
         <references refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" compoundref="RepoFile_8h" startline="56" endline="59">MdDox::RepoFile::getFile</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::SourceFile::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SourceFile.h" line="58" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="81" bodyend="84"/>
+        <references refid="classMdDox_1_1RepoFile_1ab1ce5c61af97162889afb0b35b1054ac" compoundref="RepoFile_8h" startline="66" endline="69">MdDox::RepoFile::empty</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a5b50157a57f7ddbfc33a26bf25c661da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -146,6 +131,48 @@
         <location file="Source/MdDoxTree/SourceFile.h" line="50" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="46" bodyend="49"/>
         <references refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" compoundref="RepoFile_8h" startline="56" endline="59">MdDox::RepoFile::getFile</references>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::SourceFile::getLine</definition>
+        <argsstring>() const</argsstring>
+        <name>getLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SourceFile.h" line="54" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::SourceFile::getLinkToRepo</definition>
+        <argsstring>() const</argsstring>
+        <name>getLinkToRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SourceFile.h" line="44" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="31" bodyend="34"/>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="222" endline="227">MdDox::StringCombine</references>
+        <references refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" compoundref="RepoFile_8cpp" startline="64" endline="68">MdDox::RepoFile::getSiteUrl</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1aefeaff104e4f97fd1e6388f566be9d43" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classMdDox_1_1RepoFile" kindref="compound">RepoFile</ref> &amp;</type>
+        <definition>const RepoFile &amp; MdDox::SourceFile::repoFile</definition>
+        <argsstring>() const</argsstring>
+        <name>repoFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/SourceFile.h" line="42" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="61" bodyend="64"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::SourceFile::setFile</definition>
@@ -164,19 +191,6 @@
         <location file="Source/MdDoxTree/SourceFile.h" line="52" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="66" bodyend="69"/>
         <references refid="classMdDox_1_1RepoFile_1a92b9b5ea938b138a86f489c445f81cd4" compoundref="RepoFile_8h" startline="61" endline="64">MdDox::RepoFile::setFile</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a7b9cfd7090604ed4034f44f3dea28eb0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int64_t</type>
-        <definition>int64_t MdDox::SourceFile::getLine</definition>
-        <argsstring>() const</argsstring>
-        <name>getLine</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SourceFile.h" line="54" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="71" bodyend="74"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1af14033cd03b4da1727cf62db09ada781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::SourceFile::setLine</definition>
@@ -193,20 +207,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/SourceFile.h" line="56" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="76" bodyend="79"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::SourceFile::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SourceFile.h" line="58" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="81" bodyend="84"/>
-        <references refid="classMdDox_1_1RepoFile_1ab1ce5c61af97162889afb0b35b1054ac" compoundref="RepoFile_8h" startline="66" endline="69">MdDox::RepoFile::empty</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

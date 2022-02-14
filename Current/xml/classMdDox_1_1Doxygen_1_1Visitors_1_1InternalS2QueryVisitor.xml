@@ -17,22 +17,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS2Query.h" line="33" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="38" bodyend="38"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedParagraph</definition>
@@ -82,6 +66,22 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/InternalS2Query.h" line="48" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::InternalS2QueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/InternalS2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

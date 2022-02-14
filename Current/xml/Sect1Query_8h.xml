@@ -148,8 +148,8 @@
         <label>Tools/Doxygen/DescriptionQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect1QueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Sect1Query" prot="public">MdDox::Doxygen::Sect1Query</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor" prot="public">MdDox::Doxygen::Visitors::Sect1QueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

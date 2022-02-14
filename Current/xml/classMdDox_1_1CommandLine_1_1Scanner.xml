@@ -45,6 +45,23 @@
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Scanner.h" line="34" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="51" bodyend="55"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a99d7af5a585f76229673d580ab09780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::CommandLine::Scanner::append</definition>
+        <argsstring>(const char *arg)</argsstring>
+        <name>append</name>
+        <param>
+          <type>const char *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="40" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="62" bodyend="66"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1ad3569d482516b31a861788ca480fb4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::CommandLine::Scanner::clear</definition>
@@ -57,6 +74,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Scanner.h" line="36" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a6a2097b64f77cf77601ed7eb2cb1b21f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::CommandLine::Scanner::getValue</definition>
+        <argsstring>() const</argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="42" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a25aa3ecb530e661d7302a48c616888af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -82,36 +112,6 @@
         <references refid="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" compoundref="Utils_2CommandLine_2Token_8h" startline="70" endline="73">MdDox::CommandLine::Token::getValue</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8acb940d3c384d587411d9e062100b194a" compoundref="Utils_2CommandLine_2Token_8h" startline="40">MdDox::CommandLine::TOK_IDENTIFIER</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a594cda9fe8f31c481dfd70012adb9a2f" compoundref="Utils_2CommandLine_2Token_8h" startline="44">MdDox::CommandLine::TOK_ERROR</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a99d7af5a585f76229673d580ab09780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CommandLine::Scanner::append</definition>
-        <argsstring>(const char *arg)</argsstring>
-        <name>append</name>
-        <param>
-          <type>const char *</type>
-          <declname>arg</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Scanner.h" line="40" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="62" bodyend="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a6a2097b64f77cf77601ed7eb2cb1b21f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::CommandLine::Scanner::getValue</definition>
-        <argsstring>() const</argsstring>
-        <name>getValue</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/CommandLine/Scanner.h" line="42" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="45" bodyend="48"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

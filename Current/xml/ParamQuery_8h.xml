@@ -153,8 +153,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamQuery" prot="public">MdDox::Doxygen::ParamQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor" prot="public">MdDox::Doxygen::Visitors::ParamQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

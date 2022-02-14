@@ -17,6 +17,10 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
+<span class="icon-list-item"><a href="#debugbreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#read" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">read</span>
 </a>
 </span>
@@ -61,7 +65,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#setforeground" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setForeground</span>
+<span class="icon-list-item"><a href="#resetcolor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">resetColor</span>
 </a>
 </span>
 <br/>
@@ -69,7 +73,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#resetcolor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">resetColor</span>
+<span class="icon-list-item"><a href="#setforeground" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">setForeground</span>
 </a>
 </span>
 <br/>
@@ -77,31 +81,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+<span class="icon-list-item"><a href="#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
 </a>
 </span>
 <br/>
@@ -109,7 +93,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#debugbreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
+<span class="icon-list-item"><a href="#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
 </a>
 </span>
 <br/>
@@ -122,6 +122,28 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
+<br/>
+<a id="debugbreak"></a>
+<h2>debugBreak</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>debugBreak</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Breaks the current debugging process in Visual Studio. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L228" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="read"></a>
 <h2>read</h2>
@@ -463,50 +485,6 @@
 </span>
 <br/>
 <br/>
-<a id="setforeground"></a>
-<h2>setForeground</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>setForeground</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#consolecolor">ConsoleColor</a>
-<span class="inline-text">col</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="setbackground"></a>
-<h2>setBackground</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>setBackground</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#consolecolor">ConsoleColor</a>
-<span class="inline-text">col</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="resetcolor"></a>
 <h2>resetColor</h2>
 <span class="inline-text">void</span>
@@ -534,6 +512,50 @@
 </span>
 <br/>
 <br/>
+<a id="setbackground"></a>
+<h2>setBackground</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>setBackground</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#consolecolor">ConsoleColor</a>
+<span class="inline-text">col</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="setforeground"></a>
+<h2>setForeground</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>setForeground</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#consolecolor">ConsoleColor</a>
+<span class="inline-text">col</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="write"></a>
 <h2>write</h2>
 <span class="inline-text">void</span>
@@ -554,6 +576,134 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L193" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="write"></a>
+<h2>write</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>write</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">str</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">Args &amp;&amp;...</span>
+<span class="inline-text">args</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="writeerror"></a>
+<h2>writeError</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>writeError</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">str</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L206" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="writeerror"></a>
+<h2>writeError</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>writeError</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">str</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">Args &amp;&amp;...</span>
+<span class="inline-text">args</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="writeerror"></a>
+<h2>writeError</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>writeError</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">str</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Writes the contents of the supplied stream to stderr. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>str</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The content to write. </span>
+</li>
+</ul>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L223" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>
@@ -616,30 +766,6 @@
 </span>
 <br/>
 <br/>
-<a id="writeerror"></a>
-<h2>writeError</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>writeError</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">str</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L206" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="writeline"></a>
 <h2>writeLine</h2>
 <span class="inline-text">void</span>
@@ -667,68 +793,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="writeerror"></a>
-<h2>writeError</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>writeError</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">str</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">Args &amp;&amp;...</span>
-<span class="inline-text">args</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="write"></a>
-<h2>write</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>write</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">str</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">Args &amp;&amp;...</span>
-<span class="inline-text">args</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
 <br/>
@@ -771,70 +835,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L218" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="writeerror"></a>
-<h2>writeError</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>writeError</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">str</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Writes the contents of the supplied stream to stderr. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>str</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The content to write. </span>
-</li>
-</ul>
-<br/>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L223" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="debugbreak"></a>
-<h2>debugBreak</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>debugBreak</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Breaks the current debugging process in Visual Studio. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L228" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>

@@ -5,19 +5,6 @@
     <basecompoundref refid="classMdDox_1_1PageWriter" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
     <includes local="no">Source/MdDoxTree/DirectoryPageWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1DirectoryPageWriter_1a3a150929dc3d3836da9e97322ae4f24f" prot="private" static="no" mutable="no">
-        <type><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref></type>
-        <definition>Reference MdDox::DirectoryPageWriter::_internalDir</definition>
-        <argsstring></argsstring>
-        <name>_internalDir</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1DirectoryPageWriter_1a04945f3d5ecbd64b4aceea33f36d7db0" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MdDox::DirectoryPageWriter::_hasContent</definition>
@@ -30,6 +17,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMdDox_1_1DirectoryPageWriter_1a3a150929dc3d3836da9e97322ae4f24f" prot="private" static="no" mutable="no">
+        <type><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref></type>
+        <definition>Reference MdDox::DirectoryPageWriter::_internalDir</definition>
+        <argsstring></argsstring>
+        <name>_internalDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -46,31 +46,23 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="42" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1cbe3eeef65bbf3b4f170629f27c794c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedLocation</definition>
-        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
-        <name>visitedLocation</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ab432daf1eec44809f0140f9140509532">visitedLocation</reimplements>
+        <definition>void MdDox::DirectoryPageWriter::preSortQuery</definition>
+        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
+        <name>preSortQuery</name>
+        <reimplements refid="classMdDox_1_1PageWriter_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the LocationQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="48" bodyend="52"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="186" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aa70aafa32ed0b79c5793044977bf165a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -98,6 +90,58 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="84" bodyend="88"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a68191ccfc34c20484f98b77fda083fdb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedCollaborationGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedCollaborationGraph</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a07b21a15f65d8614859140fc71579e39">visitedCollaborationGraph</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a211f3df677fc8a70f51769fe2ffa8be7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedCompoundName</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedCompoundName</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a2c0a637fcf374f6c0025d0b8f9add86f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::DirectoryPageWriter::visitedDerivedCompoundRef</definition>
@@ -123,6 +167,58 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1c912fc3b72cb3de0c5bba914324e785" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedIncDepGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedIncDepGraph</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1af52e424ab412bc68bfb5f973b7b5b27c">visitedIncDepGraph</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a2bf7cf6203a9569f3d38214cc38041d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedIncludedBy</definition>
+        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
+        <name>visitedIncludedBy</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1aaa0b3a67ada1b58bd4059ac320f15eab">visitedIncludedBy</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1IncQuery" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the IncQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="102" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a20cd73fd80237e6867ef27f8dc3d797c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -150,31 +246,57 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="96" bodyend="100"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a2bf7cf6203a9569f3d38214cc38041d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a94cab53da455ccc7afd5c9f6ea13c249" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedIncludedBy</definition>
-        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
-        <name>visitedIncludedBy</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1aaa0b3a67ada1b58bd4059ac320f15eab">visitedIncludedBy</reimplements>
+        <definition>void MdDox::DirectoryPageWriter::visitedInheritanceGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedInheritanceGraph</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a60616523a9a6cd3aff6897862cb5c14b">visitedInheritanceGraph</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1IncQuery" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the IncQuery class. </para></parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="102" bodyend="106"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a04626701c50b820ff19b53fa5a94c21d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedInnerClass</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerClass</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a2b27eae2f46b53f204c8174a54207175">visitedInnerClass</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="108" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a21e34ccd9f2b072d3f2bbd67caa8a136" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -228,18 +350,18 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="71" bodyend="82"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a04626701c50b820ff19b53fa5a94c21d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ac5f21092b2d8ee855b8a44e8b100d157" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedInnerClass</definition>
+        <definition>void MdDox::DirectoryPageWriter::visitedInnerGroup</definition>
         <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerClass</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a2b27eae2f46b53f204c8174a54207175">visitedInnerClass</reimplements>
+        <name>visitedInnerGroup</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a74899cd76eb6db5a8ee59146c77b07b3">visitedInnerGroup</reimplements>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -252,7 +374,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="108" bodyend="112"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="126" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ab4dc626fe533436fcb9a8556b0881fbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -306,58 +428,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="120" bodyend="124"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ac5f21092b2d8ee855b8a44e8b100d157" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedInnerGroup</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerGroup</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a74899cd76eb6db5a8ee59146c77b07b3">visitedInnerGroup</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="126" bodyend="130"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1c912fc3b72cb3de0c5bba914324e785" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedIncDepGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedIncDepGraph</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1af52e424ab412bc68bfb5f973b7b5b27c">visitedIncDepGraph</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="132" bodyend="136"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a6ed38d2fb32ff5428e07d3ca6ba85bfc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::DirectoryPageWriter::visitedInvIncDepGraph</definition>
@@ -383,110 +453,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="138" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aed1af1c5d618401e0af40578b1f07e09" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedTemplateParamList</definition>
-        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
-        <name>visitedTemplateParamList</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a5d0ceb3437dac0e5f9da19bf6762b3ba">visitedTemplateParamList</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="144" bodyend="148"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a94cab53da455ccc7afd5c9f6ea13c249" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedInheritanceGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedInheritanceGraph</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a60616523a9a6cd3aff6897862cb5c14b">visitedInheritanceGraph</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="150" bodyend="154"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a68191ccfc34c20484f98b77fda083fdb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedCollaborationGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedCollaborationGraph</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a07b21a15f65d8614859140fc71579e39">visitedCollaborationGraph</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="156" bodyend="160"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a8943444f0ff9fe29ad6df4c327ebccd3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedProgramListing</definition>
-        <argsstring>(const Doxygen::ListingQuery &amp;query) override</argsstring>
-        <name>visitedProgramListing</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1af838f90479d190c3d25be240f05a9c6c">visitedProgramListing</reimplements>
-        <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">Doxygen::ListingQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ListingQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="162" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a8ec8fa000e7a3dbd248545d6af57f746" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -514,57 +480,57 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="168" bodyend="172"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a211f3df677fc8a70f51769fe2ffa8be7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1cbe3eeef65bbf3b4f170629f27c794c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedCompoundName</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedCompoundName</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
+        <definition>void MdDox::DirectoryPageWriter::visitedLocation</definition>
+        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
+        <name>visitedLocation</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ab432daf1eec44809f0140f9140509532">visitedLocation</reimplements>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>text</parametername>
+<parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
+<para>Const reference to the LocationQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="54" bodyend="57"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="48" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1afdf1634b69331c8949dd9a5e61bfc886" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a8943444f0ff9fe29ad6df4c327ebccd3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::visitedTitle</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedTitle</name>
-        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a4f31cf429855fdbc0a9b38a16f18e68b">visitedTitle</reimplements>
+        <definition>void MdDox::DirectoryPageWriter::visitedProgramListing</definition>
+        <argsstring>(const Doxygen::ListingQuery &amp;query) override</argsstring>
+        <name>visitedProgramListing</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1af838f90479d190c3d25be240f05a9c6c">visitedProgramListing</reimplements>
         <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">Doxygen::ListingQuery</ref> &amp;</type>
+          <declname>query</declname>
         </param>
         <briefdescription>
-<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>text</parametername>
+<parametername>query</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
+<para>Const reference to the ListingQuery class. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="174" bodyend="178"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="162" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a870033ff35fe2dec4e241a41af530a57" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -592,23 +558,57 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="180" bodyend="184"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aed1af1c5d618401e0af40578b1f07e09" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
-        <definition>void MdDox::DirectoryPageWriter::preSortQuery</definition>
-        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
-        <name>preSortQuery</name>
-        <reimplements refid="classMdDox_1_1PageWriter_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
+        <definition>void MdDox::DirectoryPageWriter::visitedTemplateParamList</definition>
+        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
+        <name>visitedTemplateParamList</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a5d0ceb3437dac0e5f9da19bf6762b3ba">visitedTemplateParamList</reimplements>
         <param>
-          <type>const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
           <declname>query</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="186" bodyend="197"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="144" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1afdf1634b69331c8949dd9a5e61bfc886" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::DirectoryPageWriter::visitedTitle</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedTitle</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a4f31cf429855fdbc0a9b38a16f18e68b">visitedTitle</reimplements>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="174" bodyend="178"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- diZwtt8[
+ DEbp3lG[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dSqwtt8[
+ qHyp3lG[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- diZwtt8->dSqwtt8
+ DEbp3lG->qHyp3lG
 }

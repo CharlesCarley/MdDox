@@ -134,8 +134,8 @@
         <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</innerclass>
     <innerclass refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" prot="public">MdDox::Doxygen::SimpleSectQuery</innerclass>
+    <innerclass refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SimpleSectQueryVisitor" prot="public">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</innerclass>
     <innernamespace refid="namespaceMdDox_1_1Doxygen">MdDox::Doxygen</innernamespace>
     <innernamespace refid="namespaceMdDox_1_1Doxygen_1_1Visitors">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>

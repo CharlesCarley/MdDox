@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W5Z9tt8[
+ d34hIlG[
    shape    = none
    label    = "Node"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d2Z9tt8[
+ WJ4hIlG[
    shape    = none
    label    = "LocalNode"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W5Z9tt8->d2Z9tt8
+ d34hIlG->WJ4hIlG
 }

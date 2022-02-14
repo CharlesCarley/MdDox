@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/CompoundDefQuery.h" line="226" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a1de61b129be47f02b812dd674b765583" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::CompoundDefQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="231" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="489" bodyend="492"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad02a5d4e005ff27ee8131f7c7adaa6e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::CompoundDefQuery::empty</definition>
@@ -93,18 +80,717 @@
         <location file="Tools/Doxygen/CompoundDefQuery.h" line="236" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="504" bodyend="507"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ae788aa0df25e511b5f5582c5ad456a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2c4d2a06b6ad68977117704c99698b20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachBaseCompoundRef</definition>
+        <argsstring>(const CompoundRefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachBaseCompoundRef</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" kindref="member">CompoundRefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>basecompoundref</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="241" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="494" bodyend="497"/>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="386" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a29f49da054a54dcc8d858735d9c99376" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachDerivedCompoundRef</definition>
+        <argsstring>(const CompoundRefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachDerivedCompoundRef</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" kindref="member">CompoundRefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>derivedcompoundref</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="390" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3615bd4b9a77bf1ff3d5cffe664e9128" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachIncludedBy</definition>
+        <argsstring>(const IncQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachIncludedBy</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" kindref="member">IncQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>includedby</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="398" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a60fc9a623da240da0d2a40d3a9c8f8bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachIncludes</definition>
+        <argsstring>(const IncQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachIncludes</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" kindref="member">IncQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>includes</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="394" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1aab1cf7825e25b554721280d5269c0488" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerClass</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerClass</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innerclass</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="410" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2284aa4229ad3a8f6189522a89b50d2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerDir</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerDir</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innerdir</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad1ccc7263659727044d864d82768a002" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerFile</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerFile</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innerfile</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a86fa8241076570377e6cc3fdea38ce1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerGroup</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerGroup</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innergroup</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="479" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="422" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a98d9a951f970aed2a9303131cc9e88ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerNamespace</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerNamespace</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innernamespace</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2919a8c3d448021cc69c2f098a9a673b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerPage</definition>
+        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachInnerPage</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>innerpage</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="418" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a60e3f863780b26e7c4810532423bc0e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachSectionDef</definition>
+        <argsstring>(const SectionDefQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachSectionDef</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a30d35eaa94a79fab382eda801584ea6e" kindref="member">SectionDefQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>sectiondef</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="484" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="426" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a083dc1ba4447450a7400a16e8e539e65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getAbstract</definition>
+        <argsstring>() const</argsstring>
+        <name>getAbstract</name>
+        <briefdescription>
+<para>Provides access to the <bold>abstract</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>abstract</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="265" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="134" bodyend="139"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a6bdd1c22bc8a14a6299980ba065089d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getBriefDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getBriefDescription</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="260" bodyend="269"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad66dc437ef4b9eba504479996fac14c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::CompoundDefQuery::getBriefDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getBriefDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1adbabfe0ecaed171554fd17f58a0d93cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getCollaborationGraph</definition>
+        <argsstring>(GraphQuery &amp;dest) const</argsstring>
+        <name>getCollaborationGraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>collaborationgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="314" bodyend="323"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1acb67d428d7b7899159320b7747a93d37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
+        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getCollaborationGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getCollaborationGraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>collaborationgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="325" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3188634f8877d9d5f76b6757adfced02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getCompoundName</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getCompoundName</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>compoundname</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>compoundname&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="315" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="176" bodyend="184"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a4e4533dfebc2b045b6fda1545a62e507" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getDetailedDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getDetailedDescription</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="278" bodyend="287"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1af07e65f26a0e9ad4a732bad82f621b9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::CompoundDefQuery::getDetailedDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getDetailedDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="289" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a9e40b743da554d8a6711b962d84cf260" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getFinal</definition>
+        <argsstring>() const</argsstring>
+        <name>getFinal</name>
+        <briefdescription>
+<para>Provides access to the <bold>final</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>final</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="293" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="162" bodyend="167"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2d32c4199bb256afa4adacb4f70534f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getId</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>id</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>id</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="308" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="127" bodyend="132"/>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a50493c5483dcfdbc7167aa5ec986669d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getIncDepGraph</definition>
+        <argsstring>(GraphQuery &amp;dest) const</argsstring>
+        <name>getIncDepGraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>incdepgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="206" bodyend="215"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a291a3dedeb829ae7ffa6128b1cf3bca5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
+        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getIncDepGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getIncDepGraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>incdepgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5bf4eb280713e36e4d373b46f9d23377" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getInheritanceGraph</definition>
+        <argsstring>(GraphQuery &amp;dest) const</argsstring>
+        <name>getInheritanceGraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>inheritancegraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="296" bodyend="305"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a6e19a2c46d2771598194dbcff8c3f476" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
+        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getInheritanceGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getInheritanceGraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>inheritancegraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="307" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5f2af4e6d267a06bef20478b82e9a57c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getInvIncDepGraph</definition>
+        <argsstring>(GraphQuery &amp;dest) const</argsstring>
+        <name>getInvIncDepGraph</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>invincdepgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="224" bodyend="233"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ab1763bd0124cd8a16620db2e884ab24b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
+        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getInvIncDepGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>getInvIncDepGraph</name>
+        <briefdescription>
+<para>Provides access to the <bold>invincdepgraph</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="235" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5f9706701e0e6eef9f1dbbe3fbb0e9fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">DoxCompoundKindEnum</ref></type>
+        <definition>DoxCompoundKindEnum MdDox::Doxygen::CompoundDefQuery::getKind</definition>
+        <argsstring>() const</argsstring>
+        <name>getKind</name>
+        <briefdescription>
+<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="279" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="148" bodyend="153"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxCompoundKind_1a87e35757d67cddda1026143d985d4ba1" compoundref="DoxCompoundKind_8cpp" startline="30" endline="67">MdDox::Doxygen::DoxCompoundKind::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a000373fc861a3018b7a4048ea263b0de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1" kindref="member">DoxLanguageEnum</ref></type>
+        <definition>DoxLanguageEnum MdDox::Doxygen::CompoundDefQuery::getLanguage</definition>
+        <argsstring>() const</argsstring>
+        <name>getLanguage</name>
+        <briefdescription>
+<para>Provides access to the <bold>language</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>language</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="272" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="141" bodyend="146"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxLanguage_1a5a7555d8953d470bbe9f70f7ff39ff71" compoundref="DoxLanguage_8cpp" startline="30" endline="65">MdDox::Doxygen::DoxLanguage::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a4faea3f20d262a2f869baca929612fc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getListOfAllMembers</definition>
+        <argsstring>(ListOfAllMembersQuery &amp;dest) const</argsstring>
+        <name>getListOfAllMembers</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>listofallmembers</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="368" bodyend="377"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a57a09154bc9d27505e214917b615eaa5" compoundref="ListOfAllMembersQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListOfAllMembersQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a65e5f1b0154f333af438040acb79c86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref></type>
+        <definition>ListOfAllMembersQuery MdDox::Doxygen::CompoundDefQuery::getListOfAllMembers</definition>
+        <argsstring>() const</argsstring>
+        <name>getListOfAllMembers</name>
+        <briefdescription>
+<para>Provides access to the <bold>listofallmembers</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="379" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1abbe92b13ef533fea95d04524687288a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getLocation</definition>
+        <argsstring>(LocationQuery &amp;dest) const</argsstring>
+        <name>getLocation</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="350" bodyend="359"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1af2de0e6a910a8fdd0e4e7adf2b4a239a" compoundref="LocationQuery_8h" startline="142" endline="145">MdDox::Doxygen::LocationQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad6206938a3d92a2ced14c77dd57bdac4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref></type>
+        <definition>LocationQuery MdDox::Doxygen::CompoundDefQuery::getLocation</definition>
+        <argsstring>() const</argsstring>
+        <name>getLocation</name>
+        <briefdescription>
+<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="361" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1aa861070b546fcfc9c35e91310f278e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getProgramListing</definition>
+        <argsstring>(ListingQuery &amp;dest) const</argsstring>
+        <name>getProgramListing</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="332" bodyend="341"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ae2275e606218167e475f96648738f410" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
+        <definition>ListingQuery MdDox::Doxygen::CompoundDefQuery::getProgramListing</definition>
+        <argsstring>() const</argsstring>
+        <name>getProgramListing</name>
+        <briefdescription>
+<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="343" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ac87e485613e5e278b49d39d9099d5ae9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
+        <definition>DoxProtectionKindEnum MdDox::Doxygen::CompoundDefQuery::getProt</definition>
+        <argsstring>() const</argsstring>
+        <name>getProt</name>
+        <briefdescription>
+<para>Provides access to the <bold>prot</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>prot</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="286" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="155" bodyend="160"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ab103da3e9e15c429680d8699e6c80059" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getSealed</definition>
+        <argsstring>() const</argsstring>
+        <name>getSealed</name>
+        <briefdescription>
+<para>Provides access to the <bold>sealed</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>sealed</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="300" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="169" bodyend="174"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3294b4661a0efa5c892a4acd3bb30e56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getTableOfContents</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getTableOfContents</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>tableofcontents</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>tableofcontents&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="196" bodyend="204"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ac0c48c8042193a850c9cc4d655fa5bdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::getTemplateParamList</definition>
+        <argsstring>(TemplateParamListQuery &amp;dest) const</argsstring>
+        <name>getTemplateParamList</name>
+        <param>
+          <type><ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="242" bodyend="251"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" compoundref="TemplateParamListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TemplateParamListQuery::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a68444b03966d51ed8e5b22603c89a1f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref></type>
+        <definition>TemplateParamListQuery MdDox::Doxygen::CompoundDefQuery::getTemplateParamList</definition>
+        <argsstring>() const</argsstring>
+        <name>getTemplateParamList</name>
+        <briefdescription>
+<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="253" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1afb4c8a3e2864c65b5d9302283d49e297" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getTitle</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getTitle</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>title&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="322" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="186" bodyend="194"/>
+        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a1de61b129be47f02b812dd674b765583" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::CompoundDefQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="231" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="489" bodyend="492"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +804,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/CompoundDefQuery.h" line="246" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="499" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ae788aa0df25e511b5f5582c5ad456a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::CompoundDefQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundDefQuery.h" line="241" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="494" bodyend="497"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a90b778a78acb305c5bde7ebb27007146" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -201,705 +900,6 @@
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ab9b0bbbcc61d79676ab6ca42ee73cef2" compoundref="CompoundDefQuery_8h" startline="152" endline="152">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedCompoundName</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a4f31cf429855fdbc0a9b38a16f18e68b" compoundref="CompoundDefQuery_8h" startline="157" endline="157">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTitle</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a2008b336a42ef282667002b5fb39eae5" compoundref="CompoundDefQuery_8h" startline="162" endline="162">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTableOfContents</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a083dc1ba4447450a7400a16e8e539e65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
-        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getAbstract</definition>
-        <argsstring>() const</argsstring>
-        <name>getAbstract</name>
-        <briefdescription>
-<para>Provides access to the <bold>abstract</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>abstract</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="265" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="134" bodyend="139"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a000373fc861a3018b7a4048ea263b0de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1" kindref="member">DoxLanguageEnum</ref></type>
-        <definition>DoxLanguageEnum MdDox::Doxygen::CompoundDefQuery::getLanguage</definition>
-        <argsstring>() const</argsstring>
-        <name>getLanguage</name>
-        <briefdescription>
-<para>Provides access to the <bold>language</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>language</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="272" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="141" bodyend="146"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxLanguage_1a5a7555d8953d470bbe9f70f7ff39ff71" compoundref="DoxLanguage_8cpp" startline="30" endline="65">MdDox::Doxygen::DoxLanguage::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5f9706701e0e6eef9f1dbbe3fbb0e9fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">DoxCompoundKindEnum</ref></type>
-        <definition>DoxCompoundKindEnum MdDox::Doxygen::CompoundDefQuery::getKind</definition>
-        <argsstring>() const</argsstring>
-        <name>getKind</name>
-        <briefdescription>
-<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="279" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="148" bodyend="153"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxCompoundKind_1a87e35757d67cddda1026143d985d4ba1" compoundref="DoxCompoundKind_8cpp" startline="30" endline="67">MdDox::Doxygen::DoxCompoundKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ac87e485613e5e278b49d39d9099d5ae9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
-        <definition>DoxProtectionKindEnum MdDox::Doxygen::CompoundDefQuery::getProt</definition>
-        <argsstring>() const</argsstring>
-        <name>getProt</name>
-        <briefdescription>
-<para>Provides access to the <bold>prot</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>prot</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="286" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="155" bodyend="160"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a9e40b743da554d8a6711b962d84cf260" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
-        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getFinal</definition>
-        <argsstring>() const</argsstring>
-        <name>getFinal</name>
-        <briefdescription>
-<para>Provides access to the <bold>final</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>final</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="293" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="162" bodyend="167"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ab103da3e9e15c429680d8699e6c80059" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
-        <definition>DoxBoolEnum MdDox::Doxygen::CompoundDefQuery::getSealed</definition>
-        <argsstring>() const</argsstring>
-        <name>getSealed</name>
-        <briefdescription>
-<para>Provides access to the <bold>sealed</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>sealed</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="300" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="169" bodyend="174"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2d32c4199bb256afa4adacb4f70534f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getId</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getId</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>id</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>id</bold> enumerated value or an empty string the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="308" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="127" bodyend="132"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3188634f8877d9d5f76b6757adfced02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getCompoundName</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getCompoundName</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>compoundname</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>compoundname&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="315" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="176" bodyend="184"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1afb4c8a3e2864c65b5d9302283d49e297" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getTitle</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getTitle</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>title</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>title&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="322" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="186" bodyend="194"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3294b4661a0efa5c892a4acd3bb30e56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        <definition>const String &amp; MdDox::Doxygen::CompoundDefQuery::getTableOfContents</definition>
-        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
-        <name>getTableOfContents</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>notFound</declname>
-          <defval>&quot;&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>tableofcontents</bold> tag&apos;s inner text. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>tableofcontents&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="196" bodyend="204"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a50493c5483dcfdbc7167aa5ec986669d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getIncDepGraph</definition>
-        <argsstring>(GraphQuery &amp;dest) const</argsstring>
-        <name>getIncDepGraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>incdepgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="334" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="206" bodyend="215"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a291a3dedeb829ae7ffa6128b1cf3bca5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
-        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getIncDepGraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getIncDepGraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>incdepgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="339" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="217" bodyend="222"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5f2af4e6d267a06bef20478b82e9a57c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getInvIncDepGraph</definition>
-        <argsstring>(GraphQuery &amp;dest) const</argsstring>
-        <name>getInvIncDepGraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>invincdepgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="344" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="224" bodyend="233"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ab1763bd0124cd8a16620db2e884ab24b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
-        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getInvIncDepGraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getInvIncDepGraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>invincdepgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="349" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="235" bodyend="240"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ac0c48c8042193a850c9cc4d655fa5bdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getTemplateParamList</definition>
-        <argsstring>(TemplateParamListQuery &amp;dest) const</argsstring>
-        <name>getTemplateParamList</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="354" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="242" bodyend="251"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery_1a3ed49c2816b535df9d18fac25a0886b7" compoundref="TemplateParamListQuery_8h" startline="124" endline="127">MdDox::Doxygen::TemplateParamListQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a68444b03966d51ed8e5b22603c89a1f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref></type>
-        <definition>TemplateParamListQuery MdDox::Doxygen::CompoundDefQuery::getTemplateParamList</definition>
-        <argsstring>() const</argsstring>
-        <name>getTemplateParamList</name>
-        <briefdescription>
-<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="359" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="253" bodyend="258"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a6bdd1c22bc8a14a6299980ba065089d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getBriefDescription</definition>
-        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
-        <name>getBriefDescription</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="260" bodyend="269"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad66dc437ef4b9eba504479996fac14c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
-        <definition>DescriptionQuery MdDox::Doxygen::CompoundDefQuery::getBriefDescription</definition>
-        <argsstring>() const</argsstring>
-        <name>getBriefDescription</name>
-        <briefdescription>
-<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="369" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="271" bodyend="276"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a4e4533dfebc2b045b6fda1545a62e507" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getDetailedDescription</definition>
-        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
-        <name>getDetailedDescription</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="374" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="278" bodyend="287"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ae529bd5d8cea245399d58d6308f027bc" compoundref="DescriptionQuery_8h" startline="164" endline="167">MdDox::Doxygen::DescriptionQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1af07e65f26a0e9ad4a732bad82f621b9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref></type>
-        <definition>DescriptionQuery MdDox::Doxygen::CompoundDefQuery::getDetailedDescription</definition>
-        <argsstring>() const</argsstring>
-        <name>getDetailedDescription</name>
-        <briefdescription>
-<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="379" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="289" bodyend="294"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a5bf4eb280713e36e4d373b46f9d23377" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getInheritanceGraph</definition>
-        <argsstring>(GraphQuery &amp;dest) const</argsstring>
-        <name>getInheritanceGraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>inheritancegraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="384" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="296" bodyend="305"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a6e19a2c46d2771598194dbcff8c3f476" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
-        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getInheritanceGraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getInheritanceGraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>inheritancegraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="389" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="307" bodyend="312"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1adbabfe0ecaed171554fd17f58a0d93cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getCollaborationGraph</definition>
-        <argsstring>(GraphQuery &amp;dest) const</argsstring>
-        <name>getCollaborationGraph</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>collaborationgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="394" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="314" bodyend="323"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1a5a106c769faa5db5c3b9b284b052b5fd" compoundref="GraphQuery_8h" startline="124" endline="127">MdDox::Doxygen::GraphQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1acb67d428d7b7899159320b7747a93d37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref></type>
-        <definition>GraphQuery MdDox::Doxygen::CompoundDefQuery::getCollaborationGraph</definition>
-        <argsstring>() const</argsstring>
-        <name>getCollaborationGraph</name>
-        <briefdescription>
-<para>Provides access to the <bold>collaborationgraph</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="325" bodyend="330"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1aa861070b546fcfc9c35e91310f278e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getProgramListing</definition>
-        <argsstring>(ListingQuery &amp;dest) const</argsstring>
-        <name>getProgramListing</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="404" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="332" bodyend="341"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListingQuery_1a9589ee7ace6fc24f89a00c21cc5342fb" compoundref="ListingQuery_8h" startline="133" endline="136">MdDox::Doxygen::ListingQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ae2275e606218167e475f96648738f410" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref></type>
-        <definition>ListingQuery MdDox::Doxygen::CompoundDefQuery::getProgramListing</definition>
-        <argsstring>() const</argsstring>
-        <name>getProgramListing</name>
-        <briefdescription>
-<para>Provides access to the <bold>programlisting</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="409" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="343" bodyend="348"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1abbe92b13ef533fea95d04524687288a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getLocation</definition>
-        <argsstring>(LocationQuery &amp;dest) const</argsstring>
-        <name>getLocation</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="414" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="350" bodyend="359"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1af2de0e6a910a8fdd0e4e7adf2b4a239a" compoundref="LocationQuery_8h" startline="142" endline="145">MdDox::Doxygen::LocationQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad6206938a3d92a2ced14c77dd57bdac4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref></type>
-        <definition>LocationQuery MdDox::Doxygen::CompoundDefQuery::getLocation</definition>
-        <argsstring>() const</argsstring>
-        <name>getLocation</name>
-        <briefdescription>
-<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="419" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="361" bodyend="366"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a4faea3f20d262a2f869baca929612fc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::getListOfAllMembers</definition>
-        <argsstring>(ListOfAllMembersQuery &amp;dest) const</argsstring>
-        <name>getListOfAllMembers</name>
-        <param>
-          <type><ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>listofallmembers</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="424" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="368" bodyend="377"/>
-        <references refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a725cb359a5be58a0ab3779b744581266" compoundref="CompoundDefQuery_8h" startline="499" endline="502">node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery_1a57a09154bc9d27505e214917b615eaa5" compoundref="ListOfAllMembersQuery_8h" startline="124" endline="127">MdDox::Doxygen::ListOfAllMembersQuery::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a65e5f1b0154f333af438040acb79c86c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref></type>
-        <definition>ListOfAllMembersQuery MdDox::Doxygen::CompoundDefQuery::getListOfAllMembers</definition>
-        <argsstring>() const</argsstring>
-        <name>getListOfAllMembers</name>
-        <briefdescription>
-<para>Provides access to the <bold>listofallmembers</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="429" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="379" bodyend="384"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2c4d2a06b6ad68977117704c99698b20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachBaseCompoundRef</definition>
-        <argsstring>(const CompoundRefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachBaseCompoundRef</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" kindref="member">CompoundRefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>basecompoundref</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="386" bodyend="389"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a29f49da054a54dcc8d858735d9c99376" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachDerivedCompoundRef</definition>
-        <argsstring>(const CompoundRefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachDerivedCompoundRef</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" kindref="member">CompoundRefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>derivedcompoundref</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="439" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="390" bodyend="393"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a60fc9a623da240da0d2a40d3a9c8f8bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachIncludes</definition>
-        <argsstring>(const IncQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachIncludes</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" kindref="member">IncQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>includes</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="444" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="394" bodyend="397"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a3615bd4b9a77bf1ff3d5cffe664e9128" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachIncludedBy</definition>
-        <argsstring>(const IncQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachIncludedBy</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" kindref="member">IncQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>includedby</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="449" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="398" bodyend="401"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2284aa4229ad3a8f6189522a89b50d2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerDir</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerDir</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innerdir</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="454" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="402" bodyend="405"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1ad1ccc7263659727044d864d82768a002" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerFile</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerFile</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innerfile</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="459" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="406" bodyend="409"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1aab1cf7825e25b554721280d5269c0488" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerClass</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerClass</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innerclass</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="464" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="410" bodyend="413"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a98d9a951f970aed2a9303131cc9e88ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerNamespace</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerNamespace</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innernamespace</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="469" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="414" bodyend="417"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a2919a8c3d448021cc69c2f098a9a673b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerPage</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerPage</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innerpage</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="474" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="418" bodyend="421"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a86fa8241076570377e6cc3fdea38ce1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachInnerGroup</definition>
-        <argsstring>(const RefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachInnerGroup</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" kindref="member">RefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>innergroup</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="479" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="422" bodyend="425"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundDefQuery_1a60e3f863780b26e7c4810532423bc0e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::CompoundDefQuery::foreachSectionDef</definition>
-        <argsstring>(const SectionDefQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachSectionDef</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a30d35eaa94a79fab382eda801584ea6e" kindref="member">SectionDefQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>sectiondef</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="484" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.cpp" bodystart="426" bodyend="429"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

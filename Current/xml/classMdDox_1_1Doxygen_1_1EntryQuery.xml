@@ -66,19 +66,6 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EntryQuery.h" line="79" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a174745950b5bf296ca4e91a1c1405ad5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::Doxygen::EntryQuery::isValid</definition>
-        <argsstring>() const</argsstring>
-        <name>isValid</name>
-        <briefdescription>
-<para>Checks to see if the internal node is usable. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EntryQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="128" bodyend="131"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1afab0be81abc616a4c38eb0bc34f540c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MdDox::Doxygen::EntryQuery::empty</definition>
@@ -93,18 +80,51 @@
         <location file="Tools/Doxygen/EntryQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="143" bodyend="146"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa349bddf51e8b625d2404778f57873ef" compoundref="Node_8cpp" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a640a2495a8b5b344ea61eb146cdad5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1aba3c7498e877a51deed1a7489b85f608" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MdDox::Doxygen::EntryQuery::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
+        <definition>void MdDox::Doxygen::EntryQuery::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
         <briefdescription>
-<para>Resets the internal node pointer to null. </para>        </briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/EntryQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="133" bodyend="136"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::EntryQuery::getThead</definition>
+        <argsstring>() const</argsstring>
+        <name>getThead</name>
+        <briefdescription>
+<para>Provides access to the <bold>thead</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>thead</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a174745950b5bf296ca4e91a1c1405ad5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Doxygen::EntryQuery::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+<para>Checks to see if the internal node is usable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a221dbe83acd9a5e09b5e63da317f6add" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -118,6 +138,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Tools/Doxygen/EntryQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a640a2495a8b5b344ea61eb146cdad5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::EntryQuery::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the internal node pointer to null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1aa02e5a4abb6de635f36a1e2760f00032" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,39 +211,6 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1ad3807f66c0f91833e6a5ed29451a1835" compoundref="EntryQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EntryQueryVisitor_1a5cd41667d9414b86cefd500e40d51398" compoundref="EntryQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedParagraph</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
-        <definition>DoxBoolEnum MdDox::Doxygen::EntryQuery::getThead</definition>
-        <argsstring>() const</argsstring>
-        <name>getThead</name>
-        <briefdescription>
-<para>Provides access to the <bold>thead</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>thead</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EntryQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="49" bodyend="54"/>
-        <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1aba3c7498e877a51deed1a7489b85f608" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::EntryQuery::foreachParagraph</definition>
-        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParagraph</name>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/EntryQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="56" bodyend="59"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
