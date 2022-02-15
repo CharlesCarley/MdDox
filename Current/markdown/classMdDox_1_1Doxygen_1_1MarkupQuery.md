@@ -1,7 +1,6 @@
 <a id="markupquery"></a>
 <h1>MarkupQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1MarkupQuery"></a>
-<a id="mddoxdoxygenmarkupquery"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -21,298 +20,298 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-43.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-43.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getanchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getAnchor</span>
+<span class="icon-list-item"><a href="#getanchor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getAnchor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getanchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getAnchor</span>
+<span class="icon-list-item"><a href="#getanchor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getAnchor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getblockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getBlockQuote</span>
+<span class="icon-list-item"><a href="#getblockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getBlockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getblockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getBlockQuote</span>
+<span class="icon-list-item"><a href="#getblockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getBlockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getbold" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getBold</span>
+<span class="icon-list-item"><a href="#getbold" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getBold</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getbold" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getBold</span>
+<span class="icon-list-item"><a href="#getbold" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getBold</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getcenter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getCenter</span>
+<span class="icon-list-item"><a href="#getcenter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getCenter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getcenter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getCenter</span>
+<span class="icon-list-item"><a href="#getcenter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getCenter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getcomputeroutput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getComputerOutput</span>
+<span class="icon-list-item"><a href="#getcomputeroutput" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getComputerOutput</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getcomputeroutput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getComputerOutput</span>
+<span class="icon-list-item"><a href="#getcomputeroutput" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getComputerOutput</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getdot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getDot</span>
+<span class="icon-list-item"><a href="#getdot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getDot</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getdotfile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getDotFile</span>
+<span class="icon-list-item"><a href="#getdotfile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getDotFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getdotfile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getDotFile</span>
+<span class="icon-list-item"><a href="#getdotfile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getDotFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getemphasis" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getEmphasis</span>
+<span class="icon-list-item"><a href="#getemphasis" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getEmphasis</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getemphasis" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getEmphasis</span>
+<span class="icon-list-item"><a href="#getemphasis" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getEmphasis</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getHeading</span>
+<span class="icon-list-item"><a href="#getheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getHeading</span>
+<span class="icon-list-item"><a href="#getheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gethruler" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getHRuler</span>
+<span class="icon-list-item"><a href="#gethruler" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getHRuler</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gethruler" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getHRuler</span>
+<span class="icon-list-item"><a href="#gethruler" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getHRuler</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getimage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getImage</span>
+<span class="icon-list-item"><a href="#getimage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getImage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getimage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getImage</span>
+<span class="icon-list-item"><a href="#getimage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getImage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getindexentry" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getIndexEntry</span>
+<span class="icon-list-item"><a href="#getindexentry" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getIndexEntry</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getindexentry" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getIndexEntry</span>
+<span class="icon-list-item"><a href="#getindexentry" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getIndexEntry</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getitemizedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getItemizedList</span>
+<span class="icon-list-item"><a href="#getitemizedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getItemizedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getitemizedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getItemizedList</span>
+<span class="icon-list-item"><a href="#getitemizedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getItemizedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlang" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLang</span>
+<span class="icon-list-item"><a href="#getlang" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLang</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlang" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLang</span>
+<span class="icon-list-item"><a href="#getlang" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLang</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlanguage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLanguage</span>
+<span class="icon-list-item"><a href="#getlanguage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLanguage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlanguage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLanguage</span>
+<span class="icon-list-item"><a href="#getlanguage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLanguage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlinebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLineBreak</span>
+<span class="icon-list-item"><a href="#getlinebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLineBreak</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getlinebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getLineBreak</span>
+<span class="icon-list-item"><a href="#getlinebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getLineBreak</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getorderedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getOrderedList</span>
+<span class="icon-list-item"><a href="#getorderedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getOrderedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getorderedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getOrderedList</span>
+<span class="icon-list-item"><a href="#getorderedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getOrderedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParagraph</span>
+<span class="icon-list-item"><a href="#getparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParagraph</span>
+<span class="icon-list-item"><a href="#getparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparameterlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParameterList</span>
+<span class="icon-list-item"><a href="#getparameterlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParameterList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparameterlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParameterList</span>
+<span class="icon-list-item"><a href="#getparameterlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParameterList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparblock" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParBlock</span>
+<span class="icon-list-item"><a href="#getparblock" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParBlock</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getparblock" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getParBlock</span>
+<span class="icon-list-item"><a href="#getparblock" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getParBlock</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getpart" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getPart</span>
+<span class="icon-list-item"><a href="#getpart" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getPart</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getpart" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getPart</span>
+<span class="icon-list-item"><a href="#getpart" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getPart</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getpreformatted" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getPreFormatted</span>
+<span class="icon-list-item"><a href="#getpreformatted" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getPreFormatted</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getpreformatted" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getPreFormatted</span>
+<span class="icon-list-item"><a href="#getpreformatted" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getPreFormatted</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getprogramlisting" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getProgramListing</span>
+<span class="icon-list-item"><a href="#getprogramlisting" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getProgramListing</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getprogramlisting" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getProgramListing</span>
+<span class="icon-list-item"><a href="#getprogramlisting" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getProgramListing</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getprop" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getProp</span>
+<span class="icon-list-item"><a href="#getprop" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getProp</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getprop" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getProp</span>
+<span class="icon-list-item"><a href="#getprop" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getProp</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
+<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
+<span class="icon-list-item"><a href="#getref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getRef</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getregistered" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRegistered</span>
+<span class="icon-list-item"><a href="#getregistered" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getRegistered</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getregistered" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getRegistered</span>
+<span class="icon-list-item"><a href="#getregistered" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getRegistered</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSect</span>
+<span class="icon-list-item"><a href="#getsect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSect</span>
+<span class="icon-list-item"><a href="#getsect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsimplesect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSimpleSect</span>
+<span class="icon-list-item"><a href="#getsimplesect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSimpleSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsimplesect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSimpleSect</span>
+<span class="icon-list-item"><a href="#getsimplesect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSimpleSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsmall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSmall</span>
+<span class="icon-list-item"><a href="#getsmall" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSmall</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getsmall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getSmall</span>
+<span class="icon-list-item"><a href="#getsmall" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getSmall</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTable</span>
+<span class="icon-list-item"><a href="#gettable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTable</span>
+<span class="icon-list-item"><a href="#gettable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettitle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTitle</span>
+<span class="icon-list-item"><a href="#gettitle" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTitle</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettitle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTitle</span>
+<span class="icon-list-item"><a href="#gettitle" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTitle</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettoclist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTocList</span>
+<span class="icon-list-item"><a href="#gettoclist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTocList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettoclist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getTocList</span>
+<span class="icon-list-item"><a href="#gettoclist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getTocList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getulink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getULink</span>
+<span class="icon-list-item"><a href="#getulink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getULink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getulink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getULink</span>
+<span class="icon-list-item"><a href="#getulink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getULink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getvariablelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getVariableList</span>
+<span class="icon-list-item"><a href="#getvariablelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getVariableList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getvariablelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getVariableList</span>
+<span class="icon-list-item"><a href="#getvariablelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getVariableList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getverbatim" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getVerbatim</span>
+<span class="icon-list-item"><a href="#getverbatim" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getVerbatim</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#visit" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
+<span class="icon-list-item"><a href="#visit" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
 </a>
 </span>
 <br/>
@@ -328,12 +327,19 @@
 </xsd:complexType>
 ```
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L230" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L230" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
+</blockquote>
 <a id="markupquery"></a>
 <h2>MarkupQuery</h2>
 <span class="bold-text"><b>MarkupQuery</b></span>
@@ -341,7 +347,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L232" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L232" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
@@ -360,7 +366,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L233" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L233" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
@@ -378,7 +384,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L235" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L235" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
@@ -404,29 +410,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L508" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L508" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L639" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L639" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -446,11 +452,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L513" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L513" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L650" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L650" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -476,29 +482,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L421" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L421" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L486" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L486" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -518,11 +524,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L426" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L426" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L497" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L497" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -548,33 +554,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L458" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L458" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L549" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L549" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -594,11 +600,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L463" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L463" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L560" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L560" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -624,33 +630,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L488" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L488" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L603" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L603" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -670,11 +676,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L493" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L493" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L614" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L614" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -700,33 +706,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L478" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L478" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L585" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L585" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -746,11 +752,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L483" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L483" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L596" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L596" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -787,29 +793,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L443" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L443" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L522" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L522" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -835,29 +841,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L381" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L381" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L414" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L414" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -877,11 +883,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L386" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L386" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L425" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L425" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -907,33 +913,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L468" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L468" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L567" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L567" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -953,11 +959,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L473" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L473" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L578" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L578" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -983,29 +989,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L361" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L361" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L378" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L378" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1025,11 +1031,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L366" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L366" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L389" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L389" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1055,29 +1061,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L261" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L261" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L198" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L198" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1097,11 +1103,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L266" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L266" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L209" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L209" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1127,29 +1133,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L371" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L371" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L396" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L396" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1169,11 +1175,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L376" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L376" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L407" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L407" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1199,29 +1205,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L291" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L291" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L252" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L252" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1241,11 +1247,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L296" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L296" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L263" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L263" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1271,29 +1277,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L311" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L311" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L288" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L288" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1313,11 +1319,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L316" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L316" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L299" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L299" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1343,29 +1349,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L578" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L578" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L765" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L765" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1385,11 +1391,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L583" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L583" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L776" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L776" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1415,29 +1421,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L401" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L401" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L450" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L450" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1457,11 +1463,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L406" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L406" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L461" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L461" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1487,29 +1493,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L251" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L251" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L180" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L180" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1529,11 +1535,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L256" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L256" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L191" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L191" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1559,29 +1565,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L301" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L301" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L270" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L270" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1601,11 +1607,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L306" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L306" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L281" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L281" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1631,29 +1637,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L548" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L548" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L711" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L711" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1673,11 +1679,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L553" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L553" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L722" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L722" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1703,29 +1709,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L411" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L411" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L468" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L468" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1745,11 +1751,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L416" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L416" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L479" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L479" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1775,29 +1781,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L431" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L431" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L504" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L504" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1817,11 +1823,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L436" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L436" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L515" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L515" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1847,29 +1853,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L558" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L558" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L729" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L729" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1889,11 +1895,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L563" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L563" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L740" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L740" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1919,33 +1925,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L271" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L271" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L216" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L216" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1965,11 +1971,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L276" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L276" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L227" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L227" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -1995,29 +2001,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L281" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L281" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L234" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2037,11 +2043,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L286" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L286" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L245" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L245" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2067,29 +2073,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L568" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L568" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L747" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L747" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2109,11 +2115,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L573" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L573" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L758" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L758" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2139,29 +2145,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L518" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L518" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L657" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L657" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2181,11 +2187,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L523" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L523" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L668" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L668" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2211,29 +2217,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L538" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L538" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L693" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L693" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2253,11 +2259,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L543" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L543" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L704" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L704" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2283,29 +2289,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L528" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L528" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L675" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L675" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2325,11 +2331,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L533" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L533" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L686" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L686" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2355,29 +2361,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L321" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L321" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L306" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L306" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2397,11 +2403,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L326" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L326" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L317" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L317" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2427,33 +2433,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L498" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L498" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L621" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L621" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2473,11 +2479,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L503" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L503" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L632" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L632" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2503,29 +2509,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L351" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L351" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L360" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L360" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2545,11 +2551,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L356" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L356" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L371" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L371" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2575,29 +2581,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L331" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L331" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L324" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L324" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2617,11 +2623,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L336" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L336" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L335" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L335" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2647,29 +2653,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L391" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L391" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L432" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L432" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2689,11 +2695,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L396" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L396" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L443" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L443" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2719,29 +2725,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L448" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L448" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L531" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L531" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2761,11 +2767,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L453" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L453" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L542" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L542" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2791,29 +2797,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#reset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">reset</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L341" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L341" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L342" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L342" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2833,11 +2839,11 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L346" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L346" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L353" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L353" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2874,29 +2880,29 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#text" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">text</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L246" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L246" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>
@@ -2916,173 +2922,173 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedprop" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedProp</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedprop" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedProp</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlang" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLang</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlang" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedLang</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteddot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDot</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteddot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedDot</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxtextnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxTextNode</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxtextnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxTextNode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlinebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlinebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedLineBreak</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedhruler" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedHRuler</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedhruler" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedHRuler</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedpreformatted" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedPreFormatted</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedpreformatted" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedPreFormatted</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedprogramlisting" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedProgramListing</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedprogramlisting" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedProgramListing</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedindexentry" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedIndexEntry</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedindexentry" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedIndexEntry</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedorderedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedOrderedList</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedorderedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedOrderedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteditemizedlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedItemizedList</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteditemizedlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedItemizedList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsimplesect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSimpleSect</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsimplesect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedSimpleSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtitle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTitle</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtitle" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedTitle</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedvariablelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedVariableList</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedvariablelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedVariableList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTable</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedHeading</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedimage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedImage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedimage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedImage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteddotfile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedDotFile</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visiteddotfile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedDotFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtoclist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedTocList</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedtoclist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedTocList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlanguage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedLanguage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedlanguage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedLanguage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparameterlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedParameterList</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparameterlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedParameterList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedblockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedBlockQuote</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedblockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedBlockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparblock" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedParBlock</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparblock" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedParBlock</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedverbatim" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedVerbatim</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedverbatim" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedVerbatim</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedulink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedULink</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedulink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedULink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedbold" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedBold</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedbold" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedBold</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedemphasis" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedEmphasis</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedemphasis" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedEmphasis</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedcomputeroutput" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedComputerOutput</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedcomputeroutput" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedComputerOutput</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedcenter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedCenter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedcenter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedCenter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsmall" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSmall</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsmall" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedSmall</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedanchor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedAnchor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedanchor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedAnchor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRef</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedRef</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsect" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedSect</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedsect" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedSect</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedregistered" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedRegistered</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedregistered" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedRegistered</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedParagraph</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedpart" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">visitedPart</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor.md#visitedpart" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedPart</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L240" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.h#L240" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/MarkupQuery.cpp#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery.cpp</span>
 </a>
 </span>
 <br/>

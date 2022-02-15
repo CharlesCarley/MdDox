@@ -1,7 +1,6 @@
 <a id="parserbase"></a>
 <h1>ParserBase</h1>
 <a id="classMdDox_1_1ParserBase"></a>
-<a id="mddoxparserbase"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -17,115 +16,121 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#parser" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Parser</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#parser" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Parser</span>
 </a>
 </span>
 <br/>
-<img src="../images/internal-diagram-120.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-120.dot.svg"/><br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
-<span class="icon-list-item"><a href="#tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Tokens</span>
+<span class="icon-list-item"><a href="#tokens" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Tokens</span>
 </a>
 </span>
 <br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
-<span class="icon-list-item"><a href="#_cursor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
+<span class="icon-list-item"><a href="#_cursor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_file" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
+<span class="icon-list-item"><a href="#_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_filepath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
+<span class="icon-list-item"><a href="#_filepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_scanner" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_scanner</span>
+<span class="icon-list-item"><a href="#_scanner" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_scanner</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
+<span class="icon-list-item"><a href="#_tokens" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
 </a>
 </span>
 <br/>
 <a id="protected-methods"></a>
 <h2>Protected Methods</h2>
-<span class="icon-list-item"><a href="#advancecursor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">advanceCursor</span>
+<span class="icon-list-item"><a href="#advancecursor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">advanceCursor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#gettoken" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getToken</span>
+<span class="icon-list-item"><a href="#gettoken" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getToken</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseError</span>
+<span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseError</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parseerrormessageimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorMessageImpl</span>
+<span class="icon-list-item"><a href="#parseerrormessageimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorMessageImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parseimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
+<span class="icon-list-item"><a href="#parseimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#readtoken" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">readToken</span>
+<span class="icon-list-item"><a href="#readtoken" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">readToken</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
+<span class="icon-list-item"><a href="#writeimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
 </a>
 </span>
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#line" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">line</span>
+<span class="icon-list-item"><a href="#line" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">line</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parseerrorthrow" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorThrow</span>
+<span class="icon-list-item"><a href="#parseerrorthrow" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseErrorThrow</span>
 </a>
 </span>
 <br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#parserbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase</span>
+<span class="icon-list-item"><a href="#parserbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#~parserbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~ParserBase</span>
+<span class="icon-list-item"><a href="#~parserbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~ParserBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#filename" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">filename</span>
+<span class="icon-list-item"><a href="#filename" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">filename</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+<span class="icon-list-item"><a href="#parse" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
+</blockquote>
 <a id="tokens"></a>
 <h2>Tokens</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -135,7 +140,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -147,7 +152,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -159,7 +164,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -171,7 +176,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -184,7 +189,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -196,7 +201,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -216,17 +221,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_cursor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_cursor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L66" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -244,33 +249,33 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#next" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#next" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_cursor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_cursor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_cursor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_tokens" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#readtoken" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">readToken</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#readtoken" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">readToken</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseError</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -295,7 +300,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -321,11 +326,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L65" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L65" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -344,7 +349,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -364,25 +369,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_scanner" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_scanner</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_scanner" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_scanner</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#scan" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scan</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#scan" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">scan</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_tokens" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_tokens" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_tokens</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L54" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -408,7 +413,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -421,7 +426,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L62" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L62" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -441,11 +446,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L60" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -457,11 +462,11 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -473,7 +478,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L69" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L69" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -492,17 +497,17 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L94" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L94" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
@@ -540,33 +545,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#exists" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#exists" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_file" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L83" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -606,33 +611,33 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_file" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parseimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parseImpl</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L101" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L101" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -659,17 +664,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#writeimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#writeimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L87" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L117" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>
@@ -695,17 +700,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#writeimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#writeimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeImpl</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.h#L89" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L126" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParserBase.cpp#L126" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase.cpp</span>
 </a>
 </span>
 <br/>

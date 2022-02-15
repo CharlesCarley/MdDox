@@ -1,7 +1,6 @@
 <a id="doxmemberkind"></a>
 <h1>DoxMemberKind</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxMemberKind"></a>
-<a id="mddoxdoxygendoxmemberkind"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,16 +15,19 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L116" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxmemberkindenum">DoxMemberKindEnum</a>
@@ -42,73 +44,73 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_define" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_DEFINE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_define" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_DEFINE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_enum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_ENUM</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_enum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_ENUM</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_property" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_PROPERTY</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_property" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_PROPERTY</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_event" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_EVENT</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_event" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_EVENT</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_variable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_VARIABLE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_variable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_VARIABLE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_typedef" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_TYPEDEF</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_typedef" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_TYPEDEF</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_function" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_FUNCTION</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_function" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_FUNCTION</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_signal" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SIGNAL</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_signal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SIGNAL</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_prototype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_PROTOTYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_prototype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_PROTOTYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_friend" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_FRIEND</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_friend" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_FRIEND</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_dcop" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_DCOP</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_dcop" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_DCOP</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_slot" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SLOT</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_slot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SLOT</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_interface" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_INTERFACE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_interface" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_INTERFACE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_service" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SERVICE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_service" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_SERVICE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_invalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DMK_INVALID</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dmk_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DMK_INVALID</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L118" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.cpp</span>
 </a>
 </span>
 <br/>

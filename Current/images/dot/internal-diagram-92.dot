@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ DtoCZGn[
+   shape    = none
+   label    = "SectionDefQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DEoCZGn[
+   shape    = none
+   label    = "SectionDefWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qqoCZGn[
+   shape    = none
+   label    = "SectionDefListingWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DtoCZGn->DEoCZGn
+ DtoCZGn->qqoCZGn
+}

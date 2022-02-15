@@ -14,23 +14,29 @@
     <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="759">
+      <node id="756">
         <label>iomanip</label>
       </node>
-      <node id="756">
+      <node id="753">
         <label>string</label>
       </node>
-      <node id="754">
+      <node id="751">
         <label>fstream</label>
       </node>
-      <node id="751">
+      <node id="748">
         <label>Source/MdDoxTree/HashUtils.h</label>
         <link refid="HashUtils_8h"/>
-        <childnode refid="752" relation="include">
+        <childnode refid="749" relation="include">
         </childnode>
       </node>
-      <node id="752">
+      <node id="749">
         <label>Utils/String.h</label>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
         <childnode refid="753" relation="include">
         </childnode>
         <childnode refid="754" relation="include">
@@ -39,42 +45,42 @@
         </childnode>
         <childnode refid="756" relation="include">
         </childnode>
-        <childnode refid="757" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-        <childnode refid="759" relation="include">
-        </childnode>
-      </node>
-      <node id="758">
-        <label>vector</label>
       </node>
       <node id="755">
+        <label>vector</label>
+      </node>
+      <node id="752">
         <label>sstream</label>
       </node>
-      <node id="753">
+      <node id="750">
         <label>deque</label>
       </node>
-      <node id="757">
+      <node id="754">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="768">
+      <node id="765">
         <label>Source/MdDoxTree/RepoFile.cpp</label>
       </node>
-      <node id="770">
+      <node id="767">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="762">
+      <node id="759">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="767">
+      <node id="764">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="760">
+      <node id="757">
         <label>Source/MdDoxTree/HashUtils.h</label>
         <link refid="HashUtils_8h"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
         <childnode refid="761" relation="include">
         </childnode>
         <childnode refid="762" relation="include">
@@ -89,29 +95,23 @@
         </childnode>
         <childnode refid="767" relation="include">
         </childnode>
-        <childnode refid="768" relation="include">
-        </childnode>
-        <childnode refid="769" relation="include">
-        </childnode>
-        <childnode refid="770" relation="include">
-        </childnode>
       </node>
-      <node id="763">
+      <node id="760">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="761">
+      <node id="758">
         <label>Source/MdDoxTree/HashUtils.cpp</label>
       </node>
-      <node id="766">
+      <node id="763">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="769">
+      <node id="766">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="765">
+      <node id="762">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="764">
+      <node id="761">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
@@ -154,7 +154,6 @@
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">cleanTitle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1HashUtils_1a49ec2eb5df6b578da034ce5eb27b257d" kindref="member" tooltip="Constructs a heading fragment. ">anchor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>

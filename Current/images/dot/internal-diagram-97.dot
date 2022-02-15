@@ -1,0 +1,26 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ dNiIZGn[
+   shape    = none
+   label    = "Writer"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ W7iIZGn[
+   shape    = none
+   label    = "Common"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dNiIZGn->W7iIZGn
+}

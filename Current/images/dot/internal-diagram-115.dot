@@ -1,0 +1,62 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ WJGIZGn[
+   shape    = none
+   label    = "CompoundDefQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dmGIZGn[
+   shape    = none
+   label    = "PageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WlKIZGn[
+   shape    = none
+   label    = "DirectoryPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dEKIZGn[
+   shape    = none
+   label    = "GenericPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ d6iIZGn[
+   shape    = none
+   label    = "NamespacePageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dZSIZGn[
+   shape    = none
+   label    = "ClassPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dmGIZGn->WlKIZGn
+ dmGIZGn->dEKIZGn
+ dmGIZGn->d6iIZGn
+ dmGIZGn->dZSIZGn
+ WJGIZGn->dmGIZGn
+}

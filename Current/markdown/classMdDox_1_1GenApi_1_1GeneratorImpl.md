@@ -1,7 +1,6 @@
 <a id="generatorimpl"></a>
 <h1>GeneratorImpl</h1>
 <a id="classMdDox_1_1GenApi_1_1GeneratorImpl"></a>
-<a id="mddoxgenapigeneratorimpl"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,157 +15,157 @@
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_alloc" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_alloc</span>
+<span class="icon-list-item"><a href="#_alloc" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_alloc</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_attribute</span>
+<span class="icon-list-item"><a href="#_attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_complex" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_complex</span>
+<span class="icon-list-item"><a href="#_complex" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_complex</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_element" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_element</span>
+<span class="icon-list-item"><a href="#_element" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_element</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_enums" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_enums</span>
+<span class="icon-list-item"><a href="#_enums" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_enums</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_filter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_filter</span>
+<span class="icon-list-item"><a href="#_filter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_group" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_group</span>
+<span class="icon-list-item"><a href="#_group" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_group</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_header" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_header</span>
+<span class="icon-list-item"><a href="#_header" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_header</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
+<span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
+<span class="icon-list-item"><a href="#_root" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_root</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_simple" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_simple</span>
+<span class="icon-list-item"><a href="#_simple" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_simple</span>
 </a>
 </span>
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
-<span class="icon-list-item"><a href="#isgroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isGroup</span>
+<span class="icon-list-item"><a href="#isgroup" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isGroup</span>
 </a>
 </span>
 <br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#generatorimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GeneratorImpl</span>
+<span class="icon-list-item"><a href="#generatorimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GeneratorImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#~generatorimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~GeneratorImpl</span>
+<span class="icon-list-item"><a href="#~generatorimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~GeneratorImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getelement" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getElement</span>
+<span class="icon-list-item"><a href="#getelement" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getElement</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getelementtype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getElementType</span>
+<span class="icon-list-item"><a href="#getelementtype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getElementType</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#logskip" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">logSkip</span>
+<span class="icon-list-item"><a href="#logskip" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">logSkip</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcommon" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processCommon</span>
+<span class="icon-list-item"><a href="#processcommon" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processCommon</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplex" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplex</span>
+<span class="icon-list-item"><a href="#processcomplex" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplex</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexattribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexAttribute</span>
+<span class="icon-list-item"><a href="#processcomplexattribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexAttribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexelement" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElement</span>
+<span class="icon-list-item"><a href="#processcomplexelement" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElement</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexelementbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementBase</span>
+<span class="icon-list-item"><a href="#processcomplexelementbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexelementcomplex" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementComplex</span>
+<span class="icon-list-item"><a href="#processcomplexelementcomplex" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementComplex</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexelementgroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementGroup</span>
+<span class="icon-list-item"><a href="#processcomplexelementgroup" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementGroup</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexelementsimple" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementSimple</span>
+<span class="icon-list-item"><a href="#processcomplexelementsimple" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexElementSimple</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplexsequence" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexSequence</span>
+<span class="icon-list-item"><a href="#processcomplexsequence" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexSequence</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processcomplextypes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processComplexTypes</span>
+<span class="icon-list-item"><a href="#processcomplextypes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processComplexTypes</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processenumeration" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processEnumeration</span>
+<span class="icon-list-item"><a href="#processenumeration" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processEnumeration</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processgroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processGroup</span>
+<span class="icon-list-item"><a href="#processgroup" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processGroup</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processgrouptypes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processGroupTypes</span>
+<span class="icon-list-item"><a href="#processgrouptypes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processGroupTypes</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processrestriction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processRestriction</span>
+<span class="icon-list-item"><a href="#processrestriction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processRestriction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processsimple" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processSimple</span>
+<span class="icon-list-item"><a href="#processsimple" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processSimple</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#processsimpletypes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">processSimpleTypes</span>
+<span class="icon-list-item"><a href="#processsimpletypes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">processSimpleTypes</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#readsubstitutions" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">readSubstitutions</span>
+<span class="icon-list-item"><a href="#readsubstitutions" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">readSubstitutions</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeschema" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeSchema</span>
+<span class="icon-list-item"><a href="#writeschema" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeSchema</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -177,7 +176,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -189,7 +188,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -201,7 +200,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -213,7 +212,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -225,7 +224,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L60" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L60" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -237,7 +236,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L61" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -249,7 +248,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L59" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L59" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -261,7 +260,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -273,7 +272,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -286,7 +285,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -298,7 +297,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -318,7 +317,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -343,7 +342,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L69" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L69" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -355,7 +354,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L75" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L75" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -380,85 +379,85 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#parent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parent</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#parent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#istypeof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isTypeOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#istypeof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isTypeOf</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">type</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">type</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isunbounded" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isunbounded" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#searchterm" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#searchterm" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#gentype" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">genType</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#gentype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">genType</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#genname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">genName</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#genname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">genName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#issingle" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isSingle</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#issingle" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isSingle</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isrequired" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isRequired</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isrequired" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isRequired</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#minoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">minOccurs</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#minoccurs" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">minOccurs</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#maxoccurs" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">maxOccurs</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#maxoccurs" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">maxOccurs</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#touint32" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUint32</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Char.md#touint32" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toUint32</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L185" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L185" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -477,33 +476,33 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L172" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L172" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -522,17 +521,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#name" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">name</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">name</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L427" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L427" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -545,29 +544,29 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#addinclude" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addInclude</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#addinclude" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addInclude</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#addforward" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addForward</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#addforward" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addForward</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L400" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L400" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -592,25 +591,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#object" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#object" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addgroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addGroup</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addgroup" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addGroup</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#at" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">at</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#at" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">at</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L334" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L334" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -635,37 +634,37 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#toupperfirst" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">toUpperFirst</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#toupperfirst" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toUpperFirst</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addstringattribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addStringAttribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addstringattribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addStringAttribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addintegerattribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addIntegerAttribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addintegerattribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addIntegerAttribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addenumattribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addEnumAttribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addenumattribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addEnumAttribute</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -690,25 +689,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#base_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BASE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#simple_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SIMPLE_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#complex_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">COMPLEX_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#group_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GROUP_TYPE</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L301" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L301" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -733,25 +732,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#typecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#typecode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addstringtextelement" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addStringTextElement</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addstringtextelement" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addStringTextElement</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L234" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -776,33 +775,33 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#typecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#typecode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isunbounded" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isunbounded" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isUnbounded</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addelement" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addElement</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addelement" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addElement</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addsingleelement" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addSingleElement</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addsingleelement" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addSingleElement</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L261" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L261" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -827,25 +826,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#isvalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#object" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#object" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#searchterm" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GenApi_1_1Element.md#searchterm" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">searchTerm</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addgroup" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addGroup</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#addgroup" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addGroup</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L286" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L286" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -870,7 +869,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L255" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L255" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -895,13 +894,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L323" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L323" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -914,17 +913,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L377" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L377" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -949,25 +948,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#contains" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Simple.md#addenumvalue" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addEnumValue</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Simple.md#addenumvalue" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addEnumValue</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -992,13 +991,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L368" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L368" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1011,7 +1010,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L413" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L413" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1036,13 +1035,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L89" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L89" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1067,13 +1066,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L98" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1086,17 +1085,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L107" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1109,25 +1108,25 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#maketypefilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">makeTypeFilter</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#maketypefilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">makeTypeFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfiltersize" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfiltersize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#read" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">read</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#read" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">read</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L470" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L470" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1140,13 +1139,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L493" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L493" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>
@@ -1165,17 +1164,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#insert" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#insert" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L436" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L436" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
 <br/>

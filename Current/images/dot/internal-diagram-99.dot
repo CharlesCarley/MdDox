@@ -1,0 +1,44 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ DJc7ZGn[
+   shape    = none
+   label    = "Writer"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DdmxZGn[
+   shape    = none
+   label    = "Object"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DBMxZGn[
+   shape    = none
+   label    = "Group"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ q3HxZGn[
+   shape    = none
+   label    = "Complex"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DBMxZGn->q3HxZGn
+ DdmxZGn->DBMxZGn
+ DJc7ZGn->DdmxZGn
+}

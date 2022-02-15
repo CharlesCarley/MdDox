@@ -26,7 +26,7 @@
 namespace MdDox::Xml
 {
     /**
-     * \brief Representation of an xml tag's attribute. 
+     * \brief Provides a key-value representation of an XML attribute. 
      */
     class Attribute
     {
@@ -38,7 +38,7 @@ namespace MdDox::Xml
         /**
          * \brief Default constructor.
          * \param key The lookup key for this attribute.
-         * \param value The value to associate with this attribute.
+         * \param value The value to associate with the supplied key.
          */
         Attribute(String key, String value);
 
@@ -70,4 +70,5 @@ namespace MdDox::Xml
     {
         return _value;
     }
+
 }  // namespace MdDox::Xml

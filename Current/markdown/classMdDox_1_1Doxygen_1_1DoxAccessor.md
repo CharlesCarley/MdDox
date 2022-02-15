@@ -1,7 +1,6 @@
 <a id="doxaccessor"></a>
 <h1>DoxAccessor</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxAccessor"></a>
-<a id="mddoxdoxygendoxaccessor"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,16 +15,19 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxaccessorenum">DoxAccessorEnum</a>
@@ -42,41 +44,41 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_assign" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_ASSIGN</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_assign" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_ASSIGN</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_copy" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_COPY</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_copy" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_COPY</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_retain" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_RETAIN</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_retain" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_RETAIN</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_weak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_WEAK</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_weak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_WEAK</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_strong" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_STRONG</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_strong" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_STRONG</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_unretained" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_UNRETAINED</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_unretained" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_UNRETAINED</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_invalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DA_INVALID</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#da_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DA_INVALID</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.cpp</span>
 </a>
 </span>
 <br/>

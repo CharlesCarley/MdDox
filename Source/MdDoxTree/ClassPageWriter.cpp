@@ -25,11 +25,8 @@
 #include "Doxygen/CompoundRefQuery.h"
 #include "Doxygen/GraphQuery.h"
 #include "Doxygen/IncQuery.h"
-#include "Doxygen/LinkQuery.h"
 #include "Doxygen/LocationQuery.h"
-#include "Doxygen/NodeQuery.h"
 #include "GraphWriter.h"
-#include "Link.h"
 #include "LocationWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/Reference.h"
@@ -81,68 +78,57 @@ namespace MdDox
 
     void ClassPageWriter::visitedIncludes(const Doxygen::IncQuery& query)
     {
-        // _writer->boldText(_out, "ClassPageWriter.visitedIncludes");
-        // _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedIncludedBy(const Doxygen::IncQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedIncludedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerDir(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerDir");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerFile(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerFile");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerClass(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerClass");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerNamespace(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerNamespace");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerPage(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerPage");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInnerGroup(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInnerGroup");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInvIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedInvIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedInheritanceGraph(const Doxygen::GraphQuery& query)
@@ -153,14 +139,12 @@ namespace MdDox
 
     void ClassPageWriter::visitedCollaborationGraph(const Doxygen::GraphQuery& query)
     {
-        //_writer->boldText(_out, "ClassPageWriter.visitedCollaborationGraph");
-        //_writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedProgramListing(const Doxygen::ListingQuery& query)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedProgramListing");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedLocation(const Doxygen::LocationQuery& query)
@@ -169,22 +153,14 @@ namespace MdDox
         lw.write(query);
     }
 
-    void ClassPageWriter::visitedListOfAllMembers(const Doxygen::ListOfAllMembersQuery& query)
-    {
-        // _writer->boldText(_out, "ClassPageWriter.visitedListOfAllMembers");
-        // _writer->lineBreak(_out);
-    }
-
     void ClassPageWriter::visitedTitle(const String& text)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedTitle");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::visitedTableOfContents(const String& text)
     {
-        _writer->boldText(_out, "ClassPageWriter.visitedTableOfContents");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ClassPageWriter::notifyDetailDescriptionHeading(const Doxygen::DescriptionQuery& query)
@@ -195,7 +171,15 @@ namespace MdDox
     void ClassPageWriter::notifyDetailDescription(const Doxygen::DescriptionQuery& query)
     {
         _writer->lineBreak(_out);
+        _writer->lineBreak(_out);
     }
+
+	void ClassPageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
+    {
+        _writer->lineBreak(_out);
+        _writer->lineBreak(_out);
+    }
+
 
     void ClassPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {
@@ -215,12 +199,6 @@ namespace MdDox
         map[Doxygen::DoxIncludedBy]          = i++;
 
         query.sort(map);
-    }
-
-    void ClassPageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
-    {
-        _writer->lineBreak(_out);
-        _writer->lineBreak(_out);
     }
 
 }  // namespace MdDox

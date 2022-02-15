@@ -1,0 +1,26 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ DiYmZGn[
+   shape    = none
+   label    = "Query"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qLYmZGn[
+   shape    = none
+   label    = "SectionDefQuery"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DiYmZGn->qLYmZGn
+}

@@ -1,7 +1,6 @@
 <a id="database"></a>
 <h1>Database</h1>
 <a id="classMdDox_1_1GenApi_1_1Database"></a>
-<a id="mddoxgenapidatabase"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,74 +15,80 @@
 <br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
-<span class="icon-list-item"><a href="#_data" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
+<span class="icon-list-item"><a href="#_data" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_nodes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
+<span class="icon-list-item"><a href="#_nodes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#_objects" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
+<span class="icon-list-item"><a href="#_objects" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
 </a>
 </span>
 <br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#database" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Database</span>
+<span class="icon-list-item"><a href="#database" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Database</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#~database" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">~Database</span>
+<span class="icon-list-item"><a href="#~database" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~Database</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#begin" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">begin</span>
+<span class="icon-list-item"><a href="#begin" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">begin</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#contains" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
+<span class="icon-list-item"><a href="#contains" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">contains</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#end" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">end</span>
+<span class="icon-list-item"><a href="#end" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">end</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getobjects" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getObjects</span>
+<span class="icon-list-item"><a href="#getobjects" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getObjects</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#haskey" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">hasKey</span>
+<span class="icon-list-item"><a href="#haskey" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">hasKey</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#insert" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
+<span class="icon-list-item"><a href="#insert" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#insert" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
+<span class="icon-list-item"><a href="#insert" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">insert</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#object" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
+<span class="icon-list-item"><a href="#object" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">object</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#read" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">read</span>
+<span class="icon-list-item"><a href="#read" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">read</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L41" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
+</blockquote>
 <a id="_data"></a>
 <h2>_data</h2>
 <a href="namespaceMdDox.md#stringmap">StringMap</a>
@@ -91,7 +96,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -103,7 +108,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -115,7 +120,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -127,7 +132,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -139,7 +144,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -152,13 +157,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -178,17 +183,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L74" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L74" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L85" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -201,13 +206,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -222,13 +227,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
@@ -248,17 +253,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -284,21 +289,21 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_nodes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_nodes</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -324,21 +329,21 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#value" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">value</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -359,17 +364,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_objects" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_objects</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -389,17 +394,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L73" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L73" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>
@@ -430,17 +435,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Database.md#_data" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_data</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L52" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Database.cpp#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.cpp</span>
 </a>
 </span>
 <br/>

@@ -11,132 +11,132 @@
     <includedby refid="Group_8cpp" local="yes">Tools/GenApi/Group.cpp</includedby>
     <includedby refid="Simple_8cpp" local="yes">Tools/GenApi/Simple.cpp</includedby>
     <incdepgraph>
-      <node id="9161">
+      <node id="9155">
         <label>functional</label>
       </node>
-      <node id="9158">
+      <node id="9152">
         <label>iomanip</label>
       </node>
-      <node id="9163">
+      <node id="9157">
         <label>cstdint</label>
       </node>
-      <node id="9150">
+      <node id="9144">
         <label>Object.h</label>
-        <childnode refid="9151" relation="include">
-        </childnode>
-        <childnode refid="9159" relation="include">
-        </childnode>
-        <childnode refid="9160" relation="include">
-        </childnode>
-      </node>
-      <node id="9155">
-        <label>string</label>
-      </node>
-      <node id="9153">
-        <label>fstream</label>
-      </node>
-      <node id="9162">
-        <label>Types.h</label>
-        <childnode refid="9163" relation="include">
-        </childnode>
-        <childnode refid="9151" relation="include">
-        </childnode>
-      </node>
-      <node id="9160">
-        <label>Xml/Node.h</label>
-        <childnode refid="9161" relation="include">
-        </childnode>
-        <childnode refid="9156" relation="include">
-        </childnode>
-        <childnode refid="9151" relation="include">
-        </childnode>
-      </node>
-      <node id="9159">
-        <label>Writer.h</label>
-        <childnode refid="9151" relation="include">
-        </childnode>
-        <childnode refid="9160" relation="include">
-        </childnode>
-      </node>
-      <node id="9151">
-        <label>Utils/String.h</label>
-        <childnode refid="9152" relation="include">
+        <childnode refid="9145" relation="include">
         </childnode>
         <childnode refid="9153" relation="include">
         </childnode>
         <childnode refid="9154" relation="include">
         </childnode>
-        <childnode refid="9155" relation="include">
-        </childnode>
-        <childnode refid="9156" relation="include">
-        </childnode>
-        <childnode refid="9157" relation="include">
-        </childnode>
-        <childnode refid="9158" relation="include">
-        </childnode>
-      </node>
-      <node id="9157">
-        <label>vector</label>
-      </node>
-      <node id="9154">
-        <label>sstream</label>
-      </node>
-      <node id="9152">
-        <label>deque</label>
-      </node>
-      <node id="9156">
-        <label>unordered_map</label>
       </node>
       <node id="9149">
-        <label>Tools/GenApi/Group.h</label>
-        <link refid="Group_8h"/>
+        <label>string</label>
+      </node>
+      <node id="9147">
+        <label>fstream</label>
+      </node>
+      <node id="9156">
+        <label>Types.h</label>
+        <childnode refid="9157" relation="include">
+        </childnode>
+        <childnode refid="9145" relation="include">
+        </childnode>
+      </node>
+      <node id="9154">
+        <label>Xml/Node.h</label>
+        <childnode refid="9155" relation="include">
+        </childnode>
         <childnode refid="9150" relation="include">
         </childnode>
-        <childnode refid="9162" relation="include">
+        <childnode refid="9145" relation="include">
+        </childnode>
+      </node>
+      <node id="9153">
+        <label>Writer.h</label>
+        <childnode refid="9145" relation="include">
+        </childnode>
+        <childnode refid="9154" relation="include">
+        </childnode>
+      </node>
+      <node id="9145">
+        <label>Utils/String.h</label>
+        <childnode refid="9146" relation="include">
+        </childnode>
+        <childnode refid="9147" relation="include">
+        </childnode>
+        <childnode refid="9148" relation="include">
+        </childnode>
+        <childnode refid="9149" relation="include">
+        </childnode>
+        <childnode refid="9150" relation="include">
         </childnode>
         <childnode refid="9151" relation="include">
         </childnode>
-        <childnode refid="9160" relation="include">
+        <childnode refid="9152" relation="include">
+        </childnode>
+      </node>
+      <node id="9151">
+        <label>vector</label>
+      </node>
+      <node id="9148">
+        <label>sstream</label>
+      </node>
+      <node id="9146">
+        <label>deque</label>
+      </node>
+      <node id="9150">
+        <label>unordered_map</label>
+      </node>
+      <node id="9143">
+        <label>Tools/GenApi/Group.h</label>
+        <link refid="Group_8h"/>
+        <childnode refid="9144" relation="include">
+        </childnode>
+        <childnode refid="9156" relation="include">
+        </childnode>
+        <childnode refid="9145" relation="include">
+        </childnode>
+        <childnode refid="9154" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="9167">
+      <node id="9161">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="9166">
+      <node id="9160">
         <label>Tools/GenApi/Complex.cpp</label>
       </node>
-      <node id="9165">
+      <node id="9159">
         <label>Tools/GenApi/Complex.h</label>
-        <childnode refid="9166" relation="include">
+        <childnode refid="9160" relation="include">
         </childnode>
-        <childnode refid="9167" relation="include">
+        <childnode refid="9161" relation="include">
         </childnode>
       </node>
-      <node id="9168">
+      <node id="9162">
         <label>Tools/GenApi/Simple.h</label>
-        <childnode refid="9167" relation="include">
+        <childnode refid="9161" relation="include">
         </childnode>
-        <childnode refid="9169" relation="include">
+        <childnode refid="9163" relation="include">
         </childnode>
       </node>
-      <node id="9169">
+      <node id="9163">
         <label>Tools/GenApi/Simple.cpp</label>
       </node>
-      <node id="9170">
+      <node id="9164">
         <label>Tools/GenApi/Group.cpp</label>
       </node>
-      <node id="9164">
+      <node id="9158">
         <label>Tools/GenApi/Group.h</label>
         <link refid="Group_8h"/>
-        <childnode refid="9165" relation="include">
+        <childnode refid="9159" relation="include">
         </childnode>
-        <childnode refid="9168" relation="include">
+        <childnode refid="9162" relation="include">
         </childnode>
-        <childnode refid="9170" relation="include">
+        <childnode refid="9164" relation="include">
         </childnode>
-        <childnode refid="9169" relation="include">
+        <childnode refid="9163" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -242,9 +242,9 @@
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1a4e8dd1f4e16317ca926da1ec5e3a6592" kindref="member">setForeach</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1ab1a610ffab87fc4c30b58fbc6b81f778" kindref="member">addStringAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Representation of an xml tag&amp;#39;s attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1ab1a610ffab87fc4c30b58fbc6b81f778" kindref="member">addStringAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1a0ec10f2269dc9705c80d53d9124e3b8f" kindref="member">addIntegerAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Representation of an xml tag&amp;#39;s attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1a0ec10f2269dc9705c80d53d9124e3b8f" kindref="member">addIntegerAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1af1f857fb9ca4e94790b29de7ed0c3bde" kindref="member">addElement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1GenApi_1_1Element" kindref="compound">Element</ref>&amp;<sp/>element);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
@@ -254,7 +254,7 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1ab7373a29323cc8420720462ae2f55e2e" kindref="member">addGroup</ref>(<ref refid="classMdDox_1_1GenApi_1_1Group" kindref="compound">Group</ref>*<sp/>group);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1a58debcbe89901b51283db9008bcf40aa" kindref="member">addEnumAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Representation of an xml tag&amp;#39;s attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1GenApi_1_1Group_1a58debcbe89901b51283db9008bcf40aa" kindref="member">addEnumAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Xml_1_1Attribute" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
 <codeline lineno="110"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>

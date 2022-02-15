@@ -1,7 +1,6 @@
 <a id="site-layout"></a>
 <h1>Site Layout</h1>
 <a id="Site"></a>
-<a id="site-layout"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -34,7 +33,7 @@
 <a id="Site_1Details"></a>
 <a id="details"></a>
 <h2>Details</h2>
-<img src="../images/internal-diagram-1.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-1.dot.svg"/><br/>
 <br/>
 <a id="Site_1MainPage"></a>
 <a id="mainpage"></a>

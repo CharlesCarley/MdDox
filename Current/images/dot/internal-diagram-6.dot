@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ DtJuZGn[
+   shape    = none
+   label    = "DocumentWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qr9uZGn[
+   shape    = none
+   label    = "HtmlDocumentWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DD0uZGn[
+   shape    = none
+   label    = "MarkdownDocumentWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qr9uZGn->DD0uZGn
+ DtJuZGn->qr9uZGn
+}

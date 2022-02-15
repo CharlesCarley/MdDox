@@ -34,7 +34,7 @@
         <briefdescription>
 <para>Cleans the supplied title. </para>        </briefdescription>
         <detaileddescription>
-<para>Removes all binary resolution operators. Replaces white space and path separators with a dash. </para>        </detaileddescription>
+<para>Removes all binary resolution operators. Replaces white space and path separators with a dash. Converts the string to lowercase. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HashUtils.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="36" bodyend="45"/>

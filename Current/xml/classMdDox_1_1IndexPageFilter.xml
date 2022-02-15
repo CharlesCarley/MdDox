@@ -95,7 +95,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="106"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="107"/>
         <references refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" compoundref="Reference_8h" startline="54" endline="57">MdDox::Reference::setName</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" compoundref="CompoundIndexQuery_8cpp" startline="66" endline="73">MdDox::Doxygen::CompoundIndexQuery::getName</references>
         <references refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" compoundref="Reference_8h" startline="64" endline="67">MdDox::Reference::setReference</references>
@@ -172,7 +172,7 @@
         <label>vector&lt; Reference &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="42" bodyend="107"/>
+    <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="42" bodyend="108"/>
     <listofallmembers>
       <member refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" prot="public" virt="non-virtual"><scope>MdDox::IndexPageFilter</scope><name>classes</name></member>
       <member refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" prot="public" virt="non-virtual"><scope>MdDox::IndexPageFilter</scope><name>directories</name></member>

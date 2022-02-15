@@ -28,12 +28,43 @@
           <defval>&quot;&quot;</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructs the exception with a file, line and a message. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code to supply during a parse stage.<itemizedlist>
+<listitem><para>0 means syntax error.</para></listitem><listitem><para>1 means parse error.</para></listitem><listitem><para>2 means compile error. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file that contains the error. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line number of the error. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an extra message for the error.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+The message is formatted as: <computeroutput>file</computeroutput> (<computeroutput>line</computeroutput>) : <computeroutput>stage</computeroutput> : <computeroutput>message</computeroutput> </para><para>Does the actual message construction. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ParseError.h" line="33" column="1" bodyfile="Source/Utils/ParserBase/ParseError.cpp" bodystart="26" bodyend="43"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="38" column="1" bodyfile="Source/Utils/ParserBase/ParseError.cpp" bodystart="26" bodyend="46"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,12 +74,12 @@
         <argsstring>()</argsstring>
         <name>ParseError</name>
         <briefdescription>
-        </briefdescription>
+<para>Empty constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ParseError.h" line="38" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="38" bodyend="41"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="47" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParseError_1a42e6dc55c08f8f5c6306b9141257f01f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -60,12 +91,12 @@
           <declname>message</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructs a parse error without file and line information. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ParseError.h" line="43" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="43" bodyend="46"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="55" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParseError_1a95da33eda7926e7959fa5fdc667c89ac" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -96,7 +127,7 @@
 <parametername>stage</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>code to supply a parse stage.<itemizedlist>
+<para>The code to supply during a parse stage.<itemizedlist>
 <listitem><para>0 means syntax error.</para></listitem><listitem><para>1 means parse error.</para></listitem><listitem><para>2 means compile error. </para></listitem></itemizedlist>
 </para></parameterdescription>
 </parameteritem>
@@ -122,10 +153,10 @@
 <para>an extra message for the error.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-The message if formatted as: <computeroutput>file</computeroutput> (<computeroutput>line</computeroutput>) : <computeroutput>stage</computeroutput> : <computeroutput>message</computeroutput> </para>        </detaileddescription>
+The message is formatted as: <computeroutput>file</computeroutput> (<computeroutput>line</computeroutput>) : <computeroutput>stage</computeroutput> : <computeroutput>message</computeroutput> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ParseError.h" line="61" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="61" bodyend="67"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="73" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="73" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -166,7 +197,7 @@ The message if formatted as: <computeroutput>file</computeroutput> (<computerout
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/Utils/ParserBase/ParseError.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="30" bodyend="69"/>
+    <location file="Source/Utils/ParserBase/ParseError.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="30" bodyend="80"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Exception_1a985e384f9423e24326ace2ccb20acda8" prot="public" virt="non-virtual"><scope>MdDox::ParseError</scope><name>Exception</name></member>
       <member refid="classMdDox_1_1Exception_1a5c2d4b2bc9d1c63e5d44a30b5dbdf0e7" prot="public" virt="non-virtual"><scope>MdDox::ParseError</scope><name>Exception</name></member>

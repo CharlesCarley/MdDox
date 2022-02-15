@@ -1,7 +1,6 @@
 <a id="switch"></a>
 <h1>Switch</h1>
 <a id="structMdDox_1_1CommandLine_1_1Switch"></a>
-<a id="mddoxcommandlineswitch"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -19,36 +18,42 @@
 <br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
-<span class="icon-list-item"><a href="#argcount" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">argCount</span>
+<span class="icon-list-item"><a href="#argcount" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">argCount</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#description" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">description</span>
+<span class="icon-list-item"><a href="#description" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">description</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
+<span class="icon-list-item"><a href="#id" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">id</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#longswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">longSwitch</span>
+<span class="icon-list-item"><a href="#longswitch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">longSwitch</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#optional" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">optional</span>
+<span class="icon-list-item"><a href="#optional" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">optional</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#shortswitch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">shortSwitch</span>
+<span class="icon-list-item"><a href="#shortswitch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">shortSwitch</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
+</blockquote>
 <a id="argcount"></a>
 <h2>argCount</h2>
 <span class="inline-text">size_t</span>
@@ -59,7 +64,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L68" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -75,7 +80,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -90,7 +95,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L39" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -108,7 +113,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L53" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -123,7 +128,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L63" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>
@@ -140,7 +145,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L46" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
 <br/>

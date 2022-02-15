@@ -1,7 +1,6 @@
 <a id="doxcompoundkind"></a>
 <h1>DoxCompoundKind</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxCompoundKind"></a>
-<a id="mddoxdoxygendoxcompoundkind"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,16 +15,19 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">DoxCompoundKindEnum</a>
@@ -42,85 +44,85 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_class" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_CLASS</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_class" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_CLASS</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_interface" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_INTERFACE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_interface" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_INTERFACE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_namespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_NAMESPACE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_namespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_NAMESPACE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_struct" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_STRUCT</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_struct" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_STRUCT</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_service" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_SERVICE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_service" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_SERVICE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_union" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_UNION</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_union" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_UNION</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_protocol" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_PROTOCOL</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_protocol" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_PROTOCOL</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_category" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_CATEGORY</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_category" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_CATEGORY</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_page" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_PAGE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_page" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_PAGE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_exception" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_EXCEPTION</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_exception" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_EXCEPTION</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_singleton" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_SINGLETON</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_singleton" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_SINGLETON</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_module" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_MODULE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_module" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_MODULE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_file" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_FILE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_FILE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_group" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_GROUP</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_group" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_GROUP</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_example" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_EXAMPLE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_example" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_EXAMPLE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_dir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_DIR</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_dir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_DIR</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_invalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DCK_INVALID</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dck_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DCK_INVALID</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.cpp</span>
 </a>
 </span>
 <br/>

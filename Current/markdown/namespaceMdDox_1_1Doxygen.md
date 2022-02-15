@@ -1,7 +1,6 @@
 <a id="doxygen"></a>
 <h1>Doxygen</h1>
 <a id="namespaceMdDox_1_1Doxygen"></a>
-<a id="mddoxdoxygen"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -14,755 +13,755 @@
 <br/>
 <a id="namespaces"></a>
 <h2>Namespaces</h2>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#visitors" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Visitors</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#visitors" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Visitors</span>
 </a>
 </span>
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxAccessor.md#doxaccessor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxAccessor.md#doxaccessor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#doxbool" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#doxbool" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCharRange.md#doxcharrange" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCharRange.md#doxcharrange" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCompoundKind.md#doxcompoundkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCompoundKind.md#doxcompoundkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxGraphRelation.md#doxgraphrelation" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxGraphRelation.md#doxgraphrelation" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#doxhighlightclass" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#doxhighlightclass" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxImageKind.md#doximagekind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxImageKind.md#doximagekind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxLanguage.md#doxlanguage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxLanguage.md#doxlanguage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxMemberKind.md#doxmemberkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxMemberKind.md#doxmemberkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#doxparamdir" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#doxparamdir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamListKind.md#doxparamlistkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamListKind.md#doxparamlistkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxProtectionKind.md#doxprotectionkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxProtectionKind.md#doxprotectionkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefKind.md#doxrefkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefKind.md#doxrefkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind.md#doxrefqualifierkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind.md#doxrefqualifierkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSectionKind.md#doxsectionkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSectionKind.md#doxsectionkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind.md#doxsimplesectkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind.md#doxsimplesectkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVersionNumber.md#doxversionnumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVersionNumber.md#doxversionnumber" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVirtualKind.md#doxvirtualkind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVirtualKind.md#doxvirtualkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EntryQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EntryQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FileQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FileQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ImageQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ImageQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IncQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IncQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#linkquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#linkquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListingQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListingQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#locationquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#locationquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#paramlistitemquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListItemQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#paramlistitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListItemQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#paramnamequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#paramnamequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RowQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RowQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect1Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect1Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect2Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect2Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect4Query</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect4Query</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TableQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TableQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQuery</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQuery</span>
 </a>
 </span>
 <br/>
 <a id="global-variables"></a>
 <h2>Global Variables</h2>
-<span class="icon-list-item"><a href="#currenttags" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+<span class="icon-list-item"><a href="#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
 </a>
 </span>
 <br/>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#getfilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
+<span class="icon-list-item"><a href="#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#getfiltersize" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
+<span class="icon-list-item"><a href="#getfiltersize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#queryforeach" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">QueryForEach</span>
+<span class="icon-list-item"><a href="#queryforeach" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">QueryForEach</span>
 </a>
 </span>
 <br/>
 <a id="enums"></a>
 <h2>Enums</h2>
-<span class="icon-list-item"><a href="#doxaccessorenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessorEnum</span>
+<span class="icon-list-item"><a href="#doxaccessorenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessorEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxboolenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxBoolEnum</span>
+<span class="icon-list-item"><a href="#doxboolenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxBoolEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxcharrangeenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRangeEnum</span>
+<span class="icon-list-item"><a href="#doxcharrangeenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRangeEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxcompoundkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKindEnum</span>
+<span class="icon-list-item"><a href="#doxcompoundkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxgraphrelationenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelationEnum</span>
+<span class="icon-list-item"><a href="#doxgraphrelationenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelationEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxhighlightclassenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClassEnum</span>
+<span class="icon-list-item"><a href="#doxhighlightclassenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClassEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doximagekindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKindEnum</span>
+<span class="icon-list-item"><a href="#doximagekindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxlanguageenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguageEnum</span>
+<span class="icon-list-item"><a href="#doxlanguageenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguageEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxmemberkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKindEnum</span>
+<span class="icon-list-item"><a href="#doxmemberkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxparamdirenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDirEnum</span>
+<span class="icon-list-item"><a href="#doxparamdirenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDirEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxparamlistkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKindEnum</span>
+<span class="icon-list-item"><a href="#doxparamlistkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxprotectionkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKindEnum</span>
+<span class="icon-list-item"><a href="#doxprotectionkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxrefkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKindEnum</span>
+<span class="icon-list-item"><a href="#doxrefkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxrefqualifierkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKindEnum</span>
+<span class="icon-list-item"><a href="#doxrefqualifierkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxsectionkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKindEnum</span>
+<span class="icon-list-item"><a href="#doxsectionkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxsimplesectkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKindEnum</span>
+<span class="icon-list-item"><a href="#doxsimplesectkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxversionnumberenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumberEnum</span>
+<span class="icon-list-item"><a href="#doxversionnumberenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumberEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxvirtualkindenum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKindEnum</span>
+<span class="icon-list-item"><a href="#doxvirtualkindenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKindEnum</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#usedelements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UsedElements</span>
+<span class="icon-list-item"><a href="#usedelements" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">UsedElements</span>
 </a>
 </span>
 <br/>
 <a id="typedefs"></a>
 <h2>Typedefs</h2>
-<span class="icon-list-item"><a href="#anchorqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQueryFunction</span>
+<span class="icon-list-item"><a href="#anchorqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#blockquotequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryFunction</span>
+<span class="icon-list-item"><a href="#blockquotequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#captionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryFunction</span>
+<span class="icon-list-item"><a href="#captionqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#childnodequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQueryFunction</span>
+<span class="icon-list-item"><a href="#childnodequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#codelinequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQueryFunction</span>
+<span class="icon-list-item"><a href="#codelinequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#compounddefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQueryFunction</span>
+<span class="icon-list-item"><a href="#compounddefqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#compoundindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQueryFunction</span>
+<span class="icon-list-item"><a href="#compoundindexqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#compoundrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQueryFunction</span>
+<span class="icon-list-item"><a href="#compoundrefqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#copyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CopyQueryFunction</span>
+<span class="icon-list-item"><a href="#copyqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CopyQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#descriptionqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQueryFunction</span>
+<span class="icon-list-item"><a href="#descriptionqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxygenindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQueryFunction</span>
+<span class="icon-list-item"><a href="#doxygenindexqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#doxygenqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQueryFunction</span>
+<span class="icon-list-item"><a href="#doxygenqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#emptyqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQueryFunction</span>
+<span class="icon-list-item"><a href="#emptyqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#entryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EntryQueryFunction</span>
+<span class="icon-list-item"><a href="#entryqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EntryQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#enumvaluequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQueryFunction</span>
+<span class="icon-list-item"><a href="#enumvaluequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#filequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FileQueryFunction</span>
+<span class="icon-list-item"><a href="#filequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FileQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#formulaqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQueryFunction</span>
+<span class="icon-list-item"><a href="#formulaqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#graphqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphQueryFunction</span>
+<span class="icon-list-item"><a href="#graphqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#headingqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQueryFunction</span>
+<span class="icon-list-item"><a href="#headingqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#highlightqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQueryFunction</span>
+<span class="icon-list-item"><a href="#highlightqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#imagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ImageQueryFunction</span>
+<span class="icon-list-item"><a href="#imagequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ImageQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#incqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IncQueryFunction</span>
+<span class="icon-list-item"><a href="#incqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IncQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#indexentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQueryFunction</span>
+<span class="icon-list-item"><a href="#indexentryqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#internalqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalQueryFunction</span>
+<span class="icon-list-item"><a href="#internalqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#internals1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1QueryFunction</span>
+<span class="icon-list-item"><a href="#internals1queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#internals2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2QueryFunction</span>
+<span class="icon-list-item"><a href="#internals2queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#internals3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3QueryFunction</span>
+<span class="icon-list-item"><a href="#internals3queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#internals4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4QueryFunction</span>
+<span class="icon-list-item"><a href="#internals4queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#languagequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQueryFunction</span>
+<span class="icon-list-item"><a href="#languagequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#linkedtextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQueryFunction</span>
+<span class="icon-list-item"><a href="#linkedtextqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#linkqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkQueryFunction</span>
+<span class="icon-list-item"><a href="#linkqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#listingqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListingQueryFunction</span>
+<span class="icon-list-item"><a href="#listingqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListingQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#listitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQueryFunction</span>
+<span class="icon-list-item"><a href="#listitemqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#listofallmembersqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQueryFunction</span>
+<span class="icon-list-item"><a href="#listofallmembersqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#listqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListQueryFunction</span>
+<span class="icon-list-item"><a href="#listqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#locationqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LocationQueryFunction</span>
+<span class="icon-list-item"><a href="#locationqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocationQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#markupqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQueryFunction</span>
+<span class="icon-list-item"><a href="#markupqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#memberdefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQueryFunction</span>
+<span class="icon-list-item"><a href="#memberdefqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#memberindexqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQueryFunction</span>
+<span class="icon-list-item"><a href="#memberindexqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#memberrefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQueryFunction</span>
+<span class="icon-list-item"><a href="#memberrefqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#nodequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NodeQueryFunction</span>
+<span class="icon-list-item"><a href="#nodequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NodeQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramlistitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListItemQueryFunction</span>
+<span class="icon-list-item"><a href="#paramlistitemqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListItemQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQueryFunction</span>
+<span class="icon-list-item"><a href="#paramlistqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramnamelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQueryFunction</span>
+<span class="icon-list-item"><a href="#paramnamelistqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramnamequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQueryFunction</span>
+<span class="icon-list-item"><a href="#paramnamequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamQueryFunction</span>
+<span class="icon-list-item"><a href="#paramqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paramtypequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQueryFunction</span>
+<span class="icon-list-item"><a href="#paramtypequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paraqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParaQueryFunction</span>
+<span class="icon-list-item"><a href="#paraqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParaQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#parblockqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQueryFunction</span>
+<span class="icon-list-item"><a href="#parblockqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#referencequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQueryFunction</span>
+<span class="icon-list-item"><a href="#referencequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#refqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefQueryFunction</span>
+<span class="icon-list-item"><a href="#refqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reftextqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQueryFunction</span>
+<span class="icon-list-item"><a href="#reftextqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#reimplementqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQueryFunction</span>
+<span class="icon-list-item"><a href="#reimplementqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#rowqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RowQueryFunction</span>
+<span class="icon-list-item"><a href="#rowqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RowQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect1queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect1QueryFunction</span>
+<span class="icon-list-item"><a href="#sect1queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect1QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect2queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect2QueryFunction</span>
+<span class="icon-list-item"><a href="#sect2queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect2QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect3queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect3QueryFunction</span>
+<span class="icon-list-item"><a href="#sect3queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect3QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sect4queryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Sect4QueryFunction</span>
+<span class="icon-list-item"><a href="#sect4queryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect4QueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sectiondefqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQueryFunction</span>
+<span class="icon-list-item"><a href="#sectiondefqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#simplesectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQueryFunction</span>
+<span class="icon-list-item"><a href="#simplesectqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#sortmap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SortMap</span>
+<span class="icon-list-item"><a href="#sortmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SortMap</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#spqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SpQueryFunction</span>
+<span class="icon-list-item"><a href="#spqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SpQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#tablequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TableQueryFunction</span>
+<span class="icon-list-item"><a href="#tablequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TableQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#templateparamlistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQueryFunction</span>
+<span class="icon-list-item"><a href="#templateparamlistqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#titlequeryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TitleQueryFunction</span>
+<span class="icon-list-item"><a href="#titlequeryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TitleQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#tocitemqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQueryFunction</span>
+<span class="icon-list-item"><a href="#tocitemqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#toclistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TocListQueryFunction</span>
+<span class="icon-list-item"><a href="#toclistqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#urllinkqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQueryFunction</span>
+<span class="icon-list-item"><a href="#urllinkqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#variablelistqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQueryFunction</span>
+<span class="icon-list-item"><a href="#variablelistqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#varlistentryqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQueryFunction</span>
+<span class="icon-list-item"><a href="#varlistentryqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQueryFunction</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#xrefsectqueryfunction" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQueryFunction</span>
+<span class="icon-list-item"><a href="#xrefsectqueryfunction" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQueryFunction</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -774,7 +773,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -789,13 +788,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -808,13 +807,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -841,13 +840,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -857,31 +856,31 @@
 <span class="bold-text"><b>DoxAccessorEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_ASSIGN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_ASSIGN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_COPY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_COPY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_RETAIN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_RETAIN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_WEAK</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_WEAK</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_STRONG</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_STRONG</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DA_UNRETAINED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DA_UNRETAINED</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -903,7 +902,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxAccessor.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor.h</span>
 </a>
 </span>
 <br/>
@@ -913,15 +912,15 @@
 <span class="bold-text"><b>DoxBoolEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DB_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_YES</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DB_YES</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DB_NO</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DB_NO</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -939,7 +938,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxBool.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxBool.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool.h</span>
 </a>
 </span>
 <br/>
@@ -949,7 +948,7 @@
 <span class="bold-text"><b>DoxCharRangeEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCR_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCR_INVALID</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -966,7 +965,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCharRange.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCharRange.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange.h</span>
 </a>
 </span>
 <br/>
@@ -976,75 +975,75 @@
 <span class="bold-text"><b>DoxCompoundKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_CLASS</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_CLASS</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_INTERFACE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_INTERFACE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_NAMESPACE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_NAMESPACE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_STRUCT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_STRUCT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_SERVICE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_SERVICE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_UNION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_UNION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_PROTOCOL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_PROTOCOL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_CATEGORY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_CATEGORY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_PAGE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_PAGE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXCEPTION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_EXCEPTION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_SINGLETON</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_SINGLETON</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_MODULE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_MODULE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_FILE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_FILE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_GROUP</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_GROUP</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_EXAMPLE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_EXAMPLE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DCK_DIR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DCK_DIR</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1077,7 +1076,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCompoundKind.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind.h</span>
 </a>
 </span>
 <br/>
@@ -1087,35 +1086,35 @@
 <span class="bold-text"><b>DoxGraphRelationEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_TYPE_CONSTRAINT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_TYPE_CONSTRAINT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_INCLUDE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_INCLUDE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_USAGE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_USAGE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PRIVATE_INHERITANCE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_PRIVATE_INHERITANCE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_TEMPLATE_INSTANCE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_TEMPLATE_INSTANCE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PUBLIC_INHERITANCE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_PUBLIC_INHERITANCE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DGR_PROTECTED_INHERITANCE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DGR_PROTECTED_INHERITANCE</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1138,7 +1137,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L48" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
 </a>
 </span>
 <br/>
@@ -1148,39 +1147,39 @@
 <span class="bold-text"><b>DoxHighlightClassEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_COMMENT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_COMMENT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_PREPROCESSOR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_PREPROCESSOR</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_NORMAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_NORMAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_CHAR_LITERAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_CHAR_LITERAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_FLOW</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_KEYWORD_FLOW</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_KEYWORD_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_KEYWORD</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_KEYWORD</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DHC_STRINGLITERAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DHC_STRINGLITERAL</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1204,7 +1203,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L49" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
 </a>
 </span>
 <br/>
@@ -1214,19 +1213,19 @@
 <span class="bold-text"><b>DoxImageKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DIK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_HTML</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DIK_HTML</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_LATEX</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DIK_LATEX</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DIK_RTF</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DIK_RTF</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1245,7 +1244,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxImageKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxImageKind.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind.h</span>
 </a>
 </span>
 <br/>
@@ -1255,71 +1254,71 @@
 <span class="bold-text"><b>DoxLanguageEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_UNKNOWN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_UNKNOWN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_TCL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_TCL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_IDL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_IDL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_OBJECTIVE_C</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_OBJECTIVE_C</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVA</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_JAVA</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_D</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_D</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_CSHARP</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_CSHARP</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_PHP</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_PHP</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_CPLUSPLUS</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_CPLUSPLUS</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_JAVASCRIPT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_JAVASCRIPT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_PYTHON</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_PYTHON</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_FORTRAN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_FORTRAN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_VHDL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_VHDL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_XML</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_XML</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_SQL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_SQL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DL_MARKDOWN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DL_MARKDOWN</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1351,7 +1350,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxLanguage.h#L57" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxLanguage.h#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
 </a>
 </span>
 <br/>
@@ -1361,63 +1360,63 @@
 <span class="bold-text"><b>DoxMemberKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_DEFINE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_DEFINE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_ENUM</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_ENUM</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROPERTY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_PROPERTY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_EVENT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_EVENT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_VARIABLE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_VARIABLE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_TYPEDEF</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_TYPEDEF</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_FUNCTION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_FUNCTION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SIGNAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_SIGNAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_PROTOTYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_PROTOTYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_FRIEND</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_FRIEND</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_DCOP</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_DCOP</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SLOT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_SLOT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_INTERFACE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_INTERFACE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DMK_SERVICE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DMK_SERVICE</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1447,7 +1446,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxMemberKind.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind.h</span>
 </a>
 </span>
 <br/>
@@ -1457,19 +1456,19 @@
 <span class="bold-text"><b>DoxParamDirEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPD_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_IN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPD_IN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_OUT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPD_OUT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPD_INOUT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPD_INOUT</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1488,7 +1487,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxParamDir.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxParamDir.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir.h</span>
 </a>
 </span>
 <br/>
@@ -1498,23 +1497,23 @@
 <span class="bold-text"><b>DoxParamListKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPLK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_PARAM</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPLK_PARAM</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_RET_VAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPLK_RET_VAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_EXCEPTION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPLK_EXCEPTION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPLK_TEMPLATE_PARAM</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPLK_TEMPLATE_PARAM</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1534,7 +1533,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxParamListKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxParamListKind.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind.h</span>
 </a>
 </span>
 <br/>
@@ -1544,23 +1543,23 @@
 <span class="bold-text"><b>DoxProtectionKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PUBLIC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPK_PUBLIC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PROTECTED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPK_PROTECTED</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PRIVATE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPK_PRIVATE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DPK_PACKAGE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DPK_PACKAGE</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1580,7 +1579,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxProtectionKind.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxProtectionKind.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind.h</span>
 </a>
 </span>
 <br/>
@@ -1590,15 +1589,15 @@
 <span class="bold-text"><b>DoxRefKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_COMPOUND</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRK_COMPOUND</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRK_MEMBER</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRK_MEMBER</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1616,7 +1615,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxRefKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxRefKind.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind.h</span>
 </a>
 </span>
 <br/>
@@ -1626,15 +1625,15 @@
 <span class="bold-text"><b>DoxRefQualifierKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRQK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_LVALUE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRQK_LVALUE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DRQK_RVALUE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DRQK_RVALUE</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1652,7 +1651,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxRefQualifierKind.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxRefQualifierKind.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
 </a>
 </span>
 <br/>
@@ -1662,151 +1661,151 @@
 <span class="bold-text"><b>DoxSectionKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_USER_DEFINED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_USER_DEFINED</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_SLOT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_SLOT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PACKAGE_STATIC_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_SIGNAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_SIGNAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROPERTY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROPERTY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_DCOP_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_DCOP_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_SLOT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_SLOT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_EVENT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_EVENT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_TYPEDEF</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_TYPEDEF</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PACKAGE_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PUBLIC_STATIC_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_RELATED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_RELATED</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_SLOT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_SLOT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTECTED_STATIC_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_DEFINE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_DEFINE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PACKAGE_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PACKAGE_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PACKAGE_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_TYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_TYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_FUNC</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_FUNC</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_ATTRIB</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_ATTRIB</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_FRIEND</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_FRIEND</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_PROTOTYPE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PROTOTYPE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_ENUM</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_ENUM</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_VAR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_VAR</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_INVALID</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1858,7 +1857,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSectionKind.h#L77" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSectionKind.h#L77" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
 </a>
 </span>
 <br/>
@@ -1868,75 +1867,75 @@
 <span class="bold-text"><b>DoxSimpleSectKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SEE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_SEE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_VERSION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_VERSION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RETURN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_RETURN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHORS</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_AUTHORS</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_AUTHOR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_AUTHOR</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_SINCE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_SINCE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_NOTE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_NOTE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_ATTENTION</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_ATTENTION</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_DATE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_DATE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_WARNING</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_WARNING</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PRE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_PRE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_POST</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_POST</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_COPYRIGHT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_COPYRIGHT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_INVARIANT</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_INVARIANT</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_REMARK</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_REMARK</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_PAR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_PAR</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DSSK_RCS</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSSK_RCS</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1969,7 +1968,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSimpleSectKind.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSimpleSectKind.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
 </a>
 </span>
 <br/>
@@ -1979,7 +1978,7 @@
 <span class="bold-text"><b>DoxVersionNumberEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVN_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DVN_INVALID</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -1996,7 +1995,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVersionNumber.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVersionNumber.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber.h</span>
 </a>
 </span>
 <br/>
@@ -2006,19 +2005,19 @@
 <span class="bold-text"><b>DoxVirtualKindEnum</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_INVALID</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DVK_INVALID</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_NON_VIRTUAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DVK_NON_VIRTUAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_VIRTUAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DVK_VIRTUAL</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DVK_PURE_VIRTUAL</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DVK_PURE_VIRTUAL</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -2037,7 +2036,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVirtualKind.h#L44" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVirtualKind.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind.h</span>
 </a>
 </span>
 <br/>
@@ -2047,452 +2046,452 @@
 <span class="bold-text"><b>UsedElements</b></span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTextNode</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTextNode</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxAnchor</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxAnchor</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArgString</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxArgString</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxArray</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxArray</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxBaseCompoundRef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBlockQuote</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxBlockQuote</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBold</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxBold</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxBriefDescription</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxBriefDescription</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCaption</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCaption</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCenter</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCenter</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxChildNode</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxChildNode</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCodeLine</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCodeLine</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCollaborationGraph</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCollaborationGraph</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundDef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCompoundDef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompound</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCompound</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxCompoundName</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxCompoundName</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxComputerOutput</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxComputerOutput</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDeclName</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDeclName</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefinition</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDefinition</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefName</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDefName</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDefVal</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDefVal</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDerivedCompoundRef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDescription</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDescription</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDetailedDescription</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDetailedDescription</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDot</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDot</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDotFile</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDotFile</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygen</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDoxygen</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxDoxygenIndex</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxDoxygenIndex</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEdgeLabel</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxEdgeLabel</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEmphasis</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxEmphasis</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEntry</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxEntry</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxEnumValue</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxEnumValue</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxExceptions</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxExceptions</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeader</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxHeader</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHeading</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxHeading</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHighlight</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxHighlight</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxHruler</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxHruler</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxImage</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxImage</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInBodyDescription</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInBodyDescription</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncDepGraph</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxIncDepGraph</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludedBy</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxIncludedBy</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIncludes</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxIncludes</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxIndexEntry</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxIndexEntry</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInheritanceGraph</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInheritanceGraph</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInitializer</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInitializer</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerclass</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerclass</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerDir</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerDir</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerFile</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerFile</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerGroup</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerGroup</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerNamespace</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerNamespace</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInnerPage</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInnerPage</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInt</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInt</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInternal</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInternal</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxInvIncDepGraph</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxItemizedList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxItemizedList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLabel</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLabel</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLang</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLang</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLanguage</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLanguage</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLineBreak</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLineBreak</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLink</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLink</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListItem</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxListItem</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxListOfAllMembers</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxListOfAllMembers</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxLocation</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxLocation</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMember</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxMember</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxMemberDef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxMemberDef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxName</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxName</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxNode</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxNode</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxOrderedList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxOrderedList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPara</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxPara</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParam</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParam</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterDescription</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterDescription</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterItem</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterItem</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterName</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterName</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterNameList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterNameList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParameterType</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParameterType</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxParBlock</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxParBlock</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPart</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxPart</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxPreFormatted</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxPreFormatted</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProd</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxProd</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProgramListing</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxProgramListing</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxProp</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxProp</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxRef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferencedBy</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxReferencedBy</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReferences</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxReferences</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxRegistered</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxRegistered</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplementedBy</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxReImplementedBy</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxReImplements</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxReImplements</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxScope</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxScope</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSect</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect1</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSect1</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect2</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSect2</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect3</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSect3</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSect4</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSect4</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSectionDef</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSectionDef</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSimpleSect</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSimpleSect</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSmall</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSmall</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxSp</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxSp</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTable</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTable</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTableOfContents</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTableOfContents</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocItem</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTocItem</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTocList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTocList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTemplateParamList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTemplateParamList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxTitle</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTitle</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxType</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxType</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUlink</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxUlink</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVariableList</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxVariableList</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVarListEntry</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxVarListEntry</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxVerbatim</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxVerbatim</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxWrite</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxWrite</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">DoxUndefined</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxUndefined</span>
 </span>
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.h</span>
 </a>
 </span>
 <br/>
@@ -2506,7 +2505,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2520,7 +2519,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L175" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2534,7 +2533,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2548,7 +2547,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L143" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L143" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2562,7 +2561,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2576,7 +2575,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L114" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2590,7 +2589,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2604,7 +2603,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L106" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2618,7 +2617,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2632,7 +2631,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2646,7 +2645,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2660,7 +2659,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L113" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2674,7 +2673,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2688,7 +2687,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L164" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2702,7 +2701,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2716,7 +2715,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L167" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2730,7 +2729,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2744,7 +2743,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L122" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2758,7 +2757,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2772,7 +2771,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L148" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2786,7 +2785,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2800,7 +2799,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L121" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2814,7 +2813,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2828,7 +2827,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L134" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2842,7 +2841,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2856,7 +2855,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L132" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2870,7 +2869,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2884,7 +2883,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L138" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2898,7 +2897,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2912,7 +2911,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2926,7 +2925,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L145" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2940,7 +2939,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L146" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L146" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2954,7 +2953,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2968,7 +2967,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L117" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2982,7 +2981,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -2996,7 +2995,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L153" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L153" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3010,7 +3009,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L159" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L159" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3024,7 +3023,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L129" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3038,7 +3037,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3052,7 +3051,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L119" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3066,7 +3065,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3080,7 +3079,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L170" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3094,7 +3093,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3108,7 +3107,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L158" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3122,7 +3121,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L172" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L172" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3136,7 +3135,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L137" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3150,7 +3149,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3164,7 +3163,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L157" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3178,7 +3177,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3192,7 +3191,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L152" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3206,7 +3205,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3220,7 +3219,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L108" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3234,7 +3233,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3248,7 +3247,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L162" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3262,7 +3261,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3276,7 +3275,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L135" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3290,7 +3289,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3304,7 +3303,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L154" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3318,7 +3317,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3332,7 +3331,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L118" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3344,7 +3343,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3358,7 +3357,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L151" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3372,7 +3371,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3386,7 +3385,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L136" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3400,7 +3399,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3414,7 +3413,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L150" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3428,7 +3427,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3442,7 +3441,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L149" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3456,7 +3455,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3470,7 +3469,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L128" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>
@@ -3484,7 +3483,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>

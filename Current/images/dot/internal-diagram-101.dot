@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ dddIZGn[
+   shape    = none
+   label    = "Writer"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WItIZGn[
+   shape    = none
+   label    = "Object"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dUtIZGn[
+   shape    = none
+   label    = "Simple"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WItIZGn->dUtIZGn
+ dddIZGn->WItIZGn
+}

@@ -76,13 +76,13 @@ namespace MdDox
         if (title.empty())
         {
             // ref.getName is the same as query.getCompoundName
-            // except that it is the string that was referenced out
-            // of the index.
+            // except that it is the string that was copied out of
+        	// the index.
             title = _ref.getName();
         }
-        _writer->beginDocument(_out, LinkUtils::lastBinaryResolution(title));
-        _writer->anchor(_out, _ref.getReference());
-        _writer->anchor(_out, HashUtils::cleanTitle(title));
+
+    	_writer->beginDocument(_out, LinkUtils::lastBinaryResolution(title));
+    	_writer->anchor(_out, query.getId());
     }
 
     void PageWriter::endDocument(const Doxygen::CompoundDefQuery&)
@@ -114,11 +114,11 @@ namespace MdDox
             _out.close();
 
         PathUtil path(_outDir);
-
     	path.fileName(StringCombine(_ref.getReference(), SiteBuilder::get().outputFileExt));
-        _out.open(path.fullPath());
+
+    	_out.open(path.fullPath());
     	if (!_out.is_open())
-            throw InputException("Failed to open output file '", path.fullPath(), "'");
+            throw InputException("Failed to open the output file: '", path.fullPath(), "'");
 
         const Doxygen::CompoundDefQuery query(
             doxygen.node()->getFirstChild(Doxygen::DoxCompoundDef));

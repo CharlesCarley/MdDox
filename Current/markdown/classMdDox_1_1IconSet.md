@@ -1,7 +1,6 @@
 <a id="iconset"></a>
 <h1>IconSet</h1>
 <a id="classMdDox_1_1IconSet"></a>
-<a id="mddoxiconset"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -17,7 +16,7 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#filename" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">fileName</span>
+<span class="icon-list-item"><a href="#filename" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fileName</span>
 </a>
 </span>
 <br/>
@@ -27,12 +26,16 @@
 <h4>See</h4>
 <a href="Image.md#image-handling">Image handling</a>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="filename"></a>
 <h2>fileName</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -61,85 +64,73 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_back" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_BACK</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_back" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_BACK</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_debug" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_DEBUG</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_debug" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_DEBUG</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_file" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_FILE</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_FILE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_folder" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_FOLDER</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_folder" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_FOLDER</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_home" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_HOME</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_home" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_HOME</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_h_space_12" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_H_SPACE_12</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_h_space_12" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_H_SPACE_12</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_h_space_24" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_H_SPACE_24</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_h_space_24" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_H_SPACE_24</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_jump_to_top" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_JUMP_TO_TOP</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_jump_to_top" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_JUMP_TO_TOP</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_link" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_LINK</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_link" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_LINK</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_link_sm" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_LINK_SM</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_code_behind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_CODE_BEHIND</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_code_behind" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_CODE_BEHIND</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_enum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_ENUM</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_enum" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_ENUM</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_class" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_CLASS</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_iso_bar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_ISO_BAR</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_var_private" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_VAR_PRIVATE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_sep_bar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_SEP_BAR</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_namespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_NAMESPACE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_class" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_CLASS</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_var_private" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_VAR_PRIVATE</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_namespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_NAMESPACE</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#ico_none" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ICO_NONE</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#ico_none" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ICO_NONE</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.cpp#L27" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.cpp</span>
 </a>
 </span>
 <br/>

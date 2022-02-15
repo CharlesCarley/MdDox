@@ -30,16 +30,28 @@ namespace MdDox
     class ParseError final : public Exception
     {
     private:
+        /**
+    	 * @copydoc MdDox::ParseError::ParseError(const int stage, const String &file, const size_t line, const String &message)
+    	 *
+    	 * Does the actual message construction.
+    	 */
         static String getError(int           stage,
                                const String& file,
                                const size_t& line,
                                const String& message = "");
+
     public:
+        /**
+         * \brief Empty constructor.
+         */
         explicit ParseError() :
-            Exception(getError(-1, "", 0))
+            Exception("")
         {
         }
 
+        /**
+         * \brief Constructs a parse error without file and line information.
+         */
         explicit ParseError(const String& message) :
             Exception(getError(-1, "", 0, message))
         {
@@ -47,7 +59,7 @@ namespace MdDox
 
         /**
          * \brief Constructs the exception with a file, line and a message.
-         * \param stage code to supply a parse stage.
+         * \param stage The code to supply during a parse stage.
          * - 0 means syntax error.
          * - 1 means parse error.
          * - 2 means compile error.
@@ -55,7 +67,7 @@ namespace MdDox
          * \param line The line number of the error.
          * \param message an extra message for the error.
          *
-         * The message if formatted as:
+         * The message is formatted as:
          * \c file  (\c line) : \c stage : \c message
          */
         explicit ParseError(const int     stage,
@@ -65,6 +77,6 @@ namespace MdDox
             Exception(getError(stage, file, line, message))
         {
         }
-
     };
-} // namespace Hack
+
+}  // namespace MdDox

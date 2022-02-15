@@ -78,8 +78,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedCollaborationGraph</definition>
         <argsstring>(const GraphQuery &amp;query)</argsstring>
         <name>visitedCollaborationGraph</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a90ff00c61ac325a498e2cba6263dd0d1">visitedCollaborationGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a5b80da8a8547f5b15966d08a997eff9a">visitedCollaborationGraph</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a90ff00c61ac325a498e2cba6263dd0d1">visitedCollaborationGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a68191ccfc34c20484f98b77fda083fdb">visitedCollaborationGraph</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
@@ -189,8 +189,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedIncDepGraph</definition>
         <argsstring>(const GraphQuery &amp;query)</argsstring>
         <name>visitedIncDepGraph</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aaff91c77819ce7f373b8da20cd37baff">visitedIncDepGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a9f313f16a5105f0bff0f09b6ffdf74a8">visitedIncDepGraph</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aaff91c77819ce7f373b8da20cd37baff">visitedIncDepGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a1c912fc3b72cb3de0c5bba914324e785">visitedIncDepGraph</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
@@ -273,8 +273,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInheritanceGraph</definition>
         <argsstring>(const GraphQuery &amp;query)</argsstring>
         <name>visitedInheritanceGraph</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ad47c8fff43abb341d839177976b58cf8">visitedInheritanceGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1ac7811400097404d8d21063422b48dd8b">visitedInheritanceGraph</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ad47c8fff43abb341d839177976b58cf8">visitedInheritanceGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a94cab53da455ccc7afd5c9f6ea13c249">visitedInheritanceGraph</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
@@ -386,8 +386,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerGroup</definition>
         <argsstring>(const RefQuery &amp;query)</argsstring>
         <name>visitedInnerGroup</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aaaa0e4826183bce9161e55db8bb2281d">visitedInnerGroup</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1adaaae97bcba75233e4c2d302926d76b1">visitedInnerGroup</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aaaa0e4826183bce9161e55db8bb2281d">visitedInnerGroup</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1ac5f21092b2d8ee855b8a44e8b100d157">visitedInnerGroup</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">RefQuery</ref> &amp;</type>
@@ -443,8 +443,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerPage</definition>
         <argsstring>(const RefQuery &amp;query)</argsstring>
         <name>visitedInnerPage</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aeb118d47ff48eacd451b2f4e7a918887">visitedInnerPage</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1addd339c6b74e27b2ee537474a3d3e7b1">visitedInnerPage</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1aeb118d47ff48eacd451b2f4e7a918887">visitedInnerPage</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1ae4283d4f1efbc53b3e040f6e5109ca99">visitedInnerPage</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">RefQuery</ref> &amp;</type>
@@ -471,8 +471,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInvIncDepGraph</definition>
         <argsstring>(const GraphQuery &amp;query)</argsstring>
         <name>visitedInvIncDepGraph</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a86cb60f56ceaebca80bfca23ca50bc0c">visitedInvIncDepGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a36651f0a2dd4f8a6abaf38ef277bc7e8">visitedInvIncDepGraph</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a86cb60f56ceaebca80bfca23ca50bc0c">visitedInvIncDepGraph</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a6ed38d2fb32ff5428e07d3ca6ba85bfc">visitedInvIncDepGraph</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;</type>
@@ -500,7 +500,6 @@
         <argsstring>(const ListOfAllMembersQuery &amp;query)</argsstring>
         <name>visitedListOfAllMembers</name>
         <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a6b299ae6d4e95b28280b2022b0e84423">visitedListOfAllMembers</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a956e9403f022d33d69a6ac857c03fe5f">visitedListOfAllMembers</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a8ec8fa000e7a3dbd248545d6af57f746">visitedListOfAllMembers</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref> &amp;</type>
@@ -528,8 +527,8 @@
         <argsstring>(const LocationQuery &amp;query)</argsstring>
         <name>visitedLocation</name>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a1cbe3eeef65bbf3b4f170629f27c794c">visitedLocation</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1af234628f079075f8b6d3d7a3cdb89084">visitedLocation</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a5d3fc55feded32356046c2fdfe6711de">visitedLocation</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1af234628f079075f8b6d3d7a3cdb89084">visitedLocation</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -555,8 +554,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedProgramListing</definition>
         <argsstring>(const ListingQuery &amp;query)</argsstring>
         <name>visitedProgramListing</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ac63fedebca9aa1748bc1914111ae0920">visitedProgramListing</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a0dd7ffa920914e52007d3216a3b65cf2">visitedProgramListing</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ac63fedebca9aa1748bc1914111ae0920">visitedProgramListing</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a8943444f0ff9fe29ad6df4c327ebccd3">visitedProgramListing</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;</type>
@@ -610,8 +609,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTableOfContents</definition>
         <argsstring>(const String &amp;text)</argsstring>
         <name>visitedTableOfContents</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abc29545b7ed06962e5b73bbeef4d3444">visitedTableOfContents</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a8d7c06dcdc567be33ac5fd941b361753">visitedTableOfContents</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abc29545b7ed06962e5b73bbeef4d3444">visitedTableOfContents</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a870033ff35fe2dec4e241a41af530a57">visitedTableOfContents</reimplementedby>
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -638,8 +637,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTemplateParamList</definition>
         <argsstring>(const TemplateParamListQuery &amp;query)</argsstring>
         <name>visitedTemplateParamList</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abbb1919ed57bbfae8afb8217cf94a6fd">visitedTemplateParamList</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a113b00d9671b56d5f239d7b9b5726683">visitedTemplateParamList</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abbb1919ed57bbfae8afb8217cf94a6fd">visitedTemplateParamList</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1aed1af1c5d618401e0af40578b1f07e09">visitedTemplateParamList</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref> &amp;</type>
@@ -682,8 +681,8 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTitle</definition>
         <argsstring>(const String &amp;text)</argsstring>
         <name>visitedTitle</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abed5229c3f96fcb96a7891f4b3d38998">visitedTitle</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1ae70d5a14e9f16b0c1d471a6058cff704">visitedTitle</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1abed5229c3f96fcb96a7891f4b3d38998">visitedTitle</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1afdf1634b69331c8949dd9a5e61bfc886">visitedTitle</reimplementedby>
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>

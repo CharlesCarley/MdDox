@@ -1,7 +1,6 @@
 <a id="md"></a>
 <h1>Md</h1>
 <a id="namespaceMdDox_1_1Md"></a>
-<a id="mddoxmd"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -19,121 +18,121 @@
 </ul>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#addhash" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addHash</span>
+<span class="icon-list-item"><a href="#addhash" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addHash</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#beginblockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginBlockQuote</span>
+<span class="icon-list-item"><a href="#beginblockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginBlockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#beginlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginList</span>
+<span class="icon-list-item"><a href="#beginlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#beginlistitem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginListItem</span>
+<span class="icon-list-item"><a href="#beginlistitem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginListItem</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#beginparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
+<span class="icon-list-item"><a href="#beginparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#blockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">blockQuote</span>
+<span class="icon-list-item"><a href="#blockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">blockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#boldtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
+<span class="icon-list-item"><a href="#boldtext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#bullet" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">bullet</span>
+<span class="icon-list-item"><a href="#bullet" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">bullet</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#code" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">code</span>
+<span class="icon-list-item"><a href="#code" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">code</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#embedcontent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContent</span>
+<span class="icon-list-item"><a href="#embedcontent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#embedcontentlink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLink</span>
+<span class="icon-list-item"><a href="#embedcontentlink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#embedimage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedImage</span>
+<span class="icon-list-item"><a href="#embedimage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedImage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#embedlinkcontentpoint" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedLinkContentPoint</span>
+<span class="icon-list-item"><a href="#embedlinkcontentpoint" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedLinkContentPoint</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#endblockquote" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endBlockQuote</span>
+<span class="icon-list-item"><a href="#endblockquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endBlockQuote</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#endlist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endList</span>
+<span class="icon-list-item"><a href="#endlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#endlistitem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endListItem</span>
+<span class="icon-list-item"><a href="#endlistitem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endListItem</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#endparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endParagraph</span>
+<span class="icon-list-item"><a href="#endparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#heading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
+<span class="icon-list-item"><a href="#heading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#horizontalrule" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">horizontalRule</span>
+<span class="icon-list-item"><a href="#horizontalrule" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">horizontalRule</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#inlinetext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+<span class="icon-list-item"><a href="#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#italictext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">italicText</span>
+<span class="icon-list-item"><a href="#italictext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">italicText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#linkimage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkImage</span>
+<span class="icon-list-item"><a href="#linkimage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkImage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#linkref" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkRef</span>
+<span class="icon-list-item"><a href="#linkref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkRef</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#paragraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">paragraph</span>
+<span class="icon-list-item"><a href="#paragraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">paragraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#space" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">space</span>
+<span class="icon-list-item"><a href="#space" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">space</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#typewritertext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typewriterText</span>
+<span class="icon-list-item"><a href="#typewritertext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">typewriterText</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -156,13 +155,13 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#space" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">space</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#space" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">space</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -193,7 +192,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L78" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -212,7 +211,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L98" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -243,7 +242,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L108" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L108" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -274,7 +273,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -298,7 +297,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -324,7 +323,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L171" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -348,7 +347,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L64" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -403,7 +402,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L118" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L118" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -434,7 +433,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L210" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L210" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -472,7 +471,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L215" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L215" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -506,7 +505,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L200" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L200" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -551,7 +550,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L226" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -582,7 +581,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L83" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -601,7 +600,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L103" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L103" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -632,7 +631,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L113" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L113" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -663,7 +662,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L93" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L93" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -714,17 +713,17 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#addhash" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">addHash</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#addhash" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">addHash</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -755,7 +754,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L132" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L132" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -781,7 +780,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L137" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L137" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -807,7 +806,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L181" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L181" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -840,7 +839,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -880,7 +879,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L191" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L191" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -920,7 +919,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L237" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L237" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -960,7 +959,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -986,7 +985,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L127" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -1010,7 +1009,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -1036,7 +1035,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L161" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MarkdownCommandWriter.cpp#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownCommandWriter.cpp</span>
 </a>
 </span>
 <br/>

@@ -1,0 +1,35 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ DW9gZGn[
+   shape    = none
+   label    = "DoxygenIndexQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ qa9gZGn[
+   shape    = none
+   label    = "IndexPageFilter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ Dx9gZGn[
+   shape    = none
+   label    = "IndexPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ DW9gZGn->qa9gZGn
+ DW9gZGn->Dx9gZGn
+}

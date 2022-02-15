@@ -5,40 +5,39 @@
 
 <b>Image handling information.</b><br/>
 
-Application icons and other images are pulled directly from the source code comment and output in-line with the current document.
-
+Application icons and other images are pulled directly from the source code comment and output
+in-line with the current document.
+<br/>
 For example, the following shows the current set of navigation icons.
 
 <blockquote>
-\image html sideBar.svg
+\image html back.svg
 \image html horSpace24px.svg
-\image html back18px.svg
+\image html error.svg
 \image html horSpace24px.svg
-\image html error18px.svg
+\image html folder.svg
 \image html horSpace24px.svg
-\image html folder18px.svg
+\image html home.svg
 \image html horSpace24px.svg
-\image html home18px.svg
+\image html enum.svg
 \image html horSpace24px.svg
-\image html link18px.svg
+\image html jumpToTop.svg
 \image html horSpace24px.svg
-\image html jumpToTop18px.svg
+\image html debug.svg
 \image html horSpace24px.svg
-\image html debug24px.svg
+\image html file.svg
 \image html horSpace24px.svg
-\image html file24px.svg
+\image html link.svg
 \image html horSpace24px.svg
-\image html link24px.svg
+\image html lookInside.svg
 \image html horSpace24px.svg
-\image html lookInside24px.svg
+\image html class.svg
 \image html horSpace24px.svg
-\image html class24px.svg
-\image html horSpace24px.svg
-\image html namespace24px.svg
+\image html namespace.svg
 </blockquote>
-> The command <tt>\\image html [file-stem.file-extension]</tt> embeds the image. <br/>
-> A common gray color with the value: \c #828EA0FF allows a seamless transition with different GitHub themes.
 
+
+The command <tt>\\image html [file-stem.file-extension]</tt> embeds the image. <br/>
 Icons are expected to be in the <a href="../images">images</a> directory.
 
 \section Internal Icons

@@ -39,14 +39,11 @@ namespace MdDox
         ICO_H_SPACE_24,
         ICO_JUMP_TO_TOP,
         ICO_LINK,
-        ICO_LINK_SM,
         ICO_CODE_BEHIND,
-        ICO_ISO_BAR,
         ICO_CLASS,
         ICO_ENUM,
         ICO_VAR_PRIVATE,
-        ICO_NAMESPACE,
-        ICO_SEP_BAR,
+        ICO_NAMESPACE
     };
 
     /**

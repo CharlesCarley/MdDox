@@ -1,7 +1,6 @@
 <a id="writeutils"></a>
 <h1>WriteUtils</h1>
 <a id="namespaceMdDox_1_1WriteUtils"></a>
-<a id="mddoxwriteutils"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -14,29 +13,29 @@
 <br/>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
+<span class="icon-list-item"><a href="#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#next" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
+<span class="icon-list-item"><a href="#next" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">next</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
+<span class="icon-list-item"><a href="#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+<span class="icon-list-item"><a href="#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>
@@ -59,7 +58,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L29" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>
@@ -83,7 +82,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>
@@ -107,17 +106,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L43" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>
@@ -146,17 +145,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L50" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>
@@ -190,17 +189,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#newline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">newLine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L58" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TextStreamWriter.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TextStreamWriter.h</span>
 </a>
 </span>
 <br/>

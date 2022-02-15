@@ -4,18 +4,47 @@
     <compoundname>ParseError.cpp</compoundname>
     <includes refid="ParseError_8h" local="yes">Utils/ParserBase/ParseError.h</includes>
     <incdepgraph>
-      <node id="3311">
-        <label>Utils/Console.h</label>
-        <childnode refid="3312" relation="include">
-        </childnode>
-      </node>
-      <node id="3319">
-        <label>iomanip</label>
-      </node>
       <node id="3307">
-        <label>Utils/Exception.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="3308" relation="include">
         </childnode>
+      </node>
+      <node id="3315">
+        <label>iomanip</label>
+      </node>
+      <node id="3303">
+        <label>Utils/Exception.h</label>
+        <childnode refid="3304" relation="include">
+        </childnode>
+        <childnode refid="3305" relation="include">
+        </childnode>
+        <childnode refid="3306" relation="include">
+        </childnode>
+        <childnode refid="3307" relation="include">
+        </childnode>
+        <childnode refid="3308" relation="include">
+        </childnode>
+      </node>
+      <node id="3305">
+        <label>stdexcept</label>
+      </node>
+      <node id="3312">
+        <label>string</label>
+      </node>
+      <node id="3301">
+        <label>Source/Utils/ParserBase/ParseError.cpp</label>
+        <link refid="ParseError_8cpp"/>
+        <childnode refid="3302" relation="include">
+        </childnode>
+      </node>
+      <node id="3304">
+        <label>exception</label>
+      </node>
+      <node id="3310">
+        <label>fstream</label>
+      </node>
+      <node id="3308">
+        <label>Utils/String.h</label>
         <childnode refid="3309" relation="include">
         </childnode>
         <childnode refid="3310" relation="include">
@@ -24,60 +53,31 @@
         </childnode>
         <childnode refid="3312" relation="include">
         </childnode>
-      </node>
-      <node id="3309">
-        <label>stdexcept</label>
-      </node>
-      <node id="3316">
-        <label>string</label>
-      </node>
-      <node id="3305">
-        <label>Source/Utils/ParserBase/ParseError.cpp</label>
-        <link refid="ParseError_8cpp"/>
-        <childnode refid="3306" relation="include">
-        </childnode>
-      </node>
-      <node id="3308">
-        <label>exception</label>
-      </node>
-      <node id="3314">
-        <label>fstream</label>
-      </node>
-      <node id="3312">
-        <label>Utils/String.h</label>
         <childnode refid="3313" relation="include">
         </childnode>
         <childnode refid="3314" relation="include">
         </childnode>
         <childnode refid="3315" relation="include">
         </childnode>
-        <childnode refid="3316" relation="include">
-        </childnode>
-        <childnode refid="3317" relation="include">
-        </childnode>
-        <childnode refid="3318" relation="include">
-        </childnode>
-        <childnode refid="3319" relation="include">
-        </childnode>
       </node>
-      <node id="3318">
+      <node id="3314">
         <label>vector</label>
       </node>
-      <node id="3310">
+      <node id="3306">
         <label>utility</label>
       </node>
-      <node id="3315">
+      <node id="3311">
         <label>sstream</label>
       </node>
-      <node id="3306">
+      <node id="3302">
         <label>Utils/ParserBase/ParseError.h</label>
-        <childnode refid="3307" relation="include">
+        <childnode refid="3303" relation="include">
         </childnode>
       </node>
-      <node id="3313">
+      <node id="3309">
         <label>deque</label>
       </node>
-      <node id="3317">
+      <node id="3313">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
@@ -118,19 +118,22 @@
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>message)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>file<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>line<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>syntax<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>1)</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>parse<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>2)</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>compile<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>message<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>&gt;=<sp/>0)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>file<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>line<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>syntax<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>parse<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stage<sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>compile<sp/>error:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!message.empty())</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>message<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/Utils/ParserBase/ParseError.cpp"/>
   </compounddef>

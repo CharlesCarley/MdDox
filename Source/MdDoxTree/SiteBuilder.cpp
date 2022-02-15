@@ -45,7 +45,7 @@ namespace MdDox
         int n = 1;
         for (String& dotSrc : _dotFiles)
         {
-            String dia = StringCombine(imageDir, "/", "internal-diagram-", n, ".dot");
+            String dia = StringCombine(imageDir, "/dot/", "internal-diagram-", n, ".dot");
 
             OutputFileStream ofs(dia);
             if (ofs.is_open())
@@ -109,9 +109,9 @@ namespace MdDox
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
         siteUrl = config.getValue("SITE_URL");
-    	StringCombine(fileUrl, siteUrl, "/blob/master/");
+        StringCombine(fileUrl, siteUrl, "/blob/master/");
 
-    	projectTitle = config.getValue("PROJECT_TITLE");
+        projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");
 
         String dotCfg = config.getValue("DOT_CONFIG");
@@ -132,7 +132,7 @@ namespace MdDox
             _ids.insert(std::make_pair(name, reference));
         else
         {
-            Console::writeLine("Ignoring duplicate refId. first registered as ",
+            Console::writeLine("Ignoring duplicate refId. First registered as ",
                                it->second,
                                " but now seen as ",
                                reference);
@@ -143,7 +143,7 @@ namespace MdDox
             _names.insert(std::make_pair(reference, name));
         else
         {
-            Console::writeLine("Ignoring duplicate refId. first registered as ",
+            Console::writeLine("Ignoring duplicate name. first registered as ",
                                it->second,
                                " but now seen as ",
                                reference);
@@ -157,10 +157,10 @@ namespace MdDox
             _members.insert(std::make_pair(member, compound));
         else
         {
-            Console::writeLine("Ignoring duplicate refId. first registered as ",
-                               it->first,
-                               " but now seen as ",
-                               member);
+            if (it->second != compound)
+                Console::writeLine("Member.refId: ", it->first, " with varying data");
+            else
+                Console::writeLine("Ignoring duplicate member.refId: ", it->first);
         }
     }
 
@@ -197,7 +197,7 @@ namespace MdDox
             StringUtils::replaceAll(source, source, StringCombine("${", key, "}"), value);
 
         _dotFiles.push_back(source);
-        return StringCombine("internal-diagram-", _dotFiles.size(), ".dot.svg");
+        return StringCombine("dot/internal-diagram-", _dotFiles.size(), ".dot.svg");
     }
 
     SiteBuilder* SiteBuilder::_singleton = nullptr;

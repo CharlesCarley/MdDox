@@ -7,38 +7,38 @@
     <includedby refid="Xml_2Scanner_8cpp" local="yes">Source/Xml/Scanner.cpp</includedby>
     <includedby refid="Xml_2Scanner_8h" local="yes">Source/Xml/Scanner.h</includedby>
     <incdepgraph>
-      <node id="2660">
+      <node id="2656">
         <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="2661" relation="include">
+        <childnode refid="2657" relation="include">
         </childnode>
       </node>
-      <node id="2661">
+      <node id="2657">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2663">
+      <node id="2659">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="2662">
+      <node id="2658">
         <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2659" relation="include">
         </childnode>
-        <childnode refid="2664" relation="include">
+        <childnode refid="2660" relation="include">
         </childnode>
-        <childnode refid="2665" relation="include">
+        <childnode refid="2661" relation="include">
         </childnode>
       </node>
-      <node id="2664">
+      <node id="2660">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="2665">
+      <node id="2661">
         <label>Source/Xml/Scanner.h</label>
-        <childnode refid="2663" relation="include">
+        <childnode refid="2659" relation="include">
         </childnode>
-        <childnode refid="2664" relation="include">
+        <childnode refid="2660" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

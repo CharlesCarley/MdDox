@@ -1,7 +1,6 @@
 <a id="design-tests"></a>
 <h1>Design tests</h1>
 <a id="Design"></a>
-<a id="design-tests"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>

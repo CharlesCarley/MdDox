@@ -1,0 +1,71 @@
+digraph {
+ rankdir = "LR"
+ bgcolor = none;
+ layout  = dot;
+ edge [
+   arrowsize = "0.5"
+   color     = "#69BFFFFF"
+ ]
+ WuoNZGn[
+   shape    = none
+   label    = "CompoundDefQueryVisitor"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dpoNZGn[
+   shape    = none
+   label    = "PageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WSoNZGn[
+   shape    = none
+   label    = "DirectoryPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ W6xNZGn[
+   shape    = none
+   label    = "GenericPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ d8aNZGn[
+   shape    = none
+   label    = "NamespacePageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WyxNZGn[
+   shape    = none
+   label    = "ClassPageWriter"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ dpoNZGn->WSoNZGn
+ dpoNZGn->W6xNZGn
+ dpoNZGn->d8aNZGn
+ dpoNZGn->WyxNZGn
+ WaoNZGn[
+   shape    = none
+   label    = "TableOfContents"
+   margin   = "0.01"
+   fontname = "Segoe UI"
+   fontsize = "11"
+   fontcolor= "#010509FF"
+ ]
+ WuoNZGn->dpoNZGn
+ WuoNZGn->WaoNZGn
+}

@@ -21,6 +21,7 @@ set(TargetName Xml )
 set(TargetGroup Common )
 
 set(Target_HDR
+    Attribute.h
     Parser.h
     Scanner.h
     Token.h

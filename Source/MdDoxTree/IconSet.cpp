@@ -29,42 +29,36 @@ namespace MdDox
         switch (id)
         {
         case ICO_BACK:
-            return "back18px.svg";
+            return "back.svg";
         case ICO_DEBUG:
-            return "debug24px.svg";
+            return "debug.svg";
         case ICO_FILE:
-            return "file24px.svg";
+            return "file.svg";
         case ICO_FOLDER:
-            return "folder18px.svg";
+            return "folder.svg";
         case ICO_HOME:
-            return "home18px.svg";
+            return "home.svg";
         case ICO_H_SPACE_12:
             return "horSpace12px.svg";
         case ICO_H_SPACE_24:
             return "horSpace24px.svg";
         case ICO_JUMP_TO_TOP:
-            return "jumpToTop18px.svg";
+            return "jumpToTop.svg";
         case ICO_LINK:
-            return "link24px.svg";
-        case ICO_LINK_SM:
-            return "link18px.svg";
+            return "link.svg";
         case ICO_CODE_BEHIND:
-            return "lookInside24px.svg";
+            return "lookInside.svg";
         case ICO_ENUM:
-            return "enum24px.svg";
-        case ICO_ISO_BAR:
-            return "sideBar.svg";
-        case ICO_SEP_BAR:
-            return "sectionBar.svg";
+            return "enum.svg";
         case ICO_CLASS:
-            return "class24px.svg";
+            return "class.svg";
         case ICO_VAR_PRIVATE:
-            return "var24px.svg";
+            return "var.svg";
         case ICO_NAMESPACE:
-            return "namespace24px.svg";
+            return "namespace.svg";
         case ICO_NONE:
         default:
-            return "error18.svg";
+            return "error.svg";
         }
     }
 

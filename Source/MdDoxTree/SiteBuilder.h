@@ -75,7 +75,7 @@ namespace MdDox
      * <br/>
      *
      * First, it should have all necessary configuration parameters before running.
-     * From there, it needs to load an index file.  Then based on the contents of the index,
+     * From there, it needs to load an index file. Then based on the contents of the index,
      * It should write the primary index. After that, It should dispatch all sub-page writers.
      * Page writers can register graph files during their dispatch routine. After all pages have
      * completed any registered graph files are processed.
@@ -106,8 +106,7 @@ namespace MdDox
          */
         void buildFromXml(DocumentWriter* writer, const String& fileName) const;
 
-
-        /**
+    	/**
     	 * \brief Attempts to load the primary config file. 
     	 * \param configFile path to the file. 
     	 */
@@ -120,7 +119,7 @@ namespace MdDox
          */
         void registerCompound(const String& name, const String& reference) const;
 
-        
+    	
         /**
          * \brief Enables a member reference to be bound to a compound reference.
          */

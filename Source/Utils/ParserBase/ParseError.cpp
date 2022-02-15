@@ -29,7 +29,8 @@ namespace MdDox
                                 const String& message)
     {
         OutputStringStream oss;
-        oss << file << '(' << line << ')' << ':';
+        if (stage >= 0)
+            oss << file << '(' << line << ')' << ':';
 
         if (stage == 0)
             oss << " syntax error: ";
@@ -38,7 +39,9 @@ namespace MdDox
         else if (stage == 2)
             oss << " compile error: ";
 
-        oss << message << std::endl;
-        return oss.str();
+        if (!message.empty())
+            oss << message << std::endl;
+
+    	return oss.str();
     }
-} // namespace MdDoc
+}  // namespace MdDox

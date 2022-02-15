@@ -1,7 +1,6 @@
 <a id="cache"></a>
 <h1>Cache</h1>
 <a id="classMdDox_1_1Cache"></a>
-<a id="mddoxcache"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -14,34 +13,38 @@
 <br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
-<span class="icon-list-item"><a href="#table" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Table</span>
+<span class="icon-list-item"><a href="#table" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Table</span>
 </a>
 </span>
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
-<span class="icon-list-item"><a href="#_elements" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">_elements</span>
+<span class="icon-list-item"><a href="#_elements" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_elements</span>
 </a>
 </span>
 <br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
-<span class="icon-list-item"><a href="#exists" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
+<span class="icon-list-item"><a href="#exists" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">exists</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#save" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">save</span>
+<span class="icon-list-item"><a href="#save" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">save</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>
-<span class="bold-text"><b>ClassPageWriter.visitedTemplateParamList</b></span>
-<br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedTemplateParamList</b></span>
+</blockquote>
 <a id="table"></a>
 <h2>Table</h2>
 <span class="inline-text">std::unordered_set&lt; T &gt;</span>
@@ -49,7 +52,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L141" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L141" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>
@@ -61,7 +64,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L144" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L144" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>
@@ -79,7 +82,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L155" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>
@@ -97,7 +100,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L147" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
 <br/>

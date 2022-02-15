@@ -1,7 +1,6 @@
 <a id="doxgraphrelation"></a>
 <h1>DoxGraphRelation</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxGraphRelation"></a>
-<a id="mddoxdoxygendoxgraphrelation"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,16 +15,19 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxgraphrelationenum">DoxGraphRelationEnum</a>
@@ -42,45 +44,45 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_type_constraint" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_TYPE_CONSTRAINT</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_type_constraint" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_TYPE_CONSTRAINT</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_include" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_INCLUDE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_include" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_INCLUDE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_usage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_USAGE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_usage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_USAGE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_private_inheritance" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PRIVATE_INHERITANCE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_private_inheritance" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PRIVATE_INHERITANCE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_template_instance" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_TEMPLATE_INSTANCE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_template_instance" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_TEMPLATE_INSTANCE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_public_inheritance" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PUBLIC_INHERITANCE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_public_inheritance" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PUBLIC_INHERITANCE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_protected_inheritance" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PROTECTED_INHERITANCE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_protected_inheritance" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_PROTECTED_INHERITANCE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_invalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DGR_INVALID</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dgr_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DGR_INVALID</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L83" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L83" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.cpp</span>
 </a>
 </span>
 <br/>

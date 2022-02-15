@@ -7,33 +7,32 @@
     </briefdescription>
     <detaileddescription>
 <para><bold>Image handling information.</bold><linebreak/>
-</para><para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document.</para><para>For example, the following shows the current set of navigation icons.</para><para><blockquote><para><image type="html" name="sideBar.svg"></image>
+</para><para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document. <linebreak/>
+ For example, the following shows the current set of navigation icons.</para><para><blockquote><para><image type="html" name="back.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="back18px.svg"></image>
+ <image type="html" name="error.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="error18px.svg"></image>
+ <image type="html" name="folder.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="folder18px.svg"></image>
+ <image type="html" name="home.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="home18px.svg"></image>
+ <image type="html" name="enum.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="link18px.svg"></image>
+ <image type="html" name="jumpToTop.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="jumpToTop18px.svg"></image>
+ <image type="html" name="debug.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="debug24px.svg"></image>
+ <image type="html" name="file.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="file24px.svg"></image>
+ <image type="html" name="link.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="link24px.svg"></image>
+ <image type="html" name="lookInside.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="lookInside24px.svg"></image>
+ <image type="html" name="class.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="class24px.svg"></image>
- <image type="html" name="horSpace24px.svg"></image>
- <image type="html" name="namespace24px.svg"></image>
- </para></blockquote><blockquote><para>The command <computeroutput>\image html [file-stem.file-extension]</computeroutput> embeds the image. <linebreak/>
- A common gray color with the value: <computeroutput>#828EA0FF</computeroutput> allows a seamless transition with different GitHub themes. </para></blockquote></para><para>Icons are expected to be in the <ulink url="../images">images</ulink> directory.</para><sect1 id="Image_1Internal">
+ <image type="html" name="namespace.svg"></image>
+ </para></blockquote></para><para>The command <computeroutput>\image html [file-stem.file-extension]</computeroutput> embeds the image. <linebreak/>
+ Icons are expected to be in the <ulink url="../images">images</ulink> directory.</para><sect1 id="Image_1Internal">
 <title>Icons</title>
 <para>The static class <ref refid="classMdDox_1_1IconSet" kindref="compound">MdDox::IconSet</ref> maps the enum <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">MdDox::IconId</ref> to the following files to use specific icons internally.</para><sect2 id="Image_1Sources">
 <title>Sources</title>

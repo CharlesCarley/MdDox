@@ -147,8 +147,8 @@
         <definition>virtual void MdDox::PageWriter::notifyBriefDescription</definition>
         <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
         <name>notifyBriefDescription</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc">notifyBriefDescription</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91">notifyBriefDescription</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc">notifyBriefDescription</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -184,8 +184,8 @@
         <definition>virtual void MdDox::PageWriter::notifyDetailDescriptionHeading</definition>
         <argsstring>(const Doxygen::DescriptionQuery &amp;query)</argsstring>
         <name>notifyDetailDescriptionHeading</name>
-        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a961f402ad5db3b86b0917bcbd0efdcd2">notifyDetailDescriptionHeading</reimplementedby>
         <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a5a812fc72f9826de858b822e6ea8d308">notifyDetailDescriptionHeading</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1a961f402ad5db3b86b0917bcbd0efdcd2">notifyDetailDescriptionHeading</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -204,9 +204,9 @@
         <argsstring>(const Doxygen::CompoundDefQuery &amp;query)</argsstring>
         <name>preSortQuery</name>
         <reimplementedby refid="classMdDox_1_1GenericPageWriter_1a9abad2c98b3a9ecf672d6b1a45c859da">preSortQuery</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a4a1cb00a84c2006d7a21bf7be2eb498b">preSortQuery</reimplementedby>
         <reimplementedby refid="classMdDox_1_1NamespacePageWriter_1ae0cc932c250c18f470cbe75ac23415b5">preSortQuery</reimplementedby>
         <reimplementedby refid="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2">preSortQuery</reimplementedby>
-        <reimplementedby refid="classMdDox_1_1ClassPageWriter_1a4a1cb00a84c2006d7a21bf7be2eb498b">preSortQuery</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -391,7 +391,7 @@
         <references refid="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" compoundref="PageWriter_8h" startline="36">_ref</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="158">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="157">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="182" endline="204">MdDox::Xml::Node::getFirstChild</references>

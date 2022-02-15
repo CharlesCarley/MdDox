@@ -1,7 +1,6 @@
 <a id="doxhighlightclass"></a>
 <h1>DoxHighlightClass</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxHighlightClass"></a>
-<a id="mddoxdoxygendoxhighlightclass"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -16,16 +15,19 @@
 <br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
-<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
 </a>
 </span>
 <br/>
+<blockquote>
+<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxhighlightclassenum">DoxHighlightClassEnum</a>
@@ -42,49 +44,49 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_comment" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_COMMENT</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_comment" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_COMMENT</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_preprocessor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_PREPROCESSOR</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_preprocessor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_PREPROCESSOR</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_normal" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_NORMAL</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_normal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_NORMAL</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_char_literal" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_CHAR_LITERAL</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_char_literal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_CHAR_LITERAL</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword_flow" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD_FLOW</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword_flow" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD_FLOW</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword_type" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD_TYPE</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD_TYPE</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_keyword" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_KEYWORD</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_stringliteral" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_STRINGLITERAL</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_stringliteral" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_STRINGLITERAL</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_invalid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DHC_INVALID</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dhc_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DHC_INVALID</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L88" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.h#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxHighlightClass.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass.cpp</span>
 </a>
 </span>
 <br/>

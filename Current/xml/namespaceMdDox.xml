@@ -268,22 +268,8 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad034467ad5c3f26ad6c2190e0eb44312" prot="public">
-          <name>ICO_LINK_SM</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" prot="public">
           <name>ICO_CODE_BEHIND</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac0f8cc7c665f6c748e93efb89cc832c4" prot="public">
-          <name>ICO_ISO_BAR</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -317,20 +303,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a14f3817351b63072d2bccdc0392a80e5" prot="public">
-          <name>ICO_SEP_BAR</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <briefdescription>
 <para>internal icons to this system </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IconSet.h" line="31" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="30" bodyend="50"/>
+        <location file="Source/MdDoxTree/IconSet.h" line="31" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="30" bodyend="47"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43e" prot="public" static="no" strong="no">
         <type></type>
@@ -837,7 +816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="117" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="117" bodyend="135"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="118" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="118" bodyend="136"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
@@ -1112,7 +1091,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.h" line="45" column="1"/>
+        <location file="Source/MdDoxTree/WriteUtils.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a7e05100838d79dba58e61d8fef9fc01f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1146,7 +1125,7 @@
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="178">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="177">MdDox::SiteBuilder::siteUrl</references>
         <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="167" endline="173">MdDox::SiteBuilder::findReference</references>
@@ -1256,7 +1235,7 @@
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="178">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="177">MdDox::SiteBuilder::siteUrl</references>
         <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="167" endline="173">MdDox::SiteBuilder::findReference</references>
@@ -1293,7 +1272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.h" line="36" column="1"/>
+        <location file="Source/MdDoxTree/WriteUtils.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

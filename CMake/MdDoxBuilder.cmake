@@ -173,15 +173,14 @@ function(MdDox ConfigIn ConfigOut)
 
 		# Run DOT on all the output files..
 		if(Python_Interpreter_FOUND)
-			# Attempts to pull submodules with python.
 			add_custom_command(TARGET ${TargetName} POST_BUILD
 				COMMENT "Invoking Dot" 
-				WORKING_DIRECTORY ${MdDoxBuilder_OutputDir}/images/
+				WORKING_DIRECTORY ${MdDoxBuilder_OutputDir}/images/dot
 				COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/CMake/invokeDot.py
 				SOURCES ${TargetName_SRC}
 			)
 		else()
-			file(GLOB DOT "${MdDoxBuilder_OutputDir}/images/*.dot")
+			file(GLOB DOT "${MdDoxBuilder_OutputDir}/images/dot/*.dot")
 			foreach (File ${DOT})
 				add_custom_command(TARGET ${TargetName} POST_BUILD
 					WORKING_DIRECTORY ${MdDoxBuilder_OutputDir}/images

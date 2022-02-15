@@ -1,7 +1,6 @@
 <a id="style-sheet"></a>
 <h1>Style Sheet</h1>
 <a id="Html"></a>
-<a id="style-sheet"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>

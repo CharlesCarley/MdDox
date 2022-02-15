@@ -24,6 +24,15 @@
 #include "MdDoxTree/Reference.h"
 #include "Utils/String.h"
 
+#ifdef _DEBUG
+#define WRITE_STUB(w, os)          \
+    w->beginBlockQuote(os);        \
+    w->boldText(os, __FUNCTION__); \
+    w->endBlockQuote(os);
+#else
+#define WRITE_STUB(w, os)
+#endif
+
 namespace MdDox
 {
     class Page;

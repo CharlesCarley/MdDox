@@ -6,64 +6,64 @@
     <includedby refid="MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1188">
+      <node id="1184">
         <label>iomanip</label>
       </node>
-      <node id="1180">
+      <node id="1176">
         <label>Source/MdDoxTree/MarkdownCommandWriter.h</label>
         <link refid="MarkdownCommandWriter_8h"/>
-        <childnode refid="1181" relation="include">
+        <childnode refid="1177" relation="include">
         </childnode>
       </node>
-      <node id="1185">
+      <node id="1181">
         <label>string</label>
       </node>
-      <node id="1183">
+      <node id="1179">
         <label>fstream</label>
       </node>
-      <node id="1181">
+      <node id="1177">
         <label>Utils/String.h</label>
+        <childnode refid="1178" relation="include">
+        </childnode>
+        <childnode refid="1179" relation="include">
+        </childnode>
+        <childnode refid="1180" relation="include">
+        </childnode>
+        <childnode refid="1181" relation="include">
+        </childnode>
         <childnode refid="1182" relation="include">
         </childnode>
         <childnode refid="1183" relation="include">
         </childnode>
         <childnode refid="1184" relation="include">
         </childnode>
-        <childnode refid="1185" relation="include">
-        </childnode>
-        <childnode refid="1186" relation="include">
-        </childnode>
-        <childnode refid="1187" relation="include">
-        </childnode>
-        <childnode refid="1188" relation="include">
-        </childnode>
       </node>
-      <node id="1187">
+      <node id="1183">
         <label>vector</label>
       </node>
-      <node id="1184">
+      <node id="1180">
         <label>sstream</label>
       </node>
-      <node id="1182">
+      <node id="1178">
         <label>deque</label>
       </node>
-      <node id="1186">
+      <node id="1182">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1189">
+      <node id="1185">
         <label>Source/MdDoxTree/MarkdownCommandWriter.h</label>
         <link refid="MarkdownCommandWriter_8h"/>
-        <childnode refid="1190" relation="include">
+        <childnode refid="1186" relation="include">
         </childnode>
-        <childnode refid="1191" relation="include">
+        <childnode refid="1187" relation="include">
         </childnode>
       </node>
-      <node id="1191">
+      <node id="1187">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="1190">
+      <node id="1186">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
     </invincdepgraph>

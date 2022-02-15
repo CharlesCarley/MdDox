@@ -98,7 +98,7 @@
 <para>Used to link local file paths to GitHub URLs </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="185" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="185" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="184" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="163" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="163" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="162" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" prot="public" static="no" mutable="yes">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="199" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="199" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="198" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="168" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="168" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="167" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="173" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="173" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="172" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="158" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="158" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="157" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="153" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="153" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="152" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="148" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="148" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="147" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="190" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="190" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="189" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="195" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="195" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="194" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="178" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="178" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="177" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="197" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="197" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="196" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -328,8 +328,8 @@
         <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="189" endline="240">MdDox::IndexPageWriter::exec</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="173">outputDir</references>
+        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="190" endline="241">MdDox::IndexPageWriter::exec</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="172">outputDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="134" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="183" bodyend="189"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="133" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="183" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -373,7 +373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="132" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="175" bodyend="181"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="131" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="175" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="130" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="167" bodyend="173"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="129" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="167" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -420,25 +420,25 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="114" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="85" bodyend="126"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="113" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="85" bodyend="126"/>
         <references refid="classMdDox_1_1Config_1a9bf2aed3f47e9695ca9960190f5470ef" compoundref="Config_8cpp" startline="30" endline="68">MdDox::Config::load</references>
-        <references refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" compoundref="SiteBuilder_8h" startline="195">showDebug</references>
+        <references refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" compoundref="SiteBuilder_8h" startline="194">showDebug</references>
         <references refid="classMdDox_1_1Config_1afbb5b638949896b8307a556ec2c5bc8c" compoundref="Config_8cpp" startline="198" endline="204">MdDox::Config::getBool</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="158">outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="157">outputFileExt</references>
         <references refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" compoundref="Config_8cpp" startline="190" endline="196">MdDox::Config::getValue</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="173">outputDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="172">outputDir</references>
         <references refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" compoundref="FileSystem_8cpp" startline="50" endline="64">MdDox::FileSystem::absolute</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" compoundref="SiteBuilder_8h" startline="197">styleSheet</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" compoundref="SiteBuilder_8h" startline="163">imageDir</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" compoundref="SiteBuilder_8h" startline="168">inputDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" compoundref="SiteBuilder_8h" startline="196">styleSheet</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" compoundref="SiteBuilder_8h" startline="162">imageDir</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" compoundref="SiteBuilder_8h" startline="167">inputDir</references>
         <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="66" endline="69">MdDox::FileSystem::currentPath</references>
         <references refid="classMdDox_1_1StringUtils_1a4e2a0d38a0435a6f041509d70b4c0cd7" compoundref="String_8cpp" startline="134" endline="154">MdDox::StringUtils::splitRejectEmpty</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" compoundref="SiteBuilder_8h" startline="190">searchDirs</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="178">siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" compoundref="SiteBuilder_8h" startline="189">searchDirs</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="177">siteUrl</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="185">fileUrl</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="148">projectTitle</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" compoundref="SiteBuilder_8h" startline="153">projectBrief</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="184">fileUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="147">projectTitle</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" compoundref="SiteBuilder_8h" startline="152">projectBrief</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -474,7 +474,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="121" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="128" bodyend="151"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="120" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="128" bodyend="151"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -492,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="136" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="191" bodyend="201"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="135" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="191" bodyend="201"/>
         <references refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" compoundref="Config_8cpp" startline="211" endline="214">MdDox::Config::attributes</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -516,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="127" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="153" bodyend="165"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="126" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="153" bodyend="165"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
       </sectiondef>
@@ -532,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="141" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="205" bodyend="210"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="140" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="205" bodyend="210"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -603,7 +603,7 @@ digraph {
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/SiteBuilder.h" line="84" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="83" bodyend="200"/>
+    <location file="Source/MdDoxTree/SiteBuilder.h" line="84" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="83" bodyend="199"/>
     <listofallmembers>
       <member refid="classMdDox_1_1SiteBuilder_1a59232660bea40b74e4e4b60b39003f5a" prot="private" virt="non-virtual"><scope>MdDox::SiteBuilder</scope><name>_dot</name></member>
       <member refid="classMdDox_1_1SiteBuilder_1a07b8222cb15ac8e3748c832e6c878a07" prot="private" virt="non-virtual"><scope>MdDox::SiteBuilder</scope><name>_dotFiles</name></member>

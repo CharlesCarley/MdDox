@@ -1,7 +1,6 @@
 <a id="mddox"></a>
 <h1>MdDox</h1>
 <a id="namespaceMdDox"></a>
-<a id="mddox"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#main">Main</a>
 <span class="inline-text">/</span>
@@ -27,503 +26,503 @@
 </ul>
 <a id="namespaces"></a>
 <h2>Namespaces</h2>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1ResourceCompiler.md#resourcecompiler" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">ResourceCompiler</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1ResourceCompiler.md#resourcecompiler" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">ResourceCompiler</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#commandline" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">CommandLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#commandline" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">CommandLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxygen" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxygen" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#genapi" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">GenApi</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1GenApi.md#genapi" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">GenApi</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#hashutils" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#hashutils" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">HashUtils</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Html.md#html" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Html</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Html.md#html" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Html</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#linkutils" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkUtils</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#linkutils" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">LinkUtils</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#md" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Md</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Md.md#md" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Md</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#writeutils" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#writeutils" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Xml.md#xml" class="icon-list-item"><img src="../images/namespace24px.svg" class="icon-list-item"/><span class="icon-list-item">Xml</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Xml.md#xml" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Xml</span>
 </a>
 </span>
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1Exception.md#exception" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Exception</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Exception.md#exception" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Exception</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#filesystem" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem</span>
+<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#filesystem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1FunctionDefWriter.md#functiondefwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1FunctionDefWriter.md#functiondefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenericPageWriter.md#genericpagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GenericPageWriter.md#genericpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1GraphNode.md#graphnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphNode</span>
+<span class="icon-list-item"><a href="structMdDox_1_1GraphNode.md#graphnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphNode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GraphWriter.md#graphwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GraphWriter.md#graphwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1HtmlDocumentWriter.md#htmldocumentwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1HtmlDocumentWriter.md#htmldocumentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1IconSet.md#iconset" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IconSet</span>
+<span class="icon-list-item"><a href="classMdDox_1_1IconSet.md#iconset" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IconSet</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1IndexCache.md#indexcache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache</span>
+<span class="icon-list-item"><a href="classMdDox_1_1IndexCache.md#indexcache" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1IndexPageFilter.md#indexpagefilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageFilter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1IndexPageFilter.md#indexpagefilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1IndexPageWriter.md#indexpagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1IndexPageWriter.md#indexpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1KeyIndexCache.md#keyindexcache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">KeyIndexCache</span>
+<span class="icon-list-item"><a href="classMdDox_1_1KeyIndexCache.md#keyindexcache" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">KeyIndexCache</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Link.md#link" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Link</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Link.md#link" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Link</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1LinkedTextWriter.md#linkedtextwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1LinkedTextWriter.md#linkedtextwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ListItemVisitor.md#listitemvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ListItemVisitor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ListItemVisitor.md#listitemvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListItemVisitor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1LocalNode.md#localnode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LocalNode</span>
+<span class="icon-list-item"><a href="classMdDox_1_1LocalNode.md#localnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocalNode</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Location.md#location" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Location</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Location.md#location" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Location</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1LocationWriter.md#locationwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1LocationWriter.md#locationwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefListingWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefListingWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1MemberDefWriter.md#memberdefwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1MemberDefWriter.md#memberdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="unionMdDox_1_1Merge.md#merge" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Merge</span>
+<span class="icon-list-item"><a href="unionMdDox_1_1Merge.md#merge" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Merge</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1NameListVisitor.md#namelistvisitor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NameListVisitor</span>
+<span class="icon-list-item"><a href="classMdDox_1_1NameListVisitor.md#namelistvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NameListVisitor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1NamespacePageWriter.md#namespacepagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1NamespacePageWriter.md#namespacepagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#pagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#pagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParagraphWriter.md#paragraphwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParagraphWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParagraphWriter.md#paragraphwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParagraphWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParameterListWriter.md#parameterlistwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParameterListWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParameterListWriter.md#parameterlistwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParameterListWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParameterWriter.md#parameterwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParameterWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParameterWriter.md#parameterwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParameterWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParseError.md#parseerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParseError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParseError.md#parseerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParseError</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parserbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parserbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParserBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#pathutil" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">PathUtil</span>
+<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#pathutil" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PathUtil</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#reference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Reference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#reference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Reference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#repofile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile</span>
+<span class="icon-list-item"><a href="classMdDox_1_1RepoFile.md#repofile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#scannerbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ScannerBase.md#scannerbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Section1Writer.md#section1writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Section1Writer</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Section1Writer.md#section1writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Section1Writer</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Section2Writer.md#section2writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Section2Writer</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Section2Writer.md#section2writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Section2Writer</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Section3Writer.md#section3writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Section3Writer</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Section3Writer.md#section3writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Section3Writer</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Section4Writer.md#section4writer" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Section4Writer</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Section4Writer.md#section4writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Section4Writer</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SectionDefListingWriter.md#sectiondeflistingwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SectionDefListingWriter.md#sectiondeflistingwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SectionDefWriter.md#sectiondefwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SectionDefWriter.md#sectiondefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#sitebuilder" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#sitebuilder" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SourceFile.md#sourcefile" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SourceFile.md#sourcefile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SourceFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#stringutils" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringUtils</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#stringutils" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringUtils</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#tableofcontents" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TableOfContents</span>
+<span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#tableofcontents" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TableOfContents</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Application.md#application" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Application</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Application.md#application" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Application</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typefilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter</span>
+<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typefilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Cache.md#cache" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Cache</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Cache.md#cache" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Cache</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#char" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Char</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Char.md#char" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Char</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Config.md#config" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Config</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Config.md#config" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Config</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#console" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Console</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#console" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Console</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DescriptionWriter.md#descriptionwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DescriptionWriter.md#descriptionwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1TokenBase.md#tokenbase" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase</span>
+<span class="icon-list-item"><a href="classMdDox_1_1TokenBase.md#tokenbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#documentwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#documentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DotWriter.md#dotwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DotWriter.md#dotwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DotWriterImpl.md#dotwriterimpl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">DotWriterImpl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DotWriterImpl.md#dotwriterimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriterImpl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter</span>
 </a>
 </span>
 <br/>
 <a id="global-variables"></a>
 <h2>Global Variables</h2>
-<span class="icon-list-item"><a href="#__gbackground" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">__gBackground</span>
+<span class="icon-list-item"><a href="#__gbackground" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">__gBackground</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#__gforeground" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">__gForeground</span>
+<span class="icon-list-item"><a href="#__gforeground" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">__gForeground</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#basechars" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BaseChars</span>
+<span class="icon-list-item"><a href="#basechars" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BaseChars</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#basecharssize" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">BaseCharsSize</span>
+<span class="icon-list-item"><a href="#basecharssize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BaseCharsSize</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#multilinecommentstop0" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MultiLineCommentStop0</span>
+<span class="icon-list-item"><a href="#multilinecommentstop0" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MultiLineCommentStop0</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#multilinecommentstop1" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MultiLineCommentStop1</span>
+<span class="icon-list-item"><a href="#multilinecommentstop1" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MultiLineCommentStop1</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#nloc" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">NLoc</span>
+<span class="icon-list-item"><a href="#nloc" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NLoc</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
+<span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
 </a>
 </span>
 <br/>
 <a id="global-functions"></a>
 <h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#crtdump" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CrtDump</span>
+<span class="icon-list-item"><a href="#crtdump" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CrtDump</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#crttestmemory" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">CrtTestMemory</span>
+<span class="icon-list-item"><a href="#crttestmemory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CrtTestMemory</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#dispatch" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">dispatch</span>
+<span class="icon-list-item"><a href="#dispatch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">dispatch</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isdecimal" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isDecimal</span>
+<span class="icon-list-item"><a href="#isdecimal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isDecimal</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isletter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isLetter</span>
+<span class="icon-list-item"><a href="#isletter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isLetter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#isnewline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isNewLine</span>
+<span class="icon-list-item"><a href="#isnewline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isNewLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#iswhitespace" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
+<span class="icon-list-item"><a href="#iswhitespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#maketypefilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">makeTypeFilter</span>
+<span class="icon-list-item"><a href="#maketypefilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">makeTypeFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#mapcolor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">MapColor</span>
+<span class="icon-list-item"><a href="#mapcolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MapColor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#setcolor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">SetColor</span>
+<span class="icon-list-item"><a href="#setcolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SetColor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#streammerge" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StreamMerge</span>
+<span class="icon-list-item"><a href="#streammerge" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StreamMerge</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#syncstream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">syncStream</span>
+<span class="icon-list-item"><a href="#syncstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">syncStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writedirectorytitlebar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeDirectoryTitleBar</span>
+<span class="icon-list-item"><a href="#writedirectorytitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeDirectoryTitleBar</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writedirectorytitlebar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeDirectoryTitleBar</span>
+<span class="icon-list-item"><a href="#writedirectorytitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeDirectoryTitleBar</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writeexternaliconlink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeExternalIconLink</span>
+<span class="icon-list-item"><a href="#writeexternaliconlink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeExternalIconLink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writefilepath" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeFilePath</span>
+<span class="icon-list-item"><a href="#writefilepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeFilePath</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
+<span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
+<span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writereferenceiconlink" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconLink</span>
+<span class="icon-list-item"><a href="#writereferenceiconlink" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconLink</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writereferenceiconlinkheading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconLinkHeading</span>
+<span class="icon-list-item"><a href="#writereferenceiconlinkheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconLinkHeading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writereferenceiconstub" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconStub</span>
+<span class="icon-list-item"><a href="#writereferenceiconstub" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeReferenceIconStub</span>
 </a>
 </span>
 <br/>
 <a id="enums"></a>
 <h2>Enums</h2>
-<span class="icon-list-item"><a href="#consolecolor" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ConsoleColor</span>
+<span class="icon-list-item"><a href="#consolecolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ConsoleColor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#iconid" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IconId</span>
+<span class="icon-list-item"><a href="#iconid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IconId</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
+<span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
 </a>
 </span>
 <br/>
 <a id="typedefs"></a>
 <h2>Typedefs</h2>
-<span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Directory</span>
+<span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Directory</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#inputfilestream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InputFileStream</span>
+<span class="icon-list-item"><a href="#inputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputFileStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#inputstringstream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">InputStringStream</span>
+<span class="icon-list-item"><a href="#inputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputStringStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#inttable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IntTable</span>
+<span class="icon-list-item"><a href="#inttable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IntTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#istream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">IStream</span>
+<span class="icon-list-item"><a href="#istream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#ostream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">OStream</span>
+<span class="icon-list-item"><a href="#ostream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#outputfilestream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">OutputFileStream</span>
+<span class="icon-list-item"><a href="#outputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputFileStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#outputstringstream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">OutputStringStream</span>
+<span class="icon-list-item"><a href="#outputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputStringStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#path" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">Path</span>
+<span class="icon-list-item"><a href="#path" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Path</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#patharray" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">PathArray</span>
+<span class="icon-list-item"><a href="#patharray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PathArray</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#referencelist" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceList</span>
+<span class="icon-list-item"><a href="#referencelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceList</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#referencemap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMap</span>
+<span class="icon-list-item"><a href="#referencemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMap</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#string" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">String</span>
+<span class="icon-list-item"><a href="#string" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">String</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringarray" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringArray</span>
+<span class="icon-list-item"><a href="#stringarray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringArray</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringdeque" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringDeque</span>
+<span class="icon-list-item"><a href="#stringdeque" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringDeque</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringmap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringMap</span>
+<span class="icon-list-item"><a href="#stringmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringMap</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringstream" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringStream</span>
+<span class="icon-list-item"><a href="#stringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#stringtable" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringTable</span>
+<span class="icon-list-item"><a href="#stringtable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#typefiltermap" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilterMap</span>
+<span class="icon-list-item"><a href="#typefiltermap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilterMap</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Current/pages/Index.h#L24" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Current/pages/Index.h#L24" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
 <br/>
@@ -534,7 +533,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>
@@ -546,7 +545,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L32" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>
@@ -558,7 +557,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L190" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L190" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -570,7 +569,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L202" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L202" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
 <br/>
@@ -582,7 +581,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
 <br/>
@@ -594,7 +593,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
 <br/>
@@ -606,7 +605,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
 </a>
 </span>
 <br/>
@@ -619,7 +618,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L98" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L98" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -632,7 +631,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Win32/CrtUtils.cpp#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CrtUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Win32/CrtUtils.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CrtUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -645,7 +644,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Win32/CrtUtils.cpp#L40" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">CrtUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Win32/CrtUtils.cpp#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CrtUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -685,49 +684,49 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#applyfilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">applyFilter</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#applyfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">applyFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfilter" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfiltersize" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#getfiltersize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parse" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
+<span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#parse" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#root" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">root</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#root" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">root</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#firstchildof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstChildOf</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L117" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L118" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -752,7 +751,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L199" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L199" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
 <br/>
@@ -777,7 +776,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L205" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L205" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
 <br/>
@@ -801,7 +800,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L184" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
 <br/>
@@ -825,13 +824,13 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#isnewline" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">isNewLine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#isnewline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isNewLine</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L193" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
 <br/>
@@ -862,17 +861,17 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typename" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeName</span>
+<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typename" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">typeName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typecode" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
+<span class="icon-list-item"><a href="structMdDox_1_1TypeFilter.md#typecode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">typeCode</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.cpp#L27" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.cpp</span>
 </a>
 </span>
 <br/>
@@ -897,7 +896,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>
@@ -910,7 +909,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L97" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.cpp#L97" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
 <br/>
@@ -934,7 +933,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L215" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L215" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -958,7 +957,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L223" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L223" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -976,7 +975,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L231" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L231" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -1001,7 +1000,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L234" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1045,7 +1044,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L45" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
 </a>
 </span>
 <br/>
@@ -1084,57 +1083,57 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#boldtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#boldtext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1172,37 +1171,37 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#linenumber" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#linenumber" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineNumber</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L215" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L215" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1234,41 +1233,41 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L139" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1307,57 +1306,57 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#boldtext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#boldtext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L33" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1401,7 +1400,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
 </a>
 </span>
 <br/>
@@ -1439,49 +1438,49 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#lastbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#lastbinaryresolution" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findmember" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">findMember</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findmember" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findMember</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#heading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#heading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L185" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L185" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1519,29 +1518,29 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#lastbinaryresolution" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1LinkUtils.md#lastbinaryresolution" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lastBinaryResolution</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontentlinktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContentLinkText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#heading" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1HashUtils.md#heading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">heading</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L208" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L208" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1579,29 +1578,29 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#beginparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#beginparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontent" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">embedContent</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#embedcontent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">embedContent</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#endparagraph" class="icon-list-item"><img src="../images/class24px.svg" class="icon-list-item"/><span class="icon-list-item">endParagraph</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#endparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endParagraph</span>
 </a>
 </span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L226" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1614,72 +1613,72 @@
 <br/>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_BLACK</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLACK</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_BLUE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_BLUE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_GREEN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_GREEN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_CYAN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_CYAN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_RED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_RED</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_GREY</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREY</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_BLUE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLUE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_GREEN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREEN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_CYAN</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_CYAN</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_RED</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_RED</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_MAGENTA</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_MAGENTA</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_YELLOW</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_YELLOW</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">CS_WHITE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_WHITE</span>
 </span>
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
 <br/>
@@ -1692,80 +1691,68 @@
 <br/>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_NONE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NONE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_BACK</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_BACK</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_DEBUG</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_DEBUG</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_FILE</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FILE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_FOLDER</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FOLDER</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_HOME</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_HOME</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_LINK</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_LINK_SM</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CLASS</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_ISO_BAR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_ENUM</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_CLASS</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_ENUM</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_NAMESPACE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">ICO_SEP_BAR</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NAMESPACE</span>
 </span>
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
 </a>
 </span>
 <br/>
@@ -1777,24 +1764,24 @@
 <span class="inline-text">Usage Options. </span>
 <br/>
 <br/>
-<span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum24px.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
+<span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum24px.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
+<span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#optgentype" class="icon-list-item"><img src="../images/enum24px.svg" class="icon-list-item"/><span class="icon-list-item">OptGenType</span>
+<span class="icon-list-item"><a href="#optgentype" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptGenType</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum24px.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
+<span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
 </a>
 </span>
 <br/>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/enum24px.svg"/><span class="inline-text">OpMax</span>
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OpMax</span>
 </span>
 </div>
 
@@ -1886,7 +1873,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>
@@ -1898,7 +1885,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
 </a>
 </span>
 <br/>
@@ -1913,7 +1900,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L81" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -1928,7 +1915,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L61" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -1941,7 +1928,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L31" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
 <br/>
@@ -1956,7 +1943,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -1971,7 +1958,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L76" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -1986,7 +1973,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L86" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2001,7 +1988,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L66" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L66" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2013,7 +2000,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L36" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
 </a>
 </span>
 <br/>
@@ -2027,7 +2014,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L38" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
 </a>
 </span>
 <br/>
@@ -2041,7 +2028,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L28" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
 </a>
 </span>
 <br/>
@@ -2060,7 +2047,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L35" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
 <br/>
@@ -2075,7 +2062,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L37" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2090,7 +2077,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L47" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2105,7 +2092,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L42" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2120,7 +2107,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L51" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2135,7 +2122,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L56" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
 <br/>
@@ -2150,7 +2137,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L30" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
 <br/>
@@ -2164,7 +2151,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L34" class="icon-list-item"><img src="../images/file24px.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
 </a>
 </span>
 <br/>

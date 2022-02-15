@@ -29,14 +29,14 @@ namespace MdDox
      */
     namespace HashUtils
     {
-	    /**
+        /**
          * \brief Constructs a line fragment.
          *
     	 * Returns a string formatted as: \c \# \c L \c line
          */
         extern String lineNumber(const uint32_t& line);
 
-	    /**
+        /**
          * \brief Constructs a heading fragment.
          *
          * Returns a string formatted as: \c \# \c title
@@ -45,16 +45,16 @@ namespace MdDox
          */
         extern String heading(const String& title);
 
-    	
-	    /**
+        /**
          * \brief Cleans the supplied title.
          * 
          * Removes all binary resolution operators.
          * Replaces white space and path separators with a dash.
+         * Converts the string to lowercase.
          */
         extern String cleanTitle(const String& title);
 
-	    /**
+        /**
          * \brief Constructs a heading fragment.
          *
          * Returns a string formatted as: \c \# \c id

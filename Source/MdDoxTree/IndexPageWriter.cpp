@@ -96,6 +96,7 @@ namespace MdDox
             default:
                 break;
             }
+        	
             SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getReference());
 
             query.foreachMember(

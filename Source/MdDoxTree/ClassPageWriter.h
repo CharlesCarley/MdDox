@@ -21,8 +21,6 @@
 */
 #pragma once
 #include "PageWriter.h"
-#include "Doxygen/CompoundDefQuery.h"
-#include "Doxygen/CompoundIndexQuery.h"
 #include "MdDoxTree/Reference.h"
 #include "Utils/Path.h"
 
@@ -70,9 +68,7 @@ namespace MdDox
         void visitedProgramListing(const Doxygen::ListingQuery& query) override;
 
         void visitedLocation(const Doxygen::LocationQuery& query) override;
-
-        void visitedListOfAllMembers(const Doxygen::ListOfAllMembersQuery& query) override;
-
+        
         void visitedCompoundName(const String& text) override;
 
         void visitedTitle(const String& text) override;
