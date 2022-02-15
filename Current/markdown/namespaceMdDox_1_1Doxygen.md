@@ -19,6 +19,18 @@
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQuery</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQuery</span>
 </a>
 </span>
@@ -360,38 +372,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQuery</span>
-</a>
-</span>
-<br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
-<span class="icon-list-item"><a href="#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
-</a>
-</span>
-<br/>
-<a id="global-functions"></a>
-<h2>Global Functions</h2>
-<span class="icon-list-item"><a href="#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#getfiltersize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#queryforeach" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">QueryForEach</span>
 </a>
 </span>
 <br/>
@@ -759,97 +739,31 @@
 </a>
 </span>
 <br/>
+<a id="global-variables"></a>
+<h2>Global Variables</h2>
+<span class="icon-list-item"><a href="#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+</a>
+</span>
+<br/>
+<a id="global-functions"></a>
+<h2>Global Functions</h2>
+<span class="icon-list-item"><a href="#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getfiltersize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilterSize</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#queryforeach" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">QueryForEach</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
-<br/>
-<a id="currenttags"></a>
-<h2>CurrentTags</h2>
-<span class="inline-text">constexpr </span>
-<a href="structMdDox_1_1TypeFilter.md#typefilter">TypeFilter</a>
-<span class="bold-text"><b>CurrentTags</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getfilter"></a>
-<h2>getFilter</h2>
-<span class="inline-text">const </span>
-<a href="structMdDox_1_1TypeFilter.md#typefilter">TypeFilter</a>
-<span class="inline-text"> *</span>
-<span class="bold-text"><b>getFilter</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="getfiltersize"></a>
-<h2>getFilterSize</h2>
-<span class="inline-text">size_t</span>
-<span class="bold-text"><b>getFilterSize</b></span>
-<span class="italic-text"><i>(</i></span>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="queryforeach"></a>
-<h2>QueryForEach</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>QueryForEach</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const std::function&lt; void(const </span>
-<a href="classMdDox_1_1Doxygen_1_1Query.md#query">Query</a>
-<span class="inline-text"> &amp;)&gt; &amp;</span>
-<span class="inline-text">invoke</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
-<span class="inline-text"> *</span>
-<span class="inline-text">fromNode</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
-</a>
-</span>
-<br/>
 <br/>
 <a id="doxaccessorenum"></a>
 <h2>DoxAccessorEnum</h2>
@@ -1661,6 +1575,10 @@
 <span class="bold-text"><b>DoxSectionKindEnum</b></span>
 <br/>
 <div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_INVALID</span>
+</span>
+</div>
+<div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_PRIVATE_STATIC_FUNC</span>
 </span>
 </div>
@@ -1802,10 +1720,6 @@
 </div>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_VAR</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DSK_INVALID</span>
 </span>
 </div>
 <span class="inline-text">The following xml provides the </span>
@@ -2045,6 +1959,10 @@
 <h2>UsedElements</h2>
 <span class="bold-text"><b>UsedElements</b></span>
 <br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxUndefined</span>
+</span>
+</div>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxTextNode</span>
 </span>
@@ -2483,10 +2401,6 @@
 </div>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxWrite</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">DoxUndefined</span>
 </span>
 </div>
 <a id="defined-in"></a>
@@ -3484,6 +3398,92 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L173" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="currenttags"></a>
+<h2>CurrentTags</h2>
+<span class="inline-text">constexpr </span>
+<a href="structMdDox_1_1TypeFilter.md#typefilter">TypeFilter</a>
+<span class="bold-text"><b>CurrentTags</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getfilter"></a>
+<h2>getFilter</h2>
+<span class="inline-text">const </span>
+<a href="structMdDox_1_1TypeFilter.md#typefilter">TypeFilter</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>getFilter</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="getfiltersize"></a>
+<h2>getFilterSize</h2>
+<span class="inline-text">size_t</span>
+<span class="bold-text"><b>getFilterSize</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="queryforeach"></a>
+<h2>QueryForEach</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>QueryForEach</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const std::function&lt; void(const </span>
+<a href="classMdDox_1_1Doxygen_1_1Query.md#query">Query</a>
+<span class="inline-text"> &amp;)&gt; &amp;</span>
+<span class="inline-text">invoke</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="inline-text"> *</span>
+<span class="inline-text">fromNode</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
 <br/>

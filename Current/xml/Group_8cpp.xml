@@ -9,67 +9,71 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="Source_2Xml_2Writer_8h" local="yes">Xml/Writer.h</includes>
     <incdepgraph>
-      <node id="9135">
+      <node id="9133">
         <label>functional</label>
       </node>
-      <node id="9132">
+      <node id="9130">
         <label>iomanip</label>
       </node>
-      <node id="9137">
+      <node id="9135">
         <label>cstdint</label>
       </node>
-      <node id="9124">
+      <node id="9122">
         <label>Object.h</label>
-        <childnode refid="9125" relation="include">
+        <childnode refid="9123" relation="include">
         </childnode>
-        <childnode refid="9133" relation="include">
+        <childnode refid="9131" relation="include">
         </childnode>
-        <childnode refid="9134" relation="include">
+        <childnode refid="9132" relation="include">
         </childnode>
-      </node>
-      <node id="9129">
-        <label>string</label>
       </node>
       <node id="9127">
+        <label>string</label>
+      </node>
+      <node id="9125">
         <label>fstream</label>
       </node>
-      <node id="9136">
-        <label>Types.h</label>
-        <childnode refid="9137" relation="include">
-        </childnode>
-        <childnode refid="9125" relation="include">
-        </childnode>
-      </node>
       <node id="9134">
-        <label>Xml/Node.h</label>
+        <label>Types.h</label>
         <childnode refid="9135" relation="include">
         </childnode>
-        <childnode refid="9130" relation="include">
+        <childnode refid="9123" relation="include">
         </childnode>
-        <childnode refid="9125" relation="include">
+      </node>
+      <node id="9132">
+        <label>Xml/Node.h</label>
+        <childnode refid="9133" relation="include">
+        </childnode>
+        <childnode refid="9128" relation="include">
+        </childnode>
+        <childnode refid="9123" relation="include">
+        </childnode>
+      </node>
+      <node id="9137">
+        <label>Resources.h</label>
+        <childnode refid="9127" relation="include">
+        </childnode>
+        <childnode refid="9135" relation="include">
+        </childnode>
+      </node>
+      <node id="9131">
+        <label>Writer.h</label>
+        <childnode refid="9123" relation="include">
+        </childnode>
+        <childnode refid="9132" relation="include">
         </childnode>
       </node>
       <node id="9139">
-        <label>Resources.h</label>
-        <childnode refid="9129" relation="include">
-        </childnode>
-        <childnode refid="9137" relation="include">
-        </childnode>
-      </node>
-      <node id="9133">
-        <label>Writer.h</label>
-        <childnode refid="9125" relation="include">
-        </childnode>
-        <childnode refid="9134" relation="include">
-        </childnode>
-      </node>
-      <node id="9141">
         <label>Xml/Writer.h</label>
-        <childnode refid="9125" relation="include">
+        <childnode refid="9123" relation="include">
         </childnode>
       </node>
-      <node id="9125">
+      <node id="9123">
         <label>Utils/String.h</label>
+        <childnode refid="9124" relation="include">
+        </childnode>
+        <childnode refid="9125" relation="include">
+        </childnode>
         <childnode refid="9126" relation="include">
         </childnode>
         <childnode refid="9127" relation="include">
@@ -80,58 +84,54 @@
         </childnode>
         <childnode refid="9130" relation="include">
         </childnode>
-        <childnode refid="9131" relation="include">
-        </childnode>
-        <childnode refid="9132" relation="include">
-        </childnode>
       </node>
-      <node id="9131">
+      <node id="9129">
         <label>vector</label>
       </node>
-      <node id="9138">
+      <node id="9136">
         <label>utility</label>
       </node>
-      <node id="9128">
+      <node id="9126">
         <label>sstream</label>
       </node>
-      <node id="9140">
+      <node id="9138">
         <label>Utils/Char.h</label>
-        <childnode refid="9137" relation="include">
+        <childnode refid="9135" relation="include">
         </childnode>
-        <childnode refid="9125" relation="include">
-        </childnode>
-      </node>
-      <node id="9122">
-        <label>Tools/GenApi/Group.cpp</label>
-        <link refid="Group_8cpp"/>
         <childnode refid="9123" relation="include">
         </childnode>
-        <childnode refid="9138" relation="include">
-        </childnode>
-        <childnode refid="9139" relation="include">
-        </childnode>
-        <childnode refid="9140" relation="include">
-        </childnode>
-        <childnode refid="9125" relation="include">
-        </childnode>
-        <childnode refid="9141" relation="include">
-        </childnode>
       </node>
-      <node id="9126">
-        <label>deque</label>
-      </node>
-      <node id="9130">
-        <label>unordered_map</label>
-      </node>
-      <node id="9123">
-        <label>Group.h</label>
-        <childnode refid="9124" relation="include">
+      <node id="9120">
+        <label>Tools/GenApi/Group.cpp</label>
+        <link refid="Group_8cpp"/>
+        <childnode refid="9121" relation="include">
         </childnode>
         <childnode refid="9136" relation="include">
         </childnode>
-        <childnode refid="9125" relation="include">
+        <childnode refid="9137" relation="include">
+        </childnode>
+        <childnode refid="9138" relation="include">
+        </childnode>
+        <childnode refid="9123" relation="include">
+        </childnode>
+        <childnode refid="9139" relation="include">
+        </childnode>
+      </node>
+      <node id="9124">
+        <label>deque</label>
+      </node>
+      <node id="9128">
+        <label>unordered_map</label>
+      </node>
+      <node id="9121">
+        <label>Group.h</label>
+        <childnode refid="9122" relation="include">
         </childnode>
         <childnode refid="9134" relation="include">
+        </childnode>
+        <childnode refid="9123" relation="include">
+        </childnode>
+        <childnode refid="9132" relation="include">
         </childnode>
       </node>
     </incdepgraph>

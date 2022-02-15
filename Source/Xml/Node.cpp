@@ -155,9 +155,11 @@ namespace MdDox::Xml
         return false;
     }
 
-    void Node::sort(NodeSortFunc fnc)
+    void Node::sort(const NodeSortFunc& fnc)
     {
-        std::sort(_children.begin(), _children.end(), fnc);
+        // Use stable_sort to preserve any
+        // order that is already there.
+        std::stable_sort(_children.begin(), _children.end(), fnc);
     }
 
     void Node::siblingsOf(NodeArray& dest, const String& tag)
@@ -275,4 +277,5 @@ namespace MdDox::Xml
         }
         return nullptr;
     }
+	
 }  // namespace MdDox::Xml

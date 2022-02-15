@@ -70,7 +70,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="220" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="220" bodyend="229"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a6ef66c249f09a84a3428eae079d276ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -104,7 +104,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="170" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="130" bodyend="139"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a213a5e3ac58004cb4bc4c5b82e2a70c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -138,7 +138,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="200" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="184" bodyend="193"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a4ed13898226371e3f43a3237cf1ba186" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -172,7 +172,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="190" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="166" bodyend="175"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1ad43ec564ce129df0433c064cb0294983" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -208,7 +208,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="155" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="103" bodyend="110"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a87ddf852ebc909e86eae24bda976403f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -229,7 +229,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="180" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="148" bodyend="157"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1ab6796e35e893d840663ada22d5899009" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -284,7 +284,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="290" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="346" bodyend="355"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a4c36a0f9e6983c4c09606943f557fa56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -318,7 +318,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="260" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="292" bodyend="301"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a46d9983bdc10e46b2cba908fbd527b9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -352,7 +352,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="270" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="310" bodyend="319"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a447ffabe7d56a08fa74669a582da9705" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -386,7 +386,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="280" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="328" bodyend="337"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1acd3a439ddeace76912f992ad7f5679e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -420,7 +420,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="230" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="238" bodyend="247"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1acf36a1b3e8d6769892b50ca4a48dc616" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -454,7 +454,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="250" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="274" bodyend="283"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a6a488562ea0c88a94f97141ffea67b40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -488,7 +488,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="240" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="256" bodyend="265"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1afe9e4c24cc7612875b7bcab3251f3881" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -522,7 +522,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="210" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="202" bodyend="211"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a56794881e479626a62cbc212a8f71aa0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -556,7 +556,7 @@
         <location file="Tools/Doxygen/TocItemQuery.h" line="160" column="1" bodyfile="Tools/Doxygen/TocItemQuery.cpp" bodystart="112" bodyend="121"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="229" endline="240">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="Doxygen_8h" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TocItemQuery_1a9caa9594c21d7a08178d2373d6ed3bc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

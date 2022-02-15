@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- d8OFWSQ[
+ WJIbDK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WcOFWSQ[
+ d3IbDK4[
    shape    = none
    label    = "VariableListQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d8OFWSQ->WcOFWSQ
+ WJIbDK4->d3IbDK4
 }

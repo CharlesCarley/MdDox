@@ -43,13 +43,21 @@ namespace MdDox
 
         String makeFilename(const Reference& ref) const;
 
-        void writeReferenceList(OStream& out, IconId icon, const String& heading, const ReferenceList& list) const;
-        void writeReferenceListDirectory(OStream& out, IconId icon, const String& heading, const ReferenceList& list) const;
+        void writeReferenceList(OStream&             out,
+                                IconId               icon,
+                                const String&        heading,
+                                const ReferenceList& list) const;
+
+        void writeReferenceListDirectory(OStream&             out,
+                                         IconId               icon,
+                                         const String&        heading,
+                                         const ReferenceList& list) const;
 
     public:
         IndexPageWriter(DocumentWriter* writer, String indexDir);
 
-        void exec(const Doxygen::DoxygenIndexQuery& query, const PathUtil& outDir);
+        void exec(const Doxygen::DoxygenIndexQuery& query,
+                  const PathUtil&                   outDir);
     };
 
-}  // namespace MdDox::Reflect
+}  // namespace MdDox

@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="71" bodyend="86"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="70" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1ade67be3a10921926e583b25f2f5a7193" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="88" bodyend="91"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a73b700549a5cdfc1fb925ddb50879307" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="63" bodyend="69"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="62" bodyend="68"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -243,7 +243,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="49" bodyend="53"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="48" bodyend="52"/>
         <references refid="classMdDox_1_1PageWriter_1a92b457f94cf847bb021dbacd0d292579" compoundref="PageWriter_8h" startline="59" endline="59">notifyBriefDescription</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a59596c8bb00a0e5b7c8e57a23e4594df" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -270,7 +270,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="55" bodyend="61"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="54" bodyend="60"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" compoundref="Doxygen_8h" startline="222" endline="225">MdDox::Doxygen::Query::empty</references>
         <references refid="classMdDox_1_1PageWriter_1a34a7cd04b8e56c0c65d11084e1951d34" compoundref="PageWriter_8h" startline="61" endline="61">notifyDetailDescriptionHeading</references>
         <references refid="classMdDox_1_1PageWriter_1a4af6fb6bc18922ccfe3df4688f0c625e" compoundref="PageWriter_8h" startline="63" endline="63">notifyDetailDescription</references>
@@ -299,7 +299,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="93" bodyend="100"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="92" bodyend="99"/>
         <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
         <references refid="classMdDox_1_1SectionDefListingWriter_1a687b673217b074953bb64347127e778a" compoundref="SectionDefListingWriter_8cpp" startline="37" endline="40">MdDox::SectionDefListingWriter::setDepth</references>
@@ -318,11 +318,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="102" bodyend="109"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="101" bodyend="108"/>
         <references refid="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" compoundref="PageWriter_8h" startline="41">_sections</references>
         <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
-        <references refid="classMdDox_1_1SectionDefWriter_1aef75dee88bd321a8fa074441bfb9c86f" compoundref="SectionDefWriter_8cpp" startline="53" endline="61">MdDox::SectionDefWriter::write</references>
+        <references refid="classMdDox_1_1SectionDefWriter_1aef75dee88bd321a8fa074441bfb9c86f" compoundref="SectionDefWriter_8cpp" startline="52" endline="60">MdDox::SectionDefWriter::write</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="37" bodyend="47"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="36" bodyend="46"/>
         <references refid="classMdDox_1_1PageWriter_1ac012825bbcafe1452762c50cd2d35037" compoundref="PageWriter_8h" startline="39">_inDir</references>
         <references refid="classMdDox_1_1PageWriter_1a3199dcb45dcad5468a8b8a1060bd25ec" compoundref="PageWriter_8h" startline="38">_outDir</references>
         <references refid="classMdDox_1_1PathUtil_1a4f90af1ff20339ccecf185ea8f98e99d" compoundref="Path_8cpp" startline="146" endline="169">MdDox::PathUtil::parentDir</references>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="111" bodyend="130"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="110" bodyend="129"/>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
         <references refid="classMdDox_1_1PageWriter_1a3199dcb45dcad5468a8b8a1060bd25ec" compoundref="PageWriter_8h" startline="38">_outDir</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
@@ -394,9 +394,9 @@
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="159">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="182" endline="204">MdDox::Xml::Node::getFirstChild</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="184" endline="206">MdDox::Xml::Node::getFirstChild</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="DoxygenFilter_8h" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
-        <references refid="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="PageWriter_8cpp" startline="102" endline="109">writeDetails</references>
+        <references refid="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="PageWriter_8cpp" startline="101" endline="108">writeDetails</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

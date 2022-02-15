@@ -4,28 +4,30 @@
     <compoundname>IconSet.cpp</compoundname>
     <includes refid="IconSet_8h" local="yes">IconSet.h</includes>
     <incdepgraph>
-      <node id="864">
+      <node id="863">
         <label>iomanip</label>
       </node>
-      <node id="861">
+      <node id="860">
         <label>string</label>
       </node>
-      <node id="859">
+      <node id="858">
         <label>fstream</label>
       </node>
-      <node id="856">
-        <label>IconSet.h</label>
-        <childnode refid="857" relation="include">
-        </childnode>
-      </node>
       <node id="855">
-        <label>Source/MdDoxTree/IconSet.cpp</label>
-        <link refid="IconSet_8cpp"/>
+        <label>IconSet.h</label>
         <childnode refid="856" relation="include">
         </childnode>
       </node>
-      <node id="857">
+      <node id="854">
+        <label>Source/MdDoxTree/IconSet.cpp</label>
+        <link refid="IconSet_8cpp"/>
+        <childnode refid="855" relation="include">
+        </childnode>
+      </node>
+      <node id="856">
         <label>Utils/String.h</label>
+        <childnode refid="857" relation="include">
+        </childnode>
         <childnode refid="858" relation="include">
         </childnode>
         <childnode refid="859" relation="include">
@@ -38,19 +40,17 @@
         </childnode>
         <childnode refid="863" relation="include">
         </childnode>
-        <childnode refid="864" relation="include">
-        </childnode>
-      </node>
-      <node id="863">
-        <label>vector</label>
-      </node>
-      <node id="860">
-        <label>sstream</label>
-      </node>
-      <node id="858">
-        <label>deque</label>
       </node>
       <node id="862">
+        <label>vector</label>
+      </node>
+      <node id="859">
+        <label>sstream</label>
+      </node>
+      <node id="857">
+        <label>deque</label>
+      </node>
+      <node id="861">
         <label>unordered_map</label>
       </node>
     </incdepgraph>

@@ -288,22 +288,6 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_ATTRIB</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_friend" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_FRIEND</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_prototype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTOTYPE</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_INVALID</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#getkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getKind</span>
 </a>
 </span>
@@ -453,6 +437,22 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_static_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_STATIC_ATTRIB</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_ATTRIB</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_friend" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_FRIEND</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_prototype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTOTYPE</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_INVALID</span>
 </a>
 </span>
 <br/>

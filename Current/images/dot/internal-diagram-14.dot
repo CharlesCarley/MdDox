@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qZD3WSQ[
+ DqSEDK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DxU3WSQ[
+ DRSEDK4[
    shape    = none
    label    = "CompoundRefQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZD3WSQ->DxU3WSQ
+ DqSEDK4->DRSEDK4
 }

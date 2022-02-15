@@ -13,6 +13,8 @@
 <a id="topics"></a>
 <h2>Topics</h2>
 <ul>
+<li><a href="index.md#contents">Contents</a>
+</li>
 <li><a href="Site.md#site-layout">Site Layout</a>
 </li>
 <li><a href="Design.md#design-tests">Design tests</a>
@@ -20,8 +22,6 @@
 <li><a href="Image.md#image-handling">Image handling</a>
 </li>
 <li><a href="Html.md#style-sheet">Style Sheet</a>
-</li>
-<li><a href="index.md#contents">Contents</a>
 </li>
 </ul>
 </div>

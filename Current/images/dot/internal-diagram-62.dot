@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D7p3WSQ[
+ D23EDK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q7W3WSQ[
+ qCIEDK4[
    shape    = none
    label    = "Sect1Query"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D7p3WSQ->q7W3WSQ
+ D23EDK4->qCIEDK4
 }

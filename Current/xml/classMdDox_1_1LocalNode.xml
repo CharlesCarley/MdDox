@@ -107,7 +107,7 @@
       <member refid="classMdDox_1_1Xml_1_1Node_1adfad587ec429e52c9140c76d0b6f83c7" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>setTypeCode</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a155387e434a57ea107317a8a41ed5a98" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>siblingsOf</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1af7516023a308caa444e5da160689cd9e" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>size</name></member>
-      <member refid="classMdDox_1_1Xml_1_1Node_1a6b6a05165eb99368c79b501d5a4cd720" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>sort</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1aa85495a564a50bb46cd0df3489a1dd54" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>sort</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>text</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a5ef5cf3675c04702677dce3cbf767803" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>text</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1aa4305357352d028f2ff0e31685f3ee53" prot="public" virt="non-virtual"><scope>MdDox::LocalNode</scope><name>~Node</name></member>

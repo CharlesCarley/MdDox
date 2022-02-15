@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dGW2WSQ[
+ W6dCDK4[
    shape    = none
    label    = "exception"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W3A2WSQ[
+ d4ZCDK4[
    shape    = none
    label    = "Exception"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxW2WSQ[
+ dpZCDK4[
    shape    = none
    label    = "ParseError"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W3A2WSQ->dxW2WSQ
- dGW2WSQ->W3A2WSQ
+ d4ZCDK4->dpZCDK4
+ W6dCDK4->d4ZCDK4
 }

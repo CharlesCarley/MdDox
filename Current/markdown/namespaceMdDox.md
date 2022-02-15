@@ -26,10 +26,6 @@
 </ul>
 <a id="namespaces"></a>
 <h2>Namespaces</h2>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1ResourceCompiler.md#resourcecompiler" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">ResourceCompiler</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#commandline" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">CommandLine</span>
 </a>
 </span>
@@ -58,6 +54,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1ResourceCompiler.md#resourcecompiler" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">ResourceCompiler</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#writeutils" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils</span>
 </a>
 </span>
@@ -68,6 +68,54 @@
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
+<span class="icon-list-item"><a href="classMdDox_1_1Application.md#application" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Application</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Cache.md#cache" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Cache</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Char.md#char" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Char</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Config.md#config" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Config</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#console" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Console</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DescriptionWriter.md#descriptionwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#documentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DotWriter.md#dotwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DotWriterImpl.md#dotwriterimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriterImpl</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Exception.md#exception" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Exception</span>
 </a>
 </span>
@@ -244,7 +292,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Application.md#application" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Application</span>
+<span class="icon-list-item"><a href="classMdDox_1_1TokenBase.md#tokenbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase</span>
 </a>
 </span>
 <br/>
@@ -252,51 +300,95 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Cache.md#cache" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Cache</span>
+<a id="enums"></a>
+<h2>Enums</h2>
+<span class="icon-list-item"><a href="#consolecolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ConsoleColor</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#char" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Char</span>
+<span class="icon-list-item"><a href="#iconid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IconId</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
+<span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Config.md#config" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Config</span>
+<a id="typedefs"></a>
+<h2>Typedefs</h2>
+<span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Directory</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#console" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Console</span>
+<span class="icon-list-item"><a href="#inputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputFileStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DescriptionWriter.md#descriptionwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter</span>
+<span class="icon-list-item"><a href="#inputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputStringStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter</span>
+<span class="icon-list-item"><a href="#inttable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IntTable</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1TokenBase.md#tokenbase" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase</span>
+<span class="icon-list-item"><a href="#istream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#documentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter</span>
+<span class="icon-list-item"><a href="#ostream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DotWriter.md#dotwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter</span>
+<span class="icon-list-item"><a href="#outputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputFileStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DotWriterImpl.md#dotwriterimpl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DotWriterImpl</span>
+<span class="icon-list-item"><a href="#outputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputStringStream</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter</span>
+<span class="icon-list-item"><a href="#path" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Path</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#patharray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PathArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#referencelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceList</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#referencemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#string" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">String</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#stringarray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#stringdeque" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringDeque</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#stringmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#stringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringStream</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#stringtable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringTable</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#typefiltermap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilterMap</span>
 </a>
 </span>
 <br/>
@@ -428,103 +520,562 @@
 </a>
 </span>
 <br/>
-<a id="enums"></a>
-<h2>Enums</h2>
-<span class="icon-list-item"><a href="#consolecolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ConsoleColor</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#iconid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IconId</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
-</a>
-</span>
-<br/>
-<a id="typedefs"></a>
-<h2>Typedefs</h2>
-<span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Directory</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#inputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputFileStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#inputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InputStringStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#inttable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IntTable</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#istream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#ostream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#outputfilestream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputFileStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#outputstringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OutputStringStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#path" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Path</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#patharray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PathArray</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#referencelist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceList</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#referencemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMap</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#string" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">String</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#stringarray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringArray</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#stringdeque" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringDeque</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#stringmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringMap</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#stringstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringStream</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#stringtable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringTable</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#typefiltermap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilterMap</span>
-</a>
-</span>
-<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Current/pages/Index.h#L24" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
+<br/>
+<a id="consolecolor"></a>
+<h2>ConsoleColor</h2>
+<span class="bold-text"><b>ConsoleColor</b></span>
+<br/>
+<span class="inline-text">Enum for adding specific background and foreground colors to the console. </span>
+<br/>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLACK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_BLUE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_GREEN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_CYAN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_RED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREY</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLUE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREEN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_CYAN</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_RED</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_MAGENTA</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_YELLOW</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_WHITE</span>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="iconid"></a>
+<h2>IconId</h2>
+<span class="bold-text"><b>IconId</b></span>
+<br/>
+<span class="inline-text">internal icons to this system </span>
+<br/>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NONE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_BACK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_DEBUG</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FILE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FOLDER</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_HOME</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_LINK</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CLASS</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_ENUM</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NAMESPACE</span>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="options"></a>
+<h2>Options</h2>
+<span class="bold-text"><b>Options</b></span>
+<br/>
+<span class="inline-text">Usage Options. </span>
+<br/>
+<br/>
+<span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#optgentype" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptGenType</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
+</a>
+</span>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OpMax</span>
+</span>
+</div>
+
+```
+Usage: MdDox <options> <arg[0] .. arg[n]>
+
+     -h, --help    Display this help message
+     -o, --output  Specify an output directory
+                     If one is not specified the current directory will be used
+
+     -i, --index   Specify the index.xml file to use
+                     <path>
+
+     -t, --type    Specify the generator backend type
+                     <id>
+                      md   - Generates a GFM markdown site.
+                      html - Generates a HTML site.
+```
+<br/>
+<a id="optoutputdirectory"></a>
+<h4>OptOutputDirectory</h4>
+<br/>
+<span class="inline-text">Provides the option to specify an output directory. </span>
+<br/>
+<br/>
+<ul>
+<li><code class="typewriter">-o &lt;file-path&gt;</code>
+</li>
+<li><code class="typewriter">output &lt;file-path&gt;</code>
+<br/>
+<a id="note"></a>
+<h4>Note</h4>
+<span class="inline-text">if an output path is not specified then the current working directory will be used as the output directory. </span>
+</li>
+</ul>
+<br/>
+<a id="optindexfile"></a>
+<h4>OptIndexFile</h4>
+<br/>
+<span class="inline-text">Provides the option to specify the index file. </span>
+<br/>
+<br/>
+<ul>
+<li><code class="typewriter">-i [file-path]</code>
+</li>
+<li><code class="typewriter">input [file-path]</code>
+<br/>
+</li>
+</ul>
+<br/>
+<a id="optgentype"></a>
+<h4>OptGenType</h4>
+<br/>
+<span class="inline-text">Provides the option to specify the backend document writer. </span>
+<br/>
+<br/>
+<ul>
+<li><code class="typewriter">-t [type]</code>
+</li>
+<li><code class="typewriter">input [type]</code>
+<br/>
+</li>
+</ul>
+<span class="bold-text"><b>type</b></span>
+<ul>
+<li><span class="inline-text">md - Use </span>
+<a href="classMdDox_1_1MarkdownDocumentWriter.md#mddoxmarkdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
+<span class="inline-text"> as the writer.</span>
+</li>
+<li><span class="inline-text">html - Use </span>
+<a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter">MdDox::HtmlDocumentWriter</a>
+<span class="inline-text"> as the writer. </span>
+</li>
+</ul>
+<br/>
+<a id="optconfigfile"></a>
+<h4>OptConfigFile</h4>
+<br/>
+<span class="inline-text">Provides the option to load a config file. </span>
+<br/>
+<br/>
+<ul>
+<li><code class="typewriter">-c [file]</code>
+</li>
+<li><code class="typewriter">config [file]</code>
+<br/>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="directory"></a>
+<h2>Directory</h2>
+<span class="inline-text">local_filesystem::directory_entry</span>
+<span class="bold-text"><b>Directory</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="inputfilestream"></a>
+<h2>InputFileStream</h2>
+<span class="inline-text">std::ifstream</span>
+<span class="bold-text"><b>InputFileStream</b></span>
+<br/>
+<span class="inline-text">Declaration of the input file stream class. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="inputstringstream"></a>
+<h2>InputStringStream</h2>
+<span class="inline-text">std::istringstream</span>
+<span class="bold-text"><b>InputStringStream</b></span>
+<br/>
+<span class="inline-text">Declaration of an input only string stream. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="inttable"></a>
+<h2>IntTable</h2>
+<a href="classMdDox_1_1IndexCache.md#indexcache">IndexCache</a>
+<span class="inline-text">&lt; int &gt;</span>
+<span class="bold-text"><b>IntTable</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="istream"></a>
+<h2>IStream</h2>
+<span class="inline-text">std::istream</span>
+<span class="bold-text"><b>IStream</b></span>
+<br/>
+<span class="inline-text">Declaration of the input stream base class. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="ostream"></a>
+<h2>OStream</h2>
+<span class="inline-text">std::ostream</span>
+<span class="bold-text"><b>OStream</b></span>
+<br/>
+<span class="inline-text">Declaration of the output stream base class. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="outputfilestream"></a>
+<h2>OutputFileStream</h2>
+<span class="inline-text">std::ofstream</span>
+<span class="bold-text"><b>OutputFileStream</b></span>
+<br/>
+<span class="inline-text">Declaration of the output file stream class. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="outputstringstream"></a>
+<h2>OutputStringStream</h2>
+<span class="inline-text">std::ostringstream</span>
+<span class="bold-text"><b>OutputStringStream</b></span>
+<br/>
+<span class="inline-text">Declaration of an output only string stream. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L66" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="path"></a>
+<h2>Path</h2>
+<span class="inline-text">local_filesystem::path</span>
+<span class="bold-text"><b>Path</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="patharray"></a>
+<h2>PathArray</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="namespaceMdDox.md#path">Path</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>PathArray</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="referencelist"></a>
+<h2>ReferenceList</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="classMdDox_1_1Reference.md#reference">Reference</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>ReferenceList</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="referencemap"></a>
+<h2>ReferenceMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>ReferenceMap</b></span>
+<br/>
+<span class="inline-text">Container that is used to map a reference id attribute to a name. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="string"></a>
+<h2>String</h2>
+<span class="inline-text">std::string</span>
+<span class="bold-text"><b>String</b></span>
+<br/>
+<span class="inline-text">Declaration of a string. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="stringarray"></a>
+<h2>StringArray</h2>
+<span class="inline-text">std::vector&lt; std::string &gt;</span>
+<span class="bold-text"><b>StringArray</b></span>
+<br/>
+<span class="inline-text">Structure to hold a vector of strings. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="stringdeque"></a>
+<h2>StringDeque</h2>
+<span class="inline-text">std::deque&lt; std::string &gt;</span>
+<span class="bold-text"><b>StringDeque</b></span>
+<br/>
+<span class="inline-text">Structure to hold a double ended queue of strings. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="stringmap"></a>
+<h2>StringMap</h2>
+<span class="inline-text">std::unordered_map&lt; std::string, std::string &gt;</span>
+<span class="bold-text"><b>StringMap</b></span>
+<br/>
+<span class="inline-text">Structure to hold a key value string. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="stringstream"></a>
+<h2>StringStream</h2>
+<span class="inline-text">std::stringstream</span>
+<span class="bold-text"><b>StringStream</b></span>
+<br/>
+<span class="inline-text">Declaration of an input/output string stream. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="stringtable"></a>
+<h2>StringTable</h2>
+<a href="classMdDox_1_1IndexCache.md#indexcache">IndexCache</a>
+<span class="inline-text">&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>StringTable</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="typefiltermap"></a>
+<h2>TypeFilterMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, int64_t &gt;</span>
+<span class="bold-text"><b>TypeFilterMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="__gbackground"></a>
 <h2>__gBackground</h2>
@@ -1601,557 +2152,6 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="consolecolor"></a>
-<h2>ConsoleColor</h2>
-<span class="bold-text"><b>ConsoleColor</b></span>
-<br/>
-<span class="inline-text">Enum for adding specific background and foreground colors to the console. </span>
-<br/>
-<br/>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLACK</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_BLUE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_GREEN</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_CYAN</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_RED</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREY</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLUE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREEN</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_CYAN</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_RED</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_MAGENTA</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_YELLOW</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_WHITE</span>
-</span>
-</div>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="iconid"></a>
-<h2>IconId</h2>
-<span class="bold-text"><b>IconId</b></span>
-<br/>
-<span class="inline-text">internal icons to this system </span>
-<br/>
-<br/>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NONE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_BACK</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_DEBUG</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FILE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FOLDER</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_HOME</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_LINK</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CLASS</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_ENUM</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NAMESPACE</span>
-</span>
-</div>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="options"></a>
-<h2>Options</h2>
-<span class="bold-text"><b>Options</b></span>
-<br/>
-<span class="inline-text">Usage Options. </span>
-<br/>
-<br/>
-<span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#optgentype" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptGenType</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
-</a>
-</span>
-<br/>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OpMax</span>
-</span>
-</div>
-
-```
-Usage: MdDox <options> <arg[0] .. arg[n]>
-
-     -h, --help    Display this help message
-     -o, --output  Specify an output directory
-                     If one is not specified the current directory will be used
-
-     -i, --index   Specify the index.xml file to use
-                     <path>
-
-     -t, --type    Specify the generator backend type
-                     <id>
-                      md   - Generates a GFM markdown site.
-                      html - Generates a HTML site.
-```
-<br/>
-<a id="optoutputdirectory"></a>
-<h4>OptOutputDirectory</h4>
-<br/>
-<span class="inline-text">Provides the option to specify an output directory. </span>
-<br/>
-<br/>
-<ul>
-<li><code class="typewriter">-o &lt;file-path&gt;</code>
-</li>
-<li><code class="typewriter">output &lt;file-path&gt;</code>
-<br/>
-<a id="note"></a>
-<h4>Note</h4>
-<span class="inline-text">if an output path is not specified then the current working directory will be used as the output directory. </span>
-</li>
-</ul>
-<br/>
-<a id="optindexfile"></a>
-<h4>OptIndexFile</h4>
-<br/>
-<span class="inline-text">Provides the option to specify the index file. </span>
-<br/>
-<br/>
-<ul>
-<li><code class="typewriter">-i [file-path]</code>
-</li>
-<li><code class="typewriter">input [file-path]</code>
-<br/>
-</li>
-</ul>
-<br/>
-<a id="optgentype"></a>
-<h4>OptGenType</h4>
-<br/>
-<span class="inline-text">Provides the option to specify the backend document writer. </span>
-<br/>
-<br/>
-<ul>
-<li><code class="typewriter">-t [type]</code>
-</li>
-<li><code class="typewriter">input [type]</code>
-<br/>
-</li>
-</ul>
-<span class="bold-text"><b>type</b></span>
-<ul>
-<li><span class="inline-text">md - Use </span>
-<a href="classMdDox_1_1MarkdownDocumentWriter.md#mddoxmarkdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
-<span class="inline-text"> as the writer.</span>
-</li>
-<li><span class="inline-text">html - Use </span>
-<a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter">MdDox::HtmlDocumentWriter</a>
-<span class="inline-text"> as the writer. </span>
-</li>
-</ul>
-<br/>
-<a id="optconfigfile"></a>
-<h4>OptConfigFile</h4>
-<br/>
-<span class="inline-text">Provides the option to load a config file. </span>
-<br/>
-<br/>
-<ul>
-<li><code class="typewriter">-c [file]</code>
-</li>
-<li><code class="typewriter">config [file]</code>
-<br/>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="directory"></a>
-<h2>Directory</h2>
-<span class="inline-text">local_filesystem::directory_entry</span>
-<span class="bold-text"><b>Directory</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="inputfilestream"></a>
-<h2>InputFileStream</h2>
-<span class="inline-text">std::ifstream</span>
-<span class="bold-text"><b>InputFileStream</b></span>
-<br/>
-<span class="inline-text">Declaration of the input file stream class. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="inputstringstream"></a>
-<h2>InputStringStream</h2>
-<span class="inline-text">std::istringstream</span>
-<span class="bold-text"><b>InputStringStream</b></span>
-<br/>
-<span class="inline-text">Declaration of an input only string stream. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="inttable"></a>
-<h2>IntTable</h2>
-<a href="classMdDox_1_1IndexCache.md#indexcache">IndexCache</a>
-<span class="inline-text">&lt; int &gt;</span>
-<span class="bold-text"><b>IntTable</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="istream"></a>
-<h2>IStream</h2>
-<span class="inline-text">std::istream</span>
-<span class="bold-text"><b>IStream</b></span>
-<br/>
-<span class="inline-text">Declaration of the input stream base class. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="ostream"></a>
-<h2>OStream</h2>
-<span class="inline-text">std::ostream</span>
-<span class="bold-text"><b>OStream</b></span>
-<br/>
-<span class="inline-text">Declaration of the output stream base class. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="outputfilestream"></a>
-<h2>OutputFileStream</h2>
-<span class="inline-text">std::ofstream</span>
-<span class="bold-text"><b>OutputFileStream</b></span>
-<br/>
-<span class="inline-text">Declaration of the output file stream class. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="outputstringstream"></a>
-<h2>OutputStringStream</h2>
-<span class="inline-text">std::ostringstream</span>
-<span class="bold-text"><b>OutputStringStream</b></span>
-<br/>
-<span class="inline-text">Declaration of an output only string stream. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L66" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="path"></a>
-<h2>Path</h2>
-<span class="inline-text">local_filesystem::path</span>
-<span class="bold-text"><b>Path</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="patharray"></a>
-<h2>PathArray</h2>
-<span class="inline-text">std::vector&lt; </span>
-<a href="namespaceMdDox.md#path">Path</a>
-<span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>PathArray</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="referencelist"></a>
-<h2>ReferenceList</h2>
-<span class="inline-text">std::vector&lt; </span>
-<a href="classMdDox_1_1Reference.md#reference">Reference</a>
-<span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>ReferenceList</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="referencemap"></a>
-<h2>ReferenceMap</h2>
-<span class="inline-text">std::unordered_map&lt; </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text">, </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>ReferenceMap</b></span>
-<br/>
-<span class="inline-text">Container that is used to map a reference id attribute to a name. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="string"></a>
-<h2>String</h2>
-<span class="inline-text">std::string</span>
-<span class="bold-text"><b>String</b></span>
-<br/>
-<span class="inline-text">Declaration of a string. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="stringarray"></a>
-<h2>StringArray</h2>
-<span class="inline-text">std::vector&lt; std::string &gt;</span>
-<span class="bold-text"><b>StringArray</b></span>
-<br/>
-<span class="inline-text">Structure to hold a vector of strings. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="stringdeque"></a>
-<h2>StringDeque</h2>
-<span class="inline-text">std::deque&lt; std::string &gt;</span>
-<span class="bold-text"><b>StringDeque</b></span>
-<br/>
-<span class="inline-text">Structure to hold a double ended queue of strings. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="stringmap"></a>
-<h2>StringMap</h2>
-<span class="inline-text">std::unordered_map&lt; std::string, std::string &gt;</span>
-<span class="bold-text"><b>StringMap</b></span>
-<br/>
-<span class="inline-text">Structure to hold a key value string. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="stringstream"></a>
-<h2>StringStream</h2>
-<span class="inline-text">std::stringstream</span>
-<span class="bold-text"><b>StringStream</b></span>
-<br/>
-<span class="inline-text">Declaration of an input/output string stream. </span>
-<br/>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="stringtable"></a>
-<h2>StringTable</h2>
-<a href="classMdDox_1_1IndexCache.md#indexcache">IndexCache</a>
-<span class="inline-text">&lt; </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &gt;</span>
-<span class="bold-text"><b>StringTable</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ScannerBase.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="typefiltermap"></a>
-<h2>TypeFilterMap</h2>
-<span class="inline-text">std::unordered_map&lt; </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text">, int64_t &gt;</span>
-<span class="bold-text"><b>TypeFilterMap</b></span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
 </a>
 </span>
 <br/>

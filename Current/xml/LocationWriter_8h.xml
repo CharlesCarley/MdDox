@@ -10,115 +10,117 @@
     <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1144">
+      <node id="1143">
         <label>Utils/Console.h</label>
-        <childnode refid="1132" relation="include">
+        <childnode refid="1131" relation="include">
         </childnode>
       </node>
-      <node id="1138">
+      <node id="1137">
         <label>iomanip</label>
       </node>
-      <node id="1130">
+      <node id="1129">
         <label>functional</label>
       </node>
-      <node id="1140">
+      <node id="1139">
         <label>Utils/Exception.h</label>
+        <childnode refid="1140" relation="include">
+        </childnode>
         <childnode refid="1141" relation="include">
         </childnode>
         <childnode refid="1142" relation="include">
         </childnode>
         <childnode refid="1143" relation="include">
         </childnode>
-        <childnode refid="1144" relation="include">
-        </childnode>
-        <childnode refid="1132" relation="include">
-        </childnode>
-      </node>
-      <node id="1142">
-        <label>stdexcept</label>
-      </node>
-      <node id="1136">
-        <label>string</label>
-      </node>
-      <node id="1129">
-        <label>Doxygen.h</label>
-        <childnode refid="1130" relation="include">
-        </childnode>
         <childnode refid="1131" relation="include">
-        </childnode>
-        <childnode refid="1132" relation="include">
-        </childnode>
-        <childnode refid="1139" relation="include">
-        </childnode>
-        <childnode refid="1140" relation="include">
         </childnode>
       </node>
       <node id="1141">
-        <label>exception</label>
+        <label>stdexcept</label>
       </node>
-      <node id="1134">
-        <label>fstream</label>
+      <node id="1135">
+        <label>string</label>
       </node>
-      <node id="1127">
-        <label>Source/MdDoxTree/LocationWriter.h</label>
-        <link refid="LocationWriter_8h"/>
-        <childnode refid="1128" relation="include">
+      <node id="1128">
+        <label>Doxygen.h</label>
+        <childnode refid="1129" relation="include">
         </childnode>
-      </node>
-      <node id="1139">
-        <label>Xml/Node.h</label>
         <childnode refid="1130" relation="include">
         </childnode>
         <childnode refid="1131" relation="include">
         </childnode>
-        <childnode refid="1132" relation="include">
+        <childnode refid="1138" relation="include">
+        </childnode>
+        <childnode refid="1139" relation="include">
         </childnode>
       </node>
-      <node id="1132">
+      <node id="1140">
+        <label>exception</label>
+      </node>
+      <node id="1133">
+        <label>fstream</label>
+      </node>
+      <node id="1126">
+        <label>Source/MdDoxTree/LocationWriter.h</label>
+        <link refid="LocationWriter_8h"/>
+        <childnode refid="1127" relation="include">
+        </childnode>
+      </node>
+      <node id="1138">
+        <label>Xml/Node.h</label>
+        <childnode refid="1129" relation="include">
+        </childnode>
+        <childnode refid="1130" relation="include">
+        </childnode>
+        <childnode refid="1131" relation="include">
+        </childnode>
+      </node>
+      <node id="1131">
         <label>Utils/String.h</label>
+        <childnode refid="1132" relation="include">
+        </childnode>
         <childnode refid="1133" relation="include">
         </childnode>
         <childnode refid="1134" relation="include">
         </childnode>
         <childnode refid="1135" relation="include">
         </childnode>
-        <childnode refid="1136" relation="include">
+        <childnode refid="1130" relation="include">
         </childnode>
-        <childnode refid="1131" relation="include">
+        <childnode refid="1136" relation="include">
         </childnode>
         <childnode refid="1137" relation="include">
         </childnode>
-        <childnode refid="1138" relation="include">
-        </childnode>
       </node>
-      <node id="1128">
+      <node id="1127">
         <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="1129" relation="include">
+        <childnode refid="1128" relation="include">
         </childnode>
       </node>
-      <node id="1137">
+      <node id="1136">
         <label>vector</label>
       </node>
-      <node id="1143">
+      <node id="1142">
         <label>utility</label>
       </node>
-      <node id="1135">
+      <node id="1134">
         <label>sstream</label>
       </node>
-      <node id="1133">
+      <node id="1132">
         <label>deque</label>
       </node>
-      <node id="1131">
+      <node id="1130">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1150">
+      <node id="1149">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="1145">
+      <node id="1144">
         <label>Source/MdDoxTree/LocationWriter.h</label>
         <link refid="LocationWriter_8h"/>
+        <childnode refid="1145" relation="include">
+        </childnode>
         <childnode refid="1146" relation="include">
         </childnode>
         <childnode refid="1147" relation="include">
@@ -129,22 +131,20 @@
         </childnode>
         <childnode refid="1150" relation="include">
         </childnode>
-        <childnode refid="1151" relation="include">
-        </childnode>
-      </node>
-      <node id="1147">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
-      </node>
-      <node id="1151">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
-      </node>
-      <node id="1148">
-        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="1146">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="1150">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1147">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1145">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="1149">
+      <node id="1148">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>

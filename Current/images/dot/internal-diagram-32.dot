@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qhaIWSQ[
+ qJFEDK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qElIWSQ[
+ DxFEDK4[
    shape    = none
    label    = "InternalS2Query"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qhaIWSQ->qElIWSQ
+ qJFEDK4->DxFEDK4
 }

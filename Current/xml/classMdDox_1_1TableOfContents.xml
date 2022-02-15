@@ -187,7 +187,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="65" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="65" bodyend="118"/>
+        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="65" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="65" bodyend="117"/>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" compoundref="SectionDefQuery_8cpp" startline="56" endline="61">MdDox::Doxygen::SectionDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aac9b5158f9f3b973221f5961ed6c2169c" compoundref="DoxSectionKind_8h" startline="218">MdDox::Doxygen::DSK_ENUM</references>
         <references refid="classMdDox_1_1TableOfContents_1a25788b18a03e41f6e4f3191e1a279450" compoundref="NamespacePageWriter_8cpp" startline="44">hasEnums</references>
@@ -271,7 +271,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="40" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="39" bodyend="119"/>
+    <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="40" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="39" bodyend="118"/>
     <listofallmembers>
       <member refid="classMdDox_1_1TableOfContents_1acada8323e626b6d1569cea6ee16f596d" prot="public" virt="non-virtual"><scope>MdDox::TableOfContents</scope><name>hasAny</name></member>
       <member refid="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" prot="public" virt="non-virtual"><scope>MdDox::TableOfContents</scope><name>hasClasses</name></member>

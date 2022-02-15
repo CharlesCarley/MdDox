@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 198,-40 198,4 -4,4"/>
-<!-- qZD3WSQ -->
-<g id="node1" class="node"><title>qZD3WSQ</title>
+<!-- DqSEDK4 -->
+<g id="node1" class="node"><title>DqSEDK4</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- DxU3WSQ -->
-<g id="node2" class="node"><title>DxU3WSQ</title>
+<!-- DRSEDK4 -->
+<g id="node2" class="node"><title>DRSEDK4</title>
 <text text-anchor="middle" x="142" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">CompoundRefQuery</text>
 </g>
-<!-- qZD3WSQ&#45;&gt;DxU3WSQ -->
-<g id="edge1" class="edge"><title>qZD3WSQ&#45;&gt;DxU3WSQ</title>
+<!-- DqSEDK4&#45;&gt;DRSEDK4 -->
+<g id="edge1" class="edge"><title>DqSEDK4&#45;&gt;DRSEDK4</title>
 <path fill="none" stroke="#69bfff" d="M54.2085,-18C63.2853,-18 73.8429,-18 84.405,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.5839,-19.7501 89.5838,-18 84.5838,-16.2501 84.5839,-19.7501"/>
 </g>

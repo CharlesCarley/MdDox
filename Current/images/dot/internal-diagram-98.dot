@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D3YnoSQ[
+ qJmuDK4[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DmYnoSQ[
+ q4MuDK4[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DI5noSQ[
+ DrRuDK4[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZ5noSQ[
+ DSMuDK4[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DI5noSQ->qZ5noSQ
- DmYnoSQ->DI5noSQ
- D3YnoSQ->DmYnoSQ
+ DrRuDK4->DSMuDK4
+ q4MuDK4->DrRuDK4
+ qJmuDK4->q4MuDK4
 }

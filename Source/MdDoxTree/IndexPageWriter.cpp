@@ -189,17 +189,19 @@ namespace MdDox
 
     void IndexPageWriter::exec(const Doxygen::DoxygenIndexQuery& query, const PathUtil& outDir)
     {
-        _outDir = outDir;
-        _outDir.fileName(StringCombine("index", SiteBuilder::get().outputFileExt));
+        const SiteBuilder& builder = SiteBuilder::get();
+
+    	_outDir                    = outDir;
+        _outDir.fileName(StringCombine("index", builder.outputFileExt));
 
         OutputFileStream out(_outDir.fullPath());
         if (out.is_open())
         {
             _stream = &out;
 
+        	// extract all, classes, namespaces, directories, and pages.
             IndexPageFilter filter;
             query.visit(&filter);
-            const SiteBuilder& builder = SiteBuilder::get();
 
             _writer->beginDocument(out, builder.projectTitle);
 
@@ -235,7 +237,9 @@ namespace MdDox
             _writer->endDocument(out, "../index.xml");
 
             dispatchFilter(filter);
-            _stream = nullptr;
+
+
+        	_stream = nullptr;
         }
     }
 }  // namespace MdDox

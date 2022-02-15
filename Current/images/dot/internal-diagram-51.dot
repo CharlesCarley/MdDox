@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DxU3WSQ[
+ DZLEDK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DzD3WSQ[
+ qZLEDK4[
    shape    = none
    label    = "ParamNameQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DxU3WSQ->DzD3WSQ
+ DZLEDK4->qZLEDK4
 }

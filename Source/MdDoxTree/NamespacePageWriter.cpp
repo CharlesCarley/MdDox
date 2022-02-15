@@ -64,8 +64,7 @@ namespace MdDox
 
         void visitedSectionDef(const Doxygen::SectionDefQuery& query) override
         {
-            const Doxygen::DoxSectionKindEnum en = query.getKind();
-            switch (en)
+            switch (query.getKind())
             {
             case Doxygen::DSK_ENUM:
                 hasEnums = true;

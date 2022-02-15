@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- diL2WSQ[
+ WgrCDK4[
    shape    = none
    label    = "ParamNameListQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dLp2WSQ[
+ dZrCDK4[
    shape    = none
    label    = "NameListVisitor"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- diL2WSQ->dLp2WSQ
+ WgrCDK4->dZrCDK4
 }

@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="43" bodyend="46"/>
+        <location file="Source/MdDoxTree/SectionDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="42" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SectionDefWriter_1a9355338f1f50a36b46abcb886258b44f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -96,7 +96,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="48" bodyend="51"/>
+        <location file="Source/MdDoxTree/SectionDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SectionDefWriter_1a63d92bc7c931181f810010cecae38621" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -122,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="36" bodyend="41"/>
+        <location file="Source/MdDoxTree/SectionDefWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="35" bodyend="40"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="30" bodyend="34"/>
+        <location file="Source/MdDoxTree/SectionDefWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="29" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SectionDefWriter_1aef75dee88bd321a8fa074441bfb9c86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SectionDefWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="53" bodyend="61"/>
+        <location file="Source/MdDoxTree/SectionDefWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="52" bodyend="60"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectionDefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>

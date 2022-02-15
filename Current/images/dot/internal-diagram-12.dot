@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WLQlWSQ[
+ DoE4DK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dN2lWSQ[
+ qyE4DK4[
    shape    = none
    label    = "CompoundDefQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WLQlWSQ->dN2lWSQ
+ DoE4DK4->qyE4DK4
 }

@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 181,-40 181,4 -4,4"/>
-<!-- DQr5WSQ -->
-<g id="node1" class="node"><title>DQr5WSQ</title>
+<!-- qcKODK4 -->
+<g id="node1" class="node"><title>qcKODK4</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- q5r5WSQ -->
-<g id="node2" class="node"><title>q5r5WSQ</title>
+<!-- DKwODK4 -->
+<g id="node2" class="node"><title>DKwODK4</title>
 <text text-anchor="middle" x="133.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">EnumValueQuery</text>
 </g>
-<!-- DQr5WSQ&#45;&gt;q5r5WSQ -->
-<g id="edge1" class="edge"><title>DQr5WSQ&#45;&gt;q5r5WSQ</title>
+<!-- qcKODK4&#45;&gt;DKwODK4 -->
+<g id="edge1" class="edge"><title>qcKODK4&#45;&gt;DKwODK4</title>
 <path fill="none" stroke="#69bfff" d="M54.1002,-18C63.3477,-18 74.0676,-18 84.5546,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.6767,-19.7501 89.6767,-18 84.6766,-16.2501 84.6767,-19.7501"/>
 </g>

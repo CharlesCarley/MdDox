@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qdcooSQ[
+ Dgz2DK4[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q6cooSQ[
+ DqE2DK4[
    shape    = none
    label    = "InternalS3Query"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qdcooSQ->q6cooSQ
+ Dgz2DK4->DqE2DK4
 }

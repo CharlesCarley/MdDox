@@ -7,28 +7,28 @@
     <includedby refid="Tools_2GenApi_2Main_8cpp" local="yes">Tools/GenApi/Main.cpp</includedby>
     <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Tools/ResourceCompiler/Main.cpp</includedby>
     <invincdepgraph>
-      <node id="4024">
+      <node id="4022">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="4023">
+      <node id="4021">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="4020">
+      <node id="4018">
         <label>Source/Utils/Win32/CrtUtils.h</label>
         <link refid="CrtUtils_8h"/>
+        <childnode refid="4019" relation="include">
+        </childnode>
+        <childnode refid="4020" relation="include">
+        </childnode>
         <childnode refid="4021" relation="include">
         </childnode>
         <childnode refid="4022" relation="include">
         </childnode>
-        <childnode refid="4023" relation="include">
-        </childnode>
-        <childnode refid="4024" relation="include">
-        </childnode>
       </node>
-      <node id="4021">
+      <node id="4019">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="4022">
+      <node id="4020">
         <label>Source/Utils/Win32/CrtUtils.cpp</label>
       </node>
     </invincdepgraph>

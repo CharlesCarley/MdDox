@@ -25,15 +25,14 @@
 
 namespace MdDox
 {
-	struct TypeFilter
-	{
+    struct TypeFilter
+    {
         const char* typeName;
         int64_t     typeCode;
-	};
+    };
 
-	using  TypeFilterMap = std::unordered_map<String, int64_t>;
+    using TypeFilterMap = std::unordered_map<String, int64_t>;
 
-	extern void makeTypeFilter(TypeFilterMap& dest, const TypeFilter *, size_t size);
-	
-	
-}  // namespace MdDox::Xml
+    extern void makeTypeFilter(TypeFilterMap& dest, const TypeFilter*, size_t size);
+
+}  // namespace MdDox

@@ -265,7 +265,7 @@ namespace MdDox::Xml
          */
         bool hasAttributes() const;
 
-    	void sort(NodeSortFunc fnc);
+    	void sort(const NodeSortFunc &fnc);
     };
 
     inline const NodeArray& Node::children() const

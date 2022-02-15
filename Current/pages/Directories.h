@@ -25,7 +25,6 @@ Implements the main program. It is primarily composed of \ref MdDox::Doxygen::Vi
 \brief Contains three targets. First, a scaffolding library. Second the generator that writes the
 library. Third, a resource compiler for the generator.  
 
-
 */
 
 
@@ -70,8 +69,15 @@ library. Third, a resource compiler for the generator.
 /*!
 \dir Source/TypeFilter
 
-\brief Contains a constant static mapping of element names to enumerated types. To use,
-apply the filter to the parser before parsing a XML file.
+\brief Contains a constant static mapping of element names to enumerated types.
+
+The purpose of the filter is to reduce unnecessary string comparisons. The XML parser aims to
+be generic enough so that it can be reusable in other projects. So, the idea behind the
+filter is to maintain specific type info elsewhere, and bind the information to the node during
+the parse stage. The node maintains an extra optional integer storage value which can be used or
+ignored.
+
+To use, apply the filter to the parser before parsing a XML file.
 
 */
 

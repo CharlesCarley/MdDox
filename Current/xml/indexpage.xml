@@ -10,6 +10,8 @@
 <title>Topics</title>
 <para><itemizedlist>
 <listitem>
+<para><ref refid="index" kindref="compound">Contents</ref>  </para></listitem>
+<listitem>
 <para><ref refid="Site" kindref="compound">Site Layout</ref>  </para></listitem>
 <listitem>
 <para><ref refid="Design" kindref="compound">Design tests</ref>  </para></listitem>
@@ -17,8 +19,6 @@
 <para><ref refid="Image" kindref="compound">Image handling</ref>  </para></listitem>
 <listitem>
 <para><ref refid="Html" kindref="compound">Style Sheet</ref>  </para></listitem>
-<listitem>
-<para><ref refid="index" kindref="compound">Contents</ref>  </para></listitem>
 </itemizedlist>
 </para></sect1>
     </detaileddescription>

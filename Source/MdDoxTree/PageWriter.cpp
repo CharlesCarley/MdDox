@@ -23,7 +23,6 @@
 #include "DescriptionWriter.h"
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenQuery.h"
-#include "HashUtils.h"
 #include "Link.h"
 #include "SectionDefListingWriter.h"
 #include "SectionDefWriter.h"

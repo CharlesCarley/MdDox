@@ -10,20 +10,24 @@
     <includedby refid="Xml_2Parser_8cpp" local="yes">Source/Xml/Parser.cpp</includedby>
     <includedby refid="Xml_2Parser_8h" local="yes">Source/Xml/Parser.h</includedby>
     <incdepgraph>
-      <node id="3925">
+      <node id="3923">
         <label>iomanip</label>
       </node>
-      <node id="3917">
+      <node id="3915">
         <label>cstdint</label>
       </node>
-      <node id="3922">
+      <node id="3920">
         <label>string</label>
       </node>
-      <node id="3920">
+      <node id="3918">
         <label>fstream</label>
       </node>
-      <node id="3918">
+      <node id="3916">
         <label>Utils/String.h</label>
+        <childnode refid="3917" relation="include">
+        </childnode>
+        <childnode refid="3918" relation="include">
+        </childnode>
         <childnode refid="3919" relation="include">
         </childnode>
         <childnode refid="3920" relation="include">
@@ -34,243 +38,243 @@
         </childnode>
         <childnode refid="3923" relation="include">
         </childnode>
-        <childnode refid="3924" relation="include">
-        </childnode>
-        <childnode refid="3925" relation="include">
-        </childnode>
       </node>
-      <node id="3924">
+      <node id="3922">
         <label>vector</label>
       </node>
-      <node id="3921">
+      <node id="3919">
         <label>sstream</label>
       </node>
-      <node id="3919">
+      <node id="3917">
         <label>deque</label>
       </node>
-      <node id="3923">
+      <node id="3921">
         <label>unordered_map</label>
       </node>
-      <node id="3916">
+      <node id="3914">
         <label>Source/Utils/TypeFilter.h</label>
         <link refid="TypeFilter_8h"/>
-        <childnode refid="3917" relation="include">
+        <childnode refid="3915" relation="include">
         </childnode>
-        <childnode refid="3918" relation="include">
+        <childnode refid="3916" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4012">
+      <node id="4010">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="3974">
+      <node id="3972">
         <label>Tools/Doxygen/ListQuery.cpp</label>
       </node>
-      <node id="3963">
+      <node id="3961">
         <label>Tools/Doxygen/InternalQuery.cpp</label>
       </node>
-      <node id="3975">
+      <node id="3973">
         <label>Tools/Doxygen/LocationQuery.cpp</label>
       </node>
-      <node id="4010">
+      <node id="4008">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="3991">
+      <node id="3989">
         <label>Tools/Doxygen/RefTextQuery.cpp</label>
       </node>
-      <node id="3995">
+      <node id="3993">
         <label>Tools/Doxygen/Sect2Query.cpp</label>
       </node>
-      <node id="4015">
+      <node id="4013">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="3980">
+      <node id="3978">
         <label>Tools/Doxygen/NodeQuery.cpp</label>
       </node>
-      <node id="3934">
+      <node id="3932">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="3959">
+      <node id="3957">
         <label>Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
-      <node id="3932">
+      <node id="3930">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="3994">
+      <node id="3992">
         <label>Tools/Doxygen/Sect1Query.cpp</label>
       </node>
-      <node id="3953">
+      <node id="3951">
         <label>Tools/Doxygen/EntryQuery.cpp</label>
       </node>
-      <node id="3948">
+      <node id="3946">
         <label>Tools/Doxygen/CopyQuery.cpp</label>
       </node>
-      <node id="4005">
+      <node id="4003">
         <label>Tools/Doxygen/TocListQuery.cpp</label>
       </node>
-      <node id="3987">
+      <node id="3985">
         <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
-      <node id="3944">
+      <node id="3942">
         <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
-      <node id="3973">
+      <node id="3971">
         <label>Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
       </node>
-      <node id="3960">
+      <node id="3958">
         <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
-      <node id="3958">
+      <node id="3956">
         <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
-      <node id="3989">
+      <node id="3987">
         <label>Tools/Doxygen/ReferenceQuery.cpp</label>
       </node>
-      <node id="3982">
+      <node id="3980">
         <label>Tools/Doxygen/ParamListQuery.cpp</label>
       </node>
-      <node id="4006">
+      <node id="4004">
         <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
-      <node id="4008">
+      <node id="4006">
         <label>Tools/Doxygen/VarListEntryQuery.cpp</label>
       </node>
-      <node id="3978">
+      <node id="3976">
         <label>Tools/Doxygen/MemberIndexQuery.cpp</label>
       </node>
-      <node id="3943">
+      <node id="3941">
         <label>Tools/Doxygen/ChildNodeQuery.cpp</label>
       </node>
-      <node id="3988">
+      <node id="3986">
         <label>Tools/Doxygen/ParBlockQuery.cpp</label>
       </node>
-      <node id="4007">
+      <node id="4005">
         <label>Tools/Doxygen/VariableListQuery.cpp</label>
       </node>
-      <node id="3990">
+      <node id="3988">
         <label>Tools/Doxygen/RefQuery.cpp</label>
       </node>
-      <node id="4004">
+      <node id="4002">
         <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
-      <node id="3950">
+      <node id="3948">
         <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
       </node>
-      <node id="3998">
+      <node id="3996">
         <label>Tools/Doxygen/SectionDefQuery.cpp</label>
       </node>
-      <node id="3976">
+      <node id="3974">
         <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
-      <node id="3984">
+      <node id="3982">
         <label>Tools/Doxygen/ParamNameQuery.cpp</label>
       </node>
-      <node id="4002">
+      <node id="4000">
         <label>Tools/Doxygen/TemplateParamListQuery.cpp</label>
       </node>
-      <node id="3961">
+      <node id="3959">
         <label>Tools/Doxygen/IncQuery.cpp</label>
       </node>
-      <node id="3930">
+      <node id="3928">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="3935">
+      <node id="3933">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="3986">
+      <node id="3984">
         <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
       </node>
-      <node id="3936">
+      <node id="3934">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="3942">
+      <node id="3940">
         <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
-      <node id="4003">
+      <node id="4001">
         <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
-      <node id="3952">
+      <node id="3950">
         <label>Tools/Doxygen/EmptyQuery.cpp</label>
       </node>
-      <node id="4001">
+      <node id="3999">
         <label>Tools/Doxygen/TableQuery.cpp</label>
       </node>
-      <node id="3931">
+      <node id="3929">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="4013">
+      <node id="4011">
         <label>Source/Xml/Parser.h</label>
-        <childnode refid="4014" relation="include">
-        </childnode>
-        <childnode refid="3933" relation="include">
-        </childnode>
-        <childnode refid="3938" relation="include">
-        </childnode>
         <childnode refid="4012" relation="include">
         </childnode>
-        <childnode refid="4015" relation="include">
+        <childnode refid="3931" relation="include">
+        </childnode>
+        <childnode refid="3936" relation="include">
+        </childnode>
+        <childnode refid="4010" relation="include">
+        </childnode>
+        <childnode refid="4013" relation="include">
         </childnode>
       </node>
-      <node id="3972">
+      <node id="3970">
         <label>Tools/Doxygen/ListItemQuery.cpp</label>
       </node>
-      <node id="3983">
+      <node id="3981">
         <label>Tools/Doxygen/ParamNameListQuery.cpp</label>
       </node>
-      <node id="3928">
+      <node id="3926">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="3938">
+      <node id="3936">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="3956">
+      <node id="3954">
         <label>Tools/Doxygen/FormulaQuery.cpp</label>
       </node>
-      <node id="3971">
+      <node id="3969">
         <label>Tools/Doxygen/ListingQuery.cpp</label>
       </node>
-      <node id="3954">
+      <node id="3952">
         <label>Tools/Doxygen/EnumValueQuery.cpp</label>
       </node>
-      <node id="3969">
+      <node id="3967">
         <label>Tools/Doxygen/LinkedTextQuery.cpp</label>
       </node>
-      <node id="3940">
+      <node id="3938">
         <label>Tools/Doxygen/AnchorQuery.cpp</label>
       </node>
-      <node id="4014">
+      <node id="4012">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="3946">
+      <node id="3944">
         <label>Tools/Doxygen/CompoundIndexQuery.cpp</label>
       </node>
-      <node id="3947">
+      <node id="3945">
         <label>Tools/Doxygen/CompoundRefQuery.cpp</label>
       </node>
-      <node id="3955">
+      <node id="3953">
         <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
-      <node id="3937">
+      <node id="3935">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="3992">
+      <node id="3990">
         <label>Tools/Doxygen/ReimplementQuery.cpp</label>
       </node>
-      <node id="4000">
+      <node id="3998">
         <label>Tools/Doxygen/SpQuery.cpp</label>
       </node>
-      <node id="3970">
+      <node id="3968">
         <label>Tools/Doxygen/LinkQuery.cpp</label>
       </node>
-      <node id="3997">
+      <node id="3995">
         <label>Tools/Doxygen/Sect4Query.cpp</label>
       </node>
-      <node id="3951">
+      <node id="3949">
         <label>Tools/Doxygen/DoxygenQuery.cpp</label>
       </node>
-      <node id="3927">
+      <node id="3925">
         <label>Source/TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="3926" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
         <childnode refid="3928" relation="include">
         </childnode>
         <childnode refid="3929" relation="include">
@@ -433,89 +437,85 @@
         </childnode>
         <childnode refid="4008" relation="include">
         </childnode>
+      </node>
+      <node id="3960">
+        <label>Tools/Doxygen/IndexEntryQuery.cpp</label>
+      </node>
+      <node id="3966">
+        <label>Tools/Doxygen/LanguageQuery.cpp</label>
+      </node>
+      <node id="3937">
+        <label>Source/TypeFilter/DoxygenFilter.cpp</label>
+      </node>
+      <node id="3983">
+        <label>Tools/Doxygen/ParamQuery.cpp</label>
+      </node>
+      <node id="3994">
+        <label>Tools/Doxygen/Sect3Query.cpp</label>
+      </node>
+      <node id="3977">
+        <label>Tools/Doxygen/MemberRefQuery.cpp</label>
+      </node>
+      <node id="3964">
+        <label>Tools/Doxygen/InternalS3Query.cpp</label>
+      </node>
+      <node id="4009">
+        <label>Source/Utils/TypeFilter.cpp</label>
+      </node>
+      <node id="3991">
+        <label>Tools/Doxygen/RowQuery.cpp</label>
+      </node>
+      <node id="3943">
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
+      </node>
+      <node id="3947">
+        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
+      </node>
+      <node id="3965">
+        <label>Tools/Doxygen/InternalS4Query.cpp</label>
+      </node>
+      <node id="3955">
+        <label>Tools/Doxygen/GraphQuery.cpp</label>
+      </node>
+      <node id="3975">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+      </node>
+      <node id="3927">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="3962">
+        <label>Tools/Doxygen/InternalS1Query.cpp</label>
+      </node>
+      <node id="4007">
+        <label>Tools/Doxygen/XRefSectQuery.cpp</label>
+      </node>
+      <node id="3924">
+        <label>Source/Utils/TypeFilter.h</label>
+        <link refid="TypeFilter_8h"/>
+        <childnode refid="3925" relation="include">
+        </childnode>
+        <childnode refid="3937" relation="include">
+        </childnode>
         <childnode refid="4009" relation="include">
         </childnode>
         <childnode refid="4010" relation="include">
         </childnode>
-      </node>
-      <node id="3962">
-        <label>Tools/Doxygen/IndexEntryQuery.cpp</label>
-      </node>
-      <node id="3968">
-        <label>Tools/Doxygen/LanguageQuery.cpp</label>
-      </node>
-      <node id="3939">
-        <label>Source/TypeFilter/DoxygenFilter.cpp</label>
-      </node>
-      <node id="3985">
-        <label>Tools/Doxygen/ParamQuery.cpp</label>
-      </node>
-      <node id="3996">
-        <label>Tools/Doxygen/Sect3Query.cpp</label>
-      </node>
-      <node id="3979">
-        <label>Tools/Doxygen/MemberRefQuery.cpp</label>
-      </node>
-      <node id="3966">
-        <label>Tools/Doxygen/InternalS3Query.cpp</label>
-      </node>
-      <node id="4011">
-        <label>Source/Utils/TypeFilter.cpp</label>
-      </node>
-      <node id="3993">
-        <label>Tools/Doxygen/RowQuery.cpp</label>
-      </node>
-      <node id="3945">
-        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
-      </node>
-      <node id="3949">
-        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
-      </node>
-      <node id="3967">
-        <label>Tools/Doxygen/InternalS4Query.cpp</label>
-      </node>
-      <node id="3957">
-        <label>Tools/Doxygen/GraphQuery.cpp</label>
-      </node>
-      <node id="3977">
-        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
-      </node>
-      <node id="3929">
-        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
-      </node>
-      <node id="3964">
-        <label>Tools/Doxygen/InternalS1Query.cpp</label>
-      </node>
-      <node id="4009">
-        <label>Tools/Doxygen/XRefSectQuery.cpp</label>
-      </node>
-      <node id="3926">
-        <label>Source/Utils/TypeFilter.h</label>
-        <link refid="TypeFilter_8h"/>
-        <childnode refid="3927" relation="include">
-        </childnode>
-        <childnode refid="3939" relation="include">
-        </childnode>
         <childnode refid="4011" relation="include">
         </childnode>
-        <childnode refid="4012" relation="include">
-        </childnode>
-        <childnode refid="4013" relation="include">
-        </childnode>
       </node>
-      <node id="3941">
+      <node id="3939">
         <label>Tools/Doxygen/BlockQuoteQuery.cpp</label>
       </node>
-      <node id="3933">
+      <node id="3931">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
-      <node id="3965">
+      <node id="3963">
         <label>Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
-      <node id="3999">
+      <node id="3997">
         <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
-      <node id="3981">
+      <node id="3979">
         <label>Tools/Doxygen/ParamListItemQuery.cpp</label>
       </node>
     </invincdepgraph>
@@ -559,12 +559,11 @@
 <codeline lineno="31" refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1TypeFilter_1a4ec7ae1b280af8c7dc8aed21bfe92e10" kindref="member">typeCode</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><sp/><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref><sp/>=<sp/>std::unordered_map&lt;String,<sp/>int64_t&gt;;</highlight></codeline>
+<codeline lineno="34" refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref><sp/>=<sp/>std::unordered_map&lt;String,<sp/>int64_t&gt;;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kindref="member">makeTypeFilter</ref>(<ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kindref="member">makeTypeFilter</ref>(<ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMdDox_1_1TypeFilter" kindref="compound">TypeFilter</ref>*,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/Utils/TypeFilter.h"/>
   </compounddef>

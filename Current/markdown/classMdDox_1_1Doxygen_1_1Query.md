@@ -15,6 +15,10 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
 </a>
 </span>
@@ -288,10 +292,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
 </a>
 </span>
 <br/>

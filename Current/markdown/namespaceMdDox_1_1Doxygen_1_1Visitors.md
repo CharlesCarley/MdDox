@@ -15,6 +15,14 @@
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor.md#blockquotequeryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryVisitor</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor.md#captionqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryVisitor</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor.md#codelinequeryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQueryVisitor</span>
 </a>
 </span>
@@ -208,14 +216,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1UrlLinkQueryVisitor.md#urllinkqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQueryVisitor</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor.md#blockquotequeryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQueryVisitor</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor.md#captionqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQueryVisitor</span>
 </a>
 </span>
 <br/>
