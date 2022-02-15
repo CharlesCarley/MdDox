@@ -47,12 +47,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="geterror"></a>
 <h2>getError</h2>
 <a href="namespaceMdDox.md#string">String</a>

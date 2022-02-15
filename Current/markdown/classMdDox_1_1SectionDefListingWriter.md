@@ -74,12 +74,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="_depth"></a>
 <h2>_depth</h2>
 <span class="inline-text">int</span>
@@ -201,7 +195,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -261,7 +255,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L60" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -369,7 +363,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L180" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
 <br/>

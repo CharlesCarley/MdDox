@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D18sZGn[
+ DLZnoSQ[
    shape    = none
    label    = "ParamQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qunsZGn[
+ D9dnoSQ[
    shape    = none
    label    = "ParameterWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D18sZGn->qunsZGn
+ DLZnoSQ->D9dnoSQ
 }

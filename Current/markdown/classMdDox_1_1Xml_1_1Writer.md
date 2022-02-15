@@ -95,9 +95,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_indent"></a>
 <h2>_indent</h2>
 <span class="inline-text">int</span>

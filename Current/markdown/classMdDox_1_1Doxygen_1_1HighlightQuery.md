@@ -86,12 +86,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="highlightquery"></a>
 <h2>HighlightQuery</h2>
 <span class="bold-text"><b>HighlightQuery</b></span>

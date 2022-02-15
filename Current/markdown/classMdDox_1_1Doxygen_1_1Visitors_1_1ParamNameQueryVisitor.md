@@ -35,9 +35,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~paramnamequeryvisitor"></a>
 <h2>~ParamNameQueryVisitor</h2>
 <span class="bold-text"><b>~ParamNameQueryVisitor</b></span>

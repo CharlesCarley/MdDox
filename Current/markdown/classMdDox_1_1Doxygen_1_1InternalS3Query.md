@@ -73,12 +73,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="internals3query"></a>
 <h2>InternalS3Query</h2>
 <span class="bold-text"><b>InternalS3Query</b></span>

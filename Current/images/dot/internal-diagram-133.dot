@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qNxsZGn[
+ DJKnoSQ[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qgNsZGn[
+ qoKnoSQ[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DoxsZGn[
+ D03noSQ[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DsnsZGn[
+ Dg5noSQ[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DJnsZGn[
+ DuKnoSQ[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,10 +46,10 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DsnsZGn->DJnsZGn
- qgNsZGn->DoxsZGn
- qgNsZGn->DsnsZGn
- qJnsZGn[
+ Dg5noSQ->DuKnoSQ
+ qoKnoSQ->D03noSQ
+ qoKnoSQ->Dg5noSQ
+ qiYnoSQ[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -57,6 +57,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qNxsZGn->qgNsZGn
- qNxsZGn->qJnsZGn
+ DJKnoSQ->qoKnoSQ
+ DJKnoSQ->qiYnoSQ
 }

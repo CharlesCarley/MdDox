@@ -54,9 +54,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~descriptionqueryvisitor"></a>
 <h2>~DescriptionQueryVisitor</h2>
 <span class="bold-text"><b>~DescriptionQueryVisitor</b></span>

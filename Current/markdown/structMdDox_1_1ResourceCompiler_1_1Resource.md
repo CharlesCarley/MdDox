@@ -29,9 +29,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="data"></a>
 <h2>data</h2>
 <a href="namespaceMdDox.md#string">String</a>

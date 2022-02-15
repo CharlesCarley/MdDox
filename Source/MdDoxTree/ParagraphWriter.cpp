@@ -71,8 +71,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedPreFormatted(const Doxygen::MarkupQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedPreFormatted");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedProgramListing(const Doxygen::ListingQuery& query)
@@ -228,32 +227,27 @@ namespace MdDox
 
     void ParagraphWriter::visitedTitle(const Doxygen::TitleQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedTitle");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedVariableList(const Doxygen::VariableListQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedVariableList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedTable(const Doxygen::TableQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedTable");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedHeading(const Doxygen::HeadingQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedHeading");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedImage(const Doxygen::ImageQuery& query)
     {
         const Doxygen::DoxImageKindEnum imk = query.getType();
-
         switch (imk)
         {
         case Doxygen::DIK_HTML:
@@ -275,20 +269,17 @@ namespace MdDox
 
     void ParagraphWriter::visitedDotFile(const Doxygen::FileQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedDotFile");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedTocList(const Doxygen::TocListQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedTocList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedLanguage(const Doxygen::LanguageQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedLanguage");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedParameterList(const Doxygen::ParamListQuery& query)
@@ -315,8 +306,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedParBlock(const Doxygen::ParBlockQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedParBlock");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedULink(const Doxygen::UrlLinkQuery& query)
@@ -341,20 +331,17 @@ namespace MdDox
 
     void ParagraphWriter::visitedCenter(const Doxygen::MarkupQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedCenter");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedSmall(const Doxygen::MarkupQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedSmall");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedAnchor(const Doxygen::AnchorQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedAnchor");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedRef(const Doxygen::RefTextQuery& query)
@@ -378,8 +365,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedSect(const Doxygen::EmptyQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedSect");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedParagraph(const Doxygen::ParaQuery& query)
@@ -390,14 +376,12 @@ namespace MdDox
 
     void ParagraphWriter::visitedPart(const Doxygen::EmptyQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedPart");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedProp(const Doxygen::EmptyQuery& query)
     {
-        _writer->boldText(_out, "ParagraphWriter.visitedProp");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParagraphWriter::visitedDot(const String& text)

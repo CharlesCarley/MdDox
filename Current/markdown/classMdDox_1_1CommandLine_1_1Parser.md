@@ -156,9 +156,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="options"></a>
 <h2>Options</h2>
 <span class="inline-text">std::vector&lt; </span>

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qB4sZGn[
+ DmRnoSQ[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qs2sZGn[
+ DIlnoSQ[
    shape    = none
    label    = "TableOfContents"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qB4sZGn->qs2sZGn
+ DmRnoSQ->DIlnoSQ
 }

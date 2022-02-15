@@ -60,12 +60,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="variablelistquery"></a>
 <h2>VariableListQuery</h2>
 <span class="bold-text"><b>VariableListQuery</b></span>

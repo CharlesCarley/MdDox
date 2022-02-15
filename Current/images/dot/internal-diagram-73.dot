@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DhNsZGn[
+ q2GnoSQ[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DE8sZGn[
+ qiKnoSQ[
    shape    = none
    label    = "TocListQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DhNsZGn->DE8sZGn
+ q2GnoSQ->qiKnoSQ
 }

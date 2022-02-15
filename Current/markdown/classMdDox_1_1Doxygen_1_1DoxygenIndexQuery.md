@@ -73,12 +73,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="doxygenindexquery"></a>
 <h2>DoxygenIndexQuery</h2>
 <span class="bold-text"><b>DoxygenIndexQuery</b></span>

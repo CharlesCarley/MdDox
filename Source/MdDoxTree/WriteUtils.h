@@ -24,11 +24,11 @@
 #include "MdDoxTree/Reference.h"
 #include "Utils/String.h"
 
-#ifdef _DEBUG
+#ifdef INSERT_STUB
 #define WRITE_STUB(w, os)          \
     w->beginBlockQuote(os);        \
     w->boldText(os, __FUNCTION__); \
-    w->endBlockQuote(os);
+    w->endBlockQuote(os)
 #else
 #define WRITE_STUB(w, os)
 #endif

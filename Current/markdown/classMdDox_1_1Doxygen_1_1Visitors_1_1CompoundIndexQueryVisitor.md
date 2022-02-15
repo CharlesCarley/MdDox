@@ -39,9 +39,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~compoundindexqueryvisitor"></a>
 <h2>~CompoundIndexQueryVisitor</h2>
 <span class="bold-text"><b>~CompoundIndexQueryVisitor</b></span>

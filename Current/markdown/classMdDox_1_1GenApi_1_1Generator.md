@@ -39,9 +39,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_root"></a>
 <h2>_root</h2>
 <a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>

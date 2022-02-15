@@ -162,62 +162,52 @@ namespace MdDox
 
     void NamespacePageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedBaseCompoundRef");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedDerivedCompoundRef(const Doxygen::CompoundRefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedDerivedCompoundRef");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedIncludes(const Doxygen::IncQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedIncludes");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedIncludedBy(const Doxygen::IncQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedIncludedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInvIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInvIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInheritanceGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInheritanceGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedCollaborationGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedCollaborationGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedProgramListing(const Doxygen::ListingQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedProgramListing");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedLocation(const Doxygen::LocationQuery& query)
@@ -228,44 +218,37 @@ namespace MdDox
 
     void NamespacePageWriter::visitedListOfAllMembers(const Doxygen::ListOfAllMembersQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedListOfAllMembers");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedTitle(const String& text)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedTitle");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedTableOfContents(const String& text)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedTableOfContents");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInnerDir(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInnerDir");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInnerFile(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInnerFile");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInnerPage(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInnerPage");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void NamespacePageWriter::visitedInnerGroup(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "NamespacePageWriter.visitedInnerGroup");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
 	void NamespacePageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)

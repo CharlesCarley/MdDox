@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Db2sZGn[
+ qrMnoSQ[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q3QsZGn[
+ DJMnoSQ[
    shape    = none
    label    = "TableQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Db2sZGn->q3QsZGn
+ qrMnoSQ->DJMnoSQ
 }

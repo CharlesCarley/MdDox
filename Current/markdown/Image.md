@@ -9,8 +9,9 @@
 <span class="bold-text"><b>Image</b></span>
 <br/>
 <br/>
-<span class="bold-text"><b>Image handling information.</b></span>
-<br/>
+<a id="Image_1S1"></a>
+<a id="image-handling-information."></a>
+<h2>Image handling information.</h2>
 <span class="inline-text">Application icons and other images are pulled directly from the source code comment and output in-line with the current document. </span>
 <br/>
 <span class="inline-text">
@@ -27,7 +28,7 @@
 <span class="inline-text"> directory.</span>
 <a id="Image_1Internal"></a>
 <a id="icons"></a>
-<h2>Icons</h2>
+<h3>Icons</h3>
 <span class="inline-text">The static class </span>
 <a href="classMdDox_1_1IconSet.md#mddoxiconset">MdDox::IconSet</a>
 <span class="inline-text"> maps the enum </span>
@@ -35,7 +36,7 @@
 <span class="inline-text"> to the following files to use specific icons internally.</span>
 <a id="Image_1Sources"></a>
 <a id="sources"></a>
-<h3>Sources</h3>
+<h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
 <a href="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</a>
 </div>

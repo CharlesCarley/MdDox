@@ -60,8 +60,7 @@ namespace MdDox
 
     void DescriptionWriter::visitedTitle(const String& text)
     {
-        _writer->boldText(_out, "DescriptionWriter.visitedTitle");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
 }  // namespace MdDox

@@ -47,14 +47,12 @@ namespace MdDox
 
     void SectionDefListingWriter::visitedDescription(const Doxygen::DescriptionQuery& query)
     {
-        _writer->boldText(_out, "SectionDefListingWriter.visitedDescription");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void SectionDefListingWriter::visitedHeader(const String& text)
     {
-        _writer->boldText(_out, "SectionDefListingWriter.visitedHeader");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void SectionDefListingWriter::writeHeading(Doxygen::DoxSectionKindEnum kind)

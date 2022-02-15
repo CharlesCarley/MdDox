@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qspgZGn[
+ dJ02WSQ[
    shape    = none
    label    = "LinkedTextQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qa9gZGn[
+ WpL2WSQ[
    shape    = none
    label    = "LinkedTextWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qspgZGn->qa9gZGn
+ dJ02WSQ->WpL2WSQ
 }

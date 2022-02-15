@@ -47,9 +47,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~enumvaluequeryvisitor"></a>
 <h2>~EnumValueQueryVisitor</h2>
 <span class="bold-text"><b>~EnumValueQueryVisitor</b></span>

@@ -193,9 +193,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="documentwriter"></a>
 <h2>DocumentWriter</h2>
 <span class="bold-text"><b>DocumentWriter</b></span>

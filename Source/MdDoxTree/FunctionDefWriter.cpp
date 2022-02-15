@@ -79,26 +79,22 @@ namespace MdDox
 
     void FunctionDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)
     {
-        //_writer->boldText(_out, "FunctionDefWriter.visitedReferencedBy");
-        //_writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void FunctionDefWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        //_writer->boldText(_out, "FunctionDefWriter.visitedTemplateParamList");
-        //_writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void FunctionDefWriter::visitedInitializer(const Doxygen::LinkedTextQuery& query)
     {
-        //_writer->boldText(_out, "FunctionDefWriter.visitedInitializer");
-        //_writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void FunctionDefWriter::visitedExceptions(const Doxygen::LinkedTextQuery& query)
     {
-        //_writer->boldText(_out, "FunctionDefWriter.visitedExceptions");
-        //_writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void FunctionDefWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
@@ -160,8 +156,7 @@ namespace MdDox
 
     void FunctionDefWriter::visitedWrite(const String& text)
     {
-        _writer->boldText(_out, "FunctionDefWriter.visitedWrite");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void FunctionDefWriter::openDetail()

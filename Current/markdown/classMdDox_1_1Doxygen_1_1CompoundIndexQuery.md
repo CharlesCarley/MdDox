@@ -83,12 +83,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="compoundindexquery"></a>
 <h2>CompoundIndexQuery</h2>
 <span class="bold-text"><b>CompoundIndexQuery</b></span>

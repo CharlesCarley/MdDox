@@ -79,6 +79,8 @@ namespace MdDox
      * It should write the primary index. After that, It should dispatch all sub-page writers.
      * Page writers can register graph files during their dispatch routine. After all pages have
      * completed any registered graph files are processed.
+     *
+     * 
      */
     class SiteBuilder
     {
@@ -177,7 +179,7 @@ namespace MdDox
         String siteUrl;
 
         /**
-         * \brief Defined as <tt>${siteUrl}/blob/master/<tt>
+         * \brief Defined as <tt>${siteUrl}/blob/master/</tt>
          *
          * Used to link local file paths to GitHub URLs  
          */

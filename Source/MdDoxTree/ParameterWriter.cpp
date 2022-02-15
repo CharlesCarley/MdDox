@@ -47,8 +47,7 @@ namespace MdDox
 
     void ParameterWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
     {
-        _writer->boldText(_out, "ParameterWriter.visitedBriefDescription");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void ParameterWriter::visitedDeclName(const String& text)
@@ -64,8 +63,7 @@ namespace MdDox
 
     void ParameterWriter::visitedArray(const String& text)
     {
-        _writer->boldText(_out, "ParameterWriter.visitedArray");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     bool ParameterWriter::write(const Doxygen::ParamQuery& query)

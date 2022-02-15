@@ -83,104 +83,87 @@ namespace MdDox
 
     void DirectoryPageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedBaseCompoundRef");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedDerivedCompoundRef(const Doxygen::CompoundRefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedDerivedCompoundRef");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedIncludes(const Doxygen::IncQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedIncludes");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedIncludedBy(const Doxygen::IncQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedIncludedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInnerClass(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInnerClass");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInnerNamespace(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInnerNamespace");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInnerPage(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInnerPage");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInnerGroup(const Doxygen::RefQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInnerGroup");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInvIncDepGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInvIncDepGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedInheritanceGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedInheritanceGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedCollaborationGraph(const Doxygen::GraphQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedCollaborationGraph");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedProgramListing(const Doxygen::ListingQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedProgramListing");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedListOfAllMembers(const Doxygen::ListOfAllMembersQuery& query)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedListOfAllMembers");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedTitle(const String& text)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedTitle");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void DirectoryPageWriter::visitedTableOfContents(const String& text)
     {
-        _writer->boldText(_out, "DirectoryPageWriter.visitedTableOfContents");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
     
     void DirectoryPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)

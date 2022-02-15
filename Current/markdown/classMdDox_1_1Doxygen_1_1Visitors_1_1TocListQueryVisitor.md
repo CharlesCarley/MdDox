@@ -35,9 +35,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~toclistqueryvisitor"></a>
 <h2>~TocListQueryVisitor</h2>
 <span class="bold-text"><b>~TocListQueryVisitor</b></span>

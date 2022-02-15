@@ -68,12 +68,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="_forwards"></a>
 <h2>_forwards</h2>
 <a href="namespaceMdDox.md#stringarray">StringArray</a>

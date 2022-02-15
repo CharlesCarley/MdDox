@@ -60,12 +60,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="_code"></a>
 <h2>_code</h2>
 <a href="namespaceMdDox_1_1Xml.md#codecache">CodeCache</a>

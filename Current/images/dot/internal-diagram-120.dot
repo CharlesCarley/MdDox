@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DIExZGn[
+ qEt5WSQ[
    shape    = none
    label    = "ParserBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DZqxZGn[
+ DHd5WSQ[
    shape    = none
    label    = "Parser"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DIExZGn->DZqxZGn
+ qEt5WSQ->DHd5WSQ
 }

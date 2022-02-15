@@ -21,14 +21,15 @@
 */
 #include "MdDoxTree/Config.h"
 #include "TestDirectory.h"
+#include "Utils/Exception.h"
 #include "gtest/gtest.h"
 
 using namespace MdDox;
 
-GTEST_TEST(General, Config0)
+GTEST_TEST(General, ConfigInitial)
 {
     Config          cfg;
-    InputFileStream input(GetTestFilePath("Config0.cfg"));
+    InputFileStream input(GetTestFilePath("Config001.cfg"));
     EXPECT_TRUE(input.is_open());
 
     cfg.load(input);
@@ -39,10 +40,10 @@ GTEST_TEST(General, Config0)
     EXPECT_EQ("E", val2);
 }
 
-GTEST_TEST(General, Config1)
+GTEST_TEST(General, Config01)
 {
     Config          cfg;
-    InputFileStream input(GetTestFilePath("Config1.cfg"));
+    InputFileStream input(GetTestFilePath("Config002.cfg"));
     EXPECT_TRUE(input.is_open());
 
     cfg.load(input);
@@ -55,4 +56,32 @@ GTEST_TEST(General, Config1)
     EXPECT_EQ("https://github.com/CharlesCarley/MdDoc", cfg.getValue("SITE_URL"));
     EXPECT_EQ("https://github.com/CharlesCarley/MdDoc/blob/master", cfg.getValue("BASE_URL"));
     EXPECT_EQ("Source,Tools", cfg.getValue("SEARCH_DIRS"));
+}
+
+GTEST_TEST(General, Config003)
+{
+    Config          cfg;
+    InputFileStream input(GetTestFilePath("Config003.cfg"));
+    EXPECT_TRUE(input.is_open());
+
+    try
+    {
+        cfg.load(input);
+    }
+    catch (Exception& ex)
+    {
+        Console::writeLine(ex.what());
+    }
+}
+
+GTEST_TEST(General, Config004)
+{
+    Config          cfg;
+    InputFileStream input(GetTestFilePath("Config004.cfg"));
+    EXPECT_TRUE(input.is_open());
+
+    cfg.load(input);
+    EXPECT_EQ(cfg.getValue("a0"), "Valid");
+    EXPECT_TRUE(cfg.getValue("a1").empty());
+    EXPECT_EQ(cfg.getValue("a2"), "F00");
 }

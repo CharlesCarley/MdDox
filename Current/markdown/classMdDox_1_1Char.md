@@ -242,9 +242,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="equals"></a>
 <h2>equals</h2>
 <span class="inline-text">bool</span>

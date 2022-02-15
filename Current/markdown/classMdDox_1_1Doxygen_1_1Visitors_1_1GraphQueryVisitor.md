@@ -42,9 +42,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~graphqueryvisitor"></a>
 <h2>~GraphQueryVisitor</h2>
 <span class="bold-text"><b>~GraphQueryVisitor</b></span>

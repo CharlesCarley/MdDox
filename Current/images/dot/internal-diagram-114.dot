@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WAANZGn[
+ qO73WSQ[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WlANZGn[
+ DA73WSQ[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WmJNZGn[
+ Dl73WSQ[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WlANZGn->WmJNZGn
- WAANZGn->WlANZGn
+ DA73WSQ->Dl73WSQ
+ qO73WSQ->DA73WSQ
 }

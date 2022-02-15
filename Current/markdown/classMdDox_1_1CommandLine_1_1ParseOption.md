@@ -93,9 +93,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="arguments"></a>
 <h2>Arguments</h2>
 <span class="inline-text">std::vector&lt; </span>

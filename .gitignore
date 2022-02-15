@@ -1,2 +1,4 @@
 /build
 /wsl
+/Current/xml/*.svg
+/Current/xml/combine.xslt

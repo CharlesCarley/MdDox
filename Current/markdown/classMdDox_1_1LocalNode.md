@@ -34,9 +34,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="localnode"></a>
 <h2>LocalNode</h2>
 <span class="bold-text"><b>LocalNode</b></span>

@@ -45,14 +45,12 @@ namespace MdDox
 
     void MemberDefWriter::visitedReImplements(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedReImplements");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void MemberDefWriter::visitedReImplementedBy(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedReImplementedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void MemberDefWriter::visitedEnumValue(const Doxygen::EnumValueQuery& query)
@@ -72,14 +70,12 @@ namespace MdDox
 
     void MemberDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedReferencedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void MemberDefWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void MemberDefWriter::visitedInitializer(const Doxygen::LinkedTextQuery& query)
@@ -92,8 +88,7 @@ namespace MdDox
 
     void MemberDefWriter::visitedExceptions(const Doxygen::LinkedTextQuery& query)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedExceptions");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void MemberDefWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
@@ -147,8 +142,7 @@ namespace MdDox
 
     void MemberDefWriter::visitedWrite(const String& text)
     {
-        _writer->boldText(_out, "MemberDefWriter.visitedWrite");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     bool MemberDefWriter::write(const Doxygen::MemberDefQuery& mdq)

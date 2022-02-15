@@ -183,12 +183,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="tocitemquery"></a>
 <h2>TocItemQuery</h2>
 <span class="bold-text"><b>TocItemQuery</b></span>

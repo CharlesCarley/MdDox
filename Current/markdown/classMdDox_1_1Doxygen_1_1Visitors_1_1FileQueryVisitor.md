@@ -91,9 +91,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~filequeryvisitor"></a>
 <h2>~FileQueryVisitor</h2>
 <span class="bold-text"><b>~FileQueryVisitor</b></span>

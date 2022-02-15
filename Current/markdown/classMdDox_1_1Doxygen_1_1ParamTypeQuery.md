@@ -72,12 +72,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="paramtypequery"></a>
 <h2>ParamTypeQuery</h2>
 <span class="bold-text"><b>ParamTypeQuery</b></span>

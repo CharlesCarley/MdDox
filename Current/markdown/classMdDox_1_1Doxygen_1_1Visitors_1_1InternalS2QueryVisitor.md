@@ -39,9 +39,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~internals2queryvisitor"></a>
 <h2>~InternalS2QueryVisitor</h2>
 <span class="bold-text"><b>~InternalS2QueryVisitor</b></span>

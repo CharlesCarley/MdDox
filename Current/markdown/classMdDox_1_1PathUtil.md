@@ -135,9 +135,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_directory"></a>
 <h2>_directory</h2>
 <a href="namespaceMdDox.md#string">String</a>

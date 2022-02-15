@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 181,-40 181,4 -4,4"/>
-<!-- qQ2mZGn -->
-<g id="node1" class="node"><title>qQ2mZGn</title>
+<!-- qsxRWSQ -->
+<g id="node1" class="node"><title>qsxRWSQ</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- DG2mZGn -->
-<g id="node2" class="node"><title>DG2mZGn</title>
+<!-- qQ8RWSQ -->
+<g id="node2" class="node"><title>qQ8RWSQ</title>
 <text text-anchor="middle" x="133.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParamTypeQuery</text>
 </g>
-<!-- qQ2mZGn&#45;&gt;DG2mZGn -->
-<g id="edge1" class="edge"><title>qQ2mZGn&#45;&gt;DG2mZGn</title>
+<!-- qsxRWSQ&#45;&gt;qQ8RWSQ -->
+<g id="edge1" class="edge"><title>qsxRWSQ&#45;&gt;qQ8RWSQ</title>
 <path fill="none" stroke="#69bfff" d="M54.1002,-18C63.3477,-18 74.0676,-18 84.5546,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.6767,-19.7501 89.6767,-18 84.6766,-16.2501 84.6767,-19.7501"/>
 </g>

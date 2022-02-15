@@ -68,12 +68,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="internals4query"></a>
 <h2>InternalS4Query</h2>
 <span class="bold-text"><b>InternalS4Query</b></span>

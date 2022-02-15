@@ -139,7 +139,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DescriptionWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="61" bodyend="65"/>
+        <location file="Source/MdDoxTree/DescriptionWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="61" bodyend="64"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">

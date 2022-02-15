@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DmxnZGn[
+ qZ6WoSQ[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qU7nZGn[
+ qU6WoSQ[
    shape    = none
    label    = "LinkedTextQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DmxnZGn->qU7nZGn
+ qZ6WoSQ->qU6WoSQ
 }

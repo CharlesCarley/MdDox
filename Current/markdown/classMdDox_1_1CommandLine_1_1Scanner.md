@@ -51,9 +51,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_buffer"></a>
 <h2>_buffer</h2>
 <a href="namespaceMdDox.md#string">String</a>

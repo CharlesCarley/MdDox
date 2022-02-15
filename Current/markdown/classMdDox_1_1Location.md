@@ -64,9 +64,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_header"></a>
 <h2>_header</h2>
 <a href="classMdDox_1_1SourceFile.md#sourcefile">SourceFile</a>

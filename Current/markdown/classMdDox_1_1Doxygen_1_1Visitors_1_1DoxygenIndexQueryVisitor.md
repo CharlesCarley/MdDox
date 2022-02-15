@@ -46,9 +46,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~doxygenindexqueryvisitor"></a>
 <h2>~DoxygenIndexQueryVisitor</h2>
 <span class="bold-text"><b>~DoxygenIndexQueryVisitor</b></span>

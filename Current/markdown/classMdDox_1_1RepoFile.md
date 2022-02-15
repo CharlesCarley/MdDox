@@ -72,9 +72,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_file"></a>
 <h2>_file</h2>
 <a href="namespaceMdDox.md#string">String</a>

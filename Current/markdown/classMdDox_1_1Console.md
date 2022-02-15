@@ -123,9 +123,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="debugbreak"></a>
 <h2>debugBreak</h2>
 <span class="inline-text">void</span>

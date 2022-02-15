@@ -175,9 +175,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="getcommon"></a>
 <h2>getCommon</h2>
 <span class="inline-text">std::string</span>

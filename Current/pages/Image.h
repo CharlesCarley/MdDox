@@ -3,7 +3,7 @@
 \page Image Image handling
 
 
-<b>Image handling information.</b><br/>
+\section S1 Image handling information.
 
 Application icons and other images are pulled directly from the source code comment and output
 in-line with the current document.
@@ -40,12 +40,12 @@ For example, the following shows the current set of navigation icons.
 The command <tt>\\image html [file-stem.file-extension]</tt> embeds the image. <br/>
 Icons are expected to be in the <a href="../images">images</a> directory.
 
-\section Internal Icons
+\subsection Internal Icons
 
 The static class \ref MdDox::IconSet maps the enum \ref MdDox::IconId
 to the following files to use specific icons internally.
 
-\subsection  Sources
+\subsubsection  Sources
 
 A few of the icons have been copied and modified from the material-design-icons set.
 The original sources can be found here: https://github.com/google/material-design-icons

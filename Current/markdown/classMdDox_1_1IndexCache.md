@@ -91,12 +91,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedTemplateParamList</b></span>
-</blockquote>
 <a id="array"></a>
 <h2>Array</h2>
 <span class="inline-text">std::vector&lt; T &gt;</span>

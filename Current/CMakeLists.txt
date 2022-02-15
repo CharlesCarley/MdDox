@@ -31,7 +31,7 @@ set(MdDoxBuilder_ImagePaths     ${MdDox_SOURCE_DIR}/Current/images)
 set(MdDoxBuilder_Config         ${MdDox_SOURCE_DIR}/Current/MdDox.cfg)
 set(MdDoxBuilder_ExtraSource    ${MdDox_SOURCE_DIR}/Current/colors.cfg)
 
-set(MdDoxBuilder_ALL     TRUE)
-set(MdDoxBuilder_BackEnd md)
+set(MdDoxBuilder_AutoBuild TRUE)
+set(MdDoxBuilder_BackEnd   md)
 MdDox(Doxyfile.txt.in ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
 

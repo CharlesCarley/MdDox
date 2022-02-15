@@ -29,6 +29,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 option(MdDox_BUILD_TEST "Build the unit test program." ON)
 option(MdDox_AUTO_RUN_TEST "Automatically run the test program." OFF)
 option(MdDox_JUST_MY_CODE "Enable the /JMC flag" ON)
+option(MdDox_INSERT_STUBS "Insert stub functions on visits to unused methods " OFF)
 
 set(MdDox_INSTALL_PATH 
 	"" CACHE PATH 
@@ -51,6 +52,11 @@ if (MSVC)
 	if (MdDox_JUST_MY_CODE)
 		# Enable just my code...
 		set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /JMC")
+	endif()
+
+
+	if (MdDox_INSERT_STUBS)
+		add_definitions(-DINSERT_STUB)
 	endif()
 
 	

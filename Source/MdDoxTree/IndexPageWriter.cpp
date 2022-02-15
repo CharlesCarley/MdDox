@@ -96,7 +96,7 @@ namespace MdDox
             default:
                 break;
             }
-        	
+
             SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getReference());
 
             query.foreachMember(
@@ -217,7 +217,7 @@ namespace MdDox
             _writer->linkHeading(out, "Directories", "#directories");
             _writer->endListItem(out);
 
-        	_writer->beginListItem(out);
+            _writer->beginListItem(out);
             _writer->linkHeading(out, "Namespaces", "#namespaces");
             _writer->endListItem(out);
 
@@ -228,8 +228,7 @@ namespace MdDox
             _writer->endList(out);
             _writer->endSection(out);
 
-
-        	writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
+            writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
             writeReferenceList(out, ICO_NAMESPACE, "Namespaces", filter.namespaces);
             writeReferenceList(out, ICO_CLASS, "Classes", filter.classes);
 

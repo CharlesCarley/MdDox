@@ -6,8 +6,9 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><bold>Image handling information.</bold><linebreak/>
-</para><para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document. <linebreak/>
+<sect1 id="Image_1S1">
+<title>Image handling information.</title>
+<para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document. <linebreak/>
  For example, the following shows the current set of navigation icons.</para><para><blockquote><para><image type="html" name="back.svg"></image>
  <image type="html" name="horSpace24px.svg"></image>
  <image type="html" name="error.svg"></image>
@@ -32,11 +33,12 @@
  <image type="html" name="horSpace24px.svg"></image>
  <image type="html" name="namespace.svg"></image>
  </para></blockquote></para><para>The command <computeroutput>\image html [file-stem.file-extension]</computeroutput> embeds the image. <linebreak/>
- Icons are expected to be in the <ulink url="../images">images</ulink> directory.</para><sect1 id="Image_1Internal">
+ Icons are expected to be in the <ulink url="../images">images</ulink> directory.</para><sect2 id="Image_1Internal">
 <title>Icons</title>
-<para>The static class <ref refid="classMdDox_1_1IconSet" kindref="compound">MdDox::IconSet</ref> maps the enum <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">MdDox::IconId</ref> to the following files to use specific icons internally.</para><sect2 id="Image_1Sources">
+<para>The static class <ref refid="classMdDox_1_1IconSet" kindref="compound">MdDox::IconSet</ref> maps the enum <ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">MdDox::IconId</ref> to the following files to use specific icons internally.</para><sect3 id="Image_1Sources">
 <title>Sources</title>
-<para>A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: <ulink url="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</ulink> </para></sect2>
+<para>A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: <ulink url="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</ulink> </para></sect3>
+</sect2>
 </sect1>
     </detaileddescription>
   </compounddef>

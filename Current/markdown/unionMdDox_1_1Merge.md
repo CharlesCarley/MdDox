@@ -33,9 +33,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="b"></a>
 <h2>b</h2>
 <span class="inline-text">uint8_t</span>

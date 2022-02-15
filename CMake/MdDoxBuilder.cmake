@@ -151,7 +151,7 @@ function(MdDox ConfigIn ConfigOut)
 			source_group("Xml" FILES "${MdDoxBuilder_OutputDir}/Layout.xml")
 		endif()
 
-		if (MdDoxBuilder_ALL)
+		if (MdDoxBuilder_AutoBuild)
 			set(_MdDoxBuilder_ALL ALL)
 		endif()
 

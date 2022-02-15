@@ -367,12 +367,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="memberdefquery"></a>
 <h2>MemberDefQuery</h2>
 <span class="bold-text"><b>MemberDefQuery</b></span>

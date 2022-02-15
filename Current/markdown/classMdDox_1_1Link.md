@@ -53,9 +53,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_input"></a>
 <h2>_input</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>

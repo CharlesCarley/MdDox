@@ -33,27 +33,32 @@ namespace MdDox
 
         while (!input.eof())
         {
-            char ch;
-            input.read(&ch, 1);
-            if (ch < 0)
+            const char ch = next(input);
+            if (ch <= 0)
                 break;
 
-            if (ch == '#')
-                scanComment(input);
-            else if (isLetter(ch))
+            switch (ch)
             {
+            case '\r':
+            case '\n':
+            case ' ':
+            case '\t':
+                break;
+            case '#':
+                scanComment(input);
+                break;
+            case LowerCaseAz:
+            case UpperCaseAz:
                 input.putback(ch);
-
                 value.clear();
                 key.clear();
                 scanKey(key, input);
-            }
-            else if (ch == '=')
-            {
+                break;
+            case '=':
                 if (key.empty())
-                    throw MessageException("Assignment operator without an identifier");
+                    throw MessageException("assignment operator without an identifier");
 
-                value.clear();
+            	value.clear();
                 scanValue(value, input);
 
                 if (!value.empty())
@@ -63,6 +68,9 @@ namespace MdDox
                     value.clear();
                     key.clear();
                 }
+                break;
+            default:
+                throw InputException("unknown character parsed '", (int)ch, '\'');
             }
         }
     }
@@ -78,18 +86,32 @@ namespace MdDox
         while (!input.eof())
         {
             const char ch = next(input);
-            if (ch == '\"')
+            switch (ch)
+            {
+            // allow only white space and a quote
+            // after an = character
+            case '\"':
                 return;
-            if (ch != ' ' && ch != '\t')
-                throw InputException("Unknown character parsed '", ch, '\'');
+            case ' ':
+            case '\t':
+                break;
+            default:
+                throw InputException("unknown character parsed '", (int)ch, '\'');
+            }
         }
-        throw MessageException("End of file scan");
+    	throw MessageException("end of file scan");
     }
 
     void Config::scanValue(String& dest, IStream& input)
     {
         if (input.peek() != '\"')
             scanToQuote(input);
+        else
+        {
+        	// it does start with a quote
+        	// so skip it.
+            next(input);
+        }
 
         while (!input.eof())
         {
@@ -116,15 +138,15 @@ namespace MdDox
                 break;
             case '\"':
                 if (input.peek() != ';')
-                    throw MessageException("Expected a terminating semicolon");
+                    throw MessageException("expected a terminating semicolon");
                 next(input);
                 return;
             default:
-                throw InputException("Unknown character parsed '", ch, '\'');
+                throw InputException("unknown character parsed '", ch, '\'');
             }
         }
 
-        throw MessageException("End of file scan");
+        throw MessageException("end of file scan");
     }
 
     void Config::scanKey(String& dest, IStream& input)
@@ -136,29 +158,35 @@ namespace MdDox
 
             switch (ch)
             {
+            // A valid id is composed of the expression
+            // [a-zA-Z][a-zA-Z0-9]+[_-.]*
             case '_':
             case '-':
+            case '.':
             case Digits09:
             case LowerCaseAz:
             case UpperCaseAz:
                 if (!lock)
                     dest.push_back(ch);
                 else
-                    throw InputException("Unknown character parsed '", ch, '\'');
+                    throw InputException("unknown character parsed '", ch, '\'');
                 break;
             case '\t':
             case ' ':
+                // on the first occurrence of white space, lock the scan
+                // and only accept [ \t=], where = is the exit condition.
                 lock = true;
                 break;
             case '=':
                 input.putback(ch);
                 return;
             default:
-                throw InputException("Unknown character parsed '", ch, '\'');
+                throw InputException("unknown character parsed '", (int)ch, '\'');
             }
         }
 
-        throw MessageException("End of file scan");
+        // Do not allow the assignment to be partially defined.
+        throw MessageException("end of file scan");
     }
 
     void Config::scanComment(IStream& input)
@@ -178,10 +206,15 @@ namespace MdDox
                 break;
             }
         }
+
+        // Allow EOF scan in comments
     }
 
     char Config::next(IStream& input)
     {
+        if (input.eof())
+            return 0;
+
         char ch;
         input.read(&ch, 1);
         return ch;

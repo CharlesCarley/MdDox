@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qOFnZGn[
+ q0c3WSQ[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qEFnZGn[
+ DLD3WSQ[
    shape    = none
    label    = "ChildNodeQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qOFnZGn->qEFnZGn
+ q0c3WSQ->DLD3WSQ
 }

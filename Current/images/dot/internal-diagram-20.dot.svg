@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 151,-40 151,4 -4,4"/>
-<!-- dUtIZGn -->
-<g id="node1" class="node"><title>dUtIZGn</title>
+<!-- DY3ooSQ -->
+<g id="node1" class="node"><title>DY3ooSQ</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- dddIZGn -->
-<g id="node2" class="node"><title>dddIZGn</title>
+<!-- qf3ooSQ -->
+<g id="node2" class="node"><title>qf3ooSQ</title>
 <text text-anchor="middle" x="118.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">EntryQuery</text>
 </g>
-<!-- dUtIZGn&#45;&gt;dddIZGn -->
-<g id="edge1" class="edge"><title>dUtIZGn&#45;&gt;dddIZGn</title>
+<!-- DY3ooSQ&#45;&gt;qf3ooSQ -->
+<g id="edge1" class="edge"><title>DY3ooSQ&#45;&gt;qf3ooSQ</title>
 <path fill="none" stroke="#69bfff" d="M54.3689,-18C63.8533,-18 74.6709,-18 84.6398,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.764,-19.7501 89.764,-18 84.764,-16.2501 84.764,-19.7501"/>
 </g>

@@ -68,9 +68,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="hasclasses"></a>
 <h2>hasClasses</h2>
 <span class="inline-text">bool</span>

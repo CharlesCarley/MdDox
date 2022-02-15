@@ -73,9 +73,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_index"></a>
 <h2>_index</h2>
 <span class="inline-text">size_t</span>

@@ -1125,7 +1125,7 @@
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="177">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="179">MdDox::SiteBuilder::siteUrl</references>
         <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="167" endline="173">MdDox::SiteBuilder::findReference</references>
@@ -1235,7 +1235,7 @@
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="205" endline="210">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="177">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="179">MdDox::SiteBuilder::siteUrl</references>
         <references refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97">MdDox::DocumentWriter::linkPage</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="167" endline="173">MdDox::SiteBuilder::findReference</references>

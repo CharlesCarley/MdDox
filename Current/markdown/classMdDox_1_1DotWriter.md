@@ -45,9 +45,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="_list"></a>
 <h2>_list</h2>
 <a href="namespaceMdDox_1_1Xml.md#xmlnodearray">Xml::NodeArray</a>

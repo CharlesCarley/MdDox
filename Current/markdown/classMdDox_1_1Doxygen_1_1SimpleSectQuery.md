@@ -84,12 +84,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="simplesectquery"></a>
 <h2>SimpleSectQuery</h2>
 <span class="bold-text"><b>SimpleSectQuery</b></span>

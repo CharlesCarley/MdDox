@@ -52,9 +52,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="classes"></a>
 <h2>classes</h2>
 <a href="namespaceMdDox.md#referencelist">ReferenceList</a>

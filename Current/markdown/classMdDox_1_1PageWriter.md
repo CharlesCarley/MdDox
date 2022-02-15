@@ -130,12 +130,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedCollaborationGraph</b></span>
-</blockquote>
 <a id="_indir"></a>
 <h2>_inDir</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>

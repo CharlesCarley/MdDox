@@ -43,14 +43,12 @@ namespace MdDox
 
     void EnumDefWriter::visitedReImplements(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedReImplements");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedReImplementedBy(const Doxygen::ReimplementQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedReImplementedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedEnumValue(const Doxygen::EnumValueQuery& query)
@@ -100,32 +98,27 @@ namespace MdDox
 
     void EnumDefWriter::visitedReferences(const Doxygen::ReferenceQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedReferences");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedReferencedBy");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedTemplateParamList(const Doxygen::TemplateParamListQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedTemplateParamList");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedInitializer(const Doxygen::LinkedTextQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedInitializer");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedExceptions(const Doxygen::LinkedTextQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedExceptions");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
@@ -161,8 +154,7 @@ namespace MdDox
 
     void EnumDefWriter::visitedParameter(const Doxygen::ParamQuery& query)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedParameter");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     void EnumDefWriter::visitedDetailedDescription(const Doxygen::DescriptionQuery& query)
@@ -186,8 +178,7 @@ namespace MdDox
 
     void EnumDefWriter::visitedWrite(const String& text)
     {
-        _writer->boldText(_out, "EnumDefWriter.visitedWrite");
-        _writer->lineBreak(_out);
+        WRITE_STUB(_writer, _out);
     }
 
     bool EnumDefWriter::write(const Doxygen::MemberDefQuery& mdq)

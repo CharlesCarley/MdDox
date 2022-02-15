@@ -138,9 +138,6 @@
 </a>
 </span>
 <br/>
-<blockquote>
-<span class="bold-text"><b>MdDox::ClassPageWriter::visitedIncludes</b></span>
-</blockquote>
 <a id="~compounddefqueryvisitor"></a>
 <h2>~CompoundDefQueryVisitor</h2>
 <span class="bold-text"><b>~CompoundDefQueryVisitor</b></span>

@@ -51,7 +51,6 @@ namespace MdDox
             break;
         case Doxygen::DRK_INVALID:
         default:
-            //_writer->boldText(_out, "LinkedTextWriter.visitedRef.MEMBER");
             break;
         }
     }
