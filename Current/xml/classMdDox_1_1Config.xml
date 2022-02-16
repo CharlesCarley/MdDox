@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="31" column="1" bodyfile="Source/MdDoxTree/Config.h" bodystart="31" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Config.h" line="49" column="1" bodyfile="Source/MdDoxTree/Config.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="38" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="213" bodyend="221"/>
+        <location file="Source/MdDoxTree/Config.h" line="56" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="213" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a2c6cc998a421c6a26c66fd389b71b638" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="37" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="192" bodyend="211"/>
+        <location file="Source/MdDoxTree/Config.h" line="55" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="192" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1aabf3f0a8c441997814e3b44f080b0703" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="36" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="152" bodyend="190"/>
+        <location file="Source/MdDoxTree/Config.h" line="54" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="152" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a9abe7c101179cf715da7e88f9c5a15b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="33" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="84" bodyend="103"/>
+        <location file="Source/MdDoxTree/Config.h" line="51" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="84" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1aa0a352aa95deb696fb267dfb99e21c36" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="35" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="105" bodyend="150"/>
+        <location file="Source/MdDoxTree/Config.h" line="53" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="105" bodyend="150"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="41" column="1"/>
+        <location file="Source/MdDoxTree/Config.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a28df8a32f4d8fc5492189d2d7c62c710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="43" column="1"/>
+        <location file="Source/MdDoxTree/Config.h" line="61" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref> &amp;</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="56" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="244" bodyend="247"/>
+        <location file="Source/MdDoxTree/Config.h" line="74" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="244" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a1a1517446553bf73bb920af9f1941c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="47" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="78" bodyend="82"/>
+        <location file="Source/MdDoxTree/Config.h" line="65" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="78" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1afbb5b638949896b8307a556ec2c5bc8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="51" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="231" bodyend="237"/>
+        <location file="Source/MdDoxTree/Config.h" line="69" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="231" bodyend="237"/>
         <references refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" compoundref="Config_8cpp" startline="223" endline="229">getValue</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1afe4fb79617f31856dd5266ffd883caae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="53" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="239" bodyend="242"/>
+        <location file="Source/MdDoxTree/Config.h" line="71" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="239" bodyend="242"/>
         <references refid="classMdDox_1_1Char_1a919f0a6115c4a6b7de5554bdfbd08678" compoundref="Char_8cpp" startline="69" endline="81">MdDox::Char::toInt32</references>
         <references refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" compoundref="Config_8cpp" startline="223" endline="229">getValue</references>
       </memberdef>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="49" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="223" bodyend="229"/>
+        <location file="Source/MdDoxTree/Config.h" line="67" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="223" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Config_1a9bf2aed3f47e9695ca9960190f5470ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -254,14 +254,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/Config.h" line="45" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="30" bodyend="76"/>
+        <location file="Source/MdDoxTree/Config.h" line="63" column="1" bodyfile="Source/MdDoxTree/Config.cpp" bodystart="30" bodyend="76"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Defines a basic key value parser. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
-    <location file="Source/MdDoxTree/Config.h" line="29" column="1" bodyfile="Source/MdDoxTree/Config.h" bodystart="28" bodyend="59"/>
+<para>Defined as: <programlisting filename=".txt"><codeline><highlight class="normal">key<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;value&quot;</highlight><highlight class="normal">;</highlight></codeline>
+</programlisting></para><para>A valid key should match the following expression:<linebreak/>
+<programlisting filename=".txt"><codeline><highlight class="normal">[a-zA-Z][a-zA-Z0-9]+[_-.]*</highlight></codeline>
+</programlisting> A valid value should match the following expression:<linebreak/>
+<programlisting filename=".txt"><codeline><highlight class="normal">[a-zA-Z0-9]*[<sp/>\t_-.:#,_-./@()]*</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="Source/MdDoxTree/Config.h" line="47" column="1" bodyfile="Source/MdDoxTree/Config.h" bodystart="46" bodyend="77"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Config_1acc5eeb658b175462a0f3c6ff9b9c0276" prot="private" virt="non-virtual"><scope>MdDox::Config</scope><name>_attributes</name></member>
       <member refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" prot="public" virt="non-virtual"><scope>MdDox::Config</scope><name>attributes</name></member>

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dLplABF[
+ qxLrALF[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W80lABF[
+ DhLrALF[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WxplABF[
+ qCprALF[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dK0lABF[
+ DdLrALF[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wq0lABF[
+ qGLrALF[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dK0lABF->Wq0lABF
- W80lABF->WxplABF
- W80lABF->dK0lABF
- dLplABF->W80lABF
+ DdLrALF->qGLrALF
+ DhLrALF->qCprALF
+ DhLrALF->DdLrALF
+ qxLrALF->DhLrALF
 }

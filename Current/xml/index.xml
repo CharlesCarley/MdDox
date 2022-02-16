@@ -2,13 +2,12 @@
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
   <compound refid="classMdDox_1_1Application" kind="class"><name>MdDox::Application</name>
     <member refid="classMdDox_1_1Application_1ad91e8fbf7ab789a2799ac159ac14f702" kind="variable"><name>_config</name></member>
-    <member refid="classMdDox_1_1Application_1af94e237f7ad13a8d02de8e4668cfcd72" kind="variable"><name>_genType</name></member>
     <member refid="classMdDox_1_1Application_1a7886a3f357cea319bf05b97330390c48" kind="variable"><name>_indexFile</name></member>
     <member refid="classMdDox_1_1Application_1a72f5d19b9a07de16d8e1590dc5ed5d82" kind="variable"><name>_outDir</name></member>
     <member refid="classMdDox_1_1Application_1ab7c709c2577f1bc90eb5c4630792d067" kind="variable"><name>_writer</name></member>
     <member refid="classMdDox_1_1Application_1a580e1b1886d5514923557a3da827c04e" kind="function"><name>Application</name></member>
     <member refid="classMdDox_1_1Application_1adb48bbeb26bb380844dafb81e4e9ba79" kind="function"><name>~Application</name></member>
-    <member refid="classMdDox_1_1Application_1ac29482b5fd82ae1a66c3c019aa31e924" kind="function"><name>go</name></member>
+    <member refid="classMdDox_1_1Application_1a5e26f2c61df5344be166f4030d232734" kind="function"><name>go</name></member>
     <member refid="classMdDox_1_1Application_1a7464ef04382b7dd0c71069b178b9c42b" kind="function"><name>parse</name></member>
   </compound>
   <compound refid="classMdDox_1_1Cache" kind="class"><name>MdDox::Cache</name>
@@ -2719,6 +2718,7 @@
     <member refid="classMdDox_1_1SiteBuilder_1a47ef3a2580edebdbf164ad303804d875" kind="variable"><name>_ids</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" kind="variable"><name>_members</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" kind="variable"><name>_names</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" kind="variable"><name>backendType</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kind="variable"><name>fileUrl</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kind="variable"><name>imageDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kind="variable"><name>indexName</name></member>
@@ -2913,6 +2913,9 @@
     <member refid="classMdDox_1_1Xml_1_1Writer_1a3de47d9176cd5216f12c3e71d7c6e828" kind="function"><name>write</name></member>
   </compound>
   <compound refid="namespaceMdDox" kind="namespace"><name>MdDox</name>
+    <member refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" kind="enum"><name>BackendWriter</name></member>
+    <member refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" kind="enumvalue"><name>BackendHtml</name></member>
+    <member refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" kind="enumvalue"><name>BackendMarkdown</name></member>
     <member refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0" kind="enum"><name>ConsoleColor</name></member>
     <member refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" kind="enumvalue"><name>CS_BLACK</name></member>
     <member refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a77ac751d65708f142faccbe55fd27253" kind="enumvalue"><name>CS_DARK_BLUE</name></member>
@@ -2949,7 +2952,6 @@
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43e" kind="enum"><name>Options</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" kind="enumvalue"><name>OptOutputDirectory</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" kind="enumvalue"><name>OptIndexFile</name></member>
-    <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eafda00e3f71ab22247d399a7140839d29" kind="enumvalue"><name>OptGenType</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" kind="enumvalue"><name>OptConfigFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" kind="enumvalue"><name>OpMax</name></member>
     <member refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" kind="typedef"><name>Directory</name></member>

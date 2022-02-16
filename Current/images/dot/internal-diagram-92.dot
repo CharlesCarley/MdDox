@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W2ORABF[
+ qGarALF[
    shape    = none
    label    = "SectionDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dCxRABF[
+ DEOrALF[
    shape    = none
    label    = "SectionDefWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d3WRABF[
+ DyarALF[
    shape    = none
    label    = "SectionDefListingWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W2ORABF->dCxRABF
- W2ORABF->d3WRABF
+ qGarALF->DEOrALF
+ qGarALF->DyarALF
 }

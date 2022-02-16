@@ -93,6 +93,12 @@ namespace MdDox
         config.load(ifs);
         showDebug = config.getBool("SHOW_DEBUG");
 
+        String value = config.getValue("BACKEND_WRITER");
+        if (value == "HTML")
+            backendType = BackendHtml;
+        else
+            backendType = BackendMarkdown;
+
         outputFileExt = config.getValue("OUTPUT_FILE_EXT");
         if (outputFileExt != ".md" && outputFileExt != ".html")
         {
@@ -108,13 +114,12 @@ namespace MdDox
         inputDir   = FileSystem::currentPath();
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
+        siteUrl = config.getValue("SITE_URL");
 
-    	siteUrl = config.getValue("SITE_URL");
-
-    	// Allow this to be overriden if it is present.
-    	fileUrl = config.getValue("FILE_URL");
+        // Allow this to be overridden if it is present.
+        fileUrl = config.getValue("FILE_URL");
         if (fileUrl.empty())
-    		StringCombine(fileUrl, siteUrl, "/blob/master/");
+            StringCombine(fileUrl, siteUrl, "/blob/master/");
 
         projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- q6UoWBF[
+ DpZMALF[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qFboWBF[
+ DRYMALF[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D3UoWBF[
+ DKYMALF[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qFboWBF->D3UoWBF
- q6UoWBF->qFboWBF
+ DRYMALF->DKYMALF
+ DpZMALF->DRYMALF
 }

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Dt8hWBF[
+ DcZNWLF[
    shape    = none
    label    = "ScannerBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qInhWBF[
+ DOZNWLF[
    shape    = none
    label    = "Scanner"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dt8hWBF->qInhWBF
+ DcZNWLF->DOZNWLF
 }

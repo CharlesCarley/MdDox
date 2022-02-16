@@ -72,19 +72,6 @@ namespace MdDox
          */
         OptIndexFile,
         /**
-         * \brief Provides the option to specify the backend document writer. 
-         * 
-    	 * - <tt>     -t [type]</tt> 
-         * - <tt>--input [type]</tt>
-         * <br/>
-         *
-         * <b>type</b>
-         *
-         * - md - Use MdDox::MarkdownDocumentWriter as the writer.
-         * - html - Use MdDox::HtmlDocumentWriter as the writer.
-         */
-        OptGenType,
-        /**
          * \brief Provides the option to load a config file. 
          * 
     	 * - <tt>      -c [file]</tt> 
@@ -116,17 +103,6 @@ namespace MdDox
             1,
         },
         {
-            OptGenType,
-            't',
-            "type",
-            "Specify the generator backend type\n"
-            "  <id>\n"
-            "   md   - Generates a GFM markdown site\n"
-            "   html - Generates a HTML site\n",
-            true,
-            1,
-        },
-        {
             OptConfigFile,
             'c',
             "config",
@@ -148,7 +124,6 @@ namespace MdDox
         DocumentWriter* _writer;
         PathUtil        _indexFile;
         PathUtil        _outDir;
-        String          _genType;
         String          _config;
 
     public:
@@ -176,14 +151,6 @@ namespace MdDox
             _outDir    = PathUtil(FileSystem::absolute(p.string(OptOutputDirectory)).string());
             _indexFile = PathUtil(FileSystem::absolute(p.string(OptIndexFile)).string());
             _config    = PathUtil(FileSystem::absolute(p.string(OptConfigFile)).string()).fullPath();
-            _genType   = p.string(OptGenType, 0, "md");
-
-            if (_genType == "md")
-                _writer = new MarkdownDocumentWriter();
-            else if (_genType == "html")
-                _writer = new HtmlDocumentWriter();
-            else
-                throw Exception("unknown writer type");
 
             if (_indexFile.empty())
             {
@@ -198,10 +165,19 @@ namespace MdDox
          * \brief Is the primary application routine.
          * \return Zero on success or not at all if an internal exception is raised. 
          */
-        int go() const
+        int go()
         {
             SiteBuilder builder;
             builder.loadConfig(_config);
+
+        	
+            if (builder.backendType == BackendMarkdown)
+                _writer = new MarkdownDocumentWriter();
+            else if (builder.backendType == BackendHtml)
+                _writer = new HtmlDocumentWriter();
+            else
+                throw Exception("unknown writer type");
+
             builder.buildFromXml(_writer, _indexFile.fullPath());
             return 0;
         }

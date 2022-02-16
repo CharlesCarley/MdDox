@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D58EWBF[
+ WEZsWLF[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D3xEWBF[
+ W5EsWLF[
    shape    = none
    label    = "IndexEntryQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D58EWBF->D3xEWBF
+ WEZsWLF->W5EsWLF
 }

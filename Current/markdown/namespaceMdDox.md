@@ -302,6 +302,10 @@
 <br/>
 <a id="enums"></a>
 <h2>Enums</h2>
+<span class="icon-list-item"><a href="#backendwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BackendWriter</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#consolecolor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ConsoleColor</span>
 </a>
 </span>
@@ -526,6 +530,25 @@
 </a>
 </span>
 <br/>
+<a id="backendwriter"></a>
+<h2>BackendWriter</h2>
+<span class="bold-text"><b>BackendWriter</b></span>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendHtml</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendMarkdown</span>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="consolecolor"></a>
 <h2>ConsoleColor</h2>
 <span class="bold-text"><b>ConsoleColor</b></span>
@@ -693,10 +716,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#optgentype" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptGenType</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
 </a>
 </span>
@@ -751,31 +770,6 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 <li><code class="typewriter">input [file-path]</code>
 <br/>
-</li>
-</ul>
-<br/>
-<a id="optgentype"></a>
-<h4>OptGenType</h4>
-<br/>
-<span class="inline-text">Provides the option to specify the backend document writer. </span>
-<br/>
-<br/>
-<ul>
-<li><code class="typewriter">-t [type]</code>
-</li>
-<li><code class="typewriter">input [type]</code>
-<br/>
-</li>
-</ul>
-<span class="bold-text"><b>type</b></span>
-<ul>
-<li><span class="inline-text">md - Use </span>
-<a href="classMdDox_1_1MarkdownDocumentWriter.md#mddoxmarkdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
-<span class="inline-text"> as the writer.</span>
-</li>
-<li><span class="inline-text">html - Use </span>
-<a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter">MdDox::HtmlDocumentWriter</a>
-<span class="inline-text"> as the writer. </span>
 </li>
 </ul>
 <br/>
@@ -969,7 +963,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
 <br/>
@@ -1170,7 +1164,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L98" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
 <br/>

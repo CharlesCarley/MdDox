@@ -19,8 +19,8 @@
 </g>
 <!-- SiteBuilder&#45;&gt;Config -->
 <g id="edge1" class="edge"><title>SiteBuilder&#45;&gt;Config</title>
-<path fill="none" stroke="#ff1040" d="M35.5,-80.7902C35.5,-76.6536 35.5,-72.5169 35.5,-68.3803"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="37.2501,-68.1406 35.5,-63.1406 33.7501,-68.1407 37.2501,-68.1406"/>
+<path fill="none" stroke="#ff1040" d="M35.5,-75.5505C35.5,-71.4138 35.5,-67.2772 35.5,-63.1406"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="33.7501,-75.7901 35.5,-80.7902 37.2501,-75.7902 33.7501,-75.7901"/>
 </g>
 <!-- buildFromXml -->
 <g id="node3" class="node"><title>buildFromXml</title>

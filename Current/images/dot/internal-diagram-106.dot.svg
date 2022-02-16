@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 260,-40 260,4 -4,4"/>
-<!-- DochWBF -->
-<g id="node1" class="node"><title>DochWBF</title>
+<!-- W9BlALF -->
+<g id="node1" class="node"><title>W9BlALF</title>
 <text text-anchor="middle" x="67.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">DoxygenIndexQueryVisitor</text>
 </g>
-<!-- qx3hWBF -->
-<g id="node2" class="node"><title>qx3hWBF</title>
+<!-- d0BlALF -->
+<g id="node2" class="node"><title>d0BlALF</title>
 <text text-anchor="middle" x="213.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">IndexPageWriter</text>
 </g>
-<!-- DochWBF&#45;&gt;qx3hWBF -->
-<g id="edge1" class="edge"><title>DochWBF&#45;&gt;qx3hWBF</title>
+<!-- W9BlALF&#45;&gt;d0BlALF -->
+<g id="edge1" class="edge"><title>W9BlALF&#45;&gt;d0BlALF</title>
 <path fill="none" stroke="#69bfff" d="M135.02,-18C145.437,-18 156.008,-18 165.854,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="165.932,-19.7501 170.932,-18 165.932,-16.2501 165.932,-19.7501"/>
 </g>

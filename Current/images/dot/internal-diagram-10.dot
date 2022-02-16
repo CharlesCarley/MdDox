@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- D9BuWBF[
+ DrrNWLF[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dt3uWBF[
+ DiSNWLF[
    shape    = none
    label    = "ChildNodeQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D9BuWBF->Dt3uWBF
+ DrrNWLF->DiSNWLF
 }

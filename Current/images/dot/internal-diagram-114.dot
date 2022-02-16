@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DEKOWBF[
+ DbWaALF[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D6iOWBF[
+ qKWaALF[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qRKOWBF[
+ qL0aALF[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D6iOWBF->qRKOWBF
- DEKOWBF->D6iOWBF
+ qKWaALF->qL0aALF
+ DbWaALF->qKWaALF
 }

@@ -12,7 +12,7 @@ digraph {
          arrowsize = "0.5"
          color     = "#FF1040FF"
      ]
-     SiteBuilder->Config;
+     SiteBuilder->Config[dir=back];
 
      {rank=same Config SiteBuilder}
 

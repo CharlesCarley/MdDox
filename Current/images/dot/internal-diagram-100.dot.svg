@@ -9,43 +9,43 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-94 328,-94 328,4 -4,4"/>
-<!-- dLplABF -->
-<g id="node1" class="node"><title>dLplABF</title>
+<!-- qxLrALF -->
+<g id="node1" class="node"><title>qxLrALF</title>
 <text text-anchor="middle" x="27" y="-42.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Writer</text>
 </g>
-<!-- W80lABF -->
-<g id="node2" class="node"><title>W80lABF</title>
+<!-- DhLrALF -->
+<g id="node2" class="node"><title>DhLrALF</title>
 <text text-anchor="middle" x="117" y="-42.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Object</text>
 </g>
-<!-- dLplABF&#45;&gt;W80lABF -->
-<g id="edge4" class="edge"><title>dLplABF&#45;&gt;W80lABF</title>
+<!-- qxLrALF&#45;&gt;DhLrALF -->
+<g id="edge4" class="edge"><title>qxLrALF&#45;&gt;DhLrALF</title>
 <path fill="none" stroke="#69bfff" d="M54.4029,-45C63.9738,-45 74.8745,-45 84.8184,-45"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.919,-46.7501 89.919,-45 84.919,-43.2501 84.919,-46.7501"/>
 </g>
-<!-- WxplABF -->
-<g id="node3" class="node"><title>WxplABF</title>
+<!-- qCprALF -->
+<g id="node3" class="node"><title>qCprALF</title>
 <text text-anchor="middle" x="207" y="-69.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Simple</text>
 </g>
-<!-- W80lABF&#45;&gt;WxplABF -->
-<g id="edge2" class="edge"><title>W80lABF&#45;&gt;WxplABF</title>
+<!-- DhLrALF&#45;&gt;qCprALF -->
+<g id="edge2" class="edge"><title>DhLrALF&#45;&gt;qCprALF</title>
 <path fill="none" stroke="#69bfff" d="M144.403,-53.1009C154.062,-56.0643 165.075,-59.4434 175.092,-62.5168"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="174.626,-64.2042 179.919,-63.9979 175.652,-60.8582 174.626,-64.2042"/>
 </g>
-<!-- dK0lABF -->
-<g id="node4" class="node"><title>dK0lABF</title>
+<!-- DdLrALF -->
+<g id="node4" class="node"><title>DdLrALF</title>
 <text text-anchor="middle" x="207" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Group</text>
 </g>
-<!-- W80lABF&#45;&gt;dK0lABF -->
-<g id="edge3" class="edge"><title>W80lABF&#45;&gt;dK0lABF</title>
+<!-- DhLrALF&#45;&gt;DdLrALF -->
+<g id="edge3" class="edge"><title>DhLrALF&#45;&gt;DdLrALF</title>
 <path fill="none" stroke="#69bfff" d="M144.403,-36.8991C154.062,-33.9357 165.075,-30.5566 175.092,-27.4832"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="175.652,-29.1418 179.919,-26.0021 174.626,-25.7958 175.652,-29.1418"/>
 </g>
-<!-- Wq0lABF -->
-<g id="node5" class="node"><title>Wq0lABF</title>
+<!-- qGLrALF -->
+<g id="node5" class="node"><title>qGLrALF</title>
 <text text-anchor="middle" x="297" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Complex</text>
 </g>
-<!-- dK0lABF&#45;&gt;Wq0lABF -->
-<g id="edge1" class="edge"><title>dK0lABF&#45;&gt;Wq0lABF</title>
+<!-- DdLrALF&#45;&gt;qGLrALF -->
+<g id="edge1" class="edge"><title>DdLrALF&#45;&gt;qGLrALF</title>
 <path fill="none" stroke="#69bfff" d="M234.403,-18C243.974,-18 254.875,-18 264.818,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="264.919,-19.7501 269.919,-18 264.919,-16.2501 264.919,-19.7501"/>
 </g>

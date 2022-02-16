@@ -285,7 +285,7 @@
         </inbodydescription>
         <location file="Tools/GenApi/Main.cpp" line="153" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="153" bodyend="176"/>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
-        <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="98">MdDox::Switches</references>
+        <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="85">MdDox::Switches</references>
         <references refid="namespaceMdDox_1_1GenApi_1a93cda827227cbbb45d150a9c37e59f8dad786b6781cdc9133fe88e6b9c3004275" compoundref="Tools_2GenApi_2Main_8cpp" startline="47">MdDox::GenApi::OptionsMax</references>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
         <references refid="namespaceMdDox_1_1GenApi_1a93cda827227cbbb45d150a9c37e59f8da633a711f7325d6b20c340400f3634a6d" compoundref="Tools_2GenApi_2Main_8cpp" startline="39">MdDox::GenApi::OptInputFile</references>

@@ -123,7 +123,7 @@
         </inbodydescription>
         <location file="Tools/ResourceCompiler/Main.cpp" line="107" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="107" bodyend="120"/>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
-        <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="98">MdDox::Switches</references>
+        <references refid="namespaceMdDox_1a05eb5502d200714d8a3f429bb891db0c" compoundref="Source_2MdDox_2Main_8cpp" startline="85">MdDox::Switches</references>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
         <references refid="namespaceMdDox_1_1ResourceCompiler_1ab60d339791bbbcc1c9265cf2f8588fd5a0d3f15ee9a8003dfe779dacebb39f777" compoundref="Tools_2ResourceCompiler_2Main_8cpp" startline="48">MdDox::ResourceCompiler::OptOutputFileName</references>
         <references refid="namespaceMdDox_1_1ResourceCompiler_1ab60d339791bbbcc1c9265cf2f8588fd5a39c64723a942e5a9a7c878ad55ed630e" compoundref="Tools_2ResourceCompiler_2Main_8cpp" startline="57">MdDox::ResourceCompiler::OptNameSpace</references>

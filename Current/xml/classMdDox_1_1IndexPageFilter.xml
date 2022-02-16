@@ -126,11 +126,11 @@
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759ab423cb91da1b34fecccffb8ff7b5a3f7" compoundref="DoxCompoundKind_8h" startline="111">MdDox::Doxygen::DCK_TYPE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a4a255089d57c59b114e5c097444f468b" compoundref="DoxCompoundKind_8h" startline="115">MdDox::Doxygen::DCK_FILE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759aa5e51775c781d51afe7643b05f7bd886" compoundref="DoxCompoundKind_8h" startline="59">MdDox::Doxygen::DCK_INVALID</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="210" endline="215">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" compoundref="SiteBuilder_8cpp" startline="133" endline="156">MdDox::SiteBuilder::registerCompound</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="215" endline="220">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" compoundref="SiteBuilder_8cpp" startline="138" endline="161">MdDox::SiteBuilder::registerCompound</references>
         <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="59" endline="62">MdDox::Reference::getReference</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" compoundref="CompoundIndexQuery_8cpp" startline="75" endline="78">MdDox::Doxygen::CompoundIndexQuery::foreachMember</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" compoundref="SiteBuilder_8cpp" startline="158" endline="170">MdDox::SiteBuilder::registerMember</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" compoundref="SiteBuilder_8cpp" startline="163" endline="175">MdDox::SiteBuilder::registerMember</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac79c1254b4459778e9d57bc66d34f7c6" compoundref="MemberIndexQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::MemberIndexQuery::getRefId</references>
       </memberdef>
       </sectiondef>

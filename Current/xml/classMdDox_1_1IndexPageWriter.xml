@@ -194,14 +194,14 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/IndexPageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="190" bodyend="244"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="210" endline="215">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="215" endline="220">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="159">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="181">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" compoundref="DoxygenIndexQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::DoxygenIndexQuery::visit</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="149">MdDox::SiteBuilder::projectTitle</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="179">MdDox::SiteBuilder::siteUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="167">MdDox::SiteBuilder::projectTitle</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="SiteBuilder_8h" startline="207">MdDox::SiteBuilder::siteUrl</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" compoundref="IconSet_8h" startline="36">MdDox::ICO_FOLDER</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" compoundref="IndexPageWriter_8cpp" startline="49">MdDox::IndexPageFilter::dirPaths</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" compoundref="IconSet_8h" startline="46">MdDox::ICO_NAMESPACE</references>

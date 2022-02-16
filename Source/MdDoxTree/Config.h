@@ -25,6 +25,24 @@
 
 namespace MdDox
 {
+	
+	/**
+     * \brief Defines a basic key value parser
+     *
+     * Defined as:
+     * \code{.txt}
+     * key = "value";
+     * \endcode
+     * 
+     * A valid key should match the following expression:\n
+     * \code{.txt}
+     * [a-zA-Z][a-zA-Z0-9]+[_-.]*
+     * \endcode
+     * A valid value should match the following expression:\n
+     * \code{.txt}
+     * [a-zA-Z0-9]*[ \t_-.:#,_-./@()]*
+     * \endcode
+     */
     class Config
     {
     private:

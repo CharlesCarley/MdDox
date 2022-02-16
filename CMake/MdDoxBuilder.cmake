@@ -26,7 +26,6 @@ set(MdDoxBuilder_ProjecVersion  ${MdDox_PROJECT_VERSION}      CACHE STRING "")
 set(MdDoxBuilder_ProjecUrl      ${MdDox_PROJECT_HOMEPAGE_URL} CACHE STRING "")
 set(MdDoxBuilder_Brief          ${MdDox_PROJECT_DESCRIPTION}  CACHE STRING "")
 set(MdDoxBuilder_ALL     FALSE)
-set(MdDoxBuilder_BackEnd md)
 
 # function(MdDoxMakeQuotedStringList Output ARGN)
 macro(MdDoxMakeQuotedStringList Output)
@@ -167,7 +166,7 @@ function(MdDox ConfigIn ConfigOut)
 		add_custom_command(TARGET ${TargetName} POST_BUILD
 			COMMENT "Invoking MdDox" 
 			WORKING_DIRECTORY ${MdDoxBuilder_OutputDir}/xml
-			COMMAND MdDox -i index.xml -t ${MdDoxBuilder_BackEnd} -c ${MdDoxBuilder_Config}
+			COMMAND MdDox -i index.xml -c ${MdDoxBuilder_Config}
 			SOURCES ${TargetName_SRC}
 		)
 

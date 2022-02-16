@@ -29,6 +29,18 @@ namespace MdDox
     class Page;
     class DocumentWriter;
 
+	enum BackendWriter
+	{
+		/**
+		 * \brief Use MdDox::HtmlDocumentWriter to output documents.
+		 */
+		BackendHtml,
+        /**
+		 * \brief Use MdDox::MarkdownDocumentWriter to output documents.
+		 */
+        BackendMarkdown,
+	};
+
     /**
      * \brief Container that is used to map a reference id attribute to a name.
      */
@@ -59,7 +71,7 @@ namespace MdDox
      *          arrowsize = "${arrow-size}"
      *          color     = "${edge-red}"
      *      ]
-     *      SiteBuilder->Config;
+     *      SiteBuilder->Config[dir=back];
      *
      *      {rank=same Config SiteBuilder}
      *
@@ -91,6 +103,7 @@ namespace MdDox
         mutable ReferenceMap _members;
         mutable StringArray  _dotFiles;
         mutable Config       _dot;
+    	
 
         /**
          * \brief Writes all dot files to disk.
@@ -109,8 +122,11 @@ namespace MdDox
         void buildFromXml(DocumentWriter* writer, const String& fileName) const;
 
     	/**
-    	 * \brief Attempts to load the primary config file. 
-    	 * \param configFile path to the file. 
+    	 * \brief Attempts to load the supplied config file.
+    	 *
+    	 * \param configFile The path to the file's location.
+    	 *
+    	 * Uses MdDox::Config to collect configuration options.
     	 */
     	void loadConfig(const String& configFile);
 
@@ -145,21 +161,29 @@ namespace MdDox
 
         /**
          * \brief Defines a title for the current project.
+         *
+         * Maps to the config option \c PROJECT_TITLE
          */
         String projectTitle;
 
         /**
          * \brief Defines a brief description for the current project.
+         *
+         * Maps to the config option \c PROJECT_BRIEF
          */
         String projectBrief;
         
         /**
          * \brief Defines the file extension for pages.
+         *
+         * Maps to the config option \c OUTPUT_FILE_EXT
          */
         String outputFileExt;
 
     	/**
          * \brief Defines the image lookup directory.
+         *
+         * Maps to the config option \c IMAGE_DIR
          */
         String imageDir;
 
@@ -170,32 +194,53 @@ namespace MdDox
 
         /**
          * \brief Defines the output directory for pages.
+         *
+         * Maps to the config option \c OUTPUT_DIR
          */
         String outputDir;
 
         /**
          * \brief Defines the GitHub project URL.
+         *
+         * Maps to the config option \c SITE_URL
          */
         String siteUrl;
 
         /**
          * \brief Defined as <tt>${siteUrl}/blob/master/</tt>
          *
-         * Used to link local file paths to GitHub URLs  
+         * Used to link local file paths to GitHub URLs 
+         * \n
+         * Maps to the config option \c FILE_URL
          */
         String fileUrl;
 
         /**
-         * \brief 
+         * \brief Defines the MdDox::HtmlDocumentWriter style sheet
+         * 
+         * Maps to the config option \c STYLESHEET
          */
-        StringArray searchDirs;
+        String styleSheet;
 
         /**
-         * \brief 
+         * \brief Enables or disables links to the input source
+         * file for the current page. 
+         *
+    	 * Maps to the config option \c SHOW_DEBUG
          */
         bool showDebug{false};
 
-        String styleSheet;
+        /**
+         * \brief Defines the backend writer 
+         *
+    	 * Maps to the config option \c BACKEND_WRITER
+    	 * \n 
+    	 * Should be either \c HTML or \c MD
+    	 * the default value is BackendMarkdown
+         */
+        BackendWriter backendType{BackendMarkdown};
+
+        StringArray searchDirs;
 
         mutable String indexName;
     };
