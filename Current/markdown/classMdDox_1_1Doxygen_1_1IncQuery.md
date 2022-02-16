@@ -139,6 +139,7 @@
 <span class="bold-text"><b>local</b></span>
 <span class="inline-text"> enumerated value or -1 if the value is not found. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
@@ -193,6 +194,7 @@
 <span class="inline-text">The </span>
 <span class="bold-text"><b>refid</b></span>
 <span class="inline-text"> enumerated value or an empty string the value is not found. </span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>

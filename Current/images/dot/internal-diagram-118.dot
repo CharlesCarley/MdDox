@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DrRuDK4[
+ qUUU7hO[
    shape    = none
    label    = "ParamQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D4RuDK4[
+ DY3U7hO[
    shape    = none
    label    = "ParameterWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DrRuDK4->D4RuDK4
+ qUUU7hO->DY3U7hO
 }

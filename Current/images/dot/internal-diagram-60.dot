@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- q5LEDK4[
+ qDIaxhO[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qFEEDK4[
+ qc5axhO[
    shape    = none
    label    = "ReimplementQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q5LEDK4->qFEEDK4
+ qDIaxhO->qc5axhO
 }

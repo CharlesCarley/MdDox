@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Dg08DK4[
+ q48U7hO[
    shape    = none
    label    = "ScannerBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dx08DK4[
+ DynU7hO[
    shape    = none
    label    = "Scanner"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dg08DK4->Dx08DK4
+ q48U7hO->DynU7hO
 }

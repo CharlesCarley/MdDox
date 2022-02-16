@@ -223,6 +223,7 @@ namespace MdDox
                 ParagraphWriter obj(_writer, &_out);
                 obj.write(para);
             });
+        _writer->lineBreak(_out);
     }
 
     void ParagraphWriter::visitedTitle(const Doxygen::TitleQuery& query)

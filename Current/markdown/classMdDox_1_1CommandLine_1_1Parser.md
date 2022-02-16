@@ -563,6 +563,7 @@
 <h4>Returns</h4>
 <span class="inline-text">true if it is supplied on the command line false otherwise</span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L112" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -629,6 +630,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">the option at the enumId or null if the id is out of bounds</span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -769,6 +771,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The directory name of the program from argv[0]</span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -947,6 +950,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The current working directory.</span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dAzFDK4[
+ Wsc5xhO[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WLzFDK4[
+ duc5xhO[
    shape    = none
    label    = "SectionDefQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dAzFDK4->WLzFDK4
+ Wsc5xhO->duc5xhO
 }

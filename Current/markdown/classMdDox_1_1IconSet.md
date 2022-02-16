@@ -27,6 +27,7 @@
 <a href="Image.md#image-handling">Image handling</a>
 <br/>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IconSet.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
@@ -58,6 +59,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The base file name of the requested on success or the error icon file name if the id is not handled or one of IconIds values </span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>

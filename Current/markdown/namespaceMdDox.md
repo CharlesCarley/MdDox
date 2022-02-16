@@ -736,6 +736,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="note"></a>
 <h4>Note</h4>
 <span class="inline-text">if an output path is not specified then the current working directory will be used as the output directory. </span>
+<br/>
 </li>
 </ul>
 <br/>
@@ -1300,6 +1301,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="inline-text">True if the character is in the range of [0-9]</span>
 <br/>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L199" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1323,6 +1325,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">True if the character is in the range of [a-zA-Z]</span>
+<br/>
 <br/>
 <br/>
 <a id="defined-in"></a>
@@ -1349,6 +1352,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <h4>Returns</h4>
 <span class="inline-text">True if the supplied constant is a line feed character or a carriage return character. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1372,6 +1376,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">True if the character is a white space character, tab character or a newline character. </span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>

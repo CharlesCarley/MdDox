@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 165,-40 165,4 -4,4"/>
-<!-- WmKMDK4 -->
-<g id="node1" class="node"><title>WmKMDK4</title>
+<!-- qupKxhO -->
+<g id="node1" class="node"><title>qupKxhO</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- dyKMDK4 -->
-<g id="node2" class="node"><title>dyKMDK4</title>
+<!-- DDpKxhO -->
+<g id="node2" class="node"><title>DDpKxhO</title>
 <text text-anchor="middle" x="125.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">CaptionQuery</text>
 </g>
-<!-- WmKMDK4&#45;&gt;dyKMDK4 -->
-<g id="edge1" class="edge"><title>WmKMDK4&#45;&gt;dyKMDK4</title>
+<!-- qupKxhO&#45;&gt;DDpKxhO -->
+<g id="edge1" class="edge"><title>qupKxhO&#45;&gt;DDpKxhO</title>
 <path fill="none" stroke="#69bfff" d="M54.1143,-18C63.5162,-18 74.3497,-18 84.6553,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.6635,-19.7501 89.6634,-18 84.6634,-16.2501 84.6635,-19.7501"/>
 </g>

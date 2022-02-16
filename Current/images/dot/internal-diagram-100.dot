@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WoGCDK4[
+ WaCqxhO[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dhGCDK4[
+ WQpqxhO[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W3GCDK4[
+ drCqxhO[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- diGCDK4[
+ dxgqxhO[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W4GCDK4[
+ WNgqxhO[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,8 +46,8 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- diGCDK4->W4GCDK4
- dhGCDK4->W3GCDK4
- dhGCDK4->diGCDK4
- WoGCDK4->dhGCDK4
+ dxgqxhO->WNgqxhO
+ WQpqxhO->drCqxhO
+ WQpqxhO->dxgqxhO
+ WaCqxhO->WQpqxhO
 }

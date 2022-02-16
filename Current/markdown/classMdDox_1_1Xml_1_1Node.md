@@ -463,6 +463,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The node at the supplied index. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -501,6 +502,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The node at the supplied index. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -556,6 +558,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The found attribute value on success, otherwise returns the default value. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">name</span>
@@ -604,6 +607,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">Const access to the array of children. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -655,6 +659,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">a const reference to the first element in the _children vector </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -837,6 +842,7 @@
 <h4>Returns</h4>
 <span class="inline-text">True if the node has attributes attached to it. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L266" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -870,6 +876,7 @@
 <h4>Returns</h4>
 <span class="inline-text">true on the first match otherwise false. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L256" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -893,6 +900,7 @@
 <h4>Returns</h4>
 <span class="inline-text">true if the _children member is not empty </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L248" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -915,6 +923,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">True if the node has any text data associated with it. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -999,6 +1008,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The found attribute value on success, otherwise returns the default value. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
@@ -1050,6 +1060,7 @@
 <h4>Returns</h4>
 <span class="inline-text">True if the two match. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Char.md#equals" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">equals</span>
@@ -1097,6 +1108,7 @@
 <h4>Returns</h4>
 <span class="inline-text">True if the two match. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L243" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -1121,6 +1133,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The name associated with this node. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1204,9 +1217,11 @@
 <a id="note"></a>
 <h4>Note</h4>
 <span class="inline-text">All nodes except the root node have a parent. </span>
+<br/>
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The parent node of this node. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
@@ -1281,6 +1296,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The number of children attached to this node. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L134" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
@@ -1347,6 +1363,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">Any text associated with this node. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

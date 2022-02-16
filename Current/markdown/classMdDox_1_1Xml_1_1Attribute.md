@@ -125,6 +125,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The key associated with this attribute. </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Attribute.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
@@ -148,6 +149,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The value associated with this attribute. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

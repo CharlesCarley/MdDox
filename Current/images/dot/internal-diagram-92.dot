@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- Wc5bDK4[
+ diLqxhO[
    shape    = none
    label    = "SectionDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d5YbDK4[
+ d2JqxhO[
    shape    = none
    label    = "SectionDefWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d05bDK4[
+ WIpqxhO[
    shape    = none
    label    = "SectionDefListingWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wc5bDK4->d5YbDK4
- Wc5bDK4->d05bDK4
+ diLqxhO->d2JqxhO
+ diLqxhO->WIpqxhO
 }

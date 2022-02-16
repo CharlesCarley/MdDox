@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dItbDK4[
+ WiWqxhO[
    shape    = none
    label    = "Sect1QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WdtbDK4[
+ W3AqxhO[
    shape    = none
    label    = "Section1Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dItbDK4->WdtbDK4
+ WiWqxhO->W3AqxhO
 }

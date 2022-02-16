@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DlKODK4[
+ Dtcp7hO[
    shape    = none
    label    = "ParserBase"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qswODK4[
+ Dayp7hO[
    shape    = none
    label    = "Parser"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DlKODK4->qswODK4
+ Dtcp7hO->Dayp7hO
 }

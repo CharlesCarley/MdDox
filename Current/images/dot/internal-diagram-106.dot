@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DBBuDK4[
+ Dq3U7hO[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D6tuDK4[
+ qpcU7hO[
    shape    = none
    label    = "IndexPageWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DBBuDK4->D6tuDK4
+ Dq3U7hO->qpcU7hO
 }

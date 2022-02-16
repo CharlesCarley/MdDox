@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- q87EDK4[
+ DyfaxhO[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dt8EDK4[
+ DptaxhO[
    shape    = none
    label    = "MemberDefListingWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q87EDK4->Dt8EDK4
+ DyfaxhO->DptaxhO
 }

@@ -168,6 +168,7 @@
 <h4>Returns</h4>
 <span class="inline-text">Zero on success or not at all if an internal exception is raised. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#loadconfig" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">loadConfig</span>
@@ -213,9 +214,11 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">True on success, otherwise, false if the parser fails to parse the arguments. </span>
+<br/>
 <a id="see"></a>
 <h4>See</h4>
 <a href="namespaceMdDox_1_1CommandLine.md#mddoxcommandline">MdDox::CommandLine</a>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>

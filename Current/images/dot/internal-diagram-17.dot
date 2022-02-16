@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DZh2DK4[
+ D9ED7hO[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Dnh2DK4[
+ qEzD7hO[
    shape    = none
    label    = "DoxygenIndexQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DZh2DK4->Dnh2DK4
+ D9ED7hO->qEzD7hO
 }

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DzBuDK4[
+ W3HYxhO[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qZBuDK4[
+ dpHYxhO[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qnBuDK4[
+ dMlYxhO[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DBBuDK4[
+ d7HYxhO[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DQBuDK4[
+ doHYxhO[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,10 +46,10 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DBBuDK4->DQBuDK4
- qZBuDK4->qnBuDK4
- qZBuDK4->DBBuDK4
- DZBuDK4[
+ d7HYxhO->doHYxhO
+ dpHYxhO->dMlYxhO
+ dpHYxhO->d7HYxhO
+ WuHYxhO[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -57,6 +57,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DzBuDK4->qZBuDK4
- DzBuDK4->DZBuDK4
+ W3HYxhO->dpHYxhO
+ W3HYxhO->WuHYxhO
 }

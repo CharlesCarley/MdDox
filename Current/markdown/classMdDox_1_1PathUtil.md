@@ -370,6 +370,7 @@
 <h4>Returns</h4>
 <span class="inline-text">a/b/c/d/ </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.h#L67" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.h</span>
@@ -435,6 +436,7 @@
 <h4>Returns</h4>
 <span class="inline-text">true if the file is present at the supplied path </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
@@ -463,6 +465,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The file base name and any extensions attached to it </span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -549,6 +552,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The combination of all attached extensions </span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Path.h#L104" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.h</span>
@@ -571,6 +575,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The full file path </span>
+<br/>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
@@ -707,6 +712,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The combination of all attached extensions </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
@@ -740,6 +746,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The file name without an extension. </span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

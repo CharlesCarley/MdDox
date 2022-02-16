@@ -312,6 +312,7 @@
 <span class="bold-text"><b>title&apos;s</b></span>
 <span class="inline-text"> text or the default value if the node is invalid. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>

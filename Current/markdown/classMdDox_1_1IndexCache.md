@@ -329,6 +329,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The value&apos;s index into the container</span>
 <br/>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>

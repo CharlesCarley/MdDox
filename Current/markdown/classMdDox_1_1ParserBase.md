@@ -489,6 +489,7 @@
 <h4>Returns</h4>
 <span class="inline-text">The file name or memory stream name associated with this parser. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1ParserBase.md#_filepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_filePath</span>

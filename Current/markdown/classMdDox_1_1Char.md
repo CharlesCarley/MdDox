@@ -286,6 +286,7 @@
 <h4>Returns</h4>
 <span class="inline-text">False if a or b is null, false if the first character in a does not equal the first character in b, otherwise returns the result of strncmp. </span>
 <br/>
+<br/>
 <a id="references"></a>
 <h4>References</h4>
 <span class="icon-list-item"><a href="classMdDox_1_1Char.md#length" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">length</span>
@@ -350,6 +351,7 @@
 <a id="returns"></a>
 <h4>Returns</h4>
 <span class="inline-text">The total count of characters.</span>
+<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

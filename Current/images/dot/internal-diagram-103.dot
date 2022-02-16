@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DyZEDK4[
+ DYIaxhO[
    shape    = none
    label    = "GraphQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qALEDK4[
+ DHYaxhO[
    shape    = none
    label    = "GraphWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DyZEDK4->qALEDK4
+ DYIaxhO->DHYaxhO
 }
