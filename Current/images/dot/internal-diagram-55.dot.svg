@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 169,-40 169,4 -4,4"/>
-<!-- q4lc7hO -->
-<g id="node1" class="node"><title>q4lc7hO</title>
+<!-- qlmzWBF -->
+<g id="node1" class="node"><title>qlmzWBF</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Query</text>
 </g>
-<!-- DyHc7hO -->
-<g id="node2" class="node"><title>DyHc7hO</title>
+<!-- qnmzWBF -->
+<g id="node2" class="node"><title>qnmzWBF</title>
 <text text-anchor="middle" x="127.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParBlockQuery</text>
 </g>
-<!-- q4lc7hO&#45;&gt;DyHc7hO -->
-<g id="edge1" class="edge"><title>q4lc7hO&#45;&gt;DyHc7hO</title>
+<!-- qlmzWBF&#45;&gt;qnmzWBF -->
+<g id="edge1" class="edge"><title>qlmzWBF&#45;&gt;qnmzWBF</title>
 <path fill="none" stroke="#69bfff" d="M54.1376,-18C63.5417,-18 74.3997,-18 84.798,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.8573,-19.7501 89.8572,-18 84.8572,-16.2501 84.8573,-19.7501"/>
 </g>

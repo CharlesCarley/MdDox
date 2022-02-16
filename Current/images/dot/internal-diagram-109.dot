@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DtMc7hO[
+ q6BzWBF[
    shape    = none
    label    = "Node"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DNHc7hO[
+ DmBzWBF[
    shape    = none
    label    = "LocalNode"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DtMc7hO->DNHc7hO
+ q6BzWBF->DmBzWBF
 }

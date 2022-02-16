@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W3AqxhO[
+ dYORABF[
    shape    = none
    label    = "LinkedTextQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WtAqxhO[
+ WcORABF[
    shape    = none
    label    = "LinkedTextWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W3AqxhO->WtAqxhO
+ dYORABF->WcORABF
 }

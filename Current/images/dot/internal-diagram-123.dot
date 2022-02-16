@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DifaxhO[
+ D7SuWBF[
    shape    = none
    label    = "Sect2QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qgfaxhO[
+ D8GuWBF[
    shape    = none
    label    = "Section2Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DifaxhO->qgfaxhO
+ D7SuWBF->D8GuWBF
 }

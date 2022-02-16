@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 206,-40 206,4 -4,4"/>
-<!-- DifaxhO -->
-<g id="node1" class="node"><title>DifaxhO</title>
+<!-- D7SuWBF -->
+<g id="node1" class="node"><title>D7SuWBF</title>
 <text text-anchor="middle" x="45" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Sect2QueryVisitor</text>
 </g>
-<!-- qgfaxhO -->
-<g id="node2" class="node"><title>qgfaxhO</title>
+<!-- D8GuWBF -->
+<g id="node2" class="node"><title>D8GuWBF</title>
 <text text-anchor="middle" x="164" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Section2Writer</text>
 </g>
-<!-- DifaxhO&#45;&gt;qgfaxhO -->
-<g id="edge1" class="edge"><title>DifaxhO&#45;&gt;qgfaxhO</title>
+<!-- D7SuWBF&#45;&gt;D8GuWBF -->
+<g id="edge1" class="edge"><title>D7SuWBF&#45;&gt;D8GuWBF</title>
 <path fill="none" stroke="#69bfff" d="M90.2327,-18C100.262,-18 110.887,-18 120.828,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="120.958,-19.7501 125.958,-18 120.958,-16.2501 120.958,-19.7501"/>
 </g>

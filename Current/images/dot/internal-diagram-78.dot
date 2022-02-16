@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WtAqxhO[
+ dEaRABF[
    shape    = none
    label    = "DescriptionQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WJIYxhO[
+ WfZ0WBF[
    shape    = none
    label    = "DescriptionWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WtAqxhO->WJIYxhO
+ dEaRABF->WfZ0WBF
 }

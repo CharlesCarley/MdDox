@@ -108,8 +108,13 @@ namespace MdDox
         inputDir   = FileSystem::currentPath();
         StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
-        siteUrl = config.getValue("SITE_URL");
-        StringCombine(fileUrl, siteUrl, "/blob/master/");
+
+    	siteUrl = config.getValue("SITE_URL");
+
+    	// Allow this to be overriden if it is present.
+    	fileUrl = config.getValue("FILE_URL");
+        if (fileUrl.empty())
+    		StringCombine(fileUrl, siteUrl, "/blob/master/");
 
         projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");

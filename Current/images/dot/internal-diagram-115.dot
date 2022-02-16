@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- qZYaxhO[
+ qLfuWBF[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DJ3axhO[
+ q3ruWBF[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- q25axhO[
+ DZ1uWBF[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D55axhO[
+ Dz1uWBF[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qo3axhO[
+ qC1uWBF[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- D8IaxhO[
+ DxduWBF[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DJ3axhO->q25axhO
- DJ3axhO->D55axhO
- DJ3axhO->qo3axhO
- DJ3axhO->D8IaxhO
- qZYaxhO->DJ3axhO
+ q3ruWBF->DZ1uWBF
+ q3ruWBF->Dz1uWBF
+ q3ruWBF->qC1uWBF
+ q3ruWBF->DxduWBF
+ qLfuWBF->q3ruWBF
 }

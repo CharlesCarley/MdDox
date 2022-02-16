@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 151,-40 151,4 -4,4"/>
-<!-- DtMc7hO -->
-<g id="node1" class="node"><title>DtMc7hO</title>
+<!-- q6BzWBF -->
+<g id="node1" class="node"><title>q6BzWBF</title>
 <text text-anchor="middle" x="27" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Node</text>
 </g>
-<!-- DNHc7hO -->
-<g id="node2" class="node"><title>DNHc7hO</title>
+<!-- DmBzWBF -->
+<g id="node2" class="node"><title>DmBzWBF</title>
 <text text-anchor="middle" x="118.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">LocalNode</text>
 </g>
-<!-- DtMc7hO&#45;&gt;DNHc7hO -->
-<g id="edge1" class="edge"><title>DtMc7hO&#45;&gt;DNHc7hO</title>
+<!-- q6BzWBF&#45;&gt;DmBzWBF -->
+<g id="edge1" class="edge"><title>q6BzWBF&#45;&gt;DmBzWBF</title>
 <path fill="none" stroke="#69bfff" d="M54.3689,-18C63.8533,-18 74.6709,-18 84.6398,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="84.764,-19.7501 89.764,-18 84.764,-16.2501 84.764,-19.7501"/>
 </g>
