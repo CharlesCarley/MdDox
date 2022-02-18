@@ -204,6 +204,10 @@ namespace MdDox
          */
         void linkText(OStream& output, const String& title, const String& ref) override;
 
+		void linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title = "") override;
+
+    	void linkRef(OStream& output, int kind, const String& id, const String& title = "") override;
+
         /**
          * \copydoc MdDox::DocumentWriter::linkPage
          */

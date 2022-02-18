@@ -183,6 +183,13 @@
     <member refid="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" kind="function"><name>getValue</name></member>
     <member refid="classMdDox_1_1CommandLine_1_1Token_1abcd1c725a7b8dae7dd06462078ffd7e8" kind="function"><name>setType</name></member>
   </compound>
+  <compound refid="classMdDox_1_1CompoundReference" kind="class"><name>MdDox::CompoundReference</name>
+    <member refid="classMdDox_1_1CompoundReference_1a28315ba2ef71e7ee6764f0bf04782b9b" kind="variable"><name>_kind</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a1132cc530039092767fa0614fd8ef5ec" kind="function"><name>CompoundReference</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a01ef9f3882c69dffcf05f15f6a4f7cb3" kind="function"><name>~CompoundReference</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1ac6b6c8bcdd32060c1663d011e431e40d" kind="function"><name>getKind</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a83f1a3e75316ae7bc582c59a2c8d4276" kind="function"><name>setKind</name></member>
+  </compound>
   <compound refid="classMdDox_1_1Config" kind="class"><name>MdDox::Config</name>
     <member refid="classMdDox_1_1Config_1acc5eeb658b175462a0f3c6ff9b9c0276" kind="variable"><name>_attributes</name></member>
     <member refid="classMdDox_1_1Config_1aaefa179856ccf8997c4ee211a084b82b" kind="function"><name>next</name></member>
@@ -302,6 +309,8 @@
     <member refid="classMdDox_1_1DocumentWriter_1a8d7b5dbe4cec9f9e664bc50288f6347e" kind="function"><name>linkHeading</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97" kind="function"><name>linkPage</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1adeb3cc5d3b6269443f3be8df2728dae6" kind="function"><name>linkPageMember</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001" kind="function"><name>linkRef</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a84c0d322573c5713d6a178cebc2eea53" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a80c7fecb7cb782e43068e62f8b2828aa" kind="function"><name>listItem</name></member>
@@ -2258,6 +2267,8 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kind="function"><name>linkHeading</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kind="function"><name>linkPage</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" kind="function"><name>linkPageMember</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" kind="function"><name>linkRef</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" kind="function"><name>listItem</name></member>
@@ -2406,6 +2417,13 @@
     <member refid="classMdDox_1_1MemberDefWriter_1a17c15970163e326c7100bdaa539a65b6" kind="function"><name>visitedWrite</name></member>
     <member refid="classMdDox_1_1MemberDefWriter_1ae8b7ce08166fa56e68317607a0c8779d" kind="function"><name>MemberDefWriter</name></member>
     <member refid="classMdDox_1_1MemberDefWriter_1a63c4009c79aef6b9b5b0a83e9d1a394e" kind="function"><name>write</name></member>
+  </compound>
+  <compound refid="classMdDox_1_1MemberReference" kind="class"><name>MdDox::MemberReference</name>
+    <member refid="classMdDox_1_1MemberReference_1a6094a6a8e644a5567b700ede062558ed" kind="variable"><name>_kind</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a1c532b2f1cf8689df2c0a9c950f491f2" kind="function"><name>MemberReference</name></member>
+    <member refid="classMdDox_1_1MemberReference_1aa64115565d417aa32dfc7697b1e90abb" kind="function"><name>~MemberReference</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a22463d3ae05194a06cd03945a09a6795" kind="function"><name>getKind</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a98349bb66a93348ee0768f2702d48f37" kind="function"><name>setKind</name></member>
   </compound>
   <compound refid="unionMdDox_1_1Merge" kind="union"><name>MdDox::Merge</name>
     <member refid="unionMdDox_1_1Merge_1a9b71915964768f4d254bad795d80dbd5" kind="variable"><name>b</name></member>
@@ -2600,6 +2618,16 @@
     <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" kind="function"><name>setName</name></member>
     <member refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" kind="function"><name>setReference</name></member>
   </compound>
+  <compound refid="classMdDox_1_1ReferenceTable" kind="class"><name>MdDox::ReferenceTable</name>
+    <member refid="classMdDox_1_1ReferenceTable_1ae67375d270930dfda6849064d89d2aa4" kind="variable"><name>_compound</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1aac5dc876b37deca7417133b74bcdf7ce" kind="variable"><name>_members</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae56c4956965b4d72d9bee9c0c871a3f0" kind="function"><name>ReferenceTable</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae277547505cd01db0b4c064849d270cf" kind="function"><name>~ReferenceTable</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a663a4326e8e6eaa76b2faed0d0d4321e" kind="function"><name>getCompoundRef</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ada3aaba29f24b44954760968731232b3" kind="function"><name>getMemberRef</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" kind="function"><name>insertCompound</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae6b39d6e36163610120be728c8b688fe" kind="function"><name>insertMember</name></member>
+  </compound>
   <compound refid="classMdDox_1_1RepoFile" kind="class"><name>MdDox::RepoFile</name>
     <member refid="classMdDox_1_1RepoFile_1a91fd11a054ee33b3dd476de19fa0d56d" kind="variable"><name>_file</name></member>
     <member refid="classMdDox_1_1RepoFile_1a507e6b9d0a5199d4463a873fe47e5cd7" kind="function"><name>RepoFile</name></member>
@@ -2720,8 +2748,10 @@
     <member refid="classMdDox_1_1SiteBuilder_1a47ef3a2580edebdbf164ad303804d875" kind="variable"><name>_ids</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a464a3ebffe1750e12987f48573ad9f26" kind="variable"><name>_members</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae7630ab9f248e5b6844fb7bf53a96d9e" kind="variable"><name>_names</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1ad120a154e68709aa0510dfe961e8fd48" kind="variable"><name>_referenceMap</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" kind="variable"><name>backendType</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kind="variable"><name>fileUrl</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a3eb66ab9990a013541880ca607617775" kind="variable"><name>hideLocation</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kind="variable"><name>imageDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kind="variable"><name>indexName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" kind="variable"><name>inputDir</name></member>
@@ -2740,6 +2770,11 @@
     <member refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kind="function"><name>findMember</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" kind="function"><name>findName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kind="function"><name>findReference</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a6eaef2266419ab7676ad415c883efad8" kind="function"><name>getCompoundName</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a13d889c67d37360ce5c46f8596ac6fb0" kind="function"><name>getCompoundRef</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a0e191e2993aef67a4aac62a8f26dadc3" kind="function"><name>getMemberRef</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" kind="function"><name>insertCompound</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" kind="function"><name>insertMember</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" kind="function"><name>loadConfig</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" kind="function"><name>registerCompound</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" kind="function"><name>registerDot</name></member>
@@ -2956,11 +2991,13 @@
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" kind="enumvalue"><name>OptIndexFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" kind="enumvalue"><name>OptConfigFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" kind="enumvalue"><name>OpMax</name></member>
+    <member refid="namespaceMdDox_1af3cb33303f9d3f587026356b45addfea" kind="typedef"><name>CompoundReferenceMap</name></member>
     <member refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" kind="typedef"><name>Directory</name></member>
     <member refid="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" kind="typedef"><name>InputFileStream</name></member>
     <member refid="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" kind="typedef"><name>InputStringStream</name></member>
     <member refid="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" kind="typedef"><name>IntTable</name></member>
     <member refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" kind="typedef"><name>IStream</name></member>
+    <member refid="namespaceMdDox_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" kind="typedef"><name>MemberReferenceMap</name></member>
     <member refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kind="typedef"><name>OStream</name></member>
     <member refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kind="typedef"><name>OutputFileStream</name></member>
     <member refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kind="typedef"><name>OutputStringStream</name></member>
@@ -2991,6 +3028,7 @@
     <member refid="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" kind="function"><name>isLetter</name></member>
     <member refid="namespaceMdDox_1aace85994356ad90a0d76534a0bbccc9d" kind="function"><name>isNewLine</name></member>
     <member refid="namespaceMdDox_1ab988273a03d78c09f4ed6f85c3e2eb13" kind="function"><name>isWhiteSpace</name></member>
+    <member refid="namespaceMdDox_1af9ca83aee0455c653902504d5325f642" kind="function"><name>makeInternalPages</name></member>
     <member refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kind="function"><name>makeTypeFilter</name></member>
     <member refid="namespaceMdDox_1a636a4ffa437f2a2e436f83e76e2004c9" kind="function"><name>MapColor</name></member>
     <member refid="namespaceMdDox_1abd122e03fa98dad235318e99077dd20c" kind="function"><name>SetColor</name></member>
@@ -2998,12 +3036,11 @@
     <member refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kind="function"><name>StringCombine</name></member>
     <member refid="namespaceMdDox_1a7d54a855d1dfafa2f06b225dd346553f" kind="function"><name>StringCombine</name></member>
     <member refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kind="function"><name>syncStream</name></member>
-    <member refid="namespaceMdDox_1a112623d0a70175829922c2896a803852" kind="function"><name>writeDirectoryTitleBar</name></member>
-    <member refid="namespaceMdDox_1a7e05100838d79dba58e61d8fef9fc01f" kind="function"><name>writeDirectoryTitleBar</name></member>
+    <member refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" kind="function"><name>writeCommonNav</name></member>
+    <member refid="namespaceMdDox_1a6a044efa0d8ab36f057906e935bdf520" kind="function"><name>writeDirectoryTitleBar</name></member>
     <member refid="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" kind="function"><name>writeExternalIconLink</name></member>
-    <member refid="namespaceMdDox_1a49bab7aeddd0c92af286054a2f76ed3f" kind="function"><name>writeFilePath</name></member>
     <member refid="namespaceMdDox_1a7328335d7652fcbddccf5744f5b5c574" kind="function"><name>writeNamespaceTitleBar</name></member>
-    <member refid="namespaceMdDox_1ae499b565ea54f70247a7add01c6ac602" kind="function"><name>writeNamespaceTitleBar</name></member>
+    <member refid="namespaceMdDox_1a1360fa7e25d7a8245e4ba27c4086dade" kind="function"><name>writeNavigation</name></member>
     <member refid="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" kind="function"><name>writeReferenceIconLink</name></member>
     <member refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kind="function"><name>writeReferenceIconLinkHeading</name></member>
     <member refid="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" kind="function"><name>writeReferenceIconStub</name></member>
@@ -3674,6 +3711,14 @@
   <compound refid="ParameterWriter_8h" kind="file"><name>ParameterWriter.h</name>
   </compound>
   <compound refid="Reference_8h" kind="file"><name>Reference.h</name>
+  </compound>
+  <compound refid="ReferenceIdentifiers_8cpp" kind="file"><name>ReferenceIdentifiers.cpp</name>
+  </compound>
+  <compound refid="ReferenceIdentifiers_8h" kind="file"><name>ReferenceIdentifiers.h</name>
+  </compound>
+  <compound refid="ReferenceMaps_8cpp" kind="file"><name>ReferenceMaps.cpp</name>
+  </compound>
+  <compound refid="ReferenceMaps_8h" kind="file"><name>ReferenceMaps.h</name>
   </compound>
   <compound refid="RepoFile_8cpp" kind="file"><name>RepoFile.cpp</name>
   </compound>

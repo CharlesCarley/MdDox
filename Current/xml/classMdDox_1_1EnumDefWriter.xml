@@ -83,7 +83,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="124" bodyend="135"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="125" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a199f224d5a43fdfc54e25549a8ec84c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -109,7 +109,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="160" bodyend="168"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="161" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1ae341d38baefa10d295927f1d7eb38b64" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="54" bodyend="97"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="55" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a0d3c997e12c461c3665dc2ccd9b82c14" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="119" bodyend="122"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a89bb1b521992224352c4873d9fbe79f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -187,7 +187,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="114" bodyend="117"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="115" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1ac3206b99bbbc2765d4647e59e2cc9bc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -213,7 +213,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="170" bodyend="177"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="171" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a0b62c0fec35630521ddcff9c40b827f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -239,7 +239,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="146" bodyend="153"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="147" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a939f8a2d69c02e021fb97e1b88c79931" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="155" bodyend="158"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="156" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1aaebc8d7df45fc2bd813d4939c70d5521" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -291,7 +291,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="104" bodyend="107"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="105" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a1a3abd0d61fad6ed136dcd7fa399fa5d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -317,7 +317,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="99" bodyend="102"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a6480a1a81add2e1f7daef46dc3ff7634" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -343,7 +343,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="49" bodyend="52"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1ab3f751a7cb1e313d51c9a6e092909078" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -369,7 +369,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="44" bodyend="47"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a48d2135264f7efe09a079d7181c7c0fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -395,7 +395,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="109" bodyend="112"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="110" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1ac00ffb0c770b09f334787494c4311932" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -421,7 +421,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="137" bodyend="144"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="138" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1aea6f14b9142bb6bb4823449893b3badf" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -447,7 +447,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="179" bodyend="182"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="184" bodyend="187"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="37" bodyend="42"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="38" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="184" bodyend="208"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="189" bodyend="213"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" compoundref="DoxygenFilter_8h" startline="96">MdDox::Doxygen::DoxName</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" compoundref="DoxygenFilter_8h" startline="135">MdDox::Doxygen::DoxType</references>
@@ -499,7 +499,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="377" endline="384">MdDox::Doxygen::MemberDefQuery::getName</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="219" endline="230">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -507,26 +507,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="717">
+      <node id="724">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="716">
+      <node id="723">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="717" relation="public-inheritance">
+        <childnode refid="724" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="719">
+      <node id="726">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="718">
+      <node id="725">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="719" relation="public-inheritance">
+        <childnode refid="726" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

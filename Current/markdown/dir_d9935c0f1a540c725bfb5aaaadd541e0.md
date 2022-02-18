@@ -2,11 +2,11 @@
 <h1>MdDoxTree</h1>
 <a id="dir_d9935c0f1a540c725bfb5aaaadd541e0"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
-<a href="dir_74389ed8173ad57b461b9d623a1f3867.md#source">Source</a>
+<a href="dir_74389ed8173ad57b461b9d623a1f3867.md#">Source</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>MdDoxTree</b></span>
 <br/>
@@ -235,6 +235,22 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree//ReferenceIdentifiers.cpp#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.cpp</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree//ReferenceIdentifiers.h#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree//ReferenceMaps.cpp#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMaps.cpp</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree//ReferenceMaps.h#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMaps.h</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree//RepoFile.cpp#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
@@ -323,6 +339,18 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/dir_d9935c0f1a540c725bfb5aaaadd541e0.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">dir_d9935c0f1a540c725bfb5aaaadd541e0.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

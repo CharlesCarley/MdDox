@@ -53,7 +53,7 @@ namespace MdDox
 
     void DirectoryPageWriter::visitedCompoundName(const String& text)
     {
-        writeDirectoryTitleBar(_out, _writer, _internalDir, "/");
+        writeNavigation(_out, _writer, _internalDir, "/");
     }
 
     void DirectoryPageWriter::visitedInnerDir(const Doxygen::RefQuery& query)

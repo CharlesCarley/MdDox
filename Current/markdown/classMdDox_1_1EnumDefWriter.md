@@ -2,11 +2,11 @@
 <h1>EnumDefWriter</h1>
 <a id="classMdDox_1_1EnumDefWriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>EnumDefWriter</b></span>
 <br/>
@@ -17,7 +17,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/dot/internal-diagram-94.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-95.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_list" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_list</span>
@@ -197,7 +197,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -235,7 +235,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L160" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -273,7 +273,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -311,7 +311,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L119" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L120" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -349,7 +349,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L114" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -387,7 +387,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -425,7 +425,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L146" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -463,7 +463,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L156" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -501,7 +501,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L104" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L105" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -539,7 +539,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L99" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L100" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -577,7 +577,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -615,7 +615,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -653,7 +653,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -691,7 +691,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L137" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L138" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -729,7 +729,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L179" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -757,7 +757,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -831,11 +831,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/EnumDefWriter.cpp#L189" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1EnumDefWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1EnumDefWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

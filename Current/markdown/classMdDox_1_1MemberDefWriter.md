@@ -2,11 +2,11 @@
 <h1>MemberDefWriter</h1>
 <a id="classMdDox_1_1MemberDefWriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>MemberDefWriter</b></span>
 <br/>
@@ -17,7 +17,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/dot/internal-diagram-112.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-113.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
@@ -197,7 +197,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L94" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L95" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -235,7 +235,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L130" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -273,7 +273,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -311,7 +311,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L89" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L90" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -349,7 +349,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L82" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -387,7 +387,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L137" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L138" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -425,7 +425,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -463,7 +463,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L116" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L117" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -501,7 +501,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L72" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -539,7 +539,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L62" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -577,7 +577,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -615,7 +615,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -653,7 +653,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L77" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -691,7 +691,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L103" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L104" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -729,7 +729,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L143" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -757,7 +757,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -859,11 +859,23 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L148" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/MemberDefWriter.cpp#L152" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1MemberDefWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1MemberDefWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

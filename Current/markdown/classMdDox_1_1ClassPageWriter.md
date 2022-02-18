@@ -2,11 +2,11 @@
 <h1>ClassPageWriter</h1>
 <a id="classMdDox_1_1ClassPageWriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>ClassPageWriter</b></span>
 <br/>
@@ -185,7 +185,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L177" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L180" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -209,7 +209,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L174" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -233,7 +233,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L166" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L169" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -257,7 +257,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L187" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -941,7 +941,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L164" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -1017,7 +1017,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L156" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ClassPageWriter.cpp#L159" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -1070,6 +1070,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1ClassPageWriter.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1ClassPageWriter.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

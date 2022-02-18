@@ -2,10 +2,10 @@
 <h1>MdDox</h1>
 <a id="namespaceMdDox"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
+<span class="inline-text">/</span>
 <span class="bold-text"><b>MdDox</b></span>
 <br/>
 <br/>
@@ -13,15 +13,15 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="#namespaces">Namespaces</a>
+<li><a href="namespaceMdDox.md#namespaces">Namespaces</a>
 </li>
-<li><a href="#classes">Classes</a>
+<li><a href="namespaceMdDox.md#classes">Classes</a>
 </li>
-<li><a href="#enums">Enums</a>
+<li><a href="namespaceMdDox.md#enums">Enums</a>
 </li>
-<li><a href="#typedefs">Typedefs</a>
+<li><a href="namespaceMdDox.md#typedefs">Typedefs</a>
 </li>
-<li><a href="#variables">Variables</a>
+<li><a href="namespaceMdDox.md#variables">Variables</a>
 <br/>
 </ul>
 <a id="namespaces"></a>
@@ -81,6 +81,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1CompoundReference.md#compoundreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundReference</span>
 </a>
 </span>
 <br/>
@@ -200,6 +204,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="classMdDox_1_1MemberReference.md#memberreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberReference</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="unionMdDox_1_1Merge.md#merge" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Merge</span>
 </a>
 </span>
@@ -241,6 +249,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1Reference.md#reference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Reference</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1ReferenceTable.md#referencetable" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceTable</span>
 </a>
 </span>
 <br/>
@@ -320,6 +332,10 @@
 <br/>
 <a id="typedefs"></a>
 <h2>Typedefs</h2>
+<span class="icon-list-item"><a href="#compoundreferencemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundReferenceMap</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#directory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Directory</span>
 </a>
 </span>
@@ -337,6 +353,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#istream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IStream</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#memberreferencemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberReferenceMap</span>
 </a>
 </span>
 <br/>
@@ -400,8 +420,8 @@
 </a>
 </span>
 <br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
+<a id="variables"></a>
+<h2>Variables</h2>
 <span class="icon-list-item"><a href="#__gbackground" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">__gBackground</span>
 </a>
 </span>
@@ -434,8 +454,8 @@
 </a>
 </span>
 <br/>
-<a id="global-functions"></a>
-<h2>Global Functions</h2>
+<a id="functions"></a>
+<h2>Functions</h2>
 <span class="icon-list-item"><a href="#crtdump" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CrtDump</span>
 </a>
 </span>
@@ -461,6 +481,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#iswhitespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#makeinternalpages" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">makeInternalPages</span>
 </a>
 </span>
 <br/>
@@ -492,7 +516,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writedirectorytitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeDirectoryTitleBar</span>
+<span class="icon-list-item"><a href="#writecommonnav" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeCommonNav</span>
 </a>
 </span>
 <br/>
@@ -504,15 +528,11 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writefilepath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeFilePath</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#writenamespacetitlebar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeNamespaceTitleBar</span>
+<span class="icon-list-item"><a href="#writenavigation" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeNavigation</span>
 </a>
 </span>
 <br/>
@@ -548,7 +568,7 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
 <br/>
@@ -798,6 +818,22 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
+<a id="compoundreferencemap"></a>
+<h2>CompoundReferenceMap</h2>
+<span class="inline-text">std::map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1CompoundReference.md#compoundreference">CompoundReference</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>CompoundReferenceMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceMaps.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMaps.h</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="directory"></a>
 <h2>Directory</h2>
 <span class="inline-text">local_filesystem::directory_entry</span>
@@ -864,6 +900,22 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="memberreferencemap"></a>
+<h2>MemberReferenceMap</h2>
+<span class="inline-text">std::map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1MemberReference.md#memberreference">MemberReference</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>MemberReferenceMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceMaps.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceMaps.h</span>
 </a>
 </span>
 <br/>
@@ -967,7 +1019,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
 <br/>
@@ -1290,7 +1342,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L121" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L129" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -1399,6 +1451,41 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="makeinternalpages"></a>
+<h2>makeInternalPages</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>makeInternalPages</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1ReferenceTable.md#referencetable">ReferenceTable</a>
+<span class="inline-text"> *</span>
+<span class="inline-text">table</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Config.md#config">Config</a>
+<span class="inline-text"> *</span>
+<span class="inline-text">cfg</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Config.md#getvalue" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1ReferenceTable.md#insertcompound" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">insertCompound</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SiteBuilder.cpp#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -1568,15 +1655,15 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L219" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="writedirectorytitlebar"></a>
-<h2>writeDirectoryTitleBar</h2>
+<a id="writecommonnav"></a>
+<h2>writeCommonNav</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>writeDirectoryTitleBar</b></span>
+<span class="bold-text"><b>writeCommonNav</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
@@ -1588,31 +1675,38 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
 <span class="inline-text"> *</span>
 <span class="inline-text">writer</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Reference.md#reference">Reference</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">item</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">] const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">split</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Defines a navigation bar from a list of names that are separated with a path separator. </span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
 <br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#getcompoundname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getCompoundName</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+</a>
+</span>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1639,13 +1733,6 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a href="classMdDox_1_1Reference.md#reference">Reference</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">item</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">split</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
@@ -1663,31 +1750,15 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#writecommonnav" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeCommonNav</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkRef</span>
 </a>
 </span>
 <br/>
 <span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
 </a>
 </span>
 <br/>
@@ -1701,7 +1772,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L86" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L95" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1769,73 +1840,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L215" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="writefilepath"></a>
-<h2>writeFilePath</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>writeFilePath</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">out</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
-<span class="inline-text"> *</span>
-<span class="inline-text">writer</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">path</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="references"></a>
-<h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
-</a>
-</span>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L200" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -1886,15 +1891,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#siteurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">siteUrl</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+<span class="icon-list-item"><a href="namespaceMdDox.md#writecommonnav" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeCommonNav</span>
 </a>
 </span>
 <br/>
@@ -1906,7 +1903,11 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeError</span>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
 </a>
 </span>
 <br/>
@@ -1924,15 +1925,15 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<a id="writenamespacetitlebar"></a>
-<h2>writeNamespaceTitleBar</h2>
+<a id="writenavigation"></a>
+<h2>writeNavigation</h2>
 <span class="inline-text">void</span>
-<span class="bold-text"><b>writeNamespaceTitleBar</b></span>
+<span class="bold-text"><b>writeNavigation</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
@@ -1954,10 +1955,10 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 </div>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">] const </span>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text"> &amp;</span>
-<span class="inline-text">split</span>
+<span class="inline-text">sep</span>
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
@@ -1966,9 +1967,51 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="inline-text">Defines a navigation bar from a list of names that are separated with the binary resolution operator. </span>
 <br/>
 <br/>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getName</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox.md#writecommonnav" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeCommonNav</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#findreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findReference</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linkref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkRef</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#inlinetext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">inlineText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#boldtext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">boldText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L126" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -2048,7 +2091,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L185" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -2108,7 +2151,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L208" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
@@ -2168,11 +2211,23 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/WriteUtils.cpp#L211" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

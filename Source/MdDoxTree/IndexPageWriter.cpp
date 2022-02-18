@@ -100,11 +100,19 @@ namespace MdDox
                 break;
             }
 
+            SiteBuilder::get().insertCompound(query.getKind(),
+                                              query.getName(),
+                                              query.getRefId());
+
             SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getReference());
 
             query.foreachMember(
                 [compoundRef](const Doxygen::MemberIndexQuery& member)
                 {
+                    SiteBuilder::get().insertMember(member.getKind(),
+                                                    member.getName(),
+                                                    member.getRefId());
+
                     SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getReference());
                 });
         }
@@ -122,7 +130,7 @@ namespace MdDox
     {
         Console::writeLine("dispatchPage: ", page.getName());
 
-    	PathUtil path(indexDir);
+        PathUtil path(indexDir);
         path.fileName(StringCombine(page.getReference(), ".xml"));
 
         if (path.exists())
@@ -150,7 +158,7 @@ namespace MdDox
             dispatch<DirectoryPageWriter>(_writer, page, _indexDir, _outDir);
     }
 
-	String IndexPageWriter::makeFilename(const Reference& ref) const
+    String IndexPageWriter::makeFilename(const Reference& ref) const
     {
         return StringCombine(ref.getReference(),
                              SiteBuilder::get().outputFileExt,
@@ -166,15 +174,9 @@ namespace MdDox
         if (!out.is_open())
             throw InputException("Failed to open the supplied file path: ", name);
 
-        const SiteBuilder& builder = SiteBuilder::get();
+    	_writer->beginDocument(out, heading);
 
-        _writer->beginDocument(out, heading);
-
-        _writer->linkText(out, "~", builder.siteUrl);
-        _writer->linkPage(out, "Main", "indexpage");
-        _writer->inlineText(out, "/");
-        _writer->linkPage(out, "Contents", "index");
-        _writer->inlineText(out, "/");
+    	writeCommonNav(out, _writer);
         _writer->boldText(out, heading);
         _writer->lineBreak(out);
         _writer->lineBreak(out);
@@ -182,7 +184,7 @@ namespace MdDox
         _writer->beginSection(out, "Contents", 2);
         for (const Reference& page : list)
         {
-            _writer->embedContentLinkText(out, icon, makeFilename(page), LinkUtils::lastBinaryResolution(page.getName()));
+            _writer->linkRefIcon(out, icon, 0, page.getReference(), page.getName());
             _writer->lineBreak(out);
         }
         _writer->endSection(out);
@@ -196,6 +198,8 @@ namespace MdDox
         _outDir = outDir;
         _outDir.fileName(StringCombine("index", builder.outputFileExt));
 
+    	
+
         OutputFileStream out(_outDir.fullPath());
         if (out.is_open())
         {
@@ -207,9 +211,8 @@ namespace MdDox
 
             _writer->beginDocument(out, builder.projectTitle);
 
-            _writer->linkText(out, "~", builder.siteUrl);
-            _writer->linkPage(out, "Main", "indexpage");
-            _writer->inlineText(out, "/");
+        	writeCommonNav(out, _writer);
+        	
             _writer->boldText(out, "Contents");
 
             String file;

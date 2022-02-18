@@ -196,13 +196,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="669">
+      <node id="676">
         <label>MdDox::ParameterWriter</label>
         <link refid="classMdDox_1_1ParameterWriter"/>
-        <childnode refid="668" relation="public-inheritance">
+        <childnode refid="675" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="668">
+      <node id="675">
         <label>MdDox::Doxygen::Visitors::ParamQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor"/>
       </node>

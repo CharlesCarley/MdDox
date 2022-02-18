@@ -58,50 +58,50 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="792">
+      <node id="799">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="788" relation="public-inheritance">
+        <childnode refid="795" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="789">
+      <node id="796">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="788">
+      <node id="795">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="789" relation="public-inheritance">
+        <childnode refid="796" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="791">
+      <node id="798">
         <label>MdDox::GenApi::Complex</label>
         <link refid="classMdDox_1_1GenApi_1_1Complex"/>
-        <childnode refid="790" relation="public-inheritance">
+        <childnode refid="797" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="790">
+      <node id="797">
         <label>MdDox::GenApi::Group</label>
         <link refid="classMdDox_1_1GenApi_1_1Group"/>
-        <childnode refid="788" relation="public-inheritance">
+        <childnode refid="795" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="794">
+      <node id="801">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="793">
+      <node id="800">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="794" relation="public-inheritance">
+        <childnode refid="801" relation="public-inheritance">
         </childnode>
-        <childnode refid="795" relation="usage">
+        <childnode refid="802" relation="usage">
           <edgelabel>_name</edgelabel>
         </childnode>
       </node>
-      <node id="795">
+      <node id="802">
         <label>string</label>
       </node>
     </collaborationgraph>

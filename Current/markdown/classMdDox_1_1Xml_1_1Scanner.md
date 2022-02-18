@@ -2,13 +2,13 @@
 <h1>Scanner</h1>
 <a id="classMdDox_1_1Xml_1_1Scanner"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox_1_1Xml.md#xml">Xml</a>
+<a href="dir_19b9d1dd05713e515e11a6d5d9c80351.md#">Source/Xml</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Scanner</b></span>
 <br/>
@@ -19,7 +19,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/dot/internal-diagram-132.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-135.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_code" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_code</span>
@@ -289,6 +289,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1Xml_1_1Scanner.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Xml_1_1Scanner.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

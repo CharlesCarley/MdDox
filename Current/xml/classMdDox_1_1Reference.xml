@@ -2,9 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Reference" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Reference</compoundname>
+    <derivedcompoundref refid="classMdDox_1_1CompoundReference" prot="public" virt="non-virtual">MdDox::CompoundReference</derivedcompoundref>
+    <derivedcompoundref refid="classMdDox_1_1MemberReference" prot="public" virt="non-virtual">MdDox::MemberReference</derivedcompoundref>
     <includes local="no">Source/MdDoxTree/Reference.h</includes>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="private" static="no" mutable="no">
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::Reference::_name</definition>
         <argsstring></argsstring>
@@ -17,7 +19,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="33" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
         <definition>String MdDox::Reference::_ref</definition>
         <argsstring></argsstring>
@@ -70,6 +72,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="40" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="49" bodyend="52"/>
+        <references refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" compoundref="Reference_8h" startline="33">_name</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -83,6 +86,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="44" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="59" bodyend="62"/>
+        <references refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" compoundref="Reference_8h" startline="34">_ref</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -100,6 +104,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="42" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="54" bodyend="57"/>
+        <references refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" compoundref="Reference_8h" startline="33">_name</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -117,16 +122,48 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/Reference.h" line="46" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="64" bodyend="67"/>
+        <references refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" compoundref="Reference_8h" startline="34">_ref</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="959">
+        <label>MdDox::CompoundReference</label>
+        <link refid="classMdDox_1_1CompoundReference"/>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="958">
+        <label>MdDox::Reference</label>
+        <link refid="classMdDox_1_1Reference"/>
+      </node>
+      <node id="960">
+        <label>MdDox::MemberReference</label>
+        <link refid="classMdDox_1_1MemberReference"/>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="962">
+        <label>string</label>
+      </node>
+      <node id="961">
+        <label>MdDox::Reference</label>
+        <link refid="classMdDox_1_1Reference"/>
+        <childnode refid="962" relation="usage">
+          <edgelabel>_ref</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="Source/MdDoxTree/Reference.h" line="31" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="30" bodyend="47"/>
     <listofallmembers>
-      <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="private" virt="non-virtual"><scope>MdDox::Reference</scope><name>_name</name></member>
-      <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="private" virt="non-virtual"><scope>MdDox::Reference</scope><name>_ref</name></member>
+      <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="protected" virt="non-virtual"><scope>MdDox::Reference</scope><name>_name</name></member>
+      <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="protected" virt="non-virtual"><scope>MdDox::Reference</scope><name>_ref</name></member>
       <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" prot="public" virt="non-virtual"><scope>MdDox::Reference</scope><name>getName</name></member>
       <member refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" virt="non-virtual"><scope>MdDox::Reference</scope><name>getReference</name></member>
       <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" prot="public" virt="non-virtual"><scope>MdDox::Reference</scope><name>Reference</name></member>

@@ -57,6 +57,10 @@
     <innerfile refid="ParameterWriter_8cpp">ParameterWriter.cpp</innerfile>
     <innerfile refid="ParameterWriter_8h">ParameterWriter.h</innerfile>
     <innerfile refid="Reference_8h">Reference.h</innerfile>
+    <innerfile refid="ReferenceIdentifiers_8cpp">ReferenceIdentifiers.cpp</innerfile>
+    <innerfile refid="ReferenceIdentifiers_8h">ReferenceIdentifiers.h</innerfile>
+    <innerfile refid="ReferenceMaps_8cpp">ReferenceMaps.cpp</innerfile>
+    <innerfile refid="ReferenceMaps_8h">ReferenceMaps.h</innerfile>
     <innerfile refid="RepoFile_8cpp">RepoFile.cpp</innerfile>
     <innerfile refid="RepoFile_8h">RepoFile.h</innerfile>
     <innerfile refid="Section1Writer_8cpp">Section1Writer.cpp</innerfile>

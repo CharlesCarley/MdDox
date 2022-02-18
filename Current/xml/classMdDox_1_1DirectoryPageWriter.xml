@@ -656,73 +656,80 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="39">
+      <node id="45">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
-        <childnode refid="40" relation="public-inheritance">
+        <childnode refid="46" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="40">
+      <node id="46">
         <label>MdDox::PageWriter</label>
         <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="41" relation="public-inheritance">
+        <childnode refid="47" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="41">
+      <node id="47">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="46">
+      <node id="52">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="42">
+      <node id="48">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
-        <childnode refid="43" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="43">
-        <label>MdDox::PageWriter</label>
-        <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="44" relation="public-inheritance">
-        </childnode>
-        <childnode refid="45" relation="usage">
-          <edgelabel>_sections</edgelabel>
-        </childnode>
-        <childnode refid="46" relation="usage">
-          <edgelabel>_writer</edgelabel>
-        </childnode>
-        <childnode refid="47" relation="usage">
-          <edgelabel>_inDir</edgelabel>
-          <edgelabel>_outDir</edgelabel>
-        </childnode>
-        <childnode refid="48" relation="usage">
-          <edgelabel>_ref</edgelabel>
-        </childnode>
-        <childnode refid="49" relation="usage">
-          <edgelabel>_out</edgelabel>
+        <childnode refid="49" relation="public-inheritance">
         </childnode>
       </node>
       <node id="49">
+        <label>MdDox::PageWriter</label>
+        <link refid="classMdDox_1_1PageWriter"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>_sections</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>_writer</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>_inDir</edgelabel>
+          <edgelabel>_outDir</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>string</label>
+      </node>
+      <node id="56">
         <label>ofstream</label>
       </node>
-      <node id="44">
+      <node id="50">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="45">
+      <node id="51">
         <label>vector&lt; Node *&gt;</label>
       </node>
-      <node id="47">
+      <node id="53">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
-      <node id="48">
+      <node id="54">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
+        <childnode refid="55" relation="usage">
+          <edgelabel>_ref</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.h" bodystart="33" bodyend="89"/>

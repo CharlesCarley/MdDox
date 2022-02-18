@@ -96,11 +96,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDox/Main.cpp" line="168" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="168" bodyend="183"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" compoundref="SiteBuilder_8cpp" startline="85" endline="136">MdDox::SiteBuilder::loadConfig</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" compoundref="SiteBuilder_8h" startline="241">MdDox::SiteBuilder::backendType</references>
-        <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" compoundref="SiteBuilder_8h" startline="41">MdDox::BackendMarkdown</references>
-        <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" compoundref="SiteBuilder_8h" startline="37">MdDox::BackendHtml</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="57" endline="83">MdDox::SiteBuilder::buildFromXml</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" compoundref="SiteBuilder_8cpp" startline="108" endline="162">MdDox::SiteBuilder::loadConfig</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" compoundref="SiteBuilder_8h" startline="261">MdDox::SiteBuilder::backendType</references>
+        <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" compoundref="SiteBuilder_8h" startline="45">MdDox::BackendMarkdown</references>
+        <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" compoundref="SiteBuilder_8h" startline="41">MdDox::BackendHtml</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="60" endline="86">MdDox::SiteBuilder::buildFromXml</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Application_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">

@@ -20,7 +20,6 @@
 -------------------------------------------------------------------------------
 */
 #include "MdDoxTree/WriteUtils.h"
-#include "Doxygen/CompoundDefQuery.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/IconSet.h"
@@ -30,6 +29,19 @@
 
 namespace MdDox
 {
+    void writeCommonNav(OStream& out, DocumentWriter* writer)
+    {
+        const SiteBuilder& builder = SiteBuilder::get();
+
+        writer->linkText(out, "~", builder.siteUrl);
+        writer->linkRef(out, 0, "indexpage", builder.getCompoundName("indexpage"));
+        writer->inlineText(out, "/");
+        writer->linkRef(out, 0, "index", builder.getCompoundName("index"));
+        writer->inlineText(out, "/");
+    }
+
+    
+	
     void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item, const String& split)
     {
         StringDeque navList;
@@ -40,10 +52,7 @@ namespace MdDox
 
         const SiteBuilder& builder = SiteBuilder::get();
 
-        writer->linkText(out, "~", builder.siteUrl);
-        writer->linkPage(out, "Main", "indexpage");
-        writer->inlineText(out, "/");
-        writer->linkPage(out, "Index", "index");
+        writeCommonNav(out, writer);
         writer->inlineText(out, split);
 
         if (!navList.empty())
@@ -58,7 +67,7 @@ namespace MdDox
                 writer->inlineText(out, split);
             }
             else
-                Console::writeError("Error: unable to find the reference: ", localNamespace);
+                Console::writeLine("Error: unable to find the reference: ", localNamespace);
 
             while (!navList.empty())
             {
@@ -74,7 +83,7 @@ namespace MdDox
                     writer->inlineText(out, "::");
                 }
                 else
-                    Console::writeError("Error: unable to find the reference: ", localNamespace);
+                    Console::writeLine("Error: unable to find the reference: ", localNamespace);
             }
         }
 
@@ -83,105 +92,81 @@ namespace MdDox
         writer->lineBreak(out);
     }
 
-    void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item, const String& split)
+    void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
         StringDeque navList;
-        StringUtils::split(navList, item.getName(), split);
+        StringUtils::split(navList, item.getName(), "/");
 
         const String localName = navList.back();
         navList.pop_back();
 
         const SiteBuilder& builder = SiteBuilder::get();
 
-        writer->linkText(out, "~", builder.siteUrl);
-        writer->linkPage(out, "Main", "indexpage");
-        writer->inlineText(out, "/");
-        writer->linkPage(out, "Index", "index");
-        writer->inlineText(out, split);
+        writeCommonNav(out, writer);
 
         if (!navList.empty())
         {
-            String localNamespace = navList.front();
-            navList.pop_front();
+            writer->linkRef(out, 0, navList.front());
+            writer->inlineText(out, "/");
 
-            String ref = builder.findReference(localNamespace);
-            if (!ref.empty())
-            {
-                writer->linkPage(out, localNamespace, ref);
-                writer->inlineText(out, split);
-            }
-            else
-                Console::writeError("Error: unable to find the reference: ", localNamespace);
-
+        	navList.pop_front();
             while (!navList.empty())
             {
-                String subName = navList.front();
-
-                localNamespace = StringCombine("", localNamespace, split, subName);
-                navList.pop_front();
-
-                ref = builder.findReference(subName);
-                if (!ref.empty())
-                {
-                    writer->linkPage(out, subName, ref);
-                    writer->inlineText(out, split);
-                }
-                else
-                    Console::writeError("Error: unable to find the reference: ", localNamespace);
-            }
-        }
-
-        writer->boldText(out, localName);
-        writer->lineBreak(out);
-        writer->lineBreak(out);
-    }
-
-    void writeFilePath(OStream& out, DocumentWriter* writer, const String& path)
-    {
-        StringDeque navList;
-        StringUtils::split(navList, path, "/");
-
-        const String localName = navList.back();
-        navList.pop_back();
-
-        const SiteBuilder& builder = SiteBuilder::get();
-
-        if (!navList.empty())
-        {
-            String name = navList.front();
-            navList.pop_front();
-
-            String ref = builder.findReference(name);
-            if (!ref.empty())
-            {
-                writer->linkPage(out, name, ref);
+                writer->linkRef(out, 0, navList.front());
                 writer->inlineText(out, "/");
-            }
-            else
-                Console::writeError("Error: unable to find the reference: ", name);
-
-            while (!navList.empty())
-            {
-                String subName = navList.front();
-
-                name = StringCombine("", name, "/", subName);
                 navList.pop_front();
-
-                ref = builder.findReference(subName);
-                if (!ref.empty())
-                {
-                    writer->linkPage(out, subName, ref);
-                    writer->inlineText(out, "/");
-                }
-                else
-                    Console::writeError("Error: unable to find the reference: ", name);
             }
         }
 
-        writer->inlineText(out, localName);
+    	writer->boldText(out, localName);
+        writer->lineBreak(out);
         writer->lineBreak(out);
     }
 
+    void writeNavigation(OStream& out, DocumentWriter* writer, const Reference& item, const String& sep)
+    {
+        const SiteBuilder& builder = SiteBuilder::get();
+
+        StringDeque navList;
+        StringUtils::split(navList, item.getName(), sep);
+
+        const String localName = navList.back();
+        navList.pop_back();
+
+        String localNamespace;
+
+        if (!navList.empty())
+            localNamespace = navList.front();
+
+        writeCommonNav(out, writer);
+        while (!navList.empty())
+        {
+            String ref = builder.findReference(navList.front());
+            if (!ref.empty())
+            {
+                writer->linkRef(out, 0, ref);
+                writer->inlineText(out, sep);
+            }
+            else
+            {
+                ref = builder.findReference(localNamespace);
+                if (!ref.empty())
+                {
+                    writer->linkRef(out, 0, ref);
+                    writer->inlineText(out, sep);
+                }
+            }
+
+            StringCombine(localNamespace, sep, navList.front());
+            navList.pop_front();
+        }
+
+        writer->boldText(out, localName);
+        writer->lineBreak(out);
+        writer->lineBreak(out);
+    }
+
+    
     void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
         const String title = LinkUtils::lastBinaryResolution(ref.getName());

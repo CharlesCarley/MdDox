@@ -2,11 +2,11 @@
 <h1>GenApi</h1>
 <a id="namespaceMdDox_1_1GenApi"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>GenApi</b></span>
 <br/>
@@ -16,15 +16,15 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="#namespaces">Namespaces</a>
+<li><a href="namespaceMdDox_1_1GenApi.md#namespaces">Namespaces</a>
 </li>
-<li><a href="#classes">Classes</a>
+<li><a href="namespaceMdDox_1_1GenApi.md#classes">Classes</a>
 </li>
-<li><a href="#enums">Enums</a>
+<li><a href="namespaceMdDox_1_1GenApi.md#enums">Enums</a>
 </li>
-<li><a href="#typedefs">Typedefs</a>
+<li><a href="namespaceMdDox_1_1GenApi.md#typedefs">Typedefs</a>
 </li>
-<li><a href="#variables">Variables</a>
+<li><a href="namespaceMdDox_1_1GenApi.md#variables">Variables</a>
 <br/>
 </ul>
 <a id="details"></a>
@@ -216,8 +216,8 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
+<a id="variables"></a>
+<h2>Variables</h2>
 <span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
 </a>
 </span>
@@ -457,6 +457,18 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1GenApi.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1GenApi.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

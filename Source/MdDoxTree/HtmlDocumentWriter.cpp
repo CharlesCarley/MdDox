@@ -26,6 +26,7 @@
 #include "MdDoxTree/IconSet.h"
 #include "MdDoxTree/ParagraphWriter.h"
 #include "MdDoxTree/SiteBuilder.h"
+#include "ReferenceIdentifiers.h"
 
 namespace MdDox
 {
@@ -317,6 +318,71 @@ namespace MdDox
     void HtmlDocumentWriter::linkText(OStream& output, const String& title, const String& href)
     {
         Html::linkRef(output, title, href);
+    }
+
+    void HtmlDocumentWriter::linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title)
+    {
+        Html::embedContent(output, IconSet::fileName(ico));
+        linkRef(output, kind, id, title);
+    }
+
+    void HtmlDocumentWriter::linkRef(OStream& output, int kind, const String& id, const String& title)
+    {
+        const SiteBuilder& builder = SiteBuilder::get();
+
+        String heading = HashUtils::heading(title);
+
+        if (kind == 0)  // compound
+        {
+            CompoundReference* ref = builder.getCompoundRef(id);
+            if (ref)
+            {
+                Html::linkRef(output,
+                              title.empty() ? ref->getName() : title,
+                              StringCombine(ref->getReference(), builder.outputFileExt, heading));
+            }
+            else
+            {
+                Html::boldText(output, title.empty() ? "(empty title)" : title);
+            }
+        }
+        else
+        {
+            CompoundReference* pref;
+            const size_t       pos = id.find_last_of('_');
+            if (pos != String::npos)
+                pref = builder.getCompoundRef(id.substr(0, pos));
+            else
+                pref = builder.getCompoundRef(id);
+
+            // member
+            MemberReference* ref = builder.getMemberRef(id);
+            if (ref)
+            {
+                if (pref)
+                {
+                    Html::linkRef(output,
+                                  title.empty() ? ref->getName() : title,
+                                  StringCombine(pref->getReference(), builder.outputFileExt, heading));
+                }
+                else
+                {
+                    Html::linkRef(output,
+                                  title.empty() ? ref->getName() : title,
+                                  heading);
+                }
+            }
+            else if (pref)
+            {
+                Html::linkRef(output,
+                              title.empty() ? pref->getName() : title,
+                              StringCombine(pref->getReference(), builder.outputFileExt, heading));
+            }
+            else
+            {
+                Html::boldText(output, title.empty() ? "(empty title)" : title);
+            }
+        }
     }
 
     void HtmlDocumentWriter::linkPage(OStream& output, const String& title, const String& ref)

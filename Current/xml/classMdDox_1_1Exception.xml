@@ -107,30 +107,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="721">
+      <node id="728">
         <label>std::exception</label>
       </node>
-      <node id="720">
+      <node id="727">
         <label>MdDox::Exception</label>
         <link refid="classMdDox_1_1Exception"/>
-        <childnode refid="721" relation="public-inheritance">
+        <childnode refid="728" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="722">
+      <node id="729">
         <label>MdDox::ParseError</label>
         <link refid="classMdDox_1_1ParseError"/>
-        <childnode refid="720" relation="public-inheritance">
+        <childnode refid="727" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="724">
+      <node id="731">
         <label>std::exception</label>
       </node>
-      <node id="723">
+      <node id="730">
         <label>MdDox::Exception</label>
         <link refid="classMdDox_1_1Exception"/>
-        <childnode refid="724" relation="public-inheritance">
+        <childnode refid="731" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

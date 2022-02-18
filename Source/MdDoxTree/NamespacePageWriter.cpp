@@ -20,13 +20,12 @@
 -------------------------------------------------------------------------------
 */
 #include "NamespacePageWriter.h"
-
-#include "LocationWriter.h"
 #include "Doxygen/DescriptionQuery.h"
 #include "Doxygen/DoxSectionKind.h"
 #include "Doxygen/IncQuery.h"
 #include "Doxygen/RefQuery.h"
 #include "Doxygen/SectionDefQuery.h"
+#include "LocationWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/Link.h"
 #include "MdDoxTree/Reference.h"
@@ -126,7 +125,7 @@ namespace MdDox
 
     void NamespacePageWriter::visitedCompoundName(const String& text)
     {
-        writeNamespaceTitleBar(_out, _writer, _ref, "::");
+        writeNavigation(_out, _writer, _ref, "::");
     }
 
     void NamespacePageWriter::visitedInnerClass(const Doxygen::RefQuery& query)
@@ -211,8 +210,11 @@ namespace MdDox
 
     void NamespacePageWriter::visitedLocation(const Doxygen::LocationQuery& query)
     {
-        LocationWriter lw(_writer, &_out);
-        lw.write(query);
+        if (!SiteBuilder::get().hideLocation)
+        {
+            LocationWriter lw(_writer, &_out);
+            lw.write(query);
+        }
     }
 
     void NamespacePageWriter::visitedListOfAllMembers(const Doxygen::ListOfAllMembersQuery& query)
@@ -250,7 +252,7 @@ namespace MdDox
         WRITE_STUB(_writer, _out);
     }
 
-	void NamespacePageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
+    void NamespacePageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
     {
         writeTableOfContents(query.node()->parent());
     }
@@ -260,11 +262,13 @@ namespace MdDox
         _writer->addSection(_out, "Details", 2);
     }
 
-
     void NamespacePageWriter::writeTableOfContents(Xml::Node* compoundDef)
     {
         const Doxygen::CompoundDefQuery cdq(compoundDef);
+    	const String &id = cdq.getId();
+    	
 
+    	
         TableOfContents contents;
         cdq.visit(&contents);
         if (contents.hasAny())
@@ -275,46 +279,45 @@ namespace MdDox
             if (contents.hasNamespaces)
             {
                 _writer->beginListItem(_out);
-                _writer->linkHeading(_out, "Namespaces", "#namespaces");
+                _writer->linkRef(_out, 0, id, "Namespaces");
                 _writer->endListItem(_out);
             }
             if (contents.hasClasses)
             {
                 _writer->beginListItem(_out);
-                _writer->linkHeading(_out, "Classes", "#classes");
+                _writer->linkRef(_out, 0, id, "Classes");
                 _writer->endListItem(_out);
             }
 
             if (contents.hasEnums)
             {
                 _writer->beginListItem(_out);
-                _writer->linkHeading(_out, "Enums", "#enums");
+                _writer->linkRef(_out, 0, id, "Enums");
                 _writer->endListItem(_out);
             }
 
             if (contents.hasTypes)
             {
                 _writer->beginListItem(_out);
-                _writer->linkHeading(_out, "Typedefs", "#typedefs");
+                _writer->linkRef(_out, 0, id, "Typedefs");
                 _writer->endListItem(_out);
             }
 
             if (contents.hasVariables)
             {
                 _writer->beginListItem(_out);
-                _writer->linkHeading(_out, "Variables", "#variables");
+                _writer->linkRef(_out, 0, id, "Variables");
                 _writer->lineBreak(_out);
             }
 
             _writer->endList(_out);
             _writer->endSection(_out);
-        	
         }
     }
 
     void NamespacePageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {
-        int i = 0;
+        int              i = 0;
         Doxygen::SortMap map;
         map[Doxygen::DoxCompoundName]        = i++;
         map[Doxygen::DoxBriefDescription]    = i++;

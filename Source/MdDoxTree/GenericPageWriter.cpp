@@ -38,13 +38,7 @@ namespace MdDox
 
     void GenericPageWriter::visitedCompoundName(const String& text)
     {
-        const SiteBuilder& builder = SiteBuilder::get();
-
-        _writer->linkText(_out, "~", builder.siteUrl);
-        _writer->linkPage(_out, "Main", "indexpage");
-        _writer->inlineText(_out, "/");
-        _writer->linkPage(_out, "Index", "index");
-        _writer->inlineText(_out, "/");
+    	writeCommonNav(_out, _writer);
         _writer->boldText(_out, text);
         _writer->lineBreak(_out);
         _writer->lineBreak(_out);

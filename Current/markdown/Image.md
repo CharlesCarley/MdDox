@@ -2,7 +2,7 @@
 <h1>Image handling</h1>
 <a id="Image"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
@@ -32,13 +32,25 @@
 <span class="inline-text">The static class </span>
 <a href="classMdDox_1_1IconSet.md#mddoxiconset">MdDox::IconSet</a>
 <span class="inline-text"> maps the enum </span>
-<a href="#mddoxiconid">MdDox::IconId</a>
+<a href="namespaceMdDox.md#mddoxiconid">MdDox::IconId</a>
 <span class="inline-text"> to the following files to use specific icons internally.</span>
 <a id="Image_1Sources"></a>
 <a id="sources"></a>
 <h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
 <a href="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</a>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/Image.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">Image.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

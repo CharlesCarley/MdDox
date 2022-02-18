@@ -4,10 +4,15 @@
     <compoundname>SiteBuilder.h</compoundname>
     <includes local="no">unordered_map</includes>
     <includes refid="Config_8h" local="yes">Config.h</includes>
+    <includes refid="ReferenceIdentifiers_8h" local="yes">ReferenceIdentifiers.h</includes>
+    <includes refid="DoxCompoundKind_8h" local="yes">Doxygen/DoxCompoundKind.h</includes>
+    <includes refid="DoxMemberKind_8h" local="yes">Doxygen/DoxMemberKind.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="Source_2MdDox_2Main_8cpp" local="yes">Source/MdDox/Main.cpp</includedby>
     <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
     <includedby refid="GenericPageWriter_8cpp" local="yes">Source/MdDoxTree/GenericPageWriter.cpp</includedby>
     <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <includedby refid="HtmlCommandWriter_8cpp" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
@@ -15,6 +20,7 @@
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="Link_8cpp" local="yes">Source/MdDoxTree/Link.cpp</includedby>
     <includedby refid="MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
     <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
     <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
@@ -22,157 +28,242 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="2160">
+      <node id="2357">
+        <label>Utils/Console.h</label>
+        <childnode refid="2341" relation="include">
+        </childnode>
+      </node>
+      <node id="2349">
         <label>functional</label>
       </node>
-      <node id="2158">
+      <node id="2347">
         <label>iomanip</label>
       </node>
-      <node id="2156">
+      <node id="2353">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2354" relation="include">
+        </childnode>
+        <childnode refid="2355" relation="include">
+        </childnode>
+        <childnode refid="2356" relation="include">
+        </childnode>
+        <childnode refid="2357" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+      </node>
+      <node id="2355">
+        <label>stdexcept</label>
+      </node>
+      <node id="2345">
         <label>string</label>
       </node>
-      <node id="2154">
+      <node id="2352">
+        <label>Doxygen.h</label>
+        <childnode refid="2349" relation="include">
+        </childnode>
+        <childnode refid="2339" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+        <childnode refid="2353" relation="include">
+        </childnode>
+      </node>
+      <node id="2354">
+        <label>exception</label>
+      </node>
+      <node id="2343">
         <label>fstream</label>
       </node>
-      <node id="2149">
+      <node id="2338">
         <label>Source/MdDoxTree/SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="2150" relation="include">
+        <childnode refid="2339" relation="include">
         </childnode>
-        <childnode refid="2151" relation="include">
+        <childnode refid="2340" relation="include">
         </childnode>
-        <childnode refid="2152" relation="include">
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2351" relation="include">
+        </childnode>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
         </childnode>
       </node>
-      <node id="2159">
+      <node id="2348">
         <label>Xml/Node.h</label>
-        <childnode refid="2160" relation="include">
+        <childnode refid="2349" relation="include">
         </childnode>
-        <childnode refid="2150" relation="include">
+        <childnode refid="2339" relation="include">
         </childnode>
-        <childnode refid="2152" relation="include">
+        <childnode refid="2341" relation="include">
         </childnode>
       </node>
-      <node id="2152">
+      <node id="2358">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="2352" relation="include">
+        </childnode>
+      </node>
+      <node id="2350">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="2351" relation="include">
+        </childnode>
+        <childnode refid="2358" relation="include">
+        </childnode>
+        <childnode refid="2359" relation="include">
+        </childnode>
+      </node>
+      <node id="2341">
         <label>Utils/String.h</label>
-        <childnode refid="2153" relation="include">
+        <childnode refid="2342" relation="include">
         </childnode>
-        <childnode refid="2154" relation="include">
+        <childnode refid="2343" relation="include">
         </childnode>
-        <childnode refid="2155" relation="include">
+        <childnode refid="2344" relation="include">
         </childnode>
-        <childnode refid="2156" relation="include">
+        <childnode refid="2345" relation="include">
         </childnode>
-        <childnode refid="2150" relation="include">
+        <childnode refid="2339" relation="include">
         </childnode>
-        <childnode refid="2157" relation="include">
+        <childnode refid="2346" relation="include">
         </childnode>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2347" relation="include">
         </childnode>
       </node>
-      <node id="2157">
+      <node id="2346">
         <label>vector</label>
       </node>
-      <node id="2155">
+      <node id="2356">
+        <label>utility</label>
+      </node>
+      <node id="2344">
         <label>sstream</label>
       </node>
-      <node id="2153">
+      <node id="2342">
         <label>deque</label>
       </node>
-      <node id="2150">
+      <node id="2339">
         <label>unordered_map</label>
       </node>
-      <node id="2151">
-        <label>Config.h</label>
-        <childnode refid="2152" relation="include">
+      <node id="2351">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="2352" relation="include">
         </childnode>
-        <childnode refid="2159" relation="include">
+      </node>
+      <node id="2340">
+        <label>Config.h</label>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+      </node>
+      <node id="2359">
+        <label>Reference.h</label>
+        <childnode refid="2341" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2175">
+      <node id="2377">
         <label>Source/MdDoxTree/RepoFile.cpp</label>
       </node>
-      <node id="2165">
+      <node id="2373">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="2366">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="2177">
+      <node id="2379">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="2166">
+      <node id="2367">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="2161">
+      <node id="2360">
         <label>Source/MdDoxTree/SiteBuilder.h</label>
         <link refid="SiteBuilder_8h"/>
-        <childnode refid="2162" relation="include">
+        <childnode refid="2361" relation="include">
         </childnode>
-        <childnode refid="2163" relation="include">
+        <childnode refid="2362" relation="include">
         </childnode>
-        <childnode refid="2164" relation="include">
+        <childnode refid="2363" relation="include">
         </childnode>
-        <childnode refid="2165" relation="include">
+        <childnode refid="2364" relation="include">
         </childnode>
-        <childnode refid="2166" relation="include">
+        <childnode refid="2365" relation="include">
         </childnode>
-        <childnode refid="2167" relation="include">
+        <childnode refid="2366" relation="include">
         </childnode>
-        <childnode refid="2168" relation="include">
+        <childnode refid="2367" relation="include">
         </childnode>
-        <childnode refid="2169" relation="include">
+        <childnode refid="2368" relation="include">
         </childnode>
-        <childnode refid="2170" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
-        <childnode refid="2171" relation="include">
+        <childnode refid="2370" relation="include">
         </childnode>
-        <childnode refid="2172" relation="include">
+        <childnode refid="2371" relation="include">
         </childnode>
-        <childnode refid="2173" relation="include">
+        <childnode refid="2372" relation="include">
         </childnode>
-        <childnode refid="2174" relation="include">
+        <childnode refid="2373" relation="include">
         </childnode>
-        <childnode refid="2175" relation="include">
+        <childnode refid="2374" relation="include">
         </childnode>
-        <childnode refid="2176" relation="include">
+        <childnode refid="2375" relation="include">
         </childnode>
-        <childnode refid="2177" relation="include">
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
         </childnode>
       </node>
-      <node id="2167">
+      <node id="2368">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="2172">
+      <node id="2364">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="2374">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="2173">
+      <node id="2375">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="2168">
+      <node id="2365">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="2369">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="2163">
+      <node id="2362">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="2176">
+      <node id="2378">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="2171">
+      <node id="2372">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="2174">
+      <node id="2376">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="2162">
+      <node id="2361">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="2170">
+      <node id="2371">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="2164">
+      <node id="2363">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="2169">
+      <node id="2370">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
@@ -207,88 +298,103 @@
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Page;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" kindref="member">BackendWriter</ref></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="37" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" kindref="member" tooltip="Use MdDox::HtmlDocumentWriter to output documents. ">BackendHtml</ref>,</highlight></codeline>
-<codeline lineno="41" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" kindref="member" tooltip="Use MdDox::MarkdownDocumentWriter to output documents. ">BackendMarkdown</ref>,</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/>=<sp/>std::unordered_map&lt;String,<sp/>String&gt;;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="classMdDox_1_1SiteBuilder" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>*<sp/><sp/>_singleton;</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/>_ids;</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/>_names;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/>_members;</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><sp/>_dotFiles;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Config" kindref="compound" tooltip="Defines a basic key value parser. ">Config</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dot;</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dispatchDot()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a0c1d126ac04e7e35f69dcc81893cfd8e" kindref="member">SiteBuilder</ref>();</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a5c1bf4f95177cc6b9221d579cc79555a" kindref="member">~SiteBuilder</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReferenceIdentifiers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxCompoundKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxMemberKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ReferenceTable;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Page;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" kindref="member">BackendWriter</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" kindref="member" tooltip="Use MdDox::HtmlDocumentWriter to output documents. ">BackendHtml</ref>,</highlight></codeline>
+<codeline lineno="45" refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" kindref="member" tooltip="Use MdDox::MarkdownDocumentWriter to output documents. ">BackendMarkdown</ref>,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/>=<sp/>std::unordered_map&lt;String,<sp/>String&gt;;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classMdDox_1_1SiteBuilder" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>*<sp/><sp/><sp/>_singleton;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/><sp/>_ids;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/><sp/>_names;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kindref="member" tooltip="Container that is used to map a reference id attribute to a name. ">ReferenceMap</ref><sp/><sp/>_members;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><sp/><sp/>_dotFiles;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Config" kindref="compound" tooltip="Defines a basic key value parser. ">Config</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dot;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ReferenceTable" kindref="compound">ReferenceTable</ref>*<sp/>_referenceMap;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dispatchDot()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" kindref="member" tooltip="Builds the supplied file. ">buildFromXml</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>fileName)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" kindref="member" tooltip="Attempts to load the supplied config file. ">loadConfig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>configFile);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" kindref="member" tooltip="Register a name that can be linked to a reference. ">registerCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a0c1d126ac04e7e35f69dcc81893cfd8e" kindref="member">SiteBuilder</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a5c1bf4f95177cc6b9221d579cc79555a" kindref="member">~SiteBuilder</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" kindref="member" tooltip="Builds the supplied file. ">buildFromXml</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>fileName)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" kindref="member" tooltip="Attempts to load the supplied config file. ">loadConfig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>configFile);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" kindref="member">insertCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1CompoundReference" kindref="compound">CompoundReference</ref>*<sp/><ref refid="classMdDox_1_1SiteBuilder_1a13d889c67d37360ce5c46f8596ac6fb0" kindref="member">getCompoundRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" kindref="member" tooltip="Enables a member reference to be bound to a compound reference. ">registerMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>member,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>compound)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a6eaef2266419ab7676ad415c883efad8" kindref="member">getCompoundName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" kindref="member">insertMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1MemberReference" kindref="compound">MemberReference</ref>*<sp/><ref refid="classMdDox_1_1SiteBuilder_1a0e191e2993aef67a4aac62a8f26dadc3" kindref="member">getMemberRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kindref="member">findReference</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" kindref="member">findName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kindref="member">findMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" kindref="member">registerDot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">();</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kindref="member" tooltip="Defines a title for the current project. ">projectTitle</ref>;</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" kindref="member" tooltip="Defines a brief description for the current project. ">projectBrief</ref>;</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="181" refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kindref="member" tooltip="Defines the image lookup directory. ">imageDir</ref>;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" kindref="member" tooltip="Defines the input xml directory. ">inputDir</ref>;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" kindref="member" tooltip="Defines the output directory for pages. ">outputDir</ref>;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" kindref="member" tooltip="Defines the GitHub project URL. ">siteUrl</ref>;</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>;</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" kindref="member" tooltip="Defines the MdDox::HtmlDocumentWriter style sheet. ">styleSheet</ref>;</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" kindref="member" tooltip="Enables or disables links to the input source file for the current page. ">showDebug</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" kindref="member">BackendWriter</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" kindref="member" tooltip="Defines the backend writer. ">backendType</ref>{<ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" kindref="member" tooltip="Use MdDox::MarkdownDocumentWriter to output documents. ">BackendMarkdown</ref>};</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" kindref="member">searchDirs</ref>;</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kindref="member">indexName</ref>;</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" kindref="member" tooltip="Register a name that can be linked to a reference. ">registerCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" kindref="member" tooltip="Enables a member reference to be bound to a compound reference. ">registerMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>member,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>compound)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[deprecated]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kindref="member">findReference</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[deprecated]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" kindref="member">findName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[deprecated]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kindref="member">findMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>defaultValue<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" kindref="member">registerDot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="180" refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kindref="member" tooltip="Defines a title for the current project. ">projectTitle</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" kindref="member" tooltip="Defines a brief description for the current project. ">projectBrief</ref>;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kindref="member" tooltip="Defines the image lookup directory. ">imageDir</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ae9fbcaefcc63c066b3f84f56c7208783" kindref="member" tooltip="Defines the input xml directory. ">inputDir</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" kindref="member" tooltip="Defines the output directory for pages. ">outputDir</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ac4ab5f42eb5e5594c45f9f13d450571d" kindref="member" tooltip="Defines the GitHub project URL. ">siteUrl</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a4ddd9a33cbfeb3ea2e2d48a913a28aba" kindref="member" tooltip="Defines the MdDox::HtmlDocumentWriter style sheet. ">styleSheet</ref>;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" kindref="member" tooltip="Enables or disables links to the XML input source file for the current page. ">showDebug</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="classMdDox_1_1SiteBuilder_1a3eb66ab9990a013541880ca607617775" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder_1a3eb66ab9990a013541880ca607617775" kindref="member" tooltip="Enables or disables location links to the source. ">hideLocation</ref>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bff" kindref="member">BackendWriter</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" kindref="member" tooltip="Defines the backend writer. ">backendType</ref>{<ref refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" kindref="member" tooltip="Use MdDox::MarkdownDocumentWriter to output documents. ">BackendMarkdown</ref>};</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a1ff799cd0a61b81cb5468256f6939904" kindref="member">searchDirs</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1SiteBuilder_1a0e312da061f509cf86de0a1ba68b265b" kindref="member">indexName</ref>;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/SiteBuilder.h"/>
   </compounddef>

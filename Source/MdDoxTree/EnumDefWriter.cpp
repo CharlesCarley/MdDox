@@ -29,6 +29,7 @@
 #include "FunctionDefWriter.h"
 #include "LinkedTextWriter.h"
 #include "LocationWriter.h"
+#include "SiteBuilder.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "WriteUtils.h"
 
@@ -169,11 +170,15 @@ namespace MdDox
 
     void EnumDefWriter::visitedLocation(const Doxygen::LocationQuery& query)
     {
-        if (!_list)
+        if (!SiteBuilder::get().hideLocation)
         {
-            LocationWriter obj(_writer, &_out);
-            obj.write(query);
+            if (!_list)
+            {
+                LocationWriter obj(_writer, &_out);
+                obj.write(query);
+            }
         }
+
     }
 
     void EnumDefWriter::visitedWrite(const String& text)

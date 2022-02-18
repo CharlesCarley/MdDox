@@ -32,6 +32,7 @@
 #include "LinkedTextWriter.h"
 #include "LocationWriter.h"
 #include "ParameterWriter.h"
+#include "SiteBuilder.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "WriteUtils.h"
 
@@ -136,8 +137,11 @@ namespace MdDox
 
     void MemberDefWriter::visitedLocation(const Doxygen::LocationQuery& query)
     {
-        LocationWriter lw(_writer, &_out);
-        lw.write(query);
+        if (!SiteBuilder::get().hideLocation)
+        {
+            LocationWriter lw(_writer, &_out);
+            lw.write(query);
+        }
     }
 
     void MemberDefWriter::visitedWrite(const String& text)

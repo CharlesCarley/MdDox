@@ -12,129 +12,299 @@
     <includes refid="FunctionDefWriter_8h" local="yes">FunctionDefWriter.h</includes>
     <includes refid="LinkedTextWriter_8h" local="yes">LinkedTextWriter.h</includes>
     <includes refid="LocationWriter_8h" local="yes">LocationWriter.h</includes>
+    <includes refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="496">
+      <node id="508">
         <label>FunctionDefWriter.h</label>
-        <childnode refid="462" relation="include">
+        <childnode refid="474" relation="include">
         </childnode>
-        <childnode refid="485" relation="include">
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="496">
+        <label>DoxAccessor.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="490">
+        <label>Utils/Console.h</label>
+        <childnode refid="478" relation="include">
         </childnode>
       </node>
       <node id="484">
-        <label>DoxAccessor.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="478">
-        <label>Utils/Console.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="472">
         <label>iomanip</label>
       </node>
-      <node id="464">
+      <node id="476">
         <label>functional</label>
       </node>
-      <node id="483">
+      <node id="495">
         <label>DoxRefQualifierKind.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="485">
-        <label>Utils/Path.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="502">
-        <label>cstdint</label>
-      </node>
-      <node id="474">
-        <label>Utils/Exception.h</label>
         <childnode refid="475" relation="include">
         </childnode>
+      </node>
+      <node id="497">
+        <label>Utils/Path.h</label>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>cstdint</label>
+      </node>
+      <node id="486">
+        <label>Utils/Exception.h</label>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="499">
+        <label>Doxygen/DescriptionQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="507">
+        <label>Doxygen/ReferenceQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>stdexcept</label>
+      </node>
+      <node id="482">
+        <label>string</label>
+      </node>
+      <node id="475">
+        <label>Doxygen.h</label>
         <childnode refid="476" relation="include">
         </childnode>
         <childnode refid="477" relation="include">
         </childnode>
         <childnode refid="478" relation="include">
         </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="487">
-        <label>Doxygen/DescriptionQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="495">
-        <label>Doxygen/ReferenceQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="476">
-        <label>stdexcept</label>
-      </node>
-      <node id="470">
-        <label>string</label>
-      </node>
-      <node id="463">
-        <label>Doxygen.h</label>
-        <childnode refid="464" relation="include">
-        </childnode>
-        <childnode refid="465" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-        <childnode refid="473" relation="include">
-        </childnode>
-        <childnode refid="474" relation="include">
-        </childnode>
-      </node>
-      <node id="475">
-        <label>exception</label>
-      </node>
-      <node id="468">
-        <label>fstream</label>
-      </node>
-      <node id="498">
-        <label>LocationWriter.h</label>
-        <childnode refid="499" relation="include">
-        </childnode>
-      </node>
-      <node id="489">
-        <label>IconSet.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="473">
-        <label>Xml/Node.h</label>
-        <childnode refid="464" relation="include">
-        </childnode>
-        <childnode refid="465" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="488">
-        <label>DocumentWriter.h</label>
-        <childnode refid="489" relation="include">
-        </childnode>
-        <childnode refid="490" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="460">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
-        <link refid="EnumDefWriter_8cpp"/>
-        <childnode refid="461" relation="include">
+        <childnode refid="485" relation="include">
         </childnode>
         <childnode refid="486" relation="include">
         </childnode>
-        <childnode refid="488" relation="include">
+      </node>
+      <node id="487">
+        <label>exception</label>
+      </node>
+      <node id="480">
+        <label>fstream</label>
+      </node>
+      <node id="512">
+        <label>SiteBuilder.h</label>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="513" relation="include">
+        </childnode>
+        <childnode refid="514" relation="include">
+        </childnode>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>LocationWriter.h</label>
+        <childnode refid="511" relation="include">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>IconSet.h</label>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="485">
+        <label>Xml/Node.h</label>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>DocumentWriter.h</label>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <link refid="EnumDefWriter_8cpp"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="500" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="512" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>LinkedTextWriter.h</label>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="514">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>Utils/String.h</label>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="483" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+      </node>
+      <node id="511">
+        <label>Doxygen/LocationQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>DescriptionWriter.h</label>
+        <childnode refid="499" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="483">
+        <label>vector</label>
+      </node>
+      <node id="489">
+        <label>utility</label>
+      </node>
+      <node id="481">
+        <label>sstream</label>
+      </node>
+      <node id="520">
+        <label>WriteUtils.h</label>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="518" relation="include">
+        </childnode>
+      </node>
+      <node id="502">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="505">
+        <label>Doxygen/LinkedTextQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="479">
+        <label>deque</label>
+      </node>
+      <node id="477">
+        <label>unordered_map</label>
+      </node>
+      <node id="504">
+        <label>Doxygen/EnumValueQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>EnumDefWriter.h</label>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="518">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="519" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="494">
+        <label>DoxBool.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="474">
+        <label>Doxygen/MemberDefQuery.h</label>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
         </childnode>
         <childnode refid="492" relation="include">
         </childnode>
@@ -146,161 +316,30 @@
         </childnode>
         <childnode refid="496" relation="include">
         </childnode>
-        <childnode refid="497" relation="include">
-        </childnode>
-        <childnode refid="498" relation="include">
-        </childnode>
-        <childnode refid="500" relation="include">
-        </childnode>
-        <childnode refid="503" relation="include">
+      </node>
+      <node id="515">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="475" relation="include">
         </childnode>
       </node>
-      <node id="481">
-        <label>DoxProtectionKind.h</label>
-        <childnode refid="463" relation="include">
+      <node id="506">
+        <label>Doxygen/ParamQuery.h</label>
+        <childnode refid="475" relation="include">
         </childnode>
       </node>
-      <node id="479">
-        <label>DoxMemberKind.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="497">
-        <label>LinkedTextWriter.h</label>
-        <childnode refid="493" relation="include">
+      <node id="513">
+        <label>Config.h</label>
+        <childnode refid="478" relation="include">
         </childnode>
         <childnode refid="485" relation="include">
         </childnode>
       </node>
-      <node id="466">
-        <label>Utils/String.h</label>
-        <childnode refid="467" relation="include">
+      <node id="516">
+        <label>Reference.h</label>
+        <childnode refid="478" relation="include">
         </childnode>
-        <childnode refid="468" relation="include">
-        </childnode>
-        <childnode refid="469" relation="include">
-        </childnode>
-        <childnode refid="470" relation="include">
-        </childnode>
-        <childnode refid="465" relation="include">
-        </childnode>
-        <childnode refid="471" relation="include">
-        </childnode>
-        <childnode refid="472" relation="include">
-        </childnode>
-      </node>
-      <node id="499">
-        <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="486">
-        <label>DescriptionWriter.h</label>
-        <childnode refid="487" relation="include">
-        </childnode>
-        <childnode refid="485" relation="include">
-        </childnode>
-      </node>
-      <node id="471">
-        <label>vector</label>
-      </node>
-      <node id="477">
-        <label>utility</label>
-      </node>
-      <node id="469">
-        <label>sstream</label>
       </node>
       <node id="503">
-        <label>WriteUtils.h</label>
-        <childnode refid="489" relation="include">
-        </childnode>
-        <childnode refid="504" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="480">
-        <label>DoxVirtualKind.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="500">
-        <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="501" relation="include">
-        </childnode>
-      </node>
-      <node id="490">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="491" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="493">
-        <label>Doxygen/LinkedTextQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="467">
-        <label>deque</label>
-      </node>
-      <node id="465">
-        <label>unordered_map</label>
-      </node>
-      <node id="492">
-        <label>Doxygen/EnumValueQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-        <childnode refid="481" relation="include">
-        </childnode>
-      </node>
-      <node id="461">
-        <label>EnumDefWriter.h</label>
-        <childnode refid="462" relation="include">
-        </childnode>
-        <childnode refid="485" relation="include">
-        </childnode>
-      </node>
-      <node id="501">
-        <label>Utils/TypeFilter.h</label>
-        <childnode refid="502" relation="include">
-        </childnode>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="482">
-        <label>DoxBool.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="462">
-        <label>Doxygen/MemberDefQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-        <childnode refid="479" relation="include">
-        </childnode>
-        <childnode refid="480" relation="include">
-        </childnode>
-        <childnode refid="481" relation="include">
-        </childnode>
-        <childnode refid="482" relation="include">
-        </childnode>
-        <childnode refid="483" relation="include">
-        </childnode>
-        <childnode refid="484" relation="include">
-        </childnode>
-      </node>
-      <node id="494">
-        <label>Doxygen/ParamQuery.h</label>
-        <childnode refid="463" relation="include">
-        </childnode>
-      </node>
-      <node id="504">
-        <label>MdDoxTree/Reference.h</label>
-        <childnode refid="466" relation="include">
-        </childnode>
-      </node>
-      <node id="491">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -341,184 +380,189 @@
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FunctionDefWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;LinkedTextWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;LocationWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="37" refid="classMdDox_1_1EnumDefWriter_1a2a5465dafe8244c00a3cd81a926af36a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1EnumDefWriter_1a2a5465dafe8244c00a3cd81a926af36a" kindref="member">EnumDefWriter::EnumDefWriter</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out)<sp/>:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer(writer),</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream(out),</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list(true)</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReImplements(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1ReimplementQuery" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">Doxygen::ReimplementQuery</ref>&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReImplementedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReimplementQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedEnumValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::EnumValueQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/><sp/><sp/>=<sp/>query.getName();</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery<sp/>brief<sp/><sp/>=<sp/>query.getBriefDescription();</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery<sp/>detail<sp/>=<sp/>query.getDetailedDescription();</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_list)</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!brief.empty()<sp/>&amp;&amp;<sp/>!detail.empty())</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/>name,<sp/>4);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query.getBriefDescription()))</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38" refid="classMdDox_1_1EnumDefWriter_1a2a5465dafe8244c00a3cd81a926af36a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1EnumDefWriter_1a2a5465dafe8244c00a3cd81a926af36a" kindref="member">EnumDefWriter::EnumDefWriter</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out)<sp/>:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer(writer),</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream(out),</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list(true)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReImplements(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1ReimplementQuery" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">Doxygen::ReimplementQuery</ref>&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReImplementedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReimplementQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedEnumValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::EnumValueQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/><sp/><sp/>=<sp/>query.getName();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery<sp/>brief<sp/><sp/>=<sp/>query.getBriefDescription();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery<sp/>detail<sp/>=<sp/>query.getDetailedDescription();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_list)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!brief.empty()<sp/>&amp;&amp;<sp/>!detail.empty())</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/>name,<sp/>4);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query.getBriefDescription()))</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dw<sp/>=<sp/>DescriptionWriter(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query.getDetailedDescription()))</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!brief.empty()<sp/>&amp;&amp;<sp/>!detail.empty())</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Reference<sp/>ref;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(name);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setReference(name);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kindref="member">writeReferenceIconLinkHeading</ref>(_out,<sp/>_writer,<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>);</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Reference<sp/>ref;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(name);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setReference(name);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" kindref="member">writeReferenceIconStub</ref>(_out,<sp/>_writer,<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReferences(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReferenceQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReferencedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReferenceQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedTemplateParamList(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::TemplateParamListQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedInitializer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedExceptions(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedBriefDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query))</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dw<sp/>=<sp/>DescriptionWriter(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query.getDetailedDescription()))</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!brief.empty()<sp/>&amp;&amp;<sp/>!detail.empty())</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Reference<sp/>ref;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(name);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setReference(name);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kindref="member">writeReferenceIconLinkHeading</ref>(_out,<sp/>_writer,<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Reference<sp/>ref;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(name);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setReference(name);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" kindref="member">writeReferenceIconStub</ref>(_out,<sp/>_writer,<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReferences(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReferenceQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedReferencedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ReferenceQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedTemplateParamList(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::TemplateParamListQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedInitializer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedExceptions(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedBriefDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query))</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinkedTextWriter<sp/>link(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>link.write(query);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedName(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(_out,<sp/>text);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedParameter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ParamQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedDetailedDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query))</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedLocation(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LocationQuery&amp;<sp/>query)</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_list)</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocationWriter<sp/>obj(_writer,<sp/>&amp;_out);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.write(query);</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedWrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LinkedTextQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinkedTextWriter<sp/>link(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>link.write(query);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedName(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(_out,<sp/>text);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedParameter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::ParamQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedDetailedDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::DescriptionQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_list)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DescriptionWriter<sp/>dw(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dw.write(query))</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedLocation(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::LocationQuery&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().hideLocation)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_list)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocationWriter<sp/>obj(_writer,<sp/>&amp;_out);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obj.write(query);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" kindref="member">EnumDefWriter::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">Doxygen::MemberDefQuery</ref>&amp;<sp/>mdq)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnumDefWriter::visitedWrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mdq.<ref refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" kindref="member" tooltip="Checks to see if the internal node is usable. ">isValid</ref>())</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>i<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">Doxygen::SortMap</ref><sp/>map;</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" kindref="member">Doxygen::DoxName</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" kindref="member">Doxygen::DoxType</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a53af8dfaa01a1ed5b6dac555c58c1996" kindref="member">Doxygen::DoxBriefDescription</ref>]<sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" kindref="member">Doxygen::DoxEnumValue</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" kindref="member">Doxygen::DoxDetailedDescription</ref>]<sp/>=<sp/>i++;</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" kindref="member">Doxygen::DoxLocation</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" kindref="member" tooltip="Sorts the nodes in the query based on priority of type. ">sort</ref>(map);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(),<sp/>2);</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WRITE_STUB(_writer,<sp/>_out);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" kindref="member">EnumDefWriter::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">Doxygen::MemberDefQuery</ref>&amp;<sp/>mdq)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mdq.<ref refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" kindref="member" tooltip="Checks to see if the internal node is usable. ">isValid</ref>())</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" kindref="member">Doxygen::SortMap</ref><sp/>map;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" kindref="member">Doxygen::DoxName</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" kindref="member">Doxygen::DoxType</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a53af8dfaa01a1ed5b6dac555c58c1996" kindref="member">Doxygen::DoxBriefDescription</ref>]<sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" kindref="member">Doxygen::DoxEnumValue</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" kindref="member">Doxygen::DoxDetailedDescription</ref>]<sp/>=<sp/>i++;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[<ref refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" kindref="member">Doxygen::DoxLocation</ref>]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" kindref="member" tooltip="Sorts the nodes in the query based on priority of type. ">sort</ref>(map);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(),<sp/>2);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="209"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mdq.<ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" kindref="member">visit</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/EnumDefWriter.cpp"/>
   </compounddef>

@@ -2,11 +2,11 @@
 <h1>Doxygen</h1>
 <a id="namespaceMdDox_1_1Doxygen"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Doxygen</b></span>
 <br/>
@@ -739,14 +739,14 @@
 </a>
 </span>
 <br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
+<a id="variables"></a>
+<h2>Variables</h2>
 <span class="icon-list-item"><a href="#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
 </a>
 </span>
 <br/>
-<a id="global-functions"></a>
-<h2>Global Functions</h2>
+<a id="functions"></a>
+<h2>Functions</h2>
 <span class="icon-list-item"><a href="#getfilter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFilter</span>
 </a>
 </span>
@@ -3488,6 +3488,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1Doxygen.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1Doxygen.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

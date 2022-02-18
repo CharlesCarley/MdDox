@@ -29,7 +29,7 @@ namespace MdDox
 
     class Reference
     {
-    private:
+    protected:
         String _name;
         String _ref;
 

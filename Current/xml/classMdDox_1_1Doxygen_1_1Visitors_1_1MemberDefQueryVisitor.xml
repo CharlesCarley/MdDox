@@ -539,32 +539,32 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="649">
+      <node id="656">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="652">
+      <node id="659">
         <label>MdDox::MemberDefListingWriter</label>
         <link refid="classMdDox_1_1MemberDefListingWriter"/>
-        <childnode refid="649" relation="public-inheritance">
+        <childnode refid="656" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="651">
+      <node id="658">
         <label>MdDox::FunctionDefWriter</label>
         <link refid="classMdDox_1_1FunctionDefWriter"/>
-        <childnode refid="649" relation="public-inheritance">
+        <childnode refid="656" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="653">
+      <node id="660">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="649" relation="public-inheritance">
+        <childnode refid="656" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="650">
+      <node id="657">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="649" relation="public-inheritance">
+        <childnode refid="656" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

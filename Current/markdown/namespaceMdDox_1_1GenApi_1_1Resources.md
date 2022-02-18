@@ -2,13 +2,13 @@
 <h1>Resources</h1>
 <a id="namespaceMdDox_1_1GenApi_1_1Resources"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox_1_1GenApi.md#genapi">GenApi</a>
+<a href="dir_f29546df2d60a62028851d3354c1d20f.md#">Tools/GenApi</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Resources</b></span>
 <br/>
@@ -25,6 +25,18 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1GenApi_1_1Resources.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1GenApi_1_1Resources.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

@@ -104,39 +104,39 @@
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="274">
+      <node id="281">
         <label>MdDox::Doxygen::LinkQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1LinkQuery"/>
-        <childnode refid="275" relation="public-inheritance">
+        <childnode refid="282" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="275">
+      <node id="282">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="276">
+      <node id="283">
         <label>MdDox::Doxygen::LinkQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1LinkQuery"/>
-        <childnode refid="277" relation="public-inheritance">
+        <childnode refid="284" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="278">
+      <node id="285">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="279" relation="usage">
+        <childnode refid="286" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="277">
+      <node id="284">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="278" relation="usage">
+        <childnode refid="285" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
       </node>
-      <node id="279">
+      <node id="286">
         <label>bool</label>
       </node>
     </collaborationgraph>

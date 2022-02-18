@@ -204,44 +204,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="798">
+      <node id="805">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="799" relation="public-inheritance">
+        <childnode refid="806" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="800">
+      <node id="807">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="799">
+      <node id="806">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="800" relation="public-inheritance">
+        <childnode refid="807" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="801">
+      <node id="808">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="802" relation="public-inheritance">
+        <childnode refid="809" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="803">
+      <node id="810">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="802">
+      <node id="809">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="803" relation="public-inheritance">
+        <childnode refid="810" relation="public-inheritance">
         </childnode>
-        <childnode refid="804" relation="usage">
+        <childnode refid="811" relation="usage">
           <edgelabel>_name</edgelabel>
         </childnode>
       </node>
-      <node id="804">
+      <node id="811">
         <label>string</label>
       </node>
     </collaborationgraph>

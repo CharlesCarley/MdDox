@@ -59,14 +59,17 @@ namespace MdDox
     {
         switch (kind)
         {
+        case Doxygen::DSK_DEFINE:
+            _writer->addSection(_out, "Definitions", _depth);
+            break;
         case Doxygen::DSK_FUNC:
-            _writer->addSection(_out, "Global Functions", _depth);
+            _writer->addSection(_out, "Functions", _depth);
             break;
         case Doxygen::DSK_ENUM:
             _writer->addSection(_out, "Enums", _depth);
             break;
         case Doxygen::DSK_VAR:
-            _writer->addSection(_out, "Global Variables", _depth);
+            _writer->addSection(_out, "Variables", _depth);
             break;
         case Doxygen::DSK_PUBLIC_STATIC_FUNC:
             _writer->addSection(_out, "Public Static Methods", _depth);
@@ -151,9 +154,6 @@ namespace MdDox
             break;
         case Doxygen::DSK_PROTECTED_SLOT:
             _writer->addSection(_out, "DSK_PROTECTED_SLOT", _depth);
-            break;
-        case Doxygen::DSK_DEFINE:
-            _writer->addSection(_out, "DSK_DEFINE", _depth);
             break;
         case Doxygen::DSK_PACKAGE_TYPE:
             _writer->addSection(_out, "DSK_PACKAGE_TYPE", _depth);

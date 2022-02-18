@@ -83,7 +83,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="94" bodyend="102"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="95" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a7241af1c439a60893ff28668ab0b5041" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -109,7 +109,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="130" bodyend="135"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="131" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a38df18997aa5373853e612bae9dac72e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="56" bodyend="60"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="57" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a52963cbee2b614a694ef2164ef9594db" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="89" bodyend="92"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="90" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a245fdc097d2889a552102df3cdbced7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -187,7 +187,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="81" bodyend="87"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="82" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1ab4457380a4217194531ce9bb51ba713c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -213,7 +213,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="137" bodyend="141"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="138" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a29d7b2f3592d333aac905ae1ec975883" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -239,7 +239,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="109" bodyend="114"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="110" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1aca00dd23e51ac8473581614256d54344" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="116" bodyend="128"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="117" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a0cae456a0270bb73a2d606fb1eb0e1a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -291,7 +291,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="71" bodyend="74"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="72" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1ac4c2b6466a7d6ed78953e264c4ba8625" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -317,7 +317,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="62" bodyend="69"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="63" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a0aaafb9a7c9f0c9ef20e733269a60d43" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -343,7 +343,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="51" bodyend="54"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a11ac88b289aff93e19f9b61a6d556d6a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -369,7 +369,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="46" bodyend="49"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a1d711ba9ef2827649d244827af3acb88" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -395,7 +395,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="76" bodyend="79"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a7626e99aff8d7f074dbe0eecf141645e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -421,7 +421,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="103" bodyend="107"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="104" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a17c15970163e326c7100bdaa539a65b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -447,7 +447,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="143" bodyend="146"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="147" bodyend="150"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="40" bodyend="44"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberDefWriter_1a63c4009c79aef6b9b5b0a83e9d1a394e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -487,13 +487,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MemberDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="148" bodyend="183"/>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="152" bodyend="187"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ac68cf32ca18b91aa10c6cd998eff35c9" compoundref="MemberDefQuery_8cpp" startline="121" endline="126">MdDox::Doxygen::MemberDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ab0bd4ceb63c9efda529003aad5fb27b7" compoundref="DoxMemberKind_8h" startline="84">MdDox::Doxygen::DMK_FUNCTION</references>
-        <references refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" compoundref="FunctionDefWriter_8cpp" startline="171" endline="196">MdDox::FunctionDefWriter::write</references>
+        <references refid="classMdDox_1_1FunctionDefWriter_1a29298e12b2dccae016c5803525b9eb52" compoundref="FunctionDefWriter_8cpp" startline="176" endline="201">MdDox::FunctionDefWriter::write</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ad1458999750564d3858a4050dd2657c0" compoundref="DoxMemberKind_8h" startline="64">MdDox::Doxygen::DMK_ENUM</references>
-        <references refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" compoundref="EnumDefWriter_8cpp" startline="184" endline="208">MdDox::EnumDefWriter::write</references>
+        <references refid="classMdDox_1_1EnumDefWriter_1a5079e5da919c5dcb333bc9e1ea603918" compoundref="EnumDefWriter_8cpp" startline="189" endline="213">MdDox::EnumDefWriter::write</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" compoundref="DoxygenFilter_8h" startline="62">MdDox::Doxygen::DoxEnumValue</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" compoundref="DoxygenFilter_8h" startline="135">MdDox::Doxygen::DoxType</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" compoundref="DoxygenFilter_8h" startline="96">MdDox::Doxygen::DoxName</references>
@@ -506,7 +506,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="377" endline="384">MdDox::Doxygen::MemberDefQuery::getName</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="234" endline="245">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="219" endline="230">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -514,26 +514,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="876">
+      <node id="884">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="875">
+      <node id="883">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="876" relation="public-inheritance">
+        <childnode refid="884" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="878">
+      <node id="886">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="877">
+      <node id="885">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="878" relation="public-inheritance">
+        <childnode refid="886" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

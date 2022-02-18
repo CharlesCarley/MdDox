@@ -88,33 +88,33 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="26">
+      <node id="27">
         <label>size_t</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>uint32_t</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>bool</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>char</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MdDox::CommandLine::Switch</label>
         <link refid="structMdDox_1_1CommandLine_1_1Switch"/>
-        <childnode refid="25" relation="usage">
+        <childnode refid="26" relation="usage">
           <edgelabel>longSwitch</edgelabel>
           <edgelabel>shortSwitch</edgelabel>
           <edgelabel>description</edgelabel>
         </childnode>
-        <childnode refid="26" relation="usage">
+        <childnode refid="27" relation="usage">
           <edgelabel>argCount</edgelabel>
         </childnode>
-        <childnode refid="27" relation="usage">
+        <childnode refid="28" relation="usage">
           <edgelabel>id</edgelabel>
         </childnode>
-        <childnode refid="28" relation="usage">
+        <childnode refid="29" relation="usage">
           <edgelabel>optional</edgelabel>
         </childnode>
       </node>

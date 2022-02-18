@@ -2,11 +2,11 @@
 <h1>Xml</h1>
 <a id="namespaceMdDox_1_1Xml"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Xml</b></span>
 <br/>
@@ -15,13 +15,13 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="#classes">Classes</a>
+<li><a href="namespaceMdDox_1_1Xml.md#classes">Classes</a>
 </li>
-<li><a href="#enums">Enums</a>
+<li><a href="namespaceMdDox_1_1Xml.md#enums">Enums</a>
 </li>
-<li><a href="#typedefs">Typedefs</a>
+<li><a href="namespaceMdDox_1_1Xml.md#typedefs">Typedefs</a>
 </li>
-<li><a href="#variables">Variables</a>
+<li><a href="namespaceMdDox_1_1Xml.md#variables">Variables</a>
 <br/>
 </ul>
 <a id="details"></a>
@@ -113,14 +113,14 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
+<a id="variables"></a>
+<h2>Variables</h2>
 <span class="icon-list-item"><a href="#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Indent</span>
 </a>
 </span>
 <br/>
-<a id="global-functions"></a>
-<h2>Global Functions</h2>
+<a id="functions"></a>
+<h2>Functions</h2>
 <span class="icon-list-item"><a href="#isquote" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isQuote</span>
 </a>
 </span>
@@ -408,6 +408,18 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1Xml.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1Xml.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

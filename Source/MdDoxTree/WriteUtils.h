@@ -38,27 +38,16 @@ namespace MdDox
     class Page;
     class DocumentWriter;
 
+    extern void writeCommonNav(OStream& out, DocumentWriter* writer);
+
     /**
 	 * \brief Defines a navigation bar from a list of names that are
 	 * separated with the binary resolution operator.
 	 */
-    extern void writeNamespaceTitleBar(OStream&                     out,
-                                       DocumentWriter*              writer,
-                                       const Reference&             item,
-                                       [[deprecated]] const String& split);
-
-    /**
-	 * \brief Defines a navigation bar from a list of names that are
-	 * separated with a path separator.
-	 */
-    extern void writeDirectoryTitleBar(OStream&                     out,
-                                       DocumentWriter*              writer,
-                                       const Reference&             item,
-                                       [[deprecated]] const String& split);
-
-    extern void writeFilePath(OStream&        out,
-                              DocumentWriter* writer,
-                              const String&   path);
+    extern void writeNavigation(OStream&         out,
+                                DocumentWriter*  writer,
+                                const Reference& item,
+                                const String&    sep);
 
     extern void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, IconId id);
     extern void writeExternalIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, IconId id);

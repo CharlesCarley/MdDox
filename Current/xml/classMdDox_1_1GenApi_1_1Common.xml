@@ -162,39 +162,39 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="738">
+      <node id="745">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="737">
+      <node id="744">
         <label>MdDox::GenApi::Common</label>
         <link refid="classMdDox_1_1GenApi_1_1Common"/>
-        <childnode refid="738" relation="public-inheritance">
+        <childnode refid="745" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="740">
+      <node id="747">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="739">
+      <node id="746">
         <label>MdDox::GenApi::Common</label>
         <link refid="classMdDox_1_1GenApi_1_1Common"/>
-        <childnode refid="740" relation="public-inheritance">
+        <childnode refid="747" relation="public-inheritance">
         </childnode>
-        <childnode refid="741" relation="usage">
+        <childnode refid="748" relation="usage">
           <edgelabel>_includes</edgelabel>
           <edgelabel>_forwards</edgelabel>
         </childnode>
-        <childnode refid="742" relation="usage">
+        <childnode refid="749" relation="usage">
           <edgelabel>_header</edgelabel>
         </childnode>
       </node>
-      <node id="742">
+      <node id="749">
         <label>string</label>
       </node>
-      <node id="741">
+      <node id="748">
         <label>vector&lt; std::string &gt;</label>
       </node>
     </collaborationgraph>

@@ -155,38 +155,38 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="867">
+      <node id="875">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="865">
+      <node id="873">
         <label>MdDox::MarkdownDocumentWriter</label>
         <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
-        <childnode refid="866" relation="public-inheritance">
+        <childnode refid="874" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="866">
+      <node id="874">
         <label>MdDox::HtmlDocumentWriter</label>
         <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="867" relation="public-inheritance">
+        <childnode refid="875" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="870">
+      <node id="878">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="868">
+      <node id="876">
         <label>MdDox::MarkdownDocumentWriter</label>
         <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
-        <childnode refid="869" relation="public-inheritance">
+        <childnode refid="877" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="869">
+      <node id="877">
         <label>MdDox::HtmlDocumentWriter</label>
         <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="870" relation="public-inheritance">
+        <childnode refid="878" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -228,6 +228,8 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkHeading</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkPage</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkPageMember</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRef</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRefIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listItem</name></member>

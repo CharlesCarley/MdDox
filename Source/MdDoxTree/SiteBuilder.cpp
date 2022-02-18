@@ -24,6 +24,7 @@
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenIndexQuery.h"
 #include "IndexPageWriter.h"
+#include "ReferenceMaps.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Exception.h"
 #include "Xml/Parser.h"
@@ -32,12 +33,14 @@ namespace MdDox
 {
     SiteBuilder::SiteBuilder()
     {
-        _singleton = this;
+        _singleton    = this;
+        _referenceMap = new ReferenceTable();
     }
 
     SiteBuilder::~SiteBuilder()
     {
         _singleton = nullptr;
+        delete _referenceMap;
     }
 
     void SiteBuilder::dispatchDot() const
@@ -82,6 +85,26 @@ namespace MdDox
         dispatchDot();
     }
 
+    void makeInternalPages(ReferenceTable* table, Config* cfg)
+    {
+	    const Doxygen::DoxCompoundKindEnum kind = Doxygen::DoxCompoundKindEnum::DCK_PAGE;
+
+        const String projectTitle = cfg->getValue("PROJECT_TITLE");
+        const String idx          = "Index";
+
+        String idxPage = projectTitle;
+        if (projectTitle.empty())
+            idxPage = "Main";
+
+        // pre map these
+        table->insertCompound(kind, idx, "index");
+        table->insertCompound(kind, idxPage, "indexpage");
+        table->insertCompound(kind, "namespaces", "namespace_index");
+        table->insertCompound(kind, "Classes", "class_index");
+        table->insertCompound(kind, "Directories", "directory_index");
+        table->insertCompound(kind, "Pages", "page_index");
+    }
+
     void SiteBuilder::loadConfig(const String& configFile)
     {
         InputFileStream ifs(configFile);
@@ -91,7 +114,8 @@ namespace MdDox
 
         Config config;
         config.load(ifs);
-        showDebug = config.getBool("SHOW_DEBUG");
+        showDebug    = config.getBool("SHOW_DEBUG");
+        hideLocation = config.getBool("HIDE_LOCATION");
 
         String value = config.getValue("BACKEND_WRITER");
         if (value == "HTML")
@@ -133,6 +157,49 @@ namespace MdDox
 
             _dot.load(dotStream);
         }
+
+    	makeInternalPages(_referenceMap, &config);
+    }
+
+    void SiteBuilder::insertCompound(const Doxygen::DoxCompoundKindEnum& kind,
+                                     const String&                       name,
+                                     const String&                       id) const
+    {
+        if (_referenceMap)
+            _referenceMap->insertCompound(kind, name, id);
+    }
+
+    CompoundReference* SiteBuilder::getCompoundRef(const String& id) const
+    {
+        if (_referenceMap)
+            return _referenceMap->getCompoundRef(id);
+        return nullptr;
+    }
+
+    String SiteBuilder::getCompoundName(const String& id) const
+    {
+        if (_referenceMap)
+        {
+            CompoundReference* ref = _referenceMap->getCompoundRef(id);
+            if (ref)
+                return ref->getName();
+        }
+        return "";
+    }
+
+    void SiteBuilder::insertMember(const Doxygen::DoxMemberKindEnum& kind,
+                                   const String&                     name,
+                                   const String&                     id) const
+    {
+        if (_referenceMap)
+            _referenceMap->insertMember(kind, name, id);
+    }
+
+    MemberReference* SiteBuilder::getMemberRef(const String& id) const
+    {
+        if (_referenceMap)
+            return _referenceMap->getMemberRef(id);
+        return nullptr;
     }
 
     void SiteBuilder::registerCompound(const String& name, const String& reference) const

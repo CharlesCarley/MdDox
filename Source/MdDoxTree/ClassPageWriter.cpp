@@ -45,7 +45,7 @@ namespace MdDox
 
     void ClassPageWriter::visitedCompoundName(const String& text)
     {
-        writeNamespaceTitleBar(_out, _writer, _ref, "::");
+        writeNavigation(_out, _writer, _ref, "::");
     }
 
     void ClassPageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)
@@ -149,8 +149,11 @@ namespace MdDox
 
     void ClassPageWriter::visitedLocation(const Doxygen::LocationQuery& query)
     {
-        LocationWriter lw(_writer, &_out);
-        lw.write(query);
+        if (!SiteBuilder::get().hideLocation)
+        {
+            LocationWriter lw(_writer, &_out);
+            lw.write(query);
+        }
     }
 
     void ClassPageWriter::visitedTitle(const String& text)

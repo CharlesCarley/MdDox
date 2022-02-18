@@ -44,10 +44,10 @@ namespace MdDox
         switch (en)
         {
         case Doxygen::DRK_MEMBER:
-            _writer->linkPageMember(_out, query.text(), query.getRefId());
+            _writer->linkRef(_out, 1, query.getRefId(), query.text());
             break;
         case Doxygen::DRK_COMPOUND:
-            _writer->linkPage(_out, query.text(), query.getRefId());
+            _writer->linkRef(_out, 0, query.getRefId(), query.text());
             break;
         case Doxygen::DRK_INVALID:
         default:

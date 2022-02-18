@@ -22,24 +22,28 @@
 #pragma once
 #include <unordered_map>
 #include "Config.h"
+#include "ReferenceIdentifiers.h"
+#include "Doxygen/DoxCompoundKind.h"
+#include "Doxygen/DoxMemberKind.h"
 #include "Utils/String.h"
 
 namespace MdDox
 {
-    class Page;
+	class ReferenceTable;
+	class Page;
     class DocumentWriter;
 
-	enum BackendWriter
-	{
-		/**
+    enum BackendWriter
+    {
+        /**
 		 * \brief Use MdDox::HtmlDocumentWriter to output documents.
 		 */
-		BackendHtml,
+        BackendHtml,
         /**
 		 * \brief Use MdDox::MarkdownDocumentWriter to output documents.
 		 */
         BackendMarkdown,
-	};
+    };
 
     /**
      * \brief Container that is used to map a reference id attribute to a name.
@@ -97,13 +101,13 @@ namespace MdDox
     class SiteBuilder
     {
     private:
-        static SiteBuilder*  _singleton;
-        mutable ReferenceMap _ids;
-        mutable ReferenceMap _names;
-        mutable ReferenceMap _members;
-        mutable StringArray  _dotFiles;
-        mutable Config       _dot;
-    	
+        static SiteBuilder*   _singleton;
+        mutable ReferenceMap  _ids;
+        mutable ReferenceMap  _names;
+        mutable ReferenceMap  _members;
+        mutable StringArray   _dotFiles;
+        mutable Config        _dot;
+        mutable ReferenceTable* _referenceMap;
 
         /**
          * \brief Writes all dot files to disk.
@@ -121,15 +125,27 @@ namespace MdDox
          */
         void buildFromXml(DocumentWriter* writer, const String& fileName) const;
 
-    	/**
+        /**
     	 * \brief Attempts to load the supplied config file.
     	 *
     	 * \param configFile The path to the file's location.
     	 *
     	 * Uses MdDox::Config to collect configuration options.
     	 */
-    	void loadConfig(const String& configFile);
+        void loadConfig(const String& configFile);
 
+        void insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
+        CompoundReference* getCompoundRef(const String& id) const;
+
+    	String getCompoundName(const String& id) const;
+
+    	
+        void insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;
+        MemberReference* getMemberRef(const String& id) const;
+
+
+
+    	
         /**
          * \brief Register a name that can be linked to a reference
          * \param name the name to store the reference by
@@ -137,28 +153,25 @@ namespace MdDox
          */
         void registerCompound(const String& name, const String& reference) const;
 
-    	
         /**
          * \brief Enables a member reference to be bound to a compound reference.
          */
         void registerMember(const String& member, const String& compound) const;
 
-    	
-        const String& findReference(const String& name, const String& defaultValue = "") const;
+        [[deprecated]] const String& findReference(const String& name, const String& defaultValue = "") const;
 
-        const String& findName(const String& name, const String& defaultValue = "") const;
+        [[deprecated]] const String& findName(const String& name, const String& defaultValue = "") const;
 
-    	const String& findMember(const String& name, const String& defaultValue = "") const;
+        [[deprecated]] const String& findMember(const String& name, const String& defaultValue = "") const;
 
         String registerDot(const String& text) const;
-
+        
         /**
          * \brief Provides singleton access for extracting config parameters.
          */
         static const SiteBuilder& get();
 
     public:
-
         /**
          * \brief Defines a title for the current project.
          *
@@ -172,7 +185,7 @@ namespace MdDox
          * Maps to the config option \c PROJECT_BRIEF
          */
         String projectBrief;
-        
+
         /**
          * \brief Defines the file extension for pages.
          *
@@ -180,7 +193,7 @@ namespace MdDox
          */
         String outputFileExt;
 
-    	/**
+        /**
          * \brief Defines the image lookup directory.
          *
          * Maps to the config option \c IMAGE_DIR
@@ -223,12 +236,19 @@ namespace MdDox
         String styleSheet;
 
         /**
-         * \brief Enables or disables links to the input source
+         * \brief Enables or disables links to the XML input source
          * file for the current page. 
          *
     	 * Maps to the config option \c SHOW_DEBUG
          */
         bool showDebug{false};
+
+        /**
+         * \brief Enables or disables location links to the source
+         *
+    	 * Maps to the config option \c HIDE_LOCATION
+         */
+        bool hideLocation{false};
 
         /**
          * \brief Defines the backend writer 

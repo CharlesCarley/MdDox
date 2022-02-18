@@ -2,17 +2,28 @@
 <h1>Reference</h1>
 <a id="classMdDox_1_1Reference"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Reference</b></span>
 <br/>
 <br/>
-<a id="private-members"></a>
-<h2>Private Members</h2>
+<a id="derived-by"></a>
+<h4>Derived By</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1CompoundReference.md#compoundreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundReference</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="classMdDox_1_1MemberReference.md#memberreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberReference</span>
+</a>
+</span>
+<br/>
+<img src="../images/dot/internal-diagram-123.dot.svg"/><br/>
+<a id="protected-members"></a>
+<h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
 </a>
 </span>
@@ -109,6 +120,12 @@
 <span class="bold-text"><b>getName</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
@@ -124,6 +141,12 @@
 <span class="bold-text"><b>getReference</b></span>
 <span class="italic-text"><i>(</i></span>
 <span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#_ref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_ref</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
@@ -144,6 +167,12 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
@@ -164,6 +193,12 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#_ref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_ref</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Reference.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
@@ -171,6 +206,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1Reference.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Reference.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

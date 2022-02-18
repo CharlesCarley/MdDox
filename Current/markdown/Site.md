@@ -2,7 +2,7 @@
 <h1>Site Layout</h1>
 <a id="Site"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
@@ -15,19 +15,19 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="#details">Details</a>
+<li><a href="Site.md#details">Details</a>
 </li>
-<li><a href="#mainpage">MainPage</a>
+<li><a href="Site.md#mainpage">MainPage</a>
 </li>
-<li><a href="#index">Index</a>
+<li><a href="Site.md#index">Index</a>
 </li>
-<li><a href="#namespaceindex">NamespaceIndex</a>
+<li><a href="Site.md#namespaceindex">NamespaceIndex</a>
 </li>
-<li><a href="#directoryindex">DirectoryIndex</a>
+<li><a href="Site.md#directoryindex">DirectoryIndex</a>
 </li>
-<li><a href="#classindex">ClassIndex</a>
+<li><a href="Site.md#classindex">ClassIndex</a>
 </li>
-<li><a href="#pageindex">PageIndex</a>
+<li><a href="Site.md#pageindex">PageIndex</a>
 </li>
 </ul>
 <a id="Site_1Details"></a>
@@ -63,6 +63,18 @@
 <a id="directoryindex"></a>
 <h3>DirectoryIndex</h3>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/Site.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">Site.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

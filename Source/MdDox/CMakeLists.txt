@@ -21,7 +21,7 @@ set(TargetName MdDox)
 set(TargetGroup )
 
 
-include_directories(${MdDox_SOURCE_DIR}/Source)
+include_directories(${MdDox_SOURCE_DIR}/Source ${MdDox_SOURCE_DIR}/Tools)
 add_executable(${TargetName} Main.cpp)
 target_link_libraries(${TargetName} Utils Xml Doxygen MdDoxTree ${EXTRA_LIBS})
 
@@ -49,7 +49,7 @@ if (MSVC)
         ${TargetName} 
         PROPERTIES 
         VS_DEBUGGER_COMMAND_ARGUMENTS  
-        "-i index.xml -t html --config ../MdDox.cfg"
+        "-i index.xml --config ../MdDox.cfg"
     )
 
 endif()

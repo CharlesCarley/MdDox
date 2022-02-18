@@ -2,11 +2,11 @@
 <h1>ResourceCompiler</h1>
 <a id="namespaceMdDox_1_1ResourceCompiler"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#main">Main</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
-<span class="inline-text">::</span>
-<a href="namespaceMdDox.md#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>ResourceCompiler</b></span>
 <br/>
@@ -33,8 +33,8 @@
 </a>
 </span>
 <br/>
-<a id="global-variables"></a>
-<h2>Global Variables</h2>
+<a id="variables"></a>
+<h2>Variables</h2>
 <span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
 </a>
 </span>
@@ -114,7 +114,7 @@
 <span class="inline-text">Provides and array of </span>
 <a href="structMdDox_1_1CommandLine_1_1Switch.md#commandlineswitch">CommandLine::Switch</a>
 <span class="inline-text"> objects foreach </span>
-<a href="#option">Option</a>
+<a href="namespaceMdDox_1_1ResourceCompiler.md#option">Option</a>
 <span class="inline-text">. </span>
 <br/>
 <br/>
@@ -125,6 +125,18 @@
 </span>
 <br/>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/namespaceMdDox_1_1ResourceCompiler.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">namespaceMdDox_1_1ResourceCompiler.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>
