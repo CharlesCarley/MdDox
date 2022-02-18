@@ -6,64 +6,64 @@
     <includedby refid="DotWriter_8cpp" local="yes">Source/MdDoxTree/DotWriter.cpp</includedby>
     <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Tools/ResourceCompiler/Main.cpp</includedby>
     <incdepgraph>
-      <node id="3898">
+      <node id="3904">
         <label>iomanip</label>
       </node>
-      <node id="3895">
+      <node id="3901">
         <label>string</label>
       </node>
-      <node id="3893">
+      <node id="3899">
         <label>fstream</label>
       </node>
-      <node id="3891">
+      <node id="3897">
         <label>Utils/String.h</label>
-        <childnode refid="3892" relation="include">
-        </childnode>
-        <childnode refid="3893" relation="include">
-        </childnode>
-        <childnode refid="3894" relation="include">
-        </childnode>
-        <childnode refid="3895" relation="include">
-        </childnode>
-        <childnode refid="3896" relation="include">
-        </childnode>
-        <childnode refid="3897" relation="include">
-        </childnode>
         <childnode refid="3898" relation="include">
         </childnode>
-      </node>
-      <node id="3897">
-        <label>vector</label>
-      </node>
-      <node id="3894">
-        <label>sstream</label>
-      </node>
-      <node id="3890">
-        <label>Source/Utils/TextStreamWriter.h</label>
-        <link refid="TextStreamWriter_8h"/>
-        <childnode refid="3891" relation="include">
+        <childnode refid="3899" relation="include">
+        </childnode>
+        <childnode refid="3900" relation="include">
+        </childnode>
+        <childnode refid="3901" relation="include">
+        </childnode>
+        <childnode refid="3902" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+        <childnode refid="3904" relation="include">
         </childnode>
       </node>
-      <node id="3892">
-        <label>deque</label>
+      <node id="3903">
+        <label>vector</label>
+      </node>
+      <node id="3900">
+        <label>sstream</label>
       </node>
       <node id="3896">
+        <label>Source/Utils/TextStreamWriter.h</label>
+        <link refid="TextStreamWriter_8h"/>
+        <childnode refid="3897" relation="include">
+        </childnode>
+      </node>
+      <node id="3898">
+        <label>deque</label>
+      </node>
+      <node id="3902">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3901">
+      <node id="3907">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="3900">
+      <node id="3906">
         <label>Source/MdDoxTree/DotWriter.cpp</label>
       </node>
-      <node id="3899">
+      <node id="3905">
         <label>Source/Utils/TextStreamWriter.h</label>
         <link refid="TextStreamWriter_8h"/>
-        <childnode refid="3900" relation="include">
+        <childnode refid="3906" relation="include">
         </childnode>
-        <childnode refid="3901" relation="include">
+        <childnode refid="3907" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

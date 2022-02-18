@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dwfcWLF[
+ 0[
    shape    = none
    label    = "DescriptionQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wc1cWLF[
+ 1[
    shape    = none
    label    = "DescriptionWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dwfcWLF->Wc1cWLF
+ 0->1
 }

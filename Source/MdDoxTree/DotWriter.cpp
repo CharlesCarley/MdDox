@@ -21,6 +21,7 @@
 */
 #include "DotWriter.h"
 #include <iomanip>
+#include "Utils/Char.h"
 #include "Utils/TextStreamWriter.h"
 #include "Xml/Node.h"
 
@@ -28,6 +29,7 @@ namespace MdDox
 {
     using namespace Xml;
     using namespace WriteUtils;
+    using StrIntMap = std::unordered_map<String, int>;
 
     class DotWriterImpl
     {
@@ -36,11 +38,31 @@ namespace MdDox
         NodeArray*         _list;
         OStream*           _stream;
         OutputStringStream _out;
+        StrIntMap          _ids;
+        int                _count;
+
+        void cleanName(String& name, const Node* nd)
+        {
+            int cnt = 0;
+
+            const StrIntMap::iterator it = _ids.find(nd->name());
+            if (it != _ids.end())
+                cnt = it->second;
+            else
+            {
+                cnt = _count;
+
+                _ids[nd->name()] = _count++;
+            }
+
+            Char::toString(name, cnt);
+        }
 
         void writeNodeDecl(Node* nd)
         {
             String name;
-            StringUtils::scramble(name, (size_t)nd, false);
+            cleanName(name, nd);
+
             write(_out, 0x02, name, '[');
             write(_out, 0x04, "shape    = none");
             write(_out, 0x04, "label    = \"", nd->name(), "\"");
@@ -54,8 +76,8 @@ namespace MdDox
         void lineTo(Node* a, const Node* b)
         {
             String na, nb;
-            StringUtils::scramble(na, (size_t)a, false);
-            StringUtils::scramble(nb, (size_t)b, false);
+            cleanName(na, a);
+            cleanName(nb, b);
             write(_out, 0x02, na, "->", nb);
         }
 
@@ -63,7 +85,8 @@ namespace MdDox
         DotWriterImpl(Node* root, NodeArray* list, OStream* stream) :
             _root(root),
             _list(list),
-            _stream(stream)
+            _stream(stream),
+            _count(0)
         {
         }
 

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dZpuWLF[
+ 0[
    shape    = none
    label    = "DocumentWriter"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dRJuWLF[
+ 1[
    shape    = none
    label    = "HtmlDocumentWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxLuWLF[
+ 2[
    shape    = none
    label    = "MarkdownDocumentWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dRJuWLF->dxLuWLF
- dZpuWLF->dRJuWLF
+ 1->2
+ 0->1
 }

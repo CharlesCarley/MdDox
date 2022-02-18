@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WS3lALF[
+ 0[
    shape    = none
    label    = "CompoundDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d43lALF[
+ 1[
    shape    = none
    label    = "PageWriter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WrtlALF[
+ 2[
    shape    = none
    label    = "DirectoryPageWriter"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- Wl5lALF[
+ 3[
    shape    = none
    label    = "GenericPageWriter"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dfIlALF[
+ 4[
    shape    = none
    label    = "NamespacePageWriter"
    margin   = "0.01"
@@ -46,7 +46,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dsIlALF[
+ 5[
    shape    = none
    label    = "ClassPageWriter"
    margin   = "0.01"
@@ -54,9 +54,9 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d43lALF->WrtlALF
- d43lALF->Wl5lALF
- d43lALF->dfIlALF
- d43lALF->dsIlALF
- WS3lALF->d43lALF
+ 1->2
+ 1->3
+ 1->4
+ 1->5
+ 0->1
 }

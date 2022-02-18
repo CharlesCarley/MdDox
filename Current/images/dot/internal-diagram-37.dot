@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W5EsWLF[
+ 0[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WnEsWLF[
+ 1[
    shape    = none
    label    = "LinkQuery"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W5EsWLF->WnEsWLF
+ 0->1
 }

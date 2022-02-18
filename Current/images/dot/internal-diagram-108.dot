@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WQ1lALF[
+ 0[
    shape    = none
    label    = "ParamListItemQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WsdlALF[
+ 1[
    shape    = none
    label    = "ListItemVisitor"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WQ1lALF->WsdlALF
+ 0->1
 }

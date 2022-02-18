@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- dn1lALF[
+ 0[
    shape    = none
    label    = "Sect1QueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WKdlALF[
+ 1[
    shape    = none
    label    = "Section1Writer"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dn1lALF->WKdlALF
+ 0->1
 }

@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DcNzWLF[
+ 0[
    shape    = none
    label    = "MemberDefQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qrxzWLF[
+ 1[
    shape    = none
    label    = "MemberDefWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DcNzWLF->qrxzWLF
+ 0->1
 }

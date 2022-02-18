@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- WnSsWLF[
+ 0[
    shape    = none
    label    = "Query"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dxKsWLF[
+ 1[
    shape    = none
    label    = "InternalS2Query"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WnSsWLF->dxKsWLF
+ 0->1
 }

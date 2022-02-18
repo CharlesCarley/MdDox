@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- DiLrALF[
+ 0[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qCprALF[
+ 1[
    shape    = none
    label    = "IndexPageFilter"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- qbJrALF[
+ 2[
    shape    = none
    label    = "IndexPageWriter"
    margin   = "0.01"
@@ -30,6 +30,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- DiLrALF->qCprALF
- DiLrALF->qbJrALF
+ 0->1
+ 0->2
 }

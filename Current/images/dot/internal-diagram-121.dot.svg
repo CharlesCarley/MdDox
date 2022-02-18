@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 159,-40 159,4 -4,4"/>
-<!-- DcZNWLF -->
-<g id="node1" class="node"><title>DcZNWLF</title>
+<!-- 0 -->
+<g id="node1" class="node"><title>0</title>
 <text text-anchor="middle" x="32.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ScannerBase</text>
 </g>
-<!-- DOZNWLF -->
-<g id="node2" class="node"><title>DOZNWLF</title>
+<!-- 1 -->
+<g id="node2" class="node"><title>1</title>
 <text text-anchor="middle" x="128" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Scanner</text>
 </g>
-<!-- DcZNWLF&#45;&gt;DOZNWLF -->
-<g id="edge1" class="edge"><title>DcZNWLF&#45;&gt;DOZNWLF</title>
+<!-- 0&#45;&gt;1 -->
+<g id="edge1" class="edge"><title>0&#45;&gt;1</title>
 <path fill="none" stroke="#69bfff" d="M65.1548,-18C75.0801,-18 86.0222,-18 95.9081,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="95.9706,-19.7501 100.971,-18 95.9705,-16.2501 95.9706,-19.7501"/>
 </g>

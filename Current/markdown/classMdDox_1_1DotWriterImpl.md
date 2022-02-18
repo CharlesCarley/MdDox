@@ -13,6 +13,14 @@
 <br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
+<span class="icon-list-item"><a href="#_count" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_count</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#_ids" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_ids</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#_list" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_list</span>
 </a>
 </span>
@@ -31,6 +39,10 @@
 <br/>
 <a id="private-methods"></a>
 <h2>Private Methods</h2>
+<span class="icon-list-item"><a href="#cleanname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">cleanName</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#lineto" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineTo</span>
 </a>
 </span>
@@ -63,9 +75,33 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
+<br/>
+<a id="_count"></a>
+<h2>_count</h2>
+<span class="inline-text">int</span>
+<span class="bold-text"><b>_count</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="_ids"></a>
+<h2>_ids</h2>
+<a href="namespaceMdDox.md#strintmap">StrIntMap</a>
+<span class="bold-text"><b>_ids</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+</a>
+</span>
+<br/>
 <br/>
 <a id="_list"></a>
 <h2>_list</h2>
@@ -75,7 +111,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -87,7 +123,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -100,7 +136,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -113,7 +149,33 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="cleanname"></a>
+<h2>cleanName</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>cleanName</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">name</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="inline-text">nd</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -139,7 +201,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -158,7 +220,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -188,7 +250,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -201,7 +263,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L96" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L119" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -220,7 +282,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L82" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L105" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -239,7 +301,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L93" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -264,7 +326,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>

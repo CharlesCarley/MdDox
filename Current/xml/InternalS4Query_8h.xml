@@ -6,116 +6,116 @@
     <includedby refid="InternalS4Query_8cpp" local="yes">Tools/Doxygen/InternalS4Query.cpp</includedby>
     <includedby refid="Sect4Query_8cpp" local="yes">Tools/Doxygen/Sect4Query.cpp</includedby>
     <incdepgraph>
-      <node id="6895">
+      <node id="6902">
         <label>Utils/Console.h</label>
-        <childnode refid="6883" relation="include">
+        <childnode refid="6890" relation="include">
         </childnode>
       </node>
-      <node id="6889">
+      <node id="6896">
         <label>iomanip</label>
       </node>
-      <node id="6881">
+      <node id="6888">
         <label>functional</label>
       </node>
-      <node id="6891">
+      <node id="6898">
         <label>Utils/Exception.h</label>
+        <childnode refid="6899" relation="include">
+        </childnode>
+        <childnode refid="6900" relation="include">
+        </childnode>
+        <childnode refid="6901" relation="include">
+        </childnode>
+        <childnode refid="6902" relation="include">
+        </childnode>
+        <childnode refid="6890" relation="include">
+        </childnode>
+      </node>
+      <node id="6900">
+        <label>stdexcept</label>
+      </node>
+      <node id="6894">
+        <label>string</label>
+      </node>
+      <node id="6887">
+        <label>Doxygen.h</label>
+        <childnode refid="6888" relation="include">
+        </childnode>
+        <childnode refid="6889" relation="include">
+        </childnode>
+        <childnode refid="6890" relation="include">
+        </childnode>
+        <childnode refid="6897" relation="include">
+        </childnode>
+        <childnode refid="6898" relation="include">
+        </childnode>
+      </node>
+      <node id="6899">
+        <label>exception</label>
+      </node>
+      <node id="6892">
+        <label>fstream</label>
+      </node>
+      <node id="6897">
+        <label>Xml/Node.h</label>
+        <childnode refid="6888" relation="include">
+        </childnode>
+        <childnode refid="6889" relation="include">
+        </childnode>
+        <childnode refid="6890" relation="include">
+        </childnode>
+      </node>
+      <node id="6890">
+        <label>Utils/String.h</label>
+        <childnode refid="6891" relation="include">
+        </childnode>
         <childnode refid="6892" relation="include">
         </childnode>
         <childnode refid="6893" relation="include">
         </childnode>
         <childnode refid="6894" relation="include">
         </childnode>
-        <childnode refid="6895" relation="include">
-        </childnode>
-        <childnode refid="6883" relation="include">
-        </childnode>
-      </node>
-      <node id="6893">
-        <label>stdexcept</label>
-      </node>
-      <node id="6887">
-        <label>string</label>
-      </node>
-      <node id="6880">
-        <label>Doxygen.h</label>
-        <childnode refid="6881" relation="include">
-        </childnode>
-        <childnode refid="6882" relation="include">
-        </childnode>
-        <childnode refid="6883" relation="include">
-        </childnode>
-        <childnode refid="6890" relation="include">
-        </childnode>
-        <childnode refid="6891" relation="include">
-        </childnode>
-      </node>
-      <node id="6892">
-        <label>exception</label>
-      </node>
-      <node id="6885">
-        <label>fstream</label>
-      </node>
-      <node id="6890">
-        <label>Xml/Node.h</label>
-        <childnode refid="6881" relation="include">
-        </childnode>
-        <childnode refid="6882" relation="include">
-        </childnode>
-        <childnode refid="6883" relation="include">
-        </childnode>
-      </node>
-      <node id="6883">
-        <label>Utils/String.h</label>
-        <childnode refid="6884" relation="include">
-        </childnode>
-        <childnode refid="6885" relation="include">
-        </childnode>
-        <childnode refid="6886" relation="include">
-        </childnode>
-        <childnode refid="6887" relation="include">
-        </childnode>
-        <childnode refid="6882" relation="include">
-        </childnode>
-        <childnode refid="6888" relation="include">
-        </childnode>
         <childnode refid="6889" relation="include">
         </childnode>
-      </node>
-      <node id="6888">
-        <label>vector</label>
-      </node>
-      <node id="6894">
-        <label>utility</label>
-      </node>
-      <node id="6886">
-        <label>sstream</label>
-      </node>
-      <node id="6879">
-        <label>Tools/Doxygen/InternalS4Query.h</label>
-        <link refid="InternalS4Query_8h"/>
-        <childnode refid="6880" relation="include">
+        <childnode refid="6895" relation="include">
+        </childnode>
+        <childnode refid="6896" relation="include">
         </childnode>
       </node>
-      <node id="6884">
+      <node id="6895">
+        <label>vector</label>
+      </node>
+      <node id="6901">
+        <label>utility</label>
+      </node>
+      <node id="6893">
+        <label>sstream</label>
+      </node>
+      <node id="6886">
+        <label>Tools/Doxygen/InternalS4Query.h</label>
+        <link refid="InternalS4Query_8h"/>
+        <childnode refid="6887" relation="include">
+        </childnode>
+      </node>
+      <node id="6891">
         <label>deque</label>
       </node>
-      <node id="6882">
+      <node id="6889">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6898">
+      <node id="6905">
         <label>Tools/Doxygen/Sect4Query.cpp</label>
       </node>
-      <node id="6896">
+      <node id="6903">
         <label>Tools/Doxygen/InternalS4Query.h</label>
         <link refid="InternalS4Query_8h"/>
-        <childnode refid="6897" relation="include">
+        <childnode refid="6904" relation="include">
         </childnode>
-        <childnode refid="6898" relation="include">
+        <childnode refid="6905" relation="include">
         </childnode>
       </node>
-      <node id="6897">
+      <node id="6904">
         <label>Tools/Doxygen/InternalS4Query.cpp</label>
       </node>
     </invincdepgraph>

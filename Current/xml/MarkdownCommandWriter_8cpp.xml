@@ -8,89 +8,83 @@
     <includes refid="Char_8h" local="yes">Utils/Char.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
     <incdepgraph>
-      <node id="1170">
+      <node id="1173">
         <label>functional</label>
       </node>
-      <node id="1160">
+      <node id="1163">
         <label>iomanip</label>
       </node>
-      <node id="1173">
+      <node id="1176">
         <label>Utils/Path.h</label>
-        <childnode refid="1153" relation="include">
+        <childnode refid="1156" relation="include">
         </childnode>
       </node>
-      <node id="1172">
+      <node id="1175">
         <label>cstdint</label>
       </node>
-      <node id="1162">
+      <node id="1165">
         <label>MdDoxTree/HtmlDocumentWriter.h</label>
-        <childnode refid="1163" relation="include">
-        </childnode>
-        <childnode refid="1165" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
-      </node>
-      <node id="1152">
-        <label>MarkdownCommandWriter.h</label>
-        <childnode refid="1153" relation="include">
-        </childnode>
-      </node>
-      <node id="1157">
-        <label>string</label>
-      </node>
-      <node id="1155">
-        <label>fstream</label>
-      </node>
-      <node id="1167">
-        <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="1158" relation="include">
+        <childnode refid="1166" relation="include">
         </childnode>
         <childnode refid="1168" relation="include">
         </childnode>
-        <childnode refid="1153" relation="include">
+        <childnode refid="1156" relation="include">
         </childnode>
       </node>
-      <node id="1164">
-        <label>IconSet.h</label>
-        <childnode refid="1153" relation="include">
+      <node id="1155">
+        <label>MarkdownCommandWriter.h</label>
+        <childnode refid="1156" relation="include">
         </childnode>
       </node>
-      <node id="1169">
-        <label>Xml/Node.h</label>
-        <childnode refid="1170" relation="include">
-        </childnode>
-        <childnode refid="1158" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
+      <node id="1160">
+        <label>string</label>
       </node>
-      <node id="1163">
-        <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="1164" relation="include">
-        </childnode>
-        <childnode refid="1165" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
+      <node id="1158">
+        <label>fstream</label>
       </node>
-      <node id="1161">
-        <label>MarkdownDocumentWriter.h</label>
-        <childnode refid="1162" relation="include">
+      <node id="1170">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="1161" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
-      </node>
-      <node id="1153">
-        <label>Utils/String.h</label>
-        <childnode refid="1154" relation="include">
-        </childnode>
-        <childnode refid="1155" relation="include">
+        <childnode refid="1171" relation="include">
         </childnode>
         <childnode refid="1156" relation="include">
         </childnode>
+      </node>
+      <node id="1167">
+        <label>IconSet.h</label>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>Xml/Node.h</label>
+        <childnode refid="1173" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="1167" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1164">
+        <label>MarkdownDocumentWriter.h</label>
+        <childnode refid="1165" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>Utils/String.h</label>
         <childnode refid="1157" relation="include">
         </childnode>
         <childnode refid="1158" relation="include">
@@ -99,55 +93,61 @@
         </childnode>
         <childnode refid="1160" relation="include">
         </childnode>
-      </node>
-      <node id="1159">
-        <label>vector</label>
-      </node>
-      <node id="1151">
-        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
-        <link refid="MarkdownCommandWriter_8cpp"/>
-        <childnode refid="1152" relation="include">
-        </childnode>
         <childnode refid="1161" relation="include">
         </childnode>
-        <childnode refid="1167" relation="include">
+        <childnode refid="1162" relation="include">
         </childnode>
-        <childnode refid="1171" relation="include">
-        </childnode>
-        <childnode refid="1173" relation="include">
+        <childnode refid="1163" relation="include">
         </childnode>
       </node>
-      <node id="1156">
-        <label>sstream</label>
-      </node>
-      <node id="1171">
-        <label>Utils/Char.h</label>
-        <childnode refid="1172" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
-      </node>
-      <node id="1165">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="1166" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
+      <node id="1162">
+        <label>vector</label>
       </node>
       <node id="1154">
-        <label>deque</label>
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+        <link refid="MarkdownCommandWriter_8cpp"/>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+        <childnode refid="1170" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1176" relation="include">
+        </childnode>
       </node>
-      <node id="1158">
-        <label>unordered_map</label>
+      <node id="1159">
+        <label>sstream</label>
+      </node>
+      <node id="1174">
+        <label>Utils/Char.h</label>
+        <childnode refid="1175" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
       </node>
       <node id="1168">
-        <label>Config.h</label>
-        <childnode refid="1153" relation="include">
-        </childnode>
+        <label>Utils/FileSystem.h</label>
         <childnode refid="1169" relation="include">
         </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
       </node>
-      <node id="1166">
+      <node id="1157">
+        <label>deque</label>
+      </node>
+      <node id="1161">
+        <label>unordered_map</label>
+      </node>
+      <node id="1171">
+        <label>Config.h</label>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1172" relation="include">
+        </childnode>
+      </node>
+      <node id="1169">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

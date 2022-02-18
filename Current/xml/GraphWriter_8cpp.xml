@@ -13,56 +13,52 @@
     <includes refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="702">
+      <node id="704">
         <label>DotWriter.h</label>
-        <childnode refid="683" relation="include">
+        <childnode refid="685" relation="include">
         </childnode>
-        <childnode refid="690" relation="include">
+        <childnode refid="692" relation="include">
         </childnode>
-      </node>
-      <node id="695">
-        <label>Utils/Console.h</label>
-        <childnode refid="683" relation="include">
-        </childnode>
-      </node>
-      <node id="689">
-        <label>iomanip</label>
-      </node>
-      <node id="681">
-        <label>functional</label>
       </node>
       <node id="697">
-        <label>Utils/Path.h</label>
-        <childnode refid="683" relation="include">
+        <label>Utils/Console.h</label>
+        <childnode refid="685" relation="include">
         </childnode>
       </node>
       <node id="691">
+        <label>iomanip</label>
+      </node>
+      <node id="683">
+        <label>functional</label>
+      </node>
+      <node id="699">
+        <label>Utils/Path.h</label>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="693">
         <label>Utils/Exception.h</label>
-        <childnode refid="692" relation="include">
-        </childnode>
-        <childnode refid="693" relation="include">
-        </childnode>
         <childnode refid="694" relation="include">
         </childnode>
         <childnode refid="695" relation="include">
         </childnode>
-        <childnode refid="683" relation="include">
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
         </childnode>
       </node>
-      <node id="677">
+      <node id="679">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
         <link refid="GraphWriter_8cpp"/>
-        <childnode refid="678" relation="include">
+        <childnode refid="680" relation="include">
         </childnode>
-        <childnode refid="698" relation="include">
+        <childnode refid="700" relation="include">
         </childnode>
-        <childnode refid="702" relation="include">
-        </childnode>
-        <childnode refid="703" relation="include">
+        <childnode refid="704" relation="include">
         </childnode>
         <childnode refid="705" relation="include">
-        </childnode>
-        <childnode refid="706" relation="include">
         </childnode>
         <childnode refid="707" relation="include">
         </childnode>
@@ -70,182 +66,186 @@
         </childnode>
         <childnode refid="709" relation="include">
         </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
         <childnode refid="711" relation="include">
         </childnode>
+        <childnode refid="713" relation="include">
+        </childnode>
       </node>
-      <node id="693">
+      <node id="695">
         <label>stdexcept</label>
       </node>
-      <node id="687">
+      <node id="689">
         <label>string</label>
       </node>
-      <node id="680">
+      <node id="682">
         <label>Doxygen.h</label>
-        <childnode refid="681" relation="include">
+        <childnode refid="683" relation="include">
         </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+      </node>
+      <node id="694">
+        <label>exception</label>
+      </node>
+      <node id="687">
+        <label>fstream</label>
+      </node>
+      <node id="711">
+        <label>SiteBuilder.h</label>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="701">
+        <label>IconSet.h</label>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="692">
+        <label>Xml/Node.h</label>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="700">
+        <label>DocumentWriter.h</label>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="707">
+        <label>Doxygen/DoxRefKind.h</label>
         <childnode refid="682" relation="include">
         </childnode>
-        <childnode refid="683" relation="include">
+      </node>
+      <node id="681">
+        <label>Doxygen/GraphQuery.h</label>
+        <childnode refid="682" relation="include">
+        </childnode>
+      </node>
+      <node id="708">
+        <label>Doxygen/NodeQuery.h</label>
+        <childnode refid="682" relation="include">
+        </childnode>
+      </node>
+      <node id="710">
+        <label>LinkedTextWriter.h</label>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>Utils/String.h</label>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
         </childnode>
         <childnode refid="690" relation="include">
         </childnode>
         <childnode refid="691" relation="include">
         </childnode>
       </node>
-      <node id="692">
-        <label>exception</label>
-      </node>
-      <node id="685">
-        <label>fstream</label>
-      </node>
-      <node id="709">
-        <label>SiteBuilder.h</label>
-        <childnode refid="682" relation="include">
-        </childnode>
-        <childnode refid="710" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
-        </childnode>
-      </node>
-      <node id="699">
-        <label>IconSet.h</label>
-        <childnode refid="683" relation="include">
-        </childnode>
-      </node>
       <node id="690">
-        <label>Xml/Node.h</label>
-        <childnode refid="681" relation="include">
-        </childnode>
-        <childnode refid="682" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
-        </childnode>
+        <label>vector</label>
       </node>
-      <node id="698">
-        <label>DocumentWriter.h</label>
-        <childnode refid="699" relation="include">
-        </childnode>
-        <childnode refid="700" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
-        </childnode>
+      <node id="696">
+        <label>utility</label>
       </node>
-      <node id="705">
-        <label>Doxygen/DoxRefKind.h</label>
-        <childnode refid="680" relation="include">
-        </childnode>
+      <node id="688">
+        <label>sstream</label>
       </node>
-      <node id="679">
-        <label>Doxygen/GraphQuery.h</label>
-        <childnode refid="680" relation="include">
+      <node id="713">
+        <label>WriteUtils.h</label>
+        <childnode refid="701" relation="include">
         </childnode>
-      </node>
-      <node id="706">
-        <label>Doxygen/NodeQuery.h</label>
-        <childnode refid="680" relation="include">
-        </childnode>
-      </node>
-      <node id="708">
-        <label>LinkedTextWriter.h</label>
-        <childnode refid="696" relation="include">
-        </childnode>
-        <childnode refid="697" relation="include">
-        </childnode>
-      </node>
-      <node id="683">
-        <label>Utils/String.h</label>
-        <childnode refid="684" relation="include">
+        <childnode refid="714" relation="include">
         </childnode>
         <childnode refid="685" relation="include">
         </childnode>
-        <childnode refid="686" relation="include">
-        </childnode>
-        <childnode refid="687" relation="include">
-        </childnode>
+      </node>
+      <node id="706">
+        <label>DoxGraphRelation.h</label>
         <childnode refid="682" relation="include">
         </childnode>
-        <childnode refid="688" relation="include">
+      </node>
+      <node id="702">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="703" relation="include">
         </childnode>
-        <childnode refid="689" relation="include">
+        <childnode refid="685" relation="include">
         </childnode>
       </node>
-      <node id="688">
-        <label>vector</label>
-      </node>
-      <node id="694">
-        <label>utility</label>
-      </node>
-      <node id="686">
-        <label>sstream</label>
-      </node>
-      <node id="711">
-        <label>WriteUtils.h</label>
+      <node id="709">
+        <label>Link.h</label>
         <childnode refid="699" relation="include">
         </childnode>
-        <childnode refid="712" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
+        <childnode refid="685" relation="include">
         </childnode>
       </node>
-      <node id="704">
-        <label>DoxGraphRelation.h</label>
-        <childnode refid="680" relation="include">
-        </childnode>
-      </node>
-      <node id="700">
-        <label>Utils/FileSystem.h</label>
-        <childnode refid="701" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
-        </childnode>
-      </node>
-      <node id="707">
-        <label>Link.h</label>
-        <childnode refid="697" relation="include">
-        </childnode>
-        <childnode refid="683" relation="include">
-        </childnode>
-      </node>
-      <node id="696">
+      <node id="698">
         <label>Doxygen/LinkedTextQuery.h</label>
-        <childnode refid="680" relation="include">
+        <childnode refid="682" relation="include">
         </childnode>
       </node>
-      <node id="684">
+      <node id="686">
         <label>deque</label>
       </node>
-      <node id="682">
+      <node id="684">
         <label>unordered_map</label>
       </node>
-      <node id="678">
+      <node id="680">
         <label>GraphWriter.h</label>
-        <childnode refid="679" relation="include">
+        <childnode refid="681" relation="include">
         </childnode>
-        <childnode refid="696" relation="include">
+        <childnode refid="698" relation="include">
         </childnode>
-        <childnode refid="697" relation="include">
+        <childnode refid="699" relation="include">
         </childnode>
       </node>
-      <node id="703">
+      <node id="705">
         <label>Doxygen/ChildNodeQuery.h</label>
-        <childnode refid="680" relation="include">
+        <childnode refid="682" relation="include">
         </childnode>
-        <childnode refid="704" relation="include">
-        </childnode>
-      </node>
-      <node id="710">
-        <label>Config.h</label>
-        <childnode refid="683" relation="include">
-        </childnode>
-        <childnode refid="690" relation="include">
+        <childnode refid="706" relation="include">
         </childnode>
       </node>
       <node id="712">
-        <label>MdDoxTree/Reference.h</label>
-        <childnode refid="683" relation="include">
+        <label>Config.h</label>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
         </childnode>
       </node>
-      <node id="701">
+      <node id="714">
+        <label>MdDoxTree/Reference.h</label>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

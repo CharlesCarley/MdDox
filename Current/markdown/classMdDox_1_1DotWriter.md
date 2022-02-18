@@ -88,7 +88,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L113" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L136" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -110,7 +110,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L119" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -151,7 +151,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L148" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
 <br/>

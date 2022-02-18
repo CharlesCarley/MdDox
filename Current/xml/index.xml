@@ -317,10 +317,13 @@
     <member refid="classMdDox_1_1DotWriter_1a6500f224a09bf037c361a9e470784343" kind="function"><name>write</name></member>
   </compound>
   <compound refid="classMdDox_1_1DotWriterImpl" kind="class"><name>MdDox::DotWriterImpl</name>
+    <member refid="classMdDox_1_1DotWriterImpl_1a5730e64fd09ed360a1caaf9f2455c808" kind="variable"><name>_count</name></member>
+    <member refid="classMdDox_1_1DotWriterImpl_1aae9aafad642810ae921f116ba4362a7c" kind="variable"><name>_ids</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a68bd7675b5e247f72e8a4464689c9755" kind="variable"><name>_list</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a2eaa2457243e85d512e152b8deeee914" kind="variable"><name>_out</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a73fea8058ddaecc761c852bc5e216e00" kind="variable"><name>_root</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1a99accd170792f9b1b166e1f4512496eb" kind="variable"><name>_stream</name></member>
+    <member refid="classMdDox_1_1DotWriterImpl_1ab26b8a6808984a62150bd78740884589" kind="function"><name>cleanName</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1ab994cdc8d2eb239b5a9255c062ccb71d" kind="function"><name>lineTo</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1ac547cae26bb495a7fbec1e91bf0b07bc" kind="function"><name>writeNodeDecl</name></member>
     <member refid="classMdDox_1_1DotWriterImpl_1abd5e732ac7208d01d4a0928c7db47d89" kind="function"><name>DotWriterImpl</name></member>
@@ -2295,8 +2298,7 @@
     <member refid="classMdDox_1_1IndexPageWriter_1ad06e1785cdbe0f7186bb539769aced40" kind="variable"><name>_writer</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1aec94abb8b8d9f45b1fa2e7685aa47cb5" kind="function"><name>dispatchFilter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1afd6bd463f95fc3691b896eb248718fbf" kind="function"><name>makeFilename</name></member>
-    <member refid="classMdDox_1_1IndexPageWriter_1a98cfd9fe52ab14b691e63013930ebefa" kind="function"><name>writeReferenceList</name></member>
-    <member refid="classMdDox_1_1IndexPageWriter_1a2ca2a2a95a7e397141b29d2b222842d5" kind="function"><name>writeReferenceListDirectory</name></member>
+    <member refid="classMdDox_1_1IndexPageWriter_1a056727376fb08d5aff424cd197ce7643" kind="function"><name>writeReferenceFile</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1af32e63230ba9618577ed2c40727804a6" kind="function"><name>IndexPageWriter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" kind="function"><name>exec</name></member>
   </compound>
@@ -2972,6 +2974,7 @@
     <member refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kind="typedef"><name>StringMap</name></member>
     <member refid="namespaceMdDox_1a44797403486135f74c4a8bb2d3594b2b" kind="typedef"><name>StringStream</name></member>
     <member refid="namespaceMdDox_1ac3281bf161fc4483a362d7d0927b1625" kind="typedef"><name>StringTable</name></member>
+    <member refid="namespaceMdDox_1af1065749252a3e36b7e5252c36bfec37" kind="typedef"><name>StrIntMap</name></member>
     <member refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kind="typedef"><name>TypeFilterMap</name></member>
     <member refid="namespaceMdDox_1a28f35335310a4d1aa09614c91dab0f3f" kind="variable"><name>__gBackground</name></member>
     <member refid="namespaceMdDox_1ac05449930d4a31a869805987c439e117" kind="variable"><name>__gForeground</name></member>

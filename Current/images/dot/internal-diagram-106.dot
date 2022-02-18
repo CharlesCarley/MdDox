@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W9BlALF[
+ 0[
    shape    = none
    label    = "DoxygenIndexQueryVisitor"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- d0BlALF[
+ 1[
    shape    = none
    label    = "IndexPageWriter"
    margin   = "0.01"
@@ -22,5 +22,5 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W9BlALF->d0BlALF
+ 0->1
 }

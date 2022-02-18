@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="113" bodyend="117"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="136" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DotWriter_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="119" bodyend="123"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="142" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DotWriter_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -94,8 +94,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="125" bodyend="129"/>
-        <references refid="classMdDox_1_1DotWriterImpl_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="DotWriter_8cpp" startline="96" endline="110">MdDox::DotWriterImpl::writeContent</references>
+        <location file="Source/MdDoxTree/DotWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="148" bodyend="152"/>
+        <references refid="classMdDox_1_1DotWriterImpl_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="DotWriter_8cpp" startline="119" endline="133">MdDox::DotWriterImpl::writeContent</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

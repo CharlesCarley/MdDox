@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
 <title>%3</title>
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 150,-40 150,4 -4,4"/>
-<!-- qoAMALF -->
-<g id="node1" class="node"><title>qoAMALF</title>
+<!-- 0 -->
+<g id="node1" class="node"><title>0</title>
 <text text-anchor="middle" x="28" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">ParserBase</text>
 </g>
-<!-- DJAMALF -->
-<g id="node2" class="node"><title>DJAMALF</title>
+<!-- 1 -->
+<g id="node2" class="node"><title>1</title>
 <text text-anchor="middle" x="119" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#010509">Parser</text>
 </g>
-<!-- qoAMALF&#45;&gt;DJAMALF -->
-<g id="edge1" class="edge"><title>qoAMALF&#45;&gt;DJAMALF</title>
+<!-- 0&#45;&gt;1 -->
+<g id="edge1" class="edge"><title>0&#45;&gt;1</title>
 <path fill="none" stroke="#69bfff" d="M56.1865,-18C65.8505,-18 76.8052,-18 86.7799,-18"/>
 <polygon fill="#69bfff" stroke="#69bfff" points="86.8947,-19.7501 91.8947,-18 86.8946,-16.2501 86.8947,-19.7501"/>
 </g>

@@ -39,6 +39,7 @@
 #include "ParameterListWriter.h"
 #include "Utils/Path.h"
 #include "WriteUtils.h"
+#include "Doxygen/HeadingQuery.h"
 
 namespace MdDox
 {
@@ -243,7 +244,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedHeading(const Doxygen::HeadingQuery& query)
     {
-        WRITE_STUB(_writer, _out);
+        _writer->addSection(_out, query.text(), (int)query.getLevel());
     }
 
     void ParagraphWriter::visitedImage(const Doxygen::ImageQuery& query)

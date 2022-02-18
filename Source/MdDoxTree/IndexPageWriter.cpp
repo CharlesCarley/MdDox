@@ -35,6 +35,7 @@
 #include "NamespacePageWriter.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Path.h"
+#include "WriteUtils.h"
 #include "Xml/Parser.h"
 
 namespace MdDox
@@ -57,6 +58,7 @@ namespace MdDox
 
             switch (query.getKind())
             {
+            case Doxygen::DCK_GROUP:
             case Doxygen::DCK_EXAMPLE:
             case Doxygen::DCK_PAGE:
                 pages.push_back(compoundRef);
@@ -72,18 +74,19 @@ namespace MdDox
                 break;
             case Doxygen::DCK_DIR:
             {
-                dirPaths.push_back(compoundRef);
                 const String name = compoundRef.getName();
 
                 StringArray str;
                 StringUtils::split(str, name, "/");
                 if (!str.empty())
+                {
                     compoundRef.setName(str.back());
-
+                    if (str.size() == 1)
+                        dirPaths.push_back(compoundRef);
+                }
                 directories.push_back(compoundRef);
             }
             break;
-            case Doxygen::DCK_GROUP:
             case Doxygen::DCK_INTERFACE:
             case Doxygen::DCK_SERVICE:
             case Doxygen::DCK_PROTOCOL:
@@ -119,7 +122,7 @@ namespace MdDox
     {
         Console::writeLine("dispatchPage: ", page.getName());
 
-        PathUtil path(indexDir);
+    	PathUtil path(indexDir);
         path.fileName(StringCombine(page.getReference(), ".xml"));
 
         if (path.exists())
@@ -147,51 +150,50 @@ namespace MdDox
             dispatch<DirectoryPageWriter>(_writer, page, _indexDir, _outDir);
     }
 
-    String IndexPageWriter::makeFilename(const Reference& ref) const
+	String IndexPageWriter::makeFilename(const Reference& ref) const
     {
         return StringCombine(ref.getReference(),
                              SiteBuilder::get().outputFileExt,
                              HashUtils::heading(ref.getName()));
     }
 
-    void IndexPageWriter::writeReferenceList(OStream&             out,
-                                             const IconId         icon,
+    void IndexPageWriter::writeReferenceFile(const String&        name,
+                                             IconId               icon,
                                              const String&        heading,
                                              const ReferenceList& list) const
     {
-        _writer->beginSection(out, heading, 2);
+        OutputFileStream out(name);
+        if (!out.is_open())
+            throw InputException("Failed to open the supplied file path: ", name);
+
+        const SiteBuilder& builder = SiteBuilder::get();
+
+        _writer->beginDocument(out, heading);
+
+        _writer->linkText(out, "~", builder.siteUrl);
+        _writer->linkPage(out, "Main", "indexpage");
+        _writer->inlineText(out, "/");
+        _writer->linkPage(out, "Contents", "index");
+        _writer->inlineText(out, "/");
+        _writer->boldText(out, heading);
+        _writer->lineBreak(out);
+        _writer->lineBreak(out);
+
+        _writer->beginSection(out, "Contents", 2);
         for (const Reference& page : list)
         {
             _writer->embedContentLinkText(out, icon, makeFilename(page), LinkUtils::lastBinaryResolution(page.getName()));
             _writer->lineBreak(out);
         }
         _writer->endSection(out);
-    }
-
-    void IndexPageWriter::writeReferenceListDirectory(OStream&             out,
-                                                      const IconId         icon,
-                                                      const String&        heading,
-                                                      const ReferenceList& list) const
-    {
-        _writer->beginSection(out, heading, 2);
-        for (const Reference& page : list)
-        {
-            StringArray arr;
-            StringUtils::split(arr, page.getName(), "/");
-            if (arr.size() == 1)
-            {
-                _writer->embedContentLinkText(out, icon, makeFilename(page), LinkUtils::lastBinaryResolution(page.getName()));
-                _writer->lineBreak(out);
-            }
-        }
-        _writer->endSection(out);
+        _writer->endDocument(out);
     }
 
     void IndexPageWriter::exec(const Doxygen::DoxygenIndexQuery& query, const PathUtil& outDir)
     {
         const SiteBuilder& builder = SiteBuilder::get();
 
-    	_outDir                    = outDir;
+        _outDir = outDir;
         _outDir.fileName(StringCombine("index", builder.outputFileExt));
 
         OutputFileStream out(_outDir.fullPath());
@@ -199,7 +201,7 @@ namespace MdDox
         {
             _stream = &out;
 
-        	// extract all, classes, namespaces, directories, and pages.
+            // extract all, classes, namespaces, directories, and pages.
             IndexPageFilter filter;
             query.visit(&filter);
 
@@ -208,38 +210,57 @@ namespace MdDox
             _writer->linkText(out, "~", builder.siteUrl);
             _writer->linkPage(out, "Main", "indexpage");
             _writer->inlineText(out, "/");
-            _writer->boldText(out, "Index");
-            _writer->lineBreak(out);
-            _writer->lineBreak(out);
+            _writer->boldText(out, "Contents");
+
+            String file;
+            String name;
+            _outDir = outDir;
 
             _writer->beginSection(out, "Contents", 2);
-            _writer->beginList(out);
 
-            _writer->beginListItem(out);
-            _writer->linkHeading(out, "Directories", "#directories");
-            _writer->endListItem(out);
+            // Pages
+            StringCombine(name, "page_index", builder.outputFileExt);
+            StringCombine(file, _outDir.fullPath(), '/', name);
+            writeReferenceFile(file, ICO_FILE, "Pages", filter.pages);
+            name.push_back('#');
 
-            _writer->beginListItem(out);
-            _writer->linkHeading(out, "Namespaces", "#namespaces");
-            _writer->endListItem(out);
+            _writer->embedContentLinkText(out, ICO_ENUM, name, "Pages");
+            _writer->lineBreak(out);
 
-            _writer->beginListItem(out);
-            _writer->linkHeading(out, "Classes", "#classes");
-            _writer->endListItem(out);
+            // Directories
+            StringCombine(name, "directory_index", builder.outputFileExt);
+            StringCombine(file, _outDir.fullPath(), '/', name);
+            writeReferenceFile(file, ICO_FOLDER, "Directories", filter.dirPaths);
+            name.push_back('#');
 
-            _writer->endList(out);
+            _writer->embedContentLinkText(out, ICO_ENUM, name, "Directories");
+            _writer->lineBreak(out);
+
+            // Namespaces
+            StringCombine(name, "namespace_index", builder.outputFileExt);
+            StringCombine(file, _outDir.fullPath(), '/', name);
+            writeReferenceFile(file, ICO_NAMESPACE, "Namespaces", filter.namespaces);
+            name.push_back('#');
+
+            _writer->embedContentLinkText(out, ICO_ENUM, name, "Namespaces");
+            _writer->lineBreak(out);
+
+            // Classes
+            StringCombine(name, "class_index", builder.outputFileExt);
+            StringCombine(file, _outDir.fullPath(), '/', name);
+            writeReferenceFile(file, ICO_CLASS, "Classes", filter.classes);
+            name.push_back('#');
+
+            _writer->embedContentLinkText(out, ICO_ENUM, name, "Classes");
+            _writer->lineBreak(out);
+
             _writer->endSection(out);
-
-            writeReferenceListDirectory(out, ICO_FOLDER, "Directories", filter.dirPaths);
-            writeReferenceList(out, ICO_NAMESPACE, "Namespaces", filter.namespaces);
-            writeReferenceList(out, ICO_CLASS, "Classes", filter.classes);
 
             _writer->endDocument(out, "../index.xml");
 
             dispatchFilter(filter);
-
-
-        	_stream = nullptr;
+            _stream = nullptr;
         }
     }
+
 }  // namespace MdDox

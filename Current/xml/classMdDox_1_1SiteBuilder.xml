@@ -344,7 +344,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="190" endline="244">MdDox::IndexPageWriter::exec</references>
+        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="192" endline="264">MdDox::IndexPageWriter::exec</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="200">outputDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

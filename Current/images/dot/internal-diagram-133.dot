@@ -6,7 +6,7 @@ digraph {
    arrowsize = "0.5"
    color     = "#69BFFFFF"
  ]
- W8HlALF[
+ 0[
    shape    = none
    label    = "Writer"
    margin   = "0.01"
@@ -14,7 +14,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dJUHALF[
+ 1[
    shape    = none
    label    = "Object"
    margin   = "0.01"
@@ -22,7 +22,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- WbHlALF[
+ 2[
    shape    = none
    label    = "Simple"
    margin   = "0.01"
@@ -30,7 +30,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dhyHALF[
+ 3[
    shape    = none
    label    = "Group"
    margin   = "0.01"
@@ -38,7 +38,7 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dYcHALF[
+ 4[
    shape    = none
    label    = "Complex"
    margin   = "0.01"
@@ -46,10 +46,10 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- dhyHALF->dYcHALF
- dJUHALF->WbHlALF
- dJUHALF->dhyHALF
- WKUHALF[
+ 3->4
+ 1->2
+ 1->3
+ 5[
    shape    = none
    label    = "Common"
    margin   = "0.01"
@@ -57,6 +57,6 @@ digraph {
    fontsize = "11"
    fontcolor= "#010509FF"
  ]
- W8HlALF->dJUHALF
- W8HlALF->WKUHALF
+ 0->1
+ 0->5
 }

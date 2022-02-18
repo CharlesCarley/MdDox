@@ -392,6 +392,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#strintmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StrIntMap</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#typefiltermap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilterMap</span>
 </a>
 </span>
@@ -526,7 +530,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Current/pages/Index.h#L24" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Current/pages/Index.h#L23" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
 <br/>
@@ -1058,6 +1062,20 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
+<a id="strintmap"></a>
+<h2>StrIntMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text">, int &gt;</span>
+<span class="bold-text"><b>StrIntMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DotWriter.cpp#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
 <a id="typefiltermap"></a>
 <h2>TypeFilterMap</h2>
 <span class="inline-text">std::unordered_map&lt; </span>
@@ -1272,7 +1290,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L118" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/IndexPageWriter.cpp#L121" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>
