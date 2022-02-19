@@ -43,8 +43,7 @@ namespace MdDox
 
         void cleanName(String& name, const Node* nd)
         {
-            int cnt = 0;
-
+            int cnt;
             const StrIntMap::iterator it = _ids.find(nd->name());
             if (it != _ids.end())
                 cnt = it->second;
@@ -139,7 +138,7 @@ namespace MdDox
     {
     }
 
-    DotWriter::DotWriter(Xml::NodeArray* list) :
+    DotWriter::DotWriter(NodeArray* list) :
         _root(nullptr),
         _list(list)
     {

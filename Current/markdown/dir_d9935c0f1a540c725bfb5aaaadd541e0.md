@@ -4,7 +4,7 @@
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#toc">TOC</a>
+<a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
 <a href="dir_74389ed8173ad57b461b9d623a1f3867.md#source">Source</a>
 <span class="inline-text">/</span>

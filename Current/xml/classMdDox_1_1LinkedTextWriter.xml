@@ -130,7 +130,7 @@
         <location file="Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="58" bodyend="66"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a87fbbc8198d459fc80cafc7f3394f404" compoundref="LinkedTextQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::LinkedTextQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="164" endline="175">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="165" endline="176">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

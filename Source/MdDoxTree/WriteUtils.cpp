@@ -52,7 +52,7 @@ namespace MdDox
 
         const SiteBuilder& builder = SiteBuilder::get();
 
-        // RepoHome MainPage / TOC
+        // (~RepoHome) MainPage / Index / NS0::NS1::lastBinaryResolution
         writeCommonNav(out, writer);
 
         while (!navList.empty())
@@ -88,7 +88,7 @@ namespace MdDox
         writeCommonNav(out, writer);
 
         // for the directory to be unique,
-        // it needs to store the file path
+        // it needs to store the file path.
         // So, to link back to individual directories
         // it needs to be constructed as a relative path.
         // (front to back)
@@ -104,7 +104,6 @@ namespace MdDox
                 writer->linkRef(out, 0, id.getReference(), navList.front());
                 writer->inlineText(out, "/");
             }
-
             navList.pop_front();
             reconstruct.push_back('/');
         }

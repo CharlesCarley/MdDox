@@ -177,16 +177,16 @@
         <childnode refid="1588" relation="include">
         </childnode>
       </node>
-      <node id="1631">
+      <node id="1630">
         <label>Doxygen/DoxMemberKind.h</label>
         <childnode refid="1588" relation="include">
         </childnode>
       </node>
-      <node id="1629">
+      <node id="1631">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1630" relation="include">
+        <childnode refid="1629" relation="include">
         </childnode>
-        <childnode refid="1631" relation="include">
+        <childnode refid="1630" relation="include">
         </childnode>
         <childnode refid="1632" relation="include">
         </childnode>
@@ -347,7 +347,7 @@
         <childnode refid="1588" relation="include">
         </childnode>
       </node>
-      <node id="1630">
+      <node id="1629">
         <label>Doxygen/DoxCompoundKind.h</label>
         <childnode refid="1588" relation="include">
         </childnode>

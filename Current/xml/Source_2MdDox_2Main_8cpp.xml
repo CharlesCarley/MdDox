@@ -11,7 +11,7 @@
     <includes refid="CrtUtils_8h" local="yes">Utils/Win32/CrtUtils.h</includes>
     <includes refid="Xml_2Parser_8h" local="yes">Xml/Parser.h</includes>
     <incdepgraph>
-      <node id="38">
+      <node id="37">
         <label>Utils/Console.h</label>
         <childnode refid="16" relation="include">
         </childnode>
@@ -53,15 +53,15 @@
       <node id="45">
         <label>cstdint</label>
       </node>
-      <node id="34">
+      <node id="33">
         <label>Utils/Exception.h</label>
+        <childnode refid="34" relation="include">
+        </childnode>
         <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
@@ -78,7 +78,7 @@
       <node id="43">
         <label>cassert</label>
       </node>
-      <node id="36">
+      <node id="35">
         <label>stdexcept</label>
       </node>
       <node id="48">
@@ -87,7 +87,7 @@
       <node id="20">
         <label>string</label>
       </node>
-      <node id="33">
+      <node id="32">
         <label>Doxygen.h</label>
         <childnode refid="30" relation="include">
         </childnode>
@@ -97,13 +97,13 @@
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="54">
         <label>unordered_set</label>
       </node>
-      <node id="35">
+      <node id="34">
         <label>exception</label>
       </node>
       <node id="18">
@@ -117,7 +117,7 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
@@ -176,9 +176,9 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="38">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="33" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="49">
@@ -194,11 +194,11 @@
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="39">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="32" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
@@ -231,7 +231,7 @@
       <node id="22">
         <label>vector</label>
       </node>
-      <node id="37">
+      <node id="36">
         <label>utility</label>
       </node>
       <node id="19">
@@ -248,9 +248,9 @@
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
@@ -295,12 +295,12 @@
         </childnode>
         <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="31">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="33" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="28">

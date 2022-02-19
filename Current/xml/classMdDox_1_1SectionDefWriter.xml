@@ -165,7 +165,7 @@
         <location file="Source/MdDoxTree/SectionDefWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/SectionDefWriter.cpp" bodystart="52" bodyend="60"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectionDefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="164" endline="175">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="165" endline="176">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

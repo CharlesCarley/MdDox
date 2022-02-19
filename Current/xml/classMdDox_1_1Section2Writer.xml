@@ -143,7 +143,7 @@
         <references refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4ed2a7edec3acaa9ef83d5e294f5bbd7" compoundref="Sect2Query_8cpp" startline="67" endline="74">MdDox::Doxygen::Sect2Query::getTitle</references>
         <references refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4dbfe59718c3b0c0988371984915c24c" compoundref="Sect2Query_8cpp" startline="31" endline="59">MdDox::Doxygen::Sect2Query::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64">MdDox::DocumentWriter::endSection</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="164" endline="175">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="165" endline="176">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
