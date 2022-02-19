@@ -40,6 +40,8 @@ namespace MdDox
         MemberReferenceMap   _members;
         CompoundNameMap      _nameMap[Doxygen::DoxCompoundKindEnum::DCK_MAX];
 
+    	void insertByName(const Doxygen::DoxCompoundKindEnum& kind, CompoundReference *ref);
+
     public:
         ReferenceTable() = default;
         ~ReferenceTable();
@@ -47,7 +49,8 @@ namespace MdDox
         void insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id);
 
         CompoundReference* getCompoundRef(const String& id);
-        Reference          findNamespace(const String& nsName) const;
+
+        Reference findByName(const Doxygen::DoxCompoundKindEnum& kind, const String& name) const;
 
         void insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id);
 

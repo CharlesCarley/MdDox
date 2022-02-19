@@ -22,15 +22,15 @@
 #pragma once
 #include <unordered_map>
 #include "Config.h"
-#include "ReferenceIdentifiers.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxMemberKind.h"
+#include "ReferenceIdentifiers.h"
 #include "Utils/String.h"
 
 namespace MdDox
 {
-	class ReferenceTable;
-	class Page;
+    class ReferenceTable;
+    class Page;
     class DocumentWriter;
 
     enum BackendWriter
@@ -101,12 +101,12 @@ namespace MdDox
     class SiteBuilder
     {
     private:
-        static SiteBuilder*   _singleton;
-        mutable ReferenceMap  _ids;
-        mutable ReferenceMap  _names;
-        mutable ReferenceMap  _members;
-        mutable StringArray   _dotFiles;
-        mutable Config        _dot;
+        static SiteBuilder*     _singleton;
+        mutable ReferenceMap    _ids;
+        mutable ReferenceMap    _names;
+        mutable ReferenceMap    _members;
+        mutable StringArray     _dotFiles;
+        mutable Config          _dot;
         mutable ReferenceTable* _referenceMap;
 
         /**
@@ -134,20 +134,17 @@ namespace MdDox
     	 */
         void loadConfig(const String& configFile);
 
-        void insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
+        void               insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
         CompoundReference* getCompoundRef(const String& id) const;
 
-    	Reference          findNamespace(const String& name) const;
+        Reference findNamespace(const String& name) const;
+        Reference findDirectory(const String& name) const;
 
-    	String getCompoundName(const String& id) const;
+        String getCompoundName(const String& id) const;
 
-    	
-        void insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;
+        void             insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;
         MemberReference* getMemberRef(const String& id) const;
 
-
-
-    	
         /**
          * \brief Register a name that can be linked to a reference
          * \param name the name to store the reference by

@@ -178,7 +178,14 @@ namespace MdDox
     Reference SiteBuilder::findNamespace(const String& name) const
     {
         if (_referenceMap)
-            return _referenceMap->findNamespace(name);
+            return _referenceMap->findByName(Doxygen::DCK_NAMESPACE, name);
+        return {};
+    }
+
+    Reference SiteBuilder::findDirectory(const String& name) const
+    {
+        if (_referenceMap)
+            return _referenceMap->findByName(Doxygen::DCK_DIR, name);
         return {};
     }
 

@@ -6,7 +6,7 @@
 <span class="inline-text">/</span>
 <a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<span class="bold-text"><b>(empty title)</b></span>
+<a href="dir_f19befb0a20a037054255eb425fb4872.md#current">Current</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>pages</b></span>
 <br/>

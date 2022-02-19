@@ -40,39 +40,34 @@ namespace MdDox
         writer->inlineText(out, "/");
     }
 
-    
-	
     void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
+        const String split = "::";
 
-    	const String split = "::";
-    	
         StringDeque navList;
         StringUtils::split(navList, item.getName(), split);
 
-
-    	const String lastSep = navList.back();
+        const String lastSep = navList.back();
         navList.pop_back();
 
         const SiteBuilder& builder = SiteBuilder::get();
 
-    	// RepoHome MainPage / TOC
+        // RepoHome MainPage / TOC
         writeCommonNav(out, writer);
 
-
-    	while (!navList.empty())
+        while (!navList.empty())
         {
-    		// resolve references for each split.
-    		String curName = navList.front();
-            
-    		Reference id = builder.findNamespace(curName);
-    		if (!id.empty())
+            // resolve references for each split.
+            String curName = navList.front();
+
+            Reference id = builder.findNamespace(curName);
+            if (!id.empty())
             {
                 writer->linkRef(out, 0, id.getReference(), LinkUtils::lastBinaryResolution(id.getName()));
                 writer->inlineText(out, "::");
             }
 
-    		navList.pop_front();
+            navList.pop_front();
         }
 
         writer->boldText(out, lastSep);
@@ -80,38 +75,45 @@ namespace MdDox
         writer->lineBreak(out);
     }
 
-
-	void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
+    void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
         StringDeque navList;
         StringUtils::split(navList, item.getName(), "/");
 
-        const String localName = navList.back();
+        const String lastPath = navList.back();
         navList.pop_back();
 
-    	
+        const SiteBuilder& builder = SiteBuilder::get();
+
         writeCommonNav(out, writer);
 
-        if (!navList.empty())
-        {
-            writer->linkRef(out, 0, navList.front());
-            writer->inlineText(out, "/");
+        // for the directory to be unique,
+        // it needs to store the file path
+        // So, to link back to individual directories
+        // it needs to be constructed as a relative path.
+        // (front to back)
+        String reconstruct;
 
-        	navList.pop_front();
-            while (!navList.empty())
+        while (!navList.empty())
+        {
+            StringCombine(reconstruct, reconstruct, navList.front());
+
+            Reference id = builder.findDirectory(reconstruct);
+            if (!id.empty())
             {
-                writer->linkRef(out, 0, navList.front());
+                writer->linkRef(out, 0, id.getReference(), navList.front());
                 writer->inlineText(out, "/");
-                navList.pop_front();
             }
+
+            navList.pop_front();
+            reconstruct.push_back('/');
         }
 
-    	writer->boldText(out, localName);
+        writer->boldText(out, lastPath);
         writer->lineBreak(out);
         writer->lineBreak(out);
     }
-    
-    
+
     void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
         const String title = LinkUtils::lastBinaryResolution(ref.getName());

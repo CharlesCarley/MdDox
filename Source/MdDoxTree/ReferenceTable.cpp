@@ -25,12 +25,39 @@
 
 namespace MdDox
 {
+
     ReferenceTable::~ReferenceTable()
     {
         for (auto& [id, ref] : _members)
             delete ref;
         for (auto& [id, ref] : _compound)
             delete ref;
+    }
+
+	void ReferenceTable::insertByName(const Doxygen::DoxCompoundKindEnum& kind, CompoundReference* ref)
+    {
+        if (kind > 0 && kind < Doxygen::DCK_MAX)
+        {
+            CompoundNameMap& cnm = _nameMap[kind];
+
+        	const String& name = ref->getName();
+
+            if (kind == Doxygen::DCK_NAMESPACE)
+            {
+                // store the name space by its last name
+                String lu = LinkUtils::lastBinaryResolution(name);
+
+                const CompoundNameMap::const_iterator cit = cnm.find(lu);
+                if (cit == cnm.end())
+                    cnm.insert(std::make_pair(lu, ref));
+            }
+            else if (kind == Doxygen::DCK_DIR)
+            {
+                const CompoundNameMap::const_iterator cit = cnm.find(name);
+                if (cit == cnm.end())
+                    cnm.insert(std::make_pair(name, ref));
+            }
+        }
     }
 
     void ReferenceTable::insertCompound(const Doxygen::DoxCompoundKindEnum& kind,
@@ -45,25 +72,7 @@ namespace MdDox
             cref->setReference(id);
             cref->setKind(kind);
 
-
-        	if (kind > 0 && kind < Doxygen::DCK_MAX)
-        	{
-                CompoundNameMap& cnm = _nameMap[kind];
-
-        		if (kind == Doxygen::DCK_NAMESPACE)
-        		{
-        			// store the name space by its last name 
-                    String lu = LinkUtils::lastBinaryResolution(name);
-
-        			const CompoundNameMap::const_iterator cit = cnm.find(lu);
-                    if (cit == cnm.end())
-                        cnm.insert(std::make_pair(lu, cref));
-        		}
-
-        	}
-
-        	
-
+        	insertByName(kind, cref);
             _compound.insert(std::make_pair(id, cref));
         }
         else
@@ -80,26 +89,29 @@ namespace MdDox
         return nullptr;
     }
 
-    Reference ReferenceTable::findNamespace(const String& nsName) const
+    Reference ReferenceTable::findByName(const Doxygen::DoxCompoundKindEnum& kind, const String& name) const
     {
-        const CompoundNameMap& cnm = _nameMap[Doxygen::DoxCompoundKindEnum::DCK_NAMESPACE];
-
         Reference ref;
-
-    	const CompoundNameMap::const_iterator it = cnm.find(nsName);
-        if (it != cnm.end())
+        if (kind >= 0 && kind < Doxygen::DCK_MAX)
         {
-            CompoundReference* cref = it->second;
-            if (cref)
+            const CompoundNameMap& cnm = _nameMap[kind];
+
+            const CompoundNameMap::const_iterator it = cnm.find(name);
+            if (it != cnm.end())
             {
-                ref.setName(cref->getName());
-                ref.setReference(cref->getReference());
+                CompoundReference* cref = it->second;
+                if (cref)
+                {
+                    ref.setName(cref->getName());
+                    ref.setReference(cref->getReference());
+                }
             }
         }
         return ref;
     }
 
-    void ReferenceTable::insertMember(const Doxygen::DoxMemberKindEnum& kind,
+
+	void ReferenceTable::insertMember(const Doxygen::DoxMemberKindEnum& kind,
                                       const String&                     name,
                                       const String&                     id)
     {
