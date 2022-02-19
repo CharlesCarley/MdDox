@@ -117,6 +117,7 @@
       <member refid="classMdDox_1_1MemberReference_1a6094a6a8e644a5567b700ede062558ed" prot="private" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>_kind</name></member>
       <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="protected" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>_name</name></member>
       <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="protected" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>_ref</name></member>
+      <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>empty</name></member>
       <member refid="classMdDox_1_1MemberReference_1a22463d3ae05194a06cd03945a09a6795" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getKind</name></member>
       <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getName</name></member>
       <member refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getReference</name></member>

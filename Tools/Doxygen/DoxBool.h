@@ -50,6 +50,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxBool.no</tt> value.
          */
         DB_NO,
+        DB_MAX
     };
 
     class DoxBool

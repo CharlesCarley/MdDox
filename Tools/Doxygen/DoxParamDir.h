@@ -55,6 +55,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxParamDir.inout</tt> value.
          */
         DPD_INOUT,
+        DPD_MAX
     };
 
     class DoxParamDir

@@ -376,10 +376,10 @@
       <node id="6199">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="6148">
+      <node id="6147">
         <label>Tools/Doxygen/DoxRefKind.cpp</label>
       </node>
-      <node id="6146">
+      <node id="6145">
         <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
       <node id="6217">
@@ -494,7 +494,7 @@
         <childnode refid="6256" relation="include">
         </childnode>
       </node>
-      <node id="6144">
+      <node id="6150">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="6313">
@@ -572,11 +572,11 @@
         </childnode>
         <childnode refid="6143" relation="include">
         </childnode>
-        <childnode refid="6149" relation="include">
+        <childnode refid="6148" relation="include">
         </childnode>
         <childnode refid="6153" relation="include">
         </childnode>
-        <childnode refid="6145" relation="include">
+        <childnode refid="6144" relation="include">
         </childnode>
         <childnode refid="6155" relation="include">
         </childnode>
@@ -746,9 +746,6 @@
         <childnode refid="6131" relation="include">
         </childnode>
       </node>
-      <node id="6201">
-        <label>Source/MdDoxTree/ReferenceMaps.cpp</label>
-      </node>
       <node id="6296">
         <label>Source/MdDoxTree/Section4Writer.h</label>
         <childnode refid="6112" relation="include">
@@ -852,7 +849,7 @@
         <label>Source/MdDoxTree/SiteBuilder.h</label>
         <childnode refid="6193" relation="include">
         </childnode>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6161" relation="include">
         </childnode>
@@ -862,7 +859,7 @@
         </childnode>
         <childnode refid="6163" relation="include">
         </childnode>
-        <childnode refid="6144" relation="include">
+        <childnode refid="6150" relation="include">
         </childnode>
         <childnode refid="6194" relation="include">
         </childnode>
@@ -903,7 +900,7 @@
       </node>
       <node id="6238">
         <label>Source/MdDoxTree/LocationWriter.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6176" relation="include">
         </childnode>
@@ -973,17 +970,15 @@
       </node>
       <node id="6143">
         <label>Tools/Doxygen/DoxRefKind.h</label>
-        <childnode refid="6144" relation="include">
-        </childnode>
         <childnode refid="6137" relation="include">
         </childnode>
         <childnode refid="6104" relation="include">
         </childnode>
         <childnode refid="6136" relation="include">
         </childnode>
-        <childnode refid="6145" relation="include">
+        <childnode refid="6144" relation="include">
         </childnode>
-        <childnode refid="6148" relation="include">
+        <childnode refid="6147" relation="include">
         </childnode>
       </node>
       <node id="6245">
@@ -991,7 +986,7 @@
       </node>
       <node id="6227">
         <label>Tools/Doxygen/GraphQuery.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6228" relation="include">
         </childnode>
@@ -1002,7 +997,7 @@
       </node>
       <node id="6158">
         <label>Source/MdDoxTree/ClassPageWriter.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6159" relation="include">
         </childnode>
@@ -1047,13 +1042,6 @@
         <childnode refid="6168" relation="include">
         </childnode>
       </node>
-      <node id="6200">
-        <label>Source/MdDoxTree/ReferenceMaps.h</label>
-        <childnode refid="6201" relation="include">
-        </childnode>
-        <childnode refid="6198" relation="include">
-        </childnode>
-      </node>
       <node id="6279">
         <label>Tools/Doxygen/FileQuery.h</label>
         <childnode refid="6095" relation="include">
@@ -1091,7 +1079,7 @@
       </node>
       <node id="6282">
         <label>Tools/Doxygen/NodeQuery.h</label>
-        <childnode refid="6144" relation="include">
+        <childnode refid="6150" relation="include">
         </childnode>
         <childnode refid="6229" relation="include">
         </childnode>
@@ -1207,8 +1195,6 @@
         </childnode>
         <childnode refid="6179" relation="include">
         </childnode>
-        <childnode refid="6144" relation="include">
-        </childnode>
         <childnode refid="6137" relation="include">
         </childnode>
         <childnode refid="6177" relation="include">
@@ -1261,7 +1247,7 @@
       </node>
       <node id="6169">
         <label>Tools/Doxygen/IncQuery.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6165" relation="include">
         </childnode>
@@ -1279,6 +1265,13 @@
         <childnode refid="6278" relation="include">
         </childnode>
       </node>
+      <node id="6200">
+        <label>Source/MdDoxTree/ReferenceTable.h</label>
+        <childnode refid="6201" relation="include">
+        </childnode>
+        <childnode refid="6198" relation="include">
+        </childnode>
+      </node>
       <node id="6123">
         <label>Tools/Doxygen/ListItemQuery.cpp</label>
       </node>
@@ -1292,7 +1285,7 @@
       <node id="6260">
         <label>Tools/Doxygen/ParamNameListQuery.cpp</label>
       </node>
-      <node id="6150">
+      <node id="6149">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="6221">
@@ -1326,7 +1319,7 @@
       </node>
       <node id="6237">
         <label>Tools/Doxygen/LocationQuery.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6238" relation="include">
         </childnode>
@@ -1339,7 +1332,7 @@
         <childnode refid="6185" relation="include">
         </childnode>
       </node>
-      <node id="6147">
+      <node id="6146">
         <label>Tools/Doxygen/ListingQuery.cpp</label>
       </node>
       <node id="6215">
@@ -1389,7 +1382,7 @@
         <label>Tools/Doxygen/HighlightQuery.h</label>
         <childnode refid="6104" relation="include">
         </childnode>
-        <childnode refid="6146" relation="include">
+        <childnode refid="6145" relation="include">
         </childnode>
         <childnode refid="6138" relation="include">
         </childnode>
@@ -1402,7 +1395,7 @@
       </node>
       <node id="6209">
         <label>Tools/Doxygen/CompoundRefQuery.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
         <childnode refid="6167" relation="include">
         </childnode>
@@ -1506,7 +1499,7 @@
       </node>
       <node id="6153">
         <label>Tools/Doxygen/DoxGraphRelation.h</label>
-        <childnode refid="6149" relation="include">
+        <childnode refid="6148" relation="include">
         </childnode>
         <childnode refid="6154" relation="include">
         </childnode>
@@ -1671,9 +1664,9 @@
       </node>
       <node id="6228">
         <label>Source/MdDoxTree/GraphWriter.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
-        <childnode refid="6144" relation="include">
+        <childnode refid="6150" relation="include">
         </childnode>
       </node>
       <node id="6180">
@@ -1683,11 +1676,11 @@
         <childnode refid="6182" relation="include">
         </childnode>
       </node>
-      <node id="6149">
+      <node id="6148">
         <label>Tools/Doxygen/ChildNodeQuery.h</label>
-        <childnode refid="6150" relation="include">
+        <childnode refid="6149" relation="include">
         </childnode>
-        <childnode refid="6144" relation="include">
+        <childnode refid="6150" relation="include">
         </childnode>
         <childnode refid="6151" relation="include">
         </childnode>
@@ -1817,18 +1810,21 @@
       <node id="6105">
         <label>Tools/Doxygen/BlockQuoteQuery.cpp</label>
       </node>
-      <node id="6145">
+      <node id="6144">
         <label>Tools/Doxygen/CodeLineQuery.h</label>
         <childnode refid="6104" relation="include">
         </childnode>
+        <childnode refid="6145" relation="include">
+        </childnode>
         <childnode refid="6146" relation="include">
         </childnode>
-        <childnode refid="6147" relation="include">
-        </childnode>
+      </node>
+      <node id="6201">
+        <label>Source/MdDoxTree/ReferenceTable.cpp</label>
       </node>
       <node id="6155">
         <label>Tools/Doxygen/DoxBool.h</label>
-        <childnode refid="6145" relation="include">
+        <childnode refid="6144" relation="include">
         </childnode>
         <childnode refid="6156" relation="include">
         </childnode>
@@ -1868,7 +1864,7 @@
         </childnode>
         <childnode refid="6167" relation="include">
         </childnode>
-        <childnode refid="6147" relation="include">
+        <childnode refid="6146" relation="include">
         </childnode>
         <childnode refid="6098" relation="include">
         </childnode>

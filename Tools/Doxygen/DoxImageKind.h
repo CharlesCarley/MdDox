@@ -55,6 +55,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxImageKind.rtf</tt> value.
          */
         DIK_RTF,
+        DIK_MAX
     };
 
     class DoxImageKind

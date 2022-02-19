@@ -8,139 +8,139 @@
     <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <incdepgraph>
-      <node id="758">
+      <node id="756">
         <label>Utils/Console.h</label>
-        <childnode refid="746" relation="include">
+        <childnode refid="744" relation="include">
+        </childnode>
+      </node>
+      <node id="750">
+        <label>iomanip</label>
+      </node>
+      <node id="742">
+        <label>functional</label>
+      </node>
+      <node id="758">
+        <label>Utils/Path.h</label>
+        <childnode refid="744" relation="include">
         </childnode>
       </node>
       <node id="752">
-        <label>iomanip</label>
-      </node>
-      <node id="744">
-        <label>functional</label>
-      </node>
-      <node id="760">
-        <label>Utils/Path.h</label>
-        <childnode refid="746" relation="include">
-        </childnode>
-      </node>
-      <node id="754">
         <label>Utils/Exception.h</label>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="756" relation="include">
-        </childnode>
-        <childnode refid="757" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
-        </childnode>
-      </node>
-      <node id="756">
-        <label>stdexcept</label>
-      </node>
-      <node id="750">
-        <label>string</label>
-      </node>
-      <node id="743">
-        <label>Doxygen.h</label>
-        <childnode refid="744" relation="include">
-        </childnode>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
-        </childnode>
         <childnode refid="753" relation="include">
         </childnode>
         <childnode refid="754" relation="include">
         </childnode>
-      </node>
-      <node id="755">
-        <label>exception</label>
-      </node>
-      <node id="748">
-        <label>fstream</label>
-      </node>
-      <node id="753">
-        <label>Xml/Node.h</label>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
         <childnode refid="744" relation="include">
         </childnode>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
-        </childnode>
       </node>
-      <node id="742">
-        <label>Doxygen/GraphQuery.h</label>
+      <node id="754">
+        <label>stdexcept</label>
+      </node>
+      <node id="748">
+        <label>string</label>
+      </node>
+      <node id="741">
+        <label>Doxygen.h</label>
+        <childnode refid="742" relation="include">
+        </childnode>
         <childnode refid="743" relation="include">
         </childnode>
-      </node>
-      <node id="746">
-        <label>Utils/String.h</label>
-        <childnode refid="747" relation="include">
-        </childnode>
-        <childnode refid="748" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-        <childnode refid="750" relation="include">
-        </childnode>
-        <childnode refid="745" relation="include">
+        <childnode refid="744" relation="include">
         </childnode>
         <childnode refid="751" relation="include">
         </childnode>
         <childnode refid="752" relation="include">
         </childnode>
       </node>
+      <node id="753">
+        <label>exception</label>
+      </node>
+      <node id="746">
+        <label>fstream</label>
+      </node>
       <node id="751">
-        <label>vector</label>
-      </node>
-      <node id="757">
-        <label>utility</label>
-      </node>
-      <node id="749">
-        <label>sstream</label>
-      </node>
-      <node id="759">
-        <label>Doxygen/LinkedTextQuery.h</label>
-        <childnode refid="743" relation="include">
-        </childnode>
-      </node>
-      <node id="747">
-        <label>deque</label>
-      </node>
-      <node id="745">
-        <label>unordered_map</label>
-      </node>
-      <node id="741">
-        <label>Source/MdDoxTree/GraphWriter.h</label>
-        <link refid="GraphWriter_8h"/>
+        <label>Xml/Node.h</label>
         <childnode refid="742" relation="include">
         </childnode>
-        <childnode refid="759" relation="include">
+        <childnode refid="743" relation="include">
         </childnode>
-        <childnode refid="760" relation="include">
+        <childnode refid="744" relation="include">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>Doxygen/GraphQuery.h</label>
+        <childnode refid="741" relation="include">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>Utils/String.h</label>
+        <childnode refid="745" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="743" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>vector</label>
+      </node>
+      <node id="755">
+        <label>utility</label>
+      </node>
+      <node id="747">
+        <label>sstream</label>
+      </node>
+      <node id="757">
+        <label>Doxygen/LinkedTextQuery.h</label>
+        <childnode refid="741" relation="include">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>deque</label>
+      </node>
+      <node id="743">
+        <label>unordered_map</label>
+      </node>
+      <node id="739">
+        <label>Source/MdDoxTree/GraphWriter.h</label>
+        <link refid="GraphWriter_8h"/>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="763">
+      <node id="761">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="762">
+      <node id="760">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="761">
+      <node id="759">
         <label>Source/MdDoxTree/GraphWriter.h</label>
         <link refid="GraphWriter_8h"/>
-        <childnode refid="762" relation="include">
+        <childnode refid="760" relation="include">
         </childnode>
-        <childnode refid="763" relation="include">
+        <childnode refid="761" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="structMdDox_1_1GraphNode" prot="public">MdDox::GraphNode</innerclass>
+    <innerclass refid="structMdDox_1_1GraphNodeDecl" prot="public">MdDox::GraphNodeDecl</innerclass>
     <innerclass refid="classMdDox_1_1GraphWriter" prot="public">MdDox::GraphWriter</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
     <briefdescription>
@@ -178,23 +178,23 @@
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="structMdDox_1_1GraphNode" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMdDox_1_1GraphNode" kindref="compound">GraphNode</ref></highlight></codeline>
+<codeline lineno="31" refid="structMdDox_1_1GraphNodeDecl" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMdDox_1_1GraphNodeDecl" kindref="compound">GraphNodeDecl</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="33" refid="structMdDox_1_1GraphNode_1a89c288f98b8a114ab996a2485dc98e10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1GraphNode_1a89c288f98b8a114ab996a2485dc98e10" kindref="member">id</ref>;</highlight></codeline>
-<codeline lineno="34" refid="structMdDox_1_1GraphNode_1a30d2026b443fd118b814074df04bb830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1GraphNode_1a30d2026b443fd118b814074df04bb830" kindref="member">label</ref>;</highlight></codeline>
-<codeline lineno="35" refid="structMdDox_1_1GraphNode_1ab47cdd5fc8d96ecd4266bb355a2d9115" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><ref refid="structMdDox_1_1GraphNode_1ab47cdd5fc8d96ecd4266bb355a2d9115" kindref="member">children</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structMdDox_1_1GraphNodeDecl_1ac8cbe24faac8b1a0a1cf2b86cf7c52e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1GraphNodeDecl_1ac8cbe24faac8b1a0a1cf2b86cf7c52e6" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="34" refid="structMdDox_1_1GraphNodeDecl_1ab553a9d168755ecf318c3b9a98e2d117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMdDox_1_1GraphNodeDecl_1ab553a9d168755ecf318c3b9a98e2d117" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structMdDox_1_1GraphNodeDecl_1a5305bedaf4c640134d0ceca62a167f15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/><ref refid="structMdDox_1_1GraphNodeDecl_1a5305bedaf4c640134d0ceca62a167f15" kindref="member">children</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="classMdDox_1_1GraphWriter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1GraphWriter" kindref="compound">GraphWriter</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor" kindref="compound">Doxygen::Visitors::GraphQueryVisitor</ref></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="41" refid="classMdDox_1_1GraphWriter_1aca65b9ae63e0c5af497c9e2f360dd3ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unordered_map&lt;String,<sp/>GraphNode&gt;<sp/><ref refid="classMdDox_1_1GraphWriter_1aca65b9ae63e0c5af497c9e2f360dd3ce" kindref="member">Nodes</ref>;</highlight></codeline>
+<codeline lineno="41" refid="classMdDox_1_1GraphWriter_1a7b27609300dade7490d227fac31cc77b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unordered_map&lt;String,<sp/>GraphNodeDecl&gt;<sp/><ref refid="classMdDox_1_1GraphWriter_1a7b27609300dade7490d227fac31cc77b" kindref="member">Nodes</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/><sp/><sp/><sp/>_writer;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>_out;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1GraphWriter_1aca65b9ae63e0c5af497c9e2f360dd3ce" kindref="member">Nodes</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nodes;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1GraphWriter_1a7b27609300dade7490d227fac31cc77b" kindref="member">Nodes</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_nodes;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_root;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Xml_1ac338b08335403d9c90feedb1f3c9ee95" kindref="member" tooltip="Defines a name lookup map for nodes. ">Xml::NodeMap</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_idMap;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>

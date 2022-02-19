@@ -220,6 +220,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxSectionKind.var</tt> value.
          */
         DSK_VAR,
+        DSK_MAX
     };
 
     class DoxSectionKind

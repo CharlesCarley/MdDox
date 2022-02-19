@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxRefKind.cpp" bodystart="30" bodyend="37"/>
+        <location file="Tools/Doxygen/DoxRefKind.h" line="59" column="1" bodyfile="Tools/Doxygen/DoxRefKind.cpp" bodystart="30" bodyend="37"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9ba2c0563c0201f5b742d64f3146bc2cb85" compoundref="DoxRefKind_8h" startline="48">MdDox::Doxygen::DRK_COMPOUND</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9ba3dd368192d7a985fb56a3e9d813e83c5" compoundref="DoxRefKind_8h" startline="52">MdDox::Doxygen::DRK_MEMBER</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9ba64470660e2fdc43187b3f9fd45390126" compoundref="DoxRefKind_8h" startline="44">MdDox::Doxygen::DRK_INVALID</references>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxRefKind.h" line="56" column="1" bodyfile="Tools/Doxygen/DoxRefKind.h" bodystart="55" bodyend="59"/>
+    <location file="Tools/Doxygen/DoxRefKind.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxRefKind.h" bodystart="56" bodyend="60"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxRefKind_1a80f6ddc8569a3690483cfff14fd633c3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxRefKind</scope><name>get</name></member>
     </listofallmembers>

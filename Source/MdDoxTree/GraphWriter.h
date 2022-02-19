@@ -28,7 +28,7 @@ namespace MdDox
 {
     class DocumentWriter;
 
-    struct GraphNode
+    struct GraphNodeDecl
     {
         String      id;
         String      label;
@@ -38,7 +38,7 @@ namespace MdDox
     class GraphWriter final : public Doxygen::Visitors::GraphQueryVisitor
     {
     public:
-        typedef std::unordered_map<String, GraphNode> Nodes;
+        typedef std::unordered_map<String, GraphNodeDecl> Nodes;
 
     private:
         DocumentWriter*    _writer;

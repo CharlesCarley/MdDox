@@ -125,6 +125,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxCompoundKind.dir</tt> value.
          */
         DCK_DIR,
+        DCK_MAX
     };
 
     class DoxCompoundKind

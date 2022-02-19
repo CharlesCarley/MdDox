@@ -6,131 +6,131 @@
     <includedby refid="DoxParamDir_8cpp" local="yes">Tools/Doxygen/DoxParamDir.cpp</includedby>
     <includedby refid="ParamNameQuery_8h" local="yes">Tools/Doxygen/ParamNameQuery.h</includedby>
     <incdepgraph>
-      <node id="5647">
+      <node id="5648">
         <label>Utils/Console.h</label>
-        <childnode refid="5635" relation="include">
+        <childnode refid="5636" relation="include">
         </childnode>
       </node>
-      <node id="5641">
+      <node id="5642">
         <label>iomanip</label>
       </node>
-      <node id="5633">
+      <node id="5634">
         <label>functional</label>
       </node>
-      <node id="5643">
+      <node id="5644">
         <label>Utils/Exception.h</label>
-        <childnode refid="5644" relation="include">
-        </childnode>
         <childnode refid="5645" relation="include">
         </childnode>
         <childnode refid="5646" relation="include">
         </childnode>
         <childnode refid="5647" relation="include">
         </childnode>
-        <childnode refid="5635" relation="include">
+        <childnode refid="5648" relation="include">
+        </childnode>
+        <childnode refid="5636" relation="include">
         </childnode>
       </node>
-      <node id="5645">
+      <node id="5646">
         <label>stdexcept</label>
       </node>
-      <node id="5639">
+      <node id="5640">
         <label>string</label>
       </node>
-      <node id="5632">
+      <node id="5633">
         <label>Doxygen.h</label>
-        <childnode refid="5633" relation="include">
-        </childnode>
         <childnode refid="5634" relation="include">
         </childnode>
         <childnode refid="5635" relation="include">
         </childnode>
-        <childnode refid="5642" relation="include">
+        <childnode refid="5636" relation="include">
         </childnode>
         <childnode refid="5643" relation="include">
         </childnode>
+        <childnode refid="5644" relation="include">
+        </childnode>
       </node>
-      <node id="5644">
+      <node id="5645">
         <label>exception</label>
       </node>
-      <node id="5637">
+      <node id="5638">
         <label>fstream</label>
       </node>
-      <node id="5642">
+      <node id="5643">
         <label>Xml/Node.h</label>
-        <childnode refid="5633" relation="include">
-        </childnode>
         <childnode refid="5634" relation="include">
         </childnode>
         <childnode refid="5635" relation="include">
         </childnode>
-      </node>
-      <node id="5631">
-        <label>Tools/Doxygen/DoxParamDir.h</label>
-        <link refid="DoxParamDir_8h"/>
-        <childnode refid="5632" relation="include">
-        </childnode>
-      </node>
-      <node id="5635">
-        <label>Utils/String.h</label>
         <childnode refid="5636" relation="include">
         </childnode>
+      </node>
+      <node id="5632">
+        <label>Tools/Doxygen/DoxParamDir.h</label>
+        <link refid="DoxParamDir_8h"/>
+        <childnode refid="5633" relation="include">
+        </childnode>
+      </node>
+      <node id="5636">
+        <label>Utils/String.h</label>
         <childnode refid="5637" relation="include">
         </childnode>
         <childnode refid="5638" relation="include">
         </childnode>
         <childnode refid="5639" relation="include">
         </childnode>
-        <childnode refid="5634" relation="include">
-        </childnode>
         <childnode refid="5640" relation="include">
+        </childnode>
+        <childnode refid="5635" relation="include">
         </childnode>
         <childnode refid="5641" relation="include">
         </childnode>
+        <childnode refid="5642" relation="include">
+        </childnode>
       </node>
-      <node id="5640">
+      <node id="5641">
         <label>vector</label>
       </node>
-      <node id="5646">
+      <node id="5647">
         <label>utility</label>
       </node>
-      <node id="5638">
+      <node id="5639">
         <label>sstream</label>
       </node>
-      <node id="5636">
+      <node id="5637">
         <label>deque</label>
       </node>
-      <node id="5634">
+      <node id="5635">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5650">
+      <node id="5651">
         <label>Tools/Doxygen/ParamNameQuery.h</label>
-        <childnode refid="5651" relation="include">
-        </childnode>
         <childnode refid="5652" relation="include">
         </childnode>
         <childnode refid="5653" relation="include">
         </childnode>
+        <childnode refid="5654" relation="include">
+        </childnode>
       </node>
-      <node id="5653">
+      <node id="5654">
         <label>Tools/Doxygen/ParamNameQuery.cpp</label>
       </node>
-      <node id="5648">
+      <node id="5649">
         <label>Tools/Doxygen/DoxParamDir.h</label>
         <link refid="DoxParamDir_8h"/>
-        <childnode refid="5649" relation="include">
-        </childnode>
         <childnode refid="5650" relation="include">
         </childnode>
+        <childnode refid="5651" relation="include">
+        </childnode>
       </node>
-      <node id="5652">
+      <node id="5653">
         <label>Tools/Doxygen/ParamNameListQuery.cpp</label>
       </node>
-      <node id="5651">
+      <node id="5652">
         <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
-      <node id="5649">
+      <node id="5650">
         <label>Tools/Doxygen/DoxParamDir.cpp</label>
       </node>
     </invincdepgraph>
@@ -175,14 +175,15 @@
 <codeline lineno="49" refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba7e7c540ba6b9030440d79e96d16088d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba7e7c540ba6b9030440d79e96d16088d8" kindref="member" tooltip="Definition for the DoxParamDir.in value. ">DPD_IN</ref>,</highlight></codeline>
 <codeline lineno="53" refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba2d6437f73ca52745a979621ee46cb945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba2d6437f73ca52745a979621ee46cb945" kindref="member" tooltip="Definition for the DoxParamDir.out value. ">DPD_OUT</ref>,</highlight></codeline>
 <codeline lineno="57" refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba61cff92a5b7bec82abdbe9ff10e77cdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869ba61cff92a5b7bec82abdbe9ff10e77cdd" kindref="member" tooltip="Definition for the DoxParamDir.inout value. ">DPD_INOUT</ref>,</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="classMdDox_1_1Doxygen_1_1DoxParamDir" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Doxygen_1_1DoxParamDir" kindref="compound">DoxParamDir</ref></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" kindref="member">DoxParamDirEnum</ref><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
+<codeline lineno="58" refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869bacbf9d2b947434edfc91a1034a99802d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869bacbf9d2b947434edfc91a1034a99802d6" kindref="member">DPD_MAX</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classMdDox_1_1Doxygen_1_1DoxParamDir" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1Doxygen_1_1DoxParamDir" kindref="compound">DoxParamDir</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" kindref="member">DoxParamDirEnum</ref><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
     <location file="Tools/Doxygen/DoxParamDir.h"/>
   </compounddef>

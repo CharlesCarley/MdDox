@@ -40,14 +40,9 @@ namespace MdDox
 
     extern void writeCommonNav(OStream& out, DocumentWriter* writer);
 
-    /**
-	 * \brief Defines a navigation bar from a list of names that are
-	 * separated with the binary resolution operator.
-	 */
-    extern void writeNavigation(OStream&         out,
-                                DocumentWriter*  writer,
-                                const Reference& item,
-                                const String&    sep);
+
+    extern void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
+    extern void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
 
     extern void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, IconId id);
     extern void writeExternalIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, IconId id);

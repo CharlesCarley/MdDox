@@ -181,7 +181,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/DescriptionWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/DescriptionWriter.cpp" bodystart="38" bodyend="42"/>
         <references refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a2e5ca314a6ec85172c3acd3e9411658c" compoundref="DescriptionQuery_8cpp" startline="31" endline="59">MdDox::Doxygen::DescriptionQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="219" endline="230">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="164" endline="175">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

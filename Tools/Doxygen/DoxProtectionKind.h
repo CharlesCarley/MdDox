@@ -60,6 +60,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxProtectionKind.package</tt> value.
          */
         DPK_PACKAGE,
+        DPK_MAX
     };
 
     class DoxProtectionKind

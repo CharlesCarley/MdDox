@@ -125,7 +125,7 @@ namespace MdDox
 
     void NamespacePageWriter::visitedCompoundName(const String& text)
     {
-        writeNavigation(_out, _writer, _ref, "::");
+        writeNamespaceTitleBar(_out, _writer, _ref);
     }
 
     void NamespacePageWriter::visitedInnerClass(const Doxygen::RefQuery& query)

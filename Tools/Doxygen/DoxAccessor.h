@@ -70,6 +70,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxAccessor.unretained</tt> value.
          */
         DA_UNRETAINED,
+        DA_MAX
     };
 
     class DoxAccessor

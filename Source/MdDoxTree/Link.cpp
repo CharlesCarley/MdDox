@@ -76,5 +76,5 @@ namespace MdDox
             return dest.back();
         return name;
     }
-    
+
 }  // namespace MdDox

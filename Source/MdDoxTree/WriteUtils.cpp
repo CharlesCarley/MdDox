@@ -42,57 +42,46 @@ namespace MdDox
 
     
 	
-    void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item, const String& split)
+    void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
+
+    	const String split = "::";
+    	
         StringDeque navList;
         StringUtils::split(navList, item.getName(), split);
 
-        const String localName = navList.back();
+
+    	const String lastSep = navList.back();
         navList.pop_back();
 
         const SiteBuilder& builder = SiteBuilder::get();
 
+    	// RepoHome MainPage / TOC
         writeCommonNav(out, writer);
-        writer->inlineText(out, split);
 
-        if (!navList.empty())
+
+    	while (!navList.empty())
         {
-            String localNamespace = navList.front();
-            navList.pop_front();
-
-            String ref = builder.findReference(localNamespace);
-            if (!ref.empty())
+    		// resolve references for each split.
+    		String curName = navList.front();
+            
+    		Reference id = builder.findNamespace(curName);
+    		if (!id.empty())
             {
-                writer->linkPage(out, localNamespace, ref);
-                writer->inlineText(out, split);
+                writer->linkRef(out, 0, id.getReference(), LinkUtils::lastBinaryResolution(id.getName()));
+                writer->inlineText(out, "::");
             }
-            else
-                Console::writeLine("Error: unable to find the reference: ", localNamespace);
 
-            while (!navList.empty())
-            {
-                String subName = navList.front();
-
-                localNamespace = StringCombine("", localNamespace, split, subName);
-                navList.pop_front();
-
-                ref = builder.findReference(localNamespace);
-                if (!ref.empty())
-                {
-                    writer->linkPage(out, subName, ref);
-                    writer->inlineText(out, "::");
-                }
-                else
-                    Console::writeLine("Error: unable to find the reference: ", localNamespace);
-            }
+    		navList.pop_front();
         }
 
-        writer->boldText(out, localName);
+        writer->boldText(out, lastSep);
         writer->lineBreak(out);
         writer->lineBreak(out);
     }
 
-    void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
+
+	void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
         StringDeque navList;
         StringUtils::split(navList, item.getName(), "/");
@@ -100,8 +89,7 @@ namespace MdDox
         const String localName = navList.back();
         navList.pop_back();
 
-        const SiteBuilder& builder = SiteBuilder::get();
-
+    	
         writeCommonNav(out, writer);
 
         if (!navList.empty())
@@ -122,50 +110,7 @@ namespace MdDox
         writer->lineBreak(out);
         writer->lineBreak(out);
     }
-
-    void writeNavigation(OStream& out, DocumentWriter* writer, const Reference& item, const String& sep)
-    {
-        const SiteBuilder& builder = SiteBuilder::get();
-
-        StringDeque navList;
-        StringUtils::split(navList, item.getName(), sep);
-
-        const String localName = navList.back();
-        navList.pop_back();
-
-        String localNamespace;
-
-        if (!navList.empty())
-            localNamespace = navList.front();
-
-        writeCommonNav(out, writer);
-        while (!navList.empty())
-        {
-            String ref = builder.findReference(navList.front());
-            if (!ref.empty())
-            {
-                writer->linkRef(out, 0, ref);
-                writer->inlineText(out, sep);
-            }
-            else
-            {
-                ref = builder.findReference(localNamespace);
-                if (!ref.empty())
-                {
-                    writer->linkRef(out, 0, ref);
-                    writer->inlineText(out, sep);
-                }
-            }
-
-            StringCombine(localNamespace, sep, navList.front());
-            navList.pop_front();
-        }
-
-        writer->boldText(out, localName);
-        writer->lineBreak(out);
-        writer->lineBreak(out);
-    }
-
+    
     
     void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {

@@ -2,13 +2,13 @@
 <h1>Scanner</h1>
 <a id="classMdDox_1_1Xml_1_1Scanner"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<a href="namespaceMdDox.md#">MdDox</a>
+<a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
-<a href="dir_19b9d1dd05713e515e11a6d5d9c80351.md#">Source/Xml</a>
+<a href="namespaceMdDox_1_1Xml.md#xml">Xml</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Scanner</b></span>
 <br/>

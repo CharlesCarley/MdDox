@@ -23,26 +23,24 @@
 #include "DocumentWriter.h"
 #include "DotWriter.h"
 #include "Doxygen/ChildNodeQuery.h"
-#include "Doxygen/DoxRefKind.h"
 #include "Doxygen/NodeQuery.h"
 #include "Link.h"
-#include "LinkedTextWriter.h"
 #include "SiteBuilder.h"
 #include "WriteUtils.h"
 
 namespace MdDox
 {
-    class LocalNode : public Xml::Node
+    class GraphNode : public Xml::Node
     {
     public:
-        LocalNode() :
-            Xml::Node()
+        GraphNode() :
+	        Node()
         {
             _autoDelete = false;
         }
 
-        explicit LocalNode(const String &name) :
-            Xml::Node(name)
+        explicit GraphNode(const String &name) :
+	        Node(name)
         {
             _autoDelete = false;
         }
@@ -62,7 +60,7 @@ namespace MdDox
 
     void GraphWriter::visitedNode(const Doxygen::NodeQuery& query)
     {
-        GraphNode nd;
+        GraphNodeDecl nd;
         nd.id    = query.getId();
         nd.label = LinkUtils::lastBinaryResolution(query.getLabel("undefined"));
 
@@ -73,7 +71,7 @@ namespace MdDox
             });
 
         _nodes.insert(std::make_pair(nd.id, nd));
-        _idMap.insert(std::make_pair(nd.id, new LocalNode(nd.label)));
+        _idMap.insert(std::make_pair(nd.id, new GraphNode(nd.label)));
     }
 
     void GraphWriter::writeLinks()

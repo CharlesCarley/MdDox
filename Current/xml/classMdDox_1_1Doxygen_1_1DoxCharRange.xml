@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCharRange.h" line="49" column="1" bodyfile="Tools/Doxygen/DoxCharRange.cpp" bodystart="30" bodyend="33"/>
+        <location file="Tools/Doxygen/DoxCharRange.h" line="50" column="1" bodyfile="Tools/Doxygen/DoxCharRange.cpp" bodystart="30" bodyend="33"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a7d54479e273f12f712a1aca96cb1e23ea6c634c4ac0807fa1a384af7941bd5fe4" compoundref="DoxCharRange_8h" startline="43">MdDox::Doxygen::DCR_INVALID</references>
       </memberdef>
       </sectiondef>
@@ -27,7 +27,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxCharRange.h" line="47" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="46" bodyend="50"/>
+    <location file="Tools/Doxygen/DoxCharRange.h" line="48" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="47" bodyend="51"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxCharRange_1a1964cf57ad7379f3ac8a920b0e588486" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxCharRange</scope><name>get</name></member>
     </listofallmembers>

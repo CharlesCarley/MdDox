@@ -7,149 +7,149 @@
     <includedby refid="ReferenceMaps_8cpp" local="yes">Source/MdDoxTree/ReferenceMaps.cpp</includedby>
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <incdepgraph>
-      <node id="1915">
+      <node id="1912">
         <label>Utils/Console.h</label>
-        <childnode refid="1903" relation="include">
+        <childnode refid="1900" relation="include">
         </childnode>
       </node>
-      <node id="1909">
+      <node id="1906">
         <label>iomanip</label>
       </node>
-      <node id="1901">
+      <node id="1898">
         <label>functional</label>
       </node>
-      <node id="1911">
+      <node id="1908">
         <label>Utils/Exception.h</label>
-        <childnode refid="1912" relation="include">
-        </childnode>
-        <childnode refid="1913" relation="include">
-        </childnode>
-        <childnode refid="1914" relation="include">
-        </childnode>
-        <childnode refid="1915" relation="include">
-        </childnode>
-        <childnode refid="1903" relation="include">
-        </childnode>
-      </node>
-      <node id="1913">
-        <label>stdexcept</label>
-      </node>
-      <node id="1907">
-        <label>string</label>
-      </node>
-      <node id="1900">
-        <label>Doxygen.h</label>
-        <childnode refid="1901" relation="include">
-        </childnode>
-        <childnode refid="1902" relation="include">
-        </childnode>
-        <childnode refid="1903" relation="include">
+        <childnode refid="1909" relation="include">
         </childnode>
         <childnode refid="1910" relation="include">
         </childnode>
         <childnode refid="1911" relation="include">
         </childnode>
-      </node>
-      <node id="1897">
-        <label>map</label>
-      </node>
-      <node id="1912">
-        <label>exception</label>
-      </node>
-      <node id="1905">
-        <label>fstream</label>
+        <childnode refid="1912" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
       </node>
       <node id="1910">
+        <label>stdexcept</label>
+      </node>
+      <node id="1904">
+        <label>string</label>
+      </node>
+      <node id="1897">
+        <label>Doxygen.h</label>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1907" relation="include">
+        </childnode>
+        <childnode refid="1908" relation="include">
+        </childnode>
+      </node>
+      <node id="1894">
+        <label>map</label>
+      </node>
+      <node id="1909">
+        <label>exception</label>
+      </node>
+      <node id="1902">
+        <label>fstream</label>
+      </node>
+      <node id="1907">
         <label>Xml/Node.h</label>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+      </node>
+      <node id="1893">
+        <label>Source/MdDoxTree/ReferenceMaps.h</label>
+        <link refid="ReferenceMaps_8h"/>
+        <childnode refid="1894" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+      </node>
+      <node id="1913">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1895">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="1896" relation="include">
+        </childnode>
+        <childnode refid="1913" relation="include">
+        </childnode>
+        <childnode refid="1914" relation="include">
+        </childnode>
+      </node>
+      <node id="1900">
+        <label>Utils/String.h</label>
         <childnode refid="1901" relation="include">
         </childnode>
         <childnode refid="1902" relation="include">
         </childnode>
         <childnode refid="1903" relation="include">
         </childnode>
-      </node>
-      <node id="1896">
-        <label>Source/MdDoxTree/ReferenceMaps.h</label>
-        <link refid="ReferenceMaps_8h"/>
-        <childnode refid="1897" relation="include">
-        </childnode>
-        <childnode refid="1898" relation="include">
-        </childnode>
-      </node>
-      <node id="1916">
-        <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="1900" relation="include">
-        </childnode>
-      </node>
-      <node id="1898">
-        <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1899" relation="include">
-        </childnode>
-        <childnode refid="1916" relation="include">
-        </childnode>
-        <childnode refid="1917" relation="include">
-        </childnode>
-      </node>
-      <node id="1903">
-        <label>Utils/String.h</label>
         <childnode refid="1904" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
         </childnode>
         <childnode refid="1905" relation="include">
         </childnode>
         <childnode refid="1906" relation="include">
         </childnode>
-        <childnode refid="1907" relation="include">
-        </childnode>
-        <childnode refid="1902" relation="include">
-        </childnode>
-        <childnode refid="1908" relation="include">
-        </childnode>
-        <childnode refid="1909" relation="include">
-        </childnode>
       </node>
-      <node id="1908">
+      <node id="1905">
         <label>vector</label>
       </node>
-      <node id="1914">
+      <node id="1911">
         <label>utility</label>
       </node>
-      <node id="1906">
+      <node id="1903">
         <label>sstream</label>
       </node>
-      <node id="1904">
+      <node id="1901">
         <label>deque</label>
       </node>
-      <node id="1902">
+      <node id="1899">
         <label>unordered_map</label>
       </node>
-      <node id="1899">
+      <node id="1896">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="1900" relation="include">
+        <childnode refid="1897" relation="include">
         </childnode>
       </node>
-      <node id="1917">
+      <node id="1914">
         <label>Reference.h</label>
-        <childnode refid="1903" relation="include">
+        <childnode refid="1900" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1919">
+      <node id="1916">
         <label>Source/MdDoxTree/ReferenceMaps.cpp</label>
       </node>
-      <node id="1918">
+      <node id="1915">
         <label>Source/MdDoxTree/ReferenceMaps.h</label>
         <link refid="ReferenceMaps_8h"/>
-        <childnode refid="1919" relation="include">
+        <childnode refid="1916" relation="include">
         </childnode>
-        <childnode refid="1920" relation="include">
+        <childnode refid="1917" relation="include">
         </childnode>
       </node>
-      <node id="1920">
+      <node id="1917">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="classMdDox_1_1ReferenceTable" prot="public">MdDox::ReferenceTable</innerclass>
+    <innerclass refid="classMdDox_1_1ReferenceMaps" prot="public">MdDox::ReferenceMaps</innerclass>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -186,23 +186,23 @@
 <codeline lineno="28" refid="namespaceMdDox_1af3cb33303f9d3f587026356b45addfea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1af3cb33303f9d3f587026356b45addfea" kindref="member">CompoundReferenceMap</ref><sp/>=<sp/>std::map&lt;String,<sp/>CompoundReference*&gt;;</highlight></codeline>
 <codeline lineno="29" refid="namespaceMdDox_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" kindref="member">MemberReferenceMap</ref><sp/><sp/><sp/>=<sp/>std::map&lt;String,<sp/>MemberReference*&gt;;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classMdDox_1_1ReferenceTable" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1ReferenceTable" kindref="compound">ReferenceTable</ref></highlight></codeline>
+<codeline lineno="31" refid="classMdDox_1_1ReferenceMaps" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1ReferenceMaps" kindref="compound">ReferenceMaps</ref></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1af3cb33303f9d3f587026356b45addfea" kindref="member">CompoundReferenceMap</ref><sp/>_compound;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" kindref="member">MemberReferenceMap</ref><sp/><sp/><sp/>_members;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1ReferenceTable_1ae56c4956965b4d72d9bee9c0c871a3f0" kindref="member">ReferenceTable</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1ReferenceTable_1ae277547505cd01db0b4c064849d270cf" kindref="member">~ReferenceTable</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1ReferenceMaps_1afb5f550ca64b1f3dd08f50d6dca76fa2" kindref="member">ReferenceMaps</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1ReferenceMaps_1a4a7815965adfc8e770a9c670869d687b" kindref="member">~ReferenceMaps</ref>();</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" kindref="member">insertCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ReferenceMaps_1ab84d4ab739779b70e9b700e193d82b3f" kindref="member">insertCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1CompoundReference" kindref="compound">CompoundReference</ref>*<sp/><ref refid="classMdDox_1_1ReferenceTable_1a663a4326e8e6eaa76b2faed0d0d4321e" kindref="member">getCompoundRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1CompoundReference" kindref="compound">CompoundReference</ref>*<sp/><ref refid="classMdDox_1_1ReferenceMaps_1a9bf5312dc28b1103fdeff802b1752397" kindref="member">getCompoundRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ReferenceTable_1ae6b39d6e36163610120be728c8b688fe" kindref="member">insertMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1ReferenceMaps_1accb6f1ccd78bbce77d11168d95a69a25" kindref="member">insertMember</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1MemberReference" kindref="compound">MemberReference</ref>*<sp/><ref refid="classMdDox_1_1ReferenceTable_1ada3aaba29f24b44954760968731232b3" kindref="member">getMemberRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1MemberReference" kindref="compound">MemberReference</ref>*<sp/><ref refid="classMdDox_1_1ReferenceMaps_1afd72548075c5730f04f224ceb9aa2470" kindref="member">getMemberRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>

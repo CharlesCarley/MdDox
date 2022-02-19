@@ -2,11 +2,11 @@
 <h1>Xml</h1>
 <a id="namespaceMdDox_1_1Xml"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<a href="namespaceMdDox.md#">MdDox</a>
+<a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Xml</b></span>
 <br/>

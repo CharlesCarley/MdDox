@@ -103,11 +103,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/RepoFile.h" line="47" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="41" bodyend="56"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="281" endline="286">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="288" endline="293">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1ae224919f5f05b5b5158beb0c1c5ee965" compoundref="Path_8cpp" startline="136" endline="139">MdDox::PathUtil::directoryList</references>
-        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="243" endline="249">MdDox::SiteBuilder::findReference</references>
+        <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="250" endline="256">MdDox::SiteBuilder::findReference</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="194">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="196">MdDox::SiteBuilder::outputFileExt</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -147,8 +147,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/RepoFile.h" line="51" column="1" bodyfile="Source/MdDoxTree/RepoFile.cpp" bodystart="63" bodyend="67"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="281" endline="286">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="229">MdDox::SiteBuilder::fileUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="288" endline="293">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="231">MdDox::SiteBuilder::fileUrl</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1RepoFile_1ae3e34ed925fba77dac4717130617f33e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

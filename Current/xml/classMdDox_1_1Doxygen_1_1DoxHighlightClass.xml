@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxHighlightClass.h" line="88" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.cpp" bodystart="30" bodyend="49"/>
+        <location file="Tools/Doxygen/DoxHighlightClass.h" line="89" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.cpp" bodystart="30" bodyend="49"/>
         <references refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a16b9f238cc7b4495f41772d2d7899e73" compoundref="DoxHighlightClass_8h" startline="54">MdDox::Doxygen::DHC_COMMENT</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5acbe87582bee9a603c903b65b00890d7b" compoundref="DoxHighlightClass_8h" startline="58">MdDox::Doxygen::DHC_PREPROCESSOR</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5a70c662fa365b77058bd0f4500c5e2fca" compoundref="DoxHighlightClass_8h" startline="62">MdDox::Doxygen::DHC_NORMAL</references>
@@ -35,7 +35,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxHighlightClass.h" line="86" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.h" bodystart="85" bodyend="89"/>
+    <location file="Tools/Doxygen/DoxHighlightClass.h" line="87" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.h" bodystart="86" bodyend="90"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass_1acc48a67c313a21d666ad703da040518a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxHighlightClass</scope><name>get</name></member>
     </listofallmembers>

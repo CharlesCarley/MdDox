@@ -2,13 +2,13 @@
 <h1>Node</h1>
 <a id="classMdDox_1_1Xml_1_1Node"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<a href="namespaceMdDox.md#">MdDox</a>
+<a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
-<a href="dir_19b9d1dd05713e515e11a6d5d9c80351.md#">Source/Xml</a>
+<a href="namespaceMdDox_1_1Xml.md#xml">Xml</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Node</b></span>
 <br/>
@@ -18,7 +18,7 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1LocalNode.md#localnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocalNode</span>
+<span class="icon-list-item"><a href="classMdDox_1_1GraphNode.md#graphnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphNode</span>
 </a>
 </span>
 <br/>

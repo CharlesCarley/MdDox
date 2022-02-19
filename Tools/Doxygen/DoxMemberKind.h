@@ -110,6 +110,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxMemberKind.service</tt> value.
          */
         DMK_SERVICE,
+        DMK_MAX
     };
 
     class DoxMemberKind

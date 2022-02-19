@@ -53,7 +53,7 @@ namespace MdDox
 
     void DirectoryPageWriter::visitedCompoundName(const String& text)
     {
-        writeNavigation(_out, _writer, _internalDir, "/");
+        writeDirectoryTitleBar(_out, _writer, _internalDir);
     }
 
     void DirectoryPageWriter::visitedInnerDir(const Doxygen::RefQuery& query)
@@ -165,10 +165,10 @@ namespace MdDox
     {
         WRITE_STUB(_writer, _out);
     }
-    
+
     void DirectoryPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {
-        int     i = 0;
+        int              i = 0;
         Doxygen::SortMap map;
         map[Doxygen::DoxLocation]            = i++;
         map[Doxygen::DoxCompoundName]        = i++;

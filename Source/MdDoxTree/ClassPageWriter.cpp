@@ -45,7 +45,7 @@ namespace MdDox
 
     void ClassPageWriter::visitedCompoundName(const String& text)
     {
-        writeNavigation(_out, _writer, _ref, "::");
+        writeNamespaceTitleBar(_out, _writer, _ref);
     }
 
     void ClassPageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)

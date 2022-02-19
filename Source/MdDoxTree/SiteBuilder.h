@@ -137,6 +137,8 @@ namespace MdDox
         void insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
         CompoundReference* getCompoundRef(const String& id) const;
 
+    	Reference          findNamespace(const String& name) const;
+
     	String getCompoundName(const String& id) const;
 
     	
@@ -165,7 +167,7 @@ namespace MdDox
         [[deprecated]] const String& findMember(const String& name, const String& defaultValue = "") const;
 
         String registerDot(const String& text) const;
-        
+
         /**
          * \brief Provides singleton access for extracting config parameters.
          */

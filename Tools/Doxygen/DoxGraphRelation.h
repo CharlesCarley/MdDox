@@ -75,6 +75,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxGraphRelation.protected-inheritance</tt> value.
          */
         DGR_PROTECTED_INHERITANCE,
+        DGR_MAX
     };
 
     class DoxGraphRelation

@@ -24,7 +24,7 @@
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenIndexQuery.h"
 #include "IndexPageWriter.h"
-#include "ReferenceMaps.h"
+#include "ReferenceTable.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Exception.h"
 #include "Xml/Parser.h"
@@ -96,8 +96,8 @@ namespace MdDox
         const String p4 = cfg->getValue("DIRECTORY_TITLE", "Directories");
         const String p5 = cfg->getValue("PAGE_TITLE", "Pages");
 
-    	table->insertCompound(kind, p0, "index");
-        table->insertCompound(kind, p1, "indexpage");
+        table->insertCompound(kind, p0, "indexpage");
+        table->insertCompound(kind, p1, "index");
         table->insertCompound(kind, p2, "namespace_index");
         table->insertCompound(kind, p3, "class_index");
         table->insertCompound(kind, p4, "directory_index");
@@ -173,6 +173,13 @@ namespace MdDox
         if (_referenceMap)
             return _referenceMap->getCompoundRef(id);
         return nullptr;
+    }
+
+    Reference SiteBuilder::findNamespace(const String& name) const
+    {
+        if (_referenceMap)
+            return _referenceMap->findNamespace(name);
+        return {};
     }
 
     String SiteBuilder::getCompoundName(const String& id) const

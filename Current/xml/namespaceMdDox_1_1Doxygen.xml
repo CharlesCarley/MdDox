@@ -146,6 +146,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a2d0defe73aa325f7cb3ac7666f0d29a8af1ad7ee879838b289cdd3b36405b8b4c" prot="public">
+          <name>DA_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -162,7 +169,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxAccessor.h" line="47" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="46" bodyend="73"/>
+        <location file="Tools/Doxygen/DoxAccessor.h" line="47" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="46" bodyend="74"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" prot="public" static="no" strong="no">
         <type></type>
@@ -189,6 +196,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273a99c478ce974d76101b3a841293bbaa40" prot="public">
+          <name>DB_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -201,7 +215,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxBool.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxBool.h" bodystart="42" bodyend="53"/>
+        <location file="Tools/Doxygen/DoxBool.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxBool.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7d54479e273f12f712a1aca96cb1e23e" prot="public" static="no" strong="no">
         <type></type>
@@ -209,6 +223,13 @@
         <enumvalue id="namespaceMdDox_1_1Doxygen_1a7d54479e273f12f712a1aca96cb1e23ea6c634c4ac0807fa1a384af7941bd5fe4" prot="public">
           <name>DCR_INVALID</name>
           <initializer>=-1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a7d54479e273f12f712a1aca96cb1e23eab5c7baa4ccde7f234aeb9d3edbb41032" prot="public">
+          <name>DCR_MAX</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -225,7 +246,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCharRange.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="41" bodyend="44"/>
+        <location file="Tools/Doxygen/DoxCharRange.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" prot="public" static="no" strong="no">
         <type></type>
@@ -357,6 +378,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a9ce859ab26fb91872f71ab1b88e884fa" prot="public">
+          <name>DCK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -384,7 +412,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCompoundKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="57" bodyend="128"/>
+        <location file="Tools/Doxygen/DoxCompoundKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="57" bodyend="129"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a92fda3af13e99912951bee1607752d61" prot="public" static="no" strong="no">
         <type></type>
@@ -446,6 +474,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a92fda3af13e99912951bee1607752d61a647e6423442a5356f798361c8856de0b" prot="public">
+          <name>DGR_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -463,7 +498,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxGraphRelation.h" line="48" column="1" bodyfile="Tools/Doxygen/DoxGraphRelation.h" bodystart="47" bodyend="78"/>
+        <location file="Tools/Doxygen/DoxGraphRelation.h" line="48" column="1" bodyfile="Tools/Doxygen/DoxGraphRelation.h" bodystart="47" bodyend="79"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" prot="public" static="no" strong="no">
         <type></type>
@@ -532,6 +567,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5ae960950589ae67d1aecabefad8caf79d" prot="public">
+          <name>DHC_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -550,7 +592,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxHighlightClass.h" line="49" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.h" bodystart="48" bodyend="83"/>
+        <location file="Tools/Doxygen/DoxHighlightClass.h" line="49" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.h" bodystart="48" bodyend="84"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6" prot="public" static="no" strong="no">
         <type></type>
@@ -584,6 +626,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6ade446c919656830e8c36485ae5b5239a" prot="public">
+          <name>DIK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -597,7 +646,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxImageKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="43" bodyend="58"/>
+        <location file="Tools/Doxygen/DoxImageKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1" prot="public" static="no" strong="no">
         <type></type>
@@ -722,6 +771,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1ae51b771c8414126412b74ba860a20b00" prot="public">
+          <name>DL_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -748,7 +804,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxLanguage.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="56" bodyend="123"/>
+        <location file="Tools/Doxygen/DoxLanguage.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="56" bodyend="124"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" prot="public" static="no" strong="no">
         <type></type>
@@ -859,6 +915,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ad0bac775b2ebc905f53c5466e63afc07" prot="public">
+          <name>DMK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -883,7 +946,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxMemberKind.h" line="55" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="54" bodyend="113"/>
+        <location file="Tools/Doxygen/DoxMemberKind.h" line="55" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="54" bodyend="114"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" prot="public" static="no" strong="no">
         <type></type>
@@ -917,6 +980,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869bacbf9d2b947434edfc91a1034a99802d6" prot="public">
+          <name>DPD_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -930,7 +1000,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxParamDir.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxParamDir.h" bodystart="43" bodyend="58"/>
+        <location file="Tools/Doxygen/DoxParamDir.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxParamDir.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a9128ed41c1161394dc4f8acbe047bee2" prot="public" static="no" strong="no">
         <type></type>
@@ -971,6 +1041,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a9128ed41c1161394dc4f8acbe047bee2a7d7c76cb6ec9c531a10f325e02d2907e" prot="public">
+          <name>DPLK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -985,7 +1062,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxParamListKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxParamListKind.h" bodystart="44" bodyend="63"/>
+        <location file="Tools/Doxygen/DoxParamListKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxParamListKind.h" bodystart="44" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" prot="public" static="no" strong="no">
         <type></type>
@@ -1026,6 +1103,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a52344edeea5b9136068f28f718a78659" prot="public">
+          <name>DPK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1040,7 +1124,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxProtectionKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.h" bodystart="44" bodyend="63"/>
+        <location file="Tools/Doxygen/DoxProtectionKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.h" bodystart="44" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9b" prot="public" static="no" strong="no">
         <type></type>
@@ -1067,6 +1151,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9ba858a71815ff22e2ca85f73931c3a0a2d" prot="public">
+          <name>DRK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1079,7 +1170,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefKind.h" bodystart="42" bodyend="53"/>
+        <location file="Tools/Doxygen/DoxRefKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefKind.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504d" prot="public" static="no" strong="no">
         <type></type>
@@ -1106,6 +1197,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504da0e2d21821e5258880d345ab71d8f1038" prot="public">
+          <name>DRQK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1118,7 +1216,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefQualifierKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefQualifierKind.h" bodystart="42" bodyend="53"/>
+        <location file="Tools/Doxygen/DoxRefQualifierKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefQualifierKind.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" prot="public" static="no" strong="no">
         <type></type>
@@ -1383,6 +1481,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aa265f0ee726494dddbfb1499171e75ff1" prot="public">
+          <name>DSK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1429,7 +1534,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSectionKind.h" line="77" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.h" bodystart="76" bodyend="223"/>
+        <location file="Tools/Doxygen/DoxSectionKind.h" line="77" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.h" bodystart="76" bodyend="224"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ad" prot="public" static="no" strong="no">
         <type></type>
@@ -1561,6 +1666,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ada40da4f6d925cf701d8910c4bf8ef5f83" prot="public">
+          <name>DSSK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1588,7 +1700,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="57" bodyend="128"/>
+        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="57" bodyend="129"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ac955fbb2748fcc7c3976542f750913e6" prot="public" static="no" strong="no">
         <type></type>
@@ -1596,6 +1708,13 @@
         <enumvalue id="namespaceMdDox_1_1Doxygen_1ac955fbb2748fcc7c3976542f750913e6aaefea186b3f8a9e3006b5fbffe9aa6c9" prot="public">
           <name>DVN_INVALID</name>
           <initializer>=-1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1ac955fbb2748fcc7c3976542f750913e6a5578bd2e028a254bc4bf667f0450a94c" prot="public">
+          <name>DVN_MAX</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -1612,7 +1731,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxVersionNumber.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxVersionNumber.h" bodystart="41" bodyend="44"/>
+        <location file="Tools/Doxygen/DoxVersionNumber.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxVersionNumber.h" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807ba" prot="public" static="no" strong="no">
         <type></type>
@@ -1646,6 +1765,13 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807baa7fb15b447b9cb3573d5b07ae4b60c9c8" prot="public">
+          <name>DVK_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1659,7 +1785,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxVirtualKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxVirtualKind.h" bodystart="43" bodyend="58"/>
+        <location file="Tools/Doxygen/DoxVirtualKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxVirtualKind.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06" prot="public" static="no" strong="no">
         <type></type>

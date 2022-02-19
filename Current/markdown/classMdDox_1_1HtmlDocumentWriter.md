@@ -2,11 +2,11 @@
 <h1>HtmlDocumentWriter</h1>
 <a id="classMdDox_1_1HtmlDocumentWriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<a href="namespaceMdDox.md#">MdDox</a>
+<a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>HtmlDocumentWriter</b></span>
 <br/>
@@ -23,7 +23,7 @@
 </a>
 </span>
 <br/>
-<img src="../images/dot/internal-diagram-105.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-106.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_sectiondepth" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_sectionDepth</span>

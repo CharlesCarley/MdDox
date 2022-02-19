@@ -60,6 +60,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxParamListKind.templateparam</tt> value.
          */
         DPLK_TEMPLATE_PARAM,
+        DPLK_MAX
     };
 
     class DoxParamListKind

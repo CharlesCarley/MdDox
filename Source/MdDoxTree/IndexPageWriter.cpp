@@ -182,10 +182,7 @@ namespace MdDox
 
         _writer->beginSection(out, "Contents", 2);
         for (const Reference& page : list)
-        {
             _writer->linkRefIcon(out, icon, 0, page.getReference(), page.getName());
-            _writer->lineBreak(out);
-        }
         _writer->endSection(out);
         _writer->endDocument(out);
     }

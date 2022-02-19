@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxProtectionKind.h" line="68" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.cpp" bodystart="30" bodyend="41"/>
+        <location file="Tools/Doxygen/DoxProtectionKind.h" line="69" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.cpp" bodystart="30" bodyend="41"/>
         <references refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a36c67f4dc195401d0e2aa4d4acba46e7" compoundref="DoxProtectionKind_8h" startline="50">MdDox::Doxygen::DPK_PUBLIC</references>
         <references refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a388ef2b543ed6def085ee9b481dac3d5" compoundref="DoxProtectionKind_8h" startline="54">MdDox::Doxygen::DPK_PROTECTED</references>
         <references refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714a24f5f8d9cb60eff95fe280f8638a9efc" compoundref="DoxProtectionKind_8h" startline="58">MdDox::Doxygen::DPK_PRIVATE</references>
@@ -31,7 +31,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxProtectionKind.h" line="66" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.h" bodystart="65" bodyend="69"/>
+    <location file="Tools/Doxygen/DoxProtectionKind.h" line="67" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.h" bodystart="66" bodyend="70"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxProtectionKind</scope><name>get</name></member>
     </listofallmembers>

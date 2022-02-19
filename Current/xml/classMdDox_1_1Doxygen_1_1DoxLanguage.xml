@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxLanguage.h" line="128" column="1" bodyfile="Tools/Doxygen/DoxLanguage.cpp" bodystart="30" bodyend="65"/>
+        <location file="Tools/Doxygen/DoxLanguage.h" line="129" column="1" bodyfile="Tools/Doxygen/DoxLanguage.cpp" bodystart="30" bodyend="65"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1ac79688c8b6052f2a0d5cd3e207faa63a" compoundref="DoxLanguage_8h" startline="62">MdDox::Doxygen::DL_UNKNOWN</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1ad3bd59b01565a893c9a5ed87e965c19d" compoundref="DoxLanguage_8h" startline="66">MdDox::Doxygen::DL_TCL</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1aadc5af89a10b5ca26f8fc72c9a75af2e" compoundref="DoxLanguage_8h" startline="70">MdDox::Doxygen::DL_IDL</references>
@@ -43,7 +43,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxLanguage.h" line="126" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="125" bodyend="129"/>
+    <location file="Tools/Doxygen/DoxLanguage.h" line="127" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="126" bodyend="130"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxLanguage_1a5a7555d8953d470bbe9f70f7ff39ff71" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxLanguage</scope><name>get</name></member>
     </listofallmembers>

@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="45" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="145" bodyend="149"/>
+        <location file="Tools/GenApi/Simple.h" line="45" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="146" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1a16c28db586098493f7076662db0fb457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -151,12 +151,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="43" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="123" bodyend="143"/>
+        <location file="Tools/GenApi/Simple.h" line="43" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="124" bodyend="144"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
-        <references refid="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" compoundref="Simple_8cpp" startline="51" endline="96">writeHeader</references>
-        <references refid="classMdDox_1_1GenApi_1_1Simple_1a7866e4471bb71712f2f3f86886c4e046" compoundref="Simple_8cpp" startline="98" endline="121">writeSource</references>
+        <references refid="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" compoundref="Simple_8cpp" startline="51" endline="97">writeHeader</references>
+        <references refid="classMdDox_1_1GenApi_1_1Simple_1a7866e4471bb71712f2f3f86886c4e046" compoundref="Simple_8cpp" startline="99" endline="122">writeSource</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Simple_1a3f93f35cae7b04e89dff905f76780518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="41" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="51" bodyend="96"/>
+        <location file="Tools/GenApi/Simple.h" line="41" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="51" bodyend="97"/>
         <references refid="classMdDox_1_1Xml_1_1Writer_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" compoundref="Writer_8cpp" startline="36" endline="39">MdDox::Xml::Writer::setIndent</references>
         <references refid="classMdDox_1_1Xml_1_1Writer_1a386ffcf7d74ba57836183ad2be6214a5" compoundref="Writer_8cpp" startline="41" endline="44">MdDox::Xml::Writer::setWriteXml</references>
         <references refid="classMdDox_1_1Xml_1_1Writer_1a3de47d9176cd5216f12c3e71d7c6e828" compoundref="Writer_8cpp" startline="115" endline="124">MdDox::Xml::Writer::write</references>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Simple.h" line="42" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="98" bodyend="121"/>
+        <location file="Tools/GenApi/Simple.h" line="42" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="99" bodyend="122"/>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
       </memberdef>
       </sectiondef>

@@ -80,6 +80,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxHighlightClass.stringliteral</tt> value.
          */
         DHC_STRINGLITERAL,
+        DHC_MAX
     };
 
     class DoxHighlightClass

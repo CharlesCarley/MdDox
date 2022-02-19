@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxMemberKind.h" line="118" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.cpp" bodystart="30" bodyend="61"/>
+        <location file="Tools/Doxygen/DoxMemberKind.h" line="119" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.cpp" bodystart="30" bodyend="61"/>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4adf151ea8518524a8df827d2b48eb8fae" compoundref="DoxMemberKind_8h" startline="60">MdDox::Doxygen::DMK_DEFINE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4ad1458999750564d3858a4050dd2657c0" compoundref="DoxMemberKind_8h" startline="64">MdDox::Doxygen::DMK_ENUM</references>
         <references refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4a877a0238be37a70f5939d01f59b6dc19" compoundref="DoxMemberKind_8h" startline="68">MdDox::Doxygen::DMK_PROPERTY</references>
@@ -41,7 +41,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxMemberKind.h" line="116" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="115" bodyend="119"/>
+    <location file="Tools/Doxygen/DoxMemberKind.h" line="117" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="116" bodyend="120"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxMemberKind_1a6aba6ff41752f6ada40f7855784cd518" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxMemberKind</scope><name>get</name></member>
     </listofallmembers>

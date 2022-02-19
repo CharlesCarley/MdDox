@@ -7,48 +7,46 @@
     <includes refid="FileSystem_8h" local="yes">Utils/FileSystem.h</includes>
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
     <incdepgraph>
-      <node id="4567">
+      <node id="4568">
         <label>functional</label>
       </node>
-      <node id="4563">
+      <node id="4564">
         <label>iomanip</label>
       </node>
-      <node id="4560">
+      <node id="4561">
         <label>string</label>
       </node>
-      <node id="4558">
+      <node id="4559">
         <label>fstream</label>
       </node>
-      <node id="4566">
+      <node id="4567">
         <label>Xml/Node.h</label>
-        <childnode refid="4567" relation="include">
+        <childnode refid="4568" relation="include">
         </childnode>
-        <childnode refid="4561" relation="include">
+        <childnode refid="4562" relation="include">
         </childnode>
-        <childnode refid="4556" relation="include">
-        </childnode>
-      </node>
-      <node id="4555">
-        <label>Xml/Writer.h</label>
-        <childnode refid="4556" relation="include">
-        </childnode>
-      </node>
-      <node id="4554">
-        <label>Source/Xml/Writer.cpp</label>
-        <link refid="Writer_8cpp"/>
-        <childnode refid="4555" relation="include">
-        </childnode>
-        <childnode refid="4563" relation="include">
-        </childnode>
-        <childnode refid="4564" relation="include">
-        </childnode>
-        <childnode refid="4566" relation="include">
+        <childnode refid="4557" relation="include">
         </childnode>
       </node>
       <node id="4556">
-        <label>Utils/String.h</label>
+        <label>Xml/Writer.h</label>
         <childnode refid="4557" relation="include">
         </childnode>
+      </node>
+      <node id="4555">
+        <label>Source/Xml/Writer.cpp</label>
+        <link refid="Writer_8cpp"/>
+        <childnode refid="4556" relation="include">
+        </childnode>
+        <childnode refid="4564" relation="include">
+        </childnode>
+        <childnode refid="4565" relation="include">
+        </childnode>
+        <childnode refid="4567" relation="include">
+        </childnode>
+      </node>
+      <node id="4557">
+        <label>Utils/String.h</label>
         <childnode refid="4558" relation="include">
         </childnode>
         <childnode refid="4559" relation="include">
@@ -61,27 +59,29 @@
         </childnode>
         <childnode refid="4563" relation="include">
         </childnode>
+        <childnode refid="4564" relation="include">
+        </childnode>
       </node>
-      <node id="4562">
+      <node id="4563">
         <label>vector</label>
       </node>
-      <node id="4559">
+      <node id="4560">
         <label>sstream</label>
       </node>
-      <node id="4564">
+      <node id="4565">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="4565" relation="include">
+        <childnode refid="4566" relation="include">
         </childnode>
-        <childnode refid="4556" relation="include">
+        <childnode refid="4557" relation="include">
         </childnode>
       </node>
-      <node id="4557">
+      <node id="4558">
         <label>deque</label>
       </node>
-      <node id="4561">
+      <node id="4562">
         <label>unordered_map</label>
       </node>
-      <node id="4565">
+      <node id="4566">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

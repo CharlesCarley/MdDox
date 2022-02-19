@@ -322,8 +322,10 @@ namespace MdDox
 
     void HtmlDocumentWriter::linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title)
     {
+        Html::beginDivSection(output, "icon-link");
         Html::embedContent(output, IconSet::fileName(ico));
         linkRef(output, kind, id, title);
+        Html::endDivSection(output, "icon-link");
     }
 
     void HtmlDocumentWriter::linkRef(OStream& output, int kind, const String& id, const String& title)

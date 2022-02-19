@@ -51,7 +51,7 @@ set(Target_HDR
 	ParameterWriter.h
 	Reference.h
 	ReferenceIdentifiers.h
-	ReferenceMaps.h
+	ReferenceTable.h
 	RepoFile.h
 	Section1Writer.h
 	Section2Writer.h
@@ -93,7 +93,7 @@ set(Target_SRC
 	ParameterListWriter.cpp
 	ParameterWriter.cpp
 	ReferenceIdentifiers.cpp
-	ReferenceMaps.cpp
+	ReferenceTable.cpp
 	RepoFile.cpp
 	Section1Writer.cpp
 	Section2Writer.cpp

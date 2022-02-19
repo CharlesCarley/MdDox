@@ -84,6 +84,7 @@ namespace MdDox::GenApi
             text(out, 0x09, "*/");
             text(out, 0x08, _prefix, "_", val, ',');
         }
+        text(out, 0x08, _prefix, "_MAX");
         text(out, 0x04, "};");
         newLine(out, 1);
         text(out, 0x04, "class ", _name);

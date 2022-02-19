@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxAccessor.h" line="78" column="1" bodyfile="Tools/Doxygen/DoxAccessor.cpp" bodystart="30" bodyend="45"/>
+        <location file="Tools/Doxygen/DoxAccessor.h" line="79" column="1" bodyfile="Tools/Doxygen/DoxAccessor.cpp" bodystart="30" bodyend="45"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a2d0defe73aa325f7cb3ac7666f0d29a8af84d3f868257713c28552c2157959abf" compoundref="DoxAccessor_8h" startline="52">MdDox::Doxygen::DA_ASSIGN</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a2d0defe73aa325f7cb3ac7666f0d29a8ac15e544545f1ff92d5b6529b74bfb614" compoundref="DoxAccessor_8h" startline="56">MdDox::Doxygen::DA_COPY</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a2d0defe73aa325f7cb3ac7666f0d29a8a8c4bbd26b6254c68c13020cb17735dba" compoundref="DoxAccessor_8h" startline="60">MdDox::Doxygen::DA_RETAIN</references>
@@ -33,7 +33,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxAccessor.h" line="76" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="75" bodyend="79"/>
+    <location file="Tools/Doxygen/DoxAccessor.h" line="77" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="76" bodyend="80"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxAccessor_1a31dd146fe72ae37909b1b6f811bb8919" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxAccessor</scope><name>get</name></member>
     </listofallmembers>

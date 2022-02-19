@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Xml_1_1Node" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Xml::Node</compoundname>
-    <derivedcompoundref refid="classMdDox_1_1LocalNode" prot="public" virt="non-virtual">MdDox::LocalNode</derivedcompoundref>
+    <derivedcompoundref refid="classMdDox_1_1GraphNode" prot="public" virt="non-virtual">MdDox::GraphNode</derivedcompoundref>
     <includes local="no">Source/Xml/Node.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Node_1a49824e1be14454c30f40e6326960d97e" prot="private" static="no" mutable="no">
@@ -815,15 +815,15 @@
     <detaileddescription>
 <para>A <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> represents a single XML tag.</para><para>A single node in the tree can have one parent and (N) number of children.</para><para>Each node may contain any number of attributes attached to it.</para><para>Any node can optionally have plain-text data associated with it. In order to keep the internal text inline with tag based nodes, the parser creates a specialty node with the name <bold>_text_node</bold> to store blocks of text in between tags. The text node is pushed as a child node to the node on the top of the parse stack.</para><para>All attributes are defined in the form of a string. Any extra type of serialization is beyond the scope of this class and must be handled elsewhere. There is, however, one exception to this if a type filter has been applied before parsing the file, an optional type code can be assigned to the node itself so that nodes can be type-checked with integers VS strings. </para>    </detaileddescription>
     <inheritancegraph>
+      <node id="1029">
+        <label>MdDox::GraphNode</label>
+        <link refid="classMdDox_1_1GraphNode"/>
+        <childnode refid="1028" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1028">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-      </node>
-      <node id="1029">
-        <label>MdDox::LocalNode</label>
-        <link refid="classMdDox_1_1LocalNode"/>
-        <childnode refid="1028" relation="public-inheritance">
-        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>

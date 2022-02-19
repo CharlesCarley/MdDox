@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="133" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.cpp" bodystart="30" bodyend="67"/>
+        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="134" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.cpp" bodystart="30" bodyend="67"/>
         <references refid="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ada4bbbcc8680efa81115fb217e54be1075" compoundref="DoxSimpleSectKind_8h" startline="63">MdDox::Doxygen::DSSK_SEE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ada435b89449a9870db4c43e1e210138bb5" compoundref="DoxSimpleSectKind_8h" startline="67">MdDox::Doxygen::DSSK_VERSION</references>
         <references refid="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ada57137766dbe0558e8371d7b872d11d04" compoundref="DoxSimpleSectKind_8h" startline="71">MdDox::Doxygen::DSSK_RETURN</references>
@@ -44,7 +44,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="131" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="130" bodyend="134"/>
+    <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="132" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="131" bodyend="135"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind_1acd37d1a8bbcc5d31a274aa75a3775c09" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxSimpleSectKind</scope><name>get</name></member>
     </listofallmembers>

@@ -41,6 +41,7 @@ namespace MdDox::Doxygen
     enum DoxCharRangeEnum
     {
         DCR_INVALID=-1,
+        DCR_MAX
     };
 
     class DoxCharRange

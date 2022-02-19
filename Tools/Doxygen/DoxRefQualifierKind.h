@@ -50,6 +50,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxRefQualifierKind.rvalue</tt> value.
          */
         DRQK_RVALUE,
+        DRQK_MAX
     };
 
     class DoxRefQualifierKind

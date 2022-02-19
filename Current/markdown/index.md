@@ -1,9 +1,9 @@
 <a id="mddox"></a>
 <h1>MdDox</h1>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Contents</b></span>
 <a id="contents"></a>

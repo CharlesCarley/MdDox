@@ -125,6 +125,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxSimpleSectKind.rcs</tt> value.
          */
         DSSK_RCS,
+        DSSK_MAX
     };
 
     class DoxSimpleSectKind

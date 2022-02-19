@@ -41,6 +41,7 @@ namespace MdDox::Doxygen
     enum DoxVersionNumberEnum
     {
         DVN_INVALID=-1,
+        DVN_MAX
     };
 
     class DoxVersionNumber

@@ -55,6 +55,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxVirtualKind.pure-virtual</tt> value.
          */
         DVK_PURE_VIRTUAL,
+        DVK_MAX
     };
 
     class DoxVirtualKind

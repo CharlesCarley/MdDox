@@ -28,11 +28,17 @@ namespace MdDox
     using CompoundReferenceMap = std::map<String, CompoundReference*>;
     using MemberReferenceMap   = std::map<String, MemberReference*>;
 
+    /**
+	 * \brief Provides a name look up
+	 */
+    using CompoundNameMap = std::map<String, CompoundReference*>;
+
     class ReferenceTable
     {
     private:
         CompoundReferenceMap _compound;
         MemberReferenceMap   _members;
+        CompoundNameMap      _nameMap[Doxygen::DoxCompoundKindEnum::DCK_MAX];
 
     public:
         ReferenceTable() = default;
@@ -40,11 +46,12 @@ namespace MdDox
 
         void insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id);
 
-    	CompoundReference* getCompoundRef(const String& id);
+        CompoundReference* getCompoundRef(const String& id);
+        Reference          findNamespace(const String& nsName) const;
 
         void insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id);
 
-    	MemberReference* getMemberRef(const String& id);
+        MemberReference* getMemberRef(const String& id);
     };
 
 }  // namespace MdDox

@@ -120,6 +120,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxLanguage.Markdown</tt> value.
          */
         DL_MARKDOWN,
+        DL_MAX
     };
 
     class DoxLanguage

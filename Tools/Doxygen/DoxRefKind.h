@@ -50,6 +50,7 @@ namespace MdDox::Doxygen
          * \brief Definition for the <tt>DoxRefKind.member</tt> value.
          */
         DRK_MEMBER,
+        DRK_MAX
     };
 
     class DoxRefKind

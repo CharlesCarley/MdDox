@@ -44,6 +44,9 @@ namespace MdDox
         const String& getReference() const;
 
         void setReference(const String& ref);
+
+
+        bool empty() const;
     };
 
     inline const String& Reference::getName() const
@@ -66,4 +69,8 @@ namespace MdDox
         _ref = ref;
     }
 
+    inline bool Reference::empty() const
+    {
+	    return _ref.empty();
+    }
 }  // namespace MdDox

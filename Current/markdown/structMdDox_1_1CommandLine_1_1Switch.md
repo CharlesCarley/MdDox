@@ -2,13 +2,13 @@
 <h1>Switch</h1>
 <a id="structMdDox_1_1CommandLine_1_1Switch"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#index">Index</a>
+<a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
-<a href="index.md#mddox">MdDox</a>
+<a href="index.md#toc">TOC</a>
 <span class="inline-text">/</span>
-<a href="namespaceMdDox.md#">MdDox</a>
+<a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
-<a href="dir_7d925da7aa4fec7d143339dda86741c5.md#">Source/Utils/CommandLine</a>
+<a href="namespaceMdDox_1_1CommandLine.md#commandline">CommandLine</a>
 <span class="inline-text">::</span>
 <span class="bold-text"><b>Switch</b></span>
 <br/>

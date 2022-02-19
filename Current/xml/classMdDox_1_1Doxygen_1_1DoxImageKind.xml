@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxImageKind.h" line="63" column="1" bodyfile="Tools/Doxygen/DoxImageKind.cpp" bodystart="30" bodyend="39"/>
+        <location file="Tools/Doxygen/DoxImageKind.h" line="64" column="1" bodyfile="Tools/Doxygen/DoxImageKind.cpp" bodystart="30" bodyend="39"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a115343b5e42cb9f67028a7cadb709199" compoundref="DoxImageKind_8h" startline="49">MdDox::Doxygen::DIK_HTML</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a776d6b285e4ee4aba9b2e709a6a23bdd" compoundref="DoxImageKind_8h" startline="53">MdDox::Doxygen::DIK_LATEX</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6a5554e1244e2d9e39daf44f4edf992284" compoundref="DoxImageKind_8h" startline="57">MdDox::Doxygen::DIK_RTF</references>
@@ -30,7 +30,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxImageKind.h" line="61" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="60" bodyend="64"/>
+    <location file="Tools/Doxygen/DoxImageKind.h" line="62" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="61" bodyend="65"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxImageKind_1a3f9dbedc3ecced5cd670164796b78e14" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxImageKind</scope><name>get</name></member>
     </listofallmembers>
