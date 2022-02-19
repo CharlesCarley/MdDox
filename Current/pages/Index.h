@@ -1,6 +1,6 @@
 #pragma once
 /*!
-\mainpage Main
+\mainpage MdDox
 
 
 \section Topics

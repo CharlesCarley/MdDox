@@ -1,10 +1,10 @@
-<a id="main"></a>
-<h1>Main</h1>
+<a id="mddox"></a>
+<h1>MdDox</h1>
 <a id="indexpage"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
+<a href="indexpage.md#index">Index</a>
 <span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>index</b></span>
 <br/>

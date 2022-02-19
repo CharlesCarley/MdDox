@@ -7,8 +7,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"></codeline>
     </programlisting>
     <location file="Current/pages/SiteLayout.h"/>
   </compounddef>

@@ -2,9 +2,9 @@
 <h1>GraphNode</h1>
 <a id="structMdDox_1_1GraphNode"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
+<a href="indexpage.md#index">Index</a>
 <span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="namespaceMdDox.md#">MdDox</a>
 <span class="inline-text">::</span>

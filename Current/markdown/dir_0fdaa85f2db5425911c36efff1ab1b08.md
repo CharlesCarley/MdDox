@@ -2,9 +2,9 @@
 <h1>pages</h1>
 <a id="dir_0fdaa85f2db5425911c36efff1ab1b08"></a>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
+<a href="indexpage.md#index">Index</a>
 <span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="dir_f19befb0a20a037054255eb425fb4872.md#">Current</a>
 <span class="inline-text">/</span>

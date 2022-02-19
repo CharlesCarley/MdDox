@@ -1,9 +1,9 @@
 <a id="namespaces"></a>
 <h1>Namespaces</h1>
 <a href="https://github.com/CharlesCarley/MdDox">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
+<a href="indexpage.md#index">Index</a>
 <span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Namespaces</b></span>
 <br/>

@@ -87,22 +87,21 @@ namespace MdDox
 
     void makeInternalPages(ReferenceTable* table, Config* cfg)
     {
-	    const Doxygen::DoxCompoundKindEnum kind = Doxygen::DoxCompoundKindEnum::DCK_PAGE;
+        const Doxygen::DoxCompoundKindEnum kind = Doxygen::DoxCompoundKindEnum::DCK_PAGE;
 
-        const String projectTitle = cfg->getValue("PROJECT_TITLE");
-        const String idx          = "Index";
+        const String p0 = cfg->getValue("PROJECT_TITLE", "Main");
+        const String p1 = cfg->getValue("INDEX_TITLE", "Index");
+        const String p2 = cfg->getValue("NAMESPACE_TITLE", "Namespaces");
+        const String p3 = cfg->getValue("CLASS_TITLE", "Classes");
+        const String p4 = cfg->getValue("DIRECTORY_TITLE", "Directories");
+        const String p5 = cfg->getValue("PAGE_TITLE", "Pages");
 
-        String idxPage = projectTitle;
-        if (projectTitle.empty())
-            idxPage = "Main";
-
-        // pre map these
-        table->insertCompound(kind, idx, "index");
-        table->insertCompound(kind, idxPage, "indexpage");
-        table->insertCompound(kind, "namespaces", "namespace_index");
-        table->insertCompound(kind, "Classes", "class_index");
-        table->insertCompound(kind, "Directories", "directory_index");
-        table->insertCompound(kind, "Pages", "page_index");
+    	table->insertCompound(kind, p0, "index");
+        table->insertCompound(kind, p1, "indexpage");
+        table->insertCompound(kind, p2, "namespace_index");
+        table->insertCompound(kind, p3, "class_index");
+        table->insertCompound(kind, p4, "directory_index");
+        table->insertCompound(kind, p5, "page_index");
     }
 
     void SiteBuilder::loadConfig(const String& configFile)
@@ -158,7 +157,7 @@ namespace MdDox
             _dot.load(dotStream);
         }
 
-    	makeInternalPages(_referenceMap, &config);
+        makeInternalPages(_referenceMap, &config);
     }
 
     void SiteBuilder::insertCompound(const Doxygen::DoxCompoundKindEnum& kind,

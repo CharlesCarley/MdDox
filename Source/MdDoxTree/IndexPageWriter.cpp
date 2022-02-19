@@ -29,7 +29,6 @@
 #include "GenericPageWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/HashUtils.h"
-#include "MdDoxTree/Link.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "NamespacePageWriter.h"
@@ -174,9 +173,9 @@ namespace MdDox
         if (!out.is_open())
             throw InputException("Failed to open the supplied file path: ", name);
 
-    	_writer->beginDocument(out, heading);
+        _writer->beginDocument(out, heading);
 
-    	writeCommonNav(out, _writer);
+        writeCommonNav(out, _writer);
         _writer->boldText(out, heading);
         _writer->lineBreak(out);
         _writer->lineBreak(out);
@@ -198,8 +197,6 @@ namespace MdDox
         _outDir = outDir;
         _outDir.fileName(StringCombine("index", builder.outputFileExt));
 
-    	
-
         OutputFileStream out(_outDir.fullPath());
         if (out.is_open())
         {
@@ -211,8 +208,8 @@ namespace MdDox
 
             _writer->beginDocument(out, builder.projectTitle);
 
-        	writeCommonNav(out, _writer);
-        	
+            writeCommonNav(out, _writer);
+
             _writer->boldText(out, "Contents");
 
             String file;
@@ -224,9 +221,11 @@ namespace MdDox
             // Pages
             StringCombine(name, "page_index", builder.outputFileExt);
             StringCombine(file, _outDir.fullPath(), '/', name);
-            writeReferenceFile(file, ICO_FILE, "Pages", filter.pages);
+            writeReferenceFile(file,
+                               ICO_FILE,
+                               builder.getCompoundName("page_index"),
+                               filter.pages);
             name.push_back('#');
-
             _writer->embedContentLinkText(out, ICO_ENUM, name, "Pages");
             _writer->lineBreak(out);
 

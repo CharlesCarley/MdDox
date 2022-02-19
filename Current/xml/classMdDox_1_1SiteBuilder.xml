@@ -371,7 +371,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="194" endline="267">MdDox::IndexPageWriter::exec</references>
+        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="193" endline="266">MdDox::IndexPageWriter::exec</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="213">outputDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -394,7 +394,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="165" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="260" bodyend="266"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="165" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="259" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -416,7 +416,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="163" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="252" bodyend="258"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="163" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="251" bodyend="257"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -438,7 +438,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="161" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="244" bodyend="250"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="161" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="243" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a6eaef2266419ab7676ad415c883efad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -455,7 +455,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="140" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="179" bodyend="188"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="140" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="178" bodyend="187"/>
         <references refid="classMdDox_1_1ReferenceTable_1a663a4326e8e6eaa76b2faed0d0d4321e" compoundref="ReferenceMaps_8cpp" startline="54" endline="60">MdDox::ReferenceTable::getCompoundRef</references>
         <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="49" endline="52">MdDox::Reference::getName</references>
       </memberdef>
@@ -474,7 +474,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="138" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="172" bodyend="177"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="138" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="171" bodyend="176"/>
         <references refid="classMdDox_1_1ReferenceTable_1a663a4326e8e6eaa76b2faed0d0d4321e" compoundref="ReferenceMaps_8cpp" startline="54" endline="60">MdDox::ReferenceTable::getCompoundRef</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a0e191e2993aef67a4aac62a8f26dadc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -492,7 +492,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="144" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="198" bodyend="203"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="144" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="197" bodyend="202"/>
         <references refid="classMdDox_1_1ReferenceTable_1ada3aaba29f24b44954760968731232b3" compoundref="ReferenceMaps_8cpp" startline="82" endline="88">MdDox::ReferenceTable::getMemberRef</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -518,7 +518,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="137" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="164" bodyend="170"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="137" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="163" bodyend="169"/>
         <references refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" compoundref="ReferenceMaps_8cpp" startline="34" endline="52">MdDox::ReferenceTable::insertCompound</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -544,7 +544,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="143" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="190" bodyend="196"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="143" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="189" bodyend="195"/>
         <references refid="classMdDox_1_1ReferenceTable_1ae6b39d6e36163610120be728c8b688fe" compoundref="ReferenceMaps_8cpp" startline="62" endline="80">MdDox::ReferenceTable::insertMember</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -570,7 +570,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
 Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to collect configuration options. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="135" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="108" bodyend="162"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="135" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="107" bodyend="161"/>
         <references refid="classMdDox_1_1Config_1a9bf2aed3f47e9695ca9960190f5470ef" compoundref="Config_8cpp" startline="30" endline="76">MdDox::Config::load</references>
         <references refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" compoundref="SiteBuilder_8h" startline="244">showDebug</references>
         <references refid="classMdDox_1_1Config_1afbb5b638949896b8307a556ec2c5bc8c" compoundref="Config_8cpp" startline="231" endline="237">MdDox::Config::getBool</references>
@@ -593,7 +593,7 @@ Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="180">projectTitle</references>
         <references refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" compoundref="SiteBuilder_8h" startline="187">projectBrief</references>
-        <references refid="namespaceMdDox_1af9ca83aee0455c653902504d5325f642" compoundref="SiteBuilder_8cpp" startline="88" endline="106">MdDox::makeInternalPages</references>
+        <references refid="namespaceMdDox_1af9ca83aee0455c653902504d5325f642" compoundref="SiteBuilder_8cpp" startline="88" endline="105">MdDox::makeInternalPages</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -629,7 +629,7 @@ Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="154" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="205" bodyend="228"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="154" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="204" bodyend="227"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -647,7 +647,7 @@ Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="167" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="268" bodyend="278"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="167" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="267" bodyend="277"/>
         <references refid="classMdDox_1_1Config_1a46f22c7b7c8c80011e145b3854d73f84" compoundref="Config_8cpp" startline="244" endline="247">MdDox::Config::attributes</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -671,7 +671,7 @@ Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="159" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="230" bodyend="242"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="159" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="229" bodyend="241"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
       </sectiondef>
@@ -687,7 +687,7 @@ Uses <ref refid="classMdDox_1_1Config" kindref="compound">MdDox::Config</ref> to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="172" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="282" bodyend="287"/>
+        <location file="Source/MdDoxTree/SiteBuilder.h" line="172" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="281" bodyend="286"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
