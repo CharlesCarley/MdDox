@@ -146,7 +146,7 @@
         </childnode>
       </node>
       <node id="1662">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</label>
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
         <link refid="ParameterListWriter_8cpp"/>
         <childnode refid="1663" relation="include">
         </childnode>
@@ -350,6 +350,6 @@
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp"/>
+    <location file="Source/MdDoxTree/ParameterListWriter.cpp"/>
   </compounddef>
 </doxygen>

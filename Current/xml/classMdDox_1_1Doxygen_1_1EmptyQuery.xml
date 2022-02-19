@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1EmptyQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::EmptyQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">EmptyQuery.h</includes>
+    <includes local="no">Tools/Doxygen/EmptyQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a0ac90df046d19020e23afa5d6d060560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" line="42" column="1"/>
+        <location file="Tools/Doxygen/EmptyQuery.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a979cdce69e1d113d42fcebe404ad9cb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" line="43" column="1"/>
+        <location file="Tools/Doxygen/EmptyQuery.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EmptyQuery_1a1aaa37e14695447462866bfbcedcd97d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" bodystart="45" bodyend="48"/>
+        <location file="Tools/Doxygen/EmptyQuery.h" line="45" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="45" bodyend="48"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -95,7 +95,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h" bodystart="39" bodyend="50"/>
+    <location file="Tools/Doxygen/EmptyQuery.h" line="40" column="1" bodyfile="Tools/Doxygen/EmptyQuery.h" bodystart="39" bodyend="50"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::EmptyQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EmptyQuery</scope><name>empty</name></member>

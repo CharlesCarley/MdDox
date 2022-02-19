@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="6802">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
         <link refid="ImageQuery_8cpp"/>
         <childnode refid="6803" relation="include">
         </childnode>
@@ -579,6 +579,6 @@
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
 <codeline lineno="386"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp"/>
+    <location file="Tools/Doxygen/ImageQuery.cpp"/>
   </compounddef>
 </doxygen>

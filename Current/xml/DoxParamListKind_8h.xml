@@ -3,11 +3,11 @@
   <compounddef id="DoxParamListKind_8h" kind="file" language="C++">
     <compoundname>DoxParamListKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="DoxParamListKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.cpp</includedby>
-    <includedby refid="ParamListQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParamListQuery.h</includedby>
+    <includedby refid="DoxParamListKind_8cpp" local="yes">Tools/Doxygen/DoxParamListKind.cpp</includedby>
+    <includedby refid="ParamListQuery_8h" local="yes">Tools/Doxygen/ParamListQuery.h</includedby>
     <incdepgraph>
       <node id="5672">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.h</label>
+        <label>Tools/Doxygen/DoxParamListKind.h</label>
         <link refid="DoxParamListKind_8h"/>
         <childnode refid="5673" relation="include">
         </childnode>
@@ -105,7 +105,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5689">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.h</label>
+        <label>Tools/Doxygen/DoxParamListKind.h</label>
         <link refid="DoxParamListKind_8h"/>
         <childnode refid="5690" relation="include">
         </childnode>
@@ -113,7 +113,7 @@
         </childnode>
       </node>
       <node id="5691">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamListQuery.h</label>
+        <label>Tools/Doxygen/ParamListQuery.h</label>
         <childnode refid="5692" relation="include">
         </childnode>
         <childnode refid="5693" relation="include">
@@ -126,29 +126,29 @@
         </childnode>
       </node>
       <node id="5697">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="5690">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.cpp</label>
+        <label>Tools/Doxygen/DoxParamListKind.cpp</label>
       </node>
       <node id="5696">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamListQuery.cpp</label>
+        <label>Tools/Doxygen/ParamListQuery.cpp</label>
       </node>
       <node id="5693">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.h</label>
+        <label>Source/MdDoxTree/ParameterListWriter.h</label>
         <childnode refid="5692" relation="include">
         </childnode>
         <childnode refid="5694" relation="include">
         </childnode>
       </node>
       <node id="5695">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="5694">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</label>
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
       <node id="5692">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxParamListKind" prot="public">MdDox::Doxygen::DoxParamListKind</innerclass>
@@ -203,6 +203,6 @@
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.h"/>
+    <location file="Tools/Doxygen/DoxParamListKind.h"/>
   </compounddef>
 </doxygen>

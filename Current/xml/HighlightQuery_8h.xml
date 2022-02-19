@@ -4,9 +4,9 @@
     <compoundname>HighlightQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxHighlightClass_8h" local="yes">DoxHighlightClass.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="CodeLineQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</includedby>
-    <includedby refid="HighlightQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="CodeLineQuery_8cpp" local="yes">Tools/Doxygen/CodeLineQuery.cpp</includedby>
+    <includedby refid="HighlightQuery_8cpp" local="yes">Tools/Doxygen/HighlightQuery.cpp</includedby>
     <incdepgraph>
       <node id="6796">
         <label>Utils/Console.h</label>
@@ -92,7 +92,7 @@
         <label>vector</label>
       </node>
       <node id="6780">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</label>
+        <label>Tools/Doxygen/HighlightQuery.h</label>
         <link refid="HighlightQuery_8h"/>
         <childnode refid="6781" relation="include">
         </childnode>
@@ -114,13 +114,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6801">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</label>
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
       <node id="6800">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</label>
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
       <node id="6798">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</label>
+        <label>Tools/Doxygen/HighlightQuery.h</label>
         <link refid="HighlightQuery_8h"/>
         <childnode refid="6799" relation="include">
         </childnode>
@@ -130,7 +130,7 @@
         </childnode>
       </node>
       <node id="6799">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1HighlightQuery" prot="public">MdDox::Doxygen::HighlightQuery</innerclass>
@@ -209,6 +209,6 @@
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="110"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h"/>
+    <location file="Tools/Doxygen/HighlightQuery.h"/>
   </compounddef>
 </doxygen>

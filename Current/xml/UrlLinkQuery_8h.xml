@@ -3,16 +3,16 @@
   <compounddef id="UrlLinkQuery_8h" kind="file" language="C++">
     <compoundname>UrlLinkQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="CaptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</includedby>
-    <includedby refid="FileQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</includedby>
-    <includedby refid="HeadingQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</includedby>
-    <includedby refid="ImageQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="TitleQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</includedby>
-    <includedby refid="TocItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</includedby>
-    <includedby refid="UrlLinkQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="CaptionQuery_8cpp" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="FileQuery_8cpp" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="HeadingQuery_8cpp" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="ImageQuery_8cpp" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="TitleQuery_8cpp" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="UrlLinkQuery_8cpp" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
     <incdepgraph>
       <node id="9096">
         <label>Utils/Console.h</label>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="9080">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.h</label>
+        <label>Tools/Doxygen/UrlLinkQuery.h</label>
         <link refid="UrlLinkQuery_8h"/>
         <childnode refid="9081" relation="include">
         </childnode>
@@ -113,16 +113,16 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9104">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="9102">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
       <node id="9101">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</label>
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
       <node id="9097">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.h</label>
+        <label>Tools/Doxygen/UrlLinkQuery.h</label>
         <link refid="UrlLinkQuery_8h"/>
         <childnode refid="9098" relation="include">
         </childnode>
@@ -146,25 +146,25 @@
         </childnode>
       </node>
       <node id="9107">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</label>
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
       <node id="9106">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
       <node id="9103">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="9099">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</label>
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
       <node id="9105">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
       <node id="9098">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="9100">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
+        <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" prot="public">MdDox::Doxygen::UrlLinkQuery</innerclass>
@@ -305,6 +305,6 @@
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="299"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.h"/>
+    <location file="Tools/Doxygen/UrlLinkQuery.h"/>
   </compounddef>
 </doxygen>

@@ -114,10 +114,13 @@ namespace MdDox
          */
         void dispatchDot() const;
 
+    	friend class ReferenceTable;
+
     public:
         SiteBuilder();
         ~SiteBuilder();
 
+    	
         /**
          * \brief Builds the supplied file.
          * \param writer The document writer to use.
@@ -135,11 +138,12 @@ namespace MdDox
         void loadConfig(const String& configFile);
 
         void               insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
+        Reference          getRefId(const String& id) const;
         CompoundReference* getCompoundRef(const String& id) const;
 
         Reference findNamespace(const String& name) const;
         Reference findDirectory(const String& name) const;
-
+ 
         String getCompoundName(const String& id) const;
 
         void             insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;

@@ -3,10 +3,10 @@
   <compounddef id="GraphQuery_8h" kind="file" language="C++">
     <compoundname>GraphQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="GraphWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="GraphQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8h" local="yes">Source/MdDoxTree/GraphWriter.h</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="GraphQuery_8cpp" local="yes">Tools/Doxygen/GraphQuery.cpp</includedby>
     <incdepgraph>
       <node id="6696">
         <label>Utils/Console.h</label>
@@ -67,7 +67,7 @@
         </childnode>
       </node>
       <node id="6680">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h</label>
+        <label>Tools/Doxygen/GraphQuery.h</label>
         <link refid="GraphQuery_8h"/>
         <childnode refid="6681" relation="include">
         </childnode>
@@ -107,10 +107,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6700">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="6697">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h</label>
+        <label>Tools/Doxygen/GraphQuery.h</label>
         <link refid="GraphQuery_8h"/>
         <childnode refid="6698" relation="include">
         </childnode>
@@ -122,20 +122,20 @@
         </childnode>
       </node>
       <node id="6698">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="6701">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="6699">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</label>
+        <label>Source/MdDoxTree/GraphWriter.h</label>
         <childnode refid="6698" relation="include">
         </childnode>
         <childnode refid="6700" relation="include">
         </childnode>
       </node>
       <node id="6702">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</label>
+        <label>Tools/Doxygen/GraphQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1GraphQuery" prot="public">MdDox::Doxygen::GraphQuery</innerclass>
@@ -204,6 +204,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h"/>
+    <location file="Tools/Doxygen/GraphQuery.h"/>
   </compounddef>
 </doxygen>

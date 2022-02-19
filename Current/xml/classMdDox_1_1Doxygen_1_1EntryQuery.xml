@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1EntryQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::EntryQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">EntryQuery.h</includes>
+    <includes local="no">Tools/Doxygen/EntryQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a050d85b552ad575cba310722b1c61e4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="66" column="1"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="66" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a584ec830d38d1f101f0d77edc57eaa61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="67" column="1"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="67" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a976effcc35e6ed8a6a2b95a4c5579ce3" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="69" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" bodystart="69" bodyend="72"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="69" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1aba3c7498e877a51deed1a7489b85f608" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp" bodystart="56" bodyend="59"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="85" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="56" bodyend="59"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EntryQuery_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -82,7 +82,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp" bodystart="49" bodyend="54"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="49" bodyend="54"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" compoundref="DoxBool_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp" bodystart="29" bodyend="48"/>
+        <location file="Tools/Doxygen/EntryQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="29" bodyend="48"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -157,7 +157,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h" bodystart="63" bodyend="88"/>
+    <location file="Tools/Doxygen/EntryQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="63" bodyend="88"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>empty</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1DoxVirtualKind" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DoxVirtualKind</compoundname>
-    <includes local="no">DoxVirtualKind.h</includes>
+    <includes local="no">Tools/Doxygen/DoxVirtualKind.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807ba" kindref="member">DoxVirtualKindEnum</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.cpp" bodystart="30" bodyend="39"/>
+        <location file="Tools/Doxygen/DoxVirtualKind.h" line="64" column="1" bodyfile="Tools/Doxygen/DoxVirtualKind.cpp" bodystart="30" bodyend="39"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807baa5ec58d8d95e97dcb9c4d8a6344d80cf3" compoundref="DoxVirtualKind_8h" startline="49">MdDox::Doxygen::DVK_NON_VIRTUAL</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807baa82727425ba9cb1e745cea4b3a840c635" compoundref="DoxVirtualKind_8h" startline="53">MdDox::Doxygen::DVK_VIRTUAL</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807baa001765563ef236199f7a4dc702464f2a" compoundref="DoxVirtualKind_8h" startline="57">MdDox::Doxygen::DVK_PURE_VIRTUAL</references>
@@ -30,7 +30,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h" line="62" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h" bodystart="61" bodyend="65"/>
+    <location file="Tools/Doxygen/DoxVirtualKind.h" line="62" column="1" bodyfile="Tools/Doxygen/DoxVirtualKind.h" bodystart="61" bodyend="65"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxVirtualKind</scope><name>get</name></member>
     </listofallmembers>

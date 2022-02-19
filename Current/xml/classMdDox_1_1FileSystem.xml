@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1FileSystem" kind="class" language="C++" prot="public">
     <compoundname>MdDox::FileSystem</compoundname>
-    <includes local="no">FileSystem.h</includes>
+    <includes local="no">Source/Utils/FileSystem.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/FileSystem.cpp" bodystart="50" bodyend="64"/>
+        <location file="Source/Utils/FileSystem.h" line="50" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="50" bodyend="64"/>
         <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="66" endline="69">currentPath</references>
         <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="28" endline="43">normalize</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/FileSystem.cpp" bodystart="66" bodyend="69"/>
+        <location file="Source/Utils/FileSystem.h" line="52" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="66" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/FileSystem.cpp" bodystart="28" bodyend="43"/>
+        <location file="Source/Utils/FileSystem.h" line="46" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="28" bodyend="43"/>
         <references refid="classMdDox_1_1StringUtils_1a129eedfc9277ca8acab4fe29cf3dcdea" compoundref="String_8cpp" startline="274" endline="302">MdDox::StringUtils::trimWhiteSpace</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
       </memberdef>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/FileSystem.cpp" bodystart="45" bodyend="48"/>
+        <location file="Source/Utils/FileSystem.h" line="48" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="45" bodyend="48"/>
         <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="28" endline="43">normalize</references>
       </memberdef>
       </sectiondef>
@@ -79,7 +79,7 @@
 <para>Static utility class for handling files. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/FileSystem.h" bodystart="43" bodyend="53"/>
+    <location file="Source/Utils/FileSystem.h" line="44" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="43" bodyend="53"/>
     <listofallmembers>
       <member refid="classMdDox_1_1FileSystem_1acd056047688e7ad2071815e9919c98a5" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>absolute</name></member>
       <member refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>currentPath</name></member>

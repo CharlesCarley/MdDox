@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Xml_1_1Parser" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::Xml::Parser</compoundname>
     <basecompoundref refid="classMdDox_1_1ParserBase" prot="public" virt="non-virtual">MdDox::ParserBase</basecompoundref>
-    <includes local="no">Parser.h</includes>
+    <includes local="no">Source/Xml/Parser.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1ae8f8a0a808bded1f497d5a5daa997061" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="124" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="124" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="124" column="1" bodyfile="Source/Xml/Parser.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1acbc5e5ac7a7c9bf774fb11df9f2182a1" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" kindref="member">StringCache</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="121" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="121" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="121" column="1" bodyfile="Source/Xml/Parser.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1a8c8a55e48d62397c1b38e3c736316171" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="122" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="122" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="122" column="1" bodyfile="Source/Xml/Parser.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Parser_1afde26565d43fb1eeb72a95028351ff70" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a642d5079d25ebeb0618bf168bea03f17" kindref="member">NodeStack</ref></type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="123" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="123" bodyend="-1"/>
+        <location file="Source/Xml/Parser.h" line="123" column="1" bodyfile="Source/Xml/Parser.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="156" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="68" bodyend="73"/>
+        <location file="Source/Xml/Parser.h" line="156" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="68" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad1864441af85d97d13e3a4cfdf843a28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="160" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="117" bodyend="125"/>
+        <location file="Source/Xml/Parser.h" line="160" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="117" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a98dee9f1e397676429379b4f37f4a102" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="164" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="51" bodyend="66"/>
+        <location file="Source/Xml/Parser.h" line="164" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="51" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a30e57acd6ad20a321818d83d3b52a465" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="131" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="341" bodyend="365"/>
+        <location file="Source/Xml/Parser.h" line="131" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="341" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a3a83b5ff3f9a6e9257dfd671f604cf7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="158" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="89" bodyend="115"/>
+        <location file="Source/Xml/Parser.h" line="158" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="89" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a014417adb1e7747a33592a554eca041c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="142" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="145" bodyend="171"/>
+        <location file="Source/Xml/Parser.h" line="142" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="145" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1acbd30a8a4a818bd4c91d582bbb792022" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="140" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="127" bodyend="143"/>
+        <location file="Source/Xml/Parser.h" line="140" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="127" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a8c2c37cbbd7ca0025f4aa60adb06219c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="148" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="246" bodyend="267"/>
+        <location file="Source/Xml/Parser.h" line="148" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="246" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a5b764186988b953ea67169d99ae4f673" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="150" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="269" bodyend="304"/>
+        <location file="Source/Xml/Parser.h" line="150" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="269" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ac1cd32ee5c88d45203045f07848c4805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="144" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="306" bodyend="318"/>
+        <location file="Source/Xml/Parser.h" line="144" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="306" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aefe6d6b3ca82ac19c975afd53b51087d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="154" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="320" bodyend="339"/>
+        <location file="Source/Xml/Parser.h" line="154" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="320" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a1acf90cdb63ec33ca8317e1eb2e4416e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="146" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="204" bodyend="244"/>
+        <location file="Source/Xml/Parser.h" line="146" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="204" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1a91084c368850d513d76794e50c18427b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="152" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="173" bodyend="202"/>
+        <location file="Source/Xml/Parser.h" line="152" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="173" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afafe60ffe9140b8525ea320ffc76fc11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> &amp;</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="162" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="75" bodyend="80"/>
+        <location file="Source/Xml/Parser.h" line="162" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="75" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1adbc7b2e81049dbc50d276a24f0c6b55e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -303,7 +303,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="138" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="367" bodyend="369"/>
+        <location file="Source/Xml/Parser.h" line="138" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="367" bodyend="369"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="167" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="31" bodyend="35"/>
+        <location file="Source/Xml/Parser.h" line="167" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="31" bodyend="35"/>
         <references refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" compoundref="ParserBase_8h" startline="42">MdDox::ParserBase::_scanner</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1aba334ae34e18febdf133855df6b357c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="168" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="37" bodyend="44"/>
+        <location file="Source/Xml/Parser.h" line="168" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="37" bodyend="44"/>
         <references refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" compoundref="ParserBase_8h" startline="42">MdDox::ParserBase::_scanner</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="170" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="46" bodyend="49"/>
+        <location file="Source/Xml/Parser.h" line="170" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="46" bodyend="49"/>
         <references refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" compoundref="TypeFilter_8cpp" startline="27" endline="35">MdDox::makeTypeFilter</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="174" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.cpp" bodystart="82" bodyend="87"/>
+        <location file="Source/Xml/Parser.h" line="174" column="1" bodyfile="Source/Xml/Parser.cpp" bodystart="82" bodyend="87"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -489,7 +489,7 @@
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="119" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="118" bodyend="175"/>
+    <location file="Source/Xml/Parser.h" line="119" column="1" bodyfile="Source/Xml/Parser.h" bodystart="118" bodyend="175"/>
     <listofallmembers>
       <member refid="classMdDox_1_1ParserBase_1abb5519919fc923246a9f1920fb2ba9c7" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_cursor</name></member>
       <member refid="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Parser</scope><name>_file</name></member>

@@ -41,7 +41,7 @@
         <label>sstream</label>
       </node>
       <node id="4124">
-        <label>F:/Emulation/MdDox/Source/Utils/TypeFilter.cpp</label>
+        <label>Source/Utils/TypeFilter.cpp</label>
         <link refid="TypeFilter_8cpp"/>
         <childnode refid="4125" relation="include">
         </childnode>
@@ -106,6 +106,6 @@
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/TypeFilter.cpp"/>
+    <location file="Source/Utils/TypeFilter.cpp"/>
   </compounddef>
 </doxygen>

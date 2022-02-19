@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_1197a0c1c846bc690425b2973182343c" kind="dir">
-    <compoundname>F:/Emulation/MdDox/Source/MdDox</compoundname>
+    <compoundname>Source/MdDox</compoundname>
     <innerfile refid="Source_2MdDox_2Main_8cpp">Main.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Provides a separation between the main library and the main executable. </para>    </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/MdDox/"/>
+    <location file="Source/MdDox/"/>
   </compounddef>
 </doxygen>

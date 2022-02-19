@@ -23,7 +23,7 @@
         <label>functional</label>
       </node>
       <node id="5122">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.cpp</label>
+        <label>Tools/Doxygen/DoxAccessor.cpp</label>
         <link refid="DoxAccessor_8cpp"/>
         <childnode refid="5123" relation="include">
         </childnode>
@@ -165,6 +165,6 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.cpp"/>
+    <location file="Tools/Doxygen/DoxAccessor.cpp"/>
   </compounddef>
 </doxygen>

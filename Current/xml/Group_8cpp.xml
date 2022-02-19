@@ -102,7 +102,7 @@
         </childnode>
       </node>
       <node id="9385">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Group.cpp</label>
+        <label>Tools/GenApi/Group.cpp</label>
         <link refid="Group_8cpp"/>
         <childnode refid="9386" relation="include">
         </childnode>
@@ -619,6 +619,6 @@
 <codeline lineno="476"><highlight class="normal"></highlight></codeline>
 <codeline lineno="477"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Group.cpp"/>
+    <location file="Tools/GenApi/Group.cpp"/>
   </compounddef>
 </doxygen>

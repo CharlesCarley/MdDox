@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::GraphQueryVisitor</compoundname>
     <derivedcompoundref refid="classMdDox_1_1GraphWriter" prot="public" virt="non-virtual">MdDox::GraphWriter</derivedcompoundref>
-    <includes local="no">GraphQuery.h</includes>
+    <includes local="no">Tools/Doxygen/GraphQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a630c1b1113d8fe8794f492a1b32c77ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" line="33" column="1"/>
+        <location file="Tools/Doxygen/GraphQuery.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a287df681a5390903010f1070c89c342d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -42,7 +42,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" bodystart="43" bodyend="43"/>
+        <location file="Tools/Doxygen/GraphQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/GraphQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a644b5afa43f2a8f784ade5e6a5c7e5e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/GraphQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/GraphQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h" bodystart="30" bodyend="45"/>
+    <location file="Tools/Doxygen/GraphQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/GraphQuery.h" bodystart="30" bodyend="45"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a287df681a5390903010f1070c89c342d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::GraphQueryVisitor</scope><name>visitedNode</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor_1a644b5afa43f2a8f784ade5e6a5c7e5e0" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::GraphQueryVisitor</scope><name>visitedText</name></member>

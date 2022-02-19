@@ -4,8 +4,8 @@
     <compoundname>EnumDefWriter.h</compoundname>
     <includes refid="MemberDefQuery_8h" local="yes">Doxygen/MemberDefQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <incdepgraph>
       <node id="543">
         <label>DoxAccessor.h</label>
@@ -128,7 +128,7 @@
         <label>unordered_map</label>
       </node>
       <node id="520">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h</label>
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
         <link refid="EnumDefWriter_8h"/>
         <childnode refid="521" relation="include">
         </childnode>
@@ -160,13 +160,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="547">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="546">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="545">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h</label>
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
         <link refid="EnumDefWriter_8h"/>
         <childnode refid="546" relation="include">
         </childnode>
@@ -256,6 +256,6 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h"/>
+    <location file="Source/MdDoxTree/EnumDefWriter.h"/>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1SourceFile" kind="class" language="C++" prot="public">
     <compoundname>MdDox::SourceFile</compoundname>
-    <includes local="no">SourceFile.h</includes>
+    <includes local="no">Source/MdDoxTree/SourceFile.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1SourceFile_1a79744c668995018b7b0e7bf499a01843" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1RepoFile" kindref="compound">RepoFile</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="34" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="34" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1SourceFile_1a1ff28ea7a44aa35c2d3910f582ca8e2c" prot="private" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="35" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="38" column="1"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a790e78ab622d1e6b5dada4d3be4326d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="39" column="1"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1aa45080fe9b7df8c279a1edb82fb8731a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="40" column="1"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="40" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp" bodystart="36" bodyend="39"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="46" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="36" bodyend="39"/>
         <references refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" compoundref="RepoFile_8h" startline="56" endline="59">MdDox::RepoFile::getFile</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="81" bodyend="84"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="58" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="81" bodyend="84"/>
         <references refid="classMdDox_1_1RepoFile_1ab1ce5c61af97162889afb0b35b1054ac" compoundref="RepoFile_8h" startline="66" endline="69">MdDox::RepoFile::empty</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a5b50157a57f7ddbfc33a26bf25c661da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp" bodystart="41" bodyend="44"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="48" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="41" bodyend="44"/>
         <references refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" compoundref="RepoFile_8h" startline="56" endline="59">MdDox::RepoFile::getFile</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1adcc0d563c79fde68348987fc4eb3f40d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp" bodystart="46" bodyend="49"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="50" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="46" bodyend="49"/>
         <references refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" compoundref="RepoFile_8h" startline="56" endline="59">MdDox::RepoFile::getFile</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="71" bodyend="74"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="54" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="71" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp" bodystart="31" bodyend="34"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="44" column="1" bodyfile="Source/MdDoxTree/SourceFile.cpp" bodystart="31" bodyend="34"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" compoundref="RepoFile_8cpp" startline="63" endline="67">MdDox::RepoFile::getSiteUrl</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="61" bodyend="64"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="42" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="66" bodyend="69"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="52" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="66" bodyend="69"/>
         <references refid="classMdDox_1_1RepoFile_1a92b9b5ea938b138a86f489c445f81cd4" compoundref="RepoFile_8h" startline="61" endline="64">MdDox::RepoFile::setFile</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -206,14 +206,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="76" bodyend="79"/>
+        <location file="Source/MdDoxTree/SourceFile.h" line="56" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="76" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Represents a repository file. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h" bodystart="31" bodyend="59"/>
+    <location file="Source/MdDoxTree/SourceFile.h" line="32" column="1" bodyfile="Source/MdDoxTree/SourceFile.h" bodystart="31" bodyend="59"/>
     <listofallmembers>
       <member refid="classMdDox_1_1SourceFile_1a79744c668995018b7b0e7bf499a01843" prot="private" virt="non-virtual"><scope>MdDox::SourceFile</scope><name>_file</name></member>
       <member refid="classMdDox_1_1SourceFile_1a1ff28ea7a44aa35c2d3910f582ca8e2c" prot="private" virt="non-virtual"><scope>MdDox::SourceFile</scope><name>_line</name></member>

@@ -4,7 +4,7 @@
     <compoundname>MdDox::GenApi::Group</compoundname>
     <basecompoundref refid="classMdDox_1_1GenApi_1_1Object" prot="public" virt="non-virtual">MdDox::GenApi::Object</basecompoundref>
     <derivedcompoundref refid="classMdDox_1_1GenApi_1_1Complex" prot="public" virt="non-virtual">MdDox::GenApi::Complex</derivedcompoundref>
-    <includes local="no">Group.h</includes>
+    <includes local="no">Tools/GenApi/Group.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1ab691fb2100aa94a659dcda88a5884b7a" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="52" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="52" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="51" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="51" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="51" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1GenApi_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="56" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="56" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a6a50c87e762c3dc61ff76a21322f1066" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="50" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="50" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a170ee7fc3edb34e81da2028023d5a88f" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="59" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="59" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="60" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="60" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="60" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1GenApi_1aa966ac5451d8ded569e90d4d2dcffbb2" kindref="member">GroupArray</ref></type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="57" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="57" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="57" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1ac0ad6accc04e5671ca135fe95625a3b1" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="49" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="49" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a3e6d87b5fadced46e6decede161443a8" prot="protected" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Xml::Node</ref> *</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="45" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="45" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1GenApi_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="55" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="55" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a70c29435b823d9e9fb05f6e77101a228" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="48" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="48" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a3f2b6d71aaefa528f3950197904307e4" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="46" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="46" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1GenApi_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="54" bodyend="-1"/>
+        <location file="Tools/GenApi/Group.h" line="54" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="62" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="307" bodyend="323"/>
+        <location file="Tools/GenApi/Group.h" line="62" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="307" bodyend="323"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="86" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="302" bodyend="305"/>
+        <location file="Tools/GenApi/Group.h" line="86" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="302" bodyend="305"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1afbb9dc3336478795a577993abc87cbdc" compoundref="Group_8cpp" startline="31" endline="36">Group</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="82" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="256" bodyend="276"/>
+        <location file="Tools/GenApi/Group.h" line="82" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="256" bodyend="276"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" compoundref="Group_8h" startline="60">_foreach</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a1feb3bedb869d91708ff5d2e1a4bd481" compoundref="Resources_8cpp" startline="465" endline="470">MdDox::GenApi::Resources::Resource::getForeachElementHeader</references>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="84" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="278" bodyend="300"/>
+        <location file="Tools/GenApi/Group.h" line="84" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="278" bodyend="300"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" compoundref="Group_8h" startline="60">_foreach</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a42c4a95c6f5c6fedb66b5489351606ab" compoundref="Resources_8cpp" startline="494" endline="499">MdDox::GenApi::Resources::Resource::getForeachElementSource</references>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="66" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="405" bodyend="454"/>
+        <location file="Tools/GenApi/Group.h" line="66" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="405" bodyend="454"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ab691fb2100aa94a659dcda88a5884b7a" compoundref="Group_8h" startline="52">_dependentHeaderTypes</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a8d616c9df8cf6fa56e4bbbde7be635b5" compoundref="Group_8cpp" startline="307" endline="323">canHaveVisitors</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1af659c5870eb578ce5d6d8a5682e1a254" compoundref="Resources_8cpp" startline="1056" endline="1061">MdDox::GenApi::Resources::Resource::getVisitHeader</references>
@@ -306,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="76" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="456" bodyend="475"/>
+        <location file="Tools/GenApi/Group.h" line="76" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="456" bodyend="475"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" compoundref="Group_8h" startline="51">_dependentTypes</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a8d616c9df8cf6fa56e4bbbde7be635b5" compoundref="Group_8cpp" startline="307" endline="323">canHaveVisitors</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45beb0e96c63403bbc99b7e7dadcaba0" compoundref="Group_8cpp" startline="365" endline="376">writeVisitElementSource</references>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="133" bodyend="189"/>
+        <location file="Tools/GenApi/Group.h" line="78" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="133" bodyend="189"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="Group_8h" startline="50">_enumAttributes</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a99062292f50d60105c0cee18892b407d" compoundref="Resources_8cpp" startline="394" endline="399">MdDox::GenApi::Resources::Resource::getEnumAttributeHeader</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
@@ -360,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="191" bodyend="254"/>
+        <location file="Tools/GenApi/Group.h" line="80" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="191" bodyend="254"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a70c29435b823d9e9fb05f6e77101a228" compoundref="Group_8h" startline="48">_stringAttributes</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a089755e46a1dc86445c8e56abf8367bd" compoundref="Resources_8cpp" startline="937" endline="942">MdDox::GenApi::Resources::Resource::getStringAttributeSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="325" bodyend="363"/>
+        <location file="Tools/GenApi/Group.h" line="64" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="325" bodyend="363"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1a11b6143d99f855b2a71893787a34df84" compoundref="Resources_8cpp" startline="967" endline="972">MdDox::GenApi::Resources::Resource::getVisitElementDecl</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
@@ -419,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="378" bodyend="383"/>
+        <location file="Tools/GenApi/Group.h" line="70" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="378" bodyend="383"/>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" compoundref="Types_8h" startline="45">MdDox::GenApi::Element::typeCode</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" compoundref="Types_8h" startline="44">MdDox::GenApi::Element::genName</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" compoundref="Types_8h" startline="43">MdDox::GenApi::Element::genType</references>
@@ -439,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="392" bodyend="403"/>
+        <location file="Tools/GenApi/Group.h" line="74" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="392" bodyend="403"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a2f1e34a46c2afbc1f61057b31028db75" compoundref="Group_8cpp" startline="378" endline="383">writeVisitElementItem</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
@@ -466,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="72" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="385" bodyend="390"/>
+        <location file="Tools/GenApi/Group.h" line="72" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="385" bodyend="390"/>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a3897087540c5626164ef8f16da74018f" compoundref="Types_8h" startline="45">MdDox::GenApi::Element::typeCode</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1ac9f82d3050795fbd72514a8b42696874" compoundref="Types_8h" startline="44">MdDox::GenApi::Element::genName</references>
       </memberdef>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="365" bodyend="376"/>
+        <location file="Tools/GenApi/Group.h" line="68" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="365" bodyend="376"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a852f0637694bf248fd2f007db3eafeba" compoundref="Group_8cpp" startline="392" endline="403">writeVisitElementItems</references>
         <references refid="classMdDox_1_1GenApi_1_1Resources_1_1Resource_1adacbea03e116e2dad7cf6468b5617c65" compoundref="Resources_8cpp" startline="1001" endline="1006">MdDox::GenApi::Resources::Resource::getVisitElementSource</references>
         <references refid="classMdDox_1_1StringUtils_1a7c366ea2942779a96722181c617fbe35" compoundref="String_8cpp" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
@@ -516,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="89" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="31" bodyend="36"/>
+        <location file="Tools/GenApi/Group.h" line="89" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="31" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a44246225a27853a77ab1550b245609d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -537,7 +537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="90" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="38" bodyend="52"/>
+        <location file="Tools/GenApi/Group.h" line="90" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="38" bodyend="52"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="Group_8h" startline="54">_textReturns</references>
@@ -559,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="91" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="54" bodyend="58"/>
+        <location file="Tools/GenApi/Group.h" line="91" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="54" bodyend="58"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a3ab183df23ba0b8e08480b4a13216992" compoundref="Group_8h" startline="57">_groups</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1af1f857fb9ca4e94790b29de7ed0c3bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="86" bodyend="97"/>
+        <location file="Tools/GenApi/Group.h" line="99" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="86" bodyend="97"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" compoundref="Group_8h" startline="51">_dependentTypes</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" compoundref="Types_8h" startline="43">MdDox::GenApi::Element::genType</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a45b775e686164e197337cff2e324321e" compoundref="Group_8h" startline="56">_elements</references>
@@ -597,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="107" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="77" bodyend="84"/>
+        <location file="Tools/GenApi/Group.h" line="107" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="77" bodyend="84"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ab691fb2100aa94a659dcda88a5884b7a" compoundref="Group_8h" startline="52">_dependentHeaderTypes</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="Group_8h" startline="50">_enumAttributes</references>
       </memberdef>
@@ -616,7 +616,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="105" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="117" bodyend="131"/>
+        <location file="Tools/GenApi/Group.h" line="105" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="117" bodyend="131"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1afb0e32c688e5b3b0d497916c9dba829c" compoundref="Group_8cpp" startline="302" endline="305">replicate</references>
         <references refid="classMdDox_1_1GenApi_1_1Object_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="Object_8h" startline="32">MdDox::GenApi::Object::_name</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" compoundref="Group_8h" startline="51">_dependentTypes</references>
@@ -637,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="97" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="71" bodyend="75"/>
+        <location file="Tools/GenApi/Group.h" line="97" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="71" bodyend="75"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="Group_8h" startline="49">_integerAttributes</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a7a69ae96c946a0074e2a2e09f4cd5173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -655,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="103" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="104" bodyend="115"/>
+        <location file="Tools/GenApi/Group.h" line="103" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="104" bodyend="115"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" compoundref="Group_8h" startline="51">_dependentTypes</references>
         <references refid="structMdDox_1_1GenApi_1_1Element_1a8150789bc417d7f707902a76584a7170" compoundref="Types_8h" startline="43">MdDox::GenApi::Element::genType</references>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="Group_8h" startline="55">_singleReturns</references>
@@ -675,7 +675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="95" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="65" bodyend="69"/>
+        <location file="Tools/GenApi/Group.h" line="95" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="65" bodyend="69"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a70c29435b823d9e9fb05f6e77101a228" compoundref="Group_8h" startline="48">_stringAttributes</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a9d1801a39a637e20ecdcae46ed7a6f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -693,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="101" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="99" bodyend="102"/>
+        <location file="Tools/GenApi/Group.h" line="101" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="99" bodyend="102"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="Group_8h" startline="54">_textReturns</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Group_1a4e8dd1f4e16317ca926da1ec5e3a6592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -711,7 +711,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="93" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.cpp" bodystart="60" bodyend="63"/>
+        <location file="Tools/GenApi/Group.h" line="93" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="60" bodyend="63"/>
         <references refid="classMdDox_1_1GenApi_1_1Group_1a040f01434f53b98917564a2ae66fd60d" compoundref="Group_8h" startline="60">_foreach</references>
       </memberdef>
       </sectiondef>
@@ -816,7 +816,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Group.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Group.h" bodystart="42" bodyend="108"/>
+    <location file="Tools/GenApi/Group.h" line="43" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="42" bodyend="108"/>
     <listofallmembers>
       <member refid="classMdDox_1_1GenApi_1_1Group_1ab691fb2100aa94a659dcda88a5884b7a" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_dependentHeaderTypes</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Group_1a97b2a5261119b03d3970655b60707f76" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_dependentTypes</name></member>

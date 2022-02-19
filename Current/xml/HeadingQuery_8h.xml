@@ -3,10 +3,10 @@
   <compounddef id="HeadingQuery_8h" kind="file" language="C++">
     <compoundname>HeadingQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="HeadingQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="HeadingQuery_8cpp" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
     <incdepgraph>
       <node id="6748">
         <label>Utils/Console.h</label>
@@ -99,7 +99,7 @@
         <label>unordered_map</label>
       </node>
       <node id="6732">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h</label>
+        <label>Tools/Doxygen/HeadingQuery.h</label>
         <link refid="HeadingQuery_8h"/>
         <childnode refid="6733" relation="include">
         </childnode>
@@ -107,19 +107,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6753">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="6751">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</label>
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
       <node id="6752">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="6750">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="6749">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h</label>
+        <label>Tools/Doxygen/HeadingQuery.h</label>
         <link refid="HeadingQuery_8h"/>
         <childnode refid="6750" relation="include">
         </childnode>
@@ -269,6 +269,6 @@
 <codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="296"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h"/>
+    <location file="Tools/Doxygen/HeadingQuery.h"/>
   </compounddef>
 </doxygen>

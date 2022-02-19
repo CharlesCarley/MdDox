@@ -27,7 +27,7 @@
         <label>fstream</label>
       </node>
       <node id="2585">
-        <label>F:/Emulation/MdDox/Source/Utils/Char.cpp</label>
+        <label>Source/Utils/Char.cpp</label>
         <link refid="Char_8cpp"/>
         <childnode refid="2586" relation="include">
         </childnode>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Char.cpp" line="23" column="9" bodyfile="F:/Emulation/MdDox/Source/Utils/Char.cpp" bodystart="23" bodyend="-1"/>
+        <location file="Source/Utils/Char.cpp" line="23" column="9" bodyfile="Source/Utils/Char.cpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -568,6 +568,6 @@
 <codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="456"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/Char.cpp"/>
+    <location file="Source/Utils/Char.cpp"/>
   </compounddef>
 </doxygen>

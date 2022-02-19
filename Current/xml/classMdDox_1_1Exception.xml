@@ -4,7 +4,7 @@
     <compoundname>MdDox::Exception</compoundname>
     <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
     <derivedcompoundref refid="classMdDox_1_1ParseError" prot="public" virt="non-virtual">MdDox::ParseError</derivedcompoundref>
-    <includes local="no">Exception.h</includes>
+    <includes local="no">Source/Utils/Exception.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Exception_1a0acf51fb91c67fc2346c112b21d11cf8" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="38" bodyend="-1"/>
+        <location file="Source/Utils/Exception.h" line="38" column="1" bodyfile="Source/Utils/Exception.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="41" bodyend="46"/>
+        <location file="Source/Utils/Exception.h" line="41" column="1" bodyfile="Source/Utils/Exception.h" bodystart="41" bodyend="46"/>
         <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Exception_1a5c2d4b2bc9d1c63e5d44a30b5dbdf0e7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="48" bodyend="53"/>
+        <location file="Source/Utils/Exception.h" line="48" column="1" bodyfile="Source/Utils/Exception.h" bodystart="48" bodyend="53"/>
         <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Exception_1a7d25fb77bd695998453d2d85d2a80746" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="56" bodyend="65"/>
+        <location file="Source/Utils/Exception.h" line="56" column="1" bodyfile="Source/Utils/Exception.h" bodystart="56" bodyend="65"/>
         <references refid="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" compoundref="Exception_8h" startline="67" endline="70">what</references>
         <references refid="classMdDox_1_1Console_1a1c25dd823134242fcae7f4bb638bc246" compoundref="Console_8cpp" startline="228" endline="234">MdDox::Console::debugBreak</references>
       </memberdef>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="67" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="67" bodyend="70"/>
+        <location file="Source/Utils/Exception.h" line="67" column="1" bodyfile="Source/Utils/Exception.h" bodystart="67" bodyend="70"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -134,7 +134,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/Utils/Exception.h" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Exception.h" bodystart="35" bodyend="71"/>
+    <location file="Source/Utils/Exception.h" line="36" column="1" bodyfile="Source/Utils/Exception.h" bodystart="35" bodyend="71"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Exception_1a0acf51fb91c67fc2346c112b21d11cf8" prot="private" virt="non-virtual"><scope>MdDox::Exception</scope><name>_string</name></member>
       <member refid="classMdDox_1_1Exception_1a985e384f9423e24326ace2ccb20acda8" prot="public" virt="non-virtual"><scope>MdDox::Exception</scope><name>Exception</name></member>

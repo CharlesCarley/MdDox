@@ -121,7 +121,7 @@
         <label>unordered_map</label>
       </node>
       <node id="6989">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS1Query.cpp</label>
+        <label>Tools/Doxygen/InternalS1Query.cpp</label>
         <link refid="InternalS1Query_8cpp"/>
         <childnode refid="6990" relation="include">
         </childnode>
@@ -211,6 +211,6 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS1Query.cpp"/>
+    <location file="Tools/Doxygen/InternalS1Query.cpp"/>
   </compounddef>
 </doxygen>

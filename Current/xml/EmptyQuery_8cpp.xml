@@ -67,7 +67,7 @@
         </childnode>
       </node>
       <node id="6422">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.cpp</label>
+        <label>Tools/Doxygen/EmptyQuery.cpp</label>
         <link refid="EmptyQuery_8cpp"/>
         <childnode refid="6423" relation="include">
         </childnode>
@@ -160,6 +160,6 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.cpp"/>
+    <location file="Tools/Doxygen/EmptyQuery.cpp"/>
   </compounddef>
 </doxygen>

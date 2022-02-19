@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Section1Writer" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::Section1Writer</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::Sect1QueryVisitor</basecompoundref>
-    <includes local="no">Section1Writer.h</includes>
+    <includes local="no">Source/MdDoxTree/Section1Writer.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Section1Writer_1ad09275fb723a0d8199856b191ac6a6f4" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="36" column="1" bodyfile="Source/MdDoxTree/Section1Writer.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Section1Writer_1a8ad2d6a019cf76934bd19015bcfdd454" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="35" column="1" bodyfile="Source/MdDoxTree/Section1Writer.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Section1Writer_1a0e468ea4670ae2c4cce6a27aa782517b" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" bodystart="34" bodyend="-1"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="34" column="1" bodyfile="Source/MdDoxTree/Section1Writer.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp" bodystart="47" bodyend="51"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="38" column="1" bodyfile="Source/MdDoxTree/Section1Writer.cpp" bodystart="47" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Section1Writer_1a306319eb75d5362cd437dbcf9d1a9244" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -96,7 +96,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp" bodystart="53" bodyend="57"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="40" column="1" bodyfile="Source/MdDoxTree/Section1Writer.cpp" bodystart="53" bodyend="57"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp" bodystart="31" bodyend="35"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="43" column="1" bodyfile="Source/MdDoxTree/Section1Writer.cpp" bodystart="31" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Section1Writer_1a35e93701b82bba0726c9eaca28c70134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp" bodystart="37" bodyend="45"/>
+        <location file="Source/MdDoxTree/Section1Writer.h" line="45" column="1" bodyfile="Source/MdDoxTree/Section1Writer.cpp" bodystart="37" bodyend="45"/>
         <references refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea">MdDox::DocumentWriter::anchor</references>
         <references refid="classMdDox_1_1Doxygen_1_1Sect1Query_1a86fcb50755a4d92b98beb25ba58b00d3" compoundref="Sect1Query_8cpp" startline="60" endline="65">MdDox::Doxygen::Sect1Query::getId</references>
         <references refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09">MdDox::DocumentWriter::beginSection</references>
@@ -174,7 +174,7 @@
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor"/>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.h" bodystart="31" bodyend="46"/>
+    <location file="Source/MdDoxTree/Section1Writer.h" line="32" column="1" bodyfile="Source/MdDoxTree/Section1Writer.h" bodystart="31" bodyend="46"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Section1Writer_1ad09275fb723a0d8199856b191ac6a6f4" prot="private" virt="non-virtual"><scope>MdDox::Section1Writer</scope><name>_out</name></member>
       <member refid="classMdDox_1_1Section1Writer_1a8ad2d6a019cf76934bd19015bcfdd454" prot="private" virt="non-virtual"><scope>MdDox::Section1Writer</scope><name>_stream</name></member>

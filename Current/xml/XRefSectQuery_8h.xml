@@ -3,7 +3,7 @@
   <compounddef id="XRefSectQuery_8h" kind="file" language="C++">
     <compoundname>XRefSectQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="XRefSectQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.cpp</includedby>
+    <includedby refid="XRefSectQuery_8cpp" local="yes">Tools/Doxygen/XRefSectQuery.cpp</includedby>
     <incdepgraph>
       <node id="9230">
         <label>Utils/Console.h</label>
@@ -96,7 +96,7 @@
         <label>unordered_map</label>
       </node>
       <node id="9214">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h</label>
+        <label>Tools/Doxygen/XRefSectQuery.h</label>
         <link refid="XRefSectQuery_8h"/>
         <childnode refid="9215" relation="include">
         </childnode>
@@ -104,13 +104,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9231">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h</label>
+        <label>Tools/Doxygen/XRefSectQuery.h</label>
         <link refid="XRefSectQuery_8h"/>
         <childnode refid="9232" relation="include">
         </childnode>
       </node>
       <node id="9232">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.cpp</label>
+        <label>Tools/Doxygen/XRefSectQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1XRefSectQuery" prot="public">MdDox::Doxygen::XRefSectQuery</innerclass>
@@ -164,6 +164,6 @@
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h"/>
+    <location file="Tools/Doxygen/XRefSectQuery.h"/>
   </compounddef>
 </doxygen>

@@ -3,10 +3,10 @@
   <compounddef id="DoxVirtualKind_8h" kind="file" language="C++">
     <compoundname>DoxVirtualKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CompoundRefQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h</includedby>
-    <includedby refid="DoxVirtualKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.cpp</includedby>
-    <includedby refid="MemberRefQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.h</includedby>
-    <includedby refid="MemberDefQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h</includedby>
+    <includedby refid="CompoundRefQuery_8h" local="yes">Tools/Doxygen/CompoundRefQuery.h</includedby>
+    <includedby refid="DoxVirtualKind_8cpp" local="yes">Tools/Doxygen/DoxVirtualKind.cpp</includedby>
+    <includedby refid="MemberRefQuery_8h" local="yes">Tools/Doxygen/MemberRefQuery.h</includedby>
+    <includedby refid="MemberDefQuery_8h" local="yes">Tools/Doxygen/MemberDefQuery.h</includedby>
     <incdepgraph>
       <node id="6050">
         <label>Utils/Console.h</label>
@@ -93,7 +93,7 @@
         <label>sstream</label>
       </node>
       <node id="6034">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h</label>
+        <label>Tools/Doxygen/DoxVirtualKind.h</label>
         <link refid="DoxVirtualKind_8h"/>
         <childnode refid="6035" relation="include">
         </childnode>
@@ -107,7 +107,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6064">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.h</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.h</label>
         <childnode refid="6062" relation="include">
         </childnode>
         <childnode refid="6065" relation="include">
@@ -116,38 +116,38 @@
         </childnode>
       </node>
       <node id="6063">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="6057">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.h</label>
+        <label>Tools/Doxygen/MemberRefQuery.h</label>
         <childnode refid="6058" relation="include">
         </childnode>
         <childnode refid="6059" relation="include">
         </childnode>
       </node>
       <node id="6070">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="6058">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
+        <label>Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
       </node>
       <node id="6056">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.cpp</label>
+        <label>Tools/Doxygen/DoxVirtualKind.cpp</label>
       </node>
       <node id="6072">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</label>
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
       </node>
       <node id="6062">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="6065">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="6053">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="6052">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h</label>
+        <label>Tools/Doxygen/CompoundRefQuery.h</label>
         <childnode refid="6053" relation="include">
         </childnode>
         <childnode refid="6054" relation="include">
@@ -156,13 +156,13 @@
         </childnode>
       </node>
       <node id="6055">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundRefQuery.cpp</label>
       </node>
       <node id="6068">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
       <node id="6051">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h</label>
+        <label>Tools/Doxygen/DoxVirtualKind.h</label>
         <link refid="DoxVirtualKind_8h"/>
         <childnode refid="6052" relation="include">
         </childnode>
@@ -174,40 +174,40 @@
         </childnode>
       </node>
       <node id="6069">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <childnode refid="6063" relation="include">
         </childnode>
         <childnode refid="6070" relation="include">
         </childnode>
       </node>
       <node id="6059">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberRefQuery.cpp</label>
       </node>
       <node id="6054">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="6067">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
       <node id="6066">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefListingWriter.h</label>
         <childnode refid="6067" relation="include">
         </childnode>
         <childnode refid="6068" relation="include">
         </childnode>
       </node>
       <node id="6061">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h</label>
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
         <childnode refid="6062" relation="include">
         </childnode>
         <childnode refid="6063" relation="include">
         </childnode>
       </node>
       <node id="6071">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
       <node id="6060">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h</label>
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
         <childnode refid="6061" relation="include">
         </childnode>
         <childnode refid="6064" relation="include">
@@ -273,6 +273,6 @@
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h"/>
+    <location file="Tools/Doxygen/DoxVirtualKind.h"/>
   </compounddef>
 </doxygen>

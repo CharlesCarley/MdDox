@@ -6,7 +6,7 @@
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <incdepgraph>
       <node id="7487">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/LocationQuery.cpp</label>
+        <label>Tools/Doxygen/LocationQuery.cpp</label>
         <link refid="LocationQuery_8cpp"/>
         <childnode refid="7488" relation="include">
         </childnode>
@@ -194,6 +194,6 @@
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/LocationQuery.cpp"/>
+    <location file="Tools/Doxygen/LocationQuery.cpp"/>
   </compounddef>
 </doxygen>

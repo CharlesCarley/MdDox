@@ -36,7 +36,7 @@
         <label>stdexcept</label>
       </node>
       <node id="7684">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.cpp</label>
+        <label>Tools/Doxygen/MemberIndexQuery.cpp</label>
         <link refid="MemberIndexQuery_8cpp"/>
         <childnode refid="7685" relation="include">
         </childnode>
@@ -190,6 +190,6 @@
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.cpp"/>
+    <location file="Tools/Doxygen/MemberIndexQuery.cpp"/>
   </compounddef>
 </doxygen>

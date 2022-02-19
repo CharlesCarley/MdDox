@@ -19,7 +19,7 @@
         </childnode>
       </node>
       <node id="891">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IconSet.cpp</label>
+        <label>Source/MdDoxTree/IconSet.cpp</label>
         <link refid="IconSet_8cpp"/>
         <childnode refid="892" relation="include">
         </childnode>
@@ -126,6 +126,6 @@
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/IconSet.cpp"/>
+    <location file="Source/MdDoxTree/IconSet.cpp"/>
   </compounddef>
 </doxygen>

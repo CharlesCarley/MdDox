@@ -6,8 +6,8 @@
     <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="PageWriter_8h" local="yes">PageWriter.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="IndexPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</includedby>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
     <incdepgraph>
       <node id="1488">
         <label>Utils/Console.h</label>
@@ -54,7 +54,7 @@
         <label>stdexcept</label>
       </node>
       <node id="1471">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.h</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.h</label>
         <link refid="NamespacePageWriter_8h"/>
         <childnode refid="1472" relation="include">
         </childnode>
@@ -175,7 +175,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1497">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.h</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.h</label>
         <link refid="NamespacePageWriter_8h"/>
         <childnode refid="1498" relation="include">
         </childnode>
@@ -183,10 +183,10 @@
         </childnode>
       </node>
       <node id="1499">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="1498">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1NamespacePageWriter" prot="public">MdDox::NamespacePageWriter</innerclass>
@@ -289,6 +289,6 @@
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.h"/>
+    <location file="Source/MdDoxTree/NamespacePageWriter.h"/>
   </compounddef>
 </doxygen>

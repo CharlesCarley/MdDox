@@ -71,7 +71,7 @@
         <label>fstream</label>
       </node>
       <node id="6324">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxygenIndexQuery.cpp</label>
+        <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
         <link refid="DoxygenIndexQuery_8cpp"/>
         <childnode refid="6325" relation="include">
         </childnode>
@@ -208,6 +208,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxygenIndexQuery.cpp"/>
+    <location file="Tools/Doxygen/DoxygenIndexQuery.cpp"/>
   </compounddef>
 </doxygen>

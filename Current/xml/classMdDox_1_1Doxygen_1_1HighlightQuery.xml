@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1HighlightQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::HighlightQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">HighlightQuery.h</includes>
+    <includes local="no">Tools/Doxygen/HighlightQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1af5a83b73095be7f961e2ca57fb307820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="72" column="1"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="72" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a77fe9f7b426f80d3457485483d5198d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="73" column="1"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="73" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a556ee43cd70a783beb36248395d0156d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" bodystart="75" bodyend="78"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1a578834e328b62a7aba98430162fb068d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref></type>
@@ -64,7 +64,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="86" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="53" bodyend="58"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="53" bodyend="58"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass_1acc48a67c313a21d666ad703da040518a" compoundref="DoxHighlightClass_8cpp" startline="30" endline="49">MdDox::Doxygen::DoxHighlightClass::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="101" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="78" bodyend="87"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="78" bodyend="87"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="106" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="89" bodyend="94"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="89" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1ace0a9d373120bde7f1c8cfc1880d31d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="91" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="60" bodyend="69"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="91" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="60" bodyend="69"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="96" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="71" bodyend="76"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="71" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HighlightQuery_1ab02c49d464c9c4edfd6878cf79d95bfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp" bodystart="30" bodyend="52"/>
+        <location file="Tools/Doxygen/HighlightQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="30" bodyend="52"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -209,7 +209,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h" bodystart="69" bodyend="109"/>
+    <location file="Tools/Doxygen/HighlightQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="69" bodyend="109"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>empty</name></member>

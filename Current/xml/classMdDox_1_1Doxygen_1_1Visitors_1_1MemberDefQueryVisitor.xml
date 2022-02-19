@@ -6,7 +6,7 @@
     <derivedcompoundref refid="classMdDox_1_1FunctionDefWriter" prot="public" virt="non-virtual">MdDox::FunctionDefWriter</derivedcompoundref>
     <derivedcompoundref refid="classMdDox_1_1MemberDefListingWriter" prot="public" virt="non-virtual">MdDox::MemberDefListingWriter</derivedcompoundref>
     <derivedcompoundref refid="classMdDox_1_1MemberDefWriter" prot="public" virt="non-virtual">MdDox::MemberDefWriter</derivedcompoundref>
-    <includes local="no">MemberDefQuery.h</includes>
+    <includes local="no">Tools/Doxygen/MemberDefQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a59ff64c01154536ffb1f4cd7e0635434" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="39" column="1"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a006132878ac6bd8e7068b9f22c32213c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -44,7 +44,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="124" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="124" bodyend="124"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="124" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="124" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a8d74a0a375c2a1e1b6adc13d4d535c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -72,7 +72,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="99" bodyend="99"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1af6f5e3e2685e7770fe1d2020d6078088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -97,7 +97,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="119" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="119" bodyend="119"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="119" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="119" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a3908192abe6af7c2dd845d0e1eadb28e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -125,7 +125,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="104" bodyend="104"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="104" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="104" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a1645689701abd5f6e6f253bd19174117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -153,7 +153,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="64" bodyend="64"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a39a2568b896da4f5e6c8a23f5beffc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -181,7 +181,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="94" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="94" bodyend="94"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a9b91ad481178b68369d47dafa0c9f7b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -206,7 +206,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="109" bodyend="109"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="109" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1aa83c5a26f31c38a7702473d9d5280045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -234,7 +234,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="89" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="89" bodyend="89"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a310fd141c0e63196edd178b531c5ff91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -262,7 +262,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="114" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="114" bodyend="114"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="114" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a31129dca7adde74aa4c7a148d2894c22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -291,7 +291,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="129" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="129" bodyend="129"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="129" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="129" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a10d681be509de10feeed51f5679f9bd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -319,7 +319,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="59" bodyend="59"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="59" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1aef4eb183f509d685b9a7b4958603fce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -347,7 +347,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="74" bodyend="74"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="74" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a8fa5a0682abee9c29053fdd5578a9559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -375,7 +375,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="69" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="69" bodyend="69"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="69" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1ad2c08e03b561365b25155545137c506d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -403,7 +403,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="54" bodyend="54"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a2dc11969cc7b3596edb064093a472c23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -431,7 +431,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="49" bodyend="49"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1acac770d1f242c13069d46ded92d8599b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -459,7 +459,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="79" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="79" bodyend="79"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a517e31a3b398865139ac319704fc1636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -475,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="44" bodyend="44"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a5b18881ca1b21e683c9918d8939efda1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -503,7 +503,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="84" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="84" bodyend="84"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a2d2296a52a26af00d2b5947f001baefa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -531,7 +531,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="134" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="134" bodyend="134"/>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="134" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="134" bodyend="134"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -568,7 +568,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h" bodystart="36" bodyend="136"/>
+    <location file="Tools/Doxygen/MemberDefQuery.h" line="37" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="36" bodyend="136"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a006132878ac6bd8e7068b9f22c32213c" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</scope><name>visitedArgsString</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor_1a8d74a0a375c2a1e1b6adc13d4d535c84" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</scope><name>visitedBriefDescription</name></member>

@@ -90,7 +90,7 @@
         <label>vector</label>
       </node>
       <node id="5485">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxLanguage.cpp</label>
+        <label>Tools/Doxygen/DoxLanguage.cpp</label>
         <link refid="DoxLanguage_8cpp"/>
         <childnode refid="5486" relation="include">
         </childnode>
@@ -185,6 +185,6 @@
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxLanguage.cpp"/>
+    <location file="Tools/Doxygen/DoxLanguage.cpp"/>
   </compounddef>
 </doxygen>

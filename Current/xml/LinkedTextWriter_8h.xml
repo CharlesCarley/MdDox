@@ -4,11 +4,11 @@
     <compoundname>LinkedTextWriter.h</compoundname>
     <includes refid="LinkedTextQuery_8h" local="yes">Doxygen/LinkedTextQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="FunctionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
-    <includedby refid="LinkedTextWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="ParameterWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="LinkedTextWriter_8cpp" local="yes">Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="ParameterWriter_8cpp" local="yes">Source/MdDoxTree/ParameterWriter.cpp</includedby>
     <incdepgraph>
       <node id="1123">
         <label>Utils/Console.h</label>
@@ -74,7 +74,7 @@
         </childnode>
       </node>
       <node id="1106">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h</label>
+        <label>Source/MdDoxTree/LinkedTextWriter.h</label>
         <link refid="LinkedTextWriter_8h"/>
         <childnode refid="1107" relation="include">
         </childnode>
@@ -121,19 +121,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1130">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</label>
+        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
       <node id="1129">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="1126">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="1127">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="1125">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h</label>
+        <label>Source/MdDoxTree/LinkedTextWriter.h</label>
         <link refid="LinkedTextWriter_8h"/>
         <childnode refid="1126" relation="include">
         </childnode>
@@ -147,7 +147,7 @@
         </childnode>
       </node>
       <node id="1128">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</label>
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1LinkedTextWriter" prot="public">MdDox::LinkedTextWriter</innerclass>
@@ -204,6 +204,6 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h"/>
+    <location file="Source/MdDoxTree/LinkedTextWriter.h"/>
   </compounddef>
 </doxygen>

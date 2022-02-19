@@ -5,8 +5,8 @@
     <includes refid="DoxSectionKind_8h" local="yes">Doxygen/DoxSectionKind.h</includes>
     <includes refid="SectionDefQuery_8h" local="yes">Doxygen/SectionDefQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="PageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</includedby>
-    <includedby refid="SectionDefListingWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
+    <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
     <incdepgraph>
       <node id="2227">
         <label>Utils/Console.h</label>
@@ -38,7 +38,7 @@
         </childnode>
       </node>
       <node id="2210">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <link refid="SectionDefListingWriter_8h"/>
         <childnode refid="2211" relation="include">
         </childnode>
@@ -128,7 +128,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2230">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <link refid="SectionDefListingWriter_8h"/>
         <childnode refid="2231" relation="include">
         </childnode>
@@ -136,10 +136,10 @@
         </childnode>
       </node>
       <node id="2231">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</label>
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="2232">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1SectionDefListingWriter" prot="public">MdDox::SectionDefListingWriter</innerclass>
@@ -205,6 +205,6 @@
 <codeline lineno="54"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h"/>
+    <location file="Source/MdDoxTree/SectionDefListingWriter.h"/>
   </compounddef>
 </doxygen>

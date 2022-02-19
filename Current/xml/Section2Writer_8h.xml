@@ -4,8 +4,8 @@
     <compoundname>Section2Writer.h</compoundname>
     <includes refid="Sect2Query_8h" local="yes">Doxygen/Sect2Query.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="Section1Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</includedby>
-    <includedby refid="Section2Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</includedby>
+    <includedby refid="Section1Writer_8cpp" local="yes">Source/MdDoxTree/Section1Writer.cpp</includedby>
+    <includedby refid="Section2Writer_8cpp" local="yes">Source/MdDoxTree/Section2Writer.cpp</includedby>
     <incdepgraph>
       <node id="2062">
         <label>Utils/Console.h</label>
@@ -108,7 +108,7 @@
         <label>unordered_map</label>
       </node>
       <node id="2045">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.h</label>
+        <label>Source/MdDoxTree/Section2Writer.h</label>
         <link refid="Section2Writer_8h"/>
         <childnode refid="2046" relation="include">
         </childnode>
@@ -118,13 +118,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2066">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
       <node id="2065">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</label>
+        <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
       <node id="2064">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.h</label>
+        <label>Source/MdDoxTree/Section2Writer.h</label>
         <link refid="Section2Writer_8h"/>
         <childnode refid="2065" relation="include">
         </childnode>
@@ -188,6 +188,6 @@
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Reflect</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.h"/>
+    <location file="Source/MdDoxTree/Section2Writer.h"/>
   </compounddef>
 </doxygen>

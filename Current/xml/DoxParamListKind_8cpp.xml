@@ -36,7 +36,7 @@
         </childnode>
       </node>
       <node id="5653">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.cpp</label>
+        <label>Tools/Doxygen/DoxParamListKind.cpp</label>
         <link refid="DoxParamListKind_8cpp"/>
         <childnode refid="5654" relation="include">
         </childnode>
@@ -161,6 +161,6 @@
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.cpp"/>
+    <location file="Tools/Doxygen/DoxParamListKind.cpp"/>
   </compounddef>
 </doxygen>

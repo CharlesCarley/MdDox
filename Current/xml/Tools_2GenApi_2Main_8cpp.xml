@@ -22,7 +22,7 @@
         <label>functional</label>
       </node>
       <node id="57">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Main.cpp</label>
+        <label>Tools/GenApi/Main.cpp</label>
         <link refid="Tools_2GenApi_2Main_8cpp"/>
         <childnode refid="58" relation="include">
         </childnode>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/GenApi/Main.cpp" line="297" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Main.cpp" bodystart="297" bodyend="318"/>
+        <location file="Tools/GenApi/Main.cpp" line="297" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="297" bodyend="318"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -563,6 +563,6 @@
 <codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="318"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Main.cpp"/>
+    <location file="Tools/GenApi/Main.cpp"/>
   </compounddef>
 </doxygen>

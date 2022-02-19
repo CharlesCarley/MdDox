@@ -21,7 +21,7 @@
         <label>cstdint</label>
       </node>
       <node id="2651">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp</label>
+        <label>Source/Utils/CommandLine/Parser.cpp</label>
         <link refid="Utils_2CommandLine_2Parser_8cpp"/>
         <childnode refid="2652" relation="include">
         </childnode>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" line="29" column="9" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="29" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Parser.cpp" line="29" column="9" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -547,6 +547,6 @@
 <codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="401"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::CommandLine</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp"/>
+    <location file="Source/Utils/CommandLine/Parser.cpp"/>
   </compounddef>
 </doxygen>

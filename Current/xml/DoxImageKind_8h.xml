@@ -3,9 +3,9 @@
   <compounddef id="DoxImageKind_8h" kind="file" language="C++">
     <compoundname>DoxImageKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="DoxImageKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.cpp</includedby>
-    <includedby refid="ImageQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="DoxImageKind_8cpp" local="yes">Tools/Doxygen/DoxImageKind.cpp</includedby>
+    <includedby refid="ImageQuery_8h" local="yes">Tools/Doxygen/ImageQuery.h</includedby>
     <incdepgraph>
       <node id="5477">
         <label>Utils/Console.h</label>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
       <node id="5461">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.h</label>
+        <label>Tools/Doxygen/DoxImageKind.h</label>
         <link refid="DoxImageKind_8h"/>
         <childnode refid="5462" relation="include">
         </childnode>
@@ -106,13 +106,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5484">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="5482">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
       <node id="5478">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.h</label>
+        <label>Tools/Doxygen/DoxImageKind.h</label>
         <link refid="DoxImageKind_8h"/>
         <childnode refid="5479" relation="include">
         </childnode>
@@ -122,16 +122,16 @@
         </childnode>
       </node>
       <node id="5483">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="5479">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="5480">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.cpp</label>
+        <label>Tools/Doxygen/DoxImageKind.cpp</label>
       </node>
       <node id="5481">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h</label>
+        <label>Tools/Doxygen/ImageQuery.h</label>
         <childnode refid="5479" relation="include">
         </childnode>
         <childnode refid="5482" relation="include">
@@ -193,6 +193,6 @@
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.h"/>
+    <location file="Tools/Doxygen/DoxImageKind.h"/>
   </compounddef>
 </doxygen>

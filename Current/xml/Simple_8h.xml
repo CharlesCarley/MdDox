@@ -4,8 +4,8 @@
     <compoundname>Simple.h</compoundname>
     <includes refid="Group_8h" local="yes">Group.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Generator_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</includedby>
-    <includedby refid="Simple_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Simple.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
+    <includedby refid="Simple_8cpp" local="yes">Tools/GenApi/Simple.cpp</includedby>
     <incdepgraph>
       <node id="9499">
         <label>functional</label>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="9486">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Simple.h</label>
+        <label>Tools/GenApi/Simple.h</label>
         <link refid="Simple_8h"/>
         <childnode refid="9487" relation="include">
         </childnode>
@@ -105,10 +105,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9503">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</label>
+        <label>Tools/GenApi/Generator.cpp</label>
       </node>
       <node id="9502">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Simple.h</label>
+        <label>Tools/GenApi/Simple.h</label>
         <link refid="Simple_8h"/>
         <childnode refid="9503" relation="include">
         </childnode>
@@ -116,7 +116,7 @@
         </childnode>
       </node>
       <node id="9504">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Simple.cpp</label>
+        <label>Tools/GenApi/Simple.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1GenApi_1_1Simple" prot="public">MdDox::GenApi::Simple</innerclass>
@@ -175,6 +175,6 @@
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Simple.h"/>
+    <location file="Tools/GenApi/Simple.h"/>
   </compounddef>
 </doxygen>

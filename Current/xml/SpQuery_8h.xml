@@ -3,8 +3,8 @@
   <compounddef id="SpQuery_8h" kind="file" language="C++">
     <compoundname>SpQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="HighlightQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</includedby>
-    <includedby refid="SpQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SpQuery.cpp</includedby>
+    <includedby refid="HighlightQuery_8cpp" local="yes">Tools/Doxygen/HighlightQuery.cpp</includedby>
+    <includedby refid="SpQuery_8cpp" local="yes">Tools/Doxygen/SpQuery.cpp</includedby>
     <incdepgraph>
       <node id="8816">
         <label>Utils/Console.h</label>
@@ -91,7 +91,7 @@
         <label>sstream</label>
       </node>
       <node id="8800">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SpQuery.h</label>
+        <label>Tools/Doxygen/SpQuery.h</label>
         <link refid="SpQuery_8h"/>
         <childnode refid="8801" relation="include">
         </childnode>
@@ -105,13 +105,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8818">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</label>
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
       <node id="8819">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SpQuery.cpp</label>
+        <label>Tools/Doxygen/SpQuery.cpp</label>
       </node>
       <node id="8817">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SpQuery.h</label>
+        <label>Tools/Doxygen/SpQuery.h</label>
         <link refid="SpQuery_8h"/>
         <childnode refid="8818" relation="include">
         </childnode>
@@ -170,6 +170,6 @@
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/SpQuery.h"/>
+    <location file="Tools/Doxygen/SpQuery.h"/>
   </compounddef>
 </doxygen>

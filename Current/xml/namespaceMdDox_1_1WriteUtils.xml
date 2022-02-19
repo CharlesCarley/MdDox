@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="29" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" bodystart="29" bodyend="34"/>
+        <location file="Source/Utils/TextStreamWriter.h" line="29" column="1" bodyfile="Source/Utils/TextStreamWriter.h" bodystart="29" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1WriteUtils_1acbf029e7ced2bd63294f0ba880ddc2bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" bodystart="36" bodyend="41"/>
+        <location file="Source/Utils/TextStreamWriter.h" line="36" column="1" bodyfile="Source/Utils/TextStreamWriter.h" bodystart="36" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1WriteUtils_1aa4724d0a4f84fe5e28e47563b2f573fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" bodystart="43" bodyend="47"/>
+        <location file="Source/Utils/TextStreamWriter.h" line="43" column="1" bodyfile="Source/Utils/TextStreamWriter.h" bodystart="43" bodyend="47"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1acbf029e7ced2bd63294f0ba880ddc2bc" compoundref="TextStreamWriter_8h" startline="36" endline="41">newLine</references>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">indent</references>
       </memberdef>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" bodystart="50" bodyend="55"/>
+        <location file="Source/Utils/TextStreamWriter.h" line="50" column="1" bodyfile="Source/Utils/TextStreamWriter.h" bodystart="50" bodyend="55"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">indent</references>
         <references refid="namespaceMdDox_1_1WriteUtils_1acbf029e7ced2bd63294f0ba880ddc2bc" compoundref="TextStreamWriter_8h" startline="36" endline="41">newLine</references>
       </memberdef>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" bodystart="58" bodyend="63"/>
+        <location file="Source/Utils/TextStreamWriter.h" line="58" column="1" bodyfile="Source/Utils/TextStreamWriter.h" bodystart="58" bodyend="63"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">indent</references>
         <references refid="namespaceMdDox_1_1WriteUtils_1acbf029e7ced2bd63294f0ba880ddc2bc" compoundref="TextStreamWriter_8h" startline="36" endline="41">newLine</references>
       </memberdef>
@@ -145,6 +145,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Utils/TextStreamWriter.h" line="28" column="1"/>
+    <location file="Source/Utils/TextStreamWriter.h" line="28" column="1"/>
   </compounddef>
 </doxygen>

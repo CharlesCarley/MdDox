@@ -3,9 +3,9 @@
   <compounddef id="TemplateParamListQuery_8h" kind="file" language="C++">
     <compoundname>TemplateParamListQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</includedby>
-    <includedby refid="TemplateParamListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TemplateParamListQuery.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="TemplateParamListQuery_8cpp" local="yes">Tools/Doxygen/TemplateParamListQuery.cpp</includedby>
     <incdepgraph>
       <node id="8903">
         <label>Utils/Console.h</label>
@@ -57,7 +57,7 @@
         <label>fstream</label>
       </node>
       <node id="8887">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TemplateParamListQuery.h</label>
+        <label>Tools/Doxygen/TemplateParamListQuery.h</label>
         <link refid="TemplateParamListQuery_8h"/>
         <childnode refid="8888" relation="include">
         </childnode>
@@ -106,7 +106,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8904">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TemplateParamListQuery.h</label>
+        <label>Tools/Doxygen/TemplateParamListQuery.h</label>
         <link refid="TemplateParamListQuery_8h"/>
         <childnode refid="8905" relation="include">
         </childnode>
@@ -116,13 +116,13 @@
         </childnode>
       </node>
       <node id="8907">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TemplateParamListQuery.cpp</label>
+        <label>Tools/Doxygen/TemplateParamListQuery.cpp</label>
       </node>
       <node id="8905">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="8906">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" prot="public">MdDox::Doxygen::TemplateParamListQuery</innerclass>
@@ -191,6 +191,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/TemplateParamListQuery.h"/>
+    <location file="Tools/Doxygen/TemplateParamListQuery.h"/>
   </compounddef>
 </doxygen>

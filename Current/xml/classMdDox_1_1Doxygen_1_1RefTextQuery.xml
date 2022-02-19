@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1RefTextQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::RefTextQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">RefTextQuery.h</includes>
+    <includes local="no">Tools/Doxygen/RefTextQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RefTextQuery_1aef149d662b25905d3307bc4336e0f34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="52" column="1"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RefTextQuery_1a0200d0bb8141e6ee8f1cf5d8bb7d7d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="53" column="1"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="53" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RefTextQuery_1ab52a10b01c1f31e368ab994413b3e963" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" bodystart="55" bodyend="58"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="55" column="1" bodyfile="Tools/Doxygen/RefTextQuery.h" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1RefTextQuery_1a5404279850d4e73c3e7d4a66e490c285" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -69,7 +69,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp" bodystart="35" bodyend="40"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/RefTextQuery.cpp" bodystart="35" bodyend="40"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -85,7 +85,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp" bodystart="49" bodyend="54"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/RefTextQuery.cpp" bodystart="49" bodyend="54"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxRefKind_1a80f6ddc8569a3690483cfff14fd633c3" compoundref="DoxRefKind_8cpp" startline="30" endline="37">MdDox::Doxygen::DoxRefKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -107,7 +107,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="72" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/RefTextQuery.cpp" bodystart="28" bodyend="33"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -128,7 +128,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp" bodystart="42" bodyend="47"/>
+        <location file="Tools/Doxygen/RefTextQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/RefTextQuery.cpp" bodystart="42" bodyend="47"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -184,7 +184,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h" bodystart="49" bodyend="91"/>
+    <location file="Tools/Doxygen/RefTextQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/RefTextQuery.h" bodystart="49" bodyend="91"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::RefTextQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::RefTextQuery</scope><name>empty</name></member>

@@ -9,12 +9,12 @@
     <includes refid="DoxBool_8h" local="yes">DoxBool.h</includes>
     <includes refid="DoxRefQualifierKind_8h" local="yes">DoxRefQualifierKind.h</includes>
     <includes refid="DoxAccessor_8h" local="yes">DoxAccessor.h</includes>
-    <includedby refid="EnumDefWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h</includedby>
-    <includedby refid="FunctionDefWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.h</includedby>
-    <includedby refid="MemberDefListingWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.h</includedby>
-    <includedby refid="MemberDefWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</includedby>
-    <includedby refid="SectionDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</includedby>
+    <includedby refid="EnumDefWriter_8h" local="yes">Source/MdDoxTree/EnumDefWriter.h</includedby>
+    <includedby refid="FunctionDefWriter_8h" local="yes">Source/MdDoxTree/FunctionDefWriter.h</includedby>
+    <includedby refid="MemberDefListingWriter_8h" local="yes">Source/MdDoxTree/MemberDefListingWriter.h</includedby>
+    <includedby refid="MemberDefWriter_8h" local="yes">Source/MdDoxTree/MemberDefWriter.h</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="SectionDefQuery_8cpp" local="yes">Tools/Doxygen/SectionDefQuery.cpp</includedby>
     <incdepgraph>
       <node id="7670">
         <label>DoxAccessor.h</label>
@@ -137,7 +137,7 @@
         </childnode>
       </node>
       <node id="7648">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h</label>
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
         <link refid="MemberDefQuery_8h"/>
         <childnode refid="7649" relation="include">
         </childnode>
@@ -157,7 +157,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7675">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.h</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.h</label>
         <childnode refid="7673" relation="include">
         </childnode>
         <childnode refid="7676" relation="include">
@@ -166,52 +166,52 @@
         </childnode>
       </node>
       <node id="7674">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="7681">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="7683">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</label>
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
       </node>
       <node id="7673">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="7676">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="7679">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
       <node id="7680">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <childnode refid="7674" relation="include">
         </childnode>
         <childnode refid="7681" relation="include">
         </childnode>
       </node>
       <node id="7678">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
       <node id="7677">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefListingWriter.h</label>
         <childnode refid="7678" relation="include">
         </childnode>
         <childnode refid="7679" relation="include">
         </childnode>
       </node>
       <node id="7672">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.h</label>
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
         <childnode refid="7673" relation="include">
         </childnode>
         <childnode refid="7674" relation="include">
         </childnode>
       </node>
       <node id="7682">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
       <node id="7671">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h</label>
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
         <link refid="MemberDefQuery_8h"/>
         <childnode refid="7672" relation="include">
         </childnode>
@@ -438,6 +438,6 @@
 <codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="612"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.h"/>
+    <location file="Tools/Doxygen/MemberDefQuery.h"/>
   </compounddef>
 </doxygen>

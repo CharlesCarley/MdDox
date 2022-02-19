@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1ParserBase" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MdDox::ParserBase</compoundname>
     <derivedcompoundref refid="classMdDox_1_1Xml_1_1Parser" prot="public" virt="non-virtual">MdDox::Xml::Parser</derivedcompoundref>
-    <includes local="no">ParserBase.h</includes>
+    <includes local="no">Source/Utils/ParserBase/ParserBase.h</includes>
       <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMdDox_1_1ParserBase_1a94883c47ca05b4a4e7cce0ca6a3113aa" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1TokenBase" kindref="compound">TokenBase</ref> &gt;</type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="37" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="37" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="41" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="41" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="43" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="43" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParserBase_1a107eaa72f369cbc2c57f443a800f1217" prot="protected" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref></type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="44" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="44" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" prot="protected" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1ScannerBase" kindref="compound">ScannerBase</ref> *</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="42" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="42" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ParserBase_1a42fbee3a9242a5258e95e9ab385e9e5a" prot="protected" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1ParserBase_1a94883c47ca05b4a4e7cce0ca6a3113aa" kindref="member">Tokens</ref></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="40" bodyend="-1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="40" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="66" bodyend="69"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="52" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="66" bodyend="69"/>
         <references refid="classMdDox_1_1ParserBase_1abb5519919fc923246a9f1920fb2ba9c7" compoundref="ParserBase_8h" startline="41">_cursor</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a5f2b7f9f1caaf55cd7e44e0e3dd6b0a8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="53" bodyend="64"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="50" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="53" bodyend="64"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa4724d0a4f84fe5e28e47563b2f573fb" compoundref="TextStreamWriter_8h" startline="43" endline="47">MdDox::WriteUtils::next</references>
         <references refid="classMdDox_1_1ParserBase_1abb5519919fc923246a9f1920fb2ba9c7" compoundref="ParserBase_8h" startline="41">_cursor</references>
         <references refid="classMdDox_1_1ParserBase_1a42fbee3a9242a5258e95e9ab385e9e5a" compoundref="ParserBase_8h" startline="40">_tokens</references>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="57" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="98" bodyend="104"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="57" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="98" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a02bc2a2a593910851baa7ceabd40a2d7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="65" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="78" bodyend="81"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="65" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="78" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a5404ff42a2123418470cb05d4dfed7ef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="46" column="1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a615ff06f3d6d887d2848a4760124909a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="41" bodyend="51"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="54" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="41" bodyend="51"/>
         <references refid="classMdDox_1_1ParserBase_1a6ce8311252230db7c324e5ce7b398925" compoundref="ParserBase_8h" startline="42">_scanner</references>
         <references refid="classMdDox_1_1ScannerBase_1af35e6bac3429139d85df8cf603851613" compoundref="ScannerBase_8cpp" startline="34" endline="36">MdDox::ScannerBase::scan</references>
         <references refid="classMdDox_1_1ParserBase_1a42fbee3a9242a5258e95e9ab385e9e5a" compoundref="ParserBase_8h" startline="40">_tokens</references>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="48" column="1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="48" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="62" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="111" bodyend="116"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="62" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="111" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a72100d55bcca3b188c4d91e40b145283" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="60" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="71" bodyend="76"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="60" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="71" bodyend="76"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="33" bodyend="37"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="68" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="33" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1a249b185c5ebf2037d80b9945761f4cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="69" column="1"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="69" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1ad734d784406cf4f771ea2a49e812c653" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -312,7 +312,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="94" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="106" bodyend="109"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="94" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="106" bodyend="109"/>
         <references refid="classMdDox_1_1ParserBase_1a107eaa72f369cbc2c57f443a800f1217" compoundref="ParserBase_8h" startline="44">_filePath</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
       </memberdef>
@@ -347,7 +347,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="83" bodyend="99"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="78" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="83" bodyend="99"/>
         <references refid="classMdDox_1_1PathUtil_1a76a0e63f574b4c06d4945dc764df1243" compoundref="Path_8cpp" startline="176" endline="179">MdDox::PathUtil::exists</references>
         <references refid="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" compoundref="ParserBase_8h" startline="43">_file</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">MdDox::PathUtil::stem</references>
@@ -389,7 +389,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="101" bodyend="115"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="85" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="101" bodyend="115"/>
         <references refid="classMdDox_1_1StringUtils_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="String_8cpp" startline="204" endline="227">MdDox::StringUtils::scramble</references>
         <references refid="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" compoundref="ParserBase_8h" startline="43">_file</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="87" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="117" bodyend="124"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="87" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="117" bodyend="124"/>
         <references refid="classMdDox_1_1ParserBase_1a1314b474cbdbc362d47dcf241a517222">writeImpl</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParserBase_1abbe1d457527272c0cf2c4ab4376b9b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -439,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="89" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp" bodystart="126" bodyend="129"/>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="89" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="126" bodyend="129"/>
         <references refid="classMdDox_1_1ParserBase_1a1314b474cbdbc362d47dcf241a517222">writeImpl</references>
       </memberdef>
       </sectiondef>
@@ -526,7 +526,7 @@
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h" bodystart="34" bodyend="95"/>
+    <location file="Source/Utils/ParserBase/ParserBase.h" line="35" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="34" bodyend="95"/>
     <listofallmembers>
       <member refid="classMdDox_1_1ParserBase_1abb5519919fc923246a9f1920fb2ba9c7" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_cursor</name></member>
       <member refid="classMdDox_1_1ParserBase_1a8edb2d7d287e88090eb430341f67828a" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_file</name></member>

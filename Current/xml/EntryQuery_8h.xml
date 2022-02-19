@@ -4,8 +4,8 @@
     <compoundname>EntryQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxBool_8h" local="yes">DoxBool.h</includes>
-    <includedby refid="EntryQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp</includedby>
-    <includedby refid="RowQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/RowQuery.cpp</includedby>
+    <includedby refid="EntryQuery_8cpp" local="yes">Tools/Doxygen/EntryQuery.cpp</includedby>
+    <includedby refid="RowQuery_8cpp" local="yes">Tools/Doxygen/RowQuery.cpp</includedby>
     <incdepgraph>
       <node id="6512">
         <label>Utils/Console.h</label>
@@ -19,7 +19,7 @@
         <label>functional</label>
       </node>
       <node id="6496">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h</label>
+        <label>Tools/Doxygen/EntryQuery.h</label>
         <link refid="EntryQuery_8h"/>
         <childnode refid="6497" relation="include">
         </childnode>
@@ -113,7 +113,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6514">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h</label>
+        <label>Tools/Doxygen/EntryQuery.h</label>
         <link refid="EntryQuery_8h"/>
         <childnode refid="6515" relation="include">
         </childnode>
@@ -121,10 +121,10 @@
         </childnode>
       </node>
       <node id="6515">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp</label>
+        <label>Tools/Doxygen/EntryQuery.cpp</label>
       </node>
       <node id="6516">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RowQuery.cpp</label>
+        <label>Tools/Doxygen/RowQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1EntryQuery" prot="public">MdDox::Doxygen::EntryQuery</innerclass>
@@ -196,6 +196,6 @@
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.h"/>
+    <location file="Tools/Doxygen/EntryQuery.h"/>
   </compounddef>
 </doxygen>

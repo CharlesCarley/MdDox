@@ -8,7 +8,7 @@
         <label>iomanip</label>
       </node>
       <node id="9313">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Database.cpp</label>
+        <label>Tools/GenApi/Database.cpp</label>
         <link refid="Database_8cpp"/>
         <childnode refid="9314" relation="include">
         </childnode>
@@ -150,6 +150,6 @@
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Database.cpp"/>
+    <location file="Tools/GenApi/Database.cpp"/>
   </compounddef>
 </doxygen>

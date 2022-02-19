@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" line="39" column="1" bodyfile="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" bodystart="38" bodyend="59"/>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="39" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="38" bodyend="59"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" line="90" column="1" bodyfile="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" bodystart="90" bodyend="-1"/>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="90" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="90" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -83,13 +83,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" line="65" column="1" bodyfile="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" bodystart="65" bodyend="-1"/>
+        <location file="Tools/ResourceCompiler/Main.cpp" line="65" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="65" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp" line="34" column="1"/>
+    <location file="Tools/ResourceCompiler/Main.cpp" line="34" column="1"/>
   </compounddef>
 </doxygen>

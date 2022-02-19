@@ -27,7 +27,7 @@
         </childnode>
       </node>
       <node id="2410">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.cpp</label>
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
         <link refid="WriteUtils_8cpp"/>
         <childnode refid="2411" relation="include">
         </childnode>
@@ -400,6 +400,6 @@
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
 <codeline lineno="178"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.cpp"/>
+    <location file="Source/MdDoxTree/WriteUtils.cpp"/>
   </compounddef>
 </doxygen>

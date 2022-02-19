@@ -2,19 +2,19 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="CrtUtils_8h" kind="file" language="C++">
     <compoundname>CrtUtils.h</compoundname>
-    <includedby refid="Source_2MdDox_2Main_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDox/Main.cpp</includedby>
-    <includedby refid="CrtUtils_8cpp" local="yes">F:/Emulation/MdDox/Source/Utils/Win32/CrtUtils.cpp</includedby>
-    <includedby refid="Tools_2GenApi_2Main_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Main.cpp</includedby>
-    <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp</includedby>
+    <includedby refid="Source_2MdDox_2Main_8cpp" local="yes">Source/MdDox/Main.cpp</includedby>
+    <includedby refid="CrtUtils_8cpp" local="yes">Source/Utils/Win32/CrtUtils.cpp</includedby>
+    <includedby refid="Tools_2GenApi_2Main_8cpp" local="yes">Tools/GenApi/Main.cpp</includedby>
+    <includedby refid="Tools_2ResourceCompiler_2Main_8cpp" local="yes">Tools/ResourceCompiler/Main.cpp</includedby>
     <invincdepgraph>
       <node id="4244">
-        <label>F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp</label>
+        <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
       <node id="4243">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Main.cpp</label>
+        <label>Tools/GenApi/Main.cpp</label>
       </node>
       <node id="4240">
-        <label>F:/Emulation/MdDox/Source/Utils/Win32/CrtUtils.h</label>
+        <label>Source/Utils/Win32/CrtUtils.h</label>
         <link refid="CrtUtils_8h"/>
         <childnode refid="4241" relation="include">
         </childnode>
@@ -26,10 +26,10 @@
         </childnode>
       </node>
       <node id="4241">
-        <label>F:/Emulation/MdDox/Source/MdDox/Main.cpp</label>
+        <label>Source/MdDox/Main.cpp</label>
       </node>
       <node id="4242">
-        <label>F:/Emulation/MdDox/Source/Utils/Win32/CrtUtils.cpp</label>
+        <label>Source/Utils/Win32/CrtUtils.cpp</label>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
@@ -67,6 +67,6 @@
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a882abed0385daed0f7c9d02ff800408f" kindref="member">CrtDump</ref>();</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/Win32/CrtUtils.h"/>
+    <location file="Source/Utils/Win32/CrtUtils.h"/>
   </compounddef>
 </doxygen>

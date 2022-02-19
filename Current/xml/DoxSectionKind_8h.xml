@@ -3,10 +3,10 @@
   <compounddef id="DoxSectionKind_8h" kind="file" language="C++">
     <compoundname>DoxSectionKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="SectionDefListingWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</includedby>
-    <includedby refid="SectionDefQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</includedby>
-    <includedby refid="DoxSectionKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8h" local="yes">Source/MdDoxTree/SectionDefListingWriter.h</includedby>
+    <includedby refid="SectionDefQuery_8h" local="yes">Tools/Doxygen/SectionDefQuery.h</includedby>
+    <includedby refid="DoxSectionKind_8cpp" local="yes">Tools/Doxygen/DoxSectionKind.cpp</includedby>
     <incdepgraph>
       <node id="5916">
         <label>Utils/Console.h</label>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
       <node id="5900">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h</label>
+        <label>Tools/Doxygen/DoxSectionKind.h</label>
         <link refid="DoxSectionKind_8h"/>
         <childnode refid="5901" relation="include">
         </childnode>
@@ -107,17 +107,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5924">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="5919">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <childnode refid="5920" relation="include">
         </childnode>
         <childnode refid="5921" relation="include">
         </childnode>
       </node>
       <node id="5917">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h</label>
+        <label>Tools/Doxygen/DoxSectionKind.h</label>
         <link refid="DoxSectionKind_8h"/>
         <childnode refid="5918" relation="include">
         </childnode>
@@ -129,25 +129,25 @@
         </childnode>
       </node>
       <node id="5926">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</label>
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
       </node>
       <node id="5918">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="5920">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</label>
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="5921">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
       <node id="5925">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="5927">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.cpp</label>
+        <label>Tools/Doxygen/DoxSectionKind.cpp</label>
       </node>
       <node id="5922">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</label>
+        <label>Tools/Doxygen/SectionDefQuery.h</label>
         <childnode refid="5918" relation="include">
         </childnode>
         <childnode refid="5919" relation="include">
@@ -160,7 +160,7 @@
         </childnode>
       </node>
       <node id="5923">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefWriter.h</label>
         <childnode refid="5920" relation="include">
         </childnode>
         <childnode refid="5924" relation="include">
@@ -251,6 +251,6 @@
 <codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="231"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h"/>
+    <location file="Tools/Doxygen/DoxSectionKind.h"/>
   </compounddef>
 </doxygen>

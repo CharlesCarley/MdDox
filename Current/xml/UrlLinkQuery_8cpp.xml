@@ -43,7 +43,7 @@
         </childnode>
       </node>
       <node id="9052">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</label>
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
         <link refid="UrlLinkQuery_8cpp"/>
         <childnode refid="9053" relation="include">
         </childnode>
@@ -543,6 +543,6 @@
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
 <codeline lineno="365"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp"/>
+    <location file="Tools/Doxygen/UrlLinkQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -28,7 +28,7 @@
         <label>cstdint</label>
       </node>
       <node id="6472">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp</label>
+        <label>Tools/Doxygen/EntryQuery.cpp</label>
         <link refid="EntryQuery_8cpp"/>
         <childnode refid="6473" relation="include">
         </childnode>
@@ -208,6 +208,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp"/>
+    <location file="Tools/Doxygen/EntryQuery.cpp"/>
   </compounddef>
 </doxygen>

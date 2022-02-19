@@ -5,10 +5,10 @@
     <includes local="no">vector</includes>
     <includes refid="ScannerBase_8h" local="yes">Utils/ParserBase/ScannerBase.h</includes>
     <includes refid="TokenBase_8h" local="yes">Utils/ParserBase/TokenBase.h</includes>
-    <includedby refid="Config_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Config.cpp</includedby>
-    <includedby refid="ParserBase_8cpp" local="yes">F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp</includedby>
-    <includedby refid="Node_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Node.cpp</includedby>
-    <includedby refid="Xml_2Parser_8h" local="yes">F:/Emulation/MdDox/Source/Xml/Parser.h</includedby>
+    <includedby refid="Config_8cpp" local="yes">Source/MdDoxTree/Config.cpp</includedby>
+    <includedby refid="ParserBase_8cpp" local="yes">Source/Utils/ParserBase/ParserBase.cpp</includedby>
+    <includedby refid="Node_8cpp" local="yes">Source/Xml/Node.cpp</includedby>
+    <includedby refid="Xml_2Parser_8h" local="yes">Source/Xml/Parser.h</includedby>
     <incdepgraph>
       <node id="3595">
         <label>Utils/Console.h</label>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
       <node id="3577">
-        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h</label>
+        <label>Source/Utils/ParserBase/ParserBase.h</label>
         <link refid="ParserBase_8h"/>
         <childnode refid="3578" relation="include">
         </childnode>
@@ -129,13 +129,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3606">
-        <label>F:/Emulation/MdDox/Source/Xml/Parser.cpp</label>
+        <label>Source/Xml/Parser.cpp</label>
       </node>
       <node id="3607">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Main.cpp</label>
+        <label>Tools/GenApi/Main.cpp</label>
       </node>
       <node id="3598">
-        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h</label>
+        <label>Source/Utils/ParserBase/ParserBase.h</label>
         <link refid="ParserBase_8h"/>
         <childnode refid="3599" relation="include">
         </childnode>
@@ -147,13 +147,13 @@
         </childnode>
       </node>
       <node id="3599">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Config.cpp</label>
+        <label>Source/MdDoxTree/Config.cpp</label>
       </node>
       <node id="3600">
-        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp</label>
+        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
       <node id="3602">
-        <label>F:/Emulation/MdDox/Source/Xml/Parser.h</label>
+        <label>Source/Xml/Parser.h</label>
         <childnode refid="3603" relation="include">
         </childnode>
         <childnode refid="3604" relation="include">
@@ -166,16 +166,16 @@
         </childnode>
       </node>
       <node id="3605">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.cpp</label>
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
       <node id="3603">
-        <label>F:/Emulation/MdDox/Source/MdDox/Main.cpp</label>
+        <label>Source/MdDox/Main.cpp</label>
       </node>
       <node id="3604">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
       <node id="3601">
-        <label>F:/Emulation/MdDox/Source/Xml/Node.cpp</label>
+        <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1ParserBase" prot="public">MdDox::ParserBase</innerclass>
@@ -286,6 +286,6 @@
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.h"/>
+    <location file="Source/Utils/ParserBase/ParserBase.h"/>
   </compounddef>
 </doxygen>

@@ -50,7 +50,7 @@
         </childnode>
       </node>
       <node id="6015">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.cpp</label>
+        <label>Tools/Doxygen/DoxVirtualKind.cpp</label>
         <link refid="DoxVirtualKind_8cpp"/>
         <childnode refid="6016" relation="include">
         </childnode>
@@ -159,6 +159,6 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.cpp"/>
+    <location file="Tools/Doxygen/DoxVirtualKind.cpp"/>
   </compounddef>
 </doxygen>

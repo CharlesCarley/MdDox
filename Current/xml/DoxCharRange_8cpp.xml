@@ -61,7 +61,7 @@
         <label>fstream</label>
       </node>
       <node id="5247">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxCharRange.cpp</label>
+        <label>Tools/Doxygen/DoxCharRange.cpp</label>
         <link refid="DoxCharRange_8cpp"/>
         <childnode refid="5248" relation="include">
         </childnode>
@@ -153,6 +153,6 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCharRange.cpp"/>
+    <location file="Tools/Doxygen/DoxCharRange.cpp"/>
   </compounddef>
 </doxygen>

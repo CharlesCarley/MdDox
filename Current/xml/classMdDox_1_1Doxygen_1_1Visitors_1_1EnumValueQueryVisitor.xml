@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::EnumValueQueryVisitor</compoundname>
-    <includes local="no">EnumValueQuery.h</includes>
+    <includes local="no">Tools/Doxygen/EnumValueQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a5a0c619b7085093b260aead177e620c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="34" column="1"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9a6ce073c6946cd7c463b3fef1d7ef3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="49" bodyend="49"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a0c8248672971560d35da21dce2053c5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="54" bodyend="54"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a2667a88d3674c9409b49b7c2ed201120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="44" bodyend="44"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a915b323d62e3300fb6b52708cfe8b5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -115,7 +115,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="59" bodyend="59"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="59" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9b145b645b9ac842de9b5de18a6b7690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -131,14 +131,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="39" bodyend="39"/>
+        <location file="Tools/Doxygen/EnumValueQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="39" bodyend="39"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h" bodystart="31" bodyend="61"/>
+    <location file="Tools/Doxygen/EnumValueQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.h" bodystart="31" bodyend="61"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9a6ce073c6946cd7c463b3fef1d7ef3e" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::EnumValueQueryVisitor</scope><name>visitedBriefDescription</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a0c8248672971560d35da21dce2053c5d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::EnumValueQueryVisitor</scope><name>visitedDetailedDescription</name></member>

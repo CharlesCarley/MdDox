@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1XRefSectQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::XRefSectQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">XRefSectQuery.h</includes>
+    <includes local="no">Tools/Doxygen/XRefSectQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a43e3c04a516cb82be4503c750bac9bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" line="48" column="1"/>
+        <location file="Tools/Doxygen/XRefSectQuery.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a5df863688257063148c91cadf289de9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" line="49" column="1"/>
+        <location file="Tools/Doxygen/XRefSectQuery.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a8956ef57e7c6396fd4e5ea45db8dc63e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" line="51" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" bodystart="51" bodyend="54"/>
+        <location file="Tools/Doxygen/XRefSectQuery.h" line="51" column="1" bodyfile="Tools/Doxygen/XRefSectQuery.h" bodystart="51" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1XRefSectQuery_1a821bc22486175013b7c7613f624035f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -69,7 +69,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" line="61" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="Tools/Doxygen/XRefSectQuery.h" line="61" column="1" bodyfile="Tools/Doxygen/XRefSectQuery.cpp" bodystart="28" bodyend="33"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/XRefSectQuery.h" bodystart="45" bodyend="64"/>
+    <location file="Tools/Doxygen/XRefSectQuery.h" line="46" column="1" bodyfile="Tools/Doxygen/XRefSectQuery.h" bodystart="45" bodyend="64"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::XRefSectQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::XRefSectQuery</scope><name>empty</name></member>

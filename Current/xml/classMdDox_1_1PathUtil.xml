@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1PathUtil" kind="class" language="C++" prot="public">
     <compoundname>MdDox::PathUtil</compoundname>
-    <includes local="no">Path.h</includes>
+    <includes local="no">Source/Utils/Path.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1PathUtil_1a723355e4be1051877469c04f28ef830a" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="40" bodyend="-1"/>
+        <location file="Source/Utils/Path.h" line="40" column="1" bodyfile="Source/Utils/Path.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1PathUtil_1ac4ddb88efc32697604589fb9438ee545" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member">StringDeque</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="42" bodyend="-1"/>
+        <location file="Source/Utils/Path.h" line="42" column="1" bodyfile="Source/Utils/Path.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1PathUtil_1af02deef1c3e19d23c8b7826fc01df0f6" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="41" bodyend="-1"/>
+        <location file="Source/Utils/Path.h" line="41" column="1" bodyfile="Source/Utils/Path.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1PathUtil_1a43c6e77c57e346806d728d876a45af59" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/Utils/Path.h" line="39" column="1" bodyfile="Source/Utils/Path.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="32" bodyend="88"/>
+        <location file="Source/Utils/Path.h" line="44" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="32" bodyend="88"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="47" column="1"/>
+        <location file="Source/Utils/Path.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1aa2ea795f1c749b5580445481d1b94a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="90" bodyend="93"/>
+        <location file="Source/Utils/Path.h" line="49" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="90" bodyend="93"/>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">fullPath</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a686f8032bcf7e7fc90eaa3552431b79a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
@@ -131,7 +131,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="95" bodyend="98"/>
+        <location file="Source/Utils/Path.h" line="55" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="95" bodyend="98"/>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">fileName</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1ae5ba330b1ad93db34d508d8dd29f63c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="108" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="204" bodyend="208"/>
+        <location file="Source/Utils/Path.h" line="108" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="204" bodyend="208"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a3ad04e34c260d150cac4674ac8cf3980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="110" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="210" bodyend="222"/>
+        <location file="Source/Utils/Path.h" line="110" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="210" bodyend="222"/>
         <references refid="classMdDox_1_1PathUtil_1ae5ba330b1ad93db34d508d8dd29f63c8" compoundref="Path_8cpp" startline="204" endline="208">appendDirectory</references>
         <references refid="classMdDox_1_1PathUtil_1ab700791e12adae1858bd6b1857178196">PathUtil</references>
       </memberdef>
@@ -183,7 +183,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="67" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="131" bodyend="134"/>
+        <location file="Source/Utils/Path.h" line="67" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="131" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1ae224919f5f05b5b5158beb0c1c5ee965" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="69" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="136" bodyend="139"/>
+        <location file="Source/Utils/Path.h" line="69" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="136" bodyend="139"/>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a38c8b6c0791f16a60e2b9f542a7ef561" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="112" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="112" bodyend="115"/>
+        <location file="Source/Utils/Path.h" line="112" column="1" bodyfile="Source/Utils/Path.h" bodystart="112" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a76a0e63f574b4c06d4945dc764df1243" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -228,7 +228,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="176" bodyend="179"/>
+        <location file="Source/Utils/Path.h" line="80" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="176" bodyend="179"/>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">fullPath</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -243,7 +243,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="95" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="107" bodyend="110"/>
+        <location file="Source/Utils/Path.h" line="95" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="107" bodyend="110"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="Path_8cpp" startline="126" endline="129">stem</references>
         <references refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" compoundref="Path_8cpp" startline="196" endline="202">fullExtension</references>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="97" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="112" bodyend="116"/>
+        <location file="Source/Utils/Path.h" line="97" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="112" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a454a41d3a209830b2823a6b5f48c730e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="118" bodyend="124"/>
+        <location file="Source/Utils/Path.h" line="99" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="118" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -294,7 +294,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="196" bodyend="202"/>
+        <location file="Source/Utils/Path.h" line="104" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="196" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -308,7 +308,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="181" bodyend="189"/>
+        <location file="Source/Utils/Path.h" line="85" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="181" bodyend="189"/>
         <references refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" compoundref="Path_8cpp" startline="196" endline="202">fullExtension</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="71" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="141" bodyend="144"/>
+        <location file="Source/Utils/Path.h" line="71" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="141" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a4f90af1ff20339ccecf185ea8f98e99d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="73" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="146" bodyend="169"/>
+        <location file="Source/Utils/Path.h" line="73" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="146" bodyend="169"/>
         <references refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="Path_8cpp" startline="191" endline="194">rootedDir</references>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -360,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="171" bodyend="174"/>
+        <location file="Source/Utils/Path.h" line="75" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="171" bodyend="174"/>
         <references refid="classMdDox_1_1PathUtil_1ab700791e12adae1858bd6b1857178196">PathUtil</references>
         <references refid="classMdDox_1_1PathUtil_1a4f90af1ff20339ccecf185ea8f98e99d" compoundref="Path_8cpp" startline="146" endline="169">parentDir</references>
       </memberdef>
@@ -375,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="106" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="100" bodyend="105"/>
+        <location file="Source/Utils/Path.h" line="106" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="100" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -389,7 +389,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="90" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="191" bodyend="194"/>
+        <location file="Source/Utils/Path.h" line="90" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="191" bodyend="194"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -404,14 +404,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="61" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.cpp" bodystart="126" bodyend="129"/>
+        <location file="Source/Utils/Path.h" line="61" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="126" bodyend="129"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>A utility file for path access. </para>    </briefdescription>
     <detaileddescription>
 <para>Interprets a path as a structure of segments</para><para><computeroutput>root</computeroutput> <computeroutput>directory/</computeroutput> <computeroutput>stem</computeroutput> <computeroutput>extension</computeroutput> </para>    </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Utils/Path.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/Path.h" bodystart="36" bodyend="116"/>
+    <location file="Source/Utils/Path.h" line="37" column="1" bodyfile="Source/Utils/Path.h" bodystart="36" bodyend="116"/>
     <listofallmembers>
       <member refid="classMdDox_1_1PathUtil_1a723355e4be1051877469c04f28ef830a" prot="private" virt="non-virtual"><scope>MdDox::PathUtil</scope><name>_directory</name></member>
       <member refid="classMdDox_1_1PathUtil_1ac4ddb88efc32697604589fb9438ee545" prot="private" virt="non-virtual"><scope>MdDox::PathUtil</scope><name>_extension</name></member>

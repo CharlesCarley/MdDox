@@ -77,7 +77,7 @@
         <label>fstream</label>
       </node>
       <node id="203">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Config.cpp</label>
+        <label>Source/MdDoxTree/Config.cpp</label>
         <link refid="Config_8cpp"/>
         <childnode refid="204" relation="include">
         </childnode>
@@ -417,6 +417,6 @@
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Config.cpp"/>
+    <location file="Source/MdDoxTree/Config.cpp"/>
   </compounddef>
 </doxygen>

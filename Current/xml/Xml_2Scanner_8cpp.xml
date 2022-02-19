@@ -70,7 +70,7 @@
         <label>fstream</label>
       </node>
       <node id="2771">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.cpp</label>
+        <label>Source/Xml/Scanner.cpp</label>
         <link refid="Xml_2Scanner_8cpp"/>
         <childnode refid="2772" relation="include">
         </childnode>
@@ -360,6 +360,6 @@
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="208"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Scanner.cpp"/>
+    <location file="Source/Xml/Scanner.cpp"/>
   </compounddef>
 </doxygen>

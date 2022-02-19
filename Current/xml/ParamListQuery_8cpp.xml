@@ -46,7 +46,7 @@
         </childnode>
       </node>
       <node id="7866">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamListQuery.cpp</label>
+        <label>Tools/Doxygen/ParamListQuery.cpp</label>
         <link refid="ParamListQuery_8cpp"/>
         <childnode refid="7867" relation="include">
         </childnode>
@@ -208,6 +208,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamListQuery.cpp"/>
+    <location file="Tools/Doxygen/ParamListQuery.cpp"/>
   </compounddef>
 </doxygen>

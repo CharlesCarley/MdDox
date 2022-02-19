@@ -48,7 +48,7 @@
         </childnode>
       </node>
       <node id="1342">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
         <link refid="MemberDefWriter_8cpp"/>
         <childnode refid="1343" relation="include">
         </childnode>
@@ -568,6 +568,6 @@
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="188"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp"/>
+    <location file="Source/MdDoxTree/MemberDefWriter.cpp"/>
   </compounddef>
 </doxygen>

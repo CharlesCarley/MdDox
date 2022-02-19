@@ -5,7 +5,10 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Doxyfile.txt.in": true
+        "**/Doxyfile.txt.in": true,
+        "**/html": true,
+        "**/.vscode": true,
+        "**/xml": true
     },
     "explorerExclude.backup": null
 }

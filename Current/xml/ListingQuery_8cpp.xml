@@ -90,7 +90,7 @@
         </childnode>
       </node>
       <node id="7305">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListingQuery.cpp</label>
+        <label>Tools/Doxygen/ListingQuery.cpp</label>
         <link refid="ListingQuery_8cpp"/>
         <childnode refid="7306" relation="include">
         </childnode>
@@ -215,6 +215,6 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ListingQuery.cpp"/>
+    <location file="Tools/Doxygen/ListingQuery.cpp"/>
   </compounddef>
 </doxygen>

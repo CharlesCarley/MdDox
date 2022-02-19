@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1Sect4Query" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Sect4Query</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Sect4Query.h</includes>
+    <includes local="no">Tools/Doxygen/Sect4Query.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1aed87de5b04dd0a5fc7e4a466ba664284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="77" column="1"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="77" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1ae61e90066fc4e4586bf97ce075d06882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="78" column="1"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1a53677beb00f41f15d2fdfa10e2cfdecb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" bodystart="80" bodyend="83"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="80" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1a869a51669799d14f4602283855a0d49c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="114" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="90" bodyend="93"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="114" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="90" bodyend="93"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1a863ddec67b4edfa47019ef847ff00697" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -87,7 +87,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="92" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="56" bodyend="61"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="92" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="56" bodyend="61"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="72" bodyend="81"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="104" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="72" bodyend="81"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="83" bodyend="88"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="109" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="83" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Sect4Query_1afe4d97cafd7e5bae8cfde980d1c69b09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -142,7 +142,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="63" bodyend="70"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="99" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="63" bodyend="70"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp" bodystart="30" bodyend="55"/>
+        <location file="Tools/Doxygen/Sect4Query.h" line="85" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="30" bodyend="55"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -222,7 +222,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.h" bodystart="74" bodyend="117"/>
+    <location file="Tools/Doxygen/Sect4Query.h" line="75" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="74" bodyend="117"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>empty</name></member>

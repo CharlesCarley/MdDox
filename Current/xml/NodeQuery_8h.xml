@@ -3,9 +3,9 @@
   <compounddef id="NodeQuery_8h" kind="file" language="C++">
     <compoundname>NodeQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="GraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</includedby>
-    <includedby refid="GraphQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</includedby>
-    <includedby refid="NodeQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.cpp</includedby>
+    <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
+    <includedby refid="GraphQuery_8cpp" local="yes">Tools/Doxygen/GraphQuery.cpp</includedby>
+    <includedby refid="NodeQuery_8cpp" local="yes">Tools/Doxygen/NodeQuery.cpp</includedby>
     <incdepgraph>
       <node id="7816">
         <label>Utils/Console.h</label>
@@ -66,7 +66,7 @@
         </childnode>
       </node>
       <node id="7800">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.h</label>
+        <label>Tools/Doxygen/NodeQuery.h</label>
         <link refid="NodeQuery_8h"/>
         <childnode refid="7801" relation="include">
         </childnode>
@@ -106,13 +106,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7820">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.cpp</label>
+        <label>Tools/Doxygen/NodeQuery.cpp</label>
       </node>
       <node id="7818">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="7817">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.h</label>
+        <label>Tools/Doxygen/NodeQuery.h</label>
         <link refid="NodeQuery_8h"/>
         <childnode refid="7818" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="7819">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</label>
+        <label>Tools/Doxygen/GraphQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1NodeQuery" prot="public">MdDox::Doxygen::NodeQuery</innerclass>
@@ -201,6 +201,6 @@
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.h"/>
+    <location file="Tools/Doxygen/NodeQuery.h"/>
   </compounddef>
 </doxygen>

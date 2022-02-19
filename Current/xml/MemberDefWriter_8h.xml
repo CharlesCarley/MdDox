@@ -4,8 +4,8 @@
     <compoundname>MemberDefWriter.h</compoundname>
     <includes refid="MemberDefQuery_8h" local="yes">Doxygen/MemberDefQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="SectionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
     <incdepgraph>
       <node id="1418">
         <label>DoxAccessor.h</label>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="1395">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <link refid="MemberDefWriter_8h"/>
         <childnode refid="1396" relation="include">
         </childnode>
@@ -160,13 +160,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1421">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="1422">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="1420">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h</label>
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
         <link refid="MemberDefWriter_8h"/>
         <childnode refid="1421" relation="include">
         </childnode>
@@ -256,6 +256,6 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.h"/>
+    <location file="Source/MdDoxTree/MemberDefWriter.h"/>
   </compounddef>
 </doxygen>

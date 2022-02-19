@@ -3,12 +3,12 @@
   <compounddef id="DoxCompoundKind_8h" kind="file" language="C++">
     <compoundname>DoxCompoundKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="SiteBuilder_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.h</includedby>
-    <includedby refid="ReferenceIdentifiers_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h</includedby>
-    <includedby refid="IndexPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.h</includedby>
-    <includedby refid="CompoundIndexQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundIndexQuery.h</includedby>
-    <includedby refid="DoxCompoundKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.cpp</includedby>
+    <includedby refid="SiteBuilder_8h" local="yes">Source/MdDoxTree/SiteBuilder.h</includedby>
+    <includedby refid="ReferenceIdentifiers_8h" local="yes">Source/MdDoxTree/ReferenceIdentifiers.h</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8h" local="yes">Tools/Doxygen/CompoundDefQuery.h</includedby>
+    <includedby refid="CompoundIndexQuery_8h" local="yes">Tools/Doxygen/CompoundIndexQuery.h</includedby>
+    <includedby refid="DoxCompoundKind_8cpp" local="yes">Tools/Doxygen/DoxCompoundKind.cpp</includedby>
     <incdepgraph>
       <node id="5320">
         <label>Utils/Console.h</label>
@@ -101,7 +101,7 @@
         <label>unordered_map</label>
       </node>
       <node id="5304">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h</label>
+        <label>Tools/Doxygen/DoxCompoundKind.h</label>
         <link refid="DoxCompoundKind_8h"/>
         <childnode refid="5305" relation="include">
         </childnode>
@@ -109,25 +109,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5339">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.cpp</label>
+        <label>Source/MdDoxTree/RepoFile.cpp</label>
       </node>
       <node id="5335">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="5356">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.cpp</label>
+        <label>Tools/Doxygen/DoxCompoundKind.cpp</label>
       </node>
       <node id="5328">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp</label>
+        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
       <node id="5341">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.cpp</label>
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
       <node id="5329">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="5353">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundIndexQuery.h</label>
+        <label>Tools/Doxygen/CompoundIndexQuery.h</label>
         <childnode refid="5346" relation="include">
         </childnode>
         <childnode refid="5348" relation="include">
@@ -142,14 +142,14 @@
         </childnode>
       </node>
       <node id="5350">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.h</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.h</label>
         <childnode refid="5332" relation="include">
         </childnode>
         <childnode refid="5336" relation="include">
         </childnode>
       </node>
       <node id="5322">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.h</label>
+        <label>Source/MdDoxTree/SiteBuilder.h</label>
         <childnode refid="5323" relation="include">
         </childnode>
         <childnode refid="5324" relation="include">
@@ -190,29 +190,29 @@
         </childnode>
       </node>
       <node id="5355">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxygenIndexQuery.cpp</label>
+        <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
       </node>
       <node id="5330">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
       <node id="5326">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="5347">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.h</label>
+        <label>Source/MdDoxTree/ClassPageWriter.h</label>
         <childnode refid="5324" relation="include">
         </childnode>
         <childnode refid="5332" relation="include">
         </childnode>
       </node>
       <node id="5336">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="5337">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</label>
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="5345">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.h</label>
+        <label>Tools/Doxygen/CompoundDefQuery.h</label>
         <childnode refid="5346" relation="include">
         </childnode>
         <childnode refid="5348" relation="include">
@@ -225,10 +225,10 @@
         </childnode>
       </node>
       <node id="5327">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="5342">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h</label>
+        <label>Source/MdDoxTree/ReferenceIdentifiers.h</label>
         <childnode refid="5322" relation="include">
         </childnode>
         <childnode refid="5331" relation="include">
@@ -237,51 +237,51 @@
         </childnode>
       </node>
       <node id="5331">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
       <node id="5343">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ReferenceTable.h</label>
+        <label>Source/MdDoxTree/ReferenceTable.h</label>
         <childnode refid="5344" relation="include">
         </childnode>
         <childnode refid="5340" relation="include">
         </childnode>
       </node>
       <node id="5324">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="5340">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.cpp</label>
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
       <node id="5334">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
       <node id="5338">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="5323">
-        <label>F:/Emulation/MdDox/Source/MdDox/Main.cpp</label>
+        <label>Source/MdDox/Main.cpp</label>
       </node>
       <node id="5354">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundIndexQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundIndexQuery.cpp</label>
       </node>
       <node id="5352">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxygenQuery.cpp</label>
+        <label>Tools/Doxygen/DoxygenQuery.cpp</label>
       </node>
       <node id="5351">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="5349">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h</label>
+        <label>Source/MdDoxTree/GenericPageWriter.h</label>
         <childnode refid="5328" relation="include">
         </childnode>
         <childnode refid="5332" relation="include">
         </childnode>
       </node>
       <node id="5333">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Link.cpp</label>
+        <label>Source/MdDoxTree/Link.cpp</label>
       </node>
       <node id="5346">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.h</label>
+        <label>Source/MdDoxTree/PageWriter.h</label>
         <childnode refid="5347" relation="include">
         </childnode>
         <childnode refid="5348" relation="include">
@@ -294,20 +294,20 @@
         </childnode>
       </node>
       <node id="5325">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
       <node id="5344">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ReferenceTable.cpp</label>
+        <label>Source/MdDoxTree/ReferenceTable.cpp</label>
       </node>
       <node id="5348">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.h</label>
+        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
         <childnode refid="5325" relation="include">
         </childnode>
         <childnode refid="5332" relation="include">
         </childnode>
       </node>
       <node id="5321">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h</label>
+        <label>Tools/Doxygen/DoxCompoundKind.h</label>
         <link refid="DoxCompoundKind_8h"/>
         <childnode refid="5322" relation="include">
         </childnode>
@@ -323,7 +323,7 @@
         </childnode>
       </node>
       <node id="5332">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxCompoundKind" prot="public">MdDox::Doxygen::DoxCompoundKind</innerclass>
@@ -391,6 +391,6 @@
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h"/>
+    <location file="Tools/Doxygen/DoxCompoundKind.h"/>
   </compounddef>
 </doxygen>

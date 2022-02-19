@@ -3,11 +3,11 @@
   <compounddef id="DoxRefKind_8h" kind="file" language="C++">
     <compoundname>DoxRefKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="LinkedTextWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="RefTextQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h</includedby>
-    <includedby refid="CodeLineQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.h</includedby>
-    <includedby refid="DoxRefKind_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.cpp</includedby>
+    <includedby refid="LinkedTextWriter_8cpp" local="yes">Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="RefTextQuery_8h" local="yes">Tools/Doxygen/RefTextQuery.h</includedby>
+    <includedby refid="CodeLineQuery_8h" local="yes">Tools/Doxygen/CodeLineQuery.h</includedby>
+    <includedby refid="DoxRefKind_8cpp" local="yes">Tools/Doxygen/DoxRefKind.cpp</includedby>
     <incdepgraph>
       <node id="5807">
         <label>Utils/Console.h</label>
@@ -68,7 +68,7 @@
         </childnode>
       </node>
       <node id="5791">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.h</label>
+        <label>Tools/Doxygen/DoxRefKind.h</label>
         <link refid="DoxRefKind_8h"/>
         <childnode refid="5792" relation="include">
         </childnode>
@@ -108,40 +108,40 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5822">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp</label>
+        <label>Tools/Doxygen/RefTextQuery.cpp</label>
       </node>
       <node id="5815">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</label>
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
       <node id="5821">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="5829">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.cpp</label>
+        <label>Tools/Doxygen/DoxRefKind.cpp</label>
       </node>
       <node id="5827">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</label>
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
       <node id="5816">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
       <node id="5814">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</label>
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
       <node id="5825">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</label>
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
       <node id="5824">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
       <node id="5818">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="5819">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.cpp</label>
+        <label>Tools/Doxygen/ParamNameQuery.cpp</label>
       </node>
       <node id="5808">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.h</label>
+        <label>Tools/Doxygen/DoxRefKind.h</label>
         <link refid="DoxRefKind_8h"/>
         <childnode refid="5809" relation="include">
         </childnode>
@@ -155,31 +155,31 @@
         </childnode>
       </node>
       <node id="5820">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.cpp</label>
+        <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
       </node>
       <node id="5812">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</label>
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
       <node id="5823">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
       <node id="5828">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListingQuery.cpp</label>
+        <label>Tools/Doxygen/ListingQuery.cpp</label>
       </node>
       <node id="5817">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.cpp</label>
+        <label>Tools/Doxygen/LinkedTextQuery.cpp</label>
       </node>
       <node id="5810">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="5809">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</label>
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
       </node>
       <node id="5813">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
+        <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
       <node id="5811">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.h</label>
+        <label>Tools/Doxygen/RefTextQuery.h</label>
         <childnode refid="5809" relation="include">
         </childnode>
         <childnode refid="5810" relation="include">
@@ -214,7 +214,7 @@
         </childnode>
       </node>
       <node id="5826">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.h</label>
+        <label>Tools/Doxygen/CodeLineQuery.h</label>
         <childnode refid="5810" relation="include">
         </childnode>
         <childnode refid="5827" relation="include">
@@ -273,6 +273,6 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.h"/>
+    <location file="Tools/Doxygen/DoxRefKind.h"/>
   </compounddef>
 </doxygen>

@@ -5,9 +5,9 @@
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxRefKind_8h" local="yes">DoxRefKind.h</includes>
     <includes refid="DoxBool_8h" local="yes">DoxBool.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="CodeLineQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</includedby>
-    <includedby refid="ListingQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ListingQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="CodeLineQuery_8cpp" local="yes">Tools/Doxygen/CodeLineQuery.cpp</includedby>
+    <includedby refid="ListingQuery_8cpp" local="yes">Tools/Doxygen/ListingQuery.cpp</includedby>
     <incdepgraph>
       <node id="4836">
         <label>Utils/Console.h</label>
@@ -105,7 +105,7 @@
         <label>unordered_map</label>
       </node>
       <node id="4820">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.h</label>
+        <label>Tools/Doxygen/CodeLineQuery.h</label>
         <link refid="CodeLineQuery_8h"/>
         <childnode refid="4821" relation="include">
         </childnode>
@@ -122,16 +122,16 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4841">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</label>
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
       <node id="4842">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListingQuery.cpp</label>
+        <label>Tools/Doxygen/ListingQuery.cpp</label>
       </node>
       <node id="4840">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="4839">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.h</label>
+        <label>Tools/Doxygen/CodeLineQuery.h</label>
         <link refid="CodeLineQuery_8h"/>
         <childnode refid="4840" relation="include">
         </childnode>
@@ -217,6 +217,6 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.h"/>
+    <location file="Tools/Doxygen/CodeLineQuery.h"/>
   </compounddef>
 </doxygen>

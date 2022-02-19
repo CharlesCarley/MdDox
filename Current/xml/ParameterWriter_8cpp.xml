@@ -19,7 +19,7 @@
         <label>functional</label>
       </node>
       <node id="1719">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</label>
+        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
         <link refid="ParameterWriter_8cpp"/>
         <childnode refid="1720" relation="include">
         </childnode>
@@ -263,6 +263,6 @@
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp"/>
+    <location file="Source/MdDoxTree/ParameterWriter.cpp"/>
   </compounddef>
 </doxygen>

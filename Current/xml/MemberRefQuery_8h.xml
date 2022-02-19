@@ -5,8 +5,8 @@
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxVirtualKind_8h" local="yes">DoxVirtualKind.h</includes>
     <includes refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includes>
-    <includedby refid="ListOfAllMembersQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ListOfAllMembersQuery.cpp</includedby>
-    <includedby refid="MemberRefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.cpp</includedby>
+    <includedby refid="ListOfAllMembersQuery_8cpp" local="yes">Tools/Doxygen/ListOfAllMembersQuery.cpp</includedby>
+    <includedby refid="MemberRefQuery_8cpp" local="yes">Tools/Doxygen/MemberRefQuery.cpp</includedby>
     <incdepgraph>
       <node id="7769">
         <label>Utils/Console.h</label>
@@ -20,7 +20,7 @@
         <label>functional</label>
       </node>
       <node id="7753">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.h</label>
+        <label>Tools/Doxygen/MemberRefQuery.h</label>
         <link refid="MemberRefQuery_8h"/>
         <childnode refid="7754" relation="include">
         </childnode>
@@ -121,7 +121,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7772">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.h</label>
+        <label>Tools/Doxygen/MemberRefQuery.h</label>
         <link refid="MemberRefQuery_8h"/>
         <childnode refid="7773" relation="include">
         </childnode>
@@ -129,10 +129,10 @@
         </childnode>
       </node>
       <node id="7773">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
+        <label>Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
       </node>
       <node id="7774">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberRefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1MemberRefQuery" prot="public">MdDox::Doxygen::MemberRefQuery</innerclass>
@@ -198,6 +198,6 @@
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberRefQuery.h"/>
+    <location file="Tools/Doxygen/MemberRefQuery.h"/>
   </compounddef>
 </doxygen>

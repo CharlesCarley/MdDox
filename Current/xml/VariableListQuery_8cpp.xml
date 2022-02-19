@@ -57,7 +57,7 @@
         </childnode>
       </node>
       <node id="9108">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.cpp</label>
+        <label>Tools/Doxygen/VariableListQuery.cpp</label>
         <link refid="VariableListQuery_8cpp"/>
         <childnode refid="9109" relation="include">
         </childnode>
@@ -160,6 +160,6 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.cpp"/>
+    <location file="Tools/Doxygen/VariableListQuery.cpp"/>
   </compounddef>
 </doxygen>

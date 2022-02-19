@@ -50,7 +50,7 @@
         </childnode>
       </node>
       <node id="5357">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxGraphRelation.cpp</label>
+        <label>Tools/Doxygen/DoxGraphRelation.cpp</label>
         <link refid="DoxGraphRelation_8cpp"/>
         <childnode refid="5358" relation="include">
         </childnode>
@@ -167,6 +167,6 @@
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxGraphRelation.cpp"/>
+    <location file="Tools/Doxygen/DoxGraphRelation.cpp"/>
   </compounddef>
 </doxygen>

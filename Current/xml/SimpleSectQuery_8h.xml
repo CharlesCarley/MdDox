@@ -4,13 +4,13 @@
     <compoundname>SimpleSectQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxSimpleSectKind_8h" local="yes">DoxSimpleSectKind.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="SimpleSectQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="SimpleSectQuery_8cpp" local="yes">Tools/Doxygen/SimpleSectQuery.cpp</includedby>
     <incdepgraph>
       <node id="8755">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.h</label>
+        <label>Tools/Doxygen/SimpleSectQuery.h</label>
         <link refid="SimpleSectQuery_8h"/>
         <childnode refid="8756" relation="include">
         </childnode>
@@ -115,7 +115,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8773">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.h</label>
+        <label>Tools/Doxygen/SimpleSectQuery.h</label>
         <link refid="SimpleSectQuery_8h"/>
         <childnode refid="8774" relation="include">
         </childnode>
@@ -127,16 +127,16 @@
         </childnode>
       </node>
       <node id="8776">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="8775">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="8774">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="8777">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</label>
+        <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" prot="public">MdDox::Doxygen::SimpleSectQuery</innerclass>
@@ -213,6 +213,6 @@
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.h"/>
+    <location file="Tools/Doxygen/SimpleSectQuery.h"/>
   </compounddef>
 </doxygen>

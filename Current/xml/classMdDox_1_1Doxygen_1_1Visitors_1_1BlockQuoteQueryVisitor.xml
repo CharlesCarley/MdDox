@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</compoundname>
-    <includes local="no">BlockQuoteQuery.h</includes>
+    <includes local="no">Tools/Doxygen/BlockQuoteQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1a1a5c223f98d5ef1dd642179609efdf3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" line="33" column="1"/>
+        <location file="Tools/Doxygen/BlockQuoteQuery.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1ad62b7b84eeae22a509862b97cd465b17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" bodystart="43" bodyend="43"/>
+        <location file="Tools/Doxygen/BlockQuoteQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/BlockQuoteQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1ac07f83dc0eb3c64df9381fe4e27eaea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -56,14 +56,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/BlockQuoteQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/BlockQuoteQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.h" bodystart="30" bodyend="45"/>
+    <location file="Tools/Doxygen/BlockQuoteQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/BlockQuoteQuery.h" bodystart="30" bodyend="45"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1ad62b7b84eeae22a509862b97cd465b17" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</scope><name>visitedParagraph</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1BlockQuoteQueryVisitor_1ac07f83dc0eb3c64df9381fe4e27eaea7" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</scope><name>visitedText</name></member>

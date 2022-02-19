@@ -3,10 +3,10 @@
   <compounddef id="TitleQuery_8h" kind="file" language="C++">
     <compoundname>TitleQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="SimpleSectQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</includedby>
-    <includedby refid="TitleQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="SimpleSectQuery_8cpp" local="yes">Tools/Doxygen/SimpleSectQuery.cpp</includedby>
+    <includedby refid="TitleQuery_8cpp" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
     <incdepgraph>
       <node id="8953">
         <label>Utils/Console.h</label>
@@ -93,7 +93,7 @@
         <label>sstream</label>
       </node>
       <node id="8937">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.h</label>
+        <label>Tools/Doxygen/TitleQuery.h</label>
         <link refid="TitleQuery_8h"/>
         <childnode refid="8938" relation="include">
         </childnode>
@@ -107,16 +107,16 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8956">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="8955">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="8958">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
       <node id="8954">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.h</label>
+        <label>Tools/Doxygen/TitleQuery.h</label>
         <link refid="TitleQuery_8h"/>
         <childnode refid="8955" relation="include">
         </childnode>
@@ -128,7 +128,7 @@
         </childnode>
       </node>
       <node id="8957">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</label>
+        <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1TitleQuery" prot="public">MdDox::Doxygen::TitleQuery</innerclass>
@@ -267,6 +267,6 @@
 <codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="290"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.h"/>
+    <location file="Tools/Doxygen/TitleQuery.h"/>
   </compounddef>
 </doxygen>

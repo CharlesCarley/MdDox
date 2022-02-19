@@ -3,7 +3,7 @@
   <compounddef id="ParamTypeQuery_8h" kind="file" language="C++">
     <compoundname>ParamTypeQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ParamTypeQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.cpp</includedby>
+    <includedby refid="ParamTypeQuery_8cpp" local="yes">Tools/Doxygen/ParamTypeQuery.cpp</includedby>
     <incdepgraph>
       <node id="8097">
         <label>Utils/Console.h</label>
@@ -17,7 +17,7 @@
         <label>functional</label>
       </node>
       <node id="8081">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.h</label>
+        <label>Tools/Doxygen/ParamTypeQuery.h</label>
         <link refid="ParamTypeQuery_8h"/>
         <childnode refid="8082" relation="include">
         </childnode>
@@ -104,13 +104,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8098">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.h</label>
+        <label>Tools/Doxygen/ParamTypeQuery.h</label>
         <link refid="ParamTypeQuery_8h"/>
         <childnode refid="8099" relation="include">
         </childnode>
       </node>
       <node id="8099">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.cpp</label>
+        <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery" prot="public">MdDox::Doxygen::ParamTypeQuery</innerclass>
@@ -181,6 +181,6 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamTypeQuery.h"/>
+    <location file="Tools/Doxygen/ParamTypeQuery.h"/>
   </compounddef>
 </doxygen>

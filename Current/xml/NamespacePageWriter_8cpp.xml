@@ -157,7 +157,7 @@
         </childnode>
       </node>
       <node id="1423">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
         <link refid="NamespacePageWriter_8cpp"/>
         <childnode refid="1424" relation="include">
         </childnode>
@@ -680,6 +680,6 @@
 <codeline lineno="330"><highlight class="normal"></highlight></codeline>
 <codeline lineno="331"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp"/>
+    <location file="Source/MdDoxTree/NamespacePageWriter.cpp"/>
   </compounddef>
 </doxygen>

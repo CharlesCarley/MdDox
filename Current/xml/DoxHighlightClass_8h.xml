@@ -3,8 +3,8 @@
   <compounddef id="DoxHighlightClass_8h" kind="file" language="C++">
     <compoundname>DoxHighlightClass.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="HighlightQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</includedby>
-    <includedby refid="DoxHighlightClass_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp</includedby>
+    <includedby refid="HighlightQuery_8h" local="yes">Tools/Doxygen/HighlightQuery.h</includedby>
+    <includedby refid="DoxHighlightClass_8cpp" local="yes">Tools/Doxygen/DoxHighlightClass.cpp</includedby>
     <incdepgraph>
       <node id="5435">
         <label>Utils/Console.h</label>
@@ -50,7 +50,7 @@
         </childnode>
       </node>
       <node id="5419">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h</label>
+        <label>Tools/Doxygen/DoxHighlightClass.h</label>
         <link refid="DoxHighlightClass_8h"/>
         <childnode refid="5420" relation="include">
         </childnode>
@@ -105,16 +105,16 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5440">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</label>
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
       <node id="5439">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</label>
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
       </node>
       <node id="5441">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp</label>
+        <label>Tools/Doxygen/DoxHighlightClass.cpp</label>
       </node>
       <node id="5436">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h</label>
+        <label>Tools/Doxygen/DoxHighlightClass.h</label>
         <link refid="DoxHighlightClass_8h"/>
         <childnode refid="5437" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="5437">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</label>
+        <label>Tools/Doxygen/HighlightQuery.h</label>
         <childnode refid="5438" relation="include">
         </childnode>
         <childnode refid="5439" relation="include">
@@ -131,7 +131,7 @@
         </childnode>
       </node>
       <node id="5438">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass" prot="public">MdDox::Doxygen::DoxHighlightClass</innerclass>
@@ -190,6 +190,6 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h"/>
+    <location file="Tools/Doxygen/DoxHighlightClass.h"/>
   </compounddef>
 </doxygen>

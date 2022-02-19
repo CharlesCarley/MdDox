@@ -7,7 +7,7 @@
     <includes refid="ListItemQuery_8h" local="yes">ListItemQuery.h</includes>
     <incdepgraph>
       <node id="7442">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListQuery.cpp</label>
+        <label>Tools/Doxygen/ListQuery.cpp</label>
         <link refid="ListQuery_8cpp"/>
         <childnode refid="7443" relation="include">
         </childnode>
@@ -194,6 +194,6 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ListQuery.cpp"/>
+    <location file="Tools/Doxygen/ListQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -93,7 +93,7 @@
         <label>sstream</label>
       </node>
       <node id="8391">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ReimplementQuery.cpp</label>
+        <label>Tools/Doxygen/ReimplementQuery.cpp</label>
         <link refid="ReimplementQuery_8cpp"/>
         <childnode refid="8392" relation="include">
         </childnode>
@@ -167,6 +167,6 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ReimplementQuery.cpp"/>
+    <location file="Tools/Doxygen/ReimplementQuery.cpp"/>
   </compounddef>
 </doxygen>

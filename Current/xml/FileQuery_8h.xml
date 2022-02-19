@@ -3,9 +3,9 @@
   <compounddef id="FileQuery_8h" kind="file" language="C++">
     <compoundname>FileQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="FileQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="FileQuery_8cpp" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
     <incdepgraph>
       <node id="6611">
         <label>Utils/Console.h</label>
@@ -66,7 +66,7 @@
         </childnode>
       </node>
       <node id="6595">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.h</label>
+        <label>Tools/Doxygen/FileQuery.h</label>
         <link refid="FileQuery_8h"/>
         <childnode refid="6596" relation="include">
         </childnode>
@@ -106,13 +106,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6615">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="6614">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="6612">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.h</label>
+        <label>Tools/Doxygen/FileQuery.h</label>
         <link refid="FileQuery_8h"/>
         <childnode refid="6613" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="6613">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
+        <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1FileQuery" prot="public">MdDox::Doxygen::FileQuery</innerclass>
@@ -263,6 +263,6 @@
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="299"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/FileQuery.h"/>
+    <location file="Tools/Doxygen/FileQuery.h"/>
   </compounddef>
 </doxygen>

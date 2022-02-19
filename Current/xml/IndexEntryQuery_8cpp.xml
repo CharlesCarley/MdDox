@@ -103,7 +103,7 @@
         </childnode>
       </node>
       <node id="6901">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.cpp</label>
+        <label>Tools/Doxygen/IndexEntryQuery.cpp</label>
         <link refid="IndexEntryQuery_8cpp"/>
         <childnode refid="6902" relation="include">
         </childnode>
@@ -160,6 +160,6 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.cpp"/>
+    <location file="Tools/Doxygen/IndexEntryQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1CopyQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::CopyQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">CopyQuery.h</includes>
+    <includes local="no">Tools/Doxygen/CopyQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1aef97f8689f5fc2d5ee371844c6331056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="77" column="1"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="77" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1a3f881a1ccc23544a6160c998f17b82e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="78" column="1"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1a677ef2163c4c57b86376e742512d6727" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" bodystart="80" bodyend="83"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1a550b4f87b6c4464366be070647b593b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="107" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="82" bodyend="85"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="107" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="82" bodyend="85"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1aa0ffdcf1b52c20cc53b5a0b94586bc20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="112" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="87" bodyend="90"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="112" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="87" bodyend="90"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1a24a27fddd9e7031c609ee0e6ad5b80b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="97" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="64" bodyend="73"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="64" bodyend="73"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="102" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="75" bodyend="80"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="75" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CopyQuery_1aa2747757e19fea114a13db2e9bc86d61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -139,7 +139,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="92" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="57" bodyend="62"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="57" bodyend="62"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp" bodystart="31" bodyend="56"/>
+        <location file="Tools/Doxygen/CopyQuery.h" line="85" column="1" bodyfile="Tools/Doxygen/CopyQuery.cpp" bodystart="31" bodyend="56"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -217,7 +217,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h" bodystart="74" bodyend="115"/>
+    <location file="Tools/Doxygen/CopyQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/CopyQuery.h" bodystart="74" bodyend="115"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::CopyQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1CopyQuery_1aef97f8689f5fc2d5ee371844c6331056" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CopyQuery</scope><name>CopyQuery</name></member>

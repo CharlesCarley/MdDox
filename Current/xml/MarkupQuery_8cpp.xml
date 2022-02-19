@@ -132,7 +132,7 @@
         <label>fstream</label>
       </node>
       <node id="7538">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
         <link refid="MarkupQuery_8cpp"/>
         <childnode refid="7539" relation="include">
         </childnode>
@@ -1103,6 +1103,6 @@
 <codeline lineno="783"><highlight class="normal"></highlight></codeline>
 <codeline lineno="784"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp"/>
+    <location file="Tools/Doxygen/MarkupQuery.cpp"/>
   </compounddef>
 </doxygen>

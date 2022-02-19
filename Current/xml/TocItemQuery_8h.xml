@@ -3,8 +3,8 @@
   <compounddef id="TocItemQuery_8h" kind="file" language="C++">
     <compoundname>TocItemQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="TocItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</includedby>
-    <includedby refid="TocListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocListQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="TocListQuery_8cpp" local="yes">Tools/Doxygen/TocListQuery.cpp</includedby>
     <incdepgraph>
       <node id="9004">
         <label>Utils/Console.h</label>
@@ -91,7 +91,7 @@
         <label>sstream</label>
       </node>
       <node id="8988">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h</label>
+        <label>Tools/Doxygen/TocItemQuery.h</label>
         <link refid="TocItemQuery_8h"/>
         <childnode refid="8989" relation="include">
         </childnode>
@@ -105,13 +105,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9007">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocListQuery.cpp</label>
+        <label>Tools/Doxygen/TocListQuery.cpp</label>
       </node>
       <node id="9006">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
       <node id="9005">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h</label>
+        <label>Tools/Doxygen/TocItemQuery.h</label>
         <link refid="TocItemQuery_8h"/>
         <childnode refid="9006" relation="include">
         </childnode>
@@ -257,6 +257,6 @@
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="299"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h"/>
+    <location file="Tools/Doxygen/TocItemQuery.h"/>
   </compounddef>
 </doxygen>

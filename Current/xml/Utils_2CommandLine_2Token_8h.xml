@@ -3,7 +3,7 @@
   <compounddef id="Utils_2CommandLine_2Token_8h" kind="file" language="C++">
     <compoundname>Token.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Utils_2CommandLine_2Scanner_8h" local="yes">F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h</includedby>
+    <includedby refid="Utils_2CommandLine_2Scanner_8h" local="yes">Source/Utils/CommandLine/Scanner.h</includedby>
     <incdepgraph>
       <node id="2847">
         <label>iomanip</label>
@@ -44,7 +44,7 @@
         <label>unordered_map</label>
       </node>
       <node id="2839">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h</label>
+        <label>Source/Utils/CommandLine/Token.h</label>
         <link refid="Utils_2CommandLine_2Token_8h"/>
         <childnode refid="2840" relation="include">
         </childnode>
@@ -52,19 +52,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2855">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.cpp</label>
+        <label>Source/Utils/CommandLine/Scanner.cpp</label>
       </node>
       <node id="2854">
-        <label>F:/Emulation/MdDox/Tools/ResourceCompiler/Main.cpp</label>
+        <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
       <node id="2853">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Main.cpp</label>
+        <label>Tools/GenApi/Main.cpp</label>
       </node>
       <node id="2852">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp</label>
+        <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
       <node id="2850">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h</label>
+        <label>Source/Utils/CommandLine/Parser.h</label>
         <childnode refid="2851" relation="include">
         </childnode>
         <childnode refid="2852" relation="include">
@@ -75,17 +75,17 @@
         </childnode>
       </node>
       <node id="2849">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h</label>
+        <label>Source/Utils/CommandLine/Scanner.h</label>
         <childnode refid="2850" relation="include">
         </childnode>
         <childnode refid="2855" relation="include">
         </childnode>
       </node>
       <node id="2851">
-        <label>F:/Emulation/MdDox/Source/MdDox/Main.cpp</label>
+        <label>Source/MdDox/Main.cpp</label>
       </node>
       <node id="2848">
-        <label>F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h</label>
+        <label>Source/Utils/CommandLine/Token.h</label>
         <link refid="Utils_2CommandLine_2Token_8h"/>
         <childnode refid="2849" relation="include">
         </childnode>
@@ -190,6 +190,6 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Utils::CommandLine</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h"/>
+    <location file="Source/Utils/CommandLine/Token.h"/>
   </compounddef>
 </doxygen>

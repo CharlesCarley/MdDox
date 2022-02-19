@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1CommandLine_1_1Scanner" kind="class" language="C++" prot="public">
     <compoundname>MdDox::CommandLine::Scanner</compoundname>
-    <includes local="no">Scanner.h</includes>
+    <includes local="no">Source/Utils/CommandLine/Scanner.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Scanner_1af09ec58faa57e1780ef64a01dc7e8c47" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="30" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" bodystart="30" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="30" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Scanner_1a9ff8512df66b6c89c3fdcfaec7308ab0" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" bodystart="31" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="31" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.cpp" bodystart="51" bodyend="55"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="34" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="51" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a99d7af5a585f76229673d580ab09780e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.cpp" bodystart="62" bodyend="66"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="40" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="62" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1ad3569d482516b31a861788ca480fb4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.cpp" bodystart="57" bodyend="60"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="36" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a6a2097b64f77cf77601ed7eb2cb1b21f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" bodystart="45" bodyend="48"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="42" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Scanner_1a25aa3ecb530e661d7302a48c616888af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.cpp" bodystart="68" bodyend="142"/>
+        <location file="Source/Utils/CommandLine/Scanner.h" line="38" column="1" bodyfile="Source/Utils/CommandLine/Scanner.cpp" bodystart="68" bodyend="142"/>
         <references refid="classMdDox_1_1CommandLine_1_1Token_1a345569b3af942f112056b914120626a7" compoundref="Utils_2CommandLine_2Token_8h" startline="85" endline="89">MdDox::CommandLine::Token::clear</references>
         <references refid="classMdDox_1_1CommandLine_1_1Token_1a9ecda3f8cec12066e20c658f0c3cf32f" compoundref="Utils_2CommandLine_2Token_8h" startline="75" endline="78">MdDox::CommandLine::Token::append</references>
         <references refid="classMdDox_1_1CommandLine_1_1Token_1abcd1c725a7b8dae7dd06462078ffd7e8" compoundref="Utils_2CommandLine_2Token_8h" startline="65" endline="68">MdDox::CommandLine::Token::setType</references>
@@ -118,7 +118,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" line="28" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Scanner.h" bodystart="27" bodyend="43"/>
+    <location file="Source/Utils/CommandLine/Scanner.h" line="28" column="1" bodyfile="Source/Utils/CommandLine/Scanner.h" bodystart="27" bodyend="43"/>
     <listofallmembers>
       <member refid="classMdDox_1_1CommandLine_1_1Scanner_1af09ec58faa57e1780ef64a01dc7e8c47" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Scanner</scope><name>_buffer</name></member>
       <member refid="classMdDox_1_1CommandLine_1_1Scanner_1a9ff8512df66b6c89c3fdcfaec7308ab0" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Scanner</scope><name>_position</name></member>

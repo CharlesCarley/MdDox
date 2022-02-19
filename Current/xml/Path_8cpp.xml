@@ -18,7 +18,7 @@
         <label>cstdint</label>
       </node>
       <node id="3684">
-        <label>F:/Emulation/MdDox/Source/Utils/Path.cpp</label>
+        <label>Source/Utils/Path.cpp</label>
         <link refid="Path_8cpp"/>
         <childnode refid="3685" relation="include">
         </childnode>
@@ -311,6 +311,6 @@
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/Path.cpp"/>
+    <location file="Source/Utils/Path.cpp"/>
   </compounddef>
 </doxygen>

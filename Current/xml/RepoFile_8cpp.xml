@@ -21,7 +21,7 @@
         <label>iomanip</label>
       </node>
       <node id="1919">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.cpp</label>
+        <label>Source/MdDoxTree/RepoFile.cpp</label>
         <link refid="RepoFile_8cpp"/>
         <childnode refid="1920" relation="include">
         </childnode>
@@ -253,6 +253,6 @@
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.cpp"/>
+    <location file="Source/MdDoxTree/RepoFile.cpp"/>
   </compounddef>
 </doxygen>

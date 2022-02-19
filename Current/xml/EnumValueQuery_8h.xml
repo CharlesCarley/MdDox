@@ -4,11 +4,11 @@
     <compoundname>EnumValueQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includes>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="FunctionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="EnumValueQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="EnumValueQuery_8cpp" local="yes">Tools/Doxygen/EnumValueQuery.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
     <incdepgraph>
       <node id="6558">
         <label>Utils/Console.h</label>
@@ -106,7 +106,7 @@
         <label>unordered_map</label>
       </node>
       <node id="6542">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h</label>
+        <label>Tools/Doxygen/EnumValueQuery.h</label>
         <link refid="EnumValueQuery_8h"/>
         <childnode refid="6543" relation="include">
         </childnode>
@@ -116,19 +116,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6563">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="6561">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="6562">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="6564">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.cpp</label>
+        <label>Tools/Doxygen/EnumValueQuery.cpp</label>
       </node>
       <node id="6560">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h</label>
+        <label>Tools/Doxygen/EnumValueQuery.h</label>
         <link refid="EnumValueQuery_8h"/>
         <childnode refid="6561" relation="include">
         </childnode>
@@ -142,7 +142,7 @@
         </childnode>
       </node>
       <node id="6565">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1EnumValueQuery" prot="public">MdDox::Doxygen::EnumValueQuery</innerclass>
@@ -231,6 +231,6 @@
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="148"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.h"/>
+    <location file="Tools/Doxygen/EnumValueQuery.h"/>
   </compounddef>
 </doxygen>

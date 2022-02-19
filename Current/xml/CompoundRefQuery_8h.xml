@@ -5,9 +5,9 @@
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxVirtualKind_8h" local="yes">DoxVirtualKind.h</includes>
     <includes refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="CompoundRefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="CompoundRefQuery_8cpp" local="yes">Tools/Doxygen/CompoundRefQuery.cpp</includedby>
     <incdepgraph>
       <node id="5013">
         <label>Utils/Console.h</label>
@@ -93,7 +93,7 @@
         <label>vector</label>
       </node>
       <node id="4997">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h</label>
+        <label>Tools/Doxygen/CompoundRefQuery.h</label>
         <link refid="CompoundRefQuery_8h"/>
         <childnode refid="4998" relation="include">
         </childnode>
@@ -122,10 +122,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5017">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="5016">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h</label>
+        <label>Tools/Doxygen/CompoundRefQuery.h</label>
         <link refid="CompoundRefQuery_8h"/>
         <childnode refid="5017" relation="include">
         </childnode>
@@ -135,10 +135,10 @@
         </childnode>
       </node>
       <node id="5019">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundRefQuery.cpp</label>
       </node>
       <node id="5018">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery" prot="public">MdDox::Doxygen::CompoundRefQuery</innerclass>
@@ -198,6 +198,6 @@
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="83"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h"/>
+    <location file="Tools/Doxygen/CompoundRefQuery.h"/>
   </compounddef>
 </doxygen>

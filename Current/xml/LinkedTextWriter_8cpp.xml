@@ -124,7 +124,7 @@
         <label>sstream</label>
       </node>
       <node id="1077">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</label>
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
         <link refid="LinkedTextWriter_8cpp"/>
         <childnode refid="1078" relation="include">
         </childnode>
@@ -255,6 +255,6 @@
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp"/>
+    <location file="Source/MdDoxTree/LinkedTextWriter.cpp"/>
   </compounddef>
 </doxygen>

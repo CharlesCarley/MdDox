@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Xml_1_1Scanner" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::Xml::Scanner</compoundname>
     <basecompoundref refid="classMdDox_1_1ScannerBase" prot="public" virt="non-virtual">MdDox::ScannerBase</basecompoundref>
-    <includes local="no">Scanner.h</includes>
+    <includes local="no">Source/Xml/Scanner.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Scanner_1a69d1f2b6fb0e4f09c3ac32401c4489a1" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" kindref="member">CodeCache</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="33" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/Xml/Scanner.h" line="33" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Scanner_1aff166fad679d3dff718d2aef919bfc96" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/Xml/Scanner.h" line="35" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="60" bodyend="79"/>
+        <location file="Source/Xml/Scanner.h" line="39" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="60" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Scanner_1a943cfc8e17980912eb04489230f18d1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="81" bodyend="107"/>
+        <location file="Source/Xml/Scanner.h" line="37" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="81" bodyend="107"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="28" bodyend="31"/>
+        <location file="Source/Xml/Scanner.h" line="42" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Scanner_1a5f7bb6c4da2248ba409b9ec5315cb2e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="52" bodyend="58"/>
+        <location file="Source/Xml/Scanner.h" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="52" bodyend="58"/>
         <references refid="classMdDox_1_1ScannerBase_1a5fae1e009f8d9d6a7977c129e71c9137" compoundref="ScannerBase_8h" startline="56" endline="62">MdDox::ScannerBase::syntaxError</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Scanner_1a4689c87e60bf43fc47f5eba0b9d875ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -128,7 +128,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="109" bodyend="207"/>
+        <location file="Source/Xml/Scanner.h" line="44" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="109" bodyend="207"/>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">MdDox::ScannerBase::_stream</references>
         <references refid="classMdDox_1_1ScannerBase_1a5fae1e009f8d9d6a7977c129e71c9137" compoundref="ScannerBase_8h" startline="56" endline="62">MdDox::ScannerBase::syntaxError</references>
         <references refid="classMdDox_1_1TokenBase_1a742e79bee2108b58e45d55eea6e1baf6" compoundref="TokenBase_8h" startline="50" endline="62">MdDox::TokenBase::clear</references>
@@ -210,7 +210,7 @@
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.h" bodystart="30" bodyend="47"/>
+    <location file="Source/Xml/Scanner.h" line="31" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="30" bodyend="47"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Xml_1_1Scanner_1a69d1f2b6fb0e4f09c3ac32401c4489a1" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_code</name></member>
       <member refid="classMdDox_1_1Xml_1_1Scanner_1aff166fad679d3dff718d2aef919bfc96" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_defaultState</name></member>

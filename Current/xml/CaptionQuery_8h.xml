@@ -3,8 +3,8 @@
   <compounddef id="CaptionQuery_8h" kind="file" language="C++">
     <compoundname>CaptionQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CaptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</includedby>
-    <includedby refid="TableQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp</includedby>
+    <includedby refid="CaptionQuery_8cpp" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="TableQuery_8cpp" local="yes">Tools/Doxygen/TableQuery.cpp</includedby>
     <incdepgraph>
       <node id="4744">
         <label>Utils/Console.h</label>
@@ -34,7 +34,7 @@
         <label>stdexcept</label>
       </node>
       <node id="4728">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h</label>
+        <label>Tools/Doxygen/CaptionQuery.h</label>
         <link refid="CaptionQuery_8h"/>
         <childnode refid="4729" relation="include">
         </childnode>
@@ -105,7 +105,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4745">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h</label>
+        <label>Tools/Doxygen/CaptionQuery.h</label>
         <link refid="CaptionQuery_8h"/>
         <childnode refid="4746" relation="include">
         </childnode>
@@ -113,10 +113,10 @@
         </childnode>
       </node>
       <node id="4746">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</label>
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
       <node id="4747">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp</label>
+        <label>Tools/Doxygen/TableQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1CaptionQuery" prot="public">MdDox::Doxygen::CaptionQuery</innerclass>
@@ -255,6 +255,6 @@
 <codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="290"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h"/>
+    <location file="Tools/Doxygen/CaptionQuery.h"/>
   </compounddef>
 </doxygen>

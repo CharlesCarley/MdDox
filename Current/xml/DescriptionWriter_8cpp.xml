@@ -110,7 +110,7 @@
         </childnode>
       </node>
       <node id="264">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</label>
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
         <link refid="DescriptionWriter_8cpp"/>
         <childnode refid="265" relation="include">
         </childnode>
@@ -271,6 +271,6 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp"/>
+    <location file="Source/MdDoxTree/DescriptionWriter.cpp"/>
   </compounddef>
 </doxygen>

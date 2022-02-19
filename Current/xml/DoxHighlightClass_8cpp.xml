@@ -34,7 +34,7 @@
         <label>stdexcept</label>
       </node>
       <node id="5400">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp</label>
+        <label>Tools/Doxygen/DoxHighlightClass.cpp</label>
         <link refid="DoxHighlightClass_8cpp"/>
         <childnode refid="5401" relation="include">
         </childnode>
@@ -169,6 +169,6 @@
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp"/>
+    <location file="Tools/Doxygen/DoxHighlightClass.cpp"/>
   </compounddef>
 </doxygen>

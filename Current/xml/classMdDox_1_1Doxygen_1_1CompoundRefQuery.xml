@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1CompoundRefQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::CompoundRefQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">CompoundRefQuery.h</includes>
+    <includes local="no">Tools/Doxygen/CompoundRefQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a393774d3f4c8c04642ebad100da3498f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="52" column="1"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a2d6a1538ec201794a4af50ba5ddfd563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="53" column="1"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="53" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a67038d537482d8694971a1c4282173a0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" bodystart="55" bodyend="58"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="55" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.h" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1aef1e3efa4723d8b4f9e20bcbe9d365ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
@@ -64,7 +64,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp" bodystart="35" bodyend="40"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="35" bodyend="40"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxProtectionKind_1afebd04e883867f4c63546f2b26b466af" compoundref="DoxProtectionKind_8cpp" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -86,7 +86,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="79" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="28" bodyend="33"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -102,7 +102,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="71" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.cpp" bodystart="42" bodyend="47"/>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="71" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="42" bodyend="47"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxVirtualKind_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" compoundref="DoxVirtualKind_8cpp" startline="30" endline="39">MdDox::Doxygen::DoxVirtualKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -158,7 +158,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CompoundRefQuery.h" bodystart="49" bodyend="82"/>
+    <location file="Tools/Doxygen/CompoundRefQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.h" bodystart="49" bodyend="82"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery_1a393774d3f4c8c04642ebad100da3498f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>CompoundRefQuery</name></member>

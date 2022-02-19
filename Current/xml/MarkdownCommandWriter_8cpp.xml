@@ -161,7 +161,7 @@
         <label>vector</label>
       </node>
       <node id="1198">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
         <link refid="MarkdownCommandWriter_8cpp"/>
         <childnode refid="1199" relation="include">
         </childnode>
@@ -480,6 +480,6 @@
 <codeline lineno="251"><highlight class="stringliteral"></highlight></codeline>
 <codeline lineno="252"><highlight class="stringliteral">}<sp/><sp/>//<sp/>namespace<sp/>MdDox::Md</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownCommandWriter.cpp"/>
+    <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp"/>
   </compounddef>
 </doxygen>

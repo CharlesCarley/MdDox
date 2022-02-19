@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1SectionDefQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::SectionDefQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">SectionDefQuery.h</includes>
+    <includes local="no">Tools/Doxygen/SectionDefQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a1e1bb8889e630cd5d916a95bcce744ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="78" column="1"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a03e0e5d575641f7e4304c2cb7e0a2b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="79" column="1"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="79" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a5636b06459510ba27958d0cbf9000952" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="81" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" bodystart="81" bodyend="84"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="81" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a6c110513bb0290d400339e68f22a4969" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="114" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="90" bodyend="93"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="90" bodyend="93"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1ac1e73b8959b09d755c7e04d09b01131e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="72" bodyend="81"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="104" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="72" bodyend="81"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="83" bodyend="88"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="109" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="83" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a42eb4eecda258260e5cb2cc4cc18a220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -121,7 +121,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="63" bodyend="70"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="63" bodyend="70"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -139,7 +139,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="92" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="56" bodyend="61"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="56" bodyend="61"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" compoundref="DoxSectionKind_8cpp" startline="30" endline="105">MdDox::Doxygen::DoxSectionKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="86" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp" bodystart="30" bodyend="55"/>
+        <location file="Tools/Doxygen/SectionDefQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.cpp" bodystart="30" bodyend="55"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -218,7 +218,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" line="76" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h" bodystart="75" bodyend="117"/>
+    <location file="Tools/Doxygen/SectionDefQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/SectionDefQuery.h" bodystart="75" bodyend="117"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::SectionDefQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SectionDefQuery</scope><name>empty</name></member>

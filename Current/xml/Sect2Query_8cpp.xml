@@ -20,7 +20,7 @@
         <label>functional</label>
       </node>
       <node id="8526">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</label>
+        <label>Tools/Doxygen/Sect2Query.cpp</label>
         <link refid="Sect2Query_8cpp"/>
         <childnode refid="8527" relation="include">
         </childnode>
@@ -260,6 +260,6 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp"/>
+    <location file="Tools/Doxygen/Sect2Query.cpp"/>
   </compounddef>
 </doxygen>

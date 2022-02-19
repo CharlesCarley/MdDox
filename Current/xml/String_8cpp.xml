@@ -11,7 +11,7 @@
         <label>iomanip</label>
       </node>
       <node id="3779">
-        <label>F:/Emulation/MdDox/Source/Utils/String.cpp</label>
+        <label>Source/Utils/String.cpp</label>
         <link refid="String_8cpp"/>
         <childnode refid="3780" relation="include">
         </childnode>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/String.cpp" line="27" column="9" bodyfile="F:/Emulation/MdDox/Source/Utils/String.cpp" bodystart="27" bodyend="-1"/>
+        <location file="Source/Utils/String.cpp" line="27" column="9" bodyfile="Source/Utils/String.cpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -431,6 +431,6 @@
 <codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="336"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/String.cpp"/>
+    <location file="Source/Utils/String.cpp"/>
   </compounddef>
 </doxygen>

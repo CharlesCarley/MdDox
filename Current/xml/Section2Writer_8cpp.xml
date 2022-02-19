@@ -108,7 +108,7 @@
         </childnode>
       </node>
       <node id="2014">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
         <link refid="Section2Writer_8cpp"/>
         <childnode refid="2015" relation="include">
         </childnode>
@@ -257,6 +257,6 @@
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp"/>
+    <location file="Source/MdDoxTree/Section2Writer.cpp"/>
   </compounddef>
 </doxygen>

@@ -151,7 +151,7 @@
         <label>unordered_map</label>
       </node>
       <node id="1028">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Link.cpp</label>
+        <label>Source/MdDoxTree/Link.cpp</label>
         <link refid="Link_8cpp"/>
         <childnode refid="1029" relation="include">
         </childnode>
@@ -270,6 +270,6 @@
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Link.cpp"/>
+    <location file="Source/MdDoxTree/Link.cpp"/>
   </compounddef>
 </doxygen>

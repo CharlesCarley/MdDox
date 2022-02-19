@@ -155,7 +155,7 @@
         </childnode>
       </node>
       <node id="4257">
-        <label>F:/Emulation/MdDox/Source/Xml/Node.cpp</label>
+        <label>Source/Xml/Node.cpp</label>
         <link refid="Node_8cpp"/>
         <childnode refid="4258" relation="include">
         </childnode>
@@ -464,6 +464,6 @@
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="281"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Node.cpp"/>
+    <location file="Source/Xml/Node.cpp"/>
   </compounddef>
 </doxygen>

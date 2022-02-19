@@ -20,7 +20,7 @@
     <includes refid="Source_2Xml_2Writer_8h" local="yes">Xml/Writer.h</includes>
     <incdepgraph>
       <node id="9336">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</label>
+        <label>Tools/GenApi/Generator.cpp</label>
         <link refid="Generator_8cpp"/>
         <childnode refid="9337" relation="include">
         </childnode>
@@ -773,6 +773,6 @@
 <codeline lineno="517"><highlight class="normal"></highlight></codeline>
 <codeline lineno="518"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Generator.cpp"/>
+    <location file="Tools/GenApi/Generator.cpp"/>
   </compounddef>
 </doxygen>

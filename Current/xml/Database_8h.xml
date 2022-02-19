@@ -3,8 +3,8 @@
   <compounddef id="Database_8h" kind="file" language="C++">
     <compoundname>Database.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Database_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Database.cpp</includedby>
-    <includedby refid="Generator_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</includedby>
+    <includedby refid="Database_8cpp" local="yes">Tools/GenApi/Database.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <incdepgraph>
       <node id="9332">
         <label>iomanip</label>
@@ -13,7 +13,7 @@
         <label>string</label>
       </node>
       <node id="9324">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Database.h</label>
+        <label>Tools/GenApi/Database.h</label>
         <link refid="Database_8h"/>
         <childnode refid="9325" relation="include">
         </childnode>
@@ -53,13 +53,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9335">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</label>
+        <label>Tools/GenApi/Generator.cpp</label>
       </node>
       <node id="9334">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Database.cpp</label>
+        <label>Tools/GenApi/Database.cpp</label>
       </node>
       <node id="9333">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Database.h</label>
+        <label>Tools/GenApi/Database.h</label>
         <link refid="Database_8h"/>
         <childnode refid="9334" relation="include">
         </childnode>
@@ -154,6 +154,6 @@
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h"/>
+    <location file="Tools/GenApi/Database.h"/>
   </compounddef>
 </doxygen>

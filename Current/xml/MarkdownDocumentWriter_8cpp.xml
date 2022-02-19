@@ -76,7 +76,7 @@
         </childnode>
       </node>
       <node id="1244">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
         <link refid="MarkdownDocumentWriter_8cpp"/>
         <childnode refid="1245" relation="include">
         </childnode>
@@ -182,6 +182,6 @@
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.cpp"/>
+    <location file="Source/MdDoxTree/MarkdownDocumentWriter.cpp"/>
   </compounddef>
 </doxygen>

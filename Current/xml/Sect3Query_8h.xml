@@ -3,10 +3,10 @@
   <compounddef id="Sect3Query_8h" kind="file" language="C++">
     <compoundname>Sect3Query.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="Section3Writer_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.h</includedby>
-    <includedby refid="InternalS2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</includedby>
-    <includedby refid="Sect2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</includedby>
-    <includedby refid="Sect3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</includedby>
+    <includedby refid="Section3Writer_8h" local="yes">Source/MdDoxTree/Section3Writer.h</includedby>
+    <includedby refid="InternalS2Query_8cpp" local="yes">Tools/Doxygen/InternalS2Query.cpp</includedby>
+    <includedby refid="Sect2Query_8cpp" local="yes">Tools/Doxygen/Sect2Query.cpp</includedby>
+    <includedby refid="Sect3Query_8cpp" local="yes">Tools/Doxygen/Sect3Query.cpp</includedby>
     <incdepgraph>
       <node id="8616">
         <label>Utils/Console.h</label>
@@ -58,7 +58,7 @@
         <label>fstream</label>
       </node>
       <node id="8600">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h</label>
+        <label>Tools/Doxygen/Sect3Query.h</label>
         <link refid="Sect3Query_8h"/>
         <childnode refid="8601" relation="include">
         </childnode>
@@ -107,17 +107,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8618">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.h</label>
+        <label>Source/MdDoxTree/Section3Writer.h</label>
         <childnode refid="8619" relation="include">
         </childnode>
         <childnode refid="8620" relation="include">
         </childnode>
       </node>
       <node id="8622">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</label>
+        <label>Tools/Doxygen/Sect2Query.cpp</label>
       </node>
       <node id="8617">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h</label>
+        <label>Tools/Doxygen/Sect3Query.h</label>
         <link refid="Sect3Query_8h"/>
         <childnode refid="8618" relation="include">
         </childnode>
@@ -129,16 +129,16 @@
         </childnode>
       </node>
       <node id="8620">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
       <node id="8619">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
       <node id="8623">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</label>
+        <label>Tools/Doxygen/Sect3Query.cpp</label>
       </node>
       <node id="8621">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</label>
+        <label>Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Sect3Query" prot="public">MdDox::Doxygen::Sect3Query</innerclass>
@@ -220,6 +220,6 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h"/>
+    <location file="Tools/Doxygen/Sect3Query.h"/>
   </compounddef>
 </doxygen>

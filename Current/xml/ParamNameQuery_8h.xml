@@ -4,9 +4,9 @@
     <compoundname>ParamNameQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxParamDir_8h" local="yes">DoxParamDir.h</includes>
-    <includedby refid="ParameterListWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</includedby>
-    <includedby refid="ParamNameListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParamNameListQuery.cpp</includedby>
-    <includedby refid="ParamNameQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.cpp</includedby>
+    <includedby refid="ParameterListWriter_8cpp" local="yes">Source/MdDoxTree/ParameterListWriter.cpp</includedby>
+    <includedby refid="ParamNameListQuery_8cpp" local="yes">Tools/Doxygen/ParamNameListQuery.cpp</includedby>
+    <includedby refid="ParamNameQuery_8cpp" local="yes">Tools/Doxygen/ParamNameQuery.cpp</includedby>
     <incdepgraph>
       <node id="8001">
         <label>Utils/Console.h</label>
@@ -52,7 +52,7 @@
         </childnode>
       </node>
       <node id="7985">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.h</label>
+        <label>Tools/Doxygen/ParamNameQuery.h</label>
         <link refid="ParamNameQuery_8h"/>
         <childnode refid="7986" relation="include">
         </childnode>
@@ -114,7 +114,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8003">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.h</label>
+        <label>Tools/Doxygen/ParamNameQuery.h</label>
         <link refid="ParamNameQuery_8h"/>
         <childnode refid="8004" relation="include">
         </childnode>
@@ -124,13 +124,13 @@
         </childnode>
       </node>
       <node id="8006">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.cpp</label>
+        <label>Tools/Doxygen/ParamNameQuery.cpp</label>
       </node>
       <node id="8005">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamNameListQuery.cpp</label>
+        <label>Tools/Doxygen/ParamNameListQuery.cpp</label>
       </node>
       <node id="8004">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</label>
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParamNameQuery" prot="public">MdDox::Doxygen::ParamNameQuery</innerclass>
@@ -204,6 +204,6 @@
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="94"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamNameQuery.h"/>
+    <location file="Tools/Doxygen/ParamNameQuery.h"/>
   </compounddef>
 </doxygen>

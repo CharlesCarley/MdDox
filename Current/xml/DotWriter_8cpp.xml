@@ -25,7 +25,7 @@
         <label>cstdint</label>
       </node>
       <node id="439">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.cpp</label>
+        <label>Source/MdDoxTree/DotWriter.cpp</label>
         <link refid="DotWriter_8cpp"/>
         <childnode refid="440" relation="include">
         </childnode>
@@ -255,6 +255,6 @@
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.cpp"/>
+    <location file="Source/MdDoxTree/DotWriter.cpp"/>
   </compounddef>
 </doxygen>

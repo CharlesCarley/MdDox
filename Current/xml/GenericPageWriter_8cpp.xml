@@ -22,7 +22,7 @@
         <label>functional</label>
       </node>
       <node id="628">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp</label>
+        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
         <link refid="GenericPageWriter_8cpp"/>
         <childnode refid="629" relation="include">
         </childnode>
@@ -353,6 +353,6 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp"/>
+    <location file="Source/MdDoxTree/GenericPageWriter.cpp"/>
   </compounddef>
 </doxygen>

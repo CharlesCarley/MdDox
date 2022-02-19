@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="8198">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp</label>
+        <label>Tools/Doxygen/ParBlockQuery.cpp</label>
         <link refid="ParBlockQuery_8cpp"/>
         <childnode refid="8199" relation="include">
         </childnode>
@@ -194,6 +194,6 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp"/>
+    <location file="Tools/Doxygen/ParBlockQuery.cpp"/>
   </compounddef>
 </doxygen>

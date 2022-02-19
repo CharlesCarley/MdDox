@@ -4,11 +4,11 @@
     <compoundname>SectionDefQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxSectionKind_8h" local="yes">DoxSectionKind.h</includes>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="SectionDefListingWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</includedby>
-    <includedby refid="SectionDefWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.h</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="SectionDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8h" local="yes">Source/MdDoxTree/SectionDefListingWriter.h</includedby>
+    <includedby refid="SectionDefWriter_8h" local="yes">Source/MdDoxTree/SectionDefWriter.h</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="SectionDefQuery_8cpp" local="yes">Tools/Doxygen/SectionDefQuery.cpp</includedby>
     <incdepgraph>
       <node id="8719">
         <label>Utils/Console.h</label>
@@ -106,7 +106,7 @@
         <label>unordered_map</label>
       </node>
       <node id="8703">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</label>
+        <label>Tools/Doxygen/SectionDefQuery.h</label>
         <link refid="SectionDefQuery_8h"/>
         <childnode refid="8704" relation="include">
         </childnode>
@@ -116,32 +116,32 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8727">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="8723">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
         <childnode refid="8724" relation="include">
         </childnode>
         <childnode refid="8725" relation="include">
         </childnode>
       </node>
       <node id="8729">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</label>
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
       </node>
       <node id="8722">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="8724">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</label>
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="8725">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
       <node id="8728">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="8721">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</label>
+        <label>Tools/Doxygen/SectionDefQuery.h</label>
         <link refid="SectionDefQuery_8h"/>
         <childnode refid="8722" relation="include">
         </childnode>
@@ -155,7 +155,7 @@
         </childnode>
       </node>
       <node id="8726">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.h</label>
+        <label>Source/MdDoxTree/SectionDefWriter.h</label>
         <childnode refid="8724" relation="include">
         </childnode>
         <childnode refid="8727" relation="include">
@@ -239,6 +239,6 @@
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h"/>
+    <location file="Tools/Doxygen/SectionDefQuery.h"/>
   </compounddef>
 </doxygen>

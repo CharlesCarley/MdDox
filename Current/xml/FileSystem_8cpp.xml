@@ -15,7 +15,7 @@
         <label>string</label>
       </node>
       <node id="3409">
-        <label>F:/Emulation/MdDox/Source/Utils/FileSystem.cpp</label>
+        <label>Source/Utils/FileSystem.cpp</label>
         <link refid="FileSystem_8cpp"/>
         <childnode refid="3410" relation="include">
         </childnode>
@@ -150,6 +150,6 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/FileSystem.cpp"/>
+    <location file="Source/Utils/FileSystem.cpp"/>
   </compounddef>
 </doxygen>

@@ -4,13 +4,13 @@
     <compoundname>ParagraphWriter.h</compoundname>
     <includes refid="ParaQuery_8h" local="yes">Doxygen/ParaQuery.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="DescriptionWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</includedby>
-    <includedby refid="HtmlDocumentWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="Section1Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</includedby>
-    <includedby refid="Section2Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</includedby>
-    <includedby refid="Section3Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</includedby>
-    <includedby refid="Section4Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</includedby>
+    <includedby refid="DescriptionWriter_8cpp" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
+    <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="Section1Writer_8cpp" local="yes">Source/MdDoxTree/Section1Writer.cpp</includedby>
+    <includedby refid="Section2Writer_8cpp" local="yes">Source/MdDoxTree/Section2Writer.cpp</includedby>
+    <includedby refid="Section3Writer_8cpp" local="yes">Source/MdDoxTree/Section3Writer.cpp</includedby>
+    <includedby refid="Section4Writer_8cpp" local="yes">Source/MdDoxTree/Section4Writer.cpp</includedby>
     <incdepgraph>
       <node id="1652">
         <label>Utils/Console.h</label>
@@ -98,7 +98,7 @@
         </childnode>
       </node>
       <node id="1635">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.h</label>
+        <label>Source/MdDoxTree/ParagraphWriter.h</label>
         <link refid="ParagraphWriter_8h"/>
         <childnode refid="1636" relation="include">
         </childnode>
@@ -123,22 +123,22 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1661">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</label>
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
       <node id="1660">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
       <node id="1659">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
       <node id="1655">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</label>
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
       <node id="1656">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
       <node id="1654">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.h</label>
+        <label>Source/MdDoxTree/ParagraphWriter.h</label>
         <link refid="ParagraphWriter_8h"/>
         <childnode refid="1655" relation="include">
         </childnode>
@@ -156,10 +156,10 @@
         </childnode>
       </node>
       <node id="1658">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</label>
+        <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
       <node id="1657">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1ParagraphWriter" prot="public">MdDox::ParagraphWriter</innerclass>
@@ -277,6 +277,6 @@
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.h"/>
+    <location file="Source/MdDoxTree/ParagraphWriter.h"/>
   </compounddef>
 </doxygen>

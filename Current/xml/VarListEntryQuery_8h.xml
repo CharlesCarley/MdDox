@@ -3,10 +3,10 @@
   <compounddef id="VarListEntryQuery_8h" kind="file" language="C++">
     <compoundname>VarListEntryQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="VarListEntryQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.cpp</includedby>
+    <includedby refid="VarListEntryQuery_8cpp" local="yes">Tools/Doxygen/VarListEntryQuery.cpp</includedby>
     <incdepgraph>
       <node id="9173">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h</label>
+        <label>Tools/Doxygen/VarListEntryQuery.h</label>
         <link refid="VarListEntryQuery_8h"/>
         <childnode refid="9174" relation="include">
         </childnode>
@@ -104,13 +104,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9190">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h</label>
+        <label>Tools/Doxygen/VarListEntryQuery.h</label>
         <link refid="VarListEntryQuery_8h"/>
         <childnode refid="9191" relation="include">
         </childnode>
       </node>
       <node id="9191">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.cpp</label>
+        <label>Tools/Doxygen/VarListEntryQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery" prot="public">MdDox::Doxygen::VarListEntryQuery</innerclass>
@@ -162,6 +162,6 @@
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h"/>
+    <location file="Tools/Doxygen/VarListEntryQuery.h"/>
   </compounddef>
 </doxygen>

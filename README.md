@@ -29,4 +29,4 @@ a proof of concept stage. Changes to its structure may happen frequently.
 
 ### Documentation index
 
-The output can be found in the [Current](Current/) directory and the [Index](Current/markdown/indexpage.md#mddox)
+The output can be found in the [Index](Current/markdown/indexpage.md#mddox) and in the [Current](Current/) directory.

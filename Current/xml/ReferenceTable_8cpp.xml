@@ -132,7 +132,7 @@
         <label>unordered_map</label>
       </node>
       <node id="1868">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ReferenceTable.cpp</label>
+        <label>Source/MdDoxTree/ReferenceTable.cpp</label>
         <link refid="ReferenceTable_8cpp"/>
         <childnode refid="1869" relation="include">
         </childnode>
@@ -299,6 +299,6 @@
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceTable.cpp"/>
+    <location file="Source/MdDoxTree/ReferenceTable.cpp"/>
   </compounddef>
 </doxygen>

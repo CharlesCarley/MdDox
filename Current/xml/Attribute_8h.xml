@@ -4,7 +4,7 @@
     <compoundname>Attribute.h</compoundname>
     <includes local="no">utility</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Node_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Node.cpp</includedby>
+    <includedby refid="Node_8cpp" local="yes">Source/Xml/Node.cpp</includedby>
     <incdepgraph>
       <node id="4254">
         <label>iomanip</label>
@@ -13,7 +13,7 @@
         <label>string</label>
       </node>
       <node id="4245">
-        <label>F:/Emulation/MdDox/Source/Xml/Attribute.h</label>
+        <label>Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
         <childnode refid="4246" relation="include">
         </childnode>
@@ -58,13 +58,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4255">
-        <label>F:/Emulation/MdDox/Source/Xml/Attribute.h</label>
+        <label>Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
         <childnode refid="4256" relation="include">
         </childnode>
       </node>
       <node id="4256">
-        <label>F:/Emulation/MdDox/Source/Xml/Node.cpp</label>
+        <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Xml_1_1Attribute" prot="public">MdDox::Xml::Attribute</innerclass>
@@ -133,6 +133,6 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h"/>
+    <location file="Source/Xml/Attribute.h"/>
   </compounddef>
 </doxygen>

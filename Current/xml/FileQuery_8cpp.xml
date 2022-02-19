@@ -119,7 +119,7 @@
         <label>sstream</label>
       </node>
       <node id="6566">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
+        <label>Tools/Doxygen/FileQuery.cpp</label>
         <link refid="FileQuery_8cpp"/>
         <childnode refid="6567" relation="include">
         </childnode>
@@ -551,6 +551,6 @@
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
 <codeline lineno="365"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp"/>
+    <location file="Tools/Doxygen/FileQuery.cpp"/>
   </compounddef>
 </doxygen>

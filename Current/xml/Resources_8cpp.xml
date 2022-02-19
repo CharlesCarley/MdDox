@@ -18,7 +18,7 @@
         </childnode>
       </node>
       <node id="9448">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Resources.cpp</label>
+        <label>Tools/GenApi/Resources.cpp</label>
         <link refid="Resources_8cpp"/>
         <childnode refid="9449" relation="include">
         </childnode>
@@ -1160,6 +1160,6 @@
 <codeline lineno="1128"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi::Resources</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Resources.cpp"/>
+    <location file="Tools/GenApi/Resources.cpp"/>
   </compounddef>
 </doxygen>

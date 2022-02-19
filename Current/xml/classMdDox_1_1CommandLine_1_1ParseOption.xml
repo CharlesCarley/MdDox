@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1CommandLine_1_1ParseOption" kind="class" language="C++" prot="public">
     <compoundname>MdDox::CommandLine::ParseOption</compoundname>
-    <includes local="no">Option.h</includes>
+    <includes local="no">Source/Utils/CommandLine/Option.h</includes>
       <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1ParseOption_1aea0c328a423ccff2b2fafa2809afbe29" prot="public" static="no">
         <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="74" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="74" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="79" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="79" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="79" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1ParseOption_1a99cac907cf35b2c07b72907154963b2e" prot="private" static="no" mutable="no">
         <type>const <ref refid="structMdDox_1_1CommandLine_1_1Switch" kindref="compound">Switch</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="77" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="77" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="77" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1ParseOption_1af6748b8a45e74ef57de63672d7bfd68a" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1CommandLine_1_1ParseOption_1aea0c328a423ccff2b2fafa2809afbe29" kindref="member">Arguments</ref></type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="78" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="78" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="82" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="109" bodyend="112"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="82" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="109" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a8843e0408fbf402a412ff233b2665390" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="84" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="114" bodyend="120"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="84" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="114" bodyend="120"/>
         <references refid="structMdDox_1_1CommandLine_1_1Switch_1a09fbb77898d2e598084f831f8114b53e" compoundref="Option_8h" startline="68">MdDox::CommandLine::Switch::argCount</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1abfefe3c88f484cd4ce61e53fea8ca3a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="90" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="132" bodyend="135"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="90" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="132" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac8a38a748d423c99c4802a0e58b7d494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="102" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="164" bodyend="171"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="102" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="164" bodyend="171"/>
         <references refid="classMdDox_1_1Char_1a919f0a6115c4a6b7de5554bdfbd08678" compoundref="Char_8cpp" startline="69" endline="81">MdDox::Char::toInt32</references>
         <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" compoundref="Option_8h" startline="152" endline="156">getValue</references>
       </memberdef>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="173" bodyend="180"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="104" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="173" bodyend="180"/>
         <references refid="classMdDox_1_1Char_1a313ba0faa8c51cf6015437248d9e9016" compoundref="Char_8cpp" startline="83" endline="90">MdDox::Char::toInt64</references>
         <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" compoundref="Option_8h" startline="152" endline="156">getValue</references>
       </memberdef>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="94" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="142" bodyend="145"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="94" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="142" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1acbe1bdca7d39266864de8e4fb6b38f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="98" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="152" bodyend="156"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="98" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="152" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a8bc93642c989d0df40ff9f8ce784e5ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classMdDox_1_1CommandLine_1_1ParseOption_1aea0c328a423ccff2b2fafa2809afbe29" kindref="member">Arguments</ref> &amp;</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="96" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="147" bodyend="150"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="96" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="147" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="86" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="122" bodyend="125"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="86" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="122" bodyend="125"/>
         <references refid="structMdDox_1_1CommandLine_1_1Switch_1a423cb5995f4e03b7e0943e4fc5c8c91c" compoundref="Option_8h" startline="63">MdDox::CommandLine::Switch::optional</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac16dc597a6d2fdc9e6768f0d49771614" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="127" bodyend="130"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="88" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="127" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="92" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="137" bodyend="140"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="92" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="100" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="158" bodyend="162"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="100" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="158" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1ParseOption_1ac748271ba77e440be67f1d341e18186c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -285,14 +285,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="106" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="182" bodyend="186"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="106" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="182" bodyend="186"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" line="72" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Option.h" bodystart="71" bodyend="107"/>
+    <location file="Source/Utils/CommandLine/Option.h" line="72" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="71" bodyend="107"/>
     <listofallmembers>
       <member refid="classMdDox_1_1CommandLine_1_1ParseOption_1a886a1b31fda1f52ca1169a2a65f2f64f" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::ParseOption</scope><name>_isPresent</name></member>
       <member refid="classMdDox_1_1CommandLine_1_1ParseOption_1a99cac907cf35b2c07b72907154963b2e" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::ParseOption</scope><name>_switch</name></member>

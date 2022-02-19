@@ -4,7 +4,7 @@
     <compoundname>Location.h</compoundname>
     <includes refid="RepoFile_8h" local="yes">MdDoxTree/RepoFile.h</includes>
     <includes refid="SourceFile_8h" local="yes">MdDoxTree/SourceFile.h</includes>
-    <includedby refid="LocationWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</includedby>
+    <includedby refid="LocationWriter_8cpp" local="yes">Source/MdDoxTree/LocationWriter.cpp</includedby>
     <incdepgraph>
       <node id="1140">
         <label>iomanip</label>
@@ -36,7 +36,7 @@
         <label>vector</label>
       </node>
       <node id="1131">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Location.h</label>
+        <label>Source/MdDoxTree/Location.h</label>
         <link refid="Location_8h"/>
         <childnode refid="1132" relation="include">
         </childnode>
@@ -67,13 +67,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1142">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Location.h</label>
+        <label>Source/MdDoxTree/Location.h</label>
         <link refid="Location_8h"/>
         <childnode refid="1143" relation="include">
         </childnode>
       </node>
       <node id="1143">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</label>
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Location" prot="public">MdDox::Location</innerclass>
@@ -159,6 +159,6 @@
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Location.h"/>
+    <location file="Source/MdDoxTree/Location.h"/>
   </compounddef>
 </doxygen>

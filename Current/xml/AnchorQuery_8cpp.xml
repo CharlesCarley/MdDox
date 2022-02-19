@@ -87,7 +87,7 @@
         <label>vector</label>
       </node>
       <node id="4604">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/AnchorQuery.cpp</label>
+        <label>Tools/Doxygen/AnchorQuery.cpp</label>
         <link refid="AnchorQuery_8cpp"/>
         <childnode refid="4605" relation="include">
         </childnode>
@@ -167,6 +167,6 @@
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/AnchorQuery.cpp"/>
+    <location file="Tools/Doxygen/AnchorQuery.cpp"/>
   </compounddef>
 </doxygen>

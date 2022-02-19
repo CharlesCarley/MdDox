@@ -4,8 +4,8 @@
     <compoundname>Section4Writer.h</compoundname>
     <includes refid="Sect4Query_8h" local="yes">Doxygen/Sect4Query.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="Section3Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</includedby>
-    <includedby refid="Section4Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</includedby>
+    <includedby refid="Section3Writer_8cpp" local="yes">Source/MdDoxTree/Section3Writer.cpp</includedby>
+    <includedby refid="Section4Writer_8cpp" local="yes">Source/MdDoxTree/Section4Writer.cpp</includedby>
     <incdepgraph>
       <node id="2166">
         <label>Utils/Console.h</label>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
       <node id="2149">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.h</label>
+        <label>Source/MdDoxTree/Section4Writer.h</label>
         <link refid="Section4Writer_8h"/>
         <childnode refid="2150" relation="include">
         </childnode>
@@ -118,7 +118,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2168">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.h</label>
+        <label>Source/MdDoxTree/Section4Writer.h</label>
         <link refid="Section4Writer_8h"/>
         <childnode refid="2169" relation="include">
         </childnode>
@@ -126,10 +126,10 @@
         </childnode>
       </node>
       <node id="2170">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</label>
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
       <node id="2169">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Section4Writer" prot="public">MdDox::Section4Writer</innerclass>
@@ -186,6 +186,6 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Reflect</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.h"/>
+    <location file="Source/MdDoxTree/Section4Writer.h"/>
   </compounddef>
 </doxygen>

@@ -3,8 +3,8 @@
   <compounddef id="LinkQuery_8h" kind="file" language="C++">
     <compoundname>LinkQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="LinkQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.cpp</includedby>
-    <includedby refid="NodeQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.cpp</includedby>
+    <includedby refid="LinkQuery_8cpp" local="yes">Tools/Doxygen/LinkQuery.cpp</includedby>
+    <includedby refid="NodeQuery_8cpp" local="yes">Tools/Doxygen/NodeQuery.cpp</includedby>
     <incdepgraph>
       <node id="7301">
         <label>Utils/Console.h</label>
@@ -18,7 +18,7 @@
         <label>functional</label>
       </node>
       <node id="7285">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h</label>
+        <label>Tools/Doxygen/LinkQuery.h</label>
         <link refid="LinkQuery_8h"/>
         <childnode refid="7286" relation="include">
         </childnode>
@@ -105,10 +105,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7304">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/NodeQuery.cpp</label>
+        <label>Tools/Doxygen/NodeQuery.cpp</label>
       </node>
       <node id="7302">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h</label>
+        <label>Tools/Doxygen/LinkQuery.h</label>
         <link refid="LinkQuery_8h"/>
         <childnode refid="7303" relation="include">
         </childnode>
@@ -116,7 +116,7 @@
         </childnode>
       </node>
       <node id="7303">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.cpp</label>
+        <label>Tools/Doxygen/LinkQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1LinkQuery" prot="public">MdDox::Doxygen::LinkQuery</innerclass>
@@ -172,6 +172,6 @@
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h"/>
+    <location file="Tools/Doxygen/LinkQuery.h"/>
   </compounddef>
 </doxygen>

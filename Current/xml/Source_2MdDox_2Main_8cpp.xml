@@ -238,7 +238,7 @@
         <label>sstream</label>
       </node>
       <node id="10">
-        <label>F:/Emulation/MdDox/Source/MdDox/Main.cpp</label>
+        <label>Source/MdDox/Main.cpp</label>
         <link refid="Source_2MdDox_2Main_8cpp"/>
         <childnode refid="11" relation="include">
         </childnode>
@@ -341,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDox/Main.cpp" line="188" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDox/Main.cpp" bodystart="188" bodyend="205"/>
+        <location file="Source/MdDox/Main.cpp" line="188" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="188" bodyend="205"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -498,6 +498,6 @@
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rc;</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDox/Main.cpp"/>
+    <location file="Source/MdDox/Main.cpp"/>
   </compounddef>
 </doxygen>

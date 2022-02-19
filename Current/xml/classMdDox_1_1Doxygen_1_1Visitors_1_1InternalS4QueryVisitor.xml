@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::InternalS4QueryVisitor</compoundname>
-    <includes local="no">InternalS4Query.h</includes>
+    <includes local="no">Tools/Doxygen/InternalS4Query.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor_1aba76130d67b12395003cdebc515507af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" line="33" column="1"/>
+        <location file="Tools/Doxygen/InternalS4Query.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor_1a62011ddbca1f4c1c4df66701f2cd7a72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" bodystart="43" bodyend="43"/>
+        <location file="Tools/Doxygen/InternalS4Query.h" line="43" column="1" bodyfile="Tools/Doxygen/InternalS4Query.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor_1a46c5a119ecc78009f59afb9f11101c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -56,14 +56,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/InternalS4Query.h" line="38" column="1" bodyfile="Tools/Doxygen/InternalS4Query.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h" bodystart="30" bodyend="45"/>
+    <location file="Tools/Doxygen/InternalS4Query.h" line="31" column="1" bodyfile="Tools/Doxygen/InternalS4Query.h" bodystart="30" bodyend="45"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor_1a62011ddbca1f4c1c4df66701f2cd7a72" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS4QueryVisitor</scope><name>visitedParagraph</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS4QueryVisitor_1a46c5a119ecc78009f59afb9f11101c3e" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS4QueryVisitor</scope><name>visitedText</name></member>

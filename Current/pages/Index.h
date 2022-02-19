@@ -1,16 +1,13 @@
-#pragma once
 /*!
-\mainpage MdDox
+ \mainpage MdDox
 
-The following links to the main index \ref index "Contents" 
+The following links to the main \ref index "index."
 
 \section Topics
 
-<ul>
-<li>\ref Site "Define the overall layout of the generated site"</li>
-<li>\ref Image "Describe how images are linked." </li>
-<li>\ref Html  "Describe the current html style sheet" </li>
-</ul>
+- \ref Site Defines the overall layout of the generated site.
+- \ref Image Describes how images are linked.
+- \ref Html Describes the current html style sheet.
 
 */
 

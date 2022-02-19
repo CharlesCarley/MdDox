@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1DoxBool" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DoxBool</compoundname>
-    <includes local="no">DoxBool.h</includes>
+    <includes local="no">Tools/Doxygen/DoxBool.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.cpp" bodystart="30" bodyend="37"/>
+        <location file="Tools/Doxygen/DoxBool.h" line="59" column="1" bodyfile="Tools/Doxygen/DoxBool.cpp" bodystart="30" bodyend="37"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273aee3739e609089156211c14df90c33053" compoundref="DoxBool_8h" startline="48">MdDox::Doxygen::DB_YES</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273aca2f15af3a57eccbb650be8aac171a6c" compoundref="DoxBool_8h" startline="52">MdDox::Doxygen::DB_NO</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273a5d0422c53e789ef3f8029e16f19705c2" compoundref="DoxBool_8h" startline="44">MdDox::Doxygen::DB_INVALID</references>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h" line="57" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h" bodystart="56" bodyend="60"/>
+    <location file="Tools/Doxygen/DoxBool.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxBool.h" bodystart="56" bodyend="60"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxBool_1a3343c05b5fb43754e8965adbe130a73e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxBool</scope><name>get</name></member>
     </listofallmembers>

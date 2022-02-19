@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::CaptionQueryVisitor</compoundname>
-    <includes local="no">CaptionQuery.h</includes>
+    <includes local="no">Tools/Doxygen/CaptionQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ae3236f821e7ca4c949987af6f0dd1d5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="33" column="1"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a2c16bd0a1de989c6449746fa211ef494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="73" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="73" bodyend="73"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="73" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a3a905eafd8a942bef35d4c3ea44a19cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="48" bodyend="48"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1aea997c0ff8afe6cb7d15aec8930fd678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="63" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="63" bodyend="63"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="63" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a17c719e43a92fa1379e94cabab11f7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -115,7 +115,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="58" bodyend="58"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="58" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ae2d7d32df02068ca5d4b50f1fcee3a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -140,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="113" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="113" bodyend="113"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="113" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="113" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a109d6870f6586349e205c8d400f09e75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -165,7 +165,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="53" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="53" bodyend="53"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a67393b129c645fe71f998be730bc3170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -190,7 +190,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="108" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="108" bodyend="108"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="108" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ad82cb6cfff5297a2124b6316c7417d81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -215,7 +215,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="93" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="93" bodyend="93"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a621d4bda64afe30c5fe8495d8614f7c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -240,7 +240,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="98" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="98" bodyend="98"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="98" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1ad0614e1adb4bdd6a1b297a61154e064f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="103" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="103" bodyend="103"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a877ea931513cf73bce4452dc412471a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -290,7 +290,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="78" bodyend="78"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a5389d99dfc8d97d4496bde3e962ee66c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -315,7 +315,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="88" bodyend="88"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a512bc21655bfe1f28a309960530d7d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -340,7 +340,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="83" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="83" bodyend="83"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1adbf027a7b5d686dffeaa3c1ee37a542f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -365,7 +365,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="68" bodyend="68"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a4db20846d4fb8445f3f8ea5bb2d0b61c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="38" bodyend="38"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a30bd56ab2f22f080fddbe126b32687c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -406,14 +406,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="43" bodyend="43"/>
+        <location file="Tools/Doxygen/CaptionQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.h" bodystart="30" bodyend="115"/>
+    <location file="Tools/Doxygen/CaptionQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/CaptionQuery.h" bodystart="30" bodyend="115"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a2c16bd0a1de989c6449746fa211ef494" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CaptionQueryVisitor</scope><name>visitedAnchor</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CaptionQueryVisitor_1a3a905eafd8a942bef35d4c3ea44a19cc" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CaptionQueryVisitor</scope><name>visitedBold</name></member>

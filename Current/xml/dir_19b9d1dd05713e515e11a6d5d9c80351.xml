@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir">
-    <compoundname>F:/Emulation/MdDox/Source/Xml</compoundname>
+    <compoundname>Source/Xml</compoundname>
     <innerfile refid="Attribute_8h">Attribute.h</innerfile>
     <innerfile refid="Node_8cpp">Node.cpp</innerfile>
     <innerfile refid="Node_8h">Node.h</innerfile>
@@ -17,6 +17,6 @@
     <detaileddescription>
 <para>Contains a custom XML parser.</para><para><simplesect kind="see"><para><ref refid="namespaceMdDox_1_1Xml" kindref="compound">MdDox::Xml</ref> </para></simplesect>
 </para>    </detaileddescription>
-    <location file="F:/Emulation/MdDox/Source/Xml/"/>
+    <location file="Source/Xml/"/>
   </compounddef>
 </doxygen>

@@ -3,9 +3,9 @@
   <compounddef id="TableQuery_8h" kind="file" language="C++">
     <compoundname>TableQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="TableQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="TableQuery_8cpp" local="yes">Tools/Doxygen/TableQuery.cpp</includedby>
     <incdepgraph>
       <node id="8859">
         <label>Utils/Console.h</label>
@@ -51,7 +51,7 @@
         </childnode>
       </node>
       <node id="8843">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h</label>
+        <label>Tools/Doxygen/TableQuery.h</label>
         <link refid="TableQuery_8h"/>
         <childnode refid="8844" relation="include">
         </childnode>
@@ -106,10 +106,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8862">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="8860">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h</label>
+        <label>Tools/Doxygen/TableQuery.h</label>
         <link refid="TableQuery_8h"/>
         <childnode refid="8861" relation="include">
         </childnode>
@@ -119,10 +119,10 @@
         </childnode>
       </node>
       <node id="8861">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="8863">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp</label>
+        <label>Tools/Doxygen/TableQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1TableQuery" prot="public">MdDox::Doxygen::TableQuery</innerclass>
@@ -197,6 +197,6 @@
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="98"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h"/>
+    <location file="Tools/Doxygen/TableQuery.h"/>
   </compounddef>
 </doxygen>

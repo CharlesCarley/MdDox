@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1ParseError" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::ParseError</compoundname>
     <basecompoundref refid="classMdDox_1_1Exception" prot="public" virt="non-virtual">MdDox::Exception</basecompoundref>
-    <includes local="no">ParseError.h</includes>
+    <includes local="no">Source/Utils/ParserBase/ParseError.h</includes>
       <sectiondef kind="private-static-func">
       <memberdef kind="function" id="classMdDox_1_1ParseError_1a23d53a5f966dfb2e329eaf44f7e66064" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -64,7 +64,7 @@
 The message is formatted as: <computeroutput>file</computeroutput> (<computeroutput>line</computeroutput>) : <computeroutput>stage</computeroutput> : <computeroutput>message</computeroutput> </para><para>Does the actual message construction. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.cpp" bodystart="26" bodyend="46"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="38" column="1" bodyfile="Source/Utils/ParserBase/ParseError.cpp" bodystart="26" bodyend="46"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -79,7 +79,7 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" line="47" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" bodystart="47" bodyend="50"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="47" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParseError_1a42e6dc55c08f8f5c6306b9141257f01f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -96,7 +96,7 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" bodystart="55" bodyend="58"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="55" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParseError_1a95da33eda7926e7959fa5fdc667c89ac" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -156,7 +156,7 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
 The message is formatted as: <computeroutput>file</computeroutput> (<computeroutput>line</computeroutput>) : <computeroutput>stage</computeroutput> : <computeroutput>message</computeroutput> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" line="73" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" bodystart="73" bodyend="79"/>
+        <location file="Source/Utils/ParserBase/ParseError.h" line="73" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="73" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -197,7 +197,7 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h" bodystart="30" bodyend="80"/>
+    <location file="Source/Utils/ParserBase/ParseError.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ParseError.h" bodystart="30" bodyend="80"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Exception_1a985e384f9423e24326ace2ccb20acda8" prot="public" virt="non-virtual"><scope>MdDox::ParseError</scope><name>Exception</name></member>
       <member refid="classMdDox_1_1Exception_1a5c2d4b2bc9d1c63e5d44a30b5dbdf0e7" prot="public" virt="non-virtual"><scope>MdDox::ParseError</scope><name>Exception</name></member>

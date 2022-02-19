@@ -23,7 +23,7 @@
         <label>cstdint</label>
       </node>
       <node id="5020">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</label>
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
         <link refid="CopyQuery_8cpp"/>
         <childnode refid="5021" relation="include">
         </childnode>
@@ -248,6 +248,6 @@
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp"/>
+    <location file="Tools/Doxygen/CopyQuery.cpp"/>
   </compounddef>
 </doxygen>

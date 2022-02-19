@@ -3,8 +3,8 @@
   <compounddef id="InternalS3Query_8h" kind="file" language="C++">
     <compoundname>InternalS3Query.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="InternalS3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.cpp</includedby>
-    <includedby refid="Sect3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</includedby>
+    <includedby refid="InternalS3Query_8cpp" local="yes">Tools/Doxygen/InternalS3Query.cpp</includedby>
+    <includedby refid="Sect3Query_8cpp" local="yes">Tools/Doxygen/Sect3Query.cpp</includedby>
     <incdepgraph>
       <node id="7117">
         <label>Utils/Console.h</label>
@@ -91,7 +91,7 @@
         <label>sstream</label>
       </node>
       <node id="7101">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.h</label>
+        <label>Tools/Doxygen/InternalS3Query.h</label>
         <link refid="InternalS3Query_8h"/>
         <childnode refid="7102" relation="include">
         </childnode>
@@ -105,7 +105,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7118">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.h</label>
+        <label>Tools/Doxygen/InternalS3Query.h</label>
         <link refid="InternalS3Query_8h"/>
         <childnode refid="7119" relation="include">
         </childnode>
@@ -113,10 +113,10 @@
         </childnode>
       </node>
       <node id="7120">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</label>
+        <label>Tools/Doxygen/Sect3Query.cpp</label>
       </node>
       <node id="7119">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.cpp</label>
+        <label>Tools/Doxygen/InternalS3Query.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1InternalS3Query" prot="public">MdDox::Doxygen::InternalS3Query</innerclass>
@@ -188,6 +188,6 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.h"/>
+    <location file="Tools/Doxygen/InternalS3Query.h"/>
   </compounddef>
 </doxygen>

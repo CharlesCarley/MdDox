@@ -83,7 +83,7 @@
         </childnode>
       </node>
       <node id="8908">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
         <link refid="TitleQuery_8cpp"/>
         <childnode refid="8909" relation="include">
         </childnode>
@@ -544,6 +544,6 @@
 <codeline lineno="357"><highlight class="normal"></highlight></codeline>
 <codeline lineno="358"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp"/>
+    <location file="Tools/Doxygen/TitleQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -135,7 +135,7 @@
         </childnode>
       </node>
       <node id="8730">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</label>
+        <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
         <link refid="SimpleSectQuery_8cpp"/>
         <childnode refid="8731" relation="include">
         </childnode>
@@ -238,6 +238,6 @@
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp"/>
+    <location file="Tools/Doxygen/SimpleSectQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -4,12 +4,12 @@
     <compoundname>DotWriter.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="DotWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.cpp</includedby>
-    <includedby refid="GraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="DotWriter_8cpp" local="yes">Source/MdDoxTree/DotWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <incdepgraph>
       <node id="455">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.h</label>
+        <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
         <childnode refid="456" relation="include">
         </childnode>
@@ -69,7 +69,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="466">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.h</label>
+        <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
         <childnode refid="467" relation="include">
         </childnode>
@@ -79,13 +79,13 @@
         </childnode>
       </node>
       <node id="469">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="468">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.cpp</label>
+        <label>Source/MdDoxTree/DotWriter.cpp</label>
       </node>
       <node id="467">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1DotWriter" prot="public">MdDox::DotWriter</innerclass>
@@ -140,6 +140,6 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Hack::Compiler</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/DotWriter.h"/>
+    <location file="Source/MdDoxTree/DotWriter.h"/>
   </compounddef>
 </doxygen>

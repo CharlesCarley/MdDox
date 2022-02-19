@@ -3,16 +3,16 @@
   <compounddef id="EmptyQuery_8h" kind="file" language="C++">
     <compoundname>EmptyQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CaptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</includedby>
-    <includedby refid="EmptyQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.cpp</includedby>
-    <includedby refid="FileQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</includedby>
-    <includedby refid="HeadingQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</includedby>
-    <includedby refid="ImageQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="TitleQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</includedby>
-    <includedby refid="TocItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</includedby>
-    <includedby refid="UrlLinkQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</includedby>
+    <includedby refid="CaptionQuery_8cpp" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="EmptyQuery_8cpp" local="yes">Tools/Doxygen/EmptyQuery.cpp</includedby>
+    <includedby refid="FileQuery_8cpp" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="HeadingQuery_8cpp" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="ImageQuery_8cpp" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="TitleQuery_8cpp" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="UrlLinkQuery_8cpp" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
     <incdepgraph>
       <node id="6460">
         <label>Utils/Console.h</label>
@@ -105,7 +105,7 @@
         <label>unordered_map</label>
       </node>
       <node id="6444">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h</label>
+        <label>Tools/Doxygen/EmptyQuery.h</label>
         <link refid="EmptyQuery_8h"/>
         <childnode refid="6445" relation="include">
         </childnode>
@@ -113,37 +113,37 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6468">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="6466">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
       </node>
       <node id="6465">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</label>
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
       <node id="6471">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</label>
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
       <node id="6470">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
       </node>
       <node id="6467">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="6462">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</label>
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
       </node>
       <node id="6469">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
       </node>
       <node id="6463">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.cpp</label>
+        <label>Tools/Doxygen/EmptyQuery.cpp</label>
       </node>
       <node id="6464">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
+        <label>Tools/Doxygen/FileQuery.cpp</label>
       </node>
       <node id="6461">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h</label>
+        <label>Tools/Doxygen/EmptyQuery.h</label>
         <link refid="EmptyQuery_8h"/>
         <childnode refid="6462" relation="include">
         </childnode>
@@ -216,6 +216,6 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/EmptyQuery.h"/>
+    <location file="Tools/Doxygen/EmptyQuery.h"/>
   </compounddef>
 </doxygen>

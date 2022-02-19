@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" bodystart="36" bodyend="40"/>
+        <location file="Source/MdDoxTree/GraphWriter.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="36" bodyend="40"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" compoundref="Node_8h" startline="85">MdDox::Xml::Node::_autoDelete</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GraphNode_1a2f0cf280629e3eaae6342c07d3e3a576" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" bodystart="42" bodyend="46"/>
+        <location file="Source/MdDoxTree/GraphWriter.cpp" line="42" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="42" bodyend="46"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" compoundref="Node_8h" startline="85">MdDox::Xml::Node::_autoDelete</references>
       </memberdef>
       </sectiondef>
@@ -71,7 +71,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp" bodystart="33" bodyend="47"/>
+    <location file="Source/MdDoxTree/GraphWriter.cpp" line="34" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="33" bodyend="47"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" prot="protected" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>_autoDelete</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a208a5c60b47b7fa3c13de7c997351972" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>addChild</name></member>

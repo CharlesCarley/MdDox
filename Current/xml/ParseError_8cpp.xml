@@ -32,7 +32,7 @@
         <label>string</label>
       </node>
       <node id="3517">
-        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.cpp</label>
+        <label>Source/Utils/ParserBase/ParseError.cpp</label>
         <link refid="ParseError_8cpp"/>
         <childnode refid="3518" relation="include">
         </childnode>
@@ -135,6 +135,6 @@
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.cpp"/>
+    <location file="Source/Utils/ParserBase/ParseError.cpp"/>
   </compounddef>
 </doxygen>

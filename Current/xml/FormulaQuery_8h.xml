@@ -3,7 +3,7 @@
   <compounddef id="FormulaQuery_8h" kind="file" language="C++">
     <compoundname>FormulaQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="FormulaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/FormulaQuery.cpp</includedby>
+    <includedby refid="FormulaQuery_8cpp" local="yes">Tools/Doxygen/FormulaQuery.cpp</includedby>
     <incdepgraph>
       <node id="6654">
         <label>Utils/Console.h</label>
@@ -64,7 +64,7 @@
         </childnode>
       </node>
       <node id="6638">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FormulaQuery.h</label>
+        <label>Tools/Doxygen/FormulaQuery.h</label>
         <link refid="FormulaQuery_8h"/>
         <childnode refid="6639" relation="include">
         </childnode>
@@ -104,13 +104,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6655">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FormulaQuery.h</label>
+        <label>Tools/Doxygen/FormulaQuery.h</label>
         <link refid="FormulaQuery_8h"/>
         <childnode refid="6656" relation="include">
         </childnode>
       </node>
       <node id="6656">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/FormulaQuery.cpp</label>
+        <label>Tools/Doxygen/FormulaQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1FormulaQuery" prot="public">MdDox::Doxygen::FormulaQuery</innerclass>
@@ -164,6 +164,6 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/FormulaQuery.h"/>
+    <location file="Tools/Doxygen/FormulaQuery.h"/>
   </compounddef>
 </doxygen>

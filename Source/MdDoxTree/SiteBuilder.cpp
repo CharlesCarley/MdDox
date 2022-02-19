@@ -175,6 +175,14 @@ namespace MdDox
         return nullptr;
     }
 
+    Reference SiteBuilder::getRefId(const String& id) const
+    {
+        CompoundReference* ref = getCompoundRef(id);
+        if (ref)
+            return Reference(*(Reference*)ref);
+        return {};
+    }
+
     Reference SiteBuilder::findNamespace(const String& name) const
     {
         if (_referenceMap)

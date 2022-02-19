@@ -6,8 +6,8 @@
     <includes refid="IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
     <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="IndexPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</includedby>
-    <includedby refid="SiteBuilder_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <incdepgraph>
       <node id="1021">
         <label>Utils/Console.h</label>
@@ -109,7 +109,7 @@
         <label>sstream</label>
       </node>
       <node id="1004">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.h</label>
+        <label>Source/MdDoxTree/IndexPageWriter.h</label>
         <link refid="IndexPageWriter_8h"/>
         <childnode refid="1005" relation="include">
         </childnode>
@@ -134,10 +134,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1027">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/SiteBuilder.cpp</label>
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
       <node id="1025">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.h</label>
+        <label>Source/MdDoxTree/IndexPageWriter.h</label>
         <link refid="IndexPageWriter_8h"/>
         <childnode refid="1026" relation="include">
         </childnode>
@@ -145,7 +145,7 @@
         </childnode>
       </node>
       <node id="1026">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1IndexPageWriter" prot="public">MdDox::IndexPageWriter</innerclass>
@@ -214,6 +214,6 @@
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.h"/>
+    <location file="Source/MdDoxTree/IndexPageWriter.h"/>
   </compounddef>
 </doxygen>

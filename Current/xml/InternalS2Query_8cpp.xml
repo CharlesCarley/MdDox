@@ -128,7 +128,7 @@
         </childnode>
       </node>
       <node id="7033">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</label>
+        <label>Tools/Doxygen/InternalS2Query.cpp</label>
         <link refid="InternalS2Query_8cpp"/>
         <childnode refid="7034" relation="include">
         </childnode>
@@ -211,6 +211,6 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp"/>
+    <location file="Tools/Doxygen/InternalS2Query.cpp"/>
   </compounddef>
 </doxygen>

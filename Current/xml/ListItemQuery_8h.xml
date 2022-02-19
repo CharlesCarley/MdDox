@@ -3,9 +3,9 @@
   <compounddef id="ListItemQuery_8h" kind="file" language="C++">
     <compoundname>ListItemQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="ListItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.cpp</includedby>
-    <includedby refid="ListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ListQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="ListItemQuery_8cpp" local="yes">Tools/Doxygen/ListItemQuery.cpp</includedby>
+    <includedby refid="ListQuery_8cpp" local="yes">Tools/Doxygen/ListQuery.cpp</includedby>
     <incdepgraph>
       <node id="7392">
         <label>Utils/Console.h</label>
@@ -83,7 +83,7 @@
         </childnode>
       </node>
       <node id="7376">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.h</label>
+        <label>Tools/Doxygen/ListItemQuery.h</label>
         <link refid="ListItemQuery_8h"/>
         <childnode refid="7377" relation="include">
         </childnode>
@@ -106,13 +106,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7396">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListQuery.cpp</label>
+        <label>Tools/Doxygen/ListQuery.cpp</label>
       </node>
       <node id="7395">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.cpp</label>
+        <label>Tools/Doxygen/ListItemQuery.cpp</label>
       </node>
       <node id="7393">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.h</label>
+        <label>Tools/Doxygen/ListItemQuery.h</label>
         <link refid="ListItemQuery_8h"/>
         <childnode refid="7394" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="7394">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ListItemQuery" prot="public">MdDox::Doxygen::ListItemQuery</innerclass>
@@ -191,6 +191,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.h"/>
+    <location file="Tools/Doxygen/ListItemQuery.h"/>
   </compounddef>
 </doxygen>

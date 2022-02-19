@@ -231,7 +231,7 @@
         </childnode>
       </node>
       <node id="1583">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
         <link refid="ParagraphWriter_8cpp"/>
         <childnode refid="1584" relation="include">
         </childnode>
@@ -789,6 +789,6 @@
 <codeline lineno="408"><highlight class="normal"></highlight></codeline>
 <codeline lineno="409"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp"/>
+    <location file="Source/MdDoxTree/ParagraphWriter.cpp"/>
   </compounddef>
 </doxygen>

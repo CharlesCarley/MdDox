@@ -4,10 +4,10 @@
     <compoundname>RefQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includes>
-    <includedby refid="DirectoryPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="RefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/RefQuery.cpp</includedby>
+    <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="RefQuery_8cpp" local="yes">Tools/Doxygen/RefQuery.cpp</includedby>
     <incdepgraph>
       <node id="8326">
         <label>Utils/Console.h</label>
@@ -53,7 +53,7 @@
         </childnode>
       </node>
       <node id="8310">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h</label>
+        <label>Tools/Doxygen/RefQuery.h</label>
         <link refid="RefQuery_8h"/>
         <childnode refid="8311" relation="include">
         </childnode>
@@ -115,7 +115,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8328">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h</label>
+        <label>Tools/Doxygen/RefQuery.h</label>
         <link refid="RefQuery_8h"/>
         <childnode refid="8329" relation="include">
         </childnode>
@@ -127,16 +127,16 @@
         </childnode>
       </node>
       <node id="8332">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.cpp</label>
+        <label>Tools/Doxygen/RefQuery.cpp</label>
       </node>
       <node id="8330">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="8331">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
       <node id="8329">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1RefQuery" prot="public">MdDox::Doxygen::RefQuery</innerclass>
@@ -193,6 +193,6 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h"/>
+    <location file="Tools/Doxygen/RefQuery.h"/>
   </compounddef>
 </doxygen>

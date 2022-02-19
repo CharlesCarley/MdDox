@@ -3,9 +3,9 @@
   <compounddef id="InternalQuery_8h" kind="file" language="C++">
     <compoundname>InternalQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CopyQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</includedby>
-    <includedby refid="DescriptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp</includedby>
-    <includedby refid="InternalQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp</includedby>
+    <includedby refid="CopyQuery_8cpp" local="yes">Tools/Doxygen/CopyQuery.cpp</includedby>
+    <includedby refid="DescriptionQuery_8cpp" local="yes">Tools/Doxygen/DescriptionQuery.cpp</includedby>
+    <includedby refid="InternalQuery_8cpp" local="yes">Tools/Doxygen/InternalQuery.cpp</includedby>
     <incdepgraph>
       <node id="6984">
         <label>Utils/Console.h</label>
@@ -54,7 +54,7 @@
         <label>exception</label>
       </node>
       <node id="6968">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.h</label>
+        <label>Tools/Doxygen/InternalQuery.h</label>
         <link refid="InternalQuery_8h"/>
         <childnode refid="6969" relation="include">
         </childnode>
@@ -106,13 +106,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="6988">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp</label>
+        <label>Tools/Doxygen/InternalQuery.cpp</label>
       </node>
       <node id="6986">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</label>
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
       </node>
       <node id="6985">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.h</label>
+        <label>Tools/Doxygen/InternalQuery.h</label>
         <link refid="InternalQuery_8h"/>
         <childnode refid="6986" relation="include">
         </childnode>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
       <node id="6987">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp</label>
+        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1InternalQuery" prot="public">MdDox::Doxygen::InternalQuery</innerclass>
@@ -194,6 +194,6 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.h"/>
+    <location file="Tools/Doxygen/InternalQuery.h"/>
   </compounddef>
 </doxygen>

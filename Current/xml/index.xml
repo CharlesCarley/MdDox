@@ -4285,33 +4285,35 @@
   </compound>
   <compound refid="Site" kind="page"><name>Site</name>
   </compound>
-  <compound refid="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir"><name>F:/Emulation/MdDox/Source/Utils/CommandLine</name>
+  <compound refid="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir"><name>Source/Utils/CommandLine</name>
   </compound>
-  <compound refid="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir"><name>F:/Emulation/MdDox/Tools/Doxygen</name>
+  <compound refid="dir_f19befb0a20a037054255eb425fb4872" kind="dir"><name>Current</name>
   </compound>
-  <compound refid="dir_f29546df2d60a62028851d3354c1d20f" kind="dir"><name>F:/Emulation/MdDox/Tools/GenApi</name>
+  <compound refid="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir"><name>Tools/Doxygen</name>
   </compound>
-  <compound refid="dir_1197a0c1c846bc690425b2973182343c" kind="dir"><name>F:/Emulation/MdDox/Source/MdDox</name>
+  <compound refid="dir_f29546df2d60a62028851d3354c1d20f" kind="dir"><name>Tools/GenApi</name>
   </compound>
-  <compound refid="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir"><name>F:/Emulation/MdDox/Source/MdDoxTree</name>
+  <compound refid="dir_1197a0c1c846bc690425b2973182343c" kind="dir"><name>Source/MdDox</name>
   </compound>
-  <compound refid="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir"><name>pages</name>
+  <compound refid="dir_d9935c0f1a540c725bfb5aaaadd541e0" kind="dir"><name>Source/MdDoxTree</name>
   </compound>
-  <compound refid="dir_228a382b75cefd1e10dd6a0b6021583d" kind="dir"><name>F:/Emulation/MdDox/Source/Utils/ParserBase</name>
+  <compound refid="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir"><name>Current/pages</name>
   </compound>
-  <compound refid="dir_ad64d74126afa4ea39d3914a0c472a63" kind="dir"><name>F:/Emulation/MdDox/Tools/ResourceCompiler</name>
+  <compound refid="dir_228a382b75cefd1e10dd6a0b6021583d" kind="dir"><name>Source/Utils/ParserBase</name>
   </compound>
-  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>F:/Emulation/MdDox/Source</name>
+  <compound refid="dir_ad64d74126afa4ea39d3914a0c472a63" kind="dir"><name>Tools/ResourceCompiler</name>
   </compound>
-  <compound refid="dir_7e461070e7b716e896e0d97cd6a82321" kind="dir"><name>F:/Emulation/MdDox/Tools</name>
+  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
   </compound>
-  <compound refid="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir"><name>F:/Emulation/MdDox/Source/TypeFilter</name>
+  <compound refid="dir_7e461070e7b716e896e0d97cd6a82321" kind="dir"><name>Tools</name>
   </compound>
-  <compound refid="dir_5c09e96eccedf512ae411d636afd2712" kind="dir"><name>F:/Emulation/MdDox/Source/Utils</name>
+  <compound refid="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir"><name>Source/TypeFilter</name>
   </compound>
-  <compound refid="dir_df7f76837457d332ed2eae6561f124cc" kind="dir"><name>F:/Emulation/MdDox/Source/Utils/Win32</name>
+  <compound refid="dir_5c09e96eccedf512ae411d636afd2712" kind="dir"><name>Source/Utils</name>
   </compound>
-  <compound refid="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir"><name>F:/Emulation/MdDox/Source/Xml</name>
+  <compound refid="dir_df7f76837457d332ed2eae6561f124cc" kind="dir"><name>Source/Utils/Win32</name>
+  </compound>
+  <compound refid="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir"><name>Source/Xml</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

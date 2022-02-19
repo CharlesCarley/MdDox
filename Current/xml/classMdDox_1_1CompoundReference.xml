@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1CompoundReference" kind="class" language="C++" prot="public">
     <compoundname>MdDox::CompoundReference</compoundname>
     <basecompoundref refid="classMdDox_1_1Reference" prot="public" virt="non-virtual">MdDox::Reference</basecompoundref>
-    <includes local="no">ReferenceIdentifiers.h</includes>
+    <includes local="no">Source/MdDoxTree/ReferenceIdentifiers.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1CompoundReference_1a28315ba2ef71e7ee6764f0bf04782b9b" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="32" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="32" column="1" bodyfile="Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="35" column="1"/>
+        <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="35" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CompoundReference_1a01ef9f3882c69dffcf05f15f6a4f7cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="36" column="1"/>
+        <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="36" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CompoundReference_1ac6b6c8bcdd32060c1663d011e431e40d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref> &amp;</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="57" bodyend="60"/>
+        <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="38" column="1" bodyfile="Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CompoundReference_1a83f1a3e75316ae7bc582c59a2c8d4276" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="62" bodyend="65"/>
+        <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="40" column="1" bodyfile="Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="62" bodyend="65"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -112,7 +112,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" line="30" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="29" bodyend="41"/>
+    <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="30" column="1" bodyfile="Source/MdDoxTree/ReferenceIdentifiers.h" bodystart="29" bodyend="41"/>
     <listofallmembers>
       <member refid="classMdDox_1_1CompoundReference_1a28315ba2ef71e7ee6764f0bf04782b9b" prot="private" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>_kind</name></member>
       <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="protected" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>_name</name></member>

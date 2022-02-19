@@ -195,71 +195,80 @@ namespace MdDox
         _outDir.fileName(StringCombine("index", builder.outputFileExt));
 
         OutputFileStream out(_outDir.fullPath());
-        if (out.is_open())
-        {
-            _stream = &out;
+        if (!out.is_open())
+            return;
 
-            // extract all, classes, namespaces, directories, and pages.
-            IndexPageFilter filter;
-            query.visit(&filter);
+    	_stream = &out;
 
-            _writer->beginDocument(out, builder.projectTitle);
+        // extract all, classes, namespaces, directories, and pages.
+        IndexPageFilter filter;
+        query.visit(&filter);
 
-            writeCommonNav(out, _writer);
+        _writer->beginDocument(out, builder.projectTitle);
 
-            _writer->boldText(out, "Contents");
+        writeCommonNav(out, _writer);
 
-            String file;
-            String name;
-            _outDir = outDir;
+        _writer->boldText(out, "Contents");
 
-            _writer->beginSection(out, "Contents", 2);
+        String file;
+        String name;
+        _outDir = outDir;
 
-            // Pages
-            StringCombine(name, "page_index", builder.outputFileExt);
-            StringCombine(file, _outDir.fullPath(), '/', name);
-            writeReferenceFile(file,
-                               ICO_FILE,
-                               builder.getCompoundName("page_index"),
-                               filter.pages);
-            name.push_back('#');
-            _writer->embedContentLinkText(out, ICO_ENUM, name, "Pages");
-            _writer->lineBreak(out);
+        _writer->beginSection(out, "Contents", 2);
 
-            // Directories
-            StringCombine(name, "directory_index", builder.outputFileExt);
-            StringCombine(file, _outDir.fullPath(), '/', name);
-            writeReferenceFile(file, ICO_FOLDER, "Directories", filter.dirPaths);
-            name.push_back('#');
+        _writer->beginList(out);
 
-            _writer->embedContentLinkText(out, ICO_ENUM, name, "Directories");
-            _writer->lineBreak(out);
+        // Pages
+        Reference ref = builder.getRefId("page_index");
+        name          = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
 
-            // Namespaces
-            StringCombine(name, "namespace_index", builder.outputFileExt);
-            StringCombine(file, _outDir.fullPath(), '/', name);
-            writeReferenceFile(file, ICO_NAMESPACE, "Namespaces", filter.namespaces);
-            name.push_back('#');
+        if (!name.empty())
+            writeReferenceFile(name, ICO_FILE, ref.getName(), filter.pages);
 
-            _writer->embedContentLinkText(out, ICO_ENUM, name, "Namespaces");
-            _writer->lineBreak(out);
+        _writer->beginListItem(out);
+        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->endListItem(out);
 
-            // Classes
-            StringCombine(name, "class_index", builder.outputFileExt);
-            StringCombine(file, _outDir.fullPath(), '/', name);
-            writeReferenceFile(file, ICO_CLASS, "Classes", filter.classes);
-            name.push_back('#');
+        // Directories
+        ref  = builder.getRefId("directory_index");
+        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
 
-            _writer->embedContentLinkText(out, ICO_ENUM, name, "Classes");
-            _writer->lineBreak(out);
+        if (!name.empty())
+            writeReferenceFile(name, ICO_FOLDER, ref.getName(), filter.directories);
 
-            _writer->endSection(out);
+        _writer->beginListItem(out);
+        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->endListItem(out);
 
-            _writer->endDocument(out, "../index.xml");
+        // Namespaces
+        ref  = builder.getRefId("namespace_index");
+        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
 
-            dispatchFilter(filter);
-            _stream = nullptr;
-        }
+        if (!name.empty())
+            writeReferenceFile(name, ICO_NAMESPACE, ref.getName(), filter.namespaces);
+
+        _writer->beginListItem(out);
+        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->endListItem(out);
+
+        // Classes
+
+        ref  = builder.getRefId("class_index");
+        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
+
+        if (!name.empty())
+            writeReferenceFile(name, ICO_CLASS, ref.getName(), filter.pages);
+
+        _writer->beginListItem(out);
+        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->endListItem(out);
+
+        _writer->endList(out);
+        _writer->endSection(out);
+        _writer->endDocument(out, "../index.xml");
+
+        dispatchFilter(filter);
+        _stream = nullptr;
     }
 
 }  // namespace MdDox

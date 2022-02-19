@@ -5,8 +5,8 @@
     <includes refid="PageWriter_8h" local="yes">PageWriter.h</includes>
     <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="IndexPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <incdepgraph>
       <node id="192">
         <label>Utils/Console.h</label>
@@ -84,7 +84,7 @@
         </childnode>
       </node>
       <node id="174">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.h</label>
+        <label>Source/MdDoxTree/ClassPageWriter.h</label>
         <link refid="ClassPageWriter_8h"/>
         <childnode refid="175" relation="include">
         </childnode>
@@ -172,7 +172,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="200">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.h</label>
+        <label>Source/MdDoxTree/ClassPageWriter.h</label>
         <link refid="ClassPageWriter_8h"/>
         <childnode refid="201" relation="include">
         </childnode>
@@ -180,10 +180,10 @@
         </childnode>
       </node>
       <node id="201">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
       <node id="202">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1ClassPageWriter" prot="public">MdDox::ClassPageWriter</innerclass>
@@ -288,6 +288,6 @@
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Reflect</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.h"/>
+    <location file="Source/MdDoxTree/ClassPageWriter.h"/>
   </compounddef>
 </doxygen>

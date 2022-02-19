@@ -3,7 +3,7 @@
   <compounddef id="CopyQuery_8h" kind="file" language="C++">
     <compoundname>CopyQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="CopyQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</includedby>
+    <includedby refid="CopyQuery_8cpp" local="yes">Tools/Doxygen/CopyQuery.cpp</includedby>
     <incdepgraph>
       <node id="5061">
         <label>Utils/Console.h</label>
@@ -64,7 +64,7 @@
         </childnode>
       </node>
       <node id="5045">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h</label>
+        <label>Tools/Doxygen/CopyQuery.h</label>
         <link refid="CopyQuery_8h"/>
         <childnode refid="5046" relation="include">
         </childnode>
@@ -104,10 +104,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5063">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</label>
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
       </node>
       <node id="5062">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h</label>
+        <label>Tools/Doxygen/CopyQuery.h</label>
         <link refid="CopyQuery_8h"/>
         <childnode refid="5063" relation="include">
         </childnode>
@@ -189,6 +189,6 @@
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="116"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.h"/>
+    <location file="Tools/Doxygen/CopyQuery.h"/>
   </compounddef>
 </doxygen>

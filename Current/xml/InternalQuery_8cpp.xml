@@ -8,7 +8,7 @@
     <includes refid="Sect1Query_8h" local="yes">Sect1Query.h</includes>
     <incdepgraph>
       <node id="6944">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp</label>
+        <label>Tools/Doxygen/InternalQuery.cpp</label>
         <link refid="InternalQuery_8cpp"/>
         <childnode refid="6945" relation="include">
         </childnode>
@@ -211,6 +211,6 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp"/>
+    <location file="Tools/Doxygen/InternalQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -3,8 +3,8 @@
   <compounddef id="InternalS4Query_8h" kind="file" language="C++">
     <compoundname>InternalS4Query.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="InternalS4Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.cpp</includedby>
-    <includedby refid="Sect4Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp</includedby>
+    <includedby refid="InternalS4Query_8cpp" local="yes">Tools/Doxygen/InternalS4Query.cpp</includedby>
+    <includedby refid="Sect4Query_8cpp" local="yes">Tools/Doxygen/Sect4Query.cpp</includedby>
     <incdepgraph>
       <node id="7160">
         <label>Utils/Console.h</label>
@@ -91,7 +91,7 @@
         <label>sstream</label>
       </node>
       <node id="7144">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h</label>
+        <label>Tools/Doxygen/InternalS4Query.h</label>
         <link refid="InternalS4Query_8h"/>
         <childnode refid="7145" relation="include">
         </childnode>
@@ -105,10 +105,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7163">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp</label>
+        <label>Tools/Doxygen/Sect4Query.cpp</label>
       </node>
       <node id="7161">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h</label>
+        <label>Tools/Doxygen/InternalS4Query.h</label>
         <link refid="InternalS4Query_8h"/>
         <childnode refid="7162" relation="include">
         </childnode>
@@ -116,7 +116,7 @@
         </childnode>
       </node>
       <node id="7162">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.cpp</label>
+        <label>Tools/Doxygen/InternalS4Query.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1InternalS4Query" prot="public">MdDox::Doxygen::InternalS4Query</innerclass>
@@ -185,6 +185,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.h"/>
+    <location file="Tools/Doxygen/InternalS4Query.h"/>
   </compounddef>
 </doxygen>

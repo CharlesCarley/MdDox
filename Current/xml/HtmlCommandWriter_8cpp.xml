@@ -90,7 +90,7 @@
         </childnode>
       </node>
       <node id="790">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
         <link refid="HtmlCommandWriter_8cpp"/>
         <childnode refid="791" relation="include">
         </childnode>
@@ -507,6 +507,6 @@
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
 <codeline lineno="288"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Html</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/HtmlCommandWriter.cpp"/>
+    <location file="Source/MdDoxTree/HtmlCommandWriter.cpp"/>
   </compounddef>
 </doxygen>

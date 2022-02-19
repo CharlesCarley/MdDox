@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_f29546df2d60a62028851d3354c1d20f" kind="dir">
-    <compoundname>F:/Emulation/MdDox/Tools/GenApi</compoundname>
+    <compoundname>Tools/GenApi</compoundname>
     <innerfile refid="Common_8cpp">Common.cpp</innerfile>
     <innerfile refid="Common_8h">Common.h</innerfile>
     <innerfile refid="Complex_8cpp">Complex.cpp</innerfile>
@@ -24,6 +24,6 @@
 <para>Contains the generator for the Doxygen scaffolding library. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/"/>
+    <location file="Tools/GenApi/"/>
   </compounddef>
 </doxygen>

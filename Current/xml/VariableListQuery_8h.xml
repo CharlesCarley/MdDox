@@ -3,9 +3,9 @@
   <compounddef id="VariableListQuery_8h" kind="file" language="C++">
     <compoundname>VariableListQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="VariableListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="VariableListQuery_8cpp" local="yes">Tools/Doxygen/VariableListQuery.cpp</includedby>
     <incdepgraph>
       <node id="9146">
         <label>Utils/Console.h</label>
@@ -19,7 +19,7 @@
         <label>functional</label>
       </node>
       <node id="9130">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.h</label>
+        <label>Tools/Doxygen/VariableListQuery.h</label>
         <link refid="VariableListQuery_8h"/>
         <childnode refid="9131" relation="include">
         </childnode>
@@ -106,7 +106,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9147">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.h</label>
+        <label>Tools/Doxygen/VariableListQuery.h</label>
         <link refid="VariableListQuery_8h"/>
         <childnode refid="9148" relation="include">
         </childnode>
@@ -116,13 +116,13 @@
         </childnode>
       </node>
       <node id="9149">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="9150">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.cpp</label>
+        <label>Tools/Doxygen/VariableListQuery.cpp</label>
       </node>
       <node id="9148">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1VariableListQuery" prot="public">MdDox::Doxygen::VariableListQuery</innerclass>
@@ -174,6 +174,6 @@
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/VariableListQuery.h"/>
+    <location file="Tools/Doxygen/VariableListQuery.h"/>
   </compounddef>
 </doxygen>

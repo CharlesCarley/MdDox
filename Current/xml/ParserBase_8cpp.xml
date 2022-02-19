@@ -79,7 +79,7 @@
         <label>fstream</label>
       </node>
       <node id="3551">
-        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp</label>
+        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
         <link refid="ParserBase_8cpp"/>
         <childnode refid="3552" relation="include">
         </childnode>
@@ -299,6 +299,6 @@
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="130"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Hack</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp"/>
+    <location file="Source/Utils/ParserBase/ParserBase.cpp"/>
   </compounddef>
 </doxygen>

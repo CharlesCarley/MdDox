@@ -240,7 +240,7 @@
         </childnode>
       </node>
       <node id="321">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
         <link refid="DirectoryPageWriter_8cpp"/>
         <childnode refid="322" relation="include">
         </childnode>
@@ -496,6 +496,6 @@
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp"/>
+    <location file="Source/MdDoxTree/DirectoryPageWriter.cpp"/>
   </compounddef>
 </doxygen>

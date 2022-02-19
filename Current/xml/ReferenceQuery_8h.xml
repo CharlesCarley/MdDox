@@ -3,11 +3,11 @@
   <compounddef id="ReferenceQuery_8h" kind="file" language="C++">
     <compoundname>ReferenceQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="FunctionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</includedby>
-    <includedby refid="ReferenceQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ReferenceQuery.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="ReferenceQuery_8cpp" local="yes">Tools/Doxygen/ReferenceQuery.cpp</includedby>
     <incdepgraph>
       <node id="8280">
         <label>Utils/Console.h</label>
@@ -34,7 +34,7 @@
         </childnode>
       </node>
       <node id="8264">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ReferenceQuery.h</label>
+        <label>Tools/Doxygen/ReferenceQuery.h</label>
         <link refid="ReferenceQuery_8h"/>
         <childnode refid="8265" relation="include">
         </childnode>
@@ -108,13 +108,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8284">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="8286">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ReferenceQuery.cpp</label>
+        <label>Tools/Doxygen/ReferenceQuery.cpp</label>
       </node>
       <node id="8281">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ReferenceQuery.h</label>
+        <label>Tools/Doxygen/ReferenceQuery.h</label>
         <link refid="ReferenceQuery_8h"/>
         <childnode refid="8282" relation="include">
         </childnode>
@@ -128,13 +128,13 @@
         </childnode>
       </node>
       <node id="8282">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
       <node id="8283">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
       <node id="8285">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ReferenceQuery" prot="public">MdDox::Doxygen::ReferenceQuery</innerclass>
@@ -194,6 +194,6 @@
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="82"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ReferenceQuery.h"/>
+    <location file="Tools/Doxygen/ReferenceQuery.h"/>
   </compounddef>
 </doxygen>

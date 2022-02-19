@@ -4,8 +4,8 @@
     <compoundname>Scanner.h</compoundname>
     <includes refid="ScannerBase_8h" local="yes">Utils/ParserBase/ScannerBase.h</includes>
     <includes refid="Xml_2Token_8h" local="yes">Xml/Token.h</includes>
-    <includedby refid="Xml_2Parser_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Parser.cpp</includedby>
-    <includedby refid="Xml_2Scanner_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Scanner.cpp</includedby>
+    <includedby refid="Xml_2Parser_8cpp" local="yes">Source/Xml/Parser.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8cpp" local="yes">Source/Xml/Scanner.cpp</includedby>
     <incdepgraph>
       <node id="2835">
         <label>Xml/Token.h</label>
@@ -101,7 +101,7 @@
         </childnode>
       </node>
       <node id="2814">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.h</label>
+        <label>Source/Xml/Scanner.h</label>
         <link refid="Xml_2Scanner_8h"/>
         <childnode refid="2815" relation="include">
         </childnode>
@@ -129,13 +129,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2837">
-        <label>F:/Emulation/MdDox/Source/Xml/Parser.cpp</label>
+        <label>Source/Xml/Parser.cpp</label>
       </node>
       <node id="2838">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.cpp</label>
+        <label>Source/Xml/Scanner.cpp</label>
       </node>
       <node id="2836">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.h</label>
+        <label>Source/Xml/Scanner.h</label>
         <link refid="Xml_2Scanner_8h"/>
         <childnode refid="2837" relation="include">
         </childnode>
@@ -199,6 +199,6 @@
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h"/>
+    <location file="Source/Xml/Scanner.h"/>
   </compounddef>
 </doxygen>

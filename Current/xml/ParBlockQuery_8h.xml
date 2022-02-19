@@ -3,9 +3,9 @@
   <compounddef id="ParBlockQuery_8h" kind="file" language="C++">
     <compoundname>ParBlockQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="ParBlockQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="ParBlockQuery_8cpp" local="yes">Tools/Doxygen/ParBlockQuery.cpp</includedby>
     <incdepgraph>
       <node id="8237">
         <label>Utils/Console.h</label>
@@ -98,7 +98,7 @@
         <label>unordered_map</label>
       </node>
       <node id="8221">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h</label>
+        <label>Tools/Doxygen/ParBlockQuery.h</label>
         <link refid="ParBlockQuery_8h"/>
         <childnode refid="8222" relation="include">
         </childnode>
@@ -106,16 +106,16 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8240">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="8241">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp</label>
+        <label>Tools/Doxygen/ParBlockQuery.cpp</label>
       </node>
       <node id="8239">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
       </node>
       <node id="8238">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h</label>
+        <label>Tools/Doxygen/ParBlockQuery.h</label>
         <link refid="ParBlockQuery_8h"/>
         <childnode refid="8239" relation="include">
         </childnode>
@@ -191,6 +191,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h"/>
+    <location file="Tools/Doxygen/ParBlockQuery.h"/>
   </compounddef>
 </doxygen>

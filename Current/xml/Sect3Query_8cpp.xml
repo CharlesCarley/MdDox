@@ -121,7 +121,7 @@
         </childnode>
       </node>
       <node id="8575">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</label>
+        <label>Tools/Doxygen/Sect3Query.cpp</label>
         <link refid="Sect3Query_8cpp"/>
         <childnode refid="8576" relation="include">
         </childnode>
@@ -260,6 +260,6 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp"/>
+    <location file="Tools/Doxygen/Sect3Query.cpp"/>
   </compounddef>
 </doxygen>

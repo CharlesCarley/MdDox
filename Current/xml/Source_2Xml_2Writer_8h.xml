@@ -3,10 +3,10 @@
   <compounddef id="Source_2Xml_2Writer_8h" kind="file" language="C++">
     <compoundname>Writer.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Writer.cpp</includedby>
-    <includedby refid="Generator_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</includedby>
-    <includedby refid="Group_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Group.cpp</includedby>
-    <includedby refid="Simple_8cpp" local="yes">F:/Emulation/MdDox/Tools/GenApi/Simple.cpp</includedby>
+    <includedby refid="Writer_8cpp" local="yes">Source/Xml/Writer.cpp</includedby>
+    <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
+    <includedby refid="Group_8cpp" local="yes">Tools/GenApi/Group.cpp</includedby>
+    <includedby refid="Simple_8cpp" local="yes">Tools/GenApi/Simple.cpp</includedby>
     <incdepgraph>
       <node id="4576">
         <label>iomanip</label>
@@ -18,7 +18,7 @@
         <label>fstream</label>
       </node>
       <node id="4568">
-        <label>F:/Emulation/MdDox/Source/Xml/Writer.h</label>
+        <label>Source/Xml/Writer.h</label>
         <link refid="Source_2Xml_2Writer_8h"/>
         <childnode refid="4569" relation="include">
         </childnode>
@@ -55,10 +55,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4579">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Generator.cpp</label>
+        <label>Tools/GenApi/Generator.cpp</label>
       </node>
       <node id="4577">
-        <label>F:/Emulation/MdDox/Source/Xml/Writer.h</label>
+        <label>Source/Xml/Writer.h</label>
         <link refid="Source_2Xml_2Writer_8h"/>
         <childnode refid="4578" relation="include">
         </childnode>
@@ -70,13 +70,13 @@
         </childnode>
       </node>
       <node id="4578">
-        <label>F:/Emulation/MdDox/Source/Xml/Writer.cpp</label>
+        <label>Source/Xml/Writer.cpp</label>
       </node>
       <node id="4581">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Simple.cpp</label>
+        <label>Tools/GenApi/Simple.cpp</label>
       </node>
       <node id="4580">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Group.cpp</label>
+        <label>Tools/GenApi/Group.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Xml_1_1Writer" prot="public">MdDox::Xml::Writer</innerclass>
@@ -146,6 +146,6 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Writer.h"/>
+    <location file="Source/Xml/Writer.h"/>
   </compounddef>
 </doxygen>

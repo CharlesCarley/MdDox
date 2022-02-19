@@ -118,7 +118,7 @@
         <label>vector</label>
       </node>
       <node id="9461">
-        <label>F:/Emulation/MdDox/Tools/GenApi/Simple.cpp</label>
+        <label>Tools/GenApi/Simple.cpp</label>
         <link refid="Simple_8cpp"/>
         <childnode refid="9462" relation="include">
         </childnode>
@@ -316,6 +316,6 @@
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/GenApi/Simple.cpp"/>
+    <location file="Tools/GenApi/Simple.cpp"/>
   </compounddef>
 </doxygen>

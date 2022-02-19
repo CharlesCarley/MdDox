@@ -207,7 +207,7 @@
         </childnode>
       </node>
       <node id="123">
-        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
         <link refid="ClassPageWriter_8cpp"/>
         <childnode refid="124" relation="include">
         </childnode>
@@ -577,6 +577,6 @@
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
 <codeline lineno="207"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp"/>
+    <location file="Source/MdDoxTree/ClassPageWriter.cpp"/>
   </compounddef>
 </doxygen>

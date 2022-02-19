@@ -102,7 +102,7 @@
         <label>unordered_map</label>
       </node>
       <node id="5442">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.cpp</label>
+        <label>Tools/Doxygen/DoxImageKind.cpp</label>
         <link refid="DoxImageKind_8cpp"/>
         <childnode refid="5443" relation="include">
         </childnode>
@@ -159,6 +159,6 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.cpp"/>
+    <location file="Tools/Doxygen/DoxImageKind.cpp"/>
   </compounddef>
 </doxygen>

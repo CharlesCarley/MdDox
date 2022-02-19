@@ -3,12 +3,12 @@
   <compounddef id="Xml_2Token_8h" kind="file" language="C++">
     <compoundname>Token.h</compoundname>
     <includes refid="TokenBase_8h" local="yes">Utils/ParserBase/TokenBase.h</includes>
-    <includedby refid="Xml_2Parser_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Parser.cpp</includedby>
-    <includedby refid="Xml_2Scanner_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Scanner.cpp</includedby>
-    <includedby refid="Xml_2Scanner_8h" local="yes">F:/Emulation/MdDox/Source/Xml/Scanner.h</includedby>
+    <includedby refid="Xml_2Parser_8cpp" local="yes">Source/Xml/Parser.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8cpp" local="yes">Source/Xml/Scanner.cpp</includedby>
+    <includedby refid="Xml_2Scanner_8h" local="yes">Source/Xml/Scanner.h</includedby>
     <incdepgraph>
       <node id="2856">
-        <label>F:/Emulation/MdDox/Source/Xml/Token.h</label>
+        <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
         <childnode refid="2857" relation="include">
         </childnode>
@@ -19,10 +19,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2859">
-        <label>F:/Emulation/MdDox/Source/Xml/Parser.cpp</label>
+        <label>Source/Xml/Parser.cpp</label>
       </node>
       <node id="2858">
-        <label>F:/Emulation/MdDox/Source/Xml/Token.h</label>
+        <label>Source/Xml/Token.h</label>
         <link refid="Xml_2Token_8h"/>
         <childnode refid="2859" relation="include">
         </childnode>
@@ -32,10 +32,10 @@
         </childnode>
       </node>
       <node id="2860">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.cpp</label>
+        <label>Source/Xml/Scanner.cpp</label>
       </node>
       <node id="2861">
-        <label>F:/Emulation/MdDox/Source/Xml/Scanner.h</label>
+        <label>Source/Xml/Scanner.h</label>
         <childnode refid="2859" relation="include">
         </childnode>
         <childnode refid="2860" relation="include">
@@ -94,6 +94,6 @@
 <codeline lineno="44" refid="namespaceMdDox_1_1Xml_1a63e69d53462a482c47cb25ec51c6d6d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1TokenBase" kindref="compound">Token</ref><sp/>=<sp/><ref refid="classMdDox_1_1TokenBase" kindref="compound">TokenBase</ref>;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Source/Xml/Token.h"/>
+    <location file="Source/Xml/Token.h"/>
   </compounddef>
 </doxygen>

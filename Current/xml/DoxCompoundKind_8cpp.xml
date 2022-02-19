@@ -18,7 +18,7 @@
         <label>functional</label>
       </node>
       <node id="5285">
-        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.cpp</label>
+        <label>Tools/Doxygen/DoxCompoundKind.cpp</label>
         <link refid="DoxCompoundKind_8cpp"/>
         <childnode refid="5286" relation="include">
         </childnode>
@@ -187,6 +187,6 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.cpp"/>
+    <location file="Tools/Doxygen/DoxCompoundKind.cpp"/>
   </compounddef>
 </doxygen>
