@@ -3,135 +3,135 @@
   <compounddef id="DoxHighlightClass_8h" kind="file" language="C++">
     <compoundname>DoxHighlightClass.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="HighlightQuery_8h" local="yes">Tools/Doxygen/HighlightQuery.h</includedby>
-    <includedby refid="DoxHighlightClass_8cpp" local="yes">Tools/Doxygen/DoxHighlightClass.cpp</includedby>
+    <includedby refid="HighlightQuery_8h" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</includedby>
+    <includedby refid="DoxHighlightClass_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp</includedby>
     <incdepgraph>
-      <node id="5437">
-        <label>Utils/Console.h</label>
-        <childnode refid="5425" relation="include">
-        </childnode>
-      </node>
-      <node id="5431">
-        <label>iomanip</label>
-      </node>
-      <node id="5423">
-        <label>functional</label>
-      </node>
-      <node id="5433">
-        <label>Utils/Exception.h</label>
-        <childnode refid="5434" relation="include">
-        </childnode>
-        <childnode refid="5435" relation="include">
-        </childnode>
-        <childnode refid="5436" relation="include">
-        </childnode>
-        <childnode refid="5437" relation="include">
-        </childnode>
-        <childnode refid="5425" relation="include">
-        </childnode>
-      </node>
       <node id="5435">
-        <label>stdexcept</label>
-      </node>
-      <node id="5429">
-        <label>string</label>
-      </node>
-      <node id="5422">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="5423" relation="include">
         </childnode>
-        <childnode refid="5424" relation="include">
-        </childnode>
-        <childnode refid="5425" relation="include">
-        </childnode>
+      </node>
+      <node id="5429">
+        <label>iomanip</label>
+      </node>
+      <node id="5421">
+        <label>functional</label>
+      </node>
+      <node id="5431">
+        <label>Utils/Exception.h</label>
         <childnode refid="5432" relation="include">
         </childnode>
         <childnode refid="5433" relation="include">
         </childnode>
-      </node>
-      <node id="5421">
-        <label>Tools/Doxygen/DoxHighlightClass.h</label>
-        <link refid="DoxHighlightClass_8h"/>
-        <childnode refid="5422" relation="include">
+        <childnode refid="5434" relation="include">
         </childnode>
-      </node>
-      <node id="5434">
-        <label>exception</label>
-      </node>
-      <node id="5427">
-        <label>fstream</label>
-      </node>
-      <node id="5432">
-        <label>Xml/Node.h</label>
+        <childnode refid="5435" relation="include">
+        </childnode>
         <childnode refid="5423" relation="include">
         </childnode>
-        <childnode refid="5424" relation="include">
-        </childnode>
-        <childnode refid="5425" relation="include">
-        </childnode>
       </node>
-      <node id="5425">
-        <label>Utils/String.h</label>
-        <childnode refid="5426" relation="include">
+      <node id="5433">
+        <label>stdexcept</label>
+      </node>
+      <node id="5427">
+        <label>string</label>
+      </node>
+      <node id="5420">
+        <label>Doxygen.h</label>
+        <childnode refid="5421" relation="include">
         </childnode>
-        <childnode refid="5427" relation="include">
+        <childnode refid="5422" relation="include">
         </childnode>
-        <childnode refid="5428" relation="include">
-        </childnode>
-        <childnode refid="5429" relation="include">
-        </childnode>
-        <childnode refid="5424" relation="include">
+        <childnode refid="5423" relation="include">
         </childnode>
         <childnode refid="5430" relation="include">
         </childnode>
         <childnode refid="5431" relation="include">
         </childnode>
       </node>
-      <node id="5430">
-        <label>vector</label>
+      <node id="5419">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h</label>
+        <link refid="DoxHighlightClass_8h"/>
+        <childnode refid="5420" relation="include">
+        </childnode>
       </node>
-      <node id="5436">
-        <label>utility</label>
+      <node id="5432">
+        <label>exception</label>
+      </node>
+      <node id="5425">
+        <label>fstream</label>
+      </node>
+      <node id="5430">
+        <label>Xml/Node.h</label>
+        <childnode refid="5421" relation="include">
+        </childnode>
+        <childnode refid="5422" relation="include">
+        </childnode>
+        <childnode refid="5423" relation="include">
+        </childnode>
+      </node>
+      <node id="5423">
+        <label>Utils/String.h</label>
+        <childnode refid="5424" relation="include">
+        </childnode>
+        <childnode refid="5425" relation="include">
+        </childnode>
+        <childnode refid="5426" relation="include">
+        </childnode>
+        <childnode refid="5427" relation="include">
+        </childnode>
+        <childnode refid="5422" relation="include">
+        </childnode>
+        <childnode refid="5428" relation="include">
+        </childnode>
+        <childnode refid="5429" relation="include">
+        </childnode>
       </node>
       <node id="5428">
-        <label>sstream</label>
+        <label>vector</label>
+      </node>
+      <node id="5434">
+        <label>utility</label>
       </node>
       <node id="5426">
-        <label>deque</label>
+        <label>sstream</label>
       </node>
       <node id="5424">
+        <label>deque</label>
+      </node>
+      <node id="5422">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5442">
-        <label>Tools/Doxygen/HighlightQuery.cpp</label>
-      </node>
-      <node id="5441">
-        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
-      </node>
-      <node id="5443">
-        <label>Tools/Doxygen/DoxHighlightClass.cpp</label>
-      </node>
-      <node id="5438">
-        <label>Tools/Doxygen/DoxHighlightClass.h</label>
-        <link refid="DoxHighlightClass_8h"/>
-        <childnode refid="5439" relation="include">
-        </childnode>
-        <childnode refid="5443" relation="include">
-        </childnode>
+      <node id="5440">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.cpp</label>
       </node>
       <node id="5439">
-        <label>Tools/Doxygen/HighlightQuery.h</label>
-        <childnode refid="5440" relation="include">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CodeLineQuery.cpp</label>
+      </node>
+      <node id="5441">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.cpp</label>
+      </node>
+      <node id="5436">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h</label>
+        <link refid="DoxHighlightClass_8h"/>
+        <childnode refid="5437" relation="include">
         </childnode>
         <childnode refid="5441" relation="include">
         </childnode>
-        <childnode refid="5442" relation="include">
+      </node>
+      <node id="5437">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/HighlightQuery.h</label>
+        <childnode refid="5438" relation="include">
+        </childnode>
+        <childnode refid="5439" relation="include">
+        </childnode>
+        <childnode refid="5440" relation="include">
         </childnode>
       </node>
-      <node id="5440">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      <node id="5438">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1DoxHighlightClass" prot="public">MdDox::Doxygen::DoxHighlightClass</innerclass>
@@ -190,6 +190,6 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/DoxHighlightClass.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h"/>
   </compounddef>
 </doxygen>

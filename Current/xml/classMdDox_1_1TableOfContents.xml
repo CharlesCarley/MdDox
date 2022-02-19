@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="42" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="42" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a25788b18a03e41f6e4f3191e1a279450" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="43" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a4c426f63298a732bf8b34ce0ab94a286" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="46" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="46" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="41" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="41" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1abe3711d74212bfaeba2fe3643076d567" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="44" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="44" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TableOfContents_1a4aad04cdb6e92db0eb0e0b2226b4f3f9" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="45" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="45" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="45" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="49" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="49" bodyend="52"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="49" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="49" bodyend="52"/>
         <references refid="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" compoundref="NamespacePageWriter_8cpp" startline="41">hasNamespaces</references>
         <references refid="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" compoundref="NamespacePageWriter_8cpp" startline="42">hasClasses</references>
         <references refid="classMdDox_1_1TableOfContents_1a25788b18a03e41f6e4f3191e1a279450" compoundref="NamespacePageWriter_8cpp" startline="43">hasEnums</references>
@@ -133,7 +133,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="59" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="59" bodyend="62"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="59" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="59" bodyend="62"/>
         <references refid="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" compoundref="NamespacePageWriter_8cpp" startline="42">hasClasses</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TableOfContents_1a1282b684b650ef263481e8043b414688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -160,7 +160,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="54" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="54" bodyend="57"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="54" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="54" bodyend="57"/>
         <references refid="classMdDox_1_1TableOfContents_1a2359515534ebd34ce19bedfdc0377139" compoundref="NamespacePageWriter_8cpp" startline="41">hasNamespaces</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TableOfContents_1af5add9546e7ebd10114373b255b8848e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -187,7 +187,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="64" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="64" bodyend="116"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="64" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="64" bodyend="116"/>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a3bc97ede583d3bc4597b16986c6b6285" compoundref="SectionDefQuery_8cpp" startline="56" endline="61">MdDox::Doxygen::SectionDefQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aac9b5158f9f3b973221f5961ed6c2169c" compoundref="DoxSectionKind_8h" startline="218">MdDox::Doxygen::DSK_ENUM</references>
         <references refid="classMdDox_1_1TableOfContents_1a25788b18a03e41f6e4f3191e1a279450" compoundref="NamespacePageWriter_8cpp" startline="43">hasEnums</references>
@@ -271,7 +271,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/NamespacePageWriter.cpp" line="39" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="38" bodyend="117"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="38" bodyend="117"/>
     <listofallmembers>
       <member refid="classMdDox_1_1TableOfContents_1acada8323e626b6d1569cea6ee16f596d" prot="public" virt="non-virtual"><scope>MdDox::TableOfContents</scope><name>hasAny</name></member>
       <member refid="classMdDox_1_1TableOfContents_1a0f2093773a8bc3a03b2406ef411248fa" prot="public" virt="non-virtual"><scope>MdDox::TableOfContents</scope><name>hasClasses</name></member>

@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1HeadingQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::HeadingQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/HeadingQuery.h</includes>
+    <includes local="no">HeadingQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1abb722b255155a8a159ffaf7b44e7c83f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="133" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="133" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a6e255e228a5812beb4f6a79b88ad2cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="134" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="134" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a950ebdca8b7658d299b71a8ba17e4b94" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="136" column="1" bodyfile="Tools/Doxygen/HeadingQuery.h" bodystart="136" bodyend="139"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="136" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" bodystart="136" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a295c6ebc0691bbdecfbf5b1ff5b58ebe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="217" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="218" bodyend="227"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="217" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="218" bodyend="227"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="222" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="229" bodyend="234"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="222" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="229" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a341f1a7bccf63b0c8523400f0c8c529a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="167" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="128" bodyend="137"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="167" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="128" bodyend="137"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="172" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="139" bodyend="144"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="172" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="139" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a45cb2112f043cc72aac297a3bbe44136" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="197" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="182" bodyend="191"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="197" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="182" bodyend="191"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="202" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="193" bodyend="198"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="202" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="193" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a011e6fb7cb87467aa11b0507cc3ed413" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="187" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="164" bodyend="173"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="187" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="164" bodyend="173"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="192" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="175" bodyend="180"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="192" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="175" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a11223f03d0ae5fa9463df98100ef81d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -205,7 +205,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="101" bodyend="108"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="152" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="101" bodyend="108"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="177" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="146" bodyend="155"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="177" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="146" bodyend="155"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="182" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="157" bodyend="162"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="182" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="157" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a0c4f0d7ec8ed27f8cecaf15379189eb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="287" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="344" bodyend="353"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="287" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="344" bodyend="353"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -277,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="292" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="355" bodyend="360"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="292" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="355" bodyend="360"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1aedbd3c05a12d4a2d3adc6c16e7ff19b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="145" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="96" bodyend="99"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="145" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="96" bodyend="99"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="257" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="290" bodyend="299"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="257" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="290" bodyend="299"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="262" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="301" bodyend="306"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="262" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="301" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a4ff0a4e813a2ba0d53e99093c08f0ded" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -348,7 +348,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="267" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="308" bodyend="317"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="267" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="308" bodyend="317"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="272" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="319" bodyend="324"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="272" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="319" bodyend="324"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a609487381f22637d92e609c2251f9f7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -382,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="277" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="326" bodyend="335"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="277" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="326" bodyend="335"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="282" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="337" bodyend="342"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="282" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="337" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1acf43f66e721b839db09785353f25a898" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="227" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="236" bodyend="245"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="227" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="236" bodyend="245"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="232" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="247" bodyend="252"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="232" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="247" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1ab5ec71ca7e78ab789bb87f0aceea35bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -450,7 +450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="247" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="272" bodyend="281"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="247" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="272" bodyend="281"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -467,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="252" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="283" bodyend="288"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="252" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="283" bodyend="288"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1abb69619f8d343b9e993fb0e4ecc25196" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -484,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="237" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="254" bodyend="263"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="237" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="254" bodyend="263"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -501,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="242" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="265" bodyend="270"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="242" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="265" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1aa36322e9992abd219540d5c736f23f4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -518,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="207" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="200" bodyend="209"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="207" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="200" bodyend="209"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -535,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="212" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="211" bodyend="216"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="212" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="211" bodyend="216"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1ad188d03779b3530baf75c7e15155d2da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -552,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="157" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="110" bodyend="119"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="157" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="110" bodyend="119"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="162" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="121" bodyend="126"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="162" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="121" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a22e802645c0a4a51be9dcb7727e3f189" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -586,7 +586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/HeadingQuery.h" line="141" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="34" bodyend="95"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="141" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp" bodystart="34" bodyend="95"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -653,7 +653,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/HeadingQuery.h" line="131" column="1" bodyfile="Tools/Doxygen/HeadingQuery.h" bodystart="130" bodyend="295"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" line="131" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.h" bodystart="130" bodyend="295"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::HeadingQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HeadingQuery</scope><name>empty</name></member>

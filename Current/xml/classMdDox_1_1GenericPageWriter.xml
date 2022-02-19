@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1GenericPageWriter" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::GenericPageWriter</compoundname>
     <basecompoundref refid="classMdDox_1_1PageWriter" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
-    <includes local="no">Source/MdDoxTree/GenericPageWriter.h</includes>
+    <includes local="no">GenericPageWriter.h</includes>
       <sectiondef kind="private-func">
       <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a9abad2c98b3a9ecf672d6b1a45c859da" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="47" bodyend="55"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" line="36" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp" bodystart="47" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a08e35031519e2ae87433da07e1793750" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -47,7 +47,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="39" bodyend="45"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp" bodystart="39" bodyend="45"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="32" bodyend="37"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp" bodystart="32" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a1e168962c12758c06bfab9dd750e0812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="42" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" line="42" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -171,7 +171,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/GenericPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.h" bodystart="33" bodyend="44"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.h" bodystart="33" bodyend="44"/>
     <listofallmembers>
       <member refid="classMdDox_1_1PageWriter_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_inDir</name></member>
       <member refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_out</name></member>

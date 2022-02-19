@@ -5,20 +5,24 @@
     <includes refid="DoxygenFilter_8h" local="yes">DoxygenFilter.h</includes>
     <includes refid="TypeFilter_8h" local="yes">Utils/TypeFilter.h</includes>
     <incdepgraph>
-      <node id="2490">
+      <node id="2488">
         <label>iomanip</label>
       </node>
-      <node id="2482">
+      <node id="2480">
         <label>cstdint</label>
       </node>
-      <node id="2487">
+      <node id="2485">
         <label>string</label>
       </node>
-      <node id="2485">
+      <node id="2483">
         <label>fstream</label>
       </node>
-      <node id="2483">
+      <node id="2481">
         <label>Utils/String.h</label>
+        <childnode refid="2482" relation="include">
+        </childnode>
+        <childnode refid="2483" relation="include">
+        </childnode>
         <childnode refid="2484" relation="include">
         </childnode>
         <childnode refid="2485" relation="include">
@@ -29,41 +33,37 @@
         </childnode>
         <childnode refid="2488" relation="include">
         </childnode>
-        <childnode refid="2489" relation="include">
-        </childnode>
-        <childnode refid="2490" relation="include">
-        </childnode>
       </node>
-      <node id="2489">
+      <node id="2487">
         <label>vector</label>
       </node>
-      <node id="2486">
+      <node id="2484">
         <label>sstream</label>
       </node>
-      <node id="2480">
+      <node id="2478">
         <label>DoxygenFilter.h</label>
-        <childnode refid="2481" relation="include">
+        <childnode refid="2479" relation="include">
         </childnode>
       </node>
-      <node id="2479">
-        <label>Source/TypeFilter/DoxygenFilter.cpp</label>
+      <node id="2477">
+        <label>F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp</label>
         <link refid="DoxygenFilter_8cpp"/>
+        <childnode refid="2478" relation="include">
+        </childnode>
+        <childnode refid="2479" relation="include">
+        </childnode>
+      </node>
+      <node id="2482">
+        <label>deque</label>
+      </node>
+      <node id="2486">
+        <label>unordered_map</label>
+      </node>
+      <node id="2479">
+        <label>Utils/TypeFilter.h</label>
         <childnode refid="2480" relation="include">
         </childnode>
         <childnode refid="2481" relation="include">
-        </childnode>
-      </node>
-      <node id="2484">
-        <label>deque</label>
-      </node>
-      <node id="2488">
-        <label>unordered_map</label>
-      </node>
-      <node id="2481">
-        <label>Utils/TypeFilter.h</label>
-        <childnode refid="2482" relation="include">
-        </childnode>
-        <childnode refid="2483" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -226,6 +226,6 @@
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/TypeFilter/DoxygenFilter.cpp"/>
+    <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp"/>
   </compounddef>
 </doxygen>

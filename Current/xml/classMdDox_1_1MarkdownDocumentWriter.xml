@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1MarkdownDocumentWriter" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::MarkdownDocumentWriter</compoundname>
     <basecompoundref refid="classMdDox_1_1HtmlDocumentWriter" prot="public" virt="non-virtual">MdDox::HtmlDocumentWriter</basecompoundref>
-    <includes local="no">Source/MdDoxTree/MarkdownDocumentWriter.h</includes>
+    <includes local="no">MarkdownDocumentWriter.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1aec6710fea7e297e171c6005fc39be777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="32" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="32" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1ac27f2c8cdde0047ca0c295b4d069ad75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="34" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -66,7 +66,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="33" bodyend="38"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="33" bodyend="38"/>
         <references refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" compoundref="HtmlCommandWriter_8cpp" startline="127" endline="130">MdDox::Html::anchor</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" compoundref="HashUtils_8cpp" startline="36" endline="45">MdDox::HashUtils::cleanTitle</references>
         <references refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" compoundref="HtmlCommandWriter_8cpp" startline="214" endline="219">MdDox::Html::heading</references>
@@ -118,7 +118,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="41" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="41" bodyend="48"/>
         <references refid="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" compoundref="MarkdownCommandWriter_8cpp" startline="118" endline="125">MdDox::Md::code</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -145,7 +145,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="50" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="50" bodyend="59"/>
         <references refid="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e">MdDox::HtmlDocumentWriter::endNavigationBar</references>
         <references refid="namespaceMdDox_1_1Html_1a4e67bdb93c2e1c1121a2ee33f83f5de2" compoundref="HtmlCommandWriter_8cpp" startline="30" endline="33">MdDox::Html::lineBreak</references>
       </memberdef>
@@ -190,7 +190,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.h" bodystart="29" bodyend="50"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" line="30" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/MarkdownDocumentWriter.h" bodystart="29" bodyend="50"/>
     <listofallmembers>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>addSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>anchor</name></member>

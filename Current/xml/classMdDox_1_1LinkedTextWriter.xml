@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1LinkedTextWriter" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::LinkedTextWriter</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</basecompoundref>
-    <includes local="no">Source/MdDoxTree/LinkedTextWriter.h</includes>
+    <includes local="no">LinkedTextWriter.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1ae3f267cee919aeaed4bb94bb6e97b679" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="35" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1a5a2d4b02ea4606d24c55eef2b19b477e" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="34" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LinkedTextWriter_1aa331e52671ef372ef854d655bc767806" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="33" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="41" bodyend="56"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="41" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1LinkedTextWriter_1a6c6887bdaf86c77a97a01e1fde4b3506" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="36" bodyend="39"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="36" bodyend="39"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="30" bodyend="34"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="30" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1LinkedTextWriter_1a19d134ad8cb0269df31a0a13ec6dcfef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="58" bodyend="66"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="58" bodyend="66"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery_1a87fbbc8198d459fc80cafc7f3394f404" compoundref="LinkedTextQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::LinkedTextQuery::visit</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="165" endline="176">MdDox::syncStream</references>
@@ -161,7 +161,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/LinkedTextWriter.h" line="31" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.h" bodystart="30" bodyend="44"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h" bodystart="30" bodyend="44"/>
     <listofallmembers>
       <member refid="classMdDox_1_1LinkedTextWriter_1ae3f267cee919aeaed4bb94bb6e97b679" prot="private" virt="non-virtual"><scope>MdDox::LinkedTextWriter</scope><name>_out</name></member>
       <member refid="classMdDox_1_1LinkedTextWriter_1a5a2d4b02ea4606d24c55eef2b19b477e" prot="private" virt="non-virtual"><scope>MdDox::LinkedTextWriter</scope><name>_stream</name></member>

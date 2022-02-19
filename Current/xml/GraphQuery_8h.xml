@@ -3,139 +3,139 @@
   <compounddef id="GraphQuery_8h" kind="file" language="C++">
     <compoundname>GraphQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="GraphWriter_8h" local="yes">Source/MdDoxTree/GraphWriter.h</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="GraphQuery_8cpp" local="yes">Tools/Doxygen/GraphQuery.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="GraphQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</includedby>
     <incdepgraph>
-      <node id="6698">
-        <label>Utils/Console.h</label>
-        <childnode refid="6686" relation="include">
-        </childnode>
-      </node>
-      <node id="6692">
-        <label>iomanip</label>
-      </node>
-      <node id="6684">
-        <label>functional</label>
-      </node>
-      <node id="6694">
-        <label>Utils/Exception.h</label>
-        <childnode refid="6695" relation="include">
-        </childnode>
-        <childnode refid="6696" relation="include">
-        </childnode>
-        <childnode refid="6697" relation="include">
-        </childnode>
-        <childnode refid="6698" relation="include">
-        </childnode>
-        <childnode refid="6686" relation="include">
-        </childnode>
-      </node>
       <node id="6696">
-        <label>stdexcept</label>
-      </node>
-      <node id="6690">
-        <label>string</label>
-      </node>
-      <node id="6683">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="6684" relation="include">
         </childnode>
-        <childnode refid="6685" relation="include">
-        </childnode>
-        <childnode refid="6686" relation="include">
-        </childnode>
+      </node>
+      <node id="6690">
+        <label>iomanip</label>
+      </node>
+      <node id="6682">
+        <label>functional</label>
+      </node>
+      <node id="6692">
+        <label>Utils/Exception.h</label>
         <childnode refid="6693" relation="include">
         </childnode>
         <childnode refid="6694" relation="include">
         </childnode>
-      </node>
-      <node id="6695">
-        <label>exception</label>
-      </node>
-      <node id="6688">
-        <label>fstream</label>
-      </node>
-      <node id="6693">
-        <label>Xml/Node.h</label>
+        <childnode refid="6695" relation="include">
+        </childnode>
+        <childnode refid="6696" relation="include">
+        </childnode>
         <childnode refid="6684" relation="include">
         </childnode>
-        <childnode refid="6685" relation="include">
-        </childnode>
-        <childnode refid="6686" relation="include">
-        </childnode>
       </node>
-      <node id="6682">
-        <label>Tools/Doxygen/GraphQuery.h</label>
-        <link refid="GraphQuery_8h"/>
+      <node id="6694">
+        <label>stdexcept</label>
+      </node>
+      <node id="6688">
+        <label>string</label>
+      </node>
+      <node id="6681">
+        <label>Doxygen.h</label>
+        <childnode refid="6682" relation="include">
+        </childnode>
         <childnode refid="6683" relation="include">
         </childnode>
-      </node>
-      <node id="6686">
-        <label>Utils/String.h</label>
-        <childnode refid="6687" relation="include">
-        </childnode>
-        <childnode refid="6688" relation="include">
-        </childnode>
-        <childnode refid="6689" relation="include">
-        </childnode>
-        <childnode refid="6690" relation="include">
-        </childnode>
-        <childnode refid="6685" relation="include">
+        <childnode refid="6684" relation="include">
         </childnode>
         <childnode refid="6691" relation="include">
         </childnode>
         <childnode refid="6692" relation="include">
         </childnode>
       </node>
-      <node id="6691">
-        <label>vector</label>
+      <node id="6693">
+        <label>exception</label>
       </node>
-      <node id="6697">
-        <label>utility</label>
+      <node id="6686">
+        <label>fstream</label>
+      </node>
+      <node id="6691">
+        <label>Xml/Node.h</label>
+        <childnode refid="6682" relation="include">
+        </childnode>
+        <childnode refid="6683" relation="include">
+        </childnode>
+        <childnode refid="6684" relation="include">
+        </childnode>
+      </node>
+      <node id="6680">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h</label>
+        <link refid="GraphQuery_8h"/>
+        <childnode refid="6681" relation="include">
+        </childnode>
+      </node>
+      <node id="6684">
+        <label>Utils/String.h</label>
+        <childnode refid="6685" relation="include">
+        </childnode>
+        <childnode refid="6686" relation="include">
+        </childnode>
+        <childnode refid="6687" relation="include">
+        </childnode>
+        <childnode refid="6688" relation="include">
+        </childnode>
+        <childnode refid="6683" relation="include">
+        </childnode>
+        <childnode refid="6689" relation="include">
+        </childnode>
+        <childnode refid="6690" relation="include">
+        </childnode>
       </node>
       <node id="6689">
-        <label>sstream</label>
+        <label>vector</label>
+      </node>
+      <node id="6695">
+        <label>utility</label>
       </node>
       <node id="6687">
-        <label>deque</label>
+        <label>sstream</label>
       </node>
       <node id="6685">
+        <label>deque</label>
+      </node>
+      <node id="6683">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6702">
-        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      <node id="6700">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="6699">
-        <label>Tools/Doxygen/GraphQuery.h</label>
+      <node id="6697">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h</label>
         <link refid="GraphQuery_8h"/>
-        <childnode refid="6700" relation="include">
+        <childnode refid="6698" relation="include">
+        </childnode>
+        <childnode refid="6699" relation="include">
         </childnode>
         <childnode refid="6701" relation="include">
-        </childnode>
-        <childnode refid="6703" relation="include">
-        </childnode>
-        <childnode refid="6704" relation="include">
-        </childnode>
-      </node>
-      <node id="6700">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
-      </node>
-      <node id="6703">
-        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
-      </node>
-      <node id="6701">
-        <label>Source/MdDoxTree/GraphWriter.h</label>
-        <childnode refid="6700" relation="include">
         </childnode>
         <childnode refid="6702" relation="include">
         </childnode>
       </node>
-      <node id="6704">
-        <label>Tools/Doxygen/GraphQuery.cpp</label>
+      <node id="6698">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="6701">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+      </node>
+      <node id="6699">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</label>
+        <childnode refid="6698" relation="include">
+        </childnode>
+        <childnode refid="6700" relation="include">
+        </childnode>
+      </node>
+      <node id="6702">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1GraphQuery" prot="public">MdDox::Doxygen::GraphQuery</innerclass>
@@ -204,6 +204,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/GraphQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/GraphQuery.h"/>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1CommandLine_1_1Parser" kind="class" language="C++" prot="public">
     <compoundname>MdDox::CommandLine::Parser</compoundname>
-    <includes local="no">Source/Utils/CommandLine/Parser.h</includes>
+    <includes local="no">Parser.h</includes>
       <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1acb40e289a0151bf925e9f0d4c2785ec1" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> * &gt;</type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="41" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="41" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" prot="public" static="no">
         <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="42" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="42" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMdDox_1_1CommandLine_1_1Parser_1ac70f0c2508d48c69e7d2464e8201043a" prot="public" static="no">
         <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1CommandLine_1_1ParseOption" kindref="compound">ParseOption</ref> * &gt;</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="40" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="40" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="51" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="51" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="51" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1aeb057c4a0fd705df2915ced97aa4db42" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="46" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="46" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1abf709ecc42558785263ecdf7dcb2d9fc" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1acb40e289a0151bf925e9f0d4c2785ec1" kindref="member">Options</ref></type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="52" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="52" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a72ff5102f6dffdb6093524fd83304422" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="45" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="45" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1ab7df47ea565249a9d9ae6b907cec470b" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="47" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="47" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="47" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a27b01cd3267cc4ed41d863ff3ebf1b18" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1CommandLine_1_1Scanner" kindref="compound">Scanner</ref></type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="49" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="49" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1a6e761abefa3e2ec3bc723b45364092c4" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ac70f0c2508d48c69e7d2464e8201043a" kindref="member">Switches</ref></type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="50" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="50" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Parser_1acb888dba2a04a11985568b3820d5e22d" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="48" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="48" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="54" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="48" bodyend="51"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a42e1d6c203b0498a174daa07556e5f91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="56" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="322" bodyend="363"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="322" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a1ad26535400686d5c36c584ed0b12267" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="58" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="365" bodyend="393"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="365" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a774642759b4423d67eaf4ddcb733caa5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="60" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="395" bodyend="400"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="60" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="395" bodyend="400"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="63" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="35" bodyend="40"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="63" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="35" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a38e6169ec6b58f3d43ef844cfdf78094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="64" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="42" bodyend="46"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="42" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1adf2a9e1325ac03721a8aeb0a8393280d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMdDox_1_1CommandLine_1_1Parser_1ab9c3f202307a9aa7bae738eea0d8ccdc" kindref="member">StringArray</ref> &amp;</type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="80" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="80" bodyend="83"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a368d1613dba6bef0583ba4b7097ffedc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="118" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="215" bodyend="226"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="118" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="215" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a4d741ceb543aef0179ae192bd8de1eac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="123" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="228" bodyend="239"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="123" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="228" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a8bf42d630de22b3fd7791e01fcfebd29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -356,7 +356,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="112" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="201" bodyend="206"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="112" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="201" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a792daed8b9aa007697cce9f3e242b485" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="75" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="179" bodyend="184"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="179" bodyend="184"/>
         <references refid="classMdDox_1_1CommandLine_1_1Scanner_1a6a2097b64f77cf77601ed7eb2cb1b21f" compoundref="Utils_2CommandLine_2Scanner_8h" startline="45" endline="48">MdDox::CommandLine::Scanner::getValue</references>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
@@ -397,7 +397,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="116" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="208" bodyend="213"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="116" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="208" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a07ef47203678799f14aff45bd593f962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -426,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="70" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="53" bodyend="177"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="53" bodyend="177"/>
         <references refid="classMdDox_1_1CommandLine_1_1Scanner_1ad3569d482516b31a861788ca480fb4cc" compoundref="Utils_2CommandLine_2Scanner_8cpp" startline="57" endline="60">MdDox::CommandLine::Scanner::clear</references>
         <references refid="classMdDox_1_1CommandLine_1_1Scanner_1a99d7af5a585f76229673d580ab09780e" compoundref="Utils_2CommandLine_2Scanner_8cpp" startline="62" endline="66">MdDox::CommandLine::Scanner::append</references>
         <references refid="classMdDox_1_1CommandLine_1_1Token_1abd4f5663daaf010fb3d3fdbf5922050d" compoundref="Utils_2CommandLine_2Token_8h" startline="60" endline="63">MdDox::CommandLine::Token::getType</references>
@@ -457,7 +457,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="102" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="191" bodyend="194"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="102" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="191" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="96" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="186" bodyend="189"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="96" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="186" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a9a5d1bfc608d3f4456d74f3646def83d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="88" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="88" bodyend="91"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="88" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1ae19e2d4dac9f9bcdf9af321798b91bf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -510,7 +510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="128" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="241" bodyend="256"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="128" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="241" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1ada221ca664083f9a06a12f55e385a9f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="132" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="258" bodyend="263"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="132" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="258" bodyend="263"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a38d11e8c1d31ebb3e29a80b18e760112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -541,7 +541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="134" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="265" bodyend="320"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="134" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="265" bodyend="320"/>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="186" endline="189">programName</references>
         <references refid="structMdDox_1_1CommandLine_1_1Switch_1aef08c879912d8fec0a1b6043f7e31907" compoundref="Option_8h" startline="46">MdDox::CommandLine::Switch::shortSwitch</references>
         <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab5ccb589304a934849750177c8c8a251" compoundref="Option_8h" startline="53">MdDox::CommandLine::Switch::longSwitch</references>
@@ -563,7 +563,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Parser.h" line="108" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="196" bodyend="199"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="108" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.cpp" bodystart="196" bodyend="199"/>
         <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="66" endline="69">MdDox::FileSystem::currentPath</references>
       </memberdef>
       </sectiondef>
@@ -571,7 +571,7 @@
 <para>Is a basic command line parser that matches arguments supplied by main with predetermined rules. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/CommandLine/Parser.h" line="38" column="1" bodyfile="Source/Utils/CommandLine/Parser.h" bodystart="37" bodyend="135"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Parser.h" bodystart="37" bodyend="135"/>
     <listofallmembers>
       <member refid="classMdDox_1_1CommandLine_1_1Parser_1a1a768497058891d7d2b1fcb1578e9949" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_argumentList</name></member>
       <member refid="classMdDox_1_1CommandLine_1_1Parser_1aeb057c4a0fd705df2915ced97aa4db42" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Parser</scope><name>_maxLongSwitch</name></member>

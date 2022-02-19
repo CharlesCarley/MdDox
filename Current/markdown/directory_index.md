@@ -11,13 +11,7 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <div class="icon-link">
-<img src="../images/folder.svg"/><a href="dir_f19befb0a20a037054255eb425fb4872.md#current">Current</a>
-</div>
-<div class="icon-link">
-<img src="../images/folder.svg"/><a href="dir_74389ed8173ad57b461b9d623a1f3867.md#source">Source</a>
-</div>
-<div class="icon-link">
-<img src="../images/folder.svg"/><a href="dir_7e461070e7b716e896e0d97cd6a82321.md#tools">Tools</a>
+<img src="../images/folder.svg"/><a href="dir_0fdaa85f2db5425911c36efff1ab1b08.md#pages">pages</a>
 </div>
 </div>
 </div>

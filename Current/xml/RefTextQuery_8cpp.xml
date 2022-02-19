@@ -5,129 +5,129 @@
     <includes refid="RefTextQuery_8h" local="yes">RefTextQuery.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <incdepgraph>
-      <node id="8352">
+      <node id="8350">
         <label>Utils/Console.h</label>
-        <childnode refid="8340" relation="include">
+        <childnode refid="8338" relation="include">
         </childnode>
       </node>
-      <node id="8346">
+      <node id="8344">
         <label>iomanip</label>
       </node>
-      <node id="8338">
+      <node id="8336">
         <label>functional</label>
       </node>
-      <node id="8335">
-        <label>Tools/Doxygen/RefTextQuery.cpp</label>
+      <node id="8333">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp</label>
         <link refid="RefTextQuery_8cpp"/>
-        <childnode refid="8336" relation="include">
-        </childnode>
-        <childnode refid="8354" relation="include">
-        </childnode>
-      </node>
-      <node id="8356">
-        <label>cstdint</label>
-      </node>
-      <node id="8348">
-        <label>Utils/Exception.h</label>
-        <childnode refid="8349" relation="include">
-        </childnode>
-        <childnode refid="8350" relation="include">
-        </childnode>
-        <childnode refid="8351" relation="include">
+        <childnode refid="8334" relation="include">
         </childnode>
         <childnode refid="8352" relation="include">
         </childnode>
-        <childnode refid="8340" relation="include">
-        </childnode>
       </node>
-      <node id="8350">
-        <label>stdexcept</label>
+      <node id="8354">
+        <label>cstdint</label>
       </node>
-      <node id="8344">
-        <label>string</label>
-      </node>
-      <node id="8337">
-        <label>Doxygen.h</label>
-        <childnode refid="8338" relation="include">
-        </childnode>
-        <childnode refid="8339" relation="include">
-        </childnode>
-        <childnode refid="8340" relation="include">
-        </childnode>
+      <node id="8346">
+        <label>Utils/Exception.h</label>
         <childnode refid="8347" relation="include">
         </childnode>
         <childnode refid="8348" relation="include">
         </childnode>
-      </node>
-      <node id="8349">
-        <label>exception</label>
-      </node>
-      <node id="8342">
-        <label>fstream</label>
-      </node>
-      <node id="8347">
-        <label>Xml/Node.h</label>
+        <childnode refid="8349" relation="include">
+        </childnode>
+        <childnode refid="8350" relation="include">
+        </childnode>
         <childnode refid="8338" relation="include">
         </childnode>
-        <childnode refid="8339" relation="include">
-        </childnode>
-        <childnode refid="8340" relation="include">
-        </childnode>
       </node>
-      <node id="8353">
-        <label>DoxRefKind.h</label>
+      <node id="8348">
+        <label>stdexcept</label>
+      </node>
+      <node id="8342">
+        <label>string</label>
+      </node>
+      <node id="8335">
+        <label>Doxygen.h</label>
+        <childnode refid="8336" relation="include">
+        </childnode>
         <childnode refid="8337" relation="include">
         </childnode>
-      </node>
-      <node id="8340">
-        <label>Utils/String.h</label>
-        <childnode refid="8341" relation="include">
-        </childnode>
-        <childnode refid="8342" relation="include">
-        </childnode>
-        <childnode refid="8343" relation="include">
-        </childnode>
-        <childnode refid="8344" relation="include">
-        </childnode>
-        <childnode refid="8339" relation="include">
+        <childnode refid="8338" relation="include">
         </childnode>
         <childnode refid="8345" relation="include">
         </childnode>
         <childnode refid="8346" relation="include">
         </childnode>
       </node>
+      <node id="8347">
+        <label>exception</label>
+      </node>
+      <node id="8340">
+        <label>fstream</label>
+      </node>
       <node id="8345">
-        <label>vector</label>
-      </node>
-      <node id="8351">
-        <label>utility</label>
-      </node>
-      <node id="8343">
-        <label>sstream</label>
-      </node>
-      <node id="8354">
-        <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="8355" relation="include">
+        <label>Xml/Node.h</label>
+        <childnode refid="8336" relation="include">
         </childnode>
-      </node>
-      <node id="8341">
-        <label>deque</label>
-      </node>
-      <node id="8339">
-        <label>unordered_map</label>
-      </node>
-      <node id="8336">
-        <label>RefTextQuery.h</label>
         <childnode refid="8337" relation="include">
         </childnode>
+        <childnode refid="8338" relation="include">
+        </childnode>
+      </node>
+      <node id="8351">
+        <label>DoxRefKind.h</label>
+        <childnode refid="8335" relation="include">
+        </childnode>
+      </node>
+      <node id="8338">
+        <label>Utils/String.h</label>
+        <childnode refid="8339" relation="include">
+        </childnode>
+        <childnode refid="8340" relation="include">
+        </childnode>
+        <childnode refid="8341" relation="include">
+        </childnode>
+        <childnode refid="8342" relation="include">
+        </childnode>
+        <childnode refid="8337" relation="include">
+        </childnode>
+        <childnode refid="8343" relation="include">
+        </childnode>
+        <childnode refid="8344" relation="include">
+        </childnode>
+      </node>
+      <node id="8343">
+        <label>vector</label>
+      </node>
+      <node id="8349">
+        <label>utility</label>
+      </node>
+      <node id="8341">
+        <label>sstream</label>
+      </node>
+      <node id="8352">
+        <label>TypeFilter/DoxygenFilter.h</label>
         <childnode refid="8353" relation="include">
         </childnode>
       </node>
-      <node id="8355">
-        <label>Utils/TypeFilter.h</label>
-        <childnode refid="8356" relation="include">
+      <node id="8339">
+        <label>deque</label>
+      </node>
+      <node id="8337">
+        <label>unordered_map</label>
+      </node>
+      <node id="8334">
+        <label>RefTextQuery.h</label>
+        <childnode refid="8335" relation="include">
         </childnode>
-        <childnode refid="8340" relation="include">
+        <childnode refid="8351" relation="include">
+        </childnode>
+      </node>
+      <node id="8353">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="8354" relation="include">
+        </childnode>
+        <childnode refid="8338" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -195,6 +195,6 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/RefTextQuery.cpp"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/RefTextQuery.cpp"/>
   </compounddef>
 </doxygen>

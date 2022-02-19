@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1TableQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::TableQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/TableQuery.h</includes>
+    <includes local="no">TableQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TableQuery_1a81f769b339edb6a21e2ff79800239c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="67" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="67" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TableQuery_1a64238a5ad0b1932eb847405e30eb3638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="68" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="68" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TableQuery_1a37be2025113ef1841e5ab39a7ff4ab19" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="70" bodyend="73"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TableQuery_1a8772e9ebbf3c28f9903280bfe92882dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="59" bodyend="68"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="79" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp" bodystart="59" bodyend="68"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="70" bodyend="75"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="84" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp" bodystart="70" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1TableQuery_1a13f2ccfb00fca36a7500a91d090f9f9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="54" bodyend="57"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="94" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp" bodystart="54" bodyend="57"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="49" bodyend="52"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="89" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp" bodystart="49" bodyend="52"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1af5396b174492eaed6d8566442df57554" compoundref="Node_8cpp" startline="117" endline="123">MdDox::Xml::Node::integer</references>
       </memberdef>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/TableQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="29" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.cpp" bodystart="29" bodyend="48"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -198,7 +198,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/TableQuery.h" line="65" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="64" bodyend="97"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" line="65" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/TableQuery.h" bodystart="64" bodyend="97"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>empty</name></member>

@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1MemberIndexQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::MemberIndexQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/MemberIndexQuery.h</includes>
+    <includes local="no">MemberIndexQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a3e158f6997139879521deeec7255c9a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="49" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1abdec906ecf0a4b00da8f7549d2792c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="50" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1acf4045f245ba4507d5c1a78f7d6ed841" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="52" column="1" bodyfile="Tools/Doxygen/MemberIndexQuery.h" bodystart="52" bodyend="55"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a5a5bae1112d62a0e6cbe0989eaa982f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">DoxMemberKindEnum</ref></type>
@@ -64,7 +64,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="61" column="1" bodyfile="Tools/Doxygen/MemberIndexQuery.cpp" bodystart="35" bodyend="40"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="61" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.cpp" bodystart="35" bodyend="40"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxMemberKind_1a6aba6ff41752f6ada40f7855784cd518" compoundref="DoxMemberKind_8cpp" startline="30" endline="61">MdDox::Doxygen::DoxMemberKind::get</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
@@ -86,7 +86,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/MemberIndexQuery.cpp" bodystart="42" bodyend="49"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="76" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.cpp" bodystart="42" bodyend="49"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -109,7 +109,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MemberIndexQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/MemberIndexQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="69" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.cpp" bodystart="28" bodyend="33"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -162,7 +162,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/MemberIndexQuery.h" line="47" column="1" bodyfile="Tools/Doxygen/MemberIndexQuery.h" bodystart="46" bodyend="79"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" line="47" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MemberIndexQuery.h" bodystart="46" bodyend="79"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::MemberIndexQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberIndexQuery</scope><name>empty</name></member>

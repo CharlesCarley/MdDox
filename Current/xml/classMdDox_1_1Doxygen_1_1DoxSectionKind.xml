@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1DoxSectionKind" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DoxSectionKind</compoundname>
-    <includes local="no">Tools/Doxygen/DoxSectionKind.h</includes>
+    <includes local="no">DoxSectionKind.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">DoxSectionKindEnum</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSectionKind.h" line="229" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.cpp" bodystart="30" bodyend="105"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h" line="229" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.cpp" bodystart="30" bodyend="105"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aab92c3b7adf9250340252cf086ddbacd4" compoundref="DoxSectionKind_8h" startline="82">MdDox::Doxygen::DSK_PRIVATE_STATIC_FUNC</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aab3f50f1d0a4d5816f951c20dd5e00ff5" compoundref="DoxSectionKind_8h" startline="86">MdDox::Doxygen::DSK_USER_DEFINED</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8aaa53780f4c4c0043fb1c40b63119001e3" compoundref="DoxSectionKind_8h" startline="90">MdDox::Doxygen::DSK_PUBLIC_TYPE</references>
@@ -63,7 +63,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxSectionKind.h" line="227" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.h" bodystart="226" bodyend="230"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h" line="227" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h" bodystart="226" bodyend="230"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxSectionKind_1a35a56c6b65ce7f9ac08bd0085d6a2164" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxSectionKind</scope><name>get</name></member>
     </listofallmembers>

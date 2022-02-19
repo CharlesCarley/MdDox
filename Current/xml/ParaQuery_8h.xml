@@ -3,187 +3,191 @@
   <compounddef id="ParaQuery_8h" kind="file" language="C++">
     <compoundname>ParaQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="DescriptionWriter_8cpp" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
-    <includedby refid="ParagraphWriter_8h" local="yes">Source/MdDoxTree/ParagraphWriter.h</includedby>
-    <includedby refid="BlockQuoteQuery_8cpp" local="yes">Tools/Doxygen/BlockQuoteQuery.cpp</includedby>
-    <includedby refid="CaptionQuery_8cpp" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
-    <includedby refid="CopyQuery_8cpp" local="yes">Tools/Doxygen/CopyQuery.cpp</includedby>
-    <includedby refid="DescriptionQuery_8cpp" local="yes">Tools/Doxygen/DescriptionQuery.cpp</includedby>
-    <includedby refid="EntryQuery_8cpp" local="yes">Tools/Doxygen/EntryQuery.cpp</includedby>
-    <includedby refid="FileQuery_8cpp" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
-    <includedby refid="HeadingQuery_8cpp" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
-    <includedby refid="ImageQuery_8cpp" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
-    <includedby refid="InternalQuery_8cpp" local="yes">Tools/Doxygen/InternalQuery.cpp</includedby>
-    <includedby refid="InternalS1Query_8cpp" local="yes">Tools/Doxygen/InternalS1Query.cpp</includedby>
-    <includedby refid="InternalS2Query_8cpp" local="yes">Tools/Doxygen/InternalS2Query.cpp</includedby>
-    <includedby refid="InternalS3Query_8cpp" local="yes">Tools/Doxygen/InternalS3Query.cpp</includedby>
-    <includedby refid="InternalS4Query_8cpp" local="yes">Tools/Doxygen/InternalS4Query.cpp</includedby>
-    <includedby refid="LanguageQuery_8cpp" local="yes">Tools/Doxygen/LanguageQuery.cpp</includedby>
-    <includedby refid="ListItemQuery_8cpp" local="yes">Tools/Doxygen/ListItemQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
-    <includedby refid="ParBlockQuery_8cpp" local="yes">Tools/Doxygen/ParBlockQuery.cpp</includedby>
-    <includedby refid="Sect1Query_8cpp" local="yes">Tools/Doxygen/Sect1Query.cpp</includedby>
-    <includedby refid="Sect2Query_8cpp" local="yes">Tools/Doxygen/Sect2Query.cpp</includedby>
-    <includedby refid="Sect3Query_8cpp" local="yes">Tools/Doxygen/Sect3Query.cpp</includedby>
-    <includedby refid="Sect4Query_8cpp" local="yes">Tools/Doxygen/Sect4Query.cpp</includedby>
-    <includedby refid="SimpleSectQuery_8cpp" local="yes">Tools/Doxygen/SimpleSectQuery.cpp</includedby>
-    <includedby refid="TitleQuery_8cpp" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
-    <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
-    <includedby refid="UrlLinkQuery_8cpp" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
+    <includedby refid="DescriptionWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</includedby>
+    <includedby refid="ParagraphWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.h</includedby>
+    <includedby refid="BlockQuoteQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.cpp</includedby>
+    <includedby refid="CaptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="CopyQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</includedby>
+    <includedby refid="DescriptionQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp</includedby>
+    <includedby refid="EntryQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp</includedby>
+    <includedby refid="FileQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="HeadingQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="ImageQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="InternalQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp</includedby>
+    <includedby refid="InternalS1Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS1Query.cpp</includedby>
+    <includedby refid="InternalS2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</includedby>
+    <includedby refid="InternalS3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.cpp</includedby>
+    <includedby refid="InternalS4Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.cpp</includedby>
+    <includedby refid="LanguageQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/LanguageQuery.cpp</includedby>
+    <includedby refid="ListItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="ParBlockQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp</includedby>
+    <includedby refid="Sect1Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect1Query.cpp</includedby>
+    <includedby refid="Sect2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</includedby>
+    <includedby refid="Sect3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</includedby>
+    <includedby refid="Sect4Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp</includedby>
+    <includedby refid="SimpleSectQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</includedby>
+    <includedby refid="TitleQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="UrlLinkQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</includedby>
     <incdepgraph>
-      <node id="8164">
-        <label>Utils/Console.h</label>
-        <childnode refid="8152" relation="include">
-        </childnode>
-      </node>
-      <node id="8158">
-        <label>iomanip</label>
-      </node>
-      <node id="8150">
-        <label>functional</label>
-      </node>
-      <node id="8160">
-        <label>Utils/Exception.h</label>
-        <childnode refid="8161" relation="include">
-        </childnode>
-        <childnode refid="8162" relation="include">
-        </childnode>
-        <childnode refid="8163" relation="include">
-        </childnode>
-        <childnode refid="8164" relation="include">
-        </childnode>
-        <childnode refid="8152" relation="include">
-        </childnode>
-      </node>
       <node id="8162">
-        <label>stdexcept</label>
-      </node>
-      <node id="8156">
-        <label>string</label>
-      </node>
-      <node id="8149">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="8150" relation="include">
         </childnode>
-        <childnode refid="8151" relation="include">
-        </childnode>
-        <childnode refid="8152" relation="include">
-        </childnode>
+      </node>
+      <node id="8156">
+        <label>iomanip</label>
+      </node>
+      <node id="8148">
+        <label>functional</label>
+      </node>
+      <node id="8158">
+        <label>Utils/Exception.h</label>
         <childnode refid="8159" relation="include">
         </childnode>
         <childnode refid="8160" relation="include">
         </childnode>
-      </node>
-      <node id="8161">
-        <label>exception</label>
-      </node>
-      <node id="8154">
-        <label>fstream</label>
-      </node>
-      <node id="8159">
-        <label>Xml/Node.h</label>
+        <childnode refid="8161" relation="include">
+        </childnode>
+        <childnode refid="8162" relation="include">
+        </childnode>
         <childnode refid="8150" relation="include">
         </childnode>
-        <childnode refid="8151" relation="include">
-        </childnode>
-        <childnode refid="8152" relation="include">
-        </childnode>
       </node>
-      <node id="8148">
-        <label>Tools/Doxygen/ParaQuery.h</label>
-        <link refid="ParaQuery_8h"/>
+      <node id="8160">
+        <label>stdexcept</label>
+      </node>
+      <node id="8154">
+        <label>string</label>
+      </node>
+      <node id="8147">
+        <label>Doxygen.h</label>
+        <childnode refid="8148" relation="include">
+        </childnode>
         <childnode refid="8149" relation="include">
         </childnode>
-      </node>
-      <node id="8152">
-        <label>Utils/String.h</label>
-        <childnode refid="8153" relation="include">
-        </childnode>
-        <childnode refid="8154" relation="include">
-        </childnode>
-        <childnode refid="8155" relation="include">
-        </childnode>
-        <childnode refid="8156" relation="include">
-        </childnode>
-        <childnode refid="8151" relation="include">
+        <childnode refid="8150" relation="include">
         </childnode>
         <childnode refid="8157" relation="include">
         </childnode>
         <childnode refid="8158" relation="include">
         </childnode>
       </node>
-      <node id="8157">
-        <label>vector</label>
+      <node id="8159">
+        <label>exception</label>
       </node>
-      <node id="8163">
-        <label>utility</label>
+      <node id="8152">
+        <label>fstream</label>
+      </node>
+      <node id="8157">
+        <label>Xml/Node.h</label>
+        <childnode refid="8148" relation="include">
+        </childnode>
+        <childnode refid="8149" relation="include">
+        </childnode>
+        <childnode refid="8150" relation="include">
+        </childnode>
+      </node>
+      <node id="8146">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.h</label>
+        <link refid="ParaQuery_8h"/>
+        <childnode refid="8147" relation="include">
+        </childnode>
+      </node>
+      <node id="8150">
+        <label>Utils/String.h</label>
+        <childnode refid="8151" relation="include">
+        </childnode>
+        <childnode refid="8152" relation="include">
+        </childnode>
+        <childnode refid="8153" relation="include">
+        </childnode>
+        <childnode refid="8154" relation="include">
+        </childnode>
+        <childnode refid="8149" relation="include">
+        </childnode>
+        <childnode refid="8155" relation="include">
+        </childnode>
+        <childnode refid="8156" relation="include">
+        </childnode>
       </node>
       <node id="8155">
-        <label>sstream</label>
+        <label>vector</label>
+      </node>
+      <node id="8161">
+        <label>utility</label>
       </node>
       <node id="8153">
-        <label>deque</label>
+        <label>sstream</label>
       </node>
       <node id="8151">
+        <label>deque</label>
+      </node>
+      <node id="8149">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8182">
-        <label>Tools/Doxygen/InternalQuery.cpp</label>
-      </node>
-      <node id="8193">
-        <label>Tools/Doxygen/Sect2Query.cpp</label>
-      </node>
-      <node id="8192">
-        <label>Tools/Doxygen/Sect1Query.cpp</label>
-      </node>
-      <node id="8178">
-        <label>Tools/Doxygen/EntryQuery.cpp</label>
-      </node>
-      <node id="8176">
-        <label>Tools/Doxygen/CopyQuery.cpp</label>
-      </node>
-      <node id="8190">
-        <label>Tools/Doxygen/ParaQuery.cpp</label>
-      </node>
-      <node id="8181">
-        <label>Tools/Doxygen/ImageQuery.cpp</label>
-      </node>
       <node id="8180">
-        <label>Tools/Doxygen/HeadingQuery.cpp</label>
-      </node>
-      <node id="8199">
-        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalQuery.cpp</label>
       </node>
       <node id="8191">
-        <label>Tools/Doxygen/ParBlockQuery.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</label>
       </node>
-      <node id="8198">
-        <label>Tools/Doxygen/TocItemQuery.cpp</label>
+      <node id="8190">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect1Query.cpp</label>
       </node>
-      <node id="8189">
-        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      <node id="8176">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/EntryQuery.cpp</label>
       </node>
-      <node id="8173">
-        <label>Source/MdDoxTree/Section4Writer.cpp</label>
+      <node id="8174">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CopyQuery.cpp</label>
       </node>
-      <node id="8175">
-        <label>Tools/Doxygen/CaptionQuery.cpp</label>
+      <node id="8188">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
       </node>
-      <node id="8172">
-        <label>Source/MdDoxTree/Section3Writer.cpp</label>
+      <node id="8179">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="8178">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/HeadingQuery.cpp</label>
       </node>
       <node id="8197">
-        <label>Tools/Doxygen/TitleQuery.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/UrlLinkQuery.cpp</label>
       </node>
-      <node id="8165">
-        <label>Tools/Doxygen/ParaQuery.h</label>
+      <node id="8189">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.cpp</label>
+      </node>
+      <node id="8196">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="8187">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="8171">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</label>
+      </node>
+      <node id="8173">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CaptionQuery.cpp</label>
+      </node>
+      <node id="8170">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
+      </node>
+      <node id="8195">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TitleQuery.cpp</label>
+      </node>
+      <node id="8163">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.h</label>
         <link refid="ParaQuery_8h"/>
-        <childnode refid="8166" relation="include">
+        <childnode refid="8164" relation="include">
         </childnode>
-        <childnode refid="8167" relation="include">
+        <childnode refid="8165" relation="include">
+        </childnode>
+        <childnode refid="8172" relation="include">
+        </childnode>
+        <childnode refid="8173" relation="include">
         </childnode>
         <childnode refid="8174" relation="include">
         </childnode>
@@ -233,26 +237,26 @@
         </childnode>
         <childnode refid="8197" relation="include">
         </childnode>
-        <childnode refid="8198" relation="include">
-        </childnode>
-        <childnode refid="8199" relation="include">
-        </childnode>
       </node>
-      <node id="8171">
-        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+      <node id="8169">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
+      </node>
+      <node id="8164">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
       <node id="8166">
-        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="8168">
-        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      <node id="8186">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ListItemQuery.cpp</label>
       </node>
-      <node id="8188">
-        <label>Tools/Doxygen/ListItemQuery.cpp</label>
-      </node>
-      <node id="8167">
-        <label>Source/MdDoxTree/ParagraphWriter.h</label>
+      <node id="8165">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.h</label>
+        <childnode refid="8164" relation="include">
+        </childnode>
         <childnode refid="8166" relation="include">
+        </childnode>
+        <childnode refid="8167" relation="include">
         </childnode>
         <childnode refid="8168" relation="include">
         </childnode>
@@ -262,49 +266,45 @@
         </childnode>
         <childnode refid="8171" relation="include">
         </childnode>
-        <childnode refid="8172" relation="include">
-        </childnode>
-        <childnode refid="8173" relation="include">
-        </childnode>
       </node>
-      <node id="8170">
-        <label>Source/MdDoxTree/Section1Writer.cpp</label>
+      <node id="8168">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="8169">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
-      </node>
-      <node id="8179">
-        <label>Tools/Doxygen/FileQuery.cpp</label>
-      </node>
-      <node id="8195">
-        <label>Tools/Doxygen/Sect4Query.cpp</label>
-      </node>
-      <node id="8187">
-        <label>Tools/Doxygen/LanguageQuery.cpp</label>
-      </node>
-      <node id="8194">
-        <label>Tools/Doxygen/Sect3Query.cpp</label>
-      </node>
-      <node id="8185">
-        <label>Tools/Doxygen/InternalS3Query.cpp</label>
+      <node id="8167">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
       <node id="8177">
-        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/FileQuery.cpp</label>
       </node>
-      <node id="8186">
-        <label>Tools/Doxygen/InternalS4Query.cpp</label>
+      <node id="8193">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect4Query.cpp</label>
+      </node>
+      <node id="8185">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/LanguageQuery.cpp</label>
+      </node>
+      <node id="8192">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</label>
       </node>
       <node id="8183">
-        <label>Tools/Doxygen/InternalS1Query.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS3Query.cpp</label>
       </node>
-      <node id="8174">
-        <label>Tools/Doxygen/BlockQuoteQuery.cpp</label>
+      <node id="8175">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp</label>
       </node>
       <node id="8184">
-        <label>Tools/Doxygen/InternalS2Query.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS4Query.cpp</label>
       </node>
-      <node id="8196">
-        <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
+      <node id="8181">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS1Query.cpp</label>
+      </node>
+      <node id="8172">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="8182">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</label>
+      </node>
+      <node id="8194">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/SimpleSectQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1ParaQuery" prot="public">MdDox::Doxygen::ParaQuery</innerclass>
@@ -541,6 +541,6 @@
 <codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="587"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/ParaQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.h"/>
   </compounddef>
 </doxygen>

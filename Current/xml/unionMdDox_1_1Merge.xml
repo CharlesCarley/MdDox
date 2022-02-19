@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="232" column="1" bodyfile="Source/Utils/String.cpp" bodystart="232" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/String.cpp" line="232" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/String.cpp" bodystart="232" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="unionMdDox_1_1Merge_1ae3f5124be758d5c50a6afd8e34347d7c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="231" column="1" bodyfile="Source/Utils/String.cpp" bodystart="231" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/String.cpp" line="231" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/String.cpp" bodystart="231" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="234" column="1" bodyfile="Source/Utils/String.cpp" bodystart="234" bodyend="237"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/String.cpp" line="234" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/String.cpp" bodystart="234" bodyend="237"/>
         <references refid="unionMdDox_1_1Merge_1ae3f5124be758d5c50a6afd8e34347d7c" compoundref="String_8cpp" startline="231">i</references>
       </memberdef>
       </sectiondef>
@@ -69,7 +69,7 @@
         <label>uint8_t</label>
       </node>
     </collaborationgraph>
-    <location file="Source/Utils/String.cpp" line="230" column="1" bodyfile="Source/Utils/String.cpp" bodystart="229" bodyend="238"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/String.cpp" line="230" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/String.cpp" bodystart="229" bodyend="238"/>
     <listofallmembers>
       <member refid="unionMdDox_1_1Merge_1a9b71915964768f4d254bad795d80dbd5" prot="public" virt="non-virtual"><scope>MdDox::Merge</scope><name>b</name></member>
       <member refid="unionMdDox_1_1Merge_1ae3f5124be758d5c50a6afd8e34347d7c" prot="public" virt="non-virtual"><scope>MdDox::Merge</scope><name>i</name></member>

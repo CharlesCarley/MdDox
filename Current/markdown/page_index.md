@@ -11,9 +11,6 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <div class="icon-link">
-<img src="../images/file.svg"/><a href="Design.md#design">Design</a>
-</div>
-<div class="icon-link">
 <img src="../images/file.svg"/><a href="Html.md#html">Html</a>
 </div>
 <div class="icon-link">

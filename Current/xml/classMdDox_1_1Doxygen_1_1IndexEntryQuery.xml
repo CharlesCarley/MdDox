@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::IndexEntryQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/IndexEntryQuery.h</includes>
+    <includes local="no">IndexEntryQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a011b66ad350500c132b0243020dfdc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/IndexEntryQuery.h" line="47" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a2d2e549d0a1e7f7420553435ce7aaf3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/IndexEntryQuery.h" line="48" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1IndexEntryQuery_1a7a82b2eb565c8813e1933501f4e1221b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/IndexEntryQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/IndexEntryQuery.h" bodystart="50" bodyend="53"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" bodystart="50" bodyend="53"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -100,7 +100,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/IndexEntryQuery.h" line="45" column="1" bodyfile="Tools/Doxygen/IndexEntryQuery.h" bodystart="44" bodyend="55"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/IndexEntryQuery.h" bodystart="44" bodyend="55"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>empty</name></member>

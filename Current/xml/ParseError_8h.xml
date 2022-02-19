@@ -3,45 +3,49 @@
   <compounddef id="ParseError_8h" kind="file" language="C++">
     <compoundname>ParseError.h</compoundname>
     <includes refid="Exception_8h" local="yes">Utils/Exception.h</includes>
-    <includedby refid="ParseError_8cpp" local="yes">Source/Utils/ParserBase/ParseError.cpp</includedby>
-    <includedby refid="ParserBase_8cpp" local="yes">Source/Utils/ParserBase/ParserBase.cpp</includedby>
-    <includedby refid="ScannerBase_8cpp" local="yes">Source/Utils/ParserBase/ScannerBase.cpp</includedby>
+    <includedby refid="ParseError_8cpp" local="yes">F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.cpp</includedby>
+    <includedby refid="ParserBase_8cpp" local="yes">F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp</includedby>
+    <includedby refid="ScannerBase_8cpp" local="yes">F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp</includedby>
     <incdepgraph>
-      <node id="3540">
+      <node id="3538">
         <label>Utils/Console.h</label>
-        <childnode refid="3541" relation="include">
+        <childnode refid="3539" relation="include">
         </childnode>
       </node>
-      <node id="3548">
+      <node id="3546">
         <label>iomanip</label>
       </node>
-      <node id="3536">
+      <node id="3534">
         <label>Utils/Exception.h</label>
+        <childnode refid="3535" relation="include">
+        </childnode>
+        <childnode refid="3536" relation="include">
+        </childnode>
         <childnode refid="3537" relation="include">
         </childnode>
         <childnode refid="3538" relation="include">
         </childnode>
         <childnode refid="3539" relation="include">
         </childnode>
+      </node>
+      <node id="3536">
+        <label>stdexcept</label>
+      </node>
+      <node id="3543">
+        <label>string</label>
+      </node>
+      <node id="3535">
+        <label>exception</label>
+      </node>
+      <node id="3541">
+        <label>fstream</label>
+      </node>
+      <node id="3539">
+        <label>Utils/String.h</label>
         <childnode refid="3540" relation="include">
         </childnode>
         <childnode refid="3541" relation="include">
         </childnode>
-      </node>
-      <node id="3538">
-        <label>stdexcept</label>
-      </node>
-      <node id="3545">
-        <label>string</label>
-      </node>
-      <node id="3537">
-        <label>exception</label>
-      </node>
-      <node id="3543">
-        <label>fstream</label>
-      </node>
-      <node id="3541">
-        <label>Utils/String.h</label>
         <childnode refid="3542" relation="include">
         </childnode>
         <childnode refid="3543" relation="include">
@@ -52,51 +56,47 @@
         </childnode>
         <childnode refid="3546" relation="include">
         </childnode>
-        <childnode refid="3547" relation="include">
-        </childnode>
-        <childnode refid="3548" relation="include">
-        </childnode>
       </node>
-      <node id="3547">
+      <node id="3545">
         <label>vector</label>
       </node>
-      <node id="3539">
+      <node id="3537">
         <label>utility</label>
       </node>
-      <node id="3544">
+      <node id="3542">
         <label>sstream</label>
       </node>
-      <node id="3535">
-        <label>Source/Utils/ParserBase/ParseError.h</label>
+      <node id="3533">
+        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h</label>
         <link refid="ParseError_8h"/>
-        <childnode refid="3536" relation="include">
+        <childnode refid="3534" relation="include">
         </childnode>
       </node>
-      <node id="3542">
+      <node id="3540">
         <label>deque</label>
       </node>
-      <node id="3546">
+      <node id="3544">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3550">
-        <label>Source/Utils/ParserBase/ParseError.cpp</label>
-      </node>
-      <node id="3551">
-        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
-      </node>
-      <node id="3552">
-        <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
+      <node id="3548">
+        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.cpp</label>
       </node>
       <node id="3549">
-        <label>Source/Utils/ParserBase/ParseError.h</label>
+        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParserBase.cpp</label>
+      </node>
+      <node id="3550">
+        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp</label>
+      </node>
+      <node id="3547">
+        <label>F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h</label>
         <link refid="ParseError_8h"/>
+        <childnode refid="3548" relation="include">
+        </childnode>
+        <childnode refid="3549" relation="include">
+        </childnode>
         <childnode refid="3550" relation="include">
-        </childnode>
-        <childnode refid="3551" relation="include">
-        </childnode>
-        <childnode refid="3552" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -163,6 +163,6 @@
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/Utils/ParserBase/ParseError.h"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ParseError.h"/>
   </compounddef>
 </doxygen>

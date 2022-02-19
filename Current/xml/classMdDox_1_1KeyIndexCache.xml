@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1KeyIndexCache" kind="class" language="C++" prot="public">
     <compoundname>MdDox::KeyIndexCache</compoundname>
-    <includes local="no">Source/Utils/IndexCache.h</includes>
+    <includes local="no">IndexCache.h</includes>
     <templateparamlist>
       <param>
         <type>typename Key</type>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="167" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="167" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="167" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMdDox_1_1KeyIndexCache_1aa88b20de0749e38302b6bc2c32dc651d" prot="public" static="no">
         <type>std::unordered_map&lt; Key, size_t &gt;</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="166" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="166" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="166" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="170" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="170" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="170" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1KeyIndexCache_1a045cb5e8c24de46f4541e2de95967b5b" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1KeyIndexCache_1a9f57af0f03626569c6eda2ae40c4ccae" kindref="member">Array</ref></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="171" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="171" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="171" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="192" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="192" bodyend="198"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="192" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="192" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a84a1816aa313dc16265e613429dfb6ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Value &amp;</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="200" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="200" bodyend="205"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="200" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="200" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a3f8c410b767ad624a796cd5426e3d820" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Array::const_iterator</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="239" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="239" bodyend="242"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="239" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="239" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a392af638a606b9c2a2050410694a869f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="233" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="233" bodyend="237"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="233" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="233" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a976c0c972f39a8550935cb6fd2575a19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="207" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="207" bodyend="212"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="207" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="207" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a0025f082c089b1ca7408b18307940fd7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="214" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="214" bodyend="218"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="214" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="214" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1ad969f9d678761c05d1094b7932f54265" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Array::const_iterator</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="244" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="244" bodyend="247"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="244" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="244" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a7bdc10d563bfb66a7b4e0c3affb484fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="220" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="220" bodyend="226"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="220" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="220" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a7fae4b84bbe5f79530d6019454f1d36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="174" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="174" bodyend="190"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="174" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="174" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1KeyIndexCache_1a595fbc7f9dae84f151e9a0d9b204d7b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -228,14 +228,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/IndexCache.h" line="228" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="228" bodyend="231"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="228" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="228" bodyend="231"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/IndexCache.h" line="164" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="163" bodyend="248"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/IndexCache.h" line="164" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/IndexCache.h" bodystart="163" bodyend="248"/>
     <listofallmembers>
       <member refid="classMdDox_1_1KeyIndexCache_1ae5152e6504ea1d91c8ba292f18238423" prot="private" virt="non-virtual"><scope>MdDox::KeyIndexCache</scope><name>_elements</name></member>
       <member refid="classMdDox_1_1KeyIndexCache_1a045cb5e8c24de46f4541e2de95967b5b" prot="private" virt="non-virtual"><scope>MdDox::KeyIndexCache</scope><name>_list</name></member>

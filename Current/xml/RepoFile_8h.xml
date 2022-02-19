@@ -3,22 +3,26 @@
   <compounddef id="RepoFile_8h" kind="file" language="C++">
     <compoundname>RepoFile.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Location_8h" local="yes">Source/MdDoxTree/Location.h</includedby>
-    <includedby refid="RepoFile_8cpp" local="yes">Source/MdDoxTree/RepoFile.cpp</includedby>
-    <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
-    <includedby refid="SourceFile_8h" local="yes">Source/MdDoxTree/SourceFile.h</includedby>
+    <includedby refid="Location_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Location.h</includedby>
+    <includedby refid="RepoFile_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.cpp</includedby>
+    <includedby refid="SourceFile_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp</includedby>
+    <includedby refid="SourceFile_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h</includedby>
     <incdepgraph>
-      <node id="1956">
+      <node id="1954">
         <label>iomanip</label>
       </node>
-      <node id="1953">
+      <node id="1951">
         <label>string</label>
       </node>
-      <node id="1951">
+      <node id="1949">
         <label>fstream</label>
       </node>
-      <node id="1949">
+      <node id="1947">
         <label>Utils/String.h</label>
+        <childnode refid="1948" relation="include">
+        </childnode>
+        <childnode refid="1949" relation="include">
+        </childnode>
         <childnode refid="1950" relation="include">
         </childnode>
         <childnode refid="1951" relation="include">
@@ -29,63 +33,59 @@
         </childnode>
         <childnode refid="1954" relation="include">
         </childnode>
-        <childnode refid="1955" relation="include">
-        </childnode>
-        <childnode refid="1956" relation="include">
-        </childnode>
       </node>
-      <node id="1955">
+      <node id="1953">
         <label>vector</label>
       </node>
-      <node id="1952">
+      <node id="1950">
         <label>sstream</label>
       </node>
-      <node id="1948">
-        <label>Source/MdDoxTree/RepoFile.h</label>
+      <node id="1946">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.h</label>
         <link refid="RepoFile_8h"/>
-        <childnode refid="1949" relation="include">
+        <childnode refid="1947" relation="include">
         </childnode>
       </node>
-      <node id="1950">
+      <node id="1948">
         <label>deque</label>
       </node>
-      <node id="1954">
+      <node id="1952">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1960">
-        <label>Source/MdDoxTree/RepoFile.cpp</label>
-      </node>
-      <node id="1961">
-        <label>Source/MdDoxTree/SourceFile.cpp</label>
-      </node>
       <node id="1958">
-        <label>Source/MdDoxTree/Location.h</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.cpp</label>
+      </node>
+      <node id="1959">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp</label>
+      </node>
+      <node id="1956">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Location.h</label>
+        <childnode refid="1957" relation="include">
+        </childnode>
+      </node>
+      <node id="1955">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.h</label>
+        <link refid="RepoFile_8h"/>
+        <childnode refid="1956" relation="include">
+        </childnode>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+      </node>
+      <node id="1960">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h</label>
+        <childnode refid="1956" relation="include">
+        </childnode>
         <childnode refid="1959" relation="include">
         </childnode>
       </node>
       <node id="1957">
-        <label>Source/MdDoxTree/RepoFile.h</label>
-        <link refid="RepoFile_8h"/>
-        <childnode refid="1958" relation="include">
-        </childnode>
-        <childnode refid="1960" relation="include">
-        </childnode>
-        <childnode refid="1961" relation="include">
-        </childnode>
-        <childnode refid="1962" relation="include">
-        </childnode>
-      </node>
-      <node id="1962">
-        <label>Source/MdDoxTree/SourceFile.h</label>
-        <childnode refid="1958" relation="include">
-        </childnode>
-        <childnode refid="1961" relation="include">
-        </childnode>
-      </node>
-      <node id="1959">
-        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1RepoFile" prot="public">MdDox::RepoFile</innerclass>
@@ -164,6 +164,6 @@
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/MdDoxTree/RepoFile.h"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/RepoFile.h"/>
   </compounddef>
 </doxygen>

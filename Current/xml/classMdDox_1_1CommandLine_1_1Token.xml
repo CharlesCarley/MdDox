@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1CommandLine_1_1Token" kind="class" language="C++" prot="public">
     <compoundname>MdDox::CommandLine::Token</compoundname>
-    <includes local="no">Source/Utils/CommandLine/Token.h</includes>
+    <includes local="no">Token.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Token_1a6e3bf6a3679d29be0a62c3496de7f9e9" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="50" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="50" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1CommandLine_1_1Token_1ae2b3b848b68247feb8561c3cae000aab" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="51" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="51" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="51" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="54" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="54" bodyend="58"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="54" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1a9ecda3f8cec12066e20c658f0c3cf32f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="75" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="75" bodyend="78"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1a58a0f43b590b5e9302d04790430a0ee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="80" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="80" bodyend="83"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1a345569b3af942f112056b914120626a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="85" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="85" bodyend="89"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="85" bodyend="89"/>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a1d6999ba00df0f8fe5044a5fe91e37ad" compoundref="Utils_2CommandLine_2Token_8h" startline="43">MdDox::CommandLine::TOK_EOS</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abd4f5663daaf010fb3d3fdbf5922050d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="60" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="60" bodyend="63"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="60" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1ac1e9b7d3db4de612342e2a2053462cab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="70" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="70" bodyend="73"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Token_1abcd1c725a7b8dae7dd06462078ffd7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -134,14 +134,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Token.h" line="65" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="65" bodyend="68"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="65" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="65" bodyend="68"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/CommandLine/Token.h" line="48" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="47" bodyend="90"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/CommandLine/Token.h" bodystart="47" bodyend="90"/>
     <listofallmembers>
       <member refid="classMdDox_1_1CommandLine_1_1Token_1a6e3bf6a3679d29be0a62c3496de7f9e9" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Token</scope><name>_type</name></member>
       <member refid="classMdDox_1_1CommandLine_1_1Token_1ae2b3b848b68247feb8561c3cae000aab" prot="private" virt="non-virtual"><scope>MdDox::CommandLine::Token</scope><name>_value</name></member>

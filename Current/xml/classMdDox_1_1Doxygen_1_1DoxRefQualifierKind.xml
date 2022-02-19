@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DoxRefQualifierKind</compoundname>
-    <includes local="no">Tools/Doxygen/DoxRefQualifierKind.h</includes>
+    <includes local="no">DoxRefQualifierKind.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind_1a42b121dfb560f7f100d59da6b346514d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504d" kindref="member">DoxRefQualifierKindEnum</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefQualifierKind.h" line="59" column="1" bodyfile="Tools/Doxygen/DoxRefQualifierKind.cpp" bodystart="30" bodyend="37"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.cpp" bodystart="30" bodyend="37"/>
         <references refid="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504da3b0c039d3d4459cb7a288e49a9681e71" compoundref="DoxRefQualifierKind_8h" startline="48">MdDox::Doxygen::DRQK_LVALUE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504da6706f881655487af25be108dd3eeef2f" compoundref="DoxRefQualifierKind_8h" startline="52">MdDox::Doxygen::DRQK_RVALUE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504da654de7ce1b84494612eb2bd107a4ac17" compoundref="DoxRefQualifierKind_8h" startline="44">MdDox::Doxygen::DRQK_INVALID</references>
@@ -29,7 +29,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxRefQualifierKind.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxRefQualifierKind.h" bodystart="56" bodyend="60"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h" line="57" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h" bodystart="56" bodyend="60"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind_1a42b121dfb560f7f100d59da6b346514d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxRefQualifierKind</scope><name>get</name></member>
     </listofallmembers>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1GenApi_1_1Database" kind="class" language="C++" prot="public">
     <compoundname>MdDox::GenApi::Database</compoundname>
-    <includes local="no">Tools/GenApi/Database.h</includes>
+    <includes local="no">Database.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="43" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="43" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1Xml_1ac338b08335403d9c90feedb1f3c9ee95" kindref="member">NodeMap</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="44" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="44" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1_1GenApi_1af2b4cd88490b50caad596b4c4e489640" kindref="member">ObjectMap</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="45" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="45" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="48" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a7d77b93ac82d530d930d7743fbca3216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="49" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a38d737f028d88ce9ef520e178f642bd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>NodeMap::const_iterator</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="58" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="58" bodyend="61"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="58" bodyend="61"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a42fa5011abd177fcc61f1c3878f98d97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="74" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="85" bodyend="88"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="85" bodyend="88"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a1d14b7224daf22a5679edca764fa2bb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="63" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="63" bodyend="66"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="63" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="63" bodyend="66"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a05266f9da6bd09214427884b693ef187" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="68" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="68" bodyend="71"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="68" bodyend="71"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1ad6a1847e7d3a2894bce36990ac0c71cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="51" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="29" bodyend="32"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="51" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="29" bodyend="32"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1a85b93f8db61500ba827db235c6cf647b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="55" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="50" bodyend="55"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="50" bodyend="55"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" compoundref="Database_8h" startline="44">_nodes</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" compoundref="Database_8cpp" startline="34" endline="40">value</references>
       </memberdef>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="56" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="57" bodyend="62"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="57" bodyend="62"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
         <references refid="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" compoundref="Database_8cpp" startline="34" endline="40">value</references>
       </memberdef>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="53" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="42" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="53" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="42" bodyend="48"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1aa3c3f15fcc134a62d29f42472c6abc16" compoundref="Database_8h" startline="45">_objects</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1aa76b00920ea8d6a9c10954c2c080ac99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="73" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="64" bodyend="83"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="73" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="64" bodyend="83"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Database_1ac0802fd155b2470a15b89208b7087275" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Database.h" line="52" column="1" bodyfile="Tools/GenApi/Database.cpp" bodystart="34" bodyend="40"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="52" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.cpp" bodystart="34" bodyend="40"/>
         <references refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" compoundref="Database_8h" startline="43">_data</references>
       </memberdef>
       </sectiondef>
@@ -283,7 +283,7 @@
         <label>unordered_map&lt; String, Object *&gt;</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/GenApi/Database.h" line="41" column="1" bodyfile="Tools/GenApi/Database.h" bodystart="40" bodyend="75"/>
+    <location file="F:/Emulation/MdDox/Tools/GenApi/Database.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Database.h" bodystart="40" bodyend="75"/>
     <listofallmembers>
       <member refid="classMdDox_1_1GenApi_1_1Database_1a333d113ffec08bb0fdee4f102e68fbce" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Database</scope><name>_data</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Database_1a4a19e4b52ac28b38c7ba05c87711d9b2" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Database</scope><name>_nodes</name></member>

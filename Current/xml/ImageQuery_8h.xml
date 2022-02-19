@@ -4,138 +4,138 @@
     <compoundname>ImageQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxImageKind_8h" local="yes">DoxImageKind.h</includes>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="ImageQuery_8cpp" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
-    <includedby refid="MarkupQuery_8cpp" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
-    <includedby refid="ParaQuery_8cpp" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="ImageQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="MarkupQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="ParaQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</includedby>
     <incdepgraph>
-      <node id="6850">
-        <label>Utils/Console.h</label>
-        <childnode refid="6838" relation="include">
-        </childnode>
-      </node>
-      <node id="6844">
-        <label>iomanip</label>
-      </node>
-      <node id="6836">
-        <label>functional</label>
-      </node>
-      <node id="6846">
-        <label>Utils/Exception.h</label>
-        <childnode refid="6847" relation="include">
-        </childnode>
-        <childnode refid="6848" relation="include">
-        </childnode>
-        <childnode refid="6849" relation="include">
-        </childnode>
-        <childnode refid="6850" relation="include">
-        </childnode>
-        <childnode refid="6838" relation="include">
-        </childnode>
-      </node>
-      <node id="6851">
-        <label>DoxImageKind.h</label>
-        <childnode refid="6835" relation="include">
-        </childnode>
-      </node>
       <node id="6848">
-        <label>stdexcept</label>
-      </node>
-      <node id="6842">
-        <label>string</label>
-      </node>
-      <node id="6835">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="6836" relation="include">
         </childnode>
-        <childnode refid="6837" relation="include">
-        </childnode>
-        <childnode refid="6838" relation="include">
-        </childnode>
+      </node>
+      <node id="6842">
+        <label>iomanip</label>
+      </node>
+      <node id="6834">
+        <label>functional</label>
+      </node>
+      <node id="6844">
+        <label>Utils/Exception.h</label>
         <childnode refid="6845" relation="include">
         </childnode>
         <childnode refid="6846" relation="include">
         </childnode>
-      </node>
-      <node id="6847">
-        <label>exception</label>
-      </node>
-      <node id="6840">
-        <label>fstream</label>
-      </node>
-      <node id="6845">
-        <label>Xml/Node.h</label>
+        <childnode refid="6847" relation="include">
+        </childnode>
+        <childnode refid="6848" relation="include">
+        </childnode>
         <childnode refid="6836" relation="include">
         </childnode>
-        <childnode refid="6837" relation="include">
-        </childnode>
-        <childnode refid="6838" relation="include">
+      </node>
+      <node id="6849">
+        <label>DoxImageKind.h</label>
+        <childnode refid="6833" relation="include">
         </childnode>
       </node>
-      <node id="6838">
-        <label>Utils/String.h</label>
-        <childnode refid="6839" relation="include">
+      <node id="6846">
+        <label>stdexcept</label>
+      </node>
+      <node id="6840">
+        <label>string</label>
+      </node>
+      <node id="6833">
+        <label>Doxygen.h</label>
+        <childnode refid="6834" relation="include">
         </childnode>
-        <childnode refid="6840" relation="include">
+        <childnode refid="6835" relation="include">
         </childnode>
-        <childnode refid="6841" relation="include">
-        </childnode>
-        <childnode refid="6842" relation="include">
-        </childnode>
-        <childnode refid="6837" relation="include">
+        <childnode refid="6836" relation="include">
         </childnode>
         <childnode refid="6843" relation="include">
         </childnode>
         <childnode refid="6844" relation="include">
         </childnode>
       </node>
+      <node id="6845">
+        <label>exception</label>
+      </node>
+      <node id="6838">
+        <label>fstream</label>
+      </node>
       <node id="6843">
-        <label>vector</label>
-      </node>
-      <node id="6849">
-        <label>utility</label>
-      </node>
-      <node id="6841">
-        <label>sstream</label>
-      </node>
-      <node id="6839">
-        <label>deque</label>
-      </node>
-      <node id="6837">
-        <label>unordered_map</label>
-      </node>
-      <node id="6834">
-        <label>Tools/Doxygen/ImageQuery.h</label>
-        <link refid="ImageQuery_8h"/>
+        <label>Xml/Node.h</label>
+        <childnode refid="6834" relation="include">
+        </childnode>
         <childnode refid="6835" relation="include">
         </childnode>
-        <childnode refid="6851" relation="include">
+        <childnode refid="6836" relation="include">
+        </childnode>
+      </node>
+      <node id="6836">
+        <label>Utils/String.h</label>
+        <childnode refid="6837" relation="include">
+        </childnode>
+        <childnode refid="6838" relation="include">
+        </childnode>
+        <childnode refid="6839" relation="include">
+        </childnode>
+        <childnode refid="6840" relation="include">
+        </childnode>
+        <childnode refid="6835" relation="include">
+        </childnode>
+        <childnode refid="6841" relation="include">
+        </childnode>
+        <childnode refid="6842" relation="include">
+        </childnode>
+      </node>
+      <node id="6841">
+        <label>vector</label>
+      </node>
+      <node id="6847">
+        <label>utility</label>
+      </node>
+      <node id="6839">
+        <label>sstream</label>
+      </node>
+      <node id="6837">
+        <label>deque</label>
+      </node>
+      <node id="6835">
+        <label>unordered_map</label>
+      </node>
+      <node id="6832">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h</label>
+        <link refid="ImageQuery_8h"/>
+        <childnode refid="6833" relation="include">
+        </childnode>
+        <childnode refid="6849" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6856">
-        <label>Tools/Doxygen/ParaQuery.cpp</label>
-      </node>
       <node id="6854">
-        <label>Tools/Doxygen/ImageQuery.cpp</label>
-      </node>
-      <node id="6855">
-        <label>Tools/Doxygen/MarkupQuery.cpp</label>
-      </node>
-      <node id="6853">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParaQuery.cpp</label>
       </node>
       <node id="6852">
-        <label>Tools/Doxygen/ImageQuery.h</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="6853">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="6851">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="6850">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h</label>
         <link refid="ImageQuery_8h"/>
+        <childnode refid="6851" relation="include">
+        </childnode>
+        <childnode refid="6852" relation="include">
+        </childnode>
         <childnode refid="6853" relation="include">
         </childnode>
         <childnode refid="6854" relation="include">
-        </childnode>
-        <childnode refid="6855" relation="include">
-        </childnode>
-        <childnode refid="6856" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -284,6 +284,6 @@
 <codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="326"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/ImageQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h"/>
   </compounddef>
 </doxygen>

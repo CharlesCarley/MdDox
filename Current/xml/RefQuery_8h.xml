@@ -4,139 +4,139 @@
     <compoundname>RefQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxProtectionKind_8h" local="yes">DoxProtectionKind.h</includes>
-    <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="RefQuery_8cpp" local="yes">Tools/Doxygen/RefQuery.cpp</includedby>
+    <includedby refid="DirectoryPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="RefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/RefQuery.cpp</includedby>
     <incdepgraph>
-      <node id="8328">
-        <label>Utils/Console.h</label>
-        <childnode refid="8316" relation="include">
-        </childnode>
-      </node>
-      <node id="8322">
-        <label>iomanip</label>
-      </node>
-      <node id="8314">
-        <label>functional</label>
-      </node>
-      <node id="8324">
-        <label>Utils/Exception.h</label>
-        <childnode refid="8325" relation="include">
-        </childnode>
-        <childnode refid="8326" relation="include">
-        </childnode>
-        <childnode refid="8327" relation="include">
-        </childnode>
-        <childnode refid="8328" relation="include">
-        </childnode>
-        <childnode refid="8316" relation="include">
-        </childnode>
-      </node>
       <node id="8326">
-        <label>stdexcept</label>
-      </node>
-      <node id="8320">
-        <label>string</label>
-      </node>
-      <node id="8313">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="8314" relation="include">
         </childnode>
-        <childnode refid="8315" relation="include">
-        </childnode>
-        <childnode refid="8316" relation="include">
-        </childnode>
+      </node>
+      <node id="8320">
+        <label>iomanip</label>
+      </node>
+      <node id="8312">
+        <label>functional</label>
+      </node>
+      <node id="8322">
+        <label>Utils/Exception.h</label>
         <childnode refid="8323" relation="include">
         </childnode>
         <childnode refid="8324" relation="include">
         </childnode>
-      </node>
-      <node id="8312">
-        <label>Tools/Doxygen/RefQuery.h</label>
-        <link refid="RefQuery_8h"/>
-        <childnode refid="8313" relation="include">
+        <childnode refid="8325" relation="include">
         </childnode>
-        <childnode refid="8329" relation="include">
+        <childnode refid="8326" relation="include">
         </childnode>
-      </node>
-      <node id="8325">
-        <label>exception</label>
-      </node>
-      <node id="8318">
-        <label>fstream</label>
-      </node>
-      <node id="8323">
-        <label>Xml/Node.h</label>
         <childnode refid="8314" relation="include">
         </childnode>
-        <childnode refid="8315" relation="include">
-        </childnode>
-        <childnode refid="8316" relation="include">
-        </childnode>
       </node>
-      <node id="8329">
-        <label>DoxProtectionKind.h</label>
+      <node id="8324">
+        <label>stdexcept</label>
+      </node>
+      <node id="8318">
+        <label>string</label>
+      </node>
+      <node id="8311">
+        <label>Doxygen.h</label>
+        <childnode refid="8312" relation="include">
+        </childnode>
         <childnode refid="8313" relation="include">
         </childnode>
-      </node>
-      <node id="8316">
-        <label>Utils/String.h</label>
-        <childnode refid="8317" relation="include">
-        </childnode>
-        <childnode refid="8318" relation="include">
-        </childnode>
-        <childnode refid="8319" relation="include">
-        </childnode>
-        <childnode refid="8320" relation="include">
-        </childnode>
-        <childnode refid="8315" relation="include">
+        <childnode refid="8314" relation="include">
         </childnode>
         <childnode refid="8321" relation="include">
         </childnode>
         <childnode refid="8322" relation="include">
         </childnode>
       </node>
+      <node id="8310">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h</label>
+        <link refid="RefQuery_8h"/>
+        <childnode refid="8311" relation="include">
+        </childnode>
+        <childnode refid="8327" relation="include">
+        </childnode>
+      </node>
+      <node id="8323">
+        <label>exception</label>
+      </node>
+      <node id="8316">
+        <label>fstream</label>
+      </node>
       <node id="8321">
-        <label>vector</label>
+        <label>Xml/Node.h</label>
+        <childnode refid="8312" relation="include">
+        </childnode>
+        <childnode refid="8313" relation="include">
+        </childnode>
+        <childnode refid="8314" relation="include">
+        </childnode>
       </node>
       <node id="8327">
-        <label>utility</label>
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="8311" relation="include">
+        </childnode>
+      </node>
+      <node id="8314">
+        <label>Utils/String.h</label>
+        <childnode refid="8315" relation="include">
+        </childnode>
+        <childnode refid="8316" relation="include">
+        </childnode>
+        <childnode refid="8317" relation="include">
+        </childnode>
+        <childnode refid="8318" relation="include">
+        </childnode>
+        <childnode refid="8313" relation="include">
+        </childnode>
+        <childnode refid="8319" relation="include">
+        </childnode>
+        <childnode refid="8320" relation="include">
+        </childnode>
       </node>
       <node id="8319">
-        <label>sstream</label>
+        <label>vector</label>
+      </node>
+      <node id="8325">
+        <label>utility</label>
       </node>
       <node id="8317">
-        <label>deque</label>
+        <label>sstream</label>
       </node>
       <node id="8315">
+        <label>deque</label>
+      </node>
+      <node id="8313">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8330">
-        <label>Tools/Doxygen/RefQuery.h</label>
+      <node id="8328">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h</label>
         <link refid="RefQuery_8h"/>
+        <childnode refid="8329" relation="include">
+        </childnode>
+        <childnode refid="8330" relation="include">
+        </childnode>
         <childnode refid="8331" relation="include">
         </childnode>
         <childnode refid="8332" relation="include">
         </childnode>
-        <childnode refid="8333" relation="include">
-        </childnode>
-        <childnode refid="8334" relation="include">
-        </childnode>
-      </node>
-      <node id="8334">
-        <label>Tools/Doxygen/RefQuery.cpp</label>
       </node>
       <node id="8332">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/RefQuery.cpp</label>
       </node>
-      <node id="8333">
-        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
+      <node id="8330">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="8331">
-        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+      </node>
+      <node id="8329">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1RefQuery" prot="public">MdDox::Doxygen::RefQuery</innerclass>
@@ -193,6 +193,6 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/RefQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/RefQuery.h"/>
   </compounddef>
 </doxygen>

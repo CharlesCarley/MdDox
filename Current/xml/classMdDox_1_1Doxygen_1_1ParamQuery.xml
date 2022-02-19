@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1ParamQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::ParamQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/ParamQuery.h</includes>
+    <includes local="no">ParamQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1a77a4833f58f7fe4967119d6ef8944582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="95" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="95" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1a5f04fe547d1465624c70c126b1606897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="96" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="96" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1aaf5dcdd84a613e13bf56fedf35c8c8ef" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/ParamQuery.h" bodystart="98" bodyend="101"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="98" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1ae59a7bd40d3730bf7d31422861731964" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -69,7 +69,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="83" bodyend="90"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="123" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="83" bodyend="90"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="148" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="128" bodyend="137"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="148" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="128" bodyend="137"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="153" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="139" bodyend="144"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="153" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="139" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1a3ef0d17e14fcba01e4291d88f1bc4593" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -126,7 +126,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="109" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="65" bodyend="72"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="65" bodyend="72"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -149,7 +149,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="116" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="74" bodyend="81"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="116" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="74" bodyend="81"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="138" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="110" bodyend="119"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="138" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="110" bodyend="119"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="143" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="121" bodyend="126"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="143" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="121" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1a7b83f48bbb1f5ebd6ec0742325fd9d48" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="92" bodyend="101"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="128" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="92" bodyend="101"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="133" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="103" bodyend="108"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="133" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="103" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1ParamQuery_1ad077a8a1da9c0689d325010ad183e550" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParamQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/ParamQuery.cpp" bodystart="30" bodyend="64"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="103" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp" bodystart="30" bodyend="64"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -303,7 +303,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/ParamQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/ParamQuery.h" bodystart="92" bodyend="156"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" line="93" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.h" bodystart="92" bodyend="156"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ParamQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamQuery</scope><name>empty</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::MarkupQueryVisitor</compoundname>
-    <includes local="no">Tools/Doxygen/MarkupQuery.h</includes>
+    <includes local="no">MarkupQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a245305299a054c56aa8743041f3e66cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="33" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad03e550d4e64db2d705ba2631b2e9c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="173" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="173" bodyend="173"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="173" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="173" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aeda56608cd0d8e90a3bba737accdc95c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="128" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="128" bodyend="128"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="128" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1abed4b5222b396f6d2725ac8db12efcab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="148" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="148" bodyend="148"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="148" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad3687d9e414f16e4c31c60472c5af52c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -115,7 +115,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="163" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="163" bodyend="163"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="163" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="163" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0c6e191d1eb29165533a0cc1636aca13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -140,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="158" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="158" bodyend="158"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="158" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="158" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aec61efc2623f7d2040fe30c61e3f805e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -165,7 +165,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="213" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="213" bodyend="213"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="213" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="213" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa3ea8bcbd2c8dca52d8ab05753ea329f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -190,7 +190,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="108" bodyend="108"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="108" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="108" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afc7a7be4a6b8e3adb323b4d3e2b17b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -215,7 +215,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="153" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="153" bodyend="153"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="153" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="153" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a2f1f943ec8f32f55a3bd47ab2ca47d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -240,7 +240,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="98" bodyend="98"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="98" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="98" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aa6212f29eed6d67c82c9436037ba2444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="48" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac063b8f836f8641f1867b5588554144d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -290,7 +290,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="103" bodyend="103"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="103" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae0584e3f288b313bc3bf4b38cf8a7e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -315,7 +315,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="63" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="63" bodyend="63"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="63" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad9d5d0952be669f205a9c6073744bf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -340,7 +340,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="73" bodyend="73"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="73" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="73" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a845a84a1bc6f46dbccc921c8328ad33d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -365,7 +365,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="208" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="208" bodyend="208"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="208" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="208" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a39111cb53e6029d973557c23c0e8f3d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -390,7 +390,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="118" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="118" bodyend="118"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="118" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ada862a15477aebd932b66534ef195cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -415,7 +415,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="43" bodyend="43"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad58312336dad8f40a325f787202eb8fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -440,7 +440,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="68" bodyend="68"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a5a0ec6f9a3ee2a45bab0a2ffef7ba8d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -465,7 +465,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="193" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="193" bodyend="193"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="193" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="193" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af42901124399f89916d360b648857d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -490,7 +490,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="123" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="123" bodyend="123"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="123" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a10f72d668168fb331dbe6782d5764cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -515,7 +515,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="133" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="133" bodyend="133"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="133" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="133" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a23aef8ff110f7922891442f592b0827b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -540,7 +540,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="198" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="198" bodyend="198"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="198" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="198" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ab12a37842fd090236dc6a0e01ad79ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -565,7 +565,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="53" bodyend="53"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="53" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a884bf69914e5f04b3a2a95dbcd12e1b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -590,7 +590,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="58" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="58" bodyend="58"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ac2c797e9d8fa54ffa44cf3c5bba52dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -615,7 +615,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="203" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="203" bodyend="203"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="203" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="203" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae93af98c32b49f90ed21f6d32360731f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -640,7 +640,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="178" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="178" bodyend="178"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="178" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="178" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ae70883b779206f16e338a56a85f97bdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -665,7 +665,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="188" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="188" bodyend="188"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="188" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="188" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0dd6ba336b5069c82afe8c564d7d187e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -690,7 +690,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="183" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="183" bodyend="183"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="183" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="183" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a05a38c7a28dc807afd71e24a04552b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -715,7 +715,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="78" bodyend="78"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a0b2270663aff040edc45b45d232b5bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -740,7 +740,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="168" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="168" bodyend="168"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="168" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="168" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad1c40a9dae9c6a6f32a6cac4daf13dd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -765,7 +765,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="93" bodyend="93"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="93" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a750d60985ae3b9c8e1f8574e53bc5b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -781,7 +781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="38" bodyend="38"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad8a57bcc4cd0661cafa34511e5ba447b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -806,7 +806,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="83" bodyend="83"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="83" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a60bcfdd37a16aca28aa5b983fb3717c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -831,7 +831,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="113" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="113" bodyend="113"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="113" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="113" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1afe79c138e0d18d0c08ecaaf37c8ee6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -856,7 +856,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="143" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="143" bodyend="143"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="143" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="143" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a894ffe4b512b3c38d42d8f5e0b71c963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -881,7 +881,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="88" bodyend="88"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1af2c1a561c0ead05dcad12d4de1e028f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -906,14 +906,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/MarkupQuery.h" line="138" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="138" bodyend="138"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="138" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="138" bodyend="138"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/MarkupQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="30" bodyend="215"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/MarkupQuery.h" bodystart="30" bodyend="215"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad03e550d4e64db2d705ba2631b2e9c34" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::MarkupQueryVisitor</scope><name>visitedAnchor</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1aeda56608cd0d8e90a3bba737accdc95c" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::MarkupQueryVisitor</scope><name>visitedBlockQuote</name></member>

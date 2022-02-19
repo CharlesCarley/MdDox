@@ -3,119 +3,119 @@
   <compounddef id="TocItemQuery_8h" kind="file" language="C++">
     <compoundname>TocItemQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
-    <includedby refid="TocListQuery_8cpp" local="yes">Tools/Doxygen/TocListQuery.cpp</includedby>
+    <includedby refid="TocItemQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="TocListQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/TocListQuery.cpp</includedby>
     <incdepgraph>
-      <node id="9006">
-        <label>Utils/Console.h</label>
-        <childnode refid="8994" relation="include">
-        </childnode>
-      </node>
-      <node id="9000">
-        <label>iomanip</label>
-      </node>
-      <node id="8992">
-        <label>functional</label>
-      </node>
-      <node id="9002">
-        <label>Utils/Exception.h</label>
-        <childnode refid="9003" relation="include">
-        </childnode>
-        <childnode refid="9004" relation="include">
-        </childnode>
-        <childnode refid="9005" relation="include">
-        </childnode>
-        <childnode refid="9006" relation="include">
-        </childnode>
-        <childnode refid="8994" relation="include">
-        </childnode>
-      </node>
       <node id="9004">
-        <label>stdexcept</label>
-      </node>
-      <node id="8998">
-        <label>string</label>
-      </node>
-      <node id="8991">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="8992" relation="include">
         </childnode>
-        <childnode refid="8993" relation="include">
-        </childnode>
-        <childnode refid="8994" relation="include">
-        </childnode>
+      </node>
+      <node id="8998">
+        <label>iomanip</label>
+      </node>
+      <node id="8990">
+        <label>functional</label>
+      </node>
+      <node id="9000">
+        <label>Utils/Exception.h</label>
         <childnode refid="9001" relation="include">
         </childnode>
         <childnode refid="9002" relation="include">
         </childnode>
-      </node>
-      <node id="9003">
-        <label>exception</label>
-      </node>
-      <node id="8996">
-        <label>fstream</label>
-      </node>
-      <node id="9001">
-        <label>Xml/Node.h</label>
+        <childnode refid="9003" relation="include">
+        </childnode>
+        <childnode refid="9004" relation="include">
+        </childnode>
         <childnode refid="8992" relation="include">
         </childnode>
-        <childnode refid="8993" relation="include">
-        </childnode>
-        <childnode refid="8994" relation="include">
-        </childnode>
       </node>
-      <node id="8994">
-        <label>Utils/String.h</label>
-        <childnode refid="8995" relation="include">
+      <node id="9002">
+        <label>stdexcept</label>
+      </node>
+      <node id="8996">
+        <label>string</label>
+      </node>
+      <node id="8989">
+        <label>Doxygen.h</label>
+        <childnode refid="8990" relation="include">
         </childnode>
-        <childnode refid="8996" relation="include">
+        <childnode refid="8991" relation="include">
         </childnode>
-        <childnode refid="8997" relation="include">
-        </childnode>
-        <childnode refid="8998" relation="include">
-        </childnode>
-        <childnode refid="8993" relation="include">
+        <childnode refid="8992" relation="include">
         </childnode>
         <childnode refid="8999" relation="include">
         </childnode>
         <childnode refid="9000" relation="include">
         </childnode>
       </node>
+      <node id="9001">
+        <label>exception</label>
+      </node>
+      <node id="8994">
+        <label>fstream</label>
+      </node>
       <node id="8999">
-        <label>vector</label>
-      </node>
-      <node id="9005">
-        <label>utility</label>
-      </node>
-      <node id="8997">
-        <label>sstream</label>
-      </node>
-      <node id="8990">
-        <label>Tools/Doxygen/TocItemQuery.h</label>
-        <link refid="TocItemQuery_8h"/>
+        <label>Xml/Node.h</label>
+        <childnode refid="8990" relation="include">
+        </childnode>
         <childnode refid="8991" relation="include">
         </childnode>
+        <childnode refid="8992" relation="include">
+        </childnode>
+      </node>
+      <node id="8992">
+        <label>Utils/String.h</label>
+        <childnode refid="8993" relation="include">
+        </childnode>
+        <childnode refid="8994" relation="include">
+        </childnode>
+        <childnode refid="8995" relation="include">
+        </childnode>
+        <childnode refid="8996" relation="include">
+        </childnode>
+        <childnode refid="8991" relation="include">
+        </childnode>
+        <childnode refid="8997" relation="include">
+        </childnode>
+        <childnode refid="8998" relation="include">
+        </childnode>
+      </node>
+      <node id="8997">
+        <label>vector</label>
+      </node>
+      <node id="9003">
+        <label>utility</label>
       </node>
       <node id="8995">
-        <label>deque</label>
+        <label>sstream</label>
+      </node>
+      <node id="8988">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h</label>
+        <link refid="TocItemQuery_8h"/>
+        <childnode refid="8989" relation="include">
+        </childnode>
       </node>
       <node id="8993">
+        <label>deque</label>
+      </node>
+      <node id="8991">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="9009">
-        <label>Tools/Doxygen/TocListQuery.cpp</label>
-      </node>
-      <node id="9008">
-        <label>Tools/Doxygen/TocItemQuery.cpp</label>
-      </node>
       <node id="9007">
-        <label>Tools/Doxygen/TocItemQuery.h</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TocListQuery.cpp</label>
+      </node>
+      <node id="9006">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="9005">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h</label>
         <link refid="TocItemQuery_8h"/>
-        <childnode refid="9008" relation="include">
+        <childnode refid="9006" relation="include">
         </childnode>
-        <childnode refid="9009" relation="include">
+        <childnode refid="9007" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -257,6 +257,6 @@
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="299"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/TocItemQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/TocItemQuery.h"/>
   </compounddef>
 </doxygen>

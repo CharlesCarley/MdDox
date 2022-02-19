@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir">
-    <compoundname>Source/TypeFilter</compoundname>
+    <compoundname>F:/Emulation/MdDox/Source/TypeFilter</compoundname>
     <innerfile refid="DoxygenFilter_8cpp">DoxygenFilter.cpp</innerfile>
     <innerfile refid="DoxygenFilter_8h">DoxygenFilter.h</innerfile>
     <briefdescription>
 <para>Contains a constant static mapping of element names to enumerated types. </para>    </briefdescription>
     <detaileddescription>
 <para>The purpose of the filter is to reduce unnecessary string comparisons. The XML parser aims to be generic enough so that it can be reusable in other projects. So, the idea behind the filter is to maintain specific type info elsewhere, and bind the information to the node during the parse stage. The node maintains an extra optional integer storage value which can be used or ignored.</para><para>To use, apply the filter to the parser before parsing a XML file. </para>    </detaileddescription>
-    <location file="Source/TypeFilter/"/>
+    <location file="F:/Emulation/MdDox/Source/TypeFilter/"/>
   </compounddef>
 </doxygen>

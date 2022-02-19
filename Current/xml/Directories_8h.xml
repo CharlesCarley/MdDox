@@ -11,6 +11,6 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Current/pages/Directories.h"/>
+    <location file="pages/Directories.h"/>
   </compounddef>
 </doxygen>

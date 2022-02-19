@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir">
-    <compoundname>Tools/Doxygen</compoundname>
+    <compoundname>F:/Emulation/MdDox/Tools/Doxygen</compoundname>
     <innerfile refid="AnchorQuery_8cpp">AnchorQuery.cpp</innerfile>
     <innerfile refid="AnchorQuery_8h">AnchorQuery.h</innerfile>
     <innerfile refid="BlockQuoteQuery_8cpp">BlockQuoteQuery.cpp</innerfile>
@@ -183,6 +183,6 @@
 <para>This directory contains an auto generated scaffolding library. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/"/>
   </compounddef>
 </doxygen>

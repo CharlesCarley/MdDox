@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1VarListEntryQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::VarListEntryQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/VarListEntryQuery.h</includes>
+    <includes local="no">VarListEntryQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a4a8f8979184c3d1ade613e1a69e8f125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/VarListEntryQuery.h" line="46" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1af9ce553e78fee0faf69f05575a002303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/VarListEntryQuery.h" line="47" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1VarListEntryQuery_1a5dfd28f87cc59413b8c3a725b733b9c9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/VarListEntryQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="49" bodyend="52"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" bodystart="49" bodyend="52"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -99,7 +99,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/VarListEntryQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/VarListEntryQuery.h" bodystart="43" bodyend="54"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/VarListEntryQuery.h" bodystart="43" bodyend="54"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::VarListEntryQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::VarListEntryQuery</scope><name>empty</name></member>

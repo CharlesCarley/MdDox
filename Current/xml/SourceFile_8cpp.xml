@@ -9,27 +9,31 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="HashUtils_8h" local="yes">HashUtils.h</includes>
     <incdepgraph>
-      <node id="2388">
+      <node id="2386">
         <label>iomanip</label>
       </node>
-      <node id="2391">
+      <node id="2389">
         <label>Utils/Path.h</label>
-        <childnode refid="2381" relation="include">
+        <childnode refid="2379" relation="include">
         </childnode>
-      </node>
-      <node id="2385">
-        <label>string</label>
       </node>
       <node id="2383">
-        <label>fstream</label>
-      </node>
-      <node id="2392">
-        <label>HashUtils.h</label>
-        <childnode refid="2381" relation="include">
-        </childnode>
+        <label>string</label>
       </node>
       <node id="2381">
+        <label>fstream</label>
+      </node>
+      <node id="2390">
+        <label>HashUtils.h</label>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2379">
         <label>Utils/String.h</label>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
         <childnode refid="2382" relation="include">
         </childnode>
         <childnode refid="2383" relation="include">
@@ -40,59 +44,55 @@
         </childnode>
         <childnode refid="2386" relation="include">
         </childnode>
-        <childnode refid="2387" relation="include">
-        </childnode>
-        <childnode refid="2388" relation="include">
-        </childnode>
       </node>
-      <node id="2387">
+      <node id="2385">
         <label>vector</label>
       </node>
-      <node id="2378">
-        <label>Source/MdDoxTree/SourceFile.cpp</label>
+      <node id="2376">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp</label>
         <link refid="SourceFile_8cpp"/>
-        <childnode refid="2379" relation="include">
+        <childnode refid="2377" relation="include">
         </childnode>
-        <childnode refid="2380" relation="include">
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
         </childnode>
         <childnode refid="2389" relation="include">
         </childnode>
-        <childnode refid="2391" relation="include">
+        <childnode refid="2379" relation="include">
         </childnode>
-        <childnode refid="2381" relation="include">
-        </childnode>
-        <childnode refid="2392" relation="include">
-        </childnode>
-      </node>
-      <node id="2384">
-        <label>sstream</label>
-      </node>
-      <node id="2380">
-        <label>MdDoxTree/RepoFile.h</label>
-        <childnode refid="2381" relation="include">
-        </childnode>
-      </node>
-      <node id="2379">
-        <label>MdDoxTree/SourceFile.h</label>
-        <childnode refid="2380" relation="include">
-        </childnode>
-        <childnode refid="2381" relation="include">
-        </childnode>
-      </node>
-      <node id="2389">
-        <label>Utils/FileSystem.h</label>
         <childnode refid="2390" relation="include">
-        </childnode>
-        <childnode refid="2381" relation="include">
         </childnode>
       </node>
       <node id="2382">
+        <label>sstream</label>
+      </node>
+      <node id="2378">
+        <label>MdDoxTree/RepoFile.h</label>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2377">
+        <label>MdDoxTree/SourceFile.h</label>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2387">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2380">
         <label>deque</label>
       </node>
-      <node id="2386">
+      <node id="2384">
         <label>unordered_map</label>
       </node>
-      <node id="2390">
+      <node id="2388">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -154,6 +154,6 @@
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDoc</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/MdDoxTree/SourceFile.cpp"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp"/>
   </compounddef>
 </doxygen>

@@ -4,20 +4,24 @@
     <compoundname>SourceFile.h</compoundname>
     <includes refid="RepoFile_8h" local="yes">MdDoxTree/RepoFile.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Location_8h" local="yes">Source/MdDoxTree/Location.h</includedby>
-    <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
+    <includedby refid="Location_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Location.h</includedby>
+    <includedby refid="SourceFile_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp</includedby>
     <incdepgraph>
-      <node id="2403">
+      <node id="2401">
         <label>iomanip</label>
       </node>
-      <node id="2400">
+      <node id="2398">
         <label>string</label>
       </node>
-      <node id="2398">
+      <node id="2396">
         <label>fstream</label>
       </node>
-      <node id="2396">
+      <node id="2394">
         <label>Utils/String.h</label>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
         <childnode refid="2397" relation="include">
         </childnode>
         <childnode refid="2398" relation="include">
@@ -28,56 +32,52 @@
         </childnode>
         <childnode refid="2401" relation="include">
         </childnode>
-        <childnode refid="2402" relation="include">
-        </childnode>
-        <childnode refid="2403" relation="include">
-        </childnode>
       </node>
-      <node id="2402">
+      <node id="2400">
         <label>vector</label>
       </node>
-      <node id="2399">
+      <node id="2397">
         <label>sstream</label>
       </node>
-      <node id="2395">
+      <node id="2393">
         <label>MdDoxTree/RepoFile.h</label>
-        <childnode refid="2396" relation="include">
+        <childnode refid="2394" relation="include">
         </childnode>
       </node>
-      <node id="2394">
-        <label>Source/MdDoxTree/SourceFile.h</label>
+      <node id="2392">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h</label>
         <link refid="SourceFile_8h"/>
-        <childnode refid="2395" relation="include">
+        <childnode refid="2393" relation="include">
         </childnode>
-        <childnode refid="2396" relation="include">
+        <childnode refid="2394" relation="include">
         </childnode>
       </node>
-      <node id="2397">
+      <node id="2395">
         <label>deque</label>
       </node>
-      <node id="2401">
+      <node id="2399">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2407">
-        <label>Source/MdDoxTree/SourceFile.cpp</label>
-      </node>
       <node id="2405">
-        <label>Source/MdDoxTree/Location.h</label>
-        <childnode refid="2406" relation="include">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.cpp</label>
+      </node>
+      <node id="2403">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Location.h</label>
+        <childnode refid="2404" relation="include">
+        </childnode>
+      </node>
+      <node id="2402">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h</label>
+        <link refid="SourceFile_8h"/>
+        <childnode refid="2403" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
         </childnode>
       </node>
       <node id="2404">
-        <label>Source/MdDoxTree/SourceFile.h</label>
-        <link refid="SourceFile_8h"/>
-        <childnode refid="2405" relation="include">
-        </childnode>
-        <childnode refid="2407" relation="include">
-        </childnode>
-      </node>
-      <node id="2406">
-        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1SourceFile" prot="public">MdDox::SourceFile</innerclass>
@@ -170,6 +170,6 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/MdDoxTree/SourceFile.h"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/SourceFile.h"/>
   </compounddef>
 </doxygen>

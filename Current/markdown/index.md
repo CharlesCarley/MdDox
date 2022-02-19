@@ -8,22 +8,16 @@
 <span class="bold-text"><b>Contents</b></span>
 <a id="contents"></a>
 <h2>Contents</h2>
-<span class="icon-list-item"><a href="page_index.md#" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">Pages</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="directory_index.md#" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">Directories</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespace_index.md#" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">Namespaces</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="class_index.md#" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">Classes</span>
-</a>
-</span>
-<br/>
+<ul>
+<li><a href="page_index.md#pages">Pages</a>
+</li>
+<li><a href="directory_index.md#directories">Directories</a>
+</li>
+<li><a href="namespace_index.md#namespace-index">Namespace Index</a>
+</li>
+<li><a href="class_index.md#classes">Classes</a>
+</li>
+</ul>
 <br/>
 <blockquote>
 <img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>

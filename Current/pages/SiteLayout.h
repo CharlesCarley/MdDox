@@ -1,5 +1,4 @@
 /*! 
-
  \page Site Site Layout
 
 The following describes the overall layout of a generated site.

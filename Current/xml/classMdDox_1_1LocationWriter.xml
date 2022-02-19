@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1LocationWriter" kind="class" language="C++" prot="public" final="yes">
     <compoundname>MdDox::LocationWriter</compoundname>
-    <includes local="no">Source/MdDoxTree/LocationWriter.h</includes>
+    <includes local="no">LocationWriter.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a3078bab0955488084e2e4caffe63c377" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="34" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1af4cdfc377cc44f0870c4ae3c519a38c8" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="33" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="33" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1LocationWriter_1a7195b14bf2bd7f60d5a7214d15c03abf" prot="private" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1DocumentWriter" kindref="compound">DocumentWriter</ref> *</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="32" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="29" bodyend="33"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp" bodystart="29" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1LocationWriter_1a50b9e5fa07ec18956f2c7761c787cb92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="35" bodyend="77"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp" bodystart="35" bodyend="77"/>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a27a144259da294a167d424f007bbf31b" compoundref="LocationQuery_8cpp" startline="35" endline="40">MdDox::Doxygen::LocationQuery::getFile</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1acc6307af92b229be442f2516e60dd942" compoundref="LocationQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::LocationQuery::getBodyFile</references>
         <references refid="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" compoundref="SourceFile_8h" startline="66" endline="69">MdDox::SourceFile::setFile</references>
@@ -99,7 +99,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/MdDoxTree/LocationWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="29" bodyend="40"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" line="30" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.h" bodystart="29" bodyend="40"/>
     <listofallmembers>
       <member refid="classMdDox_1_1LocationWriter_1a3078bab0955488084e2e4caffe63c377" prot="private" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>_out</name></member>
       <member refid="classMdDox_1_1LocationWriter_1af4cdfc377cc44f0870c4ae3c519a38c8" prot="private" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>_stream</name></member>

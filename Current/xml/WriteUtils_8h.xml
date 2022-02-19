@@ -5,46 +5,50 @@
     <includes refid="IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
     <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
-    <includedby refid="DescriptionWriter_8cpp" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
-    <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
-    <includedby refid="GenericPageWriter_8cpp" local="yes">Source/MdDoxTree/GenericPageWriter.cpp</includedby>
-    <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
-    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
-    <includedby refid="LinkedTextWriter_8cpp" local="yes">Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
-    <includedby refid="LocationWriter_8cpp" local="yes">Source/MdDoxTree/LocationWriter.cpp</includedby>
-    <includedby refid="MemberDefListingWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefListingWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="ParagraphWriter_8cpp" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
-    <includedby refid="ParameterListWriter_8cpp" local="yes">Source/MdDoxTree/ParameterListWriter.cpp</includedby>
-    <includedby refid="ParameterWriter_8cpp" local="yes">Source/MdDoxTree/ParameterWriter.cpp</includedby>
-    <includedby refid="Section1Writer_8cpp" local="yes">Source/MdDoxTree/Section1Writer.cpp</includedby>
-    <includedby refid="Section2Writer_8cpp" local="yes">Source/MdDoxTree/Section2Writer.cpp</includedby>
-    <includedby refid="Section3Writer_8cpp" local="yes">Source/MdDoxTree/Section3Writer.cpp</includedby>
-    <includedby refid="Section4Writer_8cpp" local="yes">Source/MdDoxTree/Section4Writer.cpp</includedby>
-    <includedby refid="SectionDefListingWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
-    <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
-    <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
+    <includedby refid="ClassPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</includedby>
+    <includedby refid="DescriptionWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</includedby>
+    <includedby refid="DirectoryPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="GenericPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp</includedby>
+    <includedby refid="GraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="LinkedTextWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
+    <includedby refid="LocationWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</includedby>
+    <includedby refid="MemberDefListingWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="ParagraphWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="ParameterListWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</includedby>
+    <includedby refid="ParameterWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</includedby>
+    <includedby refid="Section1Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</includedby>
+    <includedby refid="Section2Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</includedby>
+    <includedby refid="Section3Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</includedby>
+    <includedby refid="Section4Writer_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
+    <includedby refid="SectionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</includedby>
+    <includedby refid="WriteUtils_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="2453">
+      <node id="2451">
         <label>iomanip</label>
       </node>
-      <node id="2450">
+      <node id="2448">
         <label>string</label>
       </node>
-      <node id="2448">
+      <node id="2446">
         <label>fstream</label>
       </node>
-      <node id="2445">
+      <node id="2443">
         <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="2446" relation="include">
+        <childnode refid="2444" relation="include">
         </childnode>
       </node>
-      <node id="2446">
+      <node id="2444">
         <label>Utils/String.h</label>
+        <childnode refid="2445" relation="include">
+        </childnode>
+        <childnode refid="2446" relation="include">
+        </childnode>
         <childnode refid="2447" relation="include">
         </childnode>
         <childnode refid="2448" relation="include">
@@ -55,97 +59,97 @@
         </childnode>
         <childnode refid="2451" relation="include">
         </childnode>
-        <childnode refid="2452" relation="include">
-        </childnode>
-        <childnode refid="2453" relation="include">
-        </childnode>
       </node>
-      <node id="2452">
+      <node id="2450">
         <label>vector</label>
       </node>
-      <node id="2449">
+      <node id="2447">
         <label>sstream</label>
       </node>
-      <node id="2444">
-        <label>Source/MdDoxTree/WriteUtils.h</label>
+      <node id="2442">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.h</label>
         <link refid="WriteUtils_8h"/>
-        <childnode refid="2445" relation="include">
+        <childnode refid="2443" relation="include">
         </childnode>
-        <childnode refid="2454" relation="include">
+        <childnode refid="2452" relation="include">
         </childnode>
-        <childnode refid="2446" relation="include">
+        <childnode refid="2444" relation="include">
         </childnode>
       </node>
-      <node id="2447">
+      <node id="2445">
         <label>deque</label>
       </node>
-      <node id="2451">
+      <node id="2449">
         <label>unordered_map</label>
       </node>
-      <node id="2454">
+      <node id="2452">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="2446" relation="include">
+        <childnode refid="2444" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2471">
-        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
+      <node id="2469">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
-      <node id="2467">
-        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
-      </node>
-      <node id="2461">
-        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
-      </node>
-      <node id="2477">
-        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
-      </node>
-      <node id="2478">
-        <label>Source/MdDoxTree/WriteUtils.cpp</label>
-      </node>
-      <node id="2462">
-        <label>Source/MdDoxTree/GraphWriter.cpp</label>
-      </node>
-      <node id="2475">
-        <label>Source/MdDoxTree/Section4Writer.cpp</label>
+      <node id="2465">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="2459">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="2468">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      <node id="2475">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="2474">
-        <label>Source/MdDoxTree/Section3Writer.cpp</label>
+      <node id="2476">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
       <node id="2460">
-        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="2473">
-        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
       <node id="2457">
-        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="2456">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
-      </node>
-      <node id="2470">
-        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      <node id="2466">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
       <node id="2472">
-        <label>Source/MdDoxTree/Section1Writer.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="2469">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      <node id="2458">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="2464">
-        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      <node id="2471">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
       <node id="2455">
-        <label>Source/MdDoxTree/WriteUtils.h</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/DescriptionWriter.cpp</label>
+      </node>
+      <node id="2454">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="2468">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="2470">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section1Writer.cpp</label>
+      </node>
+      <node id="2467">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="2462">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="2453">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.h</label>
         <link refid="WriteUtils_8h"/>
+        <childnode refid="2454" relation="include">
+        </childnode>
+        <childnode refid="2455" relation="include">
+        </childnode>
         <childnode refid="2456" relation="include">
         </childnode>
         <childnode refid="2457" relation="include">
@@ -188,25 +192,21 @@
         </childnode>
         <childnode refid="2476" relation="include">
         </childnode>
-        <childnode refid="2477" relation="include">
-        </childnode>
-        <childnode refid="2478" relation="include">
-        </childnode>
       </node>
-      <node id="2476">
-        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+      <node id="2474">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="2466">
-        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
-      </node>
-      <node id="2465">
-        <label>Source/MdDoxTree/LocationWriter.cpp</label>
-      </node>
-      <node id="2458">
-        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      <node id="2464">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
       <node id="2463">
-        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LocationWriter.cpp</label>
+      </node>
+      <node id="2456">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="2461">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMdDox">MdDox</innernamespace>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.h" line="33" column="10" bodyfile="Source/MdDoxTree/WriteUtils.h" bodystart="33" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.h" line="33" column="10" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -284,6 +284,6 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/MdDoxTree/WriteUtils.h"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/WriteUtils.h"/>
   </compounddef>
 </doxygen>

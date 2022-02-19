@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1GenApi_1_1Writer" kind="class" language="C++" prot="public">
     <compoundname>MdDox::GenApi::Writer</compoundname>
-    <includes local="no">Tools/GenApi/Writer.h</includes>
+    <includes local="no">Writer.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a819fa57ca0640a4f068d6781435abf55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="31" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="31" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a08e0443cca4d2a35f6d429fad9b0db7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="32" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="32" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a4239f603f60ad7e7863fcff4b6dc978e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="42" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1adfd9a5bb5cd7e0ea7c59e19aee5ff0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="46" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="46" bodyend="53"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="46" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Writer.h" bodystart="46" bodyend="53"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">MdDox::WriteUtils::indent</references>
       </memberdef>
       </sectiondef>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="35" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="55" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Writer.h" bodystart="55" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1ad6dc0058634ff2163ef4c677f808561e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="37" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="61" bodyend="65"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Writer.h" bodystart="61" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenApi_1_1Writer_1a9d4ef574ec47a3ab1646d20a82b3a5d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Writer.h" line="39" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="67" bodyend="71"/>
+        <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Writer.h" bodystart="67" bodyend="71"/>
         <references refid="namespaceMdDox_1_1WriteUtils_1aa0a616e79965edb5f4814188dda7a039" compoundref="TextStreamWriter_8h" startline="29" endline="34">MdDox::WriteUtils::indent</references>
       </memberdef>
       </sectiondef>
@@ -166,7 +166,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/GenApi/Writer.h" line="29" column="1" bodyfile="Tools/GenApi/Writer.h" bodystart="28" bodyend="43"/>
+    <location file="F:/Emulation/MdDox/Tools/GenApi/Writer.h" line="29" column="1" bodyfile="F:/Emulation/MdDox/Tools/GenApi/Writer.h" bodystart="28" bodyend="43"/>
     <listofallmembers>
       <member refid="classMdDox_1_1GenApi_1_1Writer_1a77943657b2ed56ed61bbd25981700cbc" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>indent</name></member>
       <member refid="classMdDox_1_1GenApi_1_1Writer_1ad6dc0058634ff2163ef4c677f808561e" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Writer</scope><name>newLine</name></member>

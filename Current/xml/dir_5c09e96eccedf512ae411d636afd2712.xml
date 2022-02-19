@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_5c09e96eccedf512ae411d636afd2712" kind="dir">
-    <compoundname>Source/Utils</compoundname>
-    <innerdir refid="dir_7d925da7aa4fec7d143339dda86741c5">Source/Utils/CommandLine</innerdir>
-    <innerdir refid="dir_228a382b75cefd1e10dd6a0b6021583d">Source/Utils/ParserBase</innerdir>
-    <innerdir refid="dir_df7f76837457d332ed2eae6561f124cc">Source/Utils/Win32</innerdir>
+    <compoundname>F:/Emulation/MdDox/Source/Utils</compoundname>
+    <innerdir refid="dir_7d925da7aa4fec7d143339dda86741c5">F:/Emulation/MdDox/Source/Utils/CommandLine</innerdir>
+    <innerdir refid="dir_228a382b75cefd1e10dd6a0b6021583d">F:/Emulation/MdDox/Source/Utils/ParserBase</innerdir>
+    <innerdir refid="dir_df7f76837457d332ed2eae6561f124cc">F:/Emulation/MdDox/Source/Utils/Win32</innerdir>
     <innerfile refid="Char_8cpp">Char.cpp</innerfile>
     <innerfile refid="Char_8h">Char.h</innerfile>
     <innerfile refid="Console_8cpp">Console.cpp</innerfile>
@@ -24,6 +24,6 @@
 <para>Contains general source utilities that are used project wide. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/"/>
   </compounddef>
 </doxygen>

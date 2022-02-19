@@ -169,7 +169,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxAccessor.h" line="47" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="46" bodyend="74"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.h" line="47" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxAccessor.h" bodystart="46" bodyend="74"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a319f78fc4e81027b9d4b414a38475273" prot="public" static="no" strong="no">
         <type></type>
@@ -215,7 +215,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxBool.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxBool.h" bodystart="42" bodyend="54"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxBool.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7d54479e273f12f712a1aca96cb1e23e" prot="public" static="no" strong="no">
         <type></type>
@@ -246,7 +246,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCharRange.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="41" bodyend="45"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCharRange.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxCharRange.h" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" prot="public" static="no" strong="no">
         <type></type>
@@ -412,7 +412,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCompoundKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="57" bodyend="129"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h" bodystart="57" bodyend="129"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a92fda3af13e99912951bee1607752d61" prot="public" static="no" strong="no">
         <type></type>
@@ -498,7 +498,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxGraphRelation.h" line="48" column="1" bodyfile="Tools/Doxygen/DoxGraphRelation.h" bodystart="47" bodyend="79"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxGraphRelation.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxGraphRelation.h" bodystart="47" bodyend="79"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ac5451284772d69cec9ce3d6cf8aa13a5" prot="public" static="no" strong="no">
         <type></type>
@@ -592,7 +592,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxHighlightClass.h" line="49" column="1" bodyfile="Tools/Doxygen/DoxHighlightClass.h" bodystart="48" bodyend="84"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxHighlightClass.h" bodystart="48" bodyend="84"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a0a7b852b65e142f0ea8ecd63815a49b6" prot="public" static="no" strong="no">
         <type></type>
@@ -646,7 +646,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxImageKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxImageKind.h" bodystart="43" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxImageKind.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a778793e67765b66ac62d62a3af2dccf1" prot="public" static="no" strong="no">
         <type></type>
@@ -804,7 +804,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxLanguage.h" line="57" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="56" bodyend="124"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxLanguage.h" line="57" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxLanguage.h" bodystart="56" bodyend="124"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" prot="public" static="no" strong="no">
         <type></type>
@@ -946,7 +946,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxMemberKind.h" line="55" column="1" bodyfile="Tools/Doxygen/DoxMemberKind.h" bodystart="54" bodyend="114"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxMemberKind.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxMemberKind.h" bodystart="54" bodyend="114"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a65541b1d834e76a9813de4b4d31d869b" prot="public" static="no" strong="no">
         <type></type>
@@ -1000,7 +1000,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxParamDir.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxParamDir.h" bodystart="43" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxParamDir.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxParamDir.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a9128ed41c1161394dc4f8acbe047bee2" prot="public" static="no" strong="no">
         <type></type>
@@ -1062,7 +1062,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxParamListKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxParamListKind.h" bodystart="44" bodyend="64"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxParamListKind.h" bodystart="44" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" prot="public" static="no" strong="no">
         <type></type>
@@ -1124,7 +1124,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxProtectionKind.h" line="45" column="1" bodyfile="Tools/Doxygen/DoxProtectionKind.h" bodystart="44" bodyend="64"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxProtectionKind.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxProtectionKind.h" bodystart="44" bodyend="64"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a018cc76cfa7374263fc4f05c27b15c9b" prot="public" static="no" strong="no">
         <type></type>
@@ -1170,7 +1170,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefKind.h" bodystart="42" bodyend="54"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxRefKind.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ae486e1831f804fc195d86549036f504d" prot="public" static="no" strong="no">
         <type></type>
@@ -1216,7 +1216,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxRefQualifierKind.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxRefQualifierKind.h" bodystart="42" bodyend="54"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxRefQualifierKind.h" bodystart="42" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7f2b31fb58f486ef341e07ed25f12b8a" prot="public" static="no" strong="no">
         <type></type>
@@ -1534,7 +1534,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSectionKind.h" line="77" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.h" bodystart="76" bodyend="224"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h" line="77" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxSectionKind.h" bodystart="76" bodyend="224"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1af2044d6cdcb49102aee11ae4cc4ba5ad" prot="public" static="no" strong="no">
         <type></type>
@@ -1700,7 +1700,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="58" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="57" bodyend="129"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxSimpleSectKind.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxSimpleSectKind.h" bodystart="57" bodyend="129"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1ac955fbb2748fcc7c3976542f750913e6" prot="public" static="no" strong="no">
         <type></type>
@@ -1731,7 +1731,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxVersionNumber.h" line="42" column="1" bodyfile="Tools/Doxygen/DoxVersionNumber.h" bodystart="41" bodyend="45"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVersionNumber.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxVersionNumber.h" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a7802d9f578bf7a12515d6bbf87b807ba" prot="public" static="no" strong="no">
         <type></type>
@@ -1785,7 +1785,7 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxVirtualKind.h" line="44" column="1" bodyfile="Tools/Doxygen/DoxVirtualKind.h" bodystart="43" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxVirtualKind.h" bodystart="43" bodyend="59"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06" prot="public" static="no" strong="no">
         <type></type>
@@ -2574,7 +2574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TypeFilter/DoxygenFilter.h" line="29" column="1" bodyfile="Source/TypeFilter/DoxygenFilter.h" bodystart="28" bodyend="141"/>
+        <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.h" line="29" column="1" bodyfile="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.h" bodystart="28" bodyend="141"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -2589,7 +2589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="160" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="160" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="160" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aa7fa713d20ff329404bcb898a3b87948" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery" kindref="compound">BlockQuoteQuery</ref> &amp;)&gt;</type>
@@ -2602,7 +2602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="175" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="175" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="175" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1af4846e9942ae15b38412a41a1f90cad4" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CaptionQuery" kindref="compound">CaptionQuery</ref> &amp;)&gt;</type>
@@ -2615,7 +2615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="165" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="165" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="165" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a6e9d86d79f82d0b1abac1a1b3debee64" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery" kindref="compound">ChildNodeQuery</ref> &amp;)&gt;</type>
@@ -2628,7 +2628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="143" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="143" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="143" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a8ba80d0e92051680d25804196a1e87dc" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CodeLineQuery" kindref="compound">CodeLineQuery</ref> &amp;)&gt;</type>
@@ -2641,7 +2641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="147" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="147" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="147" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a4cab794eb3f5cd7f4d9a541092086c6c" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery" kindref="compound">CompoundDefQuery</ref> &amp;)&gt;</type>
@@ -2654,7 +2654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="114" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="114" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="114" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a4fc3a64f77aa6faca62530a9c3a7cc6c" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery" kindref="compound">CompoundIndexQuery</ref> &amp;)&gt;</type>
@@ -2667,7 +2667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="111" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="111" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="111" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a513b54f21bb756a8a1d1b546615c2a40" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery" kindref="compound">CompoundRefQuery</ref> &amp;)&gt;</type>
@@ -2680,7 +2680,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="106" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="106" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="106" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a1c02f9e40438585e0c55687009ce53cb" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1CopyQuery" kindref="compound">CopyQuery</ref> &amp;)&gt;</type>
@@ -2693,7 +2693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="174" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="174" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="174" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a99e30c5e71c6aa5d43d1d07520bb0ea6" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;)&gt;</type>
@@ -2706,7 +2706,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="125" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="125" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="125" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1afbeb0e0552bafd85ffb8ea95e9f88dba" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery" kindref="compound">DoxygenIndexQuery</ref> &amp;)&gt;</type>
@@ -2719,7 +2719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="109" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="109" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a1e4e17e2fad891498a31d22b1a99e349" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1DoxygenQuery" kindref="compound">DoxygenQuery</ref> &amp;)&gt;</type>
@@ -2732,7 +2732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="113" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="113" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="113" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a568c4663d4367db32a0f7349ecb24f09" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1EmptyQuery" kindref="compound">EmptyQuery</ref> &amp;)&gt;</type>
@@ -2745,7 +2745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="176" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="176" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="176" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aa3dff15edac42505788c4d8db006a3e0" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1EntryQuery" kindref="compound">EntryQuery</ref> &amp;)&gt;</type>
@@ -2758,7 +2758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="164" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="164" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="164" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1abdf791cd6e3263c121019567116609b6" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1EnumValueQuery" kindref="compound">EnumValueQuery</ref> &amp;)&gt;</type>
@@ -2771,7 +2771,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="133" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="133" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="133" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a70084381d08005d7b1708f7eac43a9bf" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1FileQuery" kindref="compound">FileQuery</ref> &amp;)&gt;</type>
@@ -2784,7 +2784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="167" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="167" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="167" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a44bd20f6ba2904859287d6cab03ebc18" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1FormulaQuery" kindref="compound">FormulaQuery</ref> &amp;)&gt;</type>
@@ -2797,7 +2797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="140" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="140" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="140" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ac3aa8e7e99590e29a67ce94345f400f4" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1GraphQuery" kindref="compound">GraphQuery</ref> &amp;)&gt;</type>
@@ -2810,7 +2810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="122" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="122" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="122" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ae545fd0fa7b310de1c606fcb1ecf5e2e" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1HeadingQuery" kindref="compound">HeadingQuery</ref> &amp;)&gt;</type>
@@ -2823,7 +2823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="166" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="166" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="166" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a0e9966aae01821f595308362aef6b814" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1HighlightQuery" kindref="compound">HighlightQuery</ref> &amp;)&gt;</type>
@@ -2836,7 +2836,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="148" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="148" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="148" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a7df3a4aae8b57c6500abecb9110481fb" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ImageQuery" kindref="compound">ImageQuery</ref> &amp;)&gt;</type>
@@ -2849,7 +2849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="116" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="116" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="116" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aa5175d875a42a81e1c725eddf14a8d9c" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1IncQuery" kindref="compound">IncQuery</ref> &amp;)&gt;</type>
@@ -2862,7 +2862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="121" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="121" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="121" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aff7cdd76266ef35d6e77b7cecfc216e1" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery" kindref="compound">IndexEntryQuery</ref> &amp;)&gt;</type>
@@ -2875,7 +2875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="142" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="142" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="142" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a94630335791090e31bd2c9fd3df82e85" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1InternalQuery" kindref="compound">InternalQuery</ref> &amp;)&gt;</type>
@@ -2888,7 +2888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="134" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="134" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="134" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1acc3fc4d408299fbf692514465e487555" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1InternalS1Query" kindref="compound">InternalS1Query</ref> &amp;)&gt;</type>
@@ -2901,7 +2901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="155" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="155" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="155" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a4b2e2c0a1c4dfbd2f3e4d1f8122c6516" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1InternalS2Query" kindref="compound">InternalS2Query</ref> &amp;)&gt;</type>
@@ -2914,7 +2914,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="132" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="132" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="132" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a446abba8eb2a9f370c7bde2ec228ea61" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1InternalS3Query" kindref="compound">InternalS3Query</ref> &amp;)&gt;</type>
@@ -2927,7 +2927,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="156" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="156" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="156" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a20b23191c97d90c17508a4963d6ea02a" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1InternalS4Query" kindref="compound">InternalS4Query</ref> &amp;)&gt;</type>
@@ -2940,7 +2940,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="138" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="138" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="138" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a10e40b1a00f4b51a99a37f2cde07a5d2" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1LanguageQuery" kindref="compound">LanguageQuery</ref> &amp;)&gt;</type>
@@ -2953,7 +2953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="163" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="163" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="163" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1acd6991970bfebb8c3a4d3ff2767e90ee" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" kindref="compound">LinkedTextQuery</ref> &amp;)&gt;</type>
@@ -2966,7 +2966,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="139" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="139" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="139" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a96517e83f1ae6a5443b42ce3ee36ca3f" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1LinkQuery" kindref="compound">LinkQuery</ref> &amp;)&gt;</type>
@@ -2979,7 +2979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="145" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="145" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="145" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a92f4c8eb3fdc6a3da50c7d6063ddc05a" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ListingQuery" kindref="compound">ListingQuery</ref> &amp;)&gt;</type>
@@ -2992,7 +2992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="146" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="146" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="146" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aca424a13e91d2ba0862eb67c3785bc08" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ListItemQuery" kindref="compound">ListItemQuery</ref> &amp;)&gt;</type>
@@ -3005,7 +3005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="115" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="115" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="115" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a58cc8633743045dfcba353af8aa5a5cd" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery" kindref="compound">ListOfAllMembersQuery</ref> &amp;)&gt;</type>
@@ -3018,7 +3018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="117" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="117" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="117" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a5f20d3769d5ebaa297b8f64882631513" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ListQuery" kindref="compound">ListQuery</ref> &amp;)&gt;</type>
@@ -3031,7 +3031,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="131" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="131" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="131" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ab6933ae45fae1b548a8c8c8468ac9dbf" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1LocationQuery" kindref="compound">LocationQuery</ref> &amp;)&gt;</type>
@@ -3044,7 +3044,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="153" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="153" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="153" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ac753ae283d389e37d41e576ee9575f83" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1MarkupQuery" kindref="compound">MarkupQuery</ref> &amp;)&gt;</type>
@@ -3057,7 +3057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="159" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="159" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="159" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1abb37e33489c0eea415c2767c4fc741a2" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1MemberDefQuery" kindref="compound">MemberDefQuery</ref> &amp;)&gt;</type>
@@ -3070,7 +3070,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="129" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="129" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="129" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1adf5bc76bd26975dbc362f58c906e3534" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery" kindref="compound">MemberIndexQuery</ref> &amp;)&gt;</type>
@@ -3083,7 +3083,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="110" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="110" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="110" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aca996ae89264d89f3b1c0c7043d45f4f" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1MemberRefQuery" kindref="compound">MemberRefQuery</ref> &amp;)&gt;</type>
@@ -3096,7 +3096,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="119" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="119" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="119" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a7eceacdb191eb70b832221f0cb4ef62a" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1NodeQuery" kindref="compound">NodeQuery</ref> &amp;)&gt;</type>
@@ -3109,7 +3109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="141" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="141" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="141" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a8102444e5fdc6819b1264293ef452cbb" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery" kindref="compound">ParamListItemQuery</ref> &amp;)&gt;</type>
@@ -3122,7 +3122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="170" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="170" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="170" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a7dca4fc6f4981773bf36480e17b41a8f" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamListQuery" kindref="compound">ParamListQuery</ref> &amp;)&gt;</type>
@@ -3135,7 +3135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="169" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="169" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="169" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aed8ad68b3681dc193cee4e91f6d56eea" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery" kindref="compound">ParamNameListQuery</ref> &amp;)&gt;</type>
@@ -3148,7 +3148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="158" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="158" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="158" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a291d963c8506a8144c73fbc1496c7cc9" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamNameQuery" kindref="compound">ParamNameQuery</ref> &amp;)&gt;</type>
@@ -3161,7 +3161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="172" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="172" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="172" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ae7dcf069d0dac0e3a20af5c13a924cac" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamQuery" kindref="compound">ParamQuery</ref> &amp;)&gt;</type>
@@ -3174,7 +3174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="137" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="137" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="137" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a5b36dfb7d366adcb051ab8ade95713f9" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery" kindref="compound">ParamTypeQuery</ref> &amp;)&gt;</type>
@@ -3187,7 +3187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="171" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="171" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="171" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a4b012831ccd3b9011d3a246762449d77" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParaQuery" kindref="compound">ParaQuery</ref> &amp;)&gt;</type>
@@ -3200,7 +3200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="157" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="157" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="157" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1abf820d70f2d7d8c7e0c7c9d62735d061" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ParBlockQuery" kindref="compound">ParBlockQuery</ref> &amp;)&gt;</type>
@@ -3213,7 +3213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="124" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="124" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="124" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1af3f8e0145ba622fad98cdf86534bc255" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ReferenceQuery" kindref="compound">ReferenceQuery</ref> &amp;)&gt;</type>
@@ -3226,7 +3226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="152" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="152" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="152" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a0f95d12b0129095d57a7c34c4bbd36ae" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1RefQuery" kindref="compound">RefQuery</ref> &amp;)&gt;</type>
@@ -3239,7 +3239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="123" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="123" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="123" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a46268b958deb80651b37ca98be759388" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;)&gt;</type>
@@ -3252,7 +3252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="108" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="108" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="108" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a023abc93b94116f6140c122c5df97f62" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1ReimplementQuery" kindref="compound">ReimplementQuery</ref> &amp;)&gt;</type>
@@ -3265,7 +3265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="120" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="120" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="120" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a659245c78b2d41e6d9345f0918da31b4" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1RowQuery" kindref="compound">RowQuery</ref> &amp;)&gt;</type>
@@ -3278,7 +3278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="162" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="162" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="162" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a6438087de1dd68238d70bafc49bee2a0" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1Sect1Query" kindref="compound">Sect1Query</ref> &amp;)&gt;</type>
@@ -3291,7 +3291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="144" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="144" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="144" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ac07adaa4ad5c10ee7087f9aeb139a12e" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1Sect2Query" kindref="compound">Sect2Query</ref> &amp;)&gt;</type>
@@ -3304,7 +3304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="135" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="135" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="135" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a84818546eb5af5c04fa10ab756c53a52" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1Sect3Query" kindref="compound">Sect3Query</ref> &amp;)&gt;</type>
@@ -3317,7 +3317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="112" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="112" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="112" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1afa53006511388342be3fe9edeb1123c1" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1Sect4Query" kindref="compound">Sect4Query</ref> &amp;)&gt;</type>
@@ -3330,7 +3330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="154" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="154" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="154" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a30d35eaa94a79fab382eda801584ea6e" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1SectionDefQuery" kindref="compound">SectionDefQuery</ref> &amp;)&gt;</type>
@@ -3343,7 +3343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="127" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="127" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="127" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ae2064994c1fc385c40007c6b85b4b558" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery" kindref="compound">SimpleSectQuery</ref> &amp;)&gt;</type>
@@ -3356,7 +3356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="118" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="118" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="118" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ac58da3b2476542a3aa7ad6f2bbfd831f" prot="public" static="no">
         <type>std::unordered_map&lt; int, int &gt;</type>
@@ -3369,7 +3369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="178" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="178" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="178" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a0932abe1bc0c254bae8df2e5407a51ff" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1SpQuery" kindref="compound">SpQuery</ref> &amp;)&gt;</type>
@@ -3382,7 +3382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="151" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="151" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="151" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1af0447c5e63b2a0c658f7996c7cef13ac" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1TableQuery" kindref="compound">TableQuery</ref> &amp;)&gt;</type>
@@ -3395,7 +3395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="161" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="161" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="161" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a23cf32f353943fc003eeee7de66b3673" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery" kindref="compound">TemplateParamListQuery</ref> &amp;)&gt;</type>
@@ -3408,7 +3408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="136" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="136" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="136" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ac4d778469f74e9884c5573938fceae55" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1TitleQuery" kindref="compound">TitleQuery</ref> &amp;)&gt;</type>
@@ -3421,7 +3421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="107" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="107" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="107" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ae8083890b5d3b02815478813b7f2a92b" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1TocItemQuery" kindref="compound">TocItemQuery</ref> &amp;)&gt;</type>
@@ -3434,7 +3434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="150" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="150" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="150" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1a97d6ca42cdf5608362d5f557f88279a9" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1TocListQuery" kindref="compound">TocListQuery</ref> &amp;)&gt;</type>
@@ -3447,7 +3447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="168" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="168" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="168" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1aa7a9a3b64115545d14399f572e856374" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery" kindref="compound">UrlLinkQuery</ref> &amp;)&gt;</type>
@@ -3460,7 +3460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="149" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="149" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="149" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="149" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ab1ec10f2dc079daa5070dc9374fc790e" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1VariableListQuery" kindref="compound">VariableListQuery</ref> &amp;)&gt;</type>
@@ -3473,7 +3473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="130" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="130" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="130" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1ab966a70ae88164652b3a19949a5c1b55" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery" kindref="compound">VarListEntryQuery</ref> &amp;)&gt;</type>
@@ -3486,7 +3486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="128" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="128" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="128" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Doxygen_1acfcd287c285a78c64eff4e35db394de7" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="classMdDox_1_1Doxygen_1_1XRefSectQuery" kindref="compound">XRefSectQuery</ref> &amp;)&gt;</type>
@@ -3499,7 +3499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="173" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="173" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="173" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -3514,7 +3514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TypeFilter/DoxygenFilter.cpp" line="27" column="1" bodyfile="Source/TypeFilter/DoxygenFilter.cpp" bodystart="27" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" line="27" column="1" bodyfile="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -3529,7 +3529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TypeFilter/DoxygenFilter.cpp" line="142" column="1" bodyfile="Source/TypeFilter/DoxygenFilter.cpp" bodystart="142" bodyend="145"/>
+        <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" line="142" column="1" bodyfile="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" bodystart="142" bodyend="145"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a237d270e235071f7d95f4a5a927f88ba" compoundref="DoxygenFilter_8cpp" startline="27">CurrentTags</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -3543,7 +3543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TypeFilter/DoxygenFilter.cpp" line="147" column="1" bodyfile="Source/TypeFilter/DoxygenFilter.cpp" bodystart="147" bodyend="150"/>
+        <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" line="147" column="1" bodyfile="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" bodystart="147" bodyend="150"/>
         <references refid="namespaceMdDox_1_1Doxygen_1a237d270e235071f7d95f4a5a927f88ba" compoundref="DoxygenFilter_8cpp" startline="27">CurrentTags</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Doxygen_1aed26b7fdd7f7669ba749800039c040bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -3575,7 +3575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/Doxygen.h" line="181" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="181" bodyend="193"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" line="181" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/Doxygen.h" bodystart="181" bodyend="193"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
       </memberdef>
       </sectiondef>
@@ -3583,6 +3583,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TypeFilter/DoxygenFilter.cpp" line="26" column="1"/>
+    <location file="F:/Emulation/MdDox/Source/TypeFilter/DoxygenFilter.cpp" line="26" column="1"/>
   </compounddef>
 </doxygen>

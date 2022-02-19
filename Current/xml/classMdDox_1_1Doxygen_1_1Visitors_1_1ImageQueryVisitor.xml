@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::ImageQueryVisitor</compoundname>
-    <includes local="no">Tools/Doxygen/ImageQuery.h</includes>
+    <includes local="no">ImageQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a46c89469c8d1da54d56500c78c6fb96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="34" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad3477218abb66123991b559b7072d84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="74" bodyend="74"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="74" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a795bffc62d17e99c8fca53ef199e52b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="49" bodyend="49"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a595337931d502ee2c38181bb9d377255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="64" bodyend="64"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a8a386c4ead8cfbb50b6c32e0411c1a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -115,7 +115,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="59" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="59" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="59" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1af4d4ff6efd35a7e9c6c918a5b3101458" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -140,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="114" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="114" bodyend="114"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="114" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="114" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a0a70de6e8e58bcb9eed33f71b63f2075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -165,7 +165,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="54" bodyend="54"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="54" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad31b1bdbd7260a61b4e223ffcc7f4645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -190,7 +190,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="109" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="109" bodyend="109"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="109" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a43f8bd4e6fd09eae5ba1c2c5d8bfd6e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -215,7 +215,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="94" bodyend="94"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="94" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3a8c09d9b2db880c12d957c0a7fefcf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -240,7 +240,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="99" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="99" bodyend="99"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1adfd05c385145a8d9b9ae44163ff4335a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="104" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="104" bodyend="104"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="104" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="104" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a60e3a679b7ac56197d4f6e8583ad8d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -290,7 +290,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="79" bodyend="79"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="79" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a81fe8a87bc7fd2477548208af12db1e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -315,7 +315,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="89" bodyend="89"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="89" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a3ce525b716acdc57cb66515cdab0661b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -340,7 +340,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="84" bodyend="84"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="84" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ac8336fe96aad2eaae9c781266e378438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -365,7 +365,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="69" bodyend="69"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="69" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="69" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a68caf298541fb69865303602ea1513ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="39" bodyend="39"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a4d89863686398e326e4a9dad98bea81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -406,14 +406,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ImageQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="44" bodyend="44"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="44" bodyend="44"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/ImageQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/ImageQuery.h" bodystart="31" bodyend="116"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ImageQuery.h" bodystart="31" bodyend="116"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1ad3477218abb66123991b559b7072d84a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedAnchor</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ImageQueryVisitor_1a795bffc62d17e99c8fca53ef199e52b4" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ImageQueryVisitor</scope><name>visitedBold</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</compoundname>
-    <includes local="no">Tools/Doxygen/ParBlockQuery.h</includes>
+    <includes local="no">ParBlockQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1ac5db1c5e401bb98be010dd23cc996663" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParBlockQuery.h" line="33" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a73ae6cd099de3978c75d3be849ba9026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParBlockQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="43" bodyend="43"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -56,14 +56,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/ParBlockQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="38" bodyend="38"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/ParBlockQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="30" bodyend="45"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/ParBlockQuery.h" bodystart="30" bodyend="45"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a73ae6cd099de3978c75d3be849ba9026" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</scope><name>visitedParagraph</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParBlockQueryVisitor_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</scope><name>visitedText</name></member>

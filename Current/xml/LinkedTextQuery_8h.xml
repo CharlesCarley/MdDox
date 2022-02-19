@@ -3,161 +3,132 @@
   <compounddef id="LinkedTextQuery_8h" kind="file" language="C++">
     <compoundname>LinkedTextQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="GraphWriter_8h" local="yes">Source/MdDoxTree/GraphWriter.h</includedby>
-    <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
-    <includedby refid="LinkedTextWriter_8h" local="yes">Source/MdDoxTree/LinkedTextWriter.h</includedby>
-    <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
-    <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
-    <includedby refid="EnumValueQuery_8cpp" local="yes">Tools/Doxygen/EnumValueQuery.cpp</includedby>
-    <includedby refid="LinkedTextQuery_8cpp" local="yes">Tools/Doxygen/LinkedTextQuery.cpp</includedby>
-    <includedby refid="MemberDefQuery_8cpp" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
-    <includedby refid="ParamQuery_8cpp" local="yes">Tools/Doxygen/ParamQuery.cpp</includedby>
+    <includedby refid="GraphWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</includedby>
+    <includedby refid="EnumDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="LinkedTextWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h</includedby>
+    <includedby refid="FunctionDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="MemberDefWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="EnumValueQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.cpp</includedby>
+    <includedby refid="LinkedTextQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.cpp</includedby>
+    <includedby refid="MemberDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="ParamQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp</includedby>
     <incdepgraph>
-      <node id="7250">
-        <label>Utils/Console.h</label>
-        <childnode refid="7238" relation="include">
-        </childnode>
-      </node>
-      <node id="7244">
-        <label>iomanip</label>
-      </node>
-      <node id="7236">
-        <label>functional</label>
-      </node>
-      <node id="7246">
-        <label>Utils/Exception.h</label>
-        <childnode refid="7247" relation="include">
-        </childnode>
-        <childnode refid="7248" relation="include">
-        </childnode>
-        <childnode refid="7249" relation="include">
-        </childnode>
-        <childnode refid="7250" relation="include">
-        </childnode>
-        <childnode refid="7238" relation="include">
-        </childnode>
-      </node>
       <node id="7248">
-        <label>stdexcept</label>
-      </node>
-      <node id="7242">
-        <label>string</label>
-      </node>
-      <node id="7235">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="7236" relation="include">
         </childnode>
-        <childnode refid="7237" relation="include">
-        </childnode>
-        <childnode refid="7238" relation="include">
-        </childnode>
+      </node>
+      <node id="7242">
+        <label>iomanip</label>
+      </node>
+      <node id="7234">
+        <label>functional</label>
+      </node>
+      <node id="7244">
+        <label>Utils/Exception.h</label>
         <childnode refid="7245" relation="include">
         </childnode>
         <childnode refid="7246" relation="include">
         </childnode>
-      </node>
-      <node id="7247">
-        <label>exception</label>
-      </node>
-      <node id="7240">
-        <label>fstream</label>
-      </node>
-      <node id="7245">
-        <label>Xml/Node.h</label>
+        <childnode refid="7247" relation="include">
+        </childnode>
+        <childnode refid="7248" relation="include">
+        </childnode>
         <childnode refid="7236" relation="include">
         </childnode>
-        <childnode refid="7237" relation="include">
-        </childnode>
-        <childnode refid="7238" relation="include">
-        </childnode>
       </node>
-      <node id="7238">
-        <label>Utils/String.h</label>
-        <childnode refid="7239" relation="include">
+      <node id="7246">
+        <label>stdexcept</label>
+      </node>
+      <node id="7240">
+        <label>string</label>
+      </node>
+      <node id="7233">
+        <label>Doxygen.h</label>
+        <childnode refid="7234" relation="include">
         </childnode>
-        <childnode refid="7240" relation="include">
+        <childnode refid="7235" relation="include">
         </childnode>
-        <childnode refid="7241" relation="include">
-        </childnode>
-        <childnode refid="7242" relation="include">
-        </childnode>
-        <childnode refid="7237" relation="include">
+        <childnode refid="7236" relation="include">
         </childnode>
         <childnode refid="7243" relation="include">
         </childnode>
         <childnode refid="7244" relation="include">
         </childnode>
       </node>
+      <node id="7245">
+        <label>exception</label>
+      </node>
+      <node id="7238">
+        <label>fstream</label>
+      </node>
       <node id="7243">
-        <label>vector</label>
-      </node>
-      <node id="7249">
-        <label>utility</label>
-      </node>
-      <node id="7241">
-        <label>sstream</label>
-      </node>
-      <node id="7234">
-        <label>Tools/Doxygen/LinkedTextQuery.h</label>
-        <link refid="LinkedTextQuery_8h"/>
+        <label>Xml/Node.h</label>
+        <childnode refid="7234" relation="include">
+        </childnode>
         <childnode refid="7235" relation="include">
         </childnode>
+        <childnode refid="7236" relation="include">
+        </childnode>
+      </node>
+      <node id="7236">
+        <label>Utils/String.h</label>
+        <childnode refid="7237" relation="include">
+        </childnode>
+        <childnode refid="7238" relation="include">
+        </childnode>
+        <childnode refid="7239" relation="include">
+        </childnode>
+        <childnode refid="7240" relation="include">
+        </childnode>
+        <childnode refid="7235" relation="include">
+        </childnode>
+        <childnode refid="7241" relation="include">
+        </childnode>
+        <childnode refid="7242" relation="include">
+        </childnode>
+      </node>
+      <node id="7241">
+        <label>vector</label>
+      </node>
+      <node id="7247">
+        <label>utility</label>
       </node>
       <node id="7239">
-        <label>deque</label>
+        <label>sstream</label>
+      </node>
+      <node id="7232">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.h</label>
+        <link refid="LinkedTextQuery_8h"/>
+        <childnode refid="7233" relation="include">
+        </childnode>
       </node>
       <node id="7237">
+        <label>deque</label>
+      </node>
+      <node id="7235">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7260">
-        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
-      </node>
-      <node id="7259">
-        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
-      </node>
-      <node id="7254">
-        <label>Source/MdDoxTree/GraphWriter.cpp</label>
-      </node>
-      <node id="7255">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      <node id="7258">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
       <node id="7257">
-        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="7256">
-        <label>Source/MdDoxTree/LinkedTextWriter.h</label>
-        <childnode refid="7255" relation="include">
-        </childnode>
-        <childnode refid="7257" relation="include">
-        </childnode>
-        <childnode refid="7258" relation="include">
-        </childnode>
-        <childnode refid="7259" relation="include">
-        </childnode>
-        <childnode refid="7260" relation="include">
-        </childnode>
+      <node id="7252">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
       <node id="7253">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="7261">
-        <label>Tools/Doxygen/EnumValueQuery.cpp</label>
+      <node id="7255">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="7262">
-        <label>Tools/Doxygen/LinkedTextQuery.cpp</label>
-      </node>
-      <node id="7258">
-        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
-      </node>
-      <node id="7264">
-        <label>Tools/Doxygen/ParamQuery.cpp</label>
-      </node>
-      <node id="7251">
-        <label>Tools/Doxygen/LinkedTextQuery.h</label>
-        <link refid="LinkedTextQuery_8h"/>
-        <childnode refid="7252" relation="include">
+      <node id="7254">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.h</label>
+        <childnode refid="7253" relation="include">
         </childnode>
         <childnode refid="7255" relation="include">
         </childnode>
@@ -165,26 +136,55 @@
         </childnode>
         <childnode refid="7257" relation="include">
         </childnode>
+        <childnode refid="7258" relation="include">
+        </childnode>
+      </node>
+      <node id="7251">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="7259">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/EnumValueQuery.cpp</label>
+      </node>
+      <node id="7260">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.cpp</label>
+      </node>
+      <node id="7256">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="7262">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/ParamQuery.cpp</label>
+      </node>
+      <node id="7249">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.h</label>
+        <link refid="LinkedTextQuery_8h"/>
+        <childnode refid="7250" relation="include">
+        </childnode>
+        <childnode refid="7253" relation="include">
+        </childnode>
+        <childnode refid="7254" relation="include">
+        </childnode>
+        <childnode refid="7255" relation="include">
+        </childnode>
+        <childnode refid="7257" relation="include">
+        </childnode>
         <childnode refid="7259" relation="include">
+        </childnode>
+        <childnode refid="7260" relation="include">
         </childnode>
         <childnode refid="7261" relation="include">
         </childnode>
         <childnode refid="7262" relation="include">
         </childnode>
-        <childnode refid="7263" relation="include">
+      </node>
+      <node id="7250">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/GraphWriter.h</label>
+        <childnode refid="7251" relation="include">
         </childnode>
-        <childnode refid="7264" relation="include">
+        <childnode refid="7252" relation="include">
         </childnode>
       </node>
-      <node id="7252">
-        <label>Source/MdDoxTree/GraphWriter.h</label>
-        <childnode refid="7253" relation="include">
-        </childnode>
-        <childnode refid="7254" relation="include">
-        </childnode>
-      </node>
-      <node id="7263">
-        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+      <node id="7261">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/MemberDefQuery.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery" prot="public">MdDox::Doxygen::LinkedTextQuery</innerclass>
@@ -253,6 +253,6 @@
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/LinkedTextQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkedTextQuery.h"/>
   </compounddef>
 </doxygen>

@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1LinkQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::LinkQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/LinkQuery.h</includes>
+    <includes local="no">LinkQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LinkQuery_1aa0b2791713a2b9a0ffdf72b0bde69f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/LinkQuery.h" line="45" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LinkQuery_1ae626cc55e18aed21c65055f1e327a6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/LinkQuery.h" line="46" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LinkQuery_1a98f25327041722c92fcce2a814501565" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/LinkQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/LinkQuery.h" bodystart="48" bodyend="51"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1LinkQuery_1af5982cb0d4c62f27ed3eb747b03b35df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -69,7 +69,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/LinkQuery.h" line="66" column="1" bodyfile="Tools/Doxygen/LinkQuery.cpp" bodystart="35" bodyend="40"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="66" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.cpp" bodystart="35" bodyend="40"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/LinkQuery.h" line="58" column="1" bodyfile="Tools/Doxygen/LinkQuery.cpp" bodystart="28" bodyend="33"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="58" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.cpp" bodystart="28" bodyend="33"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="Node_8cpp" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
       </memberdef>
@@ -140,7 +140,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/LinkQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/LinkQuery.h" bodystart="42" bodyend="69"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/LinkQuery.h" bodystart="42" bodyend="69"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::LinkQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkQuery</scope><name>empty</name></member>

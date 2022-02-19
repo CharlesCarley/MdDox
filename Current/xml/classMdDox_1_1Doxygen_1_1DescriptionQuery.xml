@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1Doxygen_1_1DescriptionQuery" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DescriptionQuery</compoundname>
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Query" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/DescriptionQuery.h</includes>
+    <includes local="no">DescriptionQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af96e91748a6ec3ede93e1e6e074ce26f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="82" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="82" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af4b0c158dfcd6cd1d6df42f5c5d90502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="83" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="83" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a12db5cadfc456e2c890495b136443d0e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="85" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="85" bodyend="88"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="85" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" bodystart="85" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a55a80c292dc035fe04b301fc40706b26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="111" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="87" bodyend="90"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="111" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="87" bodyend="90"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1ad175cc0f4d7cb369053e562b56b2d268" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="116" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="92" bodyend="95"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="116" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="92" bodyend="95"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af5c1351250dfebe8112e744fe390d502" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="69" bodyend="78"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="101" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="69" bodyend="78"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="80" bodyend="85"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="106" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="80" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DescriptionQuery_1a1a4dfbbe6bb315bbc65c668d649bda75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -139,7 +139,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="60" bodyend="67"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="96" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="60" bodyend="67"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DescriptionQuery.h" line="90" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.cpp" bodystart="31" bodyend="59"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="90" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.cpp" bodystart="31" bodyend="59"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
@@ -220,7 +220,7 @@
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Tools/Doxygen/DescriptionQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/DescriptionQuery.h" bodystart="79" bodyend="119"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" line="80" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DescriptionQuery.h" bodystart="79" bodyend="119"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::DescriptionQuery</scope><name>_node</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1DescriptionQuery_1af96e91748a6ec3ede93e1e6e074ce26f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DescriptionQuery</scope><name>DescriptionQuery</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</compoundname>
-    <includes local="no">Tools/Doxygen/InternalS2Query.h</includes>
+    <includes local="no">InternalS2Query.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a9cca879917a4b7a70cdee6a351278d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="33" column="1"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -40,7 +40,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="43" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="43" bodyend="43"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a6c48f9da5f20a21b14009520c1ed34c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="48" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="48" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1aa5b0168816c6d21d5cf07186521f0808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -81,14 +81,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/InternalS2Query.h" line="38" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="38" bodyend="38"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" bodystart="38" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/InternalS2Query.h" line="31" column="1" bodyfile="Tools/Doxygen/InternalS2Query.h" bodystart="30" bodyend="50"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.h" bodystart="30" bodyend="50"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a14c31a514ebea64d64ebc045c7951996" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>visitedParagraph</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1InternalS2QueryVisitor_1a6c48f9da5f20a21b14009520c1ed34c9" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::InternalS2QueryVisitor</scope><name>visitedSect3</name></member>

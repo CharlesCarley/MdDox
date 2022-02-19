@@ -4,27 +4,31 @@
     <compoundname>Attribute.h</compoundname>
     <includes local="no">utility</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Node_8cpp" local="yes">Source/Xml/Node.cpp</includedby>
+    <includedby refid="Node_8cpp" local="yes">F:/Emulation/MdDox/Source/Xml/Node.cpp</includedby>
     <incdepgraph>
-      <node id="4256">
+      <node id="4254">
         <label>iomanip</label>
       </node>
-      <node id="4253">
+      <node id="4251">
         <label>string</label>
       </node>
-      <node id="4247">
-        <label>Source/Xml/Attribute.h</label>
+      <node id="4245">
+        <label>F:/Emulation/MdDox/Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
+        <childnode refid="4246" relation="include">
+        </childnode>
+        <childnode refid="4247" relation="include">
+        </childnode>
+      </node>
+      <node id="4249">
+        <label>fstream</label>
+      </node>
+      <node id="4247">
+        <label>Utils/String.h</label>
         <childnode refid="4248" relation="include">
         </childnode>
         <childnode refid="4249" relation="include">
         </childnode>
-      </node>
-      <node id="4251">
-        <label>fstream</label>
-      </node>
-      <node id="4249">
-        <label>Utils/String.h</label>
         <childnode refid="4250" relation="include">
         </childnode>
         <childnode refid="4251" relation="include">
@@ -35,36 +39,32 @@
         </childnode>
         <childnode refid="4254" relation="include">
         </childnode>
-        <childnode refid="4255" relation="include">
-        </childnode>
-        <childnode refid="4256" relation="include">
-        </childnode>
       </node>
-      <node id="4255">
+      <node id="4253">
         <label>vector</label>
       </node>
-      <node id="4248">
+      <node id="4246">
         <label>utility</label>
       </node>
-      <node id="4252">
+      <node id="4250">
         <label>sstream</label>
       </node>
-      <node id="4250">
+      <node id="4248">
         <label>deque</label>
       </node>
-      <node id="4254">
+      <node id="4252">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4257">
-        <label>Source/Xml/Attribute.h</label>
+      <node id="4255">
+        <label>F:/Emulation/MdDox/Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
-        <childnode refid="4258" relation="include">
+        <childnode refid="4256" relation="include">
         </childnode>
       </node>
-      <node id="4258">
-        <label>Source/Xml/Node.cpp</label>
+      <node id="4256">
+        <label>F:/Emulation/MdDox/Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Xml_1_1Attribute" prot="public">MdDox::Xml::Attribute</innerclass>
@@ -133,6 +133,6 @@
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Source/Xml/Attribute.h"/>
+    <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h"/>
   </compounddef>
 </doxygen>

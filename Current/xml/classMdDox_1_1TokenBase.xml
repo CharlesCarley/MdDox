@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1TokenBase" kind="class" language="C++" prot="public">
     <compoundname>MdDox::TokenBase</compoundname>
-    <includes local="no">Source/Utils/ParserBase/TokenBase.h</includes>
+    <includes local="no">TokenBase.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1TokenBase_1a8cf2baa41c9a0d82a4346efc54338561" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="33" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="33" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="33" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TokenBase_1aee089c89be629d2d8df8fd755685c1df" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="35" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="35" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1TokenBase_1a7ab7a52b2755327257f8c57a1f163fe6" prot="private" static="no" mutable="no">
         <type>int8_t</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="34" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="34" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="38" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="38" bodyend="44"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="38" bodyend="44"/>
         <references refid="classMdDox_1_1TokenBase_1a742e79bee2108b58e45d55eea6e1baf6" compoundref="TokenBase_8h" startline="50" endline="62">clear</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1a6f0a5b83c6ade5346aabb764307bac52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="46" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1ae79d0fb0c9d6a3c7d6abf2e04c56294f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="48" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1a742e79bee2108b58e45d55eea6e1baf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="50" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="50" bodyend="62"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="50" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1ae6b6e18cf51e95e3d675083073d51b5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="64" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="77" bodyend="80"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1abfea53d4b985e200cd4c69c586db08f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="68" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="87" bodyend="90"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1a8db23f9f9ef708990b4947f4cc88676b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int8_t</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="66" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="82" bodyend="85"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="66" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="82" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1ab39456717fb3f31380abf81f8c66c0a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="72" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="97" bodyend="100"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="72" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1a212ceb5ff3c7a7347cf212f509bb0bb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="74" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="102" bodyend="105"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="74" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1TokenBase_1af59236d9036abb5ddaebf2a238e2973f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -190,14 +190,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/TokenBase.h" line="70" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="92" bodyend="95"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="92" bodyend="95"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/ParserBase/TokenBase.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/TokenBase.h" bodystart="30" bodyend="75"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" line="31" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/TokenBase.h" bodystart="30" bodyend="75"/>
     <listofallmembers>
       <member refid="classMdDox_1_1TokenBase_1a8cf2baa41c9a0d82a4346efc54338561" prot="private" virt="non-virtual"><scope>MdDox::TokenBase</scope><name>_index</name></member>
       <member refid="classMdDox_1_1TokenBase_1aee089c89be629d2d8df8fd755685c1df" prot="private" virt="non-virtual"><scope>MdDox::TokenBase</scope><name>_line</name></member>

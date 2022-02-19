@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1IconSet" kind="class" language="C++" prot="public">
     <compoundname>MdDox::IconSet</compoundname>
-    <includes local="no">Source/MdDoxTree/IconSet.h</includes>
+    <includes local="no">IconSet.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1IconSet_1a827443ad25f19890725b2ec9f2a82bdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -28,7 +28,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IconSet.h" line="63" column="1" bodyfile="Source/MdDoxTree/IconSet.cpp" bodystart="27" bodyend="63"/>
+        <location file="F:/Emulation/MdDox/Source/MdDoxTree/IconSet.h" line="63" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/IconSet.cpp" bodystart="27" bodyend="63"/>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" compoundref="IconSet_8h" startline="33">MdDox::ICO_BACK</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" compoundref="IconSet_8h" startline="34">MdDox::ICO_DEBUG</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>
@@ -51,7 +51,7 @@
     <detaileddescription>
 <para><simplesect kind="see"><para><ref refid="Image" kindref="compound">Image handling</ref> </para></simplesect>
 </para>    </detaileddescription>
-    <location file="Source/MdDoxTree/IconSet.h" line="55" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="54" bodyend="64"/>
+    <location file="F:/Emulation/MdDox/Source/MdDoxTree/IconSet.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Source/MdDoxTree/IconSet.h" bodystart="54" bodyend="64"/>
     <listofallmembers>
       <member refid="classMdDox_1_1IconSet_1a827443ad25f19890725b2ec9f2a82bdd" prot="public" virt="non-virtual"><scope>MdDox::IconSet</scope><name>fileName</name></member>
     </listofallmembers>

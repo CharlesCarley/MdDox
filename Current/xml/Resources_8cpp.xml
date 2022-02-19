@@ -4,23 +4,23 @@
     <compoundname>Resources.cpp</compoundname>
     <includes refid="Resources_8h" local="yes">Resources.h</includes>
     <incdepgraph>
-      <node id="9453">
+      <node id="9451">
         <label>cstdint</label>
       </node>
-      <node id="9452">
+      <node id="9450">
         <label>string</label>
       </node>
-      <node id="9451">
+      <node id="9449">
         <label>Resources.h</label>
-        <childnode refid="9452" relation="include">
+        <childnode refid="9450" relation="include">
         </childnode>
-        <childnode refid="9453" relation="include">
+        <childnode refid="9451" relation="include">
         </childnode>
       </node>
-      <node id="9450">
-        <label>Tools/GenApi/Resources.cpp</label>
+      <node id="9448">
+        <label>F:/Emulation/MdDox/Tools/GenApi/Resources.cpp</label>
         <link refid="Resources_8cpp"/>
-        <childnode refid="9451" relation="include">
+        <childnode refid="9449" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -1160,6 +1160,6 @@
 <codeline lineno="1128"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi::Resources</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/GenApi/Resources.cpp"/>
+    <location file="F:/Emulation/MdDox/Tools/GenApi/Resources.cpp"/>
   </compounddef>
 </doxygen>

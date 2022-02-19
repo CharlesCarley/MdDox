@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Token.h" line="28" column="1" bodyfile="Source/Xml/Token.h" bodystart="27" bodyend="42"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Token.h" line="28" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Token.h" bodystart="27" bodyend="42"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="38" column="1" bodyfile="Source/Xml/Node.h" bodystart="38" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Node.h" line="38" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Node.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a385d6562ae57490103bc9f6c24179be3" prot="public" static="no">
         <type>std::vector&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Scanner.h" line="28" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="28" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.h" line="28" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1aacf07cb68e25a8fa469b0b5063a38e0c" prot="public" static="no">
         <type>std::vector&lt; <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> * &gt;</type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="43" column="1" bodyfile="Source/Xml/Node.h" bodystart="43" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Node.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Node.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1ac338b08335403d9c90feedb1f3c9ee95" prot="public" static="no">
         <type>std::unordered_map&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> * &gt;</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="48" column="1" bodyfile="Source/Xml/Node.h" bodystart="48" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Node.h" line="48" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Node.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a010a26f3b7d0ee89ab19eab357474ca9" prot="public" static="no">
         <type>std::function&lt; bool(<ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *a, <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> *b)&gt;</type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Node.h" line="32" column="1" bodyfile="Source/Xml/Node.h" bodystart="32" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Node.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Node.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a642d5079d25ebeb0618bf168bea03f17" prot="public" static="no">
         <type>std::stack&lt; <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> * &gt;</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="76" column="1" bodyfile="Source/Xml/Parser.h" bodystart="76" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="76" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a253bb379db365511c76461630042cfdf" prot="public" static="no">
         <type><ref refid="classMdDox_1_1Cache" kindref="compound">Cache</ref>&lt; <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Parser.h" line="71" column="1" bodyfile="Source/Xml/Parser.h" bodystart="71" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Parser.h" line="71" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Parser.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMdDox_1_1Xml_1a63e69d53462a482c47cb25ec51c6d6d3" prot="public" static="no">
         <type><ref refid="classMdDox_1_1TokenBase" kindref="compound">TokenBase</ref></type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Token.h" line="44" column="1" bodyfile="Source/Xml/Token.h" bodystart="44" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Token.h" line="44" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Token.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Writer.cpp" line="29" column="1" bodyfile="Source/Xml/Writer.cpp" bodystart="29" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Writer.cpp" line="29" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Writer.cpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Scanner.cpp" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="46" bodyend="49"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" line="46" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Xml_1abe10ae08b1960d2b50fafa77f024f84e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Scanner.cpp" line="33" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="33" bodyend="39"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" line="33" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="33" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Xml_1a3614d2269202e4804c65d03fafd977d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Scanner.cpp" line="41" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="41" bodyend="44"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Scanner.cpp" bodystart="41" bodyend="44"/>
         <references refid="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" compoundref="Char_8h" startline="205" endline="208">MdDox::isLetter</references>
         <references refid="namespaceMdDox_1a4338aec09dbef3739444c62befccc06b" compoundref="Char_8h" startline="199" endline="202">MdDox::isDecimal</references>
       </memberdef>
@@ -307,6 +307,6 @@
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(ex.<ref refid="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" kindref="member">what</ref>());</highlight></codeline>
 <codeline><highlight class="normal">}</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
-    <location file="Source/Xml/Attribute.h" line="27" column="1"/>
+    <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="27" column="1"/>
   </compounddef>
 </doxygen>

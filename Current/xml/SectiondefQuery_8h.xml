@@ -4,161 +4,161 @@
     <compoundname>SectionDefQuery.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
     <includes refid="DoxSectionKind_8h" local="yes">DoxSectionKind.h</includes>
-    <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
-    <includedby refid="SectionDefListingWriter_8h" local="yes">Source/MdDoxTree/SectionDefListingWriter.h</includedby>
-    <includedby refid="SectionDefWriter_8h" local="yes">Source/MdDoxTree/SectionDefWriter.h</includedby>
-    <includedby refid="CompoundDefQuery_8cpp" local="yes">Tools/Doxygen/CompoundDefQuery.cpp</includedby>
-    <includedby refid="SectionDefQuery_8cpp" local="yes">Tools/Doxygen/SectionDefQuery.cpp</includedby>
+    <includedby refid="NamespacePageWriter_8cpp" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
+    <includedby refid="SectionDefListingWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</includedby>
+    <includedby refid="SectionDefWriter_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.h</includedby>
+    <includedby refid="CompoundDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</includedby>
+    <includedby refid="SectionDefQuery_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</includedby>
     <incdepgraph>
-      <node id="8721">
-        <label>Utils/Console.h</label>
-        <childnode refid="8709" relation="include">
-        </childnode>
-      </node>
-      <node id="8715">
-        <label>iomanip</label>
-      </node>
-      <node id="8707">
-        <label>functional</label>
-      </node>
-      <node id="8717">
-        <label>Utils/Exception.h</label>
-        <childnode refid="8718" relation="include">
-        </childnode>
-        <childnode refid="8719" relation="include">
-        </childnode>
-        <childnode refid="8720" relation="include">
-        </childnode>
-        <childnode refid="8721" relation="include">
-        </childnode>
-        <childnode refid="8709" relation="include">
-        </childnode>
-      </node>
-      <node id="8722">
-        <label>DoxSectionKind.h</label>
-        <childnode refid="8706" relation="include">
-        </childnode>
-      </node>
       <node id="8719">
-        <label>stdexcept</label>
-      </node>
-      <node id="8713">
-        <label>string</label>
-      </node>
-      <node id="8706">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="8707" relation="include">
         </childnode>
-        <childnode refid="8708" relation="include">
-        </childnode>
-        <childnode refid="8709" relation="include">
-        </childnode>
+      </node>
+      <node id="8713">
+        <label>iomanip</label>
+      </node>
+      <node id="8705">
+        <label>functional</label>
+      </node>
+      <node id="8715">
+        <label>Utils/Exception.h</label>
         <childnode refid="8716" relation="include">
         </childnode>
         <childnode refid="8717" relation="include">
         </childnode>
-      </node>
-      <node id="8718">
-        <label>exception</label>
-      </node>
-      <node id="8711">
-        <label>fstream</label>
-      </node>
-      <node id="8716">
-        <label>Xml/Node.h</label>
+        <childnode refid="8718" relation="include">
+        </childnode>
+        <childnode refid="8719" relation="include">
+        </childnode>
         <childnode refid="8707" relation="include">
         </childnode>
-        <childnode refid="8708" relation="include">
-        </childnode>
-        <childnode refid="8709" relation="include">
+      </node>
+      <node id="8720">
+        <label>DoxSectionKind.h</label>
+        <childnode refid="8704" relation="include">
         </childnode>
       </node>
-      <node id="8709">
-        <label>Utils/String.h</label>
-        <childnode refid="8710" relation="include">
+      <node id="8717">
+        <label>stdexcept</label>
+      </node>
+      <node id="8711">
+        <label>string</label>
+      </node>
+      <node id="8704">
+        <label>Doxygen.h</label>
+        <childnode refid="8705" relation="include">
         </childnode>
-        <childnode refid="8711" relation="include">
+        <childnode refid="8706" relation="include">
         </childnode>
-        <childnode refid="8712" relation="include">
-        </childnode>
-        <childnode refid="8713" relation="include">
-        </childnode>
-        <childnode refid="8708" relation="include">
+        <childnode refid="8707" relation="include">
         </childnode>
         <childnode refid="8714" relation="include">
         </childnode>
         <childnode refid="8715" relation="include">
         </childnode>
       </node>
+      <node id="8716">
+        <label>exception</label>
+      </node>
+      <node id="8709">
+        <label>fstream</label>
+      </node>
       <node id="8714">
-        <label>vector</label>
-      </node>
-      <node id="8720">
-        <label>utility</label>
-      </node>
-      <node id="8712">
-        <label>sstream</label>
-      </node>
-      <node id="8710">
-        <label>deque</label>
-      </node>
-      <node id="8708">
-        <label>unordered_map</label>
-      </node>
-      <node id="8705">
-        <label>Tools/Doxygen/SectionDefQuery.h</label>
-        <link refid="SectionDefQuery_8h"/>
+        <label>Xml/Node.h</label>
+        <childnode refid="8705" relation="include">
+        </childnode>
         <childnode refid="8706" relation="include">
         </childnode>
-        <childnode refid="8722" relation="include">
+        <childnode refid="8707" relation="include">
+        </childnode>
+      </node>
+      <node id="8707">
+        <label>Utils/String.h</label>
+        <childnode refid="8708" relation="include">
+        </childnode>
+        <childnode refid="8709" relation="include">
+        </childnode>
+        <childnode refid="8710" relation="include">
+        </childnode>
+        <childnode refid="8711" relation="include">
+        </childnode>
+        <childnode refid="8706" relation="include">
+        </childnode>
+        <childnode refid="8712" relation="include">
+        </childnode>
+        <childnode refid="8713" relation="include">
+        </childnode>
+      </node>
+      <node id="8712">
+        <label>vector</label>
+      </node>
+      <node id="8718">
+        <label>utility</label>
+      </node>
+      <node id="8710">
+        <label>sstream</label>
+      </node>
+      <node id="8708">
+        <label>deque</label>
+      </node>
+      <node id="8706">
+        <label>unordered_map</label>
+      </node>
+      <node id="8703">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</label>
+        <link refid="SectionDefQuery_8h"/>
+        <childnode refid="8704" relation="include">
+        </childnode>
+        <childnode refid="8720" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8729">
-        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
-      </node>
-      <node id="8725">
-        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
-        <childnode refid="8726" relation="include">
-        </childnode>
-        <childnode refid="8727" relation="include">
-        </childnode>
-      </node>
-      <node id="8731">
-        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
-      </node>
-      <node id="8724">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
-      </node>
-      <node id="8726">
-        <label>Source/MdDoxTree/PageWriter.cpp</label>
-      </node>
       <node id="8727">
-        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
-      </node>
-      <node id="8730">
-        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
       <node id="8723">
-        <label>Tools/Doxygen/SectionDefQuery.h</label>
-        <link refid="SectionDefQuery_8h"/>
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.h</label>
         <childnode refid="8724" relation="include">
         </childnode>
         <childnode refid="8725" relation="include">
         </childnode>
-        <childnode refid="8728" relation="include">
-        </childnode>
-        <childnode refid="8730" relation="include">
-        </childnode>
-        <childnode refid="8731" relation="include">
-        </childnode>
+      </node>
+      <node id="8729">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.cpp</label>
+      </node>
+      <node id="8722">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      </node>
+      <node id="8724">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="8725">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
       <node id="8728">
-        <label>Source/MdDoxTree/SectionDefWriter.h</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/CompoundDefQuery.cpp</label>
+      </node>
+      <node id="8721">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h</label>
+        <link refid="SectionDefQuery_8h"/>
+        <childnode refid="8722" relation="include">
+        </childnode>
+        <childnode refid="8723" relation="include">
+        </childnode>
         <childnode refid="8726" relation="include">
         </childnode>
+        <childnode refid="8728" relation="include">
+        </childnode>
         <childnode refid="8729" relation="include">
+        </childnode>
+      </node>
+      <node id="8726">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/SectionDefWriter.h</label>
+        <childnode refid="8724" relation="include">
+        </childnode>
+        <childnode refid="8727" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -239,6 +239,6 @@
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/SectionDefQuery.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/SectionDefQuery.h"/>
   </compounddef>
 </doxygen>

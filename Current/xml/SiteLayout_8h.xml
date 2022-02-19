@@ -9,6 +9,6 @@
     <programlisting>
 <codeline lineno="1"></codeline>
     </programlisting>
-    <location file="Current/pages/SiteLayout.h"/>
+    <location file="pages/SiteLayout.h"/>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1DoxCompoundKind" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::DoxCompoundKind</compoundname>
-    <includes local="no">Tools/Doxygen/DoxCompoundKind.h</includes>
+    <includes local="no">DoxCompoundKind.h</includes>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1DoxCompoundKind_1a87e35757d67cddda1026143d985d4ba1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">DoxCompoundKindEnum</ref></type>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/Doxygen/DoxCompoundKind.h" line="134" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.cpp" bodystart="30" bodyend="67"/>
+        <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h" line="134" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.cpp" bodystart="30" bodyend="67"/>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a62d9911613fef621427568c486495d4c" compoundref="DoxCompoundKind_8h" startline="63">MdDox::Doxygen::DCK_CLASS</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a7ad4ae6d7976453b64ef8a0791b0158e" compoundref="DoxCompoundKind_8h" startline="67">MdDox::Doxygen::DCK_INTERFACE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759ad01b6adae675a6349479b37cc0f65366" compoundref="DoxCompoundKind_8h" startline="71">MdDox::Doxygen::DCK_NAMESPACE</references>
@@ -44,7 +44,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxCompoundKind.h" line="132" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="131" bodyend="135"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h" line="132" column="1" bodyfile="F:/Emulation/MdDox/Tools/Doxygen/DoxCompoundKind.h" bodystart="131" bodyend="135"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1DoxCompoundKind_1a87e35757d67cddda1026143d985d4ba1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxCompoundKind</scope><name>get</name></member>
     </listofallmembers>

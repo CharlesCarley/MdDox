@@ -3,7 +3,7 @@
   <compounddef id="classMdDox_1_1ScannerBase" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>MdDox::ScannerBase</compoundname>
     <derivedcompoundref refid="classMdDox_1_1Xml_1_1Scanner" prot="public" virt="non-virtual">MdDox::Xml::Scanner</derivedcompoundref>
-    <includes local="no">Source/Utils/ParserBase/ScannerBase.h</includes>
+    <includes local="no">ScannerBase.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMdDox_1_1ScannerBase_1a934a6e0d12dd5938dbc3008251b4c9de" prot="protected" static="no" mutable="no">
         <type><ref refid="classMdDox_1_1PathUtil" kindref="compound">PathUtil</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="42" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="42" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="42" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ScannerBase_1a8f12ed3e560e95ff1c44c4ea06301bfc" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" kindref="member">IntTable</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="41" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="41" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="41" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ScannerBase_1a8a05d9ab5f3e5d8336f48cd24efd91bd" prot="protected" static="no" mutable="no">
         <type>size_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="43" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="43" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" kindref="member">IStream</ref> *</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="39" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="39" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="39" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1ScannerBase_1af0b17865c1d6628c714046868516eddd" prot="protected" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1ac3281bf161fc4483a362d7d0927b1625" kindref="member">StringTable</ref></type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="40" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="40" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="40" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="72" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="145" bodyend="168"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="72" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="145" bodyend="168"/>
         <references refid="classMdDox_1_1ScannerBase_1ae36492794cc7ecc9de9eefac35b82cfa" compoundref="ScannerBase_8cpp" startline="103" endline="143">scanAny</references>
         <references refid="classMdDox_1_1StringUtils_1a182fe1efd809e486f6d93d53f573b92d" compoundref="String_8cpp" startline="108" endline="123">MdDox::StringUtils::splitLine</references>
         <references refid="classMdDox_1_1ScannerBase_1a2fc7c34a950c607523f811904009b1a6" compoundref="ScannerBase_8h" startline="110" endline="113">line</references>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="45" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="45" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="45" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="45" bodyend="48"/>
         <references refid="classMdDox_1_1ScannerBase_1af0b17865c1d6628c714046868516eddd" compoundref="ScannerBase_8h" startline="40">_stringTable</references>
         <references refid="classMdDox_1_1IndexCache_1a507b07ead5102ff30dacc3ba043df044" compoundref="IndexCache_8h" startline="50" endline="66">MdDox::IndexCache&lt; T &gt;::insert</references>
       </memberdef>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="50" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="50" bodyend="53"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="50" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="50" bodyend="53"/>
         <references refid="classMdDox_1_1ScannerBase_1a8f12ed3e560e95ff1c44c4ea06301bfc" compoundref="ScannerBase_8h" startline="41">_intTable</references>
         <references refid="classMdDox_1_1IndexCache_1a507b07ead5102ff30dacc3ba043df044" compoundref="IndexCache_8h" startline="50" endline="66">MdDox::IndexCache&lt; T &gt;::insert</references>
       </memberdef>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="70" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="103" bodyend="143"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="70" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="103" bodyend="143"/>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">_stream</references>
         <references refid="classMdDox_1_1ScannerBase_1a5fae1e009f8d9d6a7977c129e71c9137" compoundref="ScannerBase_8h" startline="56" endline="62">syntaxError</references>
         <references refid="classMdDox_1_1ScannerBase_1a8a05d9ab5f3e5d8336f48cd24efd91bd" compoundref="ScannerBase_8h" startline="43">_line</references>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="66" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="70" bodyend="80"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="66" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="70" bodyend="80"/>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">_stream</references>
         <references refid="classMdDox_1_1ScannerBase_1a8a05d9ab5f3e5d8336f48cd24efd91bd" compoundref="ScannerBase_8h" startline="43">_line</references>
       </memberdef>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="68" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="82" bodyend="101"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="68" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="82" bodyend="101"/>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">_stream</references>
         <references refid="namespaceMdDox_1a655a1549e9d59b70fafb5626fa3adbf5" compoundref="ScannerBase_8h" startline="33">MdDox::MultiLineCommentStop0</references>
         <references refid="namespaceMdDox_1aeba7b8e95ffe7a28fc022b2a1e874620" compoundref="ScannerBase_8h" startline="34">MdDox::MultiLineCommentStop1</references>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="64" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="170" bodyend="180"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="64" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="170" bodyend="180"/>
         <references refid="namespaceMdDox_1ab988273a03d78c09f4ed6f85c3e2eb13" compoundref="Char_8h" startline="193" endline="196">MdDox::isWhiteSpace</references>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">_stream</references>
       </memberdef>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="56" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="56" bodyend="62"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="56" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="56" bodyend="62"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="75" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="65" bodyend="68"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="75" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="65" bodyend="68"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="78" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="28" bodyend="32"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="78" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ScannerBase_1a3d48b4bf8b41f4edac6b084f2f38b547" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="80" column="1"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="80" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ScannerBase_1a92c079cf84c73c6b16e739dae863c273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -323,7 +323,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="97" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="38" bodyend="43"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="97" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="38" bodyend="43"/>
         <references refid="classMdDox_1_1ScannerBase_1a7341428741f7072bf12be18e56b42561" compoundref="ScannerBase_8h" startline="39">_stream</references>
         <references refid="classMdDox_1_1ScannerBase_1a934a6e0d12dd5938dbc3008251b4c9de" compoundref="ScannerBase_8h" startline="42">_file</references>
         <references refid="classMdDox_1_1ScannerBase_1a8a05d9ab5f3e5d8336f48cd24efd91bd" compoundref="ScannerBase_8h" startline="43">_line</references>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="107" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="60" bodyend="63"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="107" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="60" bodyend="63"/>
         <references refid="classMdDox_1_1ScannerBase_1af0b17865c1d6628c714046868516eddd" compoundref="ScannerBase_8h" startline="40">_stringTable</references>
         <references refid="classMdDox_1_1IndexCache_1ae2ef815c6fd291abdc6bce95ab386040" compoundref="IndexCache_8h" startline="95" endline="98">MdDox::IndexCache&lt; T &gt;::contains</references>
       </memberdef>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="103" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="55" bodyend="58"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="103" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="55" bodyend="58"/>
         <references refid="classMdDox_1_1ScannerBase_1a8f12ed3e560e95ff1c44c4ea06301bfc" compoundref="ScannerBase_8h" startline="41">_intTable</references>
         <references refid="classMdDox_1_1IndexCache_1a9cc03caa1677d69c0406f748134869ad" compoundref="IndexCache_8h" startline="74" endline="80">MdDox::IndexCache&lt; T &gt;::at</references>
       </memberdef>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="105" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="110" bodyend="113"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="105" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="110" bodyend="113"/>
         <references refid="classMdDox_1_1ScannerBase_1a8a05d9ab5f3e5d8336f48cd24efd91bd" compoundref="ScannerBase_8h" startline="43">_line</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ScannerBase_1af35e6bac3429139d85df8cf603851613" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
@@ -404,7 +404,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="88" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="34" bodyend="36"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="88" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="34" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ScannerBase_1a9b38ff930bd6a8b0155e0afd68d216d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="99" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="45" bodyend="48"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="99" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="45" bodyend="48"/>
         <references refid="classMdDox_1_1ScannerBase_1af0b17865c1d6628c714046868516eddd" compoundref="ScannerBase_8h" startline="40">_stringTable</references>
         <references refid="classMdDox_1_1IndexCache_1a9cc03caa1677d69c0406f748134869ad" compoundref="IndexCache_8h" startline="74" endline="80">MdDox::IndexCache&lt; T &gt;::at</references>
       </memberdef>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="101" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.cpp" bodystart="50" bodyend="53"/>
+        <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="101" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.cpp" bodystart="50" bodyend="53"/>
         <references refid="classMdDox_1_1ScannerBase_1af0b17865c1d6628c714046868516eddd" compoundref="ScannerBase_8h" startline="40">_stringTable</references>
         <references refid="classMdDox_1_1IndexCache_1a9cc03caa1677d69c0406f748134869ad" compoundref="IndexCache_8h" startline="74" endline="80">MdDox::IndexCache&lt; T &gt;::at</references>
       </memberdef>
@@ -504,7 +504,7 @@
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
     </collaborationgraph>
-    <location file="Source/Utils/ParserBase/ScannerBase.h" line="37" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="36" bodyend="108"/>
+    <location file="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" line="37" column="1" bodyfile="F:/Emulation/MdDox/Source/Utils/ParserBase/ScannerBase.h" bodystart="36" bodyend="108"/>
     <listofallmembers>
       <member refid="classMdDox_1_1ScannerBase_1a934a6e0d12dd5938dbc3008251b4c9de" prot="protected" virt="non-virtual"><scope>MdDox::ScannerBase</scope><name>_file</name></member>
       <member refid="classMdDox_1_1ScannerBase_1a8f12ed3e560e95ff1c44c4ea06301bfc" prot="protected" virt="non-virtual"><scope>MdDox::ScannerBase</scope><name>_intTable</name></member>

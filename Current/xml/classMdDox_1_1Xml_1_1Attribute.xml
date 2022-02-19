@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Xml_1_1Attribute" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Xml::Attribute</compoundname>
-    <includes local="no">Source/Xml/Attribute.h</includes>
+    <includes local="no">Attribute.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Attribute_1ab24b0c44db0ec3bdfb539cbb85bb5c10" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Attribute.h" line="34" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="34" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="34" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1Xml_1_1Attribute_1ade54a25ca039cee8cffef5b49ed39341" prot="private" static="no" mutable="no">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Attribute.h" line="35" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="35" bodyend="-1"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="35" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Attribute.h" line="43" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="58" bodyend="62"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="43" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="58" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Attribute_1ad2ff2d0ccfae808b8a8ad450ff914557" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -80,7 +80,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Attribute.h" line="49" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="64" bodyend="67"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="49" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="64" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Xml_1_1Attribute_1a909d243a331dfa38f906a392bbb3e9f8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -94,14 +94,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Xml/Attribute.h" line="55" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="69" bodyend="72"/>
+        <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="55" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="69" bodyend="72"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provides a key-value representation of an XML attribute. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Xml/Attribute.h" line="32" column="1" bodyfile="Source/Xml/Attribute.h" bodystart="31" bodyend="56"/>
+    <location file="F:/Emulation/MdDox/Source/Xml/Attribute.h" line="32" column="1" bodyfile="F:/Emulation/MdDox/Source/Xml/Attribute.h" bodystart="31" bodyend="56"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Xml_1_1Attribute_1ab24b0c44db0ec3bdfb539cbb85bb5c10" prot="private" virt="non-virtual"><scope>MdDox::Xml::Attribute</scope><name>_key</name></member>
       <member refid="classMdDox_1_1Xml_1_1Attribute_1ade54a25ca039cee8cffef5b49ed39341" prot="private" virt="non-virtual"><scope>MdDox::Xml::Attribute</scope><name>_value</name></member>

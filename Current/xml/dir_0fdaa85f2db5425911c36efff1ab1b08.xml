@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir">
-    <compoundname>Current/pages</compoundname>
-    <innerfile refid="Design_8h">Design.h</innerfile>
+    <compoundname>pages</compoundname>
     <innerfile refid="Directories_8h">Directories.h</innerfile>
     <innerfile refid="HtmlStyle_8h">HtmlStyle.h</innerfile>
     <innerfile refid="Image_8h">Image.h</innerfile>
@@ -12,6 +11,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Current/pages/"/>
+    <location file="pages/"/>
   </compounddef>
 </doxygen>

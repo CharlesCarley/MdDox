@@ -6,19 +6,15 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<sect1 id="index_1Topics">
+<para>The following links to the main index <ref refid="index" kindref="compound">Contents</ref></para><sect1 id="index_1Topics">
 <title>Topics</title>
 <para><itemizedlist>
 <listitem>
-<para><ref refid="Site" kindref="compound">Site Layout</ref>  </para></listitem>
+<para><ref refid="Site" kindref="compound">Define the overall layout of the generated site</ref> </para></listitem>
 <listitem>
-<para><ref refid="Design" kindref="compound">Design tests</ref>  </para></listitem>
+<para><ref refid="Image" kindref="compound">Describe how images are linked.</ref>  </para></listitem>
 <listitem>
-<para><ref refid="Image" kindref="compound">Image handling</ref>  </para></listitem>
-<listitem>
-<para><ref refid="Html" kindref="compound">Style Sheet</ref>  </para></listitem>
-<listitem>
-<para><ref refid="index" kindref="compound">All Contents</ref>  </para></listitem>
+<para><ref refid="Html" kindref="compound">Describe the current html style sheet</ref>  </para></listitem>
 </itemizedlist>
 </para></sect1>
     </detaileddescription>

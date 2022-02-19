@@ -3,142 +3,142 @@
   <compounddef id="Sect3Query_8h" kind="file" language="C++">
     <compoundname>Sect3Query.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
-    <includedby refid="Section3Writer_8h" local="yes">Source/MdDoxTree/Section3Writer.h</includedby>
-    <includedby refid="InternalS2Query_8cpp" local="yes">Tools/Doxygen/InternalS2Query.cpp</includedby>
-    <includedby refid="Sect2Query_8cpp" local="yes">Tools/Doxygen/Sect2Query.cpp</includedby>
-    <includedby refid="Sect3Query_8cpp" local="yes">Tools/Doxygen/Sect3Query.cpp</includedby>
+    <includedby refid="Section3Writer_8h" local="yes">F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.h</includedby>
+    <includedby refid="InternalS2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</includedby>
+    <includedby refid="Sect2Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</includedby>
+    <includedby refid="Sect3Query_8cpp" local="yes">F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</includedby>
     <incdepgraph>
-      <node id="8618">
-        <label>Utils/Console.h</label>
-        <childnode refid="8606" relation="include">
-        </childnode>
-      </node>
-      <node id="8612">
-        <label>iomanip</label>
-      </node>
-      <node id="8604">
-        <label>functional</label>
-      </node>
-      <node id="8614">
-        <label>Utils/Exception.h</label>
-        <childnode refid="8615" relation="include">
-        </childnode>
-        <childnode refid="8616" relation="include">
-        </childnode>
-        <childnode refid="8617" relation="include">
-        </childnode>
-        <childnode refid="8618" relation="include">
-        </childnode>
-        <childnode refid="8606" relation="include">
-        </childnode>
-      </node>
       <node id="8616">
-        <label>stdexcept</label>
-      </node>
-      <node id="8610">
-        <label>string</label>
-      </node>
-      <node id="8603">
-        <label>Doxygen.h</label>
+        <label>Utils/Console.h</label>
         <childnode refid="8604" relation="include">
         </childnode>
-        <childnode refid="8605" relation="include">
-        </childnode>
-        <childnode refid="8606" relation="include">
-        </childnode>
+      </node>
+      <node id="8610">
+        <label>iomanip</label>
+      </node>
+      <node id="8602">
+        <label>functional</label>
+      </node>
+      <node id="8612">
+        <label>Utils/Exception.h</label>
         <childnode refid="8613" relation="include">
         </childnode>
         <childnode refid="8614" relation="include">
         </childnode>
-      </node>
-      <node id="8615">
-        <label>exception</label>
-      </node>
-      <node id="8608">
-        <label>fstream</label>
-      </node>
-      <node id="8602">
-        <label>Tools/Doxygen/Sect3Query.h</label>
-        <link refid="Sect3Query_8h"/>
-        <childnode refid="8603" relation="include">
+        <childnode refid="8615" relation="include">
         </childnode>
-      </node>
-      <node id="8613">
-        <label>Xml/Node.h</label>
+        <childnode refid="8616" relation="include">
+        </childnode>
         <childnode refid="8604" relation="include">
         </childnode>
-        <childnode refid="8605" relation="include">
-        </childnode>
-        <childnode refid="8606" relation="include">
-        </childnode>
       </node>
-      <node id="8606">
-        <label>Utils/String.h</label>
-        <childnode refid="8607" relation="include">
+      <node id="8614">
+        <label>stdexcept</label>
+      </node>
+      <node id="8608">
+        <label>string</label>
+      </node>
+      <node id="8601">
+        <label>Doxygen.h</label>
+        <childnode refid="8602" relation="include">
         </childnode>
-        <childnode refid="8608" relation="include">
+        <childnode refid="8603" relation="include">
         </childnode>
-        <childnode refid="8609" relation="include">
-        </childnode>
-        <childnode refid="8610" relation="include">
-        </childnode>
-        <childnode refid="8605" relation="include">
+        <childnode refid="8604" relation="include">
         </childnode>
         <childnode refid="8611" relation="include">
         </childnode>
         <childnode refid="8612" relation="include">
         </childnode>
       </node>
-      <node id="8611">
-        <label>vector</label>
+      <node id="8613">
+        <label>exception</label>
       </node>
-      <node id="8617">
-        <label>utility</label>
+      <node id="8606">
+        <label>fstream</label>
+      </node>
+      <node id="8600">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h</label>
+        <link refid="Sect3Query_8h"/>
+        <childnode refid="8601" relation="include">
+        </childnode>
+      </node>
+      <node id="8611">
+        <label>Xml/Node.h</label>
+        <childnode refid="8602" relation="include">
+        </childnode>
+        <childnode refid="8603" relation="include">
+        </childnode>
+        <childnode refid="8604" relation="include">
+        </childnode>
+      </node>
+      <node id="8604">
+        <label>Utils/String.h</label>
+        <childnode refid="8605" relation="include">
+        </childnode>
+        <childnode refid="8606" relation="include">
+        </childnode>
+        <childnode refid="8607" relation="include">
+        </childnode>
+        <childnode refid="8608" relation="include">
+        </childnode>
+        <childnode refid="8603" relation="include">
+        </childnode>
+        <childnode refid="8609" relation="include">
+        </childnode>
+        <childnode refid="8610" relation="include">
+        </childnode>
       </node>
       <node id="8609">
-        <label>sstream</label>
+        <label>vector</label>
+      </node>
+      <node id="8615">
+        <label>utility</label>
       </node>
       <node id="8607">
-        <label>deque</label>
+        <label>sstream</label>
       </node>
       <node id="8605">
+        <label>deque</label>
+      </node>
+      <node id="8603">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8620">
-        <label>Source/MdDoxTree/Section3Writer.h</label>
+      <node id="8618">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.h</label>
+        <childnode refid="8619" relation="include">
+        </childnode>
+        <childnode refid="8620" relation="include">
+        </childnode>
+      </node>
+      <node id="8622">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect2Query.cpp</label>
+      </node>
+      <node id="8617">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h</label>
+        <link refid="Sect3Query_8h"/>
+        <childnode refid="8618" relation="include">
+        </childnode>
         <childnode refid="8621" relation="include">
         </childnode>
         <childnode refid="8622" relation="include">
         </childnode>
-      </node>
-      <node id="8624">
-        <label>Tools/Doxygen/Sect2Query.cpp</label>
-      </node>
-      <node id="8619">
-        <label>Tools/Doxygen/Sect3Query.h</label>
-        <link refid="Sect3Query_8h"/>
-        <childnode refid="8620" relation="include">
-        </childnode>
         <childnode refid="8623" relation="include">
         </childnode>
-        <childnode refid="8624" relation="include">
-        </childnode>
-        <childnode refid="8625" relation="include">
-        </childnode>
       </node>
-      <node id="8622">
-        <label>Source/MdDoxTree/Section3Writer.cpp</label>
+      <node id="8620">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="8621">
-        <label>Source/MdDoxTree/Section2Writer.cpp</label>
-      </node>
-      <node id="8625">
-        <label>Tools/Doxygen/Sect3Query.cpp</label>
+      <node id="8619">
+        <label>F:/Emulation/MdDox/Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
       <node id="8623">
-        <label>Tools/Doxygen/InternalS2Query.cpp</label>
+        <label>F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.cpp</label>
+      </node>
+      <node id="8621">
+        <label>F:/Emulation/MdDox/Tools/Doxygen/InternalS2Query.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1Doxygen_1_1Sect3Query" prot="public">MdDox::Doxygen::Sect3Query</innerclass>
@@ -220,6 +220,6 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/Sect3Query.h"/>
+    <location file="F:/Emulation/MdDox/Tools/Doxygen/Sect3Query.h"/>
   </compounddef>
 </doxygen>
