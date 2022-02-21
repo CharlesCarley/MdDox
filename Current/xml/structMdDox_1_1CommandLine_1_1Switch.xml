@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="68" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="68" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="67" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1CommandLine_1_1Switch_1ab157d592a8dea1468146f550084a16c9" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="58" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="58" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="57" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1CommandLine_1_1Switch_1a17b7a1f11c4ef348f1b6ca80a18749cf" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="39" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="38" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1CommandLine_1_1Switch_1ab5ccb589304a934849750177c8c8a251" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -54,7 +54,7 @@
 <para>A value of null means unused. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="53" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="53" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="52" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1CommandLine_1_1Switch_1a423cb5995f4e03b7e0943e4fc5c8c91c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="63" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="63" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="62" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMdDox_1_1CommandLine_1_1Switch_1aef08c879912d8fec0a1b6043f7e31907" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -80,7 +80,7 @@
 <para>A value of 0 means unused. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/CommandLine/Option.h" line="46" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="46" bodyend="-1"/>
+        <location file="Source/Utils/CommandLine/Option.h" line="45" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -119,7 +119,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/Utils/CommandLine/Option.h" line="35" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="34" bodyend="69"/>
+    <location file="Source/Utils/CommandLine/Option.h" line="34" column="1" bodyfile="Source/Utils/CommandLine/Option.h" bodystart="33" bodyend="68"/>
     <listofallmembers>
       <member refid="structMdDox_1_1CommandLine_1_1Switch_1a09fbb77898d2e598084f831f8114b53e" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Switch</scope><name>argCount</name></member>
       <member refid="structMdDox_1_1CommandLine_1_1Switch_1ab157d592a8dea1468146f550084a16c9" prot="public" virt="non-virtual"><scope>MdDox::CommandLine::Switch</scope><name>description</name></member>

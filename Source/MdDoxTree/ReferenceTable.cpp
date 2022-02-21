@@ -57,6 +57,13 @@ namespace MdDox
                 if (cit == cnm.end())
                     cnm.insert(std::make_pair(name, ref));
             }
+            else if (kind == Doxygen::DCK_FILE)
+            {
+                Console::writeLine(name);
+                const CompoundNameMap::const_iterator cit = cnm.find(name);
+                if (cit == cnm.end())
+                    cnm.insert(std::make_pair(name, ref));
+            }
         }
     }
 
@@ -69,7 +76,7 @@ namespace MdDox
         {
             CompoundReference* cref = new CompoundReference();
             cref->setName(name);
-            cref->setReference(id);
+            cref->setId(id);
             cref->setKind(kind);
 
         	insertByName(kind, cref);
@@ -103,7 +110,7 @@ namespace MdDox
                 if (cref)
                 {
                     ref.setName(cref->getName());
-                    ref.setReference(cref->getReference());
+                    ref.setId(cref->getId());
                 }
             }
         }
@@ -120,7 +127,7 @@ namespace MdDox
         {
             MemberReference* cref = new MemberReference();
             cref->setName(name);
-            cref->setReference(id);
+            cref->setId(id);
             cref->setKind(kind);
 
             _members.insert(std::make_pair(id, cref));

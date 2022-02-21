@@ -225,9 +225,6 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>inlineText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>italicText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>lineBreak</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkHeading</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkPage</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkPageMember</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRef</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRefIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkText</name></member>

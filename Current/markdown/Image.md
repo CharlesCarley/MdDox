@@ -1,7 +1,7 @@
 <a id="image-handling"></a>
 <h1>Image handling</h1>
 <a id="Image"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -24,7 +24,7 @@
 <br/>
 <span class="inline-text">
  Icons are expected to be in the </span>
-<a href="../images">images</a>
+<a href="../images.md">images</a>
 <span class="inline-text"> directory.</span>
 <a id="Image_1Internal"></a>
 <a id="icons"></a>
@@ -38,7 +38,7 @@
 <a id="sources"></a>
 <h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
-<a href="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</a>
+<a href="https://github.com/google/material-design-icons.md">https://github.com/google/material-design-icons</a>
 </div>
 </div>
 </body>

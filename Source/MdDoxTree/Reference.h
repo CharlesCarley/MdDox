@@ -41,10 +41,9 @@ namespace MdDox
 
         void setName(const String& name);
 
-        const String& getReference() const;
+        const String& getId() const;
 
-        void setReference(const String& ref);
-
+        void setId(const String& ref);
 
         bool empty() const;
     };
@@ -59,18 +58,18 @@ namespace MdDox
         _name = name;
     }
 
-    inline const String& Reference::getReference() const
+    inline const String& Reference::getId() const
     {
         return _ref;
     }
 
-    inline void Reference::setReference(const String& ref)
+    inline void Reference::setId(const String& ref)
     {
         _ref = ref;
     }
 
     inline bool Reference::empty() const
     {
-	    return _ref.empty();
+        return _ref.empty();
     }
 }  // namespace MdDox

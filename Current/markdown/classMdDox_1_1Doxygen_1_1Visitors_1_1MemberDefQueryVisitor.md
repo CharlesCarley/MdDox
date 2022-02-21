@@ -1,7 +1,7 @@
 <a id="memberdefqueryvisitor"></a>
 <h1>MemberDefQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -17,23 +17,19 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumDefWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1FunctionDefWriter.md#functiondefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FunctionDefWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefListingWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1MemberDefWriter.md#memberdefwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefWriter</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-83.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1EnumDefWriter.md#mddoxenumdefwriter">MdDox::EnumDefWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1FunctionDefWriter.md#mddoxfunctiondefwriter">MdDox::FunctionDefWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefListingWriter.md#mddoxmemberdeflistingwriter">MdDox::MemberDefListingWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefWriter.md#mddoxmemberdefwriter">MdDox::MemberDefWriter</a>
+</div>
+<img src="../images/dot/internal-diagram-85.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~memberdefqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~MemberDefQueryVisitor</span>

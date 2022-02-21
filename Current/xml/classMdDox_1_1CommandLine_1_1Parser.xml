@@ -438,11 +438,11 @@
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8adefa4c3792d7f2337acf3d6f3f799d9f" compoundref="Utils_2CommandLine_2Token_8h" startline="31">MdDox::CommandLine::TOK_SWITCH_SHORT</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a05a2d08c2b15bd0f35f3363e31945c2f" compoundref="Utils_2CommandLine_2Token_8h" startline="32">MdDox::CommandLine::TOK_SWITCH_LONG</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a5a7fb23fd3b79f2ac74709ccb7d88215" compoundref="Utils_2CommandLine_2Token_8h" startline="33">MdDox::CommandLine::TOK_NEXT</references>
-        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" compoundref="Option_8h" startline="137" endline="140">MdDox::CommandLine::ParseOption::makePresent</references>
-        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" compoundref="Option_8h" startline="122" endline="125">MdDox::CommandLine::ParseOption::isOptional</references>
-        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abfefe3c88f484cd4ce61e53fea8ca3a2" compoundref="Option_8h" startline="132" endline="135">MdDox::CommandLine::ParseOption::getArgCount</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a944d647075cc03ae3eb5c3854f9c3747" compoundref="Option_8h" startline="136" endline="139">MdDox::CommandLine::ParseOption::makePresent</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1a4a7fd83cc6931a360e7070d7c5b556de" compoundref="Option_8h" startline="121" endline="124">MdDox::CommandLine::ParseOption::isOptional</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abfefe3c88f484cd4ce61e53fea8ca3a2" compoundref="Option_8h" startline="131" endline="134">MdDox::CommandLine::ParseOption::getArgCount</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8acb940d3c384d587411d9e062100b194a" compoundref="Utils_2CommandLine_2Token_8h" startline="40">MdDox::CommandLine::TOK_IDENTIFIER</references>
-        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" compoundref="Option_8h" startline="158" endline="162">MdDox::CommandLine::ParseOption::setValue</references>
+        <references refid="classMdDox_1_1CommandLine_1_1ParseOption_1abb8c6f86e1fa5692252eeea8bfa1097d" compoundref="Option_8h" startline="157" endline="161">MdDox::CommandLine::ParseOption::setValue</references>
         <references refid="namespaceMdDox_1_1CommandLine_1a03e4cd225e19f002e73e70896a99a1d8a7b900831ba61e82ad856c6824525ee2d" compoundref="Utils_2CommandLine_2Token_8h" startline="34">MdDox::CommandLine::TOK_OPTION</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1CommandLine_1_1Parser_1a60e1ab514e10484c50322b9a6b49052b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -543,10 +543,10 @@
         </inbodydescription>
         <location file="Source/Utils/CommandLine/Parser.h" line="134" column="1" bodyfile="Source/Utils/CommandLine/Parser.cpp" bodystart="265" bodyend="320"/>
         <references refid="classMdDox_1_1CommandLine_1_1Parser_1a265da69de06bfcbfdb08aff1707f6268" compoundref="Utils_2CommandLine_2Parser_8cpp" startline="186" endline="189">programName</references>
-        <references refid="structMdDox_1_1CommandLine_1_1Switch_1aef08c879912d8fec0a1b6043f7e31907" compoundref="Option_8h" startline="46">MdDox::CommandLine::Switch::shortSwitch</references>
-        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab5ccb589304a934849750177c8c8a251" compoundref="Option_8h" startline="53">MdDox::CommandLine::Switch::longSwitch</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1aef08c879912d8fec0a1b6043f7e31907" compoundref="Option_8h" startline="45">MdDox::CommandLine::Switch::shortSwitch</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab5ccb589304a934849750177c8c8a251" compoundref="Option_8h" startline="52">MdDox::CommandLine::Switch::longSwitch</references>
         <references refid="classMdDox_1_1Char_1a5b40b89b3198fcfa306a09047d3803e0" compoundref="Char_8cpp" startline="36" endline="39">MdDox::Char::length</references>
-        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab157d592a8dea1468146f550084a16c9" compoundref="Option_8h" startline="58">MdDox::CommandLine::Switch::description</references>
+        <references refid="structMdDox_1_1CommandLine_1_1Switch_1ab157d592a8dea1468146f550084a16c9" compoundref="Option_8h" startline="57">MdDox::CommandLine::Switch::description</references>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
       </memberdef>
       </sectiondef>

@@ -29,42 +29,72 @@ digraph {
     layout  = dot;
     
     node [
-        shape     = none
+        shape     = rect
+        style     = &quot;filled,solid&quot;
         fontname  = &quot;${font-family}&quot;
-        fontcolor = &quot;${text}&quot;
         fontsize  = &quot;${font-size}&quot;
+        fontcolor = &quot;${node-primary-text}&quot;
+        color     = &quot;${node-primary-border}&quot;
+        fillcolor = &quot;${node-primary}&quot;
+        margin    = &quot;${node-primary-margin}&quot;
     ]
     edge [
         arrowsize = &quot;${arrow-size}&quot;
-        color     = &quot;${edge-grey}&quot;
         fontname  = &quot;${font-family}&quot;
-        fontcolor = &quot;${text}&quot;
         fontsize  = &quot;${font-size}&quot;
+        color     = &quot;${node-primary-edge}&quot;
+        fontcolor = &quot;${node-primary-text}&quot;
     ]
     
     MainPage[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;MainPage&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Brief&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Detail&lt;/td&gt;&lt;/tr&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary}&quot;&gt;
+    &lt;tr&gt;
+    &lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;MainPage&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+        &lt;table border=&quot;${table-border-size}&quot;
+           cellspacing=&quot;0&quot;
+           cellpadding=&quot;4&quot;
+           bgcolor=&quot;${node-primary-border}&quot;&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Brief&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Detail&lt;/td&gt;&lt;/tr&gt;
         &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
 
 
     Index[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Description&quot;&gt;Description&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Directory&quot;&gt;Directory&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Class&quot;&gt;Class&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Page&quot;&gt;Page&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Namespace&quot;&gt;Namespace&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary}&quot;&gt;
+
+    &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+        &lt;table border=&quot;${table-border-size}&quot;
+           cellspacing=&quot;0&quot;
+           cellpadding=&quot;4&quot;
+           bgcolor=&quot;${node-primary-border}&quot;&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Description&quot;&gt;Description&lt;/td&gt;&lt;/tr&gt;
         &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+    &lt;table border=&quot;${table-border-size}&quot;
+           cellspacing=&quot;0&quot;
+           cellpadding=&quot;4&quot;
+           bgcolor=&quot;${node-primary-border}&quot;&gt;
+        &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Directory&quot;&gt;Directory&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Class&quot;&gt;Class&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Page&quot;&gt;Page&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Namespace&quot;&gt;Namespace&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
     {rank=min Index MainPage}
 
@@ -72,77 +102,100 @@ digraph {
 
 
     ClassIndex[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary}&quot;&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+        &lt;table border=&quot;${table-border-size}&quot;
+               cellspacing=&quot;0&quot;
+               cellpadding=&quot;4&quot;
+               bgcolor=&quot;${node-primary-border}&quot;&gt;
             &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Class[0]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Class[1]&lt;/td&gt;&lt;/tr&gt;
             &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Class[n]&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
+    &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
     Index:Class-&gt;ClassIndex;
 
 
     NamespaceIndex[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[0]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[1]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Namespace[n]&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary}&quot;&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+    &lt;table border=&quot;${table-border-size}&quot;
+           cellspacing=&quot;0&quot;
+           cellpadding=&quot;4&quot;
+           bgcolor=&quot;${node-primary-border}&quot;&gt;
+        &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[0]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Namespace[1]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Namespace[n]&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
     
     Index:Namespace-&gt;NamespaceIndex;
 
     PageIndex[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[0]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[1]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;ITem&quot;&gt;Page[n]&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+   cellspacing=&quot;0&quot;
+   cellpadding=&quot;4&quot;
+   bgcolor=&quot;${node-primary}&quot;&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary-border}&quot;&gt;
+    &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[0]&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Page[1]&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;ITem&quot;&gt;Page[n]&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
 
     Index:Page-&gt;PageIndex;
 
 
     DirectoryIndex[label=&lt;
-        &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td&gt;
-            &lt;table border=&quot;${table-border-size}&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${table-bg}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[0]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[1]&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Dir[n]&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
+&lt;table border=&quot;${table-border-size}&quot;
+       cellspacing=&quot;0&quot;
+       cellpadding=&quot;4&quot;
+       bgcolor=&quot;${node-primary}&quot;&gt;
+    &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;
+    &lt;table border=&quot;${table-border-size}&quot;
+           cellspacing=&quot;0&quot;
+           cellpadding=&quot;4&quot;
+           bgcolor=&quot;${node-primary-border}&quot;&gt;
+        &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Contents (A-Z)&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[0]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Dir[1]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td align=&quot;left&quot; port=&quot;Item&quot;&gt;Dir[n]&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
     &gt;];
 
     Index:Directory-&gt;DirectoryIndex:Title;
 
-    {rank=same Index DirectoryIndex}
+    { rank=same Index DirectoryIndex }
 
-    ClassIndex:Item-&gt;ClassPage;
-    DirectoryIndex:Item-&gt;DirectoryPage;
-    PageIndex:Item-&gt;GenericPage;
-    NamespaceIndex:Item-&gt;NamespacePage;
-
+    ClassIndex:Item     -&gt; ClassPage
+    DirectoryIndex:Item -&gt; DirectoryPage
+    PageIndex:Item      -&gt; GenericPage
+    NamespaceIndex:Item -&gt; NamespacePage
 }
  </dot>
 </para><sect2 id="Site_1MP">

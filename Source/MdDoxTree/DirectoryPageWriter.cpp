@@ -20,6 +20,8 @@
 -------------------------------------------------------------------------------
 */
 #include "DirectoryPageWriter.h"
+
+#include "HashUtils.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/LocationQuery.h"
 #include "Doxygen/RefQuery.h"
@@ -48,7 +50,7 @@ namespace MdDox
     void DirectoryPageWriter::visitedLocation(const Doxygen::LocationQuery& query)
     {
         _internalDir.setName(query.getFile());
-        _internalDir.setReference(_internalDir.getName());
+        _internalDir.setId(_internalDir.getName());
     }
 
     void DirectoryPageWriter::visitedCompoundName(const String& text)
@@ -63,9 +65,9 @@ namespace MdDox
 
         Reference ref;
         ref.setName(PathUtil(query.text()).fileName());
-        ref.setReference(query.getRefId());
+        ref.setId(query.getRefId());
 
-        writeReferenceIconLink(_out, _writer, ref, ICO_FOLDER);
+        _writer->linkRefIcon(_out, ICO_FOLDER, 0, ref.getId(), ref.getName());
     }
 
     void DirectoryPageWriter::visitedInnerFile(const Doxygen::RefQuery& query)
@@ -73,12 +75,16 @@ namespace MdDox
         if (!_hasContent)
             beginDirectoryHeading();
 
+        const String& fileName = PathUtil(query.text()).fileName();
+        const String& fileUrl  = SiteBuilder::get().fileUrl;
+        const String  refId    = StringCombine(fileUrl, _internalDir.getId(), fileName, HashUtils::lineNumber(1));
+
         Reference ref;
+        ref.setName(fileName);
+        ref.setId(refId);
 
-        ref.setName(PathUtil(query.text()).fileName());
-        ref.setReference(StringCombine(_internalDir.getName(), "/", PathUtil(query.text()).fileName()));
-
-        writeExternalIconLink(_out, _writer, ref, ICO_FILE);
+        _writer->embedContentLinkText(_out, ICO_FILE, ref.getId(), ref.getName());
+        _writer->lineBreak(_out);
     }
 
     void DirectoryPageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)

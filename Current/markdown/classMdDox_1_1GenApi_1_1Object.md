@@ -1,7 +1,7 @@
 <a id="object"></a>
 <h1>Object</h1>
 <a id="classMdDox_1_1GenApi_1_1Object"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -15,21 +15,18 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Writer.md#writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Writer</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#mddoxxmlwriter">MdDox::Xml::Writer</a>
+</div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#group" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Group</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Simple.md#simple" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Simple</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-101.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Group.md#mddoxgenapigroup">MdDox::GenApi::Group</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Simple.md#mddoxgenapisimple">MdDox::GenApi::Simple</a>
+</div>
+<img src="../images/dot/internal-diagram-103.dot.svg"/><br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>

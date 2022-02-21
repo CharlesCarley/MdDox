@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="167" bodyend="188"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="167" bodyend="195"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="190" bodyend="272"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="197" bodyend="279"/>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -174,15 +174,16 @@
         <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="183">MdDox::SiteBuilder::projectTitle</references>
         <references refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" compoundref="WriteUtils_8cpp" startline="32" endline="41">MdDox::writeCommonNav</references>
         <references refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" compoundref="SiteBuilder_8cpp" startline="178" endline="184">MdDox::SiteBuilder::getRefId</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="62" endline="65">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" compoundref="IndexPageWriter_8cpp" startline="45">MdDox::IndexPageFilter::pages</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" compoundref="IconSet_8h" startline="36">MdDox::ICO_FOLDER</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" compoundref="IndexPageWriter_8cpp" startline="48">MdDox::IndexPageFilter::directories</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" compoundref="IconSet_8h" startline="46">MdDox::ICO_NAMESPACE</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" compoundref="IndexPageWriter_8cpp" startline="47">MdDox::IndexPageFilter::namespaces</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" compoundref="IconSet_8h" startline="43">MdDox::ICO_CLASS</references>
+        <references refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" compoundref="IndexPageWriter_8cpp" startline="46">MdDox::IndexPageFilter::classes</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

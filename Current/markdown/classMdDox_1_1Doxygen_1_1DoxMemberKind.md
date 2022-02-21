@@ -1,7 +1,7 @@
 <a id="doxmemberkind"></a>
 <h1>DoxMemberKind</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxMemberKind"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

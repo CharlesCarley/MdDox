@@ -63,7 +63,7 @@ namespace MdDox
             Reference id = builder.findNamespace(curName);
             if (!id.empty())
             {
-                writer->linkRef(out, 0, id.getReference(), LinkUtils::lastBinaryResolution(id.getName()));
+                writer->linkRef(out, 0, id.getId(), LinkUtils::lastBinaryResolution(id.getName()));
                 writer->inlineText(out, "::");
             }
 
@@ -101,7 +101,7 @@ namespace MdDox
             Reference id = builder.findDirectory(reconstruct);
             if (!id.empty())
             {
-                writer->linkRef(out, 0, id.getReference(), navList.front());
+                writer->linkRef(out, 0, id.getId(), navList.front());
                 writer->inlineText(out, "/");
             }
             navList.pop_front();
@@ -117,12 +117,12 @@ namespace MdDox
     {
         const String title = LinkUtils::lastBinaryResolution(ref.getName());
 
-        String memberRef = SiteBuilder::get().findMember(ref.getReference());
+        String memberRef = SiteBuilder::get().findMember(ref.getId());
         if (memberRef.empty())
         {
-            memberRef = SiteBuilder::get().findReference(ref.getReference());
+            memberRef = SiteBuilder::get().findReference(ref.getId());
             if (memberRef.empty())
-                memberRef = ref.getReference();
+                memberRef = ref.getId();
         }
 
         const String cleanRef = memberRef;
@@ -146,7 +146,7 @@ namespace MdDox
     void writeExternalIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
         const String& title = ref.getName();
-        const String  file  = StringCombine(SiteBuilder::get().fileUrl, '/', ref.getReference());
+        const String  file  = StringCombine(SiteBuilder::get().fileUrl, '/', ref.getId());
 
         const String link = StringCombine(file, HashUtils::lineNumber(1));
 

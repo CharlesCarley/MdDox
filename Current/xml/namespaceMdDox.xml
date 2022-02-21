@@ -915,9 +915,9 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="128" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="128" bodyend="146"/>
         <references refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="Console_8cpp" startline="199" endline="204">MdDox::Console::writeLine</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="62" endline="65">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1afb32e2e1f5cc5df668783653f13f81a7" compoundref="Xml_2Parser_8cpp" startline="46" endline="49">MdDox::Xml::Parser::applyFilter</references>
         <references refid="namespaceMdDox_1_1Doxygen_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="DoxygenFilter_8cpp" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="DoxygenFilter_8cpp" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
@@ -1019,7 +1019,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/SiteBuilder.cpp" line="88" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="88" bodyend="105"/>
         <references refid="classMdDox_1_1Config_1a12b336c2490b8d41d792580da21a48ff" compoundref="Config_8cpp" startline="223" endline="229">MdDox::Config::getValue</references>
-        <references refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" compoundref="ReferenceTable_8cpp" startline="63" endline="82">MdDox::ReferenceTable::insertCompound</references>
+        <references refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" compoundref="ReferenceTable_8cpp" startline="70" endline="89">MdDox::ReferenceTable::insertCompound</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1235,7 +1235,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="78" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="78" bodyend="114"/>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" compoundref="WriteUtils_8cpp" startline="32" endline="41">writeCommonNav</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
@@ -1273,10 +1273,10 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="146" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="146" bodyend="155"/>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="62" endline="65">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
@@ -1306,7 +1306,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="43" bodyend="76"/>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" compoundref="WriteUtils_8cpp" startline="32" endline="41">writeCommonNav</references>
         <references refid="classMdDox_1_1SiteBuilder_1af6dbfd644fcf3daea5e94745c0f279e3" compoundref="SiteBuilder_8cpp" startline="186" endline="191">MdDox::SiteBuilder::findNamespace</references>
@@ -1345,10 +1345,10 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="116" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="116" bodyend="137"/>
         <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" compoundref="SiteBuilder_8cpp" startline="281" endline="287">MdDox::SiteBuilder::findMember</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="62" endline="65">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" compoundref="SiteBuilder_8cpp" startline="265" endline="271">MdDox::SiteBuilder::findReference</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">StringCombine</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
@@ -1384,7 +1384,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/WriteUtils.cpp" line="139" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="139" bodyend="144"/>
         <references refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" compoundref="Link_8cpp" startline="71" endline="78">MdDox::LinkUtils::lastBinaryResolution</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
         <references refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
@@ -1420,7 +1420,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
         <references refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
         <references refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="52" endline="55">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
       </memberdef>
       </sectiondef>
@@ -1428,6 +1428,6 @@
 <para>Provides a class grouping for all defined types in this project. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Current/pages/Index.h" line="19" column="1"/>
+    <location file="Current/pages/Index.h" line="56" column="1"/>
   </compounddef>
 </doxygen>

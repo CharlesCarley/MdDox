@@ -1,7 +1,7 @@
 <a id="graphnode"></a>
 <h1>GraphNode</h1>
 <a id="classMdDox_1_1GraphNode"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -13,11 +13,10 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Node</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-104.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#mddoxxmlnode">MdDox::Xml::Node</a>
+</div>
+<img src="../images/dot/internal-diagram-106.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#graphnode" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphNode</span>

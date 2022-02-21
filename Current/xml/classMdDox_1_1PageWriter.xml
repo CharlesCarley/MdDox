@@ -389,7 +389,7 @@
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" compoundref="PageWriter_8h" startline="36">_ref</references>
-        <references refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" compoundref="Reference_8h" startline="62" endline="65">MdDox::Reference::getReference</references>
+        <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="197">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>

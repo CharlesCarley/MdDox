@@ -1,7 +1,7 @@
 <a id="paramnamelistqueryvisitor"></a>
 <h1>ParamNameListQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameListQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -17,11 +17,10 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1NameListVisitor.md#namelistvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NameListVisitor</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-86.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1NameListVisitor.md#mddoxnamelistvisitor">MdDox::NameListVisitor</a>
+</div>
+<img src="../images/dot/internal-diagram-88.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~paramnamelistqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~ParamNameListQueryVisitor</span>

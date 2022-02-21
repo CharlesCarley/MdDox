@@ -1,7 +1,7 @@
 <a id="writer"></a>
 <h1>Writer</h1>
 <a id="classMdDox_1_1GenApi_1_1Writer"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

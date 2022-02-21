@@ -1,7 +1,7 @@
 <a id="sitebuilder"></a>
 <h1>SiteBuilder</h1>
 <a id="classMdDox_1_1SiteBuilder"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -204,7 +204,7 @@
 <br/>
 <span class="inline-text">
  The following diagram outlines its main routine.</span>
-<img src="../images/dot/internal-diagram-131.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-133.dot.svg"/><br/>
 <br/>
 <span class="inline-text">First, it should have all necessary configuration parameters before running. From there, it needs to load an index file. Then based on the contents of the index, It should write the primary index. After that, It should dispatch all sub-page writers. Page writers can register graph files during their dispatch routine. After all pages have completed any registered graph files are processed. </span>
 <br/>

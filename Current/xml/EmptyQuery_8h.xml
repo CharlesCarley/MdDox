@@ -14,139 +14,19 @@
     <includedby refid="TocItemQuery_8cpp" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
     <includedby refid="UrlLinkQuery_8cpp" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
     <incdepgraph>
-      <node id="6460">
+      <node id="6466">
         <label>Utils/Console.h</label>
-        <childnode refid="6448" relation="include">
-        </childnode>
-      </node>
-      <node id="6454">
-        <label>iomanip</label>
-      </node>
-      <node id="6446">
-        <label>functional</label>
-      </node>
-      <node id="6456">
-        <label>Utils/Exception.h</label>
-        <childnode refid="6457" relation="include">
-        </childnode>
-        <childnode refid="6458" relation="include">
-        </childnode>
-        <childnode refid="6459" relation="include">
-        </childnode>
-        <childnode refid="6460" relation="include">
-        </childnode>
-        <childnode refid="6448" relation="include">
-        </childnode>
-      </node>
-      <node id="6458">
-        <label>stdexcept</label>
-      </node>
-      <node id="6452">
-        <label>string</label>
-      </node>
-      <node id="6445">
-        <label>Doxygen.h</label>
-        <childnode refid="6446" relation="include">
-        </childnode>
-        <childnode refid="6447" relation="include">
-        </childnode>
-        <childnode refid="6448" relation="include">
-        </childnode>
-        <childnode refid="6455" relation="include">
-        </childnode>
-        <childnode refid="6456" relation="include">
-        </childnode>
-      </node>
-      <node id="6457">
-        <label>exception</label>
-      </node>
-      <node id="6450">
-        <label>fstream</label>
-      </node>
-      <node id="6455">
-        <label>Xml/Node.h</label>
-        <childnode refid="6446" relation="include">
-        </childnode>
-        <childnode refid="6447" relation="include">
-        </childnode>
-        <childnode refid="6448" relation="include">
-        </childnode>
-      </node>
-      <node id="6448">
-        <label>Utils/String.h</label>
-        <childnode refid="6449" relation="include">
-        </childnode>
-        <childnode refid="6450" relation="include">
-        </childnode>
-        <childnode refid="6451" relation="include">
-        </childnode>
-        <childnode refid="6452" relation="include">
-        </childnode>
-        <childnode refid="6447" relation="include">
-        </childnode>
-        <childnode refid="6453" relation="include">
-        </childnode>
         <childnode refid="6454" relation="include">
         </childnode>
       </node>
-      <node id="6453">
-        <label>vector</label>
+      <node id="6460">
+        <label>iomanip</label>
       </node>
-      <node id="6459">
-        <label>utility</label>
-      </node>
-      <node id="6451">
-        <label>sstream</label>
-      </node>
-      <node id="6449">
-        <label>deque</label>
-      </node>
-      <node id="6447">
-        <label>unordered_map</label>
-      </node>
-      <node id="6444">
-        <label>Tools/Doxygen/EmptyQuery.h</label>
-        <link refid="EmptyQuery_8h"/>
-        <childnode refid="6445" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="6468">
-        <label>Tools/Doxygen/ParaQuery.cpp</label>
-      </node>
-      <node id="6466">
-        <label>Tools/Doxygen/ImageQuery.cpp</label>
-      </node>
-      <node id="6465">
-        <label>Tools/Doxygen/HeadingQuery.cpp</label>
-      </node>
-      <node id="6471">
-        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
-      </node>
-      <node id="6470">
-        <label>Tools/Doxygen/TocItemQuery.cpp</label>
-      </node>
-      <node id="6467">
-        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      <node id="6452">
+        <label>functional</label>
       </node>
       <node id="6462">
-        <label>Tools/Doxygen/CaptionQuery.cpp</label>
-      </node>
-      <node id="6469">
-        <label>Tools/Doxygen/TitleQuery.cpp</label>
-      </node>
-      <node id="6463">
-        <label>Tools/Doxygen/EmptyQuery.cpp</label>
-      </node>
-      <node id="6464">
-        <label>Tools/Doxygen/FileQuery.cpp</label>
-      </node>
-      <node id="6461">
-        <label>Tools/Doxygen/EmptyQuery.h</label>
-        <link refid="EmptyQuery_8h"/>
-        <childnode refid="6462" relation="include">
-        </childnode>
+        <label>Utils/Exception.h</label>
         <childnode refid="6463" relation="include">
         </childnode>
         <childnode refid="6464" relation="include">
@@ -155,8 +35,116 @@
         </childnode>
         <childnode refid="6466" relation="include">
         </childnode>
-        <childnode refid="6467" relation="include">
+        <childnode refid="6454" relation="include">
         </childnode>
+      </node>
+      <node id="6464">
+        <label>stdexcept</label>
+      </node>
+      <node id="6458">
+        <label>string</label>
+      </node>
+      <node id="6451">
+        <label>Doxygen.h</label>
+        <childnode refid="6452" relation="include">
+        </childnode>
+        <childnode refid="6453" relation="include">
+        </childnode>
+        <childnode refid="6454" relation="include">
+        </childnode>
+        <childnode refid="6461" relation="include">
+        </childnode>
+        <childnode refid="6462" relation="include">
+        </childnode>
+      </node>
+      <node id="6463">
+        <label>exception</label>
+      </node>
+      <node id="6456">
+        <label>fstream</label>
+      </node>
+      <node id="6461">
+        <label>Xml/Node.h</label>
+        <childnode refid="6452" relation="include">
+        </childnode>
+        <childnode refid="6453" relation="include">
+        </childnode>
+        <childnode refid="6454" relation="include">
+        </childnode>
+      </node>
+      <node id="6454">
+        <label>Utils/String.h</label>
+        <childnode refid="6455" relation="include">
+        </childnode>
+        <childnode refid="6456" relation="include">
+        </childnode>
+        <childnode refid="6457" relation="include">
+        </childnode>
+        <childnode refid="6458" relation="include">
+        </childnode>
+        <childnode refid="6453" relation="include">
+        </childnode>
+        <childnode refid="6459" relation="include">
+        </childnode>
+        <childnode refid="6460" relation="include">
+        </childnode>
+      </node>
+      <node id="6459">
+        <label>vector</label>
+      </node>
+      <node id="6465">
+        <label>utility</label>
+      </node>
+      <node id="6457">
+        <label>sstream</label>
+      </node>
+      <node id="6455">
+        <label>deque</label>
+      </node>
+      <node id="6453">
+        <label>unordered_map</label>
+      </node>
+      <node id="6450">
+        <label>Tools/Doxygen/EmptyQuery.h</label>
+        <link refid="EmptyQuery_8h"/>
+        <childnode refid="6451" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6474">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
+      </node>
+      <node id="6472">
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="6471">
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
+      </node>
+      <node id="6477">
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
+      </node>
+      <node id="6476">
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="6473">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="6468">
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
+      </node>
+      <node id="6475">
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
+      </node>
+      <node id="6469">
+        <label>Tools/Doxygen/EmptyQuery.cpp</label>
+      </node>
+      <node id="6470">
+        <label>Tools/Doxygen/FileQuery.cpp</label>
+      </node>
+      <node id="6467">
+        <label>Tools/Doxygen/EmptyQuery.h</label>
+        <link refid="EmptyQuery_8h"/>
         <childnode refid="6468" relation="include">
         </childnode>
         <childnode refid="6469" relation="include">
@@ -164,6 +152,18 @@
         <childnode refid="6470" relation="include">
         </childnode>
         <childnode refid="6471" relation="include">
+        </childnode>
+        <childnode refid="6472" relation="include">
+        </childnode>
+        <childnode refid="6473" relation="include">
+        </childnode>
+        <childnode refid="6474" relation="include">
+        </childnode>
+        <childnode refid="6475" relation="include">
+        </childnode>
+        <childnode refid="6476" relation="include">
+        </childnode>
+        <childnode refid="6477" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -317,7 +317,14 @@ namespace MdDox
 
     void HtmlDocumentWriter::linkText(OStream& output, const String& title, const String& href)
     {
-        Html::linkRef(output, title, href);
+
+    	if (PathUtil(href).fullExtension().empty())
+    	{
+	        const String link = StringCombine(href, SiteBuilder::get().outputFileExt);
+            Html::linkRef(output, title, link);
+    	}
+        else
+			Html::linkRef(output, title, href);
     }
 
     void HtmlDocumentWriter::linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title)
@@ -328,7 +335,7 @@ namespace MdDox
         Html::endDivSection(output, "icon-link");
     }
 
-    void HtmlDocumentWriter::linkRef(OStream& output, int kind, const String& id, const String& title)
+    void HtmlDocumentWriter::linkRef(OStream& output, const int kind, const String& id, const String& title)
     {
         const SiteBuilder& builder = SiteBuilder::get();
 
@@ -341,7 +348,7 @@ namespace MdDox
             {
                 Html::linkRef(output,
                               title.empty() ? ref->getName() : title,
-                              StringCombine(ref->getReference(), builder.outputFileExt, heading));
+                              StringCombine(ref->getId(), builder.outputFileExt, heading));
             }
             else
             {
@@ -365,7 +372,7 @@ namespace MdDox
                 {
                     Html::linkRef(output,
                                   title.empty() ? ref->getName() : title,
-                                  StringCombine(pref->getReference(), builder.outputFileExt, heading));
+                                  StringCombine(pref->getId(), builder.outputFileExt, heading));
                 }
                 else
                 {
@@ -378,7 +385,7 @@ namespace MdDox
             {
                 Html::linkRef(output,
                               title.empty() ? pref->getName() : title,
-                              StringCombine(pref->getReference(), builder.outputFileExt, heading));
+                              StringCombine(pref->getId(), builder.outputFileExt, heading));
             }
             else
             {
@@ -387,37 +394,4 @@ namespace MdDox
         }
     }
 
-    void HtmlDocumentWriter::linkPage(OStream& output, const String& title, const String& ref)
-    {
-        const String hash = HashUtils::heading(title);
-        if (ref != "index")
-        {
-            const String link = SiteBuilder::get().findReference(ref, ref);
-            Html::linkRef(output, title, StringCombine(StringCombine(link, SiteBuilder::get().outputFileExt), hash));
-        }
-        else
-            Html::linkRef(output, title, StringCombine(StringCombine(ref, SiteBuilder::get().outputFileExt), hash));
-    }
-
-    void HtmlDocumentWriter::linkPageMember(OStream& output, const String& title, const String& ref)
-    {
-        const String hash = HashUtils::heading(title);
-        const String link = SiteBuilder::get().findMember(ref);
-
-        if (link.empty())
-        {
-            Console::writeLine("failed to find page member with the id: ", ref);
-            Html::inlineText(output, title);
-        }
-        else
-        {
-            Html::linkRef(output, title, StringCombine(StringCombine(link, SiteBuilder::get().outputFileExt), hash));
-        }
-    }
-
-    void HtmlDocumentWriter::linkHeading(OStream& output, const String& title, const String& href, const String& id)
-    {
-        const String hash = HashUtils::heading(id.empty() ? title : id);
-        Html::linkRef(output, title, hash);
-    }
 }  // namespace MdDox

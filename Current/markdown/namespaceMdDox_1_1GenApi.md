@@ -1,7 +1,7 @@
 <a id="genapi"></a>
 <h1>GenApi</h1>
 <a id="namespaceMdDox_1_1GenApi"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -46,7 +46,7 @@
 <br/>
 <span class="bold-text"><b>Concept</b></span>
 <br/>
-<img src="../images/dot/internal-diagram-2.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-4.dot.svg"/><br/>
 <span class="bold-text"><b>For example</b></span>
 <a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#mddoxdoxygencompounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
 <br/>

@@ -1,7 +1,7 @@
 <a id="xml"></a>
 <h1>Xml</h1>
 <a id="namespaceMdDox_1_1Xml"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

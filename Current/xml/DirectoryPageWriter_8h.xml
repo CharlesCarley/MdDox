@@ -10,153 +10,84 @@
     <includedby refid="DirectoryPageWriter_8cpp" local="yes">Source/MdDoxTree/DirectoryPageWriter.cpp</includedby>
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <incdepgraph>
-      <node id="382">
+      <node id="387">
         <label>Utils/Console.h</label>
-        <childnode refid="370" relation="include">
+        <childnode refid="375" relation="include">
         </childnode>
       </node>
-      <node id="376">
+      <node id="381">
         <label>iomanip</label>
       </node>
-      <node id="368">
+      <node id="373">
         <label>functional</label>
       </node>
-      <node id="390">
+      <node id="395">
         <label>Utils/Path.h</label>
-        <childnode refid="370" relation="include">
+        <childnode refid="375" relation="include">
         </childnode>
       </node>
-      <node id="378">
+      <node id="383">
         <label>Utils/Exception.h</label>
-        <childnode refid="379" relation="include">
-        </childnode>
-        <childnode refid="380" relation="include">
-        </childnode>
-        <childnode refid="381" relation="include">
-        </childnode>
-        <childnode refid="382" relation="include">
-        </childnode>
-        <childnode refid="370" relation="include">
-        </childnode>
-      </node>
-      <node id="384">
-        <label>DoxLanguage.h</label>
-        <childnode refid="367" relation="include">
-        </childnode>
-      </node>
-      <node id="387">
-        <label>Doxygen/CompoundIndexQuery.h</label>
-        <childnode refid="367" relation="include">
-        </childnode>
-        <childnode refid="383" relation="include">
-        </childnode>
-      </node>
-      <node id="380">
-        <label>stdexcept</label>
-      </node>
-      <node id="374">
-        <label>string</label>
-      </node>
-      <node id="367">
-        <label>Doxygen.h</label>
-        <childnode refid="368" relation="include">
-        </childnode>
-        <childnode refid="369" relation="include">
-        </childnode>
-        <childnode refid="370" relation="include">
-        </childnode>
-        <childnode refid="377" relation="include">
-        </childnode>
-        <childnode refid="378" relation="include">
-        </childnode>
-      </node>
-      <node id="379">
-        <label>exception</label>
-      </node>
-      <node id="372">
-        <label>fstream</label>
-      </node>
-      <node id="377">
-        <label>Xml/Node.h</label>
-        <childnode refid="368" relation="include">
-        </childnode>
-        <childnode refid="369" relation="include">
-        </childnode>
-        <childnode refid="370" relation="include">
-        </childnode>
-      </node>
-      <node id="366">
-        <label>Doxygen/CompoundDefQuery.h</label>
-        <childnode refid="367" relation="include">
-        </childnode>
-        <childnode refid="383" relation="include">
-        </childnode>
         <childnode refid="384" relation="include">
         </childnode>
         <childnode refid="385" relation="include">
         </childnode>
         <childnode refid="386" relation="include">
         </childnode>
-      </node>
-      <node id="385">
-        <label>DoxProtectionKind.h</label>
-        <childnode refid="367" relation="include">
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
         </childnode>
       </node>
-      <node id="370">
-        <label>Utils/String.h</label>
-        <childnode refid="371" relation="include">
-        </childnode>
+      <node id="389">
+        <label>DoxLanguage.h</label>
         <childnode refid="372" relation="include">
         </childnode>
+      </node>
+      <node id="392">
+        <label>Doxygen/CompoundIndexQuery.h</label>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>stdexcept</label>
+      </node>
+      <node id="379">
+        <label>string</label>
+      </node>
+      <node id="372">
+        <label>Doxygen.h</label>
         <childnode refid="373" relation="include">
         </childnode>
         <childnode refid="374" relation="include">
         </childnode>
-        <childnode refid="369" relation="include">
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>exception</label>
+      </node>
+      <node id="377">
+        <label>fstream</label>
+      </node>
+      <node id="382">
+        <label>Xml/Node.h</label>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
         </childnode>
         <childnode refid="375" relation="include">
         </childnode>
-        <childnode refid="376" relation="include">
-        </childnode>
-      </node>
-      <node id="375">
-        <label>vector</label>
-      </node>
-      <node id="381">
-        <label>utility</label>
-      </node>
-      <node id="373">
-        <label>sstream</label>
       </node>
       <node id="371">
-        <label>deque</label>
-      </node>
-      <node id="369">
-        <label>unordered_map</label>
-      </node>
-      <node id="389">
-        <label>PageWriter.h</label>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="387" relation="include">
-        </childnode>
-        <childnode refid="388" relation="include">
-        </childnode>
-        <childnode refid="390" relation="include">
-        </childnode>
-      </node>
-      <node id="386">
-        <label>DoxBool.h</label>
-        <childnode refid="367" relation="include">
-        </childnode>
-      </node>
-      <node id="365">
-        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
-        <link refid="DirectoryPageWriter_8h"/>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="387" relation="include">
+        <label>Doxygen/CompoundDefQuery.h</label>
+        <childnode refid="372" relation="include">
         </childnode>
         <childnode refid="388" relation="include">
         </childnode>
@@ -164,31 +95,100 @@
         </childnode>
         <childnode refid="390" relation="include">
         </childnode>
-      </node>
-      <node id="383">
-        <label>DoxCompoundKind.h</label>
-        <childnode refid="367" relation="include">
+        <childnode refid="391" relation="include">
         </childnode>
       </node>
-      <node id="388">
-        <label>MdDoxTree/Reference.h</label>
-        <childnode refid="370" relation="include">
+      <node id="390">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="372" relation="include">
         </childnode>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="392">
-        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      <node id="375">
+        <label>Utils/String.h</label>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
       </node>
-      <node id="391">
-        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
-        <link refid="DirectoryPageWriter_8h"/>
+      <node id="380">
+        <label>vector</label>
+      </node>
+      <node id="386">
+        <label>utility</label>
+      </node>
+      <node id="378">
+        <label>sstream</label>
+      </node>
+      <node id="376">
+        <label>deque</label>
+      </node>
+      <node id="374">
+        <label>unordered_map</label>
+      </node>
+      <node id="394">
+        <label>PageWriter.h</label>
+        <childnode refid="371" relation="include">
+        </childnode>
         <childnode refid="392" relation="include">
         </childnode>
         <childnode refid="393" relation="include">
         </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>DoxBool.h</label>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
+        <link refid="DirectoryPageWriter_8h"/>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>DoxCompoundKind.h</label>
+        <childnode refid="372" relation="include">
+        </childnode>
       </node>
       <node id="393">
+        <label>MdDoxTree/Reference.h</label>
+        <childnode refid="375" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="397">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="396">
+        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
+        <link refid="DirectoryPageWriter_8h"/>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

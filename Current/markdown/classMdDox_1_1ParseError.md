@@ -1,7 +1,7 @@
 <a id="parseerror"></a>
 <h1>ParseError</h1>
 <a id="classMdDox_1_1ParseError"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,11 +16,10 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Exception.md#exception" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Exception</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-121.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Exception.md#mddoxexception">MdDox::Exception</a>
+</div>
+<img src="../images/dot/internal-diagram-123.dot.svg"/><br/>
 <a id="private-static-methods"></a>
 <h2>Private Static Methods</h2>
 <span class="icon-list-item"><a href="#geterror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getError</span>

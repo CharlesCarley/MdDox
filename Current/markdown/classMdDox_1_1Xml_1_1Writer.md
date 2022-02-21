@@ -1,7 +1,7 @@
 <a id="writer"></a>
 <h1>Writer</h1>
 <a id="classMdDox_1_1Xml_1_1Writer"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -18,15 +18,13 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Common.md#common" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Common</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Object.md#object" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Object</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-136.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Common.md#mddoxgenapicommon">MdDox::GenApi::Common</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#mddoxgenapiobject">MdDox::GenApi::Object</a>
+</div>
+<img src="../images/dot/internal-diagram-138.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_indent</span>

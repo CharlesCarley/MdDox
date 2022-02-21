@@ -1,7 +1,7 @@
 <a id="simple"></a>
 <h1>Simple</h1>
 <a id="classMdDox_1_1GenApi_1_1Simple"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -15,11 +15,10 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Object.md#object" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Object</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-102.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#mddoxgenapiobject">MdDox::GenApi::Object</a>
+</div>
+<img src="../images/dot/internal-diagram-104.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_enums" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_enums</span>

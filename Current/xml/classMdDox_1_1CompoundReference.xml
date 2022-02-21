@@ -119,13 +119,13 @@
       <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="protected" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>_ref</name></member>
       <member refid="classMdDox_1_1CompoundReference_1a1132cc530039092767fa0614fd8ef5ec" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>CompoundReference</name></member>
       <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>empty</name></member>
+      <member refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>getId</name></member>
       <member refid="classMdDox_1_1CompoundReference_1ac6b6c8bcdd32060c1663d011e431e40d" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>getKind</name></member>
       <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>getName</name></member>
-      <member refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>getReference</name></member>
       <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>Reference</name></member>
+      <member refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>setId</name></member>
       <member refid="classMdDox_1_1CompoundReference_1a83f1a3e75316ae7bc582c59a2c8d4276" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>setKind</name></member>
       <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>setName</name></member>
-      <member refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>setReference</name></member>
       <member refid="classMdDox_1_1CompoundReference_1a01ef9f3882c69dffcf05f15f6a4f7cb3" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>~CompoundReference</name></member>
       <member refid="classMdDox_1_1Reference_1af40d09cc2fcfd762e7478ac106d1690d" prot="public" virt="non-virtual"><scope>MdDox::CompoundReference</scope><name>~Reference</name></member>
     </listofallmembers>

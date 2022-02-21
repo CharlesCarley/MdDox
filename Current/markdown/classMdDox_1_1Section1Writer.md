@@ -1,7 +1,7 @@
 <a id="section1writer"></a>
 <h1>Section1Writer</h1>
 <a id="classMdDox_1_1Section1Writer"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -13,11 +13,10 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor.md#sect1queryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect1QueryVisitor</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-125.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect1QueryVisitor.md#mddoxdoxygenvisitorssect1queryvisitor">MdDox::Doxygen::Visitors::Sect1QueryVisitor</a>
+</div>
+<img src="../images/dot/internal-diagram-127.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_out" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>

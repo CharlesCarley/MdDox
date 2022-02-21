@@ -1,6 +1,6 @@
 <a id="namespace-index"></a>
 <h1>Namespace Index</h1>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -10,45 +10,34 @@
 <br/>
 <a id="contents"></a>
 <h2>Contents</h2>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox.md#mddox">MdDox</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1CommandLine.md#mddoxcommandline">MdDox::CommandLine</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Doxygen.md#mddoxdoxygen">MdDox::Doxygen</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#mddoxdoxygenvisitors">MdDox::Doxygen::Visitors</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1GenApi.md#mddoxgenapi">MdDox::GenApi</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1GenApi_1_1Resources.md#mddoxgenapiresources">MdDox::GenApi::Resources</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1HashUtils.md#mddoxhashutils">MdDox::HashUtils</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Html.md#mddoxhtml">MdDox::Html</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1LinkUtils.md#mddoxlinkutils">MdDox::LinkUtils</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Md.md#mddoxmd">MdDox::Md</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1ResourceCompiler.md#mddoxresourcecompiler">MdDox::ResourceCompiler</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1WriteUtils.md#mddoxwriteutils">MdDox::WriteUtils</a>
-</div>
-<div class="icon-link">
-<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Xml.md#mddoxxml">MdDox::Xml</a>
-</div>
+<ul>
+<li><a href="namespaceMdDox.md">MdDox</a>
+</li>
+<li><a href="namespaceMdDox_1_1CommandLine.md">MdDox::CommandLine</a>
+</li>
+<li><a href="namespaceMdDox_1_1Doxygen.md">MdDox::Doxygen</a>
+</li>
+<li><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md">MdDox::Doxygen::Visitors</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi.md">MdDox::GenApi</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi_1_1Resources.md">MdDox::GenApi::Resources</a>
+</li>
+<li><a href="namespaceMdDox_1_1HashUtils.md">MdDox::HashUtils</a>
+</li>
+<li><a href="namespaceMdDox_1_1Html.md">MdDox::Html</a>
+</li>
+<li><a href="namespaceMdDox_1_1LinkUtils.md">MdDox::LinkUtils</a>
+</li>
+<li><a href="namespaceMdDox_1_1Md.md">MdDox::Md</a>
+</li>
+<li><a href="namespaceMdDox_1_1ResourceCompiler.md">MdDox::ResourceCompiler</a>
+</li>
+<li><a href="namespaceMdDox_1_1WriteUtils.md">MdDox::WriteUtils</a>
+</li>
+<li><a href="namespaceMdDox_1_1Xml.md">MdDox::Xml</a>
+</li>
+</ul>
 </div>
 </div>
 </body>

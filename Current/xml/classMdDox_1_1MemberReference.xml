@@ -118,14 +118,14 @@
       <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" prot="protected" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>_name</name></member>
       <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" prot="protected" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>_ref</name></member>
       <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>empty</name></member>
+      <member refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getId</name></member>
       <member refid="classMdDox_1_1MemberReference_1a22463d3ae05194a06cd03945a09a6795" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getKind</name></member>
       <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getName</name></member>
-      <member refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>getReference</name></member>
       <member refid="classMdDox_1_1MemberReference_1a1c532b2f1cf8689df2c0a9c950f491f2" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>MemberReference</name></member>
       <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>Reference</name></member>
+      <member refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>setId</name></member>
       <member refid="classMdDox_1_1MemberReference_1a98349bb66a93348ee0768f2702d48f37" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>setKind</name></member>
       <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>setName</name></member>
-      <member refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>setReference</name></member>
       <member refid="classMdDox_1_1MemberReference_1aa64115565d417aa32dfc7697b1e90abb" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>~MemberReference</name></member>
       <member refid="classMdDox_1_1Reference_1af40d09cc2fcfd762e7478ac106d1690d" prot="public" virt="non-virtual"><scope>MdDox::MemberReference</scope><name>~Reference</name></member>
     </listofallmembers>

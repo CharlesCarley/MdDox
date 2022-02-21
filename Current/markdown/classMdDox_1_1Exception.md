@@ -1,7 +1,7 @@
 <a id="exception"></a>
 <h1>Exception</h1>
 <a id="classMdDox_1_1Exception"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -17,17 +17,15 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href=".md#exception" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">exception</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>exception</b></span>
+</div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ParseError.md#parseerror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParseError</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-96.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1ParseError.md#mddoxparseerror">MdDox::ParseError</a>
+</div>
+<img src="../images/dot/internal-diagram-98.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_string" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_string</span>

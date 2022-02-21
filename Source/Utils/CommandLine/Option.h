@@ -27,44 +27,43 @@
 
 namespace MdDox::CommandLine
 {
-    
     /**
      * \brief A structure that represents a command line switch.
      */
-	struct Switch
+    struct Switch
     {
-		/**
-		 * \brief Defines the lookup id for this switch. 
-		 */
-		uint32_t id;
+        /**
+         * \brief Defines the lookup id for this switch. 
+         */
+        uint32_t id;
 
-		/**
-		 * \brief Assigns a single character value for this switch -[a-zA-Z].
-		 * 
+        /**
+         * \brief Assigns a single character value for this switch -[a-zA-Z].
+         * 
          * A value of 0 means unused.
-		 */
+         */
         char shortSwitch;
 
-		/**
-		 * \brief Assigns word or phrase value for this switch --[a-zA-Z]+
-		 * 
+        /**
+         * \brief Assigns word or phrase value for this switch --[a-zA-Z]+
+         * 
          * A value of null means unused.
-		 */
+         */
         const char* longSwitch;
 
-		/**
-		 * \brief Provides A brief description for the -h, --help builtin option.
-		 */
+        /**
+         * \brief Provides A brief description for the -h, --help builtin option.
+         */
         const char* description;
 
-		/**
-		 * \brief Defines this switch as optional.
-		 */
+        /**
+         * \brief Defines this switch as optional.
+         */
         bool optional;
 
-		/**
-		 * \brief Defines the number of required arguments.
-		 */
+        /**
+         * \brief Defines the number of required arguments.
+         */
         size_t argCount;
     };
 
@@ -184,4 +183,4 @@ namespace MdDox::CommandLine
         if (index < _values.size())
             _values[index] = str;
     }
-} // namespace MdDoc::CommandLine
+}  // namespace MdDox::CommandLine

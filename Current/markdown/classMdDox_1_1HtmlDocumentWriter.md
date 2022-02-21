@@ -1,7 +1,7 @@
 <a id="htmldocumentwriter"></a>
 <h1>HtmlDocumentWriter</h1>
 <a id="classMdDox_1_1HtmlDocumentWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -13,17 +13,15 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1DocumentWriter.md#documentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1DocumentWriter.md#mddoxdocumentwriter">MdDox::DocumentWriter</a>
+</div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-106.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1MarkdownDocumentWriter.md#mddoxmarkdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
+</div>
+<img src="../images/dot/internal-diagram-108.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_sectiondepth" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_sectionDepth</span>
@@ -167,18 +165,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#linebreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lineBreak</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#linkheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkHeading</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#linkpage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPage</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#linkpagemember" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkPageMember</span>
 </a>
 </span>
 <br/>
@@ -850,7 +836,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L229" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L227" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -901,7 +887,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L232" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -963,7 +949,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L239" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L237" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1483,178 +1469,6 @@
 </span>
 <br/>
 <br/>
-<a id="linkheading"></a>
-<h2>linkHeading</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>linkHeading</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">title</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">ref</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">id</span>
-<span class="inline-text"> = </span>
-<span class="inline-text">&quot;&quot;</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations write text link to a page. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-<li><span class="bold-text"><b>title</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The text for the link. </span>
-</li>
-<li><span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The reference link. </span>
-</li>
-<li><span class="bold-text"><b>id</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">An optional hash id </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L224" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="linkpage"></a>
-<h2>linkPage</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>linkPage</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">title</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">ref</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations write text link to a page. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-<li><span class="bold-text"><b>title</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The text for the link. </span>
-</li>
-<li><span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The reference link. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L214" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="linkpagemember"></a>
-<h2>linkPageMember</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>linkPageMember</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">title</span>
-</span>
-</div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">ref</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations write text link to a page. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-<li><span class="bold-text"><b>title</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The text for the link. </span>
-</li>
-<li><span class="bold-text"><b>ref</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The reference link. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L219" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="linkref"></a>
 <h2>linkRef</h2>
 <span class="inline-text">void</span>
@@ -1688,9 +1502,36 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Implementations write text link to a page. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>output</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The output stream to write to. </span>
+</li>
+<li><span class="bold-text"><b>kind</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The type of the reference id.</span>
+<br/>
+<span class="inline-text">
+ Zero is compound and one means member. </span>
+</li>
+<li><span class="bold-text"><b>title</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The text for the link. </span>
+</li>
+<li><span class="bold-text"><b>id</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The reference id. </span>
+</li>
+</ul>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L209" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L210" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1733,9 +1574,40 @@
 </span>
 </div>
 <span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Implementations write text link to a page with an icon attached to it. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>output</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The output stream to write to. </span>
+</li>
+<li><span class="bold-text"><b>ico</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The icon to place beside the link. </span>
+</li>
+<li><span class="bold-text"><b>kind</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The type of the reference id.</span>
+<br/>
+<span class="inline-text">
+ Zero is compound and one means member. </span>
+</li>
+<li><span class="bold-text"><b>title</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The text for the link. </span>
+</li>
+<li><span class="bold-text"><b>id</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The reference id. </span>
+</li>
+</ul>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L207" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/HtmlDocumentWriter.h#L218" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">HtmlDocumentWriter.h</span>
 </a>
 </span>
 <br/>

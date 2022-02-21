@@ -64,7 +64,7 @@ namespace MdDox
     {
         Reference ref;
         ref.setName(LinkUtils::lastBinaryResolution(query.text()));
-        ref.setReference(query.getCompoundRef());
+        ref.setId(query.getCompoundRef());
 
     	writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
     }

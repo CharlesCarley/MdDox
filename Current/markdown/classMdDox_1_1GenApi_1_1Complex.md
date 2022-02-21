@@ -1,7 +1,7 @@
 <a id="complex"></a>
 <h1>Complex</h1>
 <a id="classMdDox_1_1GenApi_1_1Complex"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -15,11 +15,10 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Group.md#group" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Group</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-99.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Group.md#mddoxgenapigroup">MdDox::GenApi::Group</a>
+</div>
+<img src="../images/dot/internal-diagram-101.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#complex" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Complex</span>

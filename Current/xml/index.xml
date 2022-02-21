@@ -306,9 +306,6 @@
     <member refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393" kind="function"><name>inlineText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a27da8869f5b3463dc4aa46c2a1a1f0e3" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kind="function"><name>lineBreak</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1a8d7b5dbe4cec9f9e664bc50288f6347e" kind="function"><name>linkHeading</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1a4acc484579e138d6effa2418b6e09e97" kind="function"><name>linkPage</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1adeb3cc5d3b6269443f3be8df2728dae6" kind="function"><name>linkPageMember</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3" kind="function"><name>linkText</name></member>
@@ -2268,9 +2265,6 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" kind="function"><name>inlineText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kind="function"><name>lineBreak</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1a61eb0472aade3ce4e7c24a576d03b20d" kind="function"><name>linkHeading</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6f3e80cf737a584c7ad21e4b9a08913" kind="function"><name>linkPage</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1aa2e82389a18daf2c0e117fb2c8d549cf" kind="function"><name>linkPageMember</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kind="function"><name>linkText</name></member>
@@ -2614,10 +2608,10 @@
     <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" kind="function"><name>Reference</name></member>
     <member refid="classMdDox_1_1Reference_1af40d09cc2fcfd762e7478ac106d1690d" kind="function"><name>~Reference</name></member>
     <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kind="function"><name>getName</name></member>
-    <member refid="classMdDox_1_1Reference_1a717534fb000e0406024a065bf680c1c1" kind="function"><name>getReference</name></member>
+    <member refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" kind="function"><name>setId</name></member>
     <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" kind="function"><name>setName</name></member>
-    <member refid="classMdDox_1_1Reference_1a15021d46f5e02f259e7987b3e1ed4759" kind="function"><name>setReference</name></member>
   </compound>
   <compound refid="classMdDox_1_1ReferenceTable" kind="class"><name>MdDox::ReferenceTable</name>
     <member refid="classMdDox_1_1ReferenceTable_1ae67375d270930dfda6849064d89d2aa4" kind="variable"><name>_compound</name></member>
@@ -3615,6 +3609,10 @@
   </compound>
   <compound refid="Index_8h" kind="file"><name>Index.h</name>
   </compound>
+  <compound refid="Overview_8dot" kind="file"><name>Overview.dot</name>
+  </compound>
+  <compound refid="Project_8h" kind="file"><name>Project.h</name>
+  </compound>
   <compound refid="SiteLayout_8h" kind="file"><name>SiteLayout.h</name>
   </compound>
   <compound refid="Source_2MdDox_2Main_8cpp" kind="file"><name>Main.cpp</name>
@@ -4282,6 +4280,8 @@
   <compound refid="Html" kind="page"><name>Html</name>
   </compound>
   <compound refid="Image" kind="page"><name>Image</name>
+  </compound>
+  <compound refid="Project" kind="page"><name>Project</name>
   </compound>
   <compound refid="Site" kind="page"><name>Site</name>
   </compound>

@@ -69,7 +69,6 @@ namespace MdDox
          */
         virtual void endDocumentHeader(OStream& output) = 0;
 
-        
         /**
          * \brief Implementations should start a subsection of the body.
          * \param output The output stream to write to.
@@ -78,7 +77,6 @@ namespace MdDox
          */
         virtual void addSection(OStream& output, const String& title, int depth) = 0;
 
-    	
         /**
          * \brief Implementations should start a subsection of the body.
          * \param output The output stream to write to.
@@ -262,36 +260,33 @@ namespace MdDox
          */
         virtual void linkText(OStream& output, const String& title, const String& ref) = 0;
 
-
-        virtual void linkRef(OStream& output, int kind, const String& id, const String& title = "") = 0;
-
-    	virtual void linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title = "") = 0;
-
         /**
          * \brief Implementations write text link to a page.
          * \param output The output stream to write to.
+         * \param kind The type of the reference id.\n
+         *        Zero is compound and one means member.
          * \param title The text for the link.
-         * \param ref The reference link.
+         * \param id The reference id.
          */
-        [[deprecated]]
-        virtual void linkPage(OStream& output, const String& title, const String& ref) = 0;
-
-    	/**
-         * \brief Implementations write text link to a page.
-         * \param output The output stream to write to.
-         * \param title The text for the link.
-         * \param ref The reference link.
-         */
-        [[deprecated]] virtual void linkPageMember(OStream& output, const String& title, const String& ref) = 0;
+        virtual void linkRef(OStream&      output,
+                             int           kind,
+                             const String& id,
+                             const String& title = "") = 0;
 
         /**
-         * \brief Implementations write text link to a page.
+         * \brief Implementations write text link to a page with an icon attached to it.
          * \param output The output stream to write to.
+         * \param ico The icon to place beside the link.
+         * \param kind The type of the reference id.\n
+         *        Zero is compound and one means member.
          * \param title The text for the link.
-         * \param ref The reference link.
-         * \param id An optional hash id
+         * \param id The reference id.
          */
-        [[deprecated]] virtual void linkHeading(OStream& output, const String& title, const String& ref, const String& id = "") = 0;
+        virtual void linkRefIcon(OStream&      output,
+                                 IconId        ico,
+                                 int           kind,
+                                 const String& id,
+                                 const String& title = "") = 0;
 
         /**
          * \brief Implementations should embed the predefined content icon.
@@ -316,5 +311,6 @@ namespace MdDox
          * \param text The text to display.
          */
         virtual void embedContentLinkText(OStream& output, IconId content, const String& ref, const String& text) = 0;
+
     };
 }  // namespace MdDox

@@ -132,7 +132,7 @@ namespace MdDox
     {
         Reference ref;
         ref.setName(LinkUtils::lastBinaryResolution(query.text()));
-        ref.setReference(query.getRefId());
+        ref.setId(query.getRefId());
 
         if (!_classHeading)
         {
@@ -147,7 +147,7 @@ namespace MdDox
     {
         Reference ref;
         ref.setName(LinkUtils::lastBinaryResolution(query.text()));
-        ref.setReference(query.getRefId());
+        ref.setId(query.getRefId());
 
         if (!_namespaceHeading)
         {

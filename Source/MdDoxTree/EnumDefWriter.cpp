@@ -83,14 +83,14 @@ namespace MdDox
             {
                 Reference ref;
                 ref.setName(name);
-                ref.setReference(name);
+                ref.setId(name);
                 writeReferenceIconLinkHeading(_out, _writer, ref, ICO_ENUM);
             }
             else
             {
                 Reference ref;
                 ref.setName(name);
-                ref.setReference(name);
+                ref.setId(name);
 
                 writeReferenceIconStub(_out, _writer, ref, ICO_ENUM);
             }

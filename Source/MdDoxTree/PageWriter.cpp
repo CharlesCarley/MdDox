@@ -86,7 +86,7 @@ namespace MdDox
 
     void PageWriter::endDocument(const Doxygen::CompoundDefQuery&)
     {
-        _writer->endDocument(_out, StringCombine(_ref.getReference(), ".xml"));
+        _writer->endDocument(_out, StringCombine(_ref.getId(), ".xml"));
     }
 
     void PageWriter::visitedSectionDef(const Doxygen::SectionDefQuery& query)
@@ -113,7 +113,7 @@ namespace MdDox
             _out.close();
 
         PathUtil path(_outDir);
-    	path.fileName(StringCombine(_ref.getReference(), SiteBuilder::get().outputFileExt));
+    	path.fileName(StringCombine(_ref.getId(), SiteBuilder::get().outputFileExt));
 
     	_out.open(path.fullPath());
     	if (!_out.is_open())

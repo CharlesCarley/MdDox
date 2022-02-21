@@ -1,7 +1,7 @@
 <a id="resourcecompiler"></a>
 <h1>ResourceCompiler</h1>
 <a id="namespaceMdDox_1_1ResourceCompiler"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

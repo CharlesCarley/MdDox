@@ -56,10 +56,7 @@ namespace MdDox
             _writer->addSection(_out, "Derived From", 4);
         }
 
-        Reference ref;
-        ref.setName(query.text());
-        ref.setReference(query.getRefId());
-        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+    	_writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
     }
 
     void ClassPageWriter::visitedDerivedCompoundRef(const Doxygen::CompoundRefQuery& query)
@@ -70,10 +67,7 @@ namespace MdDox
             _writer->addSection(_out, "Derived By", 4);
         }
 
-        Reference ref;
-        ref.setName(query.text());
-        ref.setReference(query.getRefId());
-        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+    	_writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
     }
 
     void ClassPageWriter::visitedIncludes(const Doxygen::IncQuery& query)
@@ -177,12 +171,11 @@ namespace MdDox
         _writer->lineBreak(_out);
     }
 
-	void ClassPageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
+    void ClassPageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
     {
         _writer->lineBreak(_out);
         _writer->lineBreak(_out);
     }
-
 
     void ClassPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {

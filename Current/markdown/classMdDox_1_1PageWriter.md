@@ -1,7 +1,7 @@
 <a id="pagewriter"></a>
 <h1>PageWriter</h1>
 <a id="classMdDox_1_1PageWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -13,29 +13,24 @@
 <br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#compounddefqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQueryVisitor</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#mddoxdoxygenvisitorscompounddefqueryvisitor">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</a>
+</div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenericPageWriter.md#genericpagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1NamespacePageWriter.md#namespacepagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-117.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1ClassPageWriter.md#mddoxclasspagewriter">MdDox::ClassPageWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1DirectoryPageWriter.md#mddoxdirectorypagewriter">MdDox::DirectoryPageWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenericPageWriter.md#mddoxgenericpagewriter">MdDox::GenericPageWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1NamespacePageWriter.md#mddoxnamespacepagewriter">MdDox::NamespacePageWriter</a>
+</div>
+<img src="../images/dot/internal-diagram-119.dot.svg"/><br/>
 <a id="protected-members"></a>
 <h2>Protected Members</h2>
 <span class="icon-list-item"><a href="#_indir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_inDir</span>
@@ -651,7 +646,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getReference</span>
+<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getId</span>
 </a>
 </span>
 <br/>

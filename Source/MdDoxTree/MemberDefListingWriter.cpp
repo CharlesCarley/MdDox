@@ -35,7 +35,7 @@ namespace MdDox
     {
         Reference ref;
         ref.setName(text);
-        ref.setReference(text);
+        ref.setId(text);
         writeReferenceIconLinkHeading(_out, _writer, ref, ICO_CLASS);
     }
 

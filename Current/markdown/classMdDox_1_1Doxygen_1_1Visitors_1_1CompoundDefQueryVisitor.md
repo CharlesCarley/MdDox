@@ -1,7 +1,7 @@
 <a id="compounddefqueryvisitor"></a>
 <h1>CompoundDefQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -17,15 +17,13 @@
 <br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#pagewriter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1TableOfContents.md#tableofcontents" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TableOfContents</span>
-</a>
-</span>
-<br/>
-<img src="../images/dot/internal-diagram-78.dot.svg"/><br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#mddoxpagewriter">MdDox::PageWriter</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1TableOfContents.md#mddoxtableofcontents">MdDox::TableOfContents</a>
+</div>
+<img src="../images/dot/internal-diagram-80.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~compounddefqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~CompoundDefQueryVisitor</span>

@@ -1,7 +1,7 @@
 <a id="html"></a>
 <h1>Html</h1>
 <a id="namespaceMdDox_1_1Html"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

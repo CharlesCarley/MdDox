@@ -204,24 +204,22 @@ namespace MdDox
          */
         void linkText(OStream& output, const String& title, const String& ref) override;
 
-		void linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title = "") override;
-
-    	void linkRef(OStream& output, int kind, const String& id, const String& title = "") override;
+        /**
+         * \copydoc MdDox::DocumentWriter::linkRef
+         */
+        void linkRef(OStream&      output,
+                     int           kind,
+                     const String& id,
+                     const String& title = "") override;
 
         /**
-         * \copydoc MdDox::DocumentWriter::linkPage
+         * \copydoc MdDox::DocumentWriter::linkRefIcon
          */
-        void linkPage(OStream& output, const String& title, const String& ref) override;
-
-        /**
-         * \copydoc MdDox::DocumentWriter::linkPageMember
-         */
-        void linkPageMember(OStream& output, const String& title, const String& ref) override;
-
-        /**
-         * \copydoc MdDox::DocumentWriter::linkHeading
-         */
-        void linkHeading(OStream& output, const String& title, const String& ref, const String& id = "") override;
+        void linkRefIcon(OStream&      output,
+                         IconId        ico,
+                         int           kind,
+                         const String& id,
+                         const String& title = "") override;
 
         /**
          * \copydoc MdDox::DocumentWriter::embedContent

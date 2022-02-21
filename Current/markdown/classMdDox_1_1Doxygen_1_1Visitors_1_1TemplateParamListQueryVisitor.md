@@ -1,7 +1,7 @@
 <a id="templateparamlistqueryvisitor"></a>
 <h1>TemplateParamListQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1TemplateParamListQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

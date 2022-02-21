@@ -43,7 +43,7 @@ namespace MdDox
 
         void cleanName(String& name, const Node* nd)
         {
-            int cnt;
+            int                       cnt;
             const StrIntMap::iterator it = _ids.find(nd->name());
             if (it != _ids.end())
                 cnt = it->second;
@@ -61,14 +61,8 @@ namespace MdDox
         {
             String name;
             cleanName(name, nd);
-
             write(_out, 0x02, name, '[');
-            write(_out, 0x04, "shape    = none");
-            write(_out, 0x04, "label    = \"", nd->name(), "\"");
-            write(_out, 0x04, "margin   = \"0.01\"");
-            write(_out, 0x04, "fontname = \"${font-family}\"");
-            write(_out, 0x04, "fontsize = \"${font-size}\"");
-            write(_out, 0x04, "fontcolor= \"${text}\"");
+            write(_out, 0x04, "label = \"", nd->name(), "\"");
             write(_out, 0x02, ']');
         }
 
@@ -92,12 +86,28 @@ namespace MdDox
         void writeHeader()
         {
             write(_out, 0x00, "digraph {");
-            write(_out, 0x02, "rankdir = \"LR\"");
+            if (_list && !_list->empty() && _list->at(0)->children().size() > 10)
+                write(_out, 0x02, "rankdir = \"LR\"");
+            else
+                write(_out, 0x02, "rankdir = \"TB\"");
             write(_out, 0x02, "bgcolor = none;");
-            write(_out, 0x02, "layout  = dot;");
+            write(_out, 0x02, "node [");
+            write(_out, 0x04, "shape     = none");
+            //write(_out, 0x04, "style     = \"filled,solid\"");
+            write(_out, 0x04, "fontname  = \"${font-family}\"");
+            write(_out, 0x04, "fontsize  = \"${font-size}\"");
+            write(_out, 0x04, "fontcolor = \"${node-primary-text}\"");
+            write(_out, 0x04, "color     = \"${node-primary-border}\"");
+            write(_out, 0x04, "fillcolor = \"${node-primary}\"");
+            write(_out, 0x04, "margin    = \"${node-primary-margin}\"");
+            write(_out, 0x02, "]");
+
             write(_out, 0x02, "edge [");
             write(_out, 0x04, "arrowsize = \"${arrow-size}\"");
-            write(_out, 0x04, "color     = \"${grey-table-edge}\"");
+            write(_out, 0x04, "fontname  = \"${font-family}\"");
+            write(_out, 0x04, "fontsize  = \"${font-size}\"");
+            write(_out, 0x04, "color     = \"${node-primary-edge}\"");
+            write(_out, 0x04, "fontcolor = \"${node-primary-text}\"");
             write(_out, 0x02, "]");
         }
 

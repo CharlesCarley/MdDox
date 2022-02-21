@@ -53,7 +53,7 @@ namespace MdDox
         {
             Reference compoundRef;
             compoundRef.setName(query.getName());
-            compoundRef.setReference(query.getRefId());
+            compoundRef.setId(query.getRefId());
 
             switch (query.getKind())
             {
@@ -103,7 +103,7 @@ namespace MdDox
                                               query.getName(),
                                               query.getRefId());
 
-            SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getReference());
+            SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getId());
 
             query.foreachMember(
                 [compoundRef](const Doxygen::MemberIndexQuery& member)
@@ -112,7 +112,7 @@ namespace MdDox
                                                     member.getName(),
                                                     member.getRefId());
 
-                    SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getReference());
+                    SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getId());
                 });
         }
     };
@@ -130,7 +130,7 @@ namespace MdDox
         Console::writeLine("dispatchPage: ", page.getName());
 
         PathUtil path(indexDir);
-        path.fileName(StringCombine(page.getReference(), ".xml"));
+        path.fileName(StringCombine(page.getId(), ".xml"));
 
         if (path.exists())
         {
@@ -159,7 +159,7 @@ namespace MdDox
 
     String IndexPageWriter::makeFilename(const Reference& ref) const
     {
-        return StringCombine(ref.getReference(),
+        return StringCombine(ref.getId(),
                              SiteBuilder::get().outputFileExt,
                              HashUtils::heading(ref.getName()));
     }
@@ -181,8 +181,15 @@ namespace MdDox
         _writer->lineBreak(out);
 
         _writer->beginSection(out, "Contents", 2);
+
+    	_writer->beginList(out);
         for (const Reference& page : list)
-            _writer->linkRefIcon(out, icon, 0, page.getReference(), page.getName());
+        {
+            _writer->beginListItem(out);        	
+            _writer->linkText(out, page.getName(), page.getId());
+            _writer->endListItem(out);
+        }
+    	_writer->endList(out);
         _writer->endSection(out);
         _writer->endDocument(out);
     }
@@ -220,47 +227,47 @@ namespace MdDox
 
         // Pages
         Reference ref = builder.getRefId("page_index");
-        name          = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
+        name          = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 
         if (!name.empty())
             writeReferenceFile(name, ICO_FILE, ref.getName(), filter.pages);
 
         _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->linkRef(out, 0, ref.getId(), ref.getName());
         _writer->endListItem(out);
 
         // Directories
         ref  = builder.getRefId("directory_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
+        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 
         if (!name.empty())
             writeReferenceFile(name, ICO_FOLDER, ref.getName(), filter.directories);
 
         _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->linkRef(out, 0, ref.getId(), ref.getName());
         _writer->endListItem(out);
 
         // Namespaces
         ref  = builder.getRefId("namespace_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
+        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 
         if (!name.empty())
             writeReferenceFile(name, ICO_NAMESPACE, ref.getName(), filter.namespaces);
 
         _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->linkRef(out, 0, ref.getId(), ref.getName());
         _writer->endListItem(out);
 
         // Classes
 
         ref  = builder.getRefId("class_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getReference(), builder.outputFileExt);
+        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 
         if (!name.empty())
-            writeReferenceFile(name, ICO_CLASS, ref.getName(), filter.pages);
+            writeReferenceFile(name, ICO_CLASS, ref.getName(), filter.classes);
 
         _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getReference(), ref.getName());
+        _writer->linkRef(out, 0, ref.getId(), ref.getName());
         _writer->endListItem(out);
 
         _writer->endList(out);

@@ -6,6 +6,8 @@
     <innerfile refid="HtmlStyle_8h">HtmlStyle.h</innerfile>
     <innerfile refid="Image_8h">Image.h</innerfile>
     <innerfile refid="Index_8h">Index.h</innerfile>
+    <innerfile refid="Overview_8dot">Overview.dot</innerfile>
+    <innerfile refid="Project_8h">Project.h</innerfile>
     <innerfile refid="SiteLayout_8h">SiteLayout.h</innerfile>
     <briefdescription>
     </briefdescription>
