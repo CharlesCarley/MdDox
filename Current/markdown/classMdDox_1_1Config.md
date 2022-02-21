@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Defines a basic key value parser. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_attributes" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_attributes</span>
@@ -95,7 +94,6 @@ key = "value";
 ```txt
 [a-zA-Z0-9]*[ \t_-.:#,_-./@()]*
 ```
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

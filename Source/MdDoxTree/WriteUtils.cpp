@@ -40,6 +40,14 @@ namespace MdDox
         writer->inlineText(out, "/");
     }
 
+	void writeGenericTitleBar(OStream& out, DocumentWriter* writer, const String& item)
+    {
+        writeCommonNav(out, writer);
+        writer->boldText(out, item);
+        writer->lineBreak(out);
+        writer->lineBreak(out);
+    }
+
     void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item)
     {
         const String split = "::";

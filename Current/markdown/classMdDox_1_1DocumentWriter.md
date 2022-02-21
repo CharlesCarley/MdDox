@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Interface for writing a custom back-end document. </span>
 <br/>
-<br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
@@ -58,10 +57,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#beginnavigationbar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginNavigationBar</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#beginparagraph" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">beginParagraph</span>
 </a>
 </span>
@@ -102,10 +97,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="#enddocumentheader" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endDocumentHeader</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="#endlist" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endList</span>
 </a>
 </span>
@@ -115,10 +106,6 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#endmethod" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endMethod</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="#endnavigationbar" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">endNavigationBar</span>
 </a>
 </span>
 <br/>
@@ -163,6 +150,10 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="#linktext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkText</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#linkurl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">linkUrl</span>
 </a>
 </span>
 <br/>
@@ -258,7 +249,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -300,7 +291,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L241" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L224" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -331,7 +322,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L150" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -417,7 +408,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L126" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -448,7 +439,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L162" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -503,38 +494,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L113" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="beginnavigationbar"></a>
-<h2>beginNavigationBar</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>beginNavigationBar</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations start a navigation bar. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L96" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -565,7 +525,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L138" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L121" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -618,7 +578,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -649,7 +609,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L99" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L82" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -693,7 +653,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L189" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L172" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -748,7 +708,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L211" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L194" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -788,7 +748,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L296" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L288" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -839,7 +799,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L304" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L296" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -901,7 +861,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L313" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L305" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -932,7 +892,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L156" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -983,37 +943,6 @@
 </span>
 <br/>
 <br/>
-<a id="enddocumentheader"></a>
-<h2>endDocumentHeader</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>endDocumentHeader</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations should close a common header region and start a body region. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
 <a id="endlist"></a>
 <h2>endList</h2>
 <span class="inline-text">void</span>
@@ -1040,7 +969,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L132" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1071,7 +1000,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L168" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L151" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1102,38 +1031,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L119" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
-</a>
-</span>
-<br/>
-<br/>
-<a id="endnavigationbar"></a>
-<h2>endNavigationBar</h2>
-<span class="inline-text">void</span>
-<span class="bold-text"><b>endNavigationBar</b></span>
-<span class="italic-text"><i>(</i></span>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">output</span>
-</span>
-</div>
-<span class="italic-text"><i>)</i></span>
-<a id="details"></a>
-<h4>Details</h4>
-<span class="inline-text">Implementations close a navigation bar. </span>
-<br/>
-<br/>
-<ul>
-<li><span class="bold-text"><b>output</b></span>
-<span class="inline-text"> - </span>
-<span class="inline-text">The output stream to write to. </span>
-</li>
-</ul>
-<br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L102" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1164,7 +1062,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L144" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1195,7 +1093,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L93" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1226,7 +1124,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L105" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1257,7 +1155,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L247" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L230" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1299,7 +1197,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L218" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L201" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1341,7 +1239,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L182" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L165" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1385,7 +1283,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L196" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L179" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1416,7 +1314,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L253" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L236" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1483,7 +1381,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L271" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L263" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1559,7 +1457,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L285" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L277" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1592,7 +1490,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="details"></a>
 <h4>Details</h4>
-<span class="inline-text">Implementations write text link. </span>
+<span class="inline-text">Implementations write a text link. </span>
 <br/>
 <br/>
 <ul>
@@ -1612,7 +1510,60 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L261" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L253" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<a id="linkurl"></a>
+<h2>linkUrl</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>linkUrl</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="namespaceMdDox.md#ostream">OStream</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">output</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">title</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">ref</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Implementations should write an external URL. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>output</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The output stream to write to. </span>
+</li>
+<li><span class="bold-text"><b>title</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The text for the link. </span>
+</li>
+<li><span class="bold-text"><b>ref</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">The reference link. </span>
+</li>
+</ul>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L245" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1665,7 +1616,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L234" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L217" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1720,7 +1671,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L209" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1762,7 +1713,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L175" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L158" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>
@@ -1806,7 +1757,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L203" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DocumentWriter.h#L186" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DocumentWriter.h</span>
 </a>
 </span>
 <br/>

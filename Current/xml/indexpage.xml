@@ -6,8 +6,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><linebreak/>
- <dot>
+<para><dot>
 digraph {
     rankdir = &quot;LR&quot;;
     bgcolor  = none
@@ -37,7 +36,6 @@ digraph {
 
 }
 </dot>
- <linebreak/>
 </para><sect1 id="index_1Topics">
 <title>Topics</title>
 <para><itemizedlist>

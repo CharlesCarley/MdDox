@@ -455,6 +455,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_max" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_MAX</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>

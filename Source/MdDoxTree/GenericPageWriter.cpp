@@ -38,11 +38,8 @@ namespace MdDox
 
     void GenericPageWriter::visitedCompoundName(const String& text)
     {
-    	writeCommonNav(_out, _writer);
-        _writer->boldText(_out, text);
-        _writer->lineBreak(_out);
-        _writer->lineBreak(_out);
-    }
+        writeGenericTitleBar(_out, _writer, text);
+   }
 
     void GenericPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {

@@ -50,24 +50,7 @@ namespace MdDox
          * \param docSource The source \c .xml file that was used to generate this document.
          */
         virtual void endDocument(OStream& output, const String& docSource = "") = 0;
-
-        /**
-         * \brief Implementations start a navigation bar.
-         * \param output The output stream to write to.
-         */
-        virtual void beginNavigationBar(OStream& output) = 0;
-
-        /**
-         * \brief Implementations close a navigation bar.
-         * \param output The output stream to write to.
-         */
-        virtual void endNavigationBar(OStream& output) = 0;
-
-        /**
-         * \brief Implementations should close a common header region and start a body region.
-         * \param output The output stream to write to.
-         */
-        virtual void endDocumentHeader(OStream& output) = 0;
+        
 
         /**
          * \brief Implementations should start a subsection of the body.
@@ -252,8 +235,17 @@ namespace MdDox
          */
         virtual void lineBreak(OStream& output) = 0;
 
+    	
         /**
-         * \brief Implementations write text link.
+         * \brief Implementations should write an external URL.
+         * \param output The output stream to write to.
+         * \param title The text for the link.
+         * \param ref The reference link.
+         */
+        virtual void linkUrl(OStream& output, const String& title, const String& ref) = 0;
+
+        /**
+         * \brief Implementations write a text link.
          * \param output The output stream to write to.
          * \param title The text for the link.
          * \param ref The reference link.

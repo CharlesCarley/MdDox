@@ -14,23 +14,27 @@
     <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="784">
+      <node id="782">
         <label>iomanip</label>
       </node>
-      <node id="781">
+      <node id="779">
         <label>string</label>
       </node>
-      <node id="779">
+      <node id="777">
         <label>fstream</label>
       </node>
-      <node id="776">
+      <node id="774">
         <label>Source/MdDoxTree/HashUtils.h</label>
         <link refid="HashUtils_8h"/>
-        <childnode refid="777" relation="include">
+        <childnode refid="775" relation="include">
         </childnode>
       </node>
-      <node id="777">
+      <node id="775">
         <label>Utils/String.h</label>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
         <childnode refid="778" relation="include">
         </childnode>
         <childnode refid="779" relation="include">
@@ -41,37 +45,37 @@
         </childnode>
         <childnode refid="782" relation="include">
         </childnode>
-        <childnode refid="783" relation="include">
-        </childnode>
-        <childnode refid="784" relation="include">
-        </childnode>
       </node>
-      <node id="783">
+      <node id="781">
         <label>vector</label>
       </node>
-      <node id="780">
+      <node id="778">
         <label>sstream</label>
       </node>
-      <node id="778">
+      <node id="776">
         <label>deque</label>
       </node>
-      <node id="782">
+      <node id="780">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="793">
+      <node id="791">
         <label>Source/MdDoxTree/RepoFile.cpp</label>
       </node>
-      <node id="795">
+      <node id="793">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="788">
+      <node id="786">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="785">
+      <node id="783">
         <label>Source/MdDoxTree/HashUtils.h</label>
         <link refid="HashUtils_8h"/>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
         <childnode refid="786" relation="include">
         </childnode>
         <childnode refid="787" relation="include">
@@ -88,30 +92,26 @@
         </childnode>
         <childnode refid="793" relation="include">
         </childnode>
-        <childnode refid="794" relation="include">
-        </childnode>
-        <childnode refid="795" relation="include">
-        </childnode>
-      </node>
-      <node id="789">
-        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
       <node id="787">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="785">
         <label>Source/MdDoxTree/HashUtils.cpp</label>
       </node>
-      <node id="792">
+      <node id="790">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="794">
+      <node id="792">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="791">
+      <node id="789">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="786">
+      <node id="784">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="790">
+      <node id="788">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

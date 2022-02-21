@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Represents a repository file. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_file" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_file</span>

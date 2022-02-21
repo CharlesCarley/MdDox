@@ -6,6 +6,8 @@
 <a href="index.md#index">Index</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Contents</b></span>
+<br/>
+<br/>
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>

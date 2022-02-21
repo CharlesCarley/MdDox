@@ -21,20 +21,24 @@
     <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <includedby refid="Group_8cpp" local="yes">Tools/GenApi/Group.cpp</includedby>
     <incdepgraph>
-      <node id="2616">
+      <node id="2614">
         <label>iomanip</label>
       </node>
-      <node id="2608">
+      <node id="2606">
         <label>cstdint</label>
       </node>
-      <node id="2613">
+      <node id="2611">
         <label>string</label>
       </node>
-      <node id="2611">
+      <node id="2609">
         <label>fstream</label>
       </node>
-      <node id="2609">
+      <node id="2607">
         <label>Utils/String.h</label>
+        <childnode refid="2608" relation="include">
+        </childnode>
+        <childnode refid="2609" relation="include">
+        </childnode>
         <childnode refid="2610" relation="include">
         </childnode>
         <childnode refid="2611" relation="include">
@@ -45,103 +49,103 @@
         </childnode>
         <childnode refid="2614" relation="include">
         </childnode>
-        <childnode refid="2615" relation="include">
-        </childnode>
-        <childnode refid="2616" relation="include">
-        </childnode>
       </node>
-      <node id="2615">
+      <node id="2613">
         <label>vector</label>
       </node>
-      <node id="2612">
+      <node id="2610">
         <label>sstream</label>
       </node>
-      <node id="2607">
+      <node id="2605">
         <label>Source/Utils/Char.h</label>
         <link refid="Char_8h"/>
-        <childnode refid="2608" relation="include">
+        <childnode refid="2606" relation="include">
         </childnode>
-        <childnode refid="2609" relation="include">
+        <childnode refid="2607" relation="include">
         </childnode>
       </node>
-      <node id="2610">
+      <node id="2608">
         <label>deque</label>
       </node>
-      <node id="2614">
+      <node id="2612">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2635">
+      <node id="2633">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="2637">
+      <node id="2635">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="2628">
+      <node id="2626">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2627">
+      <node id="2625">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2633">
+      <node id="2631">
         <label>Source/Utils/String.cpp</label>
       </node>
-      <node id="2626">
+      <node id="2624">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2619">
+      <node id="2617">
         <label>Source/MdDoxTree/DotWriter.cpp</label>
       </node>
-      <node id="2632">
+      <node id="2630">
         <label>Source/Utils/Path.cpp</label>
       </node>
-      <node id="2629">
+      <node id="2627">
         <label>Source/Utils/FileSystem.cpp</label>
       </node>
-      <node id="2618">
+      <node id="2616">
         <label>Source/MdDoxTree/Config.cpp</label>
       </node>
-      <node id="2620">
+      <node id="2618">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="2622">
+      <node id="2620">
         <label>Source/Utils/Char.cpp</label>
       </node>
-      <node id="2624">
+      <node id="2622">
         <label>Source/Utils/CommandLine/Parser.h</label>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
         <childnode refid="2625" relation="include">
         </childnode>
         <childnode refid="2626" relation="include">
         </childnode>
-        <childnode refid="2627" relation="include">
-        </childnode>
-        <childnode refid="2628" relation="include">
-        </childnode>
       </node>
-      <node id="2630">
+      <node id="2628">
         <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
-      <node id="2623">
+      <node id="2621">
         <label>Source/Utils/CommandLine/Option.h</label>
-        <childnode refid="2624" relation="include">
+        <childnode refid="2622" relation="include">
         </childnode>
       </node>
-      <node id="2636">
+      <node id="2634">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="2621">
+      <node id="2619">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="2631">
+      <node id="2629">
         <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
       </node>
-      <node id="2625">
+      <node id="2623">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="2617">
+      <node id="2615">
         <label>Source/Utils/Char.h</label>
         <link refid="Char_8h"/>
+        <childnode refid="2616" relation="include">
+        </childnode>
+        <childnode refid="2617" relation="include">
+        </childnode>
         <childnode refid="2618" relation="include">
         </childnode>
         <childnode refid="2619" relation="include">
@@ -150,9 +154,9 @@
         </childnode>
         <childnode refid="2621" relation="include">
         </childnode>
-        <childnode refid="2622" relation="include">
+        <childnode refid="2627" relation="include">
         </childnode>
-        <childnode refid="2623" relation="include">
+        <childnode refid="2628" relation="include">
         </childnode>
         <childnode refid="2629" relation="include">
         </childnode>
@@ -170,15 +174,11 @@
         </childnode>
         <childnode refid="2636" relation="include">
         </childnode>
-        <childnode refid="2637" relation="include">
-        </childnode>
-        <childnode refid="2638" relation="include">
-        </childnode>
       </node>
-      <node id="2638">
+      <node id="2636">
         <label>Tools/GenApi/Group.cpp</label>
       </node>
-      <node id="2634">
+      <node id="2632">
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>

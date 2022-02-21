@@ -15,7 +15,6 @@
 <br/>
 <span class="inline-text">A structure that represents a command line switch. </span>
 <br/>
-<br/>
 <a id="public-members"></a>
 <h2>Public Members</h2>
 <span class="icon-list-item"><a href="#argcount" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">argCount</span>

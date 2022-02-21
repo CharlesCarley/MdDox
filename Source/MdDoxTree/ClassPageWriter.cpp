@@ -168,12 +168,10 @@ namespace MdDox
     void ClassPageWriter::notifyDetailDescription(const Doxygen::DescriptionQuery& query)
     {
         _writer->lineBreak(_out);
-        _writer->lineBreak(_out);
     }
 
     void ClassPageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
     {
-        _writer->lineBreak(_out);
         _writer->lineBreak(_out);
     }
 

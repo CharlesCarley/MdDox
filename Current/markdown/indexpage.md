@@ -9,9 +9,7 @@
 <span class="bold-text"><b>index</b></span>
 <br/>
 <br/>
-<br/>
 <img src="../images/dot/internal-diagram-3.dot.svg"/><br/>
-<br/>
 <a id="index_1Topics"></a>
 <a id="topics"></a>
 <h2>Topics</h2>

@@ -6,25 +6,29 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="Node_8cpp" local="yes">Source/Xml/Node.cpp</includedby>
     <incdepgraph>
-      <node id="4260">
+      <node id="4258">
         <label>iomanip</label>
       </node>
-      <node id="4257">
+      <node id="4255">
         <label>string</label>
       </node>
-      <node id="4251">
+      <node id="4249">
         <label>Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
+        <childnode refid="4250" relation="include">
+        </childnode>
+        <childnode refid="4251" relation="include">
+        </childnode>
+      </node>
+      <node id="4253">
+        <label>fstream</label>
+      </node>
+      <node id="4251">
+        <label>Utils/String.h</label>
         <childnode refid="4252" relation="include">
         </childnode>
         <childnode refid="4253" relation="include">
         </childnode>
-      </node>
-      <node id="4255">
-        <label>fstream</label>
-      </node>
-      <node id="4253">
-        <label>Utils/String.h</label>
         <childnode refid="4254" relation="include">
         </childnode>
         <childnode refid="4255" relation="include">
@@ -35,35 +39,31 @@
         </childnode>
         <childnode refid="4258" relation="include">
         </childnode>
-        <childnode refid="4259" relation="include">
-        </childnode>
-        <childnode refid="4260" relation="include">
-        </childnode>
       </node>
-      <node id="4259">
+      <node id="4257">
         <label>vector</label>
       </node>
-      <node id="4252">
+      <node id="4250">
         <label>utility</label>
       </node>
-      <node id="4256">
+      <node id="4254">
         <label>sstream</label>
       </node>
-      <node id="4254">
+      <node id="4252">
         <label>deque</label>
       </node>
-      <node id="4258">
+      <node id="4256">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4261">
+      <node id="4259">
         <label>Source/Xml/Attribute.h</label>
         <link refid="Attribute_8h"/>
-        <childnode refid="4262" relation="include">
+        <childnode refid="4260" relation="include">
         </childnode>
       </node>
-      <node id="4262">
+      <node id="4260">
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>

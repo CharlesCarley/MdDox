@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Base that handles common parse functionality. </span>
 <br/>
-<br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">

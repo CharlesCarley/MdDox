@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Utility console class. </span>
 <br/>
-<br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
 <span class="icon-list-item"><a href="#debugbreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
@@ -115,7 +114,6 @@
 <a id="details"></a>
 <h2>Details</h2>
 <span class="inline-text">Makes use of cout, cin and cerr. </span>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

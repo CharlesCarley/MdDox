@@ -3,8 +3,6 @@
 /*!
  \mainpage MdDox
 
-\n
-
 \brief \dot 
 digraph {
 	rankdir = "LR";
@@ -34,8 +32,7 @@ digraph {
     MdDox -> GitHub
 
 }
-\enddot \n
-
+\enddot
 
 \section Topics
 

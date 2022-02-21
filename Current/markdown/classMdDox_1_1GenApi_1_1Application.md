@@ -17,7 +17,6 @@
 <a href="namespaceMdDox_1_1GenApi.md#genapi">GenApi</a>
 <span class="inline-text"> program. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_attributenames" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_attributeNames</span>
@@ -116,7 +115,6 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
      -g, --group       Log group names
      -n, --enum        Log enum values
 ```
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

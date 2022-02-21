@@ -174,11 +174,7 @@ namespace MdDox
             throw InputException("Failed to open the supplied file path: ", name);
 
         _writer->beginDocument(out, heading);
-
-        writeCommonNav(out, _writer);
-        _writer->boldText(out, heading);
-        _writer->lineBreak(out);
-        _writer->lineBreak(out);
+        writeGenericTitleBar(out, _writer, heading);
 
         _writer->beginSection(out, "Contents", 2);
 
@@ -213,9 +209,7 @@ namespace MdDox
 
         _writer->beginDocument(out, builder.projectTitle);
 
-        writeCommonNav(out, _writer);
-
-        _writer->boldText(out, "Contents");
+    	writeGenericTitleBar(out, _writer, "Contents");
 
         String file;
         String name;

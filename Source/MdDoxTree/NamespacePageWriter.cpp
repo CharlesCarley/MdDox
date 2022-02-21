@@ -110,6 +110,7 @@ namespace MdDox
             case Doxygen::DSK_FRIEND:
             case Doxygen::DSK_PROTOTYPE:
             case Doxygen::DSK_INVALID:
+            case Doxygen::DSK_MAX:
             default:
                 break;
             }
@@ -265,10 +266,8 @@ namespace MdDox
     void NamespacePageWriter::writeTableOfContents(Xml::Node* compoundDef)
     {
         const Doxygen::CompoundDefQuery cdq(compoundDef);
-    	const String &id = cdq.getId();
-    	
+        const String&                   id = cdq.getId();
 
-    	
         TableOfContents contents;
         cdq.visit(&contents);
         if (contents.hasAny())

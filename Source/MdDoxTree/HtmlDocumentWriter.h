@@ -50,21 +50,6 @@ namespace MdDox
         void endDocument(OStream& output, const String& docSource = "") override;
 
         /**
-         * \copydoc MdDox::DocumentWriter::endNavigationBar
-         */
-        void beginNavigationBar(OStream& output) override;
-
-        /**
-         * \copydoc MdDox::DocumentWriter::endNavigationBar
-         */
-        void endNavigationBar(OStream& output) override;
-
-        /**
-         * \copydoc MdDox::DocumentWriter::endDocumentHeader
-         */
-        void endDocumentHeader(OStream& output) override;
-
-        /**
          * \copydoc MdDox::DocumentWriter::addSection
          */
         void addSection(OStream& output, const String& title, int depth) override;
@@ -200,6 +185,11 @@ namespace MdDox
         void lineBreak(OStream& output) override;
 
         /**
+         * \copydoc MdDox::DocumentWriter::linkUrl
+         */
+        void linkUrl(OStream& output, const String& title, const String& ref) override;
+
+    	/**
          * \copydoc MdDox::DocumentWriter::linkText
          */
         void linkText(OStream& output, const String& title, const String& ref) override;

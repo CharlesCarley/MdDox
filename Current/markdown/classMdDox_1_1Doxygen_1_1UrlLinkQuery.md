@@ -17,7 +17,6 @@
 <code class="typewriter">docURLLink</code>
 <span class="inline-text"> scaffolding. </span>
 <br/>
-<br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
@@ -174,7 +173,6 @@
   <xsd:attribute name="url" type="xsd:string"/>
 </xsd:complexType>
 ```
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

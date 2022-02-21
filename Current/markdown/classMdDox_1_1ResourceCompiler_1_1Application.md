@@ -17,7 +17,6 @@
 <a href="namespaceMdDox_1_1ResourceCompiler.md#resourcecompiler">ResourceCompiler</a>
 <span class="inline-text">. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_input" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_input</span>

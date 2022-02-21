@@ -14,7 +14,6 @@
 <span class="inline-text">Primary class for exception handling </span>
 <br/>
 <br/>
-<br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">

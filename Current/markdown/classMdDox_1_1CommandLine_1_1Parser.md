@@ -15,7 +15,6 @@
 <br/>
 <span class="inline-text">Is a basic command line parser that matches arguments supplied by main with predetermined rules. </span>
 <br/>
-<br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
 <span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>

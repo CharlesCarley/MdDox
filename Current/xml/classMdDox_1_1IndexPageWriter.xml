@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="167" bodyend="195"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="167" bodyend="191"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="197" bodyend="279"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="193" bodyend="273"/>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="303" endline="308">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
@@ -172,7 +172,7 @@
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" compoundref="DoxygenIndexQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::DoxygenIndexQuery::visit</references>
         <references refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" compoundref="SiteBuilder_8h" startline="183">MdDox::SiteBuilder::projectTitle</references>
-        <references refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" compoundref="WriteUtils_8cpp" startline="32" endline="41">MdDox::writeCommonNav</references>
+        <references refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" compoundref="WriteUtils_8cpp" startline="43" endline="49">MdDox::writeGenericTitleBar</references>
         <references refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" compoundref="SiteBuilder_8cpp" startline="178" endline="184">MdDox::SiteBuilder::getRefId</references>
         <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>

@@ -9,50 +9,54 @@
     <includedby refid="MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1280">
+      <node id="1278">
         <label>iomanip</label>
       </node>
-      <node id="1270">
+      <node id="1268">
         <label>MdDoxTree/HtmlDocumentWriter.h</label>
+        <childnode refid="1269" relation="include">
+        </childnode>
+        <childnode refid="1279" relation="include">
+        </childnode>
         <childnode refid="1271" relation="include">
         </childnode>
-        <childnode refid="1281" relation="include">
-        </childnode>
-        <childnode refid="1273" relation="include">
-        </childnode>
-      </node>
-      <node id="1277">
-        <label>string</label>
       </node>
       <node id="1275">
+        <label>string</label>
+      </node>
+      <node id="1273">
         <label>fstream</label>
       </node>
-      <node id="1272">
+      <node id="1270">
         <label>IconSet.h</label>
-        <childnode refid="1273" relation="include">
-        </childnode>
-      </node>
-      <node id="1271">
-        <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="1272" relation="include">
-        </childnode>
-        <childnode refid="1281" relation="include">
-        </childnode>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1271" relation="include">
         </childnode>
       </node>
       <node id="1269">
-        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
-        <link refid="MarkdownDocumentWriter_8h"/>
+        <label>MdDoxTree/DocumentWriter.h</label>
         <childnode refid="1270" relation="include">
         </childnode>
-        <childnode refid="1281" relation="include">
+        <childnode refid="1279" relation="include">
+        </childnode>
+        <childnode refid="1271" relation="include">
+        </childnode>
+      </node>
+      <node id="1267">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
+        <link refid="MarkdownDocumentWriter_8h"/>
+        <childnode refid="1268" relation="include">
+        </childnode>
+        <childnode refid="1279" relation="include">
+        </childnode>
+        <childnode refid="1271" relation="include">
+        </childnode>
+      </node>
+      <node id="1271">
+        <label>Utils/String.h</label>
+        <childnode refid="1272" relation="include">
         </childnode>
         <childnode refid="1273" relation="include">
         </childnode>
-      </node>
-      <node id="1273">
-        <label>Utils/String.h</label>
         <childnode refid="1274" relation="include">
         </childnode>
         <childnode refid="1275" relation="include">
@@ -63,52 +67,48 @@
         </childnode>
         <childnode refid="1278" relation="include">
         </childnode>
-        <childnode refid="1279" relation="include">
-        </childnode>
-        <childnode refid="1280" relation="include">
-        </childnode>
       </node>
-      <node id="1279">
+      <node id="1277">
         <label>vector</label>
       </node>
-      <node id="1276">
+      <node id="1274">
         <label>sstream</label>
       </node>
-      <node id="1281">
+      <node id="1279">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1282" relation="include">
+        <childnode refid="1280" relation="include">
         </childnode>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1271" relation="include">
         </childnode>
       </node>
-      <node id="1274">
+      <node id="1272">
         <label>deque</label>
       </node>
-      <node id="1278">
+      <node id="1276">
         <label>unordered_map</label>
       </node>
-      <node id="1282">
+      <node id="1280">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1283">
+      <node id="1281">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
         <link refid="MarkdownDocumentWriter_8h"/>
+        <childnode refid="1282" relation="include">
+        </childnode>
+        <childnode refid="1283" relation="include">
+        </childnode>
         <childnode refid="1284" relation="include">
         </childnode>
-        <childnode refid="1285" relation="include">
-        </childnode>
-        <childnode refid="1286" relation="include">
-        </childnode>
-      </node>
-      <node id="1286">
-        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
-      </node>
-      <node id="1285">
-        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
       <node id="1284">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="1283">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="1282">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>
@@ -158,9 +158,8 @@
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" kindref="member" tooltip="Implementations should write a code block. ">code</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>type<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;.txt&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" kindref="member" tooltip="Implementations close a navigation bar. ">endNavigationBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/MarkdownDocumentWriter.h"/>
   </compounddef>

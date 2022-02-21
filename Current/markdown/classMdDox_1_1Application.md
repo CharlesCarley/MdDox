@@ -14,7 +14,6 @@
 <a href="classMdDox_1_1Application.md#application">Application</a>
 <span class="inline-text"> is the primary entry point. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_config" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_config</span>
@@ -56,7 +55,6 @@
 <span class="inline-text">The application&apos;s responsibility is to collect enough information to instantiate a </span>
 <a href="classMdDox_1_1SiteBuilder.md#sitebuilder">SiteBuilder</a>
 <span class="inline-text">. </span>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

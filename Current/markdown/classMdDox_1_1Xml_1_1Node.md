@@ -15,7 +15,6 @@
 <br/>
 <span class="inline-text">Provides a tree structure to contain an XML document. </span>
 <br/>
-<br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
@@ -211,7 +210,6 @@
 <span class="bold-text"><b>_text_node</b></span>
 <span class="inline-text"> to store blocks of text in between tags. The text node is pushed as a child node to the node on the top of the parse stack.</span>
 <span class="inline-text">All attributes are defined in the form of a string. Any extra type of serialization is beyond the scope of this class and must be handled elsewhere. There is, however, one exception to this if a type filter has been applied before parsing the file, an optional type code can be assigned to the node itself so that nodes can be type-checked with integers VS strings. </span>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

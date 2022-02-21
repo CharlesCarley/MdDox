@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Provides general string conversion utility routines. </span>
 <br/>
-<br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
 <span class="icon-list-item"><a href="#generate" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">generate</span>

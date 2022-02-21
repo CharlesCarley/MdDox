@@ -282,7 +282,6 @@
     <member refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233" kind="function"><name>beginListItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1afe20a43ef1d323eac47772b9c00f2964" kind="function"><name>beginMethod</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1a07134c1e3acd455862fdb3c385ac8bd0" kind="function"><name>beginNavigationBar</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94" kind="function"><name>beginParagraph</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a10eefda6ab1d3757ceac90ce16bcc4ff" kind="function"><name>beginSectionBar</name></member>
@@ -293,11 +292,9 @@
     <member refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a7b90d2ddf0e732ad50db882d7b895967" kind="function"><name>endBlockQuote</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a1c87d667be08f269118f087c05fe2977" kind="function"><name>endDocument</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1ae6dce49331eacbd6efc8581b2d29425d" kind="function"><name>endDocumentHeader</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed" kind="function"><name>endList</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a2106a2fb02cb51be6ee61c3415cd0f22" kind="function"><name>endMethod</name></member>
-    <member refid="classMdDox_1_1DocumentWriter_1abd3bb7fb9c1a5d480c47124f1e5a072c" kind="function"><name>endNavigationBar</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64" kind="function"><name>endSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1af42b4463984f691c6e2798d7496a3df0" kind="function"><name>endSectionBar</name></member>
@@ -309,6 +306,7 @@
     <member refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3" kind="function"><name>linkText</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a96bb9b4cca54c9085c90a9ce3b479e09" kind="function"><name>linkUrl</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a84c0d322573c5713d6a178cebc2eea53" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a80c7fecb7cb782e43068e62f8b2828aa" kind="function"><name>listItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1abf703ade359cd1d96f9451ef0105d678" kind="function"><name>paragraph</name></member>
@@ -2241,7 +2239,6 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" kind="function"><name>beginListItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" kind="function"><name>beginMethod</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1a5ba070591a25bbbd2c06245db559b326" kind="function"><name>beginNavigationBar</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" kind="function"><name>beginParagraph</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" kind="function"><name>beginSectionBar</name></member>
@@ -2252,11 +2249,9 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" kind="function"><name>endBlockQuote</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" kind="function"><name>endDocument</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1a5b8f9340259900bfe316df9dc13bcc4d" kind="function"><name>endDocumentHeader</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" kind="function"><name>endList</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" kind="function"><name>endMethod</name></member>
-    <member refid="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e" kind="function"><name>endNavigationBar</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" kind="function"><name>endSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" kind="function"><name>endSectionBar</name></member>
@@ -2268,6 +2263,7 @@
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" kind="function"><name>linkRefIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kind="function"><name>linkText</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" kind="function"><name>linkUrl</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" kind="function"><name>listItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" kind="function"><name>paragraph</name></member>
@@ -2379,7 +2375,6 @@
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1ac27f2c8cdde0047ca0c295b4d069ad75" kind="function"><name>~MarkdownDocumentWriter</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" kind="function"><name>beginDocument</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" kind="function"><name>code</name></member>
-    <member refid="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" kind="function"><name>endNavigationBar</name></member>
   </compound>
   <compound refid="classMdDox_1_1MemberDefListingWriter" kind="class"><name>MdDox::MemberDefListingWriter</name>
     <member refid="classMdDox_1_1MemberDefListingWriter_1a31e945bfe890ee3662b6fea52a64d194" kind="variable"><name>_out</name></member>
@@ -3042,6 +3037,7 @@
     <member refid="namespaceMdDox_1adf0b8415191058f900ec33f847904249" kind="function"><name>writeCommonNav</name></member>
     <member refid="namespaceMdDox_1a6a044efa0d8ab36f057906e935bdf520" kind="function"><name>writeDirectoryTitleBar</name></member>
     <member refid="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" kind="function"><name>writeExternalIconLink</name></member>
+    <member refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kind="function"><name>writeGenericTitleBar</name></member>
     <member refid="namespaceMdDox_1abd83695519b08c759c042dc95cb3a95e" kind="function"><name>writeNamespaceTitleBar</name></member>
     <member refid="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" kind="function"><name>writeReferenceIconLink</name></member>
     <member refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kind="function"><name>writeReferenceIconLinkHeading</name></member>
@@ -3609,8 +3605,6 @@
   </compound>
   <compound refid="Index_8h" kind="file"><name>Index.h</name>
   </compound>
-  <compound refid="Overview_8dot" kind="file"><name>Overview.dot</name>
-  </compound>
   <compound refid="Project_8h" kind="file"><name>Project.h</name>
   </compound>
   <compound refid="SiteLayout_8h" kind="file"><name>SiteLayout.h</name>
@@ -3786,6 +3780,7 @@
   </compound>
   <compound refid="WriteUtils_8h" kind="file"><name>WriteUtils.h</name>
     <member refid="WriteUtils_8h_1a57fba025474546dde88efeef0f0ab3ac" kind="define"><name>WRITE_STUB</name></member>
+    <member refid="WriteUtils_8h_1a6f217ecd4a17187a010426279af19491" kind="define"><name>WRITE_STUB_TEXT</name></member>
   </compound>
   <compound refid="DoxygenFilter_8cpp" kind="file"><name>DoxygenFilter.cpp</name>
   </compound>

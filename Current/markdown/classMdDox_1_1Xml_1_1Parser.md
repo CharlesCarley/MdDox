@@ -16,7 +16,6 @@
 <a href="classMdDox_1_1Xml_1_1Parser.md#parser">Parser</a>
 <span class="inline-text"> is the XML based implementation of the ParseBase base class. </span>
 <br/>
-<br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
@@ -161,7 +160,6 @@
          | String
          | Identifier
 ```
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

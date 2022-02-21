@@ -121,34 +121,6 @@
         <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="41" bodyend="48"/>
         <references refid="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" compoundref="MarkdownCommandWriter_8cpp" startline="118" endline="125">MdDox::Md::code</references>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::MarkdownDocumentWriter::endNavigationBar</definition>
-        <argsstring>(OStream &amp;output) override</argsstring>
-        <name>endNavigationBar</name>
-        <reimplements refid="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e">endNavigationBar</reimplements>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Implementations close a navigation bar. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="50" bodyend="59"/>
-        <references refid="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e">MdDox::HtmlDocumentWriter::endNavigationBar</references>
-        <references refid="namespaceMdDox_1_1Html_1a4e67bdb93c2e1c1121a2ee33f83f5de2" compoundref="HtmlCommandWriter_8cpp" startline="30" endline="33">MdDox::Html::lineBreak</references>
-      </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -190,7 +162,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.h" bodystart="29" bodyend="50"/>
+    <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.h" bodystart="29" bodyend="46"/>
     <listofallmembers>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>addSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>anchor</name></member>
@@ -199,7 +171,6 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginListItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginMethod</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5ba070591a25bbbd2c06245db559b326" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginNavigationBar</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginParagraph</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginSectionBar</name></member>
@@ -211,11 +182,9 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>embedContentLinkText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endDocument</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5b8f9340259900bfe316df9dc13bcc4d" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endDocumentHeader</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endListItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endMethod</name></member>
-      <member refid="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endNavigationBar</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endParagraph</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endSectionBar</name></member>
@@ -228,6 +197,7 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRef</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRefIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkUrl</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listItem</name></member>
       <member refid="classMdDox_1_1MarkdownDocumentWriter_1aec6710fea7e297e171c6005fc39be777" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>MarkdownDocumentWriter</name></member>

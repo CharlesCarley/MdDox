@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Class to map a hash table along side an index-able array. </span>
 <br/>
-<br/>
 <a id="public-typedefs"></a>
 <h2>Public Typedefs</h2>
 <span class="icon-list-item"><a href="#array" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Array</span>
@@ -83,7 +82,6 @@
 <span class="inline-text"> - </span>
 </li>
 </ul>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

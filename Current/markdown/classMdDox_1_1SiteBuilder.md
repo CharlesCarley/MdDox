@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">The site builder runs the main loop, and provides static access to properties during the build stage. </span>
 <br/>
-<br/>
 <a id="private-static-members"></a>
 <h2>Private Static Members</h2>
 <span class="icon-list-item"><a href="#_singleton" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_singleton</span>
@@ -207,7 +206,6 @@
 <img src="../images/dot/internal-diagram-133.dot.svg"/><br/>
 <br/>
 <span class="inline-text">First, it should have all necessary configuration parameters before running. From there, it needs to load an index file. Then based on the contents of the index, It should write the primary index. After that, It should dispatch all sub-page writers. Page writers can register graph files during their dispatch routine. After all pages have completed any registered graph files are processed. </span>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

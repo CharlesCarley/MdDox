@@ -4,23 +4,27 @@
     <compoundname>Scanner.cpp</compoundname>
     <includes refid="Utils_2CommandLine_2Scanner_8h" local="yes">Scanner.h</includes>
     <incdepgraph>
-      <node id="2765">
+      <node id="2763">
         <label>Source/Utils/CommandLine/Scanner.cpp</label>
         <link refid="Utils_2CommandLine_2Scanner_8cpp"/>
-        <childnode refid="2766" relation="include">
+        <childnode refid="2764" relation="include">
         </childnode>
       </node>
-      <node id="2775">
+      <node id="2773">
         <label>iomanip</label>
       </node>
-      <node id="2772">
+      <node id="2770">
         <label>string</label>
       </node>
-      <node id="2770">
+      <node id="2768">
         <label>fstream</label>
       </node>
-      <node id="2768">
+      <node id="2766">
         <label>Utils/String.h</label>
+        <childnode refid="2767" relation="include">
+        </childnode>
+        <childnode refid="2768" relation="include">
+        </childnode>
         <childnode refid="2769" relation="include">
         </childnode>
         <childnode refid="2770" relation="include">
@@ -31,31 +35,27 @@
         </childnode>
         <childnode refid="2773" relation="include">
         </childnode>
-        <childnode refid="2774" relation="include">
-        </childnode>
-        <childnode refid="2775" relation="include">
-        </childnode>
       </node>
-      <node id="2766">
+      <node id="2764">
         <label>Scanner.h</label>
-        <childnode refid="2767" relation="include">
+        <childnode refid="2765" relation="include">
         </childnode>
       </node>
-      <node id="2774">
+      <node id="2772">
         <label>vector</label>
       </node>
-      <node id="2771">
+      <node id="2769">
         <label>sstream</label>
       </node>
-      <node id="2769">
+      <node id="2767">
         <label>deque</label>
       </node>
-      <node id="2773">
+      <node id="2771">
         <label>unordered_map</label>
       </node>
-      <node id="2767">
+      <node id="2765">
         <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="2768" relation="include">
+        <childnode refid="2766" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Custom exception that logs a file, line number and a message. </span>
 <br/>
-<br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">

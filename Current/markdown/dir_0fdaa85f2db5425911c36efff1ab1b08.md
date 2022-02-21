@@ -29,10 +29,6 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages/Overview.dot#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Overview.dot</span>
-</a>
-</span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages/Project.h#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Project.h</span>
 </a>
 </span>

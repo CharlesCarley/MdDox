@@ -29,8 +29,13 @@
     w->beginBlockQuote(os);        \
     w->boldText(os, __FUNCTION__); \
     w->endBlockQuote(os)
+#define WRITE_STUB_TEXT(w, os, text)        \
+    w->beginBlockQuote(os);                 \
+    w->boldText(os, __FUNCTION__ "." text); \
+    w->endBlockQuote(os)
 #else
 #define WRITE_STUB(w, os)
+#define WRITE_STUB_TEXT(w, os, text)
 #endif
 
 namespace MdDox
@@ -38,9 +43,8 @@ namespace MdDox
     class Page;
     class DocumentWriter;
 
-    extern void writeCommonNav(OStream& out, DocumentWriter* writer);
 
-
+    extern void writeGenericTitleBar(OStream& out, DocumentWriter* writer, const String& item);
     extern void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
     extern void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
 

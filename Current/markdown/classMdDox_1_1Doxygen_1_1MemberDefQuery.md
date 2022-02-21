@@ -17,7 +17,6 @@
 <code class="typewriter">memberdefType</code>
 <span class="inline-text"> scaffolding. </span>
 <br/>
-<br/>
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
@@ -358,7 +357,6 @@
   <xsd:attribute name="maybeambiguous" type="DoxBool" use="optional"/>
 </xsd:complexType>
 ```
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

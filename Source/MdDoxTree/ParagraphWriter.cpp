@@ -24,6 +24,7 @@
 #include "Doxygen/CodeLineQuery.h"
 #include "Doxygen/DoxImageKind.h"
 #include "Doxygen/DoxRefKind.h"
+#include "Doxygen/HeadingQuery.h"
 #include "Doxygen/HighlightQuery.h"
 #include "Doxygen/ImageQuery.h"
 #include "Doxygen/ListItemQuery.h"
@@ -39,7 +40,6 @@
 #include "ParameterListWriter.h"
 #include "Utils/Path.h"
 #include "WriteUtils.h"
-#include "Doxygen/HeadingQuery.h"
 
 namespace MdDox
 {
@@ -213,6 +213,7 @@ namespace MdDox
         case Doxygen::DSSK_RCS:
             _writer->beginSection(_out, "RCS", depth);
             break;
+        case Doxygen::DSSK_MAX:
         case Doxygen::DSSK_INVALID:
         default:
             break;
@@ -249,22 +250,21 @@ namespace MdDox
 
     void ParagraphWriter::visitedImage(const Doxygen::ImageQuery& query)
     {
-        const Doxygen::DoxImageKindEnum imk = query.getType();
-        switch (imk)
+        switch (query.getType())
         {
         case Doxygen::DIK_HTML:
             _writer->image(_out, query.getName());
             break;
         case Doxygen::DIK_LATEX:
-            _writer->boldText(_out, "ParagraphWriter.visitedImage.LATEX");
-            _writer->lineBreak(_out);
+            WRITE_STUB_TEXT(_writer, _out, "LATEX");
             break;
         case Doxygen::DIK_RTF:
-            _writer->boldText(_out, "ParagraphWriter.visitedImage.RTF");
-            _writer->lineBreak(_out);
+            WRITE_STUB_TEXT(_writer, _out, "RTF");
             break;
+        case Doxygen::DIK_MAX:
         case Doxygen::DIK_INVALID:
         default:
+            WRITE_STUB_TEXT(_writer, _out, "UNKNOWN");
             break;
         }
     }
@@ -313,7 +313,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedULink(const Doxygen::UrlLinkQuery& query)
     {
-        _writer->linkText(_out, query.text(), query.getUrl());
+        _writer->linkUrl(_out, query.text(), query.getUrl());
     }
 
     void ParagraphWriter::visitedBold(const Doxygen::MarkupQuery& query)
@@ -348,8 +348,7 @@ namespace MdDox
 
     void ParagraphWriter::visitedRef(const Doxygen::RefTextQuery& query)
     {
-        Doxygen::DoxRefKindEnum rk = query.getKindRef();
-        switch (rk)
+        switch (query.getKindRef())
         {
         case Doxygen::DRK_COMPOUND:;
             _writer->linkRef(_out, 0, query.getRefId(), query.text());
@@ -357,10 +356,10 @@ namespace MdDox
         case Doxygen::DRK_MEMBER:
             _writer->linkRef(_out, 1, query.getRefId(), query.text());
             break;
+        case Doxygen::DRK_MAX:
         case Doxygen::DRK_INVALID:
         default:
-            _writer->boldText(_out, StringCombine("ParagraphWriter.visitedRef.", rk));
-            _writer->lineBreak(_out);
+            WRITE_STUB_TEXT(_writer, _out, "UNKNOWN");
             break;
         }
     }

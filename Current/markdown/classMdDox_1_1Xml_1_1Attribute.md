@@ -15,7 +15,6 @@
 <br/>
 <span class="inline-text">Provides a key-value representation of an XML attribute. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_key" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_key</span>

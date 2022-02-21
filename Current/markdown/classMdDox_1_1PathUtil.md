@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">A utility file for path access. </span>
 <br/>
-<br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_directory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_directory</span>
@@ -127,7 +126,6 @@
 <code class="typewriter">directory/</code>
 <code class="typewriter">stem</code>
 <code class="typewriter">extension</code>
-<br/>
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>

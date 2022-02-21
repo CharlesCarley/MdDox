@@ -35,9 +35,7 @@ namespace MdDox
     {
     }
 
-    HtmlDocumentWriter::~HtmlDocumentWriter()
-    {
-    }
+    HtmlDocumentWriter::~HtmlDocumentWriter() = default;
 
     void HtmlDocumentWriter::beginDocument(OStream& output, const String& title)
     {
@@ -60,9 +58,8 @@ namespace MdDox
         output << "<body>" << std::endl;
 
         Html::beginDivSection(output, "document");
-        Html::beginDivSection(output, "document-header");
+        Html::beginDivSection(output, "document-content");
         Html::anchor(output, HashUtils::cleanTitle(title));
-
         Html::heading(output, 1, title);
     }
 
@@ -98,23 +95,7 @@ namespace MdDox
         output << "</html>" << std::endl;
     }
 
-    void HtmlDocumentWriter::beginNavigationBar(OStream& output)
-    {
-        Html::beginDivSection(output, "navigation-bar");
-    }
-
-    void HtmlDocumentWriter::endNavigationBar(OStream& output)
-    {
-        Html::endDivSection(output, "navigation-bar");
-    }
-
-    void HtmlDocumentWriter::endDocumentHeader(OStream& output)
-    {
-        Html::endDivSection(output, "document-header");
-        Html::beginDivSection(output, "document-content");
-    }
-
-    void HtmlDocumentWriter::addSection(OStream& output, const String& title, int depth)
+	void HtmlDocumentWriter::addSection(OStream& output, const String& title, int depth)
     {
         Html::anchor(output, HashUtils::cleanTitle(title));
         Html::heading(output, depth, title);
@@ -315,16 +296,22 @@ namespace MdDox
         Html::embedLinkContentPoint(output, IconSet::fileName(content), ref, text);
     }
 
-    void HtmlDocumentWriter::linkText(OStream& output, const String& title, const String& href)
+    void HtmlDocumentWriter::linkUrl(OStream& output, const String& title, const String& ref)
     {
+        Html::linkRef(output, title, ref);
+    }
 
-    	if (PathUtil(href).fullExtension().empty())
-    	{
-	        const String link = StringCombine(href, SiteBuilder::get().outputFileExt);
+    void HtmlDocumentWriter::linkText(OStream& output, const String& title, const String& ref)
+    {
+        // Do not use with a URL
+        // \todo A URL needs its own method linkURL
+        if (PathUtil(ref).fullExtension().empty())
+        {
+            const String link = StringCombine(ref, SiteBuilder::get().outputFileExt);
             Html::linkRef(output, title, link);
-    	}
+        }
         else
-			Html::linkRef(output, title, href);
+            Html::linkRef(output, title, ref);
     }
 
     void HtmlDocumentWriter::linkRefIcon(OStream& output, IconId ico, int kind, const String& id, const String& title)

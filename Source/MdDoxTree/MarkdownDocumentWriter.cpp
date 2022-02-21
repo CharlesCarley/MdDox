@@ -47,14 +47,4 @@ namespace MdDox
         }
     }
 
-    void MarkdownDocumentWriter::endNavigationBar(OStream& output)
-    {
-        output << std::endl;
-        output << std::endl;
-        HtmlDocumentWriter::endNavigationBar(output);
-        Html::lineBreak(output);
-
-        output << std::endl;
-        output << std::endl;
-    }
 }  // namespace MdDox

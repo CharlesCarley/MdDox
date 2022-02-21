@@ -15,7 +15,6 @@
 <br/>
 <span class="inline-text">Is a utility class that is used to write the xml text structure to the supplied stream from the supplied root node. </span>
 <br/>
-<br/>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">

@@ -13,7 +13,6 @@
 <br/>
 <span class="inline-text">Is a static class to access predefined navigation icons. </span>
 <br/>
-<br/>
 <a id="public-static-methods"></a>
 <h2>Public Static Methods</h2>
 <span class="icon-list-item"><a href="#filename" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fileName</span>
@@ -25,7 +24,6 @@
 <a id="see"></a>
 <h4>See</h4>
 <a href="Image.md#image-handling">Image handling</a>
-<br/>
 <br/>
 <br/>
 <a id="defined-in"></a>

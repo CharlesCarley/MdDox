@@ -43,9 +43,5 @@ namespace MdDox
          */
         void code(OStream& output, const String& text, const String& type = ".txt") override;
 
-    	/**
-         * \copydoc MdDox::DocumentWriter::endNavigationBar
-         */
-        void endNavigationBar(OStream& output) override;
     };
 }  // namespace MdDox

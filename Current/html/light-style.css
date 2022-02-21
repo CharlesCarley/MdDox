@@ -1,17 +1,15 @@
 :root {
-    --font-common: 400 12pt/24pt Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    --font-common: 400 11pt/32pt Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     --background-color: hsl(212, 7%, 95%);
     --background-color-content: hsl(212, 20%, 99%);
     --foreground-color: hsl(212, 75%, 2%);
-    --color-link:hsl(212, 87%, 46%);
+    --color-link: hsl(212, 87%, 46%);
     --color-bold: hsl(212, 5%, 20%);
     --color-border: hsl(212, 5%, 85%);
     --color-border-light: hsl(212, 50%, 85%);
     --color-quote: hsl(200, 10%, 90%);
     --code-background: hsl(212, 15%, 94%);
     --code-foreground: hsl(212, 30%, 25%);
-
-    --border-size: 0.5px;
     --heading-border: 0.5px solid var(--color-border);
     --heading-border-light: 0.5px solid var(--color-border-light);
     --weight: 700;
@@ -38,9 +36,6 @@
     --block-quote-indent: 1.2em;
     --block-quote-color: var(--color-quote);
     --block-quote-width: 3.5px;
-    --paragraph-space-after: 0.1em;
-    --list-space-after: 0;
-    --list-item-space-after: var(--line-spacing);
     --list-item-padding: 0.00em;
 }
 
@@ -134,7 +129,6 @@ ul {
 li {
     list-style-position: initial;
     text-align: start;
-    list-style: none;
     padding-top: var(--list-item-padding);
     padding-bottom: var(--list-item-padding);
 }
@@ -165,9 +159,10 @@ blockquote {
     border-left: var(--block-quote-width) solid var(--block-quote-color);
 }
 
-.paragraph, p {
+.paragraph, p, span {
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 .document {

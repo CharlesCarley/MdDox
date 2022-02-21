@@ -116,7 +116,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="70" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -153,7 +153,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="190" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="175" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -179,7 +179,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="125" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="110" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -254,7 +254,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="105" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="90" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -280,7 +280,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="135" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="120" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -328,33 +328,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="95" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5ba070591a25bbbd2c06245db559b326" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::HtmlDocumentWriter::beginNavigationBar</definition>
-        <argsstring>(OStream &amp;output) override</argsstring>
-        <name>beginNavigationBar</name>
-        <reimplements refid="classMdDox_1_1DocumentWriter_1a07134c1e3acd455862fdb3c385ac8bd0">beginNavigationBar</reimplements>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Implementations close a navigation bar. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="55" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="80" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -380,7 +354,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="115" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="100" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -429,7 +403,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="75" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -455,7 +429,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="85" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -492,7 +466,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="155" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="140" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -542,7 +516,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="170" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="155" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -579,7 +553,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="227" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="217" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -627,7 +601,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="232" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="222" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -686,7 +660,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="237" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="227" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -712,7 +686,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="130" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="115" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -752,32 +726,6 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="50" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5b8f9340259900bfe316df9dc13bcc4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::HtmlDocumentWriter::endDocumentHeader</definition>
-        <argsstring>(OStream &amp;output) override</argsstring>
-        <name>endDocumentHeader</name>
-        <reimplements refid="classMdDox_1_1DocumentWriter_1ae6dce49331eacbd6efc8581b2d29425d">endDocumentHeader</reimplements>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Implementations should close a common header region and start a body region. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="65" column="1"/>
-      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::endList</definition>
@@ -802,7 +750,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="110" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="95" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -828,7 +776,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="140" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="125" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -854,34 +802,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="100" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::HtmlDocumentWriter::endNavigationBar</definition>
-        <argsstring>(OStream &amp;output) override</argsstring>
-        <name>endNavigationBar</name>
-        <reimplements refid="classMdDox_1_1DocumentWriter_1abd3bb7fb9c1a5d480c47124f1e5a072c">endNavigationBar</reimplements>
-        <reimplementedby refid="classMdDox_1_1MarkdownDocumentWriter_1af47da2732c1af4f231541049df9909b8">endNavigationBar</reimplementedby>
-        <param>
-          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Implementations close a navigation bar. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="60" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="85" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -907,7 +828,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="120" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="105" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -933,7 +854,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="80" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -959,7 +880,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="90" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="75" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -985,7 +906,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="195" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="180" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1022,7 +943,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="175" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="160" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1059,7 +980,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="150" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="135" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1096,7 +1017,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="160" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="145" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1122,7 +1043,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="200" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="185" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1183,7 +1104,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="210" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="200" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1255,7 +1176,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="218" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="208" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1276,7 +1197,7 @@
           <declname>ref</declname>
         </param>
         <briefdescription>
-<para>Implementations write text link. </para>        </briefdescription>
+<para>Implementations write a text link. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -1303,7 +1224,55 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="205" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="195" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::linkUrl</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;ref) override</argsstring>
+        <name>linkUrl</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a96bb9b4cca54c9085c90a9ce3b479e09">linkUrl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write an external URL. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="190" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1351,7 +1320,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="185" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="170" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1399,7 +1368,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="180" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="165" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1436,7 +1405,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="145" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="130" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1473,7 +1442,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="165" column="1"/>
+        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="150" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1510,7 +1479,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/HtmlDocumentWriter.h" bodystart="29" bodyend="238"/>
+    <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/HtmlDocumentWriter.h" bodystart="29" bodyend="228"/>
     <listofallmembers>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1add1852f55f8776f3c06795c0a9fb746b" prot="private" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>_sectionDepth</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>addSection</name></member>
@@ -1520,7 +1489,6 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginListItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginMethod</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5ba070591a25bbbd2c06245db559b326" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginNavigationBar</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginParagraph</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSectionBar</name></member>
@@ -1532,11 +1500,9 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContentLinkText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endDocument</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5b8f9340259900bfe316df9dc13bcc4d" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endDocumentHeader</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endListItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endMethod</name></member>
-      <member refid="classMdDox_1_1HtmlDocumentWriter_1a3f0ede17c81402537cdb47149db4083e" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endNavigationBar</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endParagraph</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSectionBar</name></member>
@@ -1549,6 +1515,7 @@
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRef</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRefIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkUrl</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>paragraph</name></member>
