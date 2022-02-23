@@ -58,7 +58,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <a id="_type"></a>
 <h2>_type</h2>
 <span class="inline-text">int</span>
@@ -69,7 +68,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_value"></a>
 <h2>_value</h2>
@@ -82,7 +80,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="token"></a>
 <h2>Token</h2>
 <span class="bold-text"><b>Token</b></span>
@@ -93,7 +90,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="append"></a>
 <h2>append</h2>
@@ -111,7 +107,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L75" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="append"></a>
 <h2>append</h2>
@@ -132,7 +127,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="clear"></a>
 <h2>clear</h2>
 <span class="inline-text">void</span>
@@ -141,16 +135,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_eos" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_EOS</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_eos">TOK_EOS</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="gettype"></a>
 <h2>getType</h2>
@@ -163,7 +156,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L60" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getvalue"></a>
 <h2>getValue</h2>
@@ -178,7 +170,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="settype"></a>
 <h2>setType</h2>
@@ -196,7 +187,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L65" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

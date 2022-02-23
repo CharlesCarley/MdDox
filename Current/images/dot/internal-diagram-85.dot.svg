@@ -11,16 +11,16 @@
 <polygon fill="none" stroke="none" points="-4,4 -4,-112 450,-112 450,4 -4,4"/>
 <!-- 0 -->
 <g id="node1" class="node"><title>0</title>
-<text text-anchor="middle" x="238.5" y="-87.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MemberDefQueryVisitor</text>
+<text text-anchor="middle" x="234.5" y="-87.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MemberDefQueryVisitor</text>
 </g>
 <!-- 1 -->
 <g id="node2" class="node"><title>1</title>
-<text text-anchor="middle" x="46.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MemberDefWriter</text>
+<text text-anchor="middle" x="46.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">FunctionDefWriter</text>
 </g>
 <!-- 0&#45;&gt;1 -->
 <g id="edge1" class="edge"><title>0&#45;&gt;1</title>
-<path fill="none" stroke="#606ee0" d="M191.532,-71.8761C162.484,-61.2859 125.25,-47.711 95.7824,-36.9675"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="95.9645,-36.1026 93.3159,-36.0683 95.365,-37.7468 95.9645,-36.1026"/>
+<path fill="none" stroke="#606ee0" d="M188.51,-71.8761C160.068,-61.2859 123.61,-47.711 94.7557,-36.9675"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="94.9888,-36.1207 92.3406,-36.0683 94.3781,-37.7607 94.9888,-36.1207"/>
 </g>
 <!-- 2 -->
 <g id="node3" class="node"><title>2</title>
@@ -28,26 +28,26 @@
 </g>
 <!-- 0&#45;&gt;2 -->
 <g id="edge2" class="edge"><title>0&#45;&gt;2</title>
-<path fill="none" stroke="#606ee0" d="M222.68,-71.6966C213.379,-61.5244 201.605,-48.6459 192.024,-38.1667"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="192.471,-37.359 190.138,-36.1043 191.179,-38.5399 192.471,-37.359"/>
+<path fill="none" stroke="#606ee0" d="M219.669,-71.6966C210.95,-61.5244 199.911,-48.6459 190.929,-38.1667"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="191.452,-37.433 189.161,-36.1043 190.124,-38.572 191.452,-37.433"/>
 </g>
 <!-- 3 -->
 <g id="node4" class="node"><title>3</title>
-<text text-anchor="middle" x="302.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">FunctionDefWriter</text>
+<text text-anchor="middle" x="295.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">EnumDefWriter</text>
 </g>
 <!-- 0&#45;&gt;3 -->
 <g id="edge3" class="edge"><title>0&#45;&gt;3</title>
-<path fill="none" stroke="#606ee0" d="M254.32,-71.6966C263.621,-61.5244 275.395,-48.6459 284.976,-38.1667"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="285.821,-38.5399 286.862,-36.1043 284.529,-37.359 285.821,-38.5399"/>
+<path fill="none" stroke="#606ee0" d="M249.579,-71.6966C258.443,-61.5244 269.666,-48.6459 278.798,-38.1667"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="279.612,-38.564 280.595,-36.1043 278.293,-37.4143 279.612,-38.564"/>
 </g>
 <!-- 4 -->
 <g id="node5" class="node"><title>4</title>
-<text text-anchor="middle" x="406.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">EnumDefWriter</text>
+<text text-anchor="middle" x="399.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MemberDefWriter</text>
 </g>
 <!-- 0&#45;&gt;4 -->
 <g id="edge4" class="edge"><title>0&#45;&gt;4</title>
-<path fill="none" stroke="#606ee0" d="M279.597,-71.8761C305.382,-61.1324 338.54,-47.3168 364.495,-36.5021"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="365.013,-37.2344 366.984,-35.4651 364.339,-35.619 365.013,-37.2344"/>
+<path fill="none" stroke="#606ee0" d="M274.864,-71.8761C299.726,-61.3284 331.567,-47.82 356.842,-37.0971"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="357.308,-37.8503 359.268,-36.0683 356.624,-36.2392 357.308,-37.8503"/>
 </g>
 </g>
 </svg>

@@ -72,7 +72,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="_depth"></a>
 <h2>_depth</h2>
 <span class="inline-text">int</span>
@@ -84,7 +83,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_out"></a>
 <h2>_out</h2>
 <a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
@@ -95,7 +93,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_stream"></a>
 <h2>_stream</h2>
@@ -109,7 +106,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
 <a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
@@ -121,7 +117,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visiteddescription"></a>
 <h2>visitedDescription</h2>
@@ -160,7 +155,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedheader"></a>
 <h2>visitedHeader</h2>
 <span class="inline-text">void</span>
@@ -197,7 +191,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedmemberdef"></a>
 <h2>visitedMemberDef</h2>
@@ -236,7 +229,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writeheading"></a>
 <h2>writeHeading</h2>
 <span class="inline-text">void</span>
@@ -257,7 +249,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="sectiondeflistingwriter"></a>
 <h2>SectionDefListingWriter</h2>
@@ -286,7 +277,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="setdepth"></a>
 <h2>setDepth</h2>
 <span class="inline-text">void</span>
@@ -308,7 +298,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="write"></a>
 <h2>write</h2>
 <span class="inline-text">bool</span>
@@ -324,38 +313,38 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#isvalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isValid</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#isvalid">isValid</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#getkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getKind</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#getkind">getKind</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxheader" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxHeader</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#doxheader">DoxHeader</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxdescription" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxDescription</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#doxdescription">DoxDescription</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxmemberdef" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberDef</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#doxmemberdef">DoxMemberDef</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#sort" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">sort</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#sort">sort</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#visit" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visit</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#visit">visit</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#syncstream" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">syncStream</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#syncstream">syncStream</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.h</span>
@@ -365,7 +354,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/SectionDefListingWriter.cpp#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefListingWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

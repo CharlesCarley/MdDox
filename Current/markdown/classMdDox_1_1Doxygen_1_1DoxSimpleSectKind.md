@@ -24,7 +24,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSimpleSectKind.h#L132" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
 </a>
 </span>
-<br/>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxsimplesectkindenum">DoxSimpleSectKindEnum</a>
@@ -41,78 +40,78 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_see" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_SEE</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_see">DSSK_SEE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_version" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_VERSION</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_version">DSSK_VERSION</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_return" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_RETURN</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_return">DSSK_RETURN</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_authors" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_AUTHORS</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_authors">DSSK_AUTHORS</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_author" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_AUTHOR</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_author">DSSK_AUTHOR</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_since" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_SINCE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_since">DSSK_SINCE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_note" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_NOTE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_note">DSSK_NOTE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_attention" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_ATTENTION</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_attention">DSSK_ATTENTION</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_date" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_DATE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_date">DSSK_DATE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_warning" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_WARNING</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_warning">DSSK_WARNING</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_pre" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_PRE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_pre">DSSK_PRE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_post" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_POST</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_post">DSSK_POST</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_copyright" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_COPYRIGHT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_copyright">DSSK_COPYRIGHT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_invariant" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_INVARIANT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_invariant">DSSK_INVARIANT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_remark" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_REMARK</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_remark">DSSK_REMARK</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_par" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_PAR</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_par">DSSK_PAR</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_rcs" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_RCS</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_rcs">DSSK_RCS</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dssk_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSSK_INVALID</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dssk_invalid">DSSK_INVALID</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSimpleSectKind.h#L134" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.h</span>
@@ -122,7 +121,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSimpleSectKind.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

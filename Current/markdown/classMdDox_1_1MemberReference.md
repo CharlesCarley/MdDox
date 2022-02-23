@@ -16,6 +16,9 @@
 <div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1Reference.md#mddoxreference">MdDox::Reference</a>
 </div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Reference.md#mddoxreference">MdDox::Reference</a>
+</div>
 <img src="../images/dot/internal-diagram-116.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
@@ -29,7 +32,23 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#memberreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberReference</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#~memberreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~MemberReference</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#~memberreference" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~MemberReference</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#findparent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">findParent</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#getkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getKind</span>
 </a>
 </span>
 <br/>
@@ -41,12 +60,15 @@
 </a>
 </span>
 <br/>
-<a id="defined-in"></a>
-<h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceIdentifiers.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+<span class="icon-list-item"><a href="#setkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">setKind</span>
 </a>
 </span>
 <br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
 <a id="_kind"></a>
 <h2>_kind</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxygendoxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
@@ -54,10 +76,20 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceIdentifiers.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
 </a>
 </span>
 <br/>
+<a id="memberreference"></a>
+<h2>MemberReference</h2>
+<span class="bold-text"><b>MemberReference</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
 <br/>
 <a id="memberreference"></a>
 <h2>MemberReference</h2>
@@ -70,6 +102,16 @@
 </a>
 </span>
 <br/>
+<a id="~memberreference"></a>
+<h2>~MemberReference</h2>
+<span class="bold-text"><b>~MemberReference</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
 <br/>
 <a id="~memberreference"></a>
 <h2>~MemberReference</h2>
@@ -82,6 +124,50 @@
 </a>
 </span>
 <br/>
+<a id="findparent"></a>
+<h2>findParent</h2>
+<a href="classMdDox_1_1CompoundReference.md#compoundreference">CompoundReference</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>findParent</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#get">get</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Reference.md#_ref">_ref</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#getcompoundref">getCompoundRef</a>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceIdentifiers.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceIdentifiers.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.cpp</span>
+</a>
+</span>
+<br/>
+<a id="getkind"></a>
+<h2>getKind</h2>
+<span class="inline-text">const </span>
+<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
+<span class="inline-text"> &amp;</span>
+<span class="bold-text"><b>getKind</b></span>
+<span class="italic-text"><i>(</i></span>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
 <br/>
 <a id="getkind"></a>
 <h2>getKind</h2>
@@ -96,7 +182,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/ReferenceIdentifiers.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setkind"></a>
 <h2>setKind</h2>
@@ -117,6 +202,24 @@
 </a>
 </span>
 <br/>
+<a id="setkind"></a>
+<h2>setKind</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>setKind</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">kind</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Document/ReferenceIdentifiers.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceIdentifiers.h</span>
+</a>
+</span>
 <br/>
 </div>
 </div>

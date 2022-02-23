@@ -62,7 +62,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/XRefSectQuery.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="xrefsectquery"></a>
 <h2>XRefSectQuery</h2>
 <span class="bold-text"><b>XRefSectQuery</b></span>
@@ -73,7 +72,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/XRefSectQuery.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="xrefsectquery"></a>
 <h2>XRefSectQuery</h2>
@@ -93,7 +91,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="xrefsectquery"></a>
 <h2>XRefSectQuery</h2>
 <span class="bold-text"><b>XRefSectQuery</b></span>
@@ -110,7 +107,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/XRefSectQuery.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getid"></a>
 <h2>getId</h2>
@@ -145,14 +141,14 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#_node">_node</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#attribute">attribute</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/XRefSectQuery.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery.h</span>
@@ -162,7 +158,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/XRefSectQuery.cpp#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

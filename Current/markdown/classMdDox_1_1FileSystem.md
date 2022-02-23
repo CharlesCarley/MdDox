@@ -36,7 +36,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
 </a>
 </span>
-<br/>
 <a id="absolute"></a>
 <h2>absolute</h2>
 <a href="namespaceMdDox.md#path">Path</a>
@@ -52,18 +51,18 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#currentpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">currentPath</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1FileSystem.md#currentpath">currentPath</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#normalize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">normalize</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1FileSystem.md#normalize">normalize</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#stringcombine">StringCombine</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
@@ -73,7 +72,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="currentpath"></a>
 <h2>currentPath</h2>
@@ -91,7 +89,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="normalize"></a>
 <h2>normalize</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -107,14 +104,14 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimwhitespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#trimwhitespace">trimWhiteSpace</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#replaceall" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#replaceall">replaceAll</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
@@ -125,7 +122,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="normalize"></a>
 <h2>normalize</h2>
 <a href="namespaceMdDox.md#path">Path</a>
@@ -141,10 +137,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#normalize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">normalize</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1FileSystem.md#normalize">normalize</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
@@ -154,7 +150,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/FileSystem.cpp#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

@@ -24,7 +24,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSectionKind.h#L227" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
 </a>
 </span>
-<br/>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxsectionkindenum">DoxSectionKindEnum</a>
@@ -41,154 +40,154 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_static_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_STATIC_FUNC</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_static_func">DSK_PRIVATE_STATIC_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_user_defined" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_USER_DEFINED</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_user_defined">DSK_USER_DEFINED</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_TYPE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_type">DSK_PUBLIC_TYPE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_static_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PACKAGE_STATIC_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_static_func">DSK_PACKAGE_STATIC_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_func">DSK_PUBLIC_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_slot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_SLOT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_slot">DSK_PUBLIC_SLOT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_static_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PACKAGE_STATIC_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_static_attrib">DSK_PACKAGE_STATIC_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_static_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_STATIC_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_static_func">DSK_PROTECTED_STATIC_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_attrib">DSK_PUBLIC_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_signal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_SIGNAL</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_signal">DSK_SIGNAL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_property" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROPERTY</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_property">DSK_PROPERTY</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_dcop_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_DCOP_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_dcop_func">DSK_DCOP_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_slot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_SLOT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_slot">DSK_PRIVATE_SLOT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_event" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_EVENT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_event">DSK_EVENT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_static_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_STATIC_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_static_func">DSK_PUBLIC_STATIC_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_typedef" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_TYPEDEF</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_typedef">DSK_TYPEDEF</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PACKAGE_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_func">DSK_PACKAGE_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_static_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PUBLIC_STATIC_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_public_static_attrib">DSK_PUBLIC_STATIC_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_related" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_RELATED</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_related">DSK_RELATED</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_TYPE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_type">DSK_PROTECTED_TYPE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_func">DSK_PROTECTED_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_attrib">DSK_PROTECTED_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_slot" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_SLOT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_slot">DSK_PROTECTED_SLOT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_static_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTECTED_STATIC_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_protected_static_attrib">DSK_PROTECTED_STATIC_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_define" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_DEFINE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_define">DSK_DEFINE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PACKAGE_TYPE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_type">DSK_PACKAGE_TYPE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PACKAGE_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_package_attrib">DSK_PACKAGE_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_type" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_TYPE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_type">DSK_PRIVATE_TYPE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_func">DSK_PRIVATE_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_func" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_FUNC</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_func">DSK_FUNC</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_attrib">DSK_PRIVATE_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_static_attrib" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PRIVATE_STATIC_ATTRIB</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_private_static_attrib">DSK_PRIVATE_STATIC_ATTRIB</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_friend" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_FRIEND</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_friend">DSK_FRIEND</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_prototype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_PROTOTYPE</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_prototype">DSK_PROTOTYPE</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_enum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_ENUM</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_enum">DSK_ENUM</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_var" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_VAR</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_var">DSK_VAR</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dsk_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DSK_INVALID</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dsk_invalid">DSK_INVALID</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSectionKind.h#L229" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.h</span>
@@ -198,7 +197,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxSectionKind.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

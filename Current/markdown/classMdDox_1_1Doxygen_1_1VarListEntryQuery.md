@@ -56,7 +56,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/VarListEntryQuery.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="varlistentryquery"></a>
 <h2>VarListEntryQuery</h2>
 <span class="bold-text"><b>VarListEntryQuery</b></span>
@@ -67,7 +66,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/VarListEntryQuery.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="varlistentryquery"></a>
 <h2>VarListEntryQuery</h2>
@@ -87,7 +85,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="varlistentryquery"></a>
 <h2>VarListEntryQuery</h2>
 <span class="bold-text"><b>VarListEntryQuery</b></span>
@@ -104,7 +101,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/VarListEntryQuery.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

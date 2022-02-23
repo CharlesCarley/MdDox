@@ -88,7 +88,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L92" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
-<br/>
 <a id="generate"></a>
 <h2>generate</h2>
 <span class="inline-text">void</span>
@@ -134,14 +133,14 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#scramble">scramble</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#stringcombine">StringCombine</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L164" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -151,7 +150,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L257" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="replaceall"></a>
 <h2>replaceAll</h2>
@@ -195,7 +193,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="scramble"></a>
 <h2>scramble</h2>
@@ -257,14 +254,14 @@ Not-Randomized:
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#basecharssize" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BaseCharsSize</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#basecharssize">BaseCharsSize</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#basechars" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BaseChars</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#basechars">BaseChars</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L149" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -274,7 +271,6 @@ Not-Randomized:
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L204" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="scramble"></a>
 <h2>scramble</h2>
@@ -298,14 +294,14 @@ Not-Randomized:
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="unionMdDox_1_1Merge.md#b" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">b</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="unionMdDox_1_1Merge.md#b">b</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#scramble" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">scramble</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#scramble">scramble</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L152" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -315,7 +311,6 @@ Not-Randomized:
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L240" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="split"></a>
 <h2>split</h2>
@@ -370,7 +365,6 @@ Not-Randomized:
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="split"></a>
 <h2>split</h2>
@@ -428,7 +422,6 @@ Not-Randomized:
 </a>
 </span>
 <br/>
-<br/>
 <a id="split"></a>
 <h2>split</h2>
 <span class="inline-text">void</span>
@@ -485,7 +478,6 @@ Not-Randomized:
 </a>
 </span>
 <br/>
-<br/>
 <a id="splitline"></a>
 <h2>splitLine</h2>
 <span class="inline-text">void</span>
@@ -514,14 +506,14 @@ Not-Randomized:
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#replaceall" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">replaceAll</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#replaceall">replaceAll</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#split">split</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L200" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -531,7 +523,6 @@ Not-Randomized:
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L108" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="splitrejectempty"></a>
 <h2>splitRejectEmpty</h2>
@@ -581,10 +572,10 @@ Removes any empty strings from the result. </span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimwhitespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">trimWhiteSpace</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#trimwhitespace">trimWhiteSpace</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -594,7 +585,6 @@ Removes any empty strings from the result. </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L134" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tolower"></a>
 <h2>toLower</h2>
@@ -625,7 +615,6 @@ Removes any empty strings from the result. </span>
 </a>
 </span>
 <br/>
-<br/>
 <a id="tolowerfirst"></a>
 <h2>toLowerFirst</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -648,7 +637,6 @@ Removes any empty strings from the result. </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L92" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="toupper"></a>
 <h2>toUpper</h2>
@@ -679,7 +667,6 @@ Removes any empty strings from the result. </span>
 </a>
 </span>
 <br/>
-<br/>
 <a id="toupperfirst"></a>
 <h2>toUpperFirst</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -702,7 +689,6 @@ Removes any empty strings from the result. </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L100" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="trim"></a>
 <h2>trim</h2>
@@ -750,14 +736,14 @@ Removes any empty strings from the result. </span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#triml" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">trimL</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#triml">trimL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#trimr" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">trimR</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#trimr">trimR</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L198" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -767,7 +753,6 @@ Removes any empty strings from the result. </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L268" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="triml"></a>
 <h2>trimL</h2>
@@ -823,7 +808,6 @@ Removes any empty strings from the result. </span>
 </a>
 </span>
 <br/>
-<br/>
 <a id="trimr"></a>
 <h2>trimR</h2>
 <span class="inline-text">void</span>
@@ -878,7 +862,6 @@ Removes any empty strings from the result. </span>
 </a>
 </span>
 <br/>
-<br/>
 <a id="trimwhitespace"></a>
 <h2>trimWhiteSpace</h2>
 <span class="inline-text">void</span>
@@ -916,10 +899,10 @@ Removes any empty strings from the result. </span>
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#iswhitespace" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isWhiteSpace</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#iswhitespace">isWhiteSpace</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.h#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
@@ -929,7 +912,6 @@ Removes any empty strings from the result. </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/String.cpp#L274" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

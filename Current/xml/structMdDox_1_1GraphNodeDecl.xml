@@ -49,21 +49,21 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="834">
+      <node id="835">
         <label>string</label>
       </node>
-      <node id="832">
+      <node id="833">
         <label>MdDox::GraphNodeDecl</label>
         <link refid="structMdDox_1_1GraphNodeDecl"/>
-        <childnode refid="833" relation="usage">
+        <childnode refid="834" relation="usage">
           <edgelabel>children</edgelabel>
         </childnode>
-        <childnode refid="834" relation="usage">
+        <childnode refid="835" relation="usage">
           <edgelabel>id</edgelabel>
           <edgelabel>label</edgelabel>
         </childnode>
       </node>
-      <node id="833">
+      <node id="834">
         <label>vector&lt; std::string &gt;</label>
       </node>
     </collaborationgraph>

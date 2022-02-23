@@ -267,39 +267,39 @@
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="371">
+      <node id="372">
         <label>MdDox::Doxygen::ParamQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1ParamQuery"/>
-        <childnode refid="372" relation="public-inheritance">
+        <childnode refid="373" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="372">
+      <node id="373">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="373">
+      <node id="374">
         <label>MdDox::Doxygen::ParamQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1ParamQuery"/>
-        <childnode refid="374" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="375">
-        <label>MdDox::Xml::Node</label>
-        <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="376" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="374">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="375" relation="usage">
-          <edgelabel>_node</edgelabel>
+        <childnode refid="375" relation="public-inheritance">
         </childnode>
       </node>
       <node id="376">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+        <childnode refid="377" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="375">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
+        <childnode refid="376" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="377">
         <label>bool</label>
       </node>
     </collaborationgraph>

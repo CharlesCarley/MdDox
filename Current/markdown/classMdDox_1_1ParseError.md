@@ -44,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParseError.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
-<br/>
 <a id="geterror"></a>
 <h2>getError</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -129,7 +128,6 @@ The message is formatted as: </span>
 </a>
 </span>
 <br/>
-<br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
 <span class="bold-text"><b>ParseError</b></span>
@@ -145,7 +143,6 @@ The message is formatted as: </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParseError.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
@@ -169,7 +166,6 @@ The message is formatted as: </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParseError.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
@@ -246,7 +242,6 @@ The message is formatted as: </span>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/ParseError.h#L73" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParseError.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

@@ -28,7 +28,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/ResourceCompiler/Main.cpp#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <a id="data"></a>
 <h2>data</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -40,7 +39,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="size"></a>
 <h2>size</h2>
 <span class="inline-text">size_t</span>
@@ -51,7 +49,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/ResourceCompiler/Main.cpp#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

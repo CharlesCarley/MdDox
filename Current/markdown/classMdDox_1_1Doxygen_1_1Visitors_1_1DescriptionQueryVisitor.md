@@ -52,7 +52,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DescriptionQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~descriptionqueryvisitor"></a>
 <h2>~DescriptionQueryVisitor</h2>
 <span class="bold-text"><b>~DescriptionQueryVisitor</b></span>
@@ -63,7 +62,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DescriptionQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinternal"></a>
 <h2>visitedInternal</h2>
@@ -100,7 +98,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
 <span class="inline-text">void</span>
@@ -135,7 +132,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DescriptionQuery.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedsect1"></a>
 <h2>visitedSect1</h2>
@@ -172,7 +168,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -195,7 +190,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DescriptionQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -229,7 +223,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DescriptionQuery.h#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

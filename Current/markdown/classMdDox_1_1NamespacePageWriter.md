@@ -144,7 +144,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="_classheading"></a>
 <h2>_classHeading</h2>
 <span class="inline-text">bool</span>
@@ -156,7 +155,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_namespaceheading"></a>
 <h2>_namespaceHeading</h2>
 <span class="inline-text">bool</span>
@@ -167,7 +165,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="notifybriefdescription"></a>
 <h2>notifyBriefDescription</h2>
@@ -192,7 +189,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="notifydetaildescriptionheading"></a>
 <h2>notifyDetailDescriptionHeading</h2>
 <span class="inline-text">void</span>
@@ -216,7 +212,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="presortquery"></a>
 <h2>preSortQuery</h2>
 <span class="inline-text">void</span>
@@ -239,7 +234,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L317" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedbasecompoundref"></a>
 <h2>visitedBaseCompoundRef</h2>
@@ -278,7 +272,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedcollaborationgraph"></a>
 <h2>visitedCollaborationGraph</h2>
 <span class="inline-text">void</span>
@@ -315,7 +308,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L202" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedcompoundname"></a>
 <h2>visitedCompoundName</h2>
@@ -354,7 +346,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedderivedcompoundref"></a>
 <h2>visitedDerivedCompoundRef</h2>
 <span class="inline-text">void</span>
@@ -391,7 +382,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L167" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedincdepgraph"></a>
 <h2>visitedIncDepGraph</h2>
@@ -430,7 +420,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedincludedby"></a>
 <h2>visitedIncludedBy</h2>
 <span class="inline-text">void</span>
@@ -467,7 +456,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L177" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedincludes"></a>
 <h2>visitedIncludes</h2>
@@ -506,7 +494,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinheritancegraph"></a>
 <h2>visitedInheritanceGraph</h2>
 <span class="inline-text">void</span>
@@ -543,7 +530,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L197" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnerclass"></a>
 <h2>visitedInnerClass</h2>
@@ -582,7 +568,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnerdir"></a>
 <h2>visitedInnerDir</h2>
 <span class="inline-text">void</span>
@@ -619,7 +604,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L236" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnerfile"></a>
 <h2>visitedInnerFile</h2>
@@ -658,7 +642,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnergroup"></a>
 <h2>visitedInnerGroup</h2>
 <span class="inline-text">void</span>
@@ -695,7 +678,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L251" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnernamespace"></a>
 <h2>visitedInnerNamespace</h2>
@@ -734,7 +716,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnerpage"></a>
 <h2>visitedInnerPage</h2>
 <span class="inline-text">void</span>
@@ -771,7 +752,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L246" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinvincdepgraph"></a>
 <h2>visitedInvIncDepGraph</h2>
@@ -810,7 +790,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedlistofallmembers"></a>
 <h2>visitedListOfAllMembers</h2>
 <span class="inline-text">void</span>
@@ -847,7 +826,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L221" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedlocation"></a>
 <h2>visitedLocation</h2>
@@ -886,7 +864,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedprogramlisting"></a>
 <h2>visitedProgramListing</h2>
 <span class="inline-text">void</span>
@@ -923,7 +900,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L207" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtableofcontents"></a>
 <h2>visitedTableOfContents</h2>
@@ -962,7 +938,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtemplateparamlist"></a>
 <h2>visitedTemplateParamList</h2>
 <span class="inline-text">void</span>
@@ -999,7 +974,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L192" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -1038,7 +1012,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writetableofcontents"></a>
 <h2>writeTableOfContents</h2>
 <span class="inline-text">void</span>
@@ -1060,7 +1033,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.cpp#L266" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="namespacepagewriter"></a>
 <h2>NamespacePageWriter</h2>
@@ -1097,7 +1069,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~namespacepagewriter"></a>
 <h2>~NamespacePageWriter</h2>
 <span class="bold-text"><b>~NamespacePageWriter</b></span>
@@ -1108,7 +1079,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/NamespacePageWriter.h#L89" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NamespacePageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

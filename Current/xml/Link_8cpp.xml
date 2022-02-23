@@ -3,183 +3,183 @@
   <compounddef id="Link_8cpp" kind="file" language="C++">
     <compoundname>Link.cpp</compoundname>
     <includes refid="Link_8h" local="yes">Link.h</includes>
-    <includes refid="HashUtils_8h" local="yes">HashUtils.h</includes>
+    <includes refid="MdDoxTree_2HashUtils_8h" local="yes">HashUtils.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includes>
     <includes refid="FileSystem_8h" local="yes">Utils/FileSystem.h</includes>
     <incdepgraph>
-      <node id="1054">
+      <node id="1546">
         <label>Utils/Console.h</label>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1047">
+      <node id="1539">
         <label>functional</label>
       </node>
-      <node id="1042">
+      <node id="1534">
         <label>iomanip</label>
       </node>
-      <node id="1034">
+      <node id="1526">
         <label>Utils/Path.h</label>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1050">
+      <node id="1542">
         <label>Utils/Exception.h</label>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1543" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1544" relation="include">
         </childnode>
-        <childnode refid="1053" relation="include">
+        <childnode refid="1545" relation="include">
         </childnode>
-        <childnode refid="1054" relation="include">
+        <childnode refid="1546" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1052">
+      <node id="1544">
         <label>stdexcept</label>
       </node>
-      <node id="1039">
+      <node id="1531">
         <label>string</label>
       </node>
-      <node id="1049">
+      <node id="1541">
         <label>Doxygen.h</label>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1539" relation="include">
         </childnode>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1532" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
-        <childnode refid="1046" relation="include">
+        <childnode refid="1538" relation="include">
         </childnode>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1542" relation="include">
         </childnode>
       </node>
-      <node id="1051">
+      <node id="1543">
         <label>exception</label>
       </node>
-      <node id="1037">
+      <node id="1529">
         <label>fstream</label>
       </node>
-      <node id="1044">
+      <node id="1536">
         <label>SiteBuilder.h</label>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1532" relation="include">
         </childnode>
-        <childnode refid="1045" relation="include">
+        <childnode refid="1537" relation="include">
         </childnode>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1540" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1547" relation="include">
         </childnode>
-        <childnode refid="1056" relation="include">
+        <childnode refid="1548" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1046">
+      <node id="1538">
         <label>Xml/Node.h</label>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1539" relation="include">
         </childnode>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1532" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1043">
+      <node id="1535">
         <label>HashUtils.h</label>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1055">
+      <node id="1547">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1541" relation="include">
         </childnode>
       </node>
-      <node id="1056">
+      <node id="1548">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1540" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1547" relation="include">
         </childnode>
-        <childnode refid="1057" relation="include">
+        <childnode refid="1549" relation="include">
         </childnode>
       </node>
-      <node id="1035">
+      <node id="1527">
         <label>Utils/String.h</label>
-        <childnode refid="1036" relation="include">
+        <childnode refid="1528" relation="include">
         </childnode>
-        <childnode refid="1037" relation="include">
+        <childnode refid="1529" relation="include">
         </childnode>
-        <childnode refid="1038" relation="include">
+        <childnode refid="1530" relation="include">
         </childnode>
-        <childnode refid="1039" relation="include">
+        <childnode refid="1531" relation="include">
         </childnode>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1532" relation="include">
         </childnode>
-        <childnode refid="1041" relation="include">
+        <childnode refid="1533" relation="include">
         </childnode>
-        <childnode refid="1042" relation="include">
+        <childnode refid="1534" relation="include">
         </childnode>
       </node>
-      <node id="1041">
+      <node id="1533">
         <label>vector</label>
       </node>
-      <node id="1053">
+      <node id="1545">
         <label>utility</label>
       </node>
-      <node id="1038">
+      <node id="1530">
         <label>sstream</label>
       </node>
-      <node id="1058">
+      <node id="1550">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1059" relation="include">
+        <childnode refid="1551" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1033">
+      <node id="1525">
         <label>Link.h</label>
-        <childnode refid="1034" relation="include">
+        <childnode refid="1526" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1036">
+      <node id="1528">
         <label>deque</label>
       </node>
-      <node id="1040">
+      <node id="1537">
+        <label>Utils/Config.h</label>
+        <childnode refid="1527" relation="include">
+        </childnode>
+        <childnode refid="1538" relation="include">
+        </childnode>
+      </node>
+      <node id="1532">
         <label>unordered_map</label>
       </node>
-      <node id="1032">
+      <node id="1524">
         <label>Source/MdDoxTree/Link.cpp</label>
         <link refid="Link_8cpp"/>
-        <childnode refid="1033" relation="include">
+        <childnode refid="1525" relation="include">
         </childnode>
-        <childnode refid="1043" relation="include">
+        <childnode refid="1535" relation="include">
         </childnode>
-        <childnode refid="1044" relation="include">
+        <childnode refid="1536" relation="include">
         </childnode>
-        <childnode refid="1058" relation="include">
+        <childnode refid="1550" relation="include">
         </childnode>
       </node>
-      <node id="1048">
+      <node id="1540">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1541" relation="include">
         </childnode>
       </node>
-      <node id="1045">
-        <label>Config.h</label>
-        <childnode refid="1035" relation="include">
-        </childnode>
-        <childnode refid="1046" relation="include">
-        </childnode>
-      </node>
-      <node id="1057">
+      <node id="1549">
         <label>Reference.h</label>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1059">
+      <node id="1551">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -217,58 +217,28 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29" refid="classMdDox_1_1Link_1a0bb51260313a218f789e7579a7929f05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Link_1a0bb51260313a218f789e7579a7929f05" kindref="member">Link::swapInput</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>stem)</highlight></codeline>
+<codeline lineno="29" refid="namespaceMdDox_1_1LinkUtils_1a418d90cb788edac1388e9e0623b57fc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1a418d90cb788edac1388e9e0623b57fc6" kindref="member">LinkUtils::linkMarkdown</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>swap(<ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_input.<ref refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stem,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input.<ref refid="classMdDox_1_1PathUtil_1aef897d74d538997bd712c2625f15265c" kindref="member">fullExtension</ref>()));</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_input<sp/>=<sp/>swap;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="classMdDox_1_1Link_1adf11b211d5ef482bbe21d62b0003ec87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1Link_1adf11b211d5ef482bbe21d62b0003ec87" kindref="member">Link::getOutput</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="38"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/>ext<sp/><sp/><sp/><sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>outDir<sp/>=<sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(<ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().outputDir);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(outDir.<ref refid="classMdDox_1_1PathUtil_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),<sp/>_input.<ref refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/>ext);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="classMdDox_1_1Link_1a02ab1d19e04912adcb6869ce6c4673c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1Link_1a02ab1d19e04912adcb6869ce6c4673c9" kindref="member">Link::getRelativeInput</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>inputPath(<ref refid="classMdDox_1_1Link_1a8bdafdb0a903e68bbacaeed067c2c7e9" kindref="member">getInput</ref>());</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(inputPath.<ref refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="classMdDox_1_1Link_1a67e992a3e5f241cb628b3e823e36befc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="classMdDox_1_1Link_1a67e992a3e5f241cb628b3e823e36befc" kindref="member">Link::relOutput</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="52"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>ext<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>inputPath(<ref refid="classMdDox_1_1Link_1adf11b211d5ef482bbe21d62b0003ec87" kindref="member">getOutput</ref>());</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(inputPath.<ref refid="classMdDox_1_1PathUtil_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/>ext);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="namespaceMdDox_1_1LinkUtils_1a418d90cb788edac1388e9e0623b57fc6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1a418d90cb788edac1388e9e0623b57fc6" kindref="member">LinkUtils::linkMarkdown</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>ext<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(file,<sp/>ext,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(name));</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" kindref="member">LinkUtils::splitBinaryResolution</ref>(<ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(dest,<sp/>name,<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" kindref="member">LinkUtils::lastBinaryResolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>dest;</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" kindref="member">splitBinaryResolution</ref>(dest,<sp/>name);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dest.empty())</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest.back();</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>ext<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(file,<sp/>ext,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(name));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" kindref="member">LinkUtils::splitBinaryResolution</ref>(<ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(dest,<sp/>name,<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="namespaceMdDox_1_1LinkUtils_1ae19f047fded439c619b471401585fa63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1ae19f047fded439c619b471401585fa63" kindref="member">LinkUtils::LBR</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" kindref="member">splitBinaryResolution</ref>(dest,<sp/>name);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dest.empty())</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest.back();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/Link.cpp"/>
   </compounddef>

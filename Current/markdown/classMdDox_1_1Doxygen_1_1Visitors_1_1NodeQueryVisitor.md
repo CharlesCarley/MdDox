@@ -42,7 +42,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/NodeQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~nodequeryvisitor"></a>
 <h2>~NodeQueryVisitor</h2>
 <span class="bold-text"><b>~NodeQueryVisitor</b></span>
@@ -53,7 +52,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/NodeQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedchildnode"></a>
 <h2>visitedChildNode</h2>
@@ -90,7 +88,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedlabel"></a>
 <h2>visitedLabel</h2>
 <span class="inline-text">void</span>
@@ -123,7 +120,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/NodeQuery.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedlink"></a>
 <h2>visitedLink</h2>
@@ -160,7 +156,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -183,7 +178,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/NodeQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

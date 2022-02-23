@@ -42,7 +42,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/CopyQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~copyqueryvisitor"></a>
 <h2>~CopyQueryVisitor</h2>
 <span class="bold-text"><b>~CopyQueryVisitor</b></span>
@@ -53,7 +52,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/CopyQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinternal"></a>
 <h2>visitedInternal</h2>
@@ -90,7 +88,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
 <span class="inline-text">void</span>
@@ -125,7 +122,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/CopyQuery.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedsect1"></a>
 <h2>visitedSect1</h2>
@@ -162,7 +158,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -185,7 +180,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/CopyQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

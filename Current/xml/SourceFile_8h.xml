@@ -7,77 +7,72 @@
     <includedby refid="Location_8h" local="yes">Source/MdDoxTree/Location.h</includedby>
     <includedby refid="SourceFile_8cpp" local="yes">Source/MdDoxTree/SourceFile.cpp</includedby>
     <incdepgraph>
-      <node id="2405">
+      <node id="2751">
         <label>iomanip</label>
       </node>
-      <node id="2402">
+      <node id="2748">
         <label>string</label>
       </node>
-      <node id="2400">
+      <node id="2746">
         <label>fstream</label>
       </node>
-      <node id="2398">
+      <node id="2744">
         <label>Utils/String.h</label>
-        <childnode refid="2399" relation="include">
+        <childnode refid="2745" relation="include">
         </childnode>
-        <childnode refid="2400" relation="include">
+        <childnode refid="2746" relation="include">
         </childnode>
-        <childnode refid="2401" relation="include">
+        <childnode refid="2747" relation="include">
         </childnode>
-        <childnode refid="2402" relation="include">
+        <childnode refid="2748" relation="include">
         </childnode>
-        <childnode refid="2403" relation="include">
+        <childnode refid="2749" relation="include">
         </childnode>
-        <childnode refid="2404" relation="include">
+        <childnode refid="2750" relation="include">
         </childnode>
-        <childnode refid="2405" relation="include">
+        <childnode refid="2751" relation="include">
         </childnode>
       </node>
-      <node id="2404">
+      <node id="2750">
         <label>vector</label>
       </node>
-      <node id="2401">
+      <node id="2747">
         <label>sstream</label>
       </node>
-      <node id="2397">
+      <node id="2743">
         <label>MdDoxTree/RepoFile.h</label>
-        <childnode refid="2398" relation="include">
+        <childnode refid="2744" relation="include">
         </childnode>
       </node>
-      <node id="2396">
+      <node id="2742">
         <label>Source/MdDoxTree/SourceFile.h</label>
         <link refid="SourceFile_8h"/>
-        <childnode refid="2397" relation="include">
+        <childnode refid="2743" relation="include">
         </childnode>
-        <childnode refid="2398" relation="include">
+        <childnode refid="2744" relation="include">
         </childnode>
       </node>
-      <node id="2399">
+      <node id="2745">
         <label>deque</label>
       </node>
-      <node id="2403">
+      <node id="2749">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2409">
+      <node id="2754">
         <label>Source/MdDoxTree/SourceFile.cpp</label>
       </node>
-      <node id="2407">
+      <node id="2753">
         <label>Source/MdDoxTree/Location.h</label>
-        <childnode refid="2408" relation="include">
-        </childnode>
       </node>
-      <node id="2406">
+      <node id="2752">
         <label>Source/MdDoxTree/SourceFile.h</label>
         <link refid="SourceFile_8h"/>
-        <childnode refid="2407" relation="include">
+        <childnode refid="2753" relation="include">
         </childnode>
-        <childnode refid="2409" relation="include">
+        <childnode refid="2754" relation="include">
         </childnode>
-      </node>
-      <node id="2408">
-        <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1SourceFile" prot="public">MdDox::SourceFile</innerclass>

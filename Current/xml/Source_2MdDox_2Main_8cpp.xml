@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="Source_2MdDox_2Main_8cpp" kind="file" language="C++">
     <compoundname>Main.cpp</compoundname>
-    <includes refid="HtmlDocumentWriter_8h" local="yes">MdDoxTree/HtmlDocumentWriter.h</includes>
-    <includes refid="MarkdownDocumentWriter_8h" local="yes">MdDoxTree/MarkdownDocumentWriter.h</includes>
+    <includes refid="MdDoxTree_2HtmlDocumentWriter_8h" local="yes">MdDoxTree/HtmlDocumentWriter.h</includes>
+    <includes refid="MdDoxTree_2MarkdownDocumentWriter_8h" local="yes">MdDoxTree/MarkdownDocumentWriter.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">MdDoxTree/SiteBuilder.h</includes>
     <includes refid="Utils_2CommandLine_2Parser_8h" local="yes">Utils/CommandLine/Parser.h</includes>
     <includes refid="Console_8h" local="yes">Utils/Console.h</includes>
@@ -11,311 +11,311 @@
     <includes refid="CrtUtils_8h" local="yes">Utils/Win32/CrtUtils.h</includes>
     <includes refid="Xml_2Parser_8h" local="yes">Xml/Parser.h</includes>
     <incdepgraph>
-      <node id="37">
+      <node id="823">
         <label>Utils/Console.h</label>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="816">
         <label>functional</label>
       </node>
-      <node id="23">
+      <node id="809">
         <label>iomanip</label>
       </node>
-      <node id="56">
+      <node id="842">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
-      <node id="52">
+      <node id="838">
         <label>Utils/ParserBase/ScannerBase.h</label>
-        <childnode refid="24" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="839" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="841" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="842" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="837">
         <label>Utils/ParserBase/ParserBase.h</label>
-        <childnode refid="22" relation="include">
+        <childnode refid="808" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="838" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="842" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="841">
         <label>Utils/Path.h</label>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="831">
         <label>cstdint</label>
       </node>
-      <node id="33">
+      <node id="819">
         <label>Utils/Exception.h</label>
-        <childnode refid="34" relation="include">
+        <childnode refid="820" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="821" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="822" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="823" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="799">
         <label>MdDoxTree/HtmlDocumentWriter.h</label>
-        <childnode refid="14" relation="include">
+        <childnode refid="800" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="829">
         <label>cassert</label>
       </node>
-      <node id="35">
+      <node id="821">
         <label>stdexcept</label>
       </node>
-      <node id="48">
+      <node id="834">
         <label>Utils/Win32/CrtUtils.h</label>
       </node>
-      <node id="20">
+      <node id="806">
         <label>string</label>
       </node>
-      <node id="32">
+      <node id="818">
         <label>Doxygen.h</label>
-        <childnode refid="30" relation="include">
+        <childnode refid="816" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="815" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="819" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="840">
         <label>unordered_set</label>
       </node>
-      <node id="34">
+      <node id="820">
         <label>exception</label>
       </node>
-      <node id="18">
+      <node id="804">
         <label>fstream</label>
       </node>
-      <node id="27">
+      <node id="813">
         <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="814" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="817" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="824" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="825" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="801">
         <label>IconSet.h</label>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="815">
         <label>Xml/Node.h</label>
-        <childnode refid="30" relation="include">
+        <childnode refid="816" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="800">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="15" relation="include">
+        <childnode refid="801" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="827">
         <label>Utils/CommandLine/Parser.h</label>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="828" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="832" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="812">
         <label>MdDoxTree/MarkdownDocumentWriter.h</label>
-        <childnode refid="13" relation="include">
+        <childnode refid="799" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="828">
         <label>Utils/CommandLine/Option.h</label>
-        <childnode refid="43" relation="include">
+        <childnode refid="829" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="830" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="824">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="32" relation="include">
+        <childnode refid="818" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="835">
         <label>Xml/Parser.h</label>
-        <childnode refid="50" relation="include">
+        <childnode refid="836" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="837" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="843" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="815" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="825">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="31" relation="include">
+        <childnode refid="817" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="824" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="826" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="802">
         <label>Utils/String.h</label>
-        <childnode refid="17" relation="include">
+        <childnode refid="803" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="804" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="805" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="806" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="808" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="809" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="832">
         <label>Utils/CommandLine/Scanner.h</label>
-        <childnode refid="47" relation="include">
+        <childnode refid="833" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="836">
         <label>stack</label>
       </node>
-      <node id="22">
+      <node id="808">
         <label>vector</label>
       </node>
-      <node id="36">
+      <node id="822">
         <label>utility</label>
       </node>
-      <node id="19">
+      <node id="805">
         <label>sstream</label>
       </node>
-      <node id="12">
+      <node id="798">
         <label>Source/MdDox/Main.cpp</label>
         <link refid="Source_2MdDox_2Main_8cpp"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="799" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="812" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="813" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="827" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="823" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="819" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="834" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="835" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="830">
         <label>Utils/Char.h</label>
-        <childnode refid="45" relation="include">
+        <childnode refid="831" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="810">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="25" relation="include">
+        <childnode refid="811" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="803">
         <label>deque</label>
       </node>
-      <node id="21">
+      <node id="814">
+        <label>Utils/Config.h</label>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="815" relation="include">
+        </childnode>
+      </node>
+      <node id="807">
         <label>unordered_map</label>
       </node>
-      <node id="47">
+      <node id="833">
         <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="843">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="45" relation="include">
+        <childnode refid="831" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="839">
         <label>Utils/IndexCache.h</label>
-        <childnode refid="21" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="840" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="819" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="817">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="32" relation="include">
+        <childnode refid="818" relation="include">
         </childnode>
       </node>
-      <node id="28">
-        <label>Config.h</label>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
+      <node id="826">
         <label>Reference.h</label>
-        <childnode refid="16" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="811">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

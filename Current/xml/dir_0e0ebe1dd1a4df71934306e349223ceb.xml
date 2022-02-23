@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_0e0ebe1dd1a4df71934306e349223ceb" kind="dir">
+    <compoundname>Source/Document</compoundname>
+    <innerfile refid="Document_2DocumentWriter_8h">DocumentWriter.h</innerfile>
+    <innerfile refid="Document_2HashUtils_8cpp">HashUtils.cpp</innerfile>
+    <innerfile refid="Document_2HashUtils_8h">HashUtils.h</innerfile>
+    <innerfile refid="Document_2HtmlCommandWriter_8cpp">HtmlCommandWriter.cpp</innerfile>
+    <innerfile refid="Document_2HtmlCommandWriter_8h">HtmlCommandWriter.h</innerfile>
+    <innerfile refid="Document_2HtmlDocumentWriter_8cpp">HtmlDocumentWriter.cpp</innerfile>
+    <innerfile refid="Document_2HtmlDocumentWriter_8h">HtmlDocumentWriter.h</innerfile>
+    <innerfile refid="Document_2IconSet_8cpp">IconSet.cpp</innerfile>
+    <innerfile refid="Document_2IconSet_8h">IconSet.h</innerfile>
+    <innerfile refid="Document_2MarkdownCommandWriter_8cpp">MarkdownCommandWriter.cpp</innerfile>
+    <innerfile refid="Document_2MarkdownCommandWriter_8h">MarkdownCommandWriter.h</innerfile>
+    <innerfile refid="Document_2MarkdownDocumentWriter_8cpp">MarkdownDocumentWriter.cpp</innerfile>
+    <innerfile refid="Document_2MarkdownDocumentWriter_8h">MarkdownDocumentWriter.h</innerfile>
+    <innerfile refid="Document_2Reference_8h">Reference.h</innerfile>
+    <innerfile refid="Document_2ReferenceIdentifiers_8cpp">ReferenceIdentifiers.cpp</innerfile>
+    <innerfile refid="Document_2ReferenceIdentifiers_8h">ReferenceIdentifiers.h</innerfile>
+    <innerfile refid="Document_2ReferenceTable_8cpp">ReferenceTable.cpp</innerfile>
+    <innerfile refid="Document_2ReferenceTable_8h">ReferenceTable.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Document/"/>
+  </compounddef>
+</doxygen>

@@ -34,7 +34,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/TocListQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~toclistqueryvisitor"></a>
 <h2>~TocListQueryVisitor</h2>
 <span class="bold-text"><b>~TocListQueryVisitor</b></span>
@@ -45,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/TocListQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
@@ -69,7 +67,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/TocListQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtocitem"></a>
 <h2>visitedTocItem</h2>
@@ -105,7 +102,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/TocListQuery.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

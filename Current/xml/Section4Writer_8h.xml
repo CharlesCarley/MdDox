@@ -7,128 +7,128 @@
     <includedby refid="Section3Writer_8cpp" local="yes">Source/MdDoxTree/Section3Writer.cpp</includedby>
     <includedby refid="Section4Writer_8cpp" local="yes">Source/MdDoxTree/Section4Writer.cpp</includedby>
     <incdepgraph>
-      <node id="2170">
+      <node id="2381">
         <label>Utils/Console.h</label>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
       </node>
-      <node id="2164">
+      <node id="2375">
         <label>iomanip</label>
       </node>
-      <node id="2156">
+      <node id="2367">
         <label>functional</label>
       </node>
-      <node id="2171">
+      <node id="2382">
         <label>Utils/Path.h</label>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
       </node>
-      <node id="2166">
+      <node id="2377">
         <label>Utils/Exception.h</label>
-        <childnode refid="2167" relation="include">
+        <childnode refid="2378" relation="include">
         </childnode>
-        <childnode refid="2168" relation="include">
+        <childnode refid="2379" relation="include">
         </childnode>
-        <childnode refid="2169" relation="include">
+        <childnode refid="2380" relation="include">
         </childnode>
-        <childnode refid="2170" relation="include">
+        <childnode refid="2381" relation="include">
         </childnode>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
       </node>
-      <node id="2168">
+      <node id="2379">
         <label>stdexcept</label>
       </node>
-      <node id="2162">
+      <node id="2373">
         <label>string</label>
       </node>
-      <node id="2155">
+      <node id="2366">
         <label>Doxygen.h</label>
-        <childnode refid="2156" relation="include">
+        <childnode refid="2367" relation="include">
         </childnode>
-        <childnode refid="2157" relation="include">
+        <childnode refid="2368" relation="include">
         </childnode>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
-        <childnode refid="2165" relation="include">
+        <childnode refid="2376" relation="include">
         </childnode>
-        <childnode refid="2166" relation="include">
+        <childnode refid="2377" relation="include">
         </childnode>
       </node>
-      <node id="2153">
+      <node id="2364">
         <label>Source/MdDoxTree/Section4Writer.h</label>
         <link refid="Section4Writer_8h"/>
-        <childnode refid="2154" relation="include">
+        <childnode refid="2365" relation="include">
         </childnode>
-        <childnode refid="2171" relation="include">
+        <childnode refid="2382" relation="include">
         </childnode>
       </node>
-      <node id="2167">
+      <node id="2378">
         <label>exception</label>
       </node>
-      <node id="2160">
+      <node id="2371">
         <label>fstream</label>
       </node>
-      <node id="2154">
+      <node id="2365">
         <label>Doxygen/Sect4Query.h</label>
-        <childnode refid="2155" relation="include">
+        <childnode refid="2366" relation="include">
         </childnode>
       </node>
-      <node id="2165">
+      <node id="2376">
         <label>Xml/Node.h</label>
-        <childnode refid="2156" relation="include">
+        <childnode refid="2367" relation="include">
         </childnode>
-        <childnode refid="2157" relation="include">
+        <childnode refid="2368" relation="include">
         </childnode>
-        <childnode refid="2158" relation="include">
+        <childnode refid="2369" relation="include">
         </childnode>
       </node>
-      <node id="2158">
+      <node id="2369">
         <label>Utils/String.h</label>
-        <childnode refid="2159" relation="include">
+        <childnode refid="2370" relation="include">
         </childnode>
-        <childnode refid="2160" relation="include">
+        <childnode refid="2371" relation="include">
         </childnode>
-        <childnode refid="2161" relation="include">
+        <childnode refid="2372" relation="include">
         </childnode>
-        <childnode refid="2162" relation="include">
+        <childnode refid="2373" relation="include">
         </childnode>
-        <childnode refid="2157" relation="include">
+        <childnode refid="2368" relation="include">
         </childnode>
-        <childnode refid="2163" relation="include">
+        <childnode refid="2374" relation="include">
         </childnode>
-        <childnode refid="2164" relation="include">
+        <childnode refid="2375" relation="include">
         </childnode>
       </node>
-      <node id="2163">
+      <node id="2374">
         <label>vector</label>
       </node>
-      <node id="2169">
+      <node id="2380">
         <label>utility</label>
       </node>
-      <node id="2161">
+      <node id="2372">
         <label>sstream</label>
       </node>
-      <node id="2159">
+      <node id="2370">
         <label>deque</label>
       </node>
-      <node id="2157">
+      <node id="2368">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2172">
+      <node id="2383">
         <label>Source/MdDoxTree/Section4Writer.h</label>
         <link refid="Section4Writer_8h"/>
-        <childnode refid="2173" relation="include">
+        <childnode refid="2384" relation="include">
         </childnode>
-        <childnode refid="2174" relation="include">
+        <childnode refid="2385" relation="include">
         </childnode>
       </node>
-      <node id="2174">
+      <node id="2385">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="2173">
+      <node id="2384">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
     </invincdepgraph>

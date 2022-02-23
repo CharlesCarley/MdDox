@@ -61,7 +61,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L122" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <a id="_config"></a>
 <h2>_config</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -72,7 +71,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_indexfile"></a>
 <h2>_indexFile</h2>
@@ -85,7 +83,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_outdir"></a>
 <h2>_outDir</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
@@ -96,7 +93,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L126" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
@@ -110,7 +106,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="application"></a>
 <h2>Application</h2>
 <span class="bold-text"><b>Application</b></span>
@@ -122,7 +117,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~application"></a>
 <h2>~Application</h2>
 <span class="bold-text"><b>~Application</b></span>
@@ -133,7 +127,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L135" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="go"></a>
 <h2>go</h2>
@@ -153,36 +146,35 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#loadconfig" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">loadConfig</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#loadconfig">loadConfig</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#backendtype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">backendType</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#backendtype">backendType</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#backendmarkdown" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BackendMarkdown</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#backendmarkdown">BackendMarkdown</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#backendhtml" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BackendHtml</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#backendhtml">BackendHtml</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#buildfromxml" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">buildFromXml</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#buildfromxml">buildFromXml</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#fullpath">fullPath</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L168" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="parse"></a>
 <h2>parse</h2>
@@ -216,48 +208,47 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#parse" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parse</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#parse">parse</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#switches" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#switches">Switches</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#opmax" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OpMax</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#opmax">OpMax</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#string" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">string</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#string">string</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#optoutputdirectory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#optoutputdirectory">OptOutputDirectory</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#optindexfile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#optindexfile">OptIndexFile</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#optconfigfile" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#optconfigfile">OptConfigFile</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#empty" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#empty">empty</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#usage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">usage</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#usage">usage</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDox/Main.cpp#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

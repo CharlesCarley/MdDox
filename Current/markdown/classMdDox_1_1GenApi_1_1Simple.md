@@ -72,7 +72,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
 </a>
 </span>
-<br/>
 <a id="_enums"></a>
 <h2>_enums</h2>
 <a href="namespaceMdDox.md#stringmap">StringMap</a>
@@ -84,7 +83,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_header"></a>
 <h2>_header</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -95,7 +93,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_node"></a>
 <h2>_node</h2>
@@ -109,7 +106,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_prefix"></a>
 <h2>_prefix</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -121,7 +117,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_tagtype"></a>
 <h2>_tagType</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -132,7 +127,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="simple"></a>
 <h2>Simple</h2>
@@ -162,10 +156,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Object.md#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#_name">_name</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
@@ -175,7 +169,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="~simple"></a>
 <h2>~Simple</h2>
@@ -187,7 +180,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="addenumvalue"></a>
 <h2>addEnumValue</h2>
@@ -219,7 +211,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="write"></a>
 <h2>write</h2>
 <span class="inline-text">void</span>
@@ -235,26 +226,26 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#stringcombine">StringCombine</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#rooteddir">rootedDir</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#stem">stem</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Simple.md#writeheader" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeHeader</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Simple.md#writeheader">writeHeader</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Simple.md#writesource" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeSource</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Simple.md#writesource">writeSource</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
@@ -264,7 +255,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.cpp#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="writeheader"></a>
 <h2>writeHeader</h2>
@@ -280,26 +270,26 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Writer.md#setindent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">setIndent</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#setindent">setIndent</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Writer.md#setwritexml" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">setWriteXml</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#setwritexml">setWriteXml</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Writer.md#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#write">write</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#split">split</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Object.md#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#_name">_name</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
@@ -309,7 +299,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.cpp#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="writesource"></a>
 <h2>writeSource</h2>
@@ -325,10 +314,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1Object.md#_name" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_name</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#_name">_name</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.h</span>
@@ -338,7 +327,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Simple.cpp#L99" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Simple.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

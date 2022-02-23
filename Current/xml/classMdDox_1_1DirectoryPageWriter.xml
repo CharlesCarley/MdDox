@@ -677,6 +677,10 @@
       <node id="52">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>_style</edgelabel>
+          <edgelabel>_imageDir</edgelabel>
+        </childnode>
       </node>
       <node id="48">
         <label>MdDox::DirectoryPageWriter</label>
@@ -695,18 +699,18 @@
         <childnode refid="52" relation="usage">
           <edgelabel>_writer</edgelabel>
         </childnode>
-        <childnode refid="53" relation="usage">
+        <childnode refid="54" relation="usage">
           <edgelabel>_inDir</edgelabel>
           <edgelabel>_outDir</edgelabel>
         </childnode>
-        <childnode refid="54" relation="usage">
+        <childnode refid="55" relation="usage">
           <edgelabel>_ref</edgelabel>
         </childnode>
         <childnode refid="56" relation="usage">
           <edgelabel>_out</edgelabel>
         </childnode>
       </node>
-      <node id="55">
+      <node id="53">
         <label>string</label>
       </node>
       <node id="56">
@@ -719,14 +723,14 @@
       <node id="51">
         <label>vector&lt; Node *&gt;</label>
       </node>
-      <node id="53">
+      <node id="54">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
-      <node id="54">
+      <node id="55">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
-        <childnode refid="55" relation="usage">
+        <childnode refid="53" relation="usage">
           <edgelabel>_ref</edgelabel>
           <edgelabel>_name</edgelabel>
         </childnode>

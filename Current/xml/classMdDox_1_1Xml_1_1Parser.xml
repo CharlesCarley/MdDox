@@ -405,86 +405,86 @@
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Identifier</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1032">
+      <node id="1027">
         <label>MdDox::Xml::Parser</label>
         <link refid="classMdDox_1_1Xml_1_1Parser"/>
-        <childnode refid="1033" relation="public-inheritance">
+        <childnode refid="1028" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1033">
+      <node id="1028">
         <label>MdDox::ParserBase</label>
         <link refid="classMdDox_1_1ParserBase"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1040">
+      <node id="1035">
         <label>MdDox::ScannerBase</label>
         <link refid="classMdDox_1_1ScannerBase"/>
-        <childnode refid="1041" relation="usage">
+        <childnode refid="1036" relation="usage">
           <edgelabel>_stringTable</edgelabel>
         </childnode>
-        <childnode refid="1042" relation="usage">
+        <childnode refid="1037" relation="usage">
           <edgelabel>_intTable</edgelabel>
         </childnode>
-        <childnode refid="1043" relation="usage">
+        <childnode refid="1038" relation="usage">
           <edgelabel>_line</edgelabel>
         </childnode>
-        <childnode refid="1038" relation="usage">
+        <childnode refid="1033" relation="usage">
           <edgelabel>_file</edgelabel>
         </childnode>
-        <childnode refid="1044" relation="usage">
+        <childnode refid="1039" relation="usage">
           <edgelabel>_stream</edgelabel>
         </childnode>
       </node>
-      <node id="1043">
+      <node id="1038">
         <label>size_t</label>
       </node>
-      <node id="1044">
+      <node id="1039">
         <label>IStream *</label>
       </node>
-      <node id="1037">
+      <node id="1032">
         <label>int32_t</label>
       </node>
-      <node id="1039">
+      <node id="1034">
         <label>string</label>
       </node>
-      <node id="1036">
+      <node id="1031">
         <label>vector&lt; TokenBase &gt;</label>
       </node>
-      <node id="1042">
+      <node id="1037">
         <label>MdDox::IndexCache&lt; int &gt;</label>
         <link refid="classMdDox_1_1IndexCache"/>
       </node>
-      <node id="1041">
+      <node id="1036">
         <label>MdDox::IndexCache&lt; String &gt;</label>
         <link refid="classMdDox_1_1IndexCache"/>
       </node>
-      <node id="1034">
+      <node id="1029">
         <label>MdDox::Xml::Parser</label>
         <link refid="classMdDox_1_1Xml_1_1Parser"/>
-        <childnode refid="1035" relation="public-inheritance">
+        <childnode refid="1030" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1035">
+      <node id="1030">
         <label>MdDox::ParserBase</label>
         <link refid="classMdDox_1_1ParserBase"/>
-        <childnode refid="1036" relation="usage">
+        <childnode refid="1031" relation="usage">
           <edgelabel>_tokens</edgelabel>
         </childnode>
-        <childnode refid="1037" relation="usage">
+        <childnode refid="1032" relation="usage">
           <edgelabel>_cursor</edgelabel>
         </childnode>
-        <childnode refid="1038" relation="usage">
+        <childnode refid="1033" relation="usage">
           <edgelabel>_filePath</edgelabel>
         </childnode>
-        <childnode refid="1039" relation="usage">
+        <childnode refid="1034" relation="usage">
           <edgelabel>_file</edgelabel>
         </childnode>
-        <childnode refid="1040" relation="usage">
+        <childnode refid="1035" relation="usage">
           <edgelabel>_scanner</edgelabel>
         </childnode>
       </node>
-      <node id="1038">
+      <node id="1033">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>

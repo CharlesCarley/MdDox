@@ -38,7 +38,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.h</span>
 </a>
 </span>
-<br/>
 <a id="_root"></a>
 <h2>_root</h2>
 <a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
@@ -50,7 +49,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="generator"></a>
 <h2>Generator</h2>
@@ -73,7 +71,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~generator"></a>
 <h2>~Generator</h2>
 <span class="bold-text"><b>~Generator</b></span>
@@ -84,7 +81,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -101,10 +97,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1GenApi_1_1GeneratorImpl.md#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1GeneratorImpl.md#write">write</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.h</span>
@@ -114,7 +110,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Generator.cpp#L512" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

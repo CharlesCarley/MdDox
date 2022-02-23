@@ -44,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Attribute.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
 </a>
 </span>
-<br/>
 <a id="_key"></a>
 <h2>_key</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -56,7 +55,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_value"></a>
 <h2>_value</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -67,7 +65,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Attribute.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="attribute"></a>
 <h2>Attribute</h2>
@@ -106,7 +103,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="key"></a>
 <h2>key</h2>
 <span class="inline-text">const </span>
@@ -131,7 +127,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="value"></a>
 <h2>value</h2>
 <span class="inline-text">const </span>
@@ -155,7 +150,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Attribute.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

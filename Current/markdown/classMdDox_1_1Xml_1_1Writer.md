@@ -91,7 +91,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
-<br/>
 <a id="_indent"></a>
 <h2>_indent</h2>
 <span class="inline-text">int</span>
@@ -103,7 +102,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_out"></a>
 <h2>_out</h2>
 <a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
@@ -114,7 +112,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_root"></a>
 <h2>_root</h2>
@@ -128,7 +125,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_writexml"></a>
 <h2>_writeXml</h2>
 <span class="inline-text">bool</span>
@@ -139,7 +135,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.h#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="closetag"></a>
 <h2>closeTag</h2>
@@ -163,7 +158,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="inlinetag"></a>
 <h2>inlineTag</h2>
 <span class="inline-text">void</span>
@@ -185,7 +179,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.cpp#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="opentag"></a>
 <h2>openTag</h2>
@@ -209,7 +202,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writeattributes"></a>
 <h2>writeAttributes</h2>
 <span class="inline-text">void</span>
@@ -232,7 +224,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writetag"></a>
 <h2>writeTag</h2>
 <span class="inline-text">void</span>
@@ -254,7 +245,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.cpp#L97" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="writer"></a>
 <h2>Writer</h2>
@@ -293,7 +283,6 @@ When write is invoked, the text based structure will be logged to the supplied s
 </a>
 </span>
 <br/>
-<br/>
 <a id="~writer"></a>
 <h2>~Writer</h2>
 <span class="bold-text"><b>~Writer</b></span>
@@ -304,7 +293,6 @@ When write is invoked, the text based structure will be logged to the supplied s
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.h#L62" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setindent"></a>
 <h2>setIndent</h2>
@@ -332,10 +320,10 @@ When write is invoked, the text based structure will be logged to the supplied s
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1WriteUtils.md#indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">indent</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1WriteUtils.md#indent">indent</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.h#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.h</span>
@@ -345,7 +333,6 @@ When write is invoked, the text based structure will be logged to the supplied s
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setwritexml"></a>
 <h2>setWriteXml</h2>
@@ -384,7 +371,6 @@ When write is invoked, the text based structure will be logged to the supplied s
 </a>
 </span>
 <br/>
-<br/>
 <a id="write"></a>
 <h2>write</h2>
 <span class="inline-text">void</span>
@@ -418,7 +404,6 @@ When write is invoked, the text based structure will be logged to the supplied s
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.cpp#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

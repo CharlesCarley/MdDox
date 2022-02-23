@@ -24,7 +24,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxLanguage.h#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
 </a>
 </span>
-<br/>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxlanguageenum">DoxLanguageEnum</a>
@@ -41,74 +40,74 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_unknown" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_UNKNOWN</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_unknown">DL_UNKNOWN</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_tcl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_TCL</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_tcl">DL_TCL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_idl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_IDL</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_idl">DL_IDL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_objective_c" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_OBJECTIVE_C</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_objective_c">DL_OBJECTIVE_C</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_java" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_JAVA</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_java">DL_JAVA</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_d" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_D</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_d">DL_D</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_csharp" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_CSHARP</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_csharp">DL_CSHARP</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_php" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_PHP</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_php">DL_PHP</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_cplusplus" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_CPLUSPLUS</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_cplusplus">DL_CPLUSPLUS</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_javascript" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_JAVASCRIPT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_javascript">DL_JAVASCRIPT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_python" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_PYTHON</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_python">DL_PYTHON</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_fortran" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_FORTRAN</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_fortran">DL_FORTRAN</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_vhdl" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_VHDL</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_vhdl">DL_VHDL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_xml" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_XML</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_xml">DL_XML</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_sql" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_SQL</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_sql">DL_SQL</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_markdown" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_MARKDOWN</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_markdown">DL_MARKDOWN</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#dl_invalid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DL_INVALID</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#dl_invalid">DL_INVALID</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxLanguage.h#L129" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.h</span>
@@ -118,7 +117,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxLanguage.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

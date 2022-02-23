@@ -34,7 +34,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/LanguageQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~languagequeryvisitor"></a>
 <h2>~LanguageQueryVisitor</h2>
 <span class="bold-text"><b>~LanguageQueryVisitor</b></span>
@@ -45,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/LanguageQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
@@ -82,7 +80,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -105,7 +102,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/LanguageQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

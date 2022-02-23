@@ -30,7 +30,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="children"></a>
 <h2>children</h2>
 <a href="namespaceMdDox.md#stringarray">StringArray</a>
@@ -41,7 +40,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="id"></a>
 <h2>id</h2>
@@ -54,7 +52,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="label"></a>
 <h2>label</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -65,7 +62,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

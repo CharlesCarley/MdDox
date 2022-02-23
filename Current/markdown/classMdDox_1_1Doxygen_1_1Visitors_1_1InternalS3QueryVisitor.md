@@ -38,7 +38,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/InternalS3Query.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query.h</span>
 </a>
 </span>
-<br/>
 <a id="~internals3queryvisitor"></a>
 <h2>~InternalS3QueryVisitor</h2>
 <span class="bold-text"><b>~InternalS3QueryVisitor</b></span>
@@ -49,7 +48,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/InternalS3Query.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
@@ -86,7 +84,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedsect3"></a>
 <h2>visitedSect3</h2>
 <span class="inline-text">void</span>
@@ -122,7 +119,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -145,7 +141,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/InternalS3Query.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

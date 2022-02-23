@@ -7,136 +7,136 @@
     <includes refid="ParaQuery_8h" local="yes">ParaQuery.h</includes>
     <includes refid="InternalS4Query_8h" local="yes">InternalS4Query.h</includes>
     <incdepgraph>
-      <node id="8645">
+      <node id="8932">
         <label>Utils/Console.h</label>
-        <childnode refid="8633" relation="include">
+        <childnode refid="8920" relation="include">
         </childnode>
       </node>
-      <node id="8639">
+      <node id="8926">
         <label>iomanip</label>
       </node>
-      <node id="8631">
+      <node id="8918">
         <label>functional</label>
       </node>
-      <node id="8648">
+      <node id="8935">
         <label>cstdint</label>
       </node>
-      <node id="8641">
+      <node id="8928">
         <label>Utils/Exception.h</label>
-        <childnode refid="8642" relation="include">
+        <childnode refid="8929" relation="include">
         </childnode>
-        <childnode refid="8643" relation="include">
+        <childnode refid="8930" relation="include">
         </childnode>
-        <childnode refid="8644" relation="include">
+        <childnode refid="8931" relation="include">
         </childnode>
-        <childnode refid="8645" relation="include">
+        <childnode refid="8932" relation="include">
         </childnode>
-        <childnode refid="8633" relation="include">
+        <childnode refid="8920" relation="include">
         </childnode>
       </node>
-      <node id="8643">
+      <node id="8930">
         <label>stdexcept</label>
       </node>
-      <node id="8637">
+      <node id="8924">
         <label>string</label>
       </node>
-      <node id="8630">
+      <node id="8917">
         <label>Doxygen.h</label>
-        <childnode refid="8631" relation="include">
+        <childnode refid="8918" relation="include">
         </childnode>
-        <childnode refid="8632" relation="include">
+        <childnode refid="8919" relation="include">
         </childnode>
-        <childnode refid="8633" relation="include">
+        <childnode refid="8920" relation="include">
         </childnode>
-        <childnode refid="8640" relation="include">
+        <childnode refid="8927" relation="include">
         </childnode>
-        <childnode refid="8641" relation="include">
+        <childnode refid="8928" relation="include">
         </childnode>
       </node>
-      <node id="8642">
+      <node id="8929">
         <label>exception</label>
       </node>
-      <node id="8635">
+      <node id="8922">
         <label>fstream</label>
       </node>
-      <node id="8629">
+      <node id="8916">
         <label>Sect4Query.h</label>
-        <childnode refid="8630" relation="include">
+        <childnode refid="8917" relation="include">
         </childnode>
       </node>
-      <node id="8640">
+      <node id="8927">
         <label>Xml/Node.h</label>
-        <childnode refid="8631" relation="include">
+        <childnode refid="8918" relation="include">
         </childnode>
-        <childnode refid="8632" relation="include">
+        <childnode refid="8919" relation="include">
         </childnode>
-        <childnode refid="8633" relation="include">
+        <childnode refid="8920" relation="include">
         </childnode>
       </node>
-      <node id="8649">
+      <node id="8936">
         <label>ParaQuery.h</label>
-        <childnode refid="8630" relation="include">
+        <childnode refid="8917" relation="include">
         </childnode>
       </node>
-      <node id="8633">
+      <node id="8920">
         <label>Utils/String.h</label>
-        <childnode refid="8634" relation="include">
+        <childnode refid="8921" relation="include">
         </childnode>
-        <childnode refid="8635" relation="include">
+        <childnode refid="8922" relation="include">
         </childnode>
-        <childnode refid="8636" relation="include">
+        <childnode refid="8923" relation="include">
         </childnode>
-        <childnode refid="8637" relation="include">
+        <childnode refid="8924" relation="include">
         </childnode>
-        <childnode refid="8632" relation="include">
+        <childnode refid="8919" relation="include">
         </childnode>
-        <childnode refid="8638" relation="include">
+        <childnode refid="8925" relation="include">
         </childnode>
-        <childnode refid="8639" relation="include">
+        <childnode refid="8926" relation="include">
         </childnode>
       </node>
-      <node id="8638">
+      <node id="8925">
         <label>vector</label>
       </node>
-      <node id="8644">
+      <node id="8931">
         <label>utility</label>
       </node>
-      <node id="8636">
+      <node id="8923">
         <label>sstream</label>
       </node>
-      <node id="8628">
+      <node id="8915">
         <label>Tools/Doxygen/Sect4Query.cpp</label>
         <link refid="Sect4Query_8cpp"/>
-        <childnode refid="8629" relation="include">
+        <childnode refid="8916" relation="include">
         </childnode>
-        <childnode refid="8646" relation="include">
+        <childnode refid="8933" relation="include">
         </childnode>
-        <childnode refid="8649" relation="include">
+        <childnode refid="8936" relation="include">
         </childnode>
-        <childnode refid="8650" relation="include">
+        <childnode refid="8937" relation="include">
         </childnode>
       </node>
-      <node id="8646">
+      <node id="8933">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="8647" relation="include">
+        <childnode refid="8934" relation="include">
         </childnode>
       </node>
-      <node id="8650">
+      <node id="8937">
         <label>InternalS4Query.h</label>
-        <childnode refid="8630" relation="include">
+        <childnode refid="8917" relation="include">
         </childnode>
       </node>
-      <node id="8634">
+      <node id="8921">
         <label>deque</label>
       </node>
-      <node id="8632">
+      <node id="8919">
         <label>unordered_map</label>
       </node>
-      <node id="8647">
+      <node id="8934">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="8648" relation="include">
+        <childnode refid="8935" relation="include">
         </childnode>
-        <childnode refid="8633" relation="include">
+        <childnode refid="8920" relation="include">
         </childnode>
       </node>
     </incdepgraph>

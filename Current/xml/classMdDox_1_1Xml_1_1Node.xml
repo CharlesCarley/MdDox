@@ -815,26 +815,26 @@
     <detaileddescription>
 <para>A <ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound">Node</ref> represents a single XML tag.</para><para>A single node in the tree can have one parent and (N) number of children.</para><para>Each node may contain any number of attributes attached to it.</para><para>Any node can optionally have plain-text data associated with it. In order to keep the internal text inline with tag based nodes, the parser creates a specialty node with the name <bold>_text_node</bold> to store blocks of text in between tags. The text node is pushed as a child node to the node on the top of the parse stack.</para><para>All attributes are defined in the form of a string. Any extra type of serialization is beyond the scope of this class and must be handled elsewhere. There is, however, one exception to this if a type filter has been applied before parsing the file, an optional type code can be assigned to the node itself so that nodes can be type-checked with integers VS strings. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1029">
+      <node id="1024">
         <label>MdDox::GraphNode</label>
         <link refid="classMdDox_1_1GraphNode"/>
-        <childnode refid="1028" relation="public-inheritance">
+        <childnode refid="1023" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1028">
+      <node id="1023">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1030">
+      <node id="1025">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="1031" relation="usage">
+        <childnode refid="1026" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="1031">
+      <node id="1026">
         <label>bool</label>
       </node>
     </collaborationgraph>

@@ -58,7 +58,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/FormulaQuery.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="formulaquery"></a>
 <h2>FormulaQuery</h2>
 <span class="bold-text"><b>FormulaQuery</b></span>
@@ -69,7 +68,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/FormulaQuery.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="formulaquery"></a>
 <h2>FormulaQuery</h2>
@@ -89,7 +87,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="formulaquery"></a>
 <h2>FormulaQuery</h2>
 <span class="bold-text"><b>FormulaQuery</b></span>
@@ -106,7 +103,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/FormulaQuery.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getid"></a>
 <h2>getId</h2>
@@ -141,14 +137,14 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#_node">_node</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">attribute</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#attribute">attribute</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/FormulaQuery.h#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery.h</span>
@@ -158,7 +154,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/FormulaQuery.cpp#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

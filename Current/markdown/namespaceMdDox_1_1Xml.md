@@ -53,26 +53,21 @@ catch(Exception &ex)
 ```
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Attribute.md#attribute" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Attribute</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Node</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Parser.md#parser" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Parser</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Scanner.md#scanner" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Scanner</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Writer.md#writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Writer</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Attribute.md#attribute">Attribute</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Parser.md#parser">Parser</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Scanner.md#scanner">Scanner</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#writer">Writer</a>
+</div>
 <a id="enums"></a>
 <h2>Enums</h2>
 <span class="icon-list-item"><a href="#tokentype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TokenType</span>
@@ -138,7 +133,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Attribute.h#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
 </a>
 </span>
-<br/>
 <a id="tokentype"></a>
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
@@ -197,7 +191,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="attributemap"></a>
 <h2>AttributeMap</h2>
 <span class="inline-text">std::unordered_map&lt; </span>
@@ -216,7 +209,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="codecache"></a>
 <h2>CodeCache</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -229,7 +221,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Scanner.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="nodearray"></a>
 <h2>NodeArray</h2>
@@ -246,7 +237,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="nodemap"></a>
 <h2>NodeMap</h2>
@@ -266,7 +256,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="nodesortfunc"></a>
 <h2>NodeSortFunc</h2>
 <span class="inline-text">std::function&lt; bool(</span>
@@ -281,7 +270,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Node.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="nodestack"></a>
 <h2>NodeStack</h2>
@@ -298,7 +286,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Parser.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="stringcache"></a>
 <h2>StringCache</h2>
@@ -319,7 +306,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="token"></a>
 <h2>Token</h2>
 <a href="classMdDox_1_1TokenBase.md#tokenbase">TokenBase</a>
@@ -331,7 +317,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="indent"></a>
 <h2>Indent</h2>
 <span class="inline-text">constexpr size_t</span>
@@ -342,7 +327,6 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Writer.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="isquote"></a>
 <h2>isQuote</h2>
@@ -361,7 +345,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="isvalidcharacter"></a>
 <h2>isValidCharacter</h2>
 <span class="inline-text">bool</span>
@@ -379,7 +362,6 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
-<br/>
 <a id="isvalididentifier"></a>
 <h2>isValidIdentifier</h2>
 <span class="inline-text">bool</span>
@@ -393,20 +375,19 @@ catch(Exception &ex)
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#isletter" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isLetter</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#isletter">isLetter</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#isdecimal" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isDecimal</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#isdecimal">isDecimal</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Xml/Scanner.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

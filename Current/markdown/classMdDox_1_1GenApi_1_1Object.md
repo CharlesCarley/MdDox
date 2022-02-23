@@ -48,7 +48,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Object.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Object.h</span>
 </a>
 </span>
-<br/>
 <a id="_name"></a>
 <h2>_name</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -59,7 +58,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Object.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Object.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="object"></a>
 <h2>Object</h2>
@@ -77,7 +75,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~object"></a>
 <h2>~Object</h2>
 <span class="bold-text"><b>~Object</b></span>
@@ -88,7 +85,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Object.h#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Object.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

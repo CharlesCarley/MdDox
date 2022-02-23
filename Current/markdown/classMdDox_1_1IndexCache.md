@@ -88,7 +88,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <a id="array"></a>
 <h2>Array</h2>
 <span class="inline-text">std::vector&lt; T &gt;</span>
@@ -99,7 +98,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="table"></a>
 <h2>Table</h2>
@@ -112,7 +110,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_elements"></a>
 <h2>_elements</h2>
 <a href="classMdDox_1_1IndexCache.md#table">Table</a>
@@ -124,7 +121,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_list"></a>
 <h2>_list</h2>
 <a href="classMdDox_1_1IndexCache.md#array">Array</a>
@@ -135,7 +131,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="at"></a>
 <h2>at</h2>
@@ -176,7 +171,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="at"></a>
 <h2>at</h2>
 <span class="inline-text">const T &amp;</span>
@@ -207,7 +201,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="begin"></a>
 <h2>begin</h2>
 <span class="inline-text">Array::const_iterator</span>
@@ -220,7 +213,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="clear"></a>
 <h2>clear</h2>
 <span class="inline-text">void</span>
@@ -232,7 +224,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L120" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="contains"></a>
 <h2>contains</h2>
@@ -251,7 +242,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="contains"></a>
 <h2>contains</h2>
 <span class="inline-text">bool</span>
@@ -269,7 +259,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="end"></a>
 <h2>end</h2>
 <span class="inline-text">Array::const_iterator</span>
@@ -281,7 +270,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="get"></a>
 <h2>get</h2>
@@ -299,7 +287,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L106" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="insert"></a>
 <h2>insert</h2>
@@ -334,7 +321,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="size"></a>
 <h2>size</h2>
 <span class="inline-text">size_t</span>
@@ -346,7 +332,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/IndexCache.h#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexCache.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

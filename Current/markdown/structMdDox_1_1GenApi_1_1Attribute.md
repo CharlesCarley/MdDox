@@ -36,7 +36,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Types.h#L59" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
-<br/>
 <a id="genname"></a>
 <h2>genName</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -47,7 +46,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Types.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="gentype"></a>
 <h2>genType</h2>
@@ -60,7 +58,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="isrequired"></a>
 <h2>isRequired</h2>
 <span class="inline-text">bool</span>
@@ -72,7 +69,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="searchterm"></a>
 <h2>searchTerm</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -83,7 +79,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/GenApi/Types.h#L62" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

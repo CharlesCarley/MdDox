@@ -271,38 +271,38 @@ When write is invoked, the text based structure will be logged to the supplied s
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1059">
+      <node id="1054">
         <label>MdDox::GenApi::Simple</label>
         <link refid="classMdDox_1_1GenApi_1_1Simple"/>
-        <childnode refid="1056" relation="public-inheritance">
+        <childnode refid="1051" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1054">
+      <node id="1049">
         <label>MdDox::Xml::Writer</label>
         <link refid="classMdDox_1_1Xml_1_1Writer"/>
       </node>
-      <node id="1056">
+      <node id="1051">
         <label>MdDox::GenApi::Object</label>
         <link refid="classMdDox_1_1GenApi_1_1Object"/>
-        <childnode refid="1054" relation="public-inheritance">
+        <childnode refid="1049" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1058">
+      <node id="1053">
         <label>MdDox::GenApi::Complex</label>
         <link refid="classMdDox_1_1GenApi_1_1Complex"/>
-        <childnode refid="1057" relation="public-inheritance">
+        <childnode refid="1052" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1055">
+      <node id="1050">
         <label>MdDox::GenApi::Common</label>
         <link refid="classMdDox_1_1GenApi_1_1Common"/>
-        <childnode refid="1054" relation="public-inheritance">
+        <childnode refid="1049" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1057">
+      <node id="1052">
         <label>MdDox::GenApi::Group</label>
         <link refid="classMdDox_1_1GenApi_1_1Group"/>
-        <childnode refid="1056" relation="public-inheritance">
+        <childnode refid="1051" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

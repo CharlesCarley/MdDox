@@ -52,7 +52,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <a id="_input"></a>
 <h2>_input</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
@@ -64,7 +63,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="getinput"></a>
 <h2>getInput</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -73,16 +71,14 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>fullPath</b></span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getoutput"></a>
 <h2>getOutput</h2>
@@ -92,36 +88,29 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#outputfileext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">outputFileExt</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>get</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>outputFileExt</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>StringCombine</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>rootedDir</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>stem</b></span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getpath"></a>
 <h2>getPath</h2>
@@ -137,7 +126,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="getrelativeinput"></a>
 <h2>getRelativeInput</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -146,28 +134,23 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Link.md#getinput" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getInput</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>getInput</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>StringCombine</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>stem</b></span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.cpp#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="reloutput"></a>
 <h2>relOutput</h2>
@@ -177,36 +160,29 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#outputfileext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">outputFileExt</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Link.md#getoutput" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getOutput</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#stem" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">stem</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>get</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>outputFileExt</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>getOutput</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>StringCombine</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>stem</b></span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.cpp#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setinput"></a>
 <h2>setInput</h2>
@@ -227,7 +203,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="swapinput"></a>
 <h2>swapInput</h2>
 <span class="inline-text">void</span>
@@ -243,28 +218,23 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#rooteddir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">rootedDir</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullextension" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullExtension</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>StringCombine</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>rootedDir</b></span>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><span class="bold-text"><b>fullExtension</b></span>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/Link.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Link.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

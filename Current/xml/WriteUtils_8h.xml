@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="WriteUtils_8h" kind="file" language="C++">
     <compoundname>WriteUtils.h</compoundname>
-    <includes refid="IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
-    <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
+    <includes refid="MdDoxTree_2IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
+    <includes refid="MdDoxTree_2Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="DescriptionWriter_8cpp" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
@@ -29,183 +29,183 @@
     <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="2455">
+      <node id="2637">
         <label>iomanip</label>
       </node>
-      <node id="2452">
+      <node id="2634">
         <label>string</label>
       </node>
-      <node id="2450">
+      <node id="2632">
         <label>fstream</label>
       </node>
-      <node id="2447">
+      <node id="2629">
         <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="2448" relation="include">
+        <childnode refid="2630" relation="include">
         </childnode>
       </node>
-      <node id="2448">
+      <node id="2630">
         <label>Utils/String.h</label>
-        <childnode refid="2449" relation="include">
+        <childnode refid="2631" relation="include">
         </childnode>
-        <childnode refid="2450" relation="include">
+        <childnode refid="2632" relation="include">
         </childnode>
-        <childnode refid="2451" relation="include">
+        <childnode refid="2633" relation="include">
         </childnode>
-        <childnode refid="2452" relation="include">
+        <childnode refid="2634" relation="include">
         </childnode>
-        <childnode refid="2453" relation="include">
+        <childnode refid="2635" relation="include">
         </childnode>
-        <childnode refid="2454" relation="include">
+        <childnode refid="2636" relation="include">
         </childnode>
-        <childnode refid="2455" relation="include">
+        <childnode refid="2637" relation="include">
         </childnode>
       </node>
-      <node id="2454">
+      <node id="2636">
         <label>vector</label>
       </node>
-      <node id="2451">
+      <node id="2633">
         <label>sstream</label>
       </node>
-      <node id="2446">
+      <node id="2628">
         <label>Source/MdDoxTree/WriteUtils.h</label>
         <link refid="WriteUtils_8h"/>
-        <childnode refid="2447" relation="include">
+        <childnode refid="2629" relation="include">
         </childnode>
-        <childnode refid="2456" relation="include">
+        <childnode refid="2638" relation="include">
         </childnode>
-        <childnode refid="2448" relation="include">
+        <childnode refid="2630" relation="include">
         </childnode>
       </node>
-      <node id="2449">
+      <node id="2631">
         <label>deque</label>
       </node>
-      <node id="2453">
+      <node id="2635">
         <label>unordered_map</label>
       </node>
-      <node id="2456">
+      <node id="2638">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="2448" relation="include">
+        <childnode refid="2630" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2473">
+      <node id="2655">
         <label>Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
-      <node id="2469">
+      <node id="2651">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="2463">
+      <node id="2645">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="2479">
+      <node id="2661">
         <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="2480">
+      <node id="2662">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="2464">
+      <node id="2646">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="2477">
+      <node id="2659">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="2461">
+      <node id="2643">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="2470">
+      <node id="2652">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="2476">
+      <node id="2658">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="2462">
+      <node id="2644">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="2475">
+      <node id="2657">
         <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
-      <node id="2459">
+      <node id="2641">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="2458">
+      <node id="2640">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="2472">
+      <node id="2654">
         <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
-      <node id="2474">
+      <node id="2656">
         <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="2471">
+      <node id="2653">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="2466">
+      <node id="2648">
         <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
       </node>
-      <node id="2457">
+      <node id="2639">
         <label>Source/MdDoxTree/WriteUtils.h</label>
         <link refid="WriteUtils_8h"/>
-        <childnode refid="2458" relation="include">
+        <childnode refid="2640" relation="include">
         </childnode>
-        <childnode refid="2459" relation="include">
+        <childnode refid="2641" relation="include">
         </childnode>
-        <childnode refid="2460" relation="include">
+        <childnode refid="2642" relation="include">
         </childnode>
-        <childnode refid="2461" relation="include">
+        <childnode refid="2643" relation="include">
         </childnode>
-        <childnode refid="2462" relation="include">
+        <childnode refid="2644" relation="include">
         </childnode>
-        <childnode refid="2463" relation="include">
+        <childnode refid="2645" relation="include">
         </childnode>
-        <childnode refid="2464" relation="include">
+        <childnode refid="2646" relation="include">
         </childnode>
-        <childnode refid="2465" relation="include">
+        <childnode refid="2647" relation="include">
         </childnode>
-        <childnode refid="2466" relation="include">
+        <childnode refid="2648" relation="include">
         </childnode>
-        <childnode refid="2467" relation="include">
+        <childnode refid="2649" relation="include">
         </childnode>
-        <childnode refid="2468" relation="include">
+        <childnode refid="2650" relation="include">
         </childnode>
-        <childnode refid="2469" relation="include">
+        <childnode refid="2651" relation="include">
         </childnode>
-        <childnode refid="2470" relation="include">
+        <childnode refid="2652" relation="include">
         </childnode>
-        <childnode refid="2471" relation="include">
+        <childnode refid="2653" relation="include">
         </childnode>
-        <childnode refid="2472" relation="include">
+        <childnode refid="2654" relation="include">
         </childnode>
-        <childnode refid="2473" relation="include">
+        <childnode refid="2655" relation="include">
         </childnode>
-        <childnode refid="2474" relation="include">
+        <childnode refid="2656" relation="include">
         </childnode>
-        <childnode refid="2475" relation="include">
+        <childnode refid="2657" relation="include">
         </childnode>
-        <childnode refid="2476" relation="include">
+        <childnode refid="2658" relation="include">
         </childnode>
-        <childnode refid="2477" relation="include">
+        <childnode refid="2659" relation="include">
         </childnode>
-        <childnode refid="2478" relation="include">
+        <childnode refid="2660" relation="include">
         </childnode>
-        <childnode refid="2479" relation="include">
+        <childnode refid="2661" relation="include">
         </childnode>
-        <childnode refid="2480" relation="include">
+        <childnode refid="2662" relation="include">
         </childnode>
       </node>
-      <node id="2478">
+      <node id="2660">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="2468">
+      <node id="2650">
         <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
-      <node id="2467">
+      <node id="2649">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
-      <node id="2460">
+      <node id="2642">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="2465">
+      <node id="2647">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
@@ -287,15 +287,15 @@
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Page;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>item);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abd83695519b08c759c042dc95cb3a95e" kindref="member">writeNamespaceTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>item);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a6a044efa0d8ab36f057906e935bdf520" kindref="member">writeDirectoryTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>item);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" kindref="member">writeReferenceIconLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" kindref="member">writeExternalIconLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kindref="member">writeReferenceIconLinkHeading</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" kindref="member">writeReferenceIconStub</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>item);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abd83695519b08c759c042dc95cb3a95e" kindref="member">writeNamespaceTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>item);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a6a044efa0d8ab36f057906e935bdf520" kindref="member">writeDirectoryTitleBar</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>item);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" kindref="member">writeReferenceIconLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" kindref="member">writeExternalIconLink</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kindref="member">writeReferenceIconLinkHeading</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a09d2ecc7d854ef15c1824ed170b37d21" kindref="member">writeReferenceIconStub</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/>DocumentWriter*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(<ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>stream,<sp/><ref refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref>&amp;<sp/>out);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>

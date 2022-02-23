@@ -22,8 +22,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="50" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="50" bodyend="56"/>
-        <references refid="namespaceMdDox_1_1Md_1aa41ba467f4e9f2b5556ca3e45de79032" compoundref="MarkdownCommandWriter_8cpp" startline="58" endline="62">space</references>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="49" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="49" bodyend="55"/>
+        <references refid="namespaceMdDox_1_1Md_1aa41ba467f4e9f2b5556ca3e45de79032" compoundref="Document_2MarkdownCommandWriter_8cpp" startline="57" endline="61">space</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a258dd6e1733bcc65d00c51524ea7db83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -48,7 +48,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="78" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="78" bodyend="81"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="77" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac9fe7e754a6a825bedbd8a54ab210906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="98" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="98" bodyend="101"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="97" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a971bd77df5dda67d8e511774518130d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="108" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="108" bodyend="111"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="107" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aa2c400b4ee238fc0e7baa6bbef1ac039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -115,7 +115,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="88" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="88" bodyend="91"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="87" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a32a576acc0eeb6376191c044ed0b3af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="71" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="71" bodyend="76"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="70" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="70" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a47dca2edf63dad855a4604e4925cda44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="171" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="171" bodyend="179"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="170" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="170" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1af932eecfb3d9926023e7f2e39ddfc72f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="64" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="64" bodyend="69"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="63" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="63" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a6ea1760a2a939239b664a1f812fa5295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -226,7 +226,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="118" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="118" bodyend="125"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="117" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="117" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aba570ffee1aef0a5d0ffcdd9c0e00276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="210" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="210" bodyend="213"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="210" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="210" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aec045ae8beeb9efd4770617651b44c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="215" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="215" bodyend="224"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="215" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="215" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a1589c72af048cf851d49292e4de7c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="200" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="200" bodyend="208"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="199" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="199" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a69fb615cc34aa2dc1580438fd812f129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="226" bodyend="235"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="226" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="226" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1ab243fd0ee25dc2bb1c86e8d775957d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -363,7 +363,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="83" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="83" bodyend="86"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="82" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="82" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aaa61a276d522d32dac5862879b34c515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -380,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="103" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="103" bodyend="106"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="102" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aac5f57c597d908d45c6febe5820fd6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -405,7 +405,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="113" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="113" bodyend="116"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="112" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="112" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a66cd199e9c617f0be33708aac0f90227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -430,7 +430,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="93" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="93" bodyend="96"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="92" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="92" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac56667f85a5027c17551d31279949a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -477,9 +477,9 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="43" bodyend="48"/>
-        <references refid="namespaceMdDox_1_1Md_1aabb7b82b8902d06f9674962517957b89" compoundref="MarkdownCommandWriter_8cpp" startline="50" endline="56">addHash</references>
-        <references refid="namespaceMdDox_1_1Md_1a8c6ce069a7657e1e44e33755b0034e7b" compoundref="MarkdownCommandWriter_8cpp" startline="37" endline="41">newLine</references>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="42" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="42" bodyend="47"/>
+        <references refid="namespaceMdDox_1_1Md_1aabb7b82b8902d06f9674962517957b89" compoundref="Document_2MarkdownCommandWriter_8cpp" startline="49" endline="55">addHash</references>
+        <references refid="namespaceMdDox_1_1Md_1a8c6ce069a7657e1e44e33755b0034e7b" compoundref="Document_2MarkdownCommandWriter_8cpp" startline="36" endline="40">newLine</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a391bd2ebc8dede3771c5fda158496040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -504,7 +504,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="132" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="132" bodyend="135"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="131" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="131" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac0a76b857e91a0965d2eaddace8b324c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -525,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="137" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="137" bodyend="159"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="136" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="136" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1af813993f9fb190c9e1fd8b561851b7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -546,7 +546,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="181" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="181" bodyend="189"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="180" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="180" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a1bbfa5a6f176d8d5affe9032cf462352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -571,7 +571,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="30" bodyend="35"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="29" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="29" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a3f83d4b402ebc91a292977ee95bd4eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -600,7 +600,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="191" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="191" bodyend="198"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="190" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="190" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a8d36a6d81c85553d03aeda9402771751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -629,7 +629,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="237" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="237" bodyend="250"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="237" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="237" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a8c6ce069a7657e1e44e33755b0034e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -665,7 +665,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="37" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="37" bodyend="41"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="36" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="36" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1a3acd21f86d8d71ec6377b3b29336ad11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -686,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="127" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="127" bodyend="130"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="126" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="126" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1aa41ba467f4e9f2b5556ca3e45de79032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -707,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="58" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="58" bodyend="62"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="57" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="57" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Md_1ac167ccf210f3f74d7607a872e4c12028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -728,13 +728,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="161" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="161" bodyend="169"/>
+        <location file="Source/Document/MarkdownCommandWriter.cpp" line="160" column="1" bodyfile="Source/Document/MarkdownCommandWriter.cpp" bodystart="160" bodyend="168"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provides markdown utility write functions. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="29" column="1"/>
+    <location file="Source/Document/MarkdownCommandWriter.cpp" line="28" column="1"/>
   </compounddef>
 </doxygen>

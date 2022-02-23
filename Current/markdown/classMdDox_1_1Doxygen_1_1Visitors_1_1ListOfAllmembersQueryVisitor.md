@@ -34,7 +34,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/ListOfAllMembersQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~listofallmembersqueryvisitor"></a>
 <h2>~ListOfAllMembersQueryVisitor</h2>
 <span class="bold-text"><b>~ListOfAllMembersQueryVisitor</b></span>
@@ -45,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/ListOfAllMembersQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedmember"></a>
 <h2>visitedMember</h2>
@@ -82,7 +80,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -105,7 +102,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/ListOfAllMembersQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

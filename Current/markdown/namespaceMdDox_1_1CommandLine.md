@@ -22,26 +22,21 @@
 </ul>
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParseOption</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#parser" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Parser</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#scanner" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Scanner</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="structMdDox_1_1CommandLine_1_1Switch.md#switch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switch</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Token.md#token" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Token</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#parseoption">ParseOption</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#parser">Parser</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Scanner.md#scanner">Scanner</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="structMdDox_1_1CommandLine_1_1Switch.md#switch">Switch</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Token.md#token">Token</a>
+</div>
 <a id="enums"></a>
 <h2>Enums</h2>
 <span class="icon-list-item"><a href="#tokentype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TokenType</span>
@@ -53,7 +48,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Option.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
-<br/>
 <a id="tokentype"></a>
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
@@ -107,7 +101,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Token.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

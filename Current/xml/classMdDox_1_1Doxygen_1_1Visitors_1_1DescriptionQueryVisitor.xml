@@ -144,14 +144,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="607">
+      <node id="608">
         <label>MdDox::Doxygen::Visitors::DescriptionQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor"/>
       </node>
-      <node id="608">
+      <node id="609">
         <label>MdDox::DescriptionWriter</label>
         <link refid="classMdDox_1_1DescriptionWriter"/>
-        <childnode refid="607" relation="public-inheritance">
+        <childnode refid="608" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

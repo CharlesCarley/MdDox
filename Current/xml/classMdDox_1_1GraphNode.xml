@@ -42,32 +42,32 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="826">
+      <node id="827">
         <label>MdDox::GraphNode</label>
         <link refid="classMdDox_1_1GraphNode"/>
-        <childnode refid="827" relation="public-inheritance">
+        <childnode refid="828" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="827">
+      <node id="828">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="828">
+      <node id="829">
         <label>MdDox::GraphNode</label>
         <link refid="classMdDox_1_1GraphNode"/>
-        <childnode refid="829" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="829">
-        <label>MdDox::Xml::Node</label>
-        <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="830" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
+        <childnode refid="830" relation="public-inheritance">
         </childnode>
       </node>
       <node id="830">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+        <childnode refid="831" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="831">
         <label>bool</label>
       </node>
     </collaborationgraph>

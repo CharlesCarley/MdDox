@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "MdDoxTree/Config.h"
+#include "Utils/Config.h"
 #include "TestDirectory.h"
 #include "Utils/Exception.h"
 #include "gtest/gtest.h"

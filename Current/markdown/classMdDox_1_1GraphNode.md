@@ -32,7 +32,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.cpp#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.cpp</span>
 </a>
 </span>
-<br/>
 <a id="graphnode"></a>
 <h2>GraphNode</h2>
 <span class="bold-text"><b>GraphNode</b></span>
@@ -40,16 +39,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#_autodelete" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_autoDelete</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#_autodelete">_autoDelete</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="graphnode"></a>
 <h2>GraphNode</h2>
@@ -65,16 +63,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#_autodelete" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_autoDelete</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#_autodelete">_autoDelete</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GraphWriter.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GraphWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

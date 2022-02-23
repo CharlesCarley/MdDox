@@ -7,128 +7,128 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <includedby refid="DoxygenIndexQuery_8cpp" local="yes">Tools/Doxygen/DoxygenIndexQuery.cpp</includedby>
     <incdepgraph>
-      <node id="6368">
+      <node id="6655">
         <label>Utils/Console.h</label>
-        <childnode refid="6356" relation="include">
+        <childnode refid="6643" relation="include">
         </childnode>
       </node>
-      <node id="6362">
+      <node id="6649">
         <label>iomanip</label>
       </node>
-      <node id="6354">
+      <node id="6641">
         <label>functional</label>
       </node>
-      <node id="6364">
+      <node id="6651">
         <label>Utils/Exception.h</label>
-        <childnode refid="6365" relation="include">
+        <childnode refid="6652" relation="include">
         </childnode>
-        <childnode refid="6366" relation="include">
+        <childnode refid="6653" relation="include">
         </childnode>
-        <childnode refid="6367" relation="include">
+        <childnode refid="6654" relation="include">
         </childnode>
-        <childnode refid="6368" relation="include">
+        <childnode refid="6655" relation="include">
         </childnode>
-        <childnode refid="6356" relation="include">
+        <childnode refid="6643" relation="include">
         </childnode>
       </node>
-      <node id="6366">
+      <node id="6653">
         <label>stdexcept</label>
       </node>
-      <node id="6360">
+      <node id="6647">
         <label>string</label>
       </node>
-      <node id="6353">
+      <node id="6640">
         <label>Doxygen.h</label>
-        <childnode refid="6354" relation="include">
+        <childnode refid="6641" relation="include">
         </childnode>
-        <childnode refid="6355" relation="include">
+        <childnode refid="6642" relation="include">
         </childnode>
-        <childnode refid="6356" relation="include">
+        <childnode refid="6643" relation="include">
         </childnode>
-        <childnode refid="6363" relation="include">
+        <childnode refid="6650" relation="include">
         </childnode>
-        <childnode refid="6364" relation="include">
+        <childnode refid="6651" relation="include">
         </childnode>
       </node>
-      <node id="6352">
+      <node id="6639">
         <label>Tools/Doxygen/DoxygenIndexQuery.h</label>
         <link refid="DoxygenIndexQuery_8h"/>
-        <childnode refid="6353" relation="include">
+        <childnode refid="6640" relation="include">
         </childnode>
       </node>
-      <node id="6365">
+      <node id="6652">
         <label>exception</label>
       </node>
-      <node id="6358">
+      <node id="6645">
         <label>fstream</label>
       </node>
-      <node id="6363">
+      <node id="6650">
         <label>Xml/Node.h</label>
-        <childnode refid="6354" relation="include">
+        <childnode refid="6641" relation="include">
         </childnode>
-        <childnode refid="6355" relation="include">
+        <childnode refid="6642" relation="include">
         </childnode>
-        <childnode refid="6356" relation="include">
+        <childnode refid="6643" relation="include">
         </childnode>
       </node>
-      <node id="6356">
+      <node id="6643">
         <label>Utils/String.h</label>
-        <childnode refid="6357" relation="include">
+        <childnode refid="6644" relation="include">
         </childnode>
-        <childnode refid="6358" relation="include">
+        <childnode refid="6645" relation="include">
         </childnode>
-        <childnode refid="6359" relation="include">
+        <childnode refid="6646" relation="include">
         </childnode>
-        <childnode refid="6360" relation="include">
+        <childnode refid="6647" relation="include">
         </childnode>
-        <childnode refid="6355" relation="include">
+        <childnode refid="6642" relation="include">
         </childnode>
-        <childnode refid="6361" relation="include">
+        <childnode refid="6648" relation="include">
         </childnode>
-        <childnode refid="6362" relation="include">
+        <childnode refid="6649" relation="include">
         </childnode>
       </node>
-      <node id="6361">
+      <node id="6648">
         <label>vector</label>
       </node>
-      <node id="6367">
+      <node id="6654">
         <label>utility</label>
       </node>
-      <node id="6359">
+      <node id="6646">
         <label>sstream</label>
       </node>
-      <node id="6357">
+      <node id="6644">
         <label>deque</label>
       </node>
-      <node id="6355">
+      <node id="6642">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6369">
+      <node id="6656">
         <label>Tools/Doxygen/DoxygenIndexQuery.h</label>
         <link refid="DoxygenIndexQuery_8h"/>
-        <childnode refid="6370" relation="include">
+        <childnode refid="6657" relation="include">
         </childnode>
-        <childnode refid="6372" relation="include">
+        <childnode refid="6659" relation="include">
         </childnode>
-        <childnode refid="6373" relation="include">
+        <childnode refid="6660" relation="include">
         </childnode>
       </node>
-      <node id="6373">
+      <node id="6660">
         <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
       </node>
-      <node id="6372">
+      <node id="6659">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="6370">
+      <node id="6657">
         <label>Source/MdDoxTree/IndexPageWriter.h</label>
-        <childnode refid="6371" relation="include">
+        <childnode refid="6658" relation="include">
         </childnode>
-        <childnode refid="6372" relation="include">
+        <childnode refid="6659" relation="include">
         </childnode>
       </node>
-      <node id="6371">
+      <node id="6658">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

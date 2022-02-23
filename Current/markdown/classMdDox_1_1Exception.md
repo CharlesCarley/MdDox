@@ -54,7 +54,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <a id="_string"></a>
 <h2>_string</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -65,7 +64,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="exception"></a>
 <h2>Exception</h2>
@@ -79,16 +77,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#debugbreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Console.md#debugbreak">debugBreak</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="exception"></a>
 <h2>Exception</h2>
@@ -102,16 +99,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#debugbreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Console.md#debugbreak">debugBreak</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="exception"></a>
 <h2>Exception</h2>
@@ -132,20 +128,19 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Exception.md#what" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">what</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Exception.md#what">what</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#debugbreak" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">debugBreak</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Console.md#debugbreak">debugBreak</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="what"></a>
 <h2>what</h2>
@@ -158,7 +153,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Exception.h#L67" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Exception.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

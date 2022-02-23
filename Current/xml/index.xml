@@ -186,8 +186,12 @@
   <compound refid="classMdDox_1_1CompoundReference" kind="class"><name>MdDox::CompoundReference</name>
     <member refid="classMdDox_1_1CompoundReference_1a28315ba2ef71e7ee6764f0bf04782b9b" kind="variable"><name>_kind</name></member>
     <member refid="classMdDox_1_1CompoundReference_1a1132cc530039092767fa0614fd8ef5ec" kind="function"><name>CompoundReference</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a1132cc530039092767fa0614fd8ef5ec" kind="function"><name>CompoundReference</name></member>
     <member refid="classMdDox_1_1CompoundReference_1a01ef9f3882c69dffcf05f15f6a4f7cb3" kind="function"><name>~CompoundReference</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a01ef9f3882c69dffcf05f15f6a4f7cb3" kind="function"><name>~CompoundReference</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a65470cd8f21004cc5301dc011a14f088" kind="function"><name>getKind</name></member>
     <member refid="classMdDox_1_1CompoundReference_1ac6b6c8bcdd32060c1663d011e431e40d" kind="function"><name>getKind</name></member>
+    <member refid="classMdDox_1_1CompoundReference_1a83f1a3e75316ae7bc582c59a2c8d4276" kind="function"><name>setKind</name></member>
     <member refid="classMdDox_1_1CompoundReference_1a83f1a3e75316ae7bc582c59a2c8d4276" kind="function"><name>setKind</name></member>
   </compound>
   <compound refid="classMdDox_1_1Config" kind="class"><name>MdDox::Config</name>
@@ -273,43 +277,85 @@
     <member refid="classMdDox_1_1DirectoryPageWriter_1aec36e28100081c53773ade31c601e0a4" kind="function"><name>~DirectoryPageWriter</name></member>
   </compound>
   <compound refid="classMdDox_1_1DocumentWriter" kind="class"><name>MdDox::DocumentWriter</name>
+    <member refid="classMdDox_1_1DocumentWriter_1ac7252beb919e2d899928ed0a88758a4a" kind="variable"><name>_imageDir</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a148e44b296f6860dddb07334271e28ee" kind="variable"><name>_style</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1ac95b89701f2d725e03e82ab142007ddb" kind="function"><name>DocumentWriter</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1ac95b89701f2d725e03e82ab142007ddb" kind="function"><name>DocumentWriter</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a297f732e031126c821090feebf2adcc5" kind="function"><name>~DocumentWriter</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a297f732e031126c821090feebf2adcc5" kind="function"><name>~DocumentWriter</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kind="function"><name>addSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kind="function"><name>addSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea" kind="function"><name>anchor</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea" kind="function"><name>anchor</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a82149b0063947f6d17da752ab655543e" kind="function"><name>beginBlockQuote</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a82149b0063947f6d17da752ab655543e" kind="function"><name>beginBlockQuote</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aa8852909709b481cd3c8aaa3f4421f61" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aa8852909709b481cd3c8aaa3f4421f61" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233" kind="function"><name>beginListItem</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233" kind="function"><name>beginListItem</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1afe20a43ef1d323eac47772b9c00f2964" kind="function"><name>beginMethod</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1afe20a43ef1d323eac47772b9c00f2964" kind="function"><name>beginMethod</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94" kind="function"><name>beginParagraph</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94" kind="function"><name>beginParagraph</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a10eefda6ab1d3757ceac90ce16bcc4ff" kind="function"><name>beginSectionBar</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a10eefda6ab1d3757ceac90ce16bcc4ff" kind="function"><name>beginSectionBar</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56" kind="function"><name>boldText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56" kind="function"><name>boldText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a591bdfcc465196d3e456849ea0cfda36" kind="function"><name>code</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a591bdfcc465196d3e456849ea0cfda36" kind="function"><name>code</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee" kind="function"><name>embedContent</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee" kind="function"><name>embedContent</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1adec4b03fabcff6f1c22a04ee3f1546aa" kind="function"><name>embedContentLink</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1adec4b03fabcff6f1c22a04ee3f1546aa" kind="function"><name>embedContentLink</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a7b90d2ddf0e732ad50db882d7b895967" kind="function"><name>endBlockQuote</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a7b90d2ddf0e732ad50db882d7b895967" kind="function"><name>endBlockQuote</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a1c87d667be08f269118f087c05fe2977" kind="function"><name>endDocument</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a1c87d667be08f269118f087c05fe2977" kind="function"><name>endDocument</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed" kind="function"><name>endList</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed" kind="function"><name>endList</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a2106a2fb02cb51be6ee61c3415cd0f22" kind="function"><name>endMethod</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a2106a2fb02cb51be6ee61c3415cd0f22" kind="function"><name>endMethod</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64" kind="function"><name>endSection</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64" kind="function"><name>endSection</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1af42b4463984f691c6e2798d7496a3df0" kind="function"><name>endSectionBar</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1af42b4463984f691c6e2798d7496a3df0" kind="function"><name>endSectionBar</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a8ace2c1278e7f0b5b6e7271e4fc30547" kind="function"><name>horizontalRule</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a8ace2c1278e7f0b5b6e7271e4fc30547" kind="function"><name>horizontalRule</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a1bfefc290328e0a867869dfe7b25d126" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a1bfefc290328e0a867869dfe7b25d126" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393" kind="function"><name>inlineText</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393" kind="function"><name>inlineText</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a27da8869f5b3463dc4aa46c2a1a1f0e3" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a27da8869f5b3463dc4aa46c2a1a1f0e3" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kind="function"><name>lineBreak</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kind="function"><name>lineBreak</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kind="function"><name>linkRefIcon</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kind="function"><name>linkRefIcon</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a96bb9b4cca54c9085c90a9ce3b479e09" kind="function"><name>linkUrl</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a96bb9b4cca54c9085c90a9ce3b479e09" kind="function"><name>linkUrl</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a84c0d322573c5713d6a178cebc2eea53" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a84c0d322573c5713d6a178cebc2eea53" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1a80c7fecb7cb782e43068e62f8b2828aa" kind="function"><name>listItem</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1a80c7fecb7cb782e43068e62f8b2828aa" kind="function"><name>listItem</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1abf703ade359cd1d96f9451ef0105d678" kind="function"><name>paragraph</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1abf703ade359cd1d96f9451ef0105d678" kind="function"><name>paragraph</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1ad431760864ce302ffbf62dee5c8e5e01" kind="function"><name>setImageDir</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aea2f22ecc2dbb8da9da6681f0f2a96d3" kind="function"><name>setStylesheet</name></member>
+    <member refid="classMdDox_1_1DocumentWriter_1aec44df9a56781980b83e5772f17c69b7" kind="function"><name>typewriterText</name></member>
     <member refid="classMdDox_1_1DocumentWriter_1aec44df9a56781980b83e5772f17c69b7" kind="function"><name>typewriterText</name></member>
   </compound>
   <compound refid="classMdDox_1_1DotWriter" kind="class"><name>MdDox::DotWriter</name>
@@ -2230,47 +2276,87 @@
   <compound refid="classMdDox_1_1HtmlDocumentWriter" kind="class"><name>MdDox::HtmlDocumentWriter</name>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1add1852f55f8776f3c06795c0a9fb746b" kind="variable"><name>_sectionDepth</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" kind="function"><name>writeSection</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" kind="function"><name>writeSection</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a43d31bcaf97f0816559d3c7bccee0db9" kind="function"><name>HtmlDocumentWriter</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a43d31bcaf97f0816559d3c7bccee0db9" kind="function"><name>HtmlDocumentWriter</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" kind="function"><name>~HtmlDocumentWriter</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" kind="function"><name>~HtmlDocumentWriter</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" kind="function"><name>addSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" kind="function"><name>addSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" kind="function"><name>anchor</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" kind="function"><name>anchor</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" kind="function"><name>beginBlockQuote</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" kind="function"><name>beginBlockQuote</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" kind="function"><name>beginList</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" kind="function"><name>beginListItem</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" kind="function"><name>beginListItem</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" kind="function"><name>beginMethod</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" kind="function"><name>beginMethod</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" kind="function"><name>beginParagraph</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" kind="function"><name>beginParagraph</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" kind="function"><name>beginSection</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" kind="function"><name>beginSectionBar</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" kind="function"><name>beginSectionBar</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" kind="function"><name>boldText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" kind="function"><name>boldText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" kind="function"><name>code</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" kind="function"><name>code</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" kind="function"><name>embedContent</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" kind="function"><name>embedContent</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" kind="function"><name>embedContentLink</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" kind="function"><name>embedContentLink</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" kind="function"><name>embedContentLinkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" kind="function"><name>endBlockQuote</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" kind="function"><name>endBlockQuote</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" kind="function"><name>endDocument</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" kind="function"><name>endDocument</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" kind="function"><name>endList</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" kind="function"><name>endList</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" kind="function"><name>endListItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" kind="function"><name>endMethod</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" kind="function"><name>endMethod</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" kind="function"><name>endParagraph</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" kind="function"><name>endSection</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" kind="function"><name>endSection</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" kind="function"><name>endSectionBar</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" kind="function"><name>endSectionBar</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kind="function"><name>horizontalRule</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kind="function"><name>horizontalRule</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kind="function"><name>image</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" kind="function"><name>inlineText</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" kind="function"><name>inlineText</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" kind="function"><name>italicText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kind="function"><name>lineBreak</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" kind="function"><name>lineBreak</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" kind="function"><name>linkRef</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" kind="function"><name>linkRefIcon</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" kind="function"><name>linkRefIcon</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" kind="function"><name>linkText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" kind="function"><name>linkUrl</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" kind="function"><name>linkUrl</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" kind="function"><name>listIcon</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" kind="function"><name>listItem</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" kind="function"><name>listItem</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" kind="function"><name>paragraph</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" kind="function"><name>paragraph</name></member>
+    <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" kind="function"><name>typewriterText</name></member>
     <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" kind="function"><name>typewriterText</name></member>
   </compound>
   <compound refid="classMdDox_1_1IconSet" kind="class"><name>MdDox::IconSet</name>
     <member refid="classMdDox_1_1IconSet_1a827443ad25f19890725b2ec9f2a82bdd" kind="function"><name>fileName</name></member>
+    <member refid="classMdDox_1_1IconSet_1a80695c22b317d71d9a75d74e4ce92335" kind="function"><name>fileName</name></member>
   </compound>
   <compound refid="classMdDox_1_1IndexCache" kind="class"><name>MdDox::IndexCache</name>
     <member refid="classMdDox_1_1IndexCache_1a1ee6b3a8f1cb1c3d3f917547c1f70549" kind="typedef"><name>Array</name></member>
@@ -2323,16 +2409,6 @@
     <member refid="classMdDox_1_1KeyIndexCache_1a7fae4b84bbe5f79530d6019454f1d36b" kind="function"><name>insert</name></member>
     <member refid="classMdDox_1_1KeyIndexCache_1a595fbc7f9dae84f151e9a0d9b204d7b7" kind="function"><name>size</name></member>
   </compound>
-  <compound refid="classMdDox_1_1Link" kind="class"><name>MdDox::Link</name>
-    <member refid="classMdDox_1_1Link_1a6034b9b713579fffe782af7c1943dd39" kind="variable"><name>_input</name></member>
-    <member refid="classMdDox_1_1Link_1a8bdafdb0a903e68bbacaeed067c2c7e9" kind="function"><name>getInput</name></member>
-    <member refid="classMdDox_1_1Link_1adf11b211d5ef482bbe21d62b0003ec87" kind="function"><name>getOutput</name></member>
-    <member refid="classMdDox_1_1Link_1a1d5e89a2e19fec242aa2cf77e1884ac9" kind="function"><name>getPath</name></member>
-    <member refid="classMdDox_1_1Link_1a02ab1d19e04912adcb6869ce6c4673c9" kind="function"><name>getRelativeInput</name></member>
-    <member refid="classMdDox_1_1Link_1a67e992a3e5f241cb628b3e823e36befc" kind="function"><name>relOutput</name></member>
-    <member refid="classMdDox_1_1Link_1a409cd59619d88bd10f7831b6d753c1ce" kind="function"><name>setInput</name></member>
-    <member refid="classMdDox_1_1Link_1a0bb51260313a218f789e7579a7929f05" kind="function"><name>swapInput</name></member>
-  </compound>
   <compound refid="classMdDox_1_1LinkedTextWriter" kind="class"><name>MdDox::LinkedTextWriter</name>
     <member refid="classMdDox_1_1LinkedTextWriter_1ae3f267cee919aeaed4bb94bb6e97b679" kind="variable"><name>_out</name></member>
     <member refid="classMdDox_1_1LinkedTextWriter_1a5a2d4b02ea4606d24c55eef2b19b477e" kind="variable"><name>_stream</name></member>
@@ -2351,18 +2427,6 @@
     <member refid="classMdDox_1_1ListItemVisitor_1af28ee599e5d8bbb6d21143f81fa4852d" kind="function"><name>ListItemVisitor</name></member>
     <member refid="classMdDox_1_1ListItemVisitor_1abec5f0899099abba75d285e9d8e51841" kind="function"><name>write</name></member>
   </compound>
-  <compound refid="classMdDox_1_1Location" kind="class"><name>MdDox::Location</name>
-    <member refid="classMdDox_1_1Location_1aa28dcae5911b4481a3f62f4270be4545" kind="variable"><name>_header</name></member>
-    <member refid="classMdDox_1_1Location_1a9bd7f36aab255c6e648951fdcea7664e" kind="variable"><name>_source</name></member>
-    <member refid="classMdDox_1_1Location_1a6982b935c06890739f0f3b1e060c6c3a" kind="function"><name>Location</name></member>
-    <member refid="classMdDox_1_1Location_1a6571e45690fd642676ef4efac76b7819" kind="function"><name>Location</name></member>
-    <member refid="classMdDox_1_1Location_1ab3f6d1dbd3c36f867d4fdb223fd6b463" kind="function"><name>~Location</name></member>
-    <member refid="classMdDox_1_1Location_1abf5318c6e00aa5ae185d7335a93cc58c" kind="function"><name>getHeader</name></member>
-    <member refid="classMdDox_1_1Location_1ade484d038c895bd9b6fc1b4cade4fc81" kind="function"><name>getHeader</name></member>
-    <member refid="classMdDox_1_1Location_1a83d6f121e6d70ec14cc9baba67b2fa95" kind="function"><name>getRepoFile</name></member>
-    <member refid="classMdDox_1_1Location_1afabe32817cf768601218030e409a01ae" kind="function"><name>getSource</name></member>
-    <member refid="classMdDox_1_1Location_1aa359f486ccb2068af9f6d60cecdfa95f" kind="function"><name>getSource</name></member>
-  </compound>
   <compound refid="classMdDox_1_1LocationWriter" kind="class"><name>MdDox::LocationWriter</name>
     <member refid="classMdDox_1_1LocationWriter_1a3078bab0955488084e2e4caffe63c377" kind="variable"><name>_out</name></member>
     <member refid="classMdDox_1_1LocationWriter_1af4cdfc377cc44f0870c4ae3c519a38c8" kind="variable"><name>_stream</name></member>
@@ -2372,8 +2436,12 @@
   </compound>
   <compound refid="classMdDox_1_1MarkdownDocumentWriter" kind="class"><name>MdDox::MarkdownDocumentWriter</name>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1aec6710fea7e297e171c6005fc39be777" kind="function"><name>MarkdownDocumentWriter</name></member>
+    <member refid="classMdDox_1_1MarkdownDocumentWriter_1aec6710fea7e297e171c6005fc39be777" kind="function"><name>MarkdownDocumentWriter</name></member>
+    <member refid="classMdDox_1_1MarkdownDocumentWriter_1ac27f2c8cdde0047ca0c295b4d069ad75" kind="function"><name>~MarkdownDocumentWriter</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1ac27f2c8cdde0047ca0c295b4d069ad75" kind="function"><name>~MarkdownDocumentWriter</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" kind="function"><name>beginDocument</name></member>
+    <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" kind="function"><name>code</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" kind="function"><name>code</name></member>
   </compound>
   <compound refid="classMdDox_1_1MemberDefListingWriter" kind="class"><name>MdDox::MemberDefListingWriter</name>
@@ -2410,8 +2478,13 @@
   <compound refid="classMdDox_1_1MemberReference" kind="class"><name>MdDox::MemberReference</name>
     <member refid="classMdDox_1_1MemberReference_1a6094a6a8e644a5567b700ede062558ed" kind="variable"><name>_kind</name></member>
     <member refid="classMdDox_1_1MemberReference_1a1c532b2f1cf8689df2c0a9c950f491f2" kind="function"><name>MemberReference</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a1c532b2f1cf8689df2c0a9c950f491f2" kind="function"><name>MemberReference</name></member>
     <member refid="classMdDox_1_1MemberReference_1aa64115565d417aa32dfc7697b1e90abb" kind="function"><name>~MemberReference</name></member>
+    <member refid="classMdDox_1_1MemberReference_1aa64115565d417aa32dfc7697b1e90abb" kind="function"><name>~MemberReference</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a2cc383744ae39efba753bb79d120f9f6" kind="function"><name>findParent</name></member>
     <member refid="classMdDox_1_1MemberReference_1a22463d3ae05194a06cd03945a09a6795" kind="function"><name>getKind</name></member>
+    <member refid="classMdDox_1_1MemberReference_1ad691e444a509225cf84879ac2307d007" kind="function"><name>getKind</name></member>
+    <member refid="classMdDox_1_1MemberReference_1a98349bb66a93348ee0768f2702d48f37" kind="function"><name>setKind</name></member>
     <member refid="classMdDox_1_1MemberReference_1a98349bb66a93348ee0768f2702d48f37" kind="function"><name>setKind</name></member>
   </compound>
   <compound refid="unionMdDox_1_1Merge" kind="union"><name>MdDox::Merge</name>
@@ -2601,39 +2674,40 @@
     <member refid="classMdDox_1_1Reference_1a641e977cf54afb76665e7eccb8dfe193" kind="variable"><name>_name</name></member>
     <member refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" kind="variable"><name>_ref</name></member>
     <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" kind="function"><name>Reference</name></member>
+    <member refid="classMdDox_1_1Reference_1a2d3eaa957e8c1773d56ab855c700bfc0" kind="function"><name>Reference</name></member>
+    <member refid="classMdDox_1_1Reference_1af40d09cc2fcfd762e7478ac106d1690d" kind="function"><name>~Reference</name></member>
     <member refid="classMdDox_1_1Reference_1af40d09cc2fcfd762e7478ac106d1690d" kind="function"><name>~Reference</name></member>
     <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" kind="function"><name>empty</name></member>
+    <member refid="classMdDox_1_1Reference_1af48001d963aa2f609742e19751dcce0c" kind="function"><name>empty</name></member>
     <member refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kind="function"><name>getId</name></member>
+    <member refid="classMdDox_1_1Reference_1a3ae6238a8963079359aff5b533d8b974" kind="function"><name>getId</name></member>
     <member refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kind="function"><name>getName</name></member>
+    <member refid="classMdDox_1_1Reference_1a9e52c3e5882705494b6db50a7deaa933" kind="function"><name>getName</name></member>
     <member refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" kind="function"><name>setId</name></member>
+    <member refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" kind="function"><name>setId</name></member>
+    <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" kind="function"><name>setName</name></member>
     <member refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" kind="function"><name>setName</name></member>
   </compound>
   <compound refid="classMdDox_1_1ReferenceTable" kind="class"><name>MdDox::ReferenceTable</name>
     <member refid="classMdDox_1_1ReferenceTable_1ae67375d270930dfda6849064d89d2aa4" kind="variable"><name>_compound</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1aac5dc876b37deca7417133b74bcdf7ce" kind="variable"><name>_members</name></member>
-    <member refid="classMdDox_1_1ReferenceTable_1aeda4211423cd43f9fdfb726929d17b13" kind="variable"><name>_nameMap</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a2760ee70b5c147212d7d317901852a7f" kind="variable"><name>_nameMap</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a98b7ffe0882473787c42beb8ddb4a408" kind="function"><name>insertByName</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1a98b7ffe0882473787c42beb8ddb4a408" kind="function"><name>insertByName</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1ae56c4956965b4d72d9bee9c0c871a3f0" kind="function"><name>ReferenceTable</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae56c4956965b4d72d9bee9c0c871a3f0" kind="function"><name>ReferenceTable</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae277547505cd01db0b4c064849d270cf" kind="function"><name>~ReferenceTable</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1ae277547505cd01db0b4c064849d270cf" kind="function"><name>~ReferenceTable</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1a060996f6659b75d0b6d2e32497f9faf1" kind="function"><name>findByName</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a060996f6659b75d0b6d2e32497f9faf1" kind="function"><name>findByName</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1a663a4326e8e6eaa76b2faed0d0d4321e" kind="function"><name>getCompoundRef</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1aa909c6604017a7e6d6db139965b8c76e" kind="function"><name>getCompoundRef</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a07be04b9d108130d76d4c0c103f60112" kind="function"><name>getMemberRef</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1ada3aaba29f24b44954760968731232b3" kind="function"><name>getMemberRef</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" kind="function"><name>insertCompound</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1a46d98dfece4e2b48623d9e965fdeef06" kind="function"><name>insertCompound</name></member>
     <member refid="classMdDox_1_1ReferenceTable_1ae6b39d6e36163610120be728c8b688fe" kind="function"><name>insertMember</name></member>
-  </compound>
-  <compound refid="classMdDox_1_1RepoFile" kind="class"><name>MdDox::RepoFile</name>
-    <member refid="classMdDox_1_1RepoFile_1a91fd11a054ee33b3dd476de19fa0d56d" kind="variable"><name>_file</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a507e6b9d0a5199d4463a873fe47e5cd7" kind="function"><name>RepoFile</name></member>
-    <member refid="classMdDox_1_1RepoFile_1afa9c60f3fc727f33aa4c60064292b524" kind="function"><name>RepoFile</name></member>
-    <member refid="classMdDox_1_1RepoFile_1aea9d7939e3dee1be9dc3b4252cc6e292" kind="function"><name>RepoFile</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a6d888df0e48bcb80fd736005a6590715" kind="function"><name>~RepoFile</name></member>
-    <member refid="classMdDox_1_1RepoFile_1ab1ce5c61af97162889afb0b35b1054ac" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a4c2d6088c2014c155040be607e5af8bf" kind="function"><name>getDocUrl</name></member>
-    <member refid="classMdDox_1_1RepoFile_1af0ee8c9729c22dc5c10ea6221c851cbe" kind="function"><name>getFile</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a74eaa54f5c99e2331d515dbfafb183fa" kind="function"><name>getRefId</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a352677f02bc402c2b71db92a16224816" kind="function"><name>getSiteUrl</name></member>
-    <member refid="classMdDox_1_1RepoFile_1ae3e34ed925fba77dac4717130617f33e" kind="function"><name>getSrcUrl</name></member>
-    <member refid="classMdDox_1_1RepoFile_1a92b9b5ea938b138a86f489c445f81cd4" kind="function"><name>setFile</name></member>
+    <member refid="classMdDox_1_1ReferenceTable_1ae6b39d6e36163610120be728c8b688fe" kind="function"><name>insertMember</name></member>
   </compound>
   <compound refid="classMdDox_1_1ResourceCompiler_1_1Application" kind="class"><name>MdDox::ResourceCompiler::Application</name>
     <member refid="classMdDox_1_1ResourceCompiler_1_1Application_1a44ce939a52aea6f5ce6fa8649ee57bd3" kind="variable"><name>_input</name></member>
@@ -2762,10 +2836,7 @@
     <member refid="classMdDox_1_1SiteBuilder_1a5c1bf4f95177cc6b9221d579cc79555a" kind="function"><name>~SiteBuilder</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" kind="function"><name>buildFromXml</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a6f1d0e35196991ee8b6e28eac813d917" kind="function"><name>findDirectory</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1af6113a0e0289ffafcee04e2cd680eb87" kind="function"><name>findMember</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a231c12247583e66a79899469a152b63f" kind="function"><name>findName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1af6dbfd644fcf3daea5e94745c0f279e3" kind="function"><name>findNamespace</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1affbd940cb104c6824a373b4b62236205" kind="function"><name>findReference</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a6eaef2266419ab7676ad415c883efad8" kind="function"><name>getCompoundName</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a13d889c67d37360ce5c46f8596ac6fb0" kind="function"><name>getCompoundRef</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a0e191e2993aef67a4aac62a8f26dadc3" kind="function"><name>getMemberRef</name></member>
@@ -2773,26 +2844,8 @@
     <member refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" kind="function"><name>insertCompound</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" kind="function"><name>insertMember</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" kind="function"><name>loadConfig</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1af474f1bee647fd415b9603303e8697c5" kind="function"><name>registerCompound</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1ad5a401a588616f6630aab29704a1b468" kind="function"><name>registerDot</name></member>
-    <member refid="classMdDox_1_1SiteBuilder_1a9ea5ef340517d589c2a5d2cabfcd5e02" kind="function"><name>registerMember</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kind="function"><name>get</name></member>
-  </compound>
-  <compound refid="classMdDox_1_1SourceFile" kind="class"><name>MdDox::SourceFile</name>
-    <member refid="classMdDox_1_1SourceFile_1a79744c668995018b7b0e7bf499a01843" kind="variable"><name>_file</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a1ff28ea7a44aa35c2d3910f582ca8e2c" kind="variable"><name>_line</name></member>
-    <member refid="classMdDox_1_1SourceFile_1acdf8941b8c74c12ade38c9bfcfd3df69" kind="function"><name>SourceFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a790e78ab622d1e6b5dada4d3be4326d6" kind="function"><name>SourceFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1aa45080fe9b7df8c279a1edb82fb8731a" kind="function"><name>~SourceFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a6d3a453f8d73f740b9c052751b1a0045" kind="function"><name>directory</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a64e2a0c172976d9267d3d1e709ede9c3" kind="function"><name>empty</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a5b50157a57f7ddbfc33a26bf25c661da" kind="function"><name>fileName</name></member>
-    <member refid="classMdDox_1_1SourceFile_1adcc0d563c79fde68348987fc4eb3f40d" kind="function"><name>fullExtension</name></member>
-    <member refid="classMdDox_1_1SourceFile_1aaa97fa40a6052e9f64e69890f74ad9a0" kind="function"><name>getLine</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a0a3f0a5b382169a8f2e8473a683b82c2" kind="function"><name>getLinkToRepo</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a84b870e3b0de287dcf28f35d486d5aa6" kind="function"><name>repoFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1a1584c73f8966ab30c1b5af9da8935c55" kind="function"><name>setFile</name></member>
-    <member refid="classMdDox_1_1SourceFile_1ac763268515879d5a00c7c708f59f74f8" kind="function"><name>setLine</name></member>
   </compound>
   <compound refid="classMdDox_1_1StringUtils" kind="class"><name>MdDox::StringUtils</name>
     <member refid="classMdDox_1_1StringUtils_1a25d7c52c64b0071b83d11feee43ea0cb" kind="function"><name>generate</name></member>
@@ -2968,40 +3021,86 @@
     <member refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9ae71afe0ae8a0d82f5d6b9d81c5e6c2" kind="enumvalue"><name>CS_YELLOW</name></member>
     <member refid="namespaceMdDox_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" kind="enumvalue"><name>CS_WHITE</name></member>
     <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kind="enum"><name>IconId</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" kind="enumvalue"><name>ICO_NONE</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" kind="enumvalue"><name>ICO_BACK</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" kind="enumvalue"><name>ICO_DEBUG</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kind="enumvalue"><name>ICO_FILE</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" kind="enumvalue"><name>ICO_FOLDER</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" kind="enumvalue"><name>ICO_HOME</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" kind="enumvalue"><name>ICO_H_SPACE_12</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" kind="enumvalue"><name>ICO_H_SPACE_24</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" kind="enumvalue"><name>ICO_JUMP_TO_TOP</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" kind="enumvalue"><name>ICO_LINK</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" kind="enumvalue"><name>ICO_CODE_BEHIND</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" kind="enumvalue"><name>ICO_CLASS</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kind="enumvalue"><name>ICO_ENUM</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" kind="enumvalue"><name>ICO_VAR_PRIVATE</name></member>
-    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" kind="enumvalue"><name>ICO_NAMESPACE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a80e34209951d4958e78ecaf9807e3e77" kind="enumvalue"><name>ICO_NONE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a6f8c662423222f8a45009e14a2435782" kind="enumvalue"><name>ICO_BACK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a21f49d54b1692f7e6136c3ee7e238a1f" kind="enumvalue"><name>ICO_DEBUG</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kind="enumvalue"><name>ICO_FILE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kind="enumvalue"><name>ICO_FOLDER</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a45631a8beddf9fa8726c10779b7ea6b6" kind="enumvalue"><name>ICO_HOME</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af78bb770e61ef8702e6e8684fd56618e" kind="enumvalue"><name>ICO_H_SPACE_12</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a34e865250f8de3c53bf8974b9abe94b6" kind="enumvalue"><name>ICO_H_SPACE_24</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4bcf22d7a8a91f0cefa05299e48ed15" kind="enumvalue"><name>ICO_JUMP_TO_TOP</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a56075bd5a4ab46b1ef4d08a77e3f7e10" kind="enumvalue"><name>ICO_LINK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9adbe33d58c8d62cba66934c4b361888cb" kind="enumvalue"><name>ICO_CODE_BEHIND</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9b02b86c4a6a2f37414ca8967972c565" kind="enumvalue"><name>ICO_CLASS</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad61143fedb163053fe38b0b8a4d859d7" kind="enumvalue"><name>ICO_ENUM</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad04413c984de2bd38e2b16b3949162a0" kind="enumvalue"><name>ICO_VAR_PRIVATE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a642367474f423b9ebb632b7c59e61c62" kind="enumvalue"><name>ICO_NAMESPACE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a80e34209951d4958e78ecaf9807e3e77" kind="enumvalue"><name>ICO_NONE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a6f8c662423222f8a45009e14a2435782" kind="enumvalue"><name>ICO_BACK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a21f49d54b1692f7e6136c3ee7e238a1f" kind="enumvalue"><name>ICO_DEBUG</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kind="enumvalue"><name>ICO_FILE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kind="enumvalue"><name>ICO_FOLDER</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a45631a8beddf9fa8726c10779b7ea6b6" kind="enumvalue"><name>ICO_HOME</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af78bb770e61ef8702e6e8684fd56618e" kind="enumvalue"><name>ICO_H_SPACE_12</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a34e865250f8de3c53bf8974b9abe94b6" kind="enumvalue"><name>ICO_H_SPACE_24</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4bcf22d7a8a91f0cefa05299e48ed15" kind="enumvalue"><name>ICO_JUMP_TO_TOP</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a56075bd5a4ab46b1ef4d08a77e3f7e10" kind="enumvalue"><name>ICO_LINK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9adbe33d58c8d62cba66934c4b361888cb" kind="enumvalue"><name>ICO_CODE_BEHIND</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9b02b86c4a6a2f37414ca8967972c565" kind="enumvalue"><name>ICO_CLASS</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad61143fedb163053fe38b0b8a4d859d7" kind="enumvalue"><name>ICO_ENUM</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad04413c984de2bd38e2b16b3949162a0" kind="enumvalue"><name>ICO_VAR_PRIVATE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a642367474f423b9ebb632b7c59e61c62" kind="enumvalue"><name>ICO_NAMESPACE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kind="enum"><name>IconId</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a80e34209951d4958e78ecaf9807e3e77" kind="enumvalue"><name>ICO_NONE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a6f8c662423222f8a45009e14a2435782" kind="enumvalue"><name>ICO_BACK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a21f49d54b1692f7e6136c3ee7e238a1f" kind="enumvalue"><name>ICO_DEBUG</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kind="enumvalue"><name>ICO_FILE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kind="enumvalue"><name>ICO_FOLDER</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a45631a8beddf9fa8726c10779b7ea6b6" kind="enumvalue"><name>ICO_HOME</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af78bb770e61ef8702e6e8684fd56618e" kind="enumvalue"><name>ICO_H_SPACE_12</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a34e865250f8de3c53bf8974b9abe94b6" kind="enumvalue"><name>ICO_H_SPACE_24</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4bcf22d7a8a91f0cefa05299e48ed15" kind="enumvalue"><name>ICO_JUMP_TO_TOP</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a56075bd5a4ab46b1ef4d08a77e3f7e10" kind="enumvalue"><name>ICO_LINK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9adbe33d58c8d62cba66934c4b361888cb" kind="enumvalue"><name>ICO_CODE_BEHIND</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9b02b86c4a6a2f37414ca8967972c565" kind="enumvalue"><name>ICO_CLASS</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad61143fedb163053fe38b0b8a4d859d7" kind="enumvalue"><name>ICO_ENUM</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad04413c984de2bd38e2b16b3949162a0" kind="enumvalue"><name>ICO_VAR_PRIVATE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a642367474f423b9ebb632b7c59e61c62" kind="enumvalue"><name>ICO_NAMESPACE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a80e34209951d4958e78ecaf9807e3e77" kind="enumvalue"><name>ICO_NONE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a6f8c662423222f8a45009e14a2435782" kind="enumvalue"><name>ICO_BACK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a21f49d54b1692f7e6136c3ee7e238a1f" kind="enumvalue"><name>ICO_DEBUG</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kind="enumvalue"><name>ICO_FILE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kind="enumvalue"><name>ICO_FOLDER</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a45631a8beddf9fa8726c10779b7ea6b6" kind="enumvalue"><name>ICO_HOME</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af78bb770e61ef8702e6e8684fd56618e" kind="enumvalue"><name>ICO_H_SPACE_12</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a34e865250f8de3c53bf8974b9abe94b6" kind="enumvalue"><name>ICO_H_SPACE_24</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4bcf22d7a8a91f0cefa05299e48ed15" kind="enumvalue"><name>ICO_JUMP_TO_TOP</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a56075bd5a4ab46b1ef4d08a77e3f7e10" kind="enumvalue"><name>ICO_LINK</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9adbe33d58c8d62cba66934c4b361888cb" kind="enumvalue"><name>ICO_CODE_BEHIND</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9b02b86c4a6a2f37414ca8967972c565" kind="enumvalue"><name>ICO_CLASS</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad61143fedb163053fe38b0b8a4d859d7" kind="enumvalue"><name>ICO_ENUM</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ad04413c984de2bd38e2b16b3949162a0" kind="enumvalue"><name>ICO_VAR_PRIVATE</name></member>
+    <member refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a642367474f423b9ebb632b7c59e61c62" kind="enumvalue"><name>ICO_NAMESPACE</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43e" kind="enum"><name>Options</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" kind="enumvalue"><name>OptOutputDirectory</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" kind="enumvalue"><name>OptIndexFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" kind="enumvalue"><name>OptConfigFile</name></member>
     <member refid="namespaceMdDox_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" kind="enumvalue"><name>OpMax</name></member>
-    <member refid="namespaceMdDox_1a2abc88b838d7562b62c44cada9ce9d5a" kind="typedef"><name>CompoundNameMap</name></member>
-    <member refid="namespaceMdDox_1af3cb33303f9d3f587026356b45addfea" kind="typedef"><name>CompoundReferenceMap</name></member>
+    <member refid="namespaceMdDox_1a14ee4c9e03f6618482fd7247fff84fbc" kind="typedef"><name>CompoundNameMap</name></member>
+    <member refid="namespaceMdDox_1a00aaf2c0dc6d8410ec92c48f1cf574a2" kind="typedef"><name>CompoundReferenceMap</name></member>
     <member refid="namespaceMdDox_1a884c8a93ed913456a1122242b8d94654" kind="typedef"><name>Directory</name></member>
     <member refid="namespaceMdDox_1a568c80ba180b98c6bb783385a6c8649b" kind="typedef"><name>InputFileStream</name></member>
     <member refid="namespaceMdDox_1a955ce196b4b41434c533c9ab65fd539b" kind="typedef"><name>InputStringStream</name></member>
     <member refid="namespaceMdDox_1a4c55f9803a876f4a62ca7b2200629ed0" kind="typedef"><name>IntTable</name></member>
     <member refid="namespaceMdDox_1a9601d0e9c9bcb992817361caf37a8518" kind="typedef"><name>IStream</name></member>
-    <member refid="namespaceMdDox_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" kind="typedef"><name>MemberReferenceMap</name></member>
+    <member refid="namespaceMdDox_1a39103c94739dab8275f4654bddb21bfc" kind="typedef"><name>MemberReferenceMap</name></member>
     <member refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kind="typedef"><name>OStream</name></member>
     <member refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kind="typedef"><name>OutputFileStream</name></member>
     <member refid="namespaceMdDox_1a67fc013655f72b4c048a1855ccfd58cb" kind="typedef"><name>OutputStringStream</name></member>
     <member refid="namespaceMdDox_1a57a9d1e8d37c85055a42549d32508c68" kind="typedef"><name>Path</name></member>
     <member refid="namespaceMdDox_1a6bdeed93d40111f1084dde6cde2bb7ea" kind="typedef"><name>PathArray</name></member>
-    <member refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kind="typedef"><name>ReferenceList</name></member>
+    <member refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kind="typedef"><name>ReferenceList</name></member>
     <member refid="namespaceMdDox_1a833bdc4d82c3eaa6ab2f8d38bec033cb" kind="typedef"><name>ReferenceMap</name></member>
     <member refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kind="typedef"><name>String</name></member>
     <member refid="namespaceMdDox_1af43ecb087272339550cd14a78f59b6a6" kind="typedef"><name>StringArray</name></member>
@@ -3026,6 +3125,8 @@
     <member refid="namespaceMdDox_1abe37af316ba8d5a613895a5f016233f7" kind="function"><name>isLetter</name></member>
     <member refid="namespaceMdDox_1aace85994356ad90a0d76534a0bbccc9d" kind="function"><name>isNewLine</name></member>
     <member refid="namespaceMdDox_1ab988273a03d78c09f4ed6f85c3e2eb13" kind="function"><name>isWhiteSpace</name></member>
+    <member refid="namespaceMdDox_1afb2930493dd187ca6d5a54ff6609936b" kind="function"><name>linkRef</name></member>
+    <member refid="namespaceMdDox_1a41d5efe9c07b271c52079b815926a99e" kind="function"><name>linkRefIcon</name></member>
     <member refid="namespaceMdDox_1af9ca83aee0455c653902504d5325f642" kind="function"><name>makeInternalPages</name></member>
     <member refid="namespaceMdDox_1a00489ee9bfcd1b66cb432e960c6dca45" kind="function"><name>makeTypeFilter</name></member>
     <member refid="namespaceMdDox_1a636a4ffa437f2a2e436f83e76e2004c9" kind="function"><name>MapColor</name></member>
@@ -3496,9 +3597,12 @@
     <member refid="namespaceMdDox_1_1Html_1a454baa3642a29697ccd7604911131fb9" kind="function"><name>code</name></member>
     <member refid="namespaceMdDox_1_1Html_1a0355076f1ebdaf535206ffbb10c29137" kind="function"><name>comment</name></member>
     <member refid="namespaceMdDox_1_1Html_1abcae1e0614a73145390d5f4d36076b76" kind="function"><name>embedContent</name></member>
+    <member refid="namespaceMdDox_1_1Html_1afa755425a2f2b01585b5e76cd208c95c" kind="function"><name>embedContent</name></member>
     <member refid="namespaceMdDox_1_1Html_1a079b0a5c964849113fa9c5dd8943c5c3" kind="function"><name>embedContentLink</name></member>
-    <member refid="namespaceMdDox_1_1Html_1a3a4834c911f81879c4239579f61ea16a" kind="function"><name>embedImage</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a8cd74d94bdf44a3ff965a4f384573f6e" kind="function"><name>embedContentLink</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a0386fc1dd8ac1ae5c077076c4484d6e5" kind="function"><name>embedImage</name></member>
     <member refid="namespaceMdDox_1_1Html_1afd4a1a662954c5f7c3a6fa028727a0fe" kind="function"><name>embedLinkContentPoint</name></member>
+    <member refid="namespaceMdDox_1_1Html_1aad16672249366b8b22840acd6718bdbe" kind="function"><name>embedLinkContentPoint</name></member>
     <member refid="namespaceMdDox_1_1Html_1a0be46add43352dfd05116b59a296cfb2" kind="function"><name>endBlockQuote</name></member>
     <member refid="namespaceMdDox_1_1Html_1a0824649e36363745a69b9d152ed94b04" kind="function"><name>endDivSection</name></member>
     <member refid="namespaceMdDox_1_1Html_1a9440be988c40aaece8151b3399ca0166" kind="function"><name>endHeading</name></member>
@@ -3508,20 +3612,22 @@
     <member refid="namespaceMdDox_1_1Html_1a970cd0db4358cb9c2601595c454479e1" kind="function"><name>endParagraph</name></member>
     <member refid="namespaceMdDox_1_1Html_1ad291848410b1662c97d40889917add0b" kind="function"><name>endSection</name></member>
     <member refid="namespaceMdDox_1_1Html_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kind="function"><name>endSpan</name></member>
+    <member refid="namespaceMdDox_1_1Html_1ac32b18c4d22a120465818b70a7b04f3f" kind="function"><name>getFullPath</name></member>
     <member refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kind="function"><name>heading</name></member>
     <member refid="namespaceMdDox_1_1Html_1a822284a5f98549094fcfc504dfc4d8c5" kind="function"><name>horizontalRule</name></member>
     <member refid="namespaceMdDox_1_1Html_1a97fe56265abcde241b1562de413ece45" kind="function"><name>inlineImage</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa8da87be8ae84652cdfee4a024530671" kind="function"><name>inlineText</name></member>
     <member refid="namespaceMdDox_1_1Html_1a96ea910a055a54cf23b9819ebfefa604" kind="function"><name>italicText</name></member>
     <member refid="namespaceMdDox_1_1Html_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kind="function"><name>lineBreak</name></member>
-    <member refid="namespaceMdDox_1_1Html_1abb94bee05027be41dc5dc134d94d4944" kind="function"><name>linkImage</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a2abdb1f3cfdf85618084ab0a313aed2d" kind="function"><name>linkImage</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa984e524f17166592f0c4094d6155df8" kind="function"><name>linkRef</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a1a55e0ba58b2823e339a320d8a2d496c" kind="function"><name>linkRef</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa4a0de5cb5e7eb2760f72184be3a1320" kind="function"><name>paragraph</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa40ae7a1ac649ca5df5860c5b9dd96e3" kind="function"><name>space</name></member>
     <member refid="namespaceMdDox_1_1Html_1a2bb4faee66304448a12583437d97d66e" kind="function"><name>typewriterText</name></member>
   </compound>
   <compound refid="namespaceMdDox_1_1LinkUtils" kind="namespace"><name>MdDox::LinkUtils</name>
-    <member refid="namespaceMdDox_1_1LinkUtils_1a9af40597cec0a352ef1d5c4f8d66acdb" kind="function"><name>lastBinaryResolution</name></member>
+    <member refid="namespaceMdDox_1_1LinkUtils_1ae19f047fded439c619b471401585fa63" kind="function"><name>LBR</name></member>
     <member refid="namespaceMdDox_1_1LinkUtils_1a418d90cb788edac1388e9e0623b57fc6" kind="function"><name>linkMarkdown</name></member>
     <member refid="namespaceMdDox_1_1LinkUtils_1af9f83292e402c801355c72068262b513" kind="function"><name>splitBinaryResolution</name></member>
   </compound>
@@ -3609,6 +3715,78 @@
   </compound>
   <compound refid="SiteLayout_8h" kind="file"><name>SiteLayout.h</name>
   </compound>
+  <compound refid="Document_2DocumentWriter_8h" kind="file"><name>DocumentWriter.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2DocumentWriter_8h" kind="file"><name>DocumentWriter.h</name>
+  </compound>
+  <compound refid="Document_2HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
+  </compound>
+  <compound refid="Document_2HashUtils_8h" kind="file"><name>HashUtils.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2HashUtils_8h" kind="file"><name>HashUtils.h</name>
+  </compound>
+  <compound refid="Document_2HtmlCommandWriter_8cpp" kind="file"><name>HtmlCommandWriter.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2HtmlCommandWriter_8cpp" kind="file"><name>HtmlCommandWriter.cpp</name>
+  </compound>
+  <compound refid="Document_2HtmlCommandWriter_8h" kind="file"><name>HtmlCommandWriter.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2HtmlCommandWriter_8h" kind="file"><name>HtmlCommandWriter.h</name>
+  </compound>
+  <compound refid="Document_2HtmlDocumentWriter_8cpp" kind="file"><name>HtmlDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2HtmlDocumentWriter_8cpp" kind="file"><name>HtmlDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="Document_2HtmlDocumentWriter_8h" kind="file"><name>HtmlDocumentWriter.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2HtmlDocumentWriter_8h" kind="file"><name>HtmlDocumentWriter.h</name>
+  </compound>
+  <compound refid="Document_2IconSet_8cpp" kind="file"><name>IconSet.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2IconSet_8cpp" kind="file"><name>IconSet.cpp</name>
+  </compound>
+  <compound refid="Document_2IconSet_8h" kind="file"><name>IconSet.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2IconSet_8h" kind="file"><name>IconSet.h</name>
+  </compound>
+  <compound refid="Document_2MarkdownCommandWriter_8cpp" kind="file"><name>MarkdownCommandWriter.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2MarkdownCommandWriter_8cpp" kind="file"><name>MarkdownCommandWriter.cpp</name>
+  </compound>
+  <compound refid="Document_2MarkdownCommandWriter_8h" kind="file"><name>MarkdownCommandWriter.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2MarkdownCommandWriter_8h" kind="file"><name>MarkdownCommandWriter.h</name>
+  </compound>
+  <compound refid="Document_2MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
+  </compound>
+  <compound refid="Document_2MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
+  </compound>
+  <compound refid="Document_2Reference_8h" kind="file"><name>Reference.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2Reference_8h" kind="file"><name>Reference.h</name>
+  </compound>
+  <compound refid="Document_2ReferenceIdentifiers_8cpp" kind="file"><name>ReferenceIdentifiers.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2ReferenceIdentifiers_8cpp" kind="file"><name>ReferenceIdentifiers.cpp</name>
+  </compound>
+  <compound refid="Document_2ReferenceIdentifiers_8h" kind="file"><name>ReferenceIdentifiers.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2ReferenceIdentifiers_8h" kind="file"><name>ReferenceIdentifiers.h</name>
+  </compound>
+  <compound refid="Document_2ReferenceTable_8cpp" kind="file"><name>ReferenceTable.cpp</name>
+  </compound>
+  <compound refid="MdDoxTree_2ReferenceTable_8cpp" kind="file"><name>ReferenceTable.cpp</name>
+  </compound>
+  <compound refid="Document_2ReferenceTable_8h" kind="file"><name>ReferenceTable.h</name>
+  </compound>
+  <compound refid="MdDoxTree_2ReferenceTable_8h" kind="file"><name>ReferenceTable.h</name>
+  </compound>
   <compound refid="Source_2MdDox_2Main_8cpp" kind="file"><name>Main.cpp</name>
     <member refid="Source_2MdDox_2Main_8cpp_1aa06f5fbe915d0bf149dcf793acea47a1" kind="function"><name>main</name></member>
   </compound>
@@ -3622,10 +3800,6 @@
   </compound>
   <compound refid="ClassPageWriter_8h" kind="file"><name>ClassPageWriter.h</name>
   </compound>
-  <compound refid="Config_8cpp" kind="file"><name>Config.cpp</name>
-  </compound>
-  <compound refid="Config_8h" kind="file"><name>Config.h</name>
-  </compound>
   <compound refid="DescriptionWriter_8cpp" kind="file"><name>DescriptionWriter.cpp</name>
   </compound>
   <compound refid="DescriptionWriter_8h" kind="file"><name>DescriptionWriter.h</name>
@@ -3633,8 +3807,6 @@
   <compound refid="DirectoryPageWriter_8cpp" kind="file"><name>DirectoryPageWriter.cpp</name>
   </compound>
   <compound refid="DirectoryPageWriter_8h" kind="file"><name>DirectoryPageWriter.h</name>
-  </compound>
-  <compound refid="DocumentWriter_8h" kind="file"><name>DocumentWriter.h</name>
   </compound>
   <compound refid="DotWriter_8cpp" kind="file"><name>DotWriter.cpp</name>
   </compound>
@@ -3656,22 +3828,6 @@
   </compound>
   <compound refid="GraphWriter_8h" kind="file"><name>GraphWriter.h</name>
   </compound>
-  <compound refid="HashUtils_8cpp" kind="file"><name>HashUtils.cpp</name>
-  </compound>
-  <compound refid="HashUtils_8h" kind="file"><name>HashUtils.h</name>
-  </compound>
-  <compound refid="HtmlCommandWriter_8cpp" kind="file"><name>HtmlCommandWriter.cpp</name>
-  </compound>
-  <compound refid="HtmlCommandWriter_8h" kind="file"><name>HtmlCommandWriter.h</name>
-  </compound>
-  <compound refid="HtmlDocumentWriter_8cpp" kind="file"><name>HtmlDocumentWriter.cpp</name>
-  </compound>
-  <compound refid="HtmlDocumentWriter_8h" kind="file"><name>HtmlDocumentWriter.h</name>
-  </compound>
-  <compound refid="IconSet_8cpp" kind="file"><name>IconSet.cpp</name>
-  </compound>
-  <compound refid="IconSet_8h" kind="file"><name>IconSet.h</name>
-  </compound>
   <compound refid="IndexPageWriter_8cpp" kind="file"><name>IndexPageWriter.cpp</name>
   </compound>
   <compound refid="IndexPageWriter_8h" kind="file"><name>IndexPageWriter.h</name>
@@ -3684,19 +3840,9 @@
   </compound>
   <compound refid="LinkedTextWriter_8h" kind="file"><name>LinkedTextWriter.h</name>
   </compound>
-  <compound refid="Location_8h" kind="file"><name>Location.h</name>
-  </compound>
   <compound refid="LocationWriter_8cpp" kind="file"><name>LocationWriter.cpp</name>
   </compound>
   <compound refid="LocationWriter_8h" kind="file"><name>LocationWriter.h</name>
-  </compound>
-  <compound refid="MarkdownCommandWriter_8cpp" kind="file"><name>MarkdownCommandWriter.cpp</name>
-  </compound>
-  <compound refid="MarkdownCommandWriter_8h" kind="file"><name>MarkdownCommandWriter.h</name>
-  </compound>
-  <compound refid="MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
-  </compound>
-  <compound refid="MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
   </compound>
   <compound refid="MemberDefListingWriter_8cpp" kind="file"><name>MemberDefListingWriter.cpp</name>
   </compound>
@@ -3726,20 +3872,6 @@
   </compound>
   <compound refid="ParameterWriter_8h" kind="file"><name>ParameterWriter.h</name>
   </compound>
-  <compound refid="Reference_8h" kind="file"><name>Reference.h</name>
-  </compound>
-  <compound refid="ReferenceIdentifiers_8cpp" kind="file"><name>ReferenceIdentifiers.cpp</name>
-  </compound>
-  <compound refid="ReferenceIdentifiers_8h" kind="file"><name>ReferenceIdentifiers.h</name>
-  </compound>
-  <compound refid="ReferenceTable_8cpp" kind="file"><name>ReferenceTable.cpp</name>
-  </compound>
-  <compound refid="ReferenceTable_8h" kind="file"><name>ReferenceTable.h</name>
-  </compound>
-  <compound refid="RepoFile_8cpp" kind="file"><name>RepoFile.cpp</name>
-  </compound>
-  <compound refid="RepoFile_8h" kind="file"><name>RepoFile.h</name>
-  </compound>
   <compound refid="Section1Writer_8cpp" kind="file"><name>Section1Writer.cpp</name>
   </compound>
   <compound refid="Section1Writer_8h" kind="file"><name>Section1Writer.h</name>
@@ -3767,10 +3899,6 @@
   <compound refid="SiteBuilder_8cpp" kind="file"><name>SiteBuilder.cpp</name>
   </compound>
   <compound refid="SiteBuilder_8h" kind="file"><name>SiteBuilder.h</name>
-  </compound>
-  <compound refid="SourceFile_8cpp" kind="file"><name>SourceFile.cpp</name>
-  </compound>
-  <compound refid="SourceFile_8h" kind="file"><name>SourceFile.h</name>
   </compound>
   <compound refid="VariableDefWriter_8cpp" kind="file"><name>VariableDefWriter.cpp</name>
   </compound>
@@ -3816,6 +3944,10 @@
   <compound refid="Utils_2CommandLine_2Token_8h" kind="file"><name>Token.h</name>
   </compound>
   <compound refid="Xml_2Token_8h" kind="file"><name>Token.h</name>
+  </compound>
+  <compound refid="Config_8cpp" kind="file"><name>Config.cpp</name>
+  </compound>
+  <compound refid="Config_8h" kind="file"><name>Config.h</name>
   </compound>
   <compound refid="Console_8cpp" kind="file"><name>Console.cpp</name>
   </compound>
@@ -4283,6 +4415,8 @@
   <compound refid="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir"><name>Source/Utils/CommandLine</name>
   </compound>
   <compound refid="dir_f19befb0a20a037054255eb425fb4872" kind="dir"><name>Current</name>
+  </compound>
+  <compound refid="dir_0e0ebe1dd1a4df71934306e349223ceb" kind="dir"><name>Source/Document</name>
   </compound>
   <compound refid="dir_b7487e7b43f0278857c63f4e9ad683a3" kind="dir"><name>Tools/Doxygen</name>
   </compound>

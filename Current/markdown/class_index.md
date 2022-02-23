@@ -379,13 +379,9 @@
 </li>
 <li><a href="classMdDox_1_1KeyIndexCache.md">MdDox::KeyIndexCache</a>
 </li>
-<li><a href="classMdDox_1_1Link.md">MdDox::Link</a>
-</li>
 <li><a href="classMdDox_1_1LinkedTextWriter.md">MdDox::LinkedTextWriter</a>
 </li>
 <li><a href="classMdDox_1_1ListItemVisitor.md">MdDox::ListItemVisitor</a>
-</li>
-<li><a href="classMdDox_1_1Location.md">MdDox::Location</a>
 </li>
 <li><a href="classMdDox_1_1LocationWriter.md">MdDox::LocationWriter</a>
 </li>
@@ -421,8 +417,6 @@
 </li>
 <li><a href="classMdDox_1_1ReferenceTable.md">MdDox::ReferenceTable</a>
 </li>
-<li><a href="classMdDox_1_1RepoFile.md">MdDox::RepoFile</a>
-</li>
 <li><a href="classMdDox_1_1ResourceCompiler_1_1Application.md">MdDox::ResourceCompiler::Application</a>
 </li>
 <li><a href="structMdDox_1_1ResourceCompiler_1_1Resource.md">MdDox::ResourceCompiler::Resource</a>
@@ -442,8 +436,6 @@
 <li><a href="classMdDox_1_1SectionDefWriter.md">MdDox::SectionDefWriter</a>
 </li>
 <li><a href="classMdDox_1_1SiteBuilder.md">MdDox::SiteBuilder</a>
-</li>
-<li><a href="classMdDox_1_1SourceFile.md">MdDox::SourceFile</a>
 </li>
 <li><a href="classMdDox_1_1StringUtils.md">MdDox::StringUtils</a>
 </li>

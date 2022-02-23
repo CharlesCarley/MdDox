@@ -3,6 +3,8 @@
   <compounddef id="classMdDox_1_1HtmlDocumentWriter" kind="class" language="C++" prot="public">
     <compoundname>MdDox::HtmlDocumentWriter</compoundname>
     <basecompoundref refid="classMdDox_1_1DocumentWriter" prot="public" virt="non-virtual">MdDox::DocumentWriter</basecompoundref>
+    <basecompoundref refid="classMdDox_1_1DocumentWriter" prot="public" virt="non-virtual">MdDox::DocumentWriter</basecompoundref>
+    <derivedcompoundref refid="classMdDox_1_1MarkdownDocumentWriter" prot="public" virt="non-virtual">MdDox::MarkdownDocumentWriter</derivedcompoundref>
     <derivedcompoundref refid="classMdDox_1_1MarkdownDocumentWriter" prot="public" virt="non-virtual">MdDox::MarkdownDocumentWriter</derivedcompoundref>
     <includes local="no">Source/MdDoxTree/HtmlDocumentWriter.h</includes>
       <sectiondef kind="private-attrib">
@@ -17,10 +19,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/HtmlDocumentWriter.h" bodystart="32" bodyend="-1"/>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="32" column="1" bodyfile="Source/Document/HtmlDocumentWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::writeSection</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title) const</argsstring>
+        <name>writeSection</name>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="35" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::writeSection</definition>
@@ -55,6 +78,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a43d31bcaf97f0816559d3c7bccee0db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::HtmlDocumentWriter::HtmlDocumentWriter</definition>
+        <argsstring>()</argsstring>
+        <name>HtmlDocumentWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -68,7 +104,68 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::HtmlDocumentWriter::~HtmlDocumentWriter</definition>
+        <argsstring>() override</argsstring>
+        <name>~HtmlDocumentWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::addSection</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, int depth) override</argsstring>
+        <name>addSection</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">addSection</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a subsection of the body. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the section. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The depth of the heading. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -155,6 +252,69 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="175" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::anchor</definition>
+        <argsstring>(OStream &amp;output, const String &amp;id) override</argsstring>
+        <name>anchor</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1ae907420cd0f57101fa77c089cbc92dea">anchor</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Implementations write an anchor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anchor id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="175" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginBlockQuote</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>beginBlockQuote</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a82149b0063947f6d17da752ab655543e">beginBlockQuote</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a block-quote block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="110" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::beginBlockQuote</definition>
@@ -219,6 +379,45 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="45" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginDocument</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title) override</argsstring>
+        <name>beginDocument</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1aa8852909709b481cd3c8aaa3f4421f61">beginDocument</reimplements>
+        <reimplementedby refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29">beginDocument</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29">beginDocument</reimplementedby>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a common document header. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the document. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="45" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::beginList</definition>
@@ -256,6 +455,69 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="90" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginList</definition>
+        <argsstring>(OStream &amp;output, const String &amp;header) override</argsstring>
+        <name>beginList</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1acdc5ce623b9afb89b2b73f48e8bd0be9">beginList</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a list block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An optional list heading. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginListItem</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>beginListItem</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1ac0991eec3d7463745cd6687d372f3233">beginListItem</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a list item block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="120" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::beginListItem</definition>
@@ -281,6 +543,54 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginMethod</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;id) override</argsstring>
+        <name>beginMethod</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1afe20a43ef1d323eac47772b9c00f2964">beginMethod</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a method block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the method. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The local anchor id of the method. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="80" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -356,6 +666,32 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="100" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginParagraph</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>beginParagraph</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a9d24711328dc0ab43f35cb9ada183f94">beginParagraph</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a paragraph block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="100" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::beginSection</definition>
@@ -404,6 +740,81 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginSection</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, int depth=-1) override</argsstring>
+        <name>beginSection</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a08949a6d240a0c5240a92e9622303f09">beginSection</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Implementations should start a subsection of the body. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the section. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>depth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The depth of the heading. If this is -1 then it should automatically change to the next size down. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::beginSectionBar</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>beginSectionBar</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a10eefda6ab1d3757ceac90ce16bcc4ff">beginSectionBar</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start sub title bar of a section. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -466,7 +877,95 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::boldText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text) override</argsstring>
+        <name>boldText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1acd2adcce65db9b8191ecc0479ba41d56">boldText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a bold block of text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display in <bold>bold</bold>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::code</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text, const String &amp;type=&quot;.txt&quot;) override</argsstring>
+        <name>code</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a591bdfcc465196d3e456849ea0cfda36">code</reimplements>
+        <reimplementedby refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4">code</reimplementedby>
+        <reimplementedby refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4">code</reimplementedby>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>type</declname>
+          <defval>&quot;.txt&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Implementations should write a code block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The code. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of code. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="155" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -553,7 +1052,92 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::embedContent</definition>
+        <argsstring>(OStream &amp;output, IconId content) override</argsstring>
+        <name>embedContent</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1ae4bb1d21ea47485bd6b8ae345c6403ee">embedContent</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should embed the predefined content icon. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::embedContentLink</definition>
+        <argsstring>(OStream &amp;output, IconId content, const String &amp;ref) override</argsstring>
+        <name>embedContentLink</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1adec4b03fabcff6f1c22a04ee3f1546aa">embedContentLink</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should embed the predefined content icon as a link to the URL. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon id </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="222" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -662,6 +1246,91 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="227" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::embedContentLinkText</definition>
+        <argsstring>(OStream &amp;output, IconId content, const String &amp;ref, const String &amp;text) override</argsstring>
+        <name>embedContentLinkText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">embedContentLinkText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should embed the predefined content icon as a link to the URL with text beside it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon id </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endBlockQuote</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endBlockQuote</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a7b90d2ddf0e732ad50db882d7b895967">endBlockQuote</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end a block-quote block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="115" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::endBlockQuote</definition>
@@ -687,6 +1356,44 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endDocument</definition>
+        <argsstring>(OStream &amp;output, const String &amp;docSource=&quot;&quot;) override</argsstring>
+        <name>endDocument</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a1c87d667be08f269118f087c05fe2977">endDocument</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>docSource</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Implementations should write a common document header. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>docSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source <computeroutput></computeroutput>.xml file that was used to generate this document. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -752,6 +1459,58 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="95" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endList</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endList</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1aa2ed371692fd54d5284c09cc3605c4ed">endList</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end a list block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endListItem</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endListItem</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a10727ccaa35e764594bfe2de2f246d29">endListItem</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should start a list item block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="125" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::endListItem</definition>
@@ -777,6 +1536,32 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endMethod</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endMethod</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a2106a2fb02cb51be6ee61c3415cd0f22">endMethod</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end a method block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="85" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -830,6 +1615,32 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="105" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endParagraph</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endParagraph</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1aac387e99c32bac3258824c69eb39a71b">endParagraph</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end a paragraph block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="105" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::endSection</definition>
@@ -855,6 +1666,58 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endSection</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endSection</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64">endSection</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end a subsection. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::endSectionBar</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>endSectionBar</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1af42b4463984f691c6e2798d7496a3df0">endSectionBar</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should end sub title bar of a section. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="75" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -908,6 +1771,32 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="180" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::horizontalRule</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>horizontalRule</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a8ace2c1278e7f0b5b6e7271e4fc30547">horizontalRule</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations write a horizontal rule. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="180" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::image</definition>
@@ -944,6 +1833,80 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="160" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::image</definition>
+        <argsstring>(OStream &amp;output, const String &amp;src) override</argsstring>
+        <name>image</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a1bfefc290328e0a867869dfe7b25d126">image</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write an image block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The link to the image. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="160" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::inlineText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text) override</argsstring>
+        <name>inlineText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a365a4214620abbb22cd9e7b021905393">inlineText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write fragment of plain-text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The plain-text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="135" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1017,6 +1980,43 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::italicText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text) override</argsstring>
+        <name>italicText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a27da8869f5b3463dc4aa46c2a1a1f0e3">italicText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write an italic block of text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display in <emphasis>italic</emphasis>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="145" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -1044,6 +2044,32 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="185" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::lineBreak</definition>
+        <argsstring>(OStream &amp;output) override</argsstring>
+        <name>lineBreak</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a">lineBreak</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Implementations write a line break. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="185" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1105,6 +2131,139 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="200" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::linkRef</definition>
+        <argsstring>(OStream &amp;output, int kind, const String &amp;id, const String &amp;title=&quot;&quot;) override</argsstring>
+        <name>linkRef</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1affa3f8a87798296d0b0e81ffa624f001">linkRef</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kind</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Implementations write text link to a page. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the reference id.<linebreak/>
+ Zero is compound and one means member. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="200" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::linkRefIcon</definition>
+        <argsstring>(OStream &amp;output, IconId ico, int kind, const String &amp;id, const String &amp;title=&quot;&quot;) override</argsstring>
+        <name>linkRefIcon</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a">linkRefIcon</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>ico</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kind</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Implementations write text link to a page with an icon attached to it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon to place beside the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the reference id.<linebreak/>
+ Zero is compound and one means member. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="208" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1224,6 +2383,54 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="195" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::linkText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;ref) override</argsstring>
+        <name>linkText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a94828ae1539600cf1a2231fdf58ac8f3">linkText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations write a text link. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="195" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -1272,7 +2479,103 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::linkUrl</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;ref) override</argsstring>
+        <name>linkUrl</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a96bb9b4cca54c9085c90a9ce3b479e09">linkUrl</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write an external URL. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::listIcon</definition>
+        <argsstring>(OStream &amp;output, const String &amp;image, const String &amp;ref) override</argsstring>
+        <name>listIcon</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a84c0d322573c5713d6a178cebc2eea53">listIcon</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a list item block with an icon and link to the title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The icon to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="170" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1370,6 +2673,54 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="165" column="1"/>
       </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::listItem</definition>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;ref) override</argsstring>
+        <name>listItem</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1a80c7fecb7cb782e43068e62f8b2828aa">listItem</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a list item block with a link to the title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title to use. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="165" column="1"/>
+      </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void MdDox::HtmlDocumentWriter::paragraph</definition>
@@ -1406,6 +2757,80 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::paragraph</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text) override</argsstring>
+        <name>paragraph</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1abf703ade359cd1d96f9451ef0105d678">paragraph</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a paragraph. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The plan-text paragraph. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::HtmlDocumentWriter::typewriterText</definition>
+        <argsstring>(OStream &amp;output, const String &amp;text) override</argsstring>
+        <name>typewriterText</name>
+        <reimplements refid="classMdDox_1_1DocumentWriter_1aec44df9a56781980b83e5772f17c69b7">typewriterText</reimplements>
+        <param>
+          <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Implementations should write a typewriter block of text. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display in <computeroutput>typewriter</computeroutput>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Document/HtmlDocumentWriter.h" line="150" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1450,78 +2875,136 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="840">
-        <label>MdDox::DocumentWriter</label>
-        <link refid="classMdDox_1_1DocumentWriter"/>
-      </node>
       <node id="841">
-        <label>MdDox::MarkdownDocumentWriter</label>
-        <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
-        <childnode refid="839" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="839">
-        <label>MdDox::HtmlDocumentWriter</label>
-        <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="840" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="843">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
       <node id="842">
+        <label>MdDox::MarkdownDocumentWriter</label>
+        <link refid="classMdDox_1_1MarkdownDocumentWriter"/>
+        <childnode refid="840" relation="public-inheritance">
+        </childnode>
+        <childnode refid="840" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="840">
         <label>MdDox::HtmlDocumentWriter</label>
         <link refid="classMdDox_1_1HtmlDocumentWriter"/>
-        <childnode refid="843" relation="public-inheritance">
+        <childnode refid="841" relation="public-inheritance">
+        </childnode>
+        <childnode refid="841" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="844">
+        <label>MdDox::DocumentWriter</label>
+        <link refid="classMdDox_1_1DocumentWriter"/>
+        <childnode refid="845" relation="usage">
+          <edgelabel>_style</edgelabel>
+          <edgelabel>_imageDir</edgelabel>
+        </childnode>
+      </node>
+      <node id="845">
+        <label>string</label>
+      </node>
+      <node id="843">
+        <label>MdDox::HtmlDocumentWriter</label>
+        <link refid="classMdDox_1_1HtmlDocumentWriter"/>
+        <childnode refid="844" relation="public-inheritance">
+        </childnode>
+        <childnode refid="844" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/HtmlDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/HtmlDocumentWriter.h" bodystart="29" bodyend="228"/>
+    <location file="Source/Document/HtmlDocumentWriter.h" line="30" column="1" bodyfile="Source/Document/HtmlDocumentWriter.h" bodystart="29" bodyend="228"/>
     <listofallmembers>
+      <member refid="classMdDox_1_1DocumentWriter_1ac7252beb919e2d899928ed0a88758a4a" prot="protected" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>_imageDir</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1add1852f55f8776f3c06795c0a9fb746b" prot="private" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>_sectionDepth</name></member>
+      <member refid="classMdDox_1_1DocumentWriter_1a148e44b296f6860dddb07334271e28ee" prot="protected" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>_style</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>addSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>addSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>anchor</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>anchor</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a7670b12958509c16853688989e990b78" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginDocument</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5daf0d8d14c50ccca660c05968b993b3" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginDocument</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ae6014a836ebe94925abf19f7474155f2" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginListItem</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a836317c9151472a9e66508b664b3e49f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginListItem</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginMethod</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginMethod</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginParagraph</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a2e8740d2526db06211f9958291bf0206" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginParagraph</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSectionBar</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>beginSectionBar</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>boldText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aa539467d2a680bb2c304af1e6892d1d8" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>boldText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>code</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a5e927215716d8ec55d63e67c3cf1cd42" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>code</name></member>
+      <member refid="classMdDox_1_1DocumentWriter_1ac95b89701f2d725e03e82ab142007ddb" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>DocumentWriter</name></member>
       <member refid="classMdDox_1_1DocumentWriter_1ac95b89701f2d725e03e82ab142007ddb" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>DocumentWriter</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContent</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a503d460a5235e20307153903ec2e5423" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContent</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContentLink</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContentLink</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContentLinkText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>embedContentLinkText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endBlockQuote</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endDocument</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endDocument</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1af75a89e0658a7320a555c3a13828b2cd" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endList</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endListItem</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a80c6372146b10c286b77a001d93967e4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endListItem</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endMethod</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a43a804f8734dac76729b9f72b544482d" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endMethod</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endParagraph</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endParagraph</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSection</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSectionBar</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>endSectionBar</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>horizontalRule</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1afbd95a2ba1f88e5a4c5e64ba05876eb8" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>horizontalRule</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a43d31bcaf97f0816559d3c7bccee0db9" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>HtmlDocumentWriter</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a43d31bcaf97f0816559d3c7bccee0db9" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>HtmlDocumentWriter</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>image</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>image</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>inlineText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a398b1a19231cc08d405381e4424d2d86" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>inlineText</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>italicText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>italicText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>lineBreak</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>lineBreak</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRef</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRef</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRefIcon</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkRefIcon</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkUrl</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a531301c8b4583e19702e78d48b909c8c" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>linkUrl</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listIcon</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listItem</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>listItem</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>paragraph</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>paragraph</name></member>
+      <member refid="classMdDox_1_1DocumentWriter_1ad431760864ce302ffbf62dee5c8e5e01" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>setImageDir</name></member>
+      <member refid="classMdDox_1_1DocumentWriter_1aea2f22ecc2dbb8da9da6681f0f2a96d3" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>setStylesheet</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>typewriterText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>typewriterText</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" prot="protected" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>writeSection</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1a328cad37df7b7649bd03f468857388be" prot="protected" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>writeSection</name></member>
       <member refid="classMdDox_1_1DocumentWriter_1a297f732e031126c821090feebf2adcc5" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>~DocumentWriter</name></member>
+      <member refid="classMdDox_1_1DocumentWriter_1a297f732e031126c821090feebf2adcc5" prot="public" virt="virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>~DocumentWriter</name></member>
+      <member refid="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>~HtmlDocumentWriter</name></member>
       <member refid="classMdDox_1_1HtmlDocumentWriter_1ae0dc86a7326691195ed5f55597eaf5b7" prot="public" virt="non-virtual"><scope>MdDox::HtmlDocumentWriter</scope><name>~HtmlDocumentWriter</name></member>
     </listofallmembers>
   </compounddef>

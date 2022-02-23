@@ -6,174 +6,174 @@
     <includes local="no">utility</includes>
     <includes refid="SiteBuilder_8h" local="yes">SiteBuilder.h</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includes refid="HashUtils_8h" local="yes">HashUtils.h</includes>
+    <includes refid="MdDoxTree_2HashUtils_8h" local="yes">HashUtils.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
     <incdepgraph>
-      <node id="1943">
+      <node id="2289">
         <label>Utils/Console.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1937">
+      <node id="2283">
         <label>functional</label>
       </node>
-      <node id="1932">
+      <node id="2278">
         <label>iomanip</label>
       </node>
-      <node id="1923">
+      <node id="2269">
         <label>Source/MdDoxTree/RepoFile.cpp</label>
         <link refid="RepoFile_8cpp"/>
-        <childnode refid="1924" relation="include">
+        <childnode refid="2270" relation="include">
         </childnode>
-        <childnode refid="1933" relation="include">
+        <childnode refid="2279" relation="include">
         </childnode>
-        <childnode refid="1934" relation="include">
+        <childnode refid="2280" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
-        <childnode refid="1947" relation="include">
+        <childnode refid="2293" relation="include">
         </childnode>
-        <childnode refid="1948" relation="include">
+        <childnode refid="2294" relation="include">
         </childnode>
       </node>
-      <node id="1948">
+      <node id="2294">
         <label>Utils/Path.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1940">
+      <node id="2286">
         <label>Utils/Exception.h</label>
-        <childnode refid="1941" relation="include">
+        <childnode refid="2287" relation="include">
         </childnode>
-        <childnode refid="1942" relation="include">
+        <childnode refid="2288" relation="include">
         </childnode>
-        <childnode refid="1933" relation="include">
+        <childnode refid="2279" relation="include">
         </childnode>
-        <childnode refid="1943" relation="include">
+        <childnode refid="2289" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1942">
+      <node id="2288">
         <label>stdexcept</label>
       </node>
-      <node id="1929">
+      <node id="2275">
         <label>string</label>
       </node>
-      <node id="1939">
+      <node id="2285">
         <label>Doxygen.h</label>
-        <childnode refid="1937" relation="include">
+        <childnode refid="2283" relation="include">
         </childnode>
-        <childnode refid="1930" relation="include">
+        <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
-        <childnode refid="1936" relation="include">
+        <childnode refid="2282" relation="include">
         </childnode>
-        <childnode refid="1940" relation="include">
+        <childnode refid="2286" relation="include">
         </childnode>
       </node>
-      <node id="1941">
+      <node id="2287">
         <label>exception</label>
       </node>
-      <node id="1927">
+      <node id="2273">
         <label>fstream</label>
       </node>
-      <node id="1934">
+      <node id="2280">
         <label>SiteBuilder.h</label>
-        <childnode refid="1930" relation="include">
+        <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="1935" relation="include">
+        <childnode refid="2281" relation="include">
         </childnode>
-        <childnode refid="1938" relation="include">
+        <childnode refid="2284" relation="include">
         </childnode>
-        <childnode refid="1944" relation="include">
+        <childnode refid="2290" relation="include">
         </childnode>
-        <childnode refid="1945" relation="include">
+        <childnode refid="2291" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1936">
+      <node id="2282">
         <label>Xml/Node.h</label>
-        <childnode refid="1937" relation="include">
+        <childnode refid="2283" relation="include">
         </childnode>
-        <childnode refid="1930" relation="include">
+        <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1947">
+      <node id="2293">
         <label>HashUtils.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1944">
+      <node id="2290">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="1939" relation="include">
+        <childnode refid="2285" relation="include">
         </childnode>
       </node>
-      <node id="1945">
+      <node id="2291">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1938" relation="include">
+        <childnode refid="2284" relation="include">
         </childnode>
-        <childnode refid="1944" relation="include">
+        <childnode refid="2290" relation="include">
         </childnode>
-        <childnode refid="1946" relation="include">
+        <childnode refid="2292" relation="include">
         </childnode>
       </node>
-      <node id="1925">
+      <node id="2271">
         <label>Utils/String.h</label>
-        <childnode refid="1926" relation="include">
+        <childnode refid="2272" relation="include">
         </childnode>
-        <childnode refid="1927" relation="include">
+        <childnode refid="2273" relation="include">
         </childnode>
-        <childnode refid="1928" relation="include">
+        <childnode refid="2274" relation="include">
         </childnode>
-        <childnode refid="1929" relation="include">
+        <childnode refid="2275" relation="include">
         </childnode>
-        <childnode refid="1930" relation="include">
+        <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="1931" relation="include">
+        <childnode refid="2277" relation="include">
         </childnode>
-        <childnode refid="1932" relation="include">
+        <childnode refid="2278" relation="include">
         </childnode>
       </node>
-      <node id="1931">
+      <node id="2277">
         <label>vector</label>
       </node>
-      <node id="1933">
+      <node id="2279">
         <label>utility</label>
       </node>
-      <node id="1928">
+      <node id="2274">
         <label>sstream</label>
       </node>
-      <node id="1924">
+      <node id="2270">
         <label>RepoFile.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
-      <node id="1926">
+      <node id="2272">
         <label>deque</label>
       </node>
-      <node id="1930">
+      <node id="2276">
         <label>unordered_map</label>
       </node>
-      <node id="1938">
+      <node id="2284">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="1939" relation="include">
+        <childnode refid="2285" relation="include">
         </childnode>
       </node>
-      <node id="1935">
+      <node id="2281">
         <label>Config.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
-        <childnode refid="1936" relation="include">
+        <childnode refid="2282" relation="include">
         </childnode>
       </node>
-      <node id="1946">
+      <node id="2292">
         <label>Reference.h</label>
-        <childnode refid="1925" relation="include">
+        <childnode refid="2271" relation="include">
         </childnode>
       </node>
     </incdepgraph>

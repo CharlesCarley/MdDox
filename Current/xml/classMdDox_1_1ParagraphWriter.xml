@@ -908,7 +908,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/ParagraphWriter.h" line="104" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="52" bodyend="56"/>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="173" endline="184">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -916,26 +916,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="927">
+      <node id="926">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="926">
+      <node id="925">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="927" relation="public-inheritance">
+        <childnode refid="926" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="929">
+      <node id="928">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="928">
+      <node id="927">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="929" relation="public-inheritance">
+        <childnode refid="928" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

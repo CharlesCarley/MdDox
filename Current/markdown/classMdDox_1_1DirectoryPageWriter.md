@@ -136,7 +136,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="_hascontent"></a>
 <h2>_hasContent</h2>
 <span class="inline-text">bool</span>
@@ -148,7 +147,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_internaldir"></a>
 <h2>_internalDir</h2>
 <a href="classMdDox_1_1Reference.md#reference">Reference</a>
@@ -159,7 +157,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="begindirectoryheading"></a>
 <h2>beginDirectoryHeading</h2>
@@ -176,7 +173,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="presortquery"></a>
 <h2>preSortQuery</h2>
@@ -200,7 +196,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L175" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedbasecompoundref"></a>
 <h2>visitedBaseCompoundRef</h2>
@@ -239,7 +234,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedcollaborationgraph"></a>
 <h2>visitedCollaborationGraph</h2>
 <span class="inline-text">void</span>
@@ -276,7 +270,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L150" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedcompoundname"></a>
 <h2>visitedCompoundName</h2>
@@ -315,7 +308,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedderivedcompoundref"></a>
 <h2>visitedDerivedCompoundRef</h2>
 <span class="inline-text">void</span>
@@ -352,7 +344,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L95" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedincdepgraph"></a>
 <h2>visitedIncDepGraph</h2>
@@ -391,7 +382,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedincludedby"></a>
 <h2>visitedIncludedBy</h2>
 <span class="inline-text">void</span>
@@ -428,7 +418,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L105" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedincludes"></a>
 <h2>visitedIncludes</h2>
@@ -467,7 +456,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinheritancegraph"></a>
 <h2>visitedInheritanceGraph</h2>
 <span class="inline-text">void</span>
@@ -504,7 +492,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnerclass"></a>
 <h2>visitedInnerClass</h2>
@@ -543,7 +530,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnerdir"></a>
 <h2>visitedInnerDir</h2>
 <span class="inline-text">void</span>
@@ -580,7 +566,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnerfile"></a>
 <h2>visitedInnerFile</h2>
@@ -619,7 +604,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnergroup"></a>
 <h2>visitedInnerGroup</h2>
 <span class="inline-text">void</span>
@@ -656,7 +640,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinnernamespace"></a>
 <h2>visitedInnerNamespace</h2>
@@ -695,7 +678,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedinnerpage"></a>
 <h2>visitedInnerPage</h2>
 <span class="inline-text">void</span>
@@ -732,7 +714,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L120" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedinvincdepgraph"></a>
 <h2>visitedInvIncDepGraph</h2>
@@ -771,7 +752,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedlistofallmembers"></a>
 <h2>visitedListOfAllMembers</h2>
 <span class="inline-text">void</span>
@@ -808,7 +788,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L160" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedlocation"></a>
 <h2>visitedLocation</h2>
@@ -847,7 +826,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedprogramlisting"></a>
 <h2>visitedProgramListing</h2>
 <span class="inline-text">void</span>
@@ -884,7 +862,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtableofcontents"></a>
 <h2>visitedTableOfContents</h2>
@@ -923,7 +900,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtemplateparamlist"></a>
 <h2>visitedTemplateParamList</h2>
 <span class="inline-text">void</span>
@@ -960,7 +936,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.cpp#L140" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -999,7 +974,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="directorypagewriter"></a>
 <h2>DirectoryPageWriter</h2>
 <span class="bold-text"><b>DirectoryPageWriter</b></span>
@@ -1035,7 +1009,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~directorypagewriter"></a>
 <h2>~DirectoryPageWriter</h2>
 <span class="bold-text"><b>~DirectoryPageWriter</b></span>
@@ -1046,7 +1019,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/DirectoryPageWriter.h#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DirectoryPageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

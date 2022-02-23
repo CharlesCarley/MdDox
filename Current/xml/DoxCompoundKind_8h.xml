@@ -3,326 +3,349 @@
   <compounddef id="DoxCompoundKind_8h" kind="file" language="C++">
     <compoundname>DoxCompoundKind.h</compoundname>
     <includes refid="Doxygen_8h" local="yes">Doxygen.h</includes>
+    <includedby refid="Document_2ReferenceIdentifiers_8h" local="yes">Source/Document/ReferenceIdentifiers.h</includedby>
     <includedby refid="SiteBuilder_8h" local="yes">Source/MdDoxTree/SiteBuilder.h</includedby>
-    <includedby refid="ReferenceIdentifiers_8h" local="yes">Source/MdDoxTree/ReferenceIdentifiers.h</includedby>
+    <includedby refid="MdDoxTree_2ReferenceIdentifiers_8h" local="yes">Source/MdDoxTree/ReferenceIdentifiers.h</includedby>
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="CompoundDefQuery_8h" local="yes">Tools/Doxygen/CompoundDefQuery.h</includedby>
     <includedby refid="CompoundIndexQuery_8h" local="yes">Tools/Doxygen/CompoundIndexQuery.h</includedby>
     <includedby refid="DoxCompoundKind_8cpp" local="yes">Tools/Doxygen/DoxCompoundKind.cpp</includedby>
     <incdepgraph>
-      <node id="5324">
+      <node id="5600">
         <label>Utils/Console.h</label>
-        <childnode refid="5312" relation="include">
+        <childnode refid="5588" relation="include">
         </childnode>
       </node>
-      <node id="5318">
+      <node id="5594">
         <label>iomanip</label>
       </node>
-      <node id="5310">
+      <node id="5586">
         <label>functional</label>
       </node>
-      <node id="5320">
+      <node id="5596">
         <label>Utils/Exception.h</label>
-        <childnode refid="5321" relation="include">
+        <childnode refid="5597" relation="include">
         </childnode>
-        <childnode refid="5322" relation="include">
+        <childnode refid="5598" relation="include">
         </childnode>
-        <childnode refid="5323" relation="include">
+        <childnode refid="5599" relation="include">
         </childnode>
-        <childnode refid="5324" relation="include">
+        <childnode refid="5600" relation="include">
         </childnode>
-        <childnode refid="5312" relation="include">
+        <childnode refid="5588" relation="include">
         </childnode>
       </node>
-      <node id="5322">
+      <node id="5598">
         <label>stdexcept</label>
       </node>
-      <node id="5316">
+      <node id="5592">
         <label>string</label>
       </node>
-      <node id="5309">
+      <node id="5585">
         <label>Doxygen.h</label>
-        <childnode refid="5310" relation="include">
+        <childnode refid="5586" relation="include">
         </childnode>
-        <childnode refid="5311" relation="include">
+        <childnode refid="5587" relation="include">
         </childnode>
-        <childnode refid="5312" relation="include">
+        <childnode refid="5588" relation="include">
         </childnode>
-        <childnode refid="5319" relation="include">
+        <childnode refid="5595" relation="include">
         </childnode>
-        <childnode refid="5320" relation="include">
+        <childnode refid="5596" relation="include">
         </childnode>
       </node>
-      <node id="5321">
+      <node id="5597">
         <label>exception</label>
       </node>
-      <node id="5314">
+      <node id="5590">
         <label>fstream</label>
       </node>
-      <node id="5319">
+      <node id="5595">
         <label>Xml/Node.h</label>
-        <childnode refid="5310" relation="include">
+        <childnode refid="5586" relation="include">
         </childnode>
-        <childnode refid="5311" relation="include">
+        <childnode refid="5587" relation="include">
         </childnode>
-        <childnode refid="5312" relation="include">
+        <childnode refid="5588" relation="include">
         </childnode>
       </node>
-      <node id="5312">
+      <node id="5588">
         <label>Utils/String.h</label>
-        <childnode refid="5313" relation="include">
+        <childnode refid="5589" relation="include">
         </childnode>
-        <childnode refid="5314" relation="include">
+        <childnode refid="5590" relation="include">
         </childnode>
-        <childnode refid="5315" relation="include">
+        <childnode refid="5591" relation="include">
         </childnode>
-        <childnode refid="5316" relation="include">
+        <childnode refid="5592" relation="include">
         </childnode>
-        <childnode refid="5311" relation="include">
+        <childnode refid="5587" relation="include">
         </childnode>
-        <childnode refid="5317" relation="include">
+        <childnode refid="5593" relation="include">
         </childnode>
-        <childnode refid="5318" relation="include">
+        <childnode refid="5594" relation="include">
         </childnode>
       </node>
-      <node id="5317">
+      <node id="5593">
         <label>vector</label>
       </node>
-      <node id="5323">
+      <node id="5599">
         <label>utility</label>
       </node>
-      <node id="5315">
+      <node id="5591">
         <label>sstream</label>
       </node>
-      <node id="5313">
+      <node id="5589">
         <label>deque</label>
       </node>
-      <node id="5311">
+      <node id="5587">
         <label>unordered_map</label>
       </node>
-      <node id="5308">
+      <node id="5584">
         <label>Tools/Doxygen/DoxCompoundKind.h</label>
         <link refid="DoxCompoundKind_8h"/>
-        <childnode refid="5309" relation="include">
+        <childnode refid="5585" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5343">
-        <label>Source/MdDoxTree/RepoFile.cpp</label>
-      </node>
-      <node id="5339">
+      <node id="5619">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="5360">
+      <node id="5640">
         <label>Tools/Doxygen/DoxCompoundKind.cpp</label>
       </node>
-      <node id="5332">
+      <node id="5611">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="5345">
+      <node id="5625">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="5333">
+      <node id="5623">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.cpp</label>
+      </node>
+      <node id="5612">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="5357">
+      <node id="5637">
         <label>Tools/Doxygen/CompoundIndexQuery.h</label>
-        <childnode refid="5350" relation="include">
+        <childnode refid="5630" relation="include">
         </childnode>
-        <childnode refid="5352" relation="include">
+        <childnode refid="5632" relation="include">
         </childnode>
-        <childnode refid="5353" relation="include">
+        <childnode refid="5633" relation="include">
         </childnode>
-        <childnode refid="5354" relation="include">
+        <childnode refid="5634" relation="include">
         </childnode>
-        <childnode refid="5358" relation="include">
+        <childnode refid="5638" relation="include">
         </childnode>
-        <childnode refid="5359" relation="include">
+        <childnode refid="5639" relation="include">
         </childnode>
       </node>
-      <node id="5354">
+      <node id="5634">
         <label>Source/MdDoxTree/NamespacePageWriter.h</label>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
-        <childnode refid="5340" relation="include">
+        <childnode refid="5620" relation="include">
         </childnode>
       </node>
-      <node id="5326">
+      <node id="5605">
         <label>Source/MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="5327" relation="include">
+        <childnode refid="5606" relation="include">
         </childnode>
-        <childnode refid="5328" relation="include">
+        <childnode refid="5607" relation="include">
         </childnode>
-        <childnode refid="5329" relation="include">
+        <childnode refid="5608" relation="include">
         </childnode>
-        <childnode refid="5330" relation="include">
+        <childnode refid="5609" relation="include">
         </childnode>
-        <childnode refid="5331" relation="include">
+        <childnode refid="5610" relation="include">
         </childnode>
-        <childnode refid="5332" relation="include">
+        <childnode refid="5611" relation="include">
         </childnode>
-        <childnode refid="5333" relation="include">
+        <childnode refid="5612" relation="include">
         </childnode>
-        <childnode refid="5334" relation="include">
+        <childnode refid="5613" relation="include">
         </childnode>
-        <childnode refid="5335" relation="include">
+        <childnode refid="5614" relation="include">
         </childnode>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
-        <childnode refid="5337" relation="include">
+        <childnode refid="5616" relation="include">
         </childnode>
-        <childnode refid="5338" relation="include">
+        <childnode refid="5617" relation="include">
         </childnode>
-        <childnode refid="5339" relation="include">
+        <childnode refid="5618" relation="include">
         </childnode>
-        <childnode refid="5340" relation="include">
+        <childnode refid="5619" relation="include">
         </childnode>
-        <childnode refid="5341" relation="include">
+        <childnode refid="5620" relation="include">
         </childnode>
-        <childnode refid="5342" relation="include">
+        <childnode refid="5621" relation="include">
         </childnode>
-        <childnode refid="5343" relation="include">
+        <childnode refid="5622" relation="include">
         </childnode>
-        <childnode refid="5344" relation="include">
+        <childnode refid="5623" relation="include">
         </childnode>
-        <childnode refid="5345" relation="include">
+        <childnode refid="5624" relation="include">
+        </childnode>
+        <childnode refid="5625" relation="include">
         </childnode>
       </node>
-      <node id="5359">
+      <node id="5639">
         <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
       </node>
-      <node id="5334">
+      <node id="5613">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="5330">
+      <node id="5604">
+        <label>Source/Document/ReferenceTable.cpp</label>
+      </node>
+      <node id="5609">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="5351">
+      <node id="5631">
         <label>Source/MdDoxTree/ClassPageWriter.h</label>
-        <childnode refid="5328" relation="include">
+        <childnode refid="5607" relation="include">
         </childnode>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
       </node>
-      <node id="5340">
+      <node id="5620">
         <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="5341">
+      <node id="5621">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="5349">
+      <node id="5629">
         <label>Tools/Doxygen/CompoundDefQuery.h</label>
-        <childnode refid="5350" relation="include">
+        <childnode refid="5630" relation="include">
         </childnode>
-        <childnode refid="5352" relation="include">
+        <childnode refid="5632" relation="include">
         </childnode>
-        <childnode refid="5353" relation="include">
+        <childnode refid="5633" relation="include">
         </childnode>
-        <childnode refid="5355" relation="include">
+        <childnode refid="5635" relation="include">
         </childnode>
-        <childnode refid="5356" relation="include">
+        <childnode refid="5636" relation="include">
         </childnode>
       </node>
-      <node id="5331">
+      <node id="5610">
         <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
       </node>
-      <node id="5346">
+      <node id="5626">
         <label>Source/MdDoxTree/ReferenceIdentifiers.h</label>
-        <childnode refid="5326" relation="include">
+        <childnode refid="5605" relation="include">
         </childnode>
-        <childnode refid="5335" relation="include">
+        <childnode refid="5614" relation="include">
         </childnode>
-        <childnode refid="5347" relation="include">
+        <childnode refid="5623" relation="include">
+        </childnode>
+        <childnode refid="5627" relation="include">
         </childnode>
       </node>
-      <node id="5335">
+      <node id="5614">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="5347">
+      <node id="5627">
         <label>Source/MdDoxTree/ReferenceTable.h</label>
-        <childnode refid="5348" relation="include">
+        <childnode refid="5628" relation="include">
         </childnode>
-        <childnode refid="5344" relation="include">
+        <childnode refid="5624" relation="include">
         </childnode>
       </node>
-      <node id="5328">
+      <node id="5607">
         <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
-      <node id="5344">
+      <node id="5624">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="5338">
+      <node id="5602">
+        <label>Source/Document/ReferenceIdentifiers.h</label>
+        <childnode refid="5603" relation="include">
+        </childnode>
+      </node>
+      <node id="5618">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="5342">
+      <node id="5622">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
-      <node id="5327">
+      <node id="5606">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="5358">
+      <node id="5638">
         <label>Tools/Doxygen/CompoundIndexQuery.cpp</label>
       </node>
-      <node id="5356">
+      <node id="5636">
         <label>Tools/Doxygen/DoxygenQuery.cpp</label>
       </node>
-      <node id="5355">
+      <node id="5635">
         <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
       </node>
-      <node id="5353">
+      <node id="5633">
         <label>Source/MdDoxTree/GenericPageWriter.h</label>
-        <childnode refid="5332" relation="include">
+        <childnode refid="5611" relation="include">
         </childnode>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
       </node>
-      <node id="5337">
+      <node id="5603">
+        <label>Source/Document/ReferenceTable.h</label>
+        <childnode refid="5604" relation="include">
+        </childnode>
+      </node>
+      <node id="5616">
         <label>Source/MdDoxTree/Link.cpp</label>
       </node>
-      <node id="5350">
+      <node id="5630">
         <label>Source/MdDoxTree/PageWriter.h</label>
-        <childnode refid="5351" relation="include">
+        <childnode refid="5631" relation="include">
         </childnode>
-        <childnode refid="5352" relation="include">
+        <childnode refid="5632" relation="include">
         </childnode>
-        <childnode refid="5353" relation="include">
+        <childnode refid="5633" relation="include">
         </childnode>
-        <childnode refid="5354" relation="include">
+        <childnode refid="5634" relation="include">
         </childnode>
-        <childnode refid="5341" relation="include">
+        <childnode refid="5621" relation="include">
         </childnode>
       </node>
-      <node id="5329">
+      <node id="5617">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+      </node>
+      <node id="5608">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="5348">
+      <node id="5628">
         <label>Source/MdDoxTree/ReferenceTable.cpp</label>
       </node>
-      <node id="5352">
+      <node id="5632">
         <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
-        <childnode refid="5329" relation="include">
+        <childnode refid="5608" relation="include">
         </childnode>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
       </node>
-      <node id="5325">
+      <node id="5601">
         <label>Tools/Doxygen/DoxCompoundKind.h</label>
         <link refid="DoxCompoundKind_8h"/>
-        <childnode refid="5326" relation="include">
+        <childnode refid="5602" relation="include">
         </childnode>
-        <childnode refid="5346" relation="include">
+        <childnode refid="5605" relation="include">
         </childnode>
-        <childnode refid="5336" relation="include">
+        <childnode refid="5626" relation="include">
         </childnode>
-        <childnode refid="5349" relation="include">
+        <childnode refid="5615" relation="include">
         </childnode>
-        <childnode refid="5357" relation="include">
+        <childnode refid="5629" relation="include">
         </childnode>
-        <childnode refid="5360" relation="include">
+        <childnode refid="5637" relation="include">
+        </childnode>
+        <childnode refid="5640" relation="include">
         </childnode>
       </node>
-      <node id="5336">
+      <node id="5615">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

@@ -710,44 +710,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="598">
+      <node id="599">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
+        <childnode refid="597" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="597">
+        <label>MdDox::PageWriter</label>
+        <link refid="classMdDox_1_1PageWriter"/>
         <childnode refid="596" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="596">
-        <label>MdDox::PageWriter</label>
-        <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="595" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="601">
+      <node id="602">
         <label>MdDox::TableOfContents</label>
         <link refid="classMdDox_1_1TableOfContents"/>
-        <childnode refid="595" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="599">
-        <label>MdDox::GenericPageWriter</label>
-        <link refid="classMdDox_1_1GenericPageWriter"/>
         <childnode refid="596" relation="public-inheritance">
         </childnode>
       </node>
       <node id="600">
-        <label>MdDox::NamespacePageWriter</label>
-        <link refid="classMdDox_1_1NamespacePageWriter"/>
-        <childnode refid="596" relation="public-inheritance">
+        <label>MdDox::GenericPageWriter</label>
+        <link refid="classMdDox_1_1GenericPageWriter"/>
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="595">
+      <node id="601">
+        <label>MdDox::NamespacePageWriter</label>
+        <link refid="classMdDox_1_1NamespacePageWriter"/>
+        <childnode refid="597" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="596">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="597">
+      <node id="598">
         <label>MdDox::ClassPageWriter</label>
         <link refid="classMdDox_1_1ClassPageWriter"/>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

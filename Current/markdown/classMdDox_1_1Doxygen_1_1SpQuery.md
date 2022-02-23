@@ -58,7 +58,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/SpQuery.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="spquery"></a>
 <h2>SpQuery</h2>
 <span class="bold-text"><b>SpQuery</b></span>
@@ -69,7 +68,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/SpQuery.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="spquery"></a>
 <h2>SpQuery</h2>
@@ -89,7 +87,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="spquery"></a>
 <h2>SpQuery</h2>
 <span class="bold-text"><b>SpQuery</b></span>
@@ -106,7 +103,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/SpQuery.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getvalue"></a>
 <h2>getValue</h2>
@@ -130,14 +126,14 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#_node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_node</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#_node">_node</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#integer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">integer</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#integer">integer</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/SpQuery.h#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery.h</span>
@@ -147,7 +143,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/SpQuery.cpp#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

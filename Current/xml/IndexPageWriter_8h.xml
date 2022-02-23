@@ -3,148 +3,148 @@
   <compounddef id="IndexPageWriter_8h" kind="file" language="C++">
     <compoundname>IndexPageWriter.h</compoundname>
     <includes refid="DoxygenIndexQuery_8h" local="yes">Doxygen/DoxygenIndexQuery.h</includes>
-    <includes refid="IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
-    <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
+    <includes refid="MdDoxTree_2IconSet_8h" local="yes">MdDoxTree/IconSet.h</includes>
+    <includes refid="MdDoxTree_2Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <incdepgraph>
-      <node id="1025">
+      <node id="1517">
         <label>Utils/Console.h</label>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
-      <node id="1019">
+      <node id="1511">
         <label>iomanip</label>
       </node>
-      <node id="1011">
+      <node id="1503">
         <label>functional</label>
       </node>
-      <node id="1028">
+      <node id="1520">
         <label>Utils/Path.h</label>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
-      <node id="1021">
+      <node id="1513">
         <label>Utils/Exception.h</label>
-        <childnode refid="1022" relation="include">
+        <childnode refid="1514" relation="include">
         </childnode>
-        <childnode refid="1023" relation="include">
+        <childnode refid="1515" relation="include">
         </childnode>
-        <childnode refid="1024" relation="include">
+        <childnode refid="1516" relation="include">
         </childnode>
-        <childnode refid="1025" relation="include">
+        <childnode refid="1517" relation="include">
         </childnode>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
-      <node id="1023">
+      <node id="1515">
         <label>stdexcept</label>
       </node>
-      <node id="1017">
+      <node id="1509">
         <label>string</label>
       </node>
-      <node id="1010">
+      <node id="1502">
         <label>Doxygen.h</label>
-        <childnode refid="1011" relation="include">
+        <childnode refid="1503" relation="include">
         </childnode>
-        <childnode refid="1012" relation="include">
+        <childnode refid="1504" relation="include">
         </childnode>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
-        <childnode refid="1020" relation="include">
+        <childnode refid="1512" relation="include">
         </childnode>
-        <childnode refid="1021" relation="include">
+        <childnode refid="1513" relation="include">
         </childnode>
       </node>
-      <node id="1009">
+      <node id="1501">
         <label>Doxygen/DoxygenIndexQuery.h</label>
-        <childnode refid="1010" relation="include">
+        <childnode refid="1502" relation="include">
         </childnode>
       </node>
-      <node id="1022">
+      <node id="1514">
         <label>exception</label>
       </node>
-      <node id="1015">
+      <node id="1507">
         <label>fstream</label>
       </node>
-      <node id="1026">
+      <node id="1518">
         <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
-      <node id="1020">
+      <node id="1512">
         <label>Xml/Node.h</label>
-        <childnode refid="1011" relation="include">
+        <childnode refid="1503" relation="include">
         </childnode>
-        <childnode refid="1012" relation="include">
+        <childnode refid="1504" relation="include">
         </childnode>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
-      <node id="1013">
+      <node id="1505">
         <label>Utils/String.h</label>
-        <childnode refid="1014" relation="include">
+        <childnode refid="1506" relation="include">
         </childnode>
-        <childnode refid="1015" relation="include">
+        <childnode refid="1507" relation="include">
         </childnode>
-        <childnode refid="1016" relation="include">
+        <childnode refid="1508" relation="include">
         </childnode>
-        <childnode refid="1017" relation="include">
+        <childnode refid="1509" relation="include">
         </childnode>
-        <childnode refid="1012" relation="include">
+        <childnode refid="1504" relation="include">
         </childnode>
-        <childnode refid="1018" relation="include">
+        <childnode refid="1510" relation="include">
         </childnode>
-        <childnode refid="1019" relation="include">
+        <childnode refid="1511" relation="include">
         </childnode>
       </node>
-      <node id="1018">
+      <node id="1510">
         <label>vector</label>
       </node>
-      <node id="1024">
+      <node id="1516">
         <label>utility</label>
       </node>
-      <node id="1016">
+      <node id="1508">
         <label>sstream</label>
       </node>
-      <node id="1008">
+      <node id="1500">
         <label>Source/MdDoxTree/IndexPageWriter.h</label>
         <link refid="IndexPageWriter_8h"/>
-        <childnode refid="1009" relation="include">
+        <childnode refid="1501" relation="include">
         </childnode>
-        <childnode refid="1026" relation="include">
+        <childnode refid="1518" relation="include">
         </childnode>
-        <childnode refid="1027" relation="include">
+        <childnode refid="1519" relation="include">
         </childnode>
-        <childnode refid="1028" relation="include">
+        <childnode refid="1520" relation="include">
         </childnode>
       </node>
-      <node id="1014">
+      <node id="1506">
         <label>deque</label>
       </node>
-      <node id="1012">
+      <node id="1504">
         <label>unordered_map</label>
       </node>
-      <node id="1027">
+      <node id="1519">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="1013" relation="include">
+        <childnode refid="1505" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1031">
+      <node id="1523">
         <label>Source/MdDoxTree/SiteBuilder.cpp</label>
       </node>
-      <node id="1029">
+      <node id="1521">
         <label>Source/MdDoxTree/IndexPageWriter.h</label>
         <link refid="IndexPageWriter_8h"/>
-        <childnode refid="1030" relation="include">
+        <childnode refid="1522" relation="include">
         </childnode>
-        <childnode refid="1031" relation="include">
+        <childnode refid="1523" relation="include">
         </childnode>
       </node>
-      <node id="1030">
+      <node id="1522">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
@@ -203,7 +203,7 @@
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeReferenceFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name,</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon,</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>heading,</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref>&amp;<sp/>list)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref>&amp;<sp/>list)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1IndexPageWriter_1af32e63230ba9618577ed2c40727804a6" kindref="member">IndexPageWriter</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>indexDir);</highlight></codeline>

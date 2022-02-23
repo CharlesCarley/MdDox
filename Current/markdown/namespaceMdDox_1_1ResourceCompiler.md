@@ -13,14 +13,12 @@
 <br/>
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1ResourceCompiler_1_1Application.md#application" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Application</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="structMdDox_1_1ResourceCompiler_1_1Resource.md#resource" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Resource</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1ResourceCompiler_1_1Application.md#application">Application</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="structMdDox_1_1ResourceCompiler_1_1Resource.md#resource">Resource</a>
+</div>
 <a id="enums"></a>
 <h2>Enums</h2>
 <span class="icon-list-item"><a href="#option" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Option</span>
@@ -44,7 +42,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/ResourceCompiler/Main.cpp#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <a id="option"></a>
 <h2>Option</h2>
 <span class="bold-text"><b>Option</b></span>
@@ -88,7 +85,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="resourcemap"></a>
 <h2>ResourceMap</h2>
 <span class="inline-text">std::unordered_map&lt; </span>
@@ -103,7 +99,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/ResourceCompiler/Main.cpp#L90" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -123,7 +118,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/ResourceCompiler/Main.cpp#L65" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

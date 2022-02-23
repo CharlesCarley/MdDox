@@ -42,7 +42,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GenericPageWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="presortquery"></a>
 <h2>preSortQuery</h2>
 <span class="inline-text">void</span>
@@ -65,7 +64,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GenericPageWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedcompoundname"></a>
 <h2>visitedCompoundName</h2>
@@ -104,7 +102,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="genericpagewriter"></a>
 <h2>GenericPageWriter</h2>
 <span class="bold-text"><b>GenericPageWriter</b></span>
@@ -140,7 +137,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~genericpagewriter"></a>
 <h2>~GenericPageWriter</h2>
 <span class="bold-text"><b>~GenericPageWriter</b></span>
@@ -151,7 +147,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/GenericPageWriter.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

@@ -154,7 +154,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <a id="options"></a>
 <h2>Options</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -168,7 +167,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="stringarray"></a>
 <h2>StringArray</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -181,7 +179,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -198,7 +195,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_argumentlist"></a>
 <h2>_argumentList</h2>
 <a href="classMdDox_1_1CommandLine_1_1Parser.md#stringarray">StringArray</a>
@@ -209,7 +205,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_maxlongswitch"></a>
 <h2>_maxLongSwitch</h2>
@@ -222,7 +217,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_options"></a>
 <h2>_options</h2>
 <a href="classMdDox_1_1CommandLine_1_1Parser.md#options">Options</a>
@@ -233,7 +227,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_programname"></a>
 <h2>_programName</h2>
@@ -246,7 +239,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_required"></a>
 <h2>_required</h2>
 <span class="inline-text">int</span>
@@ -257,7 +249,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_scanner"></a>
 <h2>_scanner</h2>
@@ -270,7 +261,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_switches"></a>
 <h2>_switches</h2>
 <a href="classMdDox_1_1CommandLine_1_1Parser.md#switches">Switches</a>
@@ -282,7 +272,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_used"></a>
 <h2>_used</h2>
 <span class="inline-text">int</span>
@@ -293,7 +282,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="hasswitch"></a>
 <h2>hasSwitch</h2>
@@ -317,7 +305,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="initializeoption"></a>
 <h2>initializeOption</h2>
@@ -348,7 +335,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="initializeswitches"></a>
 <h2>initializeSwitches</h2>
 <span class="inline-text">bool</span>
@@ -377,7 +363,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writeerror"></a>
 <h2>writeError</h2>
 <span class="inline-text">int</span>
@@ -401,7 +386,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="parser"></a>
 <h2>Parser</h2>
 <span class="bold-text"><b>Parser</b></span>
@@ -417,7 +401,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~parser"></a>
 <h2>~Parser</h2>
 <span class="bold-text"><b>~Parser</b></span>
@@ -432,7 +415,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="arguments"></a>
 <h2>arguments</h2>
@@ -451,7 +433,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L80" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="int32"></a>
 <h2>int32</h2>
@@ -495,7 +476,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="int64"></a>
 <h2>int64</h2>
 <span class="inline-text">int64_t</span>
@@ -538,7 +518,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="ispresent"></a>
 <h2>isPresent</h2>
 <span class="inline-text">bool</span>
@@ -573,7 +552,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="loginput"></a>
 <h2>logInput</h2>
 <span class="inline-text">void</span>
@@ -587,14 +565,14 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#getvalue" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Scanner.md#getvalue">getValue</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Console.md#writeline">writeLine</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L75" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -604,7 +582,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L179" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="option"></a>
 <h2>option</h2>
@@ -641,7 +618,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="parse"></a>
 <h2>parse</h2>
 <span class="inline-text">int</span>
@@ -677,74 +653,74 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#clear" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">clear</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Scanner.md#clear">clear</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#append" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">append</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Scanner.md#append">append</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Token.md#gettype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getType</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Token.md#gettype">getType</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_eos" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_EOS</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_eos">TOK_EOS</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Scanner.md#lex" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">lex</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Scanner.md#lex">lex</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_error" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_ERROR</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_error">TOK_ERROR</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Token.md#getvalue" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getValue</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Token.md#getvalue">getValue</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#usage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">usage</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#usage">usage</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_switch_short" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_SWITCH_SHORT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_switch_short">TOK_SWITCH_SHORT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_switch_long" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_SWITCH_LONG</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_switch_long">TOK_SWITCH_LONG</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_next" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_NEXT</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_next">TOK_NEXT</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#makepresent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">makePresent</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#makepresent">makePresent</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#isoptional" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">isOptional</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#isoptional">isOptional</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#getargcount" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getArgCount</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#getargcount">getArgCount</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_identifier" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_IDENTIFIER</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_identifier">TOK_IDENTIFIER</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#setvalue" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">setValue</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1ParseOption.md#setvalue">setValue</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1CommandLine.md#tok_option" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TOK_OPTION</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1CommandLine.md#tok_option">TOK_OPTION</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -754,7 +730,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="programdirectory"></a>
 <h2>programDirectory</h2>
@@ -782,7 +757,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="programname"></a>
 <h2>programName</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -804,7 +778,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="programpath"></a>
 <h2>programPath</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -821,7 +794,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L88" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="string"></a>
 <h2>string</h2>
@@ -862,7 +834,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="usage"></a>
 <h2>usage</h2>
 <span class="inline-text">void</span>
@@ -871,10 +842,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Console.md#writeline" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeLine</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Console.md#writeline">writeLine</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L132" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -884,7 +855,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L258" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="usage"></a>
 <h2>usage</h2>
@@ -900,30 +870,30 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1CommandLine_1_1Parser.md#programname" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">programName</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1CommandLine_1_1Parser.md#programname">programName</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="structMdDox_1_1CommandLine_1_1Switch.md#shortswitch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">shortSwitch</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="structMdDox_1_1CommandLine_1_1Switch.md#shortswitch">shortSwitch</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="structMdDox_1_1CommandLine_1_1Switch.md#longswitch" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">longSwitch</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="structMdDox_1_1CommandLine_1_1Switch.md#longswitch">longSwitch</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#length" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">length</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#length">length</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="structMdDox_1_1CommandLine_1_1Switch.md#description" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">description</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="structMdDox_1_1CommandLine_1_1Switch.md#description">description</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1StringUtils.md#split" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">split</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#split">split</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L134" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -933,7 +903,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L265" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="currentdirectory"></a>
 <h2>currentDirectory</h2>
@@ -953,10 +922,10 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1FileSystem.md#currentpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">currentPath</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1FileSystem.md#currentpath">currentPath</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.h#L108" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
@@ -966,7 +935,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/CommandLine/Parser.cpp#L196" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

@@ -70,7 +70,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <a id="_file"></a>
 <h2>_file</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -81,7 +80,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="repofile"></a>
 <h2>RepoFile</h2>
@@ -98,11 +96,9 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.cpp#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="repofile"></a>
 <h2>RepoFile</h2>
@@ -121,7 +117,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="repofile"></a>
 <h2>RepoFile</h2>
 <span class="bold-text"><b>RepoFile</b></span>
@@ -132,7 +127,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="~repofile"></a>
 <h2>~RepoFile</h2>
@@ -145,7 +139,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="empty"></a>
 <h2>empty</h2>
 <span class="inline-text">bool</span>
@@ -157,7 +150,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getdocurl"></a>
 <h2>getDocUrl</h2>
@@ -192,11 +184,9 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getfile"></a>
 <h2>getFile</h2>
@@ -212,7 +202,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="getrefid"></a>
 <h2>getRefId</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -224,11 +213,9 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getsiteurl"></a>
 <h2>getSiteUrl</h2>
@@ -255,11 +242,9 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.cpp#L63" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getsrcurl"></a>
 <h2>getSrcUrl</h2>
@@ -272,11 +257,9 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.cpp#L58" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setfile"></a>
 <h2>setFile</h2>
@@ -296,7 +279,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/RepoFile.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">RepoFile.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

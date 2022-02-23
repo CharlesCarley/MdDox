@@ -34,7 +34,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxygenQuery.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~doxygenqueryvisitor"></a>
 <h2>~DoxygenQueryVisitor</h2>
 <span class="bold-text"><b>~DoxygenQueryVisitor</b></span>
@@ -45,7 +44,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxygenQuery.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedcompounddef"></a>
 <h2>visitedCompoundDef</h2>
@@ -82,7 +80,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -105,7 +102,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxygenQuery.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

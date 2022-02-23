@@ -26,7 +26,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
 </a>
 </span>
-<br/>
 <a id="typecode"></a>
 <h2>typeCode</h2>
 <span class="inline-text">int64_t</span>
@@ -38,7 +37,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="typename"></a>
 <h2>typeName</h2>
 <span class="inline-text">const char *</span>
@@ -49,7 +47,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/TypeFilter.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TypeFilter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

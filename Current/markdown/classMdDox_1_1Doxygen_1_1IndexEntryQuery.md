@@ -57,7 +57,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/IndexEntryQuery.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="indexentryquery"></a>
 <h2>IndexEntryQuery</h2>
 <span class="bold-text"><b>IndexEntryQuery</b></span>
@@ -68,7 +67,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/IndexEntryQuery.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="indexentryquery"></a>
 <h2>IndexEntryQuery</h2>
@@ -88,7 +86,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="indexentryquery"></a>
 <h2>IndexEntryQuery</h2>
 <span class="bold-text"><b>IndexEntryQuery</b></span>
@@ -105,7 +102,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/IndexEntryQuery.h#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

@@ -13,368 +13,278 @@
 <br/>
 <a id="namespaces"></a>
 <h2>Namespaces</h2>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#visitors" class="icon-list-item"><img src="../images/namespace.svg" class="icon-list-item"/><span class="icon-list-item">Visitors</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#visitors">Visitors</a>
+</div>
 <a id="classes"></a>
 <h2>Classes</h2>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AnchorQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CaptionQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ChildNodeQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CodeLineQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundDefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundIndexQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CompoundRefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CopyQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxAccessor.md#doxaccessor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessor</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#doxbool" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxBool</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCharRange.md#doxcharrange" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxCompoundKind.md#doxcompoundkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxGraphRelation.md#doxgraphrelation" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#doxhighlightclass" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxHighlightClass</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxImageKind.md#doximagekind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxLanguage.md#doxlanguage" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxLanguage</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxMemberKind.md#doxmemberkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxMemberKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#doxparamdir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxParamListKind.md#doxparamlistkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamListKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxProtectionKind.md#doxprotectionkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxProtectionKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefKind.md#doxrefkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind.md#doxrefqualifierkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSectionKind.md#doxsectionkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSectionKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind.md#doxsimplesectkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxSimpleSectKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVersionNumber.md#doxversionnumber" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxVirtualKind.md#doxvirtualkind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenIndexQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EmptyQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EntryQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">EnumValueQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FileQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">FormulaQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GraphQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HeadingQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">HighlightQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ImageQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IncQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">IndexEntryQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS1Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS2Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS3Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">InternalS4Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LanguageQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkedTextQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#linkquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LinkQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListingQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListItemQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListOfAllMembersQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#locationquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberDefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberIndexQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">MemberRefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NodeQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#paramlistitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListItemQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#paramnamequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamNameQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParaQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ParBlockQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReferenceQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RefTextQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ReimplementQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">RowQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect1Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect2Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect3Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Sect4Query</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SectionDefQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SimpleSectQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">SpQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TableQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TemplateParamListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TitleQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocItemQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">TocListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VariableListQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">VarListEntryQuery</span>
-</a>
-</span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">XRefSectQuery</span>
-</a>
-</span>
-<br/>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery">AnchorQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery">BlockQuoteQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery">CaptionQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery">ChildNodeQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery">CodeLineQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">CompoundDefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery">CompoundIndexQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery">CompoundRefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery">CopyQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">DescriptionQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxAccessor.md#doxaccessor">DoxAccessor</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxBool.md#doxbool">DoxBool</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxCharRange.md#doxcharrange">DoxCharRange</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxCompoundKind.md#doxcompoundkind">DoxCompoundKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxGraphRelation.md#doxgraphrelation">DoxGraphRelation</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxHighlightClass.md#doxhighlightclass">DoxHighlightClass</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxImageKind.md#doximagekind">DoxImageKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxLanguage.md#doxlanguage">DoxLanguage</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxMemberKind.md#doxmemberkind">DoxMemberKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxParamDir.md#doxparamdir">DoxParamDir</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxParamListKind.md#doxparamlistkind">DoxParamListKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxProtectionKind.md#doxprotectionkind">DoxProtectionKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxRefKind.md#doxrefkind">DoxRefKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind.md#doxrefqualifierkind">DoxRefQualifierKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxSectionKind.md#doxsectionkind">DoxSectionKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxSimpleSectKind.md#doxsimplesectkind">DoxSimpleSectKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxVersionNumber.md#doxversionnumber">DoxVersionNumber</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxVirtualKind.md#doxvirtualkind">DoxVirtualKind</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery">DoxygenIndexQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery">DoxygenQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">EmptyQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery">EntryQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery">EnumValueQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery">FileQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery">FormulaQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery">GraphQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery">HeadingQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery">HighlightQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery">ImageQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery">IncQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery">IndexEntryQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery">InternalQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query">InternalS1Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query">InternalS2Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query">InternalS3Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query">InternalS4Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery">LanguageQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">LinkedTextQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#linkquery">LinkQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery">ListingQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery">ListItemQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery">ListOfAllMembersQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">ListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#locationquery">LocationQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MarkupQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery">MemberDefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery">MemberIndexQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery">MemberRefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery">NodeQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#paramlistitemquery">ParamListItemQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery">ParamListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery">ParamNameListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#paramnamequery">ParamNameQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery">ParamQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery">ParamTypeQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">ParaQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery">ParBlockQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#query">Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery">ReferenceQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">RefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery">ReimplementQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery">RowQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query">Sect1Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query">Sect2Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query">Sect3Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query">Sect4Query</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">SectionDefQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery">SimpleSectQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">SpQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery">TableQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery">TemplateParamListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery">TitleQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery">TocItemQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery">TocListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">UrlLinkQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery">VariableListQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery">VarListEntryQuery</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery">XRefSectQuery</a>
+</div>
 <a id="enums"></a>
 <h2>Enums</h2>
 <span class="icon-list-item"><a href="#doxaccessorenum" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxAccessorEnum</span>
@@ -764,7 +674,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L26" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
-<br/>
 <a id="doxaccessorenum"></a>
 <h2>DoxAccessorEnum</h2>
 <span class="bold-text"><b>DoxAccessorEnum</b></span>
@@ -824,7 +733,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxboolenum"></a>
 <h2>DoxBoolEnum</h2>
 <span class="bold-text"><b>DoxBoolEnum</b></span>
@@ -864,7 +772,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxcharrangeenum"></a>
 <h2>DoxCharRangeEnum</h2>
 <span class="bold-text"><b>DoxCharRangeEnum</b></span>
@@ -894,7 +801,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxCharRange.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxCharRange.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxcompoundkindenum"></a>
 <h2>DoxCompoundKindEnum</h2>
@@ -1010,7 +916,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxgraphrelationenum"></a>
 <h2>DoxGraphRelationEnum</h2>
 <span class="bold-text"><b>DoxGraphRelationEnum</b></span>
@@ -1074,7 +979,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxGraphRelation.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxGraphRelation.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxhighlightclassenum"></a>
 <h2>DoxHighlightClassEnum</h2>
@@ -1145,7 +1049,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doximagekindenum"></a>
 <h2>DoxImageKindEnum</h2>
 <span class="bold-text"><b>DoxImageKindEnum</b></span>
@@ -1189,7 +1092,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxImageKind.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxImageKind.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxlanguageenum"></a>
 <h2>DoxLanguageEnum</h2>
@@ -1300,7 +1202,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxmemberkindenum"></a>
 <h2>DoxMemberKindEnum</h2>
 <span class="bold-text"><b>DoxMemberKindEnum</b></span>
@@ -1400,7 +1301,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxparamdirenum"></a>
 <h2>DoxParamDirEnum</h2>
 <span class="bold-text"><b>DoxParamDirEnum</b></span>
@@ -1444,7 +1344,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxParamDir.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxParamDir.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxparamlistkindenum"></a>
 <h2>DoxParamListKindEnum</h2>
@@ -1495,7 +1394,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxprotectionkindenum"></a>
 <h2>DoxProtectionKindEnum</h2>
 <span class="bold-text"><b>DoxProtectionKindEnum</b></span>
@@ -1545,7 +1443,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxrefkindenum"></a>
 <h2>DoxRefKindEnum</h2>
 <span class="bold-text"><b>DoxRefKindEnum</b></span>
@@ -1585,7 +1482,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxrefqualifierkindenum"></a>
 <h2>DoxRefQualifierKindEnum</h2>
 <span class="bold-text"><b>DoxRefQualifierKindEnum</b></span>
@@ -1624,7 +1520,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxRefQualifierKind.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxsectionkindenum"></a>
 <h2>DoxSectionKindEnum</h2>
@@ -1835,7 +1730,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxsimplesectkindenum"></a>
 <h2>DoxSimpleSectKindEnum</h2>
 <span class="bold-text"><b>DoxSimpleSectKindEnum</b></span>
@@ -1950,7 +1844,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxversionnumberenum"></a>
 <h2>DoxVersionNumberEnum</h2>
 <span class="bold-text"><b>DoxVersionNumberEnum</b></span>
@@ -1980,7 +1873,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVersionNumber.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxVersionNumber.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxvirtualkindenum"></a>
 <h2>DoxVirtualKindEnum</h2>
@@ -2025,7 +1917,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/DoxVirtualKind.h#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxVirtualKind.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="usedelements"></a>
 <h2>UsedElements</h2>
@@ -2481,7 +2372,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="anchorqueryfunction"></a>
 <h2>AnchorQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2494,7 +2384,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L160" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="blockquotequeryfunction"></a>
 <h2>BlockQuoteQueryFunction</h2>
@@ -2509,7 +2398,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="captionqueryfunction"></a>
 <h2>CaptionQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2522,7 +2410,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L165" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="childnodequeryfunction"></a>
 <h2>ChildNodeQueryFunction</h2>
@@ -2537,7 +2424,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="codelinequeryfunction"></a>
 <h2>CodeLineQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2550,7 +2436,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="compounddefqueryfunction"></a>
 <h2>CompoundDefQueryFunction</h2>
@@ -2565,7 +2450,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="compoundindexqueryfunction"></a>
 <h2>CompoundIndexQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2578,7 +2462,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L111" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="compoundrefqueryfunction"></a>
 <h2>CompoundRefQueryFunction</h2>
@@ -2593,7 +2476,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="copyqueryfunction"></a>
 <h2>CopyQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2606,7 +2488,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L174" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="descriptionqueryfunction"></a>
 <h2>DescriptionQueryFunction</h2>
@@ -2621,7 +2502,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="doxygenindexqueryfunction"></a>
 <h2>DoxygenIndexQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2634,7 +2514,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="doxygenqueryfunction"></a>
 <h2>DoxygenQueryFunction</h2>
@@ -2649,7 +2528,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="emptyqueryfunction"></a>
 <h2>EmptyQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2662,7 +2540,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L176" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="entryqueryfunction"></a>
 <h2>EntryQueryFunction</h2>
@@ -2677,7 +2554,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="enumvaluequeryfunction"></a>
 <h2>EnumValueQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2690,7 +2566,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="filequeryfunction"></a>
 <h2>FileQueryFunction</h2>
@@ -2705,7 +2580,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="formulaqueryfunction"></a>
 <h2>FormulaQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2718,7 +2592,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L140" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="graphqueryfunction"></a>
 <h2>GraphQueryFunction</h2>
@@ -2733,7 +2606,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="headingqueryfunction"></a>
 <h2>HeadingQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2746,7 +2618,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L166" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="highlightqueryfunction"></a>
 <h2>HighlightQueryFunction</h2>
@@ -2761,7 +2632,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="imagequeryfunction"></a>
 <h2>ImageQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2774,7 +2644,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L116" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="incqueryfunction"></a>
 <h2>IncQueryFunction</h2>
@@ -2789,7 +2658,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="indexentryqueryfunction"></a>
 <h2>IndexEntryQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2802,7 +2670,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="internalqueryfunction"></a>
 <h2>InternalQueryFunction</h2>
@@ -2817,7 +2684,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="internals1queryfunction"></a>
 <h2>InternalS1QueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2830,7 +2696,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="internals2queryfunction"></a>
 <h2>InternalS2QueryFunction</h2>
@@ -2845,7 +2710,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="internals3queryfunction"></a>
 <h2>InternalS3QueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2858,7 +2722,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L156" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="internals4queryfunction"></a>
 <h2>InternalS4QueryFunction</h2>
@@ -2873,7 +2736,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="languagequeryfunction"></a>
 <h2>LanguageQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2886,7 +2748,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L163" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="linkedtextqueryfunction"></a>
 <h2>LinkedTextQueryFunction</h2>
@@ -2901,7 +2762,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="linkqueryfunction"></a>
 <h2>LinkQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2914,7 +2774,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="listingqueryfunction"></a>
 <h2>ListingQueryFunction</h2>
@@ -2929,7 +2788,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="listitemqueryfunction"></a>
 <h2>ListItemQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2942,7 +2800,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="listofallmembersqueryfunction"></a>
 <h2>ListOfAllMembersQueryFunction</h2>
@@ -2957,7 +2814,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="listqueryfunction"></a>
 <h2>ListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2970,7 +2826,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="locationqueryfunction"></a>
 <h2>LocationQueryFunction</h2>
@@ -2985,7 +2840,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="markupqueryfunction"></a>
 <h2>MarkupQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -2998,7 +2852,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L159" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="memberdefqueryfunction"></a>
 <h2>MemberDefQueryFunction</h2>
@@ -3013,7 +2866,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="memberindexqueryfunction"></a>
 <h2>MemberIndexQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3026,7 +2878,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="memberrefqueryfunction"></a>
 <h2>MemberRefQueryFunction</h2>
@@ -3041,7 +2892,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="nodequeryfunction"></a>
 <h2>NodeQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3054,7 +2904,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L141" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="paramlistitemqueryfunction"></a>
 <h2>ParamListItemQueryFunction</h2>
@@ -3069,7 +2918,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="paramlistqueryfunction"></a>
 <h2>ParamListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3082,7 +2930,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L169" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="paramnamelistqueryfunction"></a>
 <h2>ParamNameListQueryFunction</h2>
@@ -3097,7 +2944,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="paramnamequeryfunction"></a>
 <h2>ParamNameQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3110,7 +2956,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L172" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="paramqueryfunction"></a>
 <h2>ParamQueryFunction</h2>
@@ -3125,7 +2970,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="paramtypequeryfunction"></a>
 <h2>ParamTypeQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3138,7 +2982,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="paraqueryfunction"></a>
 <h2>ParaQueryFunction</h2>
@@ -3153,7 +2996,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="parblockqueryfunction"></a>
 <h2>ParBlockQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3166,7 +3008,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="referencequeryfunction"></a>
 <h2>ReferenceQueryFunction</h2>
@@ -3181,7 +3022,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="refqueryfunction"></a>
 <h2>RefQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3194,7 +3034,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L123" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="reftextqueryfunction"></a>
 <h2>RefTextQueryFunction</h2>
@@ -3209,7 +3048,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="reimplementqueryfunction"></a>
 <h2>ReimplementQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3222,7 +3060,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L120" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="rowqueryfunction"></a>
 <h2>RowQueryFunction</h2>
@@ -3237,7 +3074,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="sect1queryfunction"></a>
 <h2>Sect1QueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3250,7 +3086,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L144" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="sect2queryfunction"></a>
 <h2>Sect2QueryFunction</h2>
@@ -3265,7 +3100,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="sect3queryfunction"></a>
 <h2>Sect3QueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3278,7 +3112,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L112" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="sect4queryfunction"></a>
 <h2>Sect4QueryFunction</h2>
@@ -3293,7 +3126,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="sectiondefqueryfunction"></a>
 <h2>SectionDefQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3306,7 +3138,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L127" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="simplesectqueryfunction"></a>
 <h2>SimpleSectQueryFunction</h2>
@@ -3321,7 +3152,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="sortmap"></a>
 <h2>SortMap</h2>
 <span class="inline-text">std::unordered_map&lt; int, int &gt;</span>
@@ -3332,7 +3162,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="spqueryfunction"></a>
 <h2>SpQueryFunction</h2>
@@ -3347,7 +3176,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tablequeryfunction"></a>
 <h2>TableQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3360,7 +3188,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="templateparamlistqueryfunction"></a>
 <h2>TemplateParamListQueryFunction</h2>
@@ -3375,7 +3202,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="titlequeryfunction"></a>
 <h2>TitleQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3388,7 +3214,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L107" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tocitemqueryfunction"></a>
 <h2>TocItemQueryFunction</h2>
@@ -3403,7 +3228,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="toclistqueryfunction"></a>
 <h2>TocListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3416,7 +3240,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L168" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="urllinkqueryfunction"></a>
 <h2>UrlLinkQueryFunction</h2>
@@ -3431,7 +3254,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="variablelistqueryfunction"></a>
 <h2>VariableListQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3444,7 +3266,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L130" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="varlistentryqueryfunction"></a>
 <h2>VarListEntryQueryFunction</h2>
@@ -3459,7 +3280,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="xrefsectqueryfunction"></a>
 <h2>XRefSectQueryFunction</h2>
 <span class="inline-text">std::function&lt; void(const </span>
@@ -3473,7 +3293,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="currenttags"></a>
 <h2>CurrentTags</h2>
 <span class="inline-text">constexpr </span>
@@ -3486,7 +3305,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="getfilter"></a>
 <h2>getFilter</h2>
 <span class="inline-text">const </span>
@@ -3497,16 +3315,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#currenttags">CurrentTags</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L142" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getfiltersize"></a>
 <h2>getFilterSize</h2>
@@ -3516,16 +3333,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#currenttags" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">CurrentTags</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#currenttags">CurrentTags</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/TypeFilter/DoxygenFilter.cpp#L147" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxygenFilter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="queryforeach"></a>
 <h2>QueryForEach</h2>
@@ -3549,16 +3365,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#children" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">children</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#children">children</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/Doxygen.h#L181" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

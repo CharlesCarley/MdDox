@@ -124,7 +124,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <a id="_indir"></a>
 <h2>_inDir</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
@@ -135,7 +134,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_out"></a>
 <h2>_out</h2>
@@ -148,7 +146,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_outdir"></a>
 <h2>_outDir</h2>
 <a href="classMdDox_1_1PathUtil.md#pathutil">PathUtil</a>
@@ -159,7 +156,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_ref"></a>
 <h2>_ref</h2>
@@ -172,7 +168,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_sections"></a>
 <h2>_sections</h2>
 <a href="namespaceMdDox_1_1Xml.md#xmlnodearray">Xml::NodeArray</a>
@@ -183,7 +178,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
@@ -196,7 +190,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="begindocument"></a>
 <h2>beginDocument</h2>
@@ -221,7 +214,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="enddocument"></a>
 <h2>endDocument</h2>
 <span class="inline-text">void</span>
@@ -244,7 +236,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="writedescription"></a>
 <h2>writeDescription</h2>
@@ -269,7 +260,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="notifybriefdescription"></a>
 <h2>notifyBriefDescription</h2>
 <span class="inline-text">void</span>
@@ -288,7 +278,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L59" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="notifydetaildescription"></a>
 <h2>notifyDetailDescription</h2>
@@ -309,7 +298,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="notifydetaildescriptionheading"></a>
 <h2>notifyDetailDescriptionHeading</h2>
 <span class="inline-text">void</span>
@@ -329,7 +317,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="presortquery"></a>
 <h2>preSortQuery</h2>
 <span class="inline-text">void</span>
@@ -348,7 +335,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedbriefdescription"></a>
 <h2>visitedBriefDescription</h2>
@@ -379,10 +365,10 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#notifybriefdescription" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">notifyBriefDescription</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#notifybriefdescription">notifyBriefDescription</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -392,7 +378,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visiteddetaileddescription"></a>
 <h2>visitedDetailedDescription</h2>
@@ -423,18 +408,18 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#empty" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">empty</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#empty">empty</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#notifydetaildescriptionheading" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">notifyDetailDescriptionHeading</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#notifydetaildescriptionheading">notifyDetailDescriptionHeading</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#notifydetaildescription" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">notifyDetailDescription</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#notifydetaildescription">notifyDetailDescription</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -444,7 +429,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L54" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedsectiondef"></a>
 <h2>visitedSectionDef</h2>
@@ -475,30 +459,30 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_writer">_writer</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_out" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_out">_out</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SectionDefListingWriter.md#setdepth" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">setDepth</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefListingWriter.md#setdepth">setDepth</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SectionDefListingWriter.md#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefListingWriter.md#write">write</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_sections" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_sections</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_sections">_sections</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#node">node</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L51" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -509,7 +493,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="writedetails"></a>
 <h2>writeDetails</h2>
 <span class="inline-text">void</span>
@@ -518,22 +501,22 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_sections" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_sections</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_sections">_sections</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_writer" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_writer</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_writer">_writer</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_out" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_out">_out</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SectionDefWriter.md#write" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">write</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefWriter.md#write">write</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L65" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -543,7 +526,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L101" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="pagewriter"></a>
 <h2>PageWriter</h2>
@@ -572,22 +554,22 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_indir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_inDir</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_indir">_inDir</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_outdir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_outDir</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_outdir">_outDir</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#parentdir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">parentDir</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#parentdir">parentDir</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#appenddirectory" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">appendDirectory</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#appenddirectory">appendDirectory</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L68" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -597,7 +579,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="~pagewriter"></a>
 <h2>~PageWriter</h2>
@@ -609,7 +590,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L69" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="exec"></a>
 <h2>exec</h2>
@@ -626,58 +606,58 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_out" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_out</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_out">_out</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_outdir" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_outDir</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_outdir">_outDir</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#filename" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fileName</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#filename">fileName</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox.md#stringcombine" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">StringCombine</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#stringcombine">StringCombine</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#_ref" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_ref</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#_ref">_ref</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Reference.md#getid" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getId</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Reference.md#getid">getId</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#get">get</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1SiteBuilder.md#outputfileext" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">outputFileExt</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#outputfileext">outputFileExt</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PathUtil.md#fullpath" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">fullPath</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PathUtil.md#fullpath">fullPath</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Doxygen_1_1Query.md#node" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">node</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#node">node</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1Xml_1_1Node.md#getfirstchild" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getFirstChild</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#getfirstchild">getFirstChild</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="namespaceMdDox_1_1Doxygen.md#doxcompounddef" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">DoxCompoundDef</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1Doxygen.md#doxcompounddef">DoxCompoundDef</a>
 </span>
-<br/>
-<span class="icon-list-item"><a href="classMdDox_1_1PageWriter.md#writedetails" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">writeDetails</span>
-</a>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#writedetails">writeDetails</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.h</span>
@@ -687,7 +667,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/MdDoxTree/PageWriter.cpp#L110" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">PageWriter.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

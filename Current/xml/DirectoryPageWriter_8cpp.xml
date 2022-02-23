@@ -3,315 +3,315 @@
   <compounddef id="DirectoryPageWriter_8cpp" kind="file" language="C++">
     <compoundname>DirectoryPageWriter.cpp</compoundname>
     <includes refid="DirectoryPageWriter_8h" local="yes">DirectoryPageWriter.h</includes>
-    <includes refid="HashUtils_8h" local="yes">HashUtils.h</includes>
+    <includes refid="MdDoxTree_2HashUtils_8h" local="yes">HashUtils.h</includes>
     <includes refid="DoxygenQuery_8h" local="yes">Doxygen/DoxygenQuery.h</includes>
     <includes refid="LocationQuery_8h" local="yes">Doxygen/LocationQuery.h</includes>
     <includes refid="RefQuery_8h" local="yes">Doxygen/RefQuery.h</includes>
-    <includes refid="DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
-    <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
+    <includes refid="MdDoxTree_2DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
+    <includes refid="MdDoxTree_2Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">MdDoxTree/SiteBuilder.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="341">
+      <node id="1066">
         <label>Utils/Console.h</label>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="335">
+      <node id="1060">
         <label>iomanip</label>
       </node>
-      <node id="327">
+      <node id="1052">
         <label>functional</label>
       </node>
-      <node id="349">
+      <node id="1074">
         <label>Utils/Path.h</label>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="365">
+      <node id="1090">
         <label>cstdint</label>
       </node>
-      <node id="337">
+      <node id="1062">
         <label>Utils/Exception.h</label>
-        <childnode refid="338" relation="include">
+        <childnode refid="1063" relation="include">
         </childnode>
-        <childnode refid="339" relation="include">
+        <childnode refid="1064" relation="include">
         </childnode>
-        <childnode refid="340" relation="include">
+        <childnode refid="1065" relation="include">
         </childnode>
-        <childnode refid="341" relation="include">
+        <childnode refid="1066" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="343">
+      <node id="1068">
         <label>DoxLanguage.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="351">
+      <node id="1076">
         <label>Doxygen/DoxygenQuery.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
-        <childnode refid="352" relation="include">
+        <childnode refid="1077" relation="include">
         </childnode>
       </node>
-      <node id="346">
+      <node id="1071">
         <label>Doxygen/CompoundIndexQuery.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
-        <childnode refid="342" relation="include">
+        <childnode refid="1067" relation="include">
         </childnode>
       </node>
-      <node id="339">
+      <node id="1064">
         <label>stdexcept</label>
       </node>
-      <node id="333">
+      <node id="1058">
         <label>string</label>
       </node>
-      <node id="326">
+      <node id="1051">
         <label>Doxygen.h</label>
-        <childnode refid="327" relation="include">
+        <childnode refid="1052" relation="include">
         </childnode>
-        <childnode refid="328" relation="include">
+        <childnode refid="1053" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
-        <childnode refid="336" relation="include">
+        <childnode refid="1061" relation="include">
         </childnode>
-        <childnode refid="337" relation="include">
+        <childnode refid="1062" relation="include">
         </childnode>
       </node>
-      <node id="354">
+      <node id="1079">
         <label>Doxygen/RefQuery.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
-        <childnode refid="344" relation="include">
+        <childnode refid="1069" relation="include">
         </childnode>
       </node>
-      <node id="338">
+      <node id="1063">
         <label>exception</label>
       </node>
-      <node id="331">
+      <node id="1056">
         <label>fstream</label>
       </node>
-      <node id="359">
+      <node id="1084">
         <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="328" relation="include">
+        <childnode refid="1053" relation="include">
         </childnode>
-        <childnode refid="360" relation="include">
+        <childnode refid="1085" relation="include">
         </childnode>
-        <childnode refid="342" relation="include">
+        <childnode refid="1067" relation="include">
         </childnode>
-        <childnode refid="361" relation="include">
+        <childnode refid="1086" relation="include">
         </childnode>
-        <childnode refid="362" relation="include">
+        <childnode refid="1087" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="356">
+      <node id="1081">
         <label>IconSet.h</label>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="336">
+      <node id="1061">
         <label>Xml/Node.h</label>
-        <childnode refid="327" relation="include">
+        <childnode refid="1052" relation="include">
         </childnode>
-        <childnode refid="328" relation="include">
+        <childnode refid="1053" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="355">
+      <node id="1080">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="356" relation="include">
+        <childnode refid="1081" relation="include">
         </childnode>
-        <childnode refid="357" relation="include">
+        <childnode refid="1082" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="325">
+      <node id="1050">
         <label>Doxygen/CompoundDefQuery.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
-        <childnode refid="342" relation="include">
+        <childnode refid="1067" relation="include">
         </childnode>
-        <childnode refid="343" relation="include">
+        <childnode refid="1068" relation="include">
         </childnode>
-        <childnode refid="344" relation="include">
+        <childnode refid="1069" relation="include">
         </childnode>
-        <childnode refid="345" relation="include">
+        <childnode refid="1070" relation="include">
         </childnode>
       </node>
-      <node id="350">
+      <node id="1075">
         <label>HashUtils.h</label>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="344">
+      <node id="1069">
         <label>DoxProtectionKind.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="361">
+      <node id="1086">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="362">
+      <node id="1087">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="342" relation="include">
+        <childnode refid="1067" relation="include">
         </childnode>
-        <childnode refid="361" relation="include">
+        <childnode refid="1086" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="1072" relation="include">
         </childnode>
       </node>
-      <node id="329">
+      <node id="1054">
         <label>Utils/String.h</label>
-        <childnode refid="330" relation="include">
+        <childnode refid="1055" relation="include">
         </childnode>
-        <childnode refid="331" relation="include">
+        <childnode refid="1056" relation="include">
         </childnode>
-        <childnode refid="332" relation="include">
+        <childnode refid="1057" relation="include">
         </childnode>
-        <childnode refid="333" relation="include">
+        <childnode refid="1058" relation="include">
         </childnode>
-        <childnode refid="328" relation="include">
+        <childnode refid="1053" relation="include">
         </childnode>
-        <childnode refid="334" relation="include">
+        <childnode refid="1059" relation="include">
         </childnode>
-        <childnode refid="335" relation="include">
+        <childnode refid="1060" relation="include">
         </childnode>
       </node>
-      <node id="352">
+      <node id="1077">
         <label>DoxVersionNumber.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="353">
+      <node id="1078">
         <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="334">
+      <node id="1059">
         <label>vector</label>
       </node>
-      <node id="340">
+      <node id="1065">
         <label>utility</label>
       </node>
-      <node id="332">
+      <node id="1057">
         <label>sstream</label>
       </node>
-      <node id="366">
+      <node id="1091">
         <label>WriteUtils.h</label>
-        <childnode refid="356" relation="include">
+        <childnode refid="1081" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="1072" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="363">
+      <node id="1088">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="364" relation="include">
+        <childnode refid="1089" relation="include">
         </childnode>
       </node>
-      <node id="357">
+      <node id="1082">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="358" relation="include">
+        <childnode refid="1083" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="330">
+      <node id="1055">
         <label>deque</label>
       </node>
-      <node id="328">
+      <node id="1085">
+        <label>Utils/Config.h</label>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1061" relation="include">
+        </childnode>
+      </node>
+      <node id="1053">
         <label>unordered_map</label>
       </node>
-      <node id="348">
+      <node id="1073">
         <label>PageWriter.h</label>
-        <childnode refid="325" relation="include">
+        <childnode refid="1050" relation="include">
         </childnode>
-        <childnode refid="346" relation="include">
+        <childnode refid="1071" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="1072" relation="include">
         </childnode>
-        <childnode refid="349" relation="include">
+        <childnode refid="1074" relation="include">
         </childnode>
       </node>
-      <node id="323">
+      <node id="1048">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
         <link refid="DirectoryPageWriter_8cpp"/>
-        <childnode refid="324" relation="include">
+        <childnode refid="1049" relation="include">
         </childnode>
-        <childnode refid="350" relation="include">
+        <childnode refid="1075" relation="include">
         </childnode>
-        <childnode refid="351" relation="include">
+        <childnode refid="1076" relation="include">
         </childnode>
-        <childnode refid="353" relation="include">
+        <childnode refid="1078" relation="include">
         </childnode>
-        <childnode refid="354" relation="include">
+        <childnode refid="1079" relation="include">
         </childnode>
-        <childnode refid="355" relation="include">
+        <childnode refid="1080" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="1072" relation="include">
         </childnode>
-        <childnode refid="359" relation="include">
+        <childnode refid="1084" relation="include">
         </childnode>
-        <childnode refid="363" relation="include">
+        <childnode refid="1088" relation="include">
         </childnode>
-        <childnode refid="366" relation="include">
+        <childnode refid="1091" relation="include">
         </childnode>
       </node>
-      <node id="364">
+      <node id="1089">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="365" relation="include">
+        <childnode refid="1090" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="345">
+      <node id="1070">
         <label>DoxBool.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="324">
+      <node id="1049">
         <label>DirectoryPageWriter.h</label>
-        <childnode refid="325" relation="include">
+        <childnode refid="1050" relation="include">
         </childnode>
-        <childnode refid="346" relation="include">
+        <childnode refid="1071" relation="include">
         </childnode>
-        <childnode refid="347" relation="include">
+        <childnode refid="1072" relation="include">
         </childnode>
-        <childnode refid="348" relation="include">
+        <childnode refid="1073" relation="include">
         </childnode>
-        <childnode refid="349" relation="include">
+        <childnode refid="1074" relation="include">
         </childnode>
       </node>
-      <node id="342">
+      <node id="1067">
         <label>DoxCompoundKind.h</label>
-        <childnode refid="326" relation="include">
+        <childnode refid="1051" relation="include">
         </childnode>
       </node>
-      <node id="360">
-        <label>Config.h</label>
-        <childnode refid="329" relation="include">
-        </childnode>
-        <childnode refid="336" relation="include">
-        </childnode>
-      </node>
-      <node id="347">
+      <node id="1072">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="329" relation="include">
+        <childnode refid="1054" relation="include">
         </childnode>
       </node>
-      <node id="358">
+      <node id="1083">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -390,7 +390,7 @@
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(PathUtil(query.text()).fileName());</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setId(query.getRefId());</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" kindref="member">_writer</ref>-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kindref="member" tooltip="Implementations write text link to a page with an icon attached to it. ">linkRefIcon</ref>(<ref refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" kindref="member">_out</ref>,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" kindref="member">ICO_FOLDER</ref>,<sp/>0,<sp/>ref.getId(),<sp/>ref.getName());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" kindref="member">_writer</ref>-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a56d9744db1af26663a9fc443acb6a58a" kindref="member" tooltip="Implementations write text link to a page with an icon attached to it. ">linkRefIcon</ref>(<ref refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" kindref="member">_out</ref>,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kindref="member">ICO_FOLDER</ref>,<sp/>0,<sp/>ref.getId(),<sp/>ref.getName());</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DirectoryPageWriter::visitedInnerFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Doxygen::RefQuery&amp;<sp/>query)</highlight></codeline>
@@ -406,7 +406,7 @@
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setName(fileName);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref.setId(refId);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" kindref="member">_writer</ref>-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(<ref refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" kindref="member">_out</ref>,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>ref.getId(),<sp/>ref.getName());</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" kindref="member">_writer</ref>-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(<ref refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" kindref="member">_out</ref>,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kindref="member">ICO_FILE</ref>,<sp/>ref.getId(),<sp/>ref.getName());</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" kindref="member">_writer</ref>-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(<ref refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" kindref="member">_out</ref>);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>

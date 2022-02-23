@@ -72,7 +72,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <a id="_index"></a>
 <h2>_index</h2>
 <span class="inline-text">size_t</span>
@@ -83,7 +82,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="_line"></a>
 <h2>_line</h2>
@@ -96,7 +94,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="_type"></a>
 <h2>_type</h2>
 <span class="inline-text">int8_t</span>
@@ -108,7 +105,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tokenbase"></a>
 <h2>TokenBase</h2>
 <span class="bold-text"><b>TokenBase</b></span>
@@ -116,16 +112,15 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1TokenBase.md#clear" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">clear</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1TokenBase.md#clear">clear</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tokenbase"></a>
 <h2>TokenBase</h2>
@@ -145,7 +140,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="~tokenbase"></a>
 <h2>~TokenBase</h2>
 <span class="bold-text"><b>~TokenBase</b></span>
@@ -156,7 +150,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="clear"></a>
 <h2>clear</h2>
@@ -170,7 +163,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="getindex"></a>
 <h2>getIndex</h2>
 <span class="inline-text">size_t</span>
@@ -182,7 +174,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="getline"></a>
 <h2>getLine</h2>
@@ -196,7 +187,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="gettype"></a>
 <h2>getType</h2>
 <span class="inline-text">int8_t</span>
@@ -208,7 +198,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L66" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="setindex"></a>
 <h2>setIndex</h2>
@@ -227,7 +216,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="setline"></a>
 <h2>setLine</h2>
 <span class="inline-text">void</span>
@@ -245,7 +233,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="settype"></a>
 <h2>setType</h2>
 <span class="inline-text">void</span>
@@ -262,7 +249,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/ParserBase/TokenBase.h#L70" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">TokenBase.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

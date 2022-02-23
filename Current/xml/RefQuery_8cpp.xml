@@ -5,129 +5,129 @@
     <includes refid="RefQuery_8h" local="yes">RefQuery.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <incdepgraph>
-      <node id="8308">
+      <node id="8595">
         <label>Utils/Console.h</label>
-        <childnode refid="8296" relation="include">
+        <childnode refid="8583" relation="include">
         </childnode>
       </node>
-      <node id="8302">
+      <node id="8589">
         <label>iomanip</label>
       </node>
-      <node id="8294">
+      <node id="8581">
         <label>functional</label>
       </node>
-      <node id="8312">
+      <node id="8599">
         <label>cstdint</label>
       </node>
-      <node id="8304">
+      <node id="8591">
         <label>Utils/Exception.h</label>
-        <childnode refid="8305" relation="include">
+        <childnode refid="8592" relation="include">
         </childnode>
-        <childnode refid="8306" relation="include">
+        <childnode refid="8593" relation="include">
         </childnode>
-        <childnode refid="8307" relation="include">
+        <childnode refid="8594" relation="include">
         </childnode>
-        <childnode refid="8308" relation="include">
+        <childnode refid="8595" relation="include">
         </childnode>
-        <childnode refid="8296" relation="include">
+        <childnode refid="8583" relation="include">
         </childnode>
       </node>
-      <node id="8306">
+      <node id="8593">
         <label>stdexcept</label>
       </node>
-      <node id="8300">
+      <node id="8587">
         <label>string</label>
       </node>
-      <node id="8293">
+      <node id="8580">
         <label>Doxygen.h</label>
-        <childnode refid="8294" relation="include">
+        <childnode refid="8581" relation="include">
         </childnode>
-        <childnode refid="8295" relation="include">
+        <childnode refid="8582" relation="include">
         </childnode>
-        <childnode refid="8296" relation="include">
+        <childnode refid="8583" relation="include">
         </childnode>
-        <childnode refid="8303" relation="include">
+        <childnode refid="8590" relation="include">
         </childnode>
-        <childnode refid="8304" relation="include">
+        <childnode refid="8591" relation="include">
         </childnode>
       </node>
-      <node id="8292">
+      <node id="8579">
         <label>RefQuery.h</label>
-        <childnode refid="8293" relation="include">
+        <childnode refid="8580" relation="include">
         </childnode>
-        <childnode refid="8309" relation="include">
+        <childnode refid="8596" relation="include">
         </childnode>
       </node>
-      <node id="8291">
+      <node id="8578">
         <label>Tools/Doxygen/RefQuery.cpp</label>
         <link refid="RefQuery_8cpp"/>
-        <childnode refid="8292" relation="include">
+        <childnode refid="8579" relation="include">
         </childnode>
-        <childnode refid="8310" relation="include">
+        <childnode refid="8597" relation="include">
         </childnode>
       </node>
-      <node id="8305">
+      <node id="8592">
         <label>exception</label>
       </node>
-      <node id="8298">
+      <node id="8585">
         <label>fstream</label>
       </node>
-      <node id="8303">
+      <node id="8590">
         <label>Xml/Node.h</label>
-        <childnode refid="8294" relation="include">
+        <childnode refid="8581" relation="include">
         </childnode>
-        <childnode refid="8295" relation="include">
+        <childnode refid="8582" relation="include">
         </childnode>
-        <childnode refid="8296" relation="include">
+        <childnode refid="8583" relation="include">
         </childnode>
       </node>
-      <node id="8309">
+      <node id="8596">
         <label>DoxProtectionKind.h</label>
-        <childnode refid="8293" relation="include">
+        <childnode refid="8580" relation="include">
         </childnode>
       </node>
-      <node id="8296">
+      <node id="8583">
         <label>Utils/String.h</label>
-        <childnode refid="8297" relation="include">
+        <childnode refid="8584" relation="include">
         </childnode>
-        <childnode refid="8298" relation="include">
+        <childnode refid="8585" relation="include">
         </childnode>
-        <childnode refid="8299" relation="include">
+        <childnode refid="8586" relation="include">
         </childnode>
-        <childnode refid="8300" relation="include">
+        <childnode refid="8587" relation="include">
         </childnode>
-        <childnode refid="8295" relation="include">
+        <childnode refid="8582" relation="include">
         </childnode>
-        <childnode refid="8301" relation="include">
+        <childnode refid="8588" relation="include">
         </childnode>
-        <childnode refid="8302" relation="include">
+        <childnode refid="8589" relation="include">
         </childnode>
       </node>
-      <node id="8301">
+      <node id="8588">
         <label>vector</label>
       </node>
-      <node id="8307">
+      <node id="8594">
         <label>utility</label>
       </node>
-      <node id="8299">
+      <node id="8586">
         <label>sstream</label>
       </node>
-      <node id="8310">
+      <node id="8597">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="8311" relation="include">
+        <childnode refid="8598" relation="include">
         </childnode>
       </node>
-      <node id="8297">
+      <node id="8584">
         <label>deque</label>
       </node>
-      <node id="8295">
+      <node id="8582">
         <label>unordered_map</label>
       </node>
-      <node id="8311">
+      <node id="8598">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="8312" relation="include">
+        <childnode refid="8599" relation="include">
         </childnode>
-        <childnode refid="8296" relation="include">
+        <childnode refid="8583" relation="include">
         </childnode>
       </node>
     </incdepgraph>

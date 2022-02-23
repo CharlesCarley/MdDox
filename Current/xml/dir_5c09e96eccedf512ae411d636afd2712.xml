@@ -7,6 +7,8 @@
     <innerdir refid="dir_df7f76837457d332ed2eae6561f124cc">Source/Utils/Win32</innerdir>
     <innerfile refid="Char_8cpp">Char.cpp</innerfile>
     <innerfile refid="Char_8h">Char.h</innerfile>
+    <innerfile refid="Config_8cpp">Config.cpp</innerfile>
+    <innerfile refid="Config_8h">Config.h</innerfile>
     <innerfile refid="Console_8cpp">Console.cpp</innerfile>
     <innerfile refid="Console_8h">Console.h</innerfile>
     <innerfile refid="Exception_8h">Exception.h</innerfile>

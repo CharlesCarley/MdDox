@@ -90,7 +90,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <a id="~urllinkqueryvisitor"></a>
 <h2>~UrlLinkQueryVisitor</h2>
 <span class="bold-text"><b>~UrlLinkQueryVisitor</b></span>
@@ -101,7 +100,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedanchor"></a>
 <h2>visitedAnchor</h2>
@@ -138,7 +136,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedbold"></a>
 <h2>visitedBold</h2>
 <span class="inline-text">void</span>
@@ -173,7 +170,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L48" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedcenter"></a>
 <h2>visitedCenter</h2>
@@ -210,7 +206,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedcomputeroutput"></a>
 <h2>visitedComputerOutput</h2>
 <span class="inline-text">void</span>
@@ -246,7 +241,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visiteddot"></a>
 <h2>visitedDot</h2>
 <span class="inline-text">void</span>
@@ -279,7 +273,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L113" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedemphasis"></a>
 <h2>visitedEmphasis</h2>
@@ -316,7 +309,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedlang"></a>
 <h2>visitedLang</h2>
 <span class="inline-text">void</span>
@@ -351,7 +343,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L108" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
@@ -388,7 +379,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedpart"></a>
 <h2>visitedPart</h2>
 <span class="inline-text">void</span>
@@ -423,7 +413,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L98" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedprop"></a>
 <h2>visitedProp</h2>
@@ -460,7 +449,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedref"></a>
 <h2>visitedRef</h2>
 <span class="inline-text">void</span>
@@ -495,7 +483,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedregistered"></a>
 <h2>visitedRegistered</h2>
@@ -532,7 +519,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedsect"></a>
 <h2>visitedSect</h2>
 <span class="inline-text">void</span>
@@ -567,7 +553,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L83" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedsmall"></a>
 <h2>visitedSmall</h2>
@@ -604,7 +589,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -627,7 +611,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="visitedulink"></a>
 <h2>visitedULink</h2>
@@ -663,7 +646,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Tools/Doxygen/UrlLinkQuery.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">UrlLinkQuery.h</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>

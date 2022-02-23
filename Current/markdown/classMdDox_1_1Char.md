@@ -240,7 +240,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
-<br/>
 <a id="equals"></a>
 <h2>equals</h2>
 <span class="inline-text">bool</span>
@@ -288,10 +287,10 @@
 <br/>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#length" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">length</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#length">length</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -301,7 +300,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="isnullorempty"></a>
 <h2>isNullOrEmpty</h2>
@@ -323,7 +321,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L159" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="length"></a>
 <h2>length</h2>
@@ -362,7 +359,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
 <span class="inline-text">void</span>
@@ -389,7 +385,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L405" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
@@ -418,7 +413,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
 <span class="inline-text">void</span>
@@ -445,7 +439,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L431" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
@@ -474,7 +467,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -488,10 +480,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tobinarystring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toBinaryString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tobinarystring">toBinaryString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L171" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -501,7 +493,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L411" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
@@ -516,10 +507,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tobinarystring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toBinaryString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tobinarystring">toBinaryString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L173" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -529,7 +520,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L424" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
@@ -544,10 +534,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tobinarystring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toBinaryString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tobinarystring">toBinaryString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L175" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -557,7 +547,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L437" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobinarystring"></a>
 <h2>toBinaryString</h2>
@@ -572,10 +561,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tobinarystring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toBinaryString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tobinarystring">toBinaryString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L177" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -585,7 +574,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L450" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tobool"></a>
 <h2>toBool</h2>
@@ -608,7 +596,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tobool"></a>
 <h2>toBool</h2>
 <span class="inline-text">bool</span>
@@ -624,10 +611,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tobool" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toBool</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tobool">toBool</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L105" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -637,7 +624,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L197" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="todouble"></a>
 <h2>toDouble</h2>
@@ -667,7 +653,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="todouble"></a>
 <h2>toDouble</h2>
 <span class="inline-text">double</span>
@@ -690,10 +675,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#todouble" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toDouble</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#todouble">toDouble</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L109" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -703,7 +688,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L207" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tofloat"></a>
 <h2>toFloat</h2>
@@ -733,7 +717,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tofloat"></a>
 <h2>toFloat</h2>
 <span class="inline-text">float</span>
@@ -756,10 +739,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tofloat" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toFloat</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tofloat">toFloat</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L107" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -769,7 +752,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L202" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
@@ -798,7 +780,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
 <span class="inline-text">void</span>
@@ -825,7 +806,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L357" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
@@ -854,7 +834,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
 <span class="inline-text">void</span>
@@ -882,7 +861,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -896,10 +874,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tohexstring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toHexString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tohexstring">toHexString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L155" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -909,7 +887,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L350" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
@@ -924,10 +901,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tohexstring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toHexString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tohexstring">toHexString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L157" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -937,7 +914,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L366" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
@@ -952,10 +928,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tohexstring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toHexString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tohexstring">toHexString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L159" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -965,7 +941,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L382" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tohexstring"></a>
 <h2>toHexString</h2>
@@ -980,10 +955,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tohexstring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toHexString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tohexstring">toHexString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L161" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -993,7 +968,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L398" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="toint16"></a>
 <h2>toInt16</h2>
@@ -1030,7 +1004,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="toint16"></a>
 <h2>toInt16</h2>
 <span class="inline-text">int16_t</span>
@@ -1060,10 +1033,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#toint16" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toInt16</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#toint16">toInt16</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L73" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1073,7 +1046,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L123" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="toint32"></a>
 <h2>toInt32</h2>
@@ -1110,7 +1082,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="toint32"></a>
 <h2>toInt32</h2>
 <span class="inline-text">int32_t</span>
@@ -1140,10 +1111,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#toint32" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toInt32</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#toint32">toInt32</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L77" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1153,7 +1124,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L128" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="toint64"></a>
 <h2>toInt64</h2>
@@ -1190,7 +1160,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="toint64"></a>
 <h2>toInt64</h2>
 <span class="inline-text">int64_t</span>
@@ -1220,10 +1189,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#toint64" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toInt64</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#toint64">toInt64</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L81" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1233,7 +1202,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1262,7 +1230,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tostring"></a>
 <h2>toString</h2>
 <span class="inline-text">void</span>
@@ -1289,7 +1256,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L219" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1318,7 +1284,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tostring"></a>
 <h2>toString</h2>
 <span class="inline-text">void</span>
@@ -1345,7 +1310,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L257" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1374,7 +1338,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tostring"></a>
 <h2>toString</h2>
 <span class="inline-text">void</span>
@@ -1401,7 +1364,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L285" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1430,7 +1392,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tostring"></a>
 <h2>toString</h2>
 <span class="inline-text">void</span>
@@ -1457,7 +1418,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L313" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1486,7 +1446,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="tostring"></a>
 <h2>toString</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -1500,10 +1459,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L129" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1513,7 +1472,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L236" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1528,10 +1486,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L131" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1541,7 +1499,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L243" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1556,10 +1513,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L133" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1569,7 +1526,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L250" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1584,10 +1540,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L135" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1597,7 +1553,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L264" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1612,10 +1567,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L137" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1625,7 +1580,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L278" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1640,10 +1594,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1653,7 +1607,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L292" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1668,10 +1621,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L141" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1681,7 +1634,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L306" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1696,10 +1648,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L143" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1709,7 +1661,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L320" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="tostring"></a>
 <h2>toString</h2>
@@ -1724,10 +1675,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#tostring" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toString</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#tostring">toString</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1737,7 +1688,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L334" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="touint16"></a>
 <h2>toUint16</h2>
@@ -1774,7 +1724,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="touint16"></a>
 <h2>toUint16</h2>
 <span class="inline-text">uint16_t</span>
@@ -1804,10 +1753,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#touint16" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toUint16</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#touint16">toUint16</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L85" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1817,7 +1766,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L138" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="touint32"></a>
 <h2>toUint32</h2>
@@ -1854,7 +1802,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="touint32"></a>
 <h2>toUint32</h2>
 <span class="inline-text">uint32_t</span>
@@ -1884,10 +1831,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#touint32" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toUint32</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#touint32">toUint32</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L89" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1897,7 +1844,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 <a id="touint64"></a>
 <h2>toUint64</h2>
@@ -1934,7 +1880,6 @@
 </a>
 </span>
 <br/>
-<br/>
 <a id="touint64"></a>
 <h2>toUint64</h2>
 <span class="inline-text">uint64_t</span>
@@ -1964,10 +1909,10 @@
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
-<span class="icon-list-item"><a href="classMdDox_1_1Char.md#touint64" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">toUint64</span>
-</a>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Char.md#touint64">toUint64</a>
 </span>
-<br/>
+</div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.h#L93" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
@@ -1977,7 +1922,6 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master//Source/Utils/Char.cpp#L152" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.cpp</span>
 </a>
 </span>
-<br/>
 <br/>
 </div>
 </div>
