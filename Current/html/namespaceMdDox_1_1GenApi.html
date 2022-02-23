@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta name="robots" content="noindex" />
+<meta name="generator" content="MdDox"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="light-style.css" rel="stylesheet" type="text/css"/>
+<title>GenApi</title>
+</head>
+<body>
+<div class="document">
+<div class="document-content">
+<a id="genapi"></a>
+<h1>GenApi</h1>
+<a id="namespaceMdDox_1_1GenApi"></a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="indexpage.html#mddox">MdDox</a>
+<span class="inline-text">/</span>
+<a href="index.html#index">Index</a>
+<span class="inline-text">/</span>
+<a href="namespaceMdDox.html#mddox">MdDox</a>
+<span class="inline-text">::</span>
+<span class="bold-text"><b>GenApi</b></span>
+<br/>
+<br/>
+<a href="namespaceMdDox_1_1GenApi.html#genapi">GenApi</a>
+<span class="inline-text"> is used to generate a static scaffolding library. </span>
+<a id="contents"></a>
+<h2>Contents</h2>
+<ul>
+<li><a href="namespaceMdDox_1_1GenApi.html#namespaces">Namespaces</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi.html#classes">Classes</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi.html#enums">Enums</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi.html#typedefs">Typedefs</a>
+</li>
+<li><a href="namespaceMdDox_1_1GenApi.html#variables">Variables</a>
+<br/>
+</ul>
+<a id="details"></a>
+<h2>Details</h2>
+<span class="inline-text">The main idea for the library is to place a node inside a shell or scaffolding to define a concrete structure. It does this by generating a library off of the compound schema file provided by </span>
+<a href="namespaceMdDox_1_1Doxygen.html#doxygen">Doxygen</a>
+<span class="inline-text">. </span>
+<br/>
+<br/>
+<span class="inline-text">
+ It has a direct dependency on </span>
+<a href="namespaceMdDox_1_1Xml.html#mddoxxml">MdDox::Xml</a>
+<span class="inline-text"> both to generate the library and in the final output. </span>
+<br/>
+<br/>
+<span class="inline-text">
+ The program will not work out of the box. By design, it needs to be flexible enough to allow renaming types in the schema without modifying the actual element names. So, it needs to output a few extra files first before generating the API. The application command line provides the means to extract a 1:1 mapping of all the needed names. After initial setup is complete, any type can be renamed. The generator always uses the first value when searching the file. The second value becomes the output name in the API </span>
+<br/>
+<br/>
+<span class="bold-text"><b>Concept</b></span>
+<br/>
+<img src="../images/dot/internal-diagram-4.dot.svg"/><br/>
+<span class="bold-text"><b>For example</b></span>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.html#mddoxdoxygencompounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
+<br/>
+<span class="inline-text">
+ The following xml provides the source for the </span>
+<span class="bold-text"><b>compounddefType</b></span>
+<span class="inline-text"> scaffolding.</span>
+<div class="code-block">
+<pre><code>&lt;xsd:complexType name=&quot;compounddefType&quot;&gt;
+  &lt;xsd:sequence&gt;
+    &lt;xsd:element name=&quot;compoundname&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;title&quot; type=&quot;xsd:string&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;basecompoundref&quot; type=&quot;compoundRefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;derivedcompoundref&quot; type=&quot;compoundRefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;includes&quot; type=&quot;incType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;includedby&quot; type=&quot;incType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;incdepgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;invincdepgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerdir&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerfile&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerclass&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innernamespace&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innerpage&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;innergroup&quot; type=&quot;refType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;templateparamlist&quot; type=&quot;templateparamlistType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;sectiondef&quot; type=&quot;sectiondefType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;tableofcontents&quot; maxOccurs=&quot;1&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;briefdescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;detaileddescription&quot; type=&quot;descriptionType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;inheritancegraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;collaborationgraph&quot; type=&quot;graphType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;programlisting&quot; type=&quot;listingType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;location&quot; type=&quot;locationType&quot;/&gt;
+    &lt;xsd:element minOccurs=&quot;0&quot; name=&quot;listofallmembers&quot; type=&quot;listofallmembersType&quot;/&gt;
+  &lt;/xsd:sequence&gt;
+  &lt;xsd:attribute name=&quot;id&quot; type=&quot;xsd:string&quot;/&gt;
+  &lt;xsd:attribute name=&quot;kind&quot; type=&quot;DoxCompoundKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;language&quot; type=&quot;DoxLanguage&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;prot&quot; type=&quot;DoxProtectionKind&quot;/&gt;
+  &lt;xsd:attribute name=&quot;final&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;sealed&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+  &lt;xsd:attribute name=&quot;abstract&quot; type=&quot;DoxBool&quot; use=&quot;optional&quot;/&gt;
+&lt;/xsd:complexType&gt;
+</code></pre>
+</div>
+<span class="inline-text">The </span>
+<a href="classMdDox_1_1GenApi_1_1Application.html#application">Application</a>
+<span class="inline-text"> class provides the entry point for the program. </span>
+<br/>
+<span class="bold-text"><b>Usage</b></span>
+<br/>
+<div class="code-block">
+<pre><code>Usage: GenApi &lt;options&gt; &lt;arg[0] .. arg[n]&gt;
+
+     -h, --help        Display this help message
+     -i, --input       Specify input file
+     -o, --out         Specify an output directory
+     -c, --complex     Log complexType names
+     -s, --simple      Log simpleType names
+     -a, --attributes  Log attribute names
+     -e, --element     Log element names
+     -g, --group       Log group names
+     -n, --enum        Log enum values
+</code></pre>
+</div>
+<a id="namespaces"></a>
+<h2>Namespaces</h2>
+<div class="icon-link">
+<img src="../images/namespace.svg"/><a href="namespaceMdDox_1_1GenApi_1_1Resources.html#resources">Resources</a>
+</div>
+<a id="classes"></a>
+<h2>Classes</h2>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Application.html#application">Application</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="structMdDox_1_1GenApi_1_1Attribute.html#attribute">Attribute</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Common.html#common">Common</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Complex.html#complex">Complex</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Database.html#database">Database</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="structMdDox_1_1GenApi_1_1Element.html#element">Element</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Generator.html#generator">Generator</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1GeneratorImpl.html#generatorimpl">GeneratorImpl</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Group.html#group">Group</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.html#object">Object</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Simple.html#simple">Simple</a>
+</div>
+<div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Writer.html#writer">Writer</a>
+</div>
+<a id="enums"></a>
+<h2>Enums</h2>
+<span class="icon-list-item"><a href="#elementtype" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ElementType</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#options" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Options</span>
+</a>
+</span>
+<br/>
+<a id="typedefs"></a>
+<h2>Typedefs</h2>
+<span class="icon-list-item"><a href="#allocarray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AllocArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#attributearray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AttributeArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#attributemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">AttributeMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#complexmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ComplexMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#elementarray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ElementArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#grouparray" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GroupArray</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#groupmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">GroupMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#nodemap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">NodeMap</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#objectmap" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">ObjectMap</span>
+</a>
+</span>
+<br/>
+<a id="variables"></a>
+<h2>Variables</h2>
+<span class="icon-list-item"><a href="#switches" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">Switches</span>
+</a>
+</span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Common.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Common.cpp</span>
+</a>
+</span>
+<a id="elementtype"></a>
+<h2>ElementType</h2>
+<span class="bold-text"><b>ElementType</b></span>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BASE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">SIMPLE_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">COMPLEX_TYPE</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">GROUP_TYPE</span>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
+</a>
+</span>
+<br/>
+<a id="options"></a>
+<h2>Options</h2>
+<span class="bold-text"><b>Options</b></span>
+<br/>
+<span class="inline-text">Document. </span>
+<br/>
+<br/>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptInputFile</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptOutDir</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogComplexTypes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogSimpleTypes</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogAttributeNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogElementNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogGroupNames</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptOpLogEnumValues</span>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptionsMax</span>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+<a id="allocarray"></a>
+<h2>AllocArray</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="classMdDox_1_1Xml_1_1Writer.html#writer">Writer</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>AllocArray</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Generator.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+</a>
+</span>
+<br/>
+<a id="attributearray"></a>
+<h2>AttributeArray</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="classMdDox_1_1Xml_1_1Attribute.html#attribute">Attribute</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>AttributeArray</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Complex.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Complex.h</span>
+</a>
+</span>
+<br/>
+<a id="attributemap"></a>
+<h2>AttributeMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.html#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1Xml_1_1Attribute.html#attribute">Attribute</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>AttributeMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Complex.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Complex.h</span>
+</a>
+</span>
+<br/>
+<a id="complexmap"></a>
+<h2>ComplexMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.html#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1GenApi_1_1Complex.html#complex">Complex</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>ComplexMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Generator.cpp#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+</a>
+</span>
+<br/>
+<a id="elementarray"></a>
+<h2>ElementArray</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="structMdDox_1_1GenApi_1_1Element.html#element">Element</a>
+<span class="inline-text"> &gt;</span>
+<span class="bold-text"><b>ElementArray</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Complex.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Complex.h</span>
+</a>
+</span>
+<br/>
+<a id="grouparray"></a>
+<h2>GroupArray</h2>
+<span class="inline-text">std::vector&lt; </span>
+<a href="classMdDox_1_1GenApi_1_1Group.html#group">Group</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>GroupArray</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Group.h#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Group.h</span>
+</a>
+</span>
+<br/>
+<a id="groupmap"></a>
+<h2>GroupMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.html#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1GenApi_1_1Group.html#group">Group</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>GroupMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Generator.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Generator.cpp</span>
+</a>
+</span>
+<br/>
+<a id="nodemap"></a>
+<h2>NodeMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.html#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1Xml_1_1Node.html#xmlnode">Xml::Node</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>NodeMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Database.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+</a>
+</span>
+<br/>
+<a id="objectmap"></a>
+<h2>ObjectMap</h2>
+<span class="inline-text">std::unordered_map&lt; </span>
+<a href="namespaceMdDox.html#string">String</a>
+<span class="inline-text">, </span>
+<a href="classMdDox_1_1GenApi_1_1Object.html#object">Object</a>
+<span class="inline-text"> * &gt;</span>
+<span class="bold-text"><b>ObjectMap</b></span>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Database.h#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Database.h</span>
+</a>
+</span>
+<br/>
+<a id="switches"></a>
+<h2>Switches</h2>
+<span class="inline-text">constexpr </span>
+<a href="structMdDox_1_1CommandLine_1_1Switch.html#commandlineswitch">CommandLine::Switch</a>
+<span class="bold-text"><b>Switches</b></span>
+<br/>
+<span class="inline-text">Document. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
+</a>
+</span>
+<br/>
+</div>
+</div>
+</body>
+</html>
