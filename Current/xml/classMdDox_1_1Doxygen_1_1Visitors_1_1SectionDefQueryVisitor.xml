@@ -122,19 +122,19 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="702">
+      <node id="701">
         <label>MdDox::SectionDefWriter</label>
         <link refid="classMdDox_1_1SectionDefWriter"/>
-        <childnode refid="700" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="701">
-        <label>MdDox::SectionDefListingWriter</label>
-        <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="700" relation="public-inheritance">
+        <childnode refid="699" relation="public-inheritance">
         </childnode>
       </node>
       <node id="700">
+        <label>MdDox::SectionDefListingWriter</label>
+        <link refid="classMdDox_1_1SectionDefListingWriter"/>
+        <childnode refid="699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="699">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>

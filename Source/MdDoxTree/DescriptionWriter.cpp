@@ -19,13 +19,13 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "DescriptionWriter.h"
+#include "MdDoxTree/DescriptionWriter.h"
 #include "Doxygen/ParaQuery.h"
 #include "Doxygen/Sect1Query.h"
 #include "MdDoxTree/DocumentWriter.h"
-#include "ParagraphWriter.h"
-#include "Section1Writer.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/ParagraphWriter.h"
+#include "MdDoxTree/Section1Writer.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

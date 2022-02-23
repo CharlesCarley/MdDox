@@ -19,14 +19,14 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "PageWriter.h"
-#include "DescriptionWriter.h"
+#include "MdDoxTree/PageWriter.h"
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenQuery.h"
-#include "Link.h"
-#include "SectionDefListingWriter.h"
-#include "SectionDefWriter.h"
-#include "SiteBuilder.h"
+#include "MdDoxTree/DescriptionWriter.h"
+#include "MdDoxTree/SectionDefListingWriter.h"
+#include "MdDoxTree/SectionDefWriter.h"
+#include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
 
 namespace MdDox
@@ -76,12 +76,12 @@ namespace MdDox
         {
             // ref.getName is the same as query.getCompoundName
             // except that it is the string that was copied out of
-        	// the index.
+            // the index.
             title = _ref.getName();
         }
 
-    	_writer->beginDocument(_out, LinkUtils::LBR(title));
-    	_writer->anchor(_out, query.getId());
+        _writer->beginDocument(_out, LinkUtils::LBR(title));
+        _writer->anchor(_out, query.getId());
     }
 
     void PageWriter::endDocument(const Doxygen::CompoundDefQuery&)
@@ -113,10 +113,10 @@ namespace MdDox
             _out.close();
 
         PathUtil path(_outDir);
-    	path.fileName(StringCombine(_ref.getId(), SiteBuilder::get().outputFileExt));
+        path.fileName(StringCombine(_ref.getId(), SiteBuilder::get().outputFileExt));
 
-    	_out.open(path.fullPath());
-    	if (!_out.is_open())
+        _out.open(path.fullPath());
+        if (!_out.is_open())
             throw InputException("Failed to open the output file: '", path.fullPath(), "'");
 
         const Doxygen::CompoundDefQuery query(

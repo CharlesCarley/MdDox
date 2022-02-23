@@ -19,11 +19,11 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "SectionDefListingWriter.h"
+#include "MdDoxTree/SectionDefListingWriter.h"
 #include "DocumentWriter.h"
-#include "MemberDefListingWriter.h"
+#include "MdDoxTree/MemberDefListingWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -167,7 +167,7 @@ namespace MdDox
         case Doxygen::DSK_PROTOTYPE:
             _writer->addSection(_out, "DSK_PROTOTYPE", _depth);
             break;
-        case Doxygen::DSK_INVALID: 
+        case Doxygen::DSK_INVALID:
             _writer->addSection(_out, "DSK_INVALID", _depth);
             break;
         default:

@@ -2,432 +2,432 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="IndexPageWriter_8cpp" kind="file" language="C++">
     <compoundname>IndexPageWriter.cpp</compoundname>
-    <includes refid="IndexPageWriter_8h" local="yes">IndexPageWriter.h</includes>
+    <includes refid="IndexPageWriter_8h" local="yes">MdDoxTree/IndexPageWriter.h</includes>
     <includes local="no">utility</includes>
-    <includes refid="ClassPageWriter_8h" local="yes">ClassPageWriter.h</includes>
-    <includes refid="DirectoryPageWriter_8h" local="yes">DirectoryPageWriter.h</includes>
     <includes refid="DoxCompoundKind_8h" local="yes">Doxygen/DoxCompoundKind.h</includes>
     <includes refid="DoxygenQuery_8h" local="yes">Doxygen/DoxygenQuery.h</includes>
     <includes refid="MemberIndexQuery_8h" local="yes">Doxygen/MemberIndexQuery.h</includes>
-    <includes refid="GenericPageWriter_8h" local="yes">GenericPageWriter.h</includes>
-    <includes refid="MdDoxTree_2DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
-    <includes refid="MdDoxTree_2HashUtils_8h" local="yes">MdDoxTree/HashUtils.h</includes>
-    <includes refid="MdDoxTree_2Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
+    <includes refid="ClassPageWriter_8h" local="yes">MdDoxTree/ClassPageWriter.h</includes>
+    <includes refid="DirectoryPageWriter_8h" local="yes">MdDoxTree/DirectoryPageWriter.h</includes>
+    <includes refid="DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
+    <includes refid="GenericPageWriter_8h" local="yes">MdDoxTree/GenericPageWriter.h</includes>
+    <includes refid="HashUtils_8h" local="yes">MdDoxTree/HashUtils.h</includes>
+    <includes refid="NamespacePageWriter_8h" local="yes">MdDoxTree/NamespacePageWriter.h</includes>
+    <includes refid="Reference_8h" local="yes">MdDoxTree/Reference.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">MdDoxTree/SiteBuilder.h</includes>
-    <includes refid="NamespacePageWriter_8h" local="yes">NamespacePageWriter.h</includes>
+    <includes refid="WriteUtils_8h" local="yes">MdDoxTree/WriteUtils.h</includes>
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
-    <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <includes refid="Xml_2Parser_8h" local="yes">Xml/Parser.h</includes>
     <incdepgraph>
-      <node id="1462">
+      <node id="903">
         <label>Utils/Console.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1456">
+      <node id="897">
         <label>iomanip</label>
       </node>
-      <node id="1448">
+      <node id="889">
         <label>functional</label>
       </node>
-      <node id="1498">
+      <node id="939">
         <label>Utils/ParserBase/TokenBase.h</label>
       </node>
-      <node id="1495">
+      <node id="936">
         <label>Utils/ParserBase/ScannerBase.h</label>
-        <childnode refid="1481" relation="include">
+        <childnode refid="921" relation="include">
         </childnode>
-        <childnode refid="1496" relation="include">
+        <childnode refid="937" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
-        <childnode refid="1498" relation="include">
+        <childnode refid="939" relation="include">
         </childnode>
       </node>
-      <node id="1494">
+      <node id="935">
         <label>Utils/ParserBase/ParserBase.h</label>
-        <childnode refid="1455" relation="include">
+        <childnode refid="896" relation="include">
         </childnode>
-        <childnode refid="1495" relation="include">
+        <childnode refid="936" relation="include">
         </childnode>
-        <childnode refid="1498" relation="include">
+        <childnode refid="939" relation="include">
         </childnode>
       </node>
-      <node id="1465">
+      <node id="906">
         <label>Utils/Path.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1490">
+      <node id="932">
         <label>cstdint</label>
       </node>
-      <node id="1458">
+      <node id="899">
         <label>Utils/Exception.h</label>
-        <childnode refid="1459" relation="include">
+        <childnode refid="900" relation="include">
         </childnode>
-        <childnode refid="1460" relation="include">
+        <childnode refid="901" relation="include">
         </childnode>
-        <childnode refid="1461" relation="include">
+        <childnode refid="902" relation="include">
         </childnode>
-        <childnode refid="1462" relation="include">
+        <childnode refid="903" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1470">
+      <node id="915">
         <label>DoxLanguage.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1475">
+      <node id="908">
         <label>Doxygen/DoxygenQuery.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
-        <childnode refid="1476" relation="include">
+        <childnode refid="909" relation="include">
         </childnode>
       </node>
-      <node id="1473">
+      <node id="918">
         <label>Doxygen/CompoundIndexQuery.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
-        <childnode refid="1469" relation="include">
+        <childnode refid="907" relation="include">
         </childnode>
       </node>
-      <node id="1460">
+      <node id="901">
         <label>stdexcept</label>
       </node>
-      <node id="1487">
-        <label>NamespacePageWriter.h</label>
-        <childnode refid="1473" relation="include">
+      <node id="925">
+        <label>MdDoxTree/NamespacePageWriter.h</label>
+        <childnode refid="918" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1467" relation="include">
+        <childnode refid="913" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
       </node>
-      <node id="1454">
+      <node id="895">
         <label>string</label>
       </node>
-      <node id="1447">
+      <node id="888">
         <label>Doxygen.h</label>
-        <childnode refid="1448" relation="include">
+        <childnode refid="889" relation="include">
         </childnode>
-        <childnode refid="1449" relation="include">
+        <childnode refid="890" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
-        <childnode refid="1457" relation="include">
+        <childnode refid="898" relation="include">
         </childnode>
-        <childnode refid="1458" relation="include">
+        <childnode refid="899" relation="include">
         </childnode>
       </node>
-      <node id="1446">
+      <node id="887">
         <label>Doxygen/DoxygenIndexQuery.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1497">
+      <node id="938">
         <label>unordered_set</label>
       </node>
-      <node id="1459">
+      <node id="900">
         <label>exception</label>
       </node>
-      <node id="1452">
+      <node id="893">
         <label>fstream</label>
       </node>
-      <node id="1484">
+      <node id="926">
         <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="1449" relation="include">
+        <childnode refid="890" relation="include">
         </childnode>
-        <childnode refid="1485" relation="include">
+        <childnode refid="907" relation="include">
         </childnode>
-        <childnode refid="1469" relation="include">
+        <childnode refid="911" relation="include">
         </childnode>
-        <childnode refid="1478" relation="include">
+        <childnode refid="927" relation="include">
         </childnode>
-        <childnode refid="1486" relation="include">
+        <childnode refid="928" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1463">
+      <node id="904">
         <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1457">
+      <node id="898">
         <label>Xml/Node.h</label>
-        <childnode refid="1448" relation="include">
+        <childnode refid="889" relation="include">
         </childnode>
-        <childnode refid="1449" relation="include">
+        <childnode refid="890" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1480">
+      <node id="920">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="1463" relation="include">
+        <childnode refid="904" relation="include">
         </childnode>
-        <childnode refid="1481" relation="include">
+        <childnode refid="921" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
-        </childnode>
-      </node>
-      <node id="1466">
-        <label>ClassPageWriter.h</label>
-        <childnode refid="1467" relation="include">
-        </childnode>
-        <childnode refid="1464" relation="include">
-        </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1468">
+      <node id="912">
+        <label>MdDoxTree/ClassPageWriter.h</label>
+        <childnode refid="913" relation="include">
+        </childnode>
+        <childnode refid="905" relation="include">
+        </childnode>
+        <childnode refid="906" relation="include">
+        </childnode>
+      </node>
+      <node id="914">
         <label>Doxygen/CompoundDefQuery.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
-        <childnode refid="1469" relation="include">
+        <childnode refid="907" relation="include">
         </childnode>
-        <childnode refid="1470" relation="include">
+        <childnode refid="915" relation="include">
         </childnode>
-        <childnode refid="1471" relation="include">
+        <childnode refid="916" relation="include">
         </childnode>
-        <childnode refid="1472" relation="include">
+        <childnode refid="917" relation="include">
         </childnode>
       </node>
-      <node id="1483">
+      <node id="924">
         <label>MdDoxTree/HashUtils.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1471">
+      <node id="916">
         <label>DoxProtectionKind.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1478">
+      <node id="911">
         <label>DoxMemberKind.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1492">
+      <node id="933">
         <label>Xml/Parser.h</label>
-        <childnode refid="1493" relation="include">
+        <childnode refid="934" relation="include">
         </childnode>
-        <childnode refid="1494" relation="include">
+        <childnode refid="935" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
-        <childnode refid="1489" relation="include">
+        <childnode refid="931" relation="include">
         </childnode>
-        <childnode refid="1457" relation="include">
+        <childnode refid="898" relation="include">
         </childnode>
       </node>
-      <node id="1486">
+      <node id="927">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1469" relation="include">
+        <childnode refid="907" relation="include">
         </childnode>
-        <childnode refid="1478" relation="include">
+        <childnode refid="911" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
       </node>
-      <node id="1450">
+      <node id="891">
         <label>Utils/String.h</label>
-        <childnode refid="1451" relation="include">
+        <childnode refid="892" relation="include">
         </childnode>
-        <childnode refid="1452" relation="include">
+        <childnode refid="893" relation="include">
         </childnode>
-        <childnode refid="1453" relation="include">
+        <childnode refid="894" relation="include">
         </childnode>
-        <childnode refid="1454" relation="include">
+        <childnode refid="895" relation="include">
         </childnode>
-        <childnode refid="1449" relation="include">
+        <childnode refid="890" relation="include">
         </childnode>
-        <childnode refid="1455" relation="include">
+        <childnode refid="896" relation="include">
         </childnode>
-        <childnode refid="1456" relation="include">
+        <childnode refid="897" relation="include">
         </childnode>
       </node>
-      <node id="1476">
+      <node id="909">
         <label>DoxVersionNumber.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1493">
+      <node id="934">
         <label>stack</label>
       </node>
-      <node id="1455">
+      <node id="896">
         <label>vector</label>
       </node>
-      <node id="1461">
+      <node id="902">
         <label>utility</label>
       </node>
-      <node id="1453">
+      <node id="894">
         <label>sstream</label>
       </node>
-      <node id="1445">
-        <label>IndexPageWriter.h</label>
-        <childnode refid="1446" relation="include">
+      <node id="886">
+        <label>MdDoxTree/IndexPageWriter.h</label>
+        <childnode refid="887" relation="include">
         </childnode>
-        <childnode refid="1463" relation="include">
+        <childnode refid="904" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
-        </childnode>
-      </node>
-      <node id="1491">
-        <label>WriteUtils.h</label>
-        <childnode refid="1463" relation="include">
-        </childnode>
-        <childnode refid="1464" relation="include">
-        </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
       </node>
-      <node id="1477">
+      <node id="929">
+        <label>MdDoxTree/WriteUtils.h</label>
+        <childnode refid="904" relation="include">
+        </childnode>
+        <childnode refid="905" relation="include">
+        </childnode>
+        <childnode refid="891" relation="include">
+        </childnode>
+      </node>
+      <node id="910">
         <label>Doxygen/MemberIndexQuery.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
-        <childnode refid="1478" relation="include">
+        <childnode refid="911" relation="include">
         </childnode>
       </node>
-      <node id="1488">
+      <node id="930">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="1489" relation="include">
+        <childnode refid="931" relation="include">
         </childnode>
       </node>
-      <node id="1481">
+      <node id="921">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1482" relation="include">
+        <childnode refid="922" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1451">
+      <node id="892">
         <label>deque</label>
       </node>
-      <node id="1485">
+      <node id="928">
         <label>Utils/Config.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
-        <childnode refid="1457" relation="include">
+        <childnode refid="898" relation="include">
         </childnode>
       </node>
-      <node id="1449">
+      <node id="890">
         <label>unordered_map</label>
       </node>
-      <node id="1479">
-        <label>GenericPageWriter.h</label>
-        <childnode refid="1468" relation="include">
+      <node id="923">
+        <label>MdDoxTree/GenericPageWriter.h</label>
+        <childnode refid="914" relation="include">
         </childnode>
-        <childnode refid="1473" relation="include">
+        <childnode refid="918" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1467" relation="include">
+        <childnode refid="913" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
       </node>
-      <node id="1467">
+      <node id="913">
         <label>PageWriter.h</label>
-        <childnode refid="1468" relation="include">
+        <childnode refid="914" relation="include">
         </childnode>
-        <childnode refid="1473" relation="include">
+        <childnode refid="918" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
       </node>
-      <node id="1489">
+      <node id="931">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="1490" relation="include">
+        <childnode refid="932" relation="include">
         </childnode>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1472">
+      <node id="917">
         <label>DoxBool.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="888" relation="include">
         </childnode>
       </node>
-      <node id="1474">
-        <label>DirectoryPageWriter.h</label>
-        <childnode refid="1468" relation="include">
+      <node id="919">
+        <label>MdDoxTree/DirectoryPageWriter.h</label>
+        <childnode refid="914" relation="include">
         </childnode>
-        <childnode refid="1473" relation="include">
+        <childnode refid="918" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1467" relation="include">
+        <childnode refid="913" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
       </node>
-      <node id="1496">
+      <node id="937">
         <label>Utils/IndexCache.h</label>
-        <childnode refid="1449" relation="include">
+        <childnode refid="890" relation="include">
         </childnode>
-        <childnode refid="1497" relation="include">
+        <childnode refid="938" relation="include">
         </childnode>
-        <childnode refid="1458" relation="include">
-        </childnode>
-      </node>
-      <node id="1469">
-        <label>DoxCompoundKind.h</label>
-        <childnode refid="1447" relation="include">
+        <childnode refid="899" relation="include">
         </childnode>
       </node>
-      <node id="1444">
+      <node id="907">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="888" relation="include">
+        </childnode>
+      </node>
+      <node id="885">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
         <link refid="IndexPageWriter_8cpp"/>
-        <childnode refid="1445" relation="include">
+        <childnode refid="886" relation="include">
         </childnode>
-        <childnode refid="1461" relation="include">
+        <childnode refid="902" relation="include">
         </childnode>
-        <childnode refid="1466" relation="include">
+        <childnode refid="907" relation="include">
         </childnode>
-        <childnode refid="1474" relation="include">
+        <childnode refid="908" relation="include">
         </childnode>
-        <childnode refid="1469" relation="include">
+        <childnode refid="910" relation="include">
         </childnode>
-        <childnode refid="1475" relation="include">
+        <childnode refid="912" relation="include">
         </childnode>
-        <childnode refid="1477" relation="include">
+        <childnode refid="919" relation="include">
         </childnode>
-        <childnode refid="1479" relation="include">
+        <childnode refid="920" relation="include">
         </childnode>
-        <childnode refid="1480" relation="include">
+        <childnode refid="923" relation="include">
         </childnode>
-        <childnode refid="1483" relation="include">
+        <childnode refid="924" relation="include">
         </childnode>
-        <childnode refid="1464" relation="include">
+        <childnode refid="925" relation="include">
         </childnode>
-        <childnode refid="1484" relation="include">
+        <childnode refid="905" relation="include">
         </childnode>
-        <childnode refid="1487" relation="include">
+        <childnode refid="926" relation="include">
         </childnode>
-        <childnode refid="1488" relation="include">
+        <childnode refid="929" relation="include">
         </childnode>
-        <childnode refid="1465" relation="include">
+        <childnode refid="930" relation="include">
         </childnode>
-        <childnode refid="1491" relation="include">
+        <childnode refid="906" relation="include">
         </childnode>
-        <childnode refid="1492" relation="include">
+        <childnode refid="933" relation="include">
         </childnode>
       </node>
-      <node id="1464">
+      <node id="905">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="1450" relation="include">
+        <childnode refid="891" relation="include">
         </childnode>
       </node>
-      <node id="1482">
+      <node id="922">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -459,22 +459,22 @@
 <codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IndexPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/IndexPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ClassPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DirectoryPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxCompoundKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxygenQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/MemberIndexQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GenericPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxCompoundKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxygenQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/MemberIndexQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/ClassPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DirectoryPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/GenericPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/Reference.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;NamespacePageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/NamespacePageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/Reference.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Parser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
@@ -482,11 +482,11 @@
 <codeline lineno="42" refid="classMdDox_1_1IndexPageFilter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMdDox_1_1IndexPageFilter" kindref="compound">IndexPageFilter</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor" kindref="compound">Doxygen::Visitors::DoxygenIndexQueryVisitor</ref></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="45" refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" kindref="member">pages</ref>;</highlight></codeline>
-<codeline lineno="46" refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kindref="member">classes</ref>;</highlight></codeline>
-<codeline lineno="47" refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kindref="member">namespaces</ref>;</highlight></codeline>
-<codeline lineno="48" refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kindref="member">directories</ref>;</highlight></codeline>
-<codeline lineno="49" refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" kindref="member">dirPaths</ref>;</highlight></codeline>
+<codeline lineno="45" refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" kindref="member">pages</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kindref="member">classes</ref>;</highlight></codeline>
+<codeline lineno="47" refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kindref="member">namespaces</ref>;</highlight></codeline>
+<codeline lineno="48" refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kindref="member">directories</ref>;</highlight></codeline>
+<codeline lineno="49" refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" kindref="member">dirPaths</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="52" refid="classMdDox_1_1IndexPageFilter_1a0272d01ca025bd91ac7dd9b6656569c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1IndexPageFilter_1a0272d01ca025bd91ac7dd9b6656569c5" kindref="member" tooltip="Called when the element compound is found. ">visitedCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery" kindref="compound" tooltip="Implements the CompoundIndexType scaffolding. ">Doxygen::CompoundIndexQuery</ref>&amp;<sp/>query)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
@@ -539,14 +539,14 @@
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" kindref="member">insertCompound</ref>(query.<ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a5bd2c0056108f7775754848ff8180c89" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>(),</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" kindref="member" tooltip="Adds a new compound reference to the ReferenceTable. ">insertCompound</ref>(query.<ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a5bd2c0056108f7775754848ff8180c89" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>(),</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>query.<ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(),</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>query.<ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a2d313ca23b09288ae5a0fc13fd3f92ae" kindref="member" tooltip="Provides access to the refid attribute. ">getRefId</ref>());</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>query.<ref refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" kindref="member" tooltip="Invokes the supplied callback on member elements. ">foreachMember</ref>(</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery" kindref="compound" tooltip="Implements the MemberIndexType scaffolding. ">Doxygen::MemberIndexQuery</ref>&amp;<sp/>member)</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" kindref="member">insertMember</ref>(member.<ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a5a5bae1112d62a0e6cbe0989eaa982f5" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>(),</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" kindref="member" tooltip="Adds a new member reference to the ReferenceTable. ">insertMember</ref>(member.<ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a5a5bae1112d62a0e6cbe0989eaa982f5" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>(),</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>member.<ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a7c81dcf5501dddf5a75dc2c2f43fa3e6" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(),</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>member.<ref refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac79c1254b4459778e9d57bc66d34f7c6" kindref="member" tooltip="Provides access to the refid attribute. ">getRefId</ref>());</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
@@ -563,7 +563,7 @@
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Page&gt;</highlight></codeline>
 <codeline lineno="124" refid="namespaceMdDox_1a10c86bf623d1e4477190dd7197e166dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a10c86bf623d1e4477190dd7197e166dc" kindref="member">dispatch</ref>(<ref refid="classMdDox_1_1DocumentWriter" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref>&amp;<sp/>page,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>indexDir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>outDir)</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(</highlight><highlight class="stringliteral">&quot;dispatchPage:<sp/>&quot;</highlight><highlight class="normal">,<sp/>page.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(</highlight><highlight class="stringliteral">&quot;building<sp/>=&gt;<sp/>&quot;</highlight><highlight class="normal">,<sp/>page.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>());</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>path(indexDir);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>path.fileName(<ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(page.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.xml&quot;</highlight><highlight class="normal">));</highlight></codeline>
@@ -579,136 +579,138 @@
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Page<sp/>pageVisitor(writer,<sp/>page,<sp/>outDir);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pageVisitor.exec(doxygen);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>IndexPageWriter::dispatchFilter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IndexPageFilter&amp;<sp/>filter)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="145"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.pages)</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;GenericPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.namespaces)</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;NamespacePageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.classes)</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;ClassPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.directories)</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;DirectoryPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>IndexPageWriter::makeFilename(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="157"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(ref.getId(),</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>,</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(ref.getName()));</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>IndexPageWriter::writeReferenceFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name,</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon,</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>heading,</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref>&amp;<sp/>list)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="167"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>out(name);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!out.is_open())</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>open<sp/>the<sp/>supplied<sp/>file<sp/>path:<sp/>&quot;</highlight><highlight class="normal">,<sp/>name);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginDocument(out,<sp/>heading);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(out,<sp/>_writer,<sp/>heading);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginSection(out,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">,<sp/>2);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight><highlight class="stringliteral">&quot;File,<sp/>&quot;</highlight><highlight class="normal">,<sp/>path.fullPath(),<sp/></highlight><highlight class="stringliteral">&quot;<sp/>does<sp/>not<sp/>exist&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>IndexPageWriter::dispatchFilter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IndexPageFilter&amp;<sp/>filter)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="147"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.pages)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;GenericPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.namespaces)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;NamespacePageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.classes)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;ClassPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>filter.directories)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatch&lt;DirectoryPageWriter&gt;(_writer,<sp/>page,<sp/>_indexDir,<sp/>_outDir);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>IndexPageWriter::makeFilename(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>ref)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="159"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(ref.getId(),</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(ref.getName()));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>IndexPageWriter::writeReferenceFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>icon,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>heading,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref>&amp;<sp/>list)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="169"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>out(name);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!out.is_open())</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>open<sp/>the<sp/>supplied<sp/>file<sp/>path:<sp/>&quot;</highlight><highlight class="normal">,<sp/>name);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginDocument(out,<sp/>heading);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(out,<sp/>_writer,<sp/>heading);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginList(out);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>list)</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkText(out,<sp/>page.getName(),<sp/>page.getId());</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endList(out);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endSection(out);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endDocument(out);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" kindref="member">IndexPageWriter::exec</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery" kindref="compound" tooltip="Implements the DoxygenIndexType scaffolding. ">Doxygen::DoxygenIndexQuery</ref>&amp;<sp/>query,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>outDir)</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>();</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir<sp/>=<sp/>outDir;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir.<ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>(<ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">,<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>));</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>out(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>());</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!out.is_open())</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream<sp/>=<sp/>&amp;out;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginSection(out,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">,<sp/>2);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginList(out);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>list)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkText(out,<sp/>page.getName(),<sp/>page.getId());</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endList(out);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endSection(out);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endDocument(out);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" kindref="member">IndexPageWriter::exec</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery" kindref="compound" tooltip="Implements the DoxygenIndexType scaffolding. ">Doxygen::DoxygenIndexQuery</ref>&amp;<sp/>query,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>outDir)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir<sp/>=<sp/>outDir;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir.<ref refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" kindref="member">fileName</ref>(<ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">,<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>));</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>out(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>());</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!out.is_open())</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>extract<sp/>all,<sp/>classes,<sp/>namespaces,<sp/>directories,<sp/>and<sp/>pages.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1IndexPageFilter" kindref="compound">IndexPageFilter</ref><sp/>filter;</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>query.<ref refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" kindref="member">visit</ref>(&amp;filter);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginDocument(out,<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kindref="member" tooltip="Defines a title for the current project. ">projectTitle</ref>);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream<sp/>=<sp/>&amp;out;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>extract<sp/>all,<sp/>classes,<sp/>namespaces,<sp/>directories,<sp/>and<sp/>pages.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1IndexPageFilter" kindref="compound">IndexPageFilter</ref><sp/>filter;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>query.<ref refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery_1a6130311bce2c4a7e332bfb57211946b2" kindref="member">visit</ref>(&amp;filter);</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(out,<sp/>_writer,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>file;</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name;</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir<sp/>=<sp/>outDir;</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginSection(out,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">,<sp/>2);</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginList(out);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pages</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref><sp/>ref<sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;page_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kindref="member">ICO_FILE</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" kindref="member">pages</ref>);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Directories</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;directory_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a969b7f11f94daf796cbbbe558e15a69b" kindref="member">ICO_FOLDER</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kindref="member">directories</ref>);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Namespaces</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;namespace_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a642367474f423b9ebb632b7c59e61c62" kindref="member">ICO_NAMESPACE</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kindref="member">namespaces</ref>);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Classes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>title<sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a6eaef2266419ab7676ad415c883efad8" kindref="member">getCompoundName</ref>(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginDocument(out,<sp/>title.empty()<sp/>?<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kindref="member" tooltip="Defines a title for the current project. ">projectTitle</ref><sp/>:<sp/>title);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(out,<sp/>_writer,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>file;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_outDir<sp/>=<sp/>outDir;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginSection(out,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">,<sp/>2);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginList(out);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pages</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Reference" kindref="compound">Reference</ref><sp/>ref<sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member" tooltip="Extracts a Reference object out of the ReferenceTable. ">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;page_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" kindref="member">pages</ref>);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Directories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member" tooltip="Extracts a Reference object out of the ReferenceTable. ">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;directory_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" kindref="member">ICO_FOLDER</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kindref="member">directories</ref>);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Namespaces</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member" tooltip="Extracts a Reference object out of the ReferenceTable. ">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;namespace_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" kindref="member">ICO_NAMESPACE</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kindref="member">namespaces</ref>);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;class_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a9b02b86c4a6a2f37414ca8967972c565" kindref="member">ICO_CLASS</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kindref="member">classes</ref>);</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
-<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
-<codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endList(out);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endSection(out);</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endDocument(out,<sp/></highlight><highlight class="stringliteral">&quot;../index.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatchFilter(filter);</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Classes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref<sp/><sp/>=<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1afa0db604ba5f6668ccfbfe39303d7fe0" kindref="member" tooltip="Extracts a Reference object out of the ReferenceTable. ">getRefId</ref>(</highlight><highlight class="stringliteral">&quot;class_index&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(_outDir.<ref refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" kindref="member">fullPath</ref>(),<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>builder.<ref refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!name.empty())</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeReferenceFile(name,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" kindref="member">ICO_CLASS</ref>,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>filter.<ref refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kindref="member">classes</ref>);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginListItem(out);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;linkRef(out,<sp/>0,<sp/>ref.<ref refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>(),<sp/>ref.<ref refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endListItem(out);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endList(out);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endSection(out);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;endDocument(out,<sp/></highlight><highlight class="stringliteral">&quot;../index.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dispatchFilter(filter);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/IndexPageWriter.cpp"/>
   </compounddef>

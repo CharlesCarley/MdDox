@@ -49,17 +49,12 @@ namespace MdDox
 
     Path FileSystem::absolute(const String& input)
     {
-        const Path value(input);
-
+        Path value(input);
         if (!value.has_root_directory())
         {
-            const String current = currentPath();
-            return normalize(StringCombine(
-                current,
-                '/',
-                input));
+            value = StringCombine(currentPath(), '/', input);
+            value = local_filesystem::absolute(value);
         }
-
         return normalize(value);
     }
 

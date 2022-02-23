@@ -35,7 +35,6 @@ set(Target_HDR
 	HtmlDocumentWriter.h
 	IconSet.h
 	IndexPageWriter.h
-	Link.h
 	LinkedTextWriter.h
 	LocationWriter.h
 	MarkdownCommandWriter.h
@@ -75,7 +74,6 @@ set(Target_SRC
 	HtmlDocumentWriter.cpp
 	IconSet.cpp
 	IndexPageWriter.cpp
-	Link.cpp
 	LinkedTextWriter.cpp
 	LocationWriter.cpp
 	MarkdownCommandWriter.cpp

@@ -2,178 +2,178 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="Section4Writer_8cpp" kind="file" language="C++">
     <compoundname>Section4Writer.cpp</compoundname>
-    <includes refid="Section4Writer_8h" local="yes">Section4Writer.h</includes>
-    <includes refid="MdDoxTree_2DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
-    <includes refid="ParagraphWriter_8h" local="yes">ParagraphWriter.h</includes>
-    <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
+    <includes refid="Section4Writer_8h" local="yes">MdDoxTree/Section4Writer.h</includes>
+    <includes refid="DocumentWriter_8h" local="yes">MdDoxTree/DocumentWriter.h</includes>
+    <includes refid="ParagraphWriter_8h" local="yes">MdDoxTree/ParagraphWriter.h</includes>
+    <includes refid="WriteUtils_8h" local="yes">MdDoxTree/WriteUtils.h</includes>
     <incdepgraph>
-      <node id="2353">
+      <node id="1994">
         <label>Utils/Console.h</label>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2347">
+      <node id="1988">
         <label>iomanip</label>
       </node>
-      <node id="2339">
+      <node id="1980">
         <label>functional</label>
       </node>
-      <node id="2354">
+      <node id="1995">
         <label>Utils/Path.h</label>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2349">
+      <node id="1990">
         <label>Utils/Exception.h</label>
-        <childnode refid="2350" relation="include">
+        <childnode refid="1991" relation="include">
         </childnode>
-        <childnode refid="2351" relation="include">
+        <childnode refid="1992" relation="include">
         </childnode>
-        <childnode refid="2352" relation="include">
+        <childnode refid="1993" relation="include">
         </childnode>
-        <childnode refid="2353" relation="include">
+        <childnode refid="1994" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2351">
+      <node id="1992">
         <label>stdexcept</label>
       </node>
-      <node id="2345">
+      <node id="1986">
         <label>string</label>
       </node>
-      <node id="2338">
+      <node id="1979">
         <label>Doxygen.h</label>
-        <childnode refid="2339" relation="include">
+        <childnode refid="1980" relation="include">
         </childnode>
-        <childnode refid="2340" relation="include">
+        <childnode refid="1981" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
-        <childnode refid="2348" relation="include">
+        <childnode refid="1989" relation="include">
         </childnode>
-        <childnode refid="2349" relation="include">
-        </childnode>
-      </node>
-      <node id="2336">
-        <label>Section4Writer.h</label>
-        <childnode refid="2337" relation="include">
-        </childnode>
-        <childnode refid="2354" relation="include">
+        <childnode refid="1990" relation="include">
         </childnode>
       </node>
-      <node id="2350">
+      <node id="1977">
+        <label>MdDoxTree/Section4Writer.h</label>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1991">
         <label>exception</label>
       </node>
-      <node id="2343">
+      <node id="1984">
         <label>fstream</label>
       </node>
-      <node id="2337">
+      <node id="1978">
         <label>Doxygen/Sect4Query.h</label>
-        <childnode refid="2338" relation="include">
+        <childnode refid="1979" relation="include">
         </childnode>
       </node>
-      <node id="2356">
+      <node id="1997">
         <label>IconSet.h</label>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2348">
+      <node id="1989">
         <label>Xml/Node.h</label>
-        <childnode refid="2339" relation="include">
+        <childnode refid="1980" relation="include">
         </childnode>
-        <childnode refid="2340" relation="include">
+        <childnode refid="1981" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2355">
+      <node id="1996">
         <label>MdDoxTree/DocumentWriter.h</label>
-        <childnode refid="2356" relation="include">
+        <childnode refid="1997" relation="include">
         </childnode>
-        <childnode refid="2357" relation="include">
+        <childnode refid="1998" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2335">
+      <node id="1976">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
         <link refid="Section4Writer_8cpp"/>
-        <childnode refid="2336" relation="include">
+        <childnode refid="1977" relation="include">
         </childnode>
-        <childnode refid="2355" relation="include">
+        <childnode refid="1996" relation="include">
         </childnode>
-        <childnode refid="2359" relation="include">
+        <childnode refid="2000" relation="include">
         </childnode>
-        <childnode refid="2361" relation="include">
+        <childnode refid="2002" relation="include">
         </childnode>
       </node>
-      <node id="2360">
+      <node id="2001">
         <label>Doxygen/ParaQuery.h</label>
-        <childnode refid="2338" relation="include">
+        <childnode refid="1979" relation="include">
         </childnode>
       </node>
-      <node id="2341">
+      <node id="1982">
         <label>Utils/String.h</label>
-        <childnode refid="2342" relation="include">
+        <childnode refid="1983" relation="include">
         </childnode>
-        <childnode refid="2343" relation="include">
+        <childnode refid="1984" relation="include">
         </childnode>
-        <childnode refid="2344" relation="include">
+        <childnode refid="1985" relation="include">
         </childnode>
-        <childnode refid="2345" relation="include">
+        <childnode refid="1986" relation="include">
         </childnode>
-        <childnode refid="2340" relation="include">
+        <childnode refid="1981" relation="include">
         </childnode>
-        <childnode refid="2346" relation="include">
+        <childnode refid="1987" relation="include">
         </childnode>
-        <childnode refid="2347" relation="include">
-        </childnode>
-      </node>
-      <node id="2359">
-        <label>ParagraphWriter.h</label>
-        <childnode refid="2360" relation="include">
-        </childnode>
-        <childnode refid="2354" relation="include">
+        <childnode refid="1988" relation="include">
         </childnode>
       </node>
-      <node id="2346">
+      <node id="2000">
+        <label>MdDoxTree/ParagraphWriter.h</label>
+        <childnode refid="2001" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1987">
         <label>vector</label>
       </node>
-      <node id="2352">
+      <node id="1993">
         <label>utility</label>
       </node>
-      <node id="2344">
+      <node id="1985">
         <label>sstream</label>
       </node>
-      <node id="2361">
-        <label>WriteUtils.h</label>
-        <childnode refid="2356" relation="include">
+      <node id="2002">
+        <label>MdDoxTree/WriteUtils.h</label>
+        <childnode refid="1997" relation="include">
         </childnode>
-        <childnode refid="2362" relation="include">
+        <childnode refid="2003" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2357">
+      <node id="1998">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="2358" relation="include">
+        <childnode refid="1999" relation="include">
         </childnode>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2342">
+      <node id="1983">
         <label>deque</label>
       </node>
-      <node id="2340">
+      <node id="1981">
         <label>unordered_map</label>
       </node>
-      <node id="2362">
+      <node id="2003">
         <label>MdDoxTree/Reference.h</label>
-        <childnode refid="2341" relation="include">
+        <childnode refid="1982" relation="include">
         </childnode>
       </node>
-      <node id="2358">
+      <node id="1999">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -204,10 +204,10 @@
 <codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Section4Writer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/Section4Writer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ParagraphWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/ParagraphWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
@@ -233,7 +233,7 @@
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Reflect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/MdDoxTree/Section4Writer.cpp"/>
   </compounddef>

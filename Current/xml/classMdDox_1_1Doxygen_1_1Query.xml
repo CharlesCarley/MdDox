@@ -223,447 +223,447 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="412">
+      <node id="411">
         <label>MdDox::Doxygen::FileQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1FileQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="425">
-        <label>MdDox::Doxygen::LanguageQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1LanguageQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="400">
-        <label>MdDox::Doxygen::ChildNodeQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="408">
-        <label>MdDox::Doxygen::DoxygenQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1DoxygenQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="464">
-        <label>MdDox::Doxygen::VariableListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1VariableListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="416">
-        <label>MdDox::Doxygen::HighlightQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1HighlightQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="457">
-        <label>MdDox::Doxygen::SpQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1SpQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="442">
-        <label>MdDox::Doxygen::ParamQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="427">
-        <label>MdDox::Doxygen::LinkQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1LinkQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="454">
-        <label>MdDox::Doxygen::Sect4Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Sect4Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="417">
-        <label>MdDox::Doxygen::ImageQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ImageQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="423">
-        <label>MdDox::Doxygen::InternalS3Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1InternalS3Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="410">
-        <label>MdDox::Doxygen::EntryQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1EntryQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="426">
-        <label>MdDox::Doxygen::LinkedTextQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="460">
-        <label>MdDox::Doxygen::TitleQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1TitleQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="445">
-        <label>MdDox::Doxygen::ParBlockQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParBlockQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="455">
-        <label>MdDox::Doxygen::SectionDefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1SectionDefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="409">
-        <label>MdDox::Doxygen::EmptyQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1EmptyQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="435">
-        <label>MdDox::Doxygen::MemberIndexQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
       <node id="424">
-        <label>MdDox::Doxygen::InternalS4Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1InternalS4Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="437">
-        <label>MdDox::Doxygen::NodeQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1NodeQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="428">
-        <label>MdDox::Doxygen::ListingQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ListingQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="444">
-        <label>MdDox::Doxygen::ParaQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParaQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="447">
-        <label>MdDox::Doxygen::RefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1RefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="451">
-        <label>MdDox::Doxygen::Sect1Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Sect1Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="448">
-        <label>MdDox::Doxygen::RefTextQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1RefTextQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="433">
-        <label>MdDox::Doxygen::MarkupQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1MarkupQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="434">
-        <label>MdDox::Doxygen::MemberDefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1MemberDefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="420">
-        <label>MdDox::Doxygen::InternalQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1InternalQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="438">
-        <label>MdDox::Doxygen::ParamListItemQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="459">
-        <label>MdDox::Doxygen::TemplateParamListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="406">
-        <label>MdDox::Doxygen::DescriptionQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1DescriptionQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="396">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-      </node>
-      <node id="421">
-        <label>MdDox::Doxygen::InternalS1Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1InternalS1Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="431">
-        <label>MdDox::Doxygen::ListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="446">
-        <label>MdDox::Doxygen::ReferenceQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ReferenceQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="439">
-        <label>MdDox::Doxygen::ParamListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="398">
-        <label>MdDox::Doxygen::BlockQuoteQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="401">
-        <label>MdDox::Doxygen::CodeLineQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CodeLineQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="452">
-        <label>MdDox::Doxygen::Sect2Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Sect2Query"/>
-        <childnode refid="396" relation="public-inheritance">
+        <label>MdDox::Doxygen::LanguageQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1LanguageQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
       <node id="399">
-        <label>MdDox::Doxygen::CaptionQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CaptionQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="461">
-        <label>MdDox::Doxygen::TocItemQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1TocItemQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="405">
-        <label>MdDox::Doxygen::CopyQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CopyQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="432">
-        <label>MdDox::Doxygen::LocationQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1LocationQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="430">
-        <label>MdDox::Doxygen::ListOfAllMembersQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="441">
-        <label>MdDox::Doxygen::ParamNameQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamNameQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="404">
-        <label>MdDox::Doxygen::CompoundRefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="465">
-        <label>MdDox::Doxygen::VarListEntryQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="419">
-        <label>MdDox::Doxygen::IndexEntryQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="440">
-        <label>MdDox::Doxygen::ParamNameListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="436">
-        <label>MdDox::Doxygen::MemberRefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1MemberRefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="458">
-        <label>MdDox::Doxygen::TableQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1TableQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="462">
-        <label>MdDox::Doxygen::TocListQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1TocListQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="422">
-        <label>MdDox::Doxygen::InternalS2Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1InternalS2Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="403">
-        <label>MdDox::Doxygen::CompoundIndexQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="463">
-        <label>MdDox::Doxygen::UrlLinkQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="415">
-        <label>MdDox::Doxygen::HeadingQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1HeadingQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="449">
-        <label>MdDox::Doxygen::ReimplementQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ReimplementQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="414">
-        <label>MdDox::Doxygen::GraphQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1GraphQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="466">
-        <label>MdDox::Doxygen::XRefSectQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1XRefSectQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="453">
-        <label>MdDox::Doxygen::Sect3Query</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Sect3Query"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="413">
-        <label>MdDox::Doxygen::FormulaQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1FormulaQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="456">
-        <label>MdDox::Doxygen::SimpleSectQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery"/>
-        <childnode refid="396" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="443">
-        <label>MdDox::Doxygen::ParamTypeQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+        <label>MdDox::Doxygen::ChildNodeQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ChildNodeQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
       <node id="407">
-        <label>MdDox::Doxygen::DoxygenIndexQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+        <label>MdDox::Doxygen::DoxygenQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1DoxygenQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="429">
-        <label>MdDox::Doxygen::ListItemQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1ListItemQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+      <node id="463">
+        <label>MdDox::Doxygen::VariableListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1VariableListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>MdDox::Doxygen::HighlightQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1HighlightQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="456">
+        <label>MdDox::Doxygen::SpQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1SpQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>MdDox::Doxygen::ParamQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>MdDox::Doxygen::LinkQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1LinkQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="453">
+        <label>MdDox::Doxygen::Sect4Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Sect4Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>MdDox::Doxygen::ImageQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ImageQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="422">
+        <label>MdDox::Doxygen::InternalS3Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1InternalS3Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>MdDox::Doxygen::EntryQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1EntryQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>MdDox::Doxygen::LinkedTextQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1LinkedTextQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>MdDox::Doxygen::TitleQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1TitleQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>MdDox::Doxygen::ParBlockQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParBlockQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>MdDox::Doxygen::SectionDefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1SectionDefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>MdDox::Doxygen::EmptyQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1EmptyQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>MdDox::Doxygen::MemberIndexQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>MdDox::Doxygen::InternalS4Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1InternalS4Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>MdDox::Doxygen::NodeQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1NodeQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>MdDox::Doxygen::ListingQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ListingQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>MdDox::Doxygen::ParaQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParaQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>MdDox::Doxygen::RefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1RefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
       <node id="450">
-        <label>MdDox::Doxygen::RowQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1RowQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+        <label>MdDox::Doxygen::Sect1Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Sect1Query"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="402">
-        <label>MdDox::Doxygen::CompoundDefQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+      <node id="447">
+        <label>MdDox::Doxygen::RefTextQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1RefTextQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="418">
-        <label>MdDox::Doxygen::IncQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1IncQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+      <node id="432">
+        <label>MdDox::Doxygen::MarkupQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MarkupQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="411">
-        <label>MdDox::Doxygen::EnumValueQuery</label>
-        <link refid="classMdDox_1_1Doxygen_1_1EnumValueQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+      <node id="433">
+        <label>MdDox::Doxygen::MemberDefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MemberDefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>MdDox::Doxygen::InternalQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1InternalQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>MdDox::Doxygen::ParamListItemQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamListItemQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>MdDox::Doxygen::TemplateParamListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1TemplateParamListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>MdDox::Doxygen::DescriptionQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1DescriptionQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Query"/>
+      </node>
+      <node id="420">
+        <label>MdDox::Doxygen::InternalS1Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1InternalS1Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>MdDox::Doxygen::ListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="445">
+        <label>MdDox::Doxygen::ReferenceQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ReferenceQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>MdDox::Doxygen::ParamListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
       <node id="397">
+        <label>MdDox::Doxygen::BlockQuoteQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1BlockQuoteQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>MdDox::Doxygen::CodeLineQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CodeLineQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="451">
+        <label>MdDox::Doxygen::Sect2Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Sect2Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>MdDox::Doxygen::CaptionQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CaptionQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>MdDox::Doxygen::TocItemQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1TocItemQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>MdDox::Doxygen::CopyQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CopyQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>MdDox::Doxygen::LocationQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1LocationQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>MdDox::Doxygen::ListOfAllMembersQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="440">
+        <label>MdDox::Doxygen::ParamNameQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamNameQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>MdDox::Doxygen::CompoundRefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CompoundRefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>MdDox::Doxygen::VarListEntryQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1VarListEntryQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>MdDox::Doxygen::IndexEntryQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1IndexEntryQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>MdDox::Doxygen::ParamNameListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamNameListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>MdDox::Doxygen::MemberRefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1MemberRefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="457">
+        <label>MdDox::Doxygen::TableQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1TableQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="461">
+        <label>MdDox::Doxygen::TocListQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1TocListQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>MdDox::Doxygen::InternalS2Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1InternalS2Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>MdDox::Doxygen::CompoundIndexQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>MdDox::Doxygen::UrlLinkQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1UrlLinkQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>MdDox::Doxygen::HeadingQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1HeadingQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="448">
+        <label>MdDox::Doxygen::ReimplementQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ReimplementQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>MdDox::Doxygen::GraphQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1GraphQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>MdDox::Doxygen::XRefSectQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1XRefSectQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>MdDox::Doxygen::Sect3Query</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Sect3Query"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>MdDox::Doxygen::FormulaQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1FormulaQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>MdDox::Doxygen::SimpleSectQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1SimpleSectQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>MdDox::Doxygen::ParamTypeQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ParamTypeQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>MdDox::Doxygen::DoxygenIndexQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>MdDox::Doxygen::ListItemQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1ListItemQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="449">
+        <label>MdDox::Doxygen::RowQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1RowQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>MdDox::Doxygen::CompoundDefQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1CompoundDefQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>MdDox::Doxygen::IncQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1IncQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>MdDox::Doxygen::EnumValueQuery</label>
+        <link refid="classMdDox_1_1Doxygen_1_1EnumValueQuery"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
         <label>MdDox::Doxygen::AnchorQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1AnchorQuery"/>
-        <childnode refid="396" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="468">
+      <node id="467">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="469" relation="usage">
+        <childnode refid="468" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="467">
+      <node id="466">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="468" relation="usage">
+        <childnode refid="467" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
       </node>
-      <node id="469">
+      <node id="468">
         <label>bool</label>
       </node>
     </collaborationgraph>

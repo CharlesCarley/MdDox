@@ -213,7 +213,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="171" bodyend="182"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="171" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1EnumDefWriter_1a0b62c0fec35630521ddcff9c40b827f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -447,7 +447,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="184" bodyend="187"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="183" bodyend="186"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/EnumDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="189" bodyend="213"/>
+        <location file="Source/MdDoxTree/EnumDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/EnumDefWriter.cpp" bodystart="188" bodyend="212"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" compoundref="DoxygenFilter_8h" startline="96">MdDox::Doxygen::DoxName</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" compoundref="DoxygenFilter_8h" startline="135">MdDox::Doxygen::DoxType</references>
@@ -499,7 +499,7 @@
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1ab714a02390a2d9c9896c78f931800569" compoundref="MemberDefQuery_8cpp" startline="377" endline="384">MdDox::Doxygen::MemberDefQuery::getName</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberDefQuery_1a5f35691bd798dd06bb3344544bd83a69" compoundref="MemberDefQuery_8cpp" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -507,26 +507,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="725">
+      <node id="724">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="724">
+      <node id="723">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="725" relation="public-inheritance">
+        <childnode refid="724" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="727">
+      <node id="726">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="726">
+      <node id="725">
         <label>MdDox::EnumDefWriter</label>
         <link refid="classMdDox_1_1EnumDefWriter"/>
-        <childnode refid="727" relation="public-inheritance">
+        <childnode refid="726" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

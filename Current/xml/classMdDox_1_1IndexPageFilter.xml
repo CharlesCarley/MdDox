@@ -5,7 +5,7 @@
     <basecompoundref refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</basecompoundref>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref></type>
+        <type><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref></type>
         <definition>ReferenceList MdDox::IndexPageFilter::classes</definition>
         <argsstring></argsstring>
         <name>classes</name>
@@ -18,7 +18,7 @@
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="46" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref></type>
+        <type><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref></type>
         <definition>ReferenceList MdDox::IndexPageFilter::directories</definition>
         <argsstring></argsstring>
         <name>directories</name>
@@ -31,7 +31,7 @@
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="48" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref></type>
+        <type><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref></type>
         <definition>ReferenceList MdDox::IndexPageFilter::dirPaths</definition>
         <argsstring></argsstring>
         <name>dirPaths</name>
@@ -44,7 +44,7 @@
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="49" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref></type>
+        <type><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref></type>
         <definition>ReferenceList MdDox::IndexPageFilter::namespaces</definition>
         <argsstring></argsstring>
         <name>namespaces</name>
@@ -57,7 +57,7 @@
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="47" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceMdDox_1ad2c271a608c5880c2b4ef2fd6c8f8d89" kindref="member">ReferenceList</ref></type>
+        <type><ref refid="namespaceMdDox_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref></type>
         <definition>ReferenceList MdDox::IndexPageFilter::pages</definition>
         <argsstring></argsstring>
         <name>pages</name>
@@ -96,9 +96,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="113"/>
-        <references refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" compoundref="Document_2Reference_8h" startline="56" endline="59">MdDox::Reference::setName</references>
+        <references refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" compoundref="Reference_8h" startline="56" endline="59">MdDox::Reference::setName</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" compoundref="CompoundIndexQuery_8cpp" startline="66" endline="73">MdDox::Doxygen::CompoundIndexQuery::getName</references>
-        <references refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" compoundref="Document_2Reference_8h" startline="66" endline="69">MdDox::Reference::setId</references>
+        <references refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" compoundref="Reference_8h" startline="66" endline="69">MdDox::Reference::setId</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a2d313ca23b09288ae5a0fc13fd3f92ae" compoundref="CompoundIndexQuery_8cpp" startline="52" endline="57">MdDox::Doxygen::CompoundIndexQuery::getRefId</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1a5bd2c0056108f7775754848ff8180c89" compoundref="CompoundIndexQuery_8cpp" startline="59" endline="64">MdDox::Doxygen::CompoundIndexQuery::getKind</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a99ca1a5e5560f707207d20393f94003a" compoundref="DoxCompoundKind_8h" startline="119">MdDox::Doxygen::DCK_GROUP</references>
@@ -113,7 +113,7 @@
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a62d9911613fef621427568c486495d4c" compoundref="DoxCompoundKind_8h" startline="63">MdDox::Doxygen::DCK_CLASS</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" compoundref="IndexPageWriter_8cpp" startline="46">classes</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759af5700e85d79c43fdcf2fbf0da2599d43" compoundref="DoxCompoundKind_8h" startline="127">MdDox::Doxygen::DCK_DIR</references>
-        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Document_2Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
+        <references refid="classMdDox_1_1Reference_1a16a58266e43ad09778943db15e471f38" compoundref="Reference_8h" startline="51" endline="54">MdDox::Reference::getName</references>
         <references refid="classMdDox_1_1StringUtils_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="String_8cpp" startline="125" endline="132">MdDox::StringUtils::split</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" compoundref="IndexPageWriter_8cpp" startline="49">dirPaths</references>
         <references refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" compoundref="IndexPageWriter_8cpp" startline="48">directories</references>
@@ -126,10 +126,10 @@
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759ab423cb91da1b34fecccffb8ff7b5a3f7" compoundref="DoxCompoundKind_8h" startline="111">MdDox::Doxygen::DCK_TYPE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759a4a255089d57c59b114e5c097444f468b" compoundref="DoxCompoundKind_8h" startline="115">MdDox::Doxygen::DCK_FILE</references>
         <references refid="namespaceMdDox_1_1Doxygen_1ad8ad9f92594486e7bf4e3a37b030a759aa5e51775c781d51afe7643b05f7bd886" compoundref="DoxCompoundKind_8h" startline="59">MdDox::Doxygen::DCK_INVALID</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="239" endline="244">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" compoundref="SiteBuilder_8cpp" startline="162" endline="168">MdDox::SiteBuilder::insertCompound</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ae14f01c1fb83677338988518c0af7282" compoundref="SiteBuilder_8cpp" startline="169" endline="175">MdDox::SiteBuilder::insertCompound</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1add0fdeb2a9ecb02456f2fb8140cf1794" compoundref="CompoundIndexQuery_8cpp" startline="75" endline="78">MdDox::Doxygen::CompoundIndexQuery::foreachMember</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" compoundref="SiteBuilder_8cpp" startline="210" endline="216">MdDox::SiteBuilder::insertMember</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a3916aee3256ecbcca16a76e6f3ac1278" compoundref="SiteBuilder_8cpp" startline="217" endline="223">MdDox::SiteBuilder::insertMember</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a5a5bae1112d62a0e6cbe0989eaa982f5" compoundref="MemberIndexQuery_8cpp" startline="35" endline="40">MdDox::Doxygen::MemberIndexQuery::getKind</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1a7c81dcf5501dddf5a75dc2c2f43fa3e6" compoundref="MemberIndexQuery_8cpp" startline="42" endline="49">MdDox::Doxygen::MemberIndexQuery::getName</references>
         <references refid="classMdDox_1_1Doxygen_1_1MemberIndexQuery_1ac79c1254b4459778e9d57bc66d34f7c6" compoundref="MemberIndexQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::MemberIndexQuery::getRefId</references>
@@ -140,6 +140,18 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="849">
+        <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
+      </node>
+      <node id="848">
+        <label>MdDox::IndexPageFilter</label>
+        <link refid="classMdDox_1_1IndexPageFilter"/>
+        <childnode refid="849" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="851">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
@@ -149,19 +161,7 @@
         <link refid="classMdDox_1_1IndexPageFilter"/>
         <childnode refid="851" relation="public-inheritance">
         </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="853">
-        <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
-        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
-      </node>
-      <node id="852">
-        <label>MdDox::IndexPageFilter</label>
-        <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="853" relation="public-inheritance">
-        </childnode>
-        <childnode refid="854" relation="usage">
+        <childnode refid="852" relation="usage">
           <edgelabel>dirPaths</edgelabel>
           <edgelabel>directories</edgelabel>
           <edgelabel>namespaces</edgelabel>
@@ -169,7 +169,7 @@
           <edgelabel>pages</edgelabel>
         </childnode>
       </node>
-      <node id="854">
+      <node id="852">
         <label>vector&lt; Reference &gt;</label>
       </node>
     </collaborationgraph>

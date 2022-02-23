@@ -21,7 +21,7 @@
 */
 #include "MdDoxTree/LocationWriter.h"
 #include "DocumentWriter.h"
-#include "HashUtils.h"
+#include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "MdDoxTree/WriteUtils.h"
 #include "Utils/Path.h"
@@ -55,7 +55,7 @@ namespace MdDox
                 const String url = StringCombine(builder.fileUrl, '/', decl, HashUtils::lineNumber(declLine));
                 _writer->embedContentLinkText(_out, ICO_FILE, url, PathUtil(decl).fileName());
 
-            	if (hasImpl)
+                if (hasImpl)
                     _writer->lineBreak(_out);
             }
 
@@ -66,7 +66,7 @@ namespace MdDox
             }
         }
 
-    	return syncStream(_stream, _out);
+        return syncStream(_stream, _out);
     }
 
 }  // namespace MdDox

@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "ParagraphWriter.h"
+#include "MdDoxTree/ParagraphWriter.h"
 #include "Doxygen/BlockQuoteQuery.h"
 #include "Doxygen/CodeLineQuery.h"
 #include "Doxygen/DoxImageKind.h"
@@ -36,10 +36,10 @@
 #include "Doxygen/SimpleSectQuery.h"
 #include "Doxygen/UrlLinkQuery.h"
 #include "MdDoxTree/DocumentWriter.h"
+#include "MdDoxTree/ParameterListWriter.h"
 #include "MdDoxTree/SiteBuilder.h"
-#include "ParameterListWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "Utils/Path.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {

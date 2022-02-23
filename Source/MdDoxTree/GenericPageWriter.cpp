@@ -19,13 +19,13 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "GenericPageWriter.h"
+#include "MdDoxTree/GenericPageWriter.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -39,11 +39,11 @@ namespace MdDox
     void GenericPageWriter::visitedCompoundName(const String& text)
     {
         writeGenericTitleBar(_out, _writer, text);
-   }
+    }
 
     void GenericPageWriter::preSortQuery(const Doxygen::CompoundDefQuery& query)
     {
-        int     i = 0;
+        int              i = 0;
         Doxygen::SortMap map;
         map[Doxygen::DoxCompoundName]        = i++;
         map[Doxygen::DoxBriefDescription]    = i++;

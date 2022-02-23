@@ -19,11 +19,11 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "LinkedTextWriter.h"
+#include "MdDoxTree/LinkedTextWriter.h"
 #include "DocumentWriter.h"
-#include "WriteUtils.h"
 #include "Doxygen/DoxRefKind.h"
 #include "Doxygen/RefTextQuery.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

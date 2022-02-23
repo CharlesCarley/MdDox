@@ -19,14 +19,13 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "GraphWriter.h"
+#include "MdDoxTree/GraphWriter.h"
 #include "DocumentWriter.h"
-#include "DotWriter.h"
 #include "Doxygen/ChildNodeQuery.h"
 #include "Doxygen/NodeQuery.h"
-#include "Link.h"
-#include "SiteBuilder.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/DotWriter.h"
+#include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {
@@ -34,13 +33,13 @@ namespace MdDox
     {
     public:
         GraphNode() :
-	        Node()
+            Node()
         {
             _autoDelete = false;
         }
 
-        explicit GraphNode(const String &name) :
-	        Node(name)
+        explicit GraphNode(const String& name) :
+            Node(name)
         {
             _autoDelete = false;
         }

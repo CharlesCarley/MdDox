@@ -143,7 +143,7 @@
         <references refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4ed2a7edec3acaa9ef83d5e294f5bbd7" compoundref="Sect2Query_8cpp" startline="67" endline="74">MdDox::Doxygen::Sect2Query::getTitle</references>
         <references refid="classMdDox_1_1Doxygen_1_1Sect2Query_1a4dbfe59718c3b0c0988371984915c24c" compoundref="Sect2Query_8cpp" startline="31" endline="59">MdDox::Doxygen::Sect2Query::visit</references>
         <references refid="classMdDox_1_1DocumentWriter_1a7fe588ff721092ad74493a990c73fa64">MdDox::DocumentWriter::endSection</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -151,25 +151,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="982">
+      <node id="979">
         <label>MdDox::Section2Writer</label>
         <link refid="classMdDox_1_1Section2Writer"/>
-        <childnode refid="983" relation="public-inheritance">
+        <childnode refid="980" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="983">
+      <node id="980">
         <label>MdDox::Doxygen::Visitors::Sect2QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="984">
+      <node id="981">
         <label>MdDox::Section2Writer</label>
         <link refid="classMdDox_1_1Section2Writer"/>
-        <childnode refid="985" relation="public-inheritance">
+        <childnode refid="982" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="985">
+      <node id="982">
         <label>MdDox::Doxygen::Visitors::Sect2QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect2QueryVisitor"/>
       </node>

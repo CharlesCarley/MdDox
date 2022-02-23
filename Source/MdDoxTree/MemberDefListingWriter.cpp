@@ -19,9 +19,9 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "MemberDefListingWriter.h"
+#include "MdDoxTree/MemberDefListingWriter.h"
 #include "DocumentWriter.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

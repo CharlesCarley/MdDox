@@ -21,10 +21,10 @@
 */
 #pragma once
 #include <unordered_map>
-#include "Utils/Config.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxMemberKind.h"
 #include "ReferenceIdentifiers.h"
+#include "Utils/Config.h"
 #include "Utils/String.h"
 
 namespace MdDox
@@ -114,13 +114,12 @@ namespace MdDox
          */
         void dispatchDot() const;
 
-    	friend class ReferenceTable;
+        friend class ReferenceTable;
 
     public:
         SiteBuilder();
         ~SiteBuilder();
 
-    	
         /**
          * \brief Builds the supplied file.
          * \param writer The document writer to use.
@@ -137,23 +136,43 @@ namespace MdDox
     	 */
         void loadConfig(const String& configFile);
 
-        void               insertCompound(const Doxygen::DoxCompoundKindEnum& kind, const String& name, const String& id) const;
-        Reference          getRefId(const String& id) const;
+        /**
+         * \brief Adds a new compound reference to the ReferenceTable
+         */
+        void insertCompound(const Doxygen::DoxCompoundKindEnum& kind,
+                            const String&                       name,
+                            const String&                       id) const;
+
+        /**
+         * \brief Adds a new member reference to the ReferenceTable
+         */
+        void insertMember(const Doxygen::DoxMemberKindEnum& kind,
+                          const String&                     name,
+                          const String&                     id) const;
+
+        /**
+         * \brief Extracts a Reference object out of the ReferenceTable
+         */
+        Reference getRefId(const String& id) const;
+
         CompoundReference* getCompoundRef(const String& id) const;
 
+        MemberReference* getMemberRef(const String& id) const;
+
         Reference findNamespace(const String& name) const;
+
         Reference findDirectory(const String& name) const;
- 
+
         String getCompoundName(const String& id) const;
 
-        void             insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;
-        MemberReference* getMemberRef(const String& id) const;
-        
-
+        /**
+         * \brief Registers a dot source. 
+         * \return The file name the source will be written as.
+         */
         String registerDot(const String& text) const;
 
         /**
-         * \brief Provides singleton access for extracting config parameters.
+         * \brief Provides singleton access to the site builder.
          */
         static const SiteBuilder& get();
 
@@ -185,11 +204,6 @@ namespace MdDox
          * Maps to the config option \c IMAGE_DIR
          */
         String imageDir;
-
-        /**
-         * \brief Defines the input xml directory.
-         */
-        String inputDir;
 
         /**
          * \brief Defines the output directory for pages.
@@ -245,10 +259,6 @@ namespace MdDox
     	 * the default value is BackendMarkdown
          */
         BackendWriter backendType{BackendMarkdown};
-
-        StringArray searchDirs;
-
-        mutable String indexName;
     };
 
 }  // namespace MdDox

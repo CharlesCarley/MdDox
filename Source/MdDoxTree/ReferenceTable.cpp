@@ -20,12 +20,10 @@
 -------------------------------------------------------------------------------
 */
 #include "ReferenceTable.h"
-
-#include "Link.h"
+#include "WriteUtils.h"
 
 namespace MdDox
 {
-
     ReferenceTable::~ReferenceTable()
     {
         for (auto& [id, ref] : _members)
@@ -34,20 +32,20 @@ namespace MdDox
             delete ref;
     }
 
-	void ReferenceTable::insertByName(const Doxygen::DoxCompoundKindEnum& kind, CompoundReference* ref)
+    void ReferenceTable::insertByName(const Doxygen::DoxCompoundKindEnum& kind, CompoundReference* ref)
     {
         if (kind > 0 && kind < Doxygen::DCK_MAX)
         {
             CompoundNameMap& cnm = _nameMap[kind];
 
-        	const String& name = ref->getName();
+            const String& name = ref->getName();
 
             if (kind == Doxygen::DCK_NAMESPACE)
             {
                 // store the name space by its last name
                 String lu = LinkUtils::LBR(name);
 
-            	const CompoundNameMap::const_iterator cit = cnm.find(lu);
+                const CompoundNameMap::const_iterator cit = cnm.find(lu);
                 if (cit == cnm.end())
                     cnm.insert(std::make_pair(lu, ref));
             }
@@ -69,7 +67,6 @@ namespace MdDox
                 if (cit == cnm.end())
                     cnm.insert(std::make_pair(name, ref));
             }
-        	
         }
     }
 
@@ -85,7 +82,7 @@ namespace MdDox
             cref->setId(id);
             cref->setKind(kind);
 
-        	insertByName(kind, cref);
+            insertByName(kind, cref);
             _compound.insert(std::make_pair(id, cref));
         }
         else
@@ -123,8 +120,7 @@ namespace MdDox
         return ref;
     }
 
-
-	void ReferenceTable::insertMember(const Doxygen::DoxMemberKindEnum& kind,
+    void ReferenceTable::insertMember(const Doxygen::DoxMemberKindEnum& kind,
                                       const String&                     name,
                                       const String&                     id)
     {

@@ -52,20 +52,20 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="892">
+      <node id="889">
         <label>MdDox::Merge</label>
         <link refid="unionMdDox_1_1Merge"/>
-        <childnode refid="893" relation="usage">
+        <childnode refid="890" relation="usage">
           <edgelabel>i</edgelabel>
         </childnode>
-        <childnode refid="894" relation="usage">
+        <childnode refid="891" relation="usage">
           <edgelabel>b</edgelabel>
         </childnode>
       </node>
-      <node id="893">
+      <node id="890">
         <label>uint32_t</label>
       </node>
-      <node id="894">
+      <node id="891">
         <label>uint8_t</label>
       </node>
     </collaborationgraph>

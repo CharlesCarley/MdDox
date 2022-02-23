@@ -19,10 +19,10 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "SectionDefWriter.h"
+#include "MdDoxTree/SectionDefWriter.h"
 #include "DocumentWriter.h"
-#include "MemberDefWriter.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/MemberDefWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

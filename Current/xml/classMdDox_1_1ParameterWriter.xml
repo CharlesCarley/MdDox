@@ -243,7 +243,7 @@
         <location file="Source/MdDoxTree/ParameterWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ParameterWriter.cpp" bodystart="69" bodyend="77"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1ParamQuery_1ad077a8a1da9c0689d325010ad183e550" compoundref="ParamQuery_8cpp" startline="30" endline="64">MdDox::Doxygen::ParamQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -251,25 +251,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="933">
+      <node id="930">
         <label>MdDox::ParameterWriter</label>
         <link refid="classMdDox_1_1ParameterWriter"/>
-        <childnode refid="934" relation="public-inheritance">
+        <childnode refid="931" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="934">
+      <node id="931">
         <label>MdDox::Doxygen::Visitors::ParamQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="935">
+      <node id="932">
         <label>MdDox::ParameterWriter</label>
         <link refid="classMdDox_1_1ParameterWriter"/>
-        <childnode refid="936" relation="public-inheritance">
+        <childnode refid="933" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="936">
+      <node id="933">
         <label>MdDox::Doxygen::Visitors::ParamQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamQueryVisitor"/>
       </node>

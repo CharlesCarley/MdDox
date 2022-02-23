@@ -116,13 +116,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="698">
+      <node id="697">
         <label>MdDox::Section4Writer</label>
         <link refid="classMdDox_1_1Section4Writer"/>
-        <childnode refid="697" relation="public-inheritance">
+        <childnode refid="696" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="697">
+      <node id="696">
         <label>MdDox::Doxygen::Visitors::Sect4QueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor"/>
       </node>

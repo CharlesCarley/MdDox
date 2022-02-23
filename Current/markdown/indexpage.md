@@ -1,7 +1,7 @@
 <a id="mddox"></a>
 <h1>MdDox</h1>
 <a id="indexpage"></a>
-<a href="https://github.com/CharlesCarley/MdDox.md">~</a>
+<a href="https://github.com/CharlesCarley/MdDox">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

@@ -217,7 +217,7 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06a80c975df752c2338ace25a94ea7e95c9" compoundref="DoxygenFilter_8h" startline="95">MdDox::Doxygen::DoxMemberDef</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a13a557c0fdece24403e21021e476587a" compoundref="Doxygen_8h" startline="246" endline="269">MdDox::Doxygen::Query::sort</references>
         <references refid="classMdDox_1_1Doxygen_1_1SectionDefQuery_1a8e53f814252f22329fe22d9a1694fa88" compoundref="SectionDefQuery_8cpp" startline="30" endline="55">MdDox::Doxygen::SectionDefQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -225,25 +225,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="994">
+      <node id="991">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="995" relation="public-inheritance">
+        <childnode refid="992" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="995">
+      <node id="992">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="996">
+      <node id="993">
         <label>MdDox::SectionDefListingWriter</label>
         <link refid="classMdDox_1_1SectionDefListingWriter"/>
-        <childnode refid="997" relation="public-inheritance">
+        <childnode refid="994" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="997">
+      <node id="994">
         <label>MdDox::Doxygen::Visitors::SectionDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"/>
       </node>

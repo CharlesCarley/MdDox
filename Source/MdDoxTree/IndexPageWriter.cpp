@@ -19,22 +19,22 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "IndexPageWriter.h"
+#include "MdDoxTree/IndexPageWriter.h"
 #include <utility>
-#include "ClassPageWriter.h"
-#include "DirectoryPageWriter.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/MemberIndexQuery.h"
-#include "GenericPageWriter.h"
+#include "MdDoxTree/ClassPageWriter.h"
+#include "MdDoxTree/DirectoryPageWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
+#include "MdDoxTree/GenericPageWriter.h"
 #include "MdDoxTree/HashUtils.h"
+#include "MdDoxTree/NamespacePageWriter.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
-#include "NamespacePageWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Path.h"
-#include "WriteUtils.h"
 #include "Xml/Parser.h"
 
 namespace MdDox
@@ -123,7 +123,7 @@ namespace MdDox
     template <typename Page>
     void dispatch(DocumentWriter* writer, const Reference& page, const String& indexDir, const PathUtil& outDir)
     {
-        Console::writeLine("dispatchPage: ", page.getName());
+        Console::writeLine("building => ", page.getId());
 
         PathUtil path(indexDir);
         path.fileName(StringCombine(page.getId(), ".xml"));
@@ -139,6 +139,8 @@ namespace MdDox
             Page pageVisitor(writer, page, outDir);
             pageVisitor.exec(doxygen);
         }
+        else
+            throw InputException("File, ", path.fullPath(), " does not exist");
     }
 
     void IndexPageWriter::dispatchFilter(const IndexPageFilter& filter) const
@@ -203,7 +205,8 @@ namespace MdDox
         IndexPageFilter filter;
         query.visit(&filter);
 
-        _writer->beginDocument(out, builder.projectTitle);
+        String title = builder.getCompoundName("index");
+        _writer->beginDocument(out, title.empty() ? builder.projectTitle : title);
 
         writeGenericTitleBar(out, _writer, "Contents");
 
@@ -212,7 +215,6 @@ namespace MdDox
         _outDir = outDir;
 
         _writer->beginSection(out, "Contents", 2);
-
         _writer->beginList(out);
 
         // Pages

@@ -19,8 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "DotWriter.h"
-#include <iomanip>
+#include "MdDoxTree/DotWriter.h"
 #include "Utils/Char.h"
 #include "Utils/TextStreamWriter.h"
 #include "Xml/Node.h"

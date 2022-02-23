@@ -4,11 +4,9 @@
     <compoundname>Char.h</compoundname>
     <includes local="no">cstdint</includes>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
-    <includedby refid="Document_2HtmlCommandWriter_8cpp" local="yes">Source/Document/HtmlCommandWriter.cpp</includedby>
-    <includedby refid="Document_2MarkdownCommandWriter_8cpp" local="yes">Source/Document/MarkdownCommandWriter.cpp</includedby>
     <includedby refid="DotWriter_8cpp" local="yes">Source/MdDoxTree/DotWriter.cpp</includedby>
-    <includedby refid="MdDoxTree_2HtmlCommandWriter_8cpp" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
-    <includedby refid="MdDoxTree_2MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
+    <includedby refid="HtmlCommandWriter_8cpp" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
+    <includedby refid="MarkdownCommandWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownCommandWriter.cpp</includedby>
     <includedby refid="Char_8cpp" local="yes">Source/Utils/Char.cpp</includedby>
     <includedby refid="Option_8h" local="yes">Source/Utils/CommandLine/Option.h</includedby>
     <includedby refid="Config_8cpp" local="yes">Source/Utils/Config.cpp</includedby>
@@ -23,174 +21,164 @@
     <includedby refid="Generator_8cpp" local="yes">Tools/GenApi/Generator.cpp</includedby>
     <includedby refid="Group_8cpp" local="yes">Tools/GenApi/Group.cpp</includedby>
     <incdepgraph>
-      <node id="2796">
+      <node id="2436">
         <label>iomanip</label>
       </node>
-      <node id="2788">
+      <node id="2428">
         <label>cstdint</label>
       </node>
-      <node id="2793">
+      <node id="2433">
         <label>string</label>
       </node>
-      <node id="2791">
+      <node id="2431">
         <label>fstream</label>
       </node>
-      <node id="2789">
+      <node id="2429">
         <label>Utils/String.h</label>
-        <childnode refid="2790" relation="include">
+        <childnode refid="2430" relation="include">
         </childnode>
-        <childnode refid="2791" relation="include">
+        <childnode refid="2431" relation="include">
         </childnode>
-        <childnode refid="2792" relation="include">
+        <childnode refid="2432" relation="include">
         </childnode>
-        <childnode refid="2793" relation="include">
+        <childnode refid="2433" relation="include">
         </childnode>
-        <childnode refid="2794" relation="include">
+        <childnode refid="2434" relation="include">
         </childnode>
-        <childnode refid="2795" relation="include">
+        <childnode refid="2435" relation="include">
         </childnode>
-        <childnode refid="2796" relation="include">
+        <childnode refid="2436" relation="include">
         </childnode>
       </node>
-      <node id="2795">
+      <node id="2435">
         <label>vector</label>
       </node>
-      <node id="2792">
+      <node id="2432">
         <label>sstream</label>
       </node>
-      <node id="2787">
+      <node id="2427">
         <label>Source/Utils/Char.h</label>
         <link refid="Char_8h"/>
-        <childnode refid="2788" relation="include">
+        <childnode refid="2428" relation="include">
         </childnode>
-        <childnode refid="2789" relation="include">
+        <childnode refid="2429" relation="include">
         </childnode>
       </node>
-      <node id="2790">
+      <node id="2430">
         <label>deque</label>
       </node>
-      <node id="2794">
+      <node id="2434">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2817">
+      <node id="2455">
         <label>Source/Xml/Parser.cpp</label>
       </node>
-      <node id="2798">
-        <label>Source/Document/HtmlCommandWriter.cpp</label>
-      </node>
-      <node id="2819">
+      <node id="2457">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="2809">
+      <node id="2447">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2808">
+      <node id="2446">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2815">
+      <node id="2453">
         <label>Source/Utils/String.cpp</label>
       </node>
-      <node id="2810">
+      <node id="2448">
         <label>Source/Utils/Config.cpp</label>
       </node>
-      <node id="2807">
+      <node id="2445">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2800">
+      <node id="2438">
         <label>Source/MdDoxTree/DotWriter.cpp</label>
       </node>
-      <node id="2814">
+      <node id="2452">
         <label>Source/Utils/Path.cpp</label>
       </node>
-      <node id="2811">
+      <node id="2449">
         <label>Source/Utils/FileSystem.cpp</label>
       </node>
-      <node id="2801">
+      <node id="2439">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="2803">
+      <node id="2441">
         <label>Source/Utils/Char.cpp</label>
       </node>
-      <node id="2805">
+      <node id="2443">
         <label>Source/Utils/CommandLine/Parser.h</label>
-        <childnode refid="2806" relation="include">
+        <childnode refid="2444" relation="include">
         </childnode>
-        <childnode refid="2807" relation="include">
+        <childnode refid="2445" relation="include">
         </childnode>
-        <childnode refid="2808" relation="include">
+        <childnode refid="2446" relation="include">
         </childnode>
-        <childnode refid="2809" relation="include">
+        <childnode refid="2447" relation="include">
         </childnode>
       </node>
-      <node id="2812">
+      <node id="2450">
         <label>Source/Utils/ParserBase/ParserBase.cpp</label>
       </node>
-      <node id="2804">
+      <node id="2442">
         <label>Source/Utils/CommandLine/Option.h</label>
-        <childnode refid="2805" relation="include">
+        <childnode refid="2443" relation="include">
         </childnode>
       </node>
-      <node id="2818">
+      <node id="2456">
         <label>Source/Xml/Scanner.cpp</label>
       </node>
-      <node id="2802">
+      <node id="2440">
         <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
       </node>
-      <node id="2813">
+      <node id="2451">
         <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
       </node>
-      <node id="2806">
+      <node id="2444">
         <label>Source/MdDox/Main.cpp</label>
       </node>
-      <node id="2797">
+      <node id="2437">
         <label>Source/Utils/Char.h</label>
         <link refid="Char_8h"/>
-        <childnode refid="2798" relation="include">
+        <childnode refid="2438" relation="include">
         </childnode>
-        <childnode refid="2799" relation="include">
+        <childnode refid="2439" relation="include">
         </childnode>
-        <childnode refid="2800" relation="include">
+        <childnode refid="2440" relation="include">
         </childnode>
-        <childnode refid="2801" relation="include">
+        <childnode refid="2441" relation="include">
         </childnode>
-        <childnode refid="2802" relation="include">
+        <childnode refid="2442" relation="include">
         </childnode>
-        <childnode refid="2803" relation="include">
+        <childnode refid="2448" relation="include">
         </childnode>
-        <childnode refid="2804" relation="include">
+        <childnode refid="2449" relation="include">
         </childnode>
-        <childnode refid="2810" relation="include">
+        <childnode refid="2450" relation="include">
         </childnode>
-        <childnode refid="2811" relation="include">
+        <childnode refid="2451" relation="include">
         </childnode>
-        <childnode refid="2812" relation="include">
+        <childnode refid="2452" relation="include">
         </childnode>
-        <childnode refid="2813" relation="include">
+        <childnode refid="2453" relation="include">
         </childnode>
-        <childnode refid="2814" relation="include">
+        <childnode refid="2454" relation="include">
         </childnode>
-        <childnode refid="2815" relation="include">
+        <childnode refid="2455" relation="include">
         </childnode>
-        <childnode refid="2816" relation="include">
+        <childnode refid="2456" relation="include">
         </childnode>
-        <childnode refid="2817" relation="include">
+        <childnode refid="2457" relation="include">
         </childnode>
-        <childnode refid="2818" relation="include">
-        </childnode>
-        <childnode refid="2819" relation="include">
-        </childnode>
-        <childnode refid="2820" relation="include">
+        <childnode refid="2458" relation="include">
         </childnode>
       </node>
-      <node id="2799">
-        <label>Source/Document/MarkdownCommandWriter.cpp</label>
-      </node>
-      <node id="2820">
+      <node id="2458">
         <label>Tools/GenApi/Group.cpp</label>
       </node>
-      <node id="2816">
+      <node id="2454">
         <label>Source/Xml/Node.cpp</label>
       </node>
     </invincdepgraph>

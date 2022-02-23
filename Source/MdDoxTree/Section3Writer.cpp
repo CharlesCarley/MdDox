@@ -19,11 +19,11 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "Section3Writer.h"
+#include "MdDoxTree/Section3Writer.h"
 #include "MdDoxTree/DocumentWriter.h"
-#include "ParagraphWriter.h"
-#include "Section4Writer.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/ParagraphWriter.h"
+#include "MdDoxTree/Section4Writer.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

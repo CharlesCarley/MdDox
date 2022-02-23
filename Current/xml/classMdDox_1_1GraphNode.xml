@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="36" bodyend="40"/>
+        <location file="Source/MdDoxTree/GraphWriter.cpp" line="35" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="35" bodyend="39"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" compoundref="Node_8h" startline="85">MdDox::Xml::Node::_autoDelete</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GraphNode_1a2f0cf280629e3eaae6342c07d3e3a576" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.cpp" line="42" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="42" bodyend="46"/>
+        <location file="Source/MdDoxTree/GraphWriter.cpp" line="41" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="41" bodyend="45"/>
         <references refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" compoundref="Node_8h" startline="85">MdDox::Xml::Node::_autoDelete</references>
       </memberdef>
       </sectiondef>
@@ -42,36 +42,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="827">
+      <node id="826">
         <label>MdDox::GraphNode</label>
         <link refid="classMdDox_1_1GraphNode"/>
-        <childnode refid="828" relation="public-inheritance">
+        <childnode refid="827" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="828">
+      <node id="827">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="829">
+      <node id="828">
         <label>MdDox::GraphNode</label>
         <link refid="classMdDox_1_1GraphNode"/>
-        <childnode refid="830" relation="public-inheritance">
+        <childnode refid="829" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="830">
+      <node id="829">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="831" relation="usage">
+        <childnode refid="830" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="831">
+      <node id="830">
         <label>bool</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/GraphWriter.cpp" line="34" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="33" bodyend="47"/>
+    <location file="Source/MdDoxTree/GraphWriter.cpp" line="33" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="32" bodyend="46"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Xml_1_1Node_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" prot="protected" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>_autoDelete</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a208a5c60b47b7fa3c13de7c997351972" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>addChild</name></member>

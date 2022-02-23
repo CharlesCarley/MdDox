@@ -55,4 +55,9 @@ namespace MdDox
 
     extern bool syncStream(OStream* stream, OutputStringStream& out);
 
+    namespace  LinkUtils
+    {
+        extern String LBR(const String& name);
+    }
+
 }  // namespace MdDox

@@ -19,17 +19,16 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "DirectoryPageWriter.h"
-
-#include "HashUtils.h"
+#include "MdDoxTree/DirectoryPageWriter.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/LocationQuery.h"
 #include "Doxygen/RefQuery.h"
 #include "MdDoxTree/DocumentWriter.h"
+#include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {

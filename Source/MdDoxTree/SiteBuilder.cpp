@@ -19,11 +19,11 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "SiteBuilder.h"
+#include "MdDoxTree/SiteBuilder.h"
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenIndexQuery.h"
-#include "IndexPageWriter.h"
-#include "ReferenceTable.h"
+#include "MdDoxTree/IndexPageWriter.h"
+#include "MdDoxTree/ReferenceTable.h"
 #include "TypeFilter/DoxygenFilter.h"
 #include "Utils/Exception.h"
 #include "Xml/Parser.h"
@@ -124,29 +124,36 @@ namespace MdDox
         outputFileExt = config.getValue("OUTPUT_FILE_EXT");
         if (outputFileExt != ".md" && outputFileExt != ".html")
         {
-            outputDir     = "markdown";
+            outputDir     = "";
             outputFileExt = ".md";
         }
         else
             outputDir = config.getValue("OUTPUT_DIR");
+
+        if (!outputDir.empty())
+        {
+            if (outputDir.back() != '/')
+                outputDir.push_back('/');
+        }
+
         outputDir = FileSystem::absolute(outputDir).string();
 
         styleSheet = config.getValue("STYLESHEET");
         imageDir   = config.getValue("IMAGE_DIR");
-        inputDir   = FileSystem::currentPath();
-        StringUtils::splitRejectEmpty(searchDirs, config.getValue("SEARCH_DIRS"), ',');
 
-        siteUrl = config.getValue("SITE_URL");
+        StringUtils::trimR(siteUrl, config.getValue("SITE_URL"), '/');
 
         // Allow this to be overridden if it is present.
         fileUrl = config.getValue("FILE_URL");
         if (fileUrl.empty())
-            StringCombine(fileUrl, siteUrl, "/blob/master/");
+            StringCombine(fileUrl, siteUrl, "/blob/master");
+        else
+            StringUtils::trimR(fileUrl, fileUrl, '/');
 
         projectTitle = config.getValue("PROJECT_TITLE");
         projectBrief = config.getValue("PROJECT_BRIEF");
 
-        String dotCfg = config.getValue("DOT_CONFIG");
+        String dotCfg = FileSystem::absolute(config.getValue("DOT_CONFIG")).string();
         if (!dotCfg.empty())
         {
             InputFileStream dotStream(dotCfg);

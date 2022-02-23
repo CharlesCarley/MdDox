@@ -7,96 +7,96 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="Utils_2CommandLine_2Parser_8h" local="yes">Source/Utils/CommandLine/Parser.h</includedby>
     <incdepgraph>
-      <node id="2832">
+      <node id="2470">
         <label>iomanip</label>
       </node>
-      <node id="2824">
+      <node id="2462">
         <label>cstdint</label>
       </node>
-      <node id="2822">
+      <node id="2460">
         <label>cassert</label>
       </node>
-      <node id="2829">
+      <node id="2467">
         <label>string</label>
       </node>
-      <node id="2827">
+      <node id="2465">
         <label>fstream</label>
       </node>
-      <node id="2821">
+      <node id="2459">
         <label>Source/Utils/CommandLine/Option.h</label>
         <link refid="Option_8h"/>
-        <childnode refid="2822" relation="include">
+        <childnode refid="2460" relation="include">
         </childnode>
-        <childnode refid="2823" relation="include">
+        <childnode refid="2461" relation="include">
         </childnode>
-        <childnode refid="2825" relation="include">
+        <childnode refid="2463" relation="include">
         </childnode>
       </node>
-      <node id="2825">
+      <node id="2463">
         <label>Utils/String.h</label>
-        <childnode refid="2826" relation="include">
+        <childnode refid="2464" relation="include">
         </childnode>
-        <childnode refid="2827" relation="include">
+        <childnode refid="2465" relation="include">
         </childnode>
-        <childnode refid="2828" relation="include">
+        <childnode refid="2466" relation="include">
         </childnode>
-        <childnode refid="2829" relation="include">
+        <childnode refid="2467" relation="include">
         </childnode>
-        <childnode refid="2830" relation="include">
+        <childnode refid="2468" relation="include">
         </childnode>
-        <childnode refid="2831" relation="include">
+        <childnode refid="2469" relation="include">
         </childnode>
-        <childnode refid="2832" relation="include">
+        <childnode refid="2470" relation="include">
         </childnode>
       </node>
-      <node id="2831">
+      <node id="2469">
         <label>vector</label>
       </node>
-      <node id="2828">
+      <node id="2466">
         <label>sstream</label>
       </node>
-      <node id="2823">
+      <node id="2461">
         <label>Utils/Char.h</label>
-        <childnode refid="2824" relation="include">
+        <childnode refid="2462" relation="include">
         </childnode>
-        <childnode refid="2825" relation="include">
+        <childnode refid="2463" relation="include">
         </childnode>
       </node>
-      <node id="2826">
+      <node id="2464">
         <label>deque</label>
       </node>
-      <node id="2830">
+      <node id="2468">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2838">
+      <node id="2476">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2837">
+      <node id="2475">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2836">
+      <node id="2474">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2834">
+      <node id="2472">
         <label>Source/Utils/CommandLine/Parser.h</label>
-        <childnode refid="2835" relation="include">
+        <childnode refid="2473" relation="include">
         </childnode>
-        <childnode refid="2836" relation="include">
+        <childnode refid="2474" relation="include">
         </childnode>
-        <childnode refid="2837" relation="include">
+        <childnode refid="2475" relation="include">
         </childnode>
-        <childnode refid="2838" relation="include">
+        <childnode refid="2476" relation="include">
         </childnode>
       </node>
-      <node id="2833">
+      <node id="2471">
         <label>Source/Utils/CommandLine/Option.h</label>
         <link refid="Option_8h"/>
-        <childnode refid="2834" relation="include">
+        <childnode refid="2472" relation="include">
         </childnode>
       </node>
-      <node id="2835">
+      <node id="2473">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>

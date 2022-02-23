@@ -19,10 +19,10 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "ParameterWriter.h"
+#include "MdDoxTree/ParameterWriter.h"
 #include "DocumentWriter.h"
-#include "LinkedTextWriter.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/LinkedTextWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

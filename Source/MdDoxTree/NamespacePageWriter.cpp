@@ -19,19 +19,18 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "NamespacePageWriter.h"
+#include "MdDoxTree/NamespacePageWriter.h"
 #include "Doxygen/DescriptionQuery.h"
 #include "Doxygen/DoxSectionKind.h"
 #include "Doxygen/IncQuery.h"
 #include "Doxygen/RefQuery.h"
 #include "Doxygen/SectionDefQuery.h"
-#include "LocationWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
-#include "MdDoxTree/Link.h"
+#include "MdDoxTree/LocationWriter.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -141,7 +140,7 @@ namespace MdDox
             _writer->addSection(_out, "Classes", 2);
         }
 
-    	_writer->linkRefIcon(_out, ICO_CLASS, 0, ref.getId(), ref.getName());
+        _writer->linkRefIcon(_out, ICO_CLASS, 0, ref.getId(), ref.getName());
     }
 
     void NamespacePageWriter::visitedInnerNamespace(const Doxygen::RefQuery& query)
@@ -156,7 +155,7 @@ namespace MdDox
             _writer->addSection(_out, "Namespaces", 2);
         }
 
-    	_writer->linkRefIcon(_out, ICO_NAMESPACE, 0, ref.getId(), ref.getName());
+        _writer->linkRefIcon(_out, ICO_NAMESPACE, 0, ref.getId(), ref.getName());
     }
 
     void NamespacePageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)

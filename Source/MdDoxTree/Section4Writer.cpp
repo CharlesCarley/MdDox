@@ -19,10 +19,10 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "Section4Writer.h"
+#include "MdDoxTree/Section4Writer.h"
 #include "MdDoxTree/DocumentWriter.h"
-#include "ParagraphWriter.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/ParagraphWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {
@@ -48,4 +48,4 @@ namespace MdDox
         syncStream(_stream, _out);
     }
 
-}  // namespace MdDox::Reflect
+}  // namespace MdDox

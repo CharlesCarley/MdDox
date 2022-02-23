@@ -21,7 +21,6 @@
 */
 #include "HtmlDocumentWriter.h"
 #include "HtmlCommandWriter.h"
-#include "Link.h"
 #include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/IconSet.h"
 #include "MdDoxTree/ParagraphWriter.h"

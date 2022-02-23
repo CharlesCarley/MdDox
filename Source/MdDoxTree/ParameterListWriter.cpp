@@ -19,13 +19,13 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "ParameterListWriter.h"
-#include "DescriptionWriter.h"
+#include "MdDoxTree/ParameterListWriter.h"
 #include "DocumentWriter.h"
 #include "Doxygen/ParamListItemQuery.h"
 #include "Doxygen/ParamNameListQuery.h"
 #include "Doxygen/ParamNameQuery.h"
-#include "WriteUtils.h"
+#include "MdDoxTree/DescriptionWriter.h"
+#include "MdDoxTree/WriteUtils.h"
 
 namespace MdDox
 {

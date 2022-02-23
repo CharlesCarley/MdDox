@@ -82,39 +82,39 @@
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="67">
+      <node id="66">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
       </node>
-      <node id="66">
+      <node id="65">
         <label>MdDox::Doxygen::AnchorQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1AnchorQuery"/>
-        <childnode refid="67" relation="public-inheritance">
+        <childnode refid="66" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="70">
+      <node id="69">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="71" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="69">
+      <node id="68">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="70" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
       </node>
-      <node id="71">
+      <node id="70">
         <label>bool</label>
       </node>
-      <node id="68">
+      <node id="67">
         <label>MdDox::Doxygen::AnchorQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1AnchorQuery"/>
-        <childnode refid="69" relation="public-inheritance">
+        <childnode refid="68" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

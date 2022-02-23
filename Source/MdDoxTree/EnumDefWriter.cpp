@@ -19,19 +19,19 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "EnumDefWriter.h"
-#include "DescriptionWriter.h"
+#include "MdDoxTree/EnumDefWriter.h"
 #include "DocumentWriter.h"
 #include "Doxygen/EnumValueQuery.h"
 #include "Doxygen/LinkedTextQuery.h"
 #include "Doxygen/ParamQuery.h"
 #include "Doxygen/ReferenceQuery.h"
-#include "FunctionDefWriter.h"
-#include "LinkedTextWriter.h"
-#include "LocationWriter.h"
-#include "SiteBuilder.h"
+#include "MdDoxTree/DescriptionWriter.h"
+#include "MdDoxTree/FunctionDefWriter.h"
+#include "MdDoxTree/LinkedTextWriter.h"
+#include "MdDoxTree/LocationWriter.h"
+#include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -178,7 +178,6 @@ namespace MdDox
                 obj.write(query);
             }
         }
-
     }
 
     void EnumDefWriter::visitedWrite(const String& text)
@@ -190,7 +189,7 @@ namespace MdDox
     {
         if (mdq.isValid())
         {
-            int     i = 0;
+            int              i = 0;
             Doxygen::SortMap map;
             map[Doxygen::DoxName]                = i++;
             map[Doxygen::DoxType]                = i++;

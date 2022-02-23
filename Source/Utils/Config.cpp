@@ -19,7 +19,7 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "Config.h"
+#include "Utils/Config.h"
 #include "Utils/Char.h"
 #include "Utils/ParserBase/ParserBase.h"
 
@@ -58,7 +58,7 @@ namespace MdDox
                 if (key.empty())
                     throw MessageException("assignment operator without an identifier");
 
-            	value.clear();
+                value.clear();
                 scanValue(value, input);
 
                 if (!value.empty())
@@ -99,7 +99,7 @@ namespace MdDox
                 throw InputException("unknown character parsed '", (int)ch, '\'');
             }
         }
-    	throw MessageException("end of file scan");
+        throw MessageException("end of file scan");
     }
 
     void Config::scanValue(String& dest, IStream& input)
@@ -108,8 +108,8 @@ namespace MdDox
             scanToQuote(input);
         else
         {
-        	// it does start with a quote
-        	// so skip it.
+            // it does start with a quote
+            // so skip it.
             next(input);
         }
 

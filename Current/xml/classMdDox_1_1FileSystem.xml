@@ -19,10 +19,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="50" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="50" bodyend="64"/>
-        <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="66" endline="69">currentPath</references>
-        <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="28" endline="43">normalize</references>
+        <location file="Source/Utils/FileSystem.h" line="50" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="50" bodyend="59"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" compoundref="FileSystem_8cpp" startline="61" endline="64">currentPath</references>
+        <references refid="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" compoundref="FileSystem_8cpp" startline="28" endline="43">normalize</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1FileSystem_1accff5a111e02146f88b39a013841cffd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="52" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="66" bodyend="69"/>
+        <location file="Source/Utils/FileSystem.h" line="52" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1FileSystem_1a310f37987814264b28d382a93fdb7cbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>

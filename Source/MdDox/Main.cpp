@@ -49,14 +49,14 @@ namespace MdDox
      *                      <id>
      *                       md   - Generates a GFM markdown site.
      *                       html - Generates a HTML site.
-	 * \endcode
+     * \endcode
      */
     enum Options
     {
         /**
          * \brief Provides the option to specify an output directory.
          * 
-    	 * - <tt>      -o <file-path></tt>
+         * - <tt>      -o <file-path></tt>
          * - <tt>--output <file-path></tt>
          * <br/>
          * \note if an output path is not specified then the current working directory
@@ -66,7 +66,7 @@ namespace MdDox
         /**
          * \brief Provides the option to specify the index file.
          * 
-    	 * - <tt>     -i [file-path]</tt>
+         * - <tt>     -i [file-path]</tt>
          * - <tt>--input [file-path]</tt>
          * <br/>
          */
@@ -74,7 +74,7 @@ namespace MdDox
         /**
          * \brief Provides the option to load a config file. 
          * 
-    	 * - <tt>      -c [file]</tt> 
+         * - <tt>      -c [file]</tt> 
          * - <tt>--config [file]</tt>
          * <br/>
          */
@@ -170,13 +170,17 @@ namespace MdDox
             SiteBuilder builder;
             builder.loadConfig(_config);
 
-        	
-            if (builder.backendType == BackendMarkdown)
+            switch (builder.backendType)
+            {
+            case BackendMarkdown:
                 _writer = new MarkdownDocumentWriter();
-            else if (builder.backendType == BackendHtml)
+                break;
+            case BackendHtml:
                 _writer = new HtmlDocumentWriter();
-            else
+                break;
+            default:
                 throw Exception("unknown writer type");
+            }
 
             builder.buildFromXml(_writer, _indexFile.fullPath());
             return 0;

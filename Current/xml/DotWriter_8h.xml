@@ -4,88 +4,82 @@
     <compoundname>DotWriter.h</compoundname>
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
-    <includedby refid="ClassPageWriter_8cpp" local="yes">Source/MdDoxTree/ClassPageWriter.cpp</includedby>
     <includedby refid="DotWriter_8cpp" local="yes">Source/MdDoxTree/DotWriter.cpp</includedby>
     <includedby refid="GraphWriter_8cpp" local="yes">Source/MdDoxTree/GraphWriter.cpp</includedby>
     <incdepgraph>
-      <node id="1138">
+      <node id="396">
         <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
-        <childnode refid="1139" relation="include">
+        <childnode refid="397" relation="include">
         </childnode>
-        <childnode refid="1147" relation="include">
+        <childnode refid="405" relation="include">
         </childnode>
       </node>
-      <node id="1148">
+      <node id="406">
         <label>functional</label>
       </node>
-      <node id="1146">
+      <node id="404">
         <label>iomanip</label>
       </node>
-      <node id="1143">
+      <node id="401">
         <label>string</label>
       </node>
-      <node id="1141">
+      <node id="399">
         <label>fstream</label>
       </node>
-      <node id="1147">
+      <node id="405">
         <label>Xml/Node.h</label>
-        <childnode refid="1148" relation="include">
+        <childnode refid="406" relation="include">
         </childnode>
-        <childnode refid="1144" relation="include">
+        <childnode refid="402" relation="include">
         </childnode>
-        <childnode refid="1139" relation="include">
+        <childnode refid="397" relation="include">
         </childnode>
       </node>
-      <node id="1139">
+      <node id="397">
         <label>Utils/String.h</label>
-        <childnode refid="1140" relation="include">
+        <childnode refid="398" relation="include">
         </childnode>
-        <childnode refid="1141" relation="include">
+        <childnode refid="399" relation="include">
         </childnode>
-        <childnode refid="1142" relation="include">
+        <childnode refid="400" relation="include">
         </childnode>
-        <childnode refid="1143" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
-        <childnode refid="1144" relation="include">
+        <childnode refid="402" relation="include">
         </childnode>
-        <childnode refid="1145" relation="include">
+        <childnode refid="403" relation="include">
         </childnode>
-        <childnode refid="1146" relation="include">
+        <childnode refid="404" relation="include">
         </childnode>
       </node>
-      <node id="1145">
+      <node id="403">
         <label>vector</label>
       </node>
-      <node id="1142">
+      <node id="400">
         <label>sstream</label>
       </node>
-      <node id="1140">
+      <node id="398">
         <label>deque</label>
       </node>
-      <node id="1144">
+      <node id="402">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1149">
+      <node id="407">
         <label>Source/MdDoxTree/DotWriter.h</label>
         <link refid="DotWriter_8h"/>
-        <childnode refid="1150" relation="include">
+        <childnode refid="408" relation="include">
         </childnode>
-        <childnode refid="1151" relation="include">
-        </childnode>
-        <childnode refid="1152" relation="include">
+        <childnode refid="409" relation="include">
         </childnode>
       </node>
-      <node id="1152">
+      <node id="409">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="1151">
+      <node id="408">
         <label>Source/MdDoxTree/DotWriter.cpp</label>
-      </node>
-      <node id="1150">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1DotWriter" prot="public">MdDox::DotWriter</innerclass>

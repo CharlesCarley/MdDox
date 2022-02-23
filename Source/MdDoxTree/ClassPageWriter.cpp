@@ -19,20 +19,19 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "ClassPageWriter.h"
-#include "DotWriter.h"
+#include "MdDoxTree/ClassPageWriter.h"
 #include "Doxygen/ChildNodeQuery.h"
 #include "Doxygen/CompoundRefQuery.h"
 #include "Doxygen/GraphQuery.h"
 #include "Doxygen/IncQuery.h"
 #include "Doxygen/LocationQuery.h"
-#include "GraphWriter.h"
-#include "LocationWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
+#include "MdDoxTree/GraphWriter.h"
+#include "MdDoxTree/LocationWriter.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -56,7 +55,7 @@ namespace MdDox
             _writer->addSection(_out, "Derived From", 4);
         }
 
-    	_writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
+        _writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
     }
 
     void ClassPageWriter::visitedDerivedCompoundRef(const Doxygen::CompoundRefQuery& query)
@@ -67,7 +66,7 @@ namespace MdDox
             _writer->addSection(_out, "Derived By", 4);
         }
 
-    	_writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
+        _writer->linkRefIcon(_out, ICO_CLASS, 0, query.getRefId(), query.text());
     }
 
     void ClassPageWriter::visitedIncludes(const Doxygen::IncQuery& query)

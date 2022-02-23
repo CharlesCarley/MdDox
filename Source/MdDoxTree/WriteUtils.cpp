@@ -23,7 +23,6 @@
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/IconSet.h"
-#include "MdDoxTree/Link.h"
 #include "MdDoxTree/Reference.h"
 #include "MdDoxTree/SiteBuilder.h"
 
@@ -33,7 +32,7 @@ namespace MdDox
     {
         const SiteBuilder& builder = SiteBuilder::get();
 
-        writer->linkText(out, "~", builder.siteUrl);
+        writer->linkUrl(out, "~", builder.siteUrl);
         writer->linkRef(out, 0, "indexpage", builder.getCompoundName("indexpage"));
         writer->inlineText(out, "/");
         writer->linkRef(out, 0, "index", builder.getCompoundName("index"));
@@ -195,6 +194,15 @@ namespace MdDox
             return any;
         }
         return false;
+    }
+
+    String LinkUtils::LBR(const String& name)
+    {
+        StringDeque dest;
+        StringUtils::split(dest, name, "::");
+        if (!dest.empty())
+            return dest.back();
+        return name;
     }
 
 }  // namespace MdDox

@@ -121,39 +121,39 @@
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="355">
+      <node id="354">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
       </node>
-      <node id="354">
+      <node id="353">
         <label>MdDox::Doxygen::ParamListQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1ParamListQuery"/>
-        <childnode refid="355" relation="public-inheritance">
+        <childnode refid="354" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="358">
+      <node id="357">
         <label>MdDox::Xml::Node</label>
         <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="359" relation="usage">
+        <childnode refid="358" relation="usage">
           <edgelabel>_autoDelete</edgelabel>
         </childnode>
       </node>
-      <node id="357">
+      <node id="356">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="358" relation="usage">
+        <childnode refid="357" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
       </node>
-      <node id="356">
+      <node id="355">
         <label>MdDox::Doxygen::ParamListQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1ParamListQuery"/>
-        <childnode refid="357" relation="public-inheritance">
+        <childnode refid="356" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="359">
+      <node id="358">
         <label>bool</label>
       </node>
     </collaborationgraph>

@@ -124,7 +124,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="61" bodyend="75"/>
+        <location file="Source/MdDoxTree/GraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="60" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GraphWriter_1a3f0d761bcc67d970fcb656b0206ccb6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="77" bodyend="110"/>
+        <location file="Source/MdDoxTree/GraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="76" bodyend="109"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="49" bodyend="53"/>
+        <location file="Source/MdDoxTree/GraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="48" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GraphWriter_1ab1cc32872731e90fc599d788ff80116e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="55" bodyend="59"/>
+        <location file="Source/MdDoxTree/GraphWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="54" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GraphWriter_1ac0fbbac8e58b01405ecd234d4fc01088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190,10 +190,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GraphWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="112" bodyend="123"/>
+        <location file="Source/MdDoxTree/GraphWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/GraphWriter.cpp" bodystart="111" bodyend="122"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="Doxygen_8h" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="classMdDox_1_1Doxygen_1_1GraphQuery_1af01da6f11f4c67620803993161f018e8" compoundref="GraphQuery_8cpp" startline="29" endline="48">MdDox::Doxygen::GraphQuery::visit</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="187" endline="198">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -201,26 +201,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="837">
+      <node id="836">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="836">
+      <node id="835">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="837" relation="public-inheritance">
+        <childnode refid="836" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="839">
+      <node id="838">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="838">
+      <node id="837">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="839" relation="public-inheritance">
+        <childnode refid="838" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

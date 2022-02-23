@@ -164,6 +164,23 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="936">
+        <label>std::exception</label>
+      </node>
+      <node id="935">
+        <label>MdDox::Exception</label>
+        <link refid="classMdDox_1_1Exception"/>
+        <childnode refid="936" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="934">
+        <label>MdDox::ParseError</label>
+        <link refid="classMdDox_1_1ParseError"/>
+        <childnode refid="935" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
       <node id="939">
         <label>std::exception</label>
       </node>
@@ -177,23 +194,6 @@ The message is formatted as: <computeroutput>file</computeroutput> (<computerout
         <label>MdDox::ParseError</label>
         <link refid="classMdDox_1_1ParseError"/>
         <childnode refid="938" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="942">
-        <label>std::exception</label>
-      </node>
-      <node id="941">
-        <label>MdDox::Exception</label>
-        <link refid="classMdDox_1_1Exception"/>
-        <childnode refid="942" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="940">
-        <label>MdDox::ParseError</label>
-        <link refid="classMdDox_1_1ParseError"/>
-        <childnode refid="941" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

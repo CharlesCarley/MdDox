@@ -947,14 +947,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="681">
+      <node id="680">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="682">
+      <node id="681">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="681" relation="public-inheritance">
+        <childnode refid="680" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

@@ -19,21 +19,19 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "FunctionDefWriter.h"
-#include "DescriptionWriter.h"
+#include "MdDoxTree/FunctionDefWriter.h"
 #include "DocumentWriter.h"
-#include "HashUtils.h"
 #include "Doxygen/EnumValueQuery.h"
 #include "Doxygen/LinkedTextQuery.h"
 #include "Doxygen/ParamQuery.h"
 #include "Doxygen/ReferenceQuery.h"
-#include "Link.h"
-#include "LinkedTextWriter.h"
-#include "LocationWriter.h"
-#include "ParameterWriter.h"
-#include "SiteBuilder.h"
+#include "MdDoxTree/DescriptionWriter.h"
+#include "MdDoxTree/LinkedTextWriter.h"
+#include "MdDoxTree/LocationWriter.h"
+#include "MdDoxTree/ParameterWriter.h"
+#include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
 #include "TypeFilter/DoxygenFilter.h"
-#include "WriteUtils.h"
 
 namespace MdDox
 {
@@ -77,7 +75,7 @@ namespace MdDox
         ref.setName(query.text());
         ref.setId(query.getRefId());
 
-    	writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
     }
 
     void FunctionDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)

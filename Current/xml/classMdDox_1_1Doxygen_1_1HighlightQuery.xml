@@ -173,39 +173,39 @@
 <codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="216">
+      <node id="215">
         <label>MdDox::Doxygen::HighlightQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1HighlightQuery"/>
-        <childnode refid="217" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="217">
+      <node id="216">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="218">
+      <node id="217">
         <label>MdDox::Doxygen::HighlightQuery</label>
         <link refid="classMdDox_1_1Doxygen_1_1HighlightQuery"/>
-        <childnode refid="219" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="220">
-        <label>MdDox::Xml::Node</label>
-        <link refid="classMdDox_1_1Xml_1_1Node"/>
-        <childnode refid="221" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
+        <childnode refid="218" relation="public-inheritance">
         </childnode>
       </node>
       <node id="219">
+        <label>MdDox::Xml::Node</label>
+        <link refid="classMdDox_1_1Xml_1_1Node"/>
+        <childnode refid="220" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="218">
         <label>MdDox::Doxygen::Query</label>
         <link refid="classMdDox_1_1Doxygen_1_1Query"/>
-        <childnode refid="220" relation="usage">
+        <childnode refid="219" relation="usage">
           <edgelabel>_node</edgelabel>
         </childnode>
       </node>
-      <node id="221">
+      <node id="220">
         <label>bool</label>
       </node>
     </collaborationgraph>

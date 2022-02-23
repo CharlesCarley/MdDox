@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="44" bodyend="48"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="43" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a76fd82796f22bd80fa0302c4f2c34da2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="175" bodyend="186"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="174" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aa70aafa32ed0b79c5793044977bf165a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -88,7 +88,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="90" bodyend="93"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="89" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a68191ccfc34c20484f98b77fda083fdb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -114,7 +114,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="150" bodyend="153"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="149" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a211f3df677fc8a70f51769fe2ffa8be7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -140,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="56" bodyend="59"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a2c0a637fcf374f6c0025d0b8f9add86f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -166,7 +166,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="95" bodyend="98"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1c912fc3b72cb3de0c5bba914324e785" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -192,7 +192,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="130" bodyend="133"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="129" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a2bf7cf6203a9569f3d38214cc38041d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -218,7 +218,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="105" bodyend="108"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="104" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a20cd73fd80237e6867ef27f8dc3d797c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -244,7 +244,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="100" bodyend="103"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="99" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a94cab53da455ccc7afd5c9f6ea13c249" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -270,7 +270,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="145" bodyend="148"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="144" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a04626701c50b820ff19b53fa5a94c21d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -296,7 +296,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="110" bodyend="113"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="109" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a21e34ccd9f2b072d3f2bbd67caa8a136" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -322,7 +322,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="61" bodyend="71"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="60" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a0b92b77f001facc133e8fef3a90f648e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -348,7 +348,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="73" bodyend="88"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="72" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ac5f21092b2d8ee855b8a44e8b100d157" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -374,7 +374,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="125" bodyend="128"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ab4dc626fe533436fcb9a8556b0881fbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -400,7 +400,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="115" bodyend="118"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="114" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1ae4283d4f1efbc53b3e040f6e5109ca99" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -426,7 +426,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="120" bodyend="123"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a6ed38d2fb32ff5428e07d3ca6ba85bfc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -452,7 +452,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="135" bodyend="138"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="134" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a8ec8fa000e7a3dbd248545d6af57f746" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -478,7 +478,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="160" bodyend="163"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="159" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a1cbe3eeef65bbf3b4f170629f27c794c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -504,7 +504,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="50" bodyend="54"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="49" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a8943444f0ff9fe29ad6df4c327ebccd3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -530,7 +530,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="155" bodyend="158"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="154" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1a870033ff35fe2dec4e241a41af530a57" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -556,7 +556,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="170" bodyend="173"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="169" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aed1af1c5d618401e0af40578b1f07e09" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -582,7 +582,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="140" bodyend="143"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="139" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1afdf1634b69331c8949dd9a5e61bfc886" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -608,7 +608,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="165" bodyend="168"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="164" bodyend="167"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -635,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="86" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="36" bodyend="42"/>
+        <location file="Source/MdDoxTree/DirectoryPageWriter.h" line="86" column="1" bodyfile="Source/MdDoxTree/DirectoryPageWriter.cpp" bodystart="35" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1DirectoryPageWriter_1aec36e28100081c53773ade31c601e0a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -677,10 +677,6 @@
       <node id="52">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
-        <childnode refid="53" relation="usage">
-          <edgelabel>_style</edgelabel>
-          <edgelabel>_imageDir</edgelabel>
-        </childnode>
       </node>
       <node id="48">
         <label>MdDox::DirectoryPageWriter</label>
@@ -699,18 +695,18 @@
         <childnode refid="52" relation="usage">
           <edgelabel>_writer</edgelabel>
         </childnode>
-        <childnode refid="54" relation="usage">
+        <childnode refid="53" relation="usage">
           <edgelabel>_inDir</edgelabel>
           <edgelabel>_outDir</edgelabel>
         </childnode>
-        <childnode refid="55" relation="usage">
+        <childnode refid="54" relation="usage">
           <edgelabel>_ref</edgelabel>
         </childnode>
         <childnode refid="56" relation="usage">
           <edgelabel>_out</edgelabel>
         </childnode>
       </node>
-      <node id="53">
+      <node id="55">
         <label>string</label>
       </node>
       <node id="56">
@@ -723,14 +719,14 @@
       <node id="51">
         <label>vector&lt; Node *&gt;</label>
       </node>
-      <node id="54">
+      <node id="53">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
-      <node id="55">
+      <node id="54">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
-        <childnode refid="53" relation="usage">
+        <childnode refid="55" relation="usage">
           <edgelabel>_ref</edgelabel>
           <edgelabel>_name</edgelabel>
         </childnode>

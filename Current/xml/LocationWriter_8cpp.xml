@@ -3,215 +3,215 @@
   <compounddef id="LocationWriter_8cpp" kind="file" language="C++">
     <compoundname>LocationWriter.cpp</compoundname>
     <includes refid="LocationWriter_8h" local="yes">MdDoxTree/LocationWriter.h</includes>
-    <includes refid="MdDoxTree_2DocumentWriter_8h" local="yes">DocumentWriter.h</includes>
-    <includes refid="MdDoxTree_2HashUtils_8h" local="yes">HashUtils.h</includes>
+    <includes refid="DocumentWriter_8h" local="yes">DocumentWriter.h</includes>
+    <includes refid="HashUtils_8h" local="yes">MdDoxTree/HashUtils.h</includes>
     <includes refid="SiteBuilder_8h" local="yes">MdDoxTree/SiteBuilder.h</includes>
     <includes refid="WriteUtils_8h" local="yes">MdDoxTree/WriteUtils.h</includes>
     <includes refid="Path_8h" local="yes">Utils/Path.h</includes>
     <incdepgraph>
-      <node id="1646">
+      <node id="1037">
         <label>Utils/Console.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1640">
+      <node id="1031">
         <label>iomanip</label>
       </node>
-      <node id="1632">
+      <node id="1023">
         <label>functional</label>
       </node>
-      <node id="1659">
+      <node id="1050">
         <label>Utils/Path.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1642">
+      <node id="1033">
         <label>Utils/Exception.h</label>
-        <childnode refid="1643" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
-        <childnode refid="1644" relation="include">
+        <childnode refid="1035" relation="include">
         </childnode>
-        <childnode refid="1645" relation="include">
+        <childnode refid="1036" relation="include">
         </childnode>
-        <childnode refid="1646" relation="include">
+        <childnode refid="1037" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1644">
+      <node id="1035">
         <label>stdexcept</label>
       </node>
-      <node id="1638">
+      <node id="1029">
         <label>string</label>
       </node>
-      <node id="1631">
+      <node id="1022">
         <label>Doxygen.h</label>
-        <childnode refid="1632" relation="include">
+        <childnode refid="1023" relation="include">
         </childnode>
-        <childnode refid="1633" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="1641" relation="include">
+        <childnode refid="1032" relation="include">
         </childnode>
-        <childnode refid="1642" relation="include">
+        <childnode refid="1033" relation="include">
         </childnode>
       </node>
-      <node id="1643">
+      <node id="1034">
         <label>exception</label>
       </node>
-      <node id="1636">
+      <node id="1027">
         <label>fstream</label>
       </node>
-      <node id="1652">
+      <node id="1043">
         <label>MdDoxTree/SiteBuilder.h</label>
-        <childnode refid="1633" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="1653" relation="include">
+        <childnode refid="1044" relation="include">
         </childnode>
-        <childnode refid="1654" relation="include">
+        <childnode refid="1045" relation="include">
         </childnode>
-        <childnode refid="1655" relation="include">
+        <childnode refid="1046" relation="include">
         </childnode>
-        <childnode refid="1656" relation="include">
+        <childnode refid="1048" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1629">
+      <node id="1020">
         <label>MdDoxTree/LocationWriter.h</label>
-        <childnode refid="1630" relation="include">
+        <childnode refid="1021" relation="include">
         </childnode>
       </node>
-      <node id="1648">
+      <node id="1039">
         <label>IconSet.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1641">
+      <node id="1032">
         <label>Xml/Node.h</label>
-        <childnode refid="1632" relation="include">
+        <childnode refid="1023" relation="include">
         </childnode>
-        <childnode refid="1633" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1647">
+      <node id="1038">
         <label>DocumentWriter.h</label>
-        <childnode refid="1648" relation="include">
+        <childnode refid="1039" relation="include">
         </childnode>
-        <childnode refid="1649" relation="include">
+        <childnode refid="1040" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
-        </childnode>
-      </node>
-      <node id="1651">
-        <label>HashUtils.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1655">
+      <node id="1042">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1045">
         <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="1631" relation="include">
+        <childnode refid="1022" relation="include">
         </childnode>
       </node>
-      <node id="1656">
+      <node id="1046">
         <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1654" relation="include">
+        <childnode refid="1044" relation="include">
         </childnode>
-        <childnode refid="1655" relation="include">
+        <childnode refid="1045" relation="include">
         </childnode>
-        <childnode refid="1657" relation="include">
+        <childnode refid="1047" relation="include">
         </childnode>
       </node>
-      <node id="1634">
+      <node id="1025">
         <label>Utils/String.h</label>
-        <childnode refid="1635" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="1636" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
-        <childnode refid="1637" relation="include">
+        <childnode refid="1028" relation="include">
         </childnode>
-        <childnode refid="1638" relation="include">
+        <childnode refid="1029" relation="include">
         </childnode>
-        <childnode refid="1633" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="1639" relation="include">
+        <childnode refid="1030" relation="include">
         </childnode>
-        <childnode refid="1640" relation="include">
+        <childnode refid="1031" relation="include">
         </childnode>
       </node>
-      <node id="1630">
+      <node id="1021">
         <label>Doxygen/LocationQuery.h</label>
-        <childnode refid="1631" relation="include">
+        <childnode refid="1022" relation="include">
         </childnode>
       </node>
-      <node id="1639">
+      <node id="1030">
         <label>vector</label>
       </node>
-      <node id="1645">
+      <node id="1036">
         <label>utility</label>
       </node>
-      <node id="1637">
+      <node id="1028">
         <label>sstream</label>
       </node>
-      <node id="1658">
+      <node id="1049">
         <label>MdDoxTree/WriteUtils.h</label>
-        <childnode refid="1648" relation="include">
+        <childnode refid="1039" relation="include">
         </childnode>
-        <childnode refid="1657" relation="include">
+        <childnode refid="1047" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1649">
+      <node id="1040">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="1650" relation="include">
+        <childnode refid="1041" relation="include">
         </childnode>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1635">
+      <node id="1026">
         <label>deque</label>
       </node>
-      <node id="1653">
+      <node id="1048">
         <label>Utils/Config.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="1641" relation="include">
+        <childnode refid="1032" relation="include">
         </childnode>
       </node>
-      <node id="1633">
+      <node id="1024">
         <label>unordered_map</label>
       </node>
-      <node id="1628">
+      <node id="1019">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
         <link refid="LocationWriter_8cpp"/>
-        <childnode refid="1629" relation="include">
+        <childnode refid="1020" relation="include">
         </childnode>
-        <childnode refid="1647" relation="include">
+        <childnode refid="1038" relation="include">
         </childnode>
-        <childnode refid="1651" relation="include">
+        <childnode refid="1042" relation="include">
         </childnode>
-        <childnode refid="1652" relation="include">
+        <childnode refid="1043" relation="include">
         </childnode>
-        <childnode refid="1658" relation="include">
+        <childnode refid="1049" relation="include">
         </childnode>
-        <childnode refid="1659" relation="include">
+        <childnode refid="1050" relation="include">
         </childnode>
       </node>
-      <node id="1654">
+      <node id="1044">
         <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="1631" relation="include">
+        <childnode refid="1022" relation="include">
         </childnode>
       </node>
-      <node id="1657">
+      <node id="1047">
         <label>Reference.h</label>
-        <childnode refid="1634" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="1650">
+      <node id="1041">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
@@ -244,7 +244,7 @@
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/LocationWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -269,14 +269,14 @@
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasDecl<sp/>||<sp/>hasImpl)</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access for extracting config parameters. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMdDox_1_1SiteBuilder" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;Defined<sp/>in&quot;</highlight><highlight class="normal">,<sp/>4);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasDecl)</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>url<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(builder.<ref refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>decl,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(declLine));</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(decl).fileName());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(decl).fileName());</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasImpl)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
@@ -285,7 +285,7 @@
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasImpl)</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>url<sp/>=<sp/><ref refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(builder.<ref refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>impl,<sp/><ref refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(implLine));</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9ac4af87e2c78bfc8cb68783810495be77" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(impl).fileName());</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="classMdDox_1_1PathUtil" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(impl).fileName());</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
