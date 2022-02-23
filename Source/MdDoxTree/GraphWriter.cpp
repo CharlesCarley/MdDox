@@ -62,7 +62,7 @@ namespace MdDox
     {
         GraphNodeDecl nd;
         nd.id    = query.getId();
-        nd.label = LinkUtils::lastBinaryResolution(query.getLabel("undefined"));
+        nd.label = LinkUtils::LBR(query.getLabel("undefined"));
 
         query.foreachChildNode(
             [&nd](const Doxygen::ChildNodeQuery& cnq)

@@ -26,36 +26,6 @@
 
 namespace MdDox
 {
-    void Link::swapInput(const String& stem)
-    {
-        const PathUtil swap(StringCombine(_input.rootedDir(),
-                                          stem,
-                                          _input.fullExtension()));
-        _input = swap;
-    }
-
-    String Link::getOutput() const
-    {
-        const String   ext    = SiteBuilder::get().outputFileExt;
-        const PathUtil outDir = PathUtil(SiteBuilder::get().outputDir);
-
-        return StringCombine(outDir.rootedDir(), _input.stem(), ext);
-    }
-
-    String Link::getRelativeInput() const
-    {
-        const PathUtil inputPath(getInput());
-        return StringCombine(inputPath.stem(), ".xml");
-    }
-
-    String Link::relOutput() const
-    {
-        const String ext = SiteBuilder::get().outputFileExt;
-
-        const PathUtil inputPath(getOutput());
-        return StringCombine(inputPath.stem(), ext);
-    }
-
     String LinkUtils::linkMarkdown(const String& file, const String& name)
     {
         const String ext = SiteBuilder::get().outputFileExt;
@@ -68,7 +38,7 @@ namespace MdDox
         StringUtils::split(dest, name, "::");
     }
 
-    String LinkUtils::lastBinaryResolution(const String& name)
+    String LinkUtils::LBR(const String& name)
     {
         StringDeque dest;
         splitBinaryResolution(dest, name);

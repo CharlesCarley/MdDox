@@ -29,7 +29,7 @@ namespace MdDox
     class CompoundReference : public Reference
     {
     private:
-        Doxygen::DoxCompoundKindEnum _kind;
+        Doxygen::DoxCompoundKindEnum _kind{Doxygen::DCK_INVALID};
 
     public:
         CompoundReference()  = default;
@@ -43,7 +43,7 @@ namespace MdDox
     class MemberReference : public Reference
     {
     private:
-        Doxygen::DoxMemberKindEnum _kind;
+        Doxygen::DoxMemberKindEnum _kind{Doxygen::DMK_INVALID};
 
     public:
         MemberReference()  = default;
@@ -52,6 +52,9 @@ namespace MdDox
         const Doxygen::DoxMemberKindEnum& getKind() const;
 
         void setKind(const Doxygen::DoxMemberKindEnum& kind);
+
+        CompoundReference* findParent() const;
+    	
     };
 
     inline const Doxygen::DoxCompoundKindEnum& CompoundReference::getKind() const

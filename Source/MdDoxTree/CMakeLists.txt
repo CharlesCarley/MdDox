@@ -22,7 +22,6 @@ set(TargetGroup Common )
 
 set(Target_HDR 
 	ClassPageWriter.h
-	Config.h
 	DescriptionWriter.h
 	DirectoryPageWriter.h
 	DocumentWriter.h
@@ -38,7 +37,6 @@ set(Target_HDR
 	IndexPageWriter.h
 	Link.h
 	LinkedTextWriter.h
-	Location.h
 	LocationWriter.h
 	MarkdownCommandWriter.h
 	MarkdownDocumentWriter.h
@@ -52,7 +50,6 @@ set(Target_HDR
 	Reference.h
 	ReferenceIdentifiers.h
 	ReferenceTable.h
-	RepoFile.h
 	Section1Writer.h
 	Section2Writer.h
 	Section3Writer.h
@@ -60,14 +57,12 @@ set(Target_HDR
 	SectionDefListingWriter.h
 	SectionDefWriter.h
 	SiteBuilder.h
-	SourceFile.h
 	VariableDefWriter.h
 	WriteUtils.h
 )
 
 set(Target_SRC 
 	ClassPageWriter.cpp
-	Config.cpp
 	DescriptionWriter.cpp
 	DirectoryPageWriter.cpp
 	DotWriter.cpp
@@ -94,7 +89,6 @@ set(Target_SRC
 	ParameterWriter.cpp
 	ReferenceIdentifiers.cpp
 	ReferenceTable.cpp
-	RepoFile.cpp
 	Section1Writer.cpp
 	Section2Writer.cpp
 	Section3Writer.cpp
@@ -102,7 +96,6 @@ set(Target_SRC
 	SectionDefListingWriter.cpp
 	SectionDefWriter.cpp
 	SiteBuilder.cpp
-	SourceFile.cpp
 	VariableDefWriter.cpp
 	WriteUtils.cpp
 )

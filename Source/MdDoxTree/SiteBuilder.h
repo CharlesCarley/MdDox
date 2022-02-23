@@ -21,7 +21,7 @@
 */
 #pragma once
 #include <unordered_map>
-#include "Config.h"
+#include "Utils/Config.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxMemberKind.h"
 #include "ReferenceIdentifiers.h"
@@ -148,24 +148,7 @@ namespace MdDox
 
         void             insertMember(const Doxygen::DoxMemberKindEnum& kind, const String& name, const String& id) const;
         MemberReference* getMemberRef(const String& id) const;
-
-        /**
-         * \brief Register a name that can be linked to a reference
-         * \param name the name to store the reference by
-         * \param reference the reference to store 
-         */
-        void registerCompound(const String& name, const String& reference) const;
-
-        /**
-         * \brief Enables a member reference to be bound to a compound reference.
-         */
-        void registerMember(const String& member, const String& compound) const;
-
-        [[deprecated]] const String& findReference(const String& name, const String& defaultValue = "") const;
-
-        [[deprecated]] const String& findName(const String& name, const String& defaultValue = "") const;
-
-        [[deprecated]] const String& findMember(const String& name, const String& defaultValue = "") const;
+        
 
         String registerDot(const String& text) const;
 

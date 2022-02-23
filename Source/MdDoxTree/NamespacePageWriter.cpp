@@ -132,7 +132,7 @@ namespace MdDox
     void NamespacePageWriter::visitedInnerClass(const Doxygen::RefQuery& query)
     {
         Reference ref;
-        ref.setName(LinkUtils::lastBinaryResolution(query.text()));
+        ref.setName(LinkUtils::LBR(query.text()));
         ref.setId(query.getRefId());
 
         if (!_classHeading)
@@ -141,13 +141,13 @@ namespace MdDox
             _writer->addSection(_out, "Classes", 2);
         }
 
-        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+    	_writer->linkRefIcon(_out, ICO_CLASS, 0, ref.getId(), ref.getName());
     }
 
     void NamespacePageWriter::visitedInnerNamespace(const Doxygen::RefQuery& query)
     {
         Reference ref;
-        ref.setName(LinkUtils::lastBinaryResolution(query.text()));
+        ref.setName(LinkUtils::LBR(query.text()));
         ref.setId(query.getRefId());
 
         if (!_namespaceHeading)
@@ -156,7 +156,7 @@ namespace MdDox
             _writer->addSection(_out, "Namespaces", 2);
         }
 
-        writeReferenceIconLink(_out, _writer, ref, ICO_NAMESPACE);
+    	_writer->linkRefIcon(_out, ICO_NAMESPACE, 0, ref.getId(), ref.getName());
     }
 
     void NamespacePageWriter::visitedBaseCompoundRef(const Doxygen::CompoundRefQuery& query)

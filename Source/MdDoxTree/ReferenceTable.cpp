@@ -45,9 +45,9 @@ namespace MdDox
             if (kind == Doxygen::DCK_NAMESPACE)
             {
                 // store the name space by its last name
-                String lu = LinkUtils::lastBinaryResolution(name);
+                String lu = LinkUtils::LBR(name);
 
-                const CompoundNameMap::const_iterator cit = cnm.find(lu);
+            	const CompoundNameMap::const_iterator cit = cnm.find(lu);
                 if (cit == cnm.end())
                     cnm.insert(std::make_pair(lu, ref));
             }
@@ -59,11 +59,17 @@ namespace MdDox
             }
             else if (kind == Doxygen::DCK_FILE)
             {
-                Console::writeLine(name);
                 const CompoundNameMap::const_iterator cit = cnm.find(name);
                 if (cit == cnm.end())
                     cnm.insert(std::make_pair(name, ref));
             }
+            else if (kind == Doxygen::DCK_PAGE)
+            {
+                const CompoundNameMap::const_iterator cit = cnm.find(name);
+                if (cit == cnm.end())
+                    cnm.insert(std::make_pair(name, ref));
+            }
+        	
         }
     }
 
@@ -131,10 +137,6 @@ namespace MdDox
             cref->setKind(kind);
 
             _members.insert(std::make_pair(id, cref));
-        }
-        else
-        {
-            Console::writeLine("Ignoring insertMember duplicate: ", id);
         }
     }
 

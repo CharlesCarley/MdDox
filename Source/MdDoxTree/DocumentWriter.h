@@ -50,7 +50,6 @@ namespace MdDox
          * \param docSource The source \c .xml file that was used to generate this document.
          */
         virtual void endDocument(OStream& output, const String& docSource = "") = 0;
-        
 
         /**
          * \brief Implementations should start a subsection of the body.
@@ -235,7 +234,6 @@ namespace MdDox
          */
         virtual void lineBreak(OStream& output) = 0;
 
-    	
         /**
          * \brief Implementations should write an external URL.
          * \param output The output stream to write to.
@@ -303,6 +301,5 @@ namespace MdDox
          * \param text The text to display.
          */
         virtual void embedContentLinkText(OStream& output, IconId content, const String& ref, const String& text) = 0;
-
     };
 }  // namespace MdDox

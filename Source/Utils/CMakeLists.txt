@@ -58,6 +58,7 @@ source_group("ParserBase\\Source" FILES ${Utils_PB_SRC})
 
 set(Utils_HDR
     Char.h
+    Config.h
     Console.h
     IndexCache.h
     FileSystem.h
@@ -70,6 +71,7 @@ set(Utils_HDR
 
 set(Utils_SRC
     Char.cpp
+    Config.cpp
     Console.cpp
     String.cpp
     FileSystem.cpp

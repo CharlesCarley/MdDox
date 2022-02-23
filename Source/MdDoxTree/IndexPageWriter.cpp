@@ -103,16 +103,12 @@ namespace MdDox
                                               query.getName(),
                                               query.getRefId());
 
-            SiteBuilder::get().registerCompound(compoundRef.getName(), compoundRef.getId());
-
             query.foreachMember(
-                [compoundRef](const Doxygen::MemberIndexQuery& member)
+                [](const Doxygen::MemberIndexQuery& member)
                 {
                     SiteBuilder::get().insertMember(member.getKind(),
                                                     member.getName(),
                                                     member.getRefId());
-
-                    SiteBuilder::get().registerMember(member.getRefId(), compoundRef.getId());
                 });
         }
     };
@@ -178,14 +174,14 @@ namespace MdDox
 
         _writer->beginSection(out, "Contents", 2);
 
-    	_writer->beginList(out);
+        _writer->beginList(out);
         for (const Reference& page : list)
         {
-            _writer->beginListItem(out);        	
+            _writer->beginListItem(out);
             _writer->linkText(out, page.getName(), page.getId());
             _writer->endListItem(out);
         }
-    	_writer->endList(out);
+        _writer->endList(out);
         _writer->endSection(out);
         _writer->endDocument(out);
     }
@@ -201,7 +197,7 @@ namespace MdDox
         if (!out.is_open())
             return;
 
-    	_stream = &out;
+        _stream = &out;
 
         // extract all, classes, namespaces, directories, and pages.
         IndexPageFilter filter;
@@ -209,7 +205,7 @@ namespace MdDox
 
         _writer->beginDocument(out, builder.projectTitle);
 
-    	writeGenericTitleBar(out, _writer, "Contents");
+        writeGenericTitleBar(out, _writer, "Contents");
 
         String file;
         String name;

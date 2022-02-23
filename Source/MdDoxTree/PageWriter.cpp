@@ -80,7 +80,7 @@ namespace MdDox
             title = _ref.getName();
         }
 
-    	_writer->beginDocument(_out, LinkUtils::lastBinaryResolution(title));
+    	_writer->beginDocument(_out, LinkUtils::LBR(title));
     	_writer->anchor(_out, query.getId());
     }
 

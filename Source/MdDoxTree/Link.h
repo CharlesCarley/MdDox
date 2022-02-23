@@ -25,50 +25,14 @@
 
 namespace MdDox
 {
-    class Link
-    {
-    private:
-        PathUtil _input;
-
-    public:
-        String getInput() const;
-
-        void setInput(const String& val);
-
-        void swapInput(const String& stem);
-
-        String getOutput() const;
-
-        String getRelativeInput() const;
-
-        String relOutput() const;
-
-
-        const PathUtil& getPath() const
-        {
-            return _input;
-        }
-
-    };
-
-    inline String Link::getInput() const
-    {
-        return _input.fullPath();
-    }
-
-    inline void Link::setInput(const String& val)
-    {
-        _input = PathUtil(val);
-    }
-
     namespace LinkUtils
     {
-        extern String linkMarkdown(const String& file, const String& name);
+        [[deprecated]] extern String linkMarkdown(const String& file, const String& name);
 
-    	extern void splitBinaryResolution(StringDeque& dest, const String& name);
+        [[deprecated]] extern void splitBinaryResolution(StringDeque& dest, const String& name);
 
-    	extern String lastBinaryResolution(const String& name);
+        extern String LBR(const String& name);
 
     }  // namespace LinkUtils
 
-}  // namespace MdDoc
+}  // namespace MdDox

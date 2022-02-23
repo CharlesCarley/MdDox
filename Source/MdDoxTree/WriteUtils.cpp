@@ -40,7 +40,7 @@ namespace MdDox
         writer->inlineText(out, "/");
     }
 
-	void writeGenericTitleBar(OStream& out, DocumentWriter* writer, const String& item)
+    void writeGenericTitleBar(OStream& out, DocumentWriter* writer, const String& item)
     {
         writeCommonNav(out, writer);
         writer->boldText(out, item);
@@ -71,7 +71,7 @@ namespace MdDox
             Reference id = builder.findNamespace(curName);
             if (!id.empty())
             {
-                writer->linkRef(out, 0, id.getId(), LinkUtils::lastBinaryResolution(id.getName()));
+                writer->linkRef(out, 0, id.getId(), LinkUtils::LBR(id.getName()));
                 writer->inlineText(out, "::");
             }
 
@@ -123,30 +123,36 @@ namespace MdDox
 
     void writeReferenceIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
-        const String title = LinkUtils::lastBinaryResolution(ref.getName());
+        const SiteBuilder& builder = SiteBuilder::get();
 
-        String memberRef = SiteBuilder::get().findMember(ref.getId());
-        if (memberRef.empty())
+        MemberReference* mRef = builder.getMemberRef(ref.getId());
+
+        writer->beginParagraph(out);
+        writer->embedContent(out, ICO_CLASS);
+
+        const String name = LinkUtils::LBR(ref.getName());
+
+        // find the owning file then link to the heading
+        CompoundReference* cref = mRef ? mRef->findParent() : nullptr;
+        if (cref != nullptr)
         {
-            memberRef = SiteBuilder::get().findReference(ref.getId());
-            if (memberRef.empty())
-                memberRef = ref.getId();
+            writer->linkText(out,
+                             name,
+                             StringCombine(cref->getId(),
+                                           builder.outputFileExt,
+                                           HashUtils::heading(name)));
+        }
+        else
+        {
+            writer->boldText(out, name);
         }
 
-        const String cleanRef = memberRef;
-        const String file     = StringCombine(
-            cleanRef,
-            SiteBuilder::get().outputFileExt);
-
-        const String link = StringCombine(file, HashUtils::heading(title));
-
-        writer->embedContentLinkText(out, id, link, title);
-        writer->lineBreak(out);
+        writer->endParagraph(out);
     }
 
     void writeReferenceIconLinkHeading(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id)
     {
-        const String title = LinkUtils::lastBinaryResolution(ref.getName());
+        const String title = LinkUtils::LBR(ref.getName());
         writer->embedContentLinkText(out, id, HashUtils::heading(title), title);
         writer->lineBreak(out);
     }
@@ -168,6 +174,14 @@ namespace MdDox
         writer->embedContent(out, id);
         writer->inlineText(out, ref.getName());
         writer->endParagraph(out);
+    }
+
+    void linkRef(OStream& output, DocumentWriter* writer, int kind, const String& id, const String& title)
+    {
+    }
+
+    void linkRefIcon(OStream& output, DocumentWriter* writer, IconId ico, int kind, const String& id, const String& title)
+    {
     }
 
     bool syncStream(OStream* stream, OutputStringStream& out)

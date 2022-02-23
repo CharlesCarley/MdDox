@@ -20,7 +20,6 @@
 -------------------------------------------------------------------------------
 */
 #include "SiteBuilder.h"
-#include "Config.h"
 #include "DocumentWriter.h"
 #include "Doxygen/DoxygenIndexQuery.h"
 #include "IndexPageWriter.h"
@@ -221,69 +220,6 @@ namespace MdDox
         if (_referenceMap)
             return _referenceMap->getMemberRef(id);
         return nullptr;
-    }
-
-    void SiteBuilder::registerCompound(const String& name, const String& reference) const
-    {
-        ReferenceMap::iterator it = _ids.find(name);
-        if (it == _ids.end())
-            _ids.insert(std::make_pair(name, reference));
-        else
-        {
-            Console::writeLine("Ignoring duplicate refId. First registered as ",
-                               it->second,
-                               " but now seen as ",
-                               reference);
-        }
-
-        it = _names.find(reference);
-        if (it == _names.end())
-            _names.insert(std::make_pair(reference, name));
-        else
-        {
-            Console::writeLine("Ignoring duplicate name. first registered as ",
-                               it->second,
-                               " but now seen as ",
-                               reference);
-        }
-    }
-
-    void SiteBuilder::registerMember(const String& member, const String& compound) const
-    {
-        const ReferenceMap::iterator it = _members.find(member);
-        if (it == _members.end())
-            _members.insert(std::make_pair(member, compound));
-        else
-        {
-            if (it->second != compound)
-                Console::writeLine("Member.refId: ", it->first, " with varying data");
-            else
-                Console::writeLine("Ignoring duplicate member.refId: ", it->first);
-        }
-    }
-
-    const String& SiteBuilder::findReference(const String& name, const String& defaultValue) const
-    {
-        const ReferenceMap::iterator it = _ids.find(name);
-        if (it != _ids.end())
-            return it->second;
-        return defaultValue;
-    }
-
-    const String& SiteBuilder::findName(const String& name, const String& defaultValue) const
-    {
-        const ReferenceMap::iterator it = _names.find(name);
-        if (it != _names.end())
-            return it->second;
-        return defaultValue;
-    }
-
-    const String& SiteBuilder::findMember(const String& name, const String& defaultValue) const
-    {
-        const ReferenceMap::iterator it = _members.find(name);
-        if (it != _members.end())
-            return it->second;
-        return defaultValue;
     }
 
     String SiteBuilder::registerDot(const String& text) const

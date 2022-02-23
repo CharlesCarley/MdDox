@@ -22,6 +22,7 @@
 #include "FunctionDefWriter.h"
 #include "DescriptionWriter.h"
 #include "DocumentWriter.h"
+#include "HashUtils.h"
 #include "Doxygen/EnumValueQuery.h"
 #include "Doxygen/LinkedTextQuery.h"
 #include "Doxygen/ParamQuery.h"
@@ -72,10 +73,11 @@ namespace MdDox
         }
 
         Reference ref;
-        ref.setName(LinkUtils::lastBinaryResolution(query.text()));
+
+        ref.setName(query.text());
         ref.setId(query.getRefId());
 
-        writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
+    	writeReferenceIconLink(_out, _writer, ref, ICO_CLASS);
     }
 
     void FunctionDefWriter::visitedReferencedBy(const Doxygen::ReferenceQuery& query)
@@ -156,7 +158,6 @@ namespace MdDox
             LocationWriter lw(_writer, &_out);
             lw.write(query);
         }
-    	
     }
 
     void FunctionDefWriter::visitedWrite(const String& text)

@@ -19,10 +19,12 @@
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#include "LocationWriter.h"
+#include "MdDoxTree/LocationWriter.h"
 #include "DocumentWriter.h"
-#include "Location.h"
-#include "WriteUtils.h"
+#include "HashUtils.h"
+#include "MdDoxTree/SiteBuilder.h"
+#include "MdDoxTree/WriteUtils.h"
+#include "Utils/Path.h"
 
 namespace MdDox
 {
@@ -34,46 +36,37 @@ namespace MdDox
 
     bool LocationWriter::write(const Doxygen::LocationQuery& query)
     {
-        const String& decl = query.getFile();
-        const String& impl = query.getBodyFile();
-
-        std::vector<SourceFile> list;
+        const String&   decl     = query.getFile();
+        const String&   impl     = query.getBodyFile();
+        const uint32_t& declLine = (uint32_t)query.getLine();
+        const uint32_t& implLine = (uint32_t)query.getBodyStart();
 
         const bool hasDecl = !decl.empty();
         const bool hasImpl = !impl.empty() && impl != decl;
 
-        if (hasDecl)
+        if (hasDecl || hasImpl)
         {
-            SourceFile ref;
+            const SiteBuilder& builder = SiteBuilder::get();
 
-            ref.setFile(decl);
-            ref.setLine((uint32_t)query.getLine());
-
-            list.push_back(ref);
-        }
-
-        if (hasImpl)
-        {
-            SourceFile ref;
-            ref.setFile(impl);
-            ref.setLine((uint32_t)query.getBodyStart());
-            list.push_back(ref);
-        }
-
-        if (!list.empty())
-        {
             _writer->addSection(_out, "Defined in", 4);
-            for (SourceFile& ref : list)
+
+            if (hasDecl)
             {
-                _writer->embedContentLinkText(_out,
-                                              ICO_FILE,
-                                              ref.getLinkToRepo(),
-                                              ref.fileName());
-                _writer->lineBreak(_out);
+                const String url = StringCombine(builder.fileUrl, '/', decl, HashUtils::lineNumber(declLine));
+                _writer->embedContentLinkText(_out, ICO_FILE, url, PathUtil(decl).fileName());
+
+            	if (hasImpl)
+                    _writer->lineBreak(_out);
+            }
+
+            if (hasImpl)
+            {
+                const String url = StringCombine(builder.fileUrl, '/', impl, HashUtils::lineNumber(implLine));
+                _writer->embedContentLinkText(_out, ICO_FILE, url, PathUtil(impl).fileName());
             }
         }
 
-        return syncStream(_stream, _out);
+    	return syncStream(_stream, _out);
     }
 
 }  // namespace MdDox

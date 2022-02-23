@@ -43,7 +43,6 @@ namespace MdDox
     class Page;
     class DocumentWriter;
 
-
     extern void writeGenericTitleBar(OStream& out, DocumentWriter* writer, const String& item);
     extern void writeNamespaceTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
     extern void writeDirectoryTitleBar(OStream& out, DocumentWriter* writer, const Reference& item);
@@ -52,6 +51,7 @@ namespace MdDox
     extern void writeExternalIconLink(OStream& out, DocumentWriter* writer, const Reference& ref, IconId id);
     extern void writeReferenceIconLinkHeading(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id);
     extern void writeReferenceIconStub(OStream& out, DocumentWriter* writer, const Reference& ref, const IconId id);
+
 
     extern bool syncStream(OStream* stream, OutputStringStream& out);
 
