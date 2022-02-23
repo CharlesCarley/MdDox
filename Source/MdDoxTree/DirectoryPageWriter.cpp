@@ -76,7 +76,7 @@ namespace MdDox
 
         const String& fileName = PathUtil(query.text()).fileName();
         const String& fileUrl  = SiteBuilder::get().fileUrl;
-        const String  refId    = StringCombine(fileUrl, _internalDir.getId(), fileName, HashUtils::lineNumber(1));
+        const String  refId    = StringCombine(fileUrl, '/', _internalDir.getId(), fileName, HashUtils::lineNumber(1));
 
         Reference ref;
         ref.setName(fileName);
