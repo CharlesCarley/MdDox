@@ -1,7 +1,7 @@
 <a id="common"></a>
 <h1>Common</h1>
 <a id="classMdDox_1_1GenApi_1_1Common"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,7 +16,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#mddoxxmlwriter">MdDox::Xml::Writer</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Writer.md#writer">MdDox::Xml::Writer</a>
 </div>
 <img src="../images/dot/internal-diagram-100.dot.svg"/><br/>
 <a id="protected-members"></a>

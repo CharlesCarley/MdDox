@@ -1,7 +1,7 @@
 <a id="scannerbase"></a>
 <h1>ScannerBase</h1>
 <a id="classMdDox_1_1ScannerBase"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Scanner.md#mddoxxmlscanner">MdDox::Xml::Scanner</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Scanner.md#scanner">MdDox::Xml::Scanner</a>
 </div>
 <img src="../images/dot/internal-diagram-126.dot.svg"/><br/>
 <a id="protected-members"></a>

@@ -1,7 +1,7 @@
 <a id="mddoxtree"></a>
 <h1>MdDoxTree</h1>
 <a id="dir_d9935c0f1a540c725bfb5aaaadd541e0"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

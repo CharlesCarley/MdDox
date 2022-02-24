@@ -1,7 +1,7 @@
 <a id="compounddefqueryvisitor"></a>
 <h1>CompoundDefQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -18,10 +18,10 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#mddoxpagewriter">MdDox::PageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#pagewriter">MdDox::PageWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1TableOfContents.md#mddoxtableofcontents">MdDox::TableOfContents</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1TableOfContents.md#tableofcontents">MdDox::TableOfContents</a>
 </div>
 <img src="../images/dot/internal-diagram-80.dot.svg"/><br/>
 <a id="public-methods"></a>

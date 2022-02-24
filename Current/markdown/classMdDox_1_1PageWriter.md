@@ -1,7 +1,7 @@
 <a id="pagewriter"></a>
 <h1>PageWriter</h1>
 <a id="classMdDox_1_1PageWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,21 +14,21 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#mddoxdoxygenvisitorscompounddefqueryvisitor">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#compounddefqueryvisitor">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</a>
 </div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1ClassPageWriter.md#mddoxclasspagewriter">MdDox::ClassPageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1ClassPageWriter.md#classpagewriter">MdDox::ClassPageWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1DirectoryPageWriter.md#mddoxdirectorypagewriter">MdDox::DirectoryPageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1DirectoryPageWriter.md#directorypagewriter">MdDox::DirectoryPageWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1GenericPageWriter.md#mddoxgenericpagewriter">MdDox::GenericPageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenericPageWriter.md#genericpagewriter">MdDox::GenericPageWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1NamespacePageWriter.md#mddoxnamespacepagewriter">MdDox::NamespacePageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1NamespacePageWriter.md#namespacepagewriter">MdDox::NamespacePageWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-119.dot.svg"/><br/>
 <a id="protected-members"></a>
@@ -170,7 +170,7 @@
 <br/>
 <a id="_sections"></a>
 <h2>_sections</h2>
-<a href="namespaceMdDox_1_1Xml.md#xmlnodearray">Xml::NodeArray</a>
+<a href="namespaceMdDox_1_1Xml.md#nodearray">Xml::NodeArray</a>
 <span class="bold-text"><b>_sections</b></span>
 <br/>
 <a id="defined-in"></a>
@@ -198,7 +198,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">Doxygen::CompoundDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -221,7 +221,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">Doxygen::CompoundDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -244,7 +244,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -267,7 +267,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -286,7 +286,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -305,7 +305,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -324,7 +324,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">Doxygen::CompoundDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -343,7 +343,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -386,7 +386,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -437,7 +437,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#doxygensectiondefquery">Doxygen::SectionDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">Doxygen::SectionDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -598,7 +598,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygendoxygenquery">Doxygen::DoxygenQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery">Doxygen::DoxygenQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">doxygen</span>
 </span>

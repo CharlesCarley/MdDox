@@ -1,7 +1,7 @@
 <a id="query"></a>
 <h1>Query</h1>
 <a id="classMdDox_1_1Doxygen_1_1Query"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,214 +16,214 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#mddoxdoxygenanchorquery">MdDox::Doxygen::AnchorQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery">MdDox::Doxygen::AnchorQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#mddoxdoxygenblockquotequery">MdDox::Doxygen::BlockQuoteQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery">MdDox::Doxygen::BlockQuoteQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#mddoxdoxygencaptionquery">MdDox::Doxygen::CaptionQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CaptionQuery.md#captionquery">MdDox::Doxygen::CaptionQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#mddoxdoxygenchildnodequery">MdDox::Doxygen::ChildNodeQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ChildNodeQuery.md#childnodequery">MdDox::Doxygen::ChildNodeQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#mddoxdoxygencodelinequery">MdDox::Doxygen::CodeLineQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CodeLineQuery.md#codelinequery">MdDox::Doxygen::CodeLineQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#mddoxdoxygencompounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#mddoxdoxygencompoundindexquery">MdDox::Doxygen::CompoundIndexQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundIndexQuery.md#compoundindexquery">MdDox::Doxygen::CompoundIndexQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#mddoxdoxygencompoundrefquery">MdDox::Doxygen::CompoundRefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CompoundRefQuery.md#compoundrefquery">MdDox::Doxygen::CompoundRefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#mddoxdoxygencopyquery">MdDox::Doxygen::CopyQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1CopyQuery.md#copyquery">MdDox::Doxygen::CopyQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#mddoxdoxygendescriptionquery">MdDox::Doxygen::DescriptionQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">MdDox::Doxygen::DescriptionQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#mddoxdoxygendoxygenindexquery">MdDox::Doxygen::DoxygenIndexQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery">MdDox::Doxygen::DoxygenIndexQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#mddoxdoxygendoxygenquery">MdDox::Doxygen::DoxygenQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1DoxygenQuery.md#doxygenquery">MdDox::Doxygen::DoxygenQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#mddoxdoxygenemptyquery">MdDox::Doxygen::EmptyQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">MdDox::Doxygen::EmptyQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#mddoxdoxygenentryquery">MdDox::Doxygen::EntryQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EntryQuery.md#entryquery">MdDox::Doxygen::EntryQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#mddoxdoxygenenumvaluequery">MdDox::Doxygen::EnumValueQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1EnumValueQuery.md#enumvaluequery">MdDox::Doxygen::EnumValueQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#mddoxdoxygenfilequery">MdDox::Doxygen::FileQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery">MdDox::Doxygen::FileQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#mddoxdoxygenformulaquery">MdDox::Doxygen::FormulaQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1FormulaQuery.md#formulaquery">MdDox::Doxygen::FormulaQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#mddoxdoxygengraphquery">MdDox::Doxygen::GraphQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery">MdDox::Doxygen::GraphQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#mddoxdoxygenheadingquery">MdDox::Doxygen::HeadingQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery">MdDox::Doxygen::HeadingQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#mddoxdoxygenhighlightquery">MdDox::Doxygen::HighlightQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1HighlightQuery.md#highlightquery">MdDox::Doxygen::HighlightQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#mddoxdoxygenimagequery">MdDox::Doxygen::ImageQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery">MdDox::Doxygen::ImageQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#mddoxdoxygenincquery">MdDox::Doxygen::IncQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IncQuery.md#incquery">MdDox::Doxygen::IncQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#mddoxdoxygenindexentryquery">MdDox::Doxygen::IndexEntryQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1IndexEntryQuery.md#indexentryquery">MdDox::Doxygen::IndexEntryQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#mddoxdoxygeninternalquery">MdDox::Doxygen::InternalQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalQuery.md#internalquery">MdDox::Doxygen::InternalQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#mddoxdoxygeninternals1query">MdDox::Doxygen::InternalS1Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS1Query.md#internals1query">MdDox::Doxygen::InternalS1Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#mddoxdoxygeninternals2query">MdDox::Doxygen::InternalS2Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS2Query.md#internals2query">MdDox::Doxygen::InternalS2Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#mddoxdoxygeninternals3query">MdDox::Doxygen::InternalS3Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS3Query.md#internals3query">MdDox::Doxygen::InternalS3Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#mddoxdoxygeninternals4query">MdDox::Doxygen::InternalS4Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1InternalS4Query.md#internals4query">MdDox::Doxygen::InternalS4Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#mddoxdoxygenlanguagequery">MdDox::Doxygen::LanguageQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery">MdDox::Doxygen::LanguageQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#mddoxdoxygenlinkedtextquery">MdDox::Doxygen::LinkedTextQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">MdDox::Doxygen::LinkedTextQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#mddoxdoxygenlinkquery">MdDox::Doxygen::LinkQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LinkQuery.md#linkquery">MdDox::Doxygen::LinkQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#mddoxdoxygenlistingquery">MdDox::Doxygen::ListingQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery">MdDox::Doxygen::ListingQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#mddoxdoxygenlistitemquery">MdDox::Doxygen::ListItemQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListItemQuery.md#listitemquery">MdDox::Doxygen::ListItemQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#mddoxdoxygenlistofallmembersquery">MdDox::Doxygen::ListOfAllMembersQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListOfAllMembersQuery.md#listofallmembersquery">MdDox::Doxygen::ListOfAllMembersQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#mddoxdoxygenlistquery">MdDox::Doxygen::ListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">MdDox::Doxygen::ListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#mddoxdoxygenlocationquery">MdDox::Doxygen::LocationQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1LocationQuery.md#locationquery">MdDox::Doxygen::LocationQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#mddoxdoxygenmarkupquery">MdDox::Doxygen::MarkupQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">MdDox::Doxygen::MarkupQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#mddoxdoxygenmemberdefquery">MdDox::Doxygen::MemberDefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberDefQuery.md#memberdefquery">MdDox::Doxygen::MemberDefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#mddoxdoxygenmemberindexquery">MdDox::Doxygen::MemberIndexQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberIndexQuery.md#memberindexquery">MdDox::Doxygen::MemberIndexQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#mddoxdoxygenmemberrefquery">MdDox::Doxygen::MemberRefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1MemberRefQuery.md#memberrefquery">MdDox::Doxygen::MemberRefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#mddoxdoxygennodequery">MdDox::Doxygen::NodeQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery">MdDox::Doxygen::NodeQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#mddoxdoxygenparamlistitemquery">MdDox::Doxygen::ParamListItemQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListItemQuery.md#paramlistitemquery">MdDox::Doxygen::ParamListItemQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#mddoxdoxygenparamlistquery">MdDox::Doxygen::ParamListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery">MdDox::Doxygen::ParamListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#mddoxdoxygenparamnamelistquery">MdDox::Doxygen::ParamNameListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameListQuery.md#paramnamelistquery">MdDox::Doxygen::ParamNameListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#mddoxdoxygenparamnamequery">MdDox::Doxygen::ParamNameQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamNameQuery.md#paramnamequery">MdDox::Doxygen::ParamNameQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#mddoxdoxygenparamquery">MdDox::Doxygen::ParamQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamQuery.md#paramquery">MdDox::Doxygen::ParamQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#mddoxdoxygenparamtypequery">MdDox::Doxygen::ParamTypeQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParamTypeQuery.md#paramtypequery">MdDox::Doxygen::ParamTypeQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#mddoxdoxygenparaquery">MdDox::Doxygen::ParaQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">MdDox::Doxygen::ParaQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#mddoxdoxygenparblockquery">MdDox::Doxygen::ParBlockQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery">MdDox::Doxygen::ParBlockQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#mddoxdoxygenreferencequery">MdDox::Doxygen::ReferenceQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReferenceQuery.md#referencequery">MdDox::Doxygen::ReferenceQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#mddoxdoxygenrefquery">MdDox::Doxygen::RefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">MdDox::Doxygen::RefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#mddoxdoxygenreftextquery">MdDox::Doxygen::RefTextQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">MdDox::Doxygen::RefTextQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#mddoxdoxygenreimplementquery">MdDox::Doxygen::ReimplementQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1ReimplementQuery.md#reimplementquery">MdDox::Doxygen::ReimplementQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#mddoxdoxygenrowquery">MdDox::Doxygen::RowQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1RowQuery.md#rowquery">MdDox::Doxygen::RowQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#mddoxdoxygensect1query">MdDox::Doxygen::Sect1Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query">MdDox::Doxygen::Sect1Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#mddoxdoxygensect2query">MdDox::Doxygen::Sect2Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect2Query.md#sect2query">MdDox::Doxygen::Sect2Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#mddoxdoxygensect3query">MdDox::Doxygen::Sect3Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect3Query.md#sect3query">MdDox::Doxygen::Sect3Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#mddoxdoxygensect4query">MdDox::Doxygen::Sect4Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Sect4Query.md#sect4query">MdDox::Doxygen::Sect4Query</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#mddoxdoxygensectiondefquery">MdDox::Doxygen::SectionDefQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">MdDox::Doxygen::SectionDefQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#mddoxdoxygensimplesectquery">MdDox::Doxygen::SimpleSectQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery">MdDox::Doxygen::SimpleSectQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#mddoxdoxygenspquery">MdDox::Doxygen::SpQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1SpQuery.md#spquery">MdDox::Doxygen::SpQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#mddoxdoxygentablequery">MdDox::Doxygen::TableQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery">MdDox::Doxygen::TableQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#mddoxdoxygentemplateparamlistquery">MdDox::Doxygen::TemplateParamListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TemplateParamListQuery.md#templateparamlistquery">MdDox::Doxygen::TemplateParamListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#mddoxdoxygentitlequery">MdDox::Doxygen::TitleQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery">MdDox::Doxygen::TitleQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#mddoxdoxygentocitemquery">MdDox::Doxygen::TocItemQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocItemQuery.md#tocitemquery">MdDox::Doxygen::TocItemQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#mddoxdoxygentoclistquery">MdDox::Doxygen::TocListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery">MdDox::Doxygen::TocListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#mddoxdoxygenurllinkquery">MdDox::Doxygen::UrlLinkQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">MdDox::Doxygen::UrlLinkQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#mddoxdoxygenvariablelistquery">MdDox::Doxygen::VariableListQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery">MdDox::Doxygen::VariableListQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#mddoxdoxygenvarlistentryquery">MdDox::Doxygen::VarListEntryQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1VarListEntryQuery.md#varlistentryquery">MdDox::Doxygen::VarListEntryQuery</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#mddoxdoxygenxrefsectquery">MdDox::Doxygen::XRefSectQuery</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1XRefSectQuery.md#xrefsectquery">MdDox::Doxygen::XRefSectQuery</a>
 </div>
 <img src="../images/dot/internal-diagram-59.dot.svg"/><br/>
 <a id="protected-members"></a>
@@ -273,7 +273,7 @@
 </span>
 <a id="_node"></a>
 <h2>_node</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="bold-text"><b>_node</b></span>
 <br/>
@@ -299,7 +299,7 @@
 <span class="bold-text"><b>Query</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="inline-text">node</span>
 </span>
@@ -363,7 +363,7 @@
 <br/>
 <a id="node"></a>
 <h2>node</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="bold-text"><b>node</b></span>
 <span class="italic-text"><i>(</i></span>

@@ -1,7 +1,7 @@
 <a id="graphwriter"></a>
 <h1>GraphWriter</h1>
 <a id="classMdDox_1_1GraphWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor.md#mddoxdoxygenvisitorsgraphqueryvisitor">MdDox::Doxygen::Visitors::GraphQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor.md#graphqueryvisitor">MdDox::Doxygen::Visitors::GraphQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-107.dot.svg"/><br/>
 <a id="public-typedefs"></a>
@@ -95,7 +95,7 @@
 <br/>
 <a id="_idmap"></a>
 <h2>_idMap</h2>
-<a href="namespaceMdDox_1_1Xml.md#xmlnodemap">Xml::NodeMap</a>
+<a href="namespaceMdDox_1_1Xml.md#nodemap">Xml::NodeMap</a>
 <span class="bold-text"><b>_idMap</b></span>
 <br/>
 <a id="defined-in"></a>
@@ -128,7 +128,7 @@
 <br/>
 <a id="_root"></a>
 <h2>_root</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="bold-text"><b>_root</b></span>
 <br/>
 <a id="defined-in"></a>
@@ -168,7 +168,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#doxygennodequery">Doxygen::NodeQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1NodeQuery.md#nodequery">Doxygen::NodeQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -263,7 +263,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#doxygengraphquery">Doxygen::GraphQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1GraphQuery.md#graphquery">Doxygen::GraphQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>

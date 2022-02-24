@@ -1,7 +1,7 @@
 <a id="tableofcontents"></a>
 <h1>TableOfContents</h1>
 <a id="classMdDox_1_1TableOfContents"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#mddoxdoxygenvisitorscompounddefqueryvisitor">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor.md#compounddefqueryvisitor">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-134.dot.svg"/><br/>
 <a id="public-members"></a>
@@ -177,7 +177,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">Doxygen::RefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -216,7 +216,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#doxygenrefquery">Doxygen::RefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1RefQuery.md#refquery">Doxygen::RefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -255,7 +255,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#doxygensectiondefquery">Doxygen::SectionDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1SectionDefQuery.md#sectiondefquery">Doxygen::SectionDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>

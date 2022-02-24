@@ -1,7 +1,7 @@
 <a id="paragraphwriter"></a>
 <h1>ParagraphWriter</h1>
 <a id="classMdDox_1_1ParagraphWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor.md#mddoxdoxygenvisitorsparaqueryvisitor">MdDox::Doxygen::Visitors::ParaQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor.md#paraqueryvisitor">MdDox::Doxygen::Visitors::ParaQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-120.dot.svg"/><br/>
 <a id="private-members"></a>
@@ -218,7 +218,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#doxygenanchorquery">Doxygen::AnchorQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1AnchorQuery.md#anchorquery">Doxygen::AnchorQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -255,7 +255,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#doxygenblockquotequery">Doxygen::BlockQuoteQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1BlockQuoteQuery.md#blockquotequery">Doxygen::BlockQuoteQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -292,7 +292,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -329,7 +329,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -366,7 +366,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -440,7 +440,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1FileQuery.md#doxygenfilequery">Doxygen::FileQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1FileQuery.md#filequery">Doxygen::FileQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -477,7 +477,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -514,7 +514,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#doxygenheadingquery">Doxygen::HeadingQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1HeadingQuery.md#headingquery">Doxygen::HeadingQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -551,7 +551,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#doxygenemptyquery">Doxygen::EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">Doxygen::EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -588,7 +588,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#doxygenimagequery">Doxygen::ImageQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ImageQuery.md#imagequery">Doxygen::ImageQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -625,7 +625,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#doxygenlistquery">Doxygen::ListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">Doxygen::ListQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -662,7 +662,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#doxygenlanguagequery">Doxygen::LanguageQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1LanguageQuery.md#languagequery">Doxygen::LanguageQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -699,7 +699,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#doxygenemptyquery">Doxygen::EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">Doxygen::EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -736,7 +736,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#doxygenlistquery">Doxygen::ListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListQuery.md#listquery">Doxygen::ListQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -773,7 +773,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#doxygenparaquery">Doxygen::ParaQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">Doxygen::ParaQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -810,7 +810,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#doxygenparamlistquery">Doxygen::ParamListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParamListQuery.md#paramlistquery">Doxygen::ParamListQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -847,7 +847,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#doxygenparblockquery">Doxygen::ParBlockQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParBlockQuery.md#parblockquery">Doxygen::ParBlockQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -884,7 +884,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#doxygenemptyquery">Doxygen::EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">Doxygen::EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -921,7 +921,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -958,7 +958,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#doxygenlistingquery">Doxygen::ListingQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ListingQuery.md#listingquery">Doxygen::ListingQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -995,7 +995,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#doxygenemptyquery">Doxygen::EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">Doxygen::EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1032,7 +1032,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#doxygenreftextquery">Doxygen::RefTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">Doxygen::RefTextQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1069,7 +1069,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#doxygenemptyquery">Doxygen::EmptyQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1EmptyQuery.md#emptyquery">Doxygen::EmptyQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1106,7 +1106,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#doxygensimplesectquery">Doxygen::SimpleSectQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1SimpleSectQuery.md#simplesectquery">Doxygen::SimpleSectQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1143,7 +1143,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#doxygenmarkupquery">Doxygen::MarkupQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1MarkupQuery.md#markupquery">Doxygen::MarkupQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1180,7 +1180,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1TableQuery.md#doxygentablequery">Doxygen::TableQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1TableQuery.md#tablequery">Doxygen::TableQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1244,7 +1244,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#doxygentitlequery">Doxygen::TitleQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1TitleQuery.md#titlequery">Doxygen::TitleQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1281,7 +1281,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#doxygentoclistquery">Doxygen::TocListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1TocListQuery.md#toclistquery">Doxygen::TocListQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1318,7 +1318,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#doxygenurllinkquery">Doxygen::UrlLinkQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1UrlLinkQuery.md#urllinkquery">Doxygen::UrlLinkQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1355,7 +1355,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#doxygenvariablelistquery">Doxygen::VariableListQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1VariableListQuery.md#variablelistquery">Doxygen::VariableListQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -1419,7 +1419,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#doxygenparaquery">Doxygen::ParaQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">Doxygen::ParaQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">paragraph</span>
 </span>

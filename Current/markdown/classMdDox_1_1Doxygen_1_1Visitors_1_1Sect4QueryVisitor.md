@@ -1,7 +1,7 @@
 <a id="sect4queryvisitor"></a>
 <h1>Sect4QueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1Sect4QueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -18,7 +18,7 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Section4Writer.md#mddoxsection4writer">MdDox::Section4Writer</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Section4Writer.md#section4writer">MdDox::Section4Writer</a>
 </div>
 <img src="../images/dot/internal-diagram-94.dot.svg"/><br/>
 <a id="public-methods"></a>

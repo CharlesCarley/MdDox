@@ -1,7 +1,7 @@
 <a id="htmldocumentwriter"></a>
 <h1>HtmlDocumentWriter</h1>
 <a id="classMdDox_1_1HtmlDocumentWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,12 +14,12 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1DocumentWriter.md#mddoxdocumentwriter">MdDox::DocumentWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1DocumentWriter.md#documentwriter">MdDox::DocumentWriter</a>
 </div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1MarkdownDocumentWriter.md#mddoxmarkdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-108.dot.svg"/><br/>
 <a id="private-members"></a>

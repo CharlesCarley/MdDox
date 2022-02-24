@@ -1,7 +1,7 @@
 <a id="memberdefqueryvisitor"></a>
 <h1>MemberDefQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -18,16 +18,16 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1EnumDefWriter.md#mddoxenumdefwriter">MdDox::EnumDefWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1EnumDefWriter.md#enumdefwriter">MdDox::EnumDefWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1FunctionDefWriter.md#mddoxfunctiondefwriter">MdDox::FunctionDefWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1FunctionDefWriter.md#functiondefwriter">MdDox::FunctionDefWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefListingWriter.md#mddoxmemberdeflistingwriter">MdDox::MemberDefListingWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter">MdDox::MemberDefListingWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefWriter.md#mddoxmemberdefwriter">MdDox::MemberDefWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefWriter.md#memberdefwriter">MdDox::MemberDefWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-85.dot.svg"/><br/>
 <a id="public-methods"></a>

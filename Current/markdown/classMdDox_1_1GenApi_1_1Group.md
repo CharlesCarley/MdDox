@@ -1,7 +1,7 @@
 <a id="group"></a>
 <h1>Group</h1>
 <a id="classMdDox_1_1GenApi_1_1Group"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,12 +16,12 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#mddoxgenapiobject">MdDox::GenApi::Object</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#object">MdDox::GenApi::Object</a>
 </div>
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Complex.md#mddoxgenapicomplex">MdDox::GenApi::Complex</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Complex.md#complex">MdDox::GenApi::Complex</a>
 </div>
 <img src="../images/dot/internal-diagram-102.dot.svg"/><br/>
 <a id="protected-members"></a>
@@ -273,7 +273,7 @@
 <br/>
 <a id="_node"></a>
 <h2>_node</h2>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="bold-text"><b>_node</b></span>
 <br/>
@@ -1000,7 +1000,7 @@
 <span class="bold-text"><b>Group</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="inline-text">node</span>
 </span>

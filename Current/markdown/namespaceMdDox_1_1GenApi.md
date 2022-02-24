@@ -1,7 +1,7 @@
 <a id="genapi"></a>
 <h1>GenApi</h1>
 <a id="namespaceMdDox_1_1GenApi"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -36,7 +36,7 @@
 <br/>
 <span class="inline-text">
  It has a direct dependency on </span>
-<a href="namespaceMdDox_1_1Xml.md#mddoxxml">MdDox::Xml</a>
+<a href="namespaceMdDox_1_1Xml.md#xml">MdDox::Xml</a>
 <span class="inline-text"> both to generate the library and in the final output. </span>
 <br/>
 <br/>
@@ -48,7 +48,7 @@
 <br/>
 <img src="../images/dot/internal-diagram-4.dot.svg"/><br/>
 <span class="bold-text"><b>For example</b></span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#mddoxdoxygencompounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
 <br/>
 <span class="inline-text">
  The following xml provides the source for the </span>
@@ -391,7 +391,7 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 <span class="inline-text">std::unordered_map&lt; </span>
 <a href="namespaceMdDox.md#string">String</a>
 <span class="inline-text">, </span>
-<a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> * &gt;</span>
 <span class="bold-text"><b>NodeMap</b></span>
 <br/>
@@ -419,7 +419,7 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 <a id="switches"></a>
 <h2>Switches</h2>
 <span class="inline-text">constexpr </span>
-<a href="structMdDox_1_1CommandLine_1_1Switch.md#commandlineswitch">CommandLine::Switch</a>
+<a href="structMdDox_1_1CommandLine_1_1Switch.md#switch">CommandLine::Switch</a>
 <span class="bold-text"><b>Switches</b></span>
 <br/>
 <span class="inline-text">Document. </span>

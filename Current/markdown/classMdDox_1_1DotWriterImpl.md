@@ -1,7 +1,7 @@
 <a id="dotwriterimpl"></a>
 <h1>DotWriterImpl</h1>
 <a id="classMdDox_1_1DotWriterImpl"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

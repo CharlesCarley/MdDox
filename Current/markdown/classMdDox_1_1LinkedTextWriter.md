@@ -1,7 +1,7 @@
 <a id="linkedtextwriter"></a>
 <h1>LinkedTextWriter</h1>
 <a id="classMdDox_1_1LinkedTextWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor.md#mddoxdoxygenvisitorslinkedtextqueryvisitor">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1LinkedTextQueryVisitor.md#linkedtextqueryvisitor">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-111.dot.svg"/><br/>
 <a id="private-members"></a>
@@ -98,7 +98,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#doxygenreftextquery">Doxygen::RefTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">Doxygen::RefTextQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -189,7 +189,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#doxygenlinkedtextquery">Doxygen::LinkedTextQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1LinkedTextQuery.md#linkedtextquery">Doxygen::LinkedTextQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>

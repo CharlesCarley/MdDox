@@ -1,7 +1,7 @@
 <a id="cache"></a>
 <h1>Cache</h1>
 <a id="classMdDox_1_1Cache"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

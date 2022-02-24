@@ -1,7 +1,7 @@
 <a id="html"></a>
 <h1>Html</h1>
 <a id="namespaceMdDox_1_1Html"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -664,13 +664,6 @@
 <span class="inline-text">reference</span>
 </span>
 </div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">comment</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
@@ -1182,13 +1175,6 @@
 <span class="inline-text">reference</span>
 </span>
 </div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">comment</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
@@ -1227,18 +1213,19 @@
 <span class="inline-text">reference</span>
 </span>
 </div>
-<div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox.md#string">String</a>
-<span class="inline-text"> &amp;</span>
-<span class="inline-text">comment</span>
-</span>
-</div>
 <span class="italic-text"><i>)</i></span>
 <a id="references"></a>
 <h4>References</h4>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1StringUtils.md#trimwhitespace">trimWhiteSpace</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#stringcombine">StringCombine</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox_1_1HashUtils.md#heading">heading</a>
 </span>
 </div>
 <div class="paragraph">

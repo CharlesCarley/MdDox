@@ -1,7 +1,7 @@
 <a id="codelinequery"></a>
 <h1>CodeLineQuery</h1>
 <a id="classMdDox_1_1Doxygen_1_1CodeLineQuery"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -20,7 +20,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#mddoxdoxygenquery">MdDox::Doxygen::Query</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Query.md#query">MdDox::Doxygen::Query</a>
 </div>
 <img src="../images/dot/internal-diagram-14.dot.svg"/><br/>
 <a id="public-methods"></a>
@@ -118,7 +118,7 @@
 <span class="bold-text"><b>CodeLineQuery</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="inline-text">node</span>
 </span>
@@ -351,7 +351,7 @@
 <span class="bold-text"><b>visit</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor.md#visitorscodelinequeryvisitor">Visitors::CodeLineQueryVisitor</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1CodeLineQueryVisitor.md#codelinequeryvisitor">Visitors::CodeLineQueryVisitor</a>
 <span class="inline-text"> *</span>
 <span class="inline-text"> = </span>
 <span class="inline-text">visitor</span>

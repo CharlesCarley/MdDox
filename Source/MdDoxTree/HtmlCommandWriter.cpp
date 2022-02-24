@@ -170,12 +170,12 @@ namespace MdDox::Html
         endSpan(output);
     }
 
-    void linkImage(OStream& output, const String& image, const String& reference, const String& comment)
+    void linkImage(OStream& output, const String& image, const String& reference)
     {
         embedContentLink(output, image, reference);
     }
 
-    void embedImage(OStream& output, const String& reference, const String& comment)
+    void embedImage(OStream& output, const String& reference)
     {
         embedContent(output, reference);
     }
@@ -276,10 +276,13 @@ namespace MdDox::Html
         output << "</h" << index << ">" << std::endl;
     }
 
-    void linkRef(OStream& output, const String& title, const String& reference, const String& comment)
+    void linkRef(OStream& output, const String& title, const String& reference)
     {
         String link;
         StringUtils::trimWhiteSpace(link, reference);
+
+        if (reference.find('#') == String::npos)
+            StringCombine(link, link, HashUtils::heading(title));
         beginLink(output, link);
         output << title;
         endLink(output);

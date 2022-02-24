@@ -1,7 +1,7 @@
 <a id="image-handling"></a>
 <h1>Image handling</h1>
 <a id="Image"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -24,21 +24,21 @@
 <br/>
 <span class="inline-text">
  Icons are expected to be in the </span>
-<a href="../images">images</a>
+<a href="../images#images">images</a>
 <span class="inline-text"> directory.</span>
 <a id="Image_1Internal"></a>
 <a id="icons"></a>
 <h3>Icons</h3>
 <span class="inline-text">The static class </span>
-<a href="classMdDox_1_1IconSet.md#mddoxiconset">MdDox::IconSet</a>
+<a href="classMdDox_1_1IconSet.md#iconset">MdDox::IconSet</a>
 <span class="inline-text"> maps the enum </span>
-<a href="namespaceMdDox.md#mddoxiconid">MdDox::IconId</a>
+<a href="namespaceMdDox.md#iconid">MdDox::IconId</a>
 <span class="inline-text"> to the following files to use specific icons internally.</span>
 <a id="Image_1Sources"></a>
 <a id="sources"></a>
 <h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
-<a href="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</a>
+<a href="https://github.com/google/material-design-icons#https:--github.com-google-material-design-icons">https://github.com/google/material-design-icons</a>
 </div>
 </div>
 </body>

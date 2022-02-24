@@ -1,7 +1,7 @@
 <a id="complex"></a>
 <h1>Complex</h1>
 <a id="classMdDox_1_1GenApi_1_1Complex"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,7 +16,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Group.md#mddoxgenapigroup">MdDox::GenApi::Group</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Group.md#group">MdDox::GenApi::Group</a>
 </div>
 <img src="../images/dot/internal-diagram-101.dot.svg"/><br/>
 <a id="public-methods"></a>
@@ -43,7 +43,7 @@
 <span class="bold-text"><b>Complex</b></span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
-<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#xmlnode">Xml::Node</a>
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
 <span class="inline-text"> *</span>
 <span class="inline-text">node</span>
 </span>

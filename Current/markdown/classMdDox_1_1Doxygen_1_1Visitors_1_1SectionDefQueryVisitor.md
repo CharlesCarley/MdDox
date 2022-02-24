@@ -1,7 +1,7 @@
 <a id="sectiondefqueryvisitor"></a>
 <h1>SectionDefQueryVisitor</h1>
 <a id="classMdDox_1_1Doxygen_1_1Visitors_1_1SectionDefQueryVisitor"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -18,10 +18,10 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefListingWriter.md#mddoxsectiondeflistingwriter">MdDox::SectionDefListingWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefListingWriter.md#sectiondeflistingwriter">MdDox::SectionDefListingWriter</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefWriter.md#mddoxsectiondefwriter">MdDox::SectionDefWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1SectionDefWriter.md#sectiondefwriter">MdDox::SectionDefWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-95.dot.svg"/><br/>
 <a id="public-methods"></a>

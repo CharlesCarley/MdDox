@@ -1,7 +1,7 @@
 <a id="sitebuilder"></a>
 <h1>SiteBuilder</h1>
 <a id="classMdDox_1_1SiteBuilder"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -457,7 +457,7 @@ Maps to the config option </span>
 <span class="bold-text"><b>styleSheet</b></span>
 <br/>
 <span class="inline-text">Defines the </span>
-<a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter">MdDox::HtmlDocumentWriter</a>
+<a href="classMdDox_1_1HtmlDocumentWriter.md#htmldocumentwriter">MdDox::HtmlDocumentWriter</a>
 <span class="inline-text"> style sheet. </span>
 <br/>
 <br/>
@@ -810,7 +810,7 @@ Maps to the config option </span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>
@@ -860,7 +860,7 @@ Maps to the config option </span>
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>
@@ -929,7 +929,7 @@ Maps to the config option </span>
 </ul>
 <span class="inline-text">
 Uses </span>
-<a href="classMdDox_1_1Config.md#mddoxconfig">MdDox::Config</a>
+<a href="classMdDox_1_1Config.md#config">MdDox::Config</a>
 <span class="inline-text"> to collect configuration options. </span>
 <br/>
 <a id="references"></a>

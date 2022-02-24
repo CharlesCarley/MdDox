@@ -1,7 +1,7 @@
 <a id="indexpagewriter"></a>
 <h1>IndexPageWriter</h1>
 <a id="classMdDox_1_1IndexPageWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor.md#mddoxdoxygenvisitorsdoxygenindexqueryvisitor">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor.md#doxygenindexqueryvisitor">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-110.dot.svg"/><br/>
 <a id="private-members"></a>
@@ -231,7 +231,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygendoxygenindexquery">Doxygen::DoxygenIndexQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DoxygenIndexQuery.md#doxygenindexquery">Doxygen::DoxygenIndexQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>

@@ -1,7 +1,7 @@
 <a id="parseerror"></a>
 <h1>ParseError</h1>
 <a id="classMdDox_1_1ParseError"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -16,7 +16,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Exception.md#mddoxexception">MdDox::Exception</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Exception.md#exception">MdDox::Exception</a>
 </div>
 <img src="../images/dot/internal-diagram-123.dot.svg"/><br/>
 <a id="private-static-methods"></a>

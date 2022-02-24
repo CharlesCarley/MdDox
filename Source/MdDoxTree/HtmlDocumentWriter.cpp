@@ -304,6 +304,7 @@ namespace MdDox
     {
         // Do not use with a URL
         // \todo A URL needs its own method linkURL
+
         if (PathUtil(ref).fullExtension().empty())
         {
             const String link = StringCombine(ref, SiteBuilder::get().outputFileExt);

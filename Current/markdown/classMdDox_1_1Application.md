@@ -1,7 +1,7 @@
 <a id="application"></a>
 <h1>Application</h1>
 <a id="classMdDox_1_1Application"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -203,7 +203,7 @@
 <br/>
 <a id="see"></a>
 <h4>See</h4>
-<a href="namespaceMdDox_1_1CommandLine.md#mddoxcommandline">MdDox::CommandLine</a>
+<a href="namespaceMdDox_1_1CommandLine.md#commandline">MdDox::CommandLine</a>
 <br/>
 <br/>
 <a id="references"></a>

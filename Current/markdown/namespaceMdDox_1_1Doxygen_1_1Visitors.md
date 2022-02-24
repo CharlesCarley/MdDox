@@ -1,7 +1,7 @@
 <a id="visitors"></a>
 <h1>Visitors</h1>
 <a id="namespaceMdDox_1_1Doxygen_1_1Visitors"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

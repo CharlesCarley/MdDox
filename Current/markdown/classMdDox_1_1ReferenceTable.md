@@ -1,7 +1,7 @@
 <a id="referencetable"></a>
 <h1>ReferenceTable</h1>
 <a id="classMdDox_1_1ReferenceTable"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -106,7 +106,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>
@@ -161,7 +161,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>
@@ -261,7 +261,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>
@@ -316,7 +316,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="namespaceMdDox_1_1Doxygen.md#doxygendoxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
+<a href="namespaceMdDox_1_1Doxygen.md#doxmemberkindenum">Doxygen::DoxMemberKindEnum</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">kind</span>
 </span>

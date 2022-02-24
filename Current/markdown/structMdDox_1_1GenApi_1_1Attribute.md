@@ -1,7 +1,7 @@
 <a id="attribute"></a>
 <h1>Attribute</h1>
 <a id="structMdDox_1_1GenApi_1_1Attribute"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

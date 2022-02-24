@@ -1,7 +1,7 @@
 <a id="mddox"></a>
 <h1>MdDox</h1>
 <a id="namespaceMdDox"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -1142,7 +1142,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <a id="switches"></a>
 <h2>Switches</h2>
 <span class="inline-text">constexpr </span>
-<a href="structMdDox_1_1CommandLine_1_1Switch.md#commandlineswitch">CommandLine::Switch</a>
+<a href="structMdDox_1_1CommandLine_1_1Switch.md#switch">CommandLine::Switch</a>
 <span class="bold-text"><b>Switches</b></span>
 <br/>
 <a id="defined-in"></a>

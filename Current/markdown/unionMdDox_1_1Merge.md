@@ -1,7 +1,7 @@
 <a id="merge"></a>
 <h1>Merge</h1>
 <a id="unionMdDox_1_1Merge"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

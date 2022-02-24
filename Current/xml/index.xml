@@ -3440,7 +3440,7 @@
     <member refid="namespaceMdDox_1_1Html_1a0355076f1ebdaf535206ffbb10c29137" kind="function"><name>comment</name></member>
     <member refid="namespaceMdDox_1_1Html_1abcae1e0614a73145390d5f4d36076b76" kind="function"><name>embedContent</name></member>
     <member refid="namespaceMdDox_1_1Html_1a079b0a5c964849113fa9c5dd8943c5c3" kind="function"><name>embedContentLink</name></member>
-    <member refid="namespaceMdDox_1_1Html_1a3a4834c911f81879c4239579f61ea16a" kind="function"><name>embedImage</name></member>
+    <member refid="namespaceMdDox_1_1Html_1ac3486e77d313a9efcade4627b8e4602e" kind="function"><name>embedImage</name></member>
     <member refid="namespaceMdDox_1_1Html_1afd4a1a662954c5f7c3a6fa028727a0fe" kind="function"><name>embedLinkContentPoint</name></member>
     <member refid="namespaceMdDox_1_1Html_1a0be46add43352dfd05116b59a296cfb2" kind="function"><name>endBlockQuote</name></member>
     <member refid="namespaceMdDox_1_1Html_1a0824649e36363745a69b9d152ed94b04" kind="function"><name>endDivSection</name></member>
@@ -3457,8 +3457,8 @@
     <member refid="namespaceMdDox_1_1Html_1aa8da87be8ae84652cdfee4a024530671" kind="function"><name>inlineText</name></member>
     <member refid="namespaceMdDox_1_1Html_1a96ea910a055a54cf23b9819ebfefa604" kind="function"><name>italicText</name></member>
     <member refid="namespaceMdDox_1_1Html_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kind="function"><name>lineBreak</name></member>
-    <member refid="namespaceMdDox_1_1Html_1abb94bee05027be41dc5dc134d94d4944" kind="function"><name>linkImage</name></member>
-    <member refid="namespaceMdDox_1_1Html_1aa984e524f17166592f0c4094d6155df8" kind="function"><name>linkRef</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a4fe70a6cc84575f162d21da8ced43494" kind="function"><name>linkImage</name></member>
+    <member refid="namespaceMdDox_1_1Html_1a1a55e0ba58b2823e339a320d8a2d496c" kind="function"><name>linkRef</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa4a0de5cb5e7eb2760f72184be3a1320" kind="function"><name>paragraph</name></member>
     <member refid="namespaceMdDox_1_1Html_1aa40ae7a1ac649ca5df5860c5b9dd96e3" kind="function"><name>space</name></member>
     <member refid="namespaceMdDox_1_1Html_1a2bb4faee66304448a12583437d97d66e" kind="function"><name>typewriterText</name></member>

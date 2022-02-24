@@ -69,11 +69,11 @@ namespace MdDox::Html
 
     extern void italicText(OStream& output, const String& str);
 
-    extern void linkImage(OStream& output, const String& image, const String& reference, const String& comment = "");
+    extern void linkImage(OStream& output, const String& image, const String& reference);
 
-    extern void linkRef(OStream& output, const String& title, const String& reference, const String& comment = "");
+    extern void linkRef(OStream& output, const String& title, const String& reference);
 
-    extern void embedImage(OStream& output, const String& reference, const String& comment = "");
+    extern void embedImage(OStream& output, const String& reference);
 
     extern void embedContent(OStream& output, const String& content);
 

@@ -1,7 +1,7 @@
 <a id="reference"></a>
 <h1>Reference</h1>
 <a id="classMdDox_1_1Reference"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,10 +14,10 @@
 <a id="derived-by"></a>
 <h4>Derived By</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1CompoundReference.md#mddoxcompoundreference">MdDox::CompoundReference</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1CompoundReference.md#compoundreference">MdDox::CompoundReference</a>
 </div>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1MemberReference.md#mddoxmemberreference">MdDox::MemberReference</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1MemberReference.md#memberreference">MdDox::MemberReference</a>
 </div>
 <img src="../images/dot/internal-diagram-125.dot.svg"/><br/>
 <a id="protected-members"></a>

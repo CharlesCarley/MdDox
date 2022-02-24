@@ -1,7 +1,7 @@
 <a id="markdowndocumentwriter"></a>
 <h1>MarkdownDocumentWriter</h1>
 <a id="classMdDox_1_1MarkdownDocumentWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1HtmlDocumentWriter.md#mddoxhtmldocumentwriter">MdDox::HtmlDocumentWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1HtmlDocumentWriter.md#htmldocumentwriter">MdDox::HtmlDocumentWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-113.dot.svg"/><br/>
 <a id="public-methods"></a>

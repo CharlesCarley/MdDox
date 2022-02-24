@@ -1,7 +1,7 @@
 <a id="descriptionwriter"></a>
 <h1>DescriptionWriter</h1>
 <a id="classMdDox_1_1DescriptionWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor.md#mddoxdoxygenvisitorsdescriptionqueryvisitor">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1Doxygen_1_1Visitors_1_1DescriptionQueryVisitor.md#descriptionqueryvisitor">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</a>
 </div>
 <img src="../images/dot/internal-diagram-7.dot.svg"/><br/>
 <a id="private-members"></a>
@@ -106,7 +106,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#doxygenparaquery">Doxygen::ParaQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1ParaQuery.md#paraquery">Doxygen::ParaQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -143,7 +143,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#doxygensect1query">Doxygen::Sect1Query</a>
+<a href="classMdDox_1_1Doxygen_1_1Sect1Query.md#sect1query">Doxygen::Sect1Query</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>
@@ -271,7 +271,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#doxygendescriptionquery">Doxygen::DescriptionQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">description</span>
 </span>

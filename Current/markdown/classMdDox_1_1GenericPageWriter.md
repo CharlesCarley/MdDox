@@ -1,7 +1,7 @@
 <a id="genericpagewriter"></a>
 <h1>GenericPageWriter</h1>
 <a id="classMdDox_1_1GenericPageWriter"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
@@ -14,7 +14,7 @@
 <a id="derived-from"></a>
 <h4>Derived From</h4>
 <div class="icon-link">
-<img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#mddoxpagewriter">MdDox::PageWriter</a>
+<img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#pagewriter">MdDox::PageWriter</a>
 </div>
 <img src="../images/dot/internal-diagram-105.dot.svg"/><br/>
 <a id="private-methods"></a>
@@ -49,7 +49,7 @@
 <span class="italic-text"><i>(</i></span>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
-<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#doxygencompounddefquery">Doxygen::CompoundDefQuery</a>
+<a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">Doxygen::CompoundDefQuery</a>
 <span class="inline-text"> &amp;</span>
 <span class="inline-text">query</span>
 </span>

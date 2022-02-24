@@ -1,7 +1,7 @@
 <a id="scanner"></a>
 <h1>Scanner</h1>
 <a id="classMdDox_1_1CommandLine_1_1Scanner"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>

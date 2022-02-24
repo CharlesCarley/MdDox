@@ -35,8 +35,16 @@ namespace MdDox::HashUtils
 
     String cleanTitle(const String& title)
     {
+        StringArray lbr;
+        StringUtils::split(lbr, title, "::");
+
+
         String headingTitle;
-        StringUtils::replaceAll(headingTitle, title, "::", "");
+        if (!lbr.empty())
+            headingTitle = lbr.back();
+        else
+            headingTitle = title;
+
         StringUtils::replaceAll(headingTitle, headingTitle, " ", "-");
         StringUtils::replaceAll(headingTitle, headingTitle, "/", "-");
         StringUtils::replaceAll(headingTitle, headingTitle, "\\", "-");

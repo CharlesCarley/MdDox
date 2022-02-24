@@ -187,7 +187,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="53" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="53" bodyend="62"/>
         <references refid="namespaceMdDox_1_1Html_1a8bc834d49091ecffa2ed998ebbf1817d" compoundref="HtmlCommandWriter_8cpp" startline="127" endline="130">anchor</references>
-        <references refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" compoundref="HashUtils_8cpp" startline="36" endline="45">MdDox::HashUtils::cleanTitle</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a115b0cf102c16116e020830eb0430b89" compoundref="HashUtils_8cpp" startline="36" endline="53">MdDox::HashUtils::cleanTitle</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
         <references refid="namespaceMdDox_1_1Html_1a9ac5fac2002b4e7494e3e99fcfc9e6be" compoundref="HtmlCommandWriter_8cpp" startline="214" endline="219">heading</references>
         <references refid="namespaceMdDox_1_1Html_1afb4e833a61ac2c31943e0969ec8958f0" compoundref="HtmlCommandWriter_8cpp" startline="41" endline="45">beginDivSection</references>
@@ -341,10 +341,10 @@
         <references refid="namespaceMdDox_1_1Html_1a97fe56265abcde241b1562de413ece45" compoundref="HtmlCommandWriter_8cpp" startline="139" endline="145">inlineImage</references>
         <references refid="namespaceMdDox_1_1Html_1ae00b2ad365f221d267c183ac53f572a7" compoundref="HtmlCommandWriter_8cpp" startline="242" endline="245">endLink</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1Html_1a3a4834c911f81879c4239579f61ea16a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1_1Html_1ac3486e77d313a9efcade4627b8e4602e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Html::embedImage</definition>
-        <argsstring>(OStream &amp;output, const String &amp;reference, const String &amp;comment)</argsstring>
+        <argsstring>(OStream &amp;output, const String &amp;reference)</argsstring>
         <name>embedImage</name>
         <param>
           <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
@@ -353,10 +353,6 @@
         <param>
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
           <declname>reference</declname>
-        </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>comment</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -718,10 +714,10 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="30" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="30" bodyend="33"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1Html_1abb94bee05027be41dc5dc134d94d4944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1_1Html_1a4fe70a6cc84575f162d21da8ced43494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Html::linkImage</definition>
-        <argsstring>(OStream &amp;output, const String &amp;image, const String &amp;reference, const String &amp;comment)</argsstring>
+        <argsstring>(OStream &amp;output, const String &amp;image, const String &amp;reference)</argsstring>
         <name>linkImage</name>
         <param>
           <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
@@ -735,10 +731,6 @@
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
           <declname>reference</declname>
         </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>comment</declname>
-        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -748,10 +740,10 @@
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="173" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="173" bodyend="176"/>
         <references refid="namespaceMdDox_1_1Html_1a079b0a5c964849113fa9c5dd8943c5c3" compoundref="HtmlCommandWriter_8cpp" startline="189" endline="195">embedContentLink</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceMdDox_1_1Html_1aa984e524f17166592f0c4094d6155df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMdDox_1_1Html_1a1a55e0ba58b2823e339a320d8a2d496c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MdDox::Html::linkRef</definition>
-        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;reference, const String &amp;comment)</argsstring>
+        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;reference)</argsstring>
         <name>linkRef</name>
         <param>
           <type><ref refid="namespaceMdDox_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
@@ -765,18 +757,16 @@
           <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
           <declname>reference</declname>
         </param>
-        <param>
-          <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>comment</declname>
-        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="279" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="279" bodyend="286"/>
+        <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="279" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="279" bodyend="289"/>
         <references refid="classMdDox_1_1StringUtils_1a129eedfc9277ca8acab4fe29cf3dcdea" compoundref="String_8cpp" startline="274" endline="302">MdDox::StringUtils::trimWhiteSpace</references>
+        <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
         <references refid="namespaceMdDox_1_1Html_1acf2ca4cce2f6a82e53465809c87bef51" compoundref="HtmlCommandWriter_8cpp" startline="234" endline="240">beginLink</references>
         <references refid="namespaceMdDox_1_1Html_1ae00b2ad365f221d267c183ac53f572a7" compoundref="HtmlCommandWriter_8cpp" startline="242" endline="245">endLink</references>
       </memberdef>

@@ -1,7 +1,7 @@
 <a id="doxcharrange"></a>
 <h1>DoxCharRange</h1>
 <a id="classMdDox_1_1Doxygen_1_1DoxCharRange"></a>
-<a href="https://github.com/CharlesCarley/MdDox">~</a>
+<a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
 <a href="index.md#index">Index</a>
