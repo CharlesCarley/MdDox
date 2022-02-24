@@ -226,7 +226,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/DotWriter.cpp" line="118" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="118" bodyend="125"/>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="275" endline="278">MdDox::Xml::Node::children</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

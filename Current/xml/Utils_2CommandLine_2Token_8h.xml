@@ -5,66 +5,21 @@
     <includes refid="String_8h" local="yes">Utils/String.h</includes>
     <includedby refid="Utils_2CommandLine_2Scanner_8h" local="yes">Source/Utils/CommandLine/Scanner.h</includedby>
     <incdepgraph>
-      <node id="2673">
+      <node id="2681">
         <label>iomanip</label>
       </node>
-      <node id="2670">
+      <node id="2678">
         <label>string</label>
       </node>
-      <node id="2668">
+      <node id="2676">
         <label>fstream</label>
       </node>
-      <node id="2666">
+      <node id="2674">
         <label>Utils/String.h</label>
-        <childnode refid="2667" relation="include">
+        <childnode refid="2675" relation="include">
         </childnode>
-        <childnode refid="2668" relation="include">
+        <childnode refid="2676" relation="include">
         </childnode>
-        <childnode refid="2669" relation="include">
-        </childnode>
-        <childnode refid="2670" relation="include">
-        </childnode>
-        <childnode refid="2671" relation="include">
-        </childnode>
-        <childnode refid="2672" relation="include">
-        </childnode>
-        <childnode refid="2673" relation="include">
-        </childnode>
-      </node>
-      <node id="2672">
-        <label>vector</label>
-      </node>
-      <node id="2669">
-        <label>sstream</label>
-      </node>
-      <node id="2667">
-        <label>deque</label>
-      </node>
-      <node id="2671">
-        <label>unordered_map</label>
-      </node>
-      <node id="2665">
-        <label>Source/Utils/CommandLine/Token.h</label>
-        <link refid="Utils_2CommandLine_2Token_8h"/>
-        <childnode refid="2666" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="2681">
-        <label>Source/Utils/CommandLine/Scanner.cpp</label>
-      </node>
-      <node id="2680">
-        <label>Tools/ResourceCompiler/Main.cpp</label>
-      </node>
-      <node id="2679">
-        <label>Tools/GenApi/Main.cpp</label>
-      </node>
-      <node id="2678">
-        <label>Source/Utils/CommandLine/Parser.cpp</label>
-      </node>
-      <node id="2676">
-        <label>Source/Utils/CommandLine/Parser.h</label>
         <childnode refid="2677" relation="include">
         </childnode>
         <childnode refid="2678" relation="include">
@@ -73,21 +28,66 @@
         </childnode>
         <childnode refid="2680" relation="include">
         </childnode>
-      </node>
-      <node id="2675">
-        <label>Source/Utils/CommandLine/Scanner.h</label>
-        <childnode refid="2676" relation="include">
-        </childnode>
         <childnode refid="2681" relation="include">
         </childnode>
       </node>
-      <node id="2677">
-        <label>Source/MdDox/Main.cpp</label>
+      <node id="2680">
+        <label>vector</label>
       </node>
-      <node id="2674">
+      <node id="2677">
+        <label>sstream</label>
+      </node>
+      <node id="2675">
+        <label>deque</label>
+      </node>
+      <node id="2679">
+        <label>unordered_map</label>
+      </node>
+      <node id="2673">
         <label>Source/Utils/CommandLine/Token.h</label>
         <link refid="Utils_2CommandLine_2Token_8h"/>
-        <childnode refid="2675" relation="include">
+        <childnode refid="2674" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2689">
+        <label>Source/Utils/CommandLine/Scanner.cpp</label>
+      </node>
+      <node id="2688">
+        <label>Tools/ResourceCompiler/Main.cpp</label>
+      </node>
+      <node id="2687">
+        <label>Tools/GenApi/Main.cpp</label>
+      </node>
+      <node id="2686">
+        <label>Source/Utils/CommandLine/Parser.cpp</label>
+      </node>
+      <node id="2684">
+        <label>Source/Utils/CommandLine/Parser.h</label>
+        <childnode refid="2685" relation="include">
+        </childnode>
+        <childnode refid="2686" relation="include">
+        </childnode>
+        <childnode refid="2687" relation="include">
+        </childnode>
+        <childnode refid="2688" relation="include">
+        </childnode>
+      </node>
+      <node id="2683">
+        <label>Source/Utils/CommandLine/Scanner.h</label>
+        <childnode refid="2684" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2685">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="2682">
+        <label>Source/Utils/CommandLine/Token.h</label>
+        <link refid="Utils_2CommandLine_2Token_8h"/>
+        <childnode refid="2683" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

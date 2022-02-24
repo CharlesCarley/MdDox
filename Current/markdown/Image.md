@@ -39,6 +39,18 @@
 <h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
 <a href="https://github.com/google/material-design-icons#https:--github.com-google-material-design-icons">https://github.com/google/material-design-icons</a>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/Image.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">Image.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

@@ -111,6 +111,14 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#firstparentof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstParentOf</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#firstparentof" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">firstParentOf</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#get" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">get</span>
 </a>
 </span>
@@ -219,7 +227,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -236,7 +244,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -254,7 +262,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -272,7 +280,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -291,7 +299,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -310,7 +318,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -328,7 +336,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -346,7 +354,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -364,7 +372,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -391,7 +399,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -430,7 +438,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -465,7 +473,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -506,7 +514,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -551,7 +559,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -597,7 +605,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -654,7 +662,7 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L224" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L228" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -664,7 +672,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -685,7 +693,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -716,7 +724,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -752,7 +760,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -784,7 +792,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -815,7 +823,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -838,13 +846,85 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L268" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
+<a id="firstparentof"></a>
+<h2>firstParentOf</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>firstParentOf</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="namespaceMdDox.md#string">String</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">tag</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#istypeof">isTypeOf</a>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L214" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L244" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
+<a id="firstparentof"></a>
+<h2>firstParentOf</h2>
+<a href="classMdDox_1_1Xml_1_1Node.md#node">Node</a>
+<span class="inline-text"> *</span>
+<span class="bold-text"><b>firstParentOf</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const int64_t &amp;</span>
+<span class="inline-text">tag</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="references"></a>
+<h4>References</h4>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1Xml_1_1Node.md#istypeof">isTypeOf</a>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L216" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L256" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -882,7 +962,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -919,7 +999,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -954,7 +1034,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -978,7 +1058,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -998,13 +1078,13 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L266" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L270" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1038,7 +1118,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L256" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L260" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1048,7 +1128,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1068,7 +1148,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L248" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L252" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1078,7 +1158,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1098,13 +1178,13 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L261" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L265" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1147,7 +1227,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1208,7 +1288,7 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L229" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L233" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1218,7 +1298,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1262,7 +1342,7 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L236" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L240" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1272,7 +1352,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1306,7 +1386,7 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L243" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L247" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1316,7 +1396,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1344,7 +1424,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1371,17 +1451,17 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L214" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L218" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L254" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L278" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1406,17 +1486,17 @@
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L216" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L220" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L269" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.cpp#L293" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1450,7 +1530,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1479,7 +1559,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1516,7 +1596,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1542,7 +1622,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1562,7 +1642,7 @@
 <span class="italic-text"><i>)</i></span>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L268" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L272" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
 <br/>
@@ -1572,7 +1652,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1622,7 +1702,7 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
@@ -1666,11 +1746,23 @@
 <br/>
 <br/>
 <blockquote>
-<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+<span class="icon-list-item"><a href="#node" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
 </blockquote>
 <br/>
+<br/>
+<blockquote>
+<img src="../images/debug.svg"/><span class="inline-text">The following sources were used to generate this page.</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/classMdDox_1_1Xml_1_1Node.xml#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">classMdDox_1_1Xml_1_1Node.xml</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="../xml/compound.xsd#L1" class="icon-list-item"><img src="../images/lookInside.svg" class="icon-list-item"/><span class="icon-list-item">compound.xsd</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

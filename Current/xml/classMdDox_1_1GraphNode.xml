@@ -84,6 +84,8 @@
       <member refid="classMdDox_1_1Xml_1_1Node_1a80fc8e1401910987742533404ff32638" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>firstChild</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>firstChildOf</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1add1af0fb2e1a5e62d0ca9871eccac544" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>firstChildOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a351e5efc578e2af82cec5e6edbfff72d" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>firstParentOf</name></member>
+      <member refid="classMdDox_1_1Xml_1_1Node_1a1c496e70eb43a65c61ee1c5d58bd392f" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>firstParentOf</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1ab38a9a4aaa25a138918401ea97a1180e" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>get</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>getFirstChild</name></member>
       <member refid="classMdDox_1_1Xml_1_1Node_1ab9c5ef38f588a8ae17d1b45ea1797fa3" prot="public" virt="non-virtual"><scope>MdDox::GraphNode</scope><name>getFirstChild</name></member>

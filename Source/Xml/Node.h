@@ -211,6 +211,10 @@ namespace MdDox::Xml
 
         Node* firstChildOf(const int64_t& tag);
 
+        Node* firstParentOf(const String& tag);
+
+        Node* firstParentOf(const int64_t& tag);
+
         Node* nextSiblingOf(const String& tag) const;
 
         Node* nextSiblingOf(const int64_t& tag) const;

@@ -5,150 +5,150 @@
     <includes refid="ReferenceTable_8h" local="yes">ReferenceTable.h</includes>
     <includes refid="WriteUtils_8h" local="yes">WriteUtils.h</includes>
     <incdepgraph>
-      <node id="1786">
+      <node id="1793">
         <label>Utils/Console.h</label>
-        <childnode refid="1774" relation="include">
+        <childnode refid="1781" relation="include">
         </childnode>
       </node>
-      <node id="1780">
+      <node id="1787">
         <label>iomanip</label>
       </node>
-      <node id="1772">
+      <node id="1779">
         <label>functional</label>
       </node>
-      <node id="1782">
+      <node id="1789">
         <label>Utils/Exception.h</label>
+        <childnode refid="1790" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1792" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1781" relation="include">
+        </childnode>
+      </node>
+      <node id="1791">
+        <label>stdexcept</label>
+      </node>
+      <node id="1785">
+        <label>string</label>
+      </node>
+      <node id="1778">
+        <label>Doxygen.h</label>
+        <childnode refid="1779" relation="include">
+        </childnode>
+        <childnode refid="1780" relation="include">
+        </childnode>
+        <childnode refid="1781" relation="include">
+        </childnode>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1789" relation="include">
+        </childnode>
+      </node>
+      <node id="1775">
+        <label>map</label>
+      </node>
+      <node id="1790">
+        <label>exception</label>
+      </node>
+      <node id="1783">
+        <label>fstream</label>
+      </node>
+      <node id="1797">
+        <label>MdDoxTree/IconSet.h</label>
+        <childnode refid="1781" relation="include">
+        </childnode>
+      </node>
+      <node id="1788">
+        <label>Xml/Node.h</label>
+        <childnode refid="1779" relation="include">
+        </childnode>
+        <childnode refid="1780" relation="include">
+        </childnode>
+        <childnode refid="1781" relation="include">
+        </childnode>
+      </node>
+      <node id="1794">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1776">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="1777" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+      </node>
+      <node id="1781">
+        <label>Utils/String.h</label>
+        <childnode refid="1782" relation="include">
+        </childnode>
         <childnode refid="1783" relation="include">
         </childnode>
         <childnode refid="1784" relation="include">
         </childnode>
         <childnode refid="1785" relation="include">
         </childnode>
+        <childnode refid="1780" relation="include">
+        </childnode>
         <childnode refid="1786" relation="include">
-        </childnode>
-        <childnode refid="1774" relation="include">
-        </childnode>
-      </node>
-      <node id="1784">
-        <label>stdexcept</label>
-      </node>
-      <node id="1778">
-        <label>string</label>
-      </node>
-      <node id="1771">
-        <label>Doxygen.h</label>
-        <childnode refid="1772" relation="include">
-        </childnode>
-        <childnode refid="1773" relation="include">
-        </childnode>
-        <childnode refid="1774" relation="include">
-        </childnode>
-        <childnode refid="1781" relation="include">
-        </childnode>
-        <childnode refid="1782" relation="include">
-        </childnode>
-      </node>
-      <node id="1768">
-        <label>map</label>
-      </node>
-      <node id="1783">
-        <label>exception</label>
-      </node>
-      <node id="1776">
-        <label>fstream</label>
-      </node>
-      <node id="1790">
-        <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="1774" relation="include">
-        </childnode>
-      </node>
-      <node id="1781">
-        <label>Xml/Node.h</label>
-        <childnode refid="1772" relation="include">
-        </childnode>
-        <childnode refid="1773" relation="include">
-        </childnode>
-        <childnode refid="1774" relation="include">
-        </childnode>
-      </node>
-      <node id="1787">
-        <label>Doxygen/DoxMemberKind.h</label>
-        <childnode refid="1771" relation="include">
-        </childnode>
-      </node>
-      <node id="1769">
-        <label>ReferenceIdentifiers.h</label>
-        <childnode refid="1770" relation="include">
         </childnode>
         <childnode refid="1787" relation="include">
         </childnode>
-        <childnode refid="1788" relation="include">
-        </childnode>
       </node>
       <node id="1774">
-        <label>Utils/String.h</label>
+        <label>ReferenceTable.h</label>
         <childnode refid="1775" relation="include">
         </childnode>
         <childnode refid="1776" relation="include">
         </childnode>
-        <childnode refid="1777" relation="include">
-        </childnode>
-        <childnode refid="1778" relation="include">
-        </childnode>
-        <childnode refid="1773" relation="include">
-        </childnode>
-        <childnode refid="1779" relation="include">
-        </childnode>
-        <childnode refid="1780" relation="include">
-        </childnode>
       </node>
-      <node id="1767">
-        <label>ReferenceTable.h</label>
-        <childnode refid="1768" relation="include">
-        </childnode>
-        <childnode refid="1769" relation="include">
-        </childnode>
-      </node>
-      <node id="1779">
+      <node id="1786">
         <label>vector</label>
       </node>
-      <node id="1785">
+      <node id="1792">
         <label>utility</label>
       </node>
-      <node id="1777">
+      <node id="1784">
         <label>sstream</label>
       </node>
-      <node id="1789">
+      <node id="1796">
         <label>WriteUtils.h</label>
-        <childnode refid="1790" relation="include">
+        <childnode refid="1797" relation="include">
         </childnode>
-        <childnode refid="1788" relation="include">
+        <childnode refid="1795" relation="include">
         </childnode>
-        <childnode refid="1774" relation="include">
+        <childnode refid="1781" relation="include">
         </childnode>
       </node>
-      <node id="1775">
+      <node id="1782">
         <label>deque</label>
       </node>
-      <node id="1773">
+      <node id="1780">
         <label>unordered_map</label>
       </node>
-      <node id="1766">
+      <node id="1773">
         <label>Source/MdDoxTree/ReferenceTable.cpp</label>
         <link refid="ReferenceTable_8cpp"/>
-        <childnode refid="1767" relation="include">
-        </childnode>
-        <childnode refid="1789" relation="include">
-        </childnode>
-      </node>
-      <node id="1770">
-        <label>Doxygen/DoxCompoundKind.h</label>
-        <childnode refid="1771" relation="include">
-        </childnode>
-      </node>
-      <node id="1788">
-        <label>Reference.h</label>
         <childnode refid="1774" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+      </node>
+      <node id="1777">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1795">
+        <label>Reference.h</label>
+        <childnode refid="1781" relation="include">
         </childnode>
       </node>
     </incdepgraph>

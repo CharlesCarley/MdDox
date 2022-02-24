@@ -209,7 +209,7 @@
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="290" endline="293">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1HeadingQuery_1a348290a5d2ca0634f9501c5c3fcc718c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -588,7 +588,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/HeadingQuery.h" line="141" column="1" bodyfile="Tools/Doxygen/HeadingQuery.cpp" bodystart="34" bodyend="95"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="275" endline="278">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor_1a0b74afd29593a87f0f18d7d217906a2d" compoundref="HeadingQuery_8h" startline="38" endline="38">MdDox::Doxygen::Visitors::HeadingQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1HeadingQueryVisitor_1a0f77316f0a273a0fc59c1d4920ac42a3" compoundref="HeadingQuery_8h" startline="43" endline="43">MdDox::Doxygen::Visitors::HeadingQueryVisitor::visitedULink</references>

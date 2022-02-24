@@ -21,10 +21,12 @@
 */
 #include "MdDoxTree/LocationWriter.h"
 #include "DocumentWriter.h"
+#include "Doxygen/CompoundDefQuery.h"
 #include "MdDoxTree/HashUtils.h"
 #include "MdDoxTree/SiteBuilder.h"
 #include "MdDoxTree/WriteUtils.h"
 #include "Utils/Path.h"
+#include "TypeFilter/DoxygenFilter.h"
 
 namespace MdDox
 {
@@ -66,10 +68,20 @@ namespace MdDox
             }
         }
 
+        String root;
+        if (query.isValid())
+        {
+            const Doxygen::CompoundDefQuery cdq(query.node()->firstParentOf(Doxygen::DoxCompoundDef));
+            root = HashUtils::heading(cdq.getCompoundName());
+        }
+        else
+            root = "#";
+
+
         _writer->lineBreak(_out);
         _writer->lineBreak(_out);
         _writer->beginBlockQuote(_out);
-        _writer->embedContentLinkText(_out, ICO_JUMP_TO_TOP, "#", "top");
+        _writer->embedContentLinkText(_out, ICO_JUMP_TO_TOP, root, "top");
         _writer->endBlockQuote(_out);
          return syncStream(_stream, _out);
     }

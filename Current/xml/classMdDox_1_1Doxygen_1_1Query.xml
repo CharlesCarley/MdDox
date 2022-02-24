@@ -194,7 +194,7 @@
         <location file="Tools/Doxygen/Doxygen.h" line="246" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="246" bodyend="269"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">_node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1aa85495a564a50bb46cd0df3489a1dd54" compoundref="Node_8cpp" startline="158" endline="163">MdDox::Xml::Node::sort</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="316" endline="319">MdDox::Xml::Node::getTypeCode</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1a321280cbd46dac12918a0de34c009720" compoundref="Node_8h" startline="320" endline="323">MdDox::Xml::Node::getTypeCode</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Query_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
@@ -215,7 +215,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/Doxygen.h" line="275" column="1" bodyfile="Tools/Doxygen/Doxygen.h" bodystart="275" bodyend="278"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">_node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="290" endline="293">MdDox::Xml::Node::text</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -241,6 +241,30 @@ namespace MdDox::Xml
         return nullptr;
     }
 
+    Node* Node::firstParentOf(const String& tag)
+    {
+        Node* cur = (Node*)this;
+        while (cur)
+        {
+            cur = cur->_parent;
+            if (cur && cur->isTypeOf(tag.c_str()))
+                break;
+        }
+        return cur;
+    }
+
+    Node* Node::firstParentOf(const int64_t& tag)
+    {
+        Node* cur = (Node*)this;
+        while (cur)
+        {
+            if (cur && cur->isTypeOf(tag))
+                break;
+            cur = cur->_parent;
+        }
+        return cur;
+    }
+
     Node* Node::firstChildOf(const int64_t& tag)
     {
         for (Node* child : _children)

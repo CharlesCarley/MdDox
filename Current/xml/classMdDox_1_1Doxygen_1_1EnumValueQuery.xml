@@ -196,7 +196,7 @@
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="286" endline="289">MdDox::Xml::Node::text</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1ab85578367da69da2df67971b9420726a" compoundref="Node_8h" startline="290" endline="293">MdDox::Xml::Node::text</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1EnumValueQuery_1a288755136e1ebe4adf692da03a42213a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="namespaceMdDox_1_1Doxygen_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
@@ -232,7 +232,7 @@
         </inbodydescription>
         <location file="Tools/Doxygen/EnumValueQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/EnumValueQuery.cpp" bodystart="30" bodyend="58"/>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="Doxygen_8h" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="271" endline="274">MdDox::Xml::Node::children</references>
+        <references refid="classMdDox_1_1Xml_1_1Node_1aca46484307f43cd0fb3c7263827ffa36" compoundref="Node_8h" startline="275" endline="278">MdDox::Xml::Node::children</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="DoxygenFilter_8h" startline="31">MdDox::Doxygen::DoxTextNode</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a9b145b645b9ac842de9b5de18a6b7690" compoundref="EnumValueQuery_8h" startline="39" endline="39">MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedText</references>
         <references refid="classMdDox_1_1Doxygen_1_1Visitors_1_1EnumValueQueryVisitor_1a2667a88d3674c9409b49b7c2ed201120" compoundref="EnumValueQuery_8h" startline="44" endline="44">MdDox::Doxygen::Visitors::EnumValueQueryVisitor::visitedInitializer</references>

@@ -31,126 +31,26 @@
     <includedby refid="SectionDefWriter_8cpp" local="yes">Source/MdDoxTree/SectionDefWriter.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="2275">
+      <node id="2282">
         <label>iomanip</label>
       </node>
-      <node id="2272">
+      <node id="2279">
         <label>string</label>
       </node>
-      <node id="2270">
+      <node id="2277">
         <label>fstream</label>
       </node>
-      <node id="2267">
+      <node id="2274">
         <label>MdDoxTree/IconSet.h</label>
-        <childnode refid="2268" relation="include">
-        </childnode>
-      </node>
-      <node id="2268">
-        <label>Utils/String.h</label>
-        <childnode refid="2269" relation="include">
-        </childnode>
-        <childnode refid="2270" relation="include">
-        </childnode>
-        <childnode refid="2271" relation="include">
-        </childnode>
-        <childnode refid="2272" relation="include">
-        </childnode>
-        <childnode refid="2273" relation="include">
-        </childnode>
-        <childnode refid="2274" relation="include">
-        </childnode>
         <childnode refid="2275" relation="include">
         </childnode>
       </node>
-      <node id="2274">
-        <label>vector</label>
-      </node>
-      <node id="2271">
-        <label>sstream</label>
-      </node>
-      <node id="2266">
-        <label>Source/MdDoxTree/WriteUtils.h</label>
-        <link refid="WriteUtils_8h"/>
-        <childnode refid="2267" relation="include">
-        </childnode>
+      <node id="2275">
+        <label>Utils/String.h</label>
         <childnode refid="2276" relation="include">
         </childnode>
-        <childnode refid="2268" relation="include">
+        <childnode refid="2277" relation="include">
         </childnode>
-      </node>
-      <node id="2269">
-        <label>deque</label>
-      </node>
-      <node id="2273">
-        <label>unordered_map</label>
-      </node>
-      <node id="2276">
-        <label>MdDoxTree/Reference.h</label>
-        <childnode refid="2268" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="2294">
-        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
-      </node>
-      <node id="2289">
-        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
-      </node>
-      <node id="2283">
-        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
-      </node>
-      <node id="2301">
-        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
-      </node>
-      <node id="2302">
-        <label>Source/MdDoxTree/WriteUtils.cpp</label>
-      </node>
-      <node id="2284">
-        <label>Source/MdDoxTree/GraphWriter.cpp</label>
-      </node>
-      <node id="2299">
-        <label>Source/MdDoxTree/Section4Writer.cpp</label>
-      </node>
-      <node id="2281">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
-      </node>
-      <node id="2290">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
-      </node>
-      <node id="2291">
-        <label>Source/MdDoxTree/PageWriter.cpp</label>
-      </node>
-      <node id="2298">
-        <label>Source/MdDoxTree/Section3Writer.cpp</label>
-      </node>
-      <node id="2282">
-        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
-      </node>
-      <node id="2297">
-        <label>Source/MdDoxTree/Section2Writer.cpp</label>
-      </node>
-      <node id="2279">
-        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
-      </node>
-      <node id="2278">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
-      </node>
-      <node id="2293">
-        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
-      </node>
-      <node id="2296">
-        <label>Source/MdDoxTree/Section1Writer.cpp</label>
-      </node>
-      <node id="2292">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
-      </node>
-      <node id="2286">
-        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
-      </node>
-      <node id="2277">
-        <label>Source/MdDoxTree/WriteUtils.h</label>
-        <link refid="WriteUtils_8h"/>
         <childnode refid="2278" relation="include">
         </childnode>
         <childnode refid="2279" relation="include">
@@ -161,10 +61,96 @@
         </childnode>
         <childnode refid="2282" relation="include">
         </childnode>
+      </node>
+      <node id="2281">
+        <label>vector</label>
+      </node>
+      <node id="2278">
+        <label>sstream</label>
+      </node>
+      <node id="2273">
+        <label>Source/MdDoxTree/WriteUtils.h</label>
+        <link refid="WriteUtils_8h"/>
+        <childnode refid="2274" relation="include">
+        </childnode>
         <childnode refid="2283" relation="include">
         </childnode>
-        <childnode refid="2284" relation="include">
+        <childnode refid="2275" relation="include">
         </childnode>
+      </node>
+      <node id="2276">
+        <label>deque</label>
+      </node>
+      <node id="2280">
+        <label>unordered_map</label>
+      </node>
+      <node id="2283">
+        <label>MdDoxTree/Reference.h</label>
+        <childnode refid="2275" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2301">
+        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
+      </node>
+      <node id="2296">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="2290">
+        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
+      </node>
+      <node id="2308">
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
+      </node>
+      <node id="2309">
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
+      </node>
+      <node id="2291">
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      </node>
+      <node id="2306">
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
+      </node>
+      <node id="2288">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="2297">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      </node>
+      <node id="2298">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="2305">
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
+      </node>
+      <node id="2289">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="2304">
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+      </node>
+      <node id="2286">
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+      </node>
+      <node id="2285">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="2300">
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="2303">
+        <label>Source/MdDoxTree/Section1Writer.cpp</label>
+      </node>
+      <node id="2299">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="2293">
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="2284">
+        <label>Source/MdDoxTree/WriteUtils.h</label>
+        <link refid="WriteUtils_8h"/>
         <childnode refid="2285" relation="include">
         </childnode>
         <childnode refid="2286" relation="include">
@@ -201,23 +187,37 @@
         </childnode>
         <childnode refid="2302" relation="include">
         </childnode>
+        <childnode refid="2303" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2308" relation="include">
+        </childnode>
+        <childnode refid="2309" relation="include">
+        </childnode>
       </node>
-      <node id="2300">
+      <node id="2307">
         <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
       </node>
-      <node id="2288">
+      <node id="2295">
         <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
       </node>
-      <node id="2287">
+      <node id="2294">
         <label>Source/MdDoxTree/LocationWriter.cpp</label>
       </node>
-      <node id="2280">
+      <node id="2287">
         <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
       </node>
-      <node id="2295">
+      <node id="2302">
         <label>Source/MdDoxTree/ReferenceTable.cpp</label>
       </node>
-      <node id="2285">
+      <node id="2292">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
