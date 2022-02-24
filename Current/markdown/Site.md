@@ -9,24 +9,10 @@
 <span class="bold-text"><b>Site</b></span>
 <br/>
 <br/>
-<ul>
-<li><a href="Site.md#main-page">Main Page</a>
-</li>
-<li><a href="Site.md#index">Index</a>
-</li>
-<li><a href="Site.md#namespace-index">Namespace Index</a>
-</li>
-<li><a href="Site.md#directory-index">Directory Index</a>
-</li>
-<li><a href="Site.md#class-index">Class Index</a>
-</li>
-<li><a href="Site.md#page-index">Page Index</a>
-</li>
-</ul>
+<img src="../images/dot/internal-diagram-2.dot.svg"/><br/>
 <a id="Site_1Details"></a>
 <a id="details"></a>
 <h2>Details</h2>
-<img src="../images/dot/internal-diagram-2.dot.svg"/><br/>
 <a id="Site_1MP"></a>
 <a id="main-page"></a>
 <h3>Main Page</h3>
@@ -59,8 +45,10 @@
 <h3>Directory Index</h3>
 <span class="inline-text">The directory index is defined in </span>
 <code class="typewriter">directory_index</code>
-<span class="inline-text">. It contains a List of all top level directories in the current project*.</span>
-<span class="italic-text"><i>*project refers to the current index.xml file.</i></span>
+<span class="inline-text">. It contains a List of all top level directories in the current project.</span>
+<br/>
+<br/>
+<span class="italic-text"><i>project refers to the current index.xml file.</i></span>
 </div>
 </div>
 </body>

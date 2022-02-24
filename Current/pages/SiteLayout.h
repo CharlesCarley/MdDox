@@ -1,16 +1,7 @@
 /*! 
  \page Site Site Layout
+ 
 
-<ul>
-<li> \ref MP </li>
-<li> \ref Index</li>
-<li> \ref NI </li>
-<li> \ref DI </li>
-<li> \ref CI </li>
-<li> \ref PI </li>
-</ul>
-
- \section Details
 
  \dot
 digraph {
@@ -189,7 +180,7 @@ digraph {
 }
  \enddot
 
-
+ \section Details
 
  \subsection MP Main Page
 
@@ -223,15 +214,14 @@ pages defined in the current index.xml.
  \subsection DI Directory Index
 
 The directory index is defined in \c directory_index. It contains a List of all 
-top level directories in the current project*. 
+top level directories in the current project. 
 
 
 
 
 
-<em>*project refers to the current index.xml file.</em>
-
-
+\n\n
+<em>project refers to the current index.xml file.</em>
 
 */
 
