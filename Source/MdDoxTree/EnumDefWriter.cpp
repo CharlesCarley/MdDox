@@ -58,6 +58,9 @@ namespace MdDox
         const Doxygen::DescriptionQuery brief  = query.getBriefDescription();
         const Doxygen::DescriptionQuery detail = query.getDetailedDescription();
 
+
+        _writer->anchor(_out, LinkUtils::LBR(name));
+
         if (!_list)
         {
             if (!brief.empty() && !detail.empty())

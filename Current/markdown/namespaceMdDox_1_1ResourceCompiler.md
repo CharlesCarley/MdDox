@@ -50,18 +50,22 @@
 <span class="inline-text"> command line options. </span>
 <br/>
 <br/>
+<a id="OptOutputFileName"></a>
 <span class="icon-list-item"><a href="#optoutputfilename" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputFileName</span>
 </a>
 </span>
 <br/>
+<a id="OptNameSpace"></a>
 <span class="icon-list-item"><a href="#optnamespace" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptNameSpace</span>
 </a>
 </span>
 <br/>
+<a id="OptionsMax"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptionsMax</span>
 </span>
 </div>
+<a id="OptOutputFileName"></a>
 <a id="optoutputfilename"></a>
 <h4>OptOutputFileName</h4>
 <br/>
@@ -71,6 +75,7 @@
 <code class="typewriter">-o [file-stem-name]</code>
 <span class="inline-text">The output files will be split between a source and header file with the supplied name. </span>
 <br/>
+<a id="OptNameSpace"></a>
 <a id="optnamespace"></a>
 <h4>OptNameSpace</h4>
 <br/>
@@ -79,6 +84,7 @@
 <br/>
 <code class="typewriter">-n [namespace]</code>
 <br/>
+<a id="OptionsMax"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>

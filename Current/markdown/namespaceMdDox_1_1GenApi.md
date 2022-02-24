@@ -218,22 +218,30 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 <h2>ElementType</h2>
 <span class="bold-text"><b>ElementType</b></span>
 <br/>
+<a id="BASE_TYPE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BASE_TYPE</span>
 </span>
 </div>
+<a id="SIMPLE_TYPE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">SIMPLE_TYPE</span>
 </span>
 </div>
+<a id="COMPLEX_TYPE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">COMPLEX_TYPE</span>
 </span>
 </div>
+<a id="GROUP_TYPE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">GROUP_TYPE</span>
 </span>
 </div>
+<a id="BASE_TYPE"></a>
+<a id="SIMPLE_TYPE"></a>
+<a id="COMPLEX_TYPE"></a>
+<a id="GROUP_TYPE"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Types.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Types.h</span>
@@ -247,42 +255,60 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 <span class="inline-text">Document. </span>
 <br/>
 <br/>
+<a id="OptInputFile"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptInputFile</span>
 </span>
 </div>
+<a id="OptOutDir"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptOutDir</span>
 </span>
 </div>
+<a id="OptLogComplexTypes"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogComplexTypes</span>
 </span>
 </div>
+<a id="OptLogSimpleTypes"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogSimpleTypes</span>
 </span>
 </div>
+<a id="OptLogAttributeNames"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogAttributeNames</span>
 </span>
 </div>
+<a id="OptLogElementNames"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogElementNames</span>
 </span>
 </div>
+<a id="OptLogGroupNames"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptLogGroupNames</span>
 </span>
 </div>
+<a id="OptOpLogEnumValues"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptOpLogEnumValues</span>
 </span>
 </div>
+<a id="OptionsMax"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptionsMax</span>
 </span>
 </div>
+<a id="OptInputFile"></a>
+<a id="OptOutDir"></a>
+<a id="OptLogComplexTypes"></a>
+<a id="OptLogSimpleTypes"></a>
+<a id="OptLogAttributeNames"></a>
+<a id="OptLogElementNames"></a>
+<a id="OptLogGroupNames"></a>
+<a id="OptOpLogEnumValues"></a>
+<a id="OptionsMax"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Main.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>

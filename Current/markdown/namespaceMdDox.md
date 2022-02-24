@@ -486,14 +486,18 @@
 <h2>BackendWriter</h2>
 <span class="bold-text"><b>BackendWriter</b></span>
 <br/>
+<a id="BackendHtml"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendHtml</span>
 </span>
 </div>
+<a id="BackendMarkdown"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendMarkdown</span>
 </span>
 </div>
+<a id="BackendHtml"></a>
+<a id="BackendMarkdown"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
@@ -507,70 +511,102 @@
 <span class="inline-text">Enum for adding specific background and foreground colors to the console. </span>
 <br/>
 <br/>
+<a id="CS_BLACK"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLACK</span>
 </span>
 </div>
+<a id="CS_DARK_BLUE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_BLUE</span>
 </span>
 </div>
+<a id="CS_DARK_GREEN"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_GREEN</span>
 </span>
 </div>
+<a id="CS_DARK_CYAN"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_CYAN</span>
 </span>
 </div>
+<a id="CS_DARK_RED"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_RED</span>
 </span>
 </div>
+<a id="CS_DARK_MAGENTA"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
 </span>
 </div>
+<a id="CS_DARK_YELLOW"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
 </span>
 </div>
+<a id="CS_LIGHT_GREY"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
 </span>
 </div>
+<a id="CS_GREY"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREY</span>
 </span>
 </div>
+<a id="CS_BLUE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLUE</span>
 </span>
 </div>
+<a id="CS_GREEN"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREEN</span>
 </span>
 </div>
+<a id="CS_CYAN"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_CYAN</span>
 </span>
 </div>
+<a id="CS_RED"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_RED</span>
 </span>
 </div>
+<a id="CS_MAGENTA"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_MAGENTA</span>
 </span>
 </div>
+<a id="CS_YELLOW"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_YELLOW</span>
 </span>
 </div>
+<a id="CS_WHITE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_WHITE</span>
 </span>
 </div>
+<a id="CS_BLACK"></a>
+<a id="CS_DARK_BLUE"></a>
+<a id="CS_DARK_GREEN"></a>
+<a id="CS_DARK_CYAN"></a>
+<a id="CS_DARK_RED"></a>
+<a id="CS_DARK_MAGENTA"></a>
+<a id="CS_DARK_YELLOW"></a>
+<a id="CS_LIGHT_GREY"></a>
+<a id="CS_GREY"></a>
+<a id="CS_BLUE"></a>
+<a id="CS_GREEN"></a>
+<a id="CS_CYAN"></a>
+<a id="CS_RED"></a>
+<a id="CS_MAGENTA"></a>
+<a id="CS_YELLOW"></a>
+<a id="CS_WHITE"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
@@ -584,66 +620,96 @@
 <span class="inline-text">internal icons to this system </span>
 <br/>
 <br/>
+<a id="ICO_NONE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NONE</span>
 </span>
 </div>
+<a id="ICO_BACK"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_BACK</span>
 </span>
 </div>
+<a id="ICO_DEBUG"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_DEBUG</span>
 </span>
 </div>
+<a id="ICO_FILE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FILE</span>
 </span>
 </div>
+<a id="ICO_FOLDER"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FOLDER</span>
 </span>
 </div>
+<a id="ICO_HOME"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_HOME</span>
 </span>
 </div>
+<a id="ICO_H_SPACE_12"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
 </span>
 </div>
+<a id="ICO_H_SPACE_24"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
 </span>
 </div>
+<a id="ICO_JUMP_TO_TOP"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
 </span>
 </div>
+<a id="ICO_LINK"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_LINK</span>
 </span>
 </div>
+<a id="ICO_CODE_BEHIND"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
 </span>
 </div>
+<a id="ICO_CLASS"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CLASS</span>
 </span>
 </div>
+<a id="ICO_ENUM"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_ENUM</span>
 </span>
 </div>
+<a id="ICO_VAR_PRIVATE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
 </span>
 </div>
+<a id="ICO_NAMESPACE"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NAMESPACE</span>
 </span>
 </div>
+<a id="ICO_NONE"></a>
+<a id="ICO_BACK"></a>
+<a id="ICO_DEBUG"></a>
+<a id="ICO_FILE"></a>
+<a id="ICO_FOLDER"></a>
+<a id="ICO_HOME"></a>
+<a id="ICO_H_SPACE_12"></a>
+<a id="ICO_H_SPACE_24"></a>
+<a id="ICO_JUMP_TO_TOP"></a>
+<a id="ICO_LINK"></a>
+<a id="ICO_CODE_BEHIND"></a>
+<a id="ICO_CLASS"></a>
+<a id="ICO_ENUM"></a>
+<a id="ICO_VAR_PRIVATE"></a>
+<a id="ICO_NAMESPACE"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
@@ -657,18 +723,22 @@
 <span class="inline-text">Usage Options. </span>
 <br/>
 <br/>
+<a id="OptOutputDirectory"></a>
 <span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
 </a>
 </span>
 <br/>
+<a id="OptIndexFile"></a>
 <span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
 </a>
 </span>
 <br/>
+<a id="OptConfigFile"></a>
 <span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
 </a>
 </span>
 <br/>
+<a id="OpMax"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OpMax</span>
 </span>
@@ -690,6 +760,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
                       html - Generates a HTML site.
 ```
 <br/>
+<a id="OptOutputDirectory"></a>
 <a id="optoutputdirectory"></a>
 <h4>OptOutputDirectory</h4>
 <br/>
@@ -708,6 +779,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
+<a id="OptIndexFile"></a>
 <a id="optindexfile"></a>
 <h4>OptIndexFile</h4>
 <br/>
@@ -722,6 +794,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
+<a id="OptConfigFile"></a>
 <a id="optconfigfile"></a>
 <h4>OptConfigFile</h4>
 <br/>
@@ -736,6 +809,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
+<a id="OpMax"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
