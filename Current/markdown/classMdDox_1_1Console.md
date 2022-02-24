@@ -1,6 +1,6 @@
 <a id="console"></a>
 <h1>Console</h1>
-<a id="classMdDox_1_1Console"></a>
+<a id="classmddox_1_1console"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -120,6 +120,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="debugbreak"></a>
 <h2>debugBreak</h2>
 <span class="inline-text">void</span>
@@ -141,6 +148,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -161,6 +175,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L115" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="read"></a>
 <h2>read</h2>
@@ -195,6 +216,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -227,6 +255,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L125" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="read"></a>
 <h2>read</h2>
@@ -261,6 +296,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -293,6 +335,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L135" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="read"></a>
 <h2>read</h2>
@@ -327,6 +376,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -359,6 +415,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L145" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="read"></a>
 <h2>read</h2>
@@ -393,6 +456,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -426,6 +496,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="read"></a>
 <h2>read</h2>
 <span class="inline-text">void</span>
@@ -448,6 +525,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="readline"></a>
 <h2>readLine</h2>
 <span class="inline-text">void</span>
@@ -469,6 +553,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L165" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="resetcolor"></a>
 <h2>resetColor</h2>
@@ -496,6 +587,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="setbackground"></a>
 <h2>setBackground</h2>
 <span class="inline-text">void</span>
@@ -517,6 +615,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="setforeground"></a>
 <h2>setForeground</h2>
 <span class="inline-text">void</span>
@@ -537,6 +642,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -560,6 +672,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -591,6 +710,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writeerror"></a>
 <h2>writeError</h2>
 <span class="inline-text">void</span>
@@ -613,6 +739,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L206" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writeerror"></a>
 <h2>writeError</h2>
@@ -643,6 +776,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L139" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writeerror"></a>
 <h2>writeError</h2>
@@ -685,6 +825,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writeline"></a>
 <h2>writeLine</h2>
 <span class="inline-text">void</span>
@@ -714,6 +861,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writeline"></a>
 <h2>writeLine</h2>
 <span class="inline-text">void</span>
@@ -740,6 +894,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L211" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writeline"></a>
 <h2>writeLine</h2>
@@ -770,6 +931,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L130" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writeline"></a>
 <h2>writeLine</h2>
@@ -811,6 +979,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L218" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

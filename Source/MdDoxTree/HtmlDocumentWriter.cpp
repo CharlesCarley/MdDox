@@ -326,13 +326,15 @@ namespace MdDox
     {
         const SiteBuilder& builder = SiteBuilder::get();
 
-        String heading = HashUtils::heading(title);
+        String heading;
 
         if (kind == 0)  // compound
         {
             CompoundReference* ref = builder.getCompoundRef(id);
             if (ref)
             {
+                heading = HashUtils::heading(ref->getName());
+
                 Html::linkRef(output,
                               title.empty() ? ref->getName() : title,
                               StringCombine(ref->getId(), builder.outputFileExt, heading));
@@ -355,8 +357,11 @@ namespace MdDox
             MemberReference* ref = builder.getMemberRef(id);
             if (ref)
             {
+                heading = HashUtils::heading(ref->getName());
+
                 if (pref)
                 {
+
                     Html::linkRef(output,
                                   title.empty() ? ref->getName() : title,
                                   StringCombine(pref->getId(), builder.outputFileExt, heading));
@@ -370,6 +375,8 @@ namespace MdDox
             }
             else if (pref)
             {
+                heading = HashUtils::heading(pref->getName());
+
                 Html::linkRef(output,
                               title.empty() ? pref->getName() : title,
                               StringCombine(pref->getId(), builder.outputFileExt, heading));

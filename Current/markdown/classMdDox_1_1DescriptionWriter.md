@@ -1,6 +1,6 @@
 <a id="descriptionwriter"></a>
 <h1>DescriptionWriter</h1>
-<a id="classMdDox_1_1DescriptionWriter"></a>
+<a id="classmddox_1_1descriptionwriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -64,6 +64,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="_out"></a>
 <h2>_out</h2>
 <a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
@@ -74,6 +81,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.h#L35" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="_stream"></a>
 <h2>_stream</h2>
@@ -87,6 +101,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
 <a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
@@ -98,6 +119,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="visitedparagraph"></a>
 <h2>visitedParagraph</h2>
@@ -136,6 +164,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="visitedsect1"></a>
 <h2>visitedSect1</h2>
 <span class="inline-text">void</span>
@@ -173,6 +208,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
 <span class="inline-text">void</span>
@@ -199,6 +241,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="visitedtitle"></a>
 <h2>visitedTitle</h2>
@@ -237,6 +286,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="descriptionwriter"></a>
 <h2>DescriptionWriter</h2>
 <span class="bold-text"><b>DescriptionWriter</b></span>
@@ -263,6 +319,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.cpp#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -296,6 +359,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DescriptionWriter.cpp#L38" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DescriptionWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

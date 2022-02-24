@@ -1,6 +1,6 @@
 <a id="paramtypequery"></a>
 <h1>ParamTypeQuery</h1>
-<a id="classMdDox_1_1Doxygen_1_1ParamTypeQuery"></a>
+<a id="classmddox_1_1doxygen_1_1paramtypequery"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -68,6 +68,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamTypeQuery.h#L62" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="paramtypequery"></a>
 <h2>ParamTypeQuery</h2>
 <span class="bold-text"><b>ParamTypeQuery</b></span>
@@ -78,6 +85,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamTypeQuery.h#L64" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="paramtypequery"></a>
 <h2>ParamTypeQuery</h2>
@@ -97,6 +111,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="paramtypequery"></a>
 <h2>ParamTypeQuery</h2>
 <span class="bold-text"><b>ParamTypeQuery</b></span>
@@ -113,6 +134,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamTypeQuery.h#L67" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getref"></a>
 <h2>getRef</h2>
@@ -161,6 +189,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="getref"></a>
 <h2>getRef</h2>
 <a href="classMdDox_1_1Doxygen_1_1RefTextQuery.md#reftextquery">RefTextQuery</a>
@@ -183,6 +218,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamTypeQuery.cpp#L60" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="visit"></a>
 <h2>visit</h2>
@@ -228,6 +270,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/ParamTypeQuery.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ParamTypeQuery.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

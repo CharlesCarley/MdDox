@@ -1,6 +1,6 @@
 <a id="locationquery"></a>
 <h1>LocationQuery</h1>
-<a id="classMdDox_1_1Doxygen_1_1LocationQuery"></a>
+<a id="classmddox_1_1doxygen_1_1locationquery"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -83,6 +83,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="locationquery"></a>
 <h2>LocationQuery</h2>
 <span class="bold-text"><b>LocationQuery</b></span>
@@ -93,6 +100,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="locationquery"></a>
 <h2>LocationQuery</h2>
@@ -112,6 +126,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="locationquery"></a>
 <h2>LocationQuery</h2>
 <span class="bold-text"><b>LocationQuery</b></span>
@@ -128,6 +149,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.h#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getbodyend"></a>
 <h2>getBodyEnd</h2>
@@ -168,6 +196,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.cpp#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getbodyfile"></a>
 <h2>getBodyFile</h2>
@@ -220,6 +255,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="getbodystart"></a>
 <h2>getBodyStart</h2>
 <span class="inline-text">int64_t</span>
@@ -260,6 +302,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="getcolumn"></a>
 <h2>getColumn</h2>
 <span class="inline-text">int64_t</span>
@@ -299,6 +348,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.cpp#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getfile"></a>
 <h2>getFile</h2>
@@ -351,6 +407,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="getline"></a>
 <h2>getLine</h2>
 <span class="inline-text">int64_t</span>
@@ -390,6 +453,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/LocationQuery.cpp#L52" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationQuery.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

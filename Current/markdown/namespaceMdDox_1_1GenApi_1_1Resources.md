@@ -1,6 +1,6 @@
 <a id="resources"></a>
 <h1>Resources</h1>
-<a id="namespaceMdDox_1_1GenApi_1_1Resources"></a>
+<a id="namespacemddox_1_1genapi_1_1resources"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -23,6 +23,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/GenApi/Resources.cpp#L4" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Resources.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

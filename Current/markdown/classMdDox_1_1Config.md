@@ -1,6 +1,6 @@
 <a id="config"></a>
 <h1>Config</h1>
-<a id="classMdDox_1_1Config"></a>
+<a id="classmddox_1_1config"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -100,6 +100,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.h#L47" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="_attributes"></a>
 <h2>_attributes</h2>
 <a href="namespaceMdDox.md#stringmap">StringMap</a>
@@ -110,6 +117,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.h#L49" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="next"></a>
 <h2>next</h2>
@@ -133,6 +147,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="scancomment"></a>
 <h2>scanComment</h2>
 <span class="inline-text">void</span>
@@ -154,6 +175,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L192" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="scankey"></a>
 <h2>scanKey</h2>
@@ -183,6 +211,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="scantoquote"></a>
 <h2>scanToQuote</h2>
 <span class="inline-text">void</span>
@@ -204,6 +239,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L84" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="scanvalue"></a>
 <h2>scanValue</h2>
@@ -233,6 +275,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="config"></a>
 <h2>Config</h2>
 <span class="bold-text"><b>Config</b></span>
@@ -244,6 +293,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="~config"></a>
 <h2>~Config</h2>
 <span class="bold-text"><b>~Config</b></span>
@@ -254,6 +310,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.h#L61" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="attributes"></a>
 <h2>attributes</h2>
@@ -272,6 +335,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L244" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="contains"></a>
 <h2>contains</h2>
@@ -295,6 +365,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L78" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getbool"></a>
 <h2>getBool</h2>
@@ -331,6 +408,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L231" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="getint"></a>
 <h2>getInt</h2>
@@ -372,6 +456,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="getvalue"></a>
 <h2>getValue</h2>
 <span class="inline-text">const </span>
@@ -406,6 +497,13 @@ key = "value";
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="load"></a>
 <h2>load</h2>
 <span class="inline-text">void</span>
@@ -427,6 +525,13 @@ key = "value";
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Config.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Config.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

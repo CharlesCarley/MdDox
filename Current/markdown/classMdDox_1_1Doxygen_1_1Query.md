@@ -1,6 +1,6 @@
 <a id="query"></a>
 <h1>Query</h1>
-<a id="classMdDox_1_1Doxygen_1_1Query"></a>
+<a id="classmddox_1_1doxygen_1_1query"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -271,6 +271,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L196" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="_node"></a>
 <h2>_node</h2>
 <a href="classMdDox_1_1Xml_1_1Node.md#node">Xml::Node</a>
@@ -283,6 +290,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="query"></a>
 <h2>Query</h2>
 <span class="bold-text"><b>Query</b></span>
@@ -293,6 +307,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L201" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="query"></a>
 <h2>Query</h2>
@@ -310,6 +331,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L206" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="empty"></a>
 <h2>empty</h2>
@@ -338,6 +366,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="isvalid"></a>
 <h2>isValid</h2>
 <span class="inline-text">bool</span>
@@ -360,6 +395,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L214" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="node"></a>
 <h2>node</h2>
@@ -385,6 +427,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="reset"></a>
 <h2>reset</h2>
 <span class="inline-text">void</span>
@@ -407,6 +456,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L230" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="sort"></a>
 <h2>sort</h2>
@@ -445,6 +501,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L246" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="text"></a>
 <h2>text</h2>
@@ -488,6 +551,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/Doxygen.h#L275" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Doxygen.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

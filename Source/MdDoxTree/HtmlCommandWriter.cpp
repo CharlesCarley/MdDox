@@ -126,7 +126,9 @@ namespace MdDox::Html
 
     void anchor(OStream& output, const String& id)
     {
-        output << "<a id=\"" << id << "\"></a>" << std::endl;
+        String assertLower;
+        StringUtils::toLower(assertLower, id);
+        output << "<a id=\"" << assertLower << "\"></a>" << std::endl;
     }
 
     void inlineText(OStream& output, const String& str, const String& className)

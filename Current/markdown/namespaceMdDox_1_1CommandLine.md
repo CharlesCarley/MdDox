@@ -1,6 +1,6 @@
 <a id="commandline"></a>
 <h1>CommandLine</h1>
-<a id="namespaceMdDox_1_1CommandLine"></a>
+<a id="namespacemddox_1_1commandline"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -15,9 +15,9 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="namespaceMdDox_1_1CommandLine.md#classes">Classes</a>
+<li><a href="namespaceMdDox_1_1CommandLine.md#commandline">Classes</a>
 </li>
-<li><a href="namespaceMdDox_1_1CommandLine.md#enums">Enums</a>
+<li><a href="namespaceMdDox_1_1CommandLine.md#commandline">Enums</a>
 </li>
 </ul>
 <a id="classes"></a>
@@ -48,81 +48,95 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Option.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Option.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="tokentype"></a>
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
 <br/>
-<a id="TOK_NONE"></a>
+<a id="tok_none"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_NONE</span>
 </span>
 </div>
-<a id="TOK_SWITCH_SHORT"></a>
+<a id="tok_switch_short"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_SWITCH_SHORT</span>
 </span>
 </div>
-<a id="TOK_SWITCH_LONG"></a>
+<a id="tok_switch_long"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_SWITCH_LONG</span>
 </span>
 </div>
-<a id="TOK_NEXT"></a>
+<a id="tok_next"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_NEXT</span>
 </span>
 </div>
-<a id="TOK_OPTION"></a>
+<a id="tok_option"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_OPTION</span>
 </span>
 </div>
-<a id="TOK_INTEGER"></a>
+<a id="tok_integer"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_INTEGER</span>
 </span>
 </div>
-<a id="TOK_REAL"></a>
+<a id="tok_real"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_REAL</span>
 </span>
 </div>
-<a id="TOK_IDENTIFIER"></a>
+<a id="tok_identifier"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
 </span>
 </div>
-<a id="TOK_FILEPATH"></a>
+<a id="tok_filepath"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_FILEPATH</span>
 </span>
 </div>
-<a id="TOK_EOS"></a>
+<a id="tok_eos"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_EOS</span>
 </span>
 </div>
-<a id="TOK_ERROR"></a>
+<a id="tok_error"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_ERROR</span>
 </span>
 </div>
-<a id="TOK_NONE"></a>
-<a id="TOK_SWITCH_SHORT"></a>
-<a id="TOK_SWITCH_LONG"></a>
-<a id="TOK_NEXT"></a>
-<a id="TOK_OPTION"></a>
-<a id="TOK_INTEGER"></a>
-<a id="TOK_REAL"></a>
-<a id="TOK_IDENTIFIER"></a>
-<a id="TOK_FILEPATH"></a>
-<a id="TOK_EOS"></a>
-<a id="TOK_ERROR"></a>
+<a id="tok_none"></a>
+<a id="tok_switch_short"></a>
+<a id="tok_switch_long"></a>
+<a id="tok_next"></a>
+<a id="tok_option"></a>
+<a id="tok_integer"></a>
+<a id="tok_real"></a>
+<a id="tok_identifier"></a>
+<a id="tok_filepath"></a>
+<a id="tok_eos"></a>
+<a id="tok_error"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/CommandLine/Token.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

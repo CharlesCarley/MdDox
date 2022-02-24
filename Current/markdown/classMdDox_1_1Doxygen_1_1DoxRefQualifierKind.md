@@ -1,6 +1,6 @@
 <a id="doxrefqualifierkind"></a>
 <h1>DoxRefQualifierKind</h1>
-<a id="classMdDox_1_1Doxygen_1_1DoxRefQualifierKind"></a>
+<a id="classmddox_1_1doxygen_1_1doxrefqualifierkind"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -24,6 +24,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxRefQualifierKind.h#L57" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="get"></a>
 <h2>get</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxrefqualifierkindenum">DoxRefQualifierKindEnum</a>
@@ -61,6 +68,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/DoxRefQualifierKind.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DoxRefQualifierKind.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

@@ -1,6 +1,6 @@
 <a id="xml"></a>
 <h1>Xml</h1>
-<a id="namespaceMdDox_1_1Xml"></a>
+<a id="namespacemddox_1_1xml"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -15,13 +15,13 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="namespaceMdDox_1_1Xml.md#classes">Classes</a>
+<li><a href="namespaceMdDox_1_1Xml.md#xml">Classes</a>
 </li>
-<li><a href="namespaceMdDox_1_1Xml.md#enums">Enums</a>
+<li><a href="namespaceMdDox_1_1Xml.md#xml">Enums</a>
 </li>
-<li><a href="namespaceMdDox_1_1Xml.md#typedefs">Typedefs</a>
+<li><a href="namespaceMdDox_1_1Xml.md#xml">Typedefs</a>
 </li>
-<li><a href="namespaceMdDox_1_1Xml.md#variables">Variables</a>
+<li><a href="namespaceMdDox_1_1Xml.md#xml">Variables</a>
 <br/>
 </ul>
 <a id="details"></a>
@@ -133,87 +133,101 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Attribute.h#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Attribute.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="tokentype"></a>
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
 <br/>
-<a id="TOK_ERROR"></a>
+<a id="tok_error"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_ERROR</span>
 </span>
 </div>
-<a id="TOK_EOF"></a>
+<a id="tok_eof"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_EOF</span>
 </span>
 </div>
-<a id="TOK_NULL"></a>
+<a id="tok_null"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_NULL</span>
 </span>
 </div>
-<a id="TOK_IDENTIFIER"></a>
+<a id="tok_identifier"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_IDENTIFIER</span>
 </span>
 </div>
-<a id="TOK_STRING"></a>
+<a id="tok_string"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_STRING</span>
 </span>
 </div>
-<a id="TOK_TEXT"></a>
+<a id="tok_text"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_TEXT</span>
 </span>
 </div>
-<a id="TOK_EQUALS"></a>
+<a id="tok_equals"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_EQUALS</span>
 </span>
 </div>
-<a id="TOK_ST_TAG"></a>
+<a id="tok_st_tag"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_ST_TAG</span>
 </span>
 </div>
-<a id="TOK_EN_TAG"></a>
+<a id="tok_en_tag"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_EN_TAG</span>
 </span>
 </div>
-<a id="TOK_SLASH"></a>
+<a id="tok_slash"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_SLASH</span>
 </span>
 </div>
-<a id="TOK_QUESTION"></a>
+<a id="tok_question"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_QUESTION</span>
 </span>
 </div>
-<a id="TOK_KW_XML"></a>
+<a id="tok_kw_xml"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">TOK_KW_XML</span>
 </span>
 </div>
-<a id="TOK_ERROR"></a>
-<a id="TOK_EOF"></a>
-<a id="TOK_NULL"></a>
-<a id="TOK_IDENTIFIER"></a>
-<a id="TOK_STRING"></a>
-<a id="TOK_TEXT"></a>
-<a id="TOK_EQUALS"></a>
-<a id="TOK_ST_TAG"></a>
-<a id="TOK_EN_TAG"></a>
-<a id="TOK_SLASH"></a>
-<a id="TOK_QUESTION"></a>
-<a id="TOK_KW_XML"></a>
+<a id="tok_error"></a>
+<a id="tok_eof"></a>
+<a id="tok_null"></a>
+<a id="tok_identifier"></a>
+<a id="tok_string"></a>
+<a id="tok_text"></a>
+<a id="tok_equals"></a>
+<a id="tok_st_tag"></a>
+<a id="tok_en_tag"></a>
+<a id="tok_slash"></a>
+<a id="tok_question"></a>
+<a id="tok_kw_xml"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Token.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Token.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="attributemap"></a>
 <h2>AttributeMap</h2>
@@ -233,6 +247,13 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="codecache"></a>
 <h2>CodeCache</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -245,6 +266,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="nodearray"></a>
 <h2>NodeArray</h2>
@@ -261,6 +289,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L43" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="nodemap"></a>
 <h2>NodeMap</h2>
@@ -280,6 +315,13 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="nodesortfunc"></a>
 <h2>NodeSortFunc</h2>
 <span class="inline-text">std::function&lt; bool(</span>
@@ -294,6 +336,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Node.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Node.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="nodestack"></a>
 <h2>NodeStack</h2>
@@ -310,6 +359,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Parser.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Parser.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="stringcache"></a>
 <h2>StringCache</h2>
@@ -330,6 +386,13 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="token"></a>
 <h2>Token</h2>
 <a href="classMdDox_1_1TokenBase.md#tokenbase">TokenBase</a>
@@ -341,6 +404,13 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="indent"></a>
 <h2>Indent</h2>
 <span class="inline-text">constexpr size_t</span>
@@ -351,6 +421,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Writer.cpp#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Writer.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="isquote"></a>
 <h2>isQuote</h2>
@@ -369,6 +446,13 @@ catch(Exception &ex)
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="isvalidcharacter"></a>
 <h2>isValidCharacter</h2>
 <span class="inline-text">bool</span>
@@ -385,6 +469,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="isvalididentifier"></a>
 <h2>isValidIdentifier</h2>
@@ -412,6 +503,13 @@ catch(Exception &ex)
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Xml/Scanner.cpp#L41" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Scanner.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

@@ -1,6 +1,6 @@
 <a id="resourcecompiler"></a>
 <h1>ResourceCompiler</h1>
-<a id="namespaceMdDox_1_1ResourceCompiler"></a>
+<a id="namespacemddox_1_1resourcecompiler"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -42,6 +42,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="option"></a>
 <h2>Option</h2>
 <span class="bold-text"><b>Option</b></span>
@@ -50,22 +57,22 @@
 <span class="inline-text"> command line options. </span>
 <br/>
 <br/>
-<a id="OptOutputFileName"></a>
+<a id="optoutputfilename"></a>
 <span class="icon-list-item"><a href="#optoutputfilename" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputFileName</span>
 </a>
 </span>
 <br/>
-<a id="OptNameSpace"></a>
+<a id="optnamespace"></a>
 <span class="icon-list-item"><a href="#optnamespace" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptNameSpace</span>
 </a>
 </span>
 <br/>
-<a id="OptionsMax"></a>
+<a id="optionsmax"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OptionsMax</span>
 </span>
 </div>
-<a id="OptOutputFileName"></a>
+<a id="optoutputfilename"></a>
 <a id="optoutputfilename"></a>
 <h4>OptOutputFileName</h4>
 <br/>
@@ -75,7 +82,7 @@
 <code class="typewriter">-o [file-stem-name]</code>
 <span class="inline-text">The output files will be split between a source and header file with the supplied name. </span>
 <br/>
-<a id="OptNameSpace"></a>
+<a id="optnamespace"></a>
 <a id="optnamespace"></a>
 <h4>OptNameSpace</h4>
 <br/>
@@ -84,12 +91,19 @@
 <br/>
 <code class="typewriter">-n [namespace]</code>
 <br/>
-<a id="OptionsMax"></a>
+<a id="optionsmax"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="resourcemap"></a>
 <h2>ResourceMap</h2>
@@ -105,6 +119,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L90" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -124,6 +145,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/ResourceCompiler/Main.cpp#L65" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

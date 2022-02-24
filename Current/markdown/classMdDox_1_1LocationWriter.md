@@ -1,6 +1,6 @@
 <a id="locationwriter"></a>
 <h1>LocationWriter</h1>
-<a id="classMdDox_1_1LocationWriter"></a>
+<a id="classmddox_1_1locationwriter"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -40,6 +40,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/LocationWriter.h#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="_out"></a>
 <h2>_out</h2>
 <a href="namespaceMdDox.md#outputstringstream">OutputStringStream</a>
@@ -50,6 +57,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/LocationWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="_stream"></a>
 <h2>_stream</h2>
@@ -63,6 +77,13 @@
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="_writer"></a>
 <h2>_writer</h2>
 <a href="classMdDox_1_1DocumentWriter.md#documentwriter">DocumentWriter</a>
@@ -74,6 +95,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/LocationWriter.h#L32" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="locationwriter"></a>
 <h2>LocationWriter</h2>
@@ -101,6 +129,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/LocationWriter.cpp#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -166,6 +201,18 @@
 </span>
 </div>
 <div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1DocumentWriter.md#beginblockquote">beginBlockQuote</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#ico_jump_to_top">ICO_JUMP_TO_TOP</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1DocumentWriter.md#endblockquote">endBlockQuote</a>
+</span>
+</div>
+<div class="paragraph">
 <span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#syncstream">syncStream</a>
 </span>
 </div>
@@ -178,6 +225,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/LocationWriter.cpp#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">LocationWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

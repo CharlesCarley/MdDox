@@ -1,6 +1,6 @@
 <a id="linkutils"></a>
 <h1>LinkUtils</h1>
-<a id="namespaceMdDox_1_1LinkUtils"></a>
+<a id="namespacemddox_1_1linkutils"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -22,6 +22,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.h#L59" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="lbr"></a>
 <h2>LBR</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -50,6 +57,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L199" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

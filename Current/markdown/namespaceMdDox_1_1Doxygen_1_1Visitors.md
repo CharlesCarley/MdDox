@@ -1,6 +1,6 @@
 <a id="visitors"></a>
 <h1>Visitors</h1>
-<a id="namespaceMdDox_1_1Doxygen_1_1Visitors"></a>
+<a id="namespacemddox_1_1doxygen_1_1visitors"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -173,6 +173,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Tools/Doxygen/BlockQuoteQuery.h#L29" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">BlockQuoteQuery.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 </div>
 </div>
 </body>

@@ -1,6 +1,6 @@
 <a id="image-handling"></a>
 <h1>Image handling</h1>
-<a id="Image"></a>
+<a id="image"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -9,7 +9,7 @@
 <span class="bold-text"><b>Image</b></span>
 <br/>
 <br/>
-<a id="Image_1S1"></a>
+<a id="image_1s1"></a>
 <a id="image-handling-information."></a>
 <h2>Image handling information.</h2>
 <span class="inline-text">Application icons and other images are pulled directly from the source code comment and output in-line with the current document. </span>
@@ -26,7 +26,7 @@
  Icons are expected to be in the </span>
 <a href="../images#images">images</a>
 <span class="inline-text"> directory.</span>
-<a id="Image_1Internal"></a>
+<a id="image_1internal"></a>
 <a id="icons"></a>
 <h3>Icons</h3>
 <span class="inline-text">The static class </span>
@@ -34,7 +34,7 @@
 <span class="inline-text"> maps the enum </span>
 <a href="namespaceMdDox.md#iconid">MdDox::IconId</a>
 <span class="inline-text"> to the following files to use specific icons internally.</span>
-<a id="Image_1Sources"></a>
+<a id="image_1sources"></a>
 <a id="sources"></a>
 <h4>Sources</h4>
 <span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>

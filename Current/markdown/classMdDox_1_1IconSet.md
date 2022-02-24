@@ -1,6 +1,6 @@
 <a id="iconset"></a>
 <h1>IconSet</h1>
-<a id="classMdDox_1_1IconSet"></a>
+<a id="classmddox_1_1iconset"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -23,7 +23,7 @@
 <h2>Details</h2>
 <a id="see"></a>
 <h4>See</h4>
-<a href="Image.md#image-handling">Image handling</a>
+<a href="Image.md#image">Image handling</a>
 <br/>
 <br/>
 <a id="defined-in"></a>
@@ -31,6 +31,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IconSet.h#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="filename"></a>
 <h2>fileName</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -129,6 +136,13 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IconSet.cpp#L27" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>

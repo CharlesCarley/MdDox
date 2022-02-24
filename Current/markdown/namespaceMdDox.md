@@ -1,6 +1,6 @@
 <a id="mddox"></a>
 <h1>MdDox</h1>
-<a id="namespaceMdDox"></a>
+<a id="namespacemddox"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
 <a href="indexpage.md#mddox">MdDox</a>
 <span class="inline-text">/</span>
@@ -13,15 +13,15 @@
 <a id="contents"></a>
 <h2>Contents</h2>
 <ul>
-<li><a href="namespaceMdDox.md#namespaces">Namespaces</a>
+<li><a href="namespaceMdDox.md#mddox">Namespaces</a>
 </li>
-<li><a href="namespaceMdDox.md#classes">Classes</a>
+<li><a href="namespaceMdDox.md#mddox">Classes</a>
 </li>
-<li><a href="namespaceMdDox.md#enums">Enums</a>
+<li><a href="namespaceMdDox.md#mddox">Enums</a>
 </li>
-<li><a href="namespaceMdDox.md#typedefs">Typedefs</a>
+<li><a href="namespaceMdDox.md#mddox">Typedefs</a>
 </li>
-<li><a href="namespaceMdDox.md#variables">Variables</a>
+<li><a href="namespaceMdDox.md#mddox">Variables</a>
 <br/>
 </ul>
 <a id="namespaces"></a>
@@ -482,27 +482,41 @@
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages/Index.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <a id="backendwriter"></a>
 <h2>BackendWriter</h2>
 <span class="bold-text"><b>BackendWriter</b></span>
 <br/>
-<a id="BackendHtml"></a>
+<a id="backendhtml"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendHtml</span>
 </span>
 </div>
-<a id="BackendMarkdown"></a>
+<a id="backendmarkdown"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">BackendMarkdown</span>
 </span>
 </div>
-<a id="BackendHtml"></a>
-<a id="BackendMarkdown"></a>
+<a id="backendhtml"></a>
+<a id="backendmarkdown"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="consolecolor"></a>
 <h2>ConsoleColor</h2>
@@ -511,107 +525,114 @@
 <span class="inline-text">Enum for adding specific background and foreground colors to the console. </span>
 <br/>
 <br/>
-<a id="CS_BLACK"></a>
+<a id="cs_black"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLACK</span>
 </span>
 </div>
-<a id="CS_DARK_BLUE"></a>
+<a id="cs_dark_blue"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_BLUE</span>
 </span>
 </div>
-<a id="CS_DARK_GREEN"></a>
+<a id="cs_dark_green"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_GREEN</span>
 </span>
 </div>
-<a id="CS_DARK_CYAN"></a>
+<a id="cs_dark_cyan"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_CYAN</span>
 </span>
 </div>
-<a id="CS_DARK_RED"></a>
+<a id="cs_dark_red"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_RED</span>
 </span>
 </div>
-<a id="CS_DARK_MAGENTA"></a>
+<a id="cs_dark_magenta"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_MAGENTA</span>
 </span>
 </div>
-<a id="CS_DARK_YELLOW"></a>
+<a id="cs_dark_yellow"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_DARK_YELLOW</span>
 </span>
 </div>
-<a id="CS_LIGHT_GREY"></a>
+<a id="cs_light_grey"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_LIGHT_GREY</span>
 </span>
 </div>
-<a id="CS_GREY"></a>
+<a id="cs_grey"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREY</span>
 </span>
 </div>
-<a id="CS_BLUE"></a>
+<a id="cs_blue"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_BLUE</span>
 </span>
 </div>
-<a id="CS_GREEN"></a>
+<a id="cs_green"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_GREEN</span>
 </span>
 </div>
-<a id="CS_CYAN"></a>
+<a id="cs_cyan"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_CYAN</span>
 </span>
 </div>
-<a id="CS_RED"></a>
+<a id="cs_red"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_RED</span>
 </span>
 </div>
-<a id="CS_MAGENTA"></a>
+<a id="cs_magenta"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_MAGENTA</span>
 </span>
 </div>
-<a id="CS_YELLOW"></a>
+<a id="cs_yellow"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_YELLOW</span>
 </span>
 </div>
-<a id="CS_WHITE"></a>
+<a id="cs_white"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">CS_WHITE</span>
 </span>
 </div>
-<a id="CS_BLACK"></a>
-<a id="CS_DARK_BLUE"></a>
-<a id="CS_DARK_GREEN"></a>
-<a id="CS_DARK_CYAN"></a>
-<a id="CS_DARK_RED"></a>
-<a id="CS_DARK_MAGENTA"></a>
-<a id="CS_DARK_YELLOW"></a>
-<a id="CS_LIGHT_GREY"></a>
-<a id="CS_GREY"></a>
-<a id="CS_BLUE"></a>
-<a id="CS_GREEN"></a>
-<a id="CS_CYAN"></a>
-<a id="CS_RED"></a>
-<a id="CS_MAGENTA"></a>
-<a id="CS_YELLOW"></a>
-<a id="CS_WHITE"></a>
+<a id="cs_black"></a>
+<a id="cs_dark_blue"></a>
+<a id="cs_dark_green"></a>
+<a id="cs_dark_cyan"></a>
+<a id="cs_dark_red"></a>
+<a id="cs_dark_magenta"></a>
+<a id="cs_dark_yellow"></a>
+<a id="cs_light_grey"></a>
+<a id="cs_grey"></a>
+<a id="cs_blue"></a>
+<a id="cs_green"></a>
+<a id="cs_cyan"></a>
+<a id="cs_red"></a>
+<a id="cs_magenta"></a>
+<a id="cs_yellow"></a>
+<a id="cs_white"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="iconid"></a>
 <h2>IconId</h2>
@@ -620,101 +641,108 @@
 <span class="inline-text">internal icons to this system </span>
 <br/>
 <br/>
-<a id="ICO_NONE"></a>
+<a id="ico_none"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NONE</span>
 </span>
 </div>
-<a id="ICO_BACK"></a>
+<a id="ico_back"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_BACK</span>
 </span>
 </div>
-<a id="ICO_DEBUG"></a>
+<a id="ico_debug"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_DEBUG</span>
 </span>
 </div>
-<a id="ICO_FILE"></a>
+<a id="ico_file"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FILE</span>
 </span>
 </div>
-<a id="ICO_FOLDER"></a>
+<a id="ico_folder"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_FOLDER</span>
 </span>
 </div>
-<a id="ICO_HOME"></a>
+<a id="ico_home"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_HOME</span>
 </span>
 </div>
-<a id="ICO_H_SPACE_12"></a>
+<a id="ico_h_space_12"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_12</span>
 </span>
 </div>
-<a id="ICO_H_SPACE_24"></a>
+<a id="ico_h_space_24"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_H_SPACE_24</span>
 </span>
 </div>
-<a id="ICO_JUMP_TO_TOP"></a>
+<a id="ico_jump_to_top"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_JUMP_TO_TOP</span>
 </span>
 </div>
-<a id="ICO_LINK"></a>
+<a id="ico_link"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_LINK</span>
 </span>
 </div>
-<a id="ICO_CODE_BEHIND"></a>
+<a id="ico_code_behind"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CODE_BEHIND</span>
 </span>
 </div>
-<a id="ICO_CLASS"></a>
+<a id="ico_class"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_CLASS</span>
 </span>
 </div>
-<a id="ICO_ENUM"></a>
+<a id="ico_enum"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_ENUM</span>
 </span>
 </div>
-<a id="ICO_VAR_PRIVATE"></a>
+<a id="ico_var_private"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_VAR_PRIVATE</span>
 </span>
 </div>
-<a id="ICO_NAMESPACE"></a>
+<a id="ico_namespace"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">ICO_NAMESPACE</span>
 </span>
 </div>
-<a id="ICO_NONE"></a>
-<a id="ICO_BACK"></a>
-<a id="ICO_DEBUG"></a>
-<a id="ICO_FILE"></a>
-<a id="ICO_FOLDER"></a>
-<a id="ICO_HOME"></a>
-<a id="ICO_H_SPACE_12"></a>
-<a id="ICO_H_SPACE_24"></a>
-<a id="ICO_JUMP_TO_TOP"></a>
-<a id="ICO_LINK"></a>
-<a id="ICO_CODE_BEHIND"></a>
-<a id="ICO_CLASS"></a>
-<a id="ICO_ENUM"></a>
-<a id="ICO_VAR_PRIVATE"></a>
-<a id="ICO_NAMESPACE"></a>
+<a id="ico_none"></a>
+<a id="ico_back"></a>
+<a id="ico_debug"></a>
+<a id="ico_file"></a>
+<a id="ico_folder"></a>
+<a id="ico_home"></a>
+<a id="ico_h_space_12"></a>
+<a id="ico_h_space_24"></a>
+<a id="ico_jump_to_top"></a>
+<a id="ico_link"></a>
+<a id="ico_code_behind"></a>
+<a id="ico_class"></a>
+<a id="ico_enum"></a>
+<a id="ico_var_private"></a>
+<a id="ico_namespace"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IconSet.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IconSet.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="options"></a>
 <h2>Options</h2>
@@ -723,22 +751,22 @@
 <span class="inline-text">Usage Options. </span>
 <br/>
 <br/>
-<a id="OptOutputDirectory"></a>
+<a id="optoutputdirectory"></a>
 <span class="icon-list-item"><a href="#optoutputdirectory" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptOutputDirectory</span>
 </a>
 </span>
 <br/>
-<a id="OptIndexFile"></a>
+<a id="optindexfile"></a>
 <span class="icon-list-item"><a href="#optindexfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptIndexFile</span>
 </a>
 </span>
 <br/>
-<a id="OptConfigFile"></a>
+<a id="optconfigfile"></a>
 <span class="icon-list-item"><a href="#optconfigfile" class="icon-list-item"><img src="../images/enum.svg" class="icon-list-item"/><span class="icon-list-item">OptConfigFile</span>
 </a>
 </span>
 <br/>
-<a id="OpMax"></a>
+<a id="opmax"></a>
 <div class="paragraph">
 <span class="paragraph"><img src="../images/enum.svg"/><span class="inline-text">OpMax</span>
 </span>
@@ -760,7 +788,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
                       html - Generates a HTML site.
 ```
 <br/>
-<a id="OptOutputDirectory"></a>
+<a id="optoutputdirectory"></a>
 <a id="optoutputdirectory"></a>
 <h4>OptOutputDirectory</h4>
 <br/>
@@ -779,7 +807,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
-<a id="OptIndexFile"></a>
+<a id="optindexfile"></a>
 <a id="optindexfile"></a>
 <h4>OptIndexFile</h4>
 <br/>
@@ -794,7 +822,7 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
-<a id="OptConfigFile"></a>
+<a id="optconfigfile"></a>
 <a id="optconfigfile"></a>
 <h4>OptConfigFile</h4>
 <br/>
@@ -809,12 +837,19 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </li>
 </ul>
 <br/>
-<a id="OpMax"></a>
+<a id="opmax"></a>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDox/Main.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Main.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="compoundnamemap"></a>
 <h2>CompoundNameMap</h2>
@@ -834,6 +869,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="compoundreferencemap"></a>
 <h2>CompoundReferenceMap</h2>
 <span class="inline-text">std::map&lt; </span>
@@ -849,6 +891,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="directory"></a>
 <h2>Directory</h2>
 <span class="inline-text">local_filesystem::directory_entry</span>
@@ -859,6 +908,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Path.cpp#L30" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="inputfilestream"></a>
 <h2>InputFileStream</h2>
@@ -874,6 +930,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="inputstringstream"></a>
 <h2>InputStringStream</h2>
 <span class="inline-text">std::istringstream</span>
@@ -888,6 +951,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="inttable"></a>
 <h2>IntTable</h2>
 <a href="classMdDox_1_1IndexCache.md#indexcache">IndexCache</a>
@@ -899,6 +969,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ScannerBase.h#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="istream"></a>
 <h2>IStream</h2>
@@ -913,6 +990,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L71" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="memberreferencemap"></a>
 <h2>MemberReferenceMap</h2>
@@ -929,6 +1013,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="ostream"></a>
 <h2>OStream</h2>
 <span class="inline-text">std::ostream</span>
@@ -942,6 +1033,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L76" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="outputfilestream"></a>
 <h2>OutputFileStream</h2>
@@ -957,6 +1055,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="outputstringstream"></a>
 <h2>OutputStringStream</h2>
 <span class="inline-text">std::ostringstream</span>
@@ -971,6 +1076,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="path"></a>
 <h2>Path</h2>
 <span class="inline-text">local_filesystem::path</span>
@@ -981,6 +1093,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/FileSystem.h#L36" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">FileSystem.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="patharray"></a>
 <h2>PathArray</h2>
@@ -995,6 +1114,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="referencelist"></a>
 <h2>ReferenceList</h2>
 <span class="inline-text">std::vector&lt; </span>
@@ -1007,6 +1133,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/Reference.h#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Reference.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="referencemap"></a>
 <h2>ReferenceMap</h2>
@@ -1026,6 +1159,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="string"></a>
 <h2>String</h2>
 <span class="inline-text">std::string</span>
@@ -1039,6 +1179,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L37" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="stringarray"></a>
 <h2>StringArray</h2>
@@ -1054,6 +1201,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="stringdeque"></a>
 <h2>StringDeque</h2>
 <span class="inline-text">std::deque&lt; std::string &gt;</span>
@@ -1067,6 +1221,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="stringmap"></a>
 <h2>StringMap</h2>
@@ -1082,6 +1243,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="stringstream"></a>
 <h2>StringStream</h2>
 <span class="inline-text">std::stringstream</span>
@@ -1095,6 +1263,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L56" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="stringtable"></a>
 <h2>StringTable</h2>
@@ -1110,6 +1285,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="strintmap"></a>
 <h2>StrIntMap</h2>
 <span class="inline-text">std::unordered_map&lt; </span>
@@ -1122,6 +1304,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/DotWriter.cpp#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">DotWriter.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="typefiltermap"></a>
 <h2>TypeFilterMap</h2>
@@ -1136,6 +1325,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="__gbackground"></a>
 <h2>__gBackground</h2>
 <a href="namespaceMdDox.md#consolecolor">ConsoleColor</a>
@@ -1146,6 +1342,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="__gforeground"></a>
 <h2>__gForeground</h2>
@@ -1158,6 +1361,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="basechars"></a>
 <h2>BaseChars</h2>
 <span class="inline-text">constexpr char</span>
@@ -1168,6 +1378,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.cpp#L190" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="basecharssize"></a>
 <h2>BaseCharsSize</h2>
@@ -1180,6 +1397,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="multilinecommentstop0"></a>
 <h2>MultiLineCommentStop0</h2>
 <span class="inline-text">constexpr char</span>
@@ -1190,6 +1414,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/ParserBase/ScannerBase.h#L33" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ScannerBase.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="multilinecommentstop1"></a>
 <h2>MultiLineCommentStop1</h2>
@@ -1202,6 +1433,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="nloc"></a>
 <h2>NLoc</h2>
 <span class="inline-text">constexpr size_t</span>
@@ -1212,6 +1450,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Path.cpp#L28" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Path.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -1225,6 +1470,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="crtdump"></a>
 <h2>CrtDump</h2>
 <span class="inline-text">void</span>
@@ -1237,6 +1489,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="crttestmemory"></a>
 <h2>CrtTestMemory</h2>
 <span class="inline-text">void</span>
@@ -1248,6 +1507,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Win32/CrtUtils.cpp#L40" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">CrtUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="dispatch"></a>
 <h2>dispatch</h2>
@@ -1326,6 +1592,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="isdecimal"></a>
 <h2>isDecimal</h2>
 <span class="inline-text">bool</span>
@@ -1350,6 +1623,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Char.h#L199" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="isletter"></a>
 <h2>isLetter</h2>
@@ -1376,6 +1656,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="isnewline"></a>
 <h2>isNewLine</h2>
 <span class="inline-text">bool</span>
@@ -1399,6 +1686,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Char.h#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="iswhitespace"></a>
 <h2>isWhiteSpace</h2>
@@ -1429,6 +1723,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Char.h#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Char.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="linkref"></a>
 <h2>linkRef</h2>
@@ -1472,6 +1773,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="linkreficon"></a>
 <h2>linkRefIcon</h2>
@@ -1521,6 +1829,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="makeinternalpages"></a>
 <h2>makeInternalPages</h2>
 <span class="inline-text">void</span>
@@ -1554,6 +1869,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L87" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="maketypefilter"></a>
 <h2>makeTypeFilter</h2>
@@ -1595,6 +1917,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="mapcolor"></a>
 <h2>MapColor</h2>
 <span class="inline-text">uint8_t</span>
@@ -1619,6 +1948,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="setcolor"></a>
 <h2>SetColor</h2>
 <span class="inline-text">void</span>
@@ -1630,6 +1966,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/Console.cpp#L97" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Console.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="streammerge"></a>
 <h2>StreamMerge</h2>
@@ -1654,6 +1997,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="stringcombine"></a>
 <h2>StringCombine</h2>
 <span class="inline-text">void</span>
@@ -1677,6 +2027,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="stringcombine"></a>
 <h2>StringCombine</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -1693,6 +2050,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/Utils/String.h#L231" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">String.h</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="syncstream"></a>
 <h2>syncStream</h2>
@@ -1717,6 +2081,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L186" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writecommonnav"></a>
 <h2>writeCommonNav</h2>
@@ -1767,6 +2138,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L31" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writedirectorytitlebar"></a>
 <h2>writeDirectoryTitleBar</h2>
@@ -1841,6 +2219,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writeexternaliconlink"></a>
 <h2>writeExternalIconLink</h2>
 <span class="inline-text">void</span>
@@ -1908,6 +2293,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writegenerictitlebar"></a>
 <h2>writeGenericTitleBar</h2>
 <span class="inline-text">void</span>
@@ -1952,6 +2344,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writenamespacetitlebar"></a>
 <h2>writeNamespaceTitleBar</h2>
@@ -2025,6 +2424,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 <a id="writereferenceiconlink"></a>
 <h2>writeReferenceIconLink</h2>
@@ -2125,6 +2531,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writereferenceiconlinkheading"></a>
 <h2>writeReferenceIconLinkHeading</h2>
 <span class="inline-text">void</span>
@@ -2184,6 +2597,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </a>
 </span>
 <br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
+<br/>
 <a id="writereferenceiconstub"></a>
 <h2>writeReferenceIconStub</h2>
 <span class="inline-text">void</span>
@@ -2242,6 +2662,13 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/WriteUtils.cpp#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">WriteUtils.cpp</span>
 </a>
 </span>
+<br/>
+<br/>
+<blockquote>
+<span class="icon-list-item"><a href="#" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+</blockquote>
 <br/>
 </div>
 </div>
