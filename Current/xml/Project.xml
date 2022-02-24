@@ -6,11 +6,11 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><dot>
+<para>The following diagram shows the overall library and executable dependency structure. <linebreak/>
+ <dot>
 digraph {
     rankdir  = &quot;TB&quot;
     bgcolor  = none
-
     node [
         shape     = rect
         style     = &quot;filled,solid&quot;
@@ -29,9 +29,15 @@ digraph {
     ]
 
     Doxygen
-    GenApi
-    ResourceCompiler
-    MdDox
+    GenApi[
+        fillcolor=&quot;${node-primary-exe}&quot;
+    ]
+    ResourceCompiler[
+        fillcolor=&quot;${node-primary-exe}&quot;
+    ]
+    MdDox[
+        fillcolor=&quot;${node-primary-exe}&quot;
+    ]
     MdDoxTree
     Xml
     TypeFilter

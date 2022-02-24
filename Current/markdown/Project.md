@@ -9,6 +9,8 @@
 <span class="bold-text"><b>Project</b></span>
 <br/>
 <br/>
+<span class="inline-text">The following diagram shows the overall library and executable dependency structure. </span>
+<br/>
 <img src="../images/dot/internal-diagram-1.dot.svg"/><br/>
 <br/>
 </div>

@@ -48,7 +48,7 @@ digraph {
 		<table border="${table-border-size}"
 	       cellspacing="0"
 	       cellpadding="4"
-	       bgcolor="${node-primary-border}">
+	       bgcolor="${node-primary-inner}">
 		<tr><td align="left">Brief</td></tr>
 		<tr><td align="left">Detail</td></tr>
 		</table>
@@ -68,7 +68,7 @@ digraph {
 		<table border="${table-border-size}"
 	       cellspacing="0"
 	       cellpadding="4"
-	       bgcolor="${node-primary-border}">
+	       bgcolor="${node-primary-inner}">
 		<tr><td align="left" port="Description">Description</td></tr>
 		</table>
 	</td></tr>
@@ -76,7 +76,7 @@ digraph {
 	<table border="${table-border-size}"
 	       cellspacing="0"
 	       cellpadding="4"
-	       bgcolor="${node-primary-border}">
+	       bgcolor="${node-primary-inner}">
 		<tr><td align="center"><font color="${bold}"><b>Contents</b></font></td></tr>
 		<tr><td align="left" port="Directory">Directory</td></tr>
 		<tr><td align="left" port="Class">Class</td></tr>
@@ -101,7 +101,7 @@ digraph {
 		<table border="${table-border-size}"
 			   cellspacing="0"
 			   cellpadding="4"
-			   bgcolor="${node-primary-border}">
+			   bgcolor="${node-primary-inner}">
 			<tr><td align="center"><font color="${bold}"><b>Contents (A-Z)</b></font></td></tr>
 			<tr><td align="left">Class[0]</td></tr>
 			<tr><td align="left">Class[1]</td></tr>
@@ -123,7 +123,7 @@ digraph {
 	<table border="${table-border-size}"
 	       cellspacing="0"
 	       cellpadding="4"
-	       bgcolor="${node-primary-border}">
+	       bgcolor="${node-primary-inner}">
 		<tr><td align="center"><font color="${bold}"><b>Contents (A-Z)</b></font></td></tr>
 		<tr><td align="left">Namespace[0]</td></tr>
 		<tr><td align="left">Namespace[1]</td></tr>
@@ -145,7 +145,7 @@ digraph {
 <table border="${table-border-size}"
 	   cellspacing="0"
 	   cellpadding="4"
-	   bgcolor="${node-primary-border}">
+	   bgcolor="${node-primary-inner}">
 	<tr><td align="center"><font color="${bold}"><b>Contents (A-Z)</b></font></td></tr>
 	<tr><td align="left">Page[0]</td></tr>
 	<tr><td align="left">Page[1]</td></tr>
@@ -168,7 +168,7 @@ digraph {
 	<table border="${table-border-size}"
 		   cellspacing="0"
 		   cellpadding="4"
-		   bgcolor="${node-primary-border}">
+		   bgcolor="${node-primary-inner}">
 		<tr><td align="center"><font color="${bold}"><b>Contents (A-Z)</b></font></td></tr>
 		<tr><td align="left">Dir[0]</td></tr>
 		<tr><td align="left">Dir[1]</td></tr>

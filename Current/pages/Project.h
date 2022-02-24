@@ -1,11 +1,13 @@
 /*! 
  \page Project Project Structure
 
+The following diagram shows the overall library and executable dependency structure.
+\n
+
  \dot
 digraph {
 	rankdir  = "TB"
 	bgcolor  = none
-
 	node [
 		shape     = rect
 		style     = "filled,solid"
@@ -24,9 +26,15 @@ digraph {
 	]
 
 	Doxygen
-	GenApi
-	ResourceCompiler
-	MdDox
+	GenApi[
+	    fillcolor="${node-primary-exe}"
+	]
+	ResourceCompiler[
+	    fillcolor="${node-primary-exe}"
+	]
+	MdDox[
+	    fillcolor="${node-primary-exe}"
+	]
 	MdDoxTree
 	Xml
 	TypeFilter

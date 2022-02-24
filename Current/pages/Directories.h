@@ -22,8 +22,57 @@ Implements the main program. It is primarily composed of \ref MdDox::Doxygen::Vi
 /*!
 \dir Tools
 
-\brief Contains three targets. First, a scaffolding library. Second the generator that writes the
-library. Third, a resource compiler for the generator.  
+ \dot
+digraph {
+	rankdir  = "RL"
+	bgcolor  = none
+	node [
+		shape     = rect
+		style     = "filled,solid"
+		fontname  = "${font-family}"
+		fontsize  = "${font-size}"
+		fontcolor = "${node-primary-text}"
+		color     = "${node-primary-border}"
+		fillcolor = "${node-primary}"
+	]
+	edge [
+		arrowsize = "${arrow-size}"
+		fontname  = "${font-family}"
+		fontsize  = "${font-size}"
+		color     = "${node-primary-edge}"
+		fontcolor = "${node-primary-text}"
+	]
+
+	Doxygen
+	GenApi[
+	    fillcolor="${node-primary-exe}"
+	]
+	ResourceCompiler[
+	    fillcolor="${node-primary-exe}"
+	]
+
+	ResourceCompiler->GenApi
+	Doxygen->GenApi[dir=back]
+	{rank=min Doxygen }
+	{rank=max GenApi ResourceCompiler }
+	{rank=same GenApi Schema }
+	{rank=max Schema Templates }
+
+    Schema[shape=note]
+    Templates[shape=note]
+
+    Templates->ResourceCompiler
+	Schema->GenApi
+    
+
+}
+ \enddot
+  \n
+  
+- \b Doxygen is a generated scaffolding library.
+- \b GenApi is the generator that writes the scaffolding library.
+- \b ResourceCompiler is a resource compiler for the generator.
+It compiles small code fragment templates into a resource class.
 
 */
 

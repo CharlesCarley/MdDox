@@ -19,8 +19,8 @@
 </g>
 <!-- SiteBuilder&#45;&gt;Config -->
 <g id="edge1" class="edge"><title>SiteBuilder&#45;&gt;Config</title>
-<path fill="none" stroke="#ff1040" d="M35.5,-78.0324C35.5,-73.0685 35.5,-68.1046 35.5,-63.1406"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="34.6251,-78.2901 35.5,-80.7902 36.3751,-78.2902 34.6251,-78.2901"/>
+<path fill="none" stroke="#ff1040" d="M35.5,-75.5505C35.5,-71.4138 35.5,-67.2772 35.5,-63.1406"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="33.7501,-75.7901 35.5,-80.7902 37.2501,-75.7902 33.7501,-75.7901"/>
 </g>
 <!-- buildFromXml -->
 <g id="node3" class="node"><title>buildFromXml</title>
@@ -28,8 +28,8 @@
 </g>
 <!-- SiteBuilder&#45;&gt;buildFromXml -->
 <g id="edge2" class="edge"><title>SiteBuilder&#45;&gt;buildFromXml</title>
-<path fill="none" stroke="#ff1040" d="M71.0177,-99C81.5171,-99 93.2163,-99 104.309,-99"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="104.315,-99.8751 106.815,-99 104.315,-98.1251 104.315,-99.8751"/>
+<path fill="none" stroke="#ff1040" d="M71.0177,-99C80.723,-99 91.4535,-99 101.783,-99"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="101.815,-100.75 106.815,-99 101.815,-97.2501 101.815,-100.75"/>
 </g>
 <!-- Build -->
 <g id="node4" class="node"><title>Build</title>
@@ -37,8 +37,8 @@
 </g>
 <!-- buildFromXml&#45;&gt;Build -->
 <g id="edge3" class="edge"><title>buildFromXml&#45;&gt;Build</title>
-<path fill="none" stroke="#ff1040" d="M177.103,-117.062C192.346,-127.703 212.14,-141.323 230,-153 234.817,-156.149 239.98,-159.433 245.006,-162.581"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="244.567,-163.338 247.151,-163.921 245.494,-161.854 244.567,-163.338"/>
+<path fill="none" stroke="#ff1040" d="M177.103,-117.062C192.346,-127.703 212.14,-141.323 230,-153 234.129,-155.699 238.512,-158.497 242.845,-161.224"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="241.984,-162.75 247.151,-163.921 243.842,-159.784 241.984,-162.75"/>
 </g>
 <!-- WriteIndex -->
 <g id="node5" class="node"><title>WriteIndex</title>
@@ -46,8 +46,8 @@
 </g>
 <!-- buildFromXml&#45;&gt;WriteIndex -->
 <g id="edge4" class="edge"><title>buildFromXml&#45;&gt;WriteIndex</title>
-<path fill="none" stroke="#ff1040" d="M194.17,-108.443C207.826,-111.466 222.835,-114.787 236.087,-117.72"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="236.083,-118.615 238.713,-118.301 236.461,-116.907 236.083,-118.615"/>
+<path fill="none" stroke="#ff1040" d="M194.17,-108.443C207.03,-111.289 221.088,-114.401 233.751,-117.203"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="233.453,-118.929 238.713,-118.301 234.209,-115.512 233.453,-118.929"/>
 </g>
 <!-- Dispatch -->
 <g id="node6" class="node"><title>Dispatch</title>
@@ -55,8 +55,8 @@
 </g>
 <!-- buildFromXml&#45;&gt;Dispatch -->
 <g id="edge5" class="edge"><title>buildFromXml&#45;&gt;Dispatch</title>
-<path fill="none" stroke="#ff1040" d="M194.17,-89.5567C209.889,-86.0779 227.399,-82.2028 241.96,-78.9801"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="242.205,-79.8221 244.457,-78.4275 241.827,-78.1135 242.205,-79.8221"/>
+<path fill="none" stroke="#ff1040" d="M194.17,-89.5567C208.98,-86.2791 225.379,-82.6498 239.404,-79.5457"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="239.953,-81.2167 244.457,-78.4275 239.197,-77.7993 239.953,-81.2167"/>
 </g>
 <!-- ConvertGraphs -->
 <g id="node7" class="node"><title>ConvertGraphs</title>
@@ -64,8 +64,8 @@
 </g>
 <!-- buildFromXml&#45;&gt;ConvertGraphs -->
 <g id="edge6" class="edge"><title>buildFromXml&#45;&gt;ConvertGraphs</title>
-<path fill="none" stroke="#ff1040" d="M177.103,-80.9376C192.346,-70.2973 212.14,-56.6767 230,-45 233.766,-42.5377 237.744,-39.9933 241.703,-37.4957"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="242.249,-38.186 243.898,-36.1137 241.316,-36.7049 242.249,-38.186"/>
+<path fill="none" stroke="#ff1040" d="M177.103,-80.9376C192.346,-70.2973 212.14,-56.6767 230,-45 233.069,-42.9936 236.278,-40.9328 239.503,-38.8872"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="240.604,-40.262 243.898,-36.1137 238.736,-37.302 240.604,-40.262"/>
 </g>
 <!-- BuildItem -->
 <g id="node8" class="node"><title>BuildItem</title>
@@ -73,8 +73,8 @@
 </g>
 <!-- Dispatch&#45;&gt;BuildItem -->
 <g id="edge7" class="edge"><title>Dispatch&#45;&gt;BuildItem</title>
-<path fill="none" stroke="#ff1040" d="M304.504,-79.0234C319.265,-82.5979 337.305,-86.9662 352.746,-90.7054"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="352.763,-91.6098 355.399,-91.3478 353.175,-89.9089 352.763,-91.6098"/>
+<path fill="none" stroke="#ff1040" d="M304.504,-79.0234C318.533,-82.4207 335.524,-86.535 350.431,-90.1447"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="350.128,-91.8718 355.399,-91.3478 350.952,-88.4701 350.128,-91.8718"/>
 </g>
 <!-- WriteItem -->
 <g id="node9" class="node"><title>WriteItem</title>
@@ -82,8 +82,8 @@
 </g>
 <!-- Dispatch&#45;&gt;WriteItem -->
 <g id="edge8" class="edge"><title>Dispatch&#45;&gt;WriteItem</title>
-<path fill="none" stroke="#ff1040" d="M304.504,-64.9766C319.021,-61.4612 336.71,-57.178 351.979,-53.4805"/>
-<polygon fill="#ff1040" stroke="#ff1040" points="352.379,-54.2838 354.603,-52.8449 351.968,-52.583 352.379,-54.2838"/>
+<path fill="none" stroke="#ff1040" d="M304.504,-64.9766C318.302,-61.6355 334.963,-57.6009 349.69,-54.0347"/>
+<polygon fill="#ff1040" stroke="#ff1040" points="350.156,-55.7226 354.603,-52.8449 349.332,-52.3209 350.156,-55.7226"/>
 </g>
 </g>
 </svg>

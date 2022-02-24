@@ -6,9 +6,57 @@
     <innerdir refid="dir_f29546df2d60a62028851d3354c1d20f">Tools/GenApi</innerdir>
     <innerdir refid="dir_ad64d74126afa4ea39d3914a0c472a63">Tools/ResourceCompiler</innerdir>
     <briefdescription>
-<para>Contains three targets. First, a scaffolding library. Second the generator that writes the library. Third, a resource compiler for the generator. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><dot>
+digraph {
+    rankdir  = &quot;RL&quot;
+    bgcolor  = none
+    node [
+        shape     = rect
+        style     = &quot;filled,solid&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontsize  = &quot;${font-size}&quot;
+        fontcolor = &quot;${node-primary-text}&quot;
+        color     = &quot;${node-primary-border}&quot;
+        fillcolor = &quot;${node-primary}&quot;
+    ]
+    edge [
+        arrowsize = &quot;${arrow-size}&quot;
+        fontname  = &quot;${font-family}&quot;
+        fontsize  = &quot;${font-size}&quot;
+        color     = &quot;${node-primary-edge}&quot;
+        fontcolor = &quot;${node-primary-text}&quot;
+    ]
+
+    Doxygen
+    GenApi[
+        fillcolor=&quot;${node-primary-exe}&quot;
+    ]
+    ResourceCompiler[
+        fillcolor=&quot;${node-primary-exe}&quot;
+    ]
+
+    ResourceCompiler-&gt;GenApi
+    Doxygen-&gt;GenApi[dir=back]
+    {rank=min Doxygen }
+    {rank=max GenApi ResourceCompiler }
+    {rank=same GenApi Schema }
+    {rank=max Schema Templates }
+
+    Schema[shape=note]
+    Templates[shape=note]
+
+    Templates-&gt;ResourceCompiler
+    Schema-&gt;GenApi
+    
+
+}
+ </dot>
+ <linebreak/>
+<itemizedlist>
+<listitem><para><bold>Doxygen</bold> is a generated scaffolding library.</para></listitem><listitem><para><bold>GenApi</bold> is the generator that writes the scaffolding library.</para></listitem><listitem><para><bold>ResourceCompiler</bold> is a resource compiler for the generator. It compiles small code fragment templates into a resource class. </para></listitem></itemizedlist>
+</para>    </detaileddescription>
     <location file="Tools/"/>
   </compounddef>
 </doxygen>

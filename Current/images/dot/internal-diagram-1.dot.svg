@@ -11,89 +11,89 @@
 <polygon fill="none" stroke="none" points="-4,4 -4,-270 267,-270 267,4 -4,4"/>
 <!-- Doxygen -->
 <g id="node1" class="node"><title>Doxygen</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="134,-266 73,-266 73,-230 134,-230 134,-266"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="134,-266 73,-266 73,-230 134,-230 134,-266"/>
 <text text-anchor="middle" x="103.5" y="-245.2" font-family="Segoe UI" font-size="11.00" fill="#222222">Doxygen</text>
 </g>
 <!-- Xml -->
 <g id="node6" class="node"><title>Xml</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="168.5,-109 114.5,-109 114.5,-73 168.5,-73 168.5,-109"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="168.5,-109 114.5,-109 114.5,-73 168.5,-73 168.5,-109"/>
 <text text-anchor="middle" x="141.5" y="-88.2" font-family="Segoe UI" font-size="11.00" fill="#222222">Xml</text>
 </g>
 <!-- Doxygen&#45;&gt;Xml -->
 <g id="edge1" class="edge"><title>Doxygen&#45;&gt;Xml</title>
-<path fill="none" stroke="#606ee0" d="M105.938,-229.664C108.977,-209.401 114.732,-174.951 122.5,-146 125.587,-134.496 129.947,-121.929 133.713,-111.815"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="134.598,-111.947 134.656,-109.299 132.959,-111.332 134.598,-111.947"/>
+<path fill="none" stroke="#606ee0" d="M105.938,-229.664C108.977,-209.401 114.732,-174.951 122.5,-146 125.351,-135.374 129.289,-123.84 132.841,-114.17"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="134.551,-114.595 134.656,-109.299 131.271,-113.373 134.551,-114.595"/>
 </g>
 <!-- GenApi -->
 <g id="node2" class="node"><title>GenApi</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="185.5,-182 131.5,-182 131.5,-146 185.5,-146 185.5,-182"/>
+<polygon fill="#fce8b8" stroke="#606ee0" points="185.5,-182 131.5,-182 131.5,-146 185.5,-146 185.5,-182"/>
 <text text-anchor="middle" x="158.5" y="-161.2" font-family="Segoe UI" font-size="11.00" fill="#222222">GenApi</text>
 </g>
 <!-- GenApi&#45;&gt;Doxygen -->
 <g id="edge3" class="edge"><title>GenApi&#45;&gt;Doxygen</title>
-<path fill="none" stroke="#606ee0" d="M147.041,-182.084C138.211,-195.25 125.987,-213.475 116.738,-227.263"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="115.83,-227.046 115.164,-229.61 117.283,-228.021 115.83,-227.046"/>
+<path fill="none" stroke="#606ee0" d="M147.041,-182.084C138.648,-194.597 127.19,-211.68 118.135,-225.18"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="116.496,-224.483 115.164,-229.61 119.403,-226.432 116.496,-224.483"/>
 <text text-anchor="middle" x="153" y="-203.2" font-family="Segoe UI" font-size="11.00" fill="#606ee0">Creates</text>
 </g>
 <!-- ResourceCompiler -->
 <g id="node3" class="node"><title>ResourceCompiler</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="263,-266 156,-266 156,-230 263,-230 263,-266"/>
+<polygon fill="#fce8b8" stroke="#606ee0" points="263,-266 156,-266 156,-230 263,-230 263,-266"/>
 <text text-anchor="middle" x="209.5" y="-245.2" font-family="Segoe UI" font-size="11.00" fill="#222222">ResourceCompiler</text>
 </g>
 <!-- GenApi&#45;&gt;ResourceCompiler -->
 <g id="edge5" class="edge"><title>GenApi&#45;&gt;ResourceCompiler</title>
-<path fill="none" stroke="#606ee0" d="M169.125,-182.084C177.314,-195.25 188.649,-213.475 197.225,-227.263"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="196.621,-227.949 198.684,-229.61 198.107,-227.025 196.621,-227.949"/>
+<path fill="none" stroke="#606ee0" d="M169.125,-182.084C176.908,-194.597 187.532,-211.68 195.929,-225.18"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="194.557,-226.288 198.684,-229.61 197.53,-224.44 194.557,-226.288"/>
 </g>
 <!-- GenApi&#45;&gt;Xml -->
 <g id="edge2" class="edge"><title>GenApi&#45;&gt;Xml</title>
-<path fill="none" stroke="#606ee0" d="M154.385,-145.813C151.921,-135.522 148.78,-122.404 146.216,-111.696"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="147.01,-111.256 145.577,-109.029 145.309,-111.664 147.01,-111.256"/>
+<path fill="none" stroke="#606ee0" d="M154.385,-145.813C152.088,-136.22 149.203,-124.17 146.745,-113.906"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="148.444,-113.484 145.577,-109.029 145.04,-114.299 148.444,-113.484"/>
 </g>
 <!-- Utils -->
 <g id="node8" class="node"><title>Utils</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="240.5,-36 186.5,-36 186.5,-0 240.5,-0 240.5,-36"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="240.5,-36 186.5,-36 186.5,-0 240.5,-0 240.5,-36"/>
 <text text-anchor="middle" x="213.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">Utils</text>
 </g>
 <!-- ResourceCompiler&#45;&gt;Utils -->
 <g id="edge4" class="edge"><title>ResourceCompiler&#45;&gt;Utils</title>
-<path fill="none" stroke="#606ee0" d="M209.801,-229.863C210.529,-188.333 212.386,-82.5054 213.157,-38.5755"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="214.032,-38.5399 213.201,-36.0249 212.283,-38.5091 214.032,-38.5399"/>
+<path fill="none" stroke="#606ee0" d="M209.801,-229.863C210.515,-189.16 212.312,-86.6961 213.109,-41.2735"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="214.863,-41.0549 213.201,-36.0249 211.364,-40.9934 214.863,-41.0549"/>
 </g>
 <!-- MdDox -->
 <g id="node4" class="node"><title>MdDox</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="64.5,-36 10.5,-36 10.5,-0 64.5,-0 64.5,-36"/>
+<polygon fill="#fce8b8" stroke="#606ee0" points="64.5,-36 10.5,-36 10.5,-0 64.5,-0 64.5,-36"/>
 <text text-anchor="middle" x="37.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MdDox</text>
 </g>
 <!-- MdDoxTree -->
 <g id="node5" class="node"><title>MdDoxTree</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="75,-182 0,-182 0,-146 75,-146 75,-182"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="75,-182 0,-182 0,-146 75,-146 75,-182"/>
 <text text-anchor="middle" x="37.5" y="-161.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MdDoxTree</text>
 </g>
 <!-- MdDox&#45;&gt;MdDoxTree -->
 <g id="edge6" class="edge"><title>MdDox&#45;&gt;MdDoxTree</title>
-<path fill="none" stroke="#606ee0" d="M37.5,-36.0619C37.5,-62.8961 37.5,-114.825 37.5,-143.241"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="36.6251,-143.416 37.5,-145.916 38.3751,-143.416 36.6251,-143.416"/>
+<path fill="none" stroke="#606ee0" d="M37.5,-36.0619C37.5,-62.1387 37.5,-111.914 37.5,-140.78"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="35.7501,-140.916 37.5,-145.916 39.2501,-140.916 35.7501,-140.916"/>
 </g>
 <!-- MdDoxTree&#45;&gt;Doxygen -->
 <g id="edge9" class="edge"><title>MdDoxTree&#45;&gt;Doxygen</title>
-<path fill="none" stroke="#606ee0" d="M51.2504,-182.084C61.9349,-195.359 76.7589,-213.776 87.8887,-227.604"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="87.2539,-228.211 89.5031,-229.61 88.6172,-227.114 87.2539,-228.211"/>
+<path fill="none" stroke="#606ee0" d="M51.2504,-182.084C61.4095,-194.706 75.3108,-211.977 86.2207,-225.532"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="85.0047,-226.812 89.5031,-229.61 87.7313,-224.618 85.0047,-226.812"/>
 </g>
 <!-- TypeFilter -->
 <g id="node7" class="node"><title>TypeFilter</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="168,-36 103,-36 103,-0 168,-0 168,-36"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="168,-36 103,-36 103,-0 168,-0 168,-36"/>
 <text text-anchor="middle" x="135.5" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">TypeFilter</text>
 </g>
 <!-- Xml&#45;&gt;TypeFilter -->
 <g id="edge8" class="edge"><title>Xml&#45;&gt;TypeFilter</title>
-<path fill="none" stroke="#606ee0" d="M140.048,-72.8129C139.178,-62.522 138.069,-49.4039 137.164,-38.6961"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="138.022,-38.4463 136.939,-36.0288 136.278,-38.5937 138.022,-38.4463"/>
+<path fill="none" stroke="#606ee0" d="M140.048,-72.8129C139.244,-63.3069 138.237,-51.3885 137.375,-41.1859"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="139.104,-40.8637 136.939,-36.0288 135.616,-41.1585 139.104,-40.8637"/>
 </g>
 <!-- Xml&#45;&gt;Utils -->
 <g id="edge7" class="edge"><title>Xml&#45;&gt;Utils</title>
-<path fill="none" stroke="#606ee0" d="M158.929,-72.8129C169.63,-62.2604 183.346,-48.735 194.35,-37.8841"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="195.066,-38.4073 196.231,-36.0288 193.837,-37.1612 195.066,-38.4073"/>
+<path fill="none" stroke="#606ee0" d="M158.929,-72.8129C169.011,-62.8709 181.769,-50.29 192.414,-39.7931"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="193.9,-40.7857 196.231,-36.0288 191.442,-38.2935 193.9,-40.7857"/>
 </g>
 </g>
 </svg>

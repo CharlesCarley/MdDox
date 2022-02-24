@@ -11,29 +11,29 @@
 <polygon fill="none" stroke="none" points="-4,4 -4,-40 410,-40 410,4 -4,4"/>
 <!-- Doxygen -->
 <g id="node1" class="node"><title>Doxygen</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="132,-36 0,-36 0,-0 132,-0 132,-36"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="132,-36 0,-36 0,-0 132,-0 132,-36"/>
 <text text-anchor="middle" x="66" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">Doxygen XML&#45;Backend</text>
 </g>
 <!-- MdDox -->
 <g id="node2" class="node"><title>MdDox</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="246,-36 168,-36 168,-0 246,-0 246,-36"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="246,-36 168,-36 168,-0 246,-0 246,-36"/>
 <text text-anchor="middle" x="207" y="-15.2" font-family="Segoe UI" font-size="11.00" fill="#222222">MdDox XML</text>
 </g>
 <!-- Doxygen&#45;&gt;MdDox -->
 <g id="edge1" class="edge"><title>Doxygen&#45;&gt;MdDox</title>
-<path fill="none" stroke="#606ee0" d="M132.023,-18C143.357,-18 154.85,-18 165.291,-18"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="165.421,-18.8751 167.921,-18 165.421,-17.1251 165.421,-18.8751"/>
+<path fill="none" stroke="#606ee0" d="M132.023,-18C142.493,-18 153.098,-18 162.884,-18"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="162.921,-19.7501 167.921,-18 162.921,-16.2501 162.921,-19.7501"/>
 </g>
 <!-- GitHub -->
 <g id="node3" class="node"><title>GitHub</title>
-<polygon fill="#e6e8fa" stroke="#cacde8" points="406,-36 282,-36 282,-0 406,-0 406,-36"/>
+<polygon fill="#d7e0f7" stroke="#606ee0" points="406,-36 282,-36 282,-0 406,-0 406,-36"/>
 <text text-anchor="middle" x="344" y="-21.2" font-family="Segoe UI" font-size="11.00" fill="#222222">Content in the user </text>
 <text text-anchor="middle" x="344" y="-9.2" font-family="Segoe UI" font-size="11.00" fill="#222222"> repository on GitHub</text>
 </g>
 <!-- MdDox&#45;&gt;GitHub -->
 <g id="edge2" class="edge"><title>MdDox&#45;&gt;GitHub</title>
-<path fill="none" stroke="#606ee0" d="M246.324,-18C256.615,-18 268.027,-18 279.297,-18"/>
-<polygon fill="#606ee0" stroke="#606ee0" points="279.351,-18.8751 281.851,-18 279.351,-17.1251 279.351,-18.8751"/>
+<path fill="none" stroke="#606ee0" d="M246.324,-18C255.837,-18 266.307,-18 276.738,-18"/>
+<polygon fill="#606ee0" stroke="#606ee0" points="276.851,-19.7501 281.851,-18 276.851,-16.2501 276.851,-19.7501"/>
 </g>
 </g>
 </svg>

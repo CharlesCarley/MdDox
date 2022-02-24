@@ -59,7 +59,7 @@ namespace MdDox
 
         const SiteBuilder& builder = SiteBuilder::get();
 
-        // (~RepoHome) MainPage / Index / NS0::NS1::lastBinaryResolution
+        // (~RepoHome) MainPage / Index / NS0::NS1::LBR
         writeCommonNav(out, writer);
 
         while (!navList.empty())
