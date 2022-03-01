@@ -246,9 +246,9 @@ namespace MdDox::Xml
         Node* cur = (Node*)this;
         while (cur)
         {
-            cur = cur->_parent;
-            if (cur && cur->isTypeOf(tag.c_str()))
+            if (cur->isTypeOf(tag.c_str()))
                 break;
+            cur = cur->_parent;
         }
         return cur;
     }
@@ -258,7 +258,7 @@ namespace MdDox::Xml
         Node* cur = (Node*)this;
         while (cur)
         {
-            if (cur && cur->isTypeOf(tag))
+            if (cur->isTypeOf(tag))
                 break;
             cur = cur->_parent;
         }
