@@ -22,14 +22,15 @@ include(MdDoxBuilder)
 
 # Setup for generating the site
 
-set(MdDoxBuilder_SourceLocation ${MdDox_SOURCE_DIR}/Source ${MdDox_SOURCE_DIR}/Tools)
-set(MdDoxBuilder_OutputDir      ${MdDox_SOURCE_DIR}/Current)
-set(MdDoxBuilder_SourceExclude  "")
-set(MdDoxBuilder_SymbolExclude  "std")
-set(MdDoxBuilder_ExamplePaths   ${MdDox_SOURCE_DIR}/Current/pages)
-set(MdDoxBuilder_ImagePaths     ${MdDox_SOURCE_DIR}/Current/images)
-set(MdDoxBuilder_Config         ${MdDox_SOURCE_DIR}/Current/MdDox.cfg)
-set(MdDoxBuilder_ExtraSource    ${MdDox_SOURCE_DIR}/Current/colors.cfg)
+set(MdDoxBuilder_SourceLocation  ${MdDox_SOURCE_DIR}/Source ${MdDox_SOURCE_DIR}/Tools)
+set(MdDoxBuilder_OutputDir       ${MdDox_SOURCE_DIR}/Current)
+set(MdDoxBuilder_SourceExclude   "")
+set(MdDoxBuilder_SymbolExclude   "std")
+set(MdDoxBuilder_ExamplePaths    ${MdDox_SOURCE_DIR}/Current/pages)
+set(MdDoxBuilder_ImagePaths      ${MdDox_SOURCE_DIR}/Current/images)
+set(MdDoxBuilder_Config          ${MdDox_SOURCE_DIR}/Current/MdDox.cfg)
+set(MdDoxBuilder_ExtraSource     ${MdDox_SOURCE_DIR}/Current/colors.cfg)
+set(MdDoxBuilder_InvokeDotScript ${MdDox_SOURCE_DIR}/CMake/Modules/invokeDot.py)
 
 set(MdDoxBuilder_AutoBuild TRUE)
 set(MdDoxBuilder_BackEnd   md)
