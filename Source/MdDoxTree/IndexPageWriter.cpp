@@ -214,7 +214,7 @@ namespace MdDox
         String name;
         _outDir = outDir;
 
-        _writer->beginSection(out, "Contents", 2);
+        // _writer->beginSection(out, "Contents", 2);
         _writer->beginList(out);
 
         // Pages
