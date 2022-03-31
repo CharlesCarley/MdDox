@@ -8,8 +8,6 @@
 <span class="bold-text"><b>Directory Index</b></span>
 <br/>
 <br/>
-<a id="contents"></a>
-<h2>Contents</h2>
 <ul>
 <li><a href="dir_7d925da7aa4fec7d143339dda86741c5.md#commandline">CommandLine</a>
 </li>

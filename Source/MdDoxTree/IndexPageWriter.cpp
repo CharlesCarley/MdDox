@@ -174,7 +174,7 @@ namespace MdDox
         _writer->beginDocument(out, heading);
         writeGenericTitleBar(out, _writer, heading);
 
-        _writer->beginSection(out, "Contents", 2);
+        //_writer->beginSection(out, "Contents", 2);
 
         _writer->beginList(out);
         for (const Reference& page : list)

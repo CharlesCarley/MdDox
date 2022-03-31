@@ -8,8 +8,6 @@
 <span class="bold-text"><b>Class Index</b></span>
 <br/>
 <br/>
-<a id="contents"></a>
-<h2>Contents</h2>
 <ul>
 <li><a href="classMdDox_1_1Application.md#application">MdDox::Application</a>
 </li>

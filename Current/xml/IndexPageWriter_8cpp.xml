@@ -614,7 +614,7 @@
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginDocument(out,<sp/>heading);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(out,<sp/>_writer,<sp/>heading);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginSection(out,<sp/></highlight><highlight class="stringliteral">&quot;Contents&quot;</highlight><highlight class="normal">,<sp/>2);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_writer-&gt;beginSection(out,<sp/>&quot;Contents&quot;,<sp/>2);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;beginList(out);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Reference&amp;<sp/>page<sp/>:<sp/>list)</highlight></codeline>

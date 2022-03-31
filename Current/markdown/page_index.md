@@ -8,8 +8,6 @@
 <span class="bold-text"><b>Page Index</b></span>
 <br/>
 <br/>
-<a id="contents"></a>
-<h2>Contents</h2>
 <ul>
 <li><a href="Html.md#html">Html</a>
 </li>
